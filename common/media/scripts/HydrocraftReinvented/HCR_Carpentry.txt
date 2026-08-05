@@ -1,0 +1,3126 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCInfiniteLogpile
+    {
+
+	Weight			= 9.0,
+	Type			= Normal,
+	DisplayName		= Log Pile,
+	icon			= HCLogstack1,
+	DisplayCategory	= CraftCarp,
+    }
+    item HCInfiniteLogpileOak
+    {
+
+	Weight			= 5.0,
+	Type			= Normal,
+	DisplayName		= Oak Log Pile,
+	icon			= HCLogstack1,
+	DisplayCategory	= CraftCarp,
+    }
+    item HCLogstack1
+    {
+
+        Weight          = 1000.0,
+        Type            = Normal,
+        DisplayName     = Log Pile,
+        icon            = HCLogstack1,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCLogstack2
+    {
+
+        Weight          = 1000.0,
+        Type            = Normal,
+        DisplayName     = Log Pile,
+        icon            = HCLogstack2,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCLogstack3
+    {
+
+        Weight          = 1000.0,
+        Type            = Normal,
+        DisplayName     = Log Pile,
+        icon            = HCLogstack3,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCLogstack4
+    {
+
+        Weight          = 1000.0,
+        Type            = Normal,
+        DisplayName     = Log Stack,
+        icon            = HCLogstack4,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCSawdust
+    {
+
+        Weight          = 0.01,
+        Type            = Normal,
+        DisplayName     = Sawdust,
+        icon            = HCSawdust,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWoodbeam
+    {
+
+        Weight          = 8,
+        Type            = Normal,
+        DisplayName     = Wood Beam,
+        icon            = HCWoodbeam,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWoodsheet
+    {
+
+        Weight          = 4,
+        Type            = Normal,
+        DisplayName     = Wood Sheet,
+        icon            = HCWoodsheet,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCCurvedshaftsmall
+    {
+
+        Weight          = 0.2,
+        Type            = Normal,
+        DisplayName     = Small Curved Shaft,
+        icon            = HCCurvedshaftsmall,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWoodblock
+    {
+
+        Weight          = 1.0,
+        Type            = Normal,
+        DisplayName     = Wood Block,
+        icon            = HCWoodblock,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWoodwheel
+    {
+
+        Weight          = 1.0,
+        Type            = Normal,
+        DisplayName     = Wooden Wheel,
+        icon            = HCWoodwheel,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCStampmillwheel
+    {
+
+        Weight          = 2.0,
+        Type            = Normal,
+        DisplayName     = Stamp Mill Wheel,
+        icon            = HCStampmillwheel,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWorkbench
+    {
+
+        WeightReduction = 0,
+        Weight          = 10,
+        Type            = Container,
+        Capacity        = 50,
+        DisplayName     = Workbench,
+        icon            = HCWorkbench,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCTablewood
+    {
+
+        Weight          = 5,
+        Type            = Normal,
+        DisplayName     = Wood Table,
+        icon            = HCTablewood,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCCarpenterbench
+    {
+
+        WeightReduction = 0,
+        Weight          = 10,
+        Type            = Container,
+        Capacity        = 50,
+        DisplayName     = Carpenter Bench,
+        icon            = HCCarpenterbench,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCSawbuck
+    {
+
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Sawbuck,
+        icon            = HCSawbuck,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCPlankbarrier
+    {
+
+        Weight          = 5,
+        Type            = Normal,
+        DisplayName     = Plank Barrier,
+        icon            = HCPlankbarrier,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCChurn
+    {
+
+        Weight          = 4,
+        Type            = Normal,
+        DisplayName     = Churn,
+        icon            = HCChurn,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWoodenbarrel
+    {
+
+        Weight          = 4,
+        Type            = Normal,
+        DisplayName     = Wooden Barrel,
+        icon            = HCWinebarrel,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCVat
+    {
+
+        Weight          = 4,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Wooden Vat,
+        ReplaceOnUseOn  = WaterSource-HCVatwater,
+        icon            = HCVat,
+		DisplayCategory	= CraftCarp,
+        RainFactor      = 1,
+    }
+    item HCVatwater
+    {
+
+        IsWaterSource       = TRUE,
+        Weight              = 16,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.003125,
+        DisplayName         = Wooden Vat with Water,
+        ReplaceOnDeplete    = HCVat,
+        ReplaceOnUseOn      = WaterSource-HCVatwater,
+        icon                = HCVatwater,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 1,
+    }
+    item HCWoodenbucket
+    {
+
+        Weight          = 1,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Wooden Bucket,
+        ReplaceOnUseOn  = WaterSource-HCWoodenbucketwater,
+        icon            = HCWoodenbucket,
+        RainFactor      = 1,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWoodenbucketwater
+    {
+
+        IsWaterSource       = TRUE,
+        Weight              = 4,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseDelta            = 0.2,
+        UseWhileEquipped    = true,
+        DisplayName         = Wooden Bucket with Water,
+        ReplaceOnDeplete    = HCWoodenbucket,
+        ReplaceOnUseOn      = WaterSource-HCWoodenbucketwater,
+        icon                = HCWoodenbucketwater,
+        RainFactor          = 1,
+		DisplayCategory	    = CraftCarp,
+    }
+    item HCWoodenring
+    {
+
+        Weight          = 0.5,
+        Type            = Normal,
+        DisplayName     = Wooden Ring,
+        icon            = HCWoodenring,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWashtub
+    {
+
+        Weight              = 1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Wooden Washtub,
+        ReplaceOnUseOn      = WaterSource-HCWashtubfull,
+        icon                = HCWashtub,
+		DisplayCategory	    = CraftChem,
+        RainFactor          = 1,
+    }
+    item HCWashtubfull
+    {
+
+        IsWaterSource       = TRUE,
+        Weight              = 4,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseWhileEquipped    = 2.0,
+        DisplayName         = Wooden Washtub with Water,
+        ReplaceOnDeplete    = HCWashtub,
+        ReplaceOnUseOn      = WaterSource-HCWashtubfull,
+        icon                = HCWashtubfull,
+		DisplayCategory	    = CraftChem,
+        RainFactor          = 1,
+    }
+    item HCTrough
+    {
+
+        Weight          = 2,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Wooden Trough,
+        ReplaceOnUseOn  = WaterSource-HCTroughfull,
+        icon            = HCTrough,
+		DisplayCategory	= CraftCarp,
+        RainFactor      = 1,
+    }
+    item HCTroughfull
+    {
+
+        IsWaterSource       = TRUE,
+        Weight              = 8,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseWhileEquipped    = FALSE,
+        UseDelta            = 0.125,
+        DisplayName         = Wooden Trough with Water,
+        ReplaceOnDeplete    = HCTrough,
+        ReplaceOnUseOn      = WaterSource-HCTroughfull,
+        icon                = HCTroughfull,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 1,
+    }
+    item HCTroughvegoil
+    {
+
+        Weight          = 8,
+        Type            = Normal,
+        DisplayName     = Wooden Trough with Vegetable Oil,
+        icon            = HCTroughvegoil,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCLumberstack
+    {
+
+        Weight          = 12.0,
+        Type            = Normal,
+        DisplayName     = Lumber Stack,
+        icon            = HCLumberstack,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCLumberbox
+    {
+
+        Weight          = 12.0,
+        Type            = Normal,
+        DisplayName     = Pallet of Lumber,
+        icon            = HCLumberbox,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWoodenpallet
+    {
+
+        Weight          = 1.0,
+        Type            = Normal,
+        DisplayName     = Wooden Pallet,
+        icon            = HCWoodenpallet,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCLogbox
+    {
+
+        Weight          = 12.0,
+        Type            = Normal,
+        DisplayName     = Pallet of Logs,
+        icon            = HCLogbox,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWoodwheel
+    {
+
+        Weight          = 1.0,
+        Type            = Normal,
+        DisplayName     = Wooden Wheel,
+        icon            = HCWoodwheel,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWoodenwheelbarrow
+    {
+
+        WeightReduction             = 100,
+        Weight                      = 20,
+        Type                        = Container,
+        Capacity                    = 200,
+        DisplayName                 = Wooden Wheelbarrow,
+        icon                        = HCWoodenwheelbarrow,
+		DisplayCategory	            = Container,
+        RequiresEquippedBothHands   = true,
+    }
+    item HCWoodshingles
+    {
+
+        Weight          = 1,
+        Type            = Normal,
+        DisplayName     = Wood Shingles,
+        icon            = HCWoodshingles,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCCoffin
+    {
+
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Empty Coffin,
+        icon            = HCCoffin,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCCoffinfull
+    {
+
+        Weight          = 20,
+        Type            = Normal,
+        DisplayName     = Full Coffin,
+        icon            = HCCoffin,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWoodenladder
+    {
+
+        Weight          = 20,
+        Type            = Normal,
+        DisplayName     = Wooden Ladder,
+        icon            = HCWoodenladder,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCSpinningwheel
+    {
+
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Spinning Wheel,
+        icon            = HCSpinningwheel,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCLoom
+    {
+
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Primitive Loom,
+        icon            = HCLoom,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCLoomfloor
+    {
+
+        Weight          = 20,
+        Type            = Normal,
+        DisplayName     = Floor Loom,
+        icon            = HCLoomfloor,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCTablelog
+    {
+
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Log Table,
+        icon            = HCTablelog,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCHuntingblind
+    {
+
+        WeightReduction = 10,
+        Weight          = 10,
+        Type            = Container,
+        Capacity        = 100,
+        DisplayName     = Hunting Blind,
+        icon            = HCHuntingblind,
+		DisplayCategory	= SurHunt,
+    }
+    item HCHuntingblind2
+    {
+
+        WeightReduction = 10,
+        Weight          = 10000,
+        Type            = Container,
+        Capacity        = 100,
+        DisplayName     = Hunting Blind,
+        icon            = HCHuntingblind,
+		DisplayCategory	= SurHunt,
+    }
+    item HCWindmill
+    {
+
+        Weight          = 15,
+        Type            = Normal,
+        DisplayName     = Wooden Windmill,
+        icon            = HCWindmill,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWindmillblade
+    {
+
+        Weight          = 1,
+        Type            = Normal,
+        DisplayName     = Windmill Blade,
+        icon            = HCWindmillblade,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWatertower
+    {
+
+        Weight          = 15,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Water Tower,
+        ReplaceOnUseOn  = WaterSource-HCWatertowerfull,
+        icon            = HCWatertower,
+		DisplayCategory	= CraftCarp,
+        RainFactor      = 0.01,
+    }
+    item HCWatertowerfull
+    {
+
+        IsWaterSource       = TRUE,
+        Weight              = 15,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.003125,
+        DisplayName         = Water Tower with Water,
+        ReplaceOnDeplete    = HCWatertower,
+        ReplaceOnUseOn      = WaterSource-HCWatertowerfull,
+        icon                = HCWatertower,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 0.01,
+    }
+    item HCWatertower2
+    {
+
+        Weight          = 15,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Double Water Tower,
+        ReplaceOnUseOn  = WaterSource-HCWatertowerfull2,
+        icon            = HCWatertower2,
+		DisplayCategory	= CraftCarp,
+        RainFactor      = 0.01,
+    }
+    item HCWatertowerfull2
+    {
+
+        IsWaterSource       = TRUE,
+        Weight              = 15,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.0015625,
+        DisplayName         = Double Water Tower with Water,
+        ReplaceOnDeplete    = HCWatertower2,
+        ReplaceOnUseOn      = WaterSource-HCWatertowerfull2,
+        icon                = HCWatertower2,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 0.01,
+    }
+    item HCWaterpump
+    {
+
+        Weight          = 20,
+        Type            = Normal,
+        DisplayName     = Water Pump,
+        icon            = HCWaterpump,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWaterpump2
+    {
+
+        Weight          = 10000,
+        Type            = Normal,
+        DisplayName     = Water Pump,
+        icon            = HCWaterpump,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCClothesline
+    {
+
+        Weight          = 6,
+        Type            = Normal,
+        DisplayName     = Clothes Line,
+        icon            = HCClothesline,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCClothesline2
+    {
+
+        Weight          = 6,
+        Type            = Normal,
+        DisplayName     = Double Clothes Line,
+        icon            = HCClothesline2,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCShower
+    {
+
+        Weight          = 10,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Empty Makeshift Shower,
+        icon            = HCShower,
+        ReplaceOnUseOn  = WaterSource-HCShowerfull,
+		DisplayCategory	= CraftCarp,
+        RainFactor      = 1,
+    }
+    item HCShowerfull
+    {
+
+        IsWaterSource       = TRUE,
+        Weight              = 14,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        DisplayName         = Makeshift Shower,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.25,
+        ReplaceOnDeplete    = HCShower,
+        icon                = HCShowerfull,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 1,
+    }
+    item HCShowersink
+    {
+
+        Weight          = 15,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Empty Makeshift Shower and Sink,
+        icon            = HCShowersink,
+        ReplaceOnUseOn  = WaterSource-HCShowersinkfull,
+		DisplayCategory	= CraftCarp,
+        RainFactor      = 1,
+    }
+    item HCShowersinkfull
+    {
+
+        IsWaterSource       = TRUE,
+        Weight              = 20,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        DisplayName         = Makeshift Shower and Sink,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.125,
+        ReplaceOnDeplete    = HCShowersink,
+        icon                = HCShowersinkfull,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 1,
+    }
+    item HCScarecrowstand
+    {
+
+        Weight          = 3,
+        Type            = Normal,
+        DisplayName     = Scarecrow Stand,
+        icon            = HCScarecrowstand,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCScarecrow
+    {
+
+        Weight          = 4,
+        Type            = Normal,
+        DisplayName     = Scarecrow,
+        icon            = HCScarecrow,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCScarecrow2
+    {
+
+        Weight          = 4,
+        Type            = Normal,
+        DisplayName     = Scarecrow,
+        icon            = HCScarecrow2,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCScarezed
+    {
+
+        Weight          = 20,
+        Type            = Normal,
+        DisplayName     = Corpse Scarecrow,
+        icon            = HCScarezed,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCScarezed2
+    {
+
+        Weight          = 20,
+        Type            = Normal,
+        DisplayName     = Corpse Scarecrow,
+        icon            = HCScarezed2,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCHaytarget
+    {
+
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Archery Target,
+        icon            = HCHaytarget,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCBirdcall
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Bird Call,
+        icon            = HCBirdcall,
+		DisplayCategory	= SurHunt,
+    }
+    item HCDuckcall
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Duck Call,
+        icon            = HCDuckcall,
+		DisplayCategory	= SurHunt,
+    }
+    item HCWagonwheel
+    {
+
+        Weight          = 2.0,
+        Type            = Normal,
+        DisplayName     = Wagon Wheel,
+        icon            = HCWagonwheel,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCYoke
+    {
+
+        Weight          = 4.0,
+        Type            = Normal,
+        DisplayName     = Yoke,
+        icon            = HCYoke,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCWagon
+    {
+
+        WeightReduction             = 100,
+        Weight                      = 20,
+        Type                        = Container,
+        Capacity                    = 200,
+	    RequiresEquippedBothHands 	= true,
+        DisplayName                 = Wagon,
+        icon                        = HCWagon,
+        DisplayCategory				= Container,
+    }
+    item HCWagoncovered
+    {
+
+        WeightReduction             = 100,
+        Weight                      = 20,
+        Type                        = Container,
+        Capacity                    = 300,
+        RequiresEquippedBothHands 	= true,
+        DisplayName                 = Covered Wagon,
+        icon                        = HCWagoncovered,
+        DisplayCategory				= Container,
+    }
+    item HCWagonoxen
+    {
+
+        WeightReduction             = 100,
+        Weight                      = 0,
+        Type                        = Container,
+        Capacity                    = 300,
+        RequiresEquippedBothHands 	= true,
+        DisplayName                 = Wagon with Oxen,
+        icon                        = HCWagonoxen,
+        DisplayCategory				= Container,
+    }
+    item HCWagoncoveredoxen
+    {
+
+        WeightReduction             = 100,
+        Weight                      = 0,
+        Type                        = Container,
+        Capacity                    = 300,
+        RequiresEquippedBothHands 	= true,
+        DisplayName                 = Covered Wagon with Oxen,
+        icon                        = HCWagoncoveredoxen,
+        DisplayCategory				= Container,
+    }
+    item HCIBC
+    {
+
+        Weight          = 2,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Empty IBC,
+        icon            = HCIBC,
+        ReplaceOnUseOn  = WaterSource-HCIBCfull,
+        RainFactor      = 0.2,
+        DisplayCategory	= WaterContainer,
+    }
+    item HCIBCfull
+    {
+
+        IsWaterSource       = TRUE,
+        Weight              = 6,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        DisplayName         = IBC,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.0125,
+        ReplaceOnDeplete    = HCIBC,
+        icon                = HCIBC,
+        RainFactor      	= 0.2,
+        DisplayCategory		= WaterContainer,
+    }
+    item HCIBCstorage
+    {
+
+        Weight          = 3,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Empty IBC Storage,
+        icon            = HCIBCtower,
+        ReplaceOnUseOn  = WaterSource-HCIBCstoragefull,
+        RainFactor      = 0.2,
+        DisplayCategory	= WaterContainer,
+    }
+    item HCIBCstoragefull
+    {
+
+        IsWaterSource       = TRUE,
+        Weight              = 7,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        DisplayName         = IBC Storage,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.0125,
+        ReplaceOnDeplete    = HCIBCstorage,
+        icon                = HCIBCtower,
+        RainFactor          = 0.2,
+        DisplayCategory		= WaterContainer,
+    }
+    item HCIBCtower
+    {
+
+        Weight          = 6,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Empty IBC Tower,
+        icon            = HCIBCtower2,
+        ReplaceOnUseOn  = WaterSource-HCIBCtowerfull,
+        DisplayCategory	= WaterContainer,
+        RainFactor      = 0.2,
+    }
+    item HCIBCtowerfull
+    {
+
+        IsWaterSource       = TRUE,
+        Weight              = 12,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        DisplayName         = IBC Tower,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.00625,
+        ReplaceOnDeplete    = HCIBCtower,
+        icon                = HCIBCtower2,
+        DisplayCategory		= WaterContainer,
+        RainFactor          = 0.2,
+    }
+    item HCVendingstand
+    {
+
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Vending Stand,
+        icon            = HCVendingstand,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCVendingstand2
+    {
+
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Vending Stand,
+        icon            = HCVendingstand2,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCFoldingsign
+    {
+
+        Weight          = 4,
+        Type            = Literature,
+        DisplayName     = Folding Sign,
+        Icon            = HCFoldingsign,
+        CanBeWrite      = true,
+        PageToWrite     = 1,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCFoldingsignchalkboard
+    {
+
+        Weight          = 4,
+        Type            = Literature,
+        DisplayName     = Folding Sign,
+        Icon            = HCFoldingsignchalkboard,
+        CanBeWrite      = true,
+        PageToWrite     = 1,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCThresher
+    {
+
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Thresher,
+        icon            = HCThresher,
+		DisplayCategory	= CookRef,
+    }
+    item HCThreshermech
+    {
+
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Mechanical Thresher,
+        icon            = HCThreshermech,
+		DisplayCategory	= CookRef,
+    }
+    item HCPlankoil
+    {
+
+        MaxRange                    = 2,
+        WeaponSprite                = Plank,
+        MinAngle                    = 0.2,
+        Type                        = Weapon,
+        MinimumSwingTime            = 4,
+        KnockBackOnNoDeath          = FALSE,
+        SwingAmountBeforeImpact     = 0.02,
+        Categories                  = Improvised;Blunt,
+        ConditionLowerChanceOneIn   = 4,
+        Weight                      = 3,
+        SplatNumber                 = 0,
+        PushBackMod                 = 0.3,
+        MaxDamage                   = 0.6,
+        SubCategory                 = Swinging,
+        ConditionMax                = 10,
+        MaxHitCount                 = 2,
+        DoorDamage                  = 5,
+        SwingAnim                   = Bat,
+        WeaponWeight                = 3,
+        DisplayName                 = Oiled Plank,
+        MinRange                    = 0.61,
+        SwingTime                   = 4,
+        MinDamage                   = 0.4,
+        KnockdownMod                = 2,
+        SplatBloodOnNoDeath         = FALSE,
+        Icon                        = HCPlankoil,
+        RunAnim                     = Run_Weapon2,
+        IdleAnim                    = Idle_Weapon2,
+        BreakSound                  = BreakWoodItem,
+        TreeDamage                  = 0,
+		DisplayCategory		        = WepMelee,
+    }
+    craftRecipe Make Log Pile
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        inputs
+        {
+            item 5 [Base.Log],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLogstack1,
+        }
+    }
+    craftRecipe Add Logs to Pile
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLogstack1],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLogstack2,
+        }
+    }
+    craftRecipe Add Logs to Pile
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        inputs
+        {
+            item 5 [Base.Log],
+            item 1 [Hydrocraft.HCLogstack1],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLogstack2,
+        }
+    }
+    craftRecipe Add Logs to Pile
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        inputs
+        {
+            item 5 [Base.Log],
+            item 1 [Hydrocraft.HCLogstack2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLogstack3,
+        }
+    }
+    craftRecipe Add Logs to Pile
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        inputs
+        {
+            item 5 [Base.Log],
+            item 1 [Hydrocraft.HCLogstack3],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLogstack4,
+        }
+    }
+    craftRecipe Remove Logs from Pile
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclog5,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLogstack4],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLogstack3,
+        }
+    }
+    craftRecipe Remove Logs from Pile
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclog5,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLogstack3],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLogstack2,
+        }
+    }
+    craftRecipe Remove Logs from Pile
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclog5,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLogstack2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLogstack1,
+        }
+    }
+    craftRecipe Remove Logs from Stack
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLogstack1],
+        }
+        outputs
+        {
+            item 5 Base.Log,
+        }
+    }
+    craftRecipe Saw Logs
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.Log],
+            item 1 [Hydrocraft.HCSawstone],
+        }
+        outputs
+        {
+            item 1 Base.Plank,
+        }
+    }
+    craftRecipe Make Small Curved Shaft
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.TreeBranch2],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCurvedshaftsmall,
+        }
+    }
+    craftRecipe Make Wood Block
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.Log],
+            item 1 [Hydrocraft.HCSawstone],
+        }
+        outputs
+        {
+            item 3 Hydrocraft.HCWoodblock,
+        }
+    }
+    craftRecipe Make Wood Block
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.Log],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 9 Hydrocraft.HCWoodblock,
+        }
+    }
+    craftRecipe Make Wooden Ring
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenring,
+        }
+    }
+    craftRecipe Make Workbench
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 10 [Base.Plank],
+            item 10 [Base.Nails],
+            item 2 [Base.WoodenStick2],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWorkbench,
+        }
+    }
+    craftRecipe Make Carpenter Bench
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.DisplayInfoCarpentersBench,
+        inputs
+        {
+            item 10 [Base.Plank],
+            item 10 [Base.Nails],
+            item 2 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Hydrocraft.HCMeasuringtape] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCarpenterbench,
+        }
+    }
+    craftRecipe Make Sawbuck
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 6 [Base.Log],
+            item 10 [Base.Plank],
+            item 10 [Base.Nails],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSawbuck,
+        }
+    }
+    craftRecipe Make Plank Barrier
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 8 [Base.Plank],
+            item 4 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlankbarrier,
+        }
+    }
+    craftRecipe Make Wood Beam
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:2,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdust,
+        inputs
+        {
+            item 1 [Base.Log;Hydrocraft.HCOakLog],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodbeam,
+        }
+    }
+    craftRecipe Make Wood Beam
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:2,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdust,
+        inputs
+        {
+            item 1 [Base.Log;Hydrocraft.HCOakLog],
+            item 1 [Hydrocraft.HCSawlumber] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCWoodbeam,
+        }
+    }
+    craftRecipe Make Wood Sheet
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:2,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdust,
+        inputs
+        {
+            item 1 [Base.Log;Hydrocraft.HCOakLog],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCWoodsheet,
+        }
+    }
+    craftRecipe Make Wood Sheet
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:2,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdust,
+        inputs
+        {
+            item 1 [Base.Log;Hydrocraft.HCOakLog],
+            item 1 [Hydrocraft.HCSawlumber] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCWoodsheet,
+        }
+    }
+    craftRecipe Make Wood Block
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdust,
+        inputs
+        {
+            item 1 [Base.Log;Hydrocraft.HCOakLog],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 12 Hydrocraft.HCWoodblock,
+        }
+    }
+    craftRecipe Make Wood Block
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdust,
+        inputs
+        {
+            item 1 [Base.Log;Hydrocraft.HCOakLog],
+            item 1 [Hydrocraft.HCSawlumber] mode:keep,
+        }
+        outputs
+        {
+            item 12 Hydrocraft.HCWoodblock,
+        }
+    }
+    craftRecipe Make Wood Block
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdust,
+        inputs
+        {
+            item 1 [Base.Log;Hydrocraft.HCOakLog],
+            item 1 [Hydrocraft.HCSawlumber] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 15 Hydrocraft.HCWoodblock,
+        }
+    }
+    craftRecipe Make Wood Planks
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdust,
+        inputs
+        {
+            item 1 [Base.Log;Hydrocraft.HCOakLog],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 4 Base.Plank,
+        }
+    }
+    craftRecipe Make Wood Planks
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdustRoap,
+        inputs
+        {
+            item 1 [Base.LogStacks2],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 8 Base.Plank,
+        }
+    }
+    craftRecipe Make Wood Planks
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdustRoap,
+        inputs
+        {
+            item 1 [Base.LogStacks3],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 12 Base.Plank,
+        }
+    }
+    craftRecipe Make Wood Planks
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdustRoap,
+        inputs
+        {
+            item 1 [Base.LogStacks4],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 16 Base.Plank,
+        }
+    }
+    craftRecipe Make Wood Planks
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdust,
+        inputs
+        {
+            item 1 [Base.Log;Hydrocraft.HCOakLog],
+            item 1 [Hydrocraft.HCSawlumber] mode:keep,
+        }
+        outputs
+        {
+            item 4 Base.Plank,
+        }
+    }
+    craftRecipe Make Wood Planks
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdust,
+        inputs
+        {
+            item 1 [Base.Log;Hydrocraft.HCOakLog],
+            item 1 [Hydrocraft.HCSawlumber] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 5 Base.Plank,
+        }
+    }
+    craftRecipe Make Wood Planks
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdustRoap,
+        inputs
+        {
+            item 1 [Base.LogStacks2],
+            item 1 [Hydrocraft.HCSawlumber] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 10 Base.Plank,
+        }
+    }
+    craftRecipe Make Wood Planks
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdustRoap,
+        inputs
+        {
+            item 1 [Base.LogStacks3],
+            item 1 [Hydrocraft.HCSawlumber] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 15 Base.Plank,
+        }
+    }
+    craftRecipe Make Wood Planks
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcsawdustRoap,
+        inputs
+        {
+            item 1 [Base.LogStacks4],
+            item 1 [Hydrocraft.HCSawlumber] mode:keep,
+            item 1 [Hydrocraft.HCSawbuck] mode:keep,
+        }
+        outputs
+        {
+            item 20 Base.Plank,
+        }
+    }
+    craftRecipe Make Churn
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:6,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCWoodenring],
+            item 4 [Base.Plank],
+            item 4 [Base.Nails],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChurn,
+        }
+    }
+    craftRecipe Make Wooden Barrel
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:6,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCMetalringiron],
+            item 4 [Base.Plank],
+            item 4 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbarrel,
+        }
+    }
+    craftRecipe Make Wooden Washtub
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:6,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 4 [Base.Plank],
+            item 4 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWashtub,
+        }
+    }
+    craftRecipe Make Wooden Trough
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:7,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 8 [Base.Plank],
+            item 8 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTrough,
+        }
+    }
+    craftRecipe Make Wooden Vat
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:7,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 8 [Base.Plank],
+            item 8 [Base.Nails],
+            item 4 [Hydrocraft.HCMetalringiron],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCVat,
+        }
+    }
+    craftRecipe Make Wooden Bucket
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:1,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 2 [Base.Plank],
+            item 2 [Base.Nails],
+            item 1 [Hydrocraft.HCWoodenring],
+            item 1 [Base.Rope],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucket,
+        }
+    }
+    craftRecipe Make Wooden Tool Box
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:1,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 2 [Base.Plank],
+            item 2 [Base.Nails],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodentoolbox,
+        }
+    }
+    craftRecipe Make Wooden Crate
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:1,
+        inputs
+        {
+            item 2 [Base.Plank],
+            item 2 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodencrate,
+        }
+    }
+    craftRecipe Make Wooden Pallet
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:1,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWoodblock],
+            item 4 [Base.Plank],
+            item 4 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenpallet,
+        }
+    }
+    craftRecipe Pack Lumber Stack
+    {
+        time = 40,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        inputs
+        {
+            item 12 [Base.Plank],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLumberstack,
+        }
+    }
+    craftRecipe Unpack Lumber Stack
+    {
+        time = 40,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcrope,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLumberstack],
+        }
+        outputs
+        {
+            item 12 Base.Plank,
+        }
+    }
+    craftRecipe Pack Pallet of Lumber
+    {
+        time = 20,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        inputs
+        {
+            item 3 [Hydrocraft.HCLumberstack],
+            item 1 [Hydrocraft.HCRopethick],
+            item 1 [Hydrocraft.HCWoodenpallet],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLumberbox,
+        }
+    }
+    craftRecipe Unpack Pallet of Logs
+    {
+        time = 20,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcpallet,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLogbox],
+        }
+        outputs
+        {
+            item 3 Base.LogStacks4,
+        }
+    }
+    craftRecipe Pack Pallet of Logs
+    {
+        time = 20,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        inputs
+        {
+            item 3 [Base.LogStacks4],
+            item 1 [Hydrocraft.HCRopethick],
+            item 1 [Hydrocraft.HCWoodenpallet],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLogbox,
+        }
+    }
+    craftRecipe Unpack Pallet of Lumber
+    {
+        time = 20,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcpallet,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLumberbox],
+        }
+        outputs
+        {
+            item 3 Hydrocraft.HCLumberstack,
+        }
+    }
+    craftRecipe Make Wooden Wheel
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:7,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenring],
+            item 6 [Hydrocraft.HCWoodgluejar;Base.Woodglue],
+            item 3 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodwheel,
+        }
+    }
+    craftRecipe Make Stamp Mill Wheel
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:8,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 4 [Base.Plank],
+            item 2 [Base.Nails],
+            item 2 [Hydrocraft.HCWoodwheel],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCStampmillwheel,
+        }
+    }
+    craftRecipe Make Wooden Wheelbarrow
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:7;Mechanics:2,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 4 [Base.Plank],
+            item 8 [Base.Nails],
+            item 1 [Hydrocraft.HCWoodwheel],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenwheelbarrow,
+        }
+    }
+    craftRecipe Make Wood Shingles
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:1,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.Plank],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 3 Hydrocraft.HCWoodshingles,
+        }
+    }
+    craftRecipe Make Coffin
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 3 [Base.Plank],
+            item 3 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCoffin,
+        }
+    }
+    craftRecipe Put Corpse in Coffin
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCoffin],
+            item 1 [Base.CorpseMale;Base.CorpseFemale],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCoffinfull,
+        }
+    }
+    craftRecipe Build Wooden Ladder
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:6,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCWoodbeam],
+            item 6 [Base.Plank],
+            item 6 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenladder,
+        }
+    }
+    craftRecipe Build Chicken Coop
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:7,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 6 [Base.Plank],
+            item 4 [Hydrocraft.HCWoodblock],
+            item 6 [Base.Nails],
+            item 20 [Hydrocraft.HCStraw],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCoop,
+        }
+    }
+    craftRecipe Make Spinning Wheel
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:6;Mechanics:2,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 5 [Base.Plank],
+            item 4 [Base.Nails],
+            item 1 [Hydrocraft.HCWoodwheel],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpinningwheel,
+        }
+    }
+    craftRecipe Make Thresher
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:6,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 4 [Base.TreeBranch2],
+            item 4 [Base.Twigs],
+            item 8 [Hydrocraft.HCRopethin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThresher,
+        }
+    }
+    craftRecipe Build Mechanical Thresher
+    {
+        time = 800,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:8;Mechanics:3,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCrank;Hydrocraft.HCCrankiron],
+            item 6 [Base.HandScythe],
+            item 2 [Hydrocraft.HCSteelrod],
+            item 8 [Hydrocraft.HCGearsteel],
+            item 4 [Hydrocraft.HCWoodbeam],
+            item 20 [Base.Plank],
+            item 18 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThreshermech,
+        }
+    }
+    craftRecipe Make Loom
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:6;Mechanics:1,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 6 [Base.Plank],
+            item 4 [Base.Nails],
+            item 2 [Base.Rope],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLoom,
+        }
+    }
+    craftRecipe Upgrade Loom
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:8;Mechanics:2,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLoom],
+            item 12 [Base.Plank],
+            item 10 [Base.Nails],
+            item 1 [Hydrocraft.HCWoodbeam],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLoomfloor,
+        }
+    }
+    craftRecipe Make Wood Table
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 5 [Base.Plank],
+            item 4 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTablewood,
+        }
+    }
+    craftRecipe Make Log Table
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:1,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 6 [Base.Log],
+            item 12 [Base.Twine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTablelog,
+        }
+    }
+    craftRecipe Build Rabbit Hutch
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:7,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLumberstack],
+            item 10 [Base.Nails],
+            item 2 [Base.Hinge],
+            item 1 [Hydrocraft.HCChickenwire],
+            item 10 [Hydrocraft.HCStraw],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRabbithutch,
+        }
+    }
+    craftRecipe Build Hunting Blind
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:10,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLogbox],
+            item 1 [Hydrocraft.HCLumberbox],
+            item 1 [Hydrocraft.HCWoodenladder],
+            item 100 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHuntingblind,
+        }
+    }
+    craftRecipe Anchor Hunting Blind
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHuntingblind],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHuntingblind2,
+        }
+    }
+    craftRecipe Build Windmill
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:10;Mechanics:3,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWindmillblade],
+            item 1 [Hydrocraft.HCLumberstack],
+            item 4 [Base.Log],
+            item 32 [Base.Nails],
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Hydrocraft.HCSteelpipe],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Hydrocraft.HCPipebender] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWindmill,
+        }
+    }
+    craftRecipe Make Windmill Blade
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:10,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 6 [Base.WoodenStick2],
+            item 3 [Base.Plank],
+            item 1 [Hydrocraft.HCWoodbeam],
+            item 4 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWindmillblade,
+        }
+    }
+    craftRecipe Build Water Tower
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:10;Mechanics:3,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 30 [Hydrocraft.HCWoodshingles],
+            item 1 [Hydrocraft.HCVat],
+            item 1 [Hydrocraft.HCLumberstack],
+            item 8 [Hydrocraft.HCWoodbeam],
+            item 24 [Base.Nails],
+            item 2 [Hydrocraft.HCSteelpipe],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Base.PipeWrench] mode:keep,
+            item 1 [Hydrocraft.HCPipebender] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWatertower,
+        }
+    }
+    craftRecipe Build Double Water Tower
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:10,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWatertower],
+            item 1 [Hydrocraft.HCVat],
+            item 4 [Base.Nails],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Base.PipeWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWatertower2,
+        }
+    }
+    craftRecipe Make Water Pump
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:3,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWatertower2] mode:destroy,
+            item 1 [Hydrocraft.HCWell] mode:destroy,
+            item 1 [Hydrocraft.HCTrough] mode:destroy,
+            item 1 [Hydrocraft.HCWindmill],
+            item 10 [Hydrocraft.HCSteelpipe],
+            item 1 [Base.PipeWrench] mode:keep,
+            item 1 [Hydrocraft.HCPipebender] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWaterpump,
+        }
+    }
+    craftRecipe Fill Bucket
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWaterpump;Hydrocraft.HCWaterpump2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketwater,
+        }
+    }
+    craftRecipe Fill IBC Tower
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIBCtower],
+            item 1 [Hydrocraft.HCWaterpump;Hydrocraft.HCWaterpump2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCIBCtowerfull,
+        }
+    }
+    craftRecipe Build Clothes Line
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 4 [Base.Plank],
+            item 8 [Base.Nails],
+            item 1 [Base.Twine],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCClothesline,
+        }
+    }
+    craftRecipe Build Double Clothes Line
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClothesline],
+            item 1 [Base.Twine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCClothesline2,
+        }
+    }
+    craftRecipe Build Makeshift Shower
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4;Mechanics:1,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 6 [Base.Plank],
+            item 1 [Hydrocraft.HCLumberstack],
+            item 20 [Base.Nails],
+            item 4 [Base.Sheet],
+            item 4 [Base.Rope],
+            item 1 [Hydrocraft.HCRopethick],
+            item 1 [Base.BucketEmpty],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCShower,
+        }
+    }
+    craftRecipe Add Sink
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4;Mechanics:1,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLumberstack],
+            item 12 [Base.Nails],
+            item 1 [Hydrocraft.HCShower],
+            item 1 [Base.BathTowel] mode:destroy,
+            item 1 [Base.Soap2;Hydrocraft.HCSoap],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCShowersink,
+        }
+    }
+    craftRecipe Add Sink
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4;Mechanics:1,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLumberstack],
+            item 12 [Base.Nails],
+            item 1 [Hydrocraft.HCShower],
+            item 1 [Base.BathTowel] mode:destroy,
+            item 20 [Base.Soap2],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCShowersink,
+        }
+    }
+    craftRecipe Build Scarecrow Stand
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 2 [Base.Plank],
+            item 4 [Base.Nails],
+            item 1 [Base.Rope],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCScarecrowstand,
+        }
+    }
+    craftRecipe Attatch Scarecrow
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 10 [Hydrocraft.HCStraw],
+            item 1 [Hydrocraft.HCStrawhat],
+            item 1 [Base.Shirt_Lumberjack],
+            item 1 [Base.Trousers_CamoUrban],
+            item 3 [Base.Rope],
+            item 1 [Hydrocraft.HCScarecrowstand],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCScarecrow,
+        }
+    }
+    craftRecipe Attatch Scarecrow
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 10 [Hydrocraft.HCStraw],
+            item 1 [Hydrocraft.HCStrawhat],
+            item 1 [Base.Shirt_Lumberjack],
+            item 1 [Base.Trousers_CamoUrban],
+            item 3 [Base.Rope],
+            item 1 [Hydrocraft.HCScarecrowstand],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCScarecrow2,
+        }
+    }
+    craftRecipe Attatch Corpse Scarecrow
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.CorpseMale;Base.CorpseFemale],
+            item 1 [Base.Shirt_Lumberjack],
+            item 1 [Base.Trousers_CamoUrban],
+            item 3 [Base.Rope],
+            item 1 [Hydrocraft.HCScarecrowstand],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCScarezed,
+        }
+    }
+    craftRecipe Attatch Corpse Scarecrow
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.CorpseMale;Base.CorpseFemale],
+            item 1 [Base.Shirt_Lumberjack],
+            item 1 [Base.Trousers_CamoUrban],
+            item 3 [Base.Rope],
+            item 1 [Hydrocraft.HCScarecrowstand],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCScarezed2,
+        }
+    }
+    craftRecipe Build Archery Target
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen;Base.Crayons],
+            item 1 [Hydrocraft.HCStrawbale],
+            item 4 [Base.Plank],
+            item 9 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHaytarget,
+        }
+    }
+    craftRecipe Carve Wooden Bird Call
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBirdcall,
+        }
+    }
+    craftRecipe Carve Wooden Duck Call
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDuckcall,
+        }
+    }
+    craftRecipe Carve Wooden Flute
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlutewood,
+        }
+    }
+    craftRecipe Carve Wooden Bowl
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Bowl,
+        }
+    }
+    craftRecipe Carve Wooden Spatula
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenspatula,
+        }
+    }
+    craftRecipe Carve Wooden Spoon
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenspoon,
+        }
+    }
+    craftRecipe Carve Wooden Fork
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenfork,
+        }
+    }
+    craftRecipe Make Wagon Wheel
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:10,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCWoodenring],
+            item 12 [Base.Woodglue],
+            item 6 [Base.WoodenStick2],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWagonwheel,
+        }
+    }
+    craftRecipe Make Wagon Wheel
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:10,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCWoodenring],
+            item 12 [Hydrocraft.HCWoodgluejar],
+            item 6 [Base.WoodenStick2],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWagonwheel,
+        }
+    }
+    craftRecipe Build Wagon
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:10;Mechanics:2,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelpole],
+            item 4 [Hydrocraft.HCLeafSpring],
+            item 36 [Hydrocraft.HCPlankoil],
+            item 100 [Base.Nails],
+            item 4 [Hydrocraft.HCWagonwheel],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWagon,
+        }
+    }
+    craftRecipe Add Bonnet to Wagon
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:10,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWagon],
+            item 4 [Base.Tarp],
+            item 10 [Base.WoodenStick2],
+            item 10 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWagoncovered,
+        }
+    }
+    craftRecipe Add Oxen to Wagon
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:10,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWagon],
+            item 2 [Hydrocraft.HCCowmale],
+            item 1 [Hydrocraft.HCYoke],
+            item 2 [Hydrocraft.HCRopethick],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWagonoxen,
+        }
+    }
+    craftRecipe Add Bonnet to Wagon with Oxen
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:10,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWagonoxen],
+            item 4 [Base.Tarp],
+            item 10 [Base.WoodenStick2],
+            item 10 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWagoncoveredoxen,
+        }
+    }
+    craftRecipe Add Oxen to Covered Wagon
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:10,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWagoncovered],
+            item 2 [Hydrocraft.HCCowmale],
+            item 1 [Hydrocraft.HCYoke],
+            item 2 [Hydrocraft.HCRopethick],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWagoncoveredoxen,
+        }
+    }
+    craftRecipe Fill Trough with Vegetable Oil
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCookingoil],
+            item 1 [Hydrocraft.HCTrough],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTroughvegoil,
+        }
+    }
+    craftRecipe Fill Trough with Vegetable Oil
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcwoodenbucket5,
+        inputs
+        {
+            item 5 [Hydrocraft.HCWoodenbucketvegoil],
+            item 1 [Hydrocraft.HCTrough],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTroughvegoil,
+        }
+    }
+    craftRecipe Soak Plank in Vegetable Oil
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        OnCreate = HCR42.recipe_hcwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketvegoil],
+            item 1 [Base.Plank],
+            item 1 [Hydrocraft.HCTroughvegoil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlankoil,
+        }
+    }
+    craftRecipe Assemble IBC Storage Supports
+    {
+        time = 800,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIBC],
+            item 12 [Base.Nails],
+            item 6 [Base.Plank],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCIBCstorage,
+        }
+    }
+    craftRecipe Upgrade IBC Storage
+    {
+        time = 900,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIBC],
+            item 12 [Base.Nails],
+            item 6 [Base.Plank],
+            item 1 [Hydrocraft.HCIBCstorage],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCIBCtower,
+        }
+    }
+    craftRecipe Make Vending Stand
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:5,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCWoodsheet],
+            item 1 [Hydrocraft.HCWoodbeam],
+            item 8 [Base.Plank],
+            item 8 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCVendingstand,
+        }
+    }
+    craftRecipe Upgrade Vending Stand
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:5,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCVendingstand],
+            item 4 [Base.Plank],
+            item 2 [Base.Nails],
+            item 1 [Base.Tarp],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCVendingstand2,
+        }
+    }
+    craftRecipe Make Folding Sign
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:1,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen;Base.Crayons],
+            item 1 [Base.Hinge],
+            item 2 [Hydrocraft.HCRopethin],
+            item 2 [Base.Plank],
+            item 2 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFoldingsign,
+        }
+    }
+    craftRecipe Make Chopsticks
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:6;Cooking:6;Mechanics:2,
+        xpAward = Woodwork:1,
+        inputs
+        {
+            item 1 [Base.Plank],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 8 Hydrocraft.HCChopsticks,
+        }
+    }
+    craftRecipe Make Chopsticks
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:2;Cooking:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.TreeBranch2],
+            item 1 [Base.CrudeSaw;Base.GardenSaw;Base.HacksawBlade;Base.Saw;Base.Saw_Flint;Base.SmallSaw;Base.SmallSawblade;Base.SharpedStone;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
+        }
+        outputs
+        {
+            item 3 Hydrocraft.HCChopsticks,
+        }
+    }
+    craftRecipe Make Chopsticks
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:1,
+        inputs
+        {
+            item 1 [Base.Twigs],
+            item 1 [Base.CrudeSaw;Base.GardenSaw;Base.HacksawBlade;Base.Saw;Base.Saw_Flint;Base.SmallSaw;Base.SmallSawblade;Base.SharpedStone;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChopsticks,
+        }
+    }
+    craftRecipe Remove Log
+    {
+        time = 1,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        OnCreate = HCR42.HCRemoveLogFromInfiniteLogpile,
+        inputs
+        {
+            item 1 [Hydrocraft.HCInfiniteLogpile] mode:keep,
+        }
+    }
+    craftRecipe Remove Log
+    {
+        time = 1,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        OnCreate = HCR42.HCRemoveLogFromInfiniteLogpileOak,
+        inputs
+        {
+            item 1 [Hydrocraft.HCInfiniteLogpileOak] mode:keep,
+        }
+    }
+}

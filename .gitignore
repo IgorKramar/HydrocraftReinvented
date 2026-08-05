@@ -1,0 +1,19 @@
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Backups and temp
+*.bak
+*.tmp
+*~
+*.orig
+
+# Editors
+.vscode/
+.idea/
+
+# PZ / Steam artifacts
+*.log
+console.txt
+workshop.txt.bak

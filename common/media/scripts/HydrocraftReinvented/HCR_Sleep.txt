@@ -1,0 +1,403 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCSleepingbag
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag in Bag,
+        icon 			= HCSleepingbag,
+		DisplayCategory	= SurCamp,
+    }
+    item HCSleepingbagsleepin
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag,
+        icon 			= HCSleepingbagsleepin,
+	
+	Tooltip 		= Tooltip_HCSleep,
+		DisplayCategory	= SurCamp,
+    }
+    item HCSleepingbag2
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag in Bag,
+        icon 			= HCSleepingbag2,
+		DisplayCategory	= SurCamp,
+    }
+    item HCSleepingbag2sleepin
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag,
+        icon 			= HCSleepingbag2sleepin,
+	
+	Tooltip 		= Tooltip_HCSleep,
+		DisplayCategory	= SurCamp,
+    }
+    item HCSleepingbag3
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag in Bag,
+        icon 			= HCSleepingbag3,
+		DisplayCategory	= SurCamp,
+    }
+    item HCSleepingbag3sleepin
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag,
+        icon 			= HCSleepingbag3sleepin,
+		DisplayCategory	= SurCamp,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+    item HCForestbedsleepin
+    {
+
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Forest Bed,
+        icon 			= HCForestbedsleepin,
+		DisplayCategory	= SurCamp,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+    item HCTentkit
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Dome Tent Kit,
+        icon 			= HCTentkit,
+		DisplayCategory	= SurCamp,
+    }
+    item HCTentsleepin
+    {
+
+	WeightReduction     	= 0,
+        Weight    		= 0.6,
+        Type                	= Container,
+        Capacity            	= 50,
+        DisplayName         	= Dome Tent,
+        icon 			= HCTent,
+		DisplayCategory	= SurCamp,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+    item HCTentkit2
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Dome Tent Kit,
+        icon 			= HCTentkit2,
+		DisplayCategory	= SurCamp,
+    }
+    item HCTent2sleepin
+    {
+
+	WeightReduction     	= 0,
+        Weight    		= 0.6,
+        Type                	= Container,
+        Capacity            	= 50,
+        DisplayName         	= Dome Tent,
+        icon 			= HCTent2,
+		DisplayCategory	= SurCamp,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+    item HCTentkit3
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Dome Tent Kit,
+        icon 			= HCTentkit3,
+		DisplayCategory	= SurCamp,
+    }
+    item HCTent3sleepin
+    {
+
+	WeightReduction     	= 0,
+        Weight    		= 0.6,
+        Type                	= Container,
+        Capacity            	= 50,
+        DisplayName         	= Dome Tent,
+        icon 			= HCTent3,
+		DisplayCategory	= SurCamp,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+    item HCTentkit4
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Dome Tent Kit,
+        icon 			= HCTentkit4,
+		DisplayCategory	= SurCamp,
+    }
+    item HCTent4sleepin
+    {
+
+	WeightReduction     	= 0,
+        Weight    		= 0.6,
+        Type                	= Container,
+        Capacity            	= 50,
+        DisplayName         	= Dome Tent,
+        icon 			= HCTent4,
+		DisplayCategory	= SurCamp,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+    craftRecipe Unpack Sleeping Bag
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSleepingbag],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSleepingbagsleepin,
+        }
+    }
+    craftRecipe Pack Sleeping Bag
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSleepingbagsleepin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSleepingbag,
+        }
+    }
+    craftRecipe Unpack Sleeping Bag
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSleepingbag2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSleepingbag2sleepin,
+        }
+    }
+    craftRecipe Pack Sleeping Bag
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSleepingbag2sleepin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSleepingbag2,
+        }
+    }
+    craftRecipe Unpack Sleeping Bag
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSleepingbag3],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSleepingbag3sleepin,
+        }
+    }
+    craftRecipe Pack Sleeping Bag
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSleepingbag3sleepin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSleepingbag3,
+        }
+    }
+    craftRecipe Build Forest Bed
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSleepingbag3sleepin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSleepingbag3,
+        }
+    }
+    craftRecipe Build Forest Bed
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:1,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 6 [Base.Log],
+            item 12 [Base.Twine],
+            item 6 [Base.TreeBranch2],
+            item 6 [Hydrocraft.HCGrass],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCForestbedsleepin,
+        }
+    }
+    craftRecipe Unpack Dome Tent
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTentkit],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTentsleepin,
+        }
+    }
+    craftRecipe Pack Dome Tent
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTentsleepin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTentkit,
+        }
+    }
+    craftRecipe Unpack Dome Tent
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTentkit2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTent2sleepin,
+        }
+    }
+    craftRecipe Pack Dome Tent
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTent2sleepin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTentkit2,
+        }
+    }
+    craftRecipe Unpack Dome Tent
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTentkit3],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTent3sleepin,
+        }
+    }
+    craftRecipe Pack Dome Tent
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTent3sleepin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTentkit3,
+        }
+    }
+    craftRecipe Unpack Dome Tent
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTentkit4],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTent4sleepin,
+        }
+    }
+    craftRecipe Pack Dome Tent
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTent4sleepin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTentkit4,
+        }
+    }
+}

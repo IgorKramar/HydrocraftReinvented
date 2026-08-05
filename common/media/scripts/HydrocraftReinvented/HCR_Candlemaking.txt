@@ -1,0 +1,309 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCCandleberrywax
+    {
+
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Candleberry Wax,
+        icon 			= 	HCCandleberrywax,
+		DisplayCategory          =   SurFarm,
+    }
+    item HCBeeswax
+    {
+
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Beeswax,
+        icon 			= 	HCBeeswax,
+		DisplayCategory          =   SurApi,
+    }
+    item HCCandletallow
+    {
+
+	Weight			=	0.2,
+	Type			=	Normal,
+	DisplayName		=	Tallow Candle,
+	Icon			=	HCCandletallow,
+	DisplayCategory =   CraftMisc,
+    }
+    item HCCandletallowlit
+    {
+
+	LightDistance		=	3,
+	Weight			=	0.2,
+	Type			=	Drainable,
+	TorchCone		=	FALSE,
+	UseDelta		=	0.003,
+	LightStrength		=	0.6,
+	DisplayName		=	Lit Tallow Candle,
+	ActivatedItem		=	TRUE,
+	Icon			=	HCCandletallowlit,
+	DisplayCategory =   CraftMisc,
+    }
+    item HCCandleholder
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Candle Holder,
+	Icon			=	HCCandleholder,
+	DisplayCategory =   CraftMisc,
+    }
+    item HCCandleholder2
+    {
+
+	Weight			=	0.7,
+	Type			=	Normal,
+	DisplayName		=	Candle in Holder,
+	Icon			=	HCCandleholder2,
+	DisplayCategory =   CraftMisc,
+    }
+    item HCCandleholder3
+    {
+
+	LightDistance		=	6,
+	Weight			=	0.2,
+	Type			=	Drainable,
+	TorchCone		=	FALSE,
+	UseDelta		=	0.003,
+	LightStrength		=	0.8,
+	DisplayName		=	Lit Candle in Holder,
+	ActivatedItem		=	TRUE,
+	Icon			=	HCCandleholder3,
+	ReplaceOnDeplete	=	Hydrocraft.HCCandleholder,
+	DisplayCategory =   CraftMisc,
+    }
+    item HCMininghat
+    {
+
+  Weight    		      = 0.5,
+  Type			          = Drainable,
+	UseDelta		        = 0.1,
+	ReplaceOnDeplete		= HCHardhat,
+  DisplayName         = Candle Mining Hat,
+  icon 			          = HCMininghat,
+  DisplayCategory =   ClothP,
+    }
+    item HCMininghatlamp
+    {
+
+  Weight    		= 0.5,
+  Type			= Normal,
+  DisplayName         	= Flashlight Mining Hat,
+  icon 			= HCMininghat2,
+  DisplayCategory =   ClothP,
+    }
+    item HCMininghatlamppowered
+    {
+
+    Weight    		    = 0.5,
+    Type			        = Drainable,
+	  UseDelta		      = 0.3,
+	  ReplaceOnDeplete	= HCMininghatlampdead,
+    DisplayName       = Flashlight Mining Hat with Power,
+    icon 			        = HCMininghat2,
+  DisplayCategory =   ClothP,
+    }
+    item HCMininghatlampdead
+    {
+
+        Weight    		= 0.5,
+        Type			= Normal,
+        DisplayName         	= Flashlight Mining Hat with Dead Battery,
+        icon 			= HCMininghat2,
+  DisplayCategory =   ClothP,
+    }
+    craftRecipe Make Mining Hat
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Firecraft,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.Candle;Hydrocraft.HCCandletallow],
+            item 1 [Hydrocraft.HCHardhat;Base.Hat_Fireman;Base.Hat_FootballHelmet;Base.Hat_HardHat;Base.Hat_HardHat_Miner;Base.Hat_HockeyHelmet;Base.Hat_RidingHelmet;Base.Hat_RiotHelmet],
+            item 1 [Hydrocraft.HCRopethin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMininghat,
+        }
+    }
+    craftRecipe Make Mining Hat
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Firecraft,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlashlightoff],
+            item 2 [Base.DuctTape],
+            item 1 [Hydrocraft.HCHardhat;Base.Hat_Fireman;Base.Hat_FootballHelmet;Base.Hat_HardHat;Base.Hat_HardHat_Miner;Base.Hat_HockeyHelmet;Base.Hat_RidingHelmet;Base.Hat_RiotHelmet],
+            item 1 [Hydrocraft.HCRopethin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMininghatlamp,
+        }
+    }
+    craftRecipe Put Candle in Candle Holder
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Firecraft,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Candle;Hydrocraft.HCCandletallow] mode:destroy,
+            item 1 [Hydrocraft.HCCandleholder],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCandleholder2,
+        }
+    }
+    craftRecipe Light Candle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Firecraft,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Candle],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Base.CandleLit,
+        }
+    }
+    craftRecipe Light Candle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Firecraft,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCandletallow],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCandletallowlit,
+        }
+    }
+    craftRecipe Light Candle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Firecraft,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCandleholder2],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCandleholder3,
+        }
+    }
+    craftRecipe Make Candleberry Wax
+    {
+        time = 40,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Base.Charcoal],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 tags[base:startfire],
+            item 5 [Hydrocraft.HCCandleberryseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCandleberrywax,
+        }
+    }
+    craftRecipe Make Wax Candle
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCandleberrywax;Hydrocraft.HCRefinedbeeswax;Hydrocraft.HCWaxrecycled],
+            item 1 [Hydrocraft.HCRopethin],
+        }
+        outputs
+        {
+            item 1 Base.Candle,
+        }
+    }
+    craftRecipe Make Tallow Candle
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTallow],
+            item 1 [Hydrocraft.HCRopethin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCandletallow,
+        }
+    }
+    craftRecipe Insert Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMininghatlamp],
+            item 1 [Hydrocraft.HCBatterysmall],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMininghatlamppowered,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatterysmalldead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMininghatlampdead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMininghatlamp,
+        }
+    }
+}

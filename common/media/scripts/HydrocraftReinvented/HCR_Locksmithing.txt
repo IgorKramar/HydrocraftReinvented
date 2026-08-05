@@ -1,0 +1,306 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCHingetitanium
+    {
+
+	Weight			= 0.3,
+	Type			= Normal,
+	DisplayName		= Titanium Hinge,
+	Icon			= HCHingetitanium,
+		DisplayCategory          =   Misc,
+    }
+    item SafeKey
+    {
+
+	Weight    		= 0.1,
+	Type    		= Normal,
+	DisplayName		= Safe Key,
+	Icon			= Key2,
+		DisplayCategory          =   Misc,
+    }
+    item MetalSafe
+    {
+
+        Weight    		= 30.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= Metal Safe,
+        icon 			= SafeOpen,
+		DisplayCategory          =   Container,
+    }
+    item MetalSafeClosed
+    {
+
+        Weight    		= 1000.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= Locked Metal Safe,
+        icon 			= SafeClosed,
+		DisplayCategory          =   Container,
+    }
+    item MetalSafeClosedInner
+    {
+
+        Weight    		= 1000.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= KEY LOCKED,
+        icon 			= SafeClosed,
+		DisplayCategory          =   Container,
+    }
+    item MetalSafeCombo
+    {
+
+        Weight    		= 30.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= Metal Combination Safe,
+        icon 			= SafeOpen,
+		DisplayCategory          =   Container,
+    }
+    item MetalSafeComboClosed
+    {
+
+        Weight    		= 1000.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= Locked Metal Combination Safe,
+        icon 			= SafeClosed,
+		DisplayCategory          =   Container,
+    }
+    item MetalSafeComboClosedInner
+    {
+
+        Weight    		= 1000.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= COMBINATION LOCKED,
+        icon 			= SafeClosed,
+		DisplayCategory          =   Container,
+    }
+    craftRecipe Make Titanium Hinge
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Locksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTitaniumingot],
+            item 1 [Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHingetitanium,
+        }
+    }
+    craftRecipe Make Iron Hinge
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Locksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Hinge,
+        }
+    }
+    craftRecipe Make Bronze Doorknob
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Locksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBronzeingot],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Doorknob,
+        }
+    }
+    craftRecipe Make Steel Padlock
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Locksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Padlock,
+        }
+    }
+    craftRecipe Lock Safe
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Locksmithing,
+        timedAction = Making,
+        OnCreate = HCR42.LockSafe,
+        inputs
+        {
+            item 1 [Hydrocraft.MetalSafe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.Nothing,
+        }
+    }
+    craftRecipe Un-Lock Safe
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Locksmithing,
+        timedAction = Making,
+        OnCreate = HCR42.UnLockSafe,
+        inputs
+        {
+            item 1 [Hydrocraft.MetalSafeClosed] mode:keep,
+            item 1 [Hydrocraft.SafeKey] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.Nothing,
+        }
+    }
+    craftRecipe Lock Combination Safe
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Locksmithing,
+        timedAction = Making,
+        OnCreate = HCR42.ComboLockSafe,
+        inputs
+        {
+            item 1 [Hydrocraft.MetalSafeCombo] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.Nothing,
+        }
+    }
+    craftRecipe Un-Lock Combination Safe
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Locksmithing,
+        timedAction = Making,
+        OnCreate = HCR42.ComboOpenSafe,
+        inputs
+        {
+            item 1 [Hydrocraft.MetalSafeComboClosed] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.Nothing,
+        }
+    }
+    craftRecipe Make Metal Safe
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Locksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:3,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Base.Padlock],
+            item 2 [Hydrocraft.HCHingetitanium],
+            item 6 [Hydrocraft.HCTitaniumsheet],
+            item 12 [Hydrocraft.HCTitaniumrod],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.MetalSafe,
+        }
+    }
+    craftRecipe Make Metal Combination Safe
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Locksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:3,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Base.CombinationPadlock],
+            item 2 [Hydrocraft.HCHingetitanium],
+            item 6 [Hydrocraft.HCTitaniumsheet],
+            item 12 [Hydrocraft.HCTitaniumrod],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.MetalSafeCombo,
+        }
+    }
+    craftRecipe Attempt to Crack Safe Open
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Locksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:3,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.CrackOpenSafe,
+        inputs
+        {
+            item 1 [Hydrocraft.MetalSafeComboClosed;Hydrocraft.MetalSafeClosed] mode:keep,
+            item 1 [Hydrocraft.HCStethoscope] mode:keep,
+            item 1 [Base.Crowbar] mode:keep,
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.Nothing,
+        }
+    }
+}

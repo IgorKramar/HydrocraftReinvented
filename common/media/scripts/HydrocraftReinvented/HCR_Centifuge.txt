@@ -1,0 +1,113 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCCentifuge
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName     	= Centrifiuge,
+        icon 			= HCCentifuge,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCCentifugepowered
+    {
+
+	Weight			=	4,
+	Type			=	Drainable,
+	UseDelta		=	0.125,
+	DisplayName		=	Centifuge with Power,
+	ReplaceOnDeplete	=	HCCentifugedead,
+	Icon			=	HCCentifugepowered,
+	DisplayCategory          =   CraftChem,
+    }
+    item HCCentifugedead
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Dead Centifuge,
+        icon 			= HCCentifugedead,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCElectrolyzer
+    {
+
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName     	= Electrolyzer,
+        icon 			= HCElectrolyzer,
+		DisplayCategory          =   CraftChem,
+    }
+    craftRecipe Insert Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCentifuge],
+            item 1 [Hydrocraft.HCBatterymedium],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCentifugepowered,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatterymediumdead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCentifugedead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCentifuge,
+        }
+    }
+    craftRecipe Use Centrifiuge
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hccentifugemarble,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCentifugepowered],
+            item 8 [Hydrocraft.HCMarblepowder],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMagnesiumpowder,
+        }
+    }
+    craftRecipe Use Electrolyzer
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcelectrolyzerobsidian,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectrolyzer] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 12 [Hydrocraft.HCObsidianpowder],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCIronpowder,
+        }
+    }
+}

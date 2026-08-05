@@ -1,0 +1,785 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCGemcutter
+    {
+
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Gem Cutter Wheel,
+        icon 			= HCGemcutter,
+		DisplayCategory	= CraftGem,
+    }
+    item HCJade
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Jade,
+        icon 			= HCJade,
+		DisplayCategory 	= Mineral,
+    }
+    item HCJadecut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Jade,
+        icon 			= HCJadecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCQuartz
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Quartz Crystal,
+        icon 			= HCQuartz,
+	DisplayCategory 	= Mineral,
+    }
+    item HCQuartzcut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Quartz Crystal,
+        icon 			= HCQuartzcut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCQuartzblue
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Blue Quartz Crystal,
+        icon 			= HCQuartzblue,
+	DisplayCategory 	= Mineral,
+    }
+    item HCQuartzbluecut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Blue Quartz Crystal,
+        icon 			= HCQuartzbluecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCQuartzrose
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Rose Quartz Crystal,
+        icon 			= HCQuartzrose,
+	DisplayCategory 	= Mineral,
+    }
+    item HCQuartzrosecut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Rose Quartz Crystal,
+        icon 			= HCQuartzrosecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCQuartzsmokey
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Smokey Quartz Crystal,
+        icon 			= HCQuartzsmokey,
+	DisplayCategory 	= Mineral,
+    }
+    item HCQuartzsmokeycut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Smokey Quartz Crystal,
+        icon 			= HCQuartzsmokeycut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCQuartzcitrine
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Citrine Quartz Crystal,
+        icon 			= HCQuartzcitrine,
+	DisplayCategory 	= Mineral,
+    }
+    item HCQuartzcitrinecut
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Cut Citrine Quartz Crystal,
+        icon 			= HCQuartzcitrinecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCAmethyst
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Amethyst,
+        icon 			= HCAmethyst,
+	DisplayCategory 	= Mineral,
+    }
+    item HCAmethystcut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Amethyst,
+        icon 			= HCAmethystcut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCAzurite
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Azurite,
+        icon 			= HCAzurite,
+	DisplayCategory 	= Mineral,
+		DisplayCategory	= CraftGem,
+    }
+    item HCAzuritecut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Azurite,
+        icon 			= HCAzuritecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCDiamond
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Diamond,
+        icon 			= HCDiamond,
+	DisplayCategory 	= Mineral,
+    }
+    item HCDiamondcut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Diamond,
+        icon 			= HCDiamondcut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCEmerald
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Emerald,
+        icon 			= HCEmerald,
+	DisplayCategory 	= Mineral,
+    }
+    item HCEmeraldcut
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Cut Emerald,
+        icon 			= HCEmeraldcut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCFireagate
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Fire Agate,
+        icon 			= HCFireagate,
+	DisplayCategory 	= Mineral,
+    }
+    item HCFireagatecut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Fire Agate,
+        icon 			= HCFireagatecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCGarnet
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Garnet,
+        icon 			= HCGarnet,
+	DisplayCategory 	= Mineral,
+    }
+    item HCGarnetcut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Garnet,
+        icon 			= HCGarnetcut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCLapislazuli
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Lapis Lazuli,
+        icon 			= HCLapislazuli,
+	DisplayCategory 	= Mineral,
+    }
+    item HCMalachite
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Malachite,
+        icon 			= HCMalachite,
+		DisplayCategory	= CraftGem,
+    }
+    item HCLapislazulicut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Lapis Lazuli,
+        icon 			= HCLapislazulicut,
+	DisplayCategory 	= Mineral,
+    }
+    item HCMalachitecut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Malachite,
+        icon 			= HCMalachitecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCOlivine
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Olivine,
+        icon 			= HCOlivine,
+	DisplayCategory 	= Mineral,
+    }
+    item HCOlivinecut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Olivine,
+        icon 			= HCOlivinecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCRhodonite
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Rhodonite,
+        icon 			= HCRhodonite,
+	DisplayCategory 	= Mineral,
+    }
+    item HCRhodonitecut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Rhodonite,
+        icon 			= HCRhodonitecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCRuby
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Ruby,
+        icon 			= HCRuby,
+	DisplayCategory 	= Mineral,
+    }
+    item HCRubycut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Ruby,
+        icon 			= HCRubycut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCSapphire
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Sapphire,
+        icon 			= HCSapphire,
+	DisplayCategory 	= Mineral,
+    }
+    item HCSapphirecut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Sapphire,
+        icon 			= HCSapphirecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCTopaz
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Topaz,
+        icon 			= HCTopaz,
+	DisplayCategory 	= Mineral,
+    }
+    item HCTopazcut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Topaz,
+        icon 			= HCTopazcut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCTurquoise
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Turquoise,
+        icon 			= HCTurquoise,
+	DisplayCategory 	= Mineral,
+    }
+    item HCTurquoisecut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Turquoise,
+        icon 			= HCTurquoisecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCAmazonite
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Amazonite,
+        icon 			= HCAmazonite,
+	DisplayCategory 	= Mineral,
+    }
+    item HCAmazonitecut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Amazonite,
+        icon 			= HCAmazonitecut,
+		DisplayCategory	= CraftGem,
+    }
+    item HCLepidolite
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Lepidolite,
+        icon 			= HCLepidolite,
+	DisplayCategory 	= Mineral,
+    }
+    craftRecipe Make Gem Cutter Wheel
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Jewelry,
+        timedAction = Making,
+        SkillRequired = Woodwork:8;Mechanics:2,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMagnifyglass],
+            item 1 [Hydrocraft.HCSilkcloth],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Rope],
+            item 1 [Hydrocraft.HCGearsteel],
+            item 5 [Base.Plank],
+            item 8 [Base.Nails],
+            item 1 [Hydrocraft.HCWoodbeam],
+            item 1 [Hydrocraft.HCStonewheel],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGemcutter,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJade],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJadecut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCQuartz],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCQuartzcut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCQuartzblue],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCQuartzbluecut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCQuartzrose],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCQuartzrosecut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCQuartzsmokey],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCQuartzsmokeycut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCQuartzcitrine],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCQuartzcitrinecut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmethyst],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmethystcut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAzurite],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAzuritecut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDiamond],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDiamondcut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEmerald],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCEmeraldcut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFireagate],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFireagatecut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGarnet],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGarnetcut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLapislazuli],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLapislazulicut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMalachite],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMalachitecut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCOlivine],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCOlivinecut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRhodonite],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRhodonitecut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRuby],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubycut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSapphire],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSapphirecut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTopaz],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTopazcut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTurquoise],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTurquoisecut,
+        }
+    }
+    craftRecipe Cut Gem
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Jewelry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmazonite],
+            item 1 [Hydrocraft.HCGemcutter] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmazonitecut,
+        }
+    }
+}

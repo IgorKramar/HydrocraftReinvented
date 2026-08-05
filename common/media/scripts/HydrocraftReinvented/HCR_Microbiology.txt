@@ -1,0 +1,509 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCMicroscope
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName     	= Microscope,
+        icon 			= HCMicroscope,
+		DisplayCategory		= CraftChem,
+    }
+    item HCAgarempty
+    {
+
+        Weight    		        = 0.1,
+        Type    		        = Normal,
+	DisplayName			= Empty Agar Jar,
+	Icon				= HCAgarempty,
+		DisplayCategory		= CraftChem,
+    }
+    item HCAgar
+    {
+
+	Weight 				= 0.5,
+	Type 				= Drainable,
+	UseDelta 			= 0.2,
+	DisplayName 			= Agar,
+	ReplaceOnDeplete		= HCAgarempty,
+	Icon				= HCAgar,
+		DisplayCategory		= CraftChem,
+    }
+    item HCBeakeragar
+    {
+
+	Weight				= 1,
+	Type			        = Normal,
+	DisplayName 			= Beaker With Agar,
+	Icon				= HCBeakeragar,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetriagar
+    {
+
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName			= Petri Dish With Agar,
+	Icon				= HCPetriagar,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetridish
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     	= Petri Dish,
+        icon 			= HCPetridish,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetribiowaste
+    {
+
+	Weight	                        = 0.01,
+        Type    			= Normal,
+	DisplayName	                = Petri Dish with Biowaste,
+	ReplaceOnDeplete                = HCPetridish,
+	Icon				= HCPetribiowaste,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetripenicillium
+    {
+
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+        DisplayName     	        = Petri Dish with Penicilinum,
+        Icon   		 	        = HCPetripenicillium,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetripenecilinumzoom
+    {
+
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName	                = Penecilinum Notate,
+	Icon	                        = HCPetripenecilinumzoom,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetriaspergillus
+    {
+
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+        DisplayName     	        = Petri Dish with Aspergillus Niger,
+        Icon   		 	        = HCPetriaspergillus,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetriaspergilluszoom
+    {
+
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName	                = Aspergillus Niger,
+        Icon	                        = HCPetriaspergilluszoom,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetriyeast
+    {
+
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+        DisplayName     	        = Petri Dish with Live Yeast,
+        Icon   		 	        = HCPetriyeast,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetriyeastzoom
+    {
+
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName	                = Live Yeast,
+        Icon	                        = HCPetriyeastzoom,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetrididymium
+    {
+
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+        DisplayName     	        = Petri Dish with Slime Mold,
+        Icon   		 	        = HCPetrididymium,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetrididymiumzoom
+    {
+
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName	                = Slime Mold,
+        Icon	                        = HCPetrididymiumzoom,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetrinothing
+    {
+
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+        DisplayName     	        = Petri Dish with Nothing,
+        Icon   		 	        = HCPetridish,
+		DisplayCategory		= CraftChem,
+    }
+    item HCPetrinothingzoom
+    {
+
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName	                = Nothing,
+        Icon	                        = HCPetrinothingzoom,
+		DisplayCategory		= CraftChem,
+    }
+    craftRecipe Label Agar Jar
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCLabelAgar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAgarempty,
+        }
+    }
+    craftRecipe Make Homemade Agar
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Base.Sugar],
+            item 1 [Hydrocraft.HCAgarempty],
+            item 2 [Hydrocraft.HCAlgaePowder],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+            item 1 [Hydrocraft.HCCheesecloth] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAgar,
+        }
+    }
+    craftRecipe Prepare Agar
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerwaterhot],
+            item 1 [Hydrocraft.HCAgar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakeragar,
+        }
+    }
+    craftRecipe Prepare Petri Dish
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPetridish],
+            item 1 [Hydrocraft.HCBeakeragar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPetriagar,
+        }
+    }
+    craftRecipe Examine Biowaste
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.recipe_hcmicroscopefunghi,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLatexgloves] mode:keep,
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+            item 1 [Hydrocraft.HCPetribiowaste],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLatexgloves,
+        }
+    }
+    craftRecipe Clean Petri Dish
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPetribiowaste],
+            item 1 [Base.Bleach],
+            item 1 [Base.Sponge;Hydrocraft.HCSponge] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPetridish,
+        }
+    }
+    craftRecipe Look Through Microscope
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+            item 1 [Hydrocraft.HCPetripenicillium],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPetripenecilinumzoom,
+        }
+    }
+    craftRecipe Look Through Microscope
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+            item 1 [Hydrocraft.HCPetriaspergillus],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPetriaspergilluszoom,
+        }
+    }
+    craftRecipe Look Through Microscope
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+            item 1 [Hydrocraft.HCPetriyeast],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPetriyeastzoom,
+        }
+    }
+    craftRecipe Look Through Microscope
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+            item 1 [Hydrocraft.HCPetrididymium],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPetrididymiumzoom,
+        }
+    }
+    craftRecipe Look Through Microscope
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+            item 1 [Hydrocraft.HCPetrinothing],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPetrinothingzoom,
+        }
+    }
+    craftRecipe Cultivate Penicillium
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:5,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.recipe_hcgetpetridish,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPetripenecilinumzoom],
+            item 1 [Hydrocraft.HCPetriagar],
+            item 1 [Hydrocraft.HCEyedropper] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPetripenicillium,
+        }
+    }
+    craftRecipe Cultivate Penicillium
+    {
+        time = 600,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:5,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCPetridish],
+            item 1 [Base.BreadSlices;Hydrocraft.HCSlicedorange;Hydrocraft.HCSlicedlemon;Hydrocraft.HCSlicedlime],
+        }
+        outputs
+        {
+            item 3 Hydrocraft.HCPetripenicillium,
+        }
+    }
+    craftRecipe Cultivate Aspergillus
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:2,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.recipe_hcgetpetridish,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPetriaspergilluszoom],
+            item 1 [Hydrocraft.HCPetriagar],
+            item 1 [Hydrocraft.HCEyedropper] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPetriaspergillus,
+        }
+    }
+    craftRecipe Cultivate Yeast
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:1,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.recipe_hcgetpetridish,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPetriyeastzoom],
+            item 1 [Hydrocraft.HCPetriagar],
+            item 1 [Hydrocraft.HCEyedropper] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPetriyeast,
+        }
+    }
+    craftRecipe Cultivate Slime Mold
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:1,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.recipe_hcgetpetridish,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPetrididymiumzoom],
+            item 1 [Hydrocraft.HCPetriagar],
+            item 1 [Hydrocraft.HCEyedropper] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPetrididymium,
+        }
+    }
+    craftRecipe Extract Yeast
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:3,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.recipe_hcgetpetridish,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPetriyeast],
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Yeast,
+        }
+    }
+    craftRecipe Make Penicillin
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:5,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.recipe_hcgetpetridish,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPetripenicillium],
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+        }
+        outputs
+        {
+            item 2 Base.Antibiotics,
+        }
+    }
+}

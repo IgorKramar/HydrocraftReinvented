@@ -1,0 +1,341 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCRubber
+    {
+
+        Weight    		=    	0.1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Rubber,
+        Icon    		=    	HCRubber,
+		DisplayCategory	= CraftInd,
+    }
+    item HCRubbervulcanized
+    {
+
+        Weight    		=    	0.1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Vulcanized Rubber,
+        Icon    		=    	HCRubbervulcanized,
+		DisplayCategory	= CraftInd,
+    }
+    item HCRubbersheet
+    {
+
+        Weight    		=    	0.4,
+        Type    		=    	Normal,
+        DisplayName    		=    	Rubber Sheet,
+        Icon    		=    	HCRubbersheet,
+		DisplayCategory	= CraftInd,
+    }
+    item HCSapcatcher
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Sap Catcher,
+
+	Icon			= 	HCSapcatcher,
+
+	Weight			= 	1.5,
+		DisplayCategory	= CraftInd,
+    }
+    item HCPottedrubbertree2
+    {
+
+        Weight      		= 5,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 1.0,
+        DisplayName 		= Potted Rubber Tree with Sap Catchers,
+	ReplaceOnDeplete	= HCPlanter,
+        icon        		= HCPottedrubbertree2,
+		DisplayCategory	= SurFarm,
+    }
+    item HCWoodenbucketrubber
+    {
+
+        Weight    		= 4,
+        Type			= Drainable,
+	UseDelta		= 0.25,
+	ReplaceOnDeplete	= HCWoodenbucket,
+        DisplayName         	= Wooden Bucket with Rubber,
+        icon 			= HCWoodenbucketrubber,
+		DisplayCategory	= CraftInd,
+    }
+    craftRecipe Make Vulcanized Rubber
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubber],
+            item 1 [Hydrocraft.HCSulphurpowder],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubbervulcanized,
+        }
+    }
+    craftRecipe Make Rubber
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWoodenbucketrubber],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubber,
+        }
+    }
+    craftRecipe Make Sap Catcher
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBamboogutter],
+            item 1 [Base.Bowl],
+            item 1 [Hydrocraft.HCRopethin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSapcatcher,
+        }
+    }
+    craftRecipe Add Sap Catchers to Rubber Tree
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 3 [Hydrocraft.HCSapcatcher],
+            item 1 [Hydrocraft.HCPottedrubbertree] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPottedrubbertree2,
+        }
+    }
+    craftRecipe Harvest Crop
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Farming:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPottedrubbertree2] mode:keep,
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Base.Fertilizer],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketrubber,
+        }
+    }
+    craftRecipe Make Rubber Sheet
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCRubbervulcanized],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubbersheet,
+        }
+    }
+    craftRecipe Make Rubber Hose
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubbersheet],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubberhose,
+        }
+    }
+    craftRecipe Make Rubber Hose
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubbersheet],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWeldinghose,
+        }
+    }
+    craftRecipe Make Rubber Hose
+    {
+        time = 9000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 10 [Hydrocraft.HCRubbersheet],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGardenhose,
+        }
+    }
+    craftRecipe Make Rubber Bungs
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubber],
+            item 1 [Hydrocraft.HCBungmold],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter;Hydrocraft.HCSmelter2] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCRubberbung,
+        }
+    }
+    craftRecipe Make Rubber Cement
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubber],
+            item 4 [Base.Disinfectant],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubbercement,
+        }
+    }
+    craftRecipe Make Rubber Cement
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubber],
+            item 1 [Hydrocraft.HCMethanol],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubbercement,
+        }
+    }
+    craftRecipe Empty Wooden Bucket with Rubber
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketrubber] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucket,
+        }
+    }
+}

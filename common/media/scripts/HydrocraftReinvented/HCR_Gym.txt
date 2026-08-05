@@ -1,0 +1,280 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCBoxinggloves
+    {
+
+        Weight          = 0.4,
+        Type            = Normal,
+        DisplayName         = Boxing Gloves,
+    UseWhileEquipped    = true,
+        icon            = HCBoxinggloves,
+	DisplayCategory          =   Fitness,
+    }
+    item HCPunchingstand
+    {
+
+        Weight          = 8.0,
+        Type            = Normal,
+        DisplayName             = Punching Bag Stand,
+        icon            = HCPunchingstand,
+	DisplayCategory          =   Fitness,
+    }
+    item HCPunchingbag
+    {
+
+        Weight          = 12.0,
+    Type            = Normal,
+        DisplayName             = Punching Bag,
+        icon            = HCPunchingbag,
+	DisplayCategory          =   Fitness,
+    }
+    item HCGymtowel
+    {
+
+    Weight          = 0.3,
+        Type            = Normal,
+    DisplayName     = Gym Towel,
+    Icon            = HCGymtowel,
+	DisplayCategory          =   Fitness,
+    }
+    item HCWeights
+    {
+
+        Weight          = 20.0,
+        Type            = Normal,
+        DisplayName         = Weight Bench,
+        icon            = HCWeights,
+	DisplayCategory          =   Fitness,
+    }
+    item HCTredmill
+    {
+
+    Weight              =   6,
+    Type                =   Normal,
+    DisplayName         =   Treadmill,
+    Icon                =   HCTredmill,
+	DisplayCategory          =   Fitness,
+    }
+    item HCTredmillgenerator
+    {
+
+    Weight              =   20,
+    Type                =   Normal,
+    DisplayName         =   Treadmill with Generator,
+    Icon                =   HCTredmillgenerator,
+	DisplayCategory          =   Fitness,
+    }
+    craftRecipe Weld Punching Bag Stand
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        SkillRequired = MetalWelding:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelpipe],
+            item 1 [Base.SheetMetal],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPunchingstand,
+        }
+    }
+    craftRecipe Hang Leather Sand Bag on Stand
+    {
+        time = 60,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLeatherSandbag],
+            item 1 [Hydrocraft.HCPunchingstand],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPunchingbag,
+        }
+    }
+    craftRecipe Exercise hard with Punching Bag
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Nimble:4,
+        OnCreate = HCR42.HCTrainPunchingBag_Trainingxp2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPunchingbag] mode:keep,
+            item 1 [Hydrocraft.HCBoxinggloves] mode:keep,
+            item 1 [Hydrocraft.HCFitnessdrink],
+            item 1 [Hydrocraft.HCGymtowel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCanteen,
+        }
+    }
+    craftRecipe Exercise with Punching Bag
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HCTrainPunchingBag_Trainingxp,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPunchingbag] mode:keep,
+            item 1 [Hydrocraft.HCBoxinggloves] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCGymtowel] mode:keep,
+        }
+    }
+    craftRecipe Weld Weight Bench
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Welding,
+        timedAction = Making,
+        SkillRequired = Woodwork:4;MetalWelding:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCStonewheel],
+            item 8 [Base.Plank],
+            item 6 [Base.Nails],
+            item 4 [Base.Pipe],
+            item 3 [Hydrocraft.HCSteelpipe],
+            item 2 [Base.SheetMetal],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWeights,
+        }
+    }
+    craftRecipe Exercise with Weights
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HCTrainWeights_Trainingxp,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWeights] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCGymtowel] mode:keep,
+        }
+    }
+    craftRecipe Exercise hard with Weights
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Strength:4,
+        OnCreate = HCR42.HCTrainWeights_Trainingxp2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWeights] mode:keep,
+            item 1 [Hydrocraft.HCFitnessdrink],
+            item 1 [Hydrocraft.HCGymtowel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCanteen,
+        }
+    }
+    craftRecipe Repair Treadmill
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        SkillRequired = Electricity:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunktredmill],
+            item 2 [Base.ElectronicsScrap],
+            item 1 [Hydrocraft.HCSteelpipe],
+            item 1 [Base.Pipe],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTredmill,
+        }
+    }
+    craftRecipe Add Generator to Treadmill
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTredmill],
+            item 1 [Hydrocraft.HCPowercord],
+            item 1 [Base.Generator],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTredmillgenerator,
+        }
+    }
+    craftRecipe Exercise on Treadmill
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HCTrainTredmill_Trainingxp,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTredmillgenerator] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCGymtowel] mode:keep,
+        }
+    }
+    craftRecipe Exercise hard on Treadmill
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Sprinting:5,
+        OnCreate = HCR42.HCTrainTredmill_Trainingxp2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTredmillgenerator] mode:keep,
+            item 1 [Hydrocraft.HCFitnessdrink],
+            item 1 [Hydrocraft.HCGymtowel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCanteen,
+        }
+    }
+}

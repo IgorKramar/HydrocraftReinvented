@@ -1,0 +1,643 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCJunk
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Junk,
+        icon 			= HCJunk,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkyardsmallempty
+    {
+
+        Weight    			= 10,
+        Type    			= Normal,
+        
+        DisplayName         		= Small Empty Junkyard,
+        icon 				= HCJunkyardsmallempty,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkyardsmallfull
+    {
+
+        Weight    			= 15,
+        Type    			= Normal,
+        
+        DisplayName         		= Small Full Junkyard,
+        icon 				= HCJunkyardsmallfull,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkyardmediumempty
+    {
+
+        Weight    			= 15,
+        Type    			= Normal,
+        
+        DisplayName         		= Medium Empty Junkyard,
+        icon 				= HCJunkyardmediumempty,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkyardmediumfull
+    {
+
+        Weight    			= 20,
+        Type    			= Normal,
+        
+        DisplayName         		= Medium Full Junkyard,
+        icon 				= HCJunkyardmediumfull,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkyardlargeempty
+    {
+
+        Weight    			= 15,
+	LightStrength	                = 0.8,
+        Type    			= Normal,
+        
+        DisplayName         		= Large Empty Junkyard,
+        icon 				= HCJunkyardlargeempty,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkyardlargefull
+    {
+
+	Type             = Normal,
+  Weight           = 30,
+  DisplayName      = Large Full Junkyard,
+  icon 			  	   = HCJunkyardlargefull,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkyardlargefull2
+    {
+
+  WeightReduction  = 0,
+  Weight           = 10000,
+  Type             = Container,
+  Capacity         = 500,
+  DisplayName      = Large Full Junkyard,
+  icon             = HCJunkyardlargefull,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCMagnetgiant
+    {
+
+        Weight    			= 30,
+        Type    			= Normal,
+        DisplayName         		= Giant Magnet,
+        icon 				= HCMagnetgiant,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCSled
+    {
+
+	WeightReduction	       		=	45,
+	Weight	               		=	5,
+	Type	               		=	Container,
+	Capacity	       		=	50,
+	DisplayName	       		=	Makeshift Sled,
+	Icon	               		=	HCSled,
+	RequiresEquippedBothHands 	= 	true,
+		DisplayCategory          =   Container,
+    }
+    item HCDetector
+    {
+
+	Weight				=	1,
+	Type				=	Normal,
+	DisplayName			=	Metal Detector,
+	Icon				=	HCDetector,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCDetectorpowered
+    {
+
+	Weight 				= 	1.0,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.125,
+	DisplayName 			= 	Metal Detector with Power,
+	ReplaceOnDeplete		=	HCDetectordead,
+	Icon 				= 	HCDetectorpowered,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCDetectordead
+    {
+
+        Weight    			= 	1.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Metal Detector with Dead Battery,
+        icon 				= 	HCDetector,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCTrashsmall
+    {
+
+	Weight				=	1,
+	Type				=	Normal,
+	DisplayName			=	Small Bag with Trash,
+	Icon				=	HCTrashsmall,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCTrashmedium
+    {
+
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Medium Box With Trash,
+	Icon				=	HCTrashmedium,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCTrashlarge
+    {
+
+	Weight				=	9,
+	Type				=	Normal,
+	DisplayName			=	Large Box With Trash,
+	Icon				=	HCTrashlarge,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkmicro
+    {
+
+        Weight    			=       1,
+        Type    			=       Normal,
+        DisplayName         		=       Broken Microwave,
+        icon 				=       HCJunkmicro,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunktv
+    {
+
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Broken TV,
+	Icon				=	HCJunktv,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkfridge
+    {
+
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Broken Fridge,
+	Icon				=	HCJunkfridge,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkwash
+    {
+
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Broken Washing Machine,
+	Icon				=	HCJunkwash,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkdryer
+    {
+
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Broken Drying Machine,
+	Icon				=	HCJunkdryer,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunkbicycle
+    {
+
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Broken Bicycle,
+	Icon				=	HCJunkbicycle,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCDynamo
+    {
+
+	Weight				=	0.1,
+	Type				=	Normal,
+	DisplayName			=	Dynamo,
+	Icon				=	HCDynamo,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCJunktredmill
+    {
+
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Broken Tredmill,
+	Icon				=	HCJunktredmill,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCRadiator2
+    {
+
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Broken Radiator,
+        icon 				= HCRadiator2,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCBedsprings
+    {
+
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Rusty Bed Springs,
+        icon 				= HCBedsprings,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCWaterheater
+    {
+
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Water Heater,
+        icon 				= HCWaterheater,
+		DisplayCategory          =   CraftRec,
+    }
+    item HCChain
+    {
+
+		MaxRange					=	2,
+		WeaponSprite					=	Poolcue,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	4.0,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		Categories					=	Blunt,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	3.5,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		DisplayName					=	Chain,
+		MinRange					=	0.61,
+		SwingTime					=	4.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCChain,
+		RunAnim						=	Run_Weapon2,
+        	BreakSound  					=   	BreakMetalItem,
+		DisplayCategory          =   CraftRec,
+    }
+    craftRecipe Make Small Junkyard
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Shovel;Base.Shovel2] mode:keep,
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 3 [Base.Nails],
+            item 3 [Base.Plank],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJunkyardsmallempty,
+        }
+    }
+    craftRecipe Fill Small Junkyard
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardsmallempty],
+            item 1 [Hydrocraft.HCTrashsmall],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJunkyardsmallfull,
+        }
+    }
+    craftRecipe Search Junk
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.hcjunksearchsmall,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardsmallfull] mode:keep,
+            item 1 [Hydrocraft.HCTrashsmall],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Garbagebag,
+        }
+    }
+    craftRecipe Upgrade To Medium Junkyard
+    {
+        time = 750,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardsmallfull],
+            item 1 [Base.Shovel;Base.Shovel2] mode:keep,
+            item 3 [Hydrocraft.HCSteelrod],
+            item 8 [Hydrocraft.HCChickenwire],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJunkyardmediumempty,
+        }
+    }
+    craftRecipe Fill Medium Junkyard
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardmediumempty],
+            item 3 [Hydrocraft.HCTrashsmall],
+            item 1 [Hydrocraft.HCTrashmedium],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJunkyardmediumfull,
+        }
+    }
+    craftRecipe Search Junk
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.hcjunksearchsmall,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardmediumfull] mode:keep,
+            item 1 [Hydrocraft.HCTrashsmall],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Garbagebag,
+        }
+    }
+    craftRecipe Search Junk
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.hcjunksearchmedium,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardmediumfull] mode:keep,
+            item 1 [Hydrocraft.HCTrashmedium],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Scrap car parts
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        xpAward = Mechanics:2;MetalWelding:2,
+        OnCreate = HCR42.hcjunkScrapParts,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardmediumfull;Hydrocraft.HCJunkyardlargefull2] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Base.Sledgehammer2;Base.Sledgehammer] mode:keep,
+            item 1 [Base.FrontCarDoor1;Base.FrontCarDoor2;Base.FrontCarDoor3;Base.RearCarDoor1;Base.RearCarDoor2;Base.RearCarDoor3;Base.RearCarDoorDouble1;Base.EngineDoor1;Base.EngineDoor2;Base.EngineDoor3;Base.TrunkDoor1;Base.TrunkDoor2;Base.TrunkDoor3;Base.OldCarMuffler1;Base.NormalCarMuffler1;Base.ModernCarMuffler1;Base.OldCarMuffler2;Base.NormalCarMuffler2;Base.ModernCarMuffler2;Base.OldCarMuffler3;Base.NormalCarMuffler3;Base.ModernCarMuffler3;Base.SmallGasTank1;Base.SmallGasTank2;Base.SmallGasTank3;Base.NormalGasTank1;Base.NormalGasTank2;Base.NormalGasTank3;Base.BigGasTank1;Base.BigGasTank2;Base.BigGasTank3;Base.ModernBrake1;Base.ModernBrake2;Base.ModernBrake3;Base.OldBrake1;Base.NormalBrake2;Base.NormalBrake3;Base.NormalBrake1;Base.NormalBrake2;Base.NormalBrake3;Base.NormalSuspension1;Base.NormalSuspension2;Base.NormalSuspension3;Base.ModernSuspension1;Base.ModernSuspension2;Base.ModernSuspension3],
+        }
+        outputs
+        {
+            item 1 Base.ScrapMetal,
+        }
+    }
+    craftRecipe Upgrade To Large Junkyard
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardmediumfull],
+            item 1 [Base.Shovel;Base.Shovel2] mode:keep,
+            item 6 [Hydrocraft.HCSteelbeam],
+            item 12 [Hydrocraft.HCSteelrod],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 20 [Hydrocraft.HCBolt],
+            item 20 [Hydrocraft.HCNut],
+            item 1 [Hydrocraft.HCChain],
+            item 1 [Hydrocraft.HCMagnetgiant],
+            item 4 [Hydrocraft.HCCablecopper],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJunkyardlargeempty,
+        }
+    }
+    craftRecipe Fill Large Junkyard
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardlargeempty],
+            item 6 [Hydrocraft.HCTrashsmall],
+            item 3 [Hydrocraft.HCTrashmedium],
+            item 1 [Hydrocraft.HCTrashlarge],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJunkyardlargefull,
+        }
+    }
+    craftRecipe Anchor Large Junkyard
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardlargefull],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJunkyardlargefull2,
+        }
+    }
+    craftRecipe Search Junk
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.hcjunksearchsmall,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardlargefull2] mode:keep,
+            item 1 [Hydrocraft.HCTrashsmall],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Garbagebag,
+        }
+    }
+    craftRecipe Search Junk
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.hcjunksearchmedium,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardlargefull2] mode:keep,
+            item 1 [Hydrocraft.HCTrashmedium],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Search Junk
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.hcjunksearchlarge,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardlargefull2] mode:keep,
+            item 1 [Hydrocraft.HCTrashlarge],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Search Junk with Giant Magnet
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.hcjunksearchmagnet,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkyardlargefull2] mode:keep,
+            item 1 [Hydrocraft.HCTrashlarge],
+            item 1 [Hydrocraft.HCBatteryhuge],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Make Sled
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Base.Screws],
+            item 2 [Hydrocraft.HCSteelpipe],
+            item 1 [Base.SheetMetal],
+            item 1 [Base.Rope],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSled,
+        }
+    }
+    craftRecipe Insert Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetector],
+            item 1 [Hydrocraft.HCBatterymedium],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetectorpowered,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatterymediumdead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetectordead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetector,
+        }
+    }
+    craftRecipe Search For Metal
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        xpAward = PlantScavenging:2,
+        OnCreate = HCR42.hcmetalsearch,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetectorpowered],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+    }
+}

@@ -1,0 +1,24 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCSignkeepout
+    {
+
+		Weight			 =	2,
+		Type			 =	Normal,
+		DisplayName		 =	Keep Out Sign,
+		Icon			 =	HCSignkeepout,
+		DisplayCategory  =   Household,
+		WorldStaticModel = WorldItem-HCKeepOutSign,
+    }
+    item HCSignbiohazard
+    {
+
+		Weight			 =	2,
+		Type			 =	Normal,
+		DisplayName		 =	Biohazard Sign,
+		Icon			 =	HCSignbiohazard,
+		DisplayCategory  =   Household,
+		WorldStaticModel = WorldItem-HCBiohazardSign
+    }
+}

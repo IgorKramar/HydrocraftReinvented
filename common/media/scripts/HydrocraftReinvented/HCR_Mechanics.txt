@@ -1,0 +1,1428 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCGunParts
+    {
+
+        Weight  =   0.4,
+        Type    =   Normal,
+        DisplayName =   Spare Gun Parts,
+        Icon    =   EngineParts,
+		DisplayCategory          =   WepPart,
+    }
+    item HCFile
+    {
+
+        Weight  =   0.2,
+        Type    =   Normal,
+        DisplayName =   Metal File,
+        Icon    =   HCFile,
+		DisplayCategory          =   CraftInd,
+		WorldStaticModel = WorldItem-HCFile,
+    }
+    item HCKillerRivet
+    {
+
+        Weight  =   0.1,
+        Type    =   Normal,
+        DisplayName =   Killer Rivet,
+        Icon    =   HCKillerRivet,
+		DisplayCategory          =   CraftTailor,
+    }
+    craftRecipe File killer Rivets
+    {
+        time = 20,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = MetalWelding:2;Maintenance:3,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNut],
+            item 1 [Hydrocraft.HCBolt],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Hydrocraft.HCFile] mode:keep,
+            item 1 [Hydrocraft.HCAnvilstone;Hydrocraft.HCAnvilstone2;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCKillerRivet,
+        }
+    }
+    craftRecipe Renew Car Door
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.FrontCarDoor1],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.FrontCarDoor1,
+        }
+    }
+    craftRecipe Renew Car Door
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.FrontCarDoor2],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.FrontCarDoor2,
+        }
+    }
+    craftRecipe Renew Car Door
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.FrontCarDoor3],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.FrontCarDoor3,
+        }
+    }
+    craftRecipe Renew Car Door
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.RearCarDoor1],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearCarDoor1,
+        }
+    }
+    craftRecipe Renew Car Door
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.RearCarDoor2],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearCarDoor2,
+        }
+    }
+    craftRecipe Renew Car Door
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.RearCarDoor3],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearCarDoor3,
+        }
+    }
+    craftRecipe Renew Car Door
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.RearCarDoorDouble1],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearCarDoorDouble1,
+        }
+    }
+    craftRecipe Renew Engine Hood
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.EngineDoor1],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.EngineDoor1,
+        }
+    }
+    craftRecipe Renew Engine Hood
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.EngineDoor2],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.EngineDoor2,
+        }
+    }
+    craftRecipe Renew Engine Hood
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.EngineDoor3],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.EngineDoor3,
+        }
+    }
+    craftRecipe Renew Trunk Lid
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.TrunkDoor1],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.TrunkDoor1,
+        }
+    }
+    craftRecipe Renew Trunk Lid
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.TrunkDoor2],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.TrunkDoor2,
+        }
+    }
+    craftRecipe Renew Trunk Lid
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.TrunkDoor3],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.TrunkDoor3,
+        }
+    }
+    craftRecipe Renew Muffler
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.ModernCarMuffler1],
+            item 1 [Base.OldCarMuffler1;Base.NormalCarMuffler1;Base.OldCarMuffler2;Base.NormalCarMuffler2;Base.OldCarMuffler3;Base.NormalCarMuffler3;Base.ModernCarMuffler2;Base.ModernCarMuffler3],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ModernCarMuffler1,
+        }
+    }
+    craftRecipe Renew Muffler
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.ModernCarMuffler2],
+            item 1 [Base.OldCarMuffler1;Base.NormalCarMuffler1;Base.OldCarMuffler2;Base.NormalCarMuffler2;Base.OldCarMuffler3;Base.NormalCarMuffler3;Base.ModernCarMuffler1;Base.ModernCarMuffler3],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ModernCarMuffler2,
+        }
+    }
+    craftRecipe Renew Muffler
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.ModernCarMuffler3],
+            item 1 [Base.OldCarMuffler1;Base.NormalCarMuffler1;Base.OldCarMuffler2;Base.NormalCarMuffler2;Base.OldCarMuffler3;Base.NormalCarMuffler3;Base.ModernCarMuffler2;Base.ModernCarMuffler1],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ModernCarMuffler3,
+        }
+    }
+    craftRecipe Renew Car Brake
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.ModernBrake1],
+            item 1 [Hydrocraft.HCBreakpads;Hydrocraft.HCDrumbreak;Base.ModernBrake1;Base.ModernBrake2;Base.ModernBrake3;Base.OldBrake1;Base.NormalBrake2;Base.NormalBrake3;Base.NormalBrake1;Base.NormalBrake2;Base.NormalBrake3],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ModernBrake1,
+        }
+    }
+    craftRecipe Renew Car Brake
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.ModernBrake2],
+            item 1 [Hydrocraft.HCBreakpads;Hydrocraft.HCDrumbreak;Base.ModernBrake1;Base.ModernBrake2;Base.ModernBrake3;Base.OldBrake1;Base.NormalBrake2;Base.NormalBrake3;Base.NormalBrake1;Base.NormalBrake2;Base.NormalBrake3],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ModernBrake2,
+        }
+    }
+    craftRecipe Renew Car Brake
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.ModernBrake3],
+            item 1 [Hydrocraft.HCBreakpads;Hydrocraft.HCDrumbreak;Base.ModernBrake1;Base.ModernBrake2;Base.ModernBrake3;Base.OldBrake1;Base.NormalBrake2;Base.NormalBrake3;Base.NormalBrake1;Base.NormalBrake2;Base.NormalBrake3],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ModernBrake3,
+        }
+    }
+    craftRecipe Renew Suspension
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.ModernSuspension1],
+            item 1 [Base.NormalSuspension1;Base.NormalSuspension1;Base.NormalSuspension2;Base.NormalSuspension3;Base.ModernSuspension1;Base.ModernSuspension2;Base.ModernSuspension3],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ModernSuspension1,
+        }
+    }
+    craftRecipe Renew Suspension
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.ModernSuspension2],
+            item 1 [Base.NormalSuspension1;Base.NormalSuspension2;Base.NormalSuspension3;Base.ModernSuspension1;Base.ModernSuspension2;Base.ModernSuspension3],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ModernSuspension2,
+        }
+    }
+    craftRecipe Renew Suspension
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.ModernSuspension3],
+            item 1 [Base.NormalSuspension1;Base.NormalSuspension2;Base.NormalSuspension3;Base.ModernSuspension1;Base.ModernSuspension2;Base.ModernSuspension3],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ModernSuspension3,
+        }
+    }
+    craftRecipe Renew Windshield
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.Windshield1],
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Windshield1,
+        }
+    }
+    craftRecipe Renew Windshield
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.Windshield2],
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Windshield2,
+        }
+    }
+    craftRecipe Renew Windshield
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.Windshield3],
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Windshield3,
+        }
+    }
+    craftRecipe Renew Rear Windshield
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.RearWindshield1],
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield1,
+        }
+    }
+    craftRecipe Renew Rear Windshield
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.RearWindshield2],
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield2,
+        }
+    }
+    craftRecipe Renew Rear Windshield
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.RearWindshield3],
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield3,
+        }
+    }
+    craftRecipe Renew Front Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.FrontWindow1],
+            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow1,
+        }
+    }
+    craftRecipe Renew Front Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.FrontWindow2],
+            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow2,
+        }
+    }
+    craftRecipe Renew Front Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.FrontWindow3],
+            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow3,
+        }
+    }
+    craftRecipe Renew Rear Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.RearWindow1],
+            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindow1,
+        }
+    }
+    craftRecipe Renew Rear Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.RearWindow2],
+            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindow2,
+        }
+    }
+    craftRecipe Renew Rear Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.RearWindow3],
+            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindow3,
+        }
+    }
+    craftRecipe Make Standard Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspane],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow1,
+        }
+    }
+    craftRecipe Make Standard Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspane],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindow1,
+        }
+    }
+    craftRecipe Make Standard Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Windshield1,
+        }
+    }
+    craftRecipe Make Standard Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield1,
+        }
+    }
+    craftRecipe Make Heavy Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspane],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow2,
+        }
+    }
+    craftRecipe Make Heavy Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspane],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindow2,
+        }
+    }
+    craftRecipe Make Heavy Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Windshield2,
+        }
+    }
+    craftRecipe Make Heavy Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield2,
+        }
+    }
+    craftRecipe Make Sport Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspane],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow3,
+        }
+    }
+    craftRecipe Make Sport Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspane],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindow3,
+        }
+    }
+    craftRecipe Make Sport Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Windshield3,
+        }
+    }
+    craftRecipe Make Sport Car Window
+    {
+        time = 22,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspanelarge],
+            item 2 [Hydrocraft.HCBioplastic],
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield3,
+        }
+    }
+    craftRecipe Dismantle Pistol
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:2;MetalWelding:2;Maintenance:3,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.Pistol;Base.Pistol2;Base.Pistol3;Base.Revolver;Base.Revolver_Long;Base.Revolver_Short;Hydrocraft.HCUzi],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCGunParts,
+        }
+    }
+    craftRecipe Dismantle Gun
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:2;MetalWelding:2;Maintenance:3,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Base.VarmintRifle;Base.HuntingRifle;Base.Shotgun;Base.DoubleBarrelShotgun;Base.ShotgunSawnoff;Base.AssaultRifle;Base.AssaultRifle2;Hydrocraft.HCAA12],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCGunParts,
+        }
+    }
+    craftRecipe Produce Engine Parts
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Mechanics,
+        timedAction = Making,
+        SkillRequired = Mechanics:4;MetalWelding:4;Maintenance:4,
+        xpAward = Mechanics:2;Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 2 [Hydrocraft.HCGunParts],
+            item 2 [Base.ElectronicsScrap],
+        }
+        outputs
+        {
+            item 1 Base.EngineParts,
+        }
+    }
+    craftRecipe Produce Engine Parts
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Welding,
+        timedAction = Making,
+        SkillRequired = Mechanics:4;MetalWelding:4;Maintenance:4,
+        xpAward = Mechanics:2;Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 4 [Base.ScrapMetal],
+            item 1 [Base.ElectronicsScrap],
+        }
+        outputs
+        {
+            item 1 Base.EngineParts,
+        }
+    }
+    craftRecipe Produce Engine Parts
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Welding,
+        timedAction = Making,
+        SkillRequired = Mechanics:4;MetalWelding:4;Maintenance:4,
+        xpAward = Mechanics:2;Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.SheetMetal],
+            item 2 [Base.WeldingRods],
+            item 1 [Base.ElectronicsScrap],
+        }
+        outputs
+        {
+            item 1 Base.EngineParts,
+        }
+    }
+    craftRecipe Produce Engine Parts
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Welding,
+        timedAction = Making,
+        SkillRequired = Mechanics:4;MetalWelding:4;Maintenance:4,
+        xpAward = Mechanics:2;Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.MetalPipe],
+            item 1 [Base.ElectronicsScrap],
+        }
+        outputs
+        {
+            item 1 Base.EngineParts,
+        }
+    }
+    fixing Fix Hood 1
+    {
+        Require = Base.EngineDoor1; Base.EngineDoor2; Base.EngineDoor3,
+        GlobalItem = Base.BlowTorch=3,
+        ConditionModifier = 30,
+        Fixer = Hydrocraft.HCIronsheet=1; MetalWelding=3; Mechanics=2,
+        Fixer = Hydrocraft.HCSteelsheet=1; MetalWelding=3; Mechanics=2,
+    }
+    fixing Fix Hood 2
+    {
+        Require = Base.EngineDoor1; Base.EngineDoor2; Base.EngineDoor3,
+        ConditionModifier = 0.7,
+        Fixer = Base.Glue=2; Mechanics=2,
+        Fixer = Base.DuctTape=2; Mechanics=1,
+    }
+    fixing fix Brake 3
+    {
+        Require = Base.OldBrake1; Base.OldBrake2; Base.OldBrake3; Base.NormalBrake1; Base.NormalBrake2; Base.NormalBrake3; Base.ModernBrake1; Base.ModernBrake2; Base.ModernBrake3,
+        GlobalItem = Base.BlowTorch=2,
+        ConditionModifier = 1.5,
+        Fixer = Base.SmallSheetMetal; MetalWelding=3; Mechanics=3,
+        Fixer = Base.ScrapMetal=2; MetalWelding=3; Mechanics=3,
+    }
+    fixing Fix Muffler 1
+    {
+        Require = Base.OldCarMuffler1; Base.OldCarMuffler2; Base.OldCarMuffler3; Base.NormalCarMuffler1; Base.NormalCarMuffler2; Base.NormalCarMuffler3; Base.ModernCarMuffler1; Base.ModernCarMuffler2; Base.ModernCarMuffler3,
+        GlobalItem = Base.BlowTorch=2,
+        ConditionModifier = 0.60,
+        Fixer = Base.SmallSheetMetal; MetalWelding=3; Mechanics=2,
+    }
+    fixing Fix Muffler 2
+    {
+        Require = Base.OldCarMuffler1; Base.OldCarMuffler2; Base.OldCarMuffler3; Base.NormalCarMuffler1; Base.NormalCarMuffler2; Base.NormalCarMuffler3; Base.ModernCarMuffler1; Base.ModernCarMuffler2; Base.ModernCarMuffler3,
+        GlobalItem = Base.BlowTorch=2,
+        ConditionModifier = 0.60,
+        Fixer = Base.ScrapMetal; MetalWelding=3; Mechanics=2,
+    }
+    fixing Fix Muffler 3
+    {
+        Require = Base.OldCarMuffler1; Base.OldCarMuffler2; Base.OldCarMuffler3; Base.NormalCarMuffler1; Base.NormalCarMuffler2; Base.NormalCarMuffler3; Base.ModernCarMuffler1; Base.ModernCarMuffler2; Base.ModernCarMuffler3,
+        GlobalItem = Base.BlowTorch=2,
+        ConditionModifier = 0.8,
+        Fixer = Hydrocraft.HCIronboard; MetalWelding=3; Mechanics=2,
+    }
+    fixing Fix Muffler 4
+    {
+        Require = Base.OldCarMuffler1; Base.OldCarMuffler2; Base.OldCarMuffler3; Base.NormalCarMuffler1; Base.NormalCarMuffler2; Base.NormalCarMuffler3; Base.ModernCarMuffler1; Base.ModernCarMuffler2; Base.ModernCarMuffler3,
+        GlobalItem = Base.BlowTorch=2,
+        ConditionModifier = 1.3,
+        Fixer = Hydrocraft.HCSteelboard; MetalWelding=3; Mechanics=2,
+    }
+    fixing Fix Tire
+    {
+        Require = Base.OldTire1; Base.OldTire2; Base.OldTire3; Base.NormalTire1; Base.NormalTire2; Base.NormalTire3; Base.ModernTire1; Base.ModernTire2; Base.ModernTire3,
+        ConditionModifier = 0.45,
+        Fixer = Base.DuctTape=2; Mechanics=1,
+    }
+    fixing Fix Tire 1
+    {
+        Require = Base.OldTire1; Base.OldTire2; Base.OldTire3; Base.NormalTire1; Base.NormalTire2; Base.NormalTire3; Base.ModernTire1; Base.ModernTire2; Base.ModernTire3,
+        ConditionModifier = 0.45,
+        Fixer = Base.Glue=2; Mechanics=1,
+    }
+    fixing Fix Suspension 1
+    {
+        Require = Base.NormalSuspension1; Base.NormalSuspension2; Base.NormalSuspension3; Base.ModernSuspension1; Base.ModernSuspension2; Base.ModernSuspension3,
+        GlobalItem = Base.BlowTorch=2,
+        ConditionModifier = 0.3,
+        Fixer = Base.SmallSheetMetal; MetalWelding=3; Mechanics=2,
+    }
+    fixing Fix Suspension 2
+    {
+        Require = Base.NormalSuspension1; Base.NormalSuspension2; Base.NormalSuspension3; Base.ModernSuspension1; Base.ModernSuspension2; Base.ModernSuspension3,
+        GlobalItem = Base.BlowTorch=2,
+        ConditionModifier = 0.3,
+        Fixer = Base.ScrapMetal; MetalWelding=3; Mechanics=2,
+    }
+    fixing Fix Windshield
+    {
+        Require = Base.Windshield1; Base.Windshield2; Base.Windshield3; Base.RearWindshield1; Base.RearWindshield2; Base.RearWindshield3; Base.FrontWindow1; Base.FrontWindow2; Base.FrontWindow3; Base.RearWindow1; Base.RearWindow2; Base.RearWindow3,
+        ConditionModifier = 0.45,
+        Fixer = Base.DuctTape=2,
+    }
+    fixing Fix Windshield 2
+    {
+        Require = Base.Windshield1; Base.Windshield2; Base.Windshield3; Base.RearWindshield1; Base.RearWindshield2; Base.RearWindshield3; Base.FrontWindow1; Base.FrontWindow2; Base.FrontWindow3; Base.RearWindow1; Base.RearWindow2; Base.RearWindow3,
+        ConditionModifier = 0.45,
+        Fixer = Base.Glue=2,
+    }
+    fixing Fix Double Door 1
+    {
+        Require = Base.RearCarDoorDouble1; Base.RearCarDoorDouble2; Base.RearCarDoorDouble3,
+        GlobalItem = Base.BlowTorch=2,
+        ConditionModifier = 1.2,
+        Fixer = Base.SmallSheetMetal; MetalWelding=3; Mechanics=2,
+    }
+    fixing Fix Double Door 2
+    {
+        Require = Base.RearCarDoorDouble1; Base.RearCarDoorDouble2; Base.RearCarDoorDouble3,
+        ConditionModifier = 0.7,
+        Fixer = Base.DuctTape=2; Mechanics=1,
+        Fixer = Base.Glue=2; Mechanics=1,
+    }
+    fixing Fix Trunk Lid 1
+    {
+        Require = Base.TrunkDoor1; Base.TrunkDoor2; Base.TrunkDoor3,
+        ConditionModifier = 0.7,
+        Fixer = Base.DuctTape=2; Mechanics=1,
+        Fixer = Base.Glue=2; Mechanics=1,
+    }
+    fixing Fix Trunk Lid 2
+    {
+        Require = Base.TrunkDoor1; Base.TrunkDoor2; Base.TrunkDoor3,
+        GlobalItem = Base.BlowTorch=2,
+        ConditionModifier = 10,
+        Fixer = Hydrocraft.HCSteelboard; MetalWelding=4; Mechanics=4,
+        Fixer = Hydrocraft.HCIronboard; MetalWelding=4; Mechanics=4,
+    }
+    fixing Fix Door 1
+    {
+        Require = Base.FrontCarDoor1; Base.FrontCarDoor2; Base.FrontCarDoor3; Base.RearCarDoor1; Base.RearCarDoor2; Base.RearCarDoor3,
+        GlobalItem = Base.BlowTorch=3,
+        ConditionModifier = 6,
+        Fixer = Hydrocraft.HCSteelsheet=1; MetalWelding=3; Mechanics=2,
+        Fixer = Hydrocraft.HCIronsheet=1; MetalWelding=3; Mechanics=2,
+    }
+}

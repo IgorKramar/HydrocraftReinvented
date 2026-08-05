@@ -1,0 +1,1260 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCUHTmilk
+    {
+
+	Type				=	Food,
+	DisplayName			=	Package of UHT Milk,
+	Weight				=	1.0,
+	ThirstChange 		=	-50,
+	HungerChange 		= 	-20,
+	DaysTotallyRotten	=	500,
+	DaysFresh 			=	250,
+	Icon				=	HCUHTmilk,
+	FoodType			=	NoExplicit,
+	Carbohydrates 		= 	50,
+	Proteins 			= 	40,
+	Lipids 				= 	20,
+	Calories 			= 	460,
+	CantBeFrozen 		= 	TRUE,
+	Packaged 			= 	TRUE,
+	DisplayCategory		=	FoodP,
+	Tags				=	Milk,
+    }
+    item HCSoymilk
+    {
+
+	Type				=	Food,
+	DisplayName			=	Bottle of Soy Milk,
+	Weight				=	1.0,
+	ThirstChange 		=	-50,
+	HungerChange 		= 	-30,
+	DaysTotallyRotten	=	30,
+	DaysFresh 			=	15,
+	Icon				=	WhiskeyFull,
+	FoodType			=	NoExplicit,
+	Carbohydrates 		= 	33,
+	Proteins 			= 	29,
+	Lipids 				= 	17,
+	Calories 			= 	410,
+	StaticModel 		= 	WhiskeyBottle,
+	DangerousUncooked	=	TRUE,
+	IsCookable			= 	TRUE,
+	MinutesToCook		= 	20,
+	MinutesToBurn		= 	40,
+	CustomContextMenu	=	Drink,
+	CustomEatSound		=	DrinkingFromBottle,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	DisplayCategory		=	FoodP,
+	Tags				=	Milk,
+    }
+    item HCEvaporatedmilk
+    {
+
+	Weight				=	0.5,
+	Type				=	Food,
+	DisplayName			=	Evaporated Milk,
+	Icon				=	HCEvaporatedmilk,
+    Carbohydrates 			= 	136,
+    Proteins 			= 	1.6,
+    Lipids 				= 	3.2,
+    Calories 			= 	536,
+    Packaged 			= 	TRUE,
+	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodN,
+    }
+    item HCEvaporatedmilkopen
+    {
+
+	HungerChange		=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten	=	4,
+	DisplayName			=	Opened Evaporated Milk,
+	ReplaceOnUse		=	HCEvaporatedmilkopenempty,
+	Icon				=	HCEvaporatedmilkopen,
+	DaysFresh			=	2,
+	EvolvedRecipe		=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType			=	NoExplicit,
+	Carbohydrates		=	136,
+	Proteins 			=	1.6,
+	Lipids				=	3.2,
+	Calories			=	536,
+	Packaged			=	TRUE,
+	CantBeFrozen		=	TRUE,
+	EvolvedRecipeName	=	Creamy,
+	DisplayCategory		=	FoodC,
+	Tags				=	Milk,
+    }
+    item HCMilkjug
+    {
+	
+	HungerChange		=	-20,
+	EvolvedRecipe		=	Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+	Weight				=	2.0,
+	AlwaysWelcomeGift	=	true,
+	Type				=	Food,
+	ThirstChange		=	-200,
+	DisplayName			=	Milk Jug,
+	Icon				=	HCMilkjug,
+	DaysFresh 			=	4,
+	DaysTotallyRotten	=	7,
+	CustomContextMenu	=	Drink,
+	CustomEatSound		=	DrinkingFromBottle,
+	Carbohydrates		=	26 ,
+	Proteins 			=	16 ,
+	Lipids 				=	5 ,
+	Calories			=	220 ,
+	Packaged			=	TRUE,
+	CantBeFrozen		=	TRUE,
+	ReplaceOnDeplete	=	Hydrocraft.HCMilkjugempty,
+	ReplaceOnUse		=	Hydrocraft.HCMilkjugempty,	
+	DisplayCategory		=	FoodP,
+	Tags				=	Milk,
+    }
+    item HCMilkjugwater
+    {
+
+	IsWaterSource			=	TRUE,
+	Weight				=	2,
+	CanStoreWater			=	TRUE,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.07,
+	DisplayName			=	Milk Jug with Water,
+	ReplaceOnDeplete		=	HCMilkjugempty,
+	ReplaceOnUseOn			=	WaterSource-HCMilkjugwater,
+	Icon				=	HCMilkjugwater,
+	RainFactor 			= 	0.2,
+	Tooltip 			= 	Tooltip_item_RainFromGround,
+	DisplayCategory          =   FoodB,
+    }
+    item HCMilkjugchocolate
+    {
+
+	HungerChange		=	-20,
+	EvolvedRecipe		=	Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+	Weight				=	2.0,
+	AlwaysWelcomeGift	=	true,
+	Type				=	Food,
+	ThirstChange		=	-200,
+	DisplayName			=	Chocolate Milk Jug,
+	Icon				=	HCMilkjugchocolate,
+	DaysFresh			=	4,
+	DaysTotallyRotten	=	7,
+	CustomContextMenu	=	Drink,
+	CustomEatSound		=	DrinkingFromBottle,
+	Carbohydrates		=	28 ,
+	Proteins			=	25 ,
+	Lipids				=	25 ,
+	Calories			=	259 ,
+	Packaged			=	TRUE,
+	CantBeFrozen		=	TRUE,
+	ReplaceOnDeplete	=	Hydrocraft.HCMilkjugchocolateempty,
+	ReplaceOnUse		=	Hydrocraft.HCMilkjugchocolateempty,	
+	DisplayCategory		=	FoodP,
+	Tags				=	Milk,
+    }
+    item HCMilkjugchocolatewater
+    {
+
+	IsWaterSource			=	TRUE,
+	Weight				=	2,
+	CanStoreWater			=	TRUE,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.07,
+	DisplayName			=	Milk Jug with Water,
+	ReplaceOnDeplete		=	HCMilkjugchocolateempty,
+	ReplaceOnUseOn			=	WaterSource-HCMilkjugchocolatewater,
+	Icon				=	HCMilkjugchocolatewater,
+	RainFactor 			= 	0.2,
+	Tooltip 			= 	Tooltip_item_RainFromGround,
+	DisplayCategory          =   FoodB,
+    }
+    item HCCream
+    {
+
+    HungerChange		=	-20,
+	BoredomChange		=	10,
+	UnhappyChange		=	15,
+	Type				=	Food,
+	DisplayName			=	Cream,
+	Weight				=	0.1,
+	ThirstChange 		=	-5,
+	DaysTotallyRotten	=	7,
+	DaysFresh 			=	4,
+	Icon				=	HCCream,
+    Carbohydrates 		= 	7.1,
+    Proteins 			= 	3.5,
+    Lipids 				= 	11,
+    Calories 			= 	136,
+    Packaged 			= 	TRUE,
+	DisplayCategory          =   FoodP,
+    }
+    item HCWhippedcreamcan
+    {
+
+		HungerChange		=	-50,
+		BoredomChange		=	-20,
+		UnhappyChange		=	-20,
+		Weight				=	0.4,
+		Type				=	Food,
+		DaysFresh			= 	14,
+		DaysTotallyRotten	= 	30,
+		CantBeFrozen 		= 	TRUE,
+		DisplayName			=	Can of Whipped Cream,
+		ReplaceOnUse		=	HCWhippedcreamcanempty,
+		Icon				=	HCWhippedcreamcan,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=  	NoExplicit,
+		Packaged			=	true,
+		Carbohydrates 		= 	46,
+		Proteins 			= 	12,
+		Lipids 				= 	81,
+		Calories 			= 	949,
+	DisplayCategory          =   FoodP,
+    }
+    item HCWhippedcreamcanRotten
+    {
+
+		Weight			 = 0.5,
+		Type			 = Normal,
+		DisplayName		 = Can of Rotten Whipped Cream,
+		Icon			 = HCWhippedcreamcan,
+	DisplayCategory          =   Useless,
+    }
+    item HCWhippedcreamcanempty
+    {
+
+		Weight			 = 0.1,
+		Type			 = Normal,
+		DisplayName		 = Empty Can of Whipped Cream,
+		Icon			 = HCWhippedcreamcan,
+	DisplayCategory          =   Useless,
+    }
+    item HCWoodenbucketheatedmilk
+    {
+
+	Type				=	Normal,
+	DisplayName			=	Wooden Bucket with Heated Milk,
+	Weight				=	4,
+	Icon				=	HCWoodenbucketheatedmilk,
+	DisplayCategory          =   CookRef,
+    }
+    item HCWoodenbucketfermentedmilk
+    {
+
+	Type				=	Normal,
+	DisplayName			=	Wooden Bucket with Fermented Milk,
+	Weight				=	4,
+	Icon				=	HCWoodenbucketfermentedmilk,
+	DisplayCategory          =   CookRef,
+    }
+    item HCJarhomemadeyogurt
+    {
+
+	Type				=	Food,
+	DisplayName			=	Jarred Homemade Yogurt,
+	UnhappyChange			=	-15,
+	HungerChange			=	-30,
+	BoredomChange			=	-15,
+	Weight				=	1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	Icon				=	HCJarhomemadeyogurt,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	47,
+        Proteins 			= 	35,
+        Lipids 				= 	33,
+        Calories 			= 	610,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtstrawberries
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Strawberries,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	Icon				=	HCJarhomemadeyogurtstrawberries,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	54.7,
+        Proteins 			= 	35.7,
+        Lipids 				= 	33.3,
+        Calories 			= 	642,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtcranberries
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Cranberries,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtcranberries,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	59,
+        Proteins 			= 	35.5,
+        Lipids 				= 	33.1,
+        Calories 			= 	656,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtraspberries
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Raspberries,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtraspberries,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	59,
+        Proteins 			= 	36.2,
+        Lipids 				= 	33.7,
+        Calories 			= 	662,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtblueberries
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Blueberries,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtblueberries,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	61,
+        Proteins 			= 	35.7,
+        Lipids 				= 	33.3,
+        Calories 			= 	667,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtcitrusfruit
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Citrus Fruit,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtcitrusfruit,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	58,
+        Proteins 			= 	35.7,
+        Lipids 				= 	33.2,
+        Calories 			= 	640,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtapple
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Apple,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtapple,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	61,
+        Proteins 			= 	35.3,
+        Lipids 				= 	33.2,
+        Calories 			= 	662,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtstracciatella
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Stracciatella Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-55,
+	BoredomChange			=	-25,
+	Weight				=	1.2,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtstracciatella,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	139,
+        Proteins 			= 	50.6,
+        Lipids 				= 	119,
+        Calories 			= 	1806,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadetzatziki
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Tzatziki,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.2,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadetzatziki,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	57.8,
+        Proteins 			= 	37.1,
+        Lipids 				= 	33.3,
+        Calories 			= 	655,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtpear
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Pear Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtpear,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	77,
+        Proteins 			= 	35.8,
+        Lipids 				= 	33.2,
+        Calories 			= 	724,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtbanana
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Banana Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtbanana,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	73.95,
+        Proteins 			= 	36.29,
+        Lipids 				= 	33.39,
+        Calories 			= 	715,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtcherry
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Cherry Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-30,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtcherry,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	48.31,
+        Proteins 			= 	35.1,
+        Lipids 				= 	33,
+        Calories 			= 	624,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtpineapple
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Pineapple Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-40,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtpineapple,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	165.7,
+        Proteins 			= 	39.89,
+        Lipids 				= 	34.09,
+        Calories 			= 	992,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtpeach
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Peach Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtpeach,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	61.31,
+        Proteins 			= 	36.36,
+        Lipids 				= 	33.38,
+        Calories 			= 	668,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtcurrant
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Currant Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtcurrant,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	67,
+        Proteins 			= 	51,
+        Lipids 				= 	33,
+        Calories 			= 	750,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtgrape
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Grape Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-25,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtgrape,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	62.78,
+        Proteins 			= 	35.58,
+        Lipids 				= 	33.32,
+        Calories 			= 	610.62,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtwatermelon
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Watermelon Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-40,
+	BoredomChange			=	-25,
+	Weight				=	1.2,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtwatermelon,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	130.2,
+        Proteins 			= 	39.2,
+        Lipids 				= 	34.4,
+        Calories 			= 	920,
+	DisplayCategory          =   FoodP,
+    }
+    item HCJarhomemadeyogurtlemon
+    {
+
+	Type				=	Food,
+	DisplayName			=	Homemade Lemon Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.2,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtlemon,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	59,
+        Proteins 			= 	40,
+        Lipids 				= 	43,
+        Calories 			= 	727,
+	DisplayCategory          =   FoodP,
+    }
+    craftRecipe Open Evaporated Milk
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.TinOpener] mode:keep,
+            item 1 [Hydrocraft.HCEvaporatedmilk],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCEvaporatedmilkopen,
+        }
+    }
+    craftRecipe Dilute Evaporated Milk
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEvaporatedmilkopen],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.7 [Water],
+            item 1 [Hydrocraft.HCMilkempty],
+        }
+        outputs
+        {
+            item 1 Base.Milk,
+        }
+    }
+    craftRecipe Pour into Carton
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCMilkjug],
+            item 1 [Hydrocraft.HCMilkempty],
+        }
+        outputs
+        {
+            item 1 Base.Milk,
+        }
+    }
+    craftRecipe Make Butter
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketmilk],
+            item 1 [Hydrocraft.HCChurn] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Butter,
+        }
+    }
+    craftRecipe Bottle Milk
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Ranching,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketmilk],
+            item 4 [Hydrocraft.HCMilkempty],
+        }
+        outputs
+        {
+            item 4 Base.Milk,
+        }
+    }
+    craftRecipe Pour Out Milk
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Milk],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMilkempty,
+        }
+    }
+    craftRecipe Heat Milk
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketmilk],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketheatedmilk,
+        }
+    }
+    craftRecipe Ferment Milk
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketheatedmilk],
+            item 1 [Hydrocraft.HCChilipepperstem],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketfermentedmilk,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketfermentedmilk],
+            item 4 [Hydrocraft.HCJar],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCJarhomemadeyogurt,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 4 [Base.Strewberrie],
+            item 1 [Base.Bowl] mode:keep,
+            item 1 [Base.Sugar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtstrawberries,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 4 [Hydrocraft.HCRaspberry],
+            item 1 [Base.Sugar],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtraspberries,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 4 [Base.BerryBlue],
+            item 5 [Hydrocraft.HCHoney],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtblueberries,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 4 [Base.BerryBlue],
+            item 5 [Hydrocraft.HCJarhoney],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtblueberries,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Hydrocraft.HCSlicedorange],
+            item 1 [Hydrocraft.HCSlicedlemon],
+            item 1 [Hydrocraft.HCSlicedlime],
+            item 5 [Hydrocraft.HCHoney],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtcitrusfruit,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Hydrocraft.HCSlicedorange],
+            item 1 [Hydrocraft.HCSlicedlemon],
+            item 1 [Hydrocraft.HCSlicedlime],
+            item 5 [Hydrocraft.HCJarhoney],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtcitrusfruit,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcjar,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Hydrocraft.HCDriedapplebag],
+            item 1 [Hydrocraft.HCDriedrasinsbag],
+            item 5 [Hydrocraft.HCSunflowerseedsnack],
+            item 5 [Hydrocraft.HCJampear],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtapple,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Hydrocraft.HCChocolateshavings],
+            item 1 [Base.Sugar],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtstracciatella,
+        }
+    }
+    craftRecipe Jar Homemade Tzatziki
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Hydrocraft.HCCucumber],
+            item 5 [Hydrocraft.HCGarlic],
+            item 1 [Hydrocraft.HCDill],
+            item 1 [Base.Salt],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadetzatziki,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Hydrocraft.HCPear],
+            item 1 [Base.Sugar],
+            item 1 [Hydrocraft.HCCinnamon],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtpear,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Base.Banana],
+            item 5 [Hydrocraft.HCHoney],
+            item 1 [Hydrocraft.HCCardamom],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtbanana,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Base.Banana],
+            item 1 [Hydrocraft.HCDriedbananachipsbag],
+            item 5 [Hydrocraft.HCJarhoney],
+            item 1 [Hydrocraft.HCCardamom],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtbanana,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 4 [Base.Cherry],
+            item 1 [Base.Sugar],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtcherry,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Base.Pineapple],
+            item 5 [Hydrocraft.HCJampineapple],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtpineapple,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Base.Peach],
+            item 5 [Hydrocraft.HCJampeach],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtpeach,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 2 [Hydrocraft.HCBlackcurrant],
+            item 2 [Hydrocraft.HCRedcurrant],
+            item 1 [Base.Sugar],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtcurrant,
+        }
+    }
+    craftRecipe Make Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Base.Grapes],
+            item 1 [Hydrocraft.HCDriedrasinsbag],
+            item 5 [Hydrocraft.HCJamgrape],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtgrape,
+        }
+    }
+    craftRecipe Make Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Hydrocraft.HCJarredmelon],
+            item 5 [Hydrocraft.HCJamwatermelon],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtwatermelon,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 4 [Hydrocraft.HCSlicedlemon],
+            item 5 [Hydrocraft.HCHoney],
+            item 10 [Hydrocraft.HCCurdlemon],
+            item 1 [Hydrocraft.HCPeppermint],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtlemon,
+        }
+    }
+    craftRecipe Jar Homemade Yogurt
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 4 [Hydrocraft.HCSlicedlemon],
+            item 5 [Hydrocraft.HCJarhoney],
+            item 10 [Hydrocraft.HCCurdlemon],
+            item 1 [Hydrocraft.HCPeppermint],
+            item 1 [Base.Bowl] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarhomemadeyogurtlemon,
+        }
+    }
+    craftRecipe Mix Soy Milk
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Whiskey],
+            item 1 [Base.Salt],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.9 [Water],
+            item 5 [Hydrocraft.HCSoyBeans],
+            item 1 [Hydrocraft.HCCheesecloth] mode:keep,
+            item 1 [Hydrocraft.HCBlenderpowered],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSoymilk,
+        }
+    }
+}

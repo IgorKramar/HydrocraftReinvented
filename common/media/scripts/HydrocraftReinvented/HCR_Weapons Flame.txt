@@ -1,0 +1,334 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCWaterbottlenapalm
+    {
+
+        Weight   		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Bottle of Napalm,
+        icon 			= HCWaterbottlenapalm,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCNapalmbombmk2off
+    {
+
+        Weight   		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Napalm Bomb MK2 Off,
+        icon 			= HCNapalmbombmk2off,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCNapalmbombmk3off
+    {
+
+        Weight   		= 0.9,
+        Type    		= Normal,
+        DisplayName         	= Napalm Bomb MK3 Off,
+        icon 			= HCNapalmbombmk3off,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCSoapshards
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Soap Shards,
+        icon 			= HCSoapshards,
+			DisplayCategory		=	CraftAmmo,
+    }
+    item HCPotsoap
+    {
+
+	IsCookable		= TRUE,
+        MinutesToCook	        = 120,
+        MinutesToBurn	        = 200,
+        ReplaceOnCooked		= Hydrocraft.HCPotmoltensoap,
+	ReplaceOnUse		= Pot,
+        Weight			= 3,
+        Type    		= Food,
+        DisplayName         	= Pot with Soap,
+        icon 			= HCPotmoltensoap,
+        Poison                  = true,
+	PoisonDetectionLevel 	= 3,
+	PoisonPower 		= 50,
+			DisplayCategory		=	CraftAmmo,
+    }
+    item HCPotmoltensoap
+    {
+
+        Weight   		= 3,
+        Type    		= Normal,
+        DisplayName         	= Pot with Molten Soap,
+        icon 			= HCPotmoltensoap,
+			DisplayCategory		=	CraftAmmo,
+    }
+    item HCPotnapalm
+    {
+
+        Weight   		= 3,
+        Type    		= Normal,
+        DisplayName         	= Pot with Napalm,
+        icon 			= HCPotnapalm,
+			DisplayCategory		=	CraftAmmo,
+    }
+    item HCNapalmbombmk1
+    {
+
+		OtherHandUse			=	TRUE,
+		MaxRange			=	8,
+		Type				=	Weapon,
+		MinimumSwingTime		=	1.5,
+		SwingAnim			=	Throw,
+		WeaponSprite		 = Molotov,
+		UseSelf				=	TRUE,
+		DisplayName			=	Napalm Bomb MK1,
+		SwingTime			=	1.5,
+		SwingAmountBeforeImpact		=	0.1,
+		PhysicsObject			=	MolotovCocktail,
+		MinDamage			=	0,
+		Weight				=	0.7,
+		MaxDamage			=	0,
+		MaxHitCount			=	0,
+        	DoorDamage			=	20,
+        	FirePower  			=   	70,
+        	FireRange  			=   	6,
+        	ExplosionSound  		=   	BigExplosion,
+		Icon				=	HCNapalmbombmk1,
+		Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCNapalmbombmk2on
+    {
+
+        	MaxRange			=	10,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Napalm Bomb On,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage			=	0,
+        	Weight				=	0.8,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCNapalmbombmk2on,
+        	TriggerExplosionTimer   	= 	25,
+        	DoorDamage			=	20,
+        	FirePower  			=   	70,
+        	FireRange  			=   	6,
+        	ExplosionSound  		=   	BigExplosion,
+        	Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCNapalmbombmk3on
+    {
+
+        	MaxRange			=	10,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Napalm Bomb MK3 On,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage			=	0,
+        	Weight				=	0.9,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCNapalmbombmk3on,
+        	TriggerExplosionTimer   	= 	50,
+        	DoorDamage			=	20,
+        	FirePower  			=   	70,
+        	FireRange  			=   	6,
+        	ExplosionSound  		=   	BigExplosion,
+			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    craftRecipe Make Soap Shards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Soap2;Hydrocraft.HCSoap],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSoapshards,
+        }
+    }
+    craftRecipe Make Pot With Soap
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSoapshards],
+            item 1 [Base.Pot],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotsoap,
+        }
+    }
+    craftRecipe Make Napalm
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPotmoltensoap],
+            item 2 [Base.PetrolCan],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotnapalm,
+        }
+    }
+    craftRecipe Fill Napalm In Bottles
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPotnapalm],
+            item 2 [Base.WaterBottle] mode:destroy,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCWaterbottlenapalm,
+        }
+    }
+    craftRecipe Make Napalm Bomb MK1
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWaterbottlenapalm],
+            item 1 [Hydrocraft.HCDetonatormk1],
+            item 2 [Base.RubberBand],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNapalmbombmk1,
+        }
+    }
+    craftRecipe Make Napalm Bomb MK2
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWaterbottlenapalm],
+            item 1 [Hydrocraft.HCDetonatormk2off],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNapalmbombmk2off,
+        }
+    }
+    craftRecipe Turn Napalm Bomb MK2 On
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNapalmbombmk2off],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNapalmbombmk2on,
+        }
+    }
+    craftRecipe Turn Napalm Bomb MK2 Off
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNapalmbombmk2on],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNapalmbombmk2off,
+        }
+    }
+    craftRecipe Make Napalm Bomb MK3
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWaterbottlenapalm],
+            item 1 [Hydrocraft.HCDetonatormk3off],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNapalmbombmk3off,
+        }
+    }
+    craftRecipe Turn Napalm Bomb MK3 On
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNapalmbombmk3off],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNapalmbombmk3on,
+        }
+    }
+    craftRecipe Turn Napalm Bomb MK3 Off
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNapalmbombmk3on],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNapalmbombmk3off,
+        }
+    }
+}

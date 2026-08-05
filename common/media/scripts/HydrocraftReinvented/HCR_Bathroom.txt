@@ -1,0 +1,1090 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCToothpasteopen
+    {
+
+        Weight    		= 0.1,
+        Type    		= Drainable,
+        DisplayName     	= Opened Tooth Paste,
+        icon 			= HCToothpasteopen,
+	UseDelta		= 0.1,
+	DisplayCategory          =   Misc,
+    }
+    item HCFloss
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floss,
+        icon 			= HCFloss,
+	DisplayCategory          =   Misc,
+    }
+    item HCHaircolorblack
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Box of Black Hair Color,
+        icon 			= HCHaircolorblack,
+	DisplayCategory          =   Appear,
+    }
+    item HCHaircolorblond
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Box of Blonde Hair Color,
+        icon 			= HCHaircolorblond,
+	DisplayCategory          =   Appear,
+    }
+    item HCHaircolorbrunette
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Box of Brunette Hair Color,
+        icon 			= HCHaircolorbrunette,
+	DisplayCategory          =   Appear,
+    }
+    item HCHaircolorpink
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Box of Pink Hair Color,
+        icon 			= HCHaircolorpink,
+	DisplayCategory          =   Appear,
+    }
+    item HCHaircolorred
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Box of Red Hair Color,
+        icon 			= HCHaircolorred,
+	DisplayCategory          =   Appear,
+    }
+    item HCHairdryer
+    {
+	
+		DisplayCategory  = CraftElec,
+        Weight    		 = 1,
+        Type    		 = Normal,
+        DisplayName      = Hairdryer,
+        icon 			 = HCHairdryer,	
+		AttachmentType  = 	Screwdriver,
+		StaticModel      =  WorldItem-HCHairDryer,		
+		WorldStaticModel = WorldItem-HCHairDryer,
+    }
+    item HCElectrictoothbrush
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Electric Toothbrush,
+        icon 			= HCElectrictoothbrush,
+		DisplayCategory = CraftElec,
+    }
+    item HCElectrictoothbrushpowered
+    {
+
+	Weight 				= 	0.2,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.125,
+	DisplayName 			= 	Electric Toothbrush with Power,
+	ReplaceOnDeplete		=	HCElectrictoothbrushdead,
+	Icon 				= 	HCElectrictoothbrush,
+	DisplayCategory          =   Misc,
+    }
+    item HCElectrictoothbrushdead
+    {
+
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Electric Toothbrush with Dead Battery,
+        icon 				= HCElectrictoothbrush,
+	DisplayCategory          =   Misc,
+    }
+    item HCElectricrazor
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Electric Razor,
+        icon 			= HCElectricrazor,
+		DisplayCategory = CraftElec,
+    }
+    item HCElectricrazorpowered
+    {
+
+	Weight 				= 	0.2,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.125,
+	DisplayName 			= 	Electric Razon with Power,
+	ReplaceOnDeplete		=	HCElectricrazordead,
+	Icon 				= 	HCElectricrazor,
+	DisplayCategory          =   Misc,
+    }
+    item HCElectricrazordead
+    {
+
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Electric Razor with Dead Battery,
+        icon 				= HCElectricrazor,
+	DisplayCategory          =   Misc,
+    }
+    item HCWashclothwet
+    {
+
+	Type			=	Normal,
+	DisplayName		=	Wet Washcloth,
+	Icon			=	HCWashclothwet,
+	Weight			=	0.4,
+	DisplayCategory          =   Useless,
+    }
+    item HCWashcloth
+    {
+
+	Weight			=	0.2,
+	Type			=	Drainable,
+	DisplayName		=	Washcloth,
+        UseWhileEquipped	=	FALSE,
+	Icon			=	HCWashcloth,
+        UseDelta		=	0.1,
+	ReplaceOnDeplete	=	HCWashclothwet,
+	DisplayCategory          =   Useless,
+    }
+    item HCChapstick
+    {
+
+        Weight    		= 0.1,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Chapstick,
+        icon 			= HCChapstick,
+	DisplayCategory          =   Useless,
+    }
+    item HCDeodorantstick
+    {
+
+        Weight    		= 0.1,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Deodorant Stick,
+        icon 			= HCDeodorantstick,
+	DisplayCategory          =   Useless,
+    }
+    item HCDeodorantspray
+    {
+
+        Weight    		= 0.1,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Deodorant Spray,
+        icon 			= HCDeodorantspray,
+	DisplayCategory          =   Useless,
+    }
+    item HCDiaper
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Diaper,
+        icon 			= HCDiaper,
+	ReplaceOnUse    	= HCDiaperDirty,
+	CanBandage		= TRUE,
+	BandagePower    	= 2,
+        Tooltip 		= Tooltip_UseOnHealthPanel,
+	DisplayCategory          =   Bandage,
+    }
+    item HCDiaperAlcohol
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Diaper,
+        icon 			= HCDiaper,
+	ReplaceOnUse    	= HCDiaperDirty,
+        Alcoholic		= TRUE,
+	CanBandage		= TRUE,
+	BandagePower    	= 2,
+        Tooltip 		= Tooltip_AlcoholBandage,
+	DisplayCategory          =   Bandage,
+    }
+    item HCDiaperDirty
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Dirty Diaper,
+        icon 			= HCDiaperDirty,
+	CanBandage		= TRUE,
+	BandagePower    	= 0,
+        Alcoholic		= TRUE,
+	DisplayCategory          =   Bandage,
+    }
+    item HCDiaperpack
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Pack of Diapers,
+        icon 			= HCDiaperpack,
+	DisplayCategory          =   Bandage,
+    }
+    item HCMenstrualpad
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Menstrual Pad,
+        icon 			= HCMenstrualpad,
+	ReplaceOnUse    	= HCMenstrualpadDirty,
+	CanBandage		= TRUE,
+	BandagePower    	= 2,
+        Tooltip 		= Tooltip_UseOnHealthPanel,
+	DisplayCategory          =   Bandage,
+    }
+    item HCMenstrualpadAlcohol
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sterilized Menstrual Pad,
+        icon 			= HCMenstrualpad,
+	ReplaceOnUse    	= HCMenstrualpadDirty,
+	CanBandage		= TRUE,
+	BandagePower    	= 2,
+        Alcoholic		= TRUE,
+	DisplayCategory          =   Bandage,
+    }
+    item HCMenstrualpadDirty
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Dirty Menstrual Pad,
+        icon 			= HCMenstrualpadDirty,
+	CanBandage		= TRUE,
+	BandagePower    	= 0,
+	DisplayCategory          =   Bandage,
+    }
+    item HCMenstrualpadbox
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Menstrual Pads,
+        icon 			= HCMenstrualpadbox,
+	DisplayCategory          =   Bandage,
+    }
+    item HCTampon
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Tampon,
+        icon 			= HCTampon,
+	DisplayCategory          =   CraftChem,
+    }
+    item HCTamponbox
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Tampons,
+        icon 			= HCTamponbox,
+	DisplayCategory          =   CraftChem,
+    }
+    item HCTissuebox
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Tissues,
+        icon 			= HCTissuebox,
+	DisplayCategory          =   Medical,
+    }
+    item HCBabywipes
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Baby Wipes,
+        icon 			= HCBabywipes,
+	DisplayCategory          =   Useless,
+    }
+    item HCBodybrush
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Body Brush,
+        icon 			= HCBodybrush,
+	DisplayCategory          =   Useless,
+    }
+    item HCHairconditioner
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Hair Conditioner,
+        icon 			= HCHairconditioner,
+	DisplayCategory          =   Useless,
+    }
+    item HCHandsoap
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Hand Soap,
+        icon 			= HCHandsoap,
+	DisplayCategory          =   CraftChem,
+    }
+    item HCLoofah
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Loofah,
+        icon 			= HCLoofah,
+	DisplayCategory          =   CraftChem,
+    }
+    item HCMouthwash
+    {
+
+	Weight 			= 0.2,
+	Type			= Food,
+	ThirstChange		= -20,
+	DisplayName 		= Mouthwash,
+	icon 			= HCMouthwash,
+	Poison 			= true,
+	DisplayCategory 	= Item,
+	PoisonDetectionLevel 	= 3,
+	PoisonPower 		= 10,
+	Alcoholic		= TRUE,
+	AlcoholPower 		= 1,
+	CustomContextMenu 	= Drink,
+	CustomEatSound 		= DrinkingFromBottle,
+	DisplayCategory          =   FoodB,
+    }
+    item HCMouthwash2
+    {
+
+	Weight 			= 0.2,
+	Type			= Food,
+	ThirstChange		= -20,
+	DisplayName 		= Mouthwash,
+	icon 			= HCMouthwash2,
+	Poison 			= true,
+	DisplayCategory 	= Item,
+	PoisonDetectionLevel 	= 3,
+	PoisonPower 		= 10,
+	Alcoholic		= TRUE,
+	AlcoholPower 		= 1,
+	CustomContextMenu 	= Drink,
+	CustomEatSound 		= DrinkingFromBottle,
+	DisplayCategory          =   FoodB,
+    }
+    item HCPumice
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Pumice Stone,
+        icon 			= HCPumice,
+	DisplayCategory          =   Useless,
+    }
+    item HCShampoo
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Shampoo,
+        icon 			= HCShampoo,
+	DisplayCategory          =   CraftChem,
+    }
+    item HCShavingcream
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Shaving Cream,
+        icon 			= HCShavingcream,
+	DisplayCategory          =   Useless,
+    }
+    item HCNailpolishremover
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Nail Polish Remover,
+        icon 			= HCNailpolishremover,
+	DisplayCategory          =   Useless,
+    }
+    item HCSponge
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bath Sponge,
+        icon 			= HCSponge,
+	DisplayCategory          =   CraftChem,
+    }
+    item HCStylingfoam
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Styling Foam,
+        icon 			= HCStylingfoam,
+	DisplayCategory          =   Useless,
+    }
+    item HCToiletbrush
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Toilet Brush,
+        icon 			= HCToiletbrush,
+	DisplayCategory          =   Useless,
+    }
+    item HCDraincleaner
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Drain Cleaner,
+        icon 			= HCDraincleaner,
+	DisplayCategory          =   Useless,
+    }
+    item HCToiletcleaner
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Toilet Cleaner,
+        icon 			= HCToiletcleaner,
+	DisplayCategory          =   Useless,
+    }
+    item HCToiletpaperpack
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Toiletpaper Pack,
+        icon 			= HCToiletpaperpack,
+	DisplayCategory          =   Medical,
+    }
+    item HCToothcleaner
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Tooth Cleaner,
+        icon 			= HCToothcleaner,
+	DisplayCategory          =   Useless,
+    }
+    item HCDentures
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Dentures,
+        icon 			= HCDentures,
+	DisplayCategory          =   Useless,
+    }
+    item HCShavingbrush
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Shaving Brush,
+        icon 			= HCShavingbrush,
+	DisplayCategory          =   Useless,
+    }
+    item HCSanitizingjar
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sanitizing Jar,
+        icon 			= HCSanitizingjar,
+		DisplayCategory = Useless,
+    }
+    item HCRazorblade
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Razor Blade,
+        icon 			= HCRazorblade,
+		DisplayCategory = Craft,
+    }
+    item HCRazorbladebox
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Box of Razor Blade,
+        icon 			= HCRazorbladebox,
+		DisplayCategory = Craft,
+    }
+    item HCHandmirror
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Hand Mirror,
+        icon 			= HCHandmirror,
+		DisplayCategory = Useless,
+    }
+    item HCBathroomscale
+    {
+
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Bathroom Scale,
+        icon 			= HCBathroomscale,
+		DisplayCategory = Useless,
+    }
+    item HCClothhamper
+    {
+
+        WeightReduction    	=    	25,
+        Weight    		=    	5,
+        Type    		=    	Container,
+        Capacity    		=    	20,
+        DisplayName    		=    	Clothing Hamper,
+        Icon    		=    	HCClothhamper,
+		DisplayCategory = Container,
+    }
+    item HCStraightrazor
+    {
+
+		DisplayCategory = WepMelee,
+		MaxRange			=	0.7,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	15,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.5,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Straight Razor,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCStraightrazor,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	TreeDamage  			=   	2,
+        	EnduranceMod 			= 	0.5,
+    }
+    craftRecipe Pack Diapers
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCDiaper],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDiaperpack,
+        }
+    }
+    craftRecipe Unpack Diapers
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDiaperpack],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCDiaper,
+        }
+    }
+    craftRecipe Box Menstrual Pads
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCMenstrualpad],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMenstrualpadbox,
+        }
+    }
+    craftRecipe Unbox Menstrual Pads
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMenstrualpadbox],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCMenstrualpad,
+        }
+    }
+    craftRecipe Box Tampons
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCTampon],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTamponbox,
+        }
+    }
+    craftRecipe Unbox Tampons
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTamponbox],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCTampon,
+        }
+    }
+    craftRecipe Unbox Tissues
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTissuebox],
+        }
+        outputs
+        {
+            item 100 Base.Tissue,
+        }
+    }
+    craftRecipe Open Toiletpaper Pack
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToiletpaperpack],
+        }
+        outputs
+        {
+            item 4 Base.ToiletPaper,
+        }
+    }
+    craftRecipe Unbox Box of Black Hair Color
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCHaircolorblack],
+        }
+        outputs
+        {
+            item 1 Base.Hairspray2,
+        }
+    }
+    craftRecipe Unbox Box of Blonde Hair Color
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCHaircolorblond],
+        }
+        outputs
+        {
+            item 1 Base.Hairspray2,
+        }
+    }
+    craftRecipe Unbox Box of Brunette Hair Color
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCHaircolorbrunette],
+        }
+        outputs
+        {
+            item 1 Base.Hairspray2,
+        }
+    }
+    craftRecipe Unbox Box of Pink Hair Color
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCHaircolorpink],
+        }
+        outputs
+        {
+            item 1 Base.Hairspray2,
+        }
+    }
+    craftRecipe Unbox Box of Red Hair Color
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCHaircolorred],
+        }
+        outputs
+        {
+            item 1 Base.Hairspray2,
+        }
+    }
+    craftRecipe Disinfect Diaper
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDiaper] mode:destroy,
+            item 10 [Base.Whiskey],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDiaperAlcohol,
+        }
+    }
+    craftRecipe Disinfect Diaper
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDiaper] mode:destroy,
+            item 3 [Base.Disinfectant],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDiaperAlcohol,
+        }
+    }
+    craftRecipe Clean Diaper
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDiaperDirty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDiaper,
+        }
+    }
+    craftRecipe Disinfect Menstrual Pad
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMenstrualpad] mode:destroy,
+            item 10 [Base.Whiskey],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMenstrualpadAlcohol,
+        }
+    }
+    craftRecipe Disinfect Menstrual Pad
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMenstrualpad] mode:destroy,
+            item 3 [Base.Disinfectant],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMenstrualpadAlcohol,
+        }
+    }
+    craftRecipe Clean Menstrual Pad
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMenstrualpadDirty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMenstrualpad,
+        }
+    }
+    craftRecipe Box Razor Blades
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCRazorblade],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRazorbladebox,
+        }
+    }
+    craftRecipe Unbox Razor Blades
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRazorbladebox],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCRazorblade,
+        }
+    }
+    craftRecipe Remove Blade from Razor
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Razor],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRazorblade,
+        }
+    }
+    craftRecipe Insert Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectrictoothbrush],
+            item 1 [Hydrocraft.HCBatterysmall],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectrictoothbrushpowered,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatterysmalldead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectrictoothbrushdead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectrictoothbrush,
+        }
+    }
+    craftRecipe Insert Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricrazor],
+            item 1 [Hydrocraft.HCBatterysmall],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricrazorpowered,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatterysmalldead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricrazordead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricrazor,
+        }
+    }
+    craftRecipe Open Tooth Paste
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Toothpaste],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToothpasteopen,
+        }
+    }
+    craftRecipe Brush Teeth
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Hygiene,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_minorhyienic,
+        inputs
+        {
+            item 1 [Base.Toothbrush],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCToothpasteopen],
+        }
+        outputs
+        {
+            item 1 Base.Toothbrush,
+        }
+    }
+    craftRecipe Brush Teeth
+    {
+        time = 95,
+        Tags = AnySurfaceCraft,
+        category = Hygiene,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_minorhyienic,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectrictoothbrushpowered],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCToothpasteopen],
+        }
+    }
+}

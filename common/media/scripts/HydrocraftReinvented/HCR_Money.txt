@@ -1,0 +1,704 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCPenny
+    {
+
+		DisplayCategory 	= Money,
+        Weight    		= 0.02,
+        Type    		= Normal,
+        DisplayName         	= Penny,
+        icon 			= HCPenny,
+        WorldStaticModel = WorldItem-HCMoney_Penny,
+    }
+    item HCNickel
+    {
+
+		DisplayCategory 	= Money,
+        Weight    		= 0.03,
+        Type    		= Normal,
+        DisplayName         	= Nickel,
+        icon 			= HCNickel,
+		WorldStaticModel = WorldItem-HCMoney_Nickel,
+    }
+    item HCDime
+    {
+
+		DisplayCategory 	= Money,
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Dime,
+        icon 			= HCDime,
+		WorldStaticModel = WorldItem-HCMoney_Dime,
+    }
+    item HCQuarter
+    {
+
+		DisplayCategory  = Money,
+        Weight    		 = 0.04,
+        Type    		 = Normal,
+        DisplayName      = Quarter,
+        icon 			 = HCQuarter,
+		WorldStaticModel = WorldItem-HCMoney_Quarter,
+    }
+    item HCHalfdollar
+    {
+
+		DisplayCategory 	= Money,
+        Weight    		= 0.05,
+        Type   			= Normal,
+        DisplayName         	= Half Dollar,
+        icon 			= HCHalfdollar,
+		WorldStaticModel = WorldItem-HCMoney_HalfDollarCoin,
+    }
+    item HCDollar
+    {
+
+		DisplayCategory 	= Money,
+        Weight    		= 0.04,
+        Type    		= Normal,
+        DisplayName         	= Dollar,
+        icon 			= HCDollar,
+		WorldStaticModel = WorldItem-HCMoney_DollarCoin,
+    }
+    item HC1dollarbill
+    {
+
+		DisplayCategory 	= Money,
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= 1 Dollar Bill,
+        icon 			= HC1dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+    }
+    item HC2dollarbill
+    {
+
+		DisplayCategory 	= Money,
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= 2 Dollar Bill,
+        icon 			 = HC2dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+    }
+    item HC5dollarbill
+    {
+
+		DisplayCategory 	= Money,
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= 5 Dollar Bill,
+        icon 			 = HC5dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+    }
+    item HC10dollarbill
+    {
+
+		DisplayCategory 	= Money,
+        Weight    		 = 0.01,
+        Type    		 = Normal,
+        DisplayName         	= 10 Dollar Bill,
+        icon 			 = HC10dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+    }
+    item HC20dollarbill
+    {
+
+		DisplayCategory  = Money,
+        Weight    		 = 0.01,
+        Type    		 = Normal,
+        DisplayName      = 20 Dollar Bill,
+        icon 			 = HC20dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+    }
+    item HC50dollarbill
+    {
+
+		DisplayCategory  = Money,
+        Weight    		 = 0.01,
+        Type    		 = Normal,
+        DisplayName      = 50 Dollar Bill,
+        icon 			 = HC50dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+    }
+    item HC100dollarbill
+    {
+
+		DisplayCategory  = Money,
+        Weight    		 = 0.01,
+        Type    		 = Normal,
+        DisplayName      = 100 Dollar Bill,
+        icon 			 = HC100dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+    }
+    item HCCheque
+    {
+
+		DisplayCategory = Money,
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Blank Cheque,
+        icon 			= HCCheque,
+		WorldStaticModel = WorldItem-HCMoney_BlankCheck,
+    }
+    item HCCoinpress
+    {
+
+		DisplayCategory	= CraftInd,
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName     = Coin Press,
+        icon 			= HCCoinpress,
+    }
+    item HCCoincopper
+    {
+
+		DisplayCategory  = Money,
+        Weight    		 = 0.04,
+        Type    		 = Normal,
+        DisplayName      = Copper Coin,
+        icon 			 = HCCoincopper,
+		WorldStaticModel = WorldItem-HCMoney_CopperCoin,
+    }
+    item HCCoinsilver
+    {
+
+		DisplayCategory 	= Money,		
+        Weight    		 	= 0.04,
+        Type    		 	= Normal,
+        DisplayName      	= Silver Coin,
+        icon 			 	= HCCoinsilver,
+		WorldStaticModel 	= WorldItem-HCMoney_SilverCoin,
+    }
+    item HCCoingold
+    {
+
+		DisplayCategory 	= Money,	
+        Weight    			= 0.04,
+        Type    			= Normal,
+        DisplayName         = Gold Coin,
+        icon 				= HCCoingold,
+		WorldStaticModel 	= WorldItem-HCMoney_GoldCoin,
+    }
+    item HCPiggybank
+    {
+	
+		DisplayCategory		= Misc,
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Piggy Bank,
+        icon 			= HCPiggybank,
+    }
+    item HCPiggybankopen
+    {
+
+        	WeightReduction     	= 	25,
+        	Weight              	= 	0.4,
+        	Type                	= 	Container,
+        	Capacity            	= 	10,
+        	DisplayName        	= 	Piggy Bank,
+        	Icon                	= 	HCPiggybank,
+    }
+    item HCWallet
+    {
+
+        	WeightReduction     	= 	25,
+        	Weight              	= 	0.2,
+        	Type                	= 	Container,
+        	Capacity            	= 	2,
+        	DisplayName        		= 	Wallet,
+        	Icon                	= 	Wallet_01,
+			WorldStaticModel 		= 	Wallet,
+    }
+    item HCWallet2
+    {
+
+        	WeightReduction     	= 	25,
+        	Weight              	= 	0.2,
+        	Type                	= 	Container,
+        	Capacity            	= 	2,
+        	DisplayName        		= 	Wallet,
+        	Icon                	= 	Wallet_02,
+			WorldStaticModel 		= 	Wallet2,
+    }
+    item HCWallet3
+    {
+
+        	WeightReduction     	= 	25,
+        	Weight              	= 	0.2,
+        	Type                	= 	Container,
+        	Capacity            	= 	2,
+        	DisplayName        		= 	Wallet,
+        	Icon                	= 	Wallet_03,
+			WorldStaticModel 		= 	Wallet3,
+    }
+    item HCWallet4
+    {
+
+        	WeightReduction     	= 	25,
+        	Weight              	= 	0.2,
+        	Type                	= 	Container,
+        	Capacity            	= 	2,
+        	DisplayName        		= 	Wallet,
+        	Icon                	= 	Wallet_04,
+			WorldStaticModel 		= 	Wallet4,
+    }
+    item HCSlotmachine
+    {
+
+	Weight			=	10.0,
+        Type			=	Normal,
+        DisplayName		=	Slot Machine,
+	Icon			=	HCSlotmachine,
+    }
+    item HCSlotmachine2
+    {
+
+        Weight    		= 	10000,
+        Type    		=	Normal,
+        DisplayName         	= 	Slot Machine,
+        icon 			= 	HCSlotmachine,
+    }
+    item HCPokerchip
+    {
+
+		DisplayCategory 	= Money,
+        Weight    			= 0.01,
+        Type    			= Normal,
+        DisplayName        	= Poker Chip,
+        icon 				= HCPokerchip,
+		WorldStaticModel 	= WorldItem-HCMoney_PokerChip,
+    }
+    item HCRoulette
+    {
+
+		
+		Weight			=	10.0,
+        Type			=	Normal,
+        DisplayName		=	Roulette Table,
+		Icon			=	HCRoulette,
+    }
+    item HCRoulette2
+    {
+
+		
+        Weight    		= 	10000,
+        Type    		=	Normal,
+        DisplayName         	= 	Roulette Table,
+        icon 			= 	HCRoulette,
+    }
+    craftRecipe Recycle Zinc
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:7,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 100 [Hydrocraft.HCPenny],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZincingot,
+        }
+    }
+    craftRecipe Recycle Zinc
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:7,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 80 [Hydrocraft.HCNickel],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZincingot,
+        }
+    }
+    craftRecipe Recycle Zinc
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:7,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 120 [Hydrocraft.HCDime],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZincingot,
+        }
+    }
+    craftRecipe Recycle Zinc
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:7,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 60 [Hydrocraft.HCQuarter],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZincingot,
+        }
+    }
+    craftRecipe Recycle Zinc
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:7,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 20 [Hydrocraft.HCHalfdollar],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZincingot,
+        }
+    }
+    craftRecipe Recycle Zinc
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:7,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 40 [Hydrocraft.HCDollar],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZincingot,
+        }
+    }
+    craftRecipe Recycle Copper
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:1,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 20 [Hydrocraft.HCCoincopper],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCopperingot,
+        }
+    }
+    craftRecipe Recycle Silver
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 20 [Hydrocraft.HCCoinsilver],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilveringot,
+        }
+    }
+    craftRecipe Recycle Gold
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:3,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 20 [Hydrocraft.HCCoingold],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGoldingot,
+        }
+    }
+    craftRecipe Press Coin
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCopperingot],
+            item 1 [Hydrocraft.HCCoinpress] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCCoincopper,
+        }
+    }
+    craftRecipe Press Coin
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSilveringot],
+            item 1 [Hydrocraft.HCCoinpress] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCCoinsilver,
+        }
+    }
+    craftRecipe Press Coin
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGoldingot],
+            item 1 [Hydrocraft.HCCoinpress] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCCoingold,
+        }
+    }
+    craftRecipe Make Coin Press
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 5 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCoinpress,
+        }
+    }
+    craftRecipe Open Wallet
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcwalletmoney,
+        inputs
+        {
+            item 1 [Base.Wallet],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWallet,
+        }
+    }
+    craftRecipe Open Wallet
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcwalletmoney,
+        inputs
+        {
+            item 1 [Base.Wallet],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWallet2,
+        }
+    }
+    craftRecipe Open Wallet
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcwalletmoney,
+        inputs
+        {
+            item 1 [Base.Wallet],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWallet3,
+        }
+    }
+    craftRecipe Open Wallet
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcwalletmoney,
+        inputs
+        {
+            item 1 [Base.Wallet],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWallet4,
+        }
+    }
+    craftRecipe Open Piggy Bank
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcwalletmoney,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPiggybank],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPiggybankopen,
+        }
+    }
+    craftRecipe Anchor Slot Machine
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSlotmachine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSlotmachine2,
+        }
+    }
+    craftRecipe Play Slot Machine
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcslotmachine,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDollar;Hydrocraft.HCCoingold],
+            item 1 [Hydrocraft.HCSlotmachine;Hydrocraft.HCSlotmachine2] mode:keep,
+        }
+    }
+    craftRecipe Anchor Roulette Table
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRoulette],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRoulette2,
+        }
+    }
+}

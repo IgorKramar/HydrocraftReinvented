@@ -1,0 +1,532 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCHoneybee
+    {
+
+	Weight 				= 	0.1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Honeybee,
+	Icon				=	HCHoneybee,
+	DisplayCategory          =   SurApi,
+    }
+    item HCQueenbee
+    {
+
+	Weight 				= 	0.1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Queen Honeybee,
+	Icon				=	HCQueenbee,
+	DisplayCategory          =   SurApi,
+    }
+    item HCBeekeeperhat
+    {
+
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Beekeeper Hat,
+	Icon				=	HCBeekeeperhat,
+	DisplayCategory          =   SurApi,
+    }
+    item HCBeesmokerempty
+    {
+
+	Weight 				= 	0.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Empty Bee Smoker,
+	Icon				=	HCBeesmoker,
+	DisplayCategory          =   SurApi,
+    }
+    item HCBeesmokerfull
+    {
+
+	Weight 				= 	0.5,
+	Type				=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta			=	0.25,
+	DisplayName 		= 	Bee Smoker,
+	ReplaceOnDeplete	=	HCBeesmokerempty,
+	Icon				=	HCBeesmoker,
+	DisplayCategory          =   SurApi,
+    }
+    item HCHoney
+    {
+
+	HungerChange			=	-60,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	UnhappyChange			=	-15,
+	DisplayName			=	Honey,
+	Icon				=	HCHoney,
+	BoredomChange			=	-10,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	Packaged 			= 	TRUE,	
+	DisplayCategory          =   FoodN,
+    }
+    item HCJarhoney
+    {
+
+	HungerChange			=	-60,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Honey,
+	Icon				=	HCJarhoney,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	DisplayCategory          =   FoodN,
+    }
+    item HCDryinghoney
+    {
+
+	HungerChange			=	-60,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	DisplayName			=	Drying Honey,
+	Icon				=	HCDriedhoney,
+	DaysFresh			=	50,
+	DaysTotallyRotten		=	100,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	FALSE,
+	MinutesToCook			=	40,
+	MinutesToBurn			=	60,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	ReplaceOnUse			=	BakingTray,
+	ReplaceOnCooked			= 	Hydrocraft.HCDriedhoney,
+	DisplayCategory          =   FoodP,
+    }
+    item HCDriedhoney
+    {
+
+	HungerChange			=	-60,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	ReplaceOnUse			=	BakingTray,
+	DisplayName			=	Dried Honey,
+	Icon				=	HCDriedhoney,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	DisplayCategory          =   FoodN,
+    }
+    item HCHoneypowder
+    {
+
+	HungerChange			=	-60,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	DisplayName			=	Honey Powder,
+	Icon				=	HCHoneypowder,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	DisplayCategory          =   FoodN,
+    }
+    item HCWoodenbuckethoney
+    {
+
+        Weight    			= 4,
+        Type    			= Normal,
+        DisplayName         		= Wooden Bucket with Honey,
+        icon 				= HCWoodenbuckethoney,
+		DisplayCategory          =   SurApi,
+    }
+    item HCHoneycomb
+    {
+
+	Weight 				= 0.3,
+	Type 				= Normal,
+	DisplayName 			= Honeycomb,
+	Icon				= HCHoneycomb,
+	DisplayCategory          =   SurApi,
+    }
+    item HCBeehive
+    {
+
+	Weight 			 = 3,
+	Type 			 = Normal,
+	DisplayName 	 = Wild Beehive,
+	Icon			 = HCBeehive,
+	DisplayCategory  = SurApi,
+	WorldStaticModel = WorldItem-HCBeehive,
+    }
+    item HCBeehive3
+    {
+
+        Weight          		= 12,
+        Type            		= Normal,
+        DisplayName     		= Inactive Beehive,
+        Icon            		= HCBeehive3,
+		DisplayCategory          =   SurApi,
+    }
+    item HCBeehive3b
+    {
+
+        Weight                  = 1000,
+        Type                    = Normal,
+        DisplayName             = Inactive Beehive (Stage 3),
+        Icon                    = HCBeehive3
+		DisplayCategory          =   SurApi,
+    }
+    item HCBeehive3Active
+    {
+
+        Weight          		= 12,
+        Type            		= Normal,
+        DisplayName     		= Beehive (Stage 3),
+        Icon            		= HCBeehive3Active,
+		DisplayCategory          =   SurApi,
+    }
+    item HCBeehive3bActive
+    {
+
+        Weight                  = 1000,
+        Type                    = Normal,
+        DisplayName             = Beehive Anchored,
+        Icon                    = HCBeehive3Active,
+		DisplayCategory          =   SurApi,
+    }
+    item HCBeehive3full
+    {
+
+        Weight          		= 12,
+        Type            		= Normal,
+        DisplayName     		= Beehive with Honey (Stage 3),
+        Icon            		= HCBeehive3full,
+		DisplayCategory          =   SurApi,
+    }
+    item HCBeehive3bfull
+    {
+
+        Weight                  = 1000,
+        Type                    = Normal,
+        DisplayName             = Beehive with Honey (Stage 3),
+        Icon                    = HCBeehive3full,
+		DisplayCategory          =   SurApi,
+    }
+    craftRecipe Unanchor Beehive
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeehive3b],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeehive3,
+        }
+    }
+    craftRecipe Build Beehive
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:6,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 10 [Base.Screws],
+            item 5 [Base.Plank],
+            item 10 [Base.Nails],
+            item 4 [Hydrocraft.HCWoodshingles],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 [Hydrocraft.HCBeehive],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeehive3,
+        }
+    }
+    craftRecipe Fill Bee Smoker with Fuel
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeesmokerempty],
+            item 1 [Base.SheetPaper2;Hydrocraft.HCGrass;Hydrocraft.HCBark;Hydrocraft.HCBirchbark;Hydrocraft.HCOakleaves;Hydrocraft.HCWillowbranch;Hydrocraft.HCPinebough;Hydrocraft.HCFirbough],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeesmokerfull,
+        }
+    }
+    craftRecipe Empty Bee Smoker
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeesmokerfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeesmokerempty,
+        }
+    }
+    craftRecipe Harvest Honeycomb
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Farming:2,
+        OnCreate = HCR42.recipe_hcbeehive3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeehive3full],
+            item 1 [Hydrocraft.HCBeekeeperhat] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCBeesmokerfull],
+        }
+        outputs
+        {
+            item 12 Hydrocraft.HCHoneycomb,
+        }
+    }
+    craftRecipe Harvest Honeycomb
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Farming:2,
+        OnCreate = HCR42.HCHoneycomb12,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeehive3bfull],
+            item 1 [Hydrocraft.HCBeekeeperhat] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCBeesmokerfull],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeehive3b,
+        }
+    }
+    craftRecipe Harvest Wild Beehive
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCHoneycomb12,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeehive],
+            item 1 [Hydrocraft.HCBeekeeperhat] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCBeesmokerfull],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHoneybee,
+        }
+    }
+    craftRecipe Process Honeycomb
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbeeswax,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 4 [Hydrocraft.HCHoneycomb],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbuckethoney,
+        }
+    }
+    craftRecipe Jar Honey
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbucket,
+        inputs
+        {
+            item 4 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCWoodenbuckethoney],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCJarhoney,
+        }
+    }
+    craftRecipe Make Bee Smoker
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 2 [Hydrocraft.HCTincan],
+            item 1 [Base.Bellows],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeesmokerempty,
+        }
+    }
+    craftRecipe Make Beekeeper Hat
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCStrawhat],
+            item 1 [Hydrocraft.HCLeather],
+            item 3 [Hydrocraft.HCNetting],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeekeeperhat,
+        }
+    }
+    craftRecipe Dry Honey
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Hydrocraft.HCHoney],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDryinghoney,
+        }
+    }
+    craftRecipe Dry Honey
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcjar,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Hydrocraft.HCJarhoney],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDryinghoney,
+        }
+    }
+    craftRecipe Make Honey Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Base.MortarPestle] mode:keep,
+            item 1 [Hydrocraft.HCDriedhoney],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHoneypowder,
+        }
+    }
+    craftRecipe Make Bag of Sugar
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCHoneypowder],
+            item 1 [Hydrocraft.HCSugarempty],
+        }
+        outputs
+        {
+            item 1 Base.Sugar,
+        }
+    }
+    craftRecipe Empty Wooden Bucket with Honey
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbuckethoney] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucket,
+        }
+    }
+}

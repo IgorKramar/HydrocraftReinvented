@@ -1,0 +1,124 @@
+module Hydrocraft
+{
+    imports { Base }
+    craftRecipe Empty Baking Tray
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadecookietray;Hydrocraft.HCChipcookietray;Hydrocraft.HCCookiewhitetray;Hydrocraft.HCCookiepeanutbuttertray;Hydrocraft.HCChocolatecookietray;Hydrocraft.HCDoublechocolatecookietray;Hydrocraft.HCGingerbreadmantray;Hydrocraft.HCChristmascookietray;Hydrocraft.HCFrostedchristmascookietray;Hydrocraft.HCHoneybuntray;Hydrocraft.HCDriedappletray;Hydrocraft.HCDriedpeachtray;Hydrocraft.HCDriedorangetray;Hydrocraft.HCDriedlemontray;Hydrocraft.HCDriedlimetray;Hydrocraft.HCDriedbananachipstray;Hydrocraft.HCDriedstrawberrytray;Hydrocraft.HCDriedberriestray;Hydrocraft.HCDriedtomatotray;Hydrocraft.HCDriedpumpkinseedstray;Hydrocraft.HCDriedrasinstray;Hydrocraft.HCDriedcrasinstray;Hydrocraft.HCDriedfruittray],
+        }
+        outputs
+        {
+            item 1 Base.BakingTray,
+        }
+    }
+    craftRecipe Empty Muffin Pan
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCupcakeshomemadepan],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMuffinpan,
+        }
+    }
+    craftRecipe Empty Bread Pan
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPumpkinbreadpan;Hydrocraft.HCRaisinbreadpan;Hydrocraft.HCCornbreadpan;Hydrocraft.HCFruitcakepan],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBreadpan,
+        }
+    }
+    craftRecipe Empty Pie Pan
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPieapplepan;Hydrocraft.HCPieblueberrypan;Hydrocraft.HCPiepeachpan;Hydrocraft.HCPiepearpan;Hydrocraft.HCPiepumpkinpan;Hydrocraft.HCPiecherrypan;Hydrocraft.HCPieblackberrypan;Hydrocraft.HCQuichepan],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPiepan,
+        }
+    }
+    craftRecipe Empty Frying Pan
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPancakeshomemadepan;Hydrocraft.HCBurritogrande;Hydrocraft.HCTaquito;Hydrocraft.HCTacocorn;Hydrocraft.HCTacocorngrande;Hydrocraft.HCTacoflour;Hydrocraft.HCTacoflourgrande;Hydrocraft.HCTacofish;Hydrocraft.HCTacocornedbeef;Hydrocraft.HCEnchilada] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.Pan,
+        }
+    }
+    craftRecipe Empty Roasting Pan
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLasagna;Hydrocraft.HCTurduckhen;Hydrocraft.HCChristmashamcasserole;Hydrocraft.HCChristmashamcasserole] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.RoastingPan,
+        }
+    }
+    craftRecipe Empty Roasting Pan
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 tags[RoastingPanFull] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RoastingPan,
+        }
+    }
+    craftRecipe Empty Sugar
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Sugar] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSugarempty,
+        }
+    }
+}

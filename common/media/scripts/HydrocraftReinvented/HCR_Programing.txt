@@ -1,0 +1,312 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCComputerdesktop
+    {
+
+	Weight             	= 20,
+        Type    		= Normal,
+        DisplayName         	= Desktop Computer,
+        icon 			= HCComputerdesktop,
+		DisplayCategory = CraftElec,
+    }
+    item HCFloppy
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk,
+        icon 			= HCFloppy,
+		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDisk,
+    }
+    item HCFloppyevosim
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Evolution Simulator,
+        icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+    }
+    item HCFloppygesture
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Gesture Recognition Software,
+        icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+    }
+    item HCFloppyvoice
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Voice Recognition Software,
+        icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+    }
+    item HCFloppygraphics
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Graphics Software,
+        icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+    }
+    item HCFloppywriting
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Writing Software,
+        icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+    }
+    item HCFloppyweb
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Web Browser Software,
+        icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+    }
+    item HCFloppyaudio
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Audio Software,
+        icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+    }
+    item HCFloppyemail
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Email Software,
+        icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+    }
+    craftRecipe Make Desktop Computer
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCComputermonitor],
+            item 1 [Hydrocraft.HCComputer],
+            item 1 [Hydrocraft.HCComputerkeyboard],
+            item 1 [Hydrocraft.HCComputermouse],
+            item 1 [Hydrocraft.HCMousepad],
+            item 1 [Hydrocraft.HCPowercord],
+            item 1 [Hydrocraft.HCTablewood],
+            item 1 [Base.Generator],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputerdesktop,
+        }
+    }
+    craftRecipe Write Computer Program
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Programing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:5,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCFloppy],
+            item 1 [Hydrocraft.HCBookbiology] mode:keep,
+            item 1 [Hydrocraft.HCBookmicrobiology] mode:keep,
+            item 1 [Hydrocraft.HCBookorganicchemistry] mode:keep,
+            item 1 [Hydrocraft.HCBookecology] mode:keep,
+            item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFloppyevosim,
+        }
+    }
+    craftRecipe Write Computer Program
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Programing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:6,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCFloppy],
+            item 1 [Hydrocraft.HCFloppygraphics] mode:keep,
+            item 1 [Hydrocraft.HCBookcalculus] mode:keep,
+            item 1 [Hydrocraft.HCBookanthropology] mode:keep,
+            item 1 [Hydrocraft.HCBooksociology] mode:keep,
+            item 1 [Hydrocraft.HCBookcommunications] mode:keep,
+            item 1 [Hydrocraft.HCBookanatomy] mode:keep,
+            item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFloppygesture,
+        }
+    }
+    craftRecipe Write Computer Program
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Programing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:6,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCFloppy],
+            item 1 [Hydrocraft.HCFloppyaudio] mode:keep,
+            item 1 [Hydrocraft.HCBookcalculus] mode:keep,
+            item 1 [Hydrocraft.HCBookanthropology] mode:keep,
+            item 1 [Hydrocraft.HCBooksociology] mode:keep,
+            item 1 [Hydrocraft.HCBookcommunications] mode:keep,
+            item 1 [Hydrocraft.HCBookmusic] mode:keep,
+            item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFloppyvoice,
+        }
+    }
+    craftRecipe Play Computer Game
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCPCgame1],
+            item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPCgame1,
+        }
+    }
+    craftRecipe Play Computer Game
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCPCgame2],
+            item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPCgame2,
+        }
+    }
+    craftRecipe Play Computer Game
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCPCgame3],
+            item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPCgame3,
+        }
+    }
+    craftRecipe Play Computer Game
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCPCgame4],
+            item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPCgame4,
+        }
+    }
+    craftRecipe Play Computer Game
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCPCgame5],
+            item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPCgame5,
+        }
+    }
+    craftRecipe Play Computer Game
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCPCgame6],
+            item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPCgame6,
+        }
+    }
+}

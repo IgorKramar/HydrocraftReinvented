@@ -1,0 +1,1756 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCCookingoil
+    {
+
+	Weight 				= 	0.75,
+	AlwaysWelcomeGift 		= 	true,
+	Type 				= 	Drainable,
+	UseDelta 			= 	0.1,
+	DisplayName 			= 	Cooking Oil,
+	Icon 				= 	HCCookingoil,
+	DisplayCategory          =   Cooking,
+	ReplaceOnDeplete        =   WaterBottleEmpty,
+	WorldStaticModel    = OilVegetable_Ground,
+    }
+    item HCCornsyrup
+    {
+
+	Weight 				= 	0.75,
+	Type 				= 	Drainable,
+	UseDelta 			= 	0.1,
+	DisplayName 			= 	Corn Syrup,
+	Icon 				= 	HCCornsyrup,
+	DisplayCategory          =   Cooking,
+    }
+    item HCRelish
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	30,
+	DisplayName			=	Bottle of Relish,
+	Icon				=	HCRelish,
+	EvolvedRecipe 			= 	Sandwich:2;Burger:2;Salad:2,
+	Spice   			=   	true,
+    Carbohydrates 			= 	5,
+    Proteins 			= 	0.1,
+    Lipids 				= 	0.1,
+    Calories 			= 	20,
+    Packaged 			= 	TRUE,
+    CantBeFrozen 			= 	TRUE,
+	DisplayCategory		= 	FoodS,
+    }
+    item HCMayojapan
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	30,
+	DisplayName			=	Bottle of Japanese Mayo,
+	Icon				=	HCMayojapan,
+	EvolvedRecipe 			= 	Sandwich:2;Burger:2;Salad:2;RicePot:1;RicePan:1;,
+	Spice   			=   	true,
+    Carbohydrates 			= 	1,
+    Proteins 			= 	3,
+    Lipids 				= 	75,
+    Calories 			= 	667,
+    Packaged 			= 	TRUE,
+    CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCHoneymustard
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	30,
+	DisplayName			=	Bottle of Honey Mustard,
+	Icon				=	HCHoneymustard,
+	EvolvedRecipe 			= 	Sandwich:2;Burger:2;Salad:2,
+	Spice   			=   	true,
+    Carbohydrates 			= 	4.2,
+    Proteins 			= 	0,
+    Lipids 				= 	1.5,
+    Calories 			= 	31.1,
+    Packaged 			= 	TRUE,
+    CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCDressingbluecheese
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	30,
+	DisplayName			=	Bottle of Blue Cheese Dressing,
+	Icon				=	HCDressingbluecheese,
+	EvolvedRecipe 			= 	Sandwich:2;Burger:2;Salad:2,
+	Spice   			=   	true,
+        Carbohydrates 			= 	4.4,
+        Proteins 			= 	0.3,
+        Lipids 				= 	0.2,
+        Calories 			= 	20,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCDressingcaesar
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	30,
+	DisplayName			=	Bottle of Caesar Dressing,
+	Icon				=	HCDressingcaesar,
+	EvolvedRecipe 			= 	Sandwich:2;Burger:2;Salad:2,
+	Spice   			=   	true,
+        Carbohydrates 			= 	9,
+        Proteins 			= 	7,
+        Lipids 				= 	4.4,
+        Calories 			= 	94,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCDressingfrench
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	30,
+	DisplayName			=	Bottle of French Dressing,
+	Icon				=	HCDressingfrench,
+	EvolvedRecipe 			= 	Sandwich:2;Burger:2;Salad:2,
+	Spice   			=   	true,
+        Carbohydrates 			= 	2.5,
+        Proteins 			= 	0.1,
+        Lipids 				= 	7,
+        Calories 			= 	73,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCDressingitalian
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	30,
+	DisplayName			=	Bottle of Italian Dressing,
+	Icon				=	HCDressingitalian,
+	EvolvedRecipe 			= 	Sandwich:2;Burger:2;Salad:2,
+	Spice   			=   	true,
+        Carbohydrates 			= 	1.8,
+        Proteins 			= 	0.1,
+        Lipids 				= 	3.1,
+        Calories 			= 	35,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCDressingranch
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	30,
+	DisplayName			=	Bottle of Ranch Dressing,
+	Icon				=	HCDressingranch,
+	EvolvedRecipe 			= 	Sandwich:2;Burger:2;Salad:2,
+	Spice   			=   	true,
+        Carbohydrates 			= 	2,
+        Proteins 			= 	0.3,
+        Lipids 				= 	15,
+        Calories 			= 	145,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCDressingrussian
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	30,
+	DisplayName			=	Bottle of Russian Dressing,
+	Icon				=	HCDressingrussian,
+	EvolvedRecipe 			= 	Sandwich:2;Burger:2;Salad:2,
+	Spice   			=   	true,
+        Carbohydrates 			= 	10,
+        Proteins 			= 	0.2,
+        Lipids 				= 	8,
+        Calories 			= 	107,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCDressianisland
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	30,
+	DisplayName			=	Bottle of Thousand Island Dressing,
+	Icon				=	HCDressianisland,
+	EvolvedRecipe 			= 	Sandwich:2;Burger:2;Salad:2,
+	Spice   			=   	true,
+        Carbohydrates 			= 	4.4,
+        Proteins 			= 	0.3,
+        Lipids 				= 	11,
+        Calories 			= 	111,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCParmesan
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	DisplayName 			= 	Parmesan Cheese,
+	Icon 				= 	HCParmesan,
+    Spice   			=   	true,
+    EvolvedRecipe = Soup:1;Stew:1;Pie:1;Stir fry Griddle Pan:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	HungerChange			=	-10,
+	UnhappyChange			=	30,
+	Packaged			=	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCSoysauce
+    {
+
+	Weight 				= 	0.5,
+	AlwaysWelcomeGift 	= 	true,
+	Type 				= 	Food,
+	DisplayName 		= 	Soy Sauce,
+	Icon				=	HCSoysaucefull,
+    Spice   			=   	true,
+    EvolvedRecipe 		= 	Soup:1;Stew:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	HungerChange		=	-10,
+	UnhappyChange		=	30,
+	Packaged			=	TRUE,
+	CantBeFrozen		=	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCBBQsauce
+    {
+
+	Weight 				= 	0.4,
+	Type				=	Food,
+	DisplayName 		= 	BBQ Sauce,
+	Icon 				= 	HCBBQsaucefull,
+	Spice   			=   true,
+	EvolvedRecipe 		= 	Sandwich:2;Salad:1;Burger:2,
+	HungerChange		=	-10,
+	UnhappyChange		=	30,
+	Packaged			=	TRUE,
+	CantBeFrozen		=	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCGarlicpowder
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	DisplayName 		= 	Garlic Powder,
+	Icon 				= 	HCGarlicpowderfull,
+	ReplaceOnUse		=	HCSpicejar,
+    Spice   			=   true,
+    EvolvedRecipe 		= 	Soup:1;Stew:1;Pie:1;Stir fry Griddle Pan:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	HungerChange		=	-10,
+	ThirstChange		=	10,
+	UnhappyChange		=	30,
+	CantBeFrozen		=	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCHerbs
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	DisplayName 		= 	Italian Herbs,
+	Icon 				= 	HCHerbs,
+	ReplaceOnUse	=	HCSpicejar,
+    Spice   			=   true,
+    EvolvedRecipe 		= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	HungerChange		=	-10,
+	UnhappyChange		=	30,
+	CantBeFrozen		=	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCHotsauce
+    {
+
+	Weight 				= 	0.4,
+	AlwaysWelcomeGift 		= 	true,
+	Type 				= 	Food,
+	DisplayName 			= 	Hot Sauce,
+	Icon 				= 	HCHotsauce,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	HungerChange			=	-10,
+	UnhappyChange			=	30,
+	CantBeFrozen			=	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCSriracha
+    {
+
+	Weight 				= 	0.4,
+	AlwaysWelcomeGift 		= 	true,
+	Type 				= 	Food,
+	DisplayName 			= 	Sriracha,
+	Icon 				= 	HCSriracha,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	HungerChange			=	-10,
+	UnhappyChange			=	30,
+	CantBeFrozen			=	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCChilipowder
+    {
+
+        HungerChange			=	-10,
+        Weight				=	0.2,
+        Type				=	Food,
+        DisplayName			=	Chili Powder,
+        Icon				=	HCChilipowder,
+        Spice   			=   	true,
+        ThirstChange			=	30,
+        BoredomChange			=	15,
+        UnhappyChange			=	20,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	CantBeFrozen			=	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCKetchup
+    {
+
+	Weight				=	0.2,
+	Type 				= 	Food,
+	DisplayName 			= 	Homemade Ketchup,
+	ReplaceOnUse		=	HCJar,
+	Icon				=	HCKetchup,
+	Spice   			=   	true,
+	EvolvedRecipe 			= 	Sandwich:2;Burger:2,
+	HungerChange			=	-10,
+	UnhappyChange			=	30,
+	CantBeFrozen			=	TRUE,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCSugarcubes
+    {
+
+	Weight 				= 	0.1,
+	Type 				= 	Food,
+	DisplayName 			= 	Sugar Cubes,
+	Icon 				= 	HCSugarcubes,
+	EvolvedRecipe = HotDrink:1;HotDrinkWhite:1;HotDrinkSpiffo:1;HotDrinkTea:1;Toast:1;Oatmeal:1,
+	Spice = true,
+	HungerChange = -8,
+	Calories = 100,
+	Carbohydrates = 30,
+	Lipids = 0,
+	Proteins = 0,
+	Tags = Sugar,
+	FoodType = Sugar,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCookingoiljar
+    {
+
+	Weight 					= 	1,
+	Type 					= 	Drainable,
+	UseDelta 				= 	0.1,
+	DisplayName 			= 	Jar of Cooking Oil,
+	Icon 					= 	HCCookingoiljar,
+	ReplaceOnDeplete		=	HCJar,
+	DisplayCategory 				= 	Cooking,
+    }
+    item HCSpicejar
+    {
+
+        Weight    			= 	0.03,
+        Type   				= 	Normal,
+        DisplayName         		= 	Empty Spice Jar,
+        icon 				= 	HCSpicejar,
+	DisplayCategory			= 	Cooking,
+    }
+    item HCArrowroot
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Arrowroot,
+	Icon 				= 	HCArrowroot,
+	ReplaceOnUse		=	HCSpicejar,
+    Spice   			=   	true,
+    EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCBasil
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange		= 	-10,
+	ThirstChange		=	20,
+	BoredomChange		=	15,
+	UnhappyChange		=	20,
+	CantBeFrozen		=	TRUE,
+	DisplayName 		= 	Basil,
+	Icon 				= 	HCBasil,
+	ReplaceOnUse		=	HCSpicejar,
+    Spice   			=   true,
+    EvolvedRecipe 		= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCBayleaves
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Bay Leaves,
+	Icon 				= 	HCBayleaves,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCaraway
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Caraway,
+	Icon 				= 	HCCaraway,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCardamom
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Cardamom,
+	Icon 				= 	HCCardamom,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCeleryseed
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Celery Seed,
+	Icon 				= 	HCCeleryseed,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCilantro
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Cilantro,
+	Icon 				= 	HCCilantro,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCinnamon
+    {
+
+	HungerChange			= 	-10,
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Cinnamon,
+	Icon 				= 	HCCinnamon,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCChevril
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Chevril,
+	Icon 				= 	HCChevril,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCloves
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Cloves,
+	Icon 				= 	HCCloves,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCreamoftartar
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Cream of Tartar,
+	Icon 				= 	HCCreamoftartar,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCoriander
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Coriander,
+	Icon 				= 	HCCoriander,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCumin
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Cumin,
+	Icon 				= 	HCCumin,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCurry
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Curry,
+	Icon 				= 	HCCurry,
+	ReplaceOnUse		=	HCSpicejar,
+    Spice   			=   	true,
+    EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCDill
+    {
+
+	Weight 					= 	0.4,
+	Type 					= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Dill,
+	Icon 					= 	HCDill,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 		= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCGroundepazote
+    {
+
+	Weight 					= 	0.4,
+	Type 					= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Ground Epazote,
+	Icon 					= 	HCGroundepazote,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 		= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCGroundfennel
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Ground Fennel,
+	Icon 				= 	HCGroundfennel,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCGrainsofparadise
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Grains of Paradise,
+	Icon 				= 	HCGrainsofparadise,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCGroundginger
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Ground Ginger,
+	Icon 				= 	HCGroundginger,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCGroundjuniper
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Ground Juniper,
+	Icon 				= 	HCGroundjuniper,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCLemonpepper
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Lemon Pepper Seasoning,
+	Icon 				= 	HCLemonpepper,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCMarjoram
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Marjoram,
+	Icon 				= 	HCMarjoram,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCMullingspice
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Mulling Spice,
+	Icon 				= 	HCMullingspice,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCMustardpowder
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Mustard Powder,
+	Icon 				= 	HCMustardpowder,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCNutmeg
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Nutmeg,
+	Icon 				= 	HCNutmeg,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCOnionpowder
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Onion Powder,
+	Icon 				= 	HCOnionpowder,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCOregano
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Oregano,
+	Icon 				= 	HCOregano,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCPaprika
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Paprika,
+	Icon 				= 	HCPaprika,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCParsleyflakes
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Parsley Flakes,
+	Icon 				= 	HCParsleyflakes,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCWhitepepper
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Ground White Pepper,
+	Icon 				= 	HCWhitepepper,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCPeppermint
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Peppermint,
+	Icon 				= 	HCPeppermint,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCPicklingspice
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Pickling Spice,
+	Icon 				= 	HCPicklingspice,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCPoppyseedsJar
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Jared Poppy Seeds,
+	Icon 				= 	HCPoppyseeds,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCPumpkinspice
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Pumpkin Spice,
+	Icon 				= 	HCPumpkinspice,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCRosemary
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Rosemary,
+	Icon 				= 	HCRosemary,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCSage
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Sage,
+	Icon 				= 	HCSage,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCSaffron
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Saffron,
+	Icon 				= 	HCSaffron,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCSavory
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Ground Savory,
+	Icon 				= 	HCSavory,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCSteakseasoning
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Steak Seasoning,
+	Icon 				= 	HCSteakseasoning,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCCajunseasoning
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Cajun Seasoning,
+	Icon 				= 	HCCajunseasoning,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCFishseasoning
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Fish Seasoning,
+	Icon 				= 	HCFishseasoning,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCChickenseasoning
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Chicken Seasoning,
+	Icon 				= 	HCChickenseasoning,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCSesameseeds
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Sesame Seeds,
+	Icon 				= 	HCSesameseeds,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCMesquitesmoke
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Mesquite Smoke Spice,
+	Icon 				= 	HCMesquitesmoke,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCHickorysmoke
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Hickory Smoke Spice,
+	Icon 				= 	HCHickorysmoke,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCSpearmint
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Spearmint,
+	Icon 				= 	HCSpearmint,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCStaranise
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Star Anise,
+	Icon 				= 	HCStaranise,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCSumac
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Sumac,
+	Icon 				= 	HCSumac,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCTarragon
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Tarragon,
+	Icon 				= 	HCTarragon,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCTurmeric
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Turmeric,
+	Icon 				= 	HCTurmeric,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCThyme
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Thyme,
+	Icon 				= 	HCThyme,
+	ReplaceOnUse		=	HCSpicejar,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCWasabi
+    {
+
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	HungerChange			= 	-10,
+	ThirstChange			=	20,
+	BoredomChange			=	15,
+	UnhappyChange			=	20,
+	CantBeFrozen			=	TRUE,
+	DisplayName 			= 	Wasabi,
+	Icon 				= 	HCWasabi,
+	ReplaceOnUse		=	HCSpicejar,
+    Spice   			=   	true,
+    EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
+    }
+    item HCPeanutbutter
+    {
+
+		HungerChange	=	-25,
+		Weight			=	0.3,
+		Type			=	Food,
+		UnhappyChange	=	-15,
+		DisplayName		=	Homemade Peanut Butter,
+		Icon			=	HCPeanutbutter,
+		BoredomChange	=	-5,
+		EvolvedRecipe 	= 	Sandwich:7,
+		FoodType    	=   	NoExplicit,
+        Carbohydrates 	= 	128,
+        Proteins 		= 	84,
+        Lipids 			= 	224,
+        Calories 		= 	2660,
+        Packaged 		= 	TRUE,
+		ReplaceOnUse	=	HCJar,
+	DisplayCategory	= 	FoodN,
+    }
+    item HCAlfredosauce
+    {
+
+		HungerChange		=	-10,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Alfredo Sauce,
+		Icon			=	HCAlfredosauce,
+		EvolvedRecipe 		= 	Sandwich:2;Burger:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
+		Spice   		=   	true,
+        Carbohydrates 		= 	3,
+        Proteins 		= 	2,
+        Lipids 			= 	7,
+        Calories 		= 	80,
+        Packaged 		= 	TRUE,
+        CantBeFrozen 		= 	TRUE,
+		ReplaceOnUse	=	HCJar,
+	DisplayCategory	= 	FoodS,
+    }
+    craftRecipe Make Homemade Ketchup
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTomatosaucebowl],
+            item 1 [Base.Sugar],
+            item 1 [Base.Vinegar2],
+            item 1 [Hydrocraft.HCKetchupempty],
+            item 1 [Hydrocraft.HCWhisk] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCKetchup,
+        }
+    }
+    craftRecipe Make Vegetable Oil
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 50 [Base.Peanuts],
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCOilpress2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketvegoil,
+        }
+    }
+    craftRecipe Make Vegetable Oil
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 50 [Base.SunflowerSeeds],
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCOilpress2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketvegoil,
+        }
+    }
+    craftRecipe Make Vegetable Oil
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPumpkinseedspacket],
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCOilpress2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketvegoil,
+        }
+    }
+    craftRecipe Make Vegetable Oil
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCCottonseedspacket],
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCOilpress2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketvegoil,
+        }
+    }
+    craftRecipe Make Vegetable Oil
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Hydrocraft.HCCornseedspacket],
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCOilpress2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketvegoil,
+        }
+    }
+    craftRecipe Make Vegetable Oil
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCFlaxseedseedpacket],
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCOilpress2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketvegoil,
+        }
+    }
+    craftRecipe Make Vegetable Oil
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Hydrocraft.HCCornredseedspacket],
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCOilpress2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketvegoil,
+        }
+    }
+    craftRecipe Make Vegetable Oil
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Hydrocraft.HCCornblueseedspacket],
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCOilpress2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketvegoil,
+        }
+    }
+    craftRecipe Jar Cooking Oil
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        OnCreate = HCR42.recipe_hcwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketvegoil],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 4 [Hydrocraft.HCJar],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCCookingoiljar,
+        }
+    }
+    craftRecipe Make Bottle of Vegetable Oil
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcjar,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCookingoiljar] mode:destroy,
+            item 1 [Hydrocraft.HCWaterbottleclean],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCookingoil,
+        }
+    }
+    craftRecipe Pour Vegetable Oil into Bucket
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPotvegoil],
+            item 1 [Hydrocraft.HCWoodenbucket],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketvegoil,
+        }
+    }
+    craftRecipe Make Bottles of Vegetable Oil
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketvegoil],
+            item 4 [Hydrocraft.HCWaterbottleclean],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCCookingoil,
+        }
+    }
+    craftRecipe Make Bottles of Classic Vegetable Oil
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketvegoil],
+            item 4 [Hydrocraft.HCWaterbottleclean],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 4 Base.OilVegetable,
+        }
+    }
+    craftRecipe Make Fish Oil
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Base.FishFillet],
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCOilpress;Hydrocraft.HCOilpress2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketfishoil,
+        }
+    }
+    craftRecipe Make Peanutbutter
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Base.Peanuts],
+            item 1 [Base.Salt],
+            item 1 [Base.Sugar],
+            item 1 [Hydrocraft.HCCookingoil;Hydrocraft.HCCookingoiljar;Base.OilVegetable],
+            item 1 [Hydrocraft.HCJar],
+            item 1 [Base.MortarPestle] mode:keep,
+            item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPeanutbutter,
+        }
+    }
+    craftRecipe Make Peanutbutter
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Base.Peanuts],
+            item 1 [Base.Salt],
+            item 1 [Base.Sugar],
+            item 1 [Hydrocraft.HCCookingoil;Hydrocraft.HCCookingoiljar;Base.OilVegetable],
+            item 1 [Hydrocraft.HCPeanutbutterjarempty],
+            item 1 [Base.MortarPestle] mode:keep,
+            item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PeanutButter,
+        }
+    }
+    craftRecipe Make Chili Powder
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCChilipepperdry],
+            item 1 [Hydrocraft.HCSaltshakerempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChilipowder,
+        }
+    }
+    craftRecipe Make Celery Seed
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Hydrocraft.HCCeleryseeds],
+            item 1 [Hydrocraft.HCSpicejar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCeleryseed,
+        }
+    }
+    craftRecipe Make Garlic Powder
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCGarlicdry],
+            item 1 [Hydrocraft.HCSpicejar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGarlicpowder,
+        }
+    }
+    craftRecipe Make Onion Powder
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCOniondry],
+            item 1 [Hydrocraft.HCSpicejar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCOnionpowder,
+        }
+    }
+    craftRecipe Make Italian Herbs
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCBasilleaf],
+            item 5 [Hydrocraft.HCOreganoleaf],
+            item 1 [Hydrocraft.HCSpicejar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHerbs,
+        }
+    }
+    craftRecipe Pour Out Spice Jar
+    {
+        time = 20,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHerbs;Hydrocraft.HCGarlicpowder;Hydrocraft.HCBasil;Hydrocraft.HCCardamom;Hydrocraft.HCCeleryseed;Hydrocraft.HCCinnamon;Hydrocraft.HCChevril;Hydrocraft.HCCloves;Hydrocraft.HCCreamoftartar;Hydrocraft.HCCoriander;Hydrocraft.HCCumin;Hydrocraft.HCCurry;Hydrocraft.HCDill;Hydrocraft.HCGroundepazote;Hydrocraft.HCGroundfennel;Hydrocraft.HCGrainsofparadise;Hydrocraft.HCGroundginger;Hydrocraft.HCGroundjuniper;Hydrocraft.HCLemonpepper;Hydrocraft.HCMarjoram;Hydrocraft.HCMullingspice;Hydrocraft.HCMustardpowder;Hydrocraft.HCNutmeg;Hydrocraft.HCOnionpowder;Hydrocraft.HCOregano;Hydrocraft.HCPaprika;Hydrocraft.HCParsleyflakes;Hydrocraft.HCWhitepepper;Hydrocraft.HCPeppermint;Hydrocraft.HCPicklingspice;Hydrocraft.HCPoppyseeds;Hydrocraft.HCPumpkinspice;Hydrocraft.HCRosemary;Hydrocraft.HCSage;Hydrocraft.HCSaffron;Hydrocraft.HCSavory;Hydrocraft.HCSteakseasoning;Hydrocraft.HCCajunseasoning;Hydrocraft.HCFishseasoning;Hydrocraft.HCChickenseasoning;Hydrocraft.HCSesameseeds;Hydrocraft.HCMesquitesmoke;Hydrocraft.HCHickorysmoke;Hydrocraft.HCSpearmint;Hydrocraft.HCStaranise;Hydrocraft.HCSumac;Hydrocraft.HCTarragon;Hydrocraft.HCTurmeric;Hydrocraft.HCThyme;Hydrocraft.HCWasabi],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpicejar,
+        }
+    }
+}

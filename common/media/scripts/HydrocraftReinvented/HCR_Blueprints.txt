@@ -1,0 +1,1531 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCBlueprintpoatocannon
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Potato Cannon Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Craft Potato Cannon,
+        ReplaceOnUse    	=   	HCBlueprintpoatocannon,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintflamethrower
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Flamethrower Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Craft Flamethrower;Load Flamethrower,
+        ReplaceOnUse    	=   	HCBlueprintflamethrower,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintrocketlauncher
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Rocket Launcher Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Craft Rocket Launcher;Load Rocket Launcher,
+        ReplaceOnUse    	=   	HCBlueprintrocketlauncher,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintducttapefletching
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Duct Tape Fletching Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Duct Tape Fletching,
+        ReplaceOnUse    	=   	HCBlueprintducttapefletching,
+		DisplayCategory          =   LitR,
+        StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintbonearrowhead
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Bone Arrowhead Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Bone Arrowhead,
+        ReplaceOnUse    	=   	HCBlueprintbonearrowhead,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintfishingrod
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Fishing Rod Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Fishing Rod;Fix Fishing Rod,
+        ReplaceOnUse    	=   	HCBlueprintfishingrod,
+		DisplayCategory          =   LitR,
+        StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintfishingnet
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Fishing Net Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Fishing Net;Get Wire Back,
+        ReplaceOnUse    	=   	HCBlueprintfishingnet,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprinttrapcrate
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Crate Trap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Wooden Cage Trap,
+        ReplaceOnUse    	=   	HCBlueprinttrapcrate,
+		DisplayCategory          =   LitR,
+        StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprinttrapstick
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Stick Trap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Stick Trap,
+        ReplaceOnUse    	=   	HCBlueprinttrapstick,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprinttrapsnare
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Snare Trap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Snare Trap,
+        ReplaceOnUse    	=   	HCBlueprinttrapsnare,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprinttrapbox
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Trap Box Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Trap Box,
+        ReplaceOnUse    	=   	HCBlueprinttrapbox,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprinttrapcage
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Cage Trap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Cage Trap,
+        ReplaceOnUse    	=   	HCBlueprinttrapcage,
+		DisplayCategory          =   LitR,
+        StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintmousetrap
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Mousetrap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Mousetrap,
+        ReplaceOnUse    	=   	HCBlueprintmousetrap,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintnailtrap
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Nail Trap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Spike Trap;Add Nails to Spike Trap;Set Nail Trap,
+        ReplaceOnUse    	=   	HCBlueprintnailtrap,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintantibiotics
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Antibiotics Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Make Penicillin,
+         ReplaceOnUse    	=   	HCBlueprintantibiotics,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintpainkillers
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Painkillers Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Make Willow Bark Tea;Extract Acetylsalicylic Acid,
+         ReplaceOnUse    	=   	HCBlueprintpainkillers,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintantidepression
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Anti-Depression Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Prepare Valerian;Dry Valerian;Make Anti-Depression Pills,
+         ReplaceOnUse    	=   	HCBlueprintantidepression,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintproflab
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Professional Lab Blueprints,
+         Icon			=	HCBlueprint,
+         TeachedRecipes 	=   	Build Professional Lab,
+         ReplaceOnUse    	=   	HCBlueprintproflab,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintmeth
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Crystal Meth Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Make Homemade Crystal Meth;Research Blue Meth,
+         ReplaceOnUse    	=   	HCBlueprintmeth,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintbluemeth
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Blue Meth Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Cook Blue Meth,
+         ReplaceOnUse    	=   	HCBlueprintbluemeth,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintinjections
+    {
+
+         Weight         =	0.1,
+         Type			=	Literature,
+         DisplayName	=	Injection Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes =   Take Blood from Zombie;Inject Yourself with Zombie Blood;Draw Up Syringe With Morphine,
+         ReplaceOnUse   =   HCBlueprintinjections,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintskinanimal
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Skinning Animals Research,
+        Icon			=	HCBlueprint,
+        /*TeachedRecipes 	=   Skin Animal,*/
+        ReplaceOnUse    =   HCBlueprintskinanimal,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintopium
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		= Opium Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	= Dry Poppy Flower;Rip Poppy Capsules;Knead Raw Opium;Cook Raw Opium;Ferment Opium Powder;Make Morphine Hydrochloride Solution;Add Water To Morphine Hydrochloride;Add Ammonia To Morphine Hydrochloride Solution;Add Ammonia To Morphine Hydrochloride Solution,
+         ReplaceOnUse    	=   	HCBlueprintopium,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintether
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Ether Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	= Seperate Ether;Put Ether in Beaker;Soak Ripped Sheet with Selfmade Ether,
+         ReplaceOnUse    	= HCBlueprintether,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintsolarpark
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Solar Park Blueprint,
+         Icon			=	HCBlueprint,
+         TeachedRecipes  	=   	Build Battery Array;Build Solar Panel;Build Solar Park;Recharge Battery;Upgrade to Solar Generator;Plugin Solar Generator;Unplug Solar Generator,
+         ReplaceOnUse    	=   	HCBlueprintsolarpark,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprinthmtd
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	HMTD Chemical Research,
+         Icon			=	HCChemicalresearch,
+         TeachedRecipes 	=   	Make Beaker with Hydrogen Peroxide;Cool Beaker with Hydrogen Peroxide;Add Hexamethylentetramin to Beaker with Hydrogen Peroxide;Cool Beaker with Hydrogen Peroxide and Hexamethylentetramin;Add Citric Acid to Beaker with Hydrogen Peroxide and Hexamethylentetramin;Cool Beaker with Hydrogen Peroxide Hexamethylentetramin and Citric Acid;Filtrate HMTD Crystals;Dry HMTD Crystals,
+         ReplaceOnUse    	=   	HCBlueprinthmtd,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintHerbalMed
+    {
+
+         Weight         =   0.1,
+         Type           =   Literature,
+         DisplayName        =   Herbal Medicine Research,
+         Icon           =   HCChemicalresearch,
+         TeachedRecipes     =  Create Ginseng Extract;Create Lemongrass Extract,
+         ReplaceOnUse       =       HCBlueprintHerbalMed,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintammonal
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Ammonal Chemical Research,
+         Icon			=	HCChemicalresearch,
+         TeachedRecipes 	=   	Make Ammonal;Dry Ammonal;Fill Ammonal in Bag,
+         ReplaceOnUse    	=   	HCBlueprintammonal,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintjackalope
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Taxadermy Jackalope Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Craft Taxidermy Jackalope,
+        ReplaceOnUse    	=   	HCBlueprintjackalope,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintsteampot
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Steam Pressure Pot Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Craft Steam Pressure Pot,
+        ReplaceOnUse    	=   	HCBlueprintsteampot,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintcarbon
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Carbon Fiber Chemical Research,
+         Icon			=	HCChemicalresearch,
+         TeachedRecipes 	=   	Make Carbon Powder;Make Carbon Nanorings;Make Carbon Nanochains;Make Carbon Nanofiber,
+         ReplaceOnUse    	=   	HCBlueprintcarbon,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintbetablocker
+    {
+
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Beta Blocker Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Prepare Hawthorn Fruit;Dry Hawthorn Fruit;Make Beta Blocker Pills,
+         ReplaceOnUse    	=   	HCBlueprintbetablocker,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintcomposter2
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Spirulina Composter Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Build Spirulina Composter;Harvest Spirulina Composter,
+        ReplaceOnUse    	=   	HCBlueprintcomposter2,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintcomputermouse
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Computer Mouse Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer Mouse,
+        ReplaceOnUse    	=   	HCBlueprintcomputermouse,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintcomputerkeyboard
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Computer Keyboard Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer Keyboard,
+        ReplaceOnUse    	=   	HCBlueprintcomputerkeyboard,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintcomputermonitor
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Computer Monitor Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer Monitor,
+        ReplaceOnUse    	=   	HCBlueprintcomputermonitor,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintextractworkingcpu
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Extract Working CPU Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Extract Working CPU,
+        ReplaceOnUse    	=   	HCBlueprintextractworkingcpu,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintmakecomputerpsu
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Make Computer PSU Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer PSU,
+        ReplaceOnUse    	=   	HCBlueprintmakecomputerpsu,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintmakecomputerfan
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Make Computer Fan Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer Fan,
+        ReplaceOnUse    	=   	HCBlueprintmakecomputerfan,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCBlueprintmakecomputertower
+    {
+
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Make Computer Tower Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer Tower,
+        ReplaceOnUse    	=   	HCBlueprintmakecomputertower,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCPlanIronMine
+    {
+
+        Weight          =   0.1,
+        Type            =   Literature,
+        DisplayName     =   Expand Mine to Iron Mine,
+        Icon            =   HCBlueprint,
+        TeachedRecipes  =   Expand Mine to Iron Mine,
+        ReplaceOnUse    =   HCPlanIronMine,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCPlanCoalMine
+    {
+
+        Weight          =   0.1,
+        Type            =   Literature,
+        DisplayName     =   Expand Mine to Coal Mine,
+        Icon            =   HCBlueprint,
+        TeachedRecipes  =   Expand Mine to Coal Mine,
+        ReplaceOnUse    =   HCPlanCoalMine,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCAdvFitPlan
+    {
+
+        Weight          =   0.1,
+        Type            =   Literature,
+        DisplayName     =   Advanced Fitness Plan,
+        Icon            =   HCBlueprint,
+        TeachedRecipes  =   Exercise hard with Punching Bag;Exercise hard with Weights;Exercise hard on Treadmill,
+        ReplaceOnUse    =   HCAdvFitPlan,
+		DisplayCategory          =   LitR,
+		StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
+    }
+    item HCCookbookMethanol
+    {
+
+        Weight          =   0.1,
+        Type            =   Literature,
+        DisplayName     =   How to make Methanol,
+        Icon            =   HCCookbook,
+        TeachedRecipes  =   Prepare Barrel of Lemon Mash;Distill Methanol,
+        ReplaceOnUse    =   HCCookbookMethanol,
+		DisplayCategory          =   LitR,
+		StaticModel	 = Book,
+		WorldStaticModel = HCCookbook,
+    }
+    item HCknittingTextBook
+    {
+
+        Weight          =   0.1,
+        Type            =   Literature,
+        DisplayName     =   Knitting patterns,
+        Icon            =   HCCookbook,
+        TeachedRecipes  =   Knit Long Wool Socks;Knit Scarf;Knit Balaclava;Knit Wool Sweater;Knit Thick Wool Sweater,
+        ReplaceOnUse    =   HCknittingTextBook,
+		DisplayCategory          =   LitR,
+		StaticModel	 = Book,
+		WorldStaticModel = HCCookbook,
+    }
+    item HCSilkworkingTextbook
+    {
+
+        Weight          =   0.1,
+        Type            =   Literature,
+        DisplayName     =   Tailoring With Silk,
+        Icon            =   HCCookbook,
+        TeachedRecipes  =   Make Long Silk Undies,
+        ReplaceOnUse    =   HCSilkworkingTextbook,
+		DisplayCategory          =   LitR,
+		StaticModel	 = Book,
+		WorldStaticModel = HCCookbook,
+    }
+    craftRecipe Make Potato Cannon Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookgunsmithing] mode:keep,
+            item 1 [Hydrocraft.HCBookplumbing] mode:keep,
+            item 1 [Hydrocraft.HCBookphysics] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintpoatocannon,
+        }
+    }
+    craftRecipe Make Flamethrower Blueprint
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookgunsmithing] mode:keep,
+            item 1 [Hydrocraft.HCBookwelding] mode:keep,
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCknittingTextBook,
+        }
+    }
+    craftRecipe Make Rocket Launcher Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookgunsmithing] mode:keep,
+            item 1 [Hydrocraft.HCBookelectrical] mode:keep,
+            item 1 [Hydrocraft.HCBookrocketry] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintrocketlauncher,
+        }
+    }
+    craftRecipe Research Herbal Medicine
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookmedical] mode:keep,
+            item 1 [Hydrocraft.HCBookherbalism] mode:keep,
+            item 1 [Hydrocraft.HCBookpharmacology] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintHerbalMed,
+        }
+    }
+    craftRecipe Design Knitting Patterns
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Hydrocraft.HCBooktailoring] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCknittingTextBook,
+        }
+    }
+    craftRecipe Design Silk Clothes
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCSilkthread] mode:keep,
+            item 1 [Hydrocraft.HCSilkcloth] mode:keep,
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Hydrocraft.HCBooktailoring] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilkworkingTextbook,
+        }
+    }
+    craftRecipe Make Duct Tape Fletching Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Base.DuctTape] mode:keep,
+            item 1 [Hydrocraft.HCBookarchery] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintducttapefletching,
+        }
+    }
+    craftRecipe Make Bone Arrowhead Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBone;Hydrocraft.HCZombiebones] mode:keep,
+            item 1 [Hydrocraft.HCBookarchery] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintbonearrowhead,
+        }
+    }
+    craftRecipe Research Methanol
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+            item 1 [Hydrocraft.HCBookmicrobiology] mode:keep,
+            item 1 [Hydrocraft.HCBookwinemaking] mode:keep,
+            item 1 [Hydrocraft.HCBookbiodiesel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCookbookMethanol,
+        }
+    }
+    craftRecipe Research Fitness Training
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+            item 1 [Hydrocraft.HCTredmillgenerator] mode:keep,
+            item 1 [Hydrocraft.HCWeights] mode:keep,
+            item 1 [Hydrocraft.HCPunchingbag] mode:keep,
+            item 1 [Hydrocraft.HCBoxinggloves] mode:keep,
+            item 1 [Hydrocraft.HCFitnessdrink],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAdvFitPlan,
+        }
+    }
+    craftRecipe Make Fishing Rod Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookanthropology] mode:keep,
+            item 1 [Hydrocraft.HCBookfishguide] mode:keep,
+            item 1 [Base.BookFishing5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintfishingrod,
+        }
+    }
+    craftRecipe Make Fishing Net Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Base.BookTrapping5] mode:keep,
+            item 1 [Hydrocraft.HCBookfishguide] mode:keep,
+            item 1 [Base.BookFishing5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintfishingnet,
+        }
+    }
+    craftRecipe Make Crate Trap Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookhunting] mode:keep,
+            item 1 [Hydrocraft.HCBookmammalguide] mode:keep,
+            item 1 [Base.BookTrapping5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprinttrapcrate,
+        }
+    }
+    craftRecipe Make Stick Trap Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookanthropology] mode:keep,
+            item 1 [Hydrocraft.HCBookbirdgude] mode:keep,
+            item 1 [Base.BookTrapping5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprinttrapstick,
+        }
+    }
+    craftRecipe Make Snare Trap Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookanthropology] mode:keep,
+            item 1 [Hydrocraft.HCBookmammalguide] mode:keep,
+            item 1 [Base.BookTrapping5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprinttrapsnare,
+        }
+    }
+    craftRecipe Make Trap Box Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Base.BookCarpentry5] mode:keep,
+            item 1 [Hydrocraft.HCBookmammalguide] mode:keep,
+            item 1 [Base.BookTrapping5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprinttrapbox,
+        }
+    }
+    craftRecipe Make Cage Trap Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBooksteelworking] mode:keep,
+            item 1 [Hydrocraft.HCBookmammalguide] mode:keep,
+            item 1 [Base.BookTrapping5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprinttrapcage,
+        }
+    }
+    craftRecipe Make Mousetrap Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookmammalguide] mode:keep,
+            item 1 [Base.BookTrapping4] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintmousetrap,
+        }
+    }
+    craftRecipe Make Nail Trap Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Base.BookCarpentry1] mode:keep,
+            item 1 [Base.BookTrapping5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintnailtrap,
+        }
+    }
+    craftRecipe Research Painkillers
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:3,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBooktreeguide] mode:keep,
+            item 1 [Hydrocraft.HCBookmedical] mode:keep,
+            item 1 [Hydrocraft.HCBookherbalism] mode:keep,
+            item 1 [Hydrocraft.HCBookpharmacology] mode:keep,
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintpainkillers,
+        }
+    }
+    craftRecipe Research Anti-Depression Medication
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:4,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookflowerguide] mode:keep,
+            item 1 [Hydrocraft.HCBookmedical] mode:keep,
+            item 1 [Hydrocraft.HCBookherbalism] mode:keep,
+            item 1 [Hydrocraft.HCBookpharmacology] mode:keep,
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintantidepression,
+        }
+    }
+    craftRecipe Research Antibiotics
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:5,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCBookmedical] mode:keep,
+            item 1 [Hydrocraft.HCBookmicrobiology] mode:keep,
+            item 1 [Hydrocraft.HCBookpharmacology] mode:keep,
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintantibiotics,
+        }
+    }
+    craftRecipe Research Professional Lab
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:1,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCBookpharmacology] mode:keep,
+            item 1 [Hydrocraft.HCBookmicrobiology] mode:keep,
+            item 1 [Hydrocraft.HCBookwelding] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintproflab,
+        }
+    }
+    craftRecipe Research Crystal Meth
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:3,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCBooklithiumworking] mode:keep,
+            item 1 [Hydrocraft.HCBookpharmacology] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintmeth,
+        }
+    }
+    craftRecipe Research Blue Meth
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:4,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCLabbig] mode:keep,
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCBookpharmacology] mode:keep,
+            item 1 [Hydrocraft.HCBookaluminumworking] mode:keep,
+            item 1 [Hydrocraft.HCBlueprintmeth] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintbluemeth,
+        }
+    }
+    craftRecipe Research Injections
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:2,
+        xpAward = Doctor:10,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCSyringeblood],
+            item 1 [Hydrocraft.HCBookmedical] mode:keep,
+            item 1 [Hydrocraft.HCBookanatomy] mode:keep,
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintinjections,
+        }
+    }
+    craftRecipe Research Skinning Animals
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Base.BookTrapping1] mode:keep,
+            item 1 [Base.BookCooking1] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintskinanimal,
+        }
+    }
+    craftRecipe Research Opium
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:3,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCBookflowerguide] mode:keep,
+            item 1 [Hydrocraft.HCBookherbalism] mode:keep,
+            item 1 [Hydrocraft.HCBookpharmacology] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintopium,
+        }
+    }
+    craftRecipe Research Ether
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:1,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCBookmedical] mode:keep,
+            item 1 [Hydrocraft.HCBookpharmacology] mode:keep,
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintether,
+        }
+    }
+    craftRecipe Research Battery Array
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Electricity:3,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+            item 1 [Hydrocraft.HCBookelectrical] mode:keep,
+            item 1 [Hydrocraft.HCCarbattery] mode:keep,
+            item 1 [Hydrocraft.HCSolarpanel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintsolarpark,
+        }
+    }
+    craftRecipe Research HMTD
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookanarchist] mode:keep,
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCBookexplosives] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprinthmtd,
+        }
+    }
+    craftRecipe Research Ammonal
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookanarchist] mode:keep,
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCBookexplosives] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintammonal,
+        }
+    }
+    craftRecipe Make Taxadermy Jackalope Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBooktaxidermy] mode:keep,
+            item 1 [Hydrocraft.HCBookmammalguide] mode:keep,
+            item 1 [Hydrocraft.HCBookcryptozoology] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintjackalope,
+        }
+    }
+    craftRecipe Make Steam Pressure Pot Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookplumbing] mode:keep,
+            item 1 [Hydrocraft.HCBookphysics] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintsteampot,
+        }
+    }
+    craftRecipe Research Carbon Nanofibers
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCBookorganicchemistry] mode:keep,
+            item 1 [Hydrocraft.HCBookcoalworking] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintcarbon,
+        }
+    }
+    craftRecipe Research Beta Blocker Medication
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:4,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookflowerguide] mode:keep,
+            item 1 [Hydrocraft.HCBookmedical] mode:keep,
+            item 1 [Hydrocraft.HCBookherbalism] mode:keep,
+            item 1 [Hydrocraft.HCBookpharmacology] mode:keep,
+            item 1 [Hydrocraft.HCMedicallab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintbetablocker,
+        }
+    }
+    craftRecipe Make Spirulina Composter Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookgardening] mode:keep,
+            item 1 [Hydrocraft.HCBookoceanography] mode:keep,
+            item 1 [Base.BookFarming5] mode:keep,
+            item 1 [Base.BookFishing5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintcomposter2,
+        }
+    }
+    craftRecipe Make Computer Mouse Blueprint
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookwelding] mode:keep,
+            item 1 [Hydrocraft.HCBookelectrical] mode:keep,
+            item 1 [Base.BookElectrician5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintcomputermouse,
+        }
+    }
+    craftRecipe Make Computer Keyboard Blueprint
+    {
+        time = 700,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookwelding] mode:keep,
+            item 1 [Hydrocraft.HCBookelectrical] mode:keep,
+            item 1 [Base.BookElectrician5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintcomputerkeyboard,
+        }
+    }
+    craftRecipe Make Computer Monitor Blueprint
+    {
+        time = 900,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookwelding] mode:keep,
+            item 1 [Hydrocraft.HCBookelectrical] mode:keep,
+            item 1 [Base.BookElectrician5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintcomputermonitor,
+        }
+    }
+    craftRecipe Make Extract Working CPU Blueprint
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookwelding] mode:keep,
+            item 1 [Hydrocraft.HCBookelectrical] mode:keep,
+            item 1 [Base.BookElectrician5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintextractworkingcpu,
+        }
+    }
+    craftRecipe Make Computer Tower Blueprint
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookwelding] mode:keep,
+            item 1 [Hydrocraft.HCBookelectrical] mode:keep,
+            item 1 [Base.BookElectrician5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintmakecomputertower,
+        }
+    }
+    craftRecipe Make Computer PSU Blueprint
+    {
+        time = 400,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookwelding] mode:keep,
+            item 1 [Hydrocraft.HCBookelectrical] mode:keep,
+            item 1 [Base.BookElectrician5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintmakecomputerpsu,
+        }
+    }
+    craftRecipe Make Computer Fan Blueprint
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookwelding] mode:keep,
+            item 1 [Hydrocraft.HCBookelectrical] mode:keep,
+            item 1 [Base.BookElectrician5] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueprintmakecomputerfan,
+        }
+    }
+    craftRecipe Plan Iron Mine
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Mechanics:2;MetalWelding:5;Woodwork:8,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCMinehole2;Hydrocraft.HCMinehole2B] mode:keep,
+            item 1 [Hydrocraft.HCMeasuringtape] mode:keep,
+            item 1 [Hydrocraft.HCBookstoneworking] mode:keep,
+            item 1 [Hydrocraft.HCBookgeology] mode:keep,
+            item 1 [Hydrocraft.HCBookironworking] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlanIronMine,
+        }
+    }
+    craftRecipe Plan Coal Mine
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Mechanics:2;MetalWelding:5;Woodwork:8,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCMinehole2;Hydrocraft.HCMinehole2B] mode:keep,
+            item 1 [Hydrocraft.HCMeasuringtape] mode:keep,
+            item 1 [Hydrocraft.HCBookstoneworking] mode:keep,
+            item 1 [Hydrocraft.HCBookcoalworking] mode:keep,
+            item 1 [Hydrocraft.HCBookgeology] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlanCoalMine,
+        }
+    }
+}

@@ -1,0 +1,832 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCSaltshakerempty
+    {
+
+        	Weight    		= 	0.1,
+        	Type    		= 	Normal,
+        	DisplayName         	= 	Empty Salt Shaker,
+        	icon 			= 	HCSaltshakerempty,
+		DisplayCategory		=	Cooking,
+    }
+    item HCCuringsalt
+    {
+
+		HungerChange		=	-2,
+		BoredomChange		=	0,
+		UnhappyChange		=	10,
+		StressChange		=	10,
+		ThirstChange		=	100,
+		Weight			=	1.0,
+		Type			=	Drainable,
+		UseDelta 		= 	0.05,
+		DisplayName		=	Curing Salt,
+		ReplaceOnDeplete 	= 	HCCuringsaltempty,
+		Icon			=	HCCuringsalt,
+		DisplayCategory		=	Cooking,
+    }
+    item HCCuringsaltempty
+    {
+
+		Weight			=	0.1,
+		Type			=	Normal,
+		DisplayName		=	Empty Curing Salt Bag,
+		Icon			=	HCCuringsaltempty,
+		DisplayCategory		=	Cooking,
+    }
+    item HCSaltedfishfillet
+    {
+
+		HungerChange		=	-20,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Fish Fillet,
+		Icon			=	HCSaltedfishfillet,
+		DaysTotallyRotten	=	200,
+		DaysFresh		=	120,
+        	EvolvedRecipe   	=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Fish,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	46,
+        	Lipids 			= 	1.8,
+        	Calories 		= 	216,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedham
+    {
+
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Ham,
+		Icon			=	HCSaltedham,
+		DaysTotallyRotten	=	200,
+		DaysFresh		=	120,
+	        EvolvedRecipe   	=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType		=   	Meat,
+		Carbohydrates 		= 	27.3,
+        	Proteins 		= 	35.1,
+        	Lipids 			= 	23.4,
+        	Calories 		= 	468,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedmutton
+    {
+
+		HungerChange		=	-35,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Mutton,
+		Icon			=	HCSaltedmutton,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+	        EvolvedRecipe   	=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType		=   	Meat,
+		Carbohydrates 		= 	0.3,
+        	Proteins 		= 	99,
+        	Lipids 			= 	33,
+        	Calories 		= 	702,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedpork
+    {
+
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Pork,
+		Icon			=	HCSaltedpork,
+		DaysTotallyRotten	=	200,
+		DaysFresh		=	120,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType		=   	Meat,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	63,
+        	Lipids 			= 	27,
+        	Calories 		= 	450,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedbeef
+    {
+
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Beef,
+		Icon			=	HCSaltedbeef,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+	        EvolvedRecipe   	=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Meat,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	78.2,
+       		Lipids 			= 	21.4,
+        	Calories 		= 	525,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedcheval
+    {
+
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Cheval,
+		Icon			=	HCSaltedcheval,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+	        EvolvedRecipe   	=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Meat,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	97,
+       		Lipids 			= 	21,
+        	Calories 		= 	603,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedrabbit
+    {
+
+		HungerChange		=	-20,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Salted Rabbit,
+		Icon			=	HCSaltedrabbit,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	44,
+       		Lipids 			= 	4.6,
+        	Calories 		= 	228,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedsalmon
+    {
+
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Salmon,
+		Icon			=	HCSaltedsalmon,
+		DaysTotallyRotten	=	60,
+		DaysFresh		=	30,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Fish,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	63.1,
+        	Lipids 			= 	13.3,
+        	Calories 		= 	381,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedsmallanimalmeat
+    {
+
+		HungerChange		=	-15,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.1,
+		Type			=	Food,
+		DisplayName		=	Salted Small Animal Meat,
+		Icon			=	HCSaltedsmallanimalmeat,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	44,
+        	Lipids 			= 	2.6,
+        	Calories 		= 	228,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedsmallbirdmeat
+    {
+
+		HungerChange		=	-15,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.1,
+		Type			=	Food,
+		DisplayName		=	Salted Small Bird Meat,
+		Icon			=	HCSaltedsmallbirdmeat,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	22,
+        	Lipids 			= 	1.3,
+        	Calories 		= 	134,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedduck
+    {
+
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Duck,
+		Icon			=	HCSaltedduck,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	10,
+        	Proteins 		= 	69,
+       	 	Lipids 			= 	33,
+        	Calories 		= 	603,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedgoose
+    {
+
+		HungerChange		=	-35,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Goose,
+		Icon			=	HCSaltedgoose,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates		= 	10,
+        	Proteins 		= 	87,
+        	Lipids 			= 	39,
+        	Calories 		= 	714,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedturkey
+    {
+
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Turkey,
+		Icon			=	HCSaltedturkey,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	10.3,
+      	 	Proteins 		= 	69,
+      	 	Lipids 			= 	5.7,
+      	  	Calories 		= 	336,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedvenison
+    {
+
+		HungerChange		=	-35,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Venison,
+		Icon			=	HCSaltedvenison,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+      	 	Proteins 		= 	90,
+      	 	Lipids 			= 	9.6,
+      	  	Calories 		= 	474,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedbear
+    {
+
+		HungerChange		=	-35,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Bear Steak,
+		Icon			=	HCSaltedbear,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+      	 	Proteins 		= 	60,
+      	 	Lipids 			= 	24.9,
+      	  	Calories 		= 	483,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedcougar
+    {
+
+		HungerChange		=	-35,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Cougar Steak,
+		Icon			=	HCSaltedcougar,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+      	 	Proteins 		= 	60,
+      	 	Lipids 			= 	24.9,
+      	  	Calories 		= 	483,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSaltedsmallgame
+    {
+
+		HungerChange		=	-20,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Salted Small Game Steak,
+		Icon			=	HCSaltedsmallgame,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	44,
+       		Lipids 			= 	4.6,
+        	Calories 		= 	228,
+		DisplayCategory		=	FoodP,
+    }
+    craftRecipe Make Salt Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRocksalt],
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCSaltpowder,
+        }
+    }
+    craftRecipe Make Salt Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.MortarPestle] mode:keep,
+            item 1 [Hydrocraft.HCRocksalt],
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCSaltpowder,
+        }
+    }
+    craftRecipe Make Salt Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCRocksalt],
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCSaltpowder,
+        }
+    }
+    craftRecipe Refill Salt Shaker
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSaltpowder],
+            item 1 [Hydrocraft.HCSaltshakerempty] mode:destroy,
+            item 1 [Hydrocraft.HCFunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Salt,
+        }
+    }
+    craftRecipe Refill Bag With Curing Salt
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCSaltpeterpowder],
+            item 1 [Hydrocraft.HCCuringsaltempty] mode:destroy,
+            item 1 [Hydrocraft.HCFunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCuringsalt,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Base.FishFillet],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedfishfillet,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Base.Ham],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedham,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 2500,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFreshham],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+        }
+        outputs
+        {
+            item 1 Base.Ham,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 4000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Base.MuttonChop],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedmutton,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Base.PorkChop],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedpork,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Base.Steak],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedbeef,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Hydrocraft.HCCheval],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedbeef,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 4000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Base.Rabbitmeat],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedrabbit,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 4000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Base.Salmon],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedsalmon,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 3500,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Base.Smallanimalmeat],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedsmallanimalmeat,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 3500,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Base.Smallbirdmeat],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedsmallbirdmeat,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 4000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Hydrocraft.HCDuckmeat],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedduck,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 4500,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Hydrocraft.HCGoosemeat],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedgoose,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Hydrocraft.HCTurkeymeat],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedturkey,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Hydrocraft.HCVenison],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedvenison,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Hydrocraft.HCBearsteak],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedbear,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Hydrocraft.HCCougarsteak],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedcougar,
+        }
+    }
+    craftRecipe Salt Meat
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
+            item 1 [Hydrocraft.HCSmallgamesteak],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltedsmallgame,
+        }
+    }
+}

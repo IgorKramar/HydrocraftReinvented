@@ -1,0 +1,1218 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCMagnet
+    {
+
+	DisplayCategory          =   CraftChem,	
+	Weight			=	0.2,
+	Type			=	Normal,
+	DisplayName		=	Magnet,
+	Icon			=	HCMagnet,
+	AttachmentType  = 	Hammer,
+	StaticModel      =  HC_Magnet_AP,
+    WorldStaticModel =  WorldItem-HCMagnet,
+    }
+    item HCChemicalbottleempty
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Empty Chemical Plastic Bottle,
+	Icon			=	HCChemicalbottleempty,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCPlasticcanempty
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Empty Plastic Can,
+	Icon			=	HCPlasticcanempty,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlassflask
+    {
+
+        Weight    		= 	0.3,
+	CanStoreWater		=	TRUE,
+        Type    		= 	Normal,
+        DisplayName         	= 	Glass Conical Flask,
+	ReplaceOnUseOn		=	WaterSource-HCGlasswaterbottle,
+        icon 			= 	HCGlassflask,
+	RainFactor 		= 	1,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlasswaterbottle
+    {
+
+	ThirstChange		=	-100,
+	IsWaterSource		=	TRUE,
+	ReplaceOnUse		=	HCGlassflask,
+	Weight				=	1,
+	CanStoreWater		=	TRUE,
+	Type				=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta			=	0.07,
+	DisplayName			=	Conical Flask With Water,
+	ReplaceOnDeplete	=	HCGlassflask,
+	ReplaceOnUseOn		=	WaterSource-HCGlasswaterbottle,
+	Icon				=	HCGlasswaterbottle,
+	RainFactor 			= 	1,
+	DisplayCategory		=	CraftChem,
+    }
+    item HCGlassflaskbuchner
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Buchner Flask,
+        icon 			= HCGlassflaskbuchner,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlassflaskflorence
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Florence Flask,
+        icon 			= HCGlassflaskflorence,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlassflaskretort
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Retort Flask,
+        icon 			= HCGlassflaskretort,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlassbeaker
+    {
+
+        Weight    		= 	0.3,
+	CanStoreWater		=	TRUE,
+        Type    		= 	Normal,
+        DisplayName         	= 	Glass Beaker,
+	ReplaceOnUseOn		=	WaterSource-HCBeakerwater,
+        icon 			= 	HCGlassbeaker,
+	RainFactor 		= 	1,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlassgraduatedcylinder
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Graduated Cylinder,
+        icon 			= HCGlassgraduatedcylinder,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCEyedropper
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Eye Dropper,
+        icon 			= HCEyedropper,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlasstesttube
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glass Test Tube,
+        icon 			= HCGlasstesttube,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCTesttubebox
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Box of Glass Test Tubes,
+        icon 			= HCTesttubebox,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCCork
+    {
+	
+		DisplayCategory  =   CraftChem,
+        Weight    		 = 0.01,
+        Type    		 = Normal,
+        DisplayName      = Cork,
+        icon 			 = HCCork,
+		WorldStaticModel =  WorldItem-HCCork,
+    }
+    item HCCorkbox
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Box of Corks,
+        icon 			= HCCorkbox,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCCorkhole
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Cork with Hole,
+        icon 			= HCCorkhole,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCRubberbung
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Rubber Bung,
+        icon 			= HCRubberbung,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCRubberbungbox
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Box of Rubber Bungs,
+        icon 			= HCRubberbungbox,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCRubberbunghole
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Rubber Bung with Hole,
+        icon 			= HCRubberbunghole,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlasstesttubecork
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glass Test Tube with Cork,
+        icon 			= HCGlasstesttubecork,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlasstesttubecorkhole
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glass Test Tube with Cork with Hole,
+        icon 			= HCGlasstesttubecorkhole,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlasstesttuberubberbung
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glass Test Tube with Rubber Bung,
+        icon 			= HCGlasstesttuberubberbung,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlasstesttuberubberbunghole
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glass Test Tube with Rubber Bung with Hole,
+        icon 			= HCGlasstesttuberubberbunghole,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCTesttuberack
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Test Tube Rack,
+        icon 			= HCTesttuberack,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCTesttuberackcorks
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Test Tube Rack with Glass Test Tubes with Corks,
+        icon 			= HCTesttuberackcorks,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCTesttuberackbungs
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Test Tube Rack with Glass Test Tubes with Rubber Bungs,
+        icon 			= HCTesttuberackbungs,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCTesttubeholder
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Testtube Holder,
+        icon 			= HCTesttubeholder,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCForeceps
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Forceps,
+        icon 			= HCForeceps,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCPinchclamp
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Pinch Clamp,
+        icon 			= HCPinchclamp,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCUtilityclamp
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Utility Clamp,
+        icon 			= HCUtilityclamp,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCRingclamp
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Ring Clamp,
+        icon 			= HCRingclamp,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCRingstand
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Ring Stand,
+        icon 			= HCRingstand,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCRingstandclamp
+    {
+
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Ring Stand with Clamp,
+        icon 			= HCRingstandclamp,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCWiregauze
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Wire Gauze,
+        icon 			= HCWiregauze,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCRubberhose
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Rubber Hose,
+        icon 			= HCRubberhose,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCBunsenburner
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Bunsen Burner,
+        icon 			= HCBunsenburner,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCTesttubebrush
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Test Tube Brush,
+        icon 			= HCTesttubebrush,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCTesttubebrushbox
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Box of Test Tube Brushes,
+        icon 			= HCTesttubebrushbox,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlassfunnel
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Funnel,
+        icon 			= HCGlassfunnel,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlasscooler
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Cooler,
+        icon 			= HCGlasscooler,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlasspipe
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Pipe,
+        icon 			= HCGlasspipe,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlasspipebox
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Glass Pipes,
+        icon 			= HCGlasspipebox,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlasspipeelbow
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Elbow Pipe,
+        icon 			= HCGlasspipeelbow,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlasspipeelbowbox
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Glass Elbow Pipe,
+        icon 			= HCGlasspipeelbowbox,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlassburette
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Burette,
+        icon 			= HCGlassburette,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlassballoon
+    {
+
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Large Glass Balloon,
+	Icon			=	HCGlassballoon,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlassconnector
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Glass Connector,
+	Icon			=	HCGlassconnector,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCGlassballoonconnector
+    {
+
+	Weight			=	1.1,
+	Type			=	Normal,
+	DisplayName		=	Large Glass Balloon with Connector,
+	Icon			=	HCGlassballoon,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCWashbottle
+    {
+
+        Weight    		= 1,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Wash Bottle,
+	ReplaceOnUseOn		= WaterSource-HCWashbottlefull,
+        icon 			= HCWashbottle,
+	RainFactor 		= 1,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCWashbottlefull
+    {
+
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Wash Bottle with Water,
+	ReplaceOnDeplete	=	HCWashbottle,
+	ReplaceOnUseOn		=	WaterSource-HCWashbottlefull,
+	Icon			=	HCWashbottlefull,
+	RainFactor 		= 	1,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCMagnifyglass
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Magnifying Glass,
+        icon 			= HCMagnifyglass,
+		DisplayCategory          =   Craft,
+    }
+    item HCProtractor
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Protractor,
+        icon 			= HCProtractor,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLatexgloves
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Latex Gloves,
+        icon 			= HCLatexgloves,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCHydrogentank
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Hydrogen Tank,
+        icon 			= HCHydrogentank,
+		DisplayCategory          =   CraftChem,
+        WorldStaticModel = WorldItem-HCHydrogenTank,
+    }
+    item HCHydrogentankempty
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Empty Hydrogen Tank,
+        icon 			= HCHydrogentank,
+		DisplayCategory          =   CraftChem,
+        WorldStaticModel = WorldItem-HCHydrogenTank,
+    }
+    item HCHeliumtank
+    {
+
+        Weight    		= 4.0026,
+        Type    		= Normal,
+        DisplayName         	= Helium Tank,
+        icon 			= HCHeliumtank,
+		DisplayCategory          =   CraftChem,
+        WorldStaticModel = WorldItem-HCHeliumTank,
+    }
+    item HCHeliumtankempty
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Empty Helium Tank,
+        icon 			= HCHeliumtank,
+		DisplayCategory          =   CraftChem,
+        WorldStaticModel = WorldItem-HCHeliumTank,
+    }
+    item HCOxygentank
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Oxygen Tank,
+        icon 			= HCOxygentank,
+		DisplayCategory          =   CraftChem,
+		WorldStaticModel = WorldItem-HCOxygenTank,
+    }
+    item HCOxygentankempty
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Empty Oxygen Tank,
+        icon 			= HCOxygentank,
+		DisplayCategory          =   CraftChem,
+		WorldStaticModel = WorldItem-HCOxygenTank,
+    }
+    item HCHclgastank
+    {
+
+        Weight            	= 4,
+        Type            	= Normal,
+        DisplayName             = Hydrogen Chloride Tank,
+        icon             	= HCHclgastank,
+		DisplayCategory          =   CraftChem,
+		WorldStaticModel = WorldItem-HCHCLTank,
+    }
+    item HCHclgastankempty
+    {
+
+        Weight            	= 4,
+        Type            	= Normal,
+        DisplayName             = Empty Hydrogen Chloride Tank,
+        icon             	= HCHclgastank,
+		DisplayCategory          =   CraftChem,
+		WorldStaticModel = WorldItem-HCHCLTank,
+    }
+    item HCTankfridge
+    {
+
+        Weight            	= 4,
+        Type            	= Normal,
+        DisplayName             = Tank of Refrigerant,
+        icon             	= HCTankfridge,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCTankfridgeempty
+    {
+
+        Weight            	= 4,
+        Type            	= Normal,
+        DisplayName             = Empty Tank of Refrigerant,
+        icon             	= HCTankfridge,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCPlasmaglobe
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Plasma Globe,
+	Icon			=	HCPlasmaglobe,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCTeslamachine
+    {
+
+        Weight    		= 2,
+        Type    		= Normal,
+        DisplayName     	= Van de Graaff Generator,
+		DisplayCategory          =   CraftChem,
+        icon 			= HCTeslamachine,
+    }
+    item HCLab
+    {
+
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Normal,
+    DisplayName         	= Laboratory,
+    icon 			= HCLab,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLab2
+    {
+
+        Weight              = 1000,
+        Type                = Container,
+        Capacity            = 100,
+        WeightReduction     = 0,
+        DisplayName         = Laboratory,
+        icon                = HCLab,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabbig
+    {
+
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName     = Professional Lab,
+        icon 			= HCLabbig,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabbig2
+    {
+
+        Weight          = 1000,
+        Type            = Container,
+        Capacity        = 200,
+        DisplayName     = Professional Lab,
+        icon            = HCLabbig,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCRubberbelt
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Rubber Belt,
+        icon 			= HCRubberbelt,
+		DisplayCategory          =   CraftChem,
+    }
+    craftRecipe Anchor Laboratory
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLab],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLab2,
+        }
+    }
+    craftRecipe Anchor Professional Lab
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabbig2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabbig,
+        }
+    }
+    craftRecipe Box Corks
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCCork],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCorkbox,
+        }
+    }
+    craftRecipe Unbox Corks
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCorkbox],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCCork,
+        }
+    }
+    craftRecipe Box Rubber Bungs
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCRubberbung],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubberbungbox,
+        }
+    }
+    craftRecipe Unbox Rubber Bungs
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubberbungbox],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCRubberbung,
+        }
+    }
+    craftRecipe Box Test Tubes
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCGlasstesttube],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTesttubebox,
+        }
+    }
+    craftRecipe Unbox Test Tubes
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTesttubebox],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCGlasstesttube,
+        }
+    }
+    craftRecipe Box Glass Pipes
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCGlasspipe],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasspipebox,
+        }
+    }
+    craftRecipe Unbox Glass Pipes
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspipebox],
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCGlasspipe,
+        }
+    }
+    craftRecipe Box Glass Elbow Pipes
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCGlasspipeelbow],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasspipeelbowbox,
+        }
+    }
+    craftRecipe Unbox Glass Elbow Pipes
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspipeelbowbox],
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCGlasspipeelbow,
+        }
+    }
+    craftRecipe Box Test Tube Brushes
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 5 [Hydrocraft.HCTesttubebrush],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTesttubebrushbox,
+        }
+    }
+    craftRecipe Unbox Test Tube Brushes
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTesttubebrushbox],
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCTesttubebrush,
+        }
+    }
+    craftRecipe Put Cork on Test Tube
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasstesttube],
+            item 1 [Hydrocraft.HCCork],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasstesttubecork,
+        }
+    }
+    craftRecipe Remove Cork from Test Tube
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hccork,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasstesttubecork],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasstesttube,
+        }
+    }
+    craftRecipe Put Cork with Hole on Test Tube
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasstesttube],
+            item 1 [Hydrocraft.HCCorkhole],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasstesttubecorkhole,
+        }
+    }
+    craftRecipe Remove Cork with Hole from Test Tube
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hccorkhole,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasstesttubecorkhole],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasstesttube,
+        }
+    }
+    craftRecipe Put Rubber Bung on Test Tube
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasstesttube],
+            item 1 [Hydrocraft.HCRubberbung],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasstesttuberubberbung,
+        }
+    }
+    craftRecipe Remove Rubber Bung from Test Tube
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetrubberbung,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasstesttuberubberbung],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasstesttube,
+        }
+    }
+    craftRecipe Put Rubber Bung with Hole on Test Tube
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasstesttube],
+            item 1 [Hydrocraft.HCRubberbunghole],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasstesttuberubberbunghole,
+        }
+    }
+    craftRecipe Remove Rubber Bung with Hole from Test Tube
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetrubberbunghole,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasstesttuberubberbunghole],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasstesttube,
+        }
+    }
+    craftRecipe Put Test Tubes with Corks on Test Tube Rack
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCGlasstesttubecork],
+            item 1 [Hydrocraft.HCTesttuberack],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTesttuberackcorks,
+        }
+    }
+    craftRecipe Remove Test Tubes with Corks from Test Tube Rack
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hctesttuberack,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTesttuberackcorks],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCGlasstesttubecork,
+        }
+    }
+    craftRecipe Put Test Tubes with Rubber Bungs on Test Tube Rack
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCGlasstesttuberubberbung],
+            item 1 [Hydrocraft.HCTesttuberack],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTesttuberackbungs,
+        }
+    }
+    craftRecipe Remove Test Tubes with Rubber Bungs from Test Tube Rack
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hctesttuberack,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTesttuberackbungs],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCGlasstesttuberubberbung,
+        }
+    }
+    craftRecipe Attatch Clamp to Ring Stand
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRingstand],
+            item 1 [Hydrocraft.HCUtilityclamp],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRingstandclamp,
+        }
+    }
+    craftRecipe Remove Clamp from Ring Stand
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcringstand,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRingstandclamp],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCUtilityclamp,
+        }
+    }
+    craftRecipe Make Test Tube Rack
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.Plank],
+            item 1 [Base.Nails],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTesttuberack,
+        }
+    }
+    craftRecipe Drill Hole in Cork
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCork],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCorkhole,
+        }
+    }
+    craftRecipe Drill Hole in Rubber Bung
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubberbung],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubberbunghole,
+        }
+    }
+    craftRecipe Make Laboratory
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 3 [Base.Notebook],
+            item 1 [Hydrocraft.HCLatexgloves],
+            item 1 [Base.MortarPestle],
+            item 1 [Hydrocraft.HCTesttubebrush],
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCGlasstesttube],
+            item 1 [Hydrocraft.HCThermometer],
+            item 3 [Hydrocraft.HCGlassflask],
+            item 3 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassgraduatedcylinder],
+            item 1 [Hydrocraft.HCWashbottle],
+            item 1 [Hydrocraft.HCTesttuberackcorks],
+            item 1 [Hydrocraft.HCRingstandclamp],
+            item 1 [Hydrocraft.HCBunsenburner],
+            item 1 [Hydrocraft.HCRubberhose],
+            item 1 [Base.PropaneTank],
+            item 3 [Hydrocraft.HCPlasticbin2],
+            item 1 [Hydrocraft.HCWorkbench],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLab,
+        }
+    }
+    craftRecipe Build Professional Lab
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 2 [Base.Pipe],
+            item 10 [Base.Screws],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 4 [Base.SheetMetal],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabbig,
+        }
+    }
+}

@@ -1,0 +1,285 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCRicebrown
+    {
+
+        Weight				=	2,
+        Type				=	Food,
+        DisplayName			=	Brown Rice,
+        Icon				=	HCRicebrown,
+        HungerChange    		=   	-60,
+        UnhappyChange   		=   	40,
+        ThirstChange    		=   	60,
+        Carbohydrates 			= 	648,
+        Proteins 			= 	72,
+        Lipids 				= 	0,
+        Calories 			= 	2880,
+        Packaged 			= 	TRUE,
+		ReplaceOnUse		=	Hydrocraft.HCRiceempty,
+		DisplayCategory		=	FoodN,
+    }
+    item HCFriedrice
+    {
+
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	DaysFresh			=	3,	
+	DaysTotallyRotten		=	6,
+	DisplayName			=	Bowl of Fried Rice,
+	Icon				=	HCFriedricebowl,	
+	ReplaceOnUse			=	Bowl,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	93,
+        Proteins 			= 	14.1,
+        Lipids 				= 	6.9,
+        Calories 			= 	489,
+	EvolvedRecipe 			= 	Soup:15;Stew:15;Stir fry:15,
+		DisplayCategory		=	FoodP,
+    }
+    item HCRiceandbeanspot
+    {
+
+		HungerChange		=	-50,
+		Weight				=	4,
+		Type				=	Food,
+		UnhappyChange		=	-20,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Pot of Rice and Beans,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		BoredomChange		=	-20,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=	NoExplicit,
+		Carbohydrates 		= 	260,
+		Proteins 			= 	122,
+		Lipids 				= 	76,
+		Calories 			= 	2060,
+		DisplayCategory		=	FoodP,
+    }
+    item HCRiceandbeansbowl
+    {
+
+		HungerChange		=	-30,
+		Weight				=	1,
+		Type				=	Food,
+		UnhappyChange		=	-5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Bowl of Rice and Beans,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCChilibowl,
+		BoredomChange		=	-5,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	65,
+		Proteins 			= 	30.5,
+		Lipids 				= 	19,
+		Calories 			= 	515,
+		EvolvedRecipe 		= 	Soup:20;Stew:20;Stir fry:20,
+		DisplayCategory		=	FoodP,
+    }
+    item HCRicepuddingpot
+    {
+
+		HungerChange		=	-50,
+		Weight				=	4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		UnhappyChange		=	-20,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Pot of Rice Pudding,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		BoredomChange		=	-20,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	500,
+		Proteins 			= 	64,
+		Lipids 				= 	74,
+		Calories 			= 	2920,
+		DisplayCategory		=	FoodP,
+    }
+    item HCRicepuddingbowl
+    {
+
+		HungerChange		=	-35,
+		Weight				=	1,
+		Type				=	Food,
+		UnhappyChange		=	-5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Bowl of Rice Pudding,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCRicebowl,
+		BoredomChange		=	-5,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	125,
+		Proteins 			= 	16,
+		Lipids 				= 	18.5,
+		Calories 			= 	730,
+		DisplayCategory		=	FoodP,
+    }
+    item HCRisotto
+    {
+
+	HungerChange			=	-50,
+	Weight				=	1.5,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	UnhappyChange			=	-45,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	DisplayName			=	Risotto,
+	ReplaceOnUse			=	Pan,
+	Icon				=	HCRisotto,
+	BoredomChange			=	-15,
+	DaysTotallyRotten		=	6,
+	DaysFresh 			= 	3,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	381,
+        Proteins 			= 	39,
+        Lipids 				= 	6.5,
+        Calories 			= 	1740,
+		DisplayCategory		=	FoodP,
+    }
+    craftRecipe Make Fried Rice
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Pan] mode:keep,
+            item 1 [Base.RiceBowl] mode:destroy,
+            item 1 [Base.Butter;Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
+            item 1 tags[Egg] mode:keep,
+            item 1 [Base.Broccoli;Base.Cabbage;Base.Carrots;Hydrocraft.HCOniongreen;Hydrocraft.HCChinesecabbage;Hydrocraft.HCCabbagered;Hydrocraft.HCCabbagewhite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFriedrice,
+        }
+    }
+    craftRecipe Make Pot of Rice and Beans
+    {
+        time = 95,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.OpenBeans],
+            item 1 [Base.Rice;Hydrocraft.HCRicebrown],
+            item 1 [Base.Tomato;Hydrocraft.HCTomatosaucebowl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRiceandbeanspot,
+        }
+    }
+    craftRecipe Fill Rice and Beans into Bowls
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 4 [Base.Bowl],
+            item 1 [Hydrocraft.HCRiceandbeanspot],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCRiceandbeansbowl,
+        }
+    }
+    craftRecipe Make Pot of Rice Pudding
+    {
+        time = 95,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Rice;Hydrocraft.HCRicebrown],
+            item 1 [Base.Sugar],
+            item 1 [Base.CowMilk;Base.SheepMilk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRicepuddingpot,
+        }
+    }
+    craftRecipe Fill Rice Pudding into Bowls
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 4 [Base.Bowl] mode:destroy,
+            item 1 [Hydrocraft.HCRicepuddingpot],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCRicepuddingbowl,
+        }
+    }
+    craftRecipe Make Risotto
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.Hydrocraft_OnCreate_GenericFood,
+        inputs
+        {
+            item 1 [Base.Pan] mode:destroy,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Base.Rice;Hydrocraft.HCRicebrown],
+            item 1 [Base.Broccoli;Hydrocraft.HCBunchofshrooms;Base.Egg;Base.Carrots;Hydrocraft.HCPeapod],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRisotto,
+        }
+    }
+}

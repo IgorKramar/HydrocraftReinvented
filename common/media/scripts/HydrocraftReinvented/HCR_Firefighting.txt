@@ -1,0 +1,101 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCFiresuit
+    {
+
+        Type = Clothing,
+        DisplayName = Fire Suit,
+        BodyLocation = base:fullsuithead,
+        ClothingItem = HCFiresuit,
+        Icon = HCFiresuit,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 1,
+        BiteDefense = 1,
+        Insulation = 0.9,
+        WindResistance = 0.9,
+		DisplayCategory = ClothP,
+    }
+    item HCFirehose
+    {
+
+	Weight			=	12,
+        Type			=	Normal,
+        DisplayName		=	Fire Hose,
+	Icon			=	HCFirehose,
+	DisplayCategory          =   CraftMisc,
+    }
+    item HCFirehosenozzle
+    {
+
+	Weight			=	3,
+        Type			=	Normal,
+        DisplayName		=	Fire Hose Nozzle,
+	Icon			=	HCFirehosenozzle,
+	DisplayCategory          =   CraftMisc,
+    }
+    item HCFirehook
+    {
+
+		MaxRange			=	1.5,
+		WeaponSprite			=	Baseballbat,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	30,
+		Weight				=	1,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1.2,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	7,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	1,
+		DisplayName			=	Fire Hook,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	0.8,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCFirehook,
+		RunAnim				=	Run_Weapon2,
+		BreakSound  			=   	BreakMetalItem,
+        	TreeDamage  			=   	1,
+    }
+    craftRecipe Make Fireproof Suit
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        SkillRequired = Tailoring:4,
+        xpAward = Tailoring:10,
+        inputs
+        {
+            item 20 [Base.Aluminum],
+            item 4 [Hydrocraft.HCBorax],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCBlacksmithapron],
+            item 1 tags[base:weldingmask],
+            item 1 [Base.Jacket_Fireman],
+            item 1 [Base.Trousers_Fireman],
+            item 1 [Base.Shoes_ArmyBootsDesert],
+            item 1 [Base.HazmatSuit],
+            item 1 [Base.Thread],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFiresuit,
+        }
+    }
+}

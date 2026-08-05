@@ -1,0 +1,125 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCPoisonempty
+    {
+
+        Weight			    =	0.1,
+        CanStoreWater	    =	TRUE,
+        Type			    =	Drainable,
+        ReplaceOnUseOn	    =	WaterSource-HCPoisonwater,
+        DisplayName		    =	Empty Insecticide Can,
+        Icon			    =	HCPoisonempty,
+        RainFactor 		    = 	1,
+        DisplayCategory		=   SurFarm,
+    }
+    item HCPoison
+    {
+
+        Weight				=	2.5,
+        Type			    =	Drainable,
+        UseDelta		    =       0.25,
+        ReplaceOnDeplete	=	HCPoisonempty,
+        DisplayName			=	Insecticide,
+        Icon				=	HCPoison,
+        DisplayCategory		=   SurFarm,
+    }
+    item HCPoisondetergent
+    {
+
+        Weight				=	2.5,
+        Type			    =	Drainable,
+        UseDelta		    =   0.25,
+        ReplaceOnDeplete	=	HCPoisonempty,
+        DisplayName			=	Insecticide Can With Liqiud Soap,
+        Icon				=	HCPoisondetergent,
+        DisplayCategory		=   Cleaning,
+    }
+    item HCPoisonwater
+    {
+
+        IsWaterSource		=	TRUE,
+        Weight			    =	2.5,
+        CanStoreWater		=	TRUE,
+        Type			    =	Drainable,
+        UseWhileEquipped    =	FALSE,
+        UseDelta		    =	0.07,
+        DisplayName		    =	Inscticide Can With Water,
+        ReplaceOnDeplete	=	HCPoisonempty,
+        ReplaceOnUseOn	    =	WaterSource-HCPoisonwater,
+        Icon			    =	HCPoisonwater,
+        RainFactor 		    = 	1,
+        DisplayCategory		=   SurFarm,
+    }
+    craftRecipe Clean Empty Insecticide Can
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclabelpoison,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPoisonempty],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlasticcanempty,
+        }
+    }
+    craftRecipe Recycle Insecticide Can
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclabelpoison,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPoisonempty],
+            item 1 [Hydrocraft.HCBoxcutter;Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife;Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors] mode:keep,
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Fill Empty Insecticide Can With Liquid Soap
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCDetergent],
+            item 1 [Hydrocraft.HCPoisonempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPoisondetergent,
+        }
+    }
+    craftRecipe Fill Empty Insecticide Can With Liquid Soap
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcandetergent],
+            item 1 [Hydrocraft.HCPoisonempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPoisondetergent,
+        }
+    }
+}

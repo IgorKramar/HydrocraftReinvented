@@ -1,0 +1,46 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCCinematicket
+    {
+
+		DisplayCategory          =   Household,	
+		Weight					 =	 0.01,
+        Type			 		 =	 Normal,
+        DisplayName				 =	 Cinema Ticket,
+		Icon					 =	 HCCinematicket,
+		WorldStaticModel 		 = 	 WorldItem-HCCinemaTicket,
+    }
+    item HCMovieroll
+    {
+
+	Weight			=	0.5,
+        Type			=	Normal,
+        DisplayName		=	Movie Film Roll,
+	Icon			=	HCMovieroll,
+	DisplayCategory          =   Useless,
+    }
+    item HCFilmcan
+    {
+
+	Weight			=	1.0,
+        Type			=	Normal,
+        DisplayName		=	Movie Film Can,
+	Icon			=	HCFilmcan,
+	DisplayCategory          =   CraftMisc,
+    }
+    item HC3Dglasses
+    {
+
+	DisplayCategory          =   Accessory,	
+    Type					 =	 Clothing,
+    DisplayName				 =	 3D Glasses,
+	ClothingItem 			 = 	 Glasses_3Dglasses,	
+	BodyLocation 			 = 	 base:eyes,	
+	Icon					 =	 HC3Dglasses,
+	Weight					 =	 0.05,	
+	ChanceToFall			 = 	 50,	
+	Cosmetic 				 = 	 TRUE,	
+	WorldStaticModel 		 = 	 WorldItem-HCGlasses3D,
+    }
+}

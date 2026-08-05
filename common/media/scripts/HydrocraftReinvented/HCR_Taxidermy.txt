@@ -1,0 +1,385 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCAnimalglasseye
+    {
+
+        Weight    	= 0.1,
+        Type    	= Normal,
+        DisplayName     = Glass Animal Eye,
+        icon 		= HCAnimalglasseye,
+		DisplayCategory	= Misc,
+    }
+    item HCArmaturesmallanimalwood
+    {
+
+        Weight    	= 1,
+        Type    	= Normal,
+        DisplayName     = Wooden Small Animal Armature,
+        icon 		= HCArmaturesmallanimalwood,
+		DisplayCategory	= Misc,
+    }
+    item HCArmaturesmallanimalstraw
+    {
+
+        Weight    	= 1,
+        Type    	= Normal,
+        DisplayName     = Straw Small AnimalArmature,
+        icon 		= HCArmaturesmallanimalstraw,
+		DisplayCategory	= Misc,
+    }
+    item HCArmaturesmallanimalclay
+    {
+
+        Weight    	= 1,
+        Type    	= Normal,
+        DisplayName     = Clay Small Animal Armature,
+        icon 		= HCArmaturesmallanimalclay,
+		DisplayCategory	= Misc,
+    }
+    item HCTaxidermymouse
+    {
+
+        Weight    	= 1,
+        Type    	= Normal,
+        DisplayName     = Taxidermy Mouse,
+        icon 		= HCTaxidermymouse,
+		DisplayCategory	= Misc,
+    }
+    item HCArmaturemediumanimalwood
+    {
+
+        Weight    	= 2,
+        Type    	= Normal,
+        DisplayName     = Wooden Medium Animal Armature,
+        icon 		= HCArmaturemediumanimalwood,
+		DisplayCategory	= Misc,
+    }
+    item HCArmaturemediumanimalstraw
+    {
+
+        Weight    	= 2,
+        Type    	= Normal,
+        DisplayName     = Straw Medium Animal Armature,
+        icon 		= HCArmaturemediumanimalstraw,
+		DisplayCategory	= Misc,
+    }
+    item HCArmaturemediumanimalclay
+    {
+
+        Weight    	= 2,
+        Type    	= Normal,
+        DisplayName    	= Clay Medium Animal Armature,
+        icon 		= HCArmaturemediumanimalclay,
+		DisplayCategory	= Misc,
+    }
+    item HCTaxidermyrabbit
+    {
+
+        Weight    	= 2,
+        Type    	= Normal,
+        DisplayName     = Taxidermy Rabbit,
+        icon 		= HCTaxidermyrabbit,
+		DisplayCategory	= Misc,
+    }
+    item HCTaxidermyjackalope
+    {
+
+        Weight    	= 3,
+        Type    	= Normal,
+        DisplayName     = Taxidermy Jackalope,
+        icon 		= HCTaxidermyjackalope,
+		DisplayCategory	= Misc,
+    }
+    item HCTaxidermyworkbench
+    {
+
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Container,
+	Capacity             	= 50,
+        DisplayName         	= Taxidermy Workbench,
+        icon 			= HCTaxidermyworkbench,
+		DisplayCategory	= Misc,
+    }
+    craftRecipe Make Taxidermy Workbench
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWorkbench],
+            item 1 [Hydrocraft.HCBonesaw],
+            item 1 [Base.Scalpel;Hydrocraft.HCScalpelimprovised],
+            item 1 [Hydrocraft.HCSewingpinbox],
+            item 1 [Hydrocraft.HCPliers],
+            item 2 [Hydrocraft.HCCardboardbox],
+            item 1 [Hydrocraft.HCBookanatomy],
+            item 1 [Hydrocraft.HCBookmammalguide],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTaxidermyworkbench,
+        }
+    }
+    craftRecipe Craft Small Animal Armature
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 3 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Base.Wire],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmaturesmallanimalwood,
+        }
+    }
+    craftRecipe Attach Straw to Small Animal Armature
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 2 [Hydrocraft.HCStraw],
+            item 1 [Hydrocraft.HCArmaturesmallanimalwood],
+            item 1 [Base.Wire],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmaturesmallanimalstraw,
+        }
+    }
+    craftRecipe Craft Taxidermy Mouse
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 1 [Hydrocraft.HCArmaturesmallanimalstraw],
+            item 1 [Base.Thread],
+            item 2 [Hydrocraft.HCAnimalglasseye],
+            item 1 [Hydrocraft.HCStraw],
+            item 2 [Hydrocraft.HCAnimalfur],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTaxidermymouse,
+        }
+    }
+    craftRecipe Craft Medium Animal Armature
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 5 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Base.Wire],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmaturemediumanimalwood,
+        }
+    }
+    craftRecipe Attach Straw to Medium Animal Armature
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 2 [Hydrocraft.HCStraw],
+            item 1 [Hydrocraft.HCArmaturemediumanimalwood],
+            item 1 [Base.Wire],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmaturemediumanimalstraw,
+        }
+    }
+    craftRecipe Craft Taxidermy Rabbit
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 1 [Hydrocraft.HCArmaturemediumanimalstraw],
+            item 1 [Base.Thread],
+            item 2 [Hydrocraft.HCAnimalglasseye],
+            item 1 [Hydrocraft.HCStraw],
+            item 1 [Hydrocraft.HCHidedriedrabbit],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTaxidermyrabbit,
+        }
+    }
+    craftRecipe Craft Taxidermy Jackalope
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTaxidermyrabbit],
+            item 1 [Hydrocraft.HCDeerantlers],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTaxidermyjackalope,
+        }
+    }
+    craftRecipe Craft Small Animal Armature
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 3 [Hydrocraft.HCRedclay],
+            item 1 [Base.Wire],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmaturesmallanimalclay,
+        }
+    }
+    craftRecipe Craft Small Animal Armature
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 3 [Hydrocraft.HCGreyclay],
+            item 1 [Base.Wire],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmaturesmallanimalclay,
+        }
+    }
+    craftRecipe Craft Medium Animal Armature
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 5 [Hydrocraft.HCRedclay],
+            item 1 [Base.Wire],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmaturemediumanimalclay,
+        }
+    }
+    craftRecipe Craft Medium Animal Armature
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 5 [Hydrocraft.HCGreyclay],
+            item 1 [Base.Wire],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmaturemediumanimalclay,
+        }
+    }
+    craftRecipe Craft Taxidermy Mouse
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 1 [Hydrocraft.HCArmaturesmallanimalclay],
+            item 1 [Base.Thread],
+            item 2 [Hydrocraft.HCAnimalglasseye],
+            item 1 [Hydrocraft.HCRedclay;Hydrocraft.HCGreyclay],
+            item 2 [Hydrocraft.HCAnimalfur],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTaxidermymouse,
+        }
+    }
+    craftRecipe Craft Taxidermy Rabbit
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 1 [Hydrocraft.HCArmaturemediumanimalclay],
+            item 1 [Base.Thread],
+            item 2 [Hydrocraft.HCAnimalglasseye],
+            item 1 [Hydrocraft.HCRedclay;Hydrocraft.HCGreyclay],
+            item 2 [Hydrocraft.HCAnimalfur],
+            item 1 [Hydrocraft.HCTaxidermyworkbench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTaxidermyrabbit,
+        }
+    }
+}

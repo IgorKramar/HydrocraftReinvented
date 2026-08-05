@@ -1,0 +1,189 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCTelescope
+    {
+
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Telescope,
+        icon 			= HCTelescope,
+		DisplayCategory          =   Toy,
+    }
+    item HCTelescopescope
+    {
+
+        Weight    		= 7,
+        Type    		= Normal,
+        DisplayName         	= Telescope Scope,
+        icon 			= HCTelescopescope,
+		DisplayCategory          =   CraftMisc,
+    }
+    item HCTelescopetripod
+    {
+
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName         	= Telescope Tripod,
+        icon 			= HCTelescopetripod,
+		DisplayCategory          =   CraftMisc,
+    }
+    item HCTelescopebox
+    {
+
+        Weight    		= 5,
+        Type    		= Normal,
+        DisplayName         	= Telescope in Box,
+        icon 			= HCTelescopebox,
+		DisplayCategory          =   CraftMisc,
+    }
+    item HCStarchart
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Star Chart,
+        icon 			= HCStarchart,
+		DisplayCategory          =   CraftMisc,
+    }
+    item HCStarchartboard
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Star Chart Board,
+        icon 			= HCStarchartboard,
+		DisplayCategory          =   Toy,
+    }
+    craftRecipe Unbox Telescope
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcopentelescope,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTelescopebox],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Box Telescope
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTelescopescope],
+            item 1 [Hydrocraft.HCTelescopetripod],
+            item 1 [Hydrocraft.HCBubblewrap],
+            item 1 [Hydrocraft.HCCardboardbox],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTelescopebox,
+        }
+    }
+    craftRecipe Assemble Telescope
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTelescopescope],
+            item 1 [Hydrocraft.HCTelescopetripod],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTelescope,
+        }
+    }
+    craftRecipe Disassemble Telescope
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:1,
+        OnCreate = HCR42.recipe_hctelescopetripod,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTelescope],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTelescopescope,
+        }
+    }
+    craftRecipe Gaze Through Telescope
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTelescope] mode:keep,
+            item 1 [Hydrocraft.HCBookastronomy],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBookastronomy,
+        }
+    }
+    craftRecipe Build Star Chart Board
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCStarchart],
+            item 8 [Base.Nails],
+            item 2 [Base.Plank],
+            item 1 [Hydrocraft.HCWoodbeam],
+            item 1 [Hydrocraft.HCWoodsheet],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCStarchartboard,
+        }
+    }
+    craftRecipe View Star Chart Board
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCStarchartboard] mode:keep,
+            item 1 [Hydrocraft.HCBookastronomy],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBookastronomy,
+        }
+    }
+}

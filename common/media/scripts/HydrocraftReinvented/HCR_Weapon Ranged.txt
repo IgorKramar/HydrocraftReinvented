@@ -1,0 +1,814 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCDucttapefletching
+    {
+
+        	DisplayName    	=    	Duct Tape Fletching,
+        	Icon        	=    	HCDucttapefletching,
+        	Type        	=    	Normal,
+        	Weight        	=    	0.1,
+			DisplayCategory	=		CraftAmmo,
+    }
+    item HCBonearrowhead
+    {
+
+        	DisplayName    	=    	Bone Arrowhead,
+        	Icon        	=    	HCBonearrowhead,
+        	Type        	=    	Normal,
+        	Weight        	=    	0.1,
+			DisplayCategory	=		CraftAmmo,
+    }
+    item HCMagUZI
+    {
+
+        CanStack    =   FALSE,
+        Weight  =   0.2,
+        Type    =   Normal,
+        DisplayName =   UZI Magazine,
+        Icon    =   BerettaClip,
+        MaxAmmo = 30,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = GunMagazine,
+		DisplayCategory	= WepAmmoMag,
+    }
+    item HCUziSilencer
+    {
+
+        Type = WeaponPart,
+        DisplayName = Pistol Silencer,
+        Icon = HCUziSilencer,
+        Weight = 1,
+        MaxRangeModifier = -1,
+        RecoilDelayModifier = -1,
+        WeightModifier = 1.1,
+        MountOn = Pistol; Pistol2; Pistol3; Revolver; Revolver_Short; Revolver_Long; Hydrocraft.HCUzi,
+        PartType = Canon,
+        Tooltip = Tooltip_Silencer,
+		DisplayCategory	= WepPart,
+    }
+    item HCUzi
+    {
+
+        ImpactSound =   null,
+        MaxRange    =   6,
+        WeaponSprite    =  Handgun02,
+        SoundVolume =   30,
+        MinAngle    =   0.95,
+        Type    =   Weapon,
+        MinimumSwingTime    =   0.5,
+        ToHitModifier   =   1.5,
+        NPCSoundBoost   =   1.5,
+        KnockBackOnNoDeath  =   TRUE,
+        Ranged  =   TRUE,
+        SwingAmountBeforeImpact =   0,
+        ProjectileCount =   1,
+        ConditionLowerChanceOneIn   =   30,
+        Weight  =   2.5,
+        SplatNumber =   3,
+        PushBackMod =   0.3,
+        SubCategory =   Firearm,
+        ConditionMax    =   15,
+        ShareDamage =   FALSE,
+        MaxHitCount =   1,
+        IsAimedFirearm  =  TRUE,
+        DoorDamage  =   5,
+        UseEndurance    =  FALSE,
+        SwingAnim   =   Handgun,
+        DisplayName =   UZI Pistol,
+        MinRange    =   0.6,
+        SwingTime   =   0.5,
+        MultipleHitConditionAffected    =   FALSE,
+		BringToBearSound = M9BringToBear,
+		SwingSound	=	M9Shoot,
+		HitSound = BulletHitBody,
+		ClickSound = M9Jam,
+        SoundRadius =   90,
+        MinDamage   =   0.6,
+        MaxDamage   =   1,
+        SplatSize   =   3,
+        KnockdownMod    =   2,
+        SplatBloodOnNoDeath =   TRUE,
+        Icon    =   HandGun2,
+        RunAnim =   Run_Weapon2,
+        CriticalChance  =   20,
+        CritDmgMultiplier = 4,
+        AimingPerkCritModifier = 0,
+        AimingPerkRangeModifier = 1.5,
+        HitChance = 50,
+        AimingPerkHitChanceModifier = 8,
+        AimingPerkMinAngleModifier = 0.05,
+        RecoilDelay = 0,
+        SoundGain = 1.5,
+        ClipSize = 30,
+        ReloadTime = 30,
+        AimingTime = 0,
+		BreakSound = M9Break,
+        MetalValue = 30,
+        AmmoBox = Bullets9mmBox,
+        MaxAmmo = 30,
+		EquipSound = M9Equip,
+		UnequipSound = M9UnEquip,
+        InsertAmmoSound = M9InsertAmmo,
+        EjectAmmoSound = M9EjectAmmo,
+		InsertAmmoStartSound = M9InsertAmmoStart,
+		InsertAmmoStopSound = M9InsertAmmoStop,
+		EjectAmmoStartSound = M9EjectAmmoStart,
+		EjectAmmoStopSound = M9EjectAmmoStop,
+        ShellFallSound = M9CartridgeFall,
+        RackSound = M9Rack,
+        MagazineType = Hydrocraft.HCMagUZI,
+        AmmoType = Base.Bullets9mm,
+        WeaponReloadType = handgun,
+        JamGunChance = 2,
+        AttachmentType = Holster,
+        FireMode = Auto,
+        FireModePossibilities = Auto/Single,
+        ModelWeaponPart = Hydrocraft.HCUziSilencer Hydrocraft.HCUziSilencer,
+        ModelWeaponPart = GunLight GunLight gunlight gunlight,
+        ModelWeaponPart = IronSight IronSight scope scope,
+        ModelWeaponPart = Laser Laser laser laser,
+		DisplayCategory	= WepFire,
+    }
+    item HCMagAA12
+    {
+
+    CanStack        =   FALSE,
+    Weight          =   0.2,
+    Type            =   Normal,
+    DisplayName     =   AA12 Magazine,
+    Icon            =   HCMagAA12,
+    MaxAmmo         =   20,
+    AmmoType        =   Base.ShotgunShells,
+    StaticModel     =   GunMagazine,
+    MetalValue      =   10,
+		DisplayCategory	= WepAmmoMag,
+    }
+    item HCAA12
+    {
+
+	ImpactSound						=	null,
+	MaxRange						=	8,
+	RangeFalloff					=	TRUE,
+	WeaponSprite					=	Hydrocraft.HCAA12Shotgun,
+	SoundVolume						=	150,
+	MinAngle						=	0.9,
+	Type							=	Weapon,
+	KnockBackOnNoDeath				=	TRUE,
+	Ranged							=	TRUE,
+	ProjectileCount					=	6,
+	ConditionLowerChanceOneIn		=	90,
+	Weight							=	4,
+	SplatNumber						=	5,
+	PushBackMod						=	0.8,
+	MaxDamage						=	4,
+	SubCategory						=	Firearm,
+	AimingMod						=	2,
+	ConditionMax					=	10,
+	ShareDamage						=	FALSE,
+	MaxHitCount						=	6,
+	IsAimedHandWeapon				=	TRUE,
+	IsAimedFirearm					=	TRUE,
+	DoorDamage						=	25,
+	UseEndurance					=	FALSE,
+	DisplayName						=	AA12 AUTO Shotgun,
+	MinRange						=	0.61,
+	SwingTime						=	1,
+	AngleFalloff					=	TRUE,
+	MultipleHitConditionAffected	=	FALSE,
+	SwingSound						=	HC_AA12,
+	SoundRadius						=	120,
+	MinDamage						=	2,
+	KnockdownMod					=	8,
+	SplatBloodOnNoDeath				=	TRUE,
+	Icon							=	Shotgun2,
+	RunAnim							=	Run_Weapon2,
+	CriticalChance					=	60,
+	CritDmgMultiplier				=	2.5,
+	AimingPerkCritModifier			=	4,
+	HitChance						=	75,
+	AimingPerkHitChanceModifier		=	5,
+	RecoilDelay						=	20,
+	SoundGain						=	2,
+	ReloadTime						=	25,
+	AimingTime						=	5,
+	RequiresEquippedBothHands		=	TRUE,
+	BreakSound						=	JS2000ShotgunBreak,
+	ShellFallSound					=	JS2000ShotgunCartridgeFall,
+	MetalValue						=	45,
+	TwoHandWeapon					=	TRUE,
+	AmmoBox							=	ShotgunShellsBox,
+	MaxAmmo							=	20,
+	EquipSound						=	JS2000ShotgunEquip,
+	UnequipSound					=	JS2000ShotgunUnEquip,
+	InsertAmmoStartSound			=	JS2000ShotgunInsertAmmoStart,
+	InsertAmmoSound					=	JS2000ShotgunInsertAmmo,
+	InsertAmmoStopSound				=	JS2000ShotgunInsertAmmoStop,
+	EjectAmmoStartSound				=	JS2000ShotgunEjectAmmoStart,
+	EjectAmmoSound					=	JS2000ShotgunEjectAmmo,
+	EjectAmmoStopSound				=	JS2000ShotgunEjectAmmoStop,
+	MagazineType					=	Hydrocraft.HCMagAA12,
+	RackSound						=	JS2000ShotgunRack,
+	AmmoType						=	Base.ShotgunShells,
+	WeaponReloadType				=	boltaction,
+	RackAfterShoot					=	FALSE,
+	JamGunChance					=	1,
+	AttachmentType					=	Rifle,
+	FireMode						=	Auto,
+	FireModePossibilities			=	Auto/Single,
+	ModelWeaponPart					=	Hydrocraft.HCShotgunSilencer gunlight gunlight gunlight,
+	DisplayCategory					=	WepFire,
+	Tags							=	HuntingShotgun,
+    }
+    item HCShotgunSilencer
+    {
+
+        Type = WeaponPart,
+        DisplayName = Shotgun Silencer,
+        Icon = HCUziSilencer,
+        Weight = 1,
+        MaxRangeModifier = -1,
+        RecoilDelayModifier = -1,
+        WeightModifier = 1.1,
+        MountOn = Hydrocraft.HCAA12; Shotgun,
+        PartType = Canon,
+        Tooltip = Tooltip_Silencer,
+		DisplayCategory	= WepPart,
+    }
+    item HCXbowbolt
+    {
+
+		Count		=	1,
+		DisplayName	=	Crossbow Bolt,
+		Icon		=	HCXbowbolt,
+        Type        	=    	Normal,
+        DisplayCategory =    	Ammo,
+		Weight		=	0.05,
+    }
+    item HCMetalArrowhead
+    {
+
+        Weight          =   0.01,
+        Type            =   Normal,
+        DisplayName             =   Metal Arrowhead,
+        icon            =   HCBonearrowhead,
+			DisplayCategory	=		CraftAmmo,
+    }
+    item HCArrow
+    {
+
+        Count		=	1,
+        DisplayName	=	Arrow,
+        Icon		=	HCArrow,
+        Type = Normal,
+        DisplayCategory =    	Ammo,
+        Weight		=	0.05,
+        WorldStaticModel = Hydrocraft.HCArrow,
+    }
+    item HCArrowAttachment
+    {
+
+        Count		=	1,
+        DisplayName	=	Arrows,
+        Icon		=	HCArrow,
+        Type = WeaponPart,
+        DisplayCategory =    	Ammo,
+        Weight		=	0.05,
+        WorldStaticModel = Hydrocraft.HCArrowAttachment,
+        MountOn = Hydrocraft.HCLongbow,
+        PartType = Clip,
+    }
+    item HCMagLongbow
+    {
+
+        CanStack    =   FALSE,
+        Weight  =   0.5,
+        Type    =   WeaponPart,
+        DisplayName =   Longbow Magazine,
+        Icon    =   HCMagLongbow,
+        MaxAmmo = 8,
+        AmmoType = Hydrocraft.HCArrow,
+        WorldStaticModel = Hydrocraft.HCMagLongbow,
+		DisplayCategory	= WepAmmoMag,
+        MountOn = Hydrocraft.HCLongbowMag,
+        PartType = Clip,
+    }
+    item HCLongbowMag
+    {
+
+        ImpactSound =   null,
+        MaxRange    =   8,
+        WeaponSprite    =   Hydrocraft.HCLongbowDrawn,
+        SoundVolume =   40,
+        MinAngle    =   0.95,
+        Type    =   Weapon,
+        MinimumSwingTime    =   1.5,
+        ToHitModifier   =   1.5,
+        NPCSoundBoost   =   1.5,
+        KnockBackOnNoDeath  =   TRUE,
+        Ranged  =   TRUE,
+        SwingAmountBeforeImpact =   0,
+        ProjectileCount =   1,
+        ConditionLowerChanceOneIn   =   100,
+        Weight  =   2,
+        SplatNumber =   1,
+        PushBackMod =   0.45,
+        MaxDamage   =   1.6,
+        SubCategory =   Firearm,
+        ConditionMax    =   15,
+        ShareDamage =   FALSE,
+        MaxHitCount =   1,
+        IsAimedFirearm  =   TRUE,
+        DoorDamage  =   1,
+        UseEndurance    =   FALSE,
+        SwingAnim   =   Rifle,
+        DisplayName =   Longbow with Mag,
+        MinRange    =   0.61,
+        SwingTime   =   1.5,
+        MultipleHitConditionAffected    =   FALSE,
+        SwingSound  =   Bow_Dry,
+        SoundRadius =   4,
+        MinDamage   =   0.6,
+        SplatSize   =   3,
+        KnockdownMod    =   0.3,
+        SplatBloodOnNoDeath =   TRUE,
+        Icon    =   HCLongbow,
+        RunAnim =   Run_Weapon2,
+        IdleAnim    =   Idle_Weapon2,
+        CriticalChance = 25,
+        CritDmgMultiplier = 10,
+        AimingPerkCritModifier = 15,
+        HitChance = 35,
+        AimingPerkHitChanceModifier = 15,
+        AimingPerkMinAngleModifier = 0.05,
+        AimingPerkRangeModifier = 1.5,
+        RecoilDelay = 10,
+        PiercingBullets = TRUE,
+        SoundGain = 1.5,
+        ReloadTime = 10,
+        AimingTime = 20,
+        RequiresEquippedBothHands = TRUE,
+        BreakSound  =   BreakMetalItem,
+        MetalValue = 45,
+        TwoHandWeapon = TRUE,
+        InsertAmmoSound = BulletInRifle,
+        EjectAmmoSound = M9EjectAmmo,
+        RackSound = HCBowReload,
+        MagazineType = Hydrocraft.HCMagLongbow,
+        AmmoType = Hydrocraft.HCArrow,
+        WeaponReloadType = shotgun,
+        RackAfterShoot = TRUE,
+        JamGunChance = 2,
+        AttachmentType = Rifle,
+        MaxAmmo = 8,
+		DisplayCategory	= WepBow,
+        ModelWeaponPart = Hydrocraft.HCMagLongbow Hydrocraft.HCMagLongbow mag mag,
+    }
+    item HCCrossbow
+    {
+
+        ImpactSound =   null,
+        MaxRange    =   7,
+        WeaponSprite    =   Hydrocraft.HCCrossbow,
+        SoundVolume =   40,
+        MinAngle    =   0.95,
+        Type    =   Weapon,
+        MinimumSwingTime    =   1.5,
+        ToHitModifier   =   1.5,
+        NPCSoundBoost   =   1.5,
+        KnockBackOnNoDeath  =   TRUE,
+        Ranged  =   TRUE,
+        SwingAmountBeforeImpact =   0,
+        ProjectileCount =   1,
+        ConditionLowerChanceOneIn   =   250,
+        Weight  =   3,
+        SplatNumber =   1,
+        PushBackMod =   0.45,
+        MaxDamage   =   1.6,
+        SubCategory =   Firearm,
+        ConditionMax    =   15,
+        ShareDamage =   FALSE,
+        MaxHitCount =   1,
+        IsAimedFirearm  =   TRUE,
+        DoorDamage  =   1,
+        UseEndurance    =   FALSE,
+        SwingAnim   =   Rifle,
+        DisplayName =   Crossbow,
+        MinRange    =   0.61,
+        SwingTime   =   1.5,
+        MultipleHitConditionAffected    =   FALSE,
+        SwingSound  =   Bow_Dry,
+        SoundRadius =   5,
+        MinDamage   =   0.6,
+        SplatSize   =   3,
+        KnockdownMod    =   0.3,
+        SplatBloodOnNoDeath =   TRUE,
+        Icon    =   HCCrossbow,
+        RunAnim =   Run_Weapon2,
+        IdleAnim    =   Idle_Weapon2,
+        CriticalChance = 30,
+        CritDmgMultiplier = 10,
+        AimingPerkCritModifier = 15,
+        HitChance = 40,
+        AimingPerkHitChanceModifier = 15,
+        AimingPerkMinAngleModifier = 0.05,
+        AimingPerkRangeModifier = 1.5,
+        RecoilDelay = 10,
+        PiercingBullets = TRUE,
+        SoundGain = 1.5,
+        ReloadTime = 25,
+        AimingTime = 20,
+        RequiresEquippedBothHands = TRUE,
+        BreakSound  =   BreakMetalItem,
+        MetalValue = 45,
+        TwoHandWeapon = TRUE,
+        InsertAmmoSound = HCBowReload,
+        EjectAmmoSound = HCBowReload,
+        RackSound = HCBowReload,
+        AmmoType = Hydrocraft.HCXbowbolt,
+        WeaponReloadType = Crossbow,
+        haveChamber = FALSE,
+        ModelWeaponPart = Hydrocraft.x2CrossbowScope CrossbowScope,
+        ModelWeaponPart = Hydrocraft.x4CrossbowScope CrossbowScope,       
+        RackAfterShoot = FALSE,
+        JamGunChance = 0,
+        AttachmentType = Rifle,
+        MaxAmmo = 1,
+		DisplayCategory	= WepBow,
+    }
+    item x2CrossbowScope
+    {
+
+        Type = WeaponPart,
+        DisplayName = x2 Crossbow Scope,
+        Icon = Scope2x,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        MaxRangeModifier = 7,
+        MinRangeModifier = 6,
+        MountOn = Hydrocraft.HCCrossbow,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+		DisplayCategory	= WepPart,
+    }
+    item x4CrossbowScope
+    {
+
+        Type = WeaponPart,
+        DisplayName = x4 Crossbow Scope,
+        Icon = Scope4x,
+        Weight = 0.4,
+        WeightModifier = 0.4,
+        MaxRangeModifier = 13,
+        MinRangeModifier = 8,
+        MountOn = Hydrocraft.HCCrossbow,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+		DisplayCategory	= WepPart,
+    }
+    item HCLongbow
+    {
+
+        ImpactSound =   null,
+        MaxRange    =   8,
+        WeaponSprite    =   Hydrocraft.HCLongbow,
+        SoundVolume =   40,
+        MinAngle    =   0.95,
+        Type    =   Weapon,
+        MinimumSwingTime    =   1.5,
+        ToHitModifier   =   1.5,
+        NPCSoundBoost   =   1.5,
+        KnockBackOnNoDeath  =   TRUE,
+        Ranged  =   TRUE,
+        SwingAmountBeforeImpact =   0,
+        ProjectileCount =   1,
+        ConditionLowerChanceOneIn   =   60,
+        Weight  =   2,
+        SplatNumber =   1,
+        PushBackMod =   0.45,
+        MaxDamage   =   1.6,
+        SubCategory =   Firearm,
+        ConditionMax    =   10,
+        ShareDamage =   FALSE,
+        MaxHitCount =   1,
+        IsAimedFirearm  =   TRUE,
+        DoorDamage  =   1,
+        UseEndurance    =   FALSE,
+        SwingAnim   =   Rifle,
+        DisplayName =   Longbow,
+        MinRange    =   0.61,
+        SwingTime   =   1.5,
+        MultipleHitConditionAffected    =   FALSE,
+        SwingSound  =   Bow_Dry,
+        SoundRadius =   4,
+        MinDamage   =   0.6,
+        SplatSize   =   3,
+        KnockdownMod    =   0.3,
+        SplatBloodOnNoDeath =   TRUE,
+        Icon    =   HCLongbow,
+        RunAnim =   Run_Weapon2,
+        IdleAnim    =   Idle_Weapon2,
+        CriticalChance = 25,
+        CritDmgMultiplier = 10,
+        AimingPerkCritModifier = 15,
+        HitChance = 35,
+        AimingPerkHitChanceModifier = 15,
+        AimingPerkMinAngleModifier = 0.05,
+        AimingPerkRangeModifier = 1.5,
+        RecoilDelay = 10,
+        PiercingBullets = TRUE,
+        SoundGain = 1.5,
+        ReloadTime = 25,
+        AimingTime = 20,
+        RequiresEquippedBothHands = TRUE,
+        BreakSound  =   BreakMetalItem,
+        MetalValue = 45,
+        TwoHandWeapon = TRUE,
+        InsertAmmoSound = BulletInRifle,
+        EjectAmmoSound = M9EjectAmmo,
+        RackSound = BulletOutVarmint,
+        AmmoType = Hydrocraft.HCArrow,
+        WeaponReloadType = Longbow,
+		RackAfterShoot = FALSE,
+        JamGunChance = 0,
+        AttachmentType = Rifle,
+        MaxAmmo = 1,
+		DisplayCategory	= WepBow,
+        HaveChamber = FALSE,
+        ModelWeaponPart = Hydrocraft.HCArrowAttachment Hydrocraft.HCArrowAttachment mag mag,
+    }
+    craftRecipe Make Crossbow Scope
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.x2Scope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.x2CrossbowScope,
+        }
+    }
+    craftRecipe Make Crossbow Scope
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.x4Scope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.x4CrossbowScope,
+        }
+    }
+    craftRecipe Make Duct Tape Fletching
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDucttapefletching,
+        }
+    }
+    craftRecipe Make Bone Arrowhead
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Woodwork:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBone;Hydrocraft.HCZombiebones],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBonearrowhead,
+        }
+    }
+    craftRecipe Make Arrow
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Woodwork:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBlackfeathers;Hydrocraft.HCWhitefeathers;Hydrocraft.HCBrownfeathers;Hydrocraft.HCRedfeather;Hydrocraft.HCStripedfeather;Hydrocraft.HCBluejayfeather;Hydrocraft.HCDucttapefletching],
+            item 1 [Hydrocraft.HCStonearrowhead;Hydrocraft.HCBonearrowhead;Hydrocraft.HCMetalArrowhead],
+            item 1 [Base.Glue;Hydrocraft.HCTar;Hydrocraft.HCRubbercement;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar;Base.Woodglue;Hydrocraft.HCWoodgluejar],
+            item 1 [Base.WoodenStick2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArrow,
+        }
+    }
+    craftRecipe Make Bolt
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+            item 1 [Hydrocraft.HCBowBoltMold],
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCXbowbolt,
+        }
+    }
+    craftRecipe Make Metal Arrowhead
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIroningot;Hydrocraft.HCBronzeingot;Hydrocraft.HCSteelingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+            item 1 [Hydrocraft.HCArrowheadMold],
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCMetalArrowhead,
+        }
+    }
+    craftRecipe Make Longbow
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:5;Mechanics:1,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 4 [Base.Twine],
+            item 1 [Base.Woodglue;Hydrocraft.HCWoodgluejar],
+            item 1 [Hydrocraft.HCOakLog],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Hydrocraft.HCChisel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLongbow,
+        }
+    }
+    craftRecipe Make Quiver
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:2,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 8 [Hydrocraft.HCLeather],
+            item 8 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCQuiver,
+        }
+    }
+    craftRecipe Make Longbow Mag
+    {
+        time = 800,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:8;Mechanics:2,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCMeasuringtape] mode:keep,
+            item 4 [Base.Screws],
+            item 2 [Base.RubberBand],
+            item 1 [Base.Woodglue],
+            item 2 [Base.Plank],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMagLongbow,
+        }
+    }
+    craftRecipe Upgrade Longbow
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:8;Mechanics:2,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCMeasuringtape] mode:keep,
+            item 1 [Hydrocraft.HCLongbow],
+            item 4 [Base.Screws],
+            item 4 [Base.Twine],
+            item 4 [Base.RubberBand],
+            item 1 [Hydrocraft.HCBungeecord],
+            item 1 [Base.Woodglue],
+            item 2 [Base.Plank],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLongbowMag,
+        }
+    }
+    craftRecipe Make Crossbow
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:10;Mechanics:4,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 8 [Base.FishingLine],
+            item 1 [Hydrocraft.HCLeafSpring],
+            item 1 [Base.Woodglue;Hydrocraft.HCWoodgluejar],
+            item 2 [Base.Plank],
+            item 6 [Base.Screws],
+            item 2 [Base.RubberBand],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCrossbow,
+        }
+    }
+    fixing Maintain Gun 1
+    {
+        Require = Hydrocraft.HCUzi; Hydrocraft.HCAA12; Base.Revolver_Long; Base.Revolver_Short; Base.VarmintRifle; Base.HuntingRifle; Base.Shotgun; Base.DoubleBarrelShotgun; Base.DoubleBarrelShotgunSawnoff; Base.ShotgunSawnoff; Base.Pistol; Base.Pistol2; Base.Pistol3; Base.Revolver; Base.Revolver_Long; Base.Revolver_Short; Base.AssaultRifle; Base.AssaultRifle2,
+        GlobalItem = Hydrocraft.HCGunParts=4,
+        Fixer = Base.RippedSheets; Mechanics=3,
+        ConditionModifier = 4,
+    }
+    fixing Maintain Gun 2
+    {
+        Require = Hydrocraft.HCUzi; Hydrocraft.HCAA12; Base.Revolver_Long; Base.Revolver_Short; Base.VarmintRifle; Base.HuntingRifle; Base.Shotgun; Base.DoubleBarrelShotgun; Base.DoubleBarrelShotgunSawnoff; Base.ShotgunSawnoff; Base.Pistol; Base.Pistol2; Base.Pistol3; Base.Revolver; Base.Revolver_Long; Base.Revolver_Short; Base.AssaultRifle; Base.AssaultRifle2,
+        GlobalItem = Hydrocraft.HCTesttubebrush,
+        Fixer = Hydrocraft.HCMotoroil; Mechanics=2,
+        ConditionModifier = 2,
+    }
+    fixing Maintain Gun 3
+    {
+        Require = Hydrocraft.HCUzi; Hydrocraft.HCAA12; Base.Revolver_Long; Base.Revolver_Short; Base.VarmintRifle; Base.HuntingRifle; Base.Shotgun; Base.DoubleBarrelShotgun; Base.DoubleBarrelShotgunSawnoff; Base.ShotgunSawnoff; Base.Pistol; Base.Pistol2; Base.Pistol3; Base.Revolver; Base.Revolver_Long; Base.Revolver_Short; Base.AssaultRifle; Base.AssaultRifle2,
+        GlobalItem = Hydrocraft.HCCookingoil,
+        Fixer = Hydrocraft.HCChopsticks; Mechanics=1,
+        ConditionModifier = 1.7,
+    }
+}

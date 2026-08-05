@@ -1,0 +1,793 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCAxehandle
+    {
+
+		DisplayCategory	 = CraftCarp,	
+		Type    		 = Normal,
+		DisplayName      = Axe Handle,
+        Weight			 = 1,
+        icon 			 = HCAxehandle,
+		WorldStaticModel = WorldItem-HCAxehandle,
+    }
+    item HCAxehead
+    {
+
+		DisplayCategory	 = CraftMet,	
+		Type    		 = Normal,
+		DisplayName      = Axe Head,			
+        Weight			 = 2,
+        icon 			 = HCAxehead,
+		WorldStaticModel = WorldItem-HCAxeHead,
+    }
+    item HCAxeheadworn
+    {
+
+		DisplayCategory	 = CraftMet,
+		Type    		 = Normal,
+        Weight			 = 2,
+        DisplayName      = Worn Axe Head,
+        icon 			 = HCAxehead,
+		WorldStaticModel = WorldItem-HCAxeHead,
+    }
+    item HCAxeheadblunt
+    {
+
+        Weight			 = 2,
+        Type    		 = Normal,
+        DisplayName      = Blunt Axe Head,
+        icon 			 = HCAxehead,
+		DisplayCategory	 = CraftMet,
+		WorldStaticModel = WorldItem-HCAxeHead,
+    }
+    item HCSawbladeaxe
+    {
+
+		MaxRange			=	1.6,
+		WeaponSprite			=	Fireaxe,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3.5,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.002,
+		Categories			=	Axe,
+		ConditionLowerChanceOneIn	=	30,
+		Weight				=	3,
+		SplatNumber			=	1,
+		PushBackMod			=	0.3,
+		MinDamage			=	1,
+		MaxDamage			=	2.5,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	2,
+		DoorDamage			=	30,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	20,
+		WeaponWeight			=	3,
+		DisplayName			=	Sawblade Axe,
+		MinRange			=	0.61,
+		SwingTime			=	3.5,
+		HitAngleMod			=	-30,
+		SplatSize			=	5,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCSawbladeaxe,
+		RunAnim				=	Run_Weapon2,
+       	TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+        TreeDamage  			=   	20,
+		DamageMakeHole = TRUE,
+        Tags 						= ChopTree;CutPlant,
+        AttachmentType 					= BigWeapon,
+		DisplayCategory          =   WepMelee,
+    }
+    item HCMakeshiftaxe
+    {
+
+		MaxRange			=	1.5,
+		WeaponSprite			=	Fireaxe,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3.5,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.002,
+		Categories			=	Axe,
+		ConditionLowerChanceOneIn	=	30,
+		Weight				=	3,
+		SplatNumber			=	1,
+		PushBackMod			=	0.3,
+		MinDamage			=	0.7,
+		MaxDamage			=	1.8,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	2,
+		DoorDamage			=	30,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	20,
+		WeaponWeight			=	3,
+		DisplayName			=	Makeshift Axe,
+		MinRange			=	0.61,
+		SwingTime			=	3.5,
+		HitAngleMod			=	-30,
+		SplatSize			=	5,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	Axe,
+		RunAnim				=	Run_Weapon2,
+       	TwoHandWeapon 		= 	TRUE,
+        BreakSound  		=   	BreakWoodItem,
+        Tags 						= ChopTree;CutPlant,
+        TreeDamage  		=   	30,
+		DamageMakeHole = TRUE,
+        AttachmentType 		= BigWeapon,
+		DisplayCategory          =   WepMelee,
+    }
+    item HCMakeshiftaxeworn
+    {
+
+		MaxRange			=	1.5,
+		WeaponSprite			=	Fireaxe,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3.5,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.002,
+		Categories			=	Axe,
+		ConditionLowerChanceOneIn	=	30,
+		Weight				=	3,
+		SplatNumber			=	1,
+		PushBackMod			=	0.3,
+		MinDamage			=	0.6,
+		MaxDamage			=	1.6,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	2,
+		DoorDamage			=	25,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	20,
+		WeaponWeight			=	3,
+		DisplayName			=	Worn Makeshift Axe,
+		MinRange			=	0.61,
+		SwingTime			=	3.5,
+		HitAngleMod			=	-30,
+		SplatSize			=	5,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	Axe,
+		RunAnim				=	Run_Weapon2,
+       	TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+        Tags 						= ChopTree;CutPlant,
+        TreeDamage  			=   	25,
+		DamageMakeHole = TRUE,
+        AttachmentType 			= BigWeapon,
+		DisplayCategory          =   WepMelee,
+    }
+    item HCMakeshiftaxeblunt
+    {
+
+		MaxRange			=	1.5,
+		WeaponSprite			=	Fireaxe,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3.5,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.002,
+		Categories			=	Axe,
+		ConditionLowerChanceOneIn	=	30,
+		Weight				=	3,
+		SplatNumber			=	1,
+		PushBackMod			=	0.3,
+		MinDamage			=	0.5,
+		MaxDamage			=	1.5,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	2,
+		DoorDamage			=	20,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	20,
+		WeaponWeight			=	3,
+		DisplayName			=	Blunt Makeshift Axe,
+		MinRange			=	0.61,
+		SwingTime			=	3.5,
+		HitAngleMod			=	-30,
+		SplatSize			=	5,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	Axe,
+		RunAnim				=	Run_Weapon2,
+       	TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+        TreeDamage  			=   	20,
+        Tags 						= ChopTree;CutPlant,
+		DamageMakeHole = TRUE,
+        AttachmentType 			= BigWeapon,
+		DisplayCategory          =   WepMelee,
+    }
+    item HCSurvivalaxe
+    {
+
+		DisplayName					=	Survival Axe,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Axe,
+		WeaponSprite				=	Hydrocraft.HCSurvivalaxe,
+		SwingAnim					=	Bat,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCSurvivalaxe,
+		Weight						=	1.25,
+		WeaponWeight				=	1,
+		MaxRange					=	1.25,
+		MinRange					=	0.61,
+		MaxDamage					=	.8,
+		MinDamage					=	.5,
+		CriticalChance				=	20,
+		DoorDamage					=	25,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.45,
+		KnockBackOnNoDeath			=	TRUE,
+		KnockdownMod				=	1.5,
+		ConditionLowerChanceOneIn	=	40,
+		ConditionMax				=	10,
+		SplatNumber					=	1,
+		SplatSize					=	1,
+		SplatBloodOnNoDeath			=	TRUE,
+		SwingTime					=	2.55,
+		MinimumSwingTime			=	2.55,
+		SwingAmountBeforeImpact		=	0.002,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 				= 	FALSE,
+        BreakSound  				=   	BreakWoodItem,
+        TreeDamage  				=   	25,
+        AttachmentType 				= Knife,
+		DamageMakeHole = TRUE,
+        Tags 						= ChopTree;CutPlant,
+		DisplayCategory          =   WepMelee,
+    }
+    item HCHatchetsteel
+    {
+
+		DisplayName					=	Steel Hatchet,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Axe,
+		WeaponSprite					=	Hydrocraft.HCHatchetsteel,
+		SwingAnim					=	Bat,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCHatchetsteel,
+		Weight						=	1.25,
+		WeaponWeight					=	1,
+		MaxRange					=	1.25,
+		MinRange					=	0.61,
+		MaxDamage					=	.8,
+		MinDamage					=	.5,
+		CriticalChance					=	20,
+		DoorDamage					=	25,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.45,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1.5,
+		ConditionLowerChanceOneIn			=	20,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	1,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.55,
+		MinimumSwingTime				=	2.55,
+		SwingAmountBeforeImpact				=	0.002,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	FALSE,
+        BreakSound  					=   	BreakWoodItem,
+        TreeDamage  					=   	25,
+		DamageMakeHole = TRUE,
+        AttachmentType 			= BigWeapon,
+		DisplayCategory          =   WepMelee,
+        Tags 						= ChopTree;CutPlant,
+    }
+    item HCHatchetiron
+    {
+
+		DisplayName					=	Iron Hatchet,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Axe,
+		WeaponSprite					=	Hydrocraft.HCHatchetiron,
+		SwingAnim					=	Bat,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCHatchetiron,
+		Weight						=	1.25,
+		WeaponWeight					=	1,
+		MaxRange					=	1.25,
+		MinRange					=	0.61,
+		MaxDamage					=	.8,
+		MinDamage					=	.5,
+		CriticalChance					=	20,
+		DoorDamage					=	25,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.45,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1.5,
+		ConditionLowerChanceOneIn			=	15,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	1,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.55,
+		MinimumSwingTime				=	2.55,
+		SwingAmountBeforeImpact				=	0.002,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	FALSE,
+        BreakSound  					=   	BreakWoodItem,
+        TreeDamage  					=   	25,
+		DamageMakeHole = TRUE,
+        AttachmentType 			= BigWeapon,
+		DisplayCategory          =   WepMelee,
+        Tags 						= ChopTree;CutPlant,
+    }
+    item HCSkullsplitter
+    {
+
+		MaxRange					=	1.5,
+		WeaponSprite				=	Hydrocraft.HCSkullsplitter,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime			=	3.0,
+		KnockBackOnNoDeath			=	TRUE,
+		SwingAmountBeforeImpact		=	0.002,
+		Categories					=	Axe,
+		ConditionLowerChanceOneIn	=	10,
+		Weight						=	3,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax				=	50,
+		MaxHitCount					=	3,
+		DoorDamage					=	35,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance				=	40,
+		WeaponWeight				=	3,
+		DisplayName					=	Skull Splitter,
+		MinRange					=	0.61,
+		SwingTime					=	3.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	8,
+		KnockdownMod				=	2,
+		SplatBloodOnNoDeath			=	TRUE,
+		Icon						=	HCBattleaxesteel,
+		RunAnim						=	Run_Weapon2,
+        TwoHandWeapon	 			= 	TRUE,
+       	BreakSound  				=   BreakWoodItem,
+        TreeDamage  				=   35,
+		RequiresEquippedBothHands 	= 	true,
+		DamageMakeHole = TRUE,
+		AttachmentType 				= 	BigWeapon,
+		DisplayCategory          =   WepMelee,
+    }
+    item HCBattleaxeiron
+    {
+
+		MaxRange					=	1.5,
+		WeaponSprite					=	Fireaxe,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	3.0,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		Categories					=	Axe,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	3,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	35,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3,
+		DisplayName					=	Iron Battleaxe,
+		MinRange					=	0.61,
+		SwingTime					=	3.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCBattleaxeiron,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	35,
+		RequiresEquippedBothHands 			= 	true,
+		DamageMakeHole = TRUE,
+		AttachmentType 			= BigWeapon,
+		DisplayCategory          =   WepMelee,
+    }
+    craftRecipe Craft Axe Handle
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.Plank],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAxehandle,
+        }
+    }
+    craftRecipe Remove Axe Head
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Blacksmithing,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.Axe],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAxehead,
+        }
+    }
+    craftRecipe Craft Makeshift Axe
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Blacksmithing,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAxehead],
+            item 1 [Hydrocraft.HCAxehandle],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMakeshiftaxe,
+        }
+    }
+    craftRecipe Remove Axe Head
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Blacksmithing,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMakeshiftaxe],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAxeheadworn,
+        }
+    }
+    craftRecipe Craft Makeshift Axe
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Blacksmithing,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAxeheadworn],
+            item 1 [Hydrocraft.HCAxehandle],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMakeshiftaxeworn,
+        }
+    }
+    craftRecipe Remove Axe Head
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Blacksmithing,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMakeshiftaxeworn],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAxeheadblunt,
+        }
+    }
+    craftRecipe Craft Makeshift Axe
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Blacksmithing,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAxeheadblunt],
+            item 1 [Hydrocraft.HCAxehandle],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMakeshiftaxeblunt,
+        }
+    }
+    craftRecipe Craft Pickaxe
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:3,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAxehandle],
+            item 3 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PickAxe,
+        }
+    }
+    craftRecipe Craft Sawblade Axe
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Blacksmithing,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSawcircularblade],
+            item 1 [Hydrocraft.HCAxehandle],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSawbladeaxe,
+        }
+    }
+    craftRecipe Make Steel Axe
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:4,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCSteelingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Axe,
+        }
+    }
+    craftRecipe Make Steel Hatchet
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:3,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHatchetsteel,
+        }
+    }
+    craftRecipe Make Iron Hatchet
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:3,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCIroningot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHatchetiron,
+        }
+    }
+    craftRecipe Make Skull Splitter
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:6,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCSteelingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammersteel] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSkullsplitter,
+        }
+    }
+    craftRecipe Make Iron Battleaxe
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:6,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCIroningot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBattleaxeiron,
+        }
+    }
+    fixing Fix Axe
+    {
+        Require = Base.Axe,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Sawblade Axe
+    {
+        Require = Hydrocraft.HCSawbladeaxe,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Makeshift Axe
+    {
+        Require = Hydrocraft.HCMakeshiftaxe,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Worn Makeshift Axe
+    {
+        Require = Hydrocraft.HCMakeshiftaxeworn,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Blunt Makeshift Axe
+    {
+        Require = Hydrocraft.HCMakeshiftaxeblunt,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Steel Hatchet
+    {
+        Require = Hydrocraft.HCHatchetsteel,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron Hatchet
+    {
+        Require = Hydrocraft.HCHatchetiron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+    fixing Fix Skull Splitter
+    {
+        Require = Hydrocraft.HCSkullsplitter,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron Battleaxe
+    {
+        Require = Hydrocraft.HCBattleaxeiron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+}

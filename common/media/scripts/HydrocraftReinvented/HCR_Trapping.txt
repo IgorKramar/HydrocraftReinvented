@@ -1,0 +1,280 @@
+module Hydrocraft
+{
+    imports { Base }
+    item Nothing
+    {
+
+	Weight    			= 	0.1,
+	Type    			= 	Normal,
+	DisplayName			=	No Result,
+	Icon				=	Nothing,
+    }
+    item HCSteelspring
+    {
+
+	Weight				=	0.1,
+	Type				=	Normal,
+	DisplayName			=	Steel Spring,
+	Icon				=	HCSteelspring,
+			DisplayCategory	= CraftMetal,
+    }
+    item PropaneTrap
+    {
+
+        Weight    			= 	25.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Set Propane Trap,
+        icon 				= 	Propanetrap,
+			DisplayCategory	= SurTrap,
+    }
+    item PropaneTrapCloses
+    {
+
+        Weight    			= 	25.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Exloded Propane Trap,
+        icon 				= 	Propanetrap,
+			DisplayCategory	= SurTrap,
+    }
+    item BearTrap
+    {
+
+        Weight    			= 	2.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Set Bear Trap,
+        icon 				= 	Beartrap,
+			DisplayCategory	= SurTrap,
+    }
+    item BearTrapClosed
+    {
+
+        Weight    			= 	2.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Closed Bear Trap,
+        icon 				= 	Beartrapclosed,
+			DisplayCategory	= SurTrap,
+    }
+    item SpikeTrap
+    {
+
+        Weight    			= 	3.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Set Nail Trap,
+        icon 				= 	Spiketrap,
+			DisplayCategory	= SurTrap,
+    }
+    item SpikeTrapClosed
+    {
+
+        Weight    			= 	3.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Broken Nail Trap,
+        icon 				= 	Spiketrapclosed,
+			DisplayCategory	= SurTrap,
+    }
+    item spanishRider
+    {
+
+        MaxRange    =   3,
+        Type    =   Weapon,
+        MinimumSwingTime    =   1.5,
+        SwingAnim   =   Throw,
+        WeaponSprite = Spiketrapclosed,
+        UseSelf =   TRUE,
+        DisplayName =   Spanischer Reiter,
+        SwingTime   =   1.5,
+        SwingAmountBeforeImpact =   0.1,
+        MinDamage   =  10,
+        Weight  =   1.5,
+        MaxDamage   =   20,
+        MaxHitCount =   5,
+        Icon    =   Spiketrapclosed,
+        SensorRange =   2,
+        CanBePlaced = TRUE,
+        PlacedSprite = constructedobjects_01_32,
+        PhysicsObject   =   PipeBomb,
+        ExplosionPower  =   90,
+        ExplosionRange  =   7,
+			DisplayCategory	= WepMelee,
+    }
+    craftRecipe Make Steel Spring
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSteelspring,
+        }
+    }
+    craftRecipe Make Mousetrap
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Trapper,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Trapping:2,
+        xpAward = Trapping:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Base.Wire],
+            item 1 [Hydrocraft.HCSteelspring],
+            item 1 [Hydrocraft.HCStaplegunfull],
+        }
+        outputs
+        {
+            item 1 Base.TrapMouse,
+        }
+    }
+    craftRecipe Set Nail Trap
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Trapper,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Trapping:2,
+        xpAward = Trapping:2,
+        OnCreate = HCR42.SetTrapDown,
+        inputs
+        {
+            item 1 [Hydrocraft.SpikeTrap] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.Nothing,
+        }
+    }
+    craftRecipe Set Bear Trap
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Trapper,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Trapping:4,
+        xpAward = Trapping:2,
+        OnCreate = HCR42.SetTrapDown,
+        inputs
+        {
+            item 1 [Hydrocraft.BearTrap] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.Nothing,
+        }
+    }
+    craftRecipe Set Propane Bomb Trap
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Trapper,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Trapping:6,
+        xpAward = Trapping:2,
+        OnCreate = HCR42.SetTrapDown,
+        inputs
+        {
+            item 1 [Hydrocraft.PropaneTrap] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.Nothing,
+        }
+    }
+    craftRecipe Make Spike Trap
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Trapper,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Trapping:2,
+        xpAward = Trapping:2,
+        inputs
+        {
+            item 4 [Base.Nails],
+            item 1 [Hydrocraft.HCWoodenpallet],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.SpikeTrap,
+        }
+    }
+    craftRecipe Add Nails to Spike Trap
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Trapper,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Trapping:2,
+        xpAward = Trapping:2,
+        inputs
+        {
+            item 1 [Hydrocraft.SpikeTrapClosed],
+            item 3 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.SpikeTrap,
+        }
+    }
+    craftRecipe Open Bear Trap
+    {
+        time = 10,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Trapper,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Trapping:4,
+        xpAward = Trapping:2,
+        inputs
+        {
+            item 1 [Hydrocraft.BearTrapClosed],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.BearTrap,
+        }
+    }
+    craftRecipe Craft Propane Bomb Trap
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Trapper,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Trapping:6,
+        xpAward = Trapping:2,
+        inputs
+        {
+            item 8 [Base.PropaneTank],
+            item 1 [Base.Pistol],
+            item 1 [Base.Bullets9mm],
+            item 1 [Hydrocraft.HCWoodencrate],
+            item 1 [Base.Twine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.PropaneTrap,
+        }
+    }
+}

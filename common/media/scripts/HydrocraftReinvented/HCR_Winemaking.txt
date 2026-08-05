@@ -1,0 +1,608 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCWineglassfull
+    {
+
+	HungerChange		=	-5,
+	Weight			=	0.2,
+	Type			=	Food,
+	ThirstChange		=	-10,
+        UnhappyChange		=	-10,
+	DisplayName		=	Glass of Chardonnay,
+	Alcoholic		=	TRUE,
+	ReplaceOnUse		=	HCWineglass,
+	Icon			=	HCWineglassfull,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	DrinkingFromBottle,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	5.2,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	170,
+        CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
+    }
+    item HCWineglassfull2
+    {
+
+	HungerChange		=	-5,
+	Weight			=	0.2,
+	Type			=	Food,
+	ThirstChange		=	-10,
+        UnhappyChange		=	-10,
+	DisplayName		=	Glass of Red Wine,
+	Alcoholic		=	TRUE,
+	ReplaceOnUse		=	HCWineglass,
+	Icon			=	HCWineglassfull2,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	DrinkingFromBottle,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	5.2,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	170,
+        CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
+    }
+    item HCWoodenbucketgrape
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with Grape Juice,
+        icon 			= HCWoodenbucketgrape,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCWoodenbucketgrapegreen
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with White Grape Juice,
+        icon 			= HCWoodenbucketgrapegreen,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCBarrelgrape
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Barrel of Red Grape Juice,
+        icon 			= HCWinebarrel,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCBarrelgrapegreen
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Barrel of White Grape Juice,
+        icon 			= HCWinebarrel,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCBarrelwine
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Barrel of Red Wine,
+        icon 			= HCWinebarrel,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCBarrelwinewhite
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Barrel of White Wine,
+        icon 			= HCWinebarrel,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCBarrelvinegar
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Barrel of vinegar,
+        icon 			= HCWinebarrel,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCPotofhoneybrew
+    {
+
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	180,
+	DaysFresh			=	10,	
+	DaysTotallyRotten		=	20,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofhoneybrewcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Honey Brew,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCPotofhoneybrewcooked
+    {
+
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	1,
+	DisplayName			=	Pot of Cooked Honey Brew,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot, 	
+	DisplayCategory          =   CraftDist,
+    }
+    item HCBarrelhoney
+    {
+
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Brewed Honey,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCBarrelmead
+    {
+
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Mead,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCPotofricemash
+    {
+
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	180,
+	DaysFresh			=	10,	
+	DaysTotallyRotten		=	20,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofricemashcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Rice Mash,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCPotofricemashcooked
+    {
+
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	1,
+	DisplayName			=	Pot of Cooked Rice Mash,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot, 	
+	DisplayCategory          =   CraftDist,
+    }
+    item HCBarrelrice
+    {
+
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Rice Mash,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	DisplayCategory          =   CraftDist,
+    }
+    item HCBarrelsake
+    {
+
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Sake,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	DisplayCategory          =   CraftDist,
+    }
+    craftRecipe Pour Wine
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwineempty,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWineglass],
+            item 1 [Base.Wine],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCWineglassfull,
+        }
+    }
+    craftRecipe Pour Wine
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwineempty2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWineglass],
+            item 1 [Base.Wine2],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCWineglassfull2,
+        }
+    }
+    craftRecipe Juice Grapes Into Wooden Bucket
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:2,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 16 [Base.Grapes],
+            item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketgrape,
+        }
+    }
+    craftRecipe Juice Grapes Into Wooden Bucket
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:2,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 16 [Hydrocraft.HCGrapesgreen],
+            item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketgrapegreen,
+        }
+    }
+    craftRecipe Prepare Wine Barrels
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbucket5,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbarrel],
+            item 5 [Hydrocraft.HCWoodenbucketgrape],
+            item 1 [Base.Yeast],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelgrape,
+        }
+    }
+    craftRecipe Prepare Wine Barrels
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbucket5,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbarrel],
+            item 5 [Hydrocraft.HCWoodenbucketgrapegreen],
+            item 1 [Base.Yeast],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelgrapegreen,
+        }
+    }
+    craftRecipe Fill Bottles with Wine
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbarrel,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBarrelwine],
+            item 20 [Base.Wine],
+        }
+        outputs
+        {
+            item 20 Base.Wine2,
+        }
+    }
+    craftRecipe Fill Bottles with Wine
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbarrel,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBarrelwinewhite],
+            item 20 [Base.Wine],
+        }
+        outputs
+        {
+            item 20 Base.Wine,
+        }
+    }
+    craftRecipe Fill Vinegar Bottles with Vinegar
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbarrel,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBarrelvinegar],
+            item 20 [Hydrocraft.HCVinegarempty],
+        }
+        outputs
+        {
+            item 20 Base.Vinegar2,
+        }
+    }
+    craftRecipe Fill Whiskey Bottles with Vinegar
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbarrel,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBarrelvinegar],
+            item 20 [Base.Whiskey],
+        }
+        outputs
+        {
+            item 20 Base.Vinegar2,
+        }
+    }
+    craftRecipe Prepare Pot of Honey Brew
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy,
+            item 5 [Base.Honey],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.5 [Water],
+            item 1 [Base.Yeast],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotofhoneybrew,
+        }
+    }
+    craftRecipe Prepare Pot of Honey Brew
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy,
+            item 5 [Hydrocraft.HCHoney],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.5 [Water],
+            item 1 [Base.Yeast],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotofhoneybrew,
+        }
+    }
+    craftRecipe Prepare Pot of Honey Brew
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcjar5,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy,
+            item 5 [Hydrocraft.HCJarhoney],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.5 [Water],
+            item 1 [Base.Yeast],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotofhoneybrew,
+        }
+    }
+    craftRecipe Fill Barrel with Honey Brew
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpotatopot3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbarrel],
+            item 3 [Hydrocraft.HCPotofhoneybrewcooked],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelhoney,
+        }
+    }
+    craftRecipe Make Bottle of Mead
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:6,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbarrel,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBarrelmead],
+            item 20 [Base.Whiskey],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCMead,
+        }
+    }
+    craftRecipe Prepare Pot of Rice Mash
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy,
+            item 20 [Hydrocraft.HCRiceflour],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.5 [Water],
+            item 1 [Base.Yeast],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotofricemash,
+        }
+    }
+    craftRecipe Fill Barrel with Rice Mash
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpotatopot3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbarrel],
+            item 3 [Hydrocraft.HCPotofricemashcooked],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelrice,
+        }
+    }
+    craftRecipe Make Bottle of Sake
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:6,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbarrel,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBarrelsake],
+            item 20 [Base.Whiskey],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCSake,
+        }
+    }
+    craftRecipe Empty Wooden Bucket with Grape Juice
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketgrape] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucket,
+        }
+    }
+    craftRecipe Empty Wooden Bucket with White Grape Juice
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketgrapegreen] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucket,
+        }
+    }
+}

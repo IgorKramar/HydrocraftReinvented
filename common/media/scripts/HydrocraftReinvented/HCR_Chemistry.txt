@@ -1,0 +1,2918 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCGunPowder
+    {
+
+        Weight              = 1,
+        Type                = Drainable,
+        UseDelta            = 0.1,
+        DisplayName         = Jar of Gunpowder,
+        ReplaceOnDeplete    = HCJar,
+        Icon                = GunpowderJar,
+	    DisplayCategory     = CraftAmmo,
+    }
+    item HCCharcoalpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Charcoal Powder,
+        icon            = HCCharcoalpowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCGraphitepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Graphite Powder,
+        icon            = HCGraphitepowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCSaltpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Salt Powder,
+        icon            = HCSaltpowder,
+		DisplayCategory	= CookRef,
+    }
+    item HCSaltpeterpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Saltpeter Powder,
+        icon            = HCSaltpeterpowder,
+		DisplayCategory	= CookRef,
+    }
+    item HCSulphurpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Sulphur Powder,
+        icon            = HCSulphurpowder,
+		DisplayCategory	= CraftAmmo,
+    }
+    item HCCopperpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Copper Powder,
+        icon            = HCCopperpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCTinpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Tin Powder,
+        icon            = HCTinpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCLeadpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Lead Powder,
+        icon            = HCLeadpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCIronpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Iron Powder,
+        icon            = HCIronpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCMagnetitepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Magnetite Powder,
+        icon            = HCMagnetitepowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCMeteoritepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Meteorite Powder,
+        icon            = HCMeteoritepowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCSilverpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Silver Powder,
+        icon            = HCSilverpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCGoldpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Gold Powder,
+        icon            = HCGoldpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCAluminumpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Aluminum Powder,
+        icon            = HCAluminumpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCZincpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Zinc Powder,
+        icon            = HCZincpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCNickelpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Nickel Powder,
+        icon            = HCNickelpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCCobaltpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Cobalt Powder,
+        icon            = HCCobaltpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCChromepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Chrome Powder,
+        icon            = HCChromepowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCTungstenpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Tungsten Powder,
+        icon            = HCTungstenpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCTitaniumpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Titanium Powder,
+        icon            = HCTitaniumpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCPhosphoruspowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Phosphorus Powder,
+        icon            = HCPhosphoruspowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCLithiumpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Lithium Powder,
+        icon            = HCLithiumpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCChalkpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Chalk Powder,
+        icon            = HCChalkpowder,
+		DisplayCategory	= CraftMas,
+    }
+    item HCFeldsparpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Feldspar Powder,
+        icon            = HCFeldsparpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCAlbitepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Albite Powder,
+        icon            = HCAlbitepowder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCObsidianpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Obsidian Powder,
+        icon            = HCObsidianpowder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCLapislazulipowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Lapis Lazuli Powder,
+        icon            = HCLapislazulipowder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCAzuritepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Azurite Powder,
+        icon            = HCAzuritepowder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCJadepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Jade Powder,
+        icon            = HCJadepowder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCMalachitepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Malachite Powder,
+        icon            = HCMalachitepowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCMarblepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Marble Powder,
+        Icon            = HCMarblepowder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCCalcitepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Calcite Powder,
+        Icon            = HCCalcitepowder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCMagnesiumpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Magnesium Powder,
+        Icon            = HCMagnesiumpowder,
+		DisplayCategory	= CraftMet,
+    }
+    item HCGypsumpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Gypsum Powder,
+        icon            = HCGypsumpowder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCDiatomitepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Diatomite Powder,
+        icon            = HCDiatomitepowder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCTronapowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Trona Powder,
+        Icon            = HCTronapowder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCSilveriodidepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Silver Iodide Powder,
+        Icon            = HCSilveriodidepowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCCalciumhydroxidpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Calcium Hydroxide Powder,
+        Icon            = HCCalciumhydroxidpowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCCalciumoxidpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Calcium Oxide Powder,
+        Icon            = HCCalciumoxidpowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCCalciumcarbonatpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Calcium Carbonate Powder,
+        Icon            = HCCalciumcarbonatpowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCCopperoxidepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Copper Oxide Powder,
+        Icon            = HCCopperoxidepowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCCoppersulfatepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Copper Sulfate Powder,
+        Icon            = HCCoppersulfatepowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCNickelsulfatepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Nickel Sulfate Powder,
+        Icon            = HCNickelsulfatepowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCSodiumcarbonatpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Sodium Carbonate Powder,
+        Icon            = HCSodiumcarbonatpowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCSodiumhydroxidepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Sodium Hydroxide Powder,
+        Icon            = HCSodiumhydroxidepowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCSodiumsulfatpowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Sodium Sulfate Powder,
+        Icon            = HCSodiumsulfatpowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCEphedrinepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Ephedrine Powder,
+        icon            = HCEphedrinepowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCCalciumchloridepowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Calcium Chloride Powder,
+        Icon            = HCCalciumchloridepowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCThermite
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Thermite,
+        icon            = HCThermite,
+		DisplayCategory	= CraftChem,
+    }
+    item HCKAS
+    {
+
+        Weight          = 2,
+        Type            = Drainable,
+        icon            = HCKAS,
+        DisplayName     = KAS 27 Fertilizer,
+        UseDelta        = 0.25,
+        UseWhileEquipped= false,
+		DisplayCategory	= SurFarm,
+    }
+    item HCAmmonalwet
+    {
+
+        Weight          = 2,
+        Type            = Normal,
+        DisplayName     = Wet Ammonal Bag,
+        icon            = HCAmmonalwet,
+		DisplayCategory	= CraftChem,
+    }
+    item HCAmmonaltray
+    {
+
+        Weight          = 2,
+        Type            = Normal,
+        DisplayName     = Ammonal Tray,
+        icon            = HCAmmonaltray,
+		DisplayCategory	= CraftChem,
+    }
+    item HCAmmonaldry
+    {
+
+        Weight          = 2,
+        Type            = Food,
+        DisplayName     = Dry Ammonal,
+        icon            = HCAmmonaldry,
+		DisplayCategory	= CraftChem,
+    }
+    item HCAmmonal
+    {
+
+        Weight          = 2,
+        Type            = Normal,
+        DisplayName     = Ammonal Bag,
+        icon            = HCAmmonal,
+		DisplayCategory	= CraftChem,
+    }
+    item HCWoodenbucketlye
+    {
+
+        Weight          = 4,
+        Type            = Normal,
+        DisplayName     = Wooden Bucket with Lye,
+        icon            = HCWoodenbucketlye,
+		DisplayCategory	= CraftChem,
+    }
+    item HCNitricacid
+    {
+
+        Weight          = 1,
+        Type            = Normal,
+        DisplayName     = Nitric Acid,
+        icon            = HCNitricacid,
+    }
+    item HCGlycerin
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Glycerin,
+        icon            = HCGlycerin,
+		DisplayCategory	= CraftChem,
+    }
+    item HCChemicalbottlesodiumhydroxide
+    {
+
+        Weight          = 0.5,
+        Type            = Normal,
+        DisplayName     = Chemical Plastic Bottle With Sodium Hydroxide,
+        Icon            = HCChemicalbottlesodiumhydroxide,
+		DisplayCategory	= CraftChem,
+    }
+    item HCAcidbathempty
+    {
+
+        Weight          = 1,
+        Type            = Normal,
+        DisplayName     = Acid Bath Empty,
+        Icon            = HCAcidbathempty,
+		DisplayCategory	= CraftChem,
+    }
+    item HCAcidbathmuriaticacid
+    {
+
+        Weight          = 1.5,
+        Type            = Normal,
+        DisplayName     = Acid Bath Muriatic Acid,
+        Icon            = HCAcidbathmuriaticacid,
+		DisplayCategory	= CraftChem,
+    }
+    item HCWaterbottlestarterfluid
+    {
+
+        Weight          = 1,
+        Type            = Normal,
+        DisplayName     = Conical Flask With Starter Fluid and Water,
+        Icon            = HCWaterbottlestarterfluid,
+		DisplayCategory	= CraftChem,
+    }
+    item HCWaterbottlestarterfluidmixed
+    {
+
+        Weight              = 1,
+        Type                = Drainable,
+        UseWhileEquipped    = FALSE,
+        UseDelta            = 0.1,
+        ReplaceOnDeplete    = HCGlasswaterbottle,
+        DisplayName         = Waterflask With Starter Fluid,
+        Icon                = HCWaterbottlestarterfluid,
+		DisplayCategory	    = CraftChem,
+    }
+    item HCSolidfuelbox
+    {
+
+        Weight          = 0.3,
+        Type            = Normal,
+        DisplayName     = Box of Solid Fuel Cubes,
+        icon            = HCSolidfuelbox,
+		DisplayCategory	= Fuel,
+    }
+    item HCSolidfuelcubes
+    {
+
+        Weight          = 0.3,
+        Type            = Drainable,
+        UseDelta        = 0.125,
+        DisplayName     = Solid Fuel Cubes,
+        icon            = HCSolidfuelcubes,
+		DisplayCategory	= Fuel,
+    }
+    item HCSolidfuelcube
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Solid Fuel Cube,
+        icon            = HCSolidfuelcube,
+		DisplayCategory	= Fuel,
+    }
+    item HCHexapowder
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Hexamethylentetramin Powder,
+        icon            = HCHexapowder,
+		DisplayCategory	= CraftChem,
+    }
+    item HCCitricacid
+    {
+
+        Weight          = 0.2,
+        Type            = Drainable,
+        UseDelta        = 0.125,
+        DisplayName     = Citric Acid,
+        icon            = HCCitricacid,
+		DisplayCategory	= CraftChem,
+    }
+    item HCGlassgastrap
+    {
+
+        Weight          = 2,
+        Type            = Normal,
+        DisplayName     = Glass Baloon and Waterbeaker,
+        Icon            = HCGlassgastrap,
+		DisplayCategory	= CraftChem,
+    }
+    item HCGlassgassalt
+    {
+
+        Weight          = 2.1,
+        Type            = Normal,
+        DisplayName     = Glass Balloon and Waterbeaker with Salt,
+        Icon            = HCGlassgassalt,
+		DisplayCategory	= CraftChem,
+    }
+    item HCGlassgassaltsulfuric
+    {
+
+        Weight          = 2.2,
+        Type            = Normal,
+        DisplayName     = Glass Balloon and Waterbeaker with Salt and Sulfuric Acid,
+        Icon            = HCGlassgassaltsulfuric,
+		DisplayCategory	= CraftChem,
+    }
+    item HCHmtdcrystals
+    {
+
+        MaxRange                = 1,
+        Type                    = Weapon,
+        MinimumSwingTime        = 1.5,
+		SwingAnim	            = Throw,
+		WeaponSprite            = Molotov,
+        UseSelf                 = TRUE,
+        DisplayName             = HMTD Crystals,
+        SwingTime               = 1.5,
+        SwingAmountBeforeImpact = 0.1,
+        PhysicsObject           = PipeBomb,
+        MinDamage               = 0,
+        Weight                  = 0.1,
+        MaxDamage               = 0,
+        MaxHitCount             = 0,
+        Icon                    = HCHmtdcrystals,
+        ExplosionPower          = 40,
+        ExplosionRange          = 2,
+        ExplosionSound          = SmallExplosion,
+		DisplayCategory	        = WepBomb,
+    }
+    item HCGlasstubehmtd
+    {
+
+        MaxRange                = 1,
+        Type                    = Weapon,
+        MinimumSwingTime        = 1.5,
+		SwingAnim	            = Throw,
+		WeaponSprite            = Molotov,
+        UseSelf                 = TRUE,
+        DisplayName             = Test Tube with HMTD Crystals,
+        SwingTime               = 1.5,
+        SwingAmountBeforeImpact = 0.1,
+        PhysicsObject           = PipeBomb,
+        MinDamage               = 0,
+        Weight                  = 0.1,
+        MaxDamage               = 0,
+        MaxHitCount             = 0,
+        Icon                    = HCGlasstubehmtd,
+        ExplosionPower          = 40,
+        ExplosionRange          = 2,
+        ExplosionSound          = SmallExplosion,
+		DisplayCategory	= WepBomb,
+    }
+    craftRecipe Make Chalk Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCChalk;Hydrocraft.HCChalkrock],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChalkpowder,
+        }
+    }
+    craftRecipe Make Chalk Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCChalk;Hydrocraft.HCChalkrock],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCChalkpowder,
+        }
+    }
+    craftRecipe Make Charcoal Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Charcoal],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCharcoalpowder,
+        }
+    }
+    craftRecipe Make Charcoal Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Base.Charcoal],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCCharcoalpowder,
+        }
+    }
+    craftRecipe Make Graphite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGraphite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGraphitepowder,
+        }
+    }
+    craftRecipe Make Graphite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCGraphite],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCGraphitepowder,
+        }
+    }
+    craftRecipe Make Saltpeter Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSaltpeter],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSaltpeterpowder,
+        }
+    }
+    craftRecipe Make Saltpeter Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCSaltpeter],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCSaltpeterpowder,
+        }
+    }
+    craftRecipe Make Sulphur Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSulphur],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulphurpowder,
+        }
+    }
+    craftRecipe Make Sulphur Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCSulphur],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCSulphurpowder,
+        }
+    }
+    craftRecipe Make Copper Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCopperore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCopperpowder,
+        }
+    }
+    craftRecipe Make Copper Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCCopperore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCCopperpowder,
+        }
+    }
+    craftRecipe Make Tin Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTinore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTinpowder,
+        }
+    }
+    craftRecipe Make Tin Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCTinore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCTinpowder,
+        }
+    }
+    craftRecipe Make Lead Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLeadore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeadpowder,
+        }
+    }
+    craftRecipe Make Lead Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCLeadore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCLeadpowder,
+        }
+    }
+    craftRecipe Make Iron Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIronore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCIronpowder,
+        }
+    }
+    craftRecipe Make Iron Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCIronore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCIronpowder,
+        }
+    }
+    craftRecipe Make Magnetite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMagnetite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMagnetitepowder,
+        }
+    }
+    craftRecipe Make Magnetite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCMagnetite],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCMagnetitepowder,
+        }
+    }
+    craftRecipe Make Meteorite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMeteorite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMeteoritepowder,
+        }
+    }
+    craftRecipe Make Meteorite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCMeteorite],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCMeteoritepowder,
+        }
+    }
+    craftRecipe Make Silver Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSilverore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilverpowder,
+        }
+    }
+    craftRecipe Make Silver Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCSilverore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCSilverpowder,
+        }
+    }
+    craftRecipe Make Gold Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGoldore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGoldpowder,
+        }
+    }
+    craftRecipe Make Gold Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCGoldore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCGoldpowder,
+        }
+    }
+    craftRecipe Make Aluminum Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBauxiteore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAluminumpowder,
+        }
+    }
+    craftRecipe Make Aluminum Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCBauxiteore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCAluminumpowder,
+        }
+    }
+    craftRecipe Make Zinc Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZincore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZincpowder,
+        }
+    }
+    craftRecipe Make Zinc Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCZincore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCZincpowder,
+        }
+    }
+    craftRecipe Make Nickel Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNickelore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNickelpowder,
+        }
+    }
+    craftRecipe Make Nickel Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCNickelore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCNickelpowder,
+        }
+    }
+    craftRecipe Make Cobalt Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCobaltore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCobaltpowder,
+        }
+    }
+    craftRecipe Make Cobalt Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCCobaltore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCCobaltpowder,
+        }
+    }
+    craftRecipe Make Chrome Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCChromeore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChromepowder,
+        }
+    }
+    craftRecipe Make Chrome Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCChromeore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCChromepowder,
+        }
+    }
+    craftRecipe Make Tungsten Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTungstenore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTungstenpowder,
+        }
+    }
+    craftRecipe Make Tungsten Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCTungstenore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCTungstenpowder,
+        }
+    }
+    craftRecipe Make Titanium Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCTitaniumore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCTitaniumpowder,
+        }
+    }
+    craftRecipe Make Phosphorus Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 15 [Base.Matches],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhosphoruspowder,
+        }
+    }
+    craftRecipe Make Phosphorus Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBerlinite;Hydrocraft.HCLapislazuli],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhosphoruspowder,
+        }
+    }
+    craftRecipe Make Phosphorus Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCBerlinite;Hydrocraft.HCLapislazuli],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCPhosphoruspowder,
+        }
+    }
+    craftRecipe Make Lithium Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLithiumore],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLithiumpowder,
+        }
+    }
+    craftRecipe Make Lithium Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCLithiumore],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCLithiumpowder,
+        }
+    }
+    craftRecipe Make Lapis Lazuli Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLapislazuli],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLapislazulipowder,
+        }
+    }
+    craftRecipe Make Lapis Lazuli Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCLapislazuli],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCLapislazulipowder,
+        }
+    }
+    craftRecipe Make Azurite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAzurite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAzuritepowder,
+        }
+    }
+    craftRecipe Make Azurite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCAzurite],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCAzuritepowder,
+        }
+    }
+    craftRecipe Make Jade Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJade],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJadepowder,
+        }
+    }
+    craftRecipe Make Jade Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCJade],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJadepowder,
+        }
+    }
+    craftRecipe Make Malachite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMalachite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMalachitepowder,
+        }
+    }
+    craftRecipe Make Malachite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCMalachite],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCMalachitepowder,
+        }
+    }
+    craftRecipe Make Marble Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMarble],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMarblepowder,
+        }
+    }
+    craftRecipe Make Marble Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCMarble],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCMarblepowder,
+        }
+    }
+    craftRecipe Make Albite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAlbite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAlbitepowder,
+        }
+    }
+    craftRecipe Make Albite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCAlbite],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCAlbitepowder,
+        }
+    }
+    craftRecipe Make Feldspar Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFeldspar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFeldsparpowder,
+        }
+    }
+    craftRecipe Make Feldspar Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCFeldspar],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCFeldsparpowder,
+        }
+    }
+    craftRecipe Make Gypsum Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGypsum],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGypsumpowder,
+        }
+    }
+    craftRecipe Make Gypsum Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCGypsum],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCGypsumpowder,
+        }
+    }
+    craftRecipe Make Diatomite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDiatomite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDiatomitepowder,
+        }
+    }
+    craftRecipe Make Diatomite Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCDiatomite],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCDiatomitepowder,
+        }
+    }
+    craftRecipe Make Trona Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTrona],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTronapowder,
+        }
+    }
+    craftRecipe Make Trona Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCTrona],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCTronapowder,
+        }
+    }
+    craftRecipe Make Thermite
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Aluminum;Hydrocraft.HCAluminumpowder],
+            item 2 [Hydrocraft.HCToydrawing],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermite,
+        }
+    }
+    craftRecipe Make Thermite
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Base.Sparklers],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermite,
+        }
+    }
+    craftRecipe Make Thermite
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Base.Sparklers],
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCThermite,
+        }
+    }
+    craftRecipe Make Ammonal
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.hcammoniamaking,
+        inputs
+        {
+            item 1 [Hydrocraft.HCKAS] mode:destroy,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [Water],
+            item 1 [Base.Shovel] mode:keep,
+            item 1 [Hydrocraft.HCBarrelmetalempty;Hydrocraft.HCBarrelblueempty;Hydrocraft.HCWoodenbarrel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmonalwet,
+        }
+    }
+    craftRecipe Dry Ammonal
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.hcdryammoniarecipe,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmonalwet],
+            item 1 [Base.BakingTray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmonaltray,
+        }
+    }
+    craftRecipe Cook Ammonal
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmonaltray],
+            item 1 tags[base:startfire],
+            item 1 [Base.Charcoal],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmonaldry,
+        }
+    }
+    craftRecipe Fill Ammonal in Bag
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.hcfillammoniarecipe,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmonaldry],
+            item 1 [Base.EmptySandbag],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmonal,
+        }
+    }
+    craftRecipe Make Ephedrin Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLab;Hydrocraft.HCMedicallab] mode:keep,
+            item 15 [Hydrocraft.HCEphedrine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCEphedrinepowder,
+        }
+    }
+    craftRecipe Make Ephedrin Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 15 [Hydrocraft.HCEphedrine],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCEphedrinepowder,
+        }
+    }
+    craftRecipe Make Gunpowder
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSulphurpowder],
+            item 1 [Hydrocraft.HCSaltpeterpowder],
+            item 1 [Hydrocraft.HCCharcoalpowder],
+            item 1 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGunPowder,
+        }
+    }
+    craftRecipe Refill Gunpowder
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 200 [Base.GunPowder],
+            item 1 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGunPowder,
+        }
+    }
+    craftRecipe Make 9mm Bullets
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFunnel] mode:keep,
+            item 10 [Hydrocraft.HCGunPowder],
+            item 1 [Hydrocraft.HCBulletcasings],
+            item 1 [Hydrocraft.HCBullettips],
+        }
+        outputs
+        {
+            item 1 Base.Bullets9mmBox,
+        }
+    }
+    craftRecipe Make .308 Bullets
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFunnel] mode:keep,
+            item 10 [Hydrocraft.HCGunPowder],
+            item 1 [Hydrocraft.HCBulletcasings],
+            item 1 [Hydrocraft.HCBullettips],
+        }
+        outputs
+        {
+            item 1 Base.308Box,
+        }
+    }
+    craftRecipe Make Shotgun Shells
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFunnel] mode:keep,
+            item 10 [Hydrocraft.HCGunPowder],
+            item 24 [Hydrocraft.HCBuckshot],
+            item 10 [Base.SheetPaper2],
+        }
+        outputs
+        {
+            item 1 Base.ShotgunShellsBox,
+        }
+    }
+    craftRecipe Make Bucket of Lye
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketwater] mode:destroy,
+            item 5 [Hydrocraft.HCCharcoalpowder],
+            item 1 [Base.Stone2],
+            item 1 [Hydrocraft.HCGrass;Hydrocraft.HCStraw],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketlye,
+        }
+    }
+    craftRecipe Make Glycerin
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCTallow],
+            item 1 [Hydrocraft.HCCheesecloth],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlycerin,
+        }
+    }
+    craftRecipe Make Methylamin
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbeakerbottle,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerammonia],
+            item 1 [Hydrocraft.HCAlbitepowder;Hydrocraft.HCJadepowder],
+            item 1 [Hydrocraft.HCMethanol],
+            item 1 [Hydrocraft.HCBarrelblueempty],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMethylaminbarrelbluefull,
+        }
+    }
+    craftRecipe Make Methylamin
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbeakerbottle,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerammonia],
+            item 1 [Hydrocraft.HCAlbitepowder;Hydrocraft.HCJadepowder],
+            item 1 [Hydrocraft.HCMethanol],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalmethylamin,
+        }
+    }
+    craftRecipe Fill Chemical Bottle With Sodium Hydroxide Powder
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcgetplasticcan,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSodiumhydroxidepowder],
+            item 1 [Hydrocraft.HCChemicalbottleempty],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersodiumhydroxidesolution,
+        }
+    }
+    craftRecipe Heat Beaker of Water
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerwaterhot,
+        }
+    }
+    craftRecipe Put Trona Powder In Hot Water
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTronapowder],
+            item 1 [Hydrocraft.HCBeakerwaterhot],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakertronasolution,
+        }
+    }
+    craftRecipe Extract Sodium Carbonate
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakertronasolution],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCSodiumcarbonatpowder,
+        }
+    }
+    craftRecipe Make Calcium Oxide
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCChalkrock],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCCalciumoxidpowder,
+        }
+    }
+    craftRecipe Mix Calcium Oxide With Water
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerwater],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCCalciumoxidpowder],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerwatercalciumoxid,
+        }
+    }
+    craftRecipe Extract Calcium Hydroxide
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerwatercalciumoxid],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCCalciumhydroxidpowder,
+        }
+    }
+    craftRecipe Make Sodium Hydroxide
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcgetcalciumcarbonate,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCalciumhydroxidpowder],
+            item 1 [Hydrocraft.HCSodiumcarbonatpowder],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSodiumhydroxidepowder,
+        }
+    }
+    craftRecipe Make Sodium Hydroxide Solution
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcgetcalciumcarbonate,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerwater],
+            item 2 [Hydrocraft.HCSodiumhydroxidepowder],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersodiumhydroxidesolution,
+        }
+    }
+    craftRecipe Make Calcium Chloride
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakermuriaticacid],
+            item 1 [Hydrocraft.HCCalciumcarbonatpowder],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCalciumchloridepowder,
+        }
+    }
+    craftRecipe Make Calcium Chloride Solution
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerwater],
+            item 2 [Hydrocraft.HCCalciumchloridepowder],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakercalciumchloridesolution,
+        }
+    }
+    craftRecipe Make Acid Bath
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Plank],
+            item 1 [Hydrocraft.HCPyrexdish],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 2 [Hydrocraft.HCElectromotorsmall],
+            item 1 [Hydrocraft.HCSelfmadeheater],
+            item 4 [Base.Screws],
+            item 1 [Hydrocraft.HCSwitch],
+            item 1 [Hydrocraft.HCCablecopper;Hydrocraft.HCCoppercablered;Hydrocraft.HCCoppercablestriped],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAcidbathempty,
+        }
+    }
+    craftRecipe Fill Acid Bath With Muriatic Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAcidbathempty],
+            item 1 [Hydrocraft.HCBeakermuriaticacid],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAcidbathmuriaticacid,
+        }
+    }
+    craftRecipe Fill Beaker With Muriatic Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcgetacidbath,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAcidbathmuriaticacid],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermuriaticacid,
+        }
+    }
+    craftRecipe Spray Starter Fluid in Conical Flask with Water
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasswaterbottle],
+            item 1 [Hydrocraft.HCStarterfluid],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWaterbottlestarterfluid,
+        }
+    }
+    craftRecipe Shake Starter Fluid in Conical Flask with Water
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasswaterbottle],
+            item 1 [Hydrocraft.HCStarterfluid],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWaterbottlestarterfluidmixed,
+        }
+    }
+    craftRecipe Make Beaker with Hydrogen Peroxide
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCHaircolorblond],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerh2o2,
+        }
+    }
+    craftRecipe Cool Beaker with Hydrogen Peroxide
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerh2o2],
+            item 1 [Base.Coldpack],
+            item 1 [Hydrocraft.HCIcechest;Hydrocraft.HCCooler] mode:keep,
+            item 1 [Hydrocraft.HCThermometer] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerh2o2cooled,
+        }
+    }
+    craftRecipe Open Solid Fuel Box
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSolidfuelbox],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSolidfuelcubes,
+        }
+    }
+    craftRecipe Take Solid Fuel Cube
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSolidfuelcubes],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSolidfuelcube,
+        }
+    }
+    craftRecipe Grind Solid Fuel Cube
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.MortarPestle;Hydrocraft.HCLab2] mode:keep,
+            item 1 [Hydrocraft.HCSolidfuelcube],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHexapowder,
+        }
+    }
+    craftRecipe Grind Solid Fuel Cube
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCSolidfuelcube],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCHexapowder,
+        }
+    }
+    craftRecipe Add Hexamethylentetramin to Beaker with Hydrogen Peroxide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerh2o2cooled],
+            item 1 [Hydrocraft.HCHexapowder],
+            item 1 [Hydrocraft.HCThermometer] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerh2o2hexa,
+        }
+    }
+    craftRecipe Cool Beaker with Hydrogen Peroxide and Hexamethylentetramin
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerh2o2hexa],
+            item 1 [Base.Coldpack],
+            item 1 [Hydrocraft.HCIcechest;Hydrocraft.HCCooler] mode:keep,
+            item 1 [Hydrocraft.HCThermometer] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerh2o2hexacooled,
+        }
+    }
+    craftRecipe Add Citric Acid to Beaker with Hydrogen Peroxide and Hexamethylentetramin
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerh2o2hexacooled],
+            item 1 [Hydrocraft.HCCitricacid],
+            item 1 [Hydrocraft.HCThermometer] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerh2o2hexacitricacid,
+        }
+    }
+    craftRecipe Cool Beaker with Hydrogen Peroxide Hexamethylentetramin and Citric Acid
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerh2o2hexacitricacid],
+            item 1 [Base.Coldpack],
+            item 1 [Hydrocraft.HCIcechest;Hydrocraft.HCCooler] mode:keep,
+            item 1 [Hydrocraft.HCThermometer] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerhmtd,
+        }
+    }
+    craftRecipe Filtrate HMTD Crystals
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCBeakerhmtd],
+            item 1 [Hydrocraft.HCCoffeefilterdry],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCoffeefilterwet,
+        }
+    }
+    craftRecipe Dry HMTD Crystals
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCoffeefilterwet],
+            item 1 [Hydrocraft.HCPapertowel],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHmtdcrystals,
+        }
+    }
+    craftRecipe Fill HMTD Crystals in Test Tube
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHmtdcrystals],
+            item 1 [Hydrocraft.HCGlasstesttube],
+            item 1 [Hydrocraft.HCRubberbung],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasstubehmtd,
+        }
+    }
+    craftRecipe Put Connector on Large Glass Balloon
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassballoon],
+            item 1 [Hydrocraft.HCGlassconnector],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassballoonconnector,
+        }
+    }
+    craftRecipe Connect Glass Balloon to Beaker with Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassballoonconnector],
+            item 1 [Hydrocraft.HCBeakerwater],
+            item 1 [Hydrocraft.HCRubberhose],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassgastrap,
+        }
+    }
+    craftRecipe Add Salt to Glass Balloon
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassgastrap],
+            item 1 [Base.Salt],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassgassalt,
+        }
+    }
+    craftRecipe Add Sulfuric Acid to Glass Balloon with Salt
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassgassalt],
+            item 1 [Hydrocraft.HCBeakersulfuricacid],
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask;Hydrocraft.HCImprovisedhazmat;Base.HazmatSuit] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassgassaltsulfuric,
+        }
+    }
+    craftRecipe Make Muriatic Acid
+    {
+        time = 1500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcgetballoonandhose,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassgassaltsulfuric],
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask;Hydrocraft.HCImprovisedhazmat;Base.HazmatSuit] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermuriaticacid,
+        }
+    }
+    craftRecipe Make Mercuric Oxide
+    {
+        time = 1500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCCinnabar],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermercuricoxide,
+        }
+    }
+    craftRecipe Empty Wooden Bucket with Lye
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketlye] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucket,
+        }
+    }
+}

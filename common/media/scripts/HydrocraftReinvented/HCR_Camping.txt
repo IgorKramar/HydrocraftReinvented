@@ -1,0 +1,823 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCBinoculars
+    {
+
+        Weight    		= 	1,
+	Type			=	Normal,
+        DisplayName         	= 	Binoculars,
+        icon 			= 	HCBinoculars,
+		DisplayCategory          =   SurHunt,
+    }
+    item HCCompass
+    {
+
+        Weight    		= 	0.5,
+        Type    		= 	Normal,
+        DisplayName         	= 	Compass,
+        icon 			= 	HCCompass,
+		DisplayCategory          =   SurCamp,
+    }
+    item HCMap
+    {
+
+        Weight    		= 	0.05,
+        Type    		= 	Normal,
+        DisplayName         	= 	Map,
+        icon 			= 	HCMap,
+		DisplayCategory          =   SurCamp,
+    }
+    item HCGPS
+    {
+
+     	Weight    		= 	1,
+        Type    		= 	Normal,
+        DisplayName         	= 	GPS,
+        icon 			= 	HCGPS,
+		DisplayCategory          =   SurCamp,
+    }
+    item HCCanteen
+    {
+
+        Weight    		= 	1,
+	CanStoreWater		= 	TRUE,
+        Type    		= 	Normal,
+        DisplayName         	= 	Canteen,
+	ReplaceOnUseOn		= 	WaterSource-HCCanteenfull,
+        icon 			= 	HCCanteen,
+	RainFactor 		= 	1,
+	Tooltip = Tooltip_item_RainFromGround,
+		DisplayCategory          =   WaterContainer,
+    }
+    item HCCanteenfull
+    {
+
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	IsCookable		=	TRUE,
+	UseDelta		=	0.07,
+	DisplayName		=	Canteen with Water,
+	ReplaceOnDeplete	=	HCCanteen,
+	ReplaceOnUseOn		=	WaterSource-HCCanteenfull,
+	Icon			=	HCCanteenfull,
+	RainFactor 		= 	1,
+	Tooltip = Tooltip_item_RainFromGround,
+		DisplayCategory          =   FoodB,
+    }
+    item HCStrappedcanteen
+    {
+
+        Weight    		= 	1,
+	CanStoreWater		= 	TRUE,
+        Type    		= 	Normal,
+        DisplayName         	= 	Strapped Canteens,
+	ReplaceOnUseOn		= 	WaterSource-HCStrappedcanteenfull,
+        icon 			= 	HCStrappedcanteen,
+	RainFactor 		= 	1,
+	Tooltip = Tooltip_item_RainFromGround,
+		DisplayCategory          =   WaterContainer,
+    }
+    item HCStrappedcanteenfull
+    {
+
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	IsCookable		=	TRUE,
+	UseDelta		=	0.035,
+	DisplayName		=	Strapped Canteens with Water,
+	ReplaceOnDeplete	=	HCStrappedcanteen,
+	ReplaceOnUseOn		=	WaterSource-HCStrappedcanteenfull,
+	Icon			=	HCStrappedcanteen,
+	RainFactor 		= 	1,
+	Tooltip = Tooltip_item_RainFromGround,
+		DisplayCategory          =   FoodB,
+    }
+    item HCMagnesiumstriker
+    {
+
+		Weight			=	0.3,
+		Type			=	Drainable,
+		UseDelta		=	0.00001,
+		UseWhileEquipped	=	FALSE,
+		DisplayName		=	Magnesium Striker,
+		Icon			=	HCMagnesiumstriker,
+		DisplayCategory	=   LightSource,
+		Tags = StartFire,
+    }
+    item HCPurifyingtablets
+    {
+
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+	DisplayName		= 	Water Purifying Tablets,
+	Icon	        	= 	HCPurifyingtablets,
+		DisplayCategory          =   SurCamp,
+    }
+    item HCPurifyingtabletsbox
+    {
+
+        Weight    		= 	0.3,
+        Type    		= 	Normal,
+	DisplayName		= 	Box of Water Purifying Tablets,
+	Icon	        	= 	HCPurifyingtabletsbox,
+		DisplayCategory          =   SurCamp,
+    }
+    item HCRaftrubber
+    {
+
+	Weight 				= 	1.0,
+	Type 				= 	Normal,
+	DisplayName 			= 	Rubber Raft,
+	Icon				=	HCRaftrubber,
+		DisplayCategory          =   SurCamp,
+    }
+    item HCSpaceblanket
+    {
+
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Space Blanket,
+        icon 			= 	HCSpaceblanket,
+		DisplayCategory          =   SurCamp,
+    }
+    item HCJackknife
+    {
+
+		MaxRange			=	0.9,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	SmallBlade,
+		ConditionLowerChanceOneIn	=	20,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.6,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Jack Knife,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCJackknife,
+		RunAnim				=	Run_Weapon2,
+        IdleAnim			=	Idle_Weapon2,
+        TreeDamage  			=   	2,
+        EnduranceMod 			= 	0.5,
+        AttachmentType      = Knife,
+		DisplayCategory          =   WepMelee,
+		Tags = CutPlant;SharpKnife,
+        HitFloorSound	=	KitchenKnifeHit,
+        ImpactSound	=	KitchenKnifeHit,
+        DoorHitSound = KitchenKnifeHit,
+		HitSound	=	KitchenKnifeHit,
+		SwingSound = KitchenKnifeSwing,
+    }
+    item HCPaddlewood
+    {
+
+		Type				=	Weapon,
+		DisplayName			=	Wooden Paddle,
+		Icon				=	HCPaddlewood,
+		Weight				=	2.0,
+		SubCategory    		=   Swinging,
+		MinAngle			=	0,
+		MaxDamage			=	1.9,
+		MinDamage			=	0.8,
+		MaxRange 			= 	1.5,
+		MinRange 			= 	0.61,
+		CriticalChance		=	10,
+		PushBackMod			=	0.5,
+		HitAngleMod			=	-30.0,
+		SwingAnim			=	Bat,
+		MaxHitCount 		=	1,
+		WeaponSprite		=	Shovel,
+		IdleAnim			=	Idle_Weapon2,
+		RunAnim				=	Run_Weapon2,
+		Weight				=	1.5,
+		DoorDamage			=	5,
+		MinimumSwingTime 	= 	2.1,
+		SwingTime			=	2.1,
+		SwingAmountBeforeImpact 	= 	0.02,
+		ConditionLowerChanceOneIn 	= 	5,
+		ConditionMax 		= 	10,
+		Categories 			=	Blunt,
+		TwoHandWeapon 		= 	TRUE,
+		BreakSound  		=   	BreakWoodItem,
+		KnockdownMod		=	2,
+        KnockBackOnNoDeath	=	TRUE,
+        AttachmentType      = Knife,
+		DisplayCategory          =   WepMelee,
+    }
+    item HCPaddlemetal
+    {
+
+		Type				=	Weapon,
+		DisplayName			=	Metal Paddle,
+		Icon				=	HCPaddlemetal,
+		Weight				=	2.0,
+		SubCategory    			=     	Swinging,
+		MinAngle			=	0,
+		MaxDamage			=	1.9,
+		MinDamage			=	0.8,
+		MaxRange 			= 	1.5,
+		MinRange 			= 	0.61,
+		CriticalChance			=	10,
+		PushBackMod			=	0.5,
+		HitAngleMod			=	-30.0,
+		SwingAnim			=	Bat,
+		MaxHitCount 			=	1,
+		WeaponSprite			=	Shovel,
+		IdleAnim			=	Idle_Weapon2,
+		RunAnim				=	Run_Weapon2,
+		Weight				=	1.5,
+		DoorDamage			=	5,
+		MinimumSwingTime 		= 	2.1,
+		SwingTime			=	2.1,
+		SwingAmountBeforeImpact 	= 	0.02,
+		ConditionLowerChanceOneIn 	= 	10,
+		ConditionMax 			= 	20,
+		Categories 			=	Blunt,
+		TwoHandWeapon 			= 	TRUE,
+		BreakSound  			=   	BreakMetalItem,
+		KnockdownMod			=	2,
+        	KnockBackOnNoDeath		=	TRUE,
+		DisplayCategory          =   WepMelee,
+    }
+    craftRecipe Box Water Purifying Tablets
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCPurifyingtablets],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPurifyingtabletsbox,
+        }
+    }
+    craftRecipe Unbox Water Purifying Tablets
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtabletsbox],
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCPurifyingtablets,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Base.WaterBottle] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.WaterBottle,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Base.Pot] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.Pot,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Base.Whiskey] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.Whiskey,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Base.MugWhite] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.MugWhite,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCClayteapotfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCClayteapotfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCClaymugfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCClaymugfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCLargetupwater] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLargetupwater,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCMediumtupwater] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMediumtupwater,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCSmalltupwater] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSmalltupwater,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCZipperbagfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZipperbagfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCThermosfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermosfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCWaterballoon] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWaterballoon,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCWashbottlefull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWashbottlefull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 6 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCVatwater] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCVatwater,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCWoodenbucketwater] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketwater,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCWashtubfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWashtubfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 6 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCWatertowerfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWatertowerfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCShowersinkfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCShowersinkfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCShowerfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCShowerfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCIBCfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCIBCfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCIBCstoragefull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCIBCstoragefull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 6 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCIBCtowerfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCIBCtowerfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCFishtankfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFishtankfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCMugcopperfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMugcopperfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCKettlecopperfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCKettlecopperfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 6 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCCauldronironfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCauldronironfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCStrappedcanteenfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCStrappedcanteenfull,
+        }
+    }
+    craftRecipe Purify Water
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPurifyingtablets],
+            item 1 [Hydrocraft.HCBirchbarkcupfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBirchbarkcupfull,
+        }
+    }
+    craftRecipe Attatch Canteens
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        inputs
+        {
+            item 2 [Hydrocraft.HCCanteen],
+            item 1 [Base.Belt2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCStrappedcanteen,
+        }
+    }
+    craftRecipe Detach Canteens
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbelt,
+        inputs
+        {
+            item 1 [Hydrocraft.HCStrappedcanteen],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCCanteen,
+        }
+    }
+    craftRecipe Craft Wooden Paddle
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        inputs
+        {
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 3 [Base.Plank],
+            item 3 [Base.Woodglue],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPaddlewood,
+        }
+    }
+}

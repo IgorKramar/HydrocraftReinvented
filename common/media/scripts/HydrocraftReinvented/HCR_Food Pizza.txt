@@ -1,0 +1,456 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCPizzadough
+    {
+
+		Type				=	Food,
+		DisplayName			=	Pizza Dough,
+		Icon				=	HCPizzadough,
+		Weight				=	0.3,
+		HungerChange		=	-25,
+		DaysTotallyRotten	=	6,
+		DaysFresh 			= 	3,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	65.9,
+		Proteins 			= 	10,
+		Lipids 				= 	3.3,
+		Calories 			= 	336.5,
+		DisplayCategory		=	FoodP,
+    }
+    item HCGratedcheese
+    {
+
+	Type			=	Food,
+	DisplayName		=	Grated Cheese,
+	Icon			=	HCGratedcheese,
+	Weight			=	0.2,
+	HungerChange 		=	-25,
+	DaysFresh 		=	7,
+	DaysTotallyRotten 	= 	10,
+	EvolvedRecipe 		= 	Soup:5;Sandwich:5;Burger:5;Salad:5,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	2.6,
+        Proteins 		= 	50,
+        Lipids 			= 	66,
+        Calories 		= 	402,
+		DisplayCategory		=	FoodP,
+    }
+    item HCGratedcheddar
+    {
+
+        Type                    = 	Food,
+        DisplayName             = 	Grated Cheddar,
+        Icon                    = 	HCGratedcheddar,
+        Weight                  = 	0.2,
+        HungerChange            = 	-20,
+        DaysFresh               = 	7,
+        DaysTotallyRotten       = 	10,
+        EvolvedRecipe           = 	Soup:5;Sandwich:5;Burger:5;Salad:5,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	2.6,
+        Proteins 		= 	50,
+        Lipids 			= 	66,
+        Calories 		= 	402,
+		DisplayCategory		=	FoodP,
+    }
+    item HCTomatosaucepot
+    {
+
+		HungerChange		=	-10,
+		Weight				=	1.4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		DisplayName			=	Pot of Tomato Sauce,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	8,
+		DaysFresh 			= 	5,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		= 	NoExplicit,
+		Carbohydrates 		= 	21.2,
+		Proteins 			= 	1.2,
+		Lipids 				= 	4.8,
+		Calories 			= 	96,
+		DisplayCategory		=	FoodP,
+    }
+    item HCTomatosaucebowl
+    {
+
+		HungerChange		=	-5,
+		Weight				=	0.7,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		DisplayName			=	Bowl of Tomato Sauce,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCTomatosaucebowl,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	8,
+		DaysFresh 			= 	5,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=  	NoExplicit,
+		Carbohydrates 		= 	10.6,
+		Proteins 			= 	0.6,
+		Lipids 				= 	2.4,
+		Calories 			= 	48,
+		DisplayCategory		=	FoodP,
+    }
+    item HCBoringpizza
+    {
+
+		Weight				=	0.5,
+		HungerChange		=	-20,
+		UnhappyChange		=	-15,
+		BoredomChange		=	-15,
+		Type				=	Food,
+		DisplayName			=	Boring Pizza,
+		IsCookable 			= 	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	45,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	4,
+		Icon				=	HCPizzaA,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	76.5,
+		Proteins 			= 	10.6,
+		Lipids 				= 	5.7,
+		Calories 			= 	384.5,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSimplepizza
+    {
+
+		Weight				=	0.8,
+		HungerChange		=	-40,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-20,
+		Type				=	Food,
+		DisplayName			=	Cheese Pizza,
+		IsCookable 			= 	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	45,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	4,
+		Icon				=	HCPizzaB,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	79.1,
+		Proteins 			= 	60.6,
+		Lipids 				= 	71.7,
+		Calories 			= 	786.5,
+		DisplayCategory		=	FoodP,
+    }
+    item HCTastypizza
+    {
+
+		Weight				=	1.2,
+		HungerChange		=	-50,
+		UnhappyChange		=	-25,
+		BoredomChange		=	-25,
+		Type				=	Food,		
+		DisplayName			=	Tasty Pizza,
+		IsCookable 			= 	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	45,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	4,
+		Icon				=	HCPizzaC,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	88.3,
+		Proteins 			= 	125.5,
+		Lipids 				= 	85.4,
+		Calories 			= 	1207.5,
+		DisplayCategory		=	FoodP,
+    }
+    item HCBoringpizzaslice
+    {
+
+   	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-5,
+	BoredomChange			=	-5,
+	DisplayName			=	Slice of Boring Pizza,
+	IsCookable 			= 	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook		=	0,
+	MinutesToBurn		=	25,
+	DaysTotallyRotten		=	7,
+	DaysFresh 			= 	4,
+	Icon				=	HCPizzasliceA,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	19.1,
+		Proteins 			= 	2.7,
+		Lipids 				= 	1.4,
+		Calories 			= 	96.1,
+		DisplayCategory		=	FoodP,
+    }
+    item HCSimplepizzaslice
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+	DisplayName			=	Slice of Simple Pizza,
+	IsCookable 			= 	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook		=	0,
+	MinutesToBurn		=	25,
+	DaysTotallyRotten		=	7,
+	DaysFresh 			= 	4,
+	Icon				=	HCPizzasliceB,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	19.8,
+        Proteins 			= 	15.2,
+        Lipids 				= 	17.9,
+        Calories 			= 	196.6,
+		DisplayCategory		=	FoodP,
+    }
+    item HCTastypizzaslice
+    {
+
+	HungerChange			=	-25,
+	Weight				=	0.3,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	BoredomChange			=	-15,
+	DisplayName			=	Slice of Tasty Pizza,
+	IsCookable 			= 	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook		=	0,
+	MinutesToBurn		=	25,
+	DaysTotallyRotten		=	7,
+	DaysFresh 			= 	4,
+	Icon				=	HCPizzasliceC,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	22.1,
+        Proteins 			= 	31.4,
+        Lipids 				= 	21.35,
+        Calories 			= 	301.9,
+		DisplayCategory		=	FoodP,
+    }
+    craftRecipe Grate Cheese
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCheesegrater] mode:keep,
+            item 1 [Base.Cheese],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGratedcheese,
+        }
+    }
+    craftRecipe Grate Cheddar
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCheesegrater] mode:keep,
+            item 1 [Hydrocraft.HCCheddar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGratedcheddar,
+        }
+    }
+    craftRecipe Make Tomato Sauce
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Pot],
+            item 4 [Base.Tomato],
+            item 1 [Base.Salt],
+            item 1 [Hydrocraft.HCGarlicpowder],
+            item 1 [Hydrocraft.HCHerbs],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTomatosaucepot,
+        }
+    }
+    craftRecipe Fill Tomato Sauce into Bowls
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Base.Bowl],
+            item 1 [Hydrocraft.HCTomatosaucepot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCTomatosaucebowl,
+        }
+    }
+    craftRecipe Knead Pizza Dough
+    {
+        time = 60,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Flour2;Hydrocraft.HCPotatoflour;Hydrocraft.HCRiceflour],
+            item 1 [Base.Yeast],
+            item 1 [Base.Salt],
+            item 1 [Hydrocraft.HCHerbs],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPizzadough,
+        }
+    }
+    craftRecipe Make Boring Pizza
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPizzastone] mode:keep,
+            item 1 [Hydrocraft.HCPizzadough],
+            item 1 [Hydrocraft.HCTomatosaucebowl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBoringpizza,
+        }
+    }
+    craftRecipe Make Cheese Pizza
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPizzastone] mode:keep,
+            item 1 [Hydrocraft.HCPizzadough],
+            item 1 [Hydrocraft.HCTomatosaucebowl],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSimplepizza,
+        }
+    }
+    craftRecipe Make Tasty Pizza
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPizzastone] mode:keep,
+            item 1 [Hydrocraft.HCPizzadough],
+            item 1 [Hydrocraft.HCTomatosaucebowl],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar],
+            item 1 [Base.BellPepper;Hydrocraft.HCBellpepperyellow;Hydrocraft.HCBellpeppergreen;Base.Broccoli;Base.Leek;Base.Eggplant;Base.Pineapple;Base.Avocado;Hydrocraft.HCBunchofshrooms;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCSlicedonion;Hydrocraft.HCSlicedtomato;Hydrocraft.HCDriedtomatobag;Hydrocraft.HCCannedshrooms;Hydrocraft.HCSpinach;Hydrocraft.HCChiligreen;Hydrocraft.HCChilipepper;Hydrocraft.HCGarlic],
+            item 1 [Base.Chicken;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.TunaTinOpen;Base.CannedSardinesOpen;Base.Salmon;Base.BaconRashers;Base.BaconBits;Base.FrogMeat;Hydrocraft.HCSlicedsalami;Base.HamSlice;Hydrocraft.HCCannedspam;Hydrocraft.HCCrab;Hydrocraft.HCCheval;Hydrocraft.HCSmallgamesteak;Hydrocraft.HCVenison;Hydrocraft.HCBearsteak],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTastypizza,
+        }
+    }
+    craftRecipe Cut Pizza
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPizzacutter] mode:keep,
+            item 1 [Hydrocraft.HCBoringpizza],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCBoringpizzaslice,
+        }
+    }
+    craftRecipe Cut Pizza
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPizzacutter] mode:keep,
+            item 1 [Hydrocraft.HCSimplepizza],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSimplepizzaslice,
+        }
+    }
+    craftRecipe Cut Pizza
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPizzacutter] mode:keep,
+            item 1 [Hydrocraft.HCTastypizza],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCTastypizzaslice,
+        }
+    }
+}

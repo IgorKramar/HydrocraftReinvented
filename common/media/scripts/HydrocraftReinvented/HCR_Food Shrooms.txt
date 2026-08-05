@@ -1,0 +1,886 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCBunchofshrooms
+    {
+
+	HungerChange			=		-20,
+	BoredomChange			=		-10,
+	Weight				=		0.8,
+	Type				=		Food,
+	UnhappyChange			=		-15,
+	DisplayName			=		Bunch of Mushrooms,
+	Icon				=		HCBunchofshrooms,
+	DaysFresh			=		6,
+	DaysTotallyRotten		=		10,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		23.2,
+        Proteins 			= 		9.9,
+        Lipids 				= 		1.8,
+        Calories 			= 		210,
+		DisplayCategory		=	FoodP,
+    }
+    item HCPortobello
+    {
+
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DisplayName			=		Portobello Mushroom,
+	Icon				=		HCPortobello,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+		DisplayCategory		=	FoodP,
+    }
+    item HCShiitake
+    {
+
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DisplayName			=		Shiitake Mushroom,
+	Icon				=		HCShiitake,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+		DisplayCategory		=	FoodP,
+    }
+    item HCBlewitshroom
+    {
+
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DisplayName			=		Blewit Mushroom,
+	Icon				=		HCBlewitmushroom,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+		DisplayCategory		=	FoodP,
+    }
+    item HCLobstershroom
+    {
+
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DisplayName			=		Lobster Mushroom,
+	Icon				=		HCLobstermushroom,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+		DisplayCategory		=	FoodP,
+    }
+    item HCWitchshatshroom
+    {
+
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	IsCookable			=		TRUE,
+	DangerousUncooked		=		TRUE,
+	MinutesToCook			=		30,
+	MinutesToBurn			=		70,
+	DisplayName			=		Witch's Hat Mushroom,
+	Icon				=		HCWitchshatmushroom,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+		DisplayCategory		=	FoodP,
+    }
+    item HCYellowmorelshroom
+    {
+
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	IsCookable			=		TRUE,
+	DangerousUncooked		=		TRUE,
+	MinutesToCook			=		30,
+	MinutesToBurn			=		70,
+	DisplayName			=		Yellow Morel Mushroom,
+	Icon				=		HCYellowmorelmushroom,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+		DisplayCategory		=	FoodP,
+    }
+    item HCChantrelle
+    {
+
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DisplayName			=		Chantrelle,
+	Icon				=		HCChantrelle,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+		DisplayCategory		=	FoodP,
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Base.MushroomGeneric1],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Base.MushroomGeneric1],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Base.MushroomGeneric1],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Base.MushroomGeneric2],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Base.MushroomGeneric2],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Base.MushroomGeneric2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Base.MushroomGeneric3],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Base.MushroomGeneric3],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Base.MushroomGeneric3],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Base.MushroomGeneric4],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Base.MushroomGeneric4],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Base.MushroomGeneric4],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Base.MushroomGeneric5],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Base.MushroomGeneric5],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Base.MushroomGeneric5],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Base.MushroomGeneric6],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Base.MushroomGeneric6],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Base.MushroomGeneric6],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Base.MushroomGeneric7],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Base.MushroomGeneric7],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Base.MushroomGeneric7],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCPortobello],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCPortobello],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPortobello],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCShiitake],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCShiitake],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCShiitake],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBlewitshroom],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCBlewitshroom],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCBlewitshroom],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLobstershroom],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCLobstershroom],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCLobstershroom],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCWitchshatshroom],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCWitchshatshroom],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWitchshatshroom],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCYellowmorelshroom],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYellowmorelshroom],
+            item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCBlewitshroom;Hydrocraft.HCLobstershroom;Hydrocraft.HCWitchshatshroom;Hydrocraft.HCYellowmorelshroom;Hydrocraft.HCChantrelle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+    craftRecipe Make Bunch of Mushrooms
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCYellowmorelshroom],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBunchofshrooms,
+        }
+    }
+}

@@ -1,0 +1,706 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCLabelempty
+    {
+
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Empty Label,
+	Icon			=	HCLabelempty,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabelammonia
+    {
+
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Ammonia Label,
+	Icon			=	HCLabelammonia,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabeldetergent
+    {
+
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Liquid Soap Label,
+	Icon			=	HCLabeldetergent,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabelmethylamin
+    {
+
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Methylamin Label,
+	Icon			=	HCLabelmethylamin,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabelh2o2
+    {
+
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Hydrogen Peroxide Label,
+	Icon			=	HCLabelh2o2,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabelphenylaceticacid
+    {
+
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Phenylacetic Acid Label,
+	Icon			=	HCLabelphenylaceticacid,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabelpoison
+    {
+
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Insecticide Label,
+	Icon			=	HCLabelpoison,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabelsulfuricacid
+    {
+
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Sulfuric Acid Label,
+	Icon			=	HCLabelsulfuricacid,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabelselfmadeether
+    {
+
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Homemade Ether Label,
+	Icon			=	HCLabelselfmadeether,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabelAgar
+    {
+
+    Weight          =   0.1,
+        Type            =   Normal,
+        DisplayName     =   Homemade Agar Label,
+    Icon            =   HCLabelselfmadeether,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabelgasoline
+    {
+
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Gasoline Label,
+	Icon			=	HCLabelgasoline,
+		DisplayCategory          =   CraftChem,
+    }
+    item HCLabelpotassiumpermanganate
+    {
+
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Potassiumper Manganate Label,
+	Icon			=	HCLabelpotassiumpermanganate,
+		DisplayCategory          =   CraftChem,
+    }
+    craftRecipe Make Label
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Papercraft,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCRubbercement;Hydrocraft.HCTar;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar;Base.Woodglue;Hydrocraft.HCWoodgluejar],
+            item 1 [Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors;Hydrocraft.HCBoxcutter;Base.Scalpel;Hydrocraft.HCScalpelimprovised;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabelempty,
+        }
+    }
+    craftRecipe Make Label For Ammonia
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelempty],
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCTypewriter;Base.Pen;Base.Pencil] mode:keep,
+            item 1 [Base.Crayons],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabelammonia,
+        }
+    }
+    craftRecipe Make Label For Liquid Soap
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelempty],
+            item 1 [Hydrocraft.HCTypewriter;Base.Pen;Base.Pencil] mode:keep,
+            item 4 [Base.Crayons],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabeldetergent,
+        }
+    }
+    craftRecipe Make Label For Methylamin
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelempty],
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCTypewriter;Base.Pen;Base.Pencil] mode:keep,
+            item 1 [Base.Crayons],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabelmethylamin,
+        }
+    }
+    craftRecipe Make Label For Hydrogen Peroxide
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelempty],
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCTypewriter;Base.Pen;Base.Pencil] mode:keep,
+            item 1 [Base.Crayons],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabelh2o2,
+        }
+    }
+    craftRecipe Make Label For Phenylacetic Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelempty],
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCTypewriter;Base.Pen;Base.Pencil] mode:keep,
+            item 1 [Base.Crayons],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabelphenylaceticacid,
+        }
+    }
+    craftRecipe Make Label For Insecticide
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelempty],
+            item 1 [Hydrocraft.HCBookgardening] mode:keep,
+            item 1 [Hydrocraft.HCTypewriter;Base.Pen;Base.Pencil] mode:keep,
+            item 4 [Base.Crayons],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabelpoison,
+        }
+    }
+    craftRecipe Make Label For Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelempty],
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCTypewriter;Base.Pen;Base.Pencil] mode:keep,
+            item 1 [Base.Crayons],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabelsulfuricacid,
+        }
+    }
+    craftRecipe Make Label For Homemade Ether
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelempty],
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCTypewriter;Base.Pen;Base.Pencil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabelselfmadeether,
+        }
+    }
+    craftRecipe Make Label For Agar
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelempty],
+            item 1 [Hydrocraft.HCBookchemistry] mode:keep,
+            item 1 [Hydrocraft.HCTypewriter;Base.Pen;Base.Pencil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabelAgar,
+        }
+    }
+    craftRecipe Make Label For Gasoline
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelempty],
+            item 1 [Hydrocraft.HCTypewriter;Base.Pen;Base.Pencil] mode:keep,
+            item 4 [Base.Crayons],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabelgasoline,
+        }
+    }
+    craftRecipe Make Label For Potassium Permanganate
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelempty],
+            item 1 [Hydrocraft.HCTypewriter;Base.Pen;Base.Pencil] mode:keep,
+            item 4 [Base.Crayons],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLabelpotassiumpermanganate,
+        }
+    }
+    craftRecipe Label Empty Can With Ammonia Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelammonia],
+            item 1 [Hydrocraft.HCPlasticcanempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmoniacanempty,
+        }
+    }
+    craftRecipe Label Full Can With Ammonia Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelammonia],
+            item 1 [Hydrocraft.HCPlasticcanammonia],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmoniacanfull,
+        }
+    }
+    craftRecipe Label Empty Metal Barrel With Ammonia Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelammonia],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmoniabarrelempty,
+        }
+    }
+    craftRecipe Label Full Ammonia Barrel With Ammonia Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelammonia],
+            item 1 [Hydrocraft.HCBarrelmetalammonia],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmoniabarrelfull,
+        }
+    }
+    craftRecipe Label Empty Blue Barrel With Ammonia Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelammonia],
+            item 1 [Hydrocraft.HCBarrelblueempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmoniabarrelblueempty,
+        }
+    }
+    craftRecipe Label Empty Can With Liquid Soap Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabeldetergent],
+            item 1 [Hydrocraft.HCPlasticcanempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentempty,
+        }
+    }
+    craftRecipe Label Full Can With Liquid Soap Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabeldetergent],
+            item 1 [Hydrocraft.HCPlasticcandetergent],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergent,
+        }
+    }
+    craftRecipe Label Empty Metal Barrel With Methylamin Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelmethylamin],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMethylaminbarrelempty,
+        }
+    }
+    craftRecipe Label Full Methylamin Barrel With Methylamin Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelmethylamin],
+            item 1 [Hydrocraft.HCBarrelmetalmethylamin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMethylaminbarrelfull,
+        }
+    }
+    craftRecipe Label Empty Blue Barrel With Methylamin Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelmethylamin],
+            item 1 [Hydrocraft.HCBarrelblueempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMethylaminbarrelblueempty,
+        }
+    }
+    craftRecipe Label Empty Can With Hydrogen Peroxide Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelh2o2],
+            item 1 [Hydrocraft.HCPlasticcanempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCh2o2canempty,
+        }
+    }
+    craftRecipe Label Full Can With Hydrogen Peroxide Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelh2o2],
+            item 1 [Hydrocraft.HCPlasticcanh2o2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCh2o2can,
+        }
+    }
+    craftRecipe Label Empty Metal Barrel With Phenylacetic Acid Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelphenylaceticacid],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhenylbarrelempty,
+        }
+    }
+    craftRecipe Label Full Metal Barrel With Phenylacetic Acid Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelphenylaceticacid],
+            item 1 [Hydrocraft.HCBarrelmetalphenyl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhenylbarrelfull,
+        }
+    }
+    craftRecipe Label Empty Blue Barrel With Phenylacetic Acid Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelphenylaceticacid],
+            item 1 [Hydrocraft.HCBarrelblueempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhenylbarrelblueempty,
+        }
+    }
+    craftRecipe Label Empty Can With Insecticide Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelpoison],
+            item 1 [Hydrocraft.HCPlasticcanempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPoisonempty,
+        }
+    }
+    craftRecipe Label Full Can With Insecticide Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelpoison],
+            item 1 [Hydrocraft.HCPlasticcanpoison],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPoison,
+        }
+    }
+    craftRecipe Label Empty Can With Sulfuric Acid Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelsulfuricacid],
+            item 1 [Hydrocraft.HCPlasticcanempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidcanempty,
+        }
+    }
+    craftRecipe Label Full Can With Sulfuric Acid Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelsulfuricacid],
+            item 1 [Hydrocraft.HCPlasticcansulfuricacid],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidcan,
+        }
+    }
+    craftRecipe Label Empty Metal Barrel With Sulfuric Acid Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelsulfuricacid],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidbarrelempty,
+        }
+    }
+    craftRecipe Label Full Metal Barrel With Sulfuric Acid Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelsulfuricacid],
+            item 1 [Hydrocraft.HCBarrelmetalsulfuricacid],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidbarrelfull,
+        }
+    }
+    craftRecipe Label Empty Blue Barrel With Sulfuric Acid Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelsulfuricacid],
+            item 1 [Hydrocraft.HCBarrelblueempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidbarrelblueempty,
+        }
+    }
+    craftRecipe Label Empty Metal Barrel With Gasoline Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelgasoline],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGasolinebarrelempty,
+        }
+    }
+    craftRecipe Label Full Gasoline Barrel With Gasoline Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelgasoline],
+            item 1 [Hydrocraft.HCBarrelmetalgasoline],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGasolinebarrelfull,
+        }
+    }
+}

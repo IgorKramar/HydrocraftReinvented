@@ -1,0 +1,1216 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCBarrelmetalempty
+    {
+
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Metal Barrel,
+		DisplayCategory          =   Container,
+        icon 			= HCBarrelmetal,
+    }
+    item HCBarrelblueempty
+    {
+
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Blue Barrel,
+		DisplayCategory          =   Container,
+        icon 			= HCBarrelblue,
+    }
+    item HCBarrelmetalammonia
+    {
+
+    Weight    		= 10,
+    Type    		= Drainable,
+	UseDelta		= 0.05,
+    DisplayName     = Metal Barrel with Ammonia,
+    icon 			= HCBarrelmetal,
+	ReplaceOnDeplete	= HCBarrelmetalempty,
+	DisplayCategory	= CraftChem,
+    }
+    item HCAmmoniabarrelempty
+    {
+
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Ammonia Barrel,
+		DisplayCategory	= CraftChem,
+        icon 			= HCAmmoniabarrelmetal,
+    }
+    item HCAmmoniabarrelfull
+    {
+
+    Weight    		    = 10,
+    Type    		    = Drainable,
+	UseDelta		    = 0.05,
+    DisplayName     	= Metal Barrel with Ammonia,
+    icon 			    = HCAmmoniabarrelmetal,
+	ReplaceOnDeplete	= HCAmmoniabarrelmetalempty,
+	DisplayCategory	= CraftChem,
+    }
+    item HCAmmoniabarrelblueempty
+    {
+
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Blue Empty Ammonia Barrel,
+		DisplayCategory	= CraftChem,
+        icon 			= HCAmmoniabarrelblue,
+    }
+    item HCAmmoniabarrelbluefull
+    {
+
+    Weight    		    = 10,
+    Type    		    = Drainable,
+	UseDelta		    = 0.05,
+    DisplayName     	= Blue Barrel with Ammonia,
+    icon 			    = HCAmmoniabarrelblue,
+	ReplaceOnDeplete	= HCAmmoniabarrelblueempty,
+	DisplayCategory	= CraftChem,
+    }
+    item HCBarrelmetalmethylamin
+    {
+
+    Weight    		    = 10,
+    Type    		    = Drainable,
+    DisplayName         = Metal Barrel with Methylamin,
+    icon 		     	= HCBarrelmetal,
+	ReplaceOnDeplete	= HCBarrelmetalempty,
+	DisplayCategory	= CraftChem,
+    }
+    item HCMethylaminbarrelempty
+    {
+
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Methylamin Barrel,
+		DisplayCategory	= CraftChem,
+        icon 			= HCMethylaminbarrelmetal,
+    }
+    item HCMethylaminbarrelfull
+    {
+
+    Weight    		    = 10,
+    Type    		    = Drainable,
+	UseDelta		    = 0.05,
+    DisplayName     	= Metal Barrel with Methylamin,
+    icon 			    = HCMethylaminbarrelmetal,
+	ReplaceOnDeplete	= HCMethylaminbarrelmetalempty,
+	DisplayCategory	= CraftChem,
+    }
+    item HCMethylaminbarrelblueempty
+    {
+
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Blue Empty Methylamin Barrel,
+		DisplayCategory	= CraftChem,
+        icon 			= HCMethylaminbarrelblue,
+    }
+    item HCMethylaminbarrelbluefull
+    {
+
+    Weight    		    = 10,
+    Type    		    = Drainable,
+	UseDelta		    = 0.05,
+    DisplayName         = Blue Barrel with Methylamin,
+    icon 			    = HCMethylaminbarrelblue,
+	ReplaceOnDeplete    = HCMethylaminbarrelblueempty,
+	DisplayCategory	= CraftChem,
+    }
+    item HCBarrelmetalphenyl
+    {
+
+    Weight    		    = 10,
+    Type    		    = Drainable,
+	UseDelta		    = 0.05,
+    DisplayName         = Metal Barrel with Phenylacetic Acid,
+    icon 			    = HCBarrelmetal,
+	ReplaceOnDeplete	= HCBarrelmetalempty,
+	DisplayCategory	= CraftChem,
+    }
+    item HCPhenylbarrelempty
+    {
+
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Phenylacetic Acid Barrel,
+		DisplayCategory	= CraftChem,
+        icon 			= HCPhenylbarrelmetal,
+    }
+    item HCPhenylbarrelfull
+    {
+
+    Weight    		    = 10,
+    Type    		    = Drainable,
+	UseDelta		    = 0.05,
+    DisplayName         = Metal Barrel with Phenylacetic Acid,
+    icon 			    = HCPhenylbarrelmetal,
+	ReplaceOnDeplete	= HCPhenylbarrelmetalempty,
+	DisplayCategory	= CraftChem,
+    }
+    item HCPhenylbarrelblueempty
+    {
+
+    Weight    		= 4,
+    Type	                = Container,
+    Capacity	        = 27,
+    DisplayName     	= Blue Empty Phenylacetic Acid Barrel,
+    icon 			= HCPhenylbarrelblue,
+	DisplayCategory	= CraftChem,
+    }
+    item HCPhenylbarrelbluefull
+    {
+
+    Weight    	     	= 10,
+    Type    		    = Drainable,
+	UseDelta		    = 0.05,
+    DisplayName     	= Blue Barrel with Phenylacetic Acid,
+    icon     			= HCPhenylbarrelblue,
+	ReplaceOnDeplete	= HCPhenylbarrelblueempty,
+	DisplayCategory		= CraftChem,
+    }
+    item HCBarrelmetalsulfuricacid
+    {
+
+    Weight    		    = 10,
+    Type    		    = Drainable,
+	UseDelta		    = 0.05,
+    DisplayName     	= Metal Barrel with Phenylacetic Acid,
+    icon 			    = HCBarrelmetal,
+	ReplaceOnDeplete	= HCBarrelmetalempty,
+	DisplayCategory		= CraftChem,
+    }
+    item HCSulfuricacidbarrelempty
+    {
+
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Phenylacetic Acid Barrel,
+		DisplayCategory	= CraftChem,
+        icon 			= HCSulfuricacidbarrelmetal,
+    }
+    item HCSulfuricacidbarrelfull
+    {
+
+    Weight    		    = 10,
+    Type    		    = Drainable,
+	UseDelta		    = 0.05,
+    DisplayName     	= Metal Barrel with Sulfuric Acid,
+    icon 		     	= HCSulfuricacidbarrelmetal,
+	ReplaceOnDeplete	= HCSulfuricacidbarrelempty,
+	DisplayCategory		= CraftChem,
+    }
+    item HCSulfuricacidbarrelblueempty
+    {
+
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Blue Empty Sulfuric Acid Barrel,
+		DisplayCategory	= CraftChem,
+        icon 			= HCSulfuricacidbarrelblue,
+    }
+    item HCSulfuricacidbarrelbluefull
+    {
+
+    Weight    		    = 10,
+    Type    		    = Drainable,
+	UseDelta		    = 0.05,
+    DisplayName         = Blue Barrel with Sulfuric Acid,
+    icon 			    = HCSulfuricacidbarrelblue,
+	ReplaceOnDeplete	= HCSulfuricacidbarrelblueempty,
+	DisplayCategory		= CraftChem,
+    }
+    item HCBluebarreltoxicwaste
+    {
+
+    Weight    		= 20,
+    Type    		= Normal,
+    DisplayName     	= Toxic Waste,
+    icon 			= HCBarrelbluetoxicwaste,
+	DisplayCategory	= CraftChem,
+    }
+    item HCBluebarreltoxicwastesealed
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName     	= Sealed Toxic Waste,
+		DisplayCategory	= Useless,
+        icon 			= HCToxicwaste,
+    }
+    item HCBarrelmetalgasoline
+    {
+
+    Weight            	= 10,
+    Type    		    = Drainable,
+	UseDelta		    = 0.05,
+    DisplayName         = Metal Barrel with Gasoline,
+    icon             	= HCBarrelmetal,
+    ReplaceOnDeplete    = HCBarrelmetalempty,
+	DisplayCategory		= CraftChem,
+    }
+    item HCGasolinebarrelempty
+    {
+
+        Weight            	= 4,
+        Type                    = Container,
+        Capacity            	= 27,
+        DisplayName         	= Empty Gasoline Barrel,
+		DisplayCategory	= CraftChem,
+        icon             	= HCGasolinebarrelmetal,
+    }
+    item HCGasolinebarrelfull
+    {
+
+        Weight            	= 10,
+        Type    		= Drainable,
+		UseDelta		= 0.05,
+        DisplayName         	= Metal Barrel with Gasoline,
+		DisplayCategory	= CraftChem,
+        icon             	= HCGasolinebarrelmetal,
+    	ReplaceOnDeplete    	= HCGasolinebarrelempty,
+    }
+    craftRecipe Clean Empty Metal Barrel
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmoniabarrelempty;Hydrocraft.HCMethylaminbarrelempty;Hydrocraft.HCPhenylbarrelempty;Hydrocraft.HCSulfuricacidbarrelempty] mode:destroy,
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalempty,
+        }
+    }
+    craftRecipe Clean Empty Blue Barrel
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmoniabarrelblueempty;Hydrocraft.HCMethylaminbarrelblueempty;Hydrocraft.HCPhenylbarrelblueempty;Hydrocraft.HCSulfuricacidbarrelblueempty] mode:destroy,
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelblueempty,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Ammonia
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCPlasticcanammonia],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalammonia,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Ammonia
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCAmmoniacanfull],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalammonia,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Ammonia
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCDetergentammonia],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalammonia,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Ammonia
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCAmmoniabarrelfull],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalammonia,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Ammonia
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCAmmoniabarrelbluefull],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalammonia,
+        }
+    }
+    craftRecipe Fill Empty Ammonia Barrel With Ammonia
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCBarrelmetalammonia],
+            item 1 [Hydrocraft.HCAmmoniabarrelempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmoniabarrelfull,
+        }
+    }
+    craftRecipe Fill Empty Ammonia Barrel With Ammonia
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCAmmoniabarrelbluefull],
+            item 1 [Hydrocraft.HCAmmoniabarrelempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmoniabarrelfull,
+        }
+    }
+    craftRecipe Fill Blue Empty Ammonia Barrel With Ammonia
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCBarrelmetalammonia],
+            item 1 [Hydrocraft.HCAmmoniabarrelblueempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmoniabarrelbluefull,
+        }
+    }
+    craftRecipe Fill Blue Empty Ammonia Barrel With Ammonia
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCAmmoniabarrelfull],
+            item 1 [Hydrocraft.HCAmmoniabarrelblueempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmoniabarrelbluefull,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Methylamin
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetemptymethylaminbarrel,
+        inputs
+        {
+            item 20 [Hydrocraft.HCGlassbottlemethylamin],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalmethylamin,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Methylamin
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetemptymethylaminbarrel,
+        inputs
+        {
+            item 20 [Hydrocraft.HCMethylaminbarrelfull],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalmethylamin,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Methylamin
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCMethylaminbarrelbluefull],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalmethylamin,
+        }
+    }
+    craftRecipe Fill Empty Methylamin Barrel With Methylamin
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCGlassbottlemethylamin],
+            item 1 [Hydrocraft.HCMethylaminbarrelempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMethylaminbarrelfull,
+        }
+    }
+    craftRecipe Fill Empty Methylamin Barrel With Methylamin
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCBarrelmetalmethylamin],
+            item 1 [Hydrocraft.HCMethylaminbarrelempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMethylaminbarrelfull,
+        }
+    }
+    craftRecipe Fill Empty Methylamin Barrel With Methylamin
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCMethylaminbarrelbluefull],
+            item 1 [Hydrocraft.HCMethylaminbarrelempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMethylaminbarrelfull,
+        }
+    }
+    craftRecipe Fill Blue Empty Methylamin Barrel With Methylamin
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCGlassbottlemethylamin],
+            item 1 [Hydrocraft.HCMethylaminbarrelblueempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMethylaminbarrelbluefull,
+        }
+    }
+    craftRecipe Fill Blue Empty Methylamin Barrel With Methylamin
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCBarrelmetalmethylamin],
+            item 1 [Hydrocraft.HCMethylaminbarrelblueempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMethylaminbarrelbluefull,
+        }
+    }
+    craftRecipe Fill Blue Empty Methylamin Barrel With Methylamin
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCMethylaminbarrelfull],
+            item 1 [Hydrocraft.HCMethylaminbarrelblueempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMethylaminbarrelbluefull,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Phenylacetic Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCGlassbottlephenyl],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalphenyl,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Phenylacetic Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCPhenylbarrelfull],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalphenyl,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Phenylacetic Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCPhenylbarrelbluefull],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalphenyl,
+        }
+    }
+    craftRecipe Fill Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCGlassbottlephenyl],
+            item 1 [Hydrocraft.HCPhenylbarrelempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhenylbarrelfull,
+        }
+    }
+    craftRecipe Fill Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCBarrelmetalphenyl],
+            item 1 [Hydrocraft.HCPhenylbarrelempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhenylbarrelfull,
+        }
+    }
+    craftRecipe Fill Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCPhenylbarrelbluefull],
+            item 1 [Hydrocraft.HCPhenylbarrelempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhenylbarrelfull,
+        }
+    }
+    craftRecipe Fill Blue Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCGlassbottlephenyl],
+            item 1 [Hydrocraft.HCPhenylbarrelblueempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhenylbarrelbluefull,
+        }
+    }
+    craftRecipe Fill Blue Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCBarrelmetalphenyl],
+            item 1 [Hydrocraft.HCPhenylbarrelblueempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhenylbarrelbluefull,
+        }
+    }
+    craftRecipe Fill Blue Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCPhenylbarrelfull],
+            item 1 [Hydrocraft.HCPhenylbarrelblueempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhenylbarrelbluefull,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCGlassbottlesulfuricacid],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidbarrelfull,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCPlasticcansulfuricacid],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalammonia,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCSulfuricacidcan],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalammonia,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCDetergentsulfuricacid],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalammonia,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCSulfuricacidbarrelfull],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalsulfuricacid,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCSulfuricacidbarrelbluefull],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalsulfuricacid,
+        }
+    }
+    craftRecipe Fill Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCGlassbottlesulfuricacid],
+            item 1 [Hydrocraft.HCSulfuricacidbarrelempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidbarrelfull,
+        }
+    }
+    craftRecipe Fill Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCBarrelmetalsulfuricacid],
+            item 1 [Hydrocraft.HCSulfuricacidbarrelempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidbarrelfull,
+        }
+    }
+    craftRecipe Fill Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCSulfuricacidbarrelbluefull],
+            item 1 [Hydrocraft.HCSulfuricacidbarrelempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidbarrelfull,
+        }
+    }
+    craftRecipe Fill Blue Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCGlassbottlesulfuricacid],
+            item 1 [Hydrocraft.HCSulfuricacidbarrelblueempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidbarrelbluefull,
+        }
+    }
+    craftRecipe Fill Blue Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCBarrelmetalsulfuricacid],
+            item 1 [Hydrocraft.HCSulfuricacidbarrelblueempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidbarrelbluefull,
+        }
+    }
+    craftRecipe Fill Blue Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCSulfuricacidbarrelfull],
+            item 1 [Hydrocraft.HCSulfuricacidbarrelblueempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSulfuricacidbarrelbluefull,
+        }
+    }
+    craftRecipe Seal Biowaste
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBluebarreltoxicwaste] mode:destroy,
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Base.DuctTape;Base.Scotchtape;Hydrocraft.HCMaskingtape;Hydrocraft.HCPackingtape;Hydrocraft.HCElectrictape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBluebarreltoxicwastesealed,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Gasoline
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalgasoline,
+        }
+    }
+    craftRecipe Fill Empty Metal Barrel With Gasoline
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCGasolinebarrelfull],
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalgasoline,
+        }
+    }
+    craftRecipe Fill Empty Gasoline Barrel With Gasoline
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCGasolinebarrelempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGasolinebarrelfull,
+        }
+    }
+    craftRecipe Fill Empty Gasoline Barrel With Gasoline
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCBarrelmetalgasoline],
+            item 1 [Hydrocraft.HCGasolinebarrelempty],
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGasolinebarrelfull,
+        }
+    }
+    craftRecipe Fill Empty Petrol Cans With Gasoline
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 8 [Hydrocraft.HCBarrelmetalgasoline],
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PetrolCan,
+        }
+    }
+    craftRecipe Fill Empty Petrol Cans With Gasoline
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 8 [Hydrocraft.HCGasolinebarrelfull],
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PetrolCan,
+        }
+    }
+}

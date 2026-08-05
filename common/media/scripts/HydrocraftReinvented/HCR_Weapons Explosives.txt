@@ -1,0 +1,1481 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCMk1capsule
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Detonator Capsule MK1,
+        icon 			= HCMk1capsule,
+		DisplayCategory	= WepBomb,
+    }
+    item HCMk1capsuleparts
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Detonator Capsule Parts,
+        icon 			= HCMk1capsuleparts,
+		DisplayCategory	= CraftAmmo,
+    }
+    item HCDetonatormk2off
+    {
+
+        Weight   		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Detonator MK2 Off,
+        icon 			= HCDetonatormk2off,
+		DisplayCategory	= WepBomb,
+    }
+    item HCDetonatormk3off
+    {
+
+        Weight   		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Detonator MK3 Off,
+        icon 			= HCDetonatormk3off,
+		DisplayCategory	= WepBomb,
+    }
+    item HCDynamitenk2off
+    {
+
+        Weight   		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Dynamite MK2 Off,
+        icon 			= HCDetonatormk2off,
+		DisplayCategory	= WepBomb,
+    }
+    item HCDynamitenk3off
+    {
+
+        Weight   		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Dynamite MK3 Off,
+        icon 			= HCDynamitemk3off,
+		DisplayCategory	= WepBomb,
+    }
+    item HCThermitebombmk2off
+    {
+
+        Weight   		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Thermite Bomb MK2 Off,
+        icon 			= HCThermitebombmk2off,
+		DisplayCategory	= WepBomb,
+    }
+    item HCThermitebombmk3off
+    {
+
+        Weight   		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Thermite Bomb MK3 Off,
+        icon 			= HCThermitebombmk3off,
+		DisplayCategory	= WepBomb,
+    }
+    item HCDetonatorrubberbungcabels
+    {
+
+        Weight   		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Rubber Bung with Cables,
+        icon 			= HCDetonatorrubberbungcabels,
+		DisplayCategory	= WepBomb,
+    }
+    item HCAmmonalbomboff
+    {
+
+        Weight   		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= Ammonal Bomb Off,
+        icon 			= HCAmmonalbomboff,
+		DisplayCategory	= WepBomb,
+    }
+    item HCDetonatormk3hmtdoff
+    {
+
+        Weight   		= 0.6,
+        Type    		= Normal,
+        DisplayName     = Detonator MK3 with HMTD Off,
+        icon 			= HCDetonatormk3hmtdoff,
+		DisplayCategory	= WepBomb,
+    }
+    item HCPineconebomb
+    {
+
+		OtherHandUse				=	TRUE,
+		MaxRange					=	8,
+		WeaponSprite 				=   Molotov,
+		Type						=	Weapon,
+		MinimumSwingTime			=	1.5,
+		SwingAnim					=	Throw,
+		UseSelf						=	TRUE,
+		DisplayName					=	Flaming Pinecone,
+		SwingTime					=	1.5,
+		SwingAmountBeforeImpact		=	0.1,
+		PhysicsObject				=	MolotovCocktail,
+		MinDamage					=	0,
+		Weight						=	0.1,
+		MaxDamage					=	0,
+		OtherHandRequire			=	Lighter,
+		MaxHitCount					=	0,
+        FirePower  					=   10,
+        FireRange  					=   4,
+		Icon						=	HCPineconebomb,
+		Tooltip 			= 	Tooltip_Trap,
+		DisplayCategory				=	WepBomb,
+    }
+    item HCGrenade
+    {
+
+		MaxRange				=	10,
+		Type					=	Weapon,
+		MinimumSwingTime		=	1.5,
+		SwingAnim	=	Throw,
+		WeaponSprite = Molotov,
+		UseSelf					=	TRUE,
+		DisplayName			=	Grenade,
+		SwingTime			=	1.5,
+		SwingAmountBeforeImpact		=	0.1,
+		PhysicsObject			=	PipeBomb,
+		MinDamage			=	0,
+		Weight				=	0.5,
+		MaxDamage			=	0,
+		MaxHitCount			=	0,
+		Icon				=	HCGrenade,
+		ExplosionPower  		=   	90,
+		ExplosionRange  		=   	7,
+		ExplosionSound  		=   	BigExplosion,
+		Tooltip = Tooltip_Trap,
+		DisplayCategory				=	WepBomb,
+    }
+    item HCThermitebomb
+    {
+
+        	MaxRange			=	10,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim	=	Throw,
+			WeaponSprite = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Thermite Bomb,
+			WeaponSprite = Molotov,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage			=	0,
+        	Weight				=	1.5,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCThermitebomb,
+        	DoorDamage			=	50,
+        	FirePower  			=   	250,
+        	FireRange  			=   	1,
+        	ExplosionSound  		=   	SmallExplosion,
+        	Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCChlorgasgrenade
+    {
+
+        	MaxRange	        	= 	10,
+        	Type	                	= 	Weapon,
+        	MinimumSwingTime		= 	1.5,
+        	SwingAnim	=	Throw,
+			WeaponSprite = Molotov,
+        	UseSelf	                	= 	TRUE,
+        	DisplayName	        	= 	Chlorgas Grenade,
+        	SwingTime	        	= 	1.5,
+        	SwingAmountBeforeImpact		= 	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage	        	= 	1,
+       	 	Weight	                	= 	1.5,
+        	MaxDamage	        	= 	3,
+        	MaxHitCount	        	= 	10,
+        	CriticalChance	        	= 	60,
+        	Icon	                	= 	HCChlorgasgrenade,
+        	TriggerExplosionTimer   	= 	10,
+        	SmokeRange              	= 	7,
+			ExplosionPower          	= 	30,
+			ExplosionRange          	= 	7,
+			ExplosionSound          	= 	SmallExplosion,
+			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCAmmonalbombon
+    {
+
+        	MaxRange	        	= 	5,
+        	Type	                	= 	Weapon,
+        	MinimumSwingTime		= 	1.5,
+        	SwingAnim	=	Throw,
+			WeaponSprite = Molotov,
+        	UseSelf	                	= 	TRUE,
+        	DisplayName	        	= 	Ammonal Bomb On,
+        	SwingTime	        	= 	1.5,
+        	SwingAmountBeforeImpact		= 	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage	        	= 	0,
+        	Weight	                	= 	1.5,
+        	MaxDamage	        	= 	0,
+        	MaxHitCount	        	= 	10,
+        	Icon	                	= 	HCAmmonalbombon,
+        	TriggerExplosionTimer   	= 	50,
+ 		ExplosionPower          	= 	150,
+		ExplosionRange          	= 	10,
+        	ExplosionSound          	= 	BigExplosion,
+        	DoorDamage	        	= 	50,
+			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCTincanthrowing
+    {
+
+        	MaxRange			       = 10,
+        	Type				       = Weapon,
+        	MinimumSwingTime	       = 1.5,
+        	SwingAnim			       = Throw,
+			WeaponSprite		       = Molotov,
+        	UseSelf				       = TRUE,
+        	DisplayName			       = Tin Can Noise Maker,
+        	SwingTime			       = 1.5,
+        	SwingAmountBeforeImpact	   = 0.1,
+        	PhysicsObject			   = NoiseGenerator,
+        	MinDamage			       = 0,
+        	Weight				       = 0.5,
+        	MaxDamage			       = 0,
+        	MaxHitCount			       = 0,
+        	Icon				       = HCTincanthrowing,
+        	NoiseRange  			   = 5,
+        	CanBePlaced 			   = TRUE,
+        	ExplosionSound  		   = alarmclock,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCFireworkrocket1
+    {
+
+        	MaxRange			=	20,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Firework Rocket,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject			=	NoiseGenerator,
+        	MinDamage			=	0,
+        	Weight				=	0.5,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCFireworkrocket1,
+        	NoiseRange  			=   	50,
+        	CanBePlaced 			= 	TRUE,
+        	ExplosionSound  		=   	BigExplosion,
+		OtherHandUse			=	TRUE,
+		OtherHandRequire		=	Lighter,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCFireworkrocket2
+    {
+
+        	MaxRange			=	20,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Firework Rocket,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject			=	NoiseGenerator,
+        	MinDamage			=	0,
+        	Weight				=	0.5,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCFireworkrocket2,
+        	NoiseRange  			=   	50,
+        	CanBePlaced 			= 	TRUE,
+        	ExplosionSound  		=   	BigExplosion,
+		OtherHandUse			=	TRUE,
+		OtherHandRequire		=	Lighter,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCFireworkrocket3
+    {
+
+        	MaxRange			=	20,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Firework Rocket,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject			=	NoiseGenerator,
+        	MinDamage			=	0,
+        	Weight				=	0.5,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCFireworkrocket3,
+        	NoiseRange  			=   	50,
+        	CanBePlaced 			= 	TRUE,
+        	ExplosionSound  		=   	BigExplosion,
+		OtherHandUse			=	TRUE,
+		OtherHandRequire		=	Lighter,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCFireworkrocket4
+    {
+
+        	MaxRange			=	20,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Firework Rocket,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject			=	NoiseGenerator,
+        	MinDamage			=	0,
+        	Weight				=	0.5,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCFireworkrocket4,
+        	NoiseRange  			=   	50,
+        	CanBePlaced 			= 	TRUE,
+        	ExplosionSound  		=   	BigExplosion,
+		OtherHandUse			=	TRUE,
+		OtherHandRequire		=	Lighter,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCFireworkrocket5
+    {
+
+        	MaxRange			=	20,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Firework Rocket,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject			=	NoiseGenerator,
+        	MinDamage			=	0,
+        	Weight				=	0.5,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCFireworkrocket5,
+        	NoiseRange  			=   	50,
+        	CanBePlaced 			= 	TRUE,
+        	ExplosionSound  		=   	BigExplosion,
+		OtherHandUse			=	TRUE,
+		OtherHandRequire		=	Lighter,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCDetonatormk1
+    {
+
+        	MaxRange	        	= 	3,
+        	Type	                	= 	Weapon,
+        	MinimumSwingTime		= 	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf	                	= 	TRUE,
+        	DisplayName	        	= 	Detonator MK1,
+        	SwingTime	        	= 	1.5,
+        	SwingAmountBeforeImpact		= 	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage	        	= 	0,
+        	Weight	                	= 	0.3,
+        	MaxDamage	        	= 	0,
+        	MaxHitCount	        	= 	0,
+        	Icon	                	= 	HCDetonatormk1,
+        	TriggerExplosionTimer   	= 	60,
+ 		ExplosionPower          	= 	1,
+		ExplosionRange          	= 	1,
+        	ExplosionSound          	= 	SmallExplosion,
+        	DoorDamage	        	= 	10,
+		Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCDetonatormk2on
+    {
+
+        	MaxRange	        	= 	3,
+        	Type	                	= 	Weapon,
+        	MinimumSwingTime		= 	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf	                	= 	TRUE,
+        	DisplayName	        	= 	Detonator MK2 On,
+        	SwingTime	        	= 	1.5,
+        	SwingAmountBeforeImpact		= 	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage	        	= 	0,
+        	Weight	                	= 	0.4,
+        	MaxDamage	        	= 	0,
+        	MaxHitCount	        	= 	0,
+        	Icon	                	= 	HCDetonatormk2on,
+        	TriggerExplosionTimer   	= 	60,
+ 		ExplosionPower          	= 	1,
+		ExplosionRange          	= 	1,
+        	ExplosionSound          	= 	SmallExplosion,
+        	DoorDamage	        	= 	10,
+			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCDetonatormk3on
+    {
+
+        	MaxRange	        	= 	3,
+        	Type	                	= 	Weapon,
+        	MinimumSwingTime		= 	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf	                	= 	TRUE,
+        	DisplayName	        	= 	Detonator MK3 On,
+        	SwingTime	        	= 	1.5,
+        	SwingAmountBeforeImpact		= 	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage	        	= 	0,
+        	Weight	                	= 	0.5,
+        	MaxDamage	        	= 	0,
+        	MaxHitCount	        	= 	0,
+        	Icon	                	= 	HCDetonatormk3on,
+        	TriggerExplosionTimer   	= 	60,
+ 		ExplosionPower          	= 	1,
+		ExplosionRange          	= 	1,
+        	ExplosionSound          	= 	SmallExplosion,
+        	DoorDamage	        	= 	10,
+			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCDynamite
+    {
+
+		MaxRange			=	10,
+		Type				=	Weapon,
+		MinimumSwingTime		=	1.5,
+		SwingAnim			=	Throw,
+		WeaponSprite		 = Molotov,
+		UseSelf				=	TRUE,
+		DisplayName			=	Dynamite,
+		SwingTime			=	1.5,
+		SwingAmountBeforeImpact		=	0.1,
+		PhysicsObject			=	PipeBomb,
+		MinDamage			=	1,
+		Weight				=	0.5,
+		MaxDamage			=	1,
+		MaxHitCount			=	1,
+		Icon				=	HCDynamite,
+		ExplosionPower  		=   	70,
+		ExplosionRange  		=   	5,
+		ExplosionSound  		=   	BigExplosion,
+		OtherHandUse			=	TRUE,
+		OtherHandRequire		=	Lighter,
+		Tooltip 			= 	Tooltip_Trap,		
+			DisplayCategory		=	WepBomb,
+    }
+    item HCDynamitenk1
+    {
+
+		MaxRange			=	10,
+		Type				=	Weapon,
+		MinimumSwingTime		=	1.5,
+		SwingAnim			=	Throw,
+		WeaponSprite		 = Molotov,
+		UseSelf				=	TRUE,
+		DisplayName			=	Dynamite MK1,
+		SwingTime			=	1.5,
+		SwingAmountBeforeImpact		=	0.1,
+		PhysicsObject			=	PipeBomb,
+		MinDamage			=	1,
+		Weight				=	0.7,
+		MaxDamage			=	1,
+		MaxHitCount			=	1,
+		Icon				=	HCDynamitemk1,
+		ExplosionPower  		=   	70,
+		ExplosionRange  		=   	5,
+		ExplosionSound  		=   	BigExplosion,
+		Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCDynamitenk2on
+    {
+
+        	MaxRange	        	= 	10,
+        	Type	                	= 	Weapon,
+        	MinimumSwingTime		= 	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf	                	= 	TRUE,
+        	DisplayName	        	= 	Dynamite MK2 On,
+        	SwingTime	        	= 	1.5,
+        	SwingAmountBeforeImpact		= 	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage	        	= 	1,
+		Weight				=	0.8,
+		MaxDamage			=	1,
+		MaxHitCount			=	1,
+        	Icon	                	= 	HCDynamitemk2on,
+        	TriggerExplosionTimer   	= 	50,
+		ExplosionPower  		=   	70,
+		ExplosionRange  		=   	5,
+        	ExplosionSound          	= 	BigExplosion,
+        	DoorDamage	        	= 	10,
+			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCDynamitenk3on
+    {
+
+        	MaxRange	        	= 	10,
+        	Type	                	= 	Weapon,
+        	MinimumSwingTime		= 	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf	                	= 	TRUE,
+        	DisplayName	        	= 	Dynamite MK3 On,
+        	SwingTime	        	= 	1.5,
+        	SwingAmountBeforeImpact		= 	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage	        	= 	1,
+		Weight				=	0.9,
+		MaxDamage			=	1,
+		MaxHitCount			=	1,
+        	Icon	                	= 	HCDynamitemk3on,
+        	TriggerExplosionTimer   	= 	70,
+		ExplosionPower  		=   	70,
+		ExplosionRange  		=   	5,
+        	ExplosionSound          	= 	BigExplosion,
+        	DoorDamage	        	= 	10,
+			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCThermitebomb
+    {
+
+        	MaxRange			=	10,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Thermite Bomb,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage			=	0,
+        	Weight				=	0.5,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCThermitebomb,
+        	DoorDamage			=	50,
+        	FirePower  			=   	250,
+        	FireRange  			=   	1,
+        	ExplosionSound  		=   	SmallExplosion,
+        	Tooltip 			= 	Tooltip_Trap,
+		OtherHandUse			=	TRUE,
+		OtherHandRequire		=	Lighter,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCThermitebombmk1
+    {
+
+        	MaxRange			=	10,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Thermite Bomb MK1 On,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage			=	0,
+        	Weight				=	0.7,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCThermitebombmk1,
+        	TriggerExplosionTimer   	= 	10,
+        	DoorDamage			=	50,
+        	FirePower  			=   	250,
+        	FireRange  			=   	1,
+        	ExplosionSound  		=   	SmallExplosion,
+			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCThermitebombmk2on
+    {
+
+        	MaxRange			=	10,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Thermite Bomb MK2 On,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage			=	0,
+        	Weight				=	0.8,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCThermitebombmk2on,
+        	TriggerExplosionTimer   	= 	25,
+        	DoorDamage			=	50,
+        	FirePower  			=   	250,
+        	FireRange  			=   	1,
+        	ExplosionSound  		=   	SmallExplosion,
+			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCThermitebombmk3on
+    {
+
+        	MaxRange			=	10,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Thermite Bomb MK3 On,
+        	SwingTime			=	0.8,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage			=	0,
+        	Weight				=	0.9,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCThermitebombmk3on,
+        	TriggerExplosionTimer   	= 	50,
+        	DoorDamage			=	50,
+        	FirePower  			=   	250,
+        	FireRange  			=   	1,
+        	ExplosionSound  		=   	SmallExplosion,
+			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCDetonatorcapsulehmtd
+    {
+
+		MaxRange			=	1,
+		Type				=	Weapon,
+		MinimumSwingTime		=	1.5,
+		SwingAnim			=	Throw,
+		WeaponSprite		 = Molotov,
+		UseSelf				=	TRUE,
+		DisplayName			=	Detonator Capsule with HMTD,
+		SwingTime			=	1.5,
+		SwingAmountBeforeImpact		=	0.1,
+		PhysicsObject			=	PipeBomb,
+		MinDamage			=	0,
+		Weight				=	0.3,
+		MaxDamage			=	0,
+		MaxHitCount			=	0,
+		Icon				=	HCDetonatorcapsulehmtd,
+		ExplosionPower  		=   	40,
+		ExplosionRange  		=   	2,
+		ExplosionSound  		=   	SmallExplosion,
+		Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    item HCDetonatormk3hmtdon
+    {
+
+        	MaxRange	        	= 	3,
+        	Type	                	= 	Weapon,
+        	MinimumSwingTime		= 	1.5,
+			SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
+        	UseSelf	                	= 	TRUE,
+        	DisplayName	        	= 	Detonator MK3 with HMTD On,
+        	SwingTime	        	= 	1.5,
+        	SwingAmountBeforeImpact		= 	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage	        	= 	0,
+        	Weight	                	= 	0.6,
+        	MaxDamage	        	= 	0,
+        	MaxHitCount	        	= 	0,
+        	Icon	                	= 	HCDetonatormk3hmtdon,
+        	TriggerExplosionTimer   	= 	60,
+ 		ExplosionPower          	= 	40,
+		ExplosionRange          	= 	2,
+        	ExplosionSound          	= 	SmallExplosion,
+        	DoorDamage	        	= 	50,
+			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
+    }
+    craftRecipe Light Pinecone
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFircone;Base.Pinecone],
+            item 1 [Base.Lighter],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPineconebomb,
+        }
+    }
+    craftRecipe Make Thermite Bomb
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThermite],
+            item 1 [Hydrocraft.HCTincan],
+            item 1 [Base.Sparklers],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermitebomb,
+        }
+    }
+    craftRecipe Make Chlorgas Grenade
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.Bleach],
+            item 1 [Base.CleaningLiquid2],
+            item 1 [Base.Plasticbag;Base.Garbagebag],
+            item 1 [Base.DuctTape;Base.Scotchtape;Hydrocraft.HCMaskingtape;Hydrocraft.HCPackingtape;Hydrocraft.HCElectrictape],
+            item 1 [Base.WaterBottle;Base.PopBottle],
+            item 1 [Hydrocraft.HCDetonatormk1],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChlorgasgrenade,
+        }
+    }
+    craftRecipe Put Stone in Tin Can
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Stone2],
+            item 1 [Hydrocraft.HCTincan],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTincanthrowing,
+        }
+    }
+    craftRecipe Make Dynamite
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlycerin],
+            item 1 [Hydrocraft.HCNitricacid],
+            item 3 [Base.SheetPaper2],
+            item 3 [Hydrocraft.HCDiatomitepowder],
+            item 3 [Base.Twine],
+            item 3 [Hydrocraft.HCSawdust],
+            item 1 [Hydrocraft.HCMotoroil],
+            item 3 [Base.GunPowder],
+            item 1 [Hydrocraft.HCLab;Hydrocraft.HCLabbig] mode:keep,
+        }
+        outputs
+        {
+            item 3 Hydrocraft.HCDynamite,
+        }
+    }
+    craftRecipe Make Detonator Capsule Parts
+    {
+        time = 10,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.Aluminum],
+            item 1 [Base.GunPowder],
+            item 1 [Base.LightBulb],
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMk1capsuleparts,
+        }
+    }
+    craftRecipe Make Detonator Capsule
+    {
+        time = 10,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMk1capsuleparts],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMk1capsule,
+        }
+    }
+    craftRecipe Make Detonator MK1
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMk1capsule],
+            item 1 [Base.RubberBand],
+            item 1 [Base.Battery] mode:destroy,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk1,
+        }
+    }
+    craftRecipe Make Detonator MK2
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMk1capsule],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar],
+            item 1 [Base.Battery] mode:destroy,
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCLedred],
+            item 1 [Hydrocraft.HCLedgreen],
+            item 1 [Hydrocraft.HCLedyellow],
+            item 1 [Hydrocraft.HCSwitch],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk2off,
+        }
+    }
+    craftRecipe Make Detonator MK3
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMk1capsule],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar],
+            item 1 [Base.Battery] mode:destroy,
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCDisplay],
+            item 1 [Hydrocraft.HCSwitch],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk3off,
+        }
+    }
+    craftRecipe Upgrade Detonator MK1 To MK2
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk1],
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCLedred],
+            item 1 [Hydrocraft.HCLedgreen],
+            item 1 [Hydrocraft.HCLedyellow],
+            item 1 [Hydrocraft.HCSwitch],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk2off,
+        }
+    }
+    craftRecipe Upgrade Detonator MK1 To MK3
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk1],
+            item 2 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCDisplay],
+            item 1 [Hydrocraft.HCSwitch],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk3off,
+        }
+    }
+    craftRecipe Upgrade Detonator MK2 To MK3
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk2off],
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCDisplay],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk3off,
+        }
+    }
+    craftRecipe Make Dynamite MK1
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDynamite],
+            item 1 [Hydrocraft.HCDetonatormk1],
+            item 2 [Base.RubberBand],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDynamitenk1,
+        }
+    }
+    craftRecipe Turn Detonator MK2 On
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk2off],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk2on,
+        }
+    }
+    craftRecipe Turn Detonator MK2 Off
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk2on],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk2off,
+        }
+    }
+    craftRecipe Make Dynamite MK2
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDynamite],
+            item 1 [Hydrocraft.HCDetonatormk2off],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDynamitenk2off,
+        }
+    }
+    craftRecipe Turn Dynamite MK2 On
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDynamitenk2off],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDynamitenk2on,
+        }
+    }
+    craftRecipe Turn Dynamite MK2 Off
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDynamitenk2on],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDynamitenk2off,
+        }
+    }
+    craftRecipe Turn Detonator MK3 On
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk3off],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk3on,
+        }
+    }
+    craftRecipe Turn Detonator MK3 Off
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk3on],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk3off,
+        }
+    }
+    craftRecipe Make Dynamite MK3
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDynamite],
+            item 1 [Hydrocraft.HCDetonatormk3off],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDynamitenk3off,
+        }
+    }
+    craftRecipe Turn Dynamite MK3 On
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDynamitenk3off],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDynamitenk3on,
+        }
+    }
+    craftRecipe Turn Dynamite MK3 Off
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDynamitenk3on],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDynamitenk3off,
+        }
+    }
+    craftRecipe Make Thermitebomb MK1
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThermitebomb],
+            item 1 [Hydrocraft.HCDetonatormk1],
+            item 2 [Base.RubberBand],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermitebombmk1,
+        }
+    }
+    craftRecipe Make Thermitebomb MK2
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThermitebomb],
+            item 1 [Hydrocraft.HCDetonatormk2off],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermitebombmk2off,
+        }
+    }
+    craftRecipe Turn Thermitebomb MK2 On
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThermitebombmk2off],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermitebombmk2on,
+        }
+    }
+    craftRecipe Turn Thermitebomb MK2 Off
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThermitebombmk2on],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermitebombmk2off,
+        }
+    }
+    craftRecipe Make Thermitebomb MK3
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThermitebomb],
+            item 1 [Hydrocraft.HCDetonatormk3off],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermitebombmk3off,
+        }
+    }
+    craftRecipe Turn Thermitebomb MK3 On
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThermitebombmk3off],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermitebombmk3on,
+        }
+    }
+    craftRecipe Turn Thermitebomb MK3 Off
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThermitebombmk3on],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermitebombmk3off,
+        }
+    }
+    craftRecipe Make Rubber Bung with Cables
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubberbunghole],
+            item 2 [Hydrocraft.HCCablecopper],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatorrubberbungcabels,
+        }
+    }
+    craftRecipe Make Detonatorcapsule with HMTD
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetrubberbung,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatorrubberbungcabels],
+            item 1 [Hydrocraft.HCGlasstubehmtd],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatorcapsulehmtd,
+        }
+    }
+    craftRecipe Make Detonator MK3 with HMTD
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatorcapsulehmtd],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar],
+            item 1 [Base.Battery] mode:destroy,
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCDisplay],
+            item 1 [Hydrocraft.HCSwitch],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk3hmtdoff,
+        }
+    }
+    craftRecipe Upgrade Detonator MK1 To MK3 with HMTD
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcgetcapsule,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk1],
+            item 1 [Hydrocraft.HCDetonatorcapsulehmtd],
+            item 2 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCDisplay],
+            item 1 [Hydrocraft.HCSwitch],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk3hmtdoff,
+        }
+    }
+    craftRecipe Upgrade Detonator MK2 To MK3 with HMTD
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcgetcapsule,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk2off],
+            item 1 [Hydrocraft.HCDetonatorcapsulehmtd],
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCDisplay],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk3hmtdoff,
+        }
+    }
+    craftRecipe Upgrade Detonator MK3 To MK3 with HMTD
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcgetcapsule,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk3off],
+            item 1 [Hydrocraft.HCDetonatorcapsulehmtd],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk3hmtdoff,
+        }
+    }
+    craftRecipe Make Ammonal Bomb
+    {
+        time = 750,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk3hmtdoff],
+            item 1 [Hydrocraft.HCAmmonal],
+            item 1 [Base.DuctTape;Base.Scotchtape;Hydrocraft.HCMaskingtape;Hydrocraft.HCPackingtape;Hydrocraft.HCElectrictape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmonalbomboff,
+        }
+    }
+    craftRecipe Turn Detonator MK3 with HMTD On
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk3hmtdoff],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk3hmtdon,
+        }
+    }
+    craftRecipe Turn Detonator MK3 with HMTD Off
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetonatormk3hmtdon],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetonatormk3hmtdoff,
+        }
+    }
+    craftRecipe Turn Ammonal Bomb On
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmonalbomboff],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmonalbombon,
+        }
+    }
+    craftRecipe Turn Ammonal Bomb Off
+    {
+        time = 1,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmonalbombon],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAmmonalbomboff,
+        }
+    }
+}

@@ -1,0 +1,536 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCSantahat
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Santa Hat,
+        	Icon 			= HCSantahat,
+			DisplayCategory	=   Misc,
+    }
+    item HCOrnamentblue
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Blue Ornament,
+        	Icon 			= HCOrnamentblue,
+			DisplayCategory	=   Misc,
+    }
+    item HCOrnamentgreen
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Green Ornament,
+        	Icon 			= HCOrnamentgreen,
+			DisplayCategory	=   Misc,
+    }
+    item HCOrnamentpurple
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Purple Ornament,
+        	Icon 			= HCOrnamentpurple,
+			DisplayCategory	=   Misc,
+    }
+    item HCOrnamentred
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Red Ornament,
+        	Icon 			= HCOrnamentred,
+			DisplayCategory	=   Misc,
+    }
+    item HCOrnamentsilver
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Silver Ornament,
+        	Icon 			= HCOrnamentsilver,
+			DisplayCategory	=   Misc,
+    }
+    item HCOrnamentyellow
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Yellow Ornament,
+        	Icon 			= HCOrnamentyellow,
+			DisplayCategory	=   Misc,
+    }
+    item HCStargold
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Gold Star,
+        	Icon 			= HCStargold,
+			DisplayCategory	=   Misc,
+    }
+    item HCStocking
+    {
+
+        WeightReduction     = 10,
+        Weight              = 0.1,
+        Type                = Container,
+        Capacity            = 8,
+        DisplayName         = Christmas Stocking,
+        Icon                = HCStocking,
+			DisplayCategory	=   Container,
+    }
+    item HCSnowglobe
+    {
+
+	    	Weight 			= 0.3,
+        	Type 			= Normal,
+        	DisplayName 		= Snow Globe,
+        	Icon 			= HCSnowglobe,
+			DisplayCategory	=   Misc,
+    }
+    item HCwreath
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Wreath,
+        	Icon 			= HCwreath,
+			DisplayCategory	=   Misc,
+    }
+    item HCGarland
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Garland,
+        	Icon 			= HCGarland,
+			DisplayCategory	=   Crafting,
+    }
+    item HCXmaslights
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Lights,
+        	Icon 			= HCXmaslights,
+			DisplayCategory	=   CraftElec,
+    }
+    item HCXmasgift
+    {
+
+	    	Weight 			= 0.5,
+        	Type 			= Normal,
+        	DisplayName 		= Gift,
+        	Icon 			= HCXmasgift,
+			DisplayCategory	=   Misc,
+    }
+    item HCXmastree
+    {
+
+	    	Weight 			= 18,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Tree,
+        	Icon 			= HCXmastree,
+			DisplayCategory	=   Misc,
+    }
+    item HCXmastree2
+    {
+
+	    	Weight 			= 18,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Tree,
+        	Icon 			= HCXmastree2,
+			DisplayCategory	=   Misc,
+    }
+    item HCXmastree3
+    {
+
+	    	Weight 			= 18,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Tree,
+        	Icon 			= HCXmastree3,
+			DisplayCategory	=   Misc,
+    }
+    item HCXmastree4
+    {
+
+	    	Weight 			= 18,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Tree,
+        	Icon 			= HCXmastree4,
+			DisplayCategory	=   Misc,
+    }
+    item HCCandybucket
+    {
+
+        	WeightReduction     	= 60,
+        	Weight             	 = 0.2,
+        	Type                	= Container,
+       	 	Capacity            	= 6,
+        	DisplayName         	= Candy Bucket,
+        	Icon                	= HCCandybucket,
+			DisplayCategory	=   Container,
+    }
+    item HCWitchhat
+    {
+
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Witch Hat,
+        	Icon 			= HCWitchhat,
+			DisplayCategory	=   Misc,
+    }
+    item HCJackolantern
+    {
+
+	    	Weight 			= 0.4,
+        	Type 			= Normal,
+        	DisplayName 		= Jack-O-Lantern,
+        	Icon 			= HCJackolantern,
+			DisplayCategory	=   Misc,
+    }
+    item HCJackolanternon
+    {
+
+		LightDistance		=	3,
+		Weight			=	0.4,
+		Type			=	Drainable,
+		TorchCone		=	FALSE,
+		UseDelta		=	0.003,
+		LightStrength		=	0.6,
+		DisplayName		=	Lit Jack-O-Lantern,
+		ActivatedItem		=	TRUE,
+		Icon			=	HCJackolanternon,
+			DisplayCategory	=   Misc,
+    }
+    item HCJackolanternwhite
+    {
+
+	    	Weight 			= 0.4,
+        	Type 			= Normal,
+        	DisplayName 		= White Jack-O-Lantern,
+        	Icon 			= HCJackolanternwhite,
+			DisplayCategory	=   Misc,
+    }
+    item HCJackolanternwhiteon
+    {
+
+		LightDistance		=	3,
+		Weight			=	0.4,
+		Type			=	Drainable,
+		TorchCone		=	FALSE,
+		UseDelta		=	0.003,
+		LightStrength		=	0.6,
+		DisplayName		=	Lit White Jack-O-Lantern,
+		ActivatedItem		=	TRUE,
+		Icon			=	HCJackolanternwhiteon,
+			DisplayCategory	=   Misc,
+    }
+    item HCJackolanterngreen
+    {
+
+	    	Weight 			= 0.4,
+        	Type 			= Normal,
+        	DisplayName 		= Green Jack-O-Lantern,
+        	Icon 			= HCJackolanterngreen,
+			DisplayCategory	=   Misc,
+    }
+    item HCJackolanterngreenon
+    {
+
+		LightDistance		=	3,
+		Weight			=	0.4,
+		Type			=	Drainable,
+		TorchCone		=	FALSE,
+		UseDelta		=	0.003,
+		LightStrength		=	0.6,
+		DisplayName		=	Lit Green Jack-O-Lantern,
+		ActivatedItem		=	TRUE,
+		Icon			=	HCJackolanterngreenon,
+			DisplayCategory	=   Misc,
+    }
+    item HCPikehead
+    {
+
+	    	Weight 			= 2,
+        	Type 			= Normal,
+        	DisplayName 		= Head on a Pike,
+        	Icon 			= HCPikehead,
+			DisplayCategory	=   Misc,
+    }
+    item HCPumpkinknife
+    {
+
+		MaxRange			=	0.9,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	SmallBlade,
+		ConditionLowerChanceOneIn	=	2,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.5,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	1.5,
+		DisplayName			=	Pumpkin Carving Knife,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCPumpkinknife,
+        Tags = CutPlant;SharpKnife,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	BreakSound  			=   	BreakMetalItem,
+        	TreeDamage  			=   	1,
+        	EnduranceMod 			= 	0.5,
+			DisplayCategory	=   WepMelee,
+    }
+    craftRecipe Make Christmas Tree
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 2 [Base.Log],
+            item 2 [Base.Plank],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCXmastree,
+        }
+    }
+    craftRecipe Decorate Christmas Tree
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCXmastree],
+            item 3 [Hydrocraft.HCGarland],
+            item 1 [Hydrocraft.HCStargold],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCXmastree2,
+        }
+    }
+    craftRecipe Decorate Christmas Tree
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCXmastree2],
+            item 1 [Hydrocraft.HCOrnamentblue],
+            item 1 [Hydrocraft.HCOrnamentgreen],
+            item 1 [Hydrocraft.HCOrnamentpurple],
+            item 1 [Hydrocraft.HCOrnamentred],
+            item 1 [Hydrocraft.HCOrnamentsilver],
+            item 1 [Hydrocraft.HCOrnamentyellow],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCXmastree3,
+        }
+    }
+    craftRecipe Decorate Christmas Tree
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCXmastree3],
+            item 3 [Hydrocraft.HCXmaslights],
+            item 1 [Hydrocraft.HCBatterylarge],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCXmastree4,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSnowglobe],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSnowglobe,
+        }
+    }
+    craftRecipe Open Gift
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HCRandomGiftGet,
+        inputs
+        {
+            item 1 [Hydrocraft.HCXmasgift],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Carve Jack-O-Lantern
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpumpkinseeds8,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPumpkin],
+            item 1 [Hydrocraft.HCPumpkinknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJackolantern,
+        }
+    }
+    craftRecipe Carve Jack-O-Lantern
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpumpkinseeds8,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPumpkinwhite],
+            item 1 [Hydrocraft.HCPumpkinknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJackolanternwhite,
+        }
+    }
+    craftRecipe Carve Jack-O-Lantern
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpumpkinseeds8,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPumpkingreen],
+            item 1 [Hydrocraft.HCPumpkinknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJackolanterngreen,
+        }
+    }
+    craftRecipe Lite Jack-O-Lantern
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJackolantern],
+            item 1 [Base.Candle],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJackolanternon,
+        }
+    }
+    craftRecipe Lite Jack-O-Lantern
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJackolanternwhite],
+            item 1 [Base.Candle],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJackolanternwhiteon,
+        }
+    }
+    craftRecipe Lite Jack-O-Lantern
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJackolanterngreen],
+            item 1 [Base.Candle],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJackolanterngreenon,
+        }
+    }
+    craftRecipe Put Head on Pike
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZedhead],
+            item 1 [Base.WoodenStick2;Base.TreeBranch2;Base.Poolcue],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPikehead,
+        }
+    }
+}

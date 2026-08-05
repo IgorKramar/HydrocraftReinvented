@@ -1,0 +1,2433 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCLeather
+    {
+
+        Weight    		=    0.1,
+        Type   			=    Normal,
+        DisplayName   		=    Leather,
+        Icon    		=    HCLeather,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCLeatherCamo
+    {
+
+        Weight    		=    0.1,
+        Type   			=    Normal,
+        DisplayName   	=    Camo Leather,
+        Icon    		=    HCLeatherCamo,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCLeatherfine
+    {
+
+        Weight    		=    0.1,
+        Type   			=    Normal,
+        DisplayName   		=    Fine Leather,
+        Icon    		=    HCLeatherfine,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCLeatherstripfine
+    {
+
+        Weight    		=    0.03,
+        Type   			=    Normal,
+        DisplayName   		=    Fine Leather Strip,
+        Icon    		=    HCLeatherstripfine,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCLeatherhard
+    {
+
+        Weight    		=    0.3,
+        Type   			=    Normal,
+        DisplayName   		=    Hardened Leather,
+        Icon    		=    HCLeatherhard,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCLeatherstriphard
+    {
+
+        Weight    		=    0.03,
+        Type   			=    Normal,
+        DisplayName   		=    Hard Leather Strip,
+        Icon    		=    HCLeatherstriphard,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCBeltbuckle
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Belt Buckle,
+        icon 			= HCBeltbuckle,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCBlacksmithapron
+    {
+
+		Type = Clothing,
+		DisplayName = Blacksmith Apron,
+		ClothingItem = HCBlacksmithapron,
+		BodyLocation = base:torsoextra,
+		BloodLocation = Apron,
+		Icon = HCBlacksmithapron,
+		FabricType = Leather,
+		Weight    		=    1,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 50,
+        ScratchDefense = 70,
+        Insulation = 0.2,
+        WindResistance = 0.1,
+        WaterResistance = 0.2,
+		DisplayCategory          =   ClothP,
+    }
+    item HCAnimalfur
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Fur,
+        	Weight 		= 	0.1,
+		Icon		=	HCAnimalfur,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawrabbit
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Rabbit Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawrabbit,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawsquirrel
+    {
+
+		Type 		= 	Normal,
+        DisplayName 	= 	Raw Squirrel Hide,
+        Weight 		= 	0.1,
+		Icon		=	HCHiderawsquirrel,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawgroundhog
+    {
+
+		Type 		= 	Normal,
+        DisplayName 	= 	Raw Groundhog Hide,
+        Weight 		= 	0.1,
+		Icon		=	HCHiderawgroundhog,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawmuskrat
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Muskrat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawmuskrat,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawnutria
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Nutria Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawnutria,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawbeaver
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Beaver Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawbeaver,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCPorcupinequills
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Porcupine Quills,
+        	Weight 		= 	0.2,
+		Icon		=	HCPorcupinequills,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawarmadillo
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Armadillo Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawarmadillo,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawfox
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Fox Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawfox,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawopossum
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Opossum Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawopossum,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawskunk
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Skunk Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawskunk,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawraccoon
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Raccoon Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawraccoon,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawboar
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Boar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawboar,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawdeer
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Deer Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawdeer,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawbearblack
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Black Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawbearblack,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawbear
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Grizzly Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawbear,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawcougar
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Cougar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawcougar,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawdog
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName    		= Raw Dog hide,
+        icon 			= HCHiderawrabbit,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawcat
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName     	= Raw Cat hide,
+        icon 			= HCHiderawrabbit,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawsheep
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Sheep Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawsheep,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawgoat
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Goat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawgoat,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawpig
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Pig Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawpig,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawcow
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Cow Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawcow,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawbull
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Bull Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawbull,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawdonkey
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Donkey Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawdonkey,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHiderawhorse
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Horse Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawhorse,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidestrap
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Hide Strap,
+        	Weight 		= 	0.05,
+		Icon		=	HCHidestrap,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCAnimalfurdried
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Fur,
+        	Weight 		= 	0.1,
+		Icon		=	HCAnimalfurdried,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedrabbit
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Rabbit Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedrabbit,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedsquirrel
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Squirrel Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedsquirrel,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedgroundhog
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Groundhog Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedgroundhog,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedmuskrat
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Muskrat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedmuskrat,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriednutria
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Nutria Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriednutria,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedbeaver
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Beaver Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedbeaver,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedarmadillo
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Armadillo Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedarmadillo,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedfox
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Fox Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedfox,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedopossum
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Opossum Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedopossum,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedskunk
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Skunk Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedskunk,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedraccoon
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Raccoon Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedraccoon,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedboar
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Boar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedboar,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedrieddeer
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Deer Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedrieddeer,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedbearblack
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Black Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedbearblack,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedbear
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Grizzly Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedbear,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedcougar
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Cougar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedcougar,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedrieddog
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Dog Hide,
+        	Weight 		= 	0.3,
+		Icon		=	HCHidedriedrabbit,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedcat
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Cat Hide,
+        	Weight 		= 	0.3,
+		Icon		=	HCHidedriedrabbit,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedsheep
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Sheep Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedsheep,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedgoat
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Goat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedgoat,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedpig
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Pig Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedpig,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedcow
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Cow Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedcow,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedbull
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Bull Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedbull,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedrieddonkey
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Donkey Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedrieddonkey,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidedriedhorse
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Horse Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedhorse,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCAnimalfurlime
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Fur,
+        	Weight 		= 	0.1,
+		Icon		=	HCAnimalfurlime,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedrabbit
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Rabbit Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedrabbit,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedsquirrel
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Squirrel Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedsquirrel,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedgroundhog
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Groundhog Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedgroundhog,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedmuskrat
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Muskrat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedmuskrat,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimednutria
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Nutria Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimednutria,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedbeaver
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Beaver Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedbeaver,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedarmadillo
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Armadillo Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedarmadillo,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedfox
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Fox Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedfox,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedopossum
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Opossum Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedopossum,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedskunk
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Skunk Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedskunk,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedraccoon
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Raccoon Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedraccoon,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedboar
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Boar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedboar,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimeddeer
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Deer Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimeddeer,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedbearblack
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Black Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedbearblack,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedbear
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Grizzly Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedbear,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedcougar
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Cougar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedcougar,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimeddog
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Dog Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedrabbit,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedcat
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Cat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedrabbit,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedsheep
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Sheep Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedsheep,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedgoat
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Goat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedgoat,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedpig
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Pig Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedpig,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedcow
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Cow Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedcow,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedbull
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Bull Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedbull,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimeddonkey
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Donkey Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimeddonkey,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCHidelimedhorse
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Horse Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedhorse,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCZedskin
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Skin,
+		DisplayCategory          =   CraftTailor,
+        	Weight 		= 	0.1,
+		Icon		=	HCZedskin,
+    }
+    item HCZedskindried
+    {
+
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Skin,
+        	Weight 		= 	0.1,
+		Icon		=	HCZedskindried,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCFoxhat
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Fox Hat,
+        icon 			= HCFoxhat,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCRaccoonhat
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Raccoon Hat,
+        icon 			= HCRaccoonhat,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCCloakbearblack
+    {
+
+		Palettes	=	Shirt_White,
+		BodyLocation	=	base:jacket,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	23,
+		SpriteName	=	Shirt,
+		DisplayName	=	Black Bear Cloak,
+		Icon		=	HCCloakbearblack,
+		ConditionLowerChanceOneIn = 20,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
+    }
+    item HCCloakbear
+    {
+
+		Palettes	=	Shirt_White,
+		BodyLocation	=	base:jacket,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	24,
+		SpriteName	=	Shirt,
+		DisplayName	=	Grizzly Bear Cloak,
+		Icon		=	HCCloakbear,
+		ConditionLowerChanceOneIn = 20,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
+    }
+    item HCFurcoat
+    {
+
+		Palettes	=	Shirt_White,
+		BodyLocation	=	base:jacket,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	23,
+		SpriteName	=	Shirt,
+		DisplayName	=	Fur Coat,
+		Icon		=	HCFurcoat,
+		ConditionLowerChanceOneIn = 20,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
+    }
+    item HCFurpants
+    {
+
+		Palettes	=	Trousers_White,
+		BodyLocation	=	base:pants,
+		PalettesStart	=	Trousers_,
+		Type		=	Clothing,
+		Temperature	=	15,
+		SpriteName	=	Trousers,
+		DisplayName	=	Fur Pants,
+		Icon		=	HCFurpants,
+		ConditionLowerChanceOneIn = 20,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
+    }
+    item HCTrapperjacket
+    {
+
+		Palettes	=	Shirt_White,
+		BodyLocation	=	base:jacket,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	24,
+		SpriteName	=	Shirt,
+		DisplayName	=	Trapper Jacket,
+		Icon		=	HCTrapperjacket,
+		ConditionLowerChanceOneIn = 30,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
+    }
+    item HCLeatherboots
+    {
+
+		BodyLocation	=	base:shoes,
+		Type		=	Clothing,
+		Temperature	=	5,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Leather Boots,
+		Icon		=	HCLeatherboots,
+		ConditionLowerChanceOneIn = 9000,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
+    }
+    item HCGrCamLeatherJacket
+    {
+
+        Type = Clothing,
+        DisplayName = Green Camo Leather Jacket,
+        ClothingItem = Jacket_ArmyCamoGreen,
+        BodyLocation = base:jacket,
+        Icon = ShirtCamoGreen,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.45,
+        WindResistance = 0.3,
+        FabricType = Leather,
+        WaterResistance = 0.45,
+        Weight = 2,
+		DisplayCategory          =   ClothP,
+    }
+    item HCJAcketCowFur
+    {
+
+        Type = Clothing,
+        DisplayName = Cow Fur Jacket,
+        ClothingItem = HCJAcketCowFur,
+        BodyLocation = base:jacket,
+        Icon = ShirtCamoGrey,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.3,
+        WindResistance = 0.6,
+        FabricType = Leather,
+        WaterResistance = 0.7,
+        Weight = 1.5,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLeatherpants
+    {
+
+        Type = Clothing,
+        DisplayName = Leather Pants,
+        ClothingItem = HCPantsLeather,
+        BodyLocation = base:pants,
+        Icon = TrousersDenimBlack,
+        BloodLocation = Trousers,
+        BiteDefense = 50,
+        ScratchDefense = 100,
+        Insulation = 0.5,
+        WindResistance = 0.8,
+        FabricType = Leather,
+        WaterResistance = 0.7, 
+        FabricType = Leather,
+        RunSpeedModifier = 0.9,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLeatherpantsHard
+    {
+
+        Type = Clothing,
+        DisplayName = Hardened Leather Pants,
+        ClothingItem = HCPantsLeatherHard,
+        BodyLocation = base:pants,
+        Icon = TrousersDenimBlack,
+        BloodLocation = Trousers,
+        BiteDefense = 80,
+        ScratchDefense = 100,
+        Insulation = 0.5,
+        WindResistance = 0.8,
+        FabricType = Leather,
+        WaterResistance = 0.8, 
+        FabricType = Leather,
+        RunSpeedModifier = 0.8,
+		DisplayCategory          =   ClothP,
+    }
+    item HCDryingframe
+    {
+
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Drying Frame,
+        icon 			= HCDryingframe,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCWoodenbuckettan
+    {
+
+        Weight    			= 4,
+        Type    			= Drainable,
+        UseDelta        	= 0.2,
+        ReplaceOnDeplete    = HCWoodenbucket,
+        DisplayName     	= Wooden Bucket with Tannin,
+        icon 				= HCWoodenbuckettan,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCWoodenbucketrose
+    {
+
+        Weight    			= 4,
+        Type    			= Drainable,
+        UseDelta        	= 0.2,
+        ReplaceOnDeplete    = HCWoodenbucket,
+        DisplayName     	= Wooden Bucket with Rose Tanning Oil,
+        icon 				= HCWoodenbucketrose,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCWoodenbucketlime
+    {
+
+        Weight    			= 4,
+        Type    			= Drainable,
+        UseDelta        	= 0.2,
+        ReplaceOnDeplete    = HCWoodenbucket,
+        DisplayName     	= Wooden Bucket with Milk of Lime,
+        icon 				= HCWoodenbucketlime,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCWaterflask
+    {
+
+        Weight    		= 	1,
+	CanStoreWater		=	TRUE,
+        Type    		= 	Normal,
+        DisplayName         	= 	Waterflask,
+	ReplaceOnUseOn		=	WaterSource-HCWaterflaskfull,
+        icon 			= 	HCWaterflask,
+	RainFactor 		= 	1,
+		DisplayCategory          =   Container,
+    }
+    item HCWaterflaskfull
+    {
+
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	2,
+	UseDelta		=	0.07,
+	DisplayName		=	Full Waterflask,
+	ReplaceOnDeplete	=	HCWaterflask,
+	ReplaceOnUseOn		=	WaterSource-HCWaterflaskfull,
+	Icon			=	HCWaterflask,
+	RainFactor 		= 	1,
+		DisplayCategory          =   FoodB,
+    }
+    item HCWardogarmor
+    {
+
+        Weight    		=    1,
+        Type    		=    Normal,
+        DisplayName    		=    War Dog Armor,
+        Icon    		=    HCWardogarmor,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCWardogarmorSpiked
+    {
+
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName    	= Spiked War Dog Armor,
+        Icon    		= HCWardogarmorSpiked,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCLeatherball
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Leather Ball,
+	Icon			=	HCLeatherball,
+		DisplayCategory          =   Toy,
+    }
+    item HCLeatherSandbag
+    {
+
+	Weight			=	3,
+	Type			=	Normal,
+	DisplayName		=	Leather Sand bag,
+	Icon			=	HCLeatherSandbag,
+		DisplayCategory          =   CraftTailor,
+    }
+    craftRecipe Skin Corpse
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.recipe_hcskinzed,
+        inputs
+        {
+            item 1 [Base.CorpseMale;Base.CorpseFemale],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZedmeat,
+        }
+    }
+    craftRecipe Make Drying Frame
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 6 [Base.WoodenStick2],
+            item 2 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDryingframe,
+        }
+    }
+    craftRecipe Dry Fur
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAnimalfur],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnimalfurdried,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawrabbit],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedrabbit,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawsquirrel],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedsquirrel,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawgroundhog],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedgroundhog,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawmuskrat],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedmuskrat,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawnutria],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriednutria,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawbeaver],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedbeaver,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawarmadillo],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedarmadillo,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawfox],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedfox,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawopossum],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedopossum,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawskunk],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedskunk,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawraccoon],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedraccoon,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawboar],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedboar,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawdeer],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedrieddeer,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawbearblack],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedbearblack,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawbear],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedbear,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawcougar],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedcougar,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Survivalist,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawdog],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedrieddog,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Survivalist,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawcat],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedcat,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawsheep],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedsheep,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawgoat],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedgoat,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawpig],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedpig,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawcow],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedcow,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawbull],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedbull,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawdonkey],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedrieddonkey,
+        }
+    }
+    craftRecipe Dry Hide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHiderawhorse],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHidedriedhorse,
+        }
+    }
+    craftRecipe Dry Skin
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZedskin],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZedskindried,
+        }
+    }
+    craftRecipe Cut Hide Straps
+    {
+        time = 10,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAnimalfurdried],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCHidestrap,
+        }
+    }
+    craftRecipe Cut Dry Fur
+    {
+        time = 10,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHidedriedrabbit;Hydrocraft.HCHidedriedsquirrel;Hydrocraft.HCHidedriedgroundhog;Hydrocraft.HCHidedriedmuskrat;Hydrocraft.HCHidedrieddog;Hydrocraft.HCHidedriedcat],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnimalfurdried,
+        }
+    }
+    craftRecipe Cut Dry Fur
+    {
+        time = 20,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHidedriednutria;Hydrocraft.HCHidedriedfox;Hydrocraft.HCHidedriedopossum;Hydrocraft.HCHidedriedskunk;Hydrocraft.HCHidedriedraccoon;Hydrocraft.HCHidedriedarmadillo],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCAnimalfurdried,
+        }
+    }
+    craftRecipe Cut Dry Fur
+    {
+        time = 40,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHidedriedbeaver;Hydrocraft.HCHidedriedsheep;Hydrocraft.HCHidedriedgoat],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCAnimalfurdried,
+        }
+    }
+    craftRecipe Cut Dry Fur
+    {
+        time = 60,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHidedriedboar;Hydrocraft.HCHidedrieddeer;Hydrocraft.HCHidedriedbearblack;Hydrocraft.HCHidedriedpig;Hydrocraft.HCHidedrieddonkey;Hydrocraft.HCHidedriedcougar],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 6 Hydrocraft.HCAnimalfurdried,
+        }
+    }
+    craftRecipe Cut Dry Fur
+    {
+        time = 80,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHidedriedbear;Hydrocraft.HCHidedriedcow;Hydrocraft.HCHidedriedbull;Hydrocraft.HCHidedriedhorse],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 8 Hydrocraft.HCAnimalfurdried,
+        }
+    }
+    craftRecipe Stitch Fur Hat
+    {
+        time = 420,
+        Tags = AnySurfaceCraft,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Hydrocraft.HCHidedriedfox],
+            item 2 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFoxhat,
+        }
+    }
+    craftRecipe Stitch Fur Hat
+    {
+        time = 420,
+        Tags = AnySurfaceCraft,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Hydrocraft.HCHidedriedraccoon],
+            item 2 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRaccoonhat,
+        }
+    }
+    craftRecipe Stitch Fur Cloak
+    {
+        time = 600,
+        Tags = AnySurfaceCraft,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Hydrocraft.HCHidedriedbearblack],
+            item 3 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCloakbearblack,
+        }
+    }
+    craftRecipe Stitch Fur Cloak
+    {
+        time = 800,
+        Tags = AnySurfaceCraft,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Hydrocraft.HCHidedriedbear],
+            item 4 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCloakbear,
+        }
+    }
+    craftRecipe Stitch Fur Coat
+    {
+        time = 420,
+        Tags = AnySurfaceCraft,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 12 [Hydrocraft.HCAnimalfurdried],
+            item 8 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFurcoat,
+        }
+    }
+    craftRecipe Stitch Fur Pants
+    {
+        time = 420,
+        Tags = AnySurfaceCraft,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 9 [Hydrocraft.HCAnimalfurdried],
+            item 6 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFurpants,
+        }
+    }
+    craftRecipe Stitch Trapper Jacket
+    {
+        time = 420,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 2 [Hydrocraft.HCLeatherfine],
+            item 12 [Hydrocraft.HCLeather],
+            item 10 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTrapperjacket,
+        }
+    }
+    craftRecipe Stitch Cow Fur Jacket
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:3,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Hydrocraft.HCHidedriedcow;Hydrocraft.HCHidedriedbull],
+            item 6 [Hydrocraft.HCRopethin],
+            item 4 [Hydrocraft.HCBoneButton],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJAcketCowFur,
+        }
+    }
+    craftRecipe Stitch Leather Sand Bag
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:3,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 6 [Hydrocraft.HCLeather],
+            item 4 [Hydrocraft.HCRopethin],
+            item 8 [Hydrocraft.HCWoodenbucketsand],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeatherSandbag,
+        }
+    }
+    craftRecipe Stitch Boxing Gloves
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 4 [Hydrocraft.HCLeather],
+            item 2 [Hydrocraft.HCRopethin],
+            item 4 [Base.Thread],
+            item 4 [Hydrocraft.HCWool],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBoxinggloves,
+        }
+    }
+    craftRecipe Stitch Green Camo Leather Jacket
+    {
+        time = 420,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:4,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 12 [Hydrocraft.HCLeatherCamo],
+            item 8 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGrCamLeatherJacket,
+        }
+    }
+    craftRecipe Stitch Leather Pants
+    {
+        time = 420,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:3,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 9 [Hydrocraft.HCLeather],
+            item 6 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeatherpants,
+        }
+    }
+    craftRecipe Stitch Hardened Leather Pants
+    {
+        time = 420,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:4,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 9 [Hydrocraft.HCLeatherhard],
+            item 8 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeatherpantsHard,
+        }
+    }
+    craftRecipe Make Milk of Lime
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.5 [Water],
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCLimestone;Hydrocraft.HCShellpowder],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketlime,
+        }
+    }
+    craftRecipe Make Tannin
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.5 [Water],
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCBark;Hydrocraft.HCDogpoop;Hydrocraft.HCAcorn],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbuckettan,
+        }
+    }
+    craftRecipe Make Rose Tanning Oil
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.5 [Water],
+            item 1 [Hydrocraft.HCWoodenbucketvegoil],
+            item 1 [Hydrocraft.HCRosebud],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketrose,
+        }
+    }
+    craftRecipe Make Limed Hide
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketlime],
+            item 1 [Hydrocraft.HCAnimalfurdried],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnimalfurlime,
+        }
+    }
+    craftRecipe Make Leather
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbuckettan],
+            item 1 [Hydrocraft.HCAnimalfurlime],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeather,
+        }
+    }
+    craftRecipe Make Camo Leather
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCLeather],
+            item 4 [Hydrocraft.HCGreenpigment],
+            item 2 [Base.Vinegar2],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.5 [Water],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeatherCamo,
+        }
+    }
+    craftRecipe Make Fine Leather
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketrose],
+            item 1 [Hydrocraft.HCAnimalfurlime],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeatherfine,
+        }
+    }
+    craftRecipe Make Hardened Leather
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 3 [Hydrocraft.HCLeather],
+            item 2 [Hydrocraft.HCBeeswax],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeatherhard,
+        }
+    }
+    craftRecipe Make Hardened Leather
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 3 [Hydrocraft.HCLeather],
+            item 2 [Hydrocraft.HCCandleberrywax],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeatherhard,
+        }
+    }
+    craftRecipe Cut Leather
+    {
+        time = 60,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 3 Base.LeatherStrips,
+        }
+    }
+    craftRecipe Make Waterflask
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 2 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWaterflask,
+        }
+    }
+    craftRecipe Make Blacksmith Apron
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:2,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 8 [Hydrocraft.HCLeatherhard],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 4 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlacksmithapron,
+        }
+    }
+    craftRecipe Make War Dog Armor
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:3,
+        xpAward = Tailoring:10,
+        inputs
+        {
+            item 13 [Hydrocraft.HCLeatherhard],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 6 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWardogarmor,
+        }
+    }
+    craftRecipe Make Spiked War Dog Armor
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:10,
+        inputs
+        {
+            item 13 [Hydrocraft.HCLeatherhard],
+            item 20 [Hydrocraft.HCKillerRivet],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 6 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWardogarmorSpiked,
+        }
+    }
+    craftRecipe Make Fine Leather Alice Pack
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:4,
+        xpAward = Tailoring:10,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 8 [Hydrocraft.HCLeatherfine],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 3 [Hydrocraft.HCSilkthread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAlicepack3,
+        }
+    }
+    craftRecipe Make Horse Saddle
+    {
+        time = 420,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:10,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 12 [Hydrocraft.HCLeatherhard],
+            item 8 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHorsesaddle,
+        }
+    }
+    craftRecipe Make Horse Collar
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 4 [Hydrocraft.HCLeatherfine],
+            item 4 [Hydrocraft.HCRopethick],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHorsecollar,
+        }
+    }
+    craftRecipe Make Belt
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Base.Thread],
+            item 1 [Hydrocraft.HCLeatherstriphard],
+            item 1 [Hydrocraft.HCBeltbuckle],
+        }
+        outputs
+        {
+            item 1 Base.Belt2,
+        }
+    }
+    craftRecipe Make Leather Ball
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Base.Thread],
+            item 1 [Hydrocraft.HCLeather],
+            item 2 [Hydrocraft.HCCotton],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeatherball,
+        }
+    }
+    craftRecipe Empty Wooden Bucket with Tannin
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbuckettan] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucket,
+        }
+    }
+    craftRecipe Empty Wooden Bucket with Rose Tanning Oil
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketrose] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucket,
+        }
+    }
+    craftRecipe Empty Wooden Bucket with Milk of Lime
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketlime] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucket,
+        }
+    }
+}

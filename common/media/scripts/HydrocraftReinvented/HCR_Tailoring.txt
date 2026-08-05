@@ -1,0 +1,2520 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCTailoringbench
+    {
+
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Tailor's Workbench,
+        icon            = HCTailoringbench,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCTailoringbench2
+    {
+
+        Weight          = 1000,
+        Type            = Container,
+        Capacity        = 100,
+        WeightReduction = 0,
+        DisplayName     = Tailor's Workbench,
+        icon            = HCTailoringbench,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCSpindle
+    {
+
+        Weight    	    = 0.1,
+        Type    	    = Normal,
+        DisplayName    	= Spindle,
+        Icon    	    = HCSpindle,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCSpindlehead
+    {
+
+        Weight    	    = 0.1,
+        Type    	    = Normal,
+        DisplayName    	= Spindle Head,
+        Icon    	    = HCSpindlehead,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCRopethin
+    {
+
+        Weight    	    = 0.2,
+        Type    	    = Normal,
+        DisplayName    	= Thin Rope,
+        Icon    	    = HCRopethin,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCRopethick
+    {
+
+        Weight    	    = 0.9,
+        Type    	    = Normal,
+        DisplayName    	= Thick Rope,
+        Icon    	    = HCRopethick,
+		DisplayCategory	= Craft,
+    }
+    item HCBarkstrip
+    {
+
+        Weight    	    = 0.2,
+        Type    	    = Normal,
+        DisplayName    	= Bark Strip,
+        Icon    	    = HCBarkstrip,
+		DisplayCategory	= Craft,
+    }
+    item HCStraw
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Straw,
+        icon 			= HCStraw,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCStrawbale
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     = Bale of Straw,
+        icon 			= HCStrawbale,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCHaystack
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     = Haystack,
+        icon 			= HCHaystack,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCStrawhat
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Straw Hat,
+        icon 			= HCStrawhat,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCJutestems
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Fresh Jute Stems,
+        icon 			= HCJutestems,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCJutestemswet
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Wet Jute Stems,
+        icon 			= HCJutestemswet,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCJutestemsdry
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Dry Jute Stems,
+        icon 			= HCJutestemsdry,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCJutefibers
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Jute Fibers,
+        icon 			= HCJutefibers,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCBurlapcloth
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName     = Burlap Cloth,
+        icon 			= HCBurlapcloth,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCCottonraw
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Raw Cotton,
+        icon 			= HCCottonraw,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCCottongin
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName     = Cotton Gin,
+        icon 			= HCCottongin,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCCotton
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Cotton,
+        icon 			= HCCotton,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCCottonthread
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Cotton Thread,
+        icon 			= HCCottonthread,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCCottoncloth
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Cotton Cloth,
+        icon 			= HCCottoncloth,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCPlantfibers
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Plant Fibers,
+        icon 			= HCPlantfibers,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCLinenthread
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Linen Thread,
+        icon 			= HCLinenthread,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCLinencloth
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Linen Cloth,
+        icon 			= HCLinencloth,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCWool
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Wool,
+        icon 			= HCWool,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCYarn
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Yarn,
+        icon 			= HCYarn,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCYarnpurple
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Purple Yarn,
+        icon 			= HCYarnpurple,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCYarnblue
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Blue Yarn,
+        icon 			= HCYarnblue,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCYarngreen
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Green Yarn,
+        icon 			= HCYarngreen,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCYarnyellow
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Yellow Yarn,
+        icon 			= HCYarnyellow,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCYarnorange
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Orange Yarn,
+        icon 			= HCYarnorange,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCYarnred
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Red Yarn,
+        icon 			= HCYarnred,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCYarnblack
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Black Yarn,
+        icon 			= HCYarnblack,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCWoolcloth
+    {
+
+        Weight    	    = 0.2,
+        Type    	    = Normal,
+        DisplayName    	= Wool Cloth,
+        Icon    	    = HCWoolcloth.png,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCCloth
+    {
+
+        Weight    	    = 0.2,
+        Type    	    = Normal,
+        DisplayName    	= Cloth,
+        Icon    	    = HCCloth.png,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCSilkfiber
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Silk Filament,
+        icon 			= HCSilkfiber,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCSilkthread
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Silk Thread,
+        icon 			= HCSilkthread,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCSilkcloth
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Silk Cloth,
+        icon 			= HCSilkcloth,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCReedmat
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Reed Mat,
+        icon 			= HCReedmat,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCReedmatdry
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Dried Reed Mat,
+        icon 			= HCReedmatdry,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCNyloncloth
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Nylon Cloth,
+        icon 			= HCNyloncloth,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCZipper
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Zipper,
+        icon 			= HCZipper,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCSafetypin
+    {
+
+        Weight          = 0.01,
+        Type            = Normal,
+        DisplayName     = Safety Pin,
+        icon            = HCSafetypin,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCSewingpin
+    {
+
+        Weight          = 0.01,
+        Type            = Normal,
+        DisplayName     = Sewing Pin,
+        icon            = HCSewingpin,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCSewingpinbox
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Box of Sewing Pins,
+        icon            = HCSewingpinbox,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCPincushion
+    {
+
+        Weight          = 0.01,
+        Type            = Normal,
+        DisplayName     = Pin Cushion,
+        icon            = HCPincushion,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCPincushionfull
+    {
+
+        Weight          = 0.01,
+        Type            = Normal,
+        DisplayName     = Pin Cushion with Pins,
+        icon            = HCPincushionfull,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCThimble
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Thimble,
+        icon            = HCThimble,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCPlastichanger
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Plastic Hanger,
+        icon            = HCPlastichanger,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCWirehanger
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Wire Hanger,
+        icon            = HCWirehanger,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCWoodhanger
+    {
+
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Wood Hanger,
+        icon            = HCWoodhanger,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCMittens
+    {
+
+        Weight          = 0.25,
+        Type            = Normal,
+        DisplayName     = Mittens,
+        icon            = HCMittens,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCHydroshirt
+    {
+
+        Type            = Clothing,
+        DisplayName     = Hydro's Shirt,
+        ClothingItem    = HCHydroshirt,
+        BodyLocation    = base:shirt,
+        Icon            = ShirtGeneric,
+        BloodLocation   = ShirtLongSleeves,
+        Insulation      = 0.25,
+        WindResistance  = 1,
+        WaterResistance = 1,
+        BiteDefense     = 50,
+        ScratchDefense  = 50,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+    item HCLinenshirt
+    {
+
+        Type            = Clothing,
+        DisplayName     = Linen Shirt,
+        ClothingItem    = HCShirtLinen,
+        BodyLocation    = base:shirt,
+        Icon            = ShirtGeneric,
+        BloodLocation   = ShirtLongSleeves,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        BiteDefense     = 10,
+        ScratchDefense  = 20,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+    item HCLinenshirtWired
+    {
+
+        Type            = Clothing,
+        DisplayName     = Reinforced Linen Shirt,
+        ClothingItem    = HCShirtLinenWired,
+        BodyLocation    = base:shirt,
+        Icon            = ShirtGeneric,
+        BloodLocation   = ShirtLongSleeves,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        FabricType      = Cotton,
+        BiteDefense     = 30,
+        ScratchDefense  = 50,
+        weight          = 4,
+		DisplayCategory	= ClothP,
+    }
+    item HCLinenshirtAlu
+    {
+
+        Type            = Clothing,
+        DisplayName     = Armored Linen Shirt,
+        ClothingItem    = HCShirtLinenAlu,
+        BodyLocation    = base:shirt,
+        Icon            = ShirtGeneric,
+        BloodLocation   = ShirtLongSleeves,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        FabricType      = Cotton,
+        BiteDefense     = 20,
+        ScratchDefense  = 30,
+        weight          = 2,
+		DisplayCategory	= ClothP,
+    }
+    item HCLinenpants
+    {
+
+        Type            = Clothing,
+        DisplayName     = Linen Pants,
+        ClothingItem    = HCPantsLinen,
+        BodyLocation    = base:pants,
+        Icon            = TrousersGeneric,
+        BloodLocation   = Trousers,
+        ScratchDefense  = 10,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+    item HCLinenpantsAlu
+    {
+
+        Type            = Clothing,
+        DisplayName     = Armored Linen Pants,
+        ClothingItem    = HCPantsLinenAlu,
+        BodyLocation    = base:pants,
+        Icon            = TrousersGeneric,
+        BloodLocation   = Trousers,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        FabricType      = Cotton,
+        BiteDefense     = 20,
+        ScratchDefense  = 30,
+        weight          = 2,
+		DisplayCategory	= ClothP,
+    }
+    item HCLinenpantsWired
+    {
+
+        Type            = Clothing,
+        DisplayName     = Reinforced Linen Pants,
+        ClothingItem    = HCPantsLinenWired,
+        BodyLocation    = base:pants,
+        Icon            = TrousersGeneric,
+        BloodLocation   = Trousers,
+        BiteDefense     = 30,
+        ScratchDefense  = 50,
+        weight          = 4,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+    item HCSilkshirt
+    {
+
+        Palettes                    = Shirt_White,
+        BodyLocation                = base:jacket,
+        PalettesStart               = Shirt_,
+        Type                        = Clothing,
+        Temperature                 = 6,
+        SpriteName                  = Shirt,
+        DisplayName                 = Silk Shirt,
+        icon                        = HCSilkshirt,
+        ConditionLowerChanceOneIn   = 15,
+        ConditionMax                = 7,
+        Insulation                  = 0.65,
+    }
+    item HCSilkpants
+    {
+
+        Palettes                    = Trousers_White,
+        BodyLocation                = base:pants,
+        PalettesStart               = Trousers_,
+        Type                        = Clothing,
+        Temperature                 = 8,
+        SpriteName                  = Trousers,
+        DisplayName                 = Silk Pants,
+        icon                        = HCSilkpants,
+        ConditionLowerChanceOneIn   = 15,
+        ConditionMax                = 7,
+        Insulation                  = 0.65,
+    }
+    item HCWoolshirt
+    {
+
+        Palettes                    = Shirt_White,
+        BodyLocation                = base:jacket,
+        PalettesStart               = Shirt_,
+        Type                        = Clothing,
+        Temperature                 = 15,
+        SpriteName                  = Shirt,
+        DisplayName                 = Wool Shirt,
+        icon                        = HCSilkshirt,
+        ConditionLowerChanceOneIn   = 7,
+        ConditionMax                = 5,
+        Insulation                  = 1.0,
+    }
+    item HCWoolpants
+    {
+
+        Palettes                    = Trousers_White,
+        BodyLocation                = base:pants,
+        PalettesStart               = Trousers_,
+        Type                        = Clothing,
+        Temperature                 = 15,
+        SpriteName                  = Trousers,
+        DisplayName                 = Wool Pants,
+        icon                        = HCWoolpants,
+        ConditionLowerChanceOneIn   = 7,
+        ConditionMax                = 5,
+        Insulation                  = 1.0,
+    }
+    item HCClothespin
+    {
+
+        Weight          = 0.2,
+        Type            = Normal,
+        DisplayName     = Clothespin,
+        icon            = HCClothespin.png,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCClothespinbox
+    {
+
+        Weight          = 0.6,
+        Type            = Normal,
+        DisplayName     = Box of Clothespins,
+        icon            = HCClothespinbox.png,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCClotheslinefull
+    {
+
+        Weight          = 6,
+        Type            = Normal,
+        DisplayName     = Clothes Line with Clothes,
+        icon            = HCClotheslinefull,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCClotheslinefull2
+    {
+
+        Weight          = 6,
+        Type            = Normal,
+        DisplayName     = Double Clothes Line with Clothes,
+        icon            = HCClotheslinefull2,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCBathtoweldirty
+    {
+
+        Weight          = 0.3,
+        Type            = Normal,
+        DisplayName     = Dirty Bath Towel,
+        icon            = HCBathtoweldirty,
+		DisplayCategory	= CraftTailor,
+    }
+    item HCSocksWoolAnkle
+    {
+
+        Type            = Clothing,
+        DisplayName     = Wool Socks,
+        ClothingItem    = Socks_Ankle,
+        BodyLocation    = base:socks,
+        Icon            = SocksAnkleWhite,
+        BloodLocation   = Shoes,
+        Insulation      = 0.15,
+        WindResistance  = 0.1,
+        weight          = 0.1,
+		DisplayCategory	= ClothN,
+    }
+    item HCSocksWoolLong
+    {
+
+        Type            = Clothing,
+        DisplayName     = Long Wool Socks,
+        ClothingItem    = Socks_Long,
+        BodyLocation    = base:socks,
+        Icon            = SocksWhite,
+        BloodLocation   = Shoes,
+        Insulation      = 0.55,
+        WindResistance  = 0.65,
+        weight          = 0.1,
+		DisplayCategory	= ClothN,
+    }
+    item HCSweaterWoolThick
+    {
+
+        Type            = Clothing,
+        DisplayName     = Thick Wool Sweater,
+        ClothingItem    = HCSweaterWool,
+        BodyLocation    = base:sweater,
+        BloodLocation   = Jumper,
+        Icon            = SweaterTurtleneckWhite,
+        ScratchDefense  = 10,
+        Insulation      = 0.9,
+        WindResistance  = 0.5,
+        WaterResistance = 0.5,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+    item HCSweaterWool
+    {
+
+        Type            = Clothing,
+        DisplayName     = Wool Sweater,
+        ClothingItem    = HCSweaterWool,
+        BodyLocation    = base:sweater,
+        BloodLocation   = Jumper,
+        Icon            = SweaterTurtleneckWhite,
+        ScratchDefense  = 10,
+        Insulation      = 0.5,
+        WindResistance  = 0.5,
+        WaterResistance = 0.5,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+    item HCSilkUndiesWarm
+    {
+
+        Type            = Clothing,
+        DisplayName     = Long Silk Undies,
+        ClothingItem    = LongJohns,
+        BodyLocation    = base:torso1legs1,
+        BloodLocation   = Trousers;ShirtLongSleeves,
+        Icon            = Longjohns,
+        Insulation      = 0.5,
+        WindResistance  = 0.3,
+		FabricType		= Cotton, /*Allow repair & patches*/
+		DisplayCategory	= ClothN,
+    }
+    item HCBoneButton
+    {
+
+        Type = Normal,
+        Weight          = 0.05,
+        DisplayName     = Bone Button,
+        Icon            = HCBoneButton,
+		DisplayCategory	= CraftTailor,
+    }
+    craftRecipe Make Tailor's Workbench
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:1,
+        xpAward = Tailoring:10,
+        inputs
+        {
+            item 3 [Base.Notebook],
+            item 1 [Hydrocraft.HCWorkbench],
+            item 1 [Hydrocraft.HCSpinningwheel],
+            item 1 [Hydrocraft.HCBoneneedle],
+            item 1 [Base.KnittingNeedles],
+            item 1 [Hydrocraft.HCMeasuringtape],
+            item 1 tags[base:scissors],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTailoringbench,
+        }
+    }
+    craftRecipe Anchor Tailor's Workbench
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTailoringbench2,
+        }
+    }
+    craftRecipe Make Spindle
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSpindlehead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpindle,
+        }
+    }
+    craftRecipe Make Thread
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCFloss],
+        }
+        outputs
+        {
+            item 1 Base.Thread,
+        }
+    }
+    craftRecipe Make Twine
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCGrass],
+        }
+        outputs
+        {
+            item 1 Base.Twine,
+        }
+    }
+    craftRecipe Make Twine
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCStraw],
+        }
+        outputs
+        {
+            item 1 Base.Twine,
+        }
+    }
+    craftRecipe Make Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 3 [Base.SheetRope],
+        }
+        outputs
+        {
+            item 1 Base.Rope,
+        }
+    }
+    craftRecipe Make Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRopethick],
+        }
+        outputs
+        {
+            item 3 Base.Rope,
+        }
+    }
+    craftRecipe Make Thick Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 3 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRopethick,
+        }
+    }
+    craftRecipe Make Cotton Gin
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCrank;Hydrocraft.HCCrankiron],
+            item 2 [Hydrocraft.HCSteelrod],
+            item 4 [Base.BarbedWire],
+            item 8 [Hydrocraft.HCGeariron],
+            item 1 [Hydrocraft.HCRopethin],
+            item 6 [Base.Comb],
+            item 1 [Hydrocraft.HCHotgluegunfull;Hydrocraft.HCSuperglue],
+            item 1 [Hydrocraft.HCWoodencrate],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCottongin,
+        }
+    }
+    craftRecipe Process Cotton
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        OnCreate = HCR42.recipe_hccottonseeds,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCottonraw],
+            item 1 [Hydrocraft.HCCottongin] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCotton,
+        }
+    }
+    craftRecipe Make Cotton Thread
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCCotton],
+            item 1 [Hydrocraft.HCSpindle],
+            item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCottonthread,
+        }
+    }
+    craftRecipe Make Cotton Cloth
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCCottonthread],
+            item 1 [Hydrocraft.HCLoom] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCottoncloth,
+        }
+    }
+    craftRecipe Make Cotton Cloth
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCCottonthread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCottoncloth,
+        }
+    }
+    craftRecipe Make Gym Towel
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.recipe_hcspindle6,
+        inputs
+        {
+            item 6 [Hydrocraft.HCCottonthread],
+            item 1 [Hydrocraft.HCLoom] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGymtowel,
+        }
+    }
+    craftRecipe Make Gym Towel
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.recipe_hcspindle6,
+        inputs
+        {
+            item 6 [Hydrocraft.HCCottonthread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGymtowel,
+        }
+    }
+    craftRecipe Make Linen Thread
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCPlantfibers],
+            item 1 [Hydrocraft.HCSpindle],
+            item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLinenthread,
+        }
+    }
+    craftRecipe Make Linen Thread
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCFlax],
+            item 1 [Hydrocraft.HCSpindle],
+            item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLinenthread,
+        }
+    }
+    craftRecipe Make Linen Cloth
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCLinenthread],
+            item 1 [Hydrocraft.HCLoom] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLinencloth,
+        }
+    }
+    craftRecipe Make Linen Cloth
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCLinenthread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLinencloth,
+        }
+    }
+    craftRecipe Make Cheese Cloth
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCLinenthread],
+            item 1 [Hydrocraft.HCLoom] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheesecloth,
+        }
+    }
+    craftRecipe Make Cheese Cloth
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCLinenthread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheesecloth,
+        }
+    }
+    craftRecipe Make Yarn
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCWool],
+            item 1 [Hydrocraft.HCSpindle] mode:keep,
+            item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCYarn,
+        }
+    }
+    craftRecipe Dye Yarn
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCYarn],
+            item 2 [Hydrocraft.HCCharcoalpowder],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCYarnblack,
+        }
+    }
+    craftRecipe Dye Yarn
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCRedpigment],
+            item 1 [Hydrocraft.HCBluepigment],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCYarnpurple,
+        }
+    }
+    craftRecipe Dye Yarn
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCYarn],
+            item 2 [Hydrocraft.HCBluepigment],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCYarnblue,
+        }
+    }
+    craftRecipe Dye Yarn
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCYarn],
+            item 2 [Hydrocraft.HCGreenpigment],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCYarngreen,
+        }
+    }
+    craftRecipe Dye Yarn
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCYarn],
+            item 2 [Hydrocraft.HCYellowpigment],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCYarnyellow,
+        }
+    }
+    craftRecipe Dye Yarn
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCRedpigment],
+            item 1 [Hydrocraft.HCYellowpigment],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCYarnorange,
+        }
+    }
+    craftRecipe Dye Yarn
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCYarn],
+            item 2 [Hydrocraft.HCRedpigment],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCYarnred,
+        }
+    }
+    craftRecipe Make Wool Cloth
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCLoom] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoolcloth,
+        }
+    }
+    craftRecipe Make Wool Cloth
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoolcloth,
+        }
+    }
+    craftRecipe Make Silk Thread
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCSilkfiber],
+            item 1 [Hydrocraft.HCSpindle],
+            item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilkthread,
+        }
+    }
+    craftRecipe Make Silk Cloth
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCSilkthread],
+            item 1 [Hydrocraft.HCLoom] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilkcloth,
+        }
+    }
+    craftRecipe Make Silk Cloth
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCSilkthread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilkcloth,
+        }
+    }
+    craftRecipe Make Long Silk Undies
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:2,
+        xpAward = Tailoring:10,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 8 [Hydrocraft.HCSilkcloth],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 3 [Hydrocraft.HCSilkthread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilkUndiesWarm,
+        }
+    }
+    craftRecipe Make Sheet Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCWoolcloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolshirt;Hydrocraft.HCWoolpants;Hydrocraft.HCSilkshirt;Hydrocraft.HCSilkpants;Hydrocraft.HCLinenshirt;Hydrocraft.HCLinenpants],
+        }
+        outputs
+        {
+            item 1 Base.SheetRope,
+        }
+    }
+    craftRecipe Make Ripped Sheets
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCWoolcloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolshirt;Hydrocraft.HCWoolpants;Hydrocraft.HCSilkshirt;Hydrocraft.HCSilkpants;Hydrocraft.HCLinenshirt;Hydrocraft.HCLinenpants],
+        }
+        outputs
+        {
+            item 8 Base.RippedSheets,
+        }
+    }
+    craftRecipe Make Thin Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 3 [Hydrocraft.HCHidestrap],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRopethin,
+        }
+    }
+    craftRecipe Make Thin Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCCottonthread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRopethin,
+        }
+    }
+    craftRecipe Make Thin Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCLinenthread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRopethin,
+        }
+    }
+    craftRecipe Make Thin Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYarn],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRopethin,
+        }
+    }
+    craftRecipe Make Thin Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCSilkthread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRopethin,
+        }
+    }
+    craftRecipe Make Thin Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 3 Hydrocraft.HCRopethin,
+        }
+    }
+    craftRecipe Make Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 3 [Hydrocraft.HCRopethin],
+        }
+        outputs
+        {
+            item 1 Base.Rope,
+        }
+    }
+    craftRecipe Make Bark Strips
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.TreeBranch2],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 3 Hydrocraft.HCBarkstrip,
+        }
+    }
+    craftRecipe Make Thin Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 3 [Hydrocraft.HCBarkstrip],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRopethin,
+        }
+    }
+    craftRecipe Make Thin Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 3 [Base.LeatherStrips],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRopethin,
+        }
+    }
+    craftRecipe Make Thin Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 3 [Hydrocraft.HCLeatherstriphard],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRopethin,
+        }
+    }
+    craftRecipe Make Thin Rope
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        inputs
+        {
+            item 3 [Hydrocraft.HCLeatherstripfine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRopethin,
+        }
+    }
+    craftRecipe Make Jute Fibers
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJutestemsdry],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJutefibers,
+        }
+    }
+    craftRecipe Make Burlap Cloth
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCJutefibers],
+            item 1 [Hydrocraft.HCLoom] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBurlapcloth,
+        }
+    }
+    craftRecipe Make Burlap Cloth
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCJutefibers],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBurlapcloth,
+        }
+    }
+    craftRecipe Weave Reed Mat
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCReeds],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCReedmat,
+        }
+    }
+    craftRecipe Dry Reed Mat
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCReedmat],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCReedmatdry,
+        }
+    }
+    craftRecipe Make Thread
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCSilkfiber],
+            item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Thread,
+        }
+    }
+    craftRecipe Make Thread
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCCotton],
+            item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Thread,
+        }
+    }
+    craftRecipe Make Thread
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCPlantfibers],
+            item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Thread,
+        }
+    }
+    craftRecipe Make Thread
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCFlax],
+            item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Thread,
+        }
+    }
+    craftRecipe Make Thread
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCWool],
+            item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Thread,
+        }
+    }
+    craftRecipe Recycle Bag
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:1,
+        OnCreate = HCR42.Recipe_OnCreate_Hydrocraft_RecycleBag,
+        inputs
+        {
+            item 1 tags[NylonBag] mode:keep,
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZipper,
+        }
+    }
+    craftRecipe Recycle Sack
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlourempty],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBurlapcloth,
+        }
+    }
+    craftRecipe Box Clothespins
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCClothespin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCClothespinbox,
+        }
+    }
+    craftRecipe Unbox Clothespins
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClothespinbox],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCClothespin,
+        }
+    }
+    craftRecipe Box Sewing Pins
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 100 [Hydrocraft.HCSewingpin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSewingpinbox,
+        }
+    }
+    craftRecipe Unbox Clothespins
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSewingpinbox],
+        }
+        outputs
+        {
+            item 100 Hydrocraft.HCSewingpin,
+        }
+    }
+    craftRecipe Put Pins in Pin Cushion
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 8 [Hydrocraft.HCSewingpin],
+            item 1 [Hydrocraft.HCPincushion],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPincushionfull,
+        }
+    }
+    craftRecipe Remove Pins from Pin Cushion
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcpincushion,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPincushionfull],
+        }
+        outputs
+        {
+            item 8 Hydrocraft.HCSewingpin,
+        }
+    }
+    craftRecipe Make Burlap Sack
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBurlapcloth],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 4 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Base.EmptySandbag,
+        }
+    }
+    craftRecipe Make Flour Sack
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBurlapcloth],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 2 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlourempty,
+        }
+    }
+    craftRecipe Make Rice Sack
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBurlapcloth],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 2 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRiceempty,
+        }
+    }
+    craftRecipe Make Pillow Case
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Base.Sheet],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 4 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPillowcase,
+        }
+    }
+    craftRecipe Make Pillow Case
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLinencloth],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 4 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPillowcase,
+        }
+    }
+    craftRecipe Make Pillow Case
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCWoolcloth],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 4 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPillowcase,
+        }
+    }
+    craftRecipe Make Pillow Case
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSilkcloth],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 4 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPillowcase,
+        }
+    }
+    craftRecipe Make Pillow
+    {
+        time = 25,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 10 [Hydrocraft.HCWhitefeathers],
+            item 1 [Hydrocraft.HCPillowcase],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Base.Pillow,
+        }
+    }
+    craftRecipe Make Pillow
+    {
+        time = 25,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 10 [Hydrocraft.HCBrownfeathers],
+            item 1 [Hydrocraft.HCPillowcase],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Base.Pillow,
+        }
+    }
+    craftRecipe Make Rain Poncho
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Survivalist,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 2 [Base.Garbagebag],
+            item 3 [Base.DuctTape],
+            item 1 [Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife;Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors;Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PonchoGreen,
+        }
+    }
+    craftRecipe Stitch Garden Apron
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:10,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 8 [Hydrocraft.HCLinencloth],
+            item 4 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGardenapron,
+        }
+    }
+    craftRecipe Stitch Linen Pants
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 9 [Hydrocraft.HCLinencloth],
+            item 6 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLinenpants,
+        }
+    }
+    craftRecipe Knit Wool Socks
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
+            item 2 [Hydrocraft.HCYarn],
+        }
+        outputs
+        {
+            item 1 Base.Socks_Ankle,
+        }
+    }
+    craftRecipe Knit Long Wool Socks
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
+            item 4 [Hydrocraft.HCYarn],
+        }
+        outputs
+        {
+            item 1 Base.Socks_Long,
+        }
+    }
+    craftRecipe Knit Wool Sweater
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
+            item 8 [Hydrocraft.HCYarn],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSweaterWool,
+        }
+    }
+    craftRecipe Knit Thick Wool Sweater
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
+            item 12 [Hydrocraft.HCYarn],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSweaterWoolThick,
+        }
+    }
+    craftRecipe Knit Balaclava
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
+            item 4 [Hydrocraft.HCYarn],
+        }
+        outputs
+        {
+            item 1 Base.Hat_BalaclavaFull,
+        }
+    }
+    craftRecipe Knit Scarf
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
+            item 4 [Hydrocraft.HCYarn],
+        }
+        outputs
+        {
+            item 1 Base.Scarf_White,
+        }
+    }
+    craftRecipe Stitch Linen Shirt
+    {
+        time = 420,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:2,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 6 [Hydrocraft.HCLinencloth],
+            item 8 [Base.Thread],
+            item 4 [Hydrocraft.HCBoneButton],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLinenshirt,
+        }
+    }
+    craftRecipe Reinforce Shirt
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:3,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Hydrocraft.HCLinenshirt],
+            item 10 [Base.Wire],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLinenshirtWired,
+        }
+    }
+    craftRecipe Reinforce Shirt
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:3,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Hydrocraft.HCLinenshirt],
+            item 5 [Hydrocraft.HCRopethin],
+            item 2 [Base.SmallSheetMetal],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLinenshirtAlu,
+        }
+    }
+    craftRecipe Reinforce Pants
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:3,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Hydrocraft.HCLinenpants],
+            item 10 [Base.Wire],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLinenpantsWired,
+        }
+    }
+    craftRecipe Reinforce Pants
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:3,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 1 [Hydrocraft.HCLinenpants],
+            item 5 [Hydrocraft.HCRopethin],
+            item 2 [Base.SmallSheetMetal],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLinenpantsAlu,
+        }
+    }
+    craftRecipe Stitch Silk Shirt
+    {
+        time = 420,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Base.Needle] mode:keep,
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 8 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilkshirt,
+        }
+    }
+    craftRecipe Stitch Silk Pants
+    {
+        time = 420,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 9 [Hydrocraft.HCSilkcloth],
+            item 6 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilkpants,
+        }
+    }
+    craftRecipe Stitch Wool Shirt
+    {
+        time = 420,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 12 [Hydrocraft.HCWoolcloth],
+            item 8 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoolshirt,
+        }
+    }
+    craftRecipe Stitch Wool Pants
+    {
+        time = 420,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 9 [Hydrocraft.HCWoolcloth],
+            item 6 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoolpants,
+        }
+    }
+    craftRecipe Make Bag
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 20 [Hydrocraft.HCNyloncloth],
+            item 5 [Hydrocraft.HCZipper],
+            item 2 [Base.Thread],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Bag_SurvivorBag,
+        }
+    }
+    craftRecipe Make Clothespins
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSSpringSteelIngot],
+            item 5 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCClothespin,
+        }
+    }
+}

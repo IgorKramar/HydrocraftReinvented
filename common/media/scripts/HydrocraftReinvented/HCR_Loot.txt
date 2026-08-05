@@ -1,0 +1,256 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCBoxart
+    {
+
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Art Supplies,
+        Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
+    StaticModel	 = BoxOfThings,
+    WorldStaticModel = BoxOfThings,
+    }
+    item HCBoxelectronic
+    {
+
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Electronic Equipment,
+        Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
+    StaticModel	 = BoxOfThings,
+    WorldStaticModel = BoxOfThings,
+    }
+    item HCBoxgarden
+    {
+
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Garden Equipment,
+        Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
+    StaticModel	 = BoxOfThings,
+    WorldStaticModel = BoxOfThings,
+    }
+    item HCBoxholiday
+    {
+
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Holiday Supplies,
+        Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
+    StaticModel	 = BoxOfThings,
+    WorldStaticModel = BoxOfThings,
+    }
+    item HCBoxlab
+    {
+
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Lab Equipment,
+        Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
+    StaticModel	 = BoxOfThings,
+    WorldStaticModel = BoxOfThings,
+    }
+    item HCBoxoffice
+    {
+
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Office Supplies,
+        Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
+    StaticModel	 = BoxOfThings,
+    WorldStaticModel = BoxOfThings,
+    }
+    item HCBoxpet
+    {
+
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Pet Equipment,
+        Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
+    StaticModel	 = BoxOfThings,
+    WorldStaticModel = BoxOfThings,
+    }
+    item HCBoxphoto
+    {
+
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Photography Equipment,
+        Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
+    StaticModel	 = BoxOfThings,
+    WorldStaticModel = BoxOfThings,
+    }
+    item HCBoxtoy
+    {
+
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Toys,
+        Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
+    StaticModel	 = BoxOfThings,
+    WorldStaticModel = BoxOfThings,
+    }
+    craftRecipe Open Box
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Loot,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclootart,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoxart],
+            item 1 [Base.Scalpel;Hydrocraft.HCBoxcutter;Hydrocraft.HCScalpelimprovised;Hydrocraft.HCStraightrazor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Open Box
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Loot,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclootelectronic,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoxelectronic],
+            item 1 [Base.Scalpel;Hydrocraft.HCBoxcutter;Hydrocraft.HCScalpelimprovised;Hydrocraft.HCStraightrazor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Open Box
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Loot,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclootgarden,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoxgarden],
+            item 1 [Base.Scalpel;Hydrocraft.HCBoxcutter;Hydrocraft.HCScalpelimprovised;Hydrocraft.HCStraightrazor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Open Box
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Loot,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclootholiday,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoxholiday],
+            item 1 [Base.Scalpel;Hydrocraft.HCBoxcutter;Hydrocraft.HCScalpelimprovised;Hydrocraft.HCStraightrazor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Open Box
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Loot,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclootlab,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoxlab],
+            item 1 [Base.Scalpel;Hydrocraft.HCBoxcutter;Hydrocraft.HCScalpelimprovised;Hydrocraft.HCStraightrazor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Open Box
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Loot,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclootoffice,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoxoffice],
+            item 1 [Base.Scalpel;Hydrocraft.HCBoxcutter;Hydrocraft.HCScalpelimprovised;Hydrocraft.HCStraightrazor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Open Box
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Loot,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclootpet,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoxpet],
+            item 1 [Base.Scalpel;Hydrocraft.HCBoxcutter;Hydrocraft.HCScalpelimprovised;Hydrocraft.HCStraightrazor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Open Box
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Loot,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclootphoto,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoxphoto],
+            item 1 [Base.Scalpel;Hydrocraft.HCBoxcutter;Hydrocraft.HCScalpelimprovised;Hydrocraft.HCStraightrazor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+    craftRecipe Open Box
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Loot,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcloottoy,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoxtoy],
+            item 1 [Base.Scalpel;Hydrocraft.HCBoxcutter;Hydrocraft.HCScalpelimprovised;Hydrocraft.HCStraightrazor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardboardbox,
+        }
+    }
+}

@@ -1,0 +1,90 @@
+module Hydrocraft
+{
+    imports { Base }
+    item BoxOfThings
+    {
+
+		Weight				=	1,
+		Type				=	Normal,
+		DisplayName			=	Box of Things,
+		Icon				=	HCCardboardboxsealed,
+		StaticModel	 = BoxOfThings,
+        WorldStaticModel = BoxOfThings,
+    }
+    craftRecipe Store 12 in a Box
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.Recipe_OnCreate_Hydrocraft_BoxThings,
+        inputs
+        {
+            item 12 tags[Box12] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.BoxOfThings,
+        }
+    }
+    craftRecipe Store 25 in a Box
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.Recipe_OnCreate_Hydrocraft_BoxThings,
+        inputs
+        {
+            item 25 tags[Box25] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.BoxOfThings,
+        }
+    }
+    craftRecipe Store 50 in a Box
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.Recipe_OnCreate_Hydrocraft_BoxThings,
+        inputs
+        {
+            item 50 tags[Box50] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.BoxOfThings,
+        }
+    }
+    craftRecipe Store 100 in a Box
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.Recipe_OnCreate_Hydrocraft_BoxThings,
+        inputs
+        {
+            item 100 tags[Box100] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.BoxOfThings,
+        }
+    }
+    craftRecipe Open Box
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.Recipe_OnCreate_Hydrocraft_OpenBox,
+        inputs
+        {
+            item 1 [Hydrocraft.BoxOfThings],
+        }
+    }
+}

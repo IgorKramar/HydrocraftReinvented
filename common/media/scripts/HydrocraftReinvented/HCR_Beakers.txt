@@ -1,0 +1,851 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCBeakerwater
+    {
+
+	IsWaterSource		=	TRUE,
+	Weight			=	1,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Beaker With Water,
+	ReplaceOnDeplete	=	HCGlassbeaker,
+	ReplaceOnUseOn		=	WaterSource-HCBeakerwater,
+	Icon			=	HCBeakerwater,
+	IsCookable		=	TRUE,
+	RainFactor 		= 	1,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerwaterhot
+    {
+
+	Weight				=	1,
+	Type			        =	Normal,
+	DisplayName			=	Beaker With Hot Water,
+	Icon				=	HCBeakerwaterhot,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerammonia
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Beaker with Ammonia,
+        icon 			= HCBeakerammonia,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakertronasolution
+    {
+
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Beaker With Trona Solution,
+	Icon			=	HCBeakertronasolution,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerwatercalciumoxid
+    {
+
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Beaker With Calcium Oxide And Water,
+	Icon			=	HCBeakerwatercalciumoxid,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakermuriaticacid
+    {
+
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Beaker With Muriatic Acid,
+	Icon			=	HCBeakermuriaticacid,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakersodiumhydroxidesolution
+    {
+
+	Weight				=	1,
+	Type			        =	Normal,
+	DisplayName			=	Sodium Hydroxide Soultion,
+	Icon				=	HCBeakersodiumhydroxidesolution,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakercalciumchloridesolution
+    {
+
+	Weight				=	1,
+	Type			        =	Normal,
+	DisplayName			=	Calcium Chloride Soultion,
+	Icon				=	HCBeakercalciumchloridesolution,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakermethylamin
+    {
+
+        Weight            		=    1,
+        Type            		=    Normal,
+        DisplayName        		=    Beaker With Methylamin,
+        Icon            		=    HCBeakermethylamin,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCBeakersulfuricacid
+    {
+
+        Weight            		=    1,
+        Type            		=    Normal,
+        DisplayName        		=    Beaker With Sulfuric Acid,
+        Icon            		=    HCBeakersulfuricacid,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerphenyl
+    {
+
+        Weight            		=    1,
+        Type            		=    Normal,
+        DisplayName        		=    Beaker With Phenylacetic Acid,
+        Icon            		=    HCBeakerphenyl,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerh2o2
+    {
+
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Hydrogen Peroxide,
+        icon 				= HCBeakerh2o2,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerh2o2cooled
+    {
+
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Cold Beaker With Hydrogen Peroxide,
+        icon 				= HCBeakerh2o2cooled,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerh2o2hexa
+    {
+
+        Weight    			= 0.6,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Hydrogen Peroxide and Hexamethylentetramin,
+        icon 				= HCBeakerh2o2hexa,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerh2o2hexacooled
+    {
+
+        Weight    			= 0.6,
+        Type    			= Normal,
+        DisplayName         		= Cold Beaker With Hydrogen Peroxide and Hexamethylentetramin,
+        icon 				= HCBeakerh2o2hexacooled,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerh2o2hexacitricacid
+    {
+
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Hydrogen Peroxide and Hexamethylentetramin and Citric Acid,
+        icon 				= HCBeakerh2o2hexa,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerh2o2hexacitricacidcooled
+    {
+
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Cold Beaker With Hydrogen Peroxide and Hexamethylentetramin and Citric Acid,
+        icon 				= HCBeakerh2o2hexacitricacidcooled,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerhmtd
+    {
+
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With HMTD Foam,
+        icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakercoppersulfatesolution
+    {
+
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Coppersulfate solution,
+        icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakernickelsulfatesolution
+    {
+
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Nickel Sulfate solution,
+        icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakernitricacid
+    {
+
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Nitric Acid,
+        icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakermercuricoxide
+    {
+
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Mercuric Oxide,
+        icon 				= HCBeakermercuricoxide,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerpotassiumpermanganate
+    {
+
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Potassium Permanganate,
+        icon 				= HCBeakerpotassiumpermanganate,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerammoniahalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Ammonia,
+	ReplaceOnDeplete	=	HCBeakerammonia,
+        icon 			= 	HCBeakerammoniahalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakercalciumchloridesolutionhalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Calciumchloride Solution,
+	ReplaceOnDeplete	=	HCBeakercalciumchloridesolution,
+        icon 			= 	HCBeakercalciumchloridesolutionhalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerh2o2half
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With H2O2,
+	ReplaceOnDeplete	=	HCBeakerh2o2,
+        icon 			= 	HCBeakerh2o2half,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakermercuricoxidehalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Mercuricoxide,
+	ReplaceOnDeplete	=	HCBeakermercuricoxide,
+        icon 			= 	HCBeakermercuricoxidehalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakermethylaminhalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Methylamin,
+	ReplaceOnDeplete	=	HCBeakermethylamin,
+        icon 			= 	HCBeakermethylaminhalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakermorphinhydrochloridsolutionhalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Morphinhydrochlorid Solution,
+	ReplaceOnDeplete	=	HCBeakermorphinhydrochloridsolution,
+        icon 			= 	HCBeakermorphinhydrochloridsolutionhalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakermuriaticacidhalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Muriatic Acid,
+	ReplaceOnDeplete	=	HCBeakermuriaticacid,
+        icon 			= 	HCBeakermuriaticacidhalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerphenylhalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Phenylacetic Acid,
+	ReplaceOnDeplete	=	HCBeakerphenyl,
+        icon 			= 	HCBeakerphenylhalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerselfmadeether
+    {
+
+        Weight    		= 	1,
+	Type			= 	Normal,
+        DisplayName         	= 	Beaker With Ether,
+        icon 			= 	HCBeakerselfmadeether,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakersodiumhydroxidesolutionhalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Sodiumhydroxide Solution,
+	ReplaceOnDeplete	=	HCBeakersodiumhydroxidesolution,
+        icon 			= 	HCBeakersodiumhydroxidesolutionhalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakersulfuricacidhalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Sulfuric Acid,
+	ReplaceOnDeplete	=	HCBeakersulfuricacid,
+        icon 			= 	HCBeakersulfuricacidhalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakertronasolutionhalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Trona Solution,
+	ReplaceOnDeplete	=	HCBeakertronasolution,
+        icon 			= 	HCBeakertronasolutionhalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerwaterhalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Water,
+	ReplaceOnDeplete	=	HCBeakerwater,
+        icon 			= 	HCBeakerwaterhalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerselfmadeetherhalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Ether,
+	ReplaceOnDeplete	=	HCBeakerselfmadeether,
+        icon 			= 	HCBeakerselfmadeetherhalf,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBeakerpotassiumpermanganatehalf
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Potassium Permanganate,
+	ReplaceOnDeplete	=	HCBeakerpotassiumpermanganate,
+        icon 			= 	HCBeakerpotassiumpermanganatehalf,
+	DisplayCategory	=   CraftChem,
+    }
+    craftRecipe Empty Beaker
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerwaterhot;Hydrocraft.HCBeakerammonia;Hydrocraft.HCBeakertronasolution;Hydrocraft.HCBeakerwatercalciumoxid;Hydrocraft.HCBeakermuriaticacid;Hydrocraft.HCBeakersodiumhydroxidesolution;Hydrocraft.HCBeakercalciumchloridesolution;Hydrocraft.HCBeakermethylamin;Hydrocraft.HCBeakersulfuricacid;Hydrocraft.HCBeakerphenyl;Hydrocraft.HCBeakerh2o2;Hydrocraft.HCBeakerh2o2cooled;Hydrocraft.HCBeakerh2o2hexa;Hydrocraft.HCBeakerh2o2hexacooled;Hydrocraft.HCBeakerh2o2hexacitricacid;Hydrocraft.HCBeakerh2o2hexacitricacidcooled;Hydrocraft.HCBeakerhmtd;Hydrocraft.HCBeakercoppersulfatesolution;Hydrocraft.HCBeakernickelsulfatesolution;Hydrocraft.HCBeakernickelsulfatesolution;Hydrocraft.HCBeakernitricacid;Hydrocraft.HCBeakermercuricoxide;Hydrocraft.HCBeakermorphinhydrochlorid;Hydrocraft.HCBeakermorphinhydrochloridsolution02;Hydrocraft.HCBeakeragar;Hydrocraft.HCBeakerselfmadeether;Hydrocraft.HCBeakerpotassiumpermanganate;Hydrocraft.HCBeakerpotassiumpermanganatehalf],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Make Beaker of Ammonia
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 5 [Hydrocraft.HCWindowcleaner],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerammonia,
+        }
+    }
+    craftRecipe Make Beaker of Ammonia
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmonia],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerammonia,
+        }
+    }
+    craftRecipe Make Beaker of Copper Sulfate Solution
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCoppersulfatepowder],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakercoppersulfatesolution,
+        }
+    }
+    craftRecipe Make Beaker of Nickel Sulfate Solution
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNickelsulfatepowder],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakernickelsulfatesolution,
+        }
+    }
+    craftRecipe Make Beaker of Nitric Acid
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNitricacid],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakernitricacid,
+        }
+    }
+    craftRecipe Fill Beaker With Muriatic Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetplasticcan,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCPlasticcanmuriaticacid],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermuriaticacid,
+        }
+    }
+    craftRecipe Fill Beaker With Phenylacetic Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassbottlephenyl],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerphenyl,
+        }
+    }
+    craftRecipe Fill Beaker With Phenylacetic Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBarrelmetalphenyl],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerphenyl,
+        }
+    }
+    craftRecipe Fill Beaker With Phenylacetic Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPhenylbarrelfull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerphenyl,
+        }
+    }
+    craftRecipe Fill Beaker With Phenylacetic Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPhenylbarrelbluefull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerphenyl,
+        }
+    }
+    craftRecipe Fill Beaker With Methylamin
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassbottlemethylamin],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermethylamin,
+        }
+    }
+    craftRecipe Fill Beaker With Methylamin
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBarrelmetalmethylamin],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermethylamin,
+        }
+    }
+    craftRecipe Fill Beaker With Methylamin
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMethylaminbarrelfull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermethylamin,
+        }
+    }
+    craftRecipe Fill Beaker With Methylamin
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMethylaminbarrelbluefull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermethylamin,
+        }
+    }
+    craftRecipe Fill Beaker With Ammonia
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassbottleammonia],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerammonia,
+        }
+    }
+    craftRecipe Fill Beaker With Ammonia
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBarrelmetalammonia],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerammonia,
+        }
+    }
+    craftRecipe Fill Beaker With Ammonia
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmoniabarrelfull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerammonia,
+        }
+    }
+    craftRecipe Fill Beaker With Ammonia
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmoniabarrelbluefull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerammonia,
+        }
+    }
+    craftRecipe Fill Beaker With Sulfuric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassbottlesulfuricacid],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersulfuricacid,
+        }
+    }
+    craftRecipe Fill Beaker With Sulfuric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBarrelmetalsulfuricacid],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersulfuricacid,
+        }
+    }
+    craftRecipe Fill Beaker With Sulfuric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSulfuricacidbarrelfull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersulfuricacid,
+        }
+    }
+    craftRecipe Fill Beaker With Sulfuric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSulfuricacidbarrelbluefull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersulfuricacid,
+        }
+    }
+    craftRecipe Make Beaker of Potassium Permanganate
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassbottlepotassiumpermanganate],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerpotassiumpermanganate,
+        }
+    }
+}

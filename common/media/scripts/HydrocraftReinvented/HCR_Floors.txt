@@ -1,0 +1,303 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCFinewoodfloor
+    {
+
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_tilesandwood_01_45,
+	DisplayName		= Finewood Floor,
+	Icon			= default,
+	DisplayCategory          =   Tile,
+    }
+    item HCCarpetpurple
+    {
+
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_6,
+	DisplayName		= Violet Carpet,
+	Icon			= default,
+	DisplayCategory          =   Tile,
+    }
+    item HCCarpetblue
+    {
+
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_0,
+	DisplayName		= Blue Carpet,
+	Icon			= default,
+	DisplayCategory          =   Tile,
+    }
+    item HCCarpetgreen
+    {
+
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_5,
+	DisplayName		= Green Carpet,
+	Icon			= default,
+	DisplayCategory          =   Tile,
+    }
+    item HCCarpetyellow
+    {
+
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_10,
+	DisplayName		= Yellow Carpet,
+	Icon			= default,
+	DisplayCategory          =   Tile,
+    }
+    item HCCarpetorange
+    {
+
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_12,
+	DisplayName		= Orange Carpet,
+	Icon			= default,
+	DisplayCategory          =   Tile,
+    }
+    item HCCarpetred
+    {
+
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_9,
+	DisplayName		= Red Carpet,
+	Icon			= default,
+	DisplayCategory          =   Tile,
+    }
+    item HCCarpetwhite
+    {
+
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_11,
+	DisplayName		= White Carpet,
+	Icon			= default,
+	DisplayCategory          =   Tile,
+    }
+    item HCCarpetblack
+    {
+
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_2,
+	DisplayName		= Black Carpet,
+	Icon			= default,
+	DisplayCategory          =   Tile,
+    }
+    item HCNewfloor
+    {
+
+    Type            = Moveable,
+    Weight          = 0.5,
+    WorldObjectSprite   = roofs_01_54,
+    DisplayName     = Black Carpet,
+    Icon            = default,
+	DisplayCategory          =   Tile,
+    }
+    craftRecipe Make new Floor
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNewfloor,
+        }
+    }
+    craftRecipe Make Finewood Floor
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:3,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPlankoil],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFinewoodfloor,
+        }
+    }
+    craftRecipe Make Carpet
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYarnpurple],
+            item 1 [Hydrocraft.HCWoolcloth],
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 3 [Base.Thread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCarpetpurple,
+        }
+    }
+    craftRecipe Make Carpet
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYarnblue],
+            item 1 [Hydrocraft.HCWoolcloth],
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 3 [Base.Thread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCarpetblue,
+        }
+    }
+    craftRecipe Make Carpet
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYarngreen],
+            item 1 [Hydrocraft.HCWoolcloth],
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 3 [Base.Thread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCarpetgreen,
+        }
+    }
+    craftRecipe Make Carpet
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYarnyellow],
+            item 1 [Hydrocraft.HCWoolcloth],
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 3 [Base.Thread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCarpetyellow,
+        }
+    }
+    craftRecipe Make Carpet
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYarnorange],
+            item 1 [Hydrocraft.HCWoolcloth],
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 3 [Base.Thread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCarpetorange,
+        }
+    }
+    craftRecipe Make Carpet
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYarnred],
+            item 1 [Hydrocraft.HCWoolcloth],
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 3 [Base.Thread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCarpetred,
+        }
+    }
+    craftRecipe Make Carpet
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCWoolcloth],
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 3 [Base.Thread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCarpetwhite,
+        }
+    }
+    craftRecipe Make Carpet
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcspindle3,
+        inputs
+        {
+            item 3 [Hydrocraft.HCYarnblack],
+            item 1 [Hydrocraft.HCWoolcloth],
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 3 [Base.Thread],
+            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCarpetblack,
+        }
+    }
+}

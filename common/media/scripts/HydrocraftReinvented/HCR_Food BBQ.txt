@@ -1,0 +1,695 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCMeatCubes
+    {
+
+    HungerChange		= -5,
+    Weight				= 0.1,
+    Type				= Food,
+    IsCookable			= TRUE,
+    DangerousUncooked	= TRUE,
+    DaysTotallyRotten	= 4,
+    MinutesToBurn		= 20,
+    DisplayName			= Meat Cubes,
+    Icon				= MeatPatty,
+    DaysFresh			= 2,
+    MinutesToCook		= 10,
+    FoodType    		= Meat,
+    Carbohydrates 		= 0,
+    Proteins 			= 7,
+    Lipids 				= 10,
+    Calories 			= 95,
+    BadInMicrowave 		= true,
+    GoodHot 			= true,
+    BadCold 			= false,
+	EvolvedRecipe 		= Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+	DisplayCategory          =   FoodP,
+    }
+    item HCBBQsaucebowl
+    {
+
+	HungerChange		=	-20,
+	Weight				=	1,
+	Type				=	Food,
+	DisplayName			=	Bowl of BBQ Sauce,
+	ReplaceOnUse		=	Bowl,
+	Icon				=	HCBBQsaucebowl,
+	DaysTotallyRotten	=	8,
+	DaysFresh 			= 	5,
+	ReplaceOnUse		=	Bowl,
+	CustomContextMenu 	= 	Eat,
+	Spice   			=   	true,
+	EvolvedRecipe 		= 	Sandwich:2;Burger:2,
+	Carbohydrates 		= 	58,
+        Proteins 		= 	4,
+        Lipids 			= 	3,
+        Calories 		= 	210,
+	DisplayCategory          =   FoodP,
+    }
+    item HCBBQsteak
+    {
+
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Steak,
+	Icon				=	HCBBQsteak,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	78.2,
+        Lipids 				= 	21.4,
+        Calories 			= 	525,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+    }
+    item HCBBQsalmon
+    {
+
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Salmon,
+	Icon				=	HCBBQsalmon,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Fish,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	63.1,
+        Lipids 				= 	13.3,
+        Calories 			= 	381,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+    }
+    item HCBBQchicken
+    {
+
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Chicken,
+	Icon				=	HCBBQchicken,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	84.1,
+        Lipids 				= 	10.9,
+        Calories 			= 	432,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+    }
+    item HCBBQsmallbird
+    {
+
+	HungerChange			=	-15,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	FoodType    			=   	Game,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Small Bird,
+	Icon				=	HCBBQsmallbird,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	Carbohydrates 			= 	5,
+        Proteins 			= 	34,
+        Lipids 				= 	16.2,
+        Calories 			= 	286,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+    }
+    item HCBBQduck
+    {
+
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Duck,
+	Icon				=	HCBBQduck,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	69,
+        Lipids 				= 	33,
+        Calories 			= 	603,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+    }
+    item HCBBQgoose
+    {
+
+	HungerChange			=	-35,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Goose,
+	Icon				=	HCBBQgoose,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	87,
+        Lipids 				= 	39,
+        Calories 			= 	714,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+    }
+    item HCBBQturkey
+    {
+
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Turkey,
+	Icon				=	HCBBQturkey,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	10.3,
+        Proteins 			= 	69,
+        Lipids 				= 	5.7,
+        Calories 			= 	336,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+    }
+    item HCBBQrat
+    {
+
+	HungerChange			=	-20,
+	UnhappyChange			=	-5,
+	Weight				=	0.1,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Rat,
+	Icon				=	HCBBQrat,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	5,
+        Proteins 			= 	45,
+        Lipids 				= 	12.6,
+        Calories 			= 	309,
+        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+    }
+    item HCBBQshroom
+    {
+
+	HungerChange			=	-20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Mushroom,
+	Icon				=	HCBBQmushroom,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Vegetables,
+	Carbohydrates 			= 	23.2,
+        Proteins 			= 	9.9,
+        Lipids 				= 	1.8,
+        Calories 			= 	210,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+    }
+    item HCShroomstick
+    {
+
+	HungerChange			=	-20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	Mushrooms on a Stick,
+	Icon				=	HCMushroomstick,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Vegetables,
+	Carbohydrates 			= 	23.2,
+        Proteins 			= 	9.9,
+        Lipids 				= 	1.8,
+        Calories 			= 	210,
+	DisplayCategory          =   FoodP,
+    }
+    item HCGrilledeggplant
+    {
+
+	HungerChange			=	-15,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	Grilled Eggplant,
+	Icon				=	HCGrilledeggplant,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Vegetables,
+	DisplayCategory          =   FoodP,
+	Carbohydrates 			= 	26.1,
+        Proteins 			= 	2.4,
+        Lipids 				= 	5,
+        Calories 			= 	150,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    }
+    item HCFriedfroglegs
+    {
+
+	HungerChange			=	-15,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.2,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	Fried Frog Legs,
+	Icon				=	HCFriedfroglegs,
+	DaysFresh			=	4,
+	DaysTotallyRotten		=	8,
+	FoodType    			=   	Meat,
+	DisplayCategory          =   FoodP,
+	Carbohydrates 			= 	0,
+    Proteins 			= 	32,
+    Lipids 				= 	2.6,
+    Calories 			= 	160,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    }
+    item HCShishkebab
+    {
+
+	HungerChange		=	-20,
+	BoredomChange		=	-10,
+	UnhappyChange		=	-15,
+	Weight				=	0.5,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook		=	30,
+	MinutesToBurn		=	70,
+	DisplayName			=	Shish Kebab,
+	Icon				=	HCShishkebab,
+	DaysFresh			=	3,
+	DaysTotallyRotten	=	7,
+	Carbohydrates 		= 	18.4,
+    Proteins 			= 	21.6,
+    Lipids 				= 	9.8,
+    Calories 			= 	230,
+	DisplayCategory          =   FoodP,
+    }
+    item HCTastySandwich
+    {
+
+	DisplayName			=	Tasty Sandwich,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook		=	30,
+	MinutesToBurn		=	70,
+	HungerChange		=	-65,
+	BoredomChange		=	-20,
+	UnhappyChange		=	-25,
+	Carbohydrates 		= 	30,
+    Proteins 			= 	60,
+    Lipids 				= 	30,
+    Calories 			= 	550,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten	=	6,
+	DisplayName			=	Tasty Sandwich,
+ 	Icon				=	Sandwich,
+	DaysFresh			=	3,
+	StaticModel 		= 	Sandwich,
+	DisplayCategory          =   FoodP,
+    }
+    craftRecipe Make BBQ Sauce
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Bowl],
+            item 1 [Base.Ketchup;Hydrocraft.HCKetchup],
+            item 1 [Base.Sugar],
+            item 1 [Hydrocraft.HCWhisk] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBBQsaucebowl,
+        }
+    }
+    craftRecipe Barbecue Meat
+    {
+        time = 55,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.Pan] mode:keep,
+            item 1 [Base.Steak],
+            item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBBQsteak,
+        }
+    }
+    craftRecipe Barbecue Meat
+    {
+        time = 55,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.Pan] mode:keep,
+            item 1 [Base.Salmon],
+            item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBBQsalmon,
+        }
+    }
+    craftRecipe Barbecue Meat
+    {
+        time = 55,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.Pan] mode:keep,
+            item 1 [Base.Chicken],
+            item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBBQchicken,
+        }
+    }
+    craftRecipe Barbecue Meat
+    {
+        time = 55,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.Pan] mode:keep,
+            item 1 [Hydrocraft.HCDuckmeat],
+            item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBBQduck,
+        }
+    }
+    craftRecipe Barbecue Meat
+    {
+        time = 55,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.Pan] mode:keep,
+            item 1 [Hydrocraft.HCGoosemeat],
+            item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBBQgoose,
+        }
+    }
+    craftRecipe Barbecue Meat
+    {
+        time = 55,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.Pan] mode:keep,
+            item 1 [Hydrocraft.HCTurkeymeat],
+            item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBBQturkey,
+        }
+    }
+    craftRecipe Barbecue Meat
+    {
+        time = 55,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.Pan] mode:keep,
+            item 1 [Base.DeadRat],
+            item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBBQrat,
+        }
+    }
+    craftRecipe Barbecue Mushrooms
+    {
+        time = 55,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.Pan] mode:keep,
+            item 1 [Hydrocraft.HCBunchofshrooms],
+            item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBBQshroom,
+        }
+    }
+    craftRecipe Make Mushrooms on a Stick
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCChopsticks],
+            item 1 [Hydrocraft.HCBunchofshrooms],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCShroomstick,
+        }
+    }
+    craftRecipe Grill Eggplant
+    {
+        time = 55,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.BakingTray] mode:keep,
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Base.Eggplant],
+            item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGrilledeggplant,
+        }
+    }
+    craftRecipe Make Fried Frogs Legs
+    {
+        time = 55,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.Pan] mode:keep,
+            item 1 [Base.FrogMeat],
+            item 1 [Base.Salt],
+            item 1 [Base.Pepper],
+            item 1 tags[Egg] mode:keep,
+            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
+            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFriedfroglegs,
+        }
+    }
+    craftRecipe Cut Meat Cubes
+    {
+        time = 40,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCCutMeatCubes,
+        inputs
+        {
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Base.FishFillet;Base.Salmon;Hydrocraft.HCHerring;Hydrocraft.HCCrab;Base.Steak;Hydrocraft.HCCougarsteak;Base.MuttonChop;Base.PorkChop;Hydrocraft.HCFreshham;Base.Ham;Base.Chicken;Hydrocraft.HCBearsteak;Hydrocraft.HCVenison;Hydrocraft.HCCheval;Hydrocraft.HCSmallgamesteak;Base.Rabbitmeat;Base.Smallanimalmeat;Base.Smallbirdmeat;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.FrogMeat],
+        }
+    }
+    craftRecipe Make Shish Kebab
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCChopsticks],
+            item 5 [Hydrocraft.HCMeatCubes],
+            item 1 [Base.Onion],
+            item 1 [Base.Cabbage;Base.Lettuce;Base.BellPepper;Hydrocraft.HCBellpeppergreen;Hydrocraft.HCBellpepperyellow;Base.Eggplant;Hydrocraft.HCOniongreen;Hydrocraft.HCGarlic;Base.Broccoli;Base.Carrots;Base.Potato;Hydrocraft.HCPotatogolden;Hydrocraft.HCPotatored;Base.Zucchini;Base.Tomato],
+            item 1 [Base.KitchenKnife] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCShishkebab,
+        }
+    }
+    craftRecipe Make Big Tasty Sandwiches
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWholegrainbread],
+            item 2 [Base.MeatPatty],
+            item 8 [Hydrocraft.HCSlicedtomato],
+            item 8 [Hydrocraft.HCSlicedonion],
+            item 1 [Base.Butter],
+            item 4 [Hydrocraft.HCOreganoleaf],
+            item 1 [Base.KitchenKnife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCTastySandwich,
+        }
+    }
+}

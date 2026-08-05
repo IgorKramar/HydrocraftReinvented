@@ -1,0 +1,319 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCResearchtable
+    {
+
+	Weight 			= 12,
+	Type 			= Normal,
+	DisplayName 		= Primitive Research Station,
+	Icon			= HCResearchtable,
+		DisplayCategory	= CraftMas,
+    }
+    item HCTabletskinanimal
+    {
+
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Skin Animal Tablet,
+        Icon			=	HCClaytabletwritten,
+        /*TeachedRecipes 		=   	Skin Animal,*/
+        ReplaceOnUse    	=   	HCTabletskinanimal,
+		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
+    }
+    item HCTabletButcherCarcass
+    {
+
+        Weight          =   0.5,
+        Type            =   Literature,
+        DisplayName     =   Butcher Carcass Tablet,
+        Icon            =   HCClaytabletwritten,
+        TeachedRecipes      =  Butcher Carcass,
+        ReplaceOnUse        =  HCTabletButcherCarcass,
+		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
+    }
+    item HCTabletberries
+    {
+
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Bunch of Berries Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=  Make Bunch of Berries,
+        ReplaceOnUse    	=  HCTabletberries,
+		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
+    }
+    item HCTabletshrooms
+    {
+
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Bunch of Mushrooms Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Make Bunch of Mushrooms,
+        ReplaceOnUse    	=   	HCTabletshrooms,
+		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
+    }
+    item HCTabletbirchbarkbasket
+    {
+
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Birch Bark Basket Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Make Birch Bark Basket,
+        ReplaceOnUse    	=   	HCTabletbirchbarkbasket,
+		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
+    }
+    item HCTabletwickerbasket
+    {
+
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Wicker Basket Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Make Wicker Basket,
+        ReplaceOnUse    	=   	HCTabletwickerbasket,
+		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
+    }
+    item HCTabletstrawbasket
+    {
+
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Straw Basket Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Make Straw Basket,
+        ReplaceOnUse    	=   	HCTabletstrawbasket,
+		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
+    }
+    item HCTabletsticktrap
+    {
+
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Stick Trap Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Make Stick Trap,
+        ReplaceOnUse    	=   	HCTabletsticktrap,
+		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
+    }
+    item HCTabletBoneNeedles
+    {
+
+        Weight          =   0.5,
+        Type            =   Literature,
+        DisplayName     =   Bone Needle Research,
+        Icon            =   HCClaytabletwritten,
+        TeachedRecipes      = Carve Knitting Needles;Craft Bone Needle,
+        ReplaceOnUse        =  HCTabletBoneNeedles,
+		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
+    }
+    item HCTabletDryingFrame
+    {
+
+        Weight          = 0.5,
+        Type            = Literature,
+        DisplayName     = Drying Frame Research,
+        Icon            = HCClaytabletwritten,
+        TeachedRecipes  = Make Drying Frame;Dry Hide,
+        ReplaceOnUse    = HCTabletDryingFrame,
+		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
+    }
+    craftRecipe Make Primative Research Station
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 8 [Hydrocraft.HCClaytablet],
+            item 1 [Base.Twigs],
+            item 1 [Hydrocraft.HCTablelog],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCResearchtable,
+        }
+    }
+    craftRecipe Research Drying Frame
+    {
+        time = 800,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaytablet],
+            item 1 [Base.Twigs],
+            item 1 [Hydrocraft.HCHiderawrabbit;Hydrocraft.HCHiderawsquirrel;Hydrocraft.HCHiderawgroundhog;Hydrocraft.HCHiderawnutria],
+            item 1 [Hydrocraft.HCResearchtable] mode:keep,
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTabletDryingFrame,
+        }
+    }
+    craftRecipe Research Butcher Carcass
+    {
+        time = 800,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaytablet],
+            item 1 [Base.Twigs],
+            item 1 [Base.DeadRabbit;Hydrocraft.HCChickendead;Hydrocraft.HCChickendead2;Hydrocraft.HCDuckdead;Hydrocraft.HCPigeondead],
+            item 1 [Hydrocraft.HCResearchtable] mode:keep,
+            item 1 [Base.FlintKnife;Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTabletButcherCarcass,
+        }
+    }
+    craftRecipe Research Bunch of Berries
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Cooking:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaytablet],
+            item 1 [Base.Twigs],
+            item 1 [Hydrocraft.HCResearchtable] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTabletberries,
+        }
+    }
+    craftRecipe Research Bunch of Mushrooms
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        SkillRequired = Cooking:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaytablet],
+            item 1 [Base.Twigs],
+            item 1 [Hydrocraft.HCResearchtable] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTabletshrooms,
+        }
+    }
+    craftRecipe Research Birch Bark Basket
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaytablet],
+            item 1 [Base.Twigs],
+            item 1 [Hydrocraft.HCResearchtable] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTabletbirchbarkbasket,
+        }
+    }
+    craftRecipe Research Wicker Basket
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaytablet],
+            item 1 [Base.Twigs],
+            item 1 [Hydrocraft.HCResearchtable] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTabletwickerbasket,
+        }
+    }
+    craftRecipe Research Straw Basket
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaytablet],
+            item 1 [Base.Twigs],
+            item 1 [Hydrocraft.HCResearchtable] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTabletstrawbasket,
+        }
+    }
+    craftRecipe Research Stick Trap
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaytablet],
+            item 1 [Base.Twigs],
+            item 1 [Hydrocraft.HCResearchtable] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTabletsticktrap,
+        }
+    }
+    craftRecipe Research Bone Needles
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Research,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaytablet],
+            item 2 [Hydrocraft.HCBone],
+            item 1 [Hydrocraft.HCResearchtable] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTabletBoneNeedles,
+        }
+    }
+}

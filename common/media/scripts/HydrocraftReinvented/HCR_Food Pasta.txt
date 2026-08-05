@@ -1,0 +1,242 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCFreshpasta
+    {
+
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	10,
+	MinutesToBurn			=	20,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	3,
+	DisplayName			=	Fresh Pasta,
+	Icon				=	HCFreshpasta,
+	FoodType    			=   	Pasta,
+	Carbohydrates 			= 	48,
+        Proteins 			= 	10,
+        Lipids 				= 	4,
+        Calories 			= 	260,
+		DisplayCategory		= FoodP,
+    }
+    item HCLasagna
+    {
+
+		HungerChange		=	-70,
+		Type				=	Food,
+		Weight				=	2,	
+		BoredomChange		=	-35,
+		UnhappyChange		=	-35,
+		DisplayName			=	Lasagna,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	60,
+		MinutesToBurn		=	80,
+		Icon				=	HCLasagna,
+		ReplaceOnUse		=	RoastingPan,
+		DaysFresh			=	2,
+		DaysTotallyRotten	=	4,
+		FoodType    		= 	Pasta,
+		Carbohydrates 		= 	228,
+		Proteins 			= 	216,
+		Lipids 				= 	214,
+		Calories 			= 	3700,
+		DisplayCategory		= FoodP,
+    }
+    item HCPastafettuccine
+    {
+
+        Weight				=	2,
+        Type				=	Food,
+        DisplayName			=	Fettuccine Pasta,
+        Icon				=	HCPastafettuccine,
+        HungerChange    		=   	-60,
+        UnhappyChange   		=   	40,
+        ThirstChange    		=   	60,
+        Carbohydrates 			= 	656,
+        Proteins 			= 	112,
+        Lipids 				= 	16,
+        Calories 			= 	3360,
+        Packaged 			= 	TRUE,
+		DisplayCategory		= FoodN,
+    }
+    item HCPastamacaroni
+    {
+
+        Weight				=	2,
+        Type				=	Food,
+        DisplayName			=	Macaroni Pasta,
+        Icon				=	HCPastamacaroni,
+        HungerChange    		=   	-60,
+        UnhappyChange   		=   	40,
+        ThirstChange    		=   	60,
+        Carbohydrates 			= 	656,
+        Proteins 			= 	112,
+        Lipids 				= 	16,
+        Calories 			= 	3360,
+        Packaged 			= 	TRUE,
+		DisplayCategory		= FoodN,
+    }
+    item HCPastarotini
+    {
+
+        Weight				=	2,
+        Type				=	Food,
+        DisplayName			=	Rotini Pasta,
+        Icon				=	HCPastarotini,
+        HungerChange    		=   	-60,
+        UnhappyChange   		=   	40,
+        ThirstChange    		=   	60,
+        Carbohydrates 			= 	656,
+        Proteins 			= 	112,
+        Lipids 				= 	16,
+        Calories 			= 	3360,
+        Packaged 			= 	TRUE,
+		DisplayCategory		= FoodN,
+    }
+    craftRecipe Prepare Fresh Pasta
+    {
+        time = 80,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 tags[Egg] mode:keep,
+            item 1 [Base.Salt],
+            item 1 [Base.RollingPin] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFreshpasta,
+        }
+    }
+    craftRecipe Prepare Lasagna
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:6,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.RoastingPan] mode:destroy,
+            item 1 [Hydrocraft.HCFreshpasta],
+            item 1 [Hydrocraft.HCTomatosaucebowl],
+            item 1 [Base.Broccoli;Base.Eggplant;Base.Ham;Base.Steak;Base.Chicken;Base.Salmon;Base.TunaTinOpen;Base.Cheese;Hydrocraft.HCCheddar;Base.BellPepper;Hydrocraft.HCBellpeppergreen;Hydrocraft.HCBellpepperyellow;Hydrocraft.HCCauliflower],
+            item 1 [Base.Cheese;Hydrocraft.HCCheddar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLasagna,
+        }
+    }
+    craftRecipe Place Pasta in Saucepan
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCPastafettuccine],
+            item 1 [Base.Saucepan] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.WaterSaucepanPasta,
+        }
+    }
+    craftRecipe Place Pasta in Saucepan
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCPastamacaroni],
+            item 1 [Base.Saucepan] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.WaterSaucepanPasta,
+        }
+    }
+    craftRecipe Place Pasta in Saucepan
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCPastarotini],
+            item 1 [Base.Saucepan] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.WaterSaucepanPasta,
+        }
+    }
+    craftRecipe Place Pasta in Cooking Pot
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCPastafettuccine],
+            item 1 [Base.Pot] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.WaterPotPasta,
+        }
+    }
+    craftRecipe Place Pasta in Cooking Pot
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCPastamacaroni],
+            item 1 [Base.Pot] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.WaterPotPasta,
+        }
+    }
+    craftRecipe Place Pasta in Cooking Pot
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCPastarotini],
+            item 1 [Base.Pot] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.WaterPotPasta,
+        }
+    }
+}

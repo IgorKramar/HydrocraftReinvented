@@ -1,0 +1,531 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCFlagamerican
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	American Flag,
+	Icon			=	HCFlagamerican,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagnewmexico
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	New Mexico Flag,
+	Icon			=	HCFlagnewmexico,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagmexican
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Mexican Flag,
+	Icon			=	HCFlagmexican,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagcanadian
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Canadian Flag,
+	Icon			=	HCFlagcanadian,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagbritish
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	British Flag,
+	Icon			=	HCFlagbritish,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagfrench
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	French Flag,
+	Icon			=	HCFlagfrench,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagitalian
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Italian Flag,
+	Icon			=	HCFlagitalian,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagdutch
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Dutch Flag,
+	Icon			=	HCFlagdutch,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlaggerman
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	German Flag,
+	Icon			=	HCFlaggerman,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagczech
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Czech Flag,
+	Icon			=	HCFlagczech,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagsoviet
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Soviet Union Flag,
+	Icon			=	HCFlagsoviet,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagnorthkorea
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	North Korean Flag,
+	Icon			=	HCFlagnorthkorea,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlaganarchist
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Anarchist Flag,
+	Icon			=	HCFlaganarchist,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpole
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Flag Pole,
+	Icon			=	HCFlagpole,
+	DisplayCategory          =   CraftMisc,
+    }
+    item HCFlagpoleamerican
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	American Flag on Pole,
+	Icon			=	HCFlagpoleamerican,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpolenewmexico
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	New Mexico Flag on Pole,
+	Icon			=	HCFlagpolenewmexico,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpolemexican
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Mexican Flag on Pole,
+	Icon			=	HCFlagpolemexican,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpolecanadian
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Canadian Flag on Pole,
+	Icon			=	HCFlagpolecanadian,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpolebritish
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	British Flag on Pole,
+	Icon			=	HCFlagpolebritish,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpolefrench
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	French Flag on Pole,
+	Icon			=	HCFlagpolefrench,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpoleitalian
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Italian Flag on Pole,
+	Icon			=	HCFlagpoleitalian,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpoledutch
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Dutch Flag Pole,
+	Icon			=	HCFlagpoledutch,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpolegerman
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	German Flag on Pole,
+	Icon			=	HCFlagpolegerman,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpoleczech
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Czech Flag on Pole,
+	Icon			=	HCFlagpoleczech,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpolesoviet
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Soviet Union Flag on Pole,
+	Icon			=	HCFlagpolesoviet,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpolenorthkorea
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	North Korean Flag on Pole,
+	Icon			=	HCFlagpolenorthkorea,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpoleanarchist
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Anarchist Flag on Pole,
+	Icon			=	HCFlagpoleanarchist,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpolepurple
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Purple Team Flag,
+	Icon			=	HCFlagpolepurple,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpoleblue
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Blue Team Flag,
+	Icon			=	HCFlagpoleblue,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpolegreen
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Green Team Flag,
+	Icon			=	HCFlagpolegreen,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpoleyellow
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Yellow Team Flag,
+	Icon			=	HCFlagpoleyellow,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpoleorange
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Orange Team Flag,
+	Icon			=	HCFlagpoleorange,
+	DisplayCategory          =   Misc,
+    }
+    item HCFlagpolered
+    {
+
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Red Team Flag,
+	Icon			=	HCFlagpolered,
+	DisplayCategory          =   Misc,
+    }
+    craftRecipe Weld Flag Pole
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        SkillRequired = MetalWelding:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelrod],
+            item 1 [Hydrocraft.HCSteelpole],
+            item 1 [Base.OldTire1;Base.OldTire2;Base.OldTire3;Base.NormalTire1;Base.NormalTire2;Base.NormalTire3;Base.ModernTire1;Base.ModernTire2;Base.ModernTire3],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpole,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlagamerican],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpoleamerican,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlagnewmexico],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpolenewmexico,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlagmexican],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpolemexican,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlagcanadian],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpolecanadian,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlagbritish],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpolebritish,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlagfrench],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpolefrench,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlagitalian],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpoleitalian,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlagdutch],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpoledutch,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlaggerman],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpolegerman,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlagczech],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpoleczech,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlagsoviet],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpolesoviet,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlagnorthkorea],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpolenorthkorea,
+        }
+    }
+    craftRecipe Add Flag
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlagpole],
+            item 1 [Hydrocraft.HCFlaganarchist],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlagpoleanarchist,
+        }
+    }
+}

@@ -1,0 +1,192 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCCrystalmeth
+    {
+
+        HungerChange            = -10,  
+        Weight                  = 0.8,
+        Type                    = Food,
+        ThirstChange            = -5,
+        UnhappyChange		= -15,
+        FatigueChange           = -20,
+	EnduranceChange		= 20,
+        StressChange            = 20,
+        Poison                  = true,
+        PoisonDetectionLevel    = 1,
+        PoisonPower             = 6,
+        UseForPoison            = 1,
+        DisplayName		= Homemade Crystal Meth,                                                    
+        ReplaceOnUse	        = HCZipperbag,    
+        Icon			= HCCrystalmeth,
+		DisplayCategory	= Drugs,
+    }
+    item HCBluemethtray
+    {
+
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName     	= Bakingtray with Blue Meth,
+        icon 			= HCBluemethtray,
+		DisplayCategory	= CraftChem,
+    }
+    item HCBluemeth
+    {
+  
+        HungerChange            = -20,
+        Weight                  = 0.5,
+        Type                    = Food,
+        ThirstChange            = -5,
+        UnhappyChange		= -15,
+        FatigueChange           = -30,
+	EnduranceChange		= 30,
+        StressChange            = 30,
+        Poison                  = true,
+        PoisonDetectionLevel    = 1,
+        PoisonPower             = 3,
+        UseForPoison            = 1,
+        DisplayName		= Blue Meth,                                                                             
+	ReplaceOnUse	        = HCZipperbag,                                                                              
+	Icon			= HCBluemeth,
+		DisplayCategory	= Drugs,
+    }
+    craftRecipe Make Homemade Crystal Meth
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:5,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCLithiumpowder],
+            item 1 [Hydrocraft.HCPhosphoruspowder],
+            item 1 [Hydrocraft.HCEphedrinepowder],
+            item 1 [Hydrocraft.HCZipperbag],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCrystalmeth,
+        }
+    }
+    craftRecipe Cook Blue Meth
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:6,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.hcmeth,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabbig] mode:keep,
+            item 1 [Base.HazmatSuit;Hydrocraft.HCImprovisedhazmat] mode:keep,
+            item 5 [Base.BakingTray],
+            item 5 [Hydrocraft.HCAluminumpowder],
+            item 20 [Hydrocraft.HCMethylaminbarrelfull],
+            item 20 [Hydrocraft.HCPhenylbarrelfull],
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCBluemethtray,
+        }
+    }
+    craftRecipe Cook Blue Meth
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:6,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.hcmeth,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabbig] mode:keep,
+            item 1 [Base.HazmatSuit;Hydrocraft.HCImprovisedhazmat] mode:keep,
+            item 5 [Base.BakingTray],
+            item 5 [Hydrocraft.HCAluminumpowder],
+            item 20 [Hydrocraft.HCMethylaminbarrelbluefull],
+            item 20 [Hydrocraft.HCPhenylbarrelfull],
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCBluemethtray,
+        }
+    }
+    craftRecipe Cook Blue Meth
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:6,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.hcmeth,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabbig] mode:keep,
+            item 1 [Base.HazmatSuit;Hydrocraft.HCImprovisedhazmat] mode:keep,
+            item 5 [Base.BakingTray],
+            item 5 [Hydrocraft.HCAluminumpowder],
+            item 20 [Hydrocraft.HCMethylaminbarrelfull],
+            item 20 [Hydrocraft.HCPhenylbarrelbluefull],
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCBluemethtray,
+        }
+    }
+    craftRecipe Cook Blue Meth
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Doctor:6,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.hcmeth,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabbig] mode:keep,
+            item 1 [Base.HazmatSuit;Hydrocraft.HCImprovisedhazmat] mode:keep,
+            item 5 [Base.BakingTray],
+            item 5 [Hydrocraft.HCAluminumpowder],
+            item 20 [Hydrocraft.HCMethylaminbarrelbluefull],
+            item 20 [Hydrocraft.HCPhenylbarrelbluefull],
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCBluemethtray,
+        }
+    }
+    craftRecipe Fill Blue Meth in Bags
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        OnCreate = HCR42.hcbluemethrecipe,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBluemethtray],
+            item 5 [Hydrocraft.HCZipperbag],
+            item 1 [Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife;Hydrocraft.HCSpatula] mode:keep,
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCBluemeth,
+        }
+    }
+}

@@ -1,0 +1,257 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCWoodenbucketvegoil
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with Vegetable Oil,
+        icon 			= HCWoodenbucketvegoil,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCPotvegoil
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Pot of Uncooked Vegetable Oil,
+        icon 			= HCPotvegoil,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCPotvegoilcooked
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Pot of Cooked Vegetable Oil,
+        icon 			= HCPotvegoilcooked,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCWashtubmethoxide
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Washtub with Methoxide,
+        icon 			= HCWashtubmethoxide,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCWashtubrawbiodiesel
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Washtub with Raw Biodiesel,
+        icon 			= HCWashtubrawbiodiesel,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCWashtubunwashedbiodiesel
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Washtub with Unwashed Biodiesel,
+        icon 			= HCWashtubunwashedbiodiesel,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCWashtubwashedbiodiesel
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Washtub with Washed Biodiesel,
+        icon 			= HCWashtubwashedbiodiesel,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBiodieselcan
+    {
+
+	Weight			= 5,
+        Type    		= Normal,
+	DisplayName		= Biodiesel Can,
+	Icon			= HCBiodieselcan,
+	DisplayCategory	=   Fuel,
+    }
+    craftRecipe Pour Vegetable Oil into Pot
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketvegoil],
+            item 1 [Base.Pot],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotvegoil,
+        }
+    }
+    craftRecipe Cook Pot of Vegtable Oil
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPotvegoil],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotvegoilcooked,
+        }
+    }
+    craftRecipe Make Methoxide
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMethanol],
+            item 1 [Hydrocraft.HCWoodenbucketlye],
+            item 1 [Hydrocraft.HCWashtub],
+            item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWashtubmethoxide,
+        }
+    }
+    craftRecipe Make Raw Biodiesel
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWashtubmethoxide],
+            item 1 [Hydrocraft.HCPotvegoilcooked],
+            item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWashtubrawbiodiesel,
+        }
+    }
+    craftRecipe Remove Glycerin
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcglycerin,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWashtubrawbiodiesel],
+            item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWashtubunwashedbiodiesel,
+        }
+    }
+    craftRecipe Wash Biodiesel
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcglycerin,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWashtubunwashedbiodiesel],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.4 [Water],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWashtubwashedbiodiesel,
+        }
+    }
+    craftRecipe Store Biodiesel
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwashtub,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWashtubwashedbiodiesel],
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBiodieselcan,
+        }
+    }
+    craftRecipe Add Gasoline to Biodiesel
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBiodieselcan],
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCFunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PetrolCan,
+        }
+    }
+    craftRecipe Empty Wooden Bucket with Vegetable Oil
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketvegoil] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucket,
+        }
+    }
+}

@@ -1,0 +1,116 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCPropanetankempty
+    {
+
+	Weight				=	10,
+	Type				=	Normal,
+	DisplayName			=	Empty Propane Tank,
+	Icon				=	PropaneTank,
+	DisplayCategory	=   CraftChem,
+    }
+    item HCBiogas
+    {
+
+        Weight    			= 	20,
+        Type    			= 	Normal,
+        DisplayName         		= 	Biogas Tank,
+        icon 				= 	HCBiogas,
+	DisplayCategory	=   CraftChem,
+    }
+    craftRecipe Build Biogas Collector
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Farming:7,
+        inputs
+        {
+            item 1 [Base.PropaneTank] mode:destroy,
+            item 1 [Hydrocraft.HCWeldinghose],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel],
+            item 2 [Base.Pipe],
+            item 1 [Hydrocraft.HCBarrelblueempty],
+            item 5 [Base.Worm],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBiogas,
+        }
+    }
+    craftRecipe Make Biogas
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBiogas] mode:keep,
+            item 1 [Base.PropaneTank] mode:destroy,
+            item 100 [Hydrocraft.HCCompost],
+        }
+        outputs
+        {
+            item 1 Base.PropaneTank,
+        }
+    }
+    craftRecipe Make Biogas
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBiogas] mode:keep,
+            item 1 [Base.PropaneTank] mode:destroy,
+            item 20 [Base.CompostBag],
+        }
+        outputs
+        {
+            item 1 Base.PropaneTank,
+        }
+    }
+    craftRecipe Make Biogas
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBiogas] mode:keep,
+            item 1 [Hydrocraft.HCWeldingtankempty],
+            item 100 [Hydrocraft.HCCompost],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWeldingtank,
+        }
+    }
+    craftRecipe Make Biogas
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBiogas] mode:keep,
+            item 1 [Hydrocraft.HCWeldingtankempty],
+            item 20 [Base.CompostBag],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWeldingtank,
+        }
+    }
+}

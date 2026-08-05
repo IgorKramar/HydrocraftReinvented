@@ -1,0 +1,412 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCCatpoop
+    {
+
+		Weight    		= 0.1,
+		Type    		= Normal,
+		DisplayName         	= Cat Poop,
+		icon 			= HCCatpoop,
+		DisplayCategory	= AnimalPoop,
+		Tags = Shit,
+    }
+    item HCCatmale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatmale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatfemale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatfemale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatdead
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatdead,
+	DisplayCategory		= AnimalDead,
+    }
+    item HCCatblackmale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatblackmale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatblackfemale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatblackfemale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatblackdead
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatblackdead,
+	DisplayCategory		= AnimalDead,
+    }
+    item HCCatbluemale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatbluemale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatbluefemale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatbluefemale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatbluedead
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatbluedead,
+	DisplayCategory		= AnimalDead,
+    }
+    item HCCatbrownmale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatbrownmale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatbrownfemale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatbrownfemale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatbrowndead
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatbrowndead,
+	DisplayCategory		= AnimalDead,
+    }
+    item HCCatcreammale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatcreammale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatcreamfemale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatcreamfemale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatcreamdead
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatcreamdead,
+	DisplayCategory		= AnimalDead,
+    }
+    item HCCatgingermale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatgingermale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatgingerfemale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatgingerfemale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatgingerdead
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatgingerdead,
+	DisplayCategory		= AnimalDead,
+    }
+    item HCCatsilvermale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatsilvermale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatsilverfemale
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatsilverfemale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatsilverdead
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatsilverdead,
+	DisplayCategory		= AnimalDead,
+    }
+    item HCCatwmale
+    {
+
+	Weight 				= 	1,
+	Type                = 	Container,
+	Capacity            = 	0,
+	DisplayName 		= 	Cat (Male),
+	Icon				=	HCCatwhitemale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatwhitefemale
+    {
+
+	Weight 				= 	1,
+	Type                = 	Container,
+	Capacity            = 	0,
+	DisplayName 		= 	Cat (Female),
+	Icon				=	HCCatwhitefemale,
+	DisplayCategory		= Animal,
+    }
+    item HCCatwhitedead
+    {
+
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatwhitedead,
+	DisplayCategory		= AnimalDead,
+    }
+    craftRecipe Search for Stray Cats
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Ranching,
+        timedAction = Making,
+        OnCreate = HCR42.HCCatCall,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBinoculars],
+            item 1 [Base.CatToy],
+            item 1 [Hydrocraft.HCCatnip],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBinoculars,
+        }
+    }
+    craftRecipe Feed Cat
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Ranching,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDogbowl] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCCatfoodopen;Base.TunaTinOpen;Base.MeatPatty;Hydrocraft.HCSmallgamesteak;Base.Smallanimalmeat;Base.Smallbirdmeat;Base.Chicken;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.FishFillet;Base.Salmon],
+            item 1 [Hydrocraft.HCCatmale;Hydrocraft.HCCatfemale;Hydrocraft.HCCatblackmale;Hydrocraft.HCCatblackfemale;Hydrocraft.HCCatbluemale;Hydrocraft.HCCatbluefemale;Hydrocraft.HCCatbluemale;Hydrocraft.HCCatbluefemale;Hydrocraft.HCCatbrownmale;Hydrocraft.HCCatbrownfemale;Hydrocraft.HCCatcreammale;Hydrocraft.HCCatcreamfemale;Hydrocraft.HCCatgingermale;Hydrocraft.HCCatgingerfemale;Hydrocraft.HCCatsilvermale;Hydrocraft.HCCatsilverfemale;Hydrocraft.HCCatwmale;Hydrocraft.HCCatwhitefemale] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCatpoop,
+        }
+    }
+    craftRecipe Kill Cat
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Death,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCatmale;Hydrocraft.HCCatfemale],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCatdead,
+        }
+    }
+    craftRecipe Kill Cat
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Death,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCatblackmale;Hydrocraft.HCCatblackfemale],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCatblackdead,
+        }
+    }
+    craftRecipe Kill Cat
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Death,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCatbluemale;Hydrocraft.HCCatbluefemale],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCatbluedead,
+        }
+    }
+    craftRecipe Kill Cat
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Death,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCatbrownmale;Hydrocraft.HCCatbrownfemale],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCatbrowndead,
+        }
+    }
+    craftRecipe Kill Cat
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Death,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCatcreammale;Hydrocraft.HCCatcreamfemale],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCatcreamdead,
+        }
+    }
+    craftRecipe Kill Cat
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Death,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCatgingermale;Hydrocraft.HCCatgingerfemale],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCatgingerdead,
+        }
+    }
+    craftRecipe Kill Cat
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Death,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCatsilvermale;Hydrocraft.HCCatsilverfemale],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCatsilverdead,
+        }
+    }
+    craftRecipe Kill Cat
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Death,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCatwmale;Hydrocraft.HCCatwhitefemale],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCatwhitedead,
+        }
+    }
+}

@@ -1,0 +1,216 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCChilipot
+    {
+
+		HungerChange		=	-50,
+		Weight				=	4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		UnhappyChange		=	-20,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Pot of Chili,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		BoredomChange		=	-20,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=  	NoExplicit,
+		Carbohydrates 		= 	92,
+		Proteins 			= 	260,
+		Lipids 				= 	196,
+		Calories 			= 	3140,
+		DisplayCategory		=	FoodP,
+    }
+    item HCRamenflatchicken
+    {
+
+		Weight			= 0.8,
+		Type			= Normal,
+		DisplayName		= Box of Chicken Ramen,
+		icon 			= HCRamenflatchicken,
+		DisplayCategory	= FoodN,
+    }
+    item HCRamenflatbeef
+    {
+
+		Weight	 		= 0.8,
+		Type			= Normal,
+		DisplayName		= Box of Beef Ramen,
+		icon 			= HCRamenflatbeef,
+		DisplayCategory	= FoodN,
+    }
+    item HCRamenflatshrimp
+    {
+
+		Weight			= 0.8,
+		Type			= Normal,
+		DisplayName		= Box of Shrimp Ramen,
+		icon 			= HCRamenflatshrimp,
+		DisplayCategory	= FoodN,
+    }
+    item HCRamenflatcheese
+    {
+
+		Weight			= 0.8,
+		Type			= Normal,
+		DisplayName		= Box of Cheese Ramen,
+		icon 			= HCRamenflatcheese,
+		DisplayCategory	= FoodN,
+    }
+    item HCRamenChicken
+    {
+
+		DisplayName = Chicken Ramen,
+		DisplayCategory = FoodN,
+		Type = Food,
+		Weight = 0.2,
+		Icon = HCRamenchicken, /*Vanilla is: Ramen*/
+		EvolvedRecipe = Soup:10;Stir fry Griddle Pan:10;Stir fry:10,
+		FoodType = Pasta,
+		Packaged = TRUE,
+		HungerChange = -10,
+		ThirstChange = 40,
+		UnhappyChange = 20,
+		Calories = 380,
+		Carbohydrates = 52,
+		Lipids = 14,
+		Proteins = 10,
+		WorldStaticModel = DryRamenNoodles,
+		Tags = DriedFood,
+		CantBeFrozen = TRUE, /*added, not present with vanilla Ramen*/
+    }
+    item HCRamenBeef
+    {
+
+		DisplayName = Beef Ramen,
+		DisplayCategory = FoodN,
+		Type = Food,
+		Weight = 0.2,
+		Icon = HCRamenbeef, /*Vanilla is: Ramen*/
+		EvolvedRecipe = Soup:10;Stir fry Griddle Pan:10;Stir fry:10,
+		FoodType = Pasta,
+		Packaged = TRUE,
+		HungerChange = -10,
+		ThirstChange = 40,
+		UnhappyChange = 20,
+		Calories = 380,
+		Carbohydrates = 52,
+		Lipids = 14,
+		Proteins = 10,
+		WorldStaticModel = DryRamenNoodles,
+		Tags = DriedFood,
+		CantBeFrozen = TRUE, /*added, not present with vanilla Ramen*/
+    }
+    item HCRamenShrimp
+    {
+
+		DisplayName = Shrimp Ramen,
+		DisplayCategory = FoodN,
+		Type = Food,
+		Weight = 0.2,
+		Icon = HCRamenshrimp, /*Vanilla is: Ramen*/
+		EvolvedRecipe = Soup:10;Stir fry Griddle Pan:10;Stir fry:10,
+		FoodType = Pasta,
+		Packaged = TRUE,
+		HungerChange = -10,
+		ThirstChange = 40,
+		UnhappyChange = 20,
+		Calories = 380,
+		Carbohydrates = 52,
+		Lipids = 14,
+		Proteins = 10,
+		WorldStaticModel = DryRamenNoodles,
+		Tags = DriedFood,
+		CantBeFrozen = TRUE, /*added, not present with vanilla Ramen*/
+    }
+    item HCRamenCheese
+    {
+
+		DisplayName = Cheese Ramen,
+		DisplayCategory = FoodN,
+		Type = Food,
+		Weight = 0.2,
+		Icon = HCRamencheese, /*Vanilla is: Ramen*/
+		EvolvedRecipe = Soup:10;Stir fry Griddle Pan:10;Stir fry:10,
+		FoodType = Pasta,
+		Packaged = TRUE,
+		HungerChange = -10,
+		ThirstChange = 40,
+		UnhappyChange = 20,
+		Calories = 380,
+		Carbohydrates = 52,
+		Lipids = 14,
+		Proteins = 10,
+		WorldStaticModel = DryRamenNoodles,
+		Tags = DriedFood,
+		CantBeFrozen = TRUE, /*added, not present with vanilla Ramen*/
+    }
+    craftRecipe Unbox Chicken Ramen Flat
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_unboxramenflat,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRamenflatchicken],
+        }
+        outputs
+        {
+            item 8 Hydrocraft.HCRamenChicken,
+        }
+    }
+    craftRecipe Unbox Beef Ramen Flat
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_unboxramenflat,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRamenflatbeef],
+        }
+        outputs
+        {
+            item 8 Hydrocraft.HCRamenBeef,
+        }
+    }
+    craftRecipe Unbox Shrimp Ramen Flat
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_unboxramenflat,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRamenflatshrimp],
+        }
+        outputs
+        {
+            item 8 Hydrocraft.HCRamenShrimp,
+        }
+    }
+    craftRecipe Unbox Cheese Ramen Flat
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_unboxramenflat,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRamenflatcheese],
+        }
+        outputs
+        {
+            item 8 Hydrocraft.HCRamenCheese,
+        }
+    }
+}

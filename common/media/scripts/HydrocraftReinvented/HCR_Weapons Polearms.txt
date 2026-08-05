@@ -1,0 +1,1339 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCHalberdsteel
+    {
+
+		MaxRange					=	2.0,
+		WeaponSprite					=	Fireaxe,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	4.0,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		Categories					=	Axe,
+		ConditionLowerChanceOneIn			=	20,
+		Weight						=	3.5,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		DisplayName					=	Steel Halberd,
+		MinRange					=	0.61,
+		SwingTime					=	4.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCHalberdsteel,
+		RunAnim						=	Run_Weapon2,
+        TwoHandWeapon 					= 	TRUE,
+       	BreakSound  					=   	BreakWoodItem,
+        TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true,
+        AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCHalberdiron
+    {
+
+		MaxRange					=	2.0,
+		WeaponSprite					=	Fireaxe,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	4.0,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		Categories					=	Axe,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	3.5,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		DisplayName					=	Iron Halberd,
+		MinRange					=	0.61,
+		SwingTime					=	4.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCHalberdiron,
+		RunAnim						=	Run_Weapon2,
+        TwoHandWeapon 					= 	TRUE,
+       	BreakSound  					=   	BreakWoodItem,
+        TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true,
+        AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCHalberdbronze
+    {
+
+		MaxRange					=	2.0,
+		WeaponSprite					=	Fireaxe,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	4.0,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		Categories					=	Axe,
+		ConditionLowerChanceOneIn			=	10,
+		Weight						=	3.5,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		DisplayName					=	Bronze Halberd,
+		MinRange					=	0.61,
+		SwingTime					=	4.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCHalberdbronze,
+		RunAnim						=	Run_Weapon2,
+        TwoHandWeapon 					= 	TRUE,
+       	BreakSound  					=   	BreakWoodItem,
+        TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true,
+        AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCHalberdcopper
+    {
+
+		MaxRange					=	2.0,
+		WeaponSprite					=	Fireaxe,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	4.0,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		Categories					=	Axe,
+		ConditionLowerChanceOneIn			=	5,
+		Weight						=	3.5,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		DisplayName					=	Copper Halberd,
+		MinRange					=	0.61,
+		SwingTime					=	4.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCHalberdcopper,
+		RunAnim						=	Run_Weapon2,
+        TwoHandWeapon 					= 	TRUE,
+       	BreakSound  					=   	BreakWoodItem,
+        TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true,
+        AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpearsteel
+    {
+
+        MaxRange    =   1.45,
+        WeaponSprite    =   Hydrocraft.HCSpearsteel,
+        MinAngle    =   0.8,
+        Type    =   Weapon,
+        MinimumSwingTime    =   2,
+        KnockBackOnNoDeath  =   FALSE,
+        SwingAmountBeforeImpact =   0.02,
+        Categories  =   Spear,
+        ConditionLowerChanceOneIn   =   8,
+        Weight  =   1.5,
+        SplatNumber =   1,
+        PushBackMod =   0.3,
+        SubCategory =   Spear,
+        ConditionMax    =   25,
+        MaxHitCount =   2,
+        DoorDamage  =   5,
+        SwingAnim   =   Spear,
+        DisplayName =   Steel Spear,
+        MinRange    =   0.98,
+        SwingTime   =   2,
+        KnockdownMod    =   0,
+        SplatBloodOnNoDeath =   FALSE,
+        Icon    =   HCSpearsteel,
+        RunAnim =   Run_Weapon2,
+        IdleAnim    =   Idle_Weapon2,
+        BreakSound  =   BreakWoodItem,
+        TreeDamage  =   0,
+        TwoHandWeapon = TRUE,
+        CriticalChance  =   30,
+        CritDmgMultiplier = 10,
+        MinDamage   =   1,
+        MaxDamage   =   1.6,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound   =   BladeHit,
+        ImpactSound =   BladeHit,
+        HitSound    =   BladeHit,
+        AttachmentType = Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpeariron
+    {
+
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Spear,
+        	ConditionLowerChanceOneIn			=	15,
+        	Weight						=	0.4,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.7,
+        	SubCategory					=	Spear,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Spear,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Iron Spear,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.5,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCSpeariron,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+            AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpearbronze
+    {
+
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Spear,
+        	ConditionLowerChanceOneIn			=	10,
+        	Weight						=	0.4,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.7,
+        	SubCategory					=	Spear,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Spear,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Bronze Spear,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.5,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCSpearbronze,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+            AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpearcopper
+    {
+
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Spear,
+        	ConditionLowerChanceOneIn			=	5,
+        	Weight						=	0.4,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.7,
+        	SubCategory					=	Spear,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Spear,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Copper Spear,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.5,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCSpearcopper,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+            AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpearobsidian
+    {
+
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Spear,
+        	ConditionLowerChanceOneIn			=	4,
+        	Weight						=	0.4,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.7,
+        	SubCategory					=	Spear,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Spear,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Obsidian Spear,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.5,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCSpearobsidian,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+            AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpearstone
+    {
+
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Spear,
+        	ConditionLowerChanceOneIn			=	3,
+        	Weight						=	0.4,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.7,
+        	SubCategory					=	Spear,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Spear,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Stone Spear,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.5,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCSpearstone,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+            AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCQuarterstaff
+    {
+
+		MaxRange					=	2,
+		WeaponSprite				=	Hydrocraft.HCQuarterstaff,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime			=	1.5,
+		KnockBackOnNoDeath			=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories					=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	20,
+		Weight						=	1,
+		SplatNumber					=	0,
+		PushBackMod					=	0.75,
+		MaxDamage					=	0.5,
+		SubCategory					=	Swinging,
+		ConditionMax				=	9,
+		MaxHitCount					=	2,
+		DoorDamage					=	1,
+		WeaponWeight				=	1,
+		DisplayName					=	Quarterstaff,
+		MinRange					=	0.61,
+		SwingTime					=	2,
+        SwingAnim                   =   Bat,
+		MinDamage					=	0.5,
+		KnockdownMod				=	2.25,
+		SplatBloodOnNoDeath			=	FALSE,
+		Icon						=	HCQuarterstaff,
+        RunAnim						=	Run_Weapon2,
+        IdleAnim					=	Idle_Weapon2,
+        TwoHandWeapon 				= 	TRUE,
+        BreakSound  				=   BreakWoodItem,
+        TreeDamage  				=   0,
+        AttachmentType              =   BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCQuarterstaffGrip
+    {
+
+        MaxRange                    =   2,
+        WeaponSprite                =   Hydrocraft.HCQuarterstaffGrip,
+        MinAngle                    =   0.2,
+        Type                        =   Weapon,
+        MinimumSwingTime            =   1.7,
+        KnockBackOnNoDeath          =   FALSE,
+        SwingAmountBeforeImpact     =   0.02,
+        Categories                  =   Improvised;Blunt,
+        ConditionLowerChanceOneIn   =   20,
+        Weight                      =   1.2,
+        SplatNumber                 =   0,
+        PushBackMod                 =   0.75,
+        MaxDamage                   =   1,
+        SubCategory                 =   Swinging,
+        ConditionMax                =   25,
+        MaxHitCount                 =   2,
+        DoorDamage                  =   1,
+        SwingAnim                   =   Bat,
+        WeaponWeight                =   1,
+        DisplayName                 =   Quarterstaff With Grip,
+        MinRange                    =   0.61,
+        SwingTime                   =   2,
+        MinDamage                   =   0.7,
+        KnockdownMod                =   2.25,
+        SplatBloodOnNoDeath         =   FALSE,
+        Icon                        =   HCQuarterstaff,
+        RunAnim                     =   Run_Weapon2,
+        IdleAnim                    =   Idle_Weapon1,
+        TwoHandWeapon               =   TRUE,
+        BreakSound                  =   BreakWoodItem,
+        TreeDamage                  =   0,
+        AttachmentType              =   BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCQuarterstaffBarbedWire
+    {
+
+        MaxRange                    =   2,
+        WeaponSprite                =   Hydrocraft.HCQuarterstaffBarbedWire,
+        MinAngle                    =   0.2,
+        Type                        =   Weapon,
+        MinimumSwingTime            =   1.5,
+        KnockBackOnNoDeath          =   FALSE,
+        SwingAmountBeforeImpact     =   0.02,
+        Categories                  =   Improvised;Blunt,
+        ConditionLowerChanceOneIn   =   20,
+        Weight                      =   1.2,
+        SplatNumber                 =   0,
+        PushBackMod                 =   0.75,
+        MaxDamage                   =   1.5,
+        SubCategory                 =   Swinging,
+        ConditionMax                =   13,
+        MaxHitCount                 =   2,
+        DoorDamage                  =   1,
+        SwingAnim                   =   Bat,
+        WeaponWeight                =   1,
+        DisplayName                 =   Quarterstaff With Barbed Wire,
+        MinRange                    =   0.61,
+        SwingTime                   =   2,
+        MinDamage                   =   1,
+        KnockdownMod                =   2.25,
+        SplatBloodOnNoDeath         =   FALSE,
+        Icon                        =   HCQuarterstaff,
+        RunAnim                     =   Run_Weapon2,
+        IdleAnim                    =   Idle_Weapon1,
+        TwoHandWeapon               =   TRUE,
+        BreakSound                  =   BreakWoodItem,
+        TreeDamage                  =   0,
+        AttachmentType              =   BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCTridentsteel
+    {
+
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	GardenFork,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Spear,
+        	ConditionLowerChanceOneIn			=	20,
+        	Weight						=	0.5,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.9,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Spear,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Steel Trident,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.7,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCTridentsteel,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+            AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCTridentiron
+    {
+
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	GardenFork,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Spear,
+        	ConditionLowerChanceOneIn			=	15,
+        	Weight						=	0.5,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.9,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Spear,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Iron Trident,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.7,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCTridentiron,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+            AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCTridentbronze
+    {
+
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	GardenFork,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Spear,
+        	ConditionLowerChanceOneIn			=	10,
+        	Weight						=	0.5,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.9,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Spear,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Bronze Trident,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.7,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCTridentbronze,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+            AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCTridentcopper
+    {
+
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	GardenFork,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Spear,
+        	ConditionLowerChanceOneIn			=	10,
+        	Weight						=	0.5,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.9,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Spear,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Copper Trident,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.7,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCTridentcopper,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+            AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCScythesteel
+    {
+
+		DisplayName					=	Steel Scythe,
+		Type						=	Weapon,
+		Categories					=	Axe,
+		SubCategory					=	Swinging,
+		WeaponSprite				=   Hydrocraft.HCScythesteel,
+		Icon						=	HCScythesteel,
+		MaxRange					=	1.5,
+		ConditionLowerChanceOneIn			=	20,
+		Weight						=	2.0,
+		MinAngle					=	0.2,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		MinRange					=	0.61,
+		SwingTime					=	2.5,
+		MinimumSwingTime				=	2.5,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true,
+        AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCScytheiron
+    {
+
+		DisplayName					=	Iron Scythe,
+		Type						=	Weapon,
+		Categories					=	Axe,
+		SubCategory					=	Swinging,
+		WeaponSprite				=   Hydrocraft.HCScytheiron,
+		Icon						=	HCScytheiron,
+		MaxRange					=	1.5,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	2.0,
+		MinAngle					=	0.2,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		MinRange					=	0.61,
+		SwingTime					=	2.5,
+		MinimumSwingTime				=	2.5,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true,
+        AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCScythebronze
+    {
+
+		DisplayName					=	Bronze Scythe,
+		Type						=	Weapon,
+		Categories					=	Axe,
+		SubCategory					=	Swinging,
+		WeaponSprite				=   Hydrocraft.HCScythebronze,
+		Icon						=	HCScythebronze,
+		MaxRange					=	1.5,
+		ConditionLowerChanceOneIn			=	10,
+		Weight						=	2.0,
+		MinAngle					=	0.2,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		MinRange					=	0.61,
+		SwingTime					=	2.5,
+		MinimumSwingTime				=	2.5,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true,
+        AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCScythecopper
+    {
+
+		DisplayName					=	Copper Scythe,
+		Type						=	Weapon,
+		Categories					=	Axe,
+		SubCategory					=	Swinging,
+		WeaponSprite				=   Hydrocraft.HCScythecopper,
+		Icon						=	HCScythecopper,
+		MaxRange					=	1.5,
+		ConditionLowerChanceOneIn			=	5,
+		Weight						=	2.0,
+		MinAngle					=	0.2,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		MinRange					=	0.61,
+		SwingTime					=	2.5,
+		MinimumSwingTime				=	2.5,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		RunAnim						=	Run_Weapon2,
+        TwoHandWeapon 					= 	TRUE,
+       	BreakSound  					=   	BreakWoodItem,
+        TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true,
+        AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    craftRecipe Make Steel Halberd
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:6,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCSteelingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHalberdsteel,
+        }
+    }
+    craftRecipe Make Iron Halberd
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:6,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCIroningot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHalberdiron,
+        }
+    }
+    craftRecipe Make Bronze Halberd
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:6,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCBronzeingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHalberdbronze,
+        }
+    }
+    craftRecipe Make Copper Halberd
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:6,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCCopperingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHalberdcopper,
+        }
+    }
+    craftRecipe Make Steel Spear
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Base.WoodenStick2;Base.TreeBranch2],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpearsteel,
+        }
+    }
+    craftRecipe Make Iron Spear
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIroningot],
+            item 1 [Base.WoodenStick2;Base.TreeBranch2],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpeariron,
+        }
+    }
+    craftRecipe Make Bronze Spear
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBronzeingot],
+            item 1 [Base.WoodenStick2;Base.TreeBranch2],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpearbronze,
+        }
+    }
+    craftRecipe Make Copper Spear
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCopperingot],
+            item 1 [Base.WoodenStick2;Base.TreeBranch2],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpearcopper,
+        }
+    }
+    craftRecipe Make Obsdian Spear
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCObsidian],
+            item 1 [Base.WoodenStick2;Base.TreeBranch2],
+            item 1 [Base.Twine],
+            item 1 [Base.Stone2;Hydrocraft.HCChisel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpearobsidian,
+        }
+    }
+    craftRecipe Make Stone Spear
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        inputs
+        {
+            item 1 [Base.SharpedStone],
+            item 1 [Base.WoodenStick2;Base.TreeBranch2],
+            item 1 [Base.Twine],
+            item 1 [Base.Stone2;Hydrocraft.HCChisel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpearstone,
+        }
+    }
+    craftRecipe Make Quarterstaff
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.TreeBranch2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCQuarterstaff,
+        }
+    }
+    craftRecipe Reinforce Quarterstaff
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCQuarterstaff],
+            item 1 [Base.BarbedWire],
+            item 1 [Base.LeatherStrips;Hydrocraft.HCBarkstrip],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCRubbercement;Hydrocraft.HCTar;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar;Base.Woodglue;Hydrocraft.HCWoodgluejar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCQuarterstaffBarbedWire,
+        }
+    }
+    craftRecipe Reinforce Quarterstaff
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCQuarterstaff],
+            item 1 [Base.LeatherStrips;Hydrocraft.HCBarkstrip],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCRubbercement;Hydrocraft.HCTar;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar;Base.Woodglue;Hydrocraft.HCWoodgluejar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCQuarterstaffGrip,
+        }
+    }
+    craftRecipe Make Steel Trident
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:4,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Base.WoodenStick2;Base.TreeBranch2],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTridentsteel,
+        }
+    }
+    craftRecipe Make Iron Trident
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:4,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCIroningot],
+            item 1 [Base.WoodenStick2;Base.TreeBranch2],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTridentiron,
+        }
+    }
+    craftRecipe Make Bronze Trident
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:4,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBronzeingot],
+            item 1 [Base.WoodenStick2;Base.TreeBranch2],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTridentbronze,
+        }
+    }
+    craftRecipe Make Copper Trident
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:4,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCCopperingot],
+            item 1 [Base.WoodenStick2;Base.TreeBranch2],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTridentcopper,
+        }
+    }
+    craftRecipe Make Steel Scythe
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:5,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCScythesteel,
+        }
+    }
+    craftRecipe Make Iron Scythe
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:5,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCIroningot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCScytheiron,
+        }
+    }
+    craftRecipe Make Bronze Scythe
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:5,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBronzeingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCScythebronze,
+        }
+    }
+    craftRecipe Make Copper Scythe
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:5,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCCopperingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCScythecopper,
+        }
+    }
+    fixing Fix Steel Halberd
+    {
+        Require = Hydrocraft.HCHalberdsteel,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron Halberd
+    {
+        Require = Hydrocraft.HCHalberdiron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+    fixing Fix Bronze Halberd
+    {
+        Require = Hydrocraft.HCHalberdbronze,
+        Fixer = Hydrocraft.HCBronzeingot,
+    }
+    fixing Fix Copper Halberd
+    {
+        Require = Hydrocraft.HCHalberdcopper,
+        Fixer = Hydrocraft.HCCopperingot,
+    }
+    fixing Fix Steel Spear
+    {
+        Require = Hydrocraft.HCSpearsteel,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron Spear
+    {
+        Require = Hydrocraft.HCSpeariron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+    fixing Fix Bronze Spear
+    {
+        Require = Hydrocraft.HCSpearbronze,
+        Fixer = Hydrocraft.HCBronzeingot,
+    }
+    fixing Fix Copper Spear
+    {
+        Require = Hydrocraft.HCSpearcopper,
+        Fixer = Hydrocraft.HCCopperingot,
+    }
+    fixing Fix Steel Trident
+    {
+        Require = Hydrocraft.HCTridentsteel,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron Trident
+    {
+        Require = Hydrocraft.HCTridentiron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+    fixing Fix Bronze Trident
+    {
+        Require = Hydrocraft.HCTridentbronze,
+        Fixer = Hydrocraft.HCBronzeingot,
+    }
+    fixing Fix Copper Trident
+    {
+        Require = Hydrocraft.HCTridentcopper,
+        Fixer = Hydrocraft.HCCopperingot,
+    }
+    fixing Fix Steel Scythe
+    {
+        Require = Hydrocraft.HCScythesteel,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron Scythe
+    {
+        Require = Hydrocraft.HCScytheiron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+    fixing Fix Bronze Scythe
+    {
+        Require = Hydrocraft.HCScythebronze,
+        Fixer = Hydrocraft.HCBronzeingot,
+    }
+    fixing Fix Copper Scythe
+    {
+        Require = Hydrocraft.HCScythecopper,
+        Fixer = Hydrocraft.HCCopperingot,
+    }
+}

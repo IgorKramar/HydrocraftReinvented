@@ -1,0 +1,419 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCCombatknife
+    {
+
+		MaxRange	=	0.9,
+		WeaponSprite	=	HuntingKnife,
+		MinAngle	=	0.65,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	SmallBlade,
+		ConditionLowerChanceOneIn	=	10,
+		Weight	=	0.5,
+		SplatNumber	=	4,
+		PushBackMod	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	20,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		DisplayName	=	Combat Knife,
+		MinRange	=	0.61,
+		CloseKillMove = Jaw_Stab,
+		SwingTime	=	2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HuntingKnife,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   2,
+        EnduranceMod = 0.5,
+        BreakSound  =   BreakMetalItem,
+        MetalValue = 30,
+        CriticalChance	=	70,
+        CritDmgMultiplier = 5,
+        MinDamage	=	0.8,
+        MaxDamage	=	1.8,
+	 	WeaponLength = 0.25,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	BladeHit,
+        ImpactSound	=	BladeHit,
+		HitSound	=	BladeHit,
+		AttachmentType = Knife,
+        Tags = CutPlant;SharpKnife,
+		DisplayCategory	= WepMelee,
+    }
+    item HCKnifesteel
+    {
+
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	SmallBlade,
+		ConditionLowerChanceOneIn			=	20,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.6,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Steel Knife,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCKnifesteel,
+		RunAnim						=	Run_Weapon2,
+        IdleAnim					=	Idle_Weapon2,
+        BreakSound  					=   	BreakMetalItem,
+        TreeDamage  					=   	1,
+        EnduranceMod 					= 	0.5,
+        AttachmentType = Knife,
+		DisplayCategory	= WepMelee,
+    }
+    item HCKnifeiron
+    {
+
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	SmallBlade,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.6,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Iron Knife,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCKnifeiron,
+		RunAnim						=	Run_Weapon2,
+        IdleAnim					=	Idle_Weapon2,
+        BreakSound  					=   	BreakMetalItem,
+        TreeDamage  					=   	1,
+        EnduranceMod 					= 	0.5,
+        AttachmentType 				= Knife,
+		DisplayCategory	= WepMelee,
+    }
+    item HCDaggersteel
+    {
+
+		MaxRange					=	0.9,
+		WeaponSprite				=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime			=	2,
+		KnockBackOnNoDeath			=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories					=	SmallBlade,
+		ConditionLowerChanceOneIn	=	20,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.7,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax				=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon			=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight				=	1.7,
+		DisplayName					=	Steel Dagger,
+		MinRange					=	0.61,
+		CloseKillMove 				= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod				=	0,
+		SplatBloodOnNoDeath			=	TRUE,
+		Icon						=	HCDaggersteel,
+		RunAnim						=	Run_Weapon2,
+        IdleAnim					=	Idle_Weapon2,
+        TreeDamage  				= 	2,
+        EnduranceMod 				= 	0.5,
+        AttachmentType 				= Knife,
+		DisplayCategory				= WepMelee,
+    }
+    item HCDaggeriron
+    {
+
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	SmallBlade,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.7,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Iron Dagger,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCDaggeriron,
+		RunAnim						=	Run_Weapon2,
+        IdleAnim					=	Idle_Weapon2,
+        TreeDamage  					=   	2,
+        EnduranceMod 					= 	0.5,
+        AttachmentType 				= Knife,
+		DisplayCategory				= WepMelee,
+    }
+    item HCConanSword
+    {
+
+		DisplayName					=	Conan Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	LongBlade,
+		WeaponSprite				=	Hydrocraft.HCConanSword,
+		SwingAnim					=	Bat,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCLongswordsteel,
+		HitFloorSound				=	KatanaHit,
+		ImpactSound					=	KatanaHit,
+		DoorHitSound 				= 	KatanaHit,
+		HitSound					= 	KatanaHit,
+		SwingSound 					= 	KatanaSwing,
+		Weight						=	1,
+		WeaponWeight				=	1,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	5,
+		MinDamage					=	2,
+		CriticalChance				=	50,
+		DoorDamage					=	10,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath			=	TRUE,
+		KnockdownMod				=	2.25,
+		ConditionLowerChanceOneIn	=	10,
+		ConditionMax				=	50,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath			=	TRUE,
+		SwingTime					=	1,
+		MinimumSwingTime			=	3,
+		SwingAmountBeforeImpact		=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 				= 	TRUE,
+		BreakSound  				=   KatanaBreak,
+		TreeDamage  				=   10,
+		AttachmentType 				= 	BigBlade,
+		BaseSpeed					=	1,
+		WeaponLength				=	0.4,
+		DamageCategory				=	Slash,
+		DamageMakeHole				=	TRUE,
+		CritDmgMultiplier			=	6,
+		DisplayCategory				= WepMelee,
+    }
+    craftRecipe Tape Hedgetrimmer Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Survivalist,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHedgetrimmerblade],
+            item 1 [Base.DuctTape;Base.Scotchtape;Hydrocraft.HCMaskingtape;Hydrocraft.HCPackingtape;Hydrocraft.HCElectrictape],
+        }
+        outputs
+        {
+            item 1 Base.Machete,
+        }
+    }
+    craftRecipe Make Steel Knife
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:1,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCKnifesteel,
+        }
+    }
+    craftRecipe Make Iron Knife
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:1,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCKnifeiron,
+        }
+    }
+    craftRecipe Make Steel Dagger
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDaggersteel,
+        }
+    }
+    craftRecipe Make Iron Dagger
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDaggeriron,
+        }
+    }
+    craftRecipe Make Conan Sword
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:4,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCConanSword,
+        }
+    }
+    fixing Fix Kitchen Knife
+    {
+        Require = Base.KitchenKnife,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Steel Knife
+    {
+        Require = Hydrocraft.HCKnifesteel,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron Knife
+    {
+        Require = Hydrocraft.HCKnifeiron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+    fixing Fix Steel Dagger
+    {
+        Require = Hydrocraft.HCDaggersteel,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron Dagger
+    {
+        Require = Hydrocraft.HCDaggeriron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+    fixing Fix Conan Sword
+    {
+        Require = Hydrocraft.HCConanSword,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+}

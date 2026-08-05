@@ -1,0 +1,38 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCRingsteel
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Steel Ring,
+        icon 			= HCRingsteel,
+	DisplayCategory	= CraftGem,
+        WorldStaticModel = Ring_Silver_Ground,
+    }
+    craftRecipe Make Steel Ring
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCRingmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCRingsteel,
+        }
+    }
+}

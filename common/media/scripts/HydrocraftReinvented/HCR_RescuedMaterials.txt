@@ -1,0 +1,1240 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCPigeondead
+    {
+
+      	Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+      	DaysFresh			=	2,
+        MinutesToCook			=	20,
+      	FoodType    			=   	Game,
+	Weight 				= 	0.2,
+	DisplayName 			= 	Dead Pigeon,
+	Icon				=	HCPigeondead,
+	Carbohydrates 			= 	0,
+    Proteins 			= 	36,
+    Lipids 				= 	15,
+    Calories 			= 	284,
+    HungerChange		=	-15,
+	DisplayCategory          =   AnimalDead,
+    }
+    item HCDuckdead
+    {
+
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+        FoodType    			=   	Game,
+	Weight 				= 	0.2,
+	DisplayName 			= 	Dead Duck,
+	Icon				=	HCDuckdead,
+	Carbohydrates 			= 	0,
+    Proteins 			= 	34,
+    Lipids 				= 	30,
+    Calories 			= 	422,
+    HungerChange		=	-35,
+	DisplayCategory          =   AnimalDead,
+    }
+    item HCRabbithutch
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Empty Rabbit Hutch,
+        icon 			= HCRabbithutch,
+	DisplayCategory          =   AnimalEnc,
+    }
+    item HCChickendead
+    {
+
+	Type				=	Food,
+	DangerousUncooked	=	TRUE,
+	DaysTotallyRotten	=	4,
+	MinutesToBurn		=	60,
+	DaysFresh			=	2,
+	MinutesToCook		=	30,
+	FoodType    		=   Meat,
+	Weight 				= 	0.3,
+	DisplayName 		= 	Dead Chicken,
+	Icon				=	HCChickendead,
+    Carbohydrates 		= 0,
+    Proteins 			= 18,
+    Lipids 				= 9,
+    Calories 			= 150,
+	HungerChange	=	-35,
+    BadInMicrowave = true,
+    GoodHot = true,
+    BadCold = true,
+	DisplayCategory          =   AnimalDead,
+    }
+    item HCChickendead2
+    {
+
+	Type				=	Food,
+	DangerousUncooked		=	TRUE,
+	DaysTotallyRotten		=	4,
+	MinutesToBurn			=	60,
+	DaysFresh			=	2,
+	MinutesToCook			=	30,
+	FoodType    			=   	Meat,
+	Weight 				= 	0.3,
+	DisplayName 			= 	Dead Chicken,
+	Icon				=	HCChickendead2,
+    Carbohydrates 		= 0,
+    Proteins 			= 18,
+    Lipids 				= 9,
+    Calories 			= 150,
+	HungerChange		=	-35,
+	DisplayCategory          =   AnimalDead,
+    }
+    item HCCoop
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Empty Chicken Coop,
+        icon 			= HCCoop,
+	DisplayCategory          =   AnimalEnc,
+    }
+    item HCCowmale
+    {
+
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Cow (Male),
+	Icon				=	HCCowmale,
+	DisplayCategory          =   Animal,
+    }
+    item HCPigpoopferal
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Feral Pig Poop,
+        icon 			= HCPigpoop,
+		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
+    }
+    item HCCowpoop
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Cow Poop,
+        icon 			= HCCowpoop,
+		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
+    }
+    item HCWoodenbucketmilk
+    {
+
+		HungerChange		= -40,
+		Weight				= 4.0,
+		Type				= Food,
+		ThirstChange		= -100,
+		DisplayName			= Wooden Bucket with Milk,
+		Icon				= HCWoodenbucketmilk,
+		DaysFresh			= 4,
+		DaysTotallyRotten	= 7,
+		CustomContextMenu	= Drink,
+		CustomEatSound		= DrinkingFromBottle,
+		FoodType			= NoExplicit,
+		Carbohydrates		= 52,
+		Proteins			= 32,
+		Lipids				= 10,
+		Calories			= 440,
+		CantBeFrozen		= TRUE,
+		ReplaceOnUse		= HCWoodenbucket,
+		DisplayCategory		= Cooking,
+		Tags				= Milk,
+    }
+    item HCShellpowder
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Shell Powder,
+        icon 			= HCShellpowder,
+		DisplayCategory          =   CraftBone,
+    }
+    item HCBone
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bone,
+        icon 			= HCBone,
+		DisplayCategory          =   CraftBone,
+    }
+    item HCZombiebones
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Zombie Bones,
+        icon 			= HCZombiebones,
+		DisplayCategory          =   CraftBone,
+    }
+    item HCDeerantlers
+    {
+
+        Weight    			= 	0.6,
+        Type    			= 	Normal,
+        DisplayName         		= 	Deer Antlers,
+        icon 				= 	HCDeerantlers,
+		DisplayCategory          =   CraftBone,
+    }
+    item HCZedbones
+    {
+
+	Weight 				= 	3,
+	Type 				= 	Normal,
+	DisplayName 			= 	Skeleton,
+	Icon				=	HCZedbones,
+		DisplayCategory          =   CraftBone,
+    }
+    item HCZedbonesheadless
+    {
+
+	Weight 				= 	2.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Headless Skeleton,
+	Icon				=	HCZedbonesheadless,
+		DisplayCategory          =   CraftBone,
+    }
+    item HCBoneneedle
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bone Needle,
+        icon 			= HCBoneneedle,
+		DisplayCategory          =   CraftTailor,
+    }
+    item HCFishhookbone
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bone Fishhook,
+        icon 			= HCFishhookbone,
+		DisplayCategory          =   SurFish,
+    }
+    item HCGluejar
+    {
+
+        Weight			=	0.2,
+        Type			=	Drainable,
+        UseDelta		=	0.2,
+        UseWhileEquipped	=	FALSE,
+        DisplayName		=	Jar of Glue,
+        Icon			=	HCClayjarsmall,
+	ReplaceOnDeplete	=	Hydrocraft.HCClayjarsmall,
+		DisplayCategory          =   CraftCarp,
+    }
+    item HCWoodgluejar
+    {
+
+        Weight			=	0.2,
+        Type	            	=	Drainable,
+       	UseDelta	        =	0.2,
+        UseWhileEquipped	=	FALSE,
+        DisplayName		=	Jar of Wood Glue,
+        Icon			=	HCClayjarsmall,
+	ReplaceOnDeplete	=	Hydrocraft.HCClayjarsmall,
+		DisplayCategory          =   CraftCarp,
+    }
+    item HCCompost
+    {
+
+    Weight        	= 0.2,
+    Type        	= Normal,
+    DisplayName    	= Compost,
+    icon        	= HCCompost,
+	DisplayCategory	= SurFarm,
+    }
+    item HCTar
+    {
+
+        Weight    		= 0.3,
+        Type    		= Drainable,
+        UseDelta	        = 0.2,
+        DisplayName         	= Tar,
+        icon 			= HCTar,
+	DisplayCategory          =   CraftChem,
+    }
+    item HCCoke
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Coke,
+        icon 			= HCCoke,
+	DisplayCategory          =   Fuel,
+    }
+    item HCGlasspane
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Glass Pane,
+        icon 			= HCGlasspane,
+		DisplayCategory	= CraftInd,
+    }
+    item HCGlasspanelarge
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Large Glass Pane,
+        icon 			= HCGlasspanelarge,
+		DisplayCategory	= CraftInd,
+    }
+    item HCMicroscopeslide
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     	= Microscope Slide,
+        icon 			= HCMicroscopeslide,
+		DisplayCategory	= CraftInd,
+    }
+    item HCWineglass
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Wine Glass,
+        icon 			= HCWineglass,
+		DisplayCategory	= CraftDist,
+    }
+    item HCGreybrickbox
+    {
+
+        Weight    		= 12.0,
+        Type   			= Normal,
+        DisplayName         	= Pallet of Grey Bricks,
+        icon 			= HCGreybrickbox,
+		DisplayCategory	= CraftMas,
+    }
+    item HCRefractorybrick
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Refractory Brick,
+        icon 			= HCRefractorybrick,
+		DisplayCategory	= CraftMas,
+    }
+    item HCSmelter
+    {
+
+        Weight              = 30.0,
+        Type                = Normal,
+        DisplayName         = Smelter,
+        icon                = HCSmelter,
+		DisplayCategory		= CraftMet,
+    }
+    item HCSmelter2
+    {
+
+        Weight              = 1000,
+        Type                = Container,
+        Capacity            = 100,
+        WeightReduction     = 0,
+        DisplayName         = Smelter,
+        icon 			    = HCSmelter,	
+		DisplayCategory		= CraftMet,
+    }
+    item HCBlastfurnace
+    {
+
+        Weight    		    = 30.0,
+        Type                = Normal,
+        DisplayName         = Blast Furnace,
+        icon 			    = HCBlastfurnace,
+		DisplayCategory		= CraftMet,
+    }
+    item HCBlastfurnace2
+    {
+
+        Weight              = 1000,
+        Type                = Container,
+        Capacity            = 100,
+        WeightReduction     = 0,
+        DisplayName         = Blast Furnace,
+        icon                = HCBlastfurnace,
+		DisplayCategory		= CraftMet,
+    }
+    item HCCopperingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Copper Ingot,
+        icon 			= HCCopperingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCTiningot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Tin Ingot,
+        icon 			= HCTiningot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCBronzeingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Bronze Ingot,
+        icon 			= HCBronzeingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCIroningot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Iron Ingot,
+        icon 			= HCIroningot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCInvaringot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Invar Ingot,
+        icon 			= HCInvaringot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCMagnetiteingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Magnetite Ingot,
+        icon 			= HCMagnetiteingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCSteelingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Steel Ingot,
+        icon 			= HCSteelingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCSSpringSteelIngot
+    {
+
+        Weight          = 0.5,
+        Type            = Normal,
+        DisplayName             = Spring Steel Ingot,
+        icon            = HCSteelingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCLeadingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Lead Ingot,
+        icon 			= HCLeadingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCPewteringot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName     = Pewter Ingot,
+        icon 			= HCPewteringot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCAluminumingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName     = Aluminum Ingot,
+        icon 			= HCAluminumingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCSilveringot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Silver Ingot,
+        icon 			= HCSilveringot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCGoldingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Gold Ingot,
+        icon 			= HCGoldingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCElectrumingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Electrum Ingot,
+        icon 			= HCElectrumingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCZincingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Zinc Ingot,
+        icon 			= HCZincingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCConstantaningot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Constantan Ingot,
+        icon 			= HCConstantaningot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCNichromeingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Nichrome Ingot,
+        icon 			= HCNichromeingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCKanthalingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Kanthal Ingot,
+        icon 			= HCKanthalingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCTitaniumingot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Titanium Ingot,
+        icon 			= HCTitaniumingot,
+		DisplayCategory		= CraftMet,
+    }
+    item HCAnvil
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Iron Anvil,
+        icon 			= HCAnvil,
+		DisplayCategory		= CraftMet,
+    }
+    item HCAnvil2
+    {
+
+        Weight    		= 10000,
+        Type                = Container,
+        Capacity            = 20,
+        WeightReduction     = 0,
+        DisplayName         	= Iron Anvil,
+        icon 			= HCAnvil,
+		DisplayCategory		= CraftMet,
+    }
+    item HCAnvillead
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Lead Anvil,
+        icon 			= HCAnvillead,
+		DisplayCategory		= CraftMet,
+    }
+    item HCAnvillead2
+    {
+
+        Weight    		= 10000,
+        Type                = Container,
+        Capacity            = 20,
+        WeightReduction     = 0,
+        DisplayName         	= Lead Anvil,
+        icon 			= HCAnvillead,
+		DisplayCategory		= CraftMet,
+    }
+    item HCCauldroniron
+    {
+
+    Weight    		= 5,
+	CanStoreWater	= TRUE,
+    Type    		= Normal,
+    DisplayName     = Iron Cauldron,
+	ReplaceOnUseOn	= WaterSource-HCCauldronironfull,
+    RainFactor      = 1,
+    Tooltip         = Tooltip_item_RainFromGround,
+    icon 			= HCCauldroniron,
+		DisplayCategory		= CraftMet,
+    }
+    item HCCauldronironfull
+    {
+
+	IsWaterSource		=	TRUE,
+	Weight			=	9,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.0125,
+	DisplayName		=	Iron Cauldron with Water,
+	ReplaceOnDeplete	=	HCCauldroniron,
+	ReplaceOnUseOn		=	WaterSource-HCCauldronironfull,
+	Icon			=	HCCauldronironfull,
+	IsCookable		=	TRUE,
+	RainFactor 		= 	1,
+		DisplayCategory		= CraftMet,
+    }
+    item HCBulletcasings
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Bullet Casings,
+        icon 			= HCBulletcasings,
+		DisplayCategory		= CraftAmmo,
+    }
+    item HCBullettips
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Bullet Tips,
+        icon 			= HCBullettips,
+		DisplayCategory		= CraftAmmo,
+    }
+    item HCBuckshot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Buckshot,
+        icon 			= HCBuckshot,
+		DisplayCategory		= CraftAmmo,
+    }
+    item HCGreyclay
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Grey Clay,
+        icon 			= HCGreyclay,
+	DisplayCategory 	= Mineral,
+    }
+    item HCRedclay
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Red Clay,
+        icon 			= HCRedclay,
+	DisplayCategory 	= Mineral,
+    }
+    item HCIngotmold
+    {
+
+    Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+    DisplayName     = Ingot Mold,
+    icon 			= HCIngotmold,
+		DisplayCategory = CraftMet,
+    }
+    item HCRingmold
+    {
+
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Ring Mold,
+        icon 			= HCNailmold,
+		DisplayCategory = CraftMet,
+    }
+    item HCGearmold
+    {
+
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Gear Mold,
+        icon 			= HCNailmold,
+		DisplayCategory = CraftMet,
+    }
+    item HCBungmold
+    {
+
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Bung Mold,
+        icon 			= HCIngotmold,
+		DisplayCategory = CraftMet,
+    }
+    item HCGiantmagnetmold
+    {
+
+        Weight    		= 3,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Giant Magnet Mold,
+        icon 			= HCGiantmagnetmold,
+		DisplayCategory = CraftMet,
+    }
+    item HCBowBoltMold
+    {
+
+    Weight          = 0.5,
+    Type            = Drainable,
+    UseDelta        = 0.1,
+    DisplayName     = Bolt Mold,
+    icon            = HCNailmold,
+		DisplayCategory = CraftMet,
+    }
+    item HCArrowheadMold
+    {
+
+    Weight          = 0.5,
+    Type            = Drainable,
+    UseDelta        = 0.1,
+    DisplayName     = Arrow Head Mold,
+    icon            = HCNailmold,
+		DisplayCategory = CraftMet,
+    }
+    item HCClayflowerpot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Clay Flowerpot,
+        icon 			= HCClayflowerpot,
+		DisplayCategory = CraftMas,
+    }
+    item HCClayjarsmall
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Small Clay Jar,
+        icon 			= HCClayjarsmall,
+		DisplayCategory = CraftMas,
+    }
+    item HCClaypipesmoking
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Clay Smoking Pipe,
+        icon 			= HCClaypipesmoking,
+		DisplayCategory = CraftMas,
+    }
+    item HCClaycauldron
+    {
+
+    Weight    		= 4,
+	CanStoreWater	= TRUE,
+    Type    		= Normal,
+    DisplayName     = Clay Cauldron,
+	ReplaceOnUseOn	= WaterSource-HCClaycauldronfull,
+    RainFactor      = 1,
+    Tooltip         = Tooltip_item_RainFromGround,
+    icon 			= HCClaycauldron,
+		DisplayCategory = CraftMas,
+    }
+    item HCClayurn
+    {
+
+        WeightReduction     	= 10,
+        Weight    		= 3,
+        Type                	= Container,
+        Capacity            	= 20,
+        DisplayName         	= Clay Urn,
+        icon 			= HCClayurn,
+		DisplayCategory = CraftMas,
+    }
+    item HCClayteapotfull
+    {
+
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Full Clay Teapot,
+	ReplaceOnDeplete	=	HCClayteapot,
+	ReplaceOnUseOn		=	WaterSource-HCClayteapotfull,
+	Icon			=	HCClayteapot,
+	IsCookable		=	TRUE,
+	RainFactor 		= 	1,
+		DisplayCategory = CraftMas,
+    }
+    item HCClaymug
+    {
+
+        Weight    		= 0.2,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Clay Mug,
+	ReplaceOnUseOn		= WaterSource-HCClaymugfull,
+        icon 			= HCClaymug,
+	RainFactor 		= 0.2,
+		DisplayCategory = CraftMas,
+    }
+    item HCClaymugfull
+    {
+
+	IsWaterSource		=	TRUE,
+	Weight			=	1,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Full Clay Mug,
+	ReplaceOnDeplete	=	HCClaymug,
+	ReplaceOnUseOn		=	WaterSource-HCClaymugfull,
+	Icon			=	HCClaymug,
+	RainFactor 		= 	0.2,
+		DisplayCategory = CraftMas,
+    }
+    item HCClaytablet
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Clay Tablet,
+        icon 			= HCClaytablet,
+		DisplayCategory = CraftMas,
+    }
+    item HCWaxrecycled
+    {
+
+        Weight    		=    	0.1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Recyled Wax,
+        Icon    		=    	HCWaxrecycled,
+		DisplayCategory = SurApi,
+    }
+    item HCWaterbottleclean
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Clean Plastic Bottle,
+	Icon			=	HCWaterbottleclean,
+		DisplayCategory = Craft,
+    }
+    item HCWaterbottlecutoff
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Cut Off Plastic Bottle,
+	Icon			=	HCWaterbottlecutoff,
+		DisplayCategory = Craft,
+    }
+    item HCTrashbottle
+    {
+
+        Weight                  =    	0.1,
+        Type                    =    	Normal,
+        DisplayName       	=    	Empty Plastic Bottle,
+        Icon                    =    	HCTrashbottle,
+		DisplayCategory = Craft,
+    }
+    item HCChickenwire
+    {
+
+        Weight 			= 	1,
+        Type 			= 	Normal,
+        DisplayName 		= 	Chicken Wire,
+        Icon 			= 	HCChickenwire,
+		DisplayCategory = Craft,
+    }
+    item HCLeafSpring
+    {
+
+        Weight          = 2.0,
+        Type            = Normal,
+        DisplayName     = Leaf spring,
+        icon            = HCLeafSpring,
+		DisplayCategory		=	CraftMet,
+    }
+    item HCCrank
+    {
+
+	Weight				=	0.5,
+	Type				=	Normal,
+	DisplayName			=	Steel Crank,
+	Icon				=	HCCrank,
+		DisplayCategory		=	CraftMet,
+    }
+    item HCCrankiron
+    {
+
+	Weight				=	0.5,
+	Type				=	Normal,
+	DisplayName			=	Iron Crank,
+	Icon				=	HCCrankiron,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCLever
+    {
+
+	Weight				=	0.5,
+	Type				=	Normal,
+	DisplayName			=	Lever,
+	Icon				=	HCLever,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCIronrod
+    {
+
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Iron Rod,
+	Icon				=	HCIronrod,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCSteelrod
+    {
+
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Steel Rod,
+	Icon				=	HCSteelrod,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCTitaniumrod
+    {
+
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Titanium Rod,
+	Icon				=	HCTitaniumrod,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCGraphiterod
+    {
+
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Graphite Rod,
+	Icon				=	HCGraphiterod,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCIronpole
+    {
+
+        Weight    		        = 4,
+        Type    		        = Normal,
+	DisplayName			= Iron Pole,
+	Icon				= HCIronpole,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCSteelpole
+    {
+
+        Weight    		        = 4,
+        Type    		        = Normal,
+	DisplayName			= Steel Pole,
+	Icon				= HCSteelpole,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCMetalringiron
+    {
+
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Large Iron Ring,
+	Icon				=	HCMetalringiron,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCMetalring
+    {
+
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Large Steel Ring,
+	Icon				=	HCMetalring,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCSteelbeam
+    {
+
+	Weight				=	4,
+	Type				=	Normal,
+	DisplayName			=	Steel Beam,
+	Icon				=	HCSteelbeam,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCCoppersheet
+    {
+
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Copper Sheet,
+	Icon				=	HCCoppersheet,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCCoppersheetlarge
+    {
+
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Copper Sheet,
+	Icon				=	HCCoppersheetlarge,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCTinboard
+    {
+
+	Weight				=	0.3,
+	Type				=	Normal,
+	DisplayName			=	Small Tin Sheet,
+	Icon				=	HCTinboard,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCIronboard
+    {
+
+	Weight				=	0.3,
+	Type				=	Normal,
+	DisplayName			=	Small Iron Sheet,
+	Icon				=	HCIronboard,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCIronsheet
+    {
+
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Iron Sheet,
+	Icon				=	HCIronsheet,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCSteelboard
+    {
+
+	Weight				=	0.3,
+	Type				=	Normal,
+	DisplayName			=	Small Steel Sheet,
+	Icon				=	HCSteelboard,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCSteelsheet
+    {
+
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Steel Sheet,
+	Icon				=	HCSteelsheet,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCSteelsheetlarge
+    {
+
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Steel Sheet,
+	Icon				=	HCSteelsheetlarge,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCLargesheetmetal
+    {
+
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Aluminum Sheet,
+	Icon				=	HCLargesheetmetal,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCTitaniumsheet
+    {
+
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Titanium Sheet,
+	Icon				=	HCTitaniumsheet,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCTitaniumsheetlarge
+    {
+
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Titanium Sheet,
+	Icon				=	HCTitaniumsheetlarge,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCCopperpipe
+    {
+
+        Weight 			= 	1.25,
+        Type 			= 	Normal,
+        DisplayName 		= 	Copper Pipe,
+        Icon 			= 	HCCopperpipe,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCBrasssheet
+    {
+
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Brass Sheet,
+	Icon				=	HCBrasssheet,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCSteelpipe
+    {
+
+		MaxRange			=	1.3,
+		WeaponSprite			=	LeadPipe,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath 		= 	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		Weight				=	1.5,
+		ConditionLowerChanceOneIn	=	70,
+		PushBackMod			=	0.5,
+		MinDamage			=	0.6,
+		MaxDamage			=	1.1,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	1,
+		DoorDamage			=	8,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	4,
+		DisplayName			=	Steel Pipe,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		KnockdownMod			=	0,
+		Icon				=	HCSteelpipe,
+		RunAnim				=	Run_Weapon2,
+		BreakSound  			=   	BreakMetalItem,
+		TreeDamage  			=   	1,
+	DisplayCategory		=	CraftMet,
+    }
+    item HCSawstone
+    {
+
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Stone Saw,
+        icon 			= HCSawstone,
+		DisplayCategory	= Tool,
+    }
+    item HCChisel
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Hand Chisel,
+        icon 			= HCChisel,
+		DisplayCategory	= Tool,
+    }
+    item HCWell
+    {
+
+        Weight    		= 15,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Empty Well,
+	ReplaceOnUseOn		= WaterSource-HCWellfull,
+        icon 			= HCWell,
+		DisplayCategory	= CraftMas,
+	RainFactor 		= 0.01,
+    }
+    item HCOilpress
+    {
+
+        Weight    		= 25,
+        Type    		= Normal,
+        DisplayName         	= Oil Press,
+        icon 			= HCOilpress,
+		DisplayCategory	= CraftMas,
+    }
+    item HCOilpress2
+    {
+
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Oil Press,
+        icon 			= HCOilpress,
+		DisplayCategory	= CraftMas,
+    }
+    item HCStonewheel
+    {
+
+        Weight    		= 5,
+        Type    		= Normal,
+        DisplayName         	= Stone Wheel,
+        icon 			= HCStonewheel,
+		DisplayCategory	= CraftMas,
+    }
+    item HCWoodenbucketsand
+    {
+
+	Weight			=	10,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.25,
+	DisplayName		=	Wooden Bucket with Sand,
+	ReplaceOnDeplete	=	HCWoodenbucket,
+	Icon			=	HCWoodenbucketsand,
+		DisplayCategory	= CraftMas,
+    }
+    item HCAnvilstone
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName     = Stone Anvil,
+        icon 			= HCAnvilstone,
+		DisplayCategory	= CraftMet,
+    }
+    item HCAnvilstone2
+    {
+
+        Weight    		= 1000,
+        Type                = Container,
+        Capacity            = 5,
+        WeightReduction     = 0,
+        DisplayName         = Stone Anvil,
+        icon            = HCAnvilstone,
+		DisplayCategory	= CraftMet,
+    }
+}

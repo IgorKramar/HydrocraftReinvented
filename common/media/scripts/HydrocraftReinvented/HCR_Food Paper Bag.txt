@@ -1,0 +1,73 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCFoodInPaperBag
+    {
+
+		HungerChange		=	0,
+		Weight				=	0.4,
+		Type				=	Food,
+		UnhappyChange		=	0,
+		DisplayName			=	Bag of Food,
+		DaysTotallyRotten	=	5,
+		DaysFresh 			= 	2,
+		Icon				=	Paperbag,
+		IsCookable			=	FALSE,
+		DangerousUncooked	=	FALSE,
+		FoodType    		=	NoExplicit,
+		Carbohydrates 		= 	0,
+		Proteins 			= 	0,
+		Lipids 				= 	0,
+		Calories 			= 	0,
+		DisplayCategory		=	FoodP,
+		ReplaceOnUse		=	Base.PaperBag,
+		Tags				=	PaperBagFull,
+    }
+    craftRecipe Make Paper Bag
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+        }
+        outputs
+        {
+            item 1 Base.PaperBag,
+        }
+    }
+    craftRecipe Serve in Paper Bag
+    {
+        time = 85,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.Recipe_OnCreate_TransferToPaperBag_GiveRoastingPan,
+        inputs
+        {
+            item 1 tags[ServeInPaperBag] mode:keep,
+            item 1 [Base.PaperBag;Base.Paperbag_Spiffos;Base.Paperbag_Jays;Hydrocraft.HCPaperbag],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFoodInPaperBag,
+        }
+    }
+    craftRecipe Empty Paper Bag
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 tags[PaperBagFull] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaperBag, /*Only gives a vanilla paper bag, regardless of the paper bag used originally.*/,
+        }
+    }
+}

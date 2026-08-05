@@ -1,0 +1,133 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCRatpoison
+    {
+
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Rat Poison,
+        icon 				= HCRatpoison,
+		DisplayCategory		=   Useless,
+    }
+    item HCRatpoisonbox
+    {
+
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Box of Rat Poison,
+        icon 				= HCRatpoisonbox,
+		DisplayCategory		=   Useless,
+    }
+    item HCBugspraycan
+    {
+
+        Weight    			= 0.1,
+	Type				= Drainable,
+	UseDelta			= 0.25,
+        DisplayName         		= Can of Bug Spray,
+        icon 				= HCBugspraycan,
+		DisplayCategory		=   SurFarm,
+    }
+    item HCBugsprayer
+    {
+
+	Weight				= 6.5,
+	Type				= Drainable,
+	UseDelta			= 0.125,
+        DisplayName         		= Bug Sprayer,
+        icon 				= HCBugsprayer,
+	ReplaceOnDeplete		= HCBugsprayerempty,
+		DisplayCategory		=   SurFarm,
+    }
+    item HCBugsprayerempty
+    {
+
+        Weight    			= 6.0,
+        Type    			= Normal,
+        DisplayName         		= Empty Bug Sprayer,
+        icon 				= HCBugsprayer,
+		DisplayCategory		=   SurFarm,
+    }
+    craftRecipe Box Rat Poison
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCRatpoison],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRatpoisonbox,
+        }
+    }
+    craftRecipe Unbox Rat Poison
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRatpoisonbox],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCRatpoison,
+        }
+    }
+    craftRecipe Refill Bug Sprayer
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPoison],
+            item 1 [Hydrocraft.HCBugsprayerempty],
+            item 1 [Hydrocraft.HCHandpump;Hydrocraft.HCFunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBugsprayer,
+        }
+    }
+    craftRecipe Refill Bug Sprayer
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanpoison],
+            item 1 [Hydrocraft.HCBugsprayerempty],
+            item 1 [Hydrocraft.HCHandpump;Hydrocraft.HCFunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBugsprayer,
+        }
+    }
+    craftRecipe Refill Bug Sprayer
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCDetergentpoison],
+            item 1 [Hydrocraft.HCBugsprayerempty],
+            item 1 [Hydrocraft.HCHandpump;Hydrocraft.HCFunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBugsprayer,
+        }
+    }
+}

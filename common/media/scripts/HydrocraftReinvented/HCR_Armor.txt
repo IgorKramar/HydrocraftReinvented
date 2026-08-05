@@ -1,0 +1,2542 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCEquiparmor
+    {
+
+        Weight    		= 0.0,
+        Type    		= Normal,
+        DisplayName         	= Equip Armor,
+        icon 			= HCEquiparmor,
+    }
+    item HCHardhat
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Hard Hat,
+        icon 			= HCHardhat,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCHelmbike
+    {
+
+	Weight    		= 1.1,
+	Type    		= Normal,
+	DisplayName		= Bike Helmet,
+	Icon			= HCHelmbike,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCHelmfootball
+    {
+
+	Weight    		= 1.5,
+	Type    		= Normal,
+	DisplayName		= Football Helmet,
+	Icon			= HCHelmfootball,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCHockeymask
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Hockey Mask,
+        icon 			= HCHockeymask,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCHelmmotorcycle
+    {
+
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = HC_Helmetmotorcycle,
+		BodyLocation = base:fullhat,
+		Icon = HCHelmetmotorcycle,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 1.0,
+        WindResistance  = 1.0,
+		Tooltip 		= Tooltip_HCArmor,
+    }
+    item HCHelmkevlar
+    {
+
+	Weight    		= 2.1,
+	Type    		= Normal,
+	DisplayName		= Kevlar Helmet,
+	Icon			= HCHelmkevlar,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCHelmswat
+    {
+
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= SWAT Helmet,
+        icon 			= HCHelmswat,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCHelmriot
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Riot Helmet,
+        icon 			= HCHelmriot,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCHelmsamurai
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Samurai Helmet,
+        icon 			= HCHelmsamurai,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCHelmsteel
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Helmet,
+        icon 			= HCHelmsteel,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCHelmiron
+    {
+
+		Weight    		 = 2.0,
+		Type             = Clothing,
+		ClothingItem     = HCHelmiron,
+		BodyLocation     = base:hat,
+		DisplayName      = Iron Helmet,
+		icon 			 = HCHelmiron,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		BloodLocation    = Head,
+		CanHaveHoles     = false,
+        BiteDefense      = 100,
+        ScratchDefense   = 100,
+        ChanceToFall     = 0,
+        Insulation       = 0.8,
+        WindResistance   = 0.8,
+		WorldStaticModel = Hydrocraft.HCHelmiron,
+    }
+    item HCHelmbronze
+    {
+
+		Weight    		 = 2.0,
+		Type             = Clothing,
+		ClothingItem     = HCHelmbronze,
+		BodyLocation     = base:hat,
+		DisplayName      = Bronze Helmet,
+		icon 			 = HCHelmbronze,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		BloodLocation    = Head,
+		CanHaveHoles     = false,
+        BiteDefense      = 100,
+        ScratchDefense   = 100,
+        ChanceToFall     = 0,
+        Insulation       = 0.8,
+        WindResistance   = 0.8,
+		WorldStaticModel = Hydrocraft.HCHelmbronze,
+    }
+    item HCHelmcopper
+    {
+
+		Weight    		 = 2.0,
+		Type             = Clothing,
+		ClothingItem     = HCHelmcopper,
+		BodyLocation     = base:hat,
+		DisplayName      = Copper Helmet,
+		icon 			 = HCHelmcopper,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		BloodLocation    = Head,
+		CanHaveHoles     = false,
+        BiteDefense      = 100,
+        ScratchDefense   = 100,
+        ChanceToFall     = 0,
+        Insulation       = 0.8,
+        WindResistance   = 0.8,
+		WorldStaticModel = Hydrocraft.HCHelmcopper,
+    }
+    item HCHelmcookingpot
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Cooking Pot Helmet,
+        icon 			= HCHelmcookingpot,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCHelmbucket
+    {
+
+	Weight    		= 1.0,
+	Type    		= Normal,
+	DisplayName		= Bucket Helmet,
+	Icon			= HCHelmbucket,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCOvenmitts
+    {
+
+        DisplayCategory 		= Accessory,
+		Type 					= Clothing,	
+        DisplayName         	= Oven Mitts,		
+		ClothingItem 			= HC_OvenMitts,
+		BodyLocation 			= base:hands,
+		BloodLocation 			= Hands,		
+        Weight    				= 0.1,
+        Icon 					= HCOvenmitts,		
+		ScratchDefense 			= 10,
+        CombatSpeedModifier 	= 0.90,		
+        BiteDefense 			= 10,
+        Weight 					= 0.1,
+        Insulation 				= 1.0,
+        WindResistance 			= 1.0,
+        FabricType 				= Cotton,
+        WorldStaticModel 		= WorldItem-HCOvenMitt,
+		Tooltip 				= Tooltip_HCArmor,
+    }
+    item HCWorkgloves
+    {
+
+		DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Work Gloves,
+        ClothingItem = Gloves_LeatherGloves,
+        BodyLocation = base:hands,
+        IconsForTexture = GlovesLeatherBlackpng;GlovesLeatherBrown,
+        BloodLocation = Hands,
+        ScratchDefense = 30,
+        BiteDefense = 15,
+        Weight = 0.1,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Leather,
+        WorldStaticModel = Gloves_Ground,
+    }
+    item HCGardengloves
+    {
+
+        Weight    		= 0.25,
+        Type    		= Normal,
+        DisplayName         	= Garden Gloves,
+        icon 			= HCGardengloves,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCGlovekevlar
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Kevlar Gloves,
+        icon 			= HCGlovekevlar,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCGloveriot
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Riot Gloves,
+        icon 			= HCGloveriot,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCGlovechainmail
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Chainmail Gloves,
+        icon 			= HCGlovechainmail,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCGlovesteel
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Gauntlets,
+        icon 			= HCGlovesteel,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCGloveiron
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Iron Gauntlets,
+        icon 			= HCGloveiron,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCGlovebronze
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bronze Gauntlets,
+        icon 			= HCGlovebronze,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCGlovecopper
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bronze Gauntlets,
+        icon 			= HCGlovebronze,
+	    Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCGlovestuddedleather
+    {
+
+        Weight    		= 0.50,
+        Type    		= Normal,
+        DisplayName         	= Studded Leather Gloves,
+        icon 			= HCGlovestuddedleather,
+	    Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCGlovesHardLeather
+    {
+
+        Type = Clothing,
+        DisplayName = Hardened Leather Gloves,
+        ClothingItem = HCGlovesHardLeather,
+        icon         = HCGlovecord,
+        BodyLocation = base:hands,
+        BloodLocation = Hands,
+        ScratchDefense = 100,
+        BiteDefense = 70,
+        Weight = 0.3,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        FabricType = Leather,
+		DisplayCategory          =   ClothP,
+    }
+    item HCGlovecord
+    {
+
+        Weight    		= 0.25,
+        Type    		= Normal,
+        DisplayName         	= Cord Gloves,
+        icon 			= HCGlovecord,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorkevlar
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName    = Kevlar Arm Guards,
+        icon 			= HCArmarmorkevlar,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorswat
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= SWAT Arm Guards,
+        icon 			= HCArmarmorswat,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorriot
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Riot Arm Guards,
+        icon 			= HCArmarmorriot,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorpaintball
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Paintball Arm Guards,
+        icon 			= HCArmarmorpaintball,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorsamurai
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Samurai Arm Guards,
+        icon 			= HCArmarmorsamurai,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorlamellar
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Lamellar Arm Guards,
+        icon 			= HCArmarmorlamellar,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorsteel
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Arm Guards,
+        icon 			= HCArmarmorsteel,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmoriron
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Iron Arm Guards,
+        icon 			= HCArmarmoriron,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorbronze
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Bronze Arm Guards,
+        icon 			= HCArmarmorbronze,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorcopper
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Copper Arm Guards,
+        icon 			= HCArmarmorcopper,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorstuddedleather
+    {
+
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= Studded Leather Arm Guards,
+        icon 			= HCArmarmorstuddedleather,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorhardenedleather
+    {
+
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= Hardened Leather Arm Guards,
+        icon 			= HCArmarmorhardenedleather,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorleather
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Leather Arm Guards,
+        icon 			= HCArmarmorleather,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorhide
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Hide Arm Guards,
+        icon 			= HCArmarmorhide,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorpadded
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Padded Arm Guards,
+        icon 			= HCArmarmorpadded,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorbone
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bone Arm Guards,
+        icon 			= HCArmarmorbone,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorbamboo
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bamboo Arm Guards,
+        icon 			= HCArmarmorbamboo,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorlog
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Log Arm Guards,
+        icon 			= HCArmarmorlog,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmortire
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Tire Arm Guards,
+        icon 			= HCArmarmortire,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmarmorbubblewrap
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Bubble Wrap Arm Guards,
+        icon 			= HCArmarmorbubblewrap,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmormilitaryjacket
+    {
+
+	Weight    		= 1.8,
+	Type    		= Normal,
+	DisplayName		= Military Jacket,
+	Icon			= HCArmormilitaryjacket,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorlightjacket
+    {
+
+	Weight    		= 0.8,
+	Type    		= Normal,
+	DisplayName		= Light Jacket,
+	Icon			= HCArmorlightjacket,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorleatherjacket
+    {
+
+	Weight    		= 1.5,
+	Type    		= Normal,
+	DisplayName		= Leather Jacket,
+	Icon			= HCArmorleatherjacket,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorkevlar
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Kevlar Armor,
+        icon 			= HCArmorkevlar,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorswat
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= SWAT Armor,
+        icon 			= HCArmorswat,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorriot
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Riot Armor,
+        icon 			= HCArmorriot,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorparamedic
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Paramedic Armor,
+        icon 			= HCArmorparamedic,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorpaintball
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Paintball Armor,
+        icon 			= HCArmorpaintball,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorsamurai
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Samurai Armor,
+        icon 			= HCArmorsamurai,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorlamelar
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Lamelar Armor,
+        icon 			= HCArmorlamelar,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorchainmail
+    {
+
+        Weight    		= 10.0,
+        Type    		= Normal,
+        DisplayName         	= Chainmail Armor,
+        icon 			= HCArmorchainmail,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorscalemail
+    {
+
+        Weight    		= 10.0,
+        Type    		= Normal,
+        DisplayName         	= Scalemail Armor,
+        icon 			= HCArmorscalemail,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorsteel
+    {
+
+        Weight    		= 10.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Armor,
+        icon 			= HCArmorsteel,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmoriron
+    {
+
+		Type             = Clothing,
+		ClothingItem     = HCArmoriron,
+		BodyLocation     = base:torsoextra,
+		BloodLocation    = ShirtNoSleeves,
+        Weight    		 = 10.0,
+        DisplayName      = Iron Armor,
+        Icon 			 = HCArmoriron,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		Insulation       = 0.3,
+        WindResistance   = 0.25,
+        BiteDefense      = 90,
+        ScratchDefense   = 90,
+        BulletDefense    = 50,
+		RunSpeedModifier = 0.75,
+        WorldStaticModel = BulletVest_Ground,
+    }
+    item HCArmorbronze
+    {
+
+		Type             = Clothing,
+		ClothingItem     = HCArmorbronze,
+		BodyLocation     = base:torsoextra,
+		BloodLocation    = ShirtNoSleeves,
+        Weight    		 = 10.0,
+        DisplayName      = Bronze Armor,
+        Icon 			 = HCArmorbronze,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		Insulation       = 0.3,
+        WindResistance   = 0.25,
+        BiteDefense      = 90,
+        ScratchDefense   = 90,
+        BulletDefense    = 50,
+		RunSpeedModifier = 0.75,
+        WorldStaticModel = BulletVest_Ground,
+    }
+    item HCArmorcopper
+    {
+
+		Type             = Clothing,
+		ClothingItem     = HCArmorcopper,
+		BodyLocation     = base:torsoextra,
+		BloodLocation    = ShirtNoSleeves,
+        Weight    		 = 10.0,
+        DisplayName      = Copper Armor,
+        Icon 			 = HCArmorcopper,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		Insulation       = 0.3,
+        WindResistance   = 0.25,
+        BiteDefense      = 90,
+        ScratchDefense   = 90,
+        BulletDefense    = 50,
+		RunSpeedModifier = 0.75,
+        WorldStaticModel = BulletVest_Ground,
+    }
+    item HCArmorstuddedleather
+    {
+
+        Weight    		= 8.0,
+        Type    		= Normal,
+        DisplayName         	= Studded Leather Armor,
+        icon 			= HCArmorstuddedleather,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorhardenedleather
+    {
+
+        Weight    		= 8.0,
+        Type    		= Normal,
+        DisplayName         	= Hardened Leather Armor,
+        icon 			= HCArmorhardenedleather,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorleather
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Leather Armor,
+        icon 			= HCArmorleather,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorhide
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Hide Armor,
+        icon 			= HCArmorhide,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorpadded
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Padded Armor,
+        icon 			= HCArmorpadded,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorbone
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Bone Armor,
+        icon 			= HCArmorbone,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorbamboo
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Bamboo Armor,
+        icon 			= HCArmorbamboo,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorlog
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Log Armor,
+        icon 			= HCArmorlog,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmortire
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Tire Armor,
+        icon 			= HCArmortire,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorphonebooks
+    {
+
+        Weight    		= 3.0,
+        Type    		= Normal,
+        DisplayName         	= Phone Book Armor,
+        icon 			= HCArmorphonebooks,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCArmorbubblewrap
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Bubble Wrap Armor,
+        icon 			= HCArmorbubblewrap,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCJeans
+    {
+
+	Weight    		= 1.5,
+	Type    		= Normal,
+	DisplayName		= Thick Jeans,
+	Icon			= HCJeans,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorkevlar
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Kevlar Leg Guards,
+        icon 			= HCLegarmorkevlar,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorswat
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Swat Leg Guards,
+        icon 			= HCLegarmorswat,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorriot
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Riot Leg Guards,
+        icon 			= HCLegarmorriot,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorpaintball
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Paintball Leg Guards,
+        icon 			= HCLegarmorpaintball,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorsamurai
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Samurai Leg Guards,
+        icon 			= HCLegarmorsamurai,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorlamelar
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Lamelar Leg Guards,
+        icon 			= HCLegarmorlamelar,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorchainmail
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Chainmail Leg Guards,
+        icon 			= HCLegarmorchainmail,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorscalemail
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Scalemail Leg Guards,
+        icon 			= HCLegarmorscalemail,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorsteel
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Leg Guards,
+        icon 			= HCLegarmorsteel,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmoriron
+    {
+
+		Weight    		        = 2.0,
+		Type    		        = Clothing,
+		ClothingItem            = HCLegarmoriron,
+		BodyLocation            = base:legs1,
+		BloodLocation           = Trousers,
+		Insulation              = 0.3,
+        WindResistance          = 0.15,
+		DisplayName         	= Iron Leg Guards,
+		icon 			        = HCLegarmoriron,
+		Tooltip 		        = Tooltip_HCArmor,
+		DisplayCategory         = ClothP,
+		BiteDefense             = 90,
+        ScratchDefense          = 90,
+        BulletDefense           = 50,
+    }
+    item HCLegarmorbronze
+    {
+
+		Weight    		        = 2.0,
+		Type    		        = Clothing,
+		ClothingItem            = HCLegarmorbronze,
+		BodyLocation            = base:legs1,
+		BloodLocation           = Trousers,
+		Insulation              = 0.3,
+        WindResistance          = 0.15,
+		DisplayName         	= Bronze Leg Guards,
+		icon 			        = HCLegarmorbronze,
+		Tooltip 		        = Tooltip_HCArmor,
+		DisplayCategory         = ClothP,
+		BiteDefense             = 90,
+        ScratchDefense          = 90,
+        BulletDefense           = 50,
+    }
+    item HCLegarmorcopper
+    {
+
+		Weight    		        = 2.0,
+		Type    		        = Clothing,
+		ClothingItem            = HCLegarmorcopper,
+		BodyLocation            = base:legs1,
+		BloodLocation           = Trousers,
+		Insulation              = 0.3,
+        WindResistance          = 0.15,
+		DisplayName         	= Copper Leg Guards,
+		icon 			        = HCLegarmorcopper,
+		Tooltip 		        = Tooltip_HCArmor,
+		DisplayCategory         = ClothP,
+		BiteDefense             = 90,
+        ScratchDefense          = 90,
+        BulletDefense           = 50,
+    }
+    item HCLegarmorstuddedleather
+    {
+
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= Studded Leather Leg Guards,
+        icon 			= HCLegarmorstuddedleather,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorhardenedleather
+    {
+
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= Hardened Leather Leg Guards,
+        icon 			= HCLegarmorhardenedleather,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorleather
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Leather Leg Guards,
+        icon 			= HCLegarmorleather,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorhide
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Hide Leg Guards,
+        icon 			= HCLegarmorhide,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorpadded
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Padded Leg Guards,
+        icon 			= HCLegarmorpadded,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorbone
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bone Leg Guards,
+        icon 			= HCLegarmorbone,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorlog
+    {
+
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Log Leg Guards,
+        icon 			= HCLegarmorlog,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmortire
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Tire Leg Guards,
+        icon 			= HCLegarmortire,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCLegarmorbubblewrap
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Bubble Wrap Leg Guards,
+        icon 			= HCLegarmorbubblewrap,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCBootsteel
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Greaves,
+        icon 			= HCBootsteel,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCBootleather
+    {
+
+	Weight    		= 1.1,
+	Type    		= Normal,
+	DisplayName		= Leather Greaves,
+	Icon			= HCBootleather,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
+    }
+    item HCShieldriot
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Riot Shield,
+        icon 			= HCShieldriot,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
+    }
+    item HCShieldsteel
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Shield,
+        icon 			= HCShieldsteel,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
+    }
+    item HCShieldiron
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Iron Shield,
+        icon 			= HCShieldiron,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
+    }
+    item HCShieldbronze
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Bronze Shield,
+        icon 			= HCShieldbronze,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
+    }
+    item HCShieldcopper
+    {
+
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Copper Shield,
+        icon 			= HCShieldcopper,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
+    }
+    item HCShieldwood
+    {
+
+        Weight    		= 2.5,
+        Type    		= Normal,
+        DisplayName         	= Wooden Shield,
+        icon 			= HCShieldwood,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
+    }
+    item HCShieldtrashcanlid
+    {
+
+        Weight    		= 2.5,
+        Type    		= Normal,
+        DisplayName         	= Trashcan Lid,
+        icon 			= HCShieldtrashcanlid,
+	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
+    }
+    craftRecipe Stitch Hardened Leather Gloves
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Tailoring:2,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeatherhard],
+            item 1 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 2 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlovesHardLeather,
+        }
+    }
+    craftRecipe Make Helmet
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.BucketEmpty],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHelmbucket,
+        }
+    }
+    craftRecipe Make Helmet
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Pot],
+            item 1 [Hydrocraft.HCRopethin],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHelmcookingpot,
+        }
+    }
+    craftRecipe Make Helmet
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHelmsteel,
+        }
+    }
+    craftRecipe Make Helmet
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHelmiron,
+        }
+    }
+    craftRecipe Make Helmet
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBronzeingot],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHelmbronze,
+        }
+    }
+    craftRecipe Make Helmet
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCCopperingot],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHelmcopper,
+        }
+    }
+    craftRecipe Make Gauntlets
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 8 [Hydrocraft.HCRingsteel],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlovechainmail,
+        }
+    }
+    craftRecipe Make Gauntlets
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlovesteel,
+        }
+    }
+    craftRecipe Make Gauntlets
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGloveiron,
+        }
+    }
+    craftRecipe Make Gauntlets
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBronzeingot],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlovebronze,
+        }
+    }
+    craftRecipe Make Gauntlets
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCCopperingot],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlovecopper,
+        }
+    }
+    craftRecipe Make Studded Leather Gloves
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Armor,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlovestuddedleather,
+        }
+    }
+    craftRecipe Make Leather Gloves
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Base.Gloves_LeatherGloves,
+        }
+    }
+    craftRecipe Make Work Gloves
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Tailoring,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
+            item 2 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWorkgloves,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorsteel,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmoriron,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBronzeingot],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorbronze,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCCopperingot],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorcopper,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeatherhard],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 4 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorlamellar,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorstuddedleather,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeatherhard],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorhardenedleather,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorleather,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCAnimalfurdried],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorhide,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
+            item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorpadded,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCBone],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorbone,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBamboo],
+            item 1 [Base.Rope],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorbamboo,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Log],
+            item 1 [Base.Rope],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorlog,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.OldTire1;Base.OldTire2;Base.OldTire3;Base.NormalTire1;Base.NormalTire2;Base.NormalTire3;Base.ModernTire1;Base.ModernTire2;Base.ModernTire3],
+            item 1 [Base.Rope],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmortire,
+        }
+    }
+    craftRecipe Make Arm Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBubblewrap],
+            item 4 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmarmorbubblewrap,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 16 [Hydrocraft.HCRingsteel],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorchainmail,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorscalemail,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorsteel,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmoriron,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCBronzeingot],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorbronze,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCCopperingot],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorcopper,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 4 [Hydrocraft.HCLeatherhard],
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 8 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorlamelar,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 4 [Hydrocraft.HCLeather],
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 4 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorstuddedleather,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 4 [Hydrocraft.HCLeatherhard],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 4 [Base.Thread],
+            item 2 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorhardenedleather,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 4 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 4 [Base.Thread],
+            item 2 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorleather,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCAnimalfurdried],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 4 [Base.Thread],
+            item 2 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorhide,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
+            item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
+            item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
+            item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 4 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorpadded,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 8 [Hydrocraft.HCBone],
+            item 2 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorbone,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCBamboo],
+            item 2 [Base.Rope],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorbamboo,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 2 [Base.Log],
+            item 2 [Base.Rope],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorlog,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.OldTire1;Base.OldTire2;Base.OldTire3;Base.NormalTire1;Base.NormalTire2;Base.NormalTire3;Base.ModernTire1;Base.ModernTire2;Base.ModernTire3],
+            item 1 [Base.OldTire1;Base.OldTire2;Base.OldTire3;Base.NormalTire1;Base.NormalTire2;Base.NormalTire3;Base.ModernTire1;Base.ModernTire2;Base.ModernTire3],
+            item 2 [Base.Rope],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmortire,
+        }
+    }
+    craftRecipe Make Armor
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCBubblewrap],
+            item 10 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArmorbubblewrap,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 16 [Hydrocraft.HCRingsteel],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorchainmail,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorscalemail,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorsteel,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmoriron,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBronzeingot],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorbronze,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCCopperingot],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorcopper,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBubblewrap],
+            item 6 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorbubblewrap,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeatherhard],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 4 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorlamelar,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorstuddedleather,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeatherhard],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorhardenedleather,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorleather,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCAnimalfurdried],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorhide,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
+            item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
+            item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorpadded,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCBone],
+            item 1 [Base.Rope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorbone,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Log],
+            item 1 [Base.Rope],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmorlog,
+        }
+    }
+    craftRecipe Make Leg Guards
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.OldTire1;Base.OldTire2;Base.OldTire3;Base.NormalTire1;Base.NormalTire2;Base.NormalTire3;Base.ModernTire1;Base.ModernTire2;Base.ModernTire3],
+            item 1 [Base.Rope],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLegarmortire,
+        }
+    }
+    craftRecipe Make Greaves
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBootsteel,
+        }
+    }
+    craftRecipe Make Greaves
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Armor,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeather],
+            item 2 [Hydrocraft.HCLeatherhard],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 4 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBootleather,
+        }
+    }
+    craftRecipe Make Leather Boots
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Armor,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCBoneneedle] mode:keep,
+            item 2 [Base.Thread],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeatherboots,
+        }
+    }
+    craftRecipe Make Shield
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCShieldsteel,
+        }
+    }
+    craftRecipe Make Shield
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCShieldiron,
+        }
+    }
+    craftRecipe Make Shield
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCBronzeingot],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCShieldbronze,
+        }
+    }
+    craftRecipe Make Shield
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Armor,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCCopperingot],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCShieldcopper,
+        }
+    }
+    craftRecipe Make Shield
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Armor,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Base.Plank],
+            item 4 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCShieldwood,
+        }
+    }
+}

@@ -1,0 +1,1274 @@
+module Hydrocraft
+{
+    imports { Base }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricguitar],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.Dismantle_OnCreate,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmp],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Amplifier,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectronics02,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDVDPlayer],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 2 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectromotorsmall,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyrobot],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcdisplay,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCalculator],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSolarcell,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        SkillRequired = Electricity:4,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcdismantlecopymachine,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCopymachine],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 20 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectronics02,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFaxmachine],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 3 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectronics02,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPrinter],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 3 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectronics,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJoystick],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectronics,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRouter],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectronics02,
+        inputs
+        {
+            item 1 [Hydrocraft.HCScaner],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 3 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectronics02,
+        inputs
+        {
+            item 1 [Hydrocraft.HCComputermonitor],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCComputermouse],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hccomputerfan,
+        inputs
+        {
+            item 1 [Hydrocraft.HCComputerfan],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcDisDomputer,
+        inputs
+        {
+            item 1 [Hydrocraft.HCComputer],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcDisKeyboard,
+        inputs
+        {
+            item 1 [Hydrocraft.HCComputerkeyboard],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclargevac,
+        inputs
+        {
+            item 1 [Hydrocraft.HCVac;Hydrocraft.HCVacuum],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectromotorsmall,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHandvac],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclargevac,
+        inputs
+        {
+            item 1 [Hydrocraft.HCShopvac],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyhelicopter],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectronics,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetector],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 2 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectronics,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHairdryer],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectromotorsmall,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectrictoothbrush],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectromotorsmall,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricrazor],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcheaterwire,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToaster],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcheaterwire,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRicecooker],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcelectronics,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWeedwacker],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectromotor,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclightbulb,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlashlightoff],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSwitch,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLaserpointer],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcdisplay,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectonicscale],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGPS],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPully],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMetalwheel,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPully],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMetalwheel,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPullyiron],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMetalwheeliron,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPullyiron],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMetalwheeliron,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.recipe_hcdismantlemetal,
+        inputs
+        {
+            item 1 [Hydrocraft.HCStepladder],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 40 Base.MetalBar,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 1500,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.recipe_hcdismantlemetal,
+        inputs
+        {
+            item 1 [Hydrocraft.HCStepladder],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 40 Base.MetalBar,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 6000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantleforklift,
+        inputs
+        {
+            item 1 [Hydrocraft.HCForklift],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Base.LugWrench] mode:keep,
+            item 1 [Base.Jack] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 4 Base.NormalTire1,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantleforklift,
+        inputs
+        {
+            item 1 [Hydrocraft.HCForklift],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Base.LugWrench] mode:keep,
+            item 1 [Base.Jack] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 4 Base.NormalTire1,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 6000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlescissorlift,
+        inputs
+        {
+            item 1 [Hydrocraft.HCScissorlift],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Base.LugWrench] mode:keep,
+            item 1 [Base.Jack] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 4 Base.NormalTire1,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlescissorlift,
+        inputs
+        {
+            item 1 [Hydrocraft.HCScissorlift],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Base.LugWrench] mode:keep,
+            item 1 [Base.Jack] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 4 Base.NormalTire1,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        SkillRequired = Electricity:6,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcdismantleteslamachine,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTeslamachine],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 150 Base.ElectronicsScrap,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlepallettruck,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPallettruck],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCSteelsheetlarge,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 1500,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlepallettruck,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPallettruck],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCSteelsheetlarge,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantletoywagon,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToywagon],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteelsheetlarge,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 1500,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantletoywagon,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToywagon],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteelsheetlarge,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlehanddolly,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHanddolly],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.SheetMetal,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 1500,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlehanddolly,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHanddolly],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.SheetMetal,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlehanddolly,
+        inputs
+        {
+            item 1 [Hydrocraft.HCShoppingcart],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.SheetMetal,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 1500,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlehanddolly,
+        inputs
+        {
+            item 1 [Hydrocraft.HCShoppingcart],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.SheetMetal,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlepushcart,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPushcart],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteelsheetlarge,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 1500,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlepushcart,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPushcart],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteelsheetlarge,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlebedsprings,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBedsprings],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 24 Hydrocraft.HCSteelspring,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlebedsprings,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBedsprings],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 24 Hydrocraft.HCSteelspring,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantleglovebox,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlovebox],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 4 Base.MetalBar,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 2500,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcdismantleglovebox,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlovebox],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 4 Base.MetalBar,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlebrokenradiator,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRadiator2],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCBrasssheet,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlebrokenradiator,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRadiator2],
+            item 1 [Hydrocraft.HCElectricmultitoolsawpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCBrasssheet,
+        }
+    }
+    craftRecipe Dismantle
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        SkillRequired = Electricity:2,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcdismantlelawnmower,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLawnmower],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCMetalwheel,
+        }
+    }
+    craftRecipe Dismantle Fridge
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.recipe_hcfridge,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkfridge],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCJunkyardlargefull2] mode:keep,
+        }
+        outputs
+        {
+            item 2 Base.SheetMetal,
+        }
+    }
+    craftRecipe Dismantle TV
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.hcgetscrap,
+        inputs
+        {
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCJunkyardlargefull2] mode:keep,
+            item 1 [Hydrocraft.HCJunktv],
+        }
+        outputs
+        {
+            item 1 Base.Remote,
+        }
+    }
+    craftRecipe Dismantle Washing Machine
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.recipe_hcwashingmachine,
+        inputs
+        {
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCJunkyardlargefull2] mode:keep,
+            item 1 [Hydrocraft.HCJunkwash],
+        }
+        outputs
+        {
+            item 2 Base.SheetMetal,
+        }
+    }
+    craftRecipe Dismantle Drying Machine
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.hcgetscrap,
+        inputs
+        {
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCJunkyardlargefull2] mode:keep,
+            item 1 [Hydrocraft.HCJunkdryer],
+        }
+        outputs
+        {
+            item 2 Base.SheetMetal,
+        }
+    }
+    craftRecipe Dismantle Microwave
+    {
+        time = 60,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.hcdismantlemicro,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkmicro],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMag,
+        }
+    }
+    craftRecipe Dismantle Tredmill
+    {
+        time = 300,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.hcgetscrap,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunktredmill],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCSteelpipe,
+        }
+    }
+    craftRecipe Dismantle Bicycle
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcbike1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJunkbicycle],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDynamo,
+        }
+    }
+    craftRecipe Dismantle Bicycle
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcbike2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBicycle],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDynamo,
+        }
+    }
+    craftRecipe Dismantle Auto Parts
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantleengineparts,
+        inputs
+        {
+            item 1 [Base.EngineParts],
+            item 1 [Base.Wrench] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ScrapMetal,
+        }
+    }
+    craftRecipe Dismantle Auto Parts
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Mechanics:2,
+        OnCreate = HCR42.recipe_hcdismantlebreaks,
+        inputs
+        {
+            item 1 [Base.OldBrake1;Base.OldBrake2;Base.OldBrake3;Base.NormalBrake1;Base.NormalBrake2;Base.NormalBrake3;Base.ModernBrake1;Base.ModernBrake2;Base.ModernBrake3],
+            item 1 [Base.Wrench] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDrumbreak,
+        }
+    }
+}

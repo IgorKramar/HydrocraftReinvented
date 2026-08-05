@@ -1,0 +1,142 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCBasicmarinade
+    {
+
+	Weight 				= 	1,
+	AlwaysWelcomeGift 		= 	true,
+	Type 				= 	Drainable,
+	UseDelta 			= 	0.25,
+	DisplayName 			= 	Basic Marinade,
+	ReplaceOnDeplete		=	HCJar,
+	Icon				=	HCMarinadfull,
+		DisplayCategory		=   FoodS,
+    }
+    item HCTastymarinade
+    {
+
+	Weight 				= 	1,
+	AlwaysWelcomeGift 		= 	true,
+	Type 				= 	Drainable,
+	UseDelta 			= 	0.25,
+	DisplayName 			= 	Tasty Marinade,
+	ReplaceOnDeplete		=	HCJar,
+	Icon				=	HCMarinadfull,
+		DisplayCategory		=   FoodS,
+    }
+    item HCSimplejerky
+    {
+
+	HungerChange 			= 	-15,
+	IsCookable 			= 	TRUE,
+	DangerousUncooked 		= 	TRUE,
+	MinutesToBurn 			= 	120,
+	MinutesToCook 			= 	80,
+	Weight 				= 	0.2,
+	AlwaysWelcomeGift 		= 	true,
+	UnhappyChange			=	-5,
+	Type 				= 	Food,
+	EvolvedRecipe 			= 	Stew:15;Pie:10;Stir fry:10;Sandwich:5;Salad:5;Roasted Vegetables:10,
+	DisplayName 			= 	Simple Homemade Jerky,
+	Icon 				= 	BeefJerky,
+		DisplayCategory		=   FoodN,
+    }
+    item HCTastyjerky
+    {
+
+	HungerChange 			= 	-15,
+	IsCookable 			= 	TRUE,
+	DangerousUncooked 		= 	TRUE,
+	MinutesToBurn 			= 	120,
+	MinutesToCook 			= 	80,
+	Weight 				= 	0.2,
+	AlwaysWelcomeGift 		= 	true,
+	UnhappyChange			=	-15,
+	Type 				= 	Food,
+	EvolvedRecipe 			= 	Stew:15;Pie:15;Stir fry:15;Sandwich:5;Salad:5;Roasted Vegetables:15,
+	DisplayName 			= 	Tasty Homemade Jerky,
+	Icon 				= 	BeefJerky,
+		DisplayCategory		=   FoodN,
+    }
+    craftRecipe Make Basic Marinade
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJar],
+            item 1 [Base.Soysauce],
+            item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
+            item 1 [Base.Salt],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBasicmarinade,
+        }
+    }
+    craftRecipe Make Tasty Marinade
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBasicmarinade] mode:destroy,
+            item 1 [Base.Pepper],
+            item 1 [Hydrocraft.HCGarlicpowder],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTastymarinade,
+        }
+    }
+    craftRecipe Make Simple Jerky
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCrab;Hydrocraft.HCHerring;Base.Salmon;Base.FishFillet;Base.FrogMeat;Base.Smallbirdmeat;Base.Chicken;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.Smallanimalmeat;Base.Rabbitmeat;Hydrocraft.HCSmallgamesteak;Hydrocraft.HCVenison;Hydrocraft.HCBearsteak;Base.MuttonChop;Base.PorkChop;Hydrocraft.HCFreshham;Base.Steak;Hydrocraft.HCCheval],
+            item 1 [Hydrocraft.HCBasicmarinade],
+        }
+        outputs
+        {
+            item 3 Hydrocraft.HCSimplejerky,
+        }
+    }
+    craftRecipe Make Tasty Jerky
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCrab;Hydrocraft.HCHerring;Base.Salmon;Base.FishFillet;Base.FrogMeat;Base.Smallbirdmeat;Base.Chicken;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.Smallanimalmeat;Base.Rabbitmeat;Hydrocraft.HCSmallgamesteak;Hydrocraft.HCVenison;Hydrocraft.HCBearsteak;Base.MuttonChop;Base.PorkChop;Hydrocraft.HCFreshham;Base.Steak;Hydrocraft.HCCheval],
+            item 1 [Hydrocraft.HCTastymarinade],
+        }
+        outputs
+        {
+            item 3 Hydrocraft.HCTastyjerky,
+        }
+    }
+}

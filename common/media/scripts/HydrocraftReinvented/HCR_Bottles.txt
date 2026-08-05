@@ -1,0 +1,515 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCGlassbottleempty
+    {
+
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Glass Bottle,
+	Icon				=	HCGlassbottleempty,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottleethanolempty
+    {
+
+	Weight				=	0.1,
+    Type			        =	Normal,
+	DisplayName			=	Empty Ethanol Bottle,
+	Icon				=	HCGlassbottleethanol,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottleethanol
+    {
+
+	Weight				=	0.5,
+    Type			    =	Drainable,
+	UseDelta		    =   0.25,
+	ReplaceOnDeplete	=	HCGlassbottleethanolempty,
+	DisplayName			=	Ethanol,
+	Icon				=	HCGlassbottleethanol,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottleammoniaempty
+    {
+
+	Weight				=	0.1,
+    Type			        =	Normal,
+	DisplayName			=	Empty Ammonia Bottle,
+	Icon				=	HCGlassbottleammonia,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottleammonia
+    {
+
+	Weight				=	0.5,
+    Type			    =	Drainable,
+	UseDelta		    =       0.25,
+	ReplaceOnDeplete	=	HCGlassbottleammoniaempty,
+	DisplayName			=	Ammonia,
+	Icon				=	HCGlassbottleammonia,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottleselfmadeetherempty
+    {
+
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Homemade Ether Bottle,
+	Icon				=	HCGlassbottleselfmadeether,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottleselfmadeether
+    {
+
+	Weight				=	0.5,
+    Type			    =	Drainable,
+	UseDelta		    =   0.25,
+	ReplaceOnDeplete	=	HCGlassbottleselfmadeetherempty,
+	DisplayName			=	Selfmade Ether,
+	Icon				=	HCGlassbottleselfmadeether,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottleh2o2empty
+    {
+
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Hydrogen Peroxide Bottle,
+	Icon				=	HCGlassbottleh2o2,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottleh2o2
+    {
+
+	Weight				=	0.5,
+        Type			=	Drainable,
+	UseDelta		    =       0.25,
+	ReplaceOnDeplete	=	HCGlassbottleh2o2empty,
+	DisplayName			=	Hydrogen Peroxide,
+	Icon				=	HCGlassbottleh2o2,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottlemethylaminempty
+    {
+
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Methylamin Bottle,
+	Icon				=	HCGlassbottlemethylamin,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottlemethylamin
+    {
+
+	Weight				=	0.5,
+    Type	       		=	Drainable,
+	UseDelta		    =       0.25,
+	ReplaceOnDeplete	=	HCGlassbottlemethylaminempty,
+	DisplayName			=	Methylamin,
+	Icon				=	HCGlassbottlemethylamin,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottlephenylempty
+    {
+
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Phenylacetic Acid Bottle,
+	Icon				=	HCGlassbottlephenyl,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottlephenyl
+    {
+
+	Weight				= 0.5,
+    Type			    = Drainable,
+	UseDelta		    = 0.25,
+	ReplaceOnDeplete	= HCGlassbottlephenylempty,
+	DisplayName			= Phenylacetic Acid,
+	Icon				= HCGlassbottlephenyl,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottlesulfuricacidempty
+    {
+
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Sulfuric Acid Bottle,
+	Icon				=	HCGlassbottlesulfuricacid,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottlesulfuricacid
+    {
+
+	Weight				=	0.5,
+        Type			=	Drainable,
+	UseDelta		    =       0.2,
+	ReplaceOnDeplete	=	HCGlassbottlesulfuricacidempty,
+	DisplayName			=	Sulfuric Acid,
+	Icon				=	HCGlassbottlesulfuricacid,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottlepotassiumpermanganateempty
+    {
+
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Potassiumper Manganate Bottle,
+	Icon				=	HCGlassbottlepotassiumpermanganate,
+		DisplayCategory	=   CraftChem,
+    }
+    item HCGlassbottlepotassiumpermanganate
+    {
+
+	Weight				=	0.5,
+    Type			    =	Drainable,
+	UseDelta		    =       0.2,
+	ReplaceOnDeplete	=	HCGlassbottlepotassiumpermanganateempty,
+	DisplayName			=	Potassium Permanganate,
+	Icon				=	HCGlassbottlepotassiumpermanganate,
+		DisplayCategory	=   CraftChem,
+    }
+    craftRecipe Cut Off Bottle
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetplastic,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWaterbottleclean],
+            item 1 [Hydrocraft.HCBoxcutter;Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife;Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWaterbottlecutoff,
+        }
+    }
+    craftRecipe Recycle Plastic Bottle
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTrashbottle],
+            item 1 [Hydrocraft.HCBoxcutter;Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife;Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Clean Bottle
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.PopBottle] mode:destroy,
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWaterbottleclean,
+        }
+    }
+    craftRecipe Clean Bottle
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.WaterBottle] mode:destroy,
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWaterbottleclean,
+        }
+    }
+    craftRecipe Clean Empty Glass Bottle
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassbottleethanolempty;Hydrocraft.HCGlassbottleammoniaempty;Hydrocraft.HCGlassbottleh2o2empty;Hydrocraft.HCGlassbottlemethylaminempty;Hydrocraft.HCGlassbottlesulfuricacidempty;Hydrocraft.HCGlassbottleselfmadeetherempty;Hydrocraft.HCGlassbottlephenylempty],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottleempty,
+        }
+    }
+    craftRecipe Label Empty Bottle With Ammonia Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelammonia],
+            item 1 [Hydrocraft.HCGlassbottleempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottleammoniaempty,
+        }
+    }
+    craftRecipe Fill Empty Ammonia Bottle With Ammonia
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerammonia],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCGlassbottleammoniaempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottleammonia,
+        }
+    }
+    craftRecipe Label Empty Bottle With Methylamin Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelmethylamin],
+            item 1 [Hydrocraft.HCGlassbottleempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottlemethylaminempty,
+        }
+    }
+    craftRecipe Fill Empty Methylamin Bottle With Methylamin
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakermethylamin],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCGlassbottlemethylaminempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottlemethylamin,
+        }
+    }
+    craftRecipe Label Empty Bottle With Hydrogen Peroxide Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelh2o2],
+            item 1 [Hydrocraft.HCGlassbottleempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottleh2o2empty,
+        }
+    }
+    craftRecipe Fill Empty Hydrogen Peroxide Bottle With Hydrogen Peroxide
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerh2o2],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCGlassbottleh2o2empty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottleh2o2,
+        }
+    }
+    craftRecipe Label Empty Bottle With Phenylacetic Acid Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelphenylaceticacid],
+            item 1 [Hydrocraft.HCGlassbottleempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottlephenylempty,
+        }
+    }
+    craftRecipe Fill Empty Phenylacetic Acid Bottle With Phenylacetic Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerphenyl],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCGlassbottlephenylempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottlephenyl,
+        }
+    }
+    craftRecipe Label Empty Bottle With Sulfuric Acid Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelsulfuricacid],
+            item 1 [Hydrocraft.HCGlassbottleempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottlesulfuricacidempty,
+        }
+    }
+    craftRecipe Fill Empty Sulfuric Acid Bottle With Sulfuric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakersulfuricacid],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCGlassbottlesulfuricacidempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottlesulfuricacid,
+        }
+    }
+    craftRecipe Label Empty Bottle With Homemade Ether Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelselfmadeether],
+            item 1 [Hydrocraft.HCGlassbottleempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottleselfmadeetherempty,
+        }
+    }
+    craftRecipe Fill Empty Selfmade Ether Bottle With Homemade Ether
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerselfmadeether],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCGlassbottleselfmadeetherempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottleselfmadeether,
+        }
+    }
+    craftRecipe Label Empty Bottle With Potassium Permanganate Label
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLabelpotassiumpermanganate],
+            item 1 [Hydrocraft.HCGlassbottleempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottlepotassiumpermanganateempty,
+        }
+    }
+    craftRecipe Fill Empty Potassium Permanganate Bottle With Potassium Permanganate
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetbeaker,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeakerpotassiumpermanganate],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCGlassbottlepotassiumpermanganateempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottlepotassiumpermanganate,
+        }
+    }
+}

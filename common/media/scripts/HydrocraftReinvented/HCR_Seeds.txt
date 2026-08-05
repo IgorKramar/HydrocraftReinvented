@@ -1,0 +1,3617 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCMysteryseedspacket
+    {
+
+
+	Type			= Normal,
+	DisplayName		= Packet Of Unknown Seeds,
+	Icon			= HCMysteryseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCandleberryseeds
+    {
+
+	Type			= Normal,
+	DisplayName		= Candleberry Seeds,
+	Icon			= HCBeanseeds,
+	Weight			= 0.009,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCandleberryseedspacket
+    {
+
+	Type			=  Normal,
+	DisplayName		= Candleberry Seeds Packet,
+	Icon			= HCGrapeseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBeanseeds
+    {
+
+
+	Type			= Normal,
+	DisplayName		= Bean Seeds,
+	Icon			= HCBeanseeds,
+	Weight			= 0.009,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBeanseedspacket
+    {
+
+
+	Type			=  Normal,
+	DisplayName		= Bean Seeds Packet,
+	Icon			= HCBeanseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPumpkinseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Pumpkin Seeds,
+        icon 			= HCPumpkinseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPumpkinseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Pumpkin Seeds Packet,
+	Icon			= HCPumpkinseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCTeaseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Tea Seeds,
+        icon 			= HCTeaseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCTeaseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Tea Seeds Packet,
+	Icon			= HCTeaseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCHempseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Hemp Seeds,
+        icon 			= HCHempseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCHempseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Hemp Seeds Packet,
+	Icon			= HCHempseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCTobaccoseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Tobacco Seeds,
+        icon 			= HCTobaccoseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCTobaccoseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Tobacco Seeds Packet,
+	Icon			= HCTobaccoseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCJuteseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Jute Seeds,
+        icon 			= HCJuteseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCJuteseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Jute Seeds Packet,
+	Icon			= HCJuteseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCAppleseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Apple Seeds Packet,
+	Icon			= HCAppleseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCAppleseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Apple Seeds,
+        icon 			= HCAppleseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBananaseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Banana Seeds Packet,
+	Icon			= HCBananaseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBananaseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Banana Seeds,
+        icon 			= HCBananaseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBlackberryseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Blackberry Seeds Packet,
+	Icon			= HCBlackberryseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBlackberryseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Blackberry Seeds,
+        icon 			= HCBlackberryseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBlueberryseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Blueberry Seeds Packet,
+	Icon			= HCBlueberryseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBlueberryseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Blueberry Seeds,
+        icon 			= HCBlueberryseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCGrapeseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Grape Seeds Packet,
+	Icon			= HCGrapeseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCGrapeseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Grape Seeds,
+        icon 			= HCGrapeseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCLemonseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Lemon Seeds Packet,
+	Icon			= HCLemonseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCLemonseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Lemon Seeds,
+        icon 			= HCLemonseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCOrangeseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Orange Seeds Packet,
+	Icon			= HCOrangeseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCOrangeseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Orange Seeds,
+        icon 			= HCOrangeseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPeachseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Peach Seeds Packet,
+	Icon			= HCPeachseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPeachseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Peach Seeds,
+        icon 			= HCPeachseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCWatermelonseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Watermelon Seeds Packet,
+	Icon			= HCWatermelonseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCWatermelonseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Watermelon Seeds,
+        icon 			= HCWatermelonseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBellpeppergreenseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Green Bell Pepper Seeds Packet,
+	Icon			= HCBellpeppergreenseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBellpeppergreenseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Green Bell Pepper Seeds,
+        icon 			= HCBellpeppergreenseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBellpepperredseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Red Bell Pepper Seeds Packet,
+	Icon			= HCBellpepperredseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBellpepperredseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Red Bell Pepper Seeds,
+        icon 			= HCBellpepperredseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBellpepperyellowseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Yellow Bell Pepper Seeds Packet,
+	Icon			= HCBellpepperyellowseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCBellpepperyellowseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Yellow Bell Pepper Seeds,
+        icon 			= HCBellpepperyellowseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCornseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Corn Seeds Packet,
+	Icon			= HCCornseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCornseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Corn Seeds,
+        icon 			= HCCornseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCEggplantseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Eggplant Seeds Packet,
+	Icon			= HCEggplantseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCEggplantseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Eggplant Seeds,
+        icon 			= HCEggplantseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCLeekseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Leek Seeds Packet,
+	Icon			= HCLeekseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCLeekseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Leek Seeds,
+        icon 			= HCLeekseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCLettuceseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Lettuce Seeds Packet,
+	Icon			= HCLettuceseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCLettuceseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Lettuce Seeds,
+        icon 			= HCLettuceseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCOnionseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Onion Seeds Packet,
+	Icon			= HCOnionseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCOnionseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Onion Seeds,
+        icon 			= HCOnionseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPeaseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Pea Seeds Packet,
+	Icon			= HCPeaseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPeaseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Pea Seeds,
+        icon 			= HCPeaseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPeanutseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Peanut Seeds Packet,
+	Icon			= HCPeanutseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPeanutseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Peanut Seeds,
+        icon 			= HCPeanutseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCAvacadoseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Avacado Seeds Packet,
+	Icon			= HCAvacadoseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCAvacadoseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Avacado Seeds,
+        icon 			= HCAvacadoseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPearseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Pear Seeds Packet,
+	Icon			= HCPearseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPearseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Pear Seeds,
+        icon 			= HCPearseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCherryseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Cherry Seeds Packet,
+	Icon			= HCCherryseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCherryseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Cherry Seeds,
+        icon 			= HCCherryseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPineappleseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Pineapple Seeds Packet,
+	Icon			= HCPineappleseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPineappleseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Pineapple Seeds,
+        icon 			= HCPineappleseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCZucchiniseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Zucchini Seeds Packet,
+	Icon			= HCZucchiniseedspacket,
+	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
+    }
+    item HCZucchiniseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Zucchini Seeds,
+        icon 			= HCZucchiniseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCChinesecabbageseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Chinese Cabbage Seeds Packet,
+	Icon			= HCChinesecabbageseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCChinesecabbageseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Chinese Cabbage Seeds,
+        icon 			= HCChinesecabbageseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCucumberseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Cucumber Seeds Packet,
+	Icon			= HCCucumberseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCCucumberseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Cucumber Seeds,
+        icon 			= HCCucumberseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCGingerseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Ginger Seeds Packet,
+	Icon			= HCGingerseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCGingerseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Ginger Seeds,
+        icon 			= HCGingerseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCGarlicseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Garlic Seeds Packet,
+	Icon			= HCGarlicseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCGarlicseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Garlic Seeds,
+        icon 			= HCGarlicseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCOniongreenseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Green Onion Seeds Packet,
+	Icon			= HCOniongreenseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCOniongreenseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Green Onion Seeds,
+        icon 			= HCOniongreenseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPotatosweetseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Sweet Potato Seeds Packet,
+	Icon			= HCPotatosweetseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCPotatosweetseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Sweet Potato Seeds,
+        icon 			= HCPotatosweetseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPumpkinlargeseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Large Pumpkin Seeds Packet,
+	Icon			= HCPumpkinlargeseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCPumpkinlargeseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Large Pumpkin Seeds,
+        icon 			= HCPumpkinlargeseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPumpkinwhiteseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= White Pumpkin Seeds Packet,
+	Icon			= HCPumpkinlargeseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCPumpkinwhiteseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= White Pumpkin Seeds,
+        icon 			= HCPumpkinwhiteseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPumpkingreenseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Green Pumpkin Seeds Packet,
+	Icon			= HCPumpkingreenseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCPumpkingreenseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Green Pumpkin Seeds,
+        icon 			= HCPumpkingreenseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPumpkinbuskinseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Buskin Pumpkin Packet,
+	Icon			= HCPumpkinbuskinseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCPumpkinbuskinseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Buskin Pumpkin Seeds,
+        icon 			= HCPumpkinbuskinseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCornwhiteseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= White Corn Seeds Packet,
+	Icon			= HCCornwhiteseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCCornwhiteseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= White Corn Seeds,
+        icon 			= HCCornwhiteseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCornredseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Red Corn Seeds Packet,
+	Icon			= HCCornredseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCCornredseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Red Corn Seeds,
+        icon 			= HCCornredseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCornblueseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Blue Corn Seeds Packet,
+	Icon			= HCCornblueseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCCornblueseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Blue Corn Seeds,
+        icon 			= HCCornblueseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCApricotseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Apricot Seeds Packet,
+	Icon			= HCApricotseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCApricotseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Apricot Seeds,
+        icon 			= HCApricotseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCColewortseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Colewort Seeds Packet,
+	Icon			= HCColewortseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCColewortseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Colewort Seeds,
+        icon 			= HCColewortseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCottonseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Cotton Seeds Packet,
+	Icon			= HCCottonseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCCottonseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Cotton Seeds,
+        icon 			= HCCottonseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCabbageredseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Red Cabbage Seeds Packet,
+	Icon			= HCCabbageredseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCCabbageredseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Red Cabbage Seeds,
+        icon 			= HCCabbageredseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCabbagewhiteseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= White Cabbage Seeds Packet,
+	Icon			= HCCabbagewhiteseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCCabbagewhiteseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= White Cabbage Seeds,
+        icon 			= HCCabbagewhiteseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPotatoredseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Red Potato Seeds Packet,
+	Icon			= HCPotatoredseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCPotatoredseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Red Potato Seeds,
+        icon 			= HCPotatoredseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCPotatogoldenseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Golden Potato Seeds Packet,
+	Icon			= HCPotatogoldenseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1,
+    }
+    item HCPotatogoldenseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Golden Potato Seeds,
+        icon 			= HCPotatogoldenseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCChilipepperseeds
+    {
+
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Chili Pepper Seeds,
+        icon 			= HCChilipepperseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCChilipepperseedspacket
+    {
+
+	Type			= Normal,
+	DisplayName		= Chili Pepper Seeds Packet,
+	Icon			= HCChilipepperseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 0.1
+    }
+    item HCPoppyseedspack
+    {
+
+        Weight    		        = 0.1,
+        Type    		        = Normal,
+        DisplayName     	        = Poppy Seeds Packet,
+        Icon   		 	        = HCPoppyseedspack,
+    }
+    item HCPoppyseeds
+    {
+
+	Weight			        = 0.009,
+        Type    		        = Normal,
+        DisplayName     	        = Poppy Seeds,
+        Icon   		 	        = HCPoppyseeds,
+		DisplayCategory	= SurFarm,
+    }
+    item HCCactusseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Cactus Seeds,
+
+	Icon			= 	HCCactusseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCCactusseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Cactus Seeds Packet,
+
+	Icon			= 	HCCactusseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCAgaveblueseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Blue Agave Seeds,
+
+	Icon			= 	HCAgaveblueseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCAgaveblueseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Blue Agave Packet,
+
+	Icon			= 	HCAgaveblueseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCPricklypearseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Prickly Pear Seeds,
+
+	Icon			= 	HCPricklypearseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCPricklypearseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Prickly Pear Seeds Packet,
+
+	Icon			= 	HCPricklypearseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCChiligreenseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Green Chili Seeds,
+
+	Icon			= 	HCChiligreenseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCChiligreenseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Green Chili Packet,
+
+	Icon			= 	HCChiligreenseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCTomatilloseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Tomatillo Seeds,
+
+	Icon			= 	HCTomatilloseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCTomatilloseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Tomatillo Packet,
+
+	Icon			= 	HCTomatilloseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCRiceseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Rice Seeds,
+
+	Icon			= 	HCRiceseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCRiceseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Rice Packet,
+
+	Icon			= 	HCRiceseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCRubbertreeseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Rubber Tree Seeds,
+
+	Icon			= 	HCRubbertreeseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCRubbertreeseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Rubber Tree Packet,
+
+	Icon			= 	HCRubbertreeseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCSpirulinaseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Spirulina Seeds,
+
+	Icon			= 	HCSpirulinaseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCSpirulinaseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Spirulina Packet,
+
+	Icon			= 	HCSpirulinaseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCBasilseeds
+    {
+
+	Type			= 	Normal,
+	DisplayName		= 	Basil Seeds,
+	Icon			= 	HCBasilseeds,
+		DisplayCategory	= SurFarm,
+	Weight			= 	0.009,
+    }
+    item HCBasilseedspacket
+    {
+
+	Type			=  	Normal,
+	DisplayName		= 	Basil Packet,
+	Icon			= 	HCBasilseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 	0.1,
+    }
+    item HCOreganoseeds
+    {
+
+	Type			= 	Normal,
+	DisplayName		= 	Oregano Seeds,
+	Icon			= 	HCBasilseeds,
+		DisplayCategory	= SurFarm,
+	Weight			= 	0.009,
+    }
+    item HCOreganoseedspacket
+    {
+
+	Type			=  	Normal,
+	DisplayName		= 	Oregano Packet,
+	Icon			= 	HCBasilseedspacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 	0.1,
+    }
+    item HCAsparagusseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Asparagus Seeds,
+
+	Icon			= 	HCAsparagusseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCAsparagusseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Asparagus Packet,
+
+	Icon			= 	HCAsparagusseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCArtichokesseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Artichoke Seeds,
+
+	Icon			= 	HCArtichokesseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCArtichokesseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Artichoke Packet,
+
+	Icon			= 	HCArtichokesseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCAlfalfaseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Alfalfa Seeds,
+
+	Icon			= 	HCAlfalfaseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCAlfalfaseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Alfalfa Packet,
+
+	Icon			= 	HCAlfalfaseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCBambooseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Bamboo Seeds,
+
+	Icon			= 	HCBambooseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCBambooseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Bamboo Packet,
+
+	Icon			= 	HCBambooseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCMulberryseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Mulberry Seeds,
+
+	Icon			= 	HCMulberryseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCMulberryseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Mulberry Packet,
+
+	Icon			= 	HCMulberryseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCCeleryseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Celery Seeds,
+
+	Icon			= 	HCCeleryseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCCeleryseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Celery Packet,
+
+	Icon			= 	HCCeleryseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCSpinachseeds
+    {
+
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Spinach Seeds,
+
+	Icon			= 	HCSpinachseeds,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.009,
+    }
+    item HCSpinachseedspacket
+    {
+
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Spinach Packet,
+
+	Icon			= 	HCSpinachseedspacket,
+		DisplayCategory	= SurFarm,
+
+	Weight			= 	0.1,
+    }
+    item HCFlaxseeds
+    {
+
+	Type			=  	Normal,
+	DisplayName		= 	Flax Seeds,
+	Icon			= 	HCBasilseeds,
+		DisplayCategory	= SurFarm,
+	Weight			= 	0.009,
+    }
+    item HCFlaxseedseedpacket
+    {
+
+	Type			=  	Normal,
+	DisplayName		= 	Flaxseed package,
+	Icon			= 	HCFlaxseedpacket,
+		DisplayCategory	= SurFarm,
+	Weight			= 	0.1,
+    }
+    item HCBeetsugarseeds
+    {
+
+        Type			= Normal,
+	    DisplayName		= Sugar Beet Seeds,
+	    Icon			= HCBeetsugarseeds,
+		DisplayCategory	= SurFarm,
+	    Weight			= 0.009,
+    }
+    item HCBeetsugarseedpacket
+    {
+
+        Type			=  Normal,
+	    DisplayName		= Sugar Beet Packet,
+	    Icon			= HCBeetsugarseedpacket,
+		DisplayCategory	= SurFarm,
+	    Weight			= 0.1,
+    }
+    craftRecipe Identify Unknown Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        OnCreate = HCR42.HCRandomseeds,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMysteryseedspacket],
+            item 1 [Hydrocraft.HCBookgardening] mode:keep,
+        }
+    }
+    craftRecipe Find Seeds
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        OnCreate = HCR42.HCFindSeeds,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSieve;Hydrocraft.HCFloursieve] mode:keep,
+            item 1 [Base.Popcorn;Base.Cereal;Hydrocraft.HCHerbs],
+        }
+    }
+    craftRecipe Put Flax Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCFlaxseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlaxseedseedpacket,
+        }
+    }
+    craftRecipe Open Packet of Flax Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlaxseedseedpacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCFlaxseeds,
+        }
+    }
+    craftRecipe Put Candleberry Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCandleberryseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCandleberryseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Candleberry Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCandleberryseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCandleberryseeds,
+        }
+    }
+    craftRecipe Put Bean Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCBeanseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeanseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Bean Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeanseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCBeanseeds,
+        }
+    }
+    craftRecipe Put Pumpkin Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPumpkinseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPumpkinseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Pumpkin Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPumpkinseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPumpkinseeds,
+        }
+    }
+    craftRecipe Put Tea Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCTeaseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTeaseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Tea Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTeaseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCTeaseeds,
+        }
+    }
+    craftRecipe Put Hemp Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCHempseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHempseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Hemp Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHempseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCHempseeds,
+        }
+    }
+    craftRecipe Put Tobacco Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCTobaccoseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTobaccoseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Tobacco Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTobaccoseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCTobaccoseeds,
+        }
+    }
+    craftRecipe Put Jute Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCJuteseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJuteseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Jute Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJuteseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCJuteseeds,
+        }
+    }
+    craftRecipe Put Apple Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCAppleseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAppleseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Apple Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAppleseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCAppleseeds,
+        }
+    }
+    craftRecipe Put Banana Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCBananaseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBananaseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Banana Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBananaseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCBananaseeds,
+        }
+    }
+    craftRecipe Put Blackberry Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCBlackberryseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlackberryseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Blackberry Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBlackberryseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCBlackberryseeds,
+        }
+    }
+    craftRecipe Put Blueberry Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCBlueberryseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlueberryseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Blueberry Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBlueberryseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCBlueberryseeds,
+        }
+    }
+    craftRecipe Put Grape Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCGrapeseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGrapeseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Grape Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGrapeseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCGrapeseeds,
+        }
+    }
+    craftRecipe Put Lemon Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCLemonseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLemonseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Lemon Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLemonseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCLemonseeds,
+        }
+    }
+    craftRecipe Put Orange Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCOrangeseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCOrangeseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Orange Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCOrangeseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCOrangeseeds,
+        }
+    }
+    craftRecipe Put Peach Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPeachseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPeachseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Peach Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPeachseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPeachseeds,
+        }
+    }
+    craftRecipe Put Watermelon Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCWatermelonseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWatermelonseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Watermelon Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWatermelonseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCWatermelonseeds,
+        }
+    }
+    craftRecipe Put Green Bellpeper Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCBellpeppergreenseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBellpeppergreenseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Green Bellpeper Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBellpeppergreenseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCBellpeppergreenseeds,
+        }
+    }
+    craftRecipe Put Red Bellpeper Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCBellpepperredseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBellpepperredseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Red Bellpeper Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBellpepperredseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCBellpepperredseeds,
+        }
+    }
+    craftRecipe Put Yellow Bellpeper Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCBellpepperyellowseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBellpepperyellowseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Yellow Bellpeper Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBellpepperyellowseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCBellpepperyellowseeds,
+        }
+    }
+    craftRecipe Put Corn Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCornseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCornseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Corn Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCornseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCornseeds,
+        }
+    }
+    craftRecipe Put Eggplant Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCEggplantseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCEggplantseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Eggplant Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEggplantseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCEggplantseeds,
+        }
+    }
+    craftRecipe Put Leek Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCLeekseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeekseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Leek Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLeekseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCLeekseeds,
+        }
+    }
+    craftRecipe Put Lettuce Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCLettuceseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLettuceseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Lettuce Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLettuceseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCLettuceseeds,
+        }
+    }
+    craftRecipe Put Onion Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCOnionseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCOnionseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Onion Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCOnionseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCOnionseeds,
+        }
+    }
+    craftRecipe Put Pea Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPeaseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPeaseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Pea Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPeaseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPeaseeds,
+        }
+    }
+    craftRecipe Put Peanut Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPeanutseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPeanutseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Peanut Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPeanutseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPeanutseeds,
+        }
+    }
+    craftRecipe Put Avacado Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCAvacadoseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAvacadoseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Avacado Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAvacadoseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCAvacadoseeds,
+        }
+    }
+    craftRecipe Put Pear Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPearseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPearseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Pear Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPearseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPearseeds,
+        }
+    }
+    craftRecipe Put Cherry Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCherryseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCherryseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Cherry Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCherryseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCherryseeds,
+        }
+    }
+    craftRecipe Put Pineapple Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPineappleseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPineappleseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Pineapple Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPineappleseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPineappleseeds,
+        }
+    }
+    craftRecipe Put Zucchini Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCZucchiniseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCZucchiniseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Zucchini Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZucchiniseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCZucchiniseeds,
+        }
+    }
+    craftRecipe Put Chinese Cabbage Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCChinesecabbageseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChinesecabbageseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Chinese Cabbage Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCChinesecabbageseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCChinesecabbageseeds,
+        }
+    }
+    craftRecipe Put Cucumber Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCucumberseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCucumberseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Cucumber Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCucumberseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCucumberseeds,
+        }
+    }
+    craftRecipe Put Ginger Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCGingerseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGingerseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Ginger Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGingerseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCGingerseeds,
+        }
+    }
+    craftRecipe Put Garlic Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCGarlicseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGarlicseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Garlic Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGarlicseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCGarlicseeds,
+        }
+    }
+    craftRecipe Put Green Onion Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCOniongreenseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCOniongreenseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Green Onion Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCOniongreenseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCOniongreenseeds,
+        }
+    }
+    craftRecipe Put Sweet Potato Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPotatosweetseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotatosweetseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Sweet Potato Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPotatosweetseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPotatosweetseeds,
+        }
+    }
+    craftRecipe Put Large Pumpkin Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPumpkinlargeseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPumpkinlargeseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Large Pumpkin Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPumpkinlargeseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPumpkinlargeseeds,
+        }
+    }
+    craftRecipe Put White Pumpkin Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPumpkinwhiteseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPumpkinwhiteseedspacket,
+        }
+    }
+    craftRecipe Open Packet of White Pumpkin Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPumpkinwhiteseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPumpkinwhiteseeds,
+        }
+    }
+    craftRecipe Put Green Pumpkin Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPumpkingreenseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPumpkingreenseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Green Pumpkin Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPumpkingreenseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPumpkingreenseeds,
+        }
+    }
+    craftRecipe Put Buskin Pumpkin Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPumpkinbuskinseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPumpkinbuskinseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Buskin Pumpkin Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPumpkinbuskinseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPumpkinbuskinseeds,
+        }
+    }
+    craftRecipe Put White Corn Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCornwhiteseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCornwhiteseedspacket,
+        }
+    }
+    craftRecipe Open Packet of White Corn Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCornwhiteseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCornwhiteseeds,
+        }
+    }
+    craftRecipe Put Red Corn Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCornredseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCornredseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Red Corn Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCornredseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCornredseeds,
+        }
+    }
+    craftRecipe Put Blue Corn Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCornblueseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCornblueseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Blue Corn Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCornblueseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCornblueseeds,
+        }
+    }
+    craftRecipe Put Apricot Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCApricotseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCApricotseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Apricot Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCApricotseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCApricotseeds,
+        }
+    }
+    craftRecipe Put Colewort Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCColewortseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCColewortseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Colewort Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCColewortseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCColewortseeds,
+        }
+    }
+    craftRecipe Put Cotton Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCottonseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCottonseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Cotton Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCottonseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCottonseeds,
+        }
+    }
+    craftRecipe Put Red Cabbage Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCabbageredseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCabbageredseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Red Cabbage Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCabbageredseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCabbageredseeds,
+        }
+    }
+    craftRecipe Put White Cabbage Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCabbagewhiteseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCabbagewhiteseedspacket,
+        }
+    }
+    craftRecipe Open Packet of White Cabbage Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCabbagewhiteseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCabbagewhiteseeds,
+        }
+    }
+    craftRecipe Put Red Potato Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPotatoredseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotatoredseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Red Potato Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPotatoredseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPotatoredseeds,
+        }
+    }
+    craftRecipe Put Golden Potato Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPotatogoldenseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotatogoldenseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Golden Potato Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPotatogoldenseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPotatogoldenseeds,
+        }
+    }
+    craftRecipe Put Chili Pepper Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCChilipepperseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChilipepperseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Chili Pepper Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCChilipepperseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCChilipepperseeds,
+        }
+    }
+    craftRecipe Put Poppy Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPoppyseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPoppyseedspack,
+        }
+    }
+    craftRecipe Open Packet of Poppy Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPoppyseedspack],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPoppyseeds,
+        }
+    }
+    craftRecipe Put Cactus Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCactusseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCactusseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Cactus Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCactusseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCactusseeds,
+        }
+    }
+    craftRecipe Put Blue Agave Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCAgaveblueseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAgaveblueseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Blue Agave Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAgaveblueseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCAgaveblueseeds,
+        }
+    }
+    craftRecipe Put Prickly Pear Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCPricklypearseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPricklypearseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Prickly Pear Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPricklypearseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCPricklypearseeds,
+        }
+    }
+    craftRecipe Put Green Chili Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCChiligreenseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChiligreenseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Green Chili Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCChiligreenseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCChiligreenseeds,
+        }
+    }
+    craftRecipe Put Tomatillo Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCTomatilloseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTomatilloseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Tomatillo Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTomatilloseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCTomatilloseeds,
+        }
+    }
+    craftRecipe Put Rice Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCRiceseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRiceseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Rice Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRiceseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCRiceseeds,
+        }
+    }
+    craftRecipe Put Rubber Tree Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCRubbertreeseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubbertreeseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Rubber Tree Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubbertreeseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCRubbertreeseeds,
+        }
+    }
+    craftRecipe Put Spirulina Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCSpirulinaseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpirulinaseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Spirulina Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSpirulinaseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCSpirulinaseeds,
+        }
+    }
+    craftRecipe Put Basil Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCBasilseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBasilseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Basil Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBasilseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCBasilseeds,
+        }
+    }
+    craftRecipe Put Oregano Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCOreganoseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCOreganoseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Oregano Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCOreganoseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCOreganoseeds,
+        }
+    }
+    craftRecipe Put Asparagus Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCAsparagusseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAsparagusseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Asparagus Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAsparagusseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCAsparagusseeds,
+        }
+    }
+    craftRecipe Put Artichoke Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCArtichokesseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCArtichokesseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Artichoke Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCArtichokesseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCArtichokesseeds,
+        }
+    }
+    craftRecipe Put Alfalfa Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCAlfalfaseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAlfalfaseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Alfalfa Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAlfalfaseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCAlfalfaseeds,
+        }
+    }
+    craftRecipe Put Bamboo Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCBambooseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBambooseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Bamboo Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBambooseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCBambooseeds,
+        }
+    }
+    craftRecipe Put Mulberry Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCMulberryseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMulberryseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Celery Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMulberryseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCMulberryseeds,
+        }
+    }
+    craftRecipe Put Celery Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCCeleryseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCeleryseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Celery Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCeleryseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCCeleryseeds,
+        }
+    }
+    craftRecipe Put Spinach Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCSpinachseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpinachseedspacket,
+        }
+    }
+    craftRecipe Open Packet of Spinach Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSpinachseedspacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCSpinachseeds,
+        }
+    }
+    craftRecipe Put Sugar Beet Seeds in Packet
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 50 [Hydrocraft.HCBeetsugarseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeetsugarseedpacket,
+        }
+    }
+    craftRecipe Open Packet of Sugar Beet Seeds
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Farming,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeetsugarseedpacket],
+        }
+        outputs
+        {
+            item 50 Hydrocraft.HCBeetsugarseeds,
+        }
+    }
+}

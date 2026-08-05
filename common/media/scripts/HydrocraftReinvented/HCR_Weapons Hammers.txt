@@ -1,0 +1,1227 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCSmithyhammertitanium
+    {
+
+		MaxRange			=	1,
+		WeaponSprite			=	Hydrocraft.HCSmithyhammertitanium,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	SmallBlunt,
+		ConditionLowerChanceOneIn	=	25,
+		Weight				=	1,
+		SplatNumber			=	0,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		DoorDamage			=	9,
+		SwingAnim			=	Bat,
+		WeaponWeight			=	1,
+		DisplayName			=	Titanium Smithy Hammer,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		MinDamage			=	0.5,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCSmithyhammertitanium,
+		RunAnim				=	Run_Weapon2,
+        IdleAnim			=	Idle_Weapon2,
+        BreakSound  			=   	BreakMetalItem,
+        TreeDamage  			=   	1,
+        AttachmentType = Hammer,
+		DisplayCategory		=	Tool,
+    }
+    item HCSmithyhammersteel
+    {
+
+		MaxRange			=	1,
+		WeaponSprite			=	Hydrocraft.HCSmithyhammersteel,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	SmallBlunt,
+		ConditionLowerChanceOneIn	=	20,
+		Weight				=	1,
+		SplatNumber			=	0,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		DoorDamage			=	9,
+		SwingAnim			=	Bat,
+		WeaponWeight			=	1,
+		DisplayName			=	Steel Smithy Hammer,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		MinDamage			=	0.5,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCSmithyhammersteel,
+		RunAnim				=	Run_Weapon2,
+        IdleAnim			=	Idle_Weapon2,
+        BreakSound  			=   	BreakMetalItem,
+        TreeDamage  			=   	1,
+        AttachmentType = Hammer,
+		DisplayCategory		=	Tool,
+    }
+    item HCSmithyhammeriron
+    {
+
+		MaxRange			=	1,
+		WeaponSprite			=	Hydrocraft.HCSmithyhammeriron,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	SmallBlunt,
+		ConditionLowerChanceOneIn	=	15,
+		Weight				=	1,
+		SplatNumber			=	0,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		DoorDamage			=	9,
+		SwingAnim			=	Bat,
+		WeaponWeight			=	1,
+		DisplayName			=	Iron Smithy Hammer,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		MinDamage			=	0.5,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCSmithyhammeriron,
+		RunAnim				=	Run_Weapon2,
+        IdleAnim			=	Idle_Weapon2,
+        BreakSound  			=   	BreakMetalItem,
+        TreeDamage  			=   	1,
+        AttachmentType = Hammer,
+		DisplayCategory		=	Tool,
+    }
+    item HCSmithyhammerbronze
+    {
+
+		MaxRange			=	1,
+		WeaponSprite			=	Hydrocraft.HCSmithyhammerbronze,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	SmallBlunt,
+		ConditionLowerChanceOneIn	=	10,
+		Weight				=	1,
+		SplatNumber			=	0,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		DoorDamage			=	9,
+		SwingAnim			=	Bat,
+		WeaponWeight			=	1,
+		DisplayName			=	Bronze Smithy Hammer,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		MinDamage			=	0.5,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCSmithyhammerbronze,
+		RunAnim				=	Run_Weapon2,
+        IdleAnim			=	Idle_Weapon2,
+        BreakSound  			=   	BreakMetalItem,
+        TreeDamage  			=   	1,
+        AttachmentType = Hammer,
+		DisplayCategory		=	Tool,
+    }
+    item HCSmithyhammercopper
+    {
+
+		MaxRange			=	1,
+		WeaponSprite			=	Hydrocraft.HCSmithyhammercopper,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	SmallBlunt,
+		ConditionLowerChanceOneIn	=	5,
+		Weight				=	1,
+		SplatNumber			=	0,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		DoorDamage			=	9,
+		SwingAnim			=	Bat,
+		WeaponWeight			=	1,
+		DisplayName			=	Copper Smithy Hammer,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		MinDamage			=	0.5,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCSmithyhammercopper,
+		RunAnim				=	Run_Weapon2,
+        IdleAnim			=	Idle_Weapon2,
+        BreakSound  			=   	BreakMetalItem,
+        TreeDamage  			=   	1,
+        AttachmentType = Hammer,
+		DisplayCategory		=	Tool,
+    }
+    item HCWarhammersteel
+    {
+
+		MaxRange			=	1.9,
+		WeaponSprite			=	Hydrocraft.HCWarhammersteel,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	4,
+		EnduranceMod			=	6,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.04,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	20,
+		Weight				=	3,
+		SplatNumber			=	1,
+		PushBackMod			=	1,
+		MaxDamage			=	3,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	3,
+		DoorDamage			=	40,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Sledgehammer,
+		WeaponWeight			=	3,
+		DisplayName			=	Steel War Hammer,
+		MinRange			=	0.7,
+		SwingTime			=	4,
+		DoorHitSound			=	sledgehammer,
+		MinDamage			=	2,
+		KnockdownMod			=	3,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCWarhammersteel,
+		RunAnim				=	Run_Weapon2,
+        TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+       	TreeDamage  			=   	10,
+		RequiresEquippedBothHands 	= 	true
+		AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCWarhammeriron
+    {
+
+		MaxRange			=	1.9,
+		WeaponSprite			=	Hydrocraft.HCWarhammeriron,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	4,
+		EnduranceMod			=	6,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.04,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	15,
+		Weight				=	3,
+		SplatNumber			=	1,
+		PushBackMod			=	1,
+		MaxDamage			=	3,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	3,
+		DoorDamage			=	40,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Sledgehammer,
+		WeaponWeight			=	3,
+		DisplayName			=	Iron War Hammer,
+		MinRange			=	0.7,
+		SwingTime			=	4,
+		DoorHitSound			=	sledgehammer,
+		MinDamage			=	2,
+		KnockdownMod			=	3,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCWarhammeriron,
+		RunAnim				=	Run_Weapon2,
+        TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+       	TreeDamage  			=   	10,
+		RequiresEquippedBothHands 	= 	true,
+		AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCWarhammerbronze
+    {
+
+		MaxRange			=	1.9,
+		WeaponSprite			=	Hydrocraft.HCWarhammerbronze,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	4,
+		EnduranceMod			=	6,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.04,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	10,
+		Weight				=	3,
+		SplatNumber			=	1,
+		PushBackMod			=	1,
+		MaxDamage			=	3,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	3,
+		DoorDamage			=	40,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Sledgehammer,
+		WeaponWeight			=	3,
+		DisplayName			=	Bronze War Hammer,
+		MinRange			=	0.7,
+		SwingTime			=	4,
+		DoorHitSound			=	sledgehammer,
+		MinDamage			=	2,
+		KnockdownMod			=	3,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCWarhammerbronze,
+		RunAnim				=	Run_Weapon2,
+        TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+       	TreeDamage  			=   	10,
+		RequiresEquippedBothHands 	= 	true,
+		AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCWarhammercopper
+    {
+
+		MaxRange			=	1.9,
+		WeaponSprite			=	Hydrocraft.HCWarhammercopper,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	4,
+		EnduranceMod			=	6,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.04,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	5,
+		Weight				=	3,
+		SplatNumber			=	1,
+		PushBackMod			=	1,
+		MaxDamage			=	3,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	3,
+		DoorDamage			=	40,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Sledgehammer,
+		WeaponWeight			=	3,
+		DisplayName			=	Copper War Hammer,
+		MinRange			=	0.7,
+		SwingTime			=	4,
+		DoorHitSound			=	sledgehammer,
+		MinDamage			=	2,
+		KnockdownMod			=	3,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCWarhammercopper,
+		RunAnim				=	Run_Weapon2,
+        TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+       	TreeDamage  			=   	10,
+		RequiresEquippedBothHands 	= 	true,
+		AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpikedmacesteel
+    {
+
+		DisplayName					=	Steel Spiked Mace,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blunt,
+		WeaponSprite				=	Hydrocraft.HCSpikedmacesteel,
+		SwingAnim					=	Bat,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCSpikedmacesteel,
+		ImpactSound					=	BladeHit,
+		Weight						=	2,
+		WeaponWeight				=	1,
+		MaxRange					=	1.8,
+		MinRange					=	0.5,
+		MaxDamage					=	5,
+		MinDamage					=	2,
+		CriticalChance				=	50,
+		DoorDamage					=	10,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath			=	TRUE,
+		KnockdownMod				=	2.25,
+		ConditionLowerChanceOneIn	=	10,
+		ConditionMax				=	50,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath			=	TRUE,
+		SwingTime					=	1,
+		MinimumSwingTime			=	3,
+		SwingAmountBeforeImpact		=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 				= TRUE,
+        BreakSound  				= BreakMetalItem,
+        TreeDamage  				= 10,
+        AttachmentType 				= Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpikedmaceiron
+    {
+
+		DisplayName			=	Iron Spiked Mace,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blunt,
+		WeaponSprite				=	Hydrocraft.HCSpikedmacesteel,
+		SwingAnim					=	Bat,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCSpikedmacesteel,
+		ImpactSound					=	BladeHit,
+		Weight						=	2,
+		WeaponWeight					=	1,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	4.5,
+		MinDamage					=	2,
+		CriticalChance					=	50,
+		DoorDamage					=	10,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	15,
+		ConditionMax					=	40,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	1,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= TRUE,
+        BreakSound  					= BreakMetalItem,
+        TreeDamage  					= 10,
+        AttachmentType 					= Shovel,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpikedmacebronze
+    {
+
+		DisplayName			=	Bronze Spiked Mace,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	SmallBlunt,
+		WeaponSprite				=	Hydrocraft.HCSpikedmaceBronce,
+		SwingAnim					=	Bat,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCSpikedmacesteel,
+		ImpactSound					=	BladeHit,
+		Weight						=	2,
+		WeaponWeight				=	1,
+		MaxRange					=	1,
+		MinRange					=	0.5,
+		MaxDamage					=	4,
+		MinDamage					=	2,
+		CriticalChance				=	50,
+		DoorDamage					=	10,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath			=	TRUE,
+		KnockdownMod				=	2.25,
+		ConditionLowerChanceOneIn	=	15,
+		ConditionMax				=	35,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath			=	TRUE,
+		SwingTime					=	0.5,
+		MinimumSwingTime			=	3,
+		SwingAmountBeforeImpact		=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+        BreakSound  				= 	BreakMetalItem,
+        TreeDamage  				= 	10,
+        AttachmentType 				= 	Hammer,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpikedmacecopper
+    {
+
+		DisplayName					=	Copper Spiked Mace,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	SmallBlunt,
+		WeaponSprite				=	Hydrocraft.HCSpikedmaceCopper,
+		SwingAnim					=	Bat,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCSpikedmacesteel,
+		ImpactSound					=	BladeHit,
+		Weight						=	2,
+		WeaponWeight				=	1,
+		MaxRange					=	1,
+		MinRange					=	0.5,
+		MaxDamage					=	4,
+		MinDamage					=	2,
+		CriticalChance				=	50,
+		DoorDamage					=	10,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath			=	TRUE,
+		KnockdownMod				=	2.25,
+		ConditionLowerChanceOneIn	=	20,
+		ConditionMax				=	30,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath			=	TRUE,
+		SwingTime					=	0.5,
+		MinimumSwingTime			=	3,
+		SwingAmountBeforeImpact		=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+        BreakSound  				= 	BreakMetalItem,
+        TreeDamage  				= 	10,
+        AttachmentType 				= 	Hammer,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpikedflailsteel
+    {
+
+		MaxRange			=	2.0,
+		WeaponSprite			=	BaseballbatSpiked,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	20,
+		Weight				=	2,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1.5,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	7,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	15,
+		WeaponWeight			=	2,
+		DisplayName			=	Steel Spiked Flail,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	1,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCSpikedflailsteel,
+		RunAnim				=	Run_Weapon2,
+        TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+        TreeDamage  			=   	1,
+        AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpikedflailiron
+    {
+
+		MaxRange			=	2.0,
+		WeaponSprite			=	BaseballbatSpiked,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	15,
+		Weight				=	2,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1.5,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	7,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	15,
+		WeaponWeight			=	2,
+		DisplayName			=	Iron Spiked Flail,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	1,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCSpikedflailiron,
+		RunAnim				=	Run_Weapon2,
+        TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+        TreeDamage  			=   	1,
+        AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpikedflailbronze
+    {
+
+		MaxRange			=	2.0,
+		WeaponSprite			=	BaseballbatSpiked,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	10,
+		Weight				=	2,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1.5,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	7,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	15,
+		WeaponWeight			=	2,
+		DisplayName			=	Bronze Spiked Flail,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	1,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCSpikedflailbronze,
+		RunAnim				=	Run_Weapon2,
+        TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+        TreeDamage  			=   	1,
+        AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCSpikedflailcopper
+    {
+
+		MaxRange			=	2.0,
+		WeaponSprite			=	BaseballbatSpiked,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	5,
+		Weight				=	2,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1.5,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	7,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	15,
+		WeaponWeight			=	2,
+		DisplayName			=	Copper Spiked Flail,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	1,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCSpikedflailcopper,
+		RunAnim				=	Run_Weapon2,
+        TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+        TreeDamage  			=   	1,
+        AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    item HCFlailstone
+    {
+
+		MaxRange			=	1.5,
+		WeaponSprite			=	Baseballbat,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	3,
+		Weight				=	2,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1.2,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	7,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	2,
+		DisplayName			=	Stone Flail,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	0.8,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCFlailstone,
+		RunAnim				=	Run_Weapon2,
+        TwoHandWeapon 			= 	TRUE,
+        BreakSound  			=   	BreakWoodItem,
+        TreeDamage  			=   	1,
+        AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
+    }
+    craftRecipe Make Steel Sledgehammer
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:5,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCSteelingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Sledgehammer2,
+        }
+    }
+    craftRecipe Make Titanium Smithy Hammer
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:4,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTitaniumingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSmithyhammertitanium,
+        }
+    }
+    craftRecipe Make Steel Smithy Hammer
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSmithyhammersteel,
+        }
+    }
+    craftRecipe Make Iron Smithy Hammer
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIroningot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSmithyhammeriron,
+        }
+    }
+    craftRecipe Make Bronze Smithy Hammer
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBronzeingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSmithyhammerbronze,
+        }
+    }
+    craftRecipe Make Copper Smithy Hammer
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCopperingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Base.Hammer;Base.HammerStone;Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSmithyhammercopper,
+        }
+    }
+    craftRecipe Make Steel War Hammer
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:7,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCSteelingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWarhammersteel,
+        }
+    }
+    craftRecipe Make Iron War Hammer
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:6,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCIroningot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWarhammeriron,
+        }
+    }
+    craftRecipe Make Bronze War Hammer
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:5,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCBronzeingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWarhammerbronze,
+        }
+    }
+    craftRecipe Make Copper War Hammer
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:5,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCCopperingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWarhammercopper,
+        }
+    }
+    craftRecipe Make Steel Spiked Mace
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:5,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpikedmacesteel,
+        }
+    }
+    craftRecipe Make Iron Spiked Mace
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:5,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCIroningot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpikedmaceiron,
+        }
+    }
+    craftRecipe Make Bronze Spiked Mace
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:4,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBronzeingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpikedmacebronze,
+        }
+    }
+    craftRecipe Make Copper Spiked Mace
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:4,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCCopperingot],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpikedmacecopper,
+        }
+    }
+    craftRecipe Make Steel Spiked Flail
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:6,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCChain],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpikedflailsteel,
+        }
+    }
+    craftRecipe Make Iron Spiked Flail
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:6,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCChain],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpikedflailiron,
+        }
+    }
+    craftRecipe Make Bronze Spiked Flail
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:4,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBronzeingot],
+            item 1 [Hydrocraft.HCChain],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpikedflailbronze,
+        }
+    }
+    craftRecipe Make Copper Spiked Flail
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        SkillRequired = Maintenance:4,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCCopperingot],
+            item 1 [Hydrocraft.HCChain],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Hydrocraft.HCAnvilstone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSpikedflailcopper,
+        }
+    }
+    craftRecipe Make Stone Flail
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        SkillRequired = Maintenance:2,
+        inputs
+        {
+            item 1 [Base.Stone2],
+            item 1 [Base.Rope],
+            item 1 [Base.WoodenStick2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlailstone,
+        }
+    }
+    fixing Fix Sledgehammer
+    {
+        Require = Base.Sledgehammer,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=3,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Hammer
+    {
+        Require = Base.Hammer,
+        Fixer = Hydrocraft.HCWoodgluejar=1; Woodwork=1,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Steel Smithy Hammer
+    {
+        Require = Hydrocraft.HCSmithyhammersteel,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron Smithy Hammer
+    {
+        Require = Hydrocraft.HCSmithyhammeriron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+    fixing Fix Bronze Smithy Hammer
+    {
+        Require = Hydrocraft.HCSmithyhammerbronze,
+        Fixer = Hydrocraft.HCBronzeingot,
+    }
+    fixing Fix Copper Smithy Hammer
+    {
+        Require = Hydrocraft.HCSmithyhammercopper,
+        Fixer = Hydrocraft.HCCopperingot,
+    }
+    fixing Fix Steel War Hammer
+    {
+        Require = Hydrocraft.HCSmithyhammersteel,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron War Hammer
+    {
+        Require = Hydrocraft.HCWarhammeriron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+    fixing Fix Bronze War Hammer
+    {
+        Require = Hydrocraft.HCWarhammerbronze,
+        Fixer = Hydrocraft.HCBronzeingot,
+    }
+    fixing Fix Copper War Hammer
+    {
+        Require = Hydrocraft.HCWarhammercopper,
+        Fixer = Hydrocraft.HCCopperingot,
+    }
+    fixing Fix Steel Spiked Mace
+    {
+        Require = Hydrocraft.HCSpikedmacesteel,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron Spiked Mace
+    {
+        Require = Hydrocraft.HCSpikedmaceiron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+    fixing Fix Bronze Spiked Mace
+    {
+        Require = Hydrocraft.HCSpikedmacebronze,
+        Fixer = Hydrocraft.HCBronzeingot,
+    }
+    fixing Fix Copper Spiked Mace
+    {
+        Require = Hydrocraft.HCSpikedmacecopper,
+        Fixer = Hydrocraft.HCCopperingot,
+    }
+    fixing Fix Steel Spiked Flail
+    {
+        Require = Hydrocraft.HCSpikedflailsteel,
+        Fixer = Hydrocraft.HCSteelingot,
+    }
+    fixing Fix Iron Spiked Flail
+    {
+        Require = Hydrocraft.HCSpikedflailiron,
+        Fixer = Hydrocraft.HCIroningot,
+    }
+    fixing Fix Bronze Spiked Flail
+    {
+        Require = Hydrocraft.HCSpikedflailbronze,
+        Fixer = Hydrocraft.HCBronzeingot,
+    }
+    fixing Fix Copper Spiked Flail
+    {
+        Require = Hydrocraft.HCSpikedflailcopper,
+        Fixer = Hydrocraft.HCCopperingot,
+    }
+}

@@ -1,0 +1,3325 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCHomemadebatcrude
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	Baseballbat,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	12,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	5,
+		WeaponWeight	=	2,
+		DisplayName	=	Crude Bat,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.6,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	HCHomemadebatcrude,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory          =   WepMelee,
+    }
+    item HCHomemadebatcrudenails
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	2,
+		DisplayName	=	Nailed Crude Bat,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.8,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebatcrudenails,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebatcrudebarbedwire
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	2,
+		DisplayName	=	Crude Bat with Barbed Wire,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.8,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebatcrudebarbedwire,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebatcrudescrews
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.2,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	2,
+		DisplayName	=	Crude Bat with Screws,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.8,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebatcrudescrews,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebatcrudetentpegs
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	2,
+		DisplayName	=	Crude Bat with Tent Pegs,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.8,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebatcrudetentpegs,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebatcrudewrench
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	3.5,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	3.5,
+		DisplayName	=	Crude Bat with Wrench,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.8,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebatcrudewrench,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebatcrudecutter
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	2.8,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	2.8,
+		DisplayName	=	Crude Bat with Hedge Cutter Blade,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.8,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebatcrudecutter,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebatcrudetrimmer
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	3.5,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	3.5,
+		DisplayName	=	Crude Bat with Hedge Trimmer Blade,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.8,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebatcrudetrimmer,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebat
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	Baseballbat,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	16,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.2,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	10,
+		WeaponWeight	=	2,
+		DisplayName	=	Homemade Bat,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	0.8,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	HCHomemadebat,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebatnails
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	2,
+		DisplayName	=	Nailed Homemade Bat,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebatnails,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebatbarbedwire
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	2,
+		DisplayName	=	Homemade Bat with Barbed Wire,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebatbarbedwire,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebatscrews
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.4,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	2,
+		DisplayName	=	Homemade Bat with Screws,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebatscrews,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebattentpegs
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	2,
+		DisplayName	=	Homemade Bat with Tent Pegs,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebattentpegs,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebatwrench
+    {
+
+		MaxRange			=	1.5,
+		WeaponSprite			=	BaseballbatSpiked,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight				=	3.5,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1.7,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	7,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	15,
+		WeaponWeight			=	3.5,
+		DisplayName			=	Homemade Bat with Wrench,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	1,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCHomemadebatwrench,
+		RunAnim				=	Run_Weapon2,
+        	TwoHandWeapon 			= 	TRUE,
+		BreakSound  			=   	BreakWoodItem,
+        	TreeDamage  			=   	1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebatcutter
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	2.8,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	2.8,
+		DisplayName	=	Homemade Bat with Hedge Cutter Blade,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebatcutter,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadebattrimmer
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	HCHomemadebattrimmer,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	3.5,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.7,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	3.5,
+		DisplayName	=	Homemade Bat with Hedge Trimmer Bloody,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadebattrimmer,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCBaseballbatbarbedwire
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	2,
+		DisplayName	=	Baseballbat with Barbed Wire,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCBaseballbatbarbedwire,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCBaseballbatscrews
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.4,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	2,
+		DisplayName	=	Baseballbat with Screws,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCBaseballbatscrews,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCBaseballbattentpegs
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	2,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	2,
+		DisplayName	=	Baseballbat with Tent Pegs,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCBaseballbattentpegs,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCBaseballbatwrench
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	3.5,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.7,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	3.5,
+		DisplayName	=	Baseballbat with Wrench,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCBaseballbatwrench,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCBaseballbatcutter
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	2.8,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	2.8,
+		DisplayName	=	Baseballbat with Hedge Cutter Blade,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCBaseballbatcutter,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCBaseballbattrimmer
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	HCBaseballbattrimmer,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	3.5,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.7,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	3.5,
+		DisplayName	=	Baseballbat with Hedge Trimmer Blade,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCBaseballbattrimmer,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCGnomestick
+    {
+
+		MaxRange	=	1.5,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0.2,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	3.5,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		MaxDamage	=	2.0,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	15,
+		WeaponWeight	=	3.5,
+		DisplayName	=	Gnomestick,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		MinDamage	=	1,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCGnomestick,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubcrude
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	Baseballbat,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	12,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	0.8,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Crude Club,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.4,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	HCHomemadeclubcrude,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubcrudenails
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Nailed Crude Club,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubcrudenails,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubcrudebarbedwire
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	0.9,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Crude Club with Barbed Wire,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubcrudebarbedwire,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubcrudescrews
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Crude Club with Screws,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubcrudescrews,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubcrudetentpegs
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Crude Club with Tent Pegs,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubcrudetentpegs,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubcrudewrench
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	3,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	3,
+		DisplayName	=	Crude Club with Wrench,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubcrudewrench,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubcrudecutter
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	2.3,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	3,
+		DisplayName	=	Crude Club with Hedge Cutter Blade,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubcrudecutter,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubcrudetrimmer
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	6,
+		Weight	=	3,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	3,
+		DisplayName	=	Crude Club with Hedge Trimmer Blade,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubcrudetrimmer,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclub
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	Baseballbat,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	16,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Homemade Club,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	HCHomemadeclub,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubnails
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Nailed Homemade Club,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubnails,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubbarbedwire
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Homemade Club with Barbed Wire,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubbarbedwire,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubscrews
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.2,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Homemade Club with Screws,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubscrews,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubtentpegs
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Homemade Club with Tent Pegs,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubtentpegs,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubwrench
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	3,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	3,
+		DisplayName	=	Homemade Club with Wrench,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubwrench,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubcutter
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	2.3,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	2.3,
+		DisplayName	=	Homemade Club with Hedge Cutter Blade,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubcutter,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCHomemadeclubtrimmer
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	8,
+		Weight	=	3,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	3,
+		DisplayName	=	Homemade Club with Hedge Trimmer Blade,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCHomemadeclubtrimmer,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCMasterclub
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	Baseballbat,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	20,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Club,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	HCMasterclub,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCMasterclubnails
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	10,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Nailed Club,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCMasterclubnails,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCMasterclubbarbedwire
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	10,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.1,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Club with Barbed Wire,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCMasterclubbarbedwire,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCMasterclubscrews
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	10,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.2,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Club with Screws,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCMasterclubscrews,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCMasterclubtentpegs
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	10,
+		Weight	=	1.5,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	1.5,
+		DisplayName	=	Club with Tent Pegs,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCMasterclubtentpegs,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCMasterclubwrench
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	10,
+		Weight	=	3,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	3,
+		DisplayName	=	Club with Wrench,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCMasterclubwrench,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCMasterclubcutter
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	10,
+		Weight	=	2.3,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	2.3,
+		DisplayName	=	Club with Hedge Cutter Blade,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCMasterclubcutter,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    item HCMasterclubtrimmer
+    {
+
+		MaxRange	=	1,
+		WeaponSprite	=	BaseballbatSpiked,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	10,
+		Weight	=	3,
+		SplatNumber	=	0,
+		PushBackMod	=	0.5,
+		MaxDamage	=	1.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	1,
+		DoorDamage	=	6,
+		SwingAnim	=	Bat,
+		WeaponWeight	=	3,
+		DisplayName	=	Club with Hedge Trimmer Blade,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		MinDamage	=	0.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCMasterclubtrimmer,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+		BreakSound  =   BreakWoodItem,
+        TreeDamage  =   10,
+        AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
+    }
+    craftRecipe Craft Crude Bat
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:1,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 3 [Base.Plank],
+            item 1 [Base.Woodglue;Hydrocraft.HCWoodgluejar;Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Twine;Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatcrude,
+        }
+    }
+    craftRecipe Craft Nailed Crude Bat
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebatcrude],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatcrudenails,
+        }
+    }
+    craftRecipe Craft Crude Bat with Barbed Wire
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebatcrude],
+            item 1 [Base.BarbedWire],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatcrudebarbedwire,
+        }
+    }
+    craftRecipe Craft Crude Bat with Screws
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebatcrude],
+            item 10 [Base.Screws],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatcrudescrews,
+        }
+    }
+    craftRecipe Craft Crude Bat with Wrench
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebatcrude],
+            item 1 [Base.PipeWrench],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatcrudewrench,
+        }
+    }
+    craftRecipe Craft Crude Bat with Hedge Cutter Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebatcrude],
+            item 1 [Hydrocraft.HCHedgecutterblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatcrudecutter,
+        }
+    }
+    craftRecipe Craft Crude Bat with Hedge Trimmer Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebatcrude],
+            item 1 [Hydrocraft.HCHedgetrimmerblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatcrudetrimmer,
+        }
+    }
+    craftRecipe Craft Homemade Bat
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 3 [Base.Plank],
+            item 1 [Base.Woodglue;Hydrocraft.HCWoodgluejar],
+            item 1 [Base.Woodglue;Hydrocraft.HCWoodgluejar],
+            item 1 [Base.Woodglue;Hydrocraft.HCWoodgluejar],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebat,
+        }
+    }
+    craftRecipe Craft Nailed Homemade Bat
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebat],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatnails,
+        }
+    }
+    craftRecipe Craft Homemade Bat with Barbed Wire
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebat],
+            item 1 [Base.BarbedWire],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatbarbedwire,
+        }
+    }
+    craftRecipe Craft Homemade Bat with Screws
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebat],
+            item 10 [Base.Screws],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatscrews,
+        }
+    }
+    craftRecipe Craft Homemade Bat with Wrench
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebat],
+            item 1 [Base.PipeWrench],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatwrench,
+        }
+    }
+    craftRecipe Craft Homemade Bat with Hedge Cutter Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebat],
+            item 1 [Hydrocraft.HCHedgecutterblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebatcutter,
+        }
+    }
+    craftRecipe Craft Homemade Bat with Hedge Trimmer Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadebat],
+            item 1 [Hydrocraft.HCHedgetrimmerblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadebattrimmer,
+        }
+    }
+    craftRecipe Craft Baseball Bat
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:8,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Base.Log;Hydrocraft.HCOakLog],
+        }
+        outputs
+        {
+            item 1 Base.BaseballBat,
+        }
+    }
+    craftRecipe Craft Baseballbat with Barbed Wire
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.BaseballBat],
+            item 1 [Base.BarbedWire],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBaseballbatbarbedwire,
+        }
+    }
+    craftRecipe Craft Baseballbat with Screws
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.BaseballBat],
+            item 10 [Base.Screws],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBaseballbatscrews,
+        }
+    }
+    craftRecipe Craft Baseballbat with Wrench
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.BaseballBat],
+            item 1 [Base.PipeWrench],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBaseballbatwrench,
+        }
+    }
+    craftRecipe Craft Baseballbat with Hedge Cutter Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.BaseballBat],
+            item 1 [Hydrocraft.HCHedgecutterblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBaseballbatcutter,
+        }
+    }
+    craftRecipe Craft Baseballbat with Hedge Trimmer Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.BaseballBat],
+            item 1 [Hydrocraft.HCHedgetrimmerblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBaseballbattrimmer,
+        }
+    }
+    craftRecipe Craft Gnomestick
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Base.BaseballBat],
+            item 1 [Hydrocraft.HCGardengnome],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGnomestick,
+        }
+    }
+    craftRecipe Craft Crude Club
+    {
+        time = 420,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:1,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 2 [Base.Plank],
+            item 1 [Base.Woodglue;Hydrocraft.HCWoodgluejar;Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Twine;Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubcrude,
+        }
+    }
+    craftRecipe Craft Nailed Crude Club
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclubcrude],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubcrudenails,
+        }
+    }
+    craftRecipe Craft Crude Club with Barbed Wire
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclubcrude],
+            item 1 [Base.BarbedWire],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubcrudebarbedwire,
+        }
+    }
+    craftRecipe Craft Crude Club with Screws
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclubcrude],
+            item 10 [Base.Screws],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubcrudescrews,
+        }
+    }
+    craftRecipe Craft Crude Club with Wrench
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclubcrude],
+            item 1 [Base.PipeWrench],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubcrudewrench,
+        }
+    }
+    craftRecipe Craft Crude Club with Hedge Cutter Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclubcrude],
+            item 1 [Hydrocraft.HCHedgecutterblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubcrudecutter,
+        }
+    }
+    craftRecipe Craft Crude Club with Hedge Trimmer Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclubcrude],
+            item 1 [Hydrocraft.HCHedgetrimmerblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubcrudetrimmer,
+        }
+    }
+    craftRecipe Craft Homemade Club
+    {
+        time = 420,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 2 [Base.Plank],
+            item 1 [Base.Woodglue;Hydrocraft.HCWoodgluejar],
+            item 1 [Base.Woodglue;Hydrocraft.HCWoodgluejar],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclub,
+        }
+    }
+    craftRecipe Craft Nailed Homemade Club
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclub],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubnails,
+        }
+    }
+    craftRecipe Craft Homemade Club with Barbed Wire
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclub],
+            item 1 [Base.BarbedWire],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubbarbedwire,
+        }
+    }
+    craftRecipe Craft Homemade Club with Screws
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclub],
+            item 10 [Base.Screws],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubscrews,
+        }
+    }
+    craftRecipe Craft Homemade Club with Wrench
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclub],
+            item 1 [Base.PipeWrench],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubwrench,
+        }
+    }
+    craftRecipe Craft Homemade Club with Hedge Cutter Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclub],
+            item 1 [Hydrocraft.HCHedgecutterblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubcutter,
+        }
+    }
+    craftRecipe Craft Homemade Club with Hedge Trimmer Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHomemadeclub],
+            item 1 [Hydrocraft.HCHedgetrimmerblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHomemadeclubtrimmer,
+        }
+    }
+    craftRecipe Craft Club
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:8,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Base.Log],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMasterclub,
+        }
+    }
+    craftRecipe Craft Nailed Club
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMasterclub],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMasterclubnails,
+        }
+    }
+    craftRecipe Craft Club with Barbed Wire
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMasterclub],
+            item 1 [Base.BarbedWire],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMasterclubbarbedwire,
+        }
+    }
+    craftRecipe Craft Club with Screws
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMasterclub],
+            item 10 [Base.Screws],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMasterclubscrews,
+        }
+    }
+    craftRecipe Craft Club with Wrench
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMasterclub],
+            item 1 [Base.PipeWrench],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMasterclubwrench,
+        }
+    }
+    craftRecipe Craft Club with Hedge Cutter Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMasterclub],
+            item 1 [Hydrocraft.HCHedgecutterblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMasterclubcutter,
+        }
+    }
+    craftRecipe Craft Club with Hedge Trimmer Blade
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMasterclub],
+            item 1 [Hydrocraft.HCHedgetrimmerblade],
+            item 2 [Base.DuctTape],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMasterclubtrimmer,
+        }
+    }
+    fixing Fix Baseball Bat
+    {
+        Require = Base.BaseballBat,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Bat
+    {
+        Require = Hydrocraft.HCHomemadebatcrude,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Nailed Crude Bat
+    {
+        Require = Hydrocraft.HCHomemadebatcrudenails,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Base.Nails,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Bat with Barbed Wire
+    {
+        Require = Hydrocraft.HCHomemadebatcrudebarbedwire,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Base.BarbedWire,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Bat with Screws
+    {
+        Require = Hydrocraft.HCHomemadebatcrudescrews,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Base.Screws,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Bat with Tent Pegs
+    {
+        Require = Hydrocraft.HCHomemadebatcrudetentpegs,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = camping.TentPeg,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Bat with Wrench
+    {
+        Require = Hydrocraft.HCHomemadebatcrudewrench,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Base.PipeWrench,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Bat with Hedge Cutter Blade
+    {
+        Require = Hydrocraft.HCHomemadebatcrudecutter,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgecutterblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Bat with Hedge Trimmer Blade
+    {
+        Require = Hydrocraft.HCHomemadebatcrudetrimmer,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgetrimmerblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Bat
+    {
+        Require = Hydrocraft.HCHomemadebat,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Nailed Homemade Bat
+    {
+        Require = Hydrocraft.HCHomemadebatnails,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Base.Nails,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Bat with Barbed Wire
+    {
+        Require = Hydrocraft.HCHomemadebatbarbedwire,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Base.BarbedWire,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Bat with Screws
+    {
+        Require = Hydrocraft.HCHomemadebatscrews,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Base.Screws,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Bat with Tent Pegs
+    {
+        Require = Hydrocraft.HCHomemadebattentpegs,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = camping.TentPeg,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Bat with Wrench
+    {
+        Require = Hydrocraft.HCHomemadebatwrench,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Base.PipeWrench,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Bat with Hedge Cutter Blade
+    {
+        Require = Hydrocraft.HCHomemadebatcutter,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgecutterblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Bat with Hedge Trimmer Blade
+    {
+        Require = Hydrocraft.HCHomemadebattrimmer,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgetrimmerblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Baseballbat with Barbed Wire
+    {
+        Require = Hydrocraft.HCBaseballbatbarbedwire,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Base.BarbedWire,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Baseballbat with Screws
+    {
+        Require = Hydrocraft.HCBaseballbatscrews,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Base.Screws,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Baseball with Wrench
+    {
+        Require = Hydrocraft.HCBaseballbatwrench,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Base.PipeWrench,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Baseball with Hedge Cutter Blade
+    {
+        Require = Hydrocraft.HCBaseballbatcutter,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgecutterblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Baseball with Hedge Trimmer Blade
+    {
+        Require = Hydrocraft.HCBaseballbattrimmer,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgetrimmerblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Gnomestick
+    {
+        Require = Hydrocraft.HCGnomestick,
+        Fixer = Base.Woodglue=2; Woodwork=2,
+        Fixer = Base.DuctTape=2,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=4,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCGardengnome,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Club
+    {
+        Require = Hydrocraft.HCHomemadeclubcrude,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Nailed Crude Club
+    {
+        Require = Hydrocraft.HCHomemadeclubcrudenails,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Base.Nails,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Club with Barbed Wire
+    {
+        Require = Hydrocraft.HCHomemadeclubcrudebarbedwire,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Base.BarbedWire,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Club with Screws
+    {
+        Require = Hydrocraft.HCHomemadeclubcrudescrews,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Base.Screws,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Club with Tent Pegs
+    {
+        Require = Hydrocraft.HCHomemadeclubcrudetentpegs,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = camping.TentPeg,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Club with Wrench
+    {
+        Require = Hydrocraft.HCHomemadeclubcrudewrench,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Base.PipeWrench,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Club with Hedge Cutter Blade
+    {
+        Require = Hydrocraft.HCHomemadeclubcrudecutter,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgecutterblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Crude Club with Hedge Trimmer Blade
+    {
+        Require = Hydrocraft.HCHomemadeclubcrudetrimmer,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgetrimmerblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Club
+    {
+        Require = Hydrocraft.HCHomemadeclub,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Nailed Homemade Club
+    {
+        Require = Hydrocraft.HCHomemadeclubnails,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Base.Nails,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Club with Barbed Wire
+    {
+        Require = Hydrocraft.HCHomemadeclubbarbedwire,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Base.BarbedWire,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Club with Screws
+    {
+        Require = Hydrocraft.HCHomemadeclubscrews,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Base.Screws,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Club with Tent Pegs
+    {
+        Require = Hydrocraft.HCHomemadeclubtentpegs,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = camping.TentPeg,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Club with Wrench
+    {
+        Require = Hydrocraft.HCHomemadeclubwrench,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Base.PipeWrench,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Club with Hedge Cutter Blade
+    {
+        Require = Hydrocraft.HCHomemadeclubcutter,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgecutterblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Homemade Club with Hedge Trimmer Blade
+    {
+        Require = Hydrocraft.HCHomemadeclubtrimmer,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgetrimmerblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Club
+    {
+        Require = Hydrocraft.HCMasterclub,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Nailed Club
+    {
+        Require = Hydrocraft.HCMasterclubnails,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Base.Nails,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Club with Barbed Wire
+    {
+        Require = Hydrocraft.HCMasterclubbarbedwire,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Base.BarbedWire,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Club with Screws
+    {
+        Require = Hydrocraft.HCMasterclubscrews,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Base.Screws,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Club with Tent Pegs
+    {
+        Require = Hydrocraft.HCMasterclubtentpegs,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = camping.TentPeg,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Club with Wrench
+    {
+        Require = Hydrocraft.HCMasterclubwrench,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Base.PipeWrench,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Club with Hedge Cutter Blade
+    {
+        Require = Hydrocraft.HCMasterclubcutter,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgecutterblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+    fixing Fix Club with Hedge Trimmer Blade
+    {
+        Require = Hydrocraft.HCMasterclubtrimmer,
+        Fixer = Base.Woodglue=1; Woodwork=2,
+        Fixer = Base.DuctTape=1,
+        Fixer = Base.Glue=2,
+        Fixer = Base.Scotchtape=3,
+        Fixer = Hydrocraft.HCWoodgluejar=2; Woodwork=2,
+        Fixer = Hydrocraft.HCGluejar=2,
+        Fixer = Hydrocraft.HCHedgetrimmerblade,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+        Fixer = Hydrocraft.HCRubbercement=2,
+        Fixer = Hydrocraft.HCSuperglue,
+        Fixer = Hydrocraft.HCHotgluegunfull=2,
+    }
+}

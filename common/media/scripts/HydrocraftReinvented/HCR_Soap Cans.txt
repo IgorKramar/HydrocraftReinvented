@@ -1,0 +1,1182 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCDetergentempty
+    {
+
+	Weight			=	0.1,
+	CanStoreWater		=	TRUE,
+        Type			=	Drainable,
+	
+	ReplaceOnUseOn		=	WaterSource-HCDetergentwater,
+        DisplayName		=	Empty Liquid Soap Can,
+	Icon			=	HCDetergentempty,
+	RainFactor 		= 	1,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergent
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap,
+	Icon				=	HCDetergent,
+		DisplayCategory	= Cleaning,
+    }
+    item HCDetergentammonia
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Ammonia,
+	Icon				=	HCDetergentammonia,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentbiodiesel
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Biodiesel,
+	Icon				=	HCDetergentbiodiesel,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentcoppersulfatesolution
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Copper Sulfate Solution,
+	Icon				=	HCDetergentcoppersulfatesolution,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergenth2o2
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Hydrogen Peroxide,
+	Icon				=	HCDetergenth2o2,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentlime
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Milk of Lime,
+	Icon				=	HCDetergentlime,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentlye
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Lye,
+	Icon				=	HCDetergentlye,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentmethanol
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Methanol,
+	Icon				=	HCDetergentmethanol,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentmuriaticacid
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Muriatic Acid,
+	Icon				=	HCDetergentmuriaticacid,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentnickelsulfatesolution
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Nickel Sulfate Solution,
+	Icon				=	HCDetergentnickelsulfatesolution,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentnitricacid
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Nitric Acid,
+	Icon				=	HCDetergentnitricacid,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentoil
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Oil,
+	Icon				=	HCDetergentoil,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentrose
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Rose Tanning Oil,
+	Icon				=	HCDetergentrose,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentsulfuricacid
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Sulfuric Acid,
+	Icon				=	HCDetergentsulfuricacid,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergenttan
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Tannin,
+	Icon				=	HCDetergenttan,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentvegoil
+    {
+
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Vegetable Oil,
+	Icon				=	HCDetergentvegoil,
+		DisplayCategory	= CraftChem,
+    }
+    item HCDetergentgrape
+    {
+
+	Weight				=	2.5,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,
+	HungerChange			=	-45,	
+	UnhappyChange			=	-25,
+	ThirstChange			=	-175,
+	DisplayName			=	Liquid Soap Can With Grape Juice,
+	ReplaceOnUse		        =	HCDetergentempty,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	Icon				=	HCDetergentgrape,
+		DisplayCategory	= FoodB,
+    }
+    item HCDetergenthoney
+    {
+
+	Weight				=	2.5,
+        Type			        =	Food,
+	UseDelta		        =       0.2,
+	BoredomChange			=	-25,
+	UnhappyChange			=	-28,
+	HungerChange			=	-105,
+	ReplaceOnUse		        =	HCDetergentempty,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+
+	DisplayName			=	Liquid Soap Can With Honey,
+	Icon				=	HCDetergenthoney,
+		DisplayCategory	= FoodB,
+    }
+    item HCDetergentmilk
+    {
+
+	Weight				=	2.5,
+	Type			        =	Food,
+	DisplayName			=	Liquid Soap Can With UHTMilk,
+	ThirstChange 			=	-125,
+	HungerChange 			= 	-12.5,
+	DaysTotallyRotten		=	500,
+	DaysFresh 			=	250,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ReplaceOnUse		        =	HCDetergentempty,
+
+	Icon				=	HCDetergentmilk,
+		DisplayCategory	= FoodP,
+    }
+    item HCDetergentpoison
+    {
+
+	Weight				=	2.5,
+	Type			        =	Food,
+	DisplayName			=	Liquid Soap Can With Insecticide,
+        Poison                          =       true,
+	PoisonDetectionLevel 	        =       1,
+	PoisonPower 		        =       100,
+	ReplaceOnUse		        =	HCDetergentempty,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+		DisplayCategory	= CraftChem,
+	Icon				=	HCDetergentpoison,
+    }
+    item HCDetergentwater
+    {
+
+	IsWaterSource		=	TRUE,
+	Weight		       	=	2.5,
+	CanStoreWater		=	TRUE,
+    Type		      	=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		    =	0.07,
+	DisplayName		    =	Liquid Soap Can Water,
+	ReplaceOnDeplete	=	HCDetergentempty,
+	ReplaceOnUseOn		=	WaterSource-HCDetergentwater,
+	Icon			    =	HCDetergentwater,
+	RainFactor 		    = 	1,
+		DisplayCategory	= FoodB,
+    }
+    craftRecipe Clean Empty Liquid Soap Can
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclabeldetergent,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlasticcanempty,
+        }
+    }
+    craftRecipe Recycle Liquid Soap Can
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclabeldetergent,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCBoxcutter;Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife;Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors] mode:keep,
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCPlastic,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Ammonia
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCAmmonia],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentammonia,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Ammonia
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanammonia],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentammonia,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Ammonia
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCAmmoniacanfull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentammonia,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Ammonia
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCBarrelmetalammonia],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentammonia,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Ammonia
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCAmmoniabarrelfull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentammonia,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Ammonia
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCAmmoniabarrelbluefull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentammonia,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Biodiesel
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcwashtub,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWashtubwashedbiodiesel] mode:destroy,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+            item 2 [Hydrocraft.HCDetergentempty],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCDetergentbiodiesel,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Coppersulfate Solution
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcget2beakers,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBeakercoppersulfatesolution],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentcoppersulfatesolution,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Coppersulfate Solution
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcancoppersulfatesolution],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentcoppersulfatesolution,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Grape Juice
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketgrape] mode:destroy,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentgrape,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Grape Juice
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcangrape],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentgrape,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Hydrogen Peroxide
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcget2beakers,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBeakerh2o2] mode:destroy,
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergenth2o2,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Hydrogen Peroxide
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanh2o2],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergenth2o2,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Hydrogen Peroxide
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCh2o2can],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergenth2o2,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Honey
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbuckethoney] mode:destroy,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergenthoney,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Honey
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanhoney],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergenthoney,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Milk Of Lime
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketlime] mode:destroy,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentlime,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Milk Of Lime
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanlime],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentlime,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Lye
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketlye] mode:destroy,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentlye,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Lye
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanlye],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentlye,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Methanol
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 2 [Hydrocraft.HCMethanol],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentmethanol,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Methanol
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanmethanol],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentmethanol,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With UHT Milk
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCUHTmilk],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentmilk,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With UHT Milk
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanmilk],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentmilk,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Muriatic Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcget2beakers,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBeakermuriaticacid],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentmuriaticacid,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Muriatic Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanmuriaticacid],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentmuriaticacid,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Nickel Sulfate Solution
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcget2beakers,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBeakernickelsulfatesolution],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentnickelsulfatesolution,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Nickel Sulfate Solution
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcannickelsulfatesolution],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentnickelsulfatesolution,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Nitric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcget2beakers,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBeakernitricacid],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentnitricacid,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Nitric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcannitricacid],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentnitricacid,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Oil
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCMotoroil],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentoil,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Oil
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanoil],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentoil,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Insecticide
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPoison],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentpoison,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Insecticide
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanpoison],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentpoison,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Rose Tanning Oil
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketrose] mode:destroy,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentrose,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Rose Tanning Oil
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanrose],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentrose,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Sulfuric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcget2beakers,
+        inputs
+        {
+            item 2 [Hydrocraft.HCBeakersulfuricacid],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentsulfuricacid,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Sulfuric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcansulfuricacid],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentsulfuricacid,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Sulfuric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCSulfuricacidcan],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentsulfuricacid,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Sulfuric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCBarrelmetalsulfuricacid],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCPlasticcanempty],
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentsulfuricacid,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Sulfuric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCSulfuricacidbarrelfull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentsulfuricacid,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Sulfuric Acid
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCSulfuricacidbarrelbluefull],
+            item 1 [Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCHandpump] mode:keep,
+            item 1 [Hydrocraft.HCRubberhose] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentsulfuricacid,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Tannin
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbuckettan] mode:destroy,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergenttan,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Tannin
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcantan],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergenttan,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Vegetable Oil
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketvegoil] mode:destroy,
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentvegoil,
+        }
+    }
+    craftRecipe Fill Empty Soap Can With Vegetable Oil
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 4 [Hydrocraft.HCPlasticcanvegoil],
+            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDetergentvegoil,
+        }
+    }
+}

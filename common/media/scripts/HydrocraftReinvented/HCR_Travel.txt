@@ -1,0 +1,362 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCHelicopterL
+    {
+
+        Weight    		= 1000,
+	Type                	= Container,
+	Capacity             	= 1000,
+        DisplayName         	= Helicopter,
+        icon 			= HCHelicopterL,
+	DisplayCategory          =   Misc,
+    }
+    item HCHelicopterR
+    {
+
+        Weight    		= 1000,
+	Type                	= Container,
+	Capacity             	= 1000,
+        DisplayName         	= Helicopter,
+        icon 			= HCHelicopterR,
+	DisplayCategory          =   Misc,
+    }
+    item HCTicketBF
+    {
+
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket to Bedford Falls,
+	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
+    }
+    item HCTicketCR
+    {
+
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket to Crossroads,
+	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
+    }
+    item HCTicketND
+    {
+
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket to New Denver,
+	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
+    }
+    item HCTicketVS
+    {
+
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket to Valley Station,
+	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
+    }
+    item HCTicketOR
+    {
+
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket Over the River,
+	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
+    }
+    item HCTicketMI
+    {
+
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket Over to Midway Island,
+	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
+    }
+    craftRecipe Travel to Bedford Falls
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToBF,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
+            item 1 [Hydrocraft.HCMap] mode:keep,
+            item 1 [Hydrocraft.HCCompass] mode:keep,
+            item 16 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCTicketBF] mode:keep,
+        }
+    }
+    craftRecipe Travel to Crossroads
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToCR,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
+            item 1 [Hydrocraft.HCMap] mode:keep,
+            item 1 [Hydrocraft.HCCompass] mode:keep,
+            item 1 [Hydrocraft.HCTicketCR] mode:keep,
+            item 16 [Base.PetrolCan],
+        }
+    }
+    craftRecipe Travel to New Denver
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToND,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
+            item 1 [Hydrocraft.HCMap] mode:keep,
+            item 1 [Hydrocraft.HCCompass] mode:keep,
+            item 1 [Hydrocraft.HCTicketND] mode:keep,
+            item 16 [Base.PetrolCan],
+        }
+    }
+    craftRecipe Travel to Valley Station
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToVS,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
+            item 1 [Hydrocraft.HCMap] mode:keep,
+            item 1 [Hydrocraft.HCCompass] mode:keep,
+            item 1 [Hydrocraft.HCTicketVS] mode:keep,
+            item 16 [Base.PetrolCan],
+        }
+    }
+    craftRecipe Travel to Bedford Falls
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToBF,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
+            item 1 [Hydrocraft.HCGPS] mode:keep,
+            item 1 [Hydrocraft.HCTicketBF] mode:keep,
+            item 16 [Base.PetrolCan],
+        }
+    }
+    craftRecipe Travel to Crossroads
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToCR,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
+            item 1 [Hydrocraft.HCGPS] mode:keep,
+            item 1 [Hydrocraft.HCTicketCR] mode:keep,
+            item 16 [Base.PetrolCan],
+        }
+    }
+    craftRecipe Travel to New Denver
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToND,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
+            item 1 [Hydrocraft.HCGPS] mode:keep,
+            item 1 [Hydrocraft.HCTicketND] mode:keep,
+            item 16 [Base.PetrolCan],
+        }
+    }
+    craftRecipe Travel to Valley Station
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToVS,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
+            item 1 [Hydrocraft.HCGPS] mode:keep,
+            item 1 [Hydrocraft.HCTicketVS] mode:keep,
+            item 16 [Base.PetrolCan],
+        }
+    }
+    craftRecipe Travel to West Point Docks
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToWPD,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRaftrubber] mode:keep,
+            item 1 [Hydrocraft.HCRubbersheet],
+            item 1 [Hydrocraft.HCRubbercement],
+            item 1 [Hydrocraft.HCBicyclepump] mode:keep,
+            item 1 [Hydrocraft.HCPaddlewood;Hydrocraft.HCPaddlemetal] mode:keep,
+            item 1 [Hydrocraft.HCMap] mode:keep,
+            item 1 [Hydrocraft.HCCompass] mode:keep,
+        }
+    }
+    craftRecipe Travel to Valley Station Docks
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToVSD,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRaftrubber] mode:keep,
+            item 1 [Hydrocraft.HCRubbersheet],
+            item 1 [Hydrocraft.HCRubbercement],
+            item 1 [Hydrocraft.HCBicyclepump] mode:keep,
+            item 1 [Hydrocraft.HCPaddlewood;Hydrocraft.HCPaddlemetal] mode:keep,
+            item 1 [Hydrocraft.HCMap] mode:keep,
+            item 1 [Hydrocraft.HCCompass] mode:keep,
+        }
+    }
+    craftRecipe Travel to Riverside
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToRS,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRaftrubber] mode:keep,
+            item 1 [Hydrocraft.HCRubbersheet],
+            item 1 [Hydrocraft.HCRubbercement],
+            item 1 [Hydrocraft.HCBicyclepump] mode:keep,
+            item 1 [Hydrocraft.HCPaddlewood;Hydrocraft.HCPaddlemetal] mode:keep,
+            item 1 [Hydrocraft.HCMap] mode:keep,
+            item 1 [Hydrocraft.HCCompass] mode:keep,
+        }
+    }
+    craftRecipe Travel Over the River
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToOR,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRaftrubber] mode:keep,
+            item 1 [Hydrocraft.HCRubbersheet],
+            item 1 [Hydrocraft.HCRubbercement],
+            item 1 [Hydrocraft.HCBicyclepump] mode:keep,
+            item 1 [Hydrocraft.HCPaddlewood;Hydrocraft.HCPaddlemetal] mode:keep,
+            item 1 [Hydrocraft.HCMap] mode:keep,
+            item 1 [Hydrocraft.HCCompass] mode:keep,
+            item 1 [Hydrocraft.HCTicketOR] mode:keep,
+        }
+    }
+    craftRecipe Travel to West Point Docks
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToWPD,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRaftrubber] mode:keep,
+            item 1 [Hydrocraft.HCRubbersheet],
+            item 1 [Hydrocraft.HCRubbercement],
+            item 1 [Hydrocraft.HCBicyclepump] mode:keep,
+            item 1 [Hydrocraft.HCPaddlewood;Hydrocraft.HCPaddlemetal] mode:keep,
+            item 1 [Hydrocraft.HCGPS] mode:keep,
+        }
+    }
+    craftRecipe Travel to Valley Station Docks
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToVSD,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRaftrubber] mode:keep,
+            item 1 [Hydrocraft.HCRubbersheet],
+            item 1 [Hydrocraft.HCRubbercement],
+            item 1 [Hydrocraft.HCBicyclepump] mode:keep,
+            item 1 [Hydrocraft.HCPaddlewood;Hydrocraft.HCPaddlemetal] mode:keep,
+            item 1 [Hydrocraft.HCGPS] mode:keep,
+        }
+    }
+    craftRecipe Travel to Riverside
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToRS,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRaftrubber] mode:keep,
+            item 1 [Hydrocraft.HCRubbersheet],
+            item 1 [Hydrocraft.HCRubbercement],
+            item 1 [Hydrocraft.HCBicyclepump] mode:keep,
+            item 1 [Hydrocraft.HCPaddlewood;Hydrocraft.HCPaddlemetal] mode:keep,
+            item 1 [Hydrocraft.HCGPS] mode:keep,
+        }
+    }
+    craftRecipe Travel Over the River
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToOR,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRaftrubber] mode:keep,
+            item 1 [Hydrocraft.HCRubbersheet],
+            item 1 [Hydrocraft.HCRubbercement],
+            item 1 [Hydrocraft.HCBicyclepump] mode:keep,
+            item 1 [Hydrocraft.HCPaddlewood;Hydrocraft.HCPaddlemetal] mode:keep,
+            item 1 [Hydrocraft.HCGPS] mode:keep,
+            item 1 [Hydrocraft.HCTicketOR] mode:keep,
+        }
+    }
+    craftRecipe Travel Over the River
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Travel,
+        timedAction = Making,
+        OnCreate = HCR42.travelToMI,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRaftrubber] mode:keep,
+            item 1 [Hydrocraft.HCRubbersheet],
+            item 1 [Hydrocraft.HCRubbercement],
+            item 1 [Hydrocraft.HCBicyclepump] mode:keep,
+            item 1 [Hydrocraft.HCPaddlewood;Hydrocraft.HCPaddlemetal] mode:keep,
+            item 1 [Hydrocraft.HCGPS] mode:keep,
+            item 1 [Hydrocraft.HCTicketMI] mode:keep,
+        }
+    }
+}

@@ -1,0 +1,941 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCBatterysmall
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName		= Small Battery,
+        icon 			= HCBatterysmall,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterysmallpack
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName		= Small Battery Package,
+        icon 			= HCBatterysmallpack,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterysmalldead
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName		= Dead Small Battery,
+        icon 			= HCBatterysmalldead,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterysmallcase
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Small Battery Case,
+        icon 			= HCBatterysmallcase,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterysixpack
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     	= Battery Package,
+        icon 			= HCBatterysixpack,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterydead
+    {
+
+        Weight    		= 0.6,
+        Type    		= Normal,
+        DisplayName         	= Dead Battery,
+        icon 			= HCBatterydead,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterycase
+    {
+
+        Weight    		= 0.6,
+        Type    		= Normal,
+        DisplayName         	= Battery Case,
+        icon 			= HCBatterycase,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterypackmedium
+    {
+
+        Weight    		= 1.2,
+        Type    		= Normal,
+        DisplayName     	= Pack of Medium Batteries,
+        icon 			= HCBatterypackmedium,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterymedium
+    {
+
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Medium Battery,
+        icon 			= HCBatterymedium,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterymediumdead
+    {
+
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Dead Medium Battery,
+        icon 			= HCBatterymediumdead,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterymediumcase
+    {
+
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Medium Battery Case,
+        icon 			= HCBatterymediumcase,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterylarge
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Large Battery,
+        icon 			= HCBatterylarge,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterylargedead
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Dead Large Battery,
+        icon 			= HCBatterylargedead,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterypacklarge
+    {
+
+        Weight    		= 1.6,
+        Type    		= Normal,
+        DisplayName     	= Pack of Large Batteries,
+        icon 			= HCBatterypacklarge,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatterylargecase
+    {
+
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Large Battery Case,
+        icon 			= HCBatterylargecase,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatteryhuge
+    {
+
+        Weight    		= 1.2,
+        Type    		= Normal,
+        DisplayName         	= Huge Battery,
+        icon 			= HCBatteryhuge,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatteryhugedead
+    {
+
+        Weight    		= 1.2,
+        Type    		= Normal,
+        DisplayName         	= Dead Huge Battery,
+        icon 			= HCBatteryhugedead,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBatteryhugecase
+    {
+
+        Weight    		= 1.2,
+        Type    		= Normal,
+        DisplayName         	= Huge Battery Case,
+        icon 			= HCBatteryhugecase,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBattery9volt
+    {
+
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= 9 Volt Battery,
+        icon 			= HCBattery9volt,
+		DisplayCategory	= CraftElec,
+    }
+    item HCBattery9voltdead
+    {
+
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Dead 9 Volt Battery,
+        icon 			= HCBattery9volt,
+		DisplayCategory	= CraftElec,
+    }
+    craftRecipe Make Dead Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Battery] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterydead,
+        }
+    }
+    craftRecipe Open Small Battery Package
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBatterysmallpack],
+        }
+        outputs
+        {
+            item 8 Hydrocraft.HCBatterysmall,
+        }
+    }
+    craftRecipe Open Battery Package
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBatterysixpack],
+        }
+        outputs
+        {
+            item 6 Base.Battery,
+        }
+    }
+    craftRecipe Open Medium Battery Package
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBatterypackmedium],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCBatterymedium,
+        }
+    }
+    craftRecipe Open Large Battery Package
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBatterypacklarge],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCBatterylarge,
+        }
+    }
+    craftRecipe Recycle Small Battery Case
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBatterysmalldead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterysmallcase,
+        }
+    }
+    craftRecipe Recycle Battery Case
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBatterydead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterycase,
+        }
+    }
+    craftRecipe Recycle Medium Battery Case
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBatterymediumdead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterymediumcase,
+        }
+    }
+    craftRecipe Recycle Large Battery Case
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBatterylargedead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterylargecase,
+        }
+    }
+    craftRecipe Recycle Huge Battery Case
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBatteryhugedead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatteryhugecase,
+        }
+    }
+    craftRecipe Recharge Small Battery
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteamCharger2] mode:keep,
+            item 1 [Hydrocraft.HCBatterysmalldead],
+            item 1 [Base.Charcoal],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCCablecopper] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterysmall,
+        }
+    }
+    craftRecipe Recharge Battery
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteamCharger2] mode:keep,
+            item 1 [Hydrocraft.HCBatterydead],
+            item 1 [Base.Charcoal],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCCablecopper] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Battery,
+        }
+    }
+    craftRecipe Recharge 9 Volt Battery
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteamCharger2] mode:keep,
+            item 1 [Hydrocraft.HCBattery9voltdead],
+            item 1 [Base.Charcoal],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCCablecopper] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBattery9volt,
+        }
+    }
+    craftRecipe Recharge Medium Battery
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteamCharger2] mode:keep,
+            item 1 [Hydrocraft.HCBatterymediumdead],
+            item 2 [Base.Charcoal],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Hydrocraft.HCCablecopper] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterymedium,
+        }
+    }
+    craftRecipe Recharge Large Battery
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteamCharger2] mode:keep,
+            item 1 [Hydrocraft.HCBatterylargedead],
+            item 3 [Base.Charcoal],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.3 [Water],
+            item 1 [Hydrocraft.HCCablecopper] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterylarge,
+        }
+    }
+    craftRecipe Recharge Huge Battery
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteamCharger2] mode:keep,
+            item 1 [Hydrocraft.HCBatteryhugedead],
+            item 4 [Base.Charcoal],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.4 [Water],
+            item 1 [Hydrocraft.HCCablecopper] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatteryhuge,
+        }
+    }
+    craftRecipe Make Small Battery Cases
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelboard],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCBatterysmallcase,
+        }
+    }
+    craftRecipe Make Battery Cases
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelboard],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 3 Hydrocraft.HCBatterycase,
+        }
+    }
+    craftRecipe Make Medium Battery Cases
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelboard],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCBatterymediumcase,
+        }
+    }
+    craftRecipe Make Large Battery Case
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelboard],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterylargecase,
+        }
+    }
+    craftRecipe Make Huge Battery Case
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelsheet],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatteryhugecase,
+        }
+    }
+    craftRecipe Make Small Batterys
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcget1beaker,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWirelead],
+            item 1 [Hydrocraft.HCBeakersulfuricacid],
+            item 4 [Hydrocraft.HCBatterysmallcase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCBatterysmall,
+        }
+    }
+    craftRecipe Make Batterys
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcget1beaker,
+        inputs
+        {
+            item 8 [Hydrocraft.HCWirelead],
+            item 1 [Hydrocraft.HCBeakersulfuricacid],
+            item 2 [Hydrocraft.HCBatterycase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 2 Base.Battery,
+        }
+    }
+    craftRecipe Make Medium Battery
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcget1beaker,
+        inputs
+        {
+            item 3 [Hydrocraft.HCWirelead],
+            item 1 [Hydrocraft.HCBeakersulfuricacid],
+            item 1 [Hydrocraft.HCBatterymediumcase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterymedium,
+        }
+    }
+    craftRecipe Make Large Battery
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcget2beakers,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWirelead],
+            item 2 [Hydrocraft.HCBeakersulfuricacid],
+            item 1 [Hydrocraft.HCBatterylargecase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterylarge,
+        }
+    }
+    craftRecipe Make Huge Battery
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcget4beakers,
+        inputs
+        {
+            item 5 [Hydrocraft.HCWirelead],
+            item 4 [Hydrocraft.HCBeakersulfuricacid],
+            item 1 [Hydrocraft.HCBatteryhugecase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatteryhuge,
+        }
+    }
+    craftRecipe Make Small Batterys
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcget1beaker,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWirezinc],
+            item 1 [Hydrocraft.HCBeakermercuricoxide],
+            item 4 [Hydrocraft.HCBatterysmallcase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCBatterysmall,
+        }
+    }
+    craftRecipe Make Batterys
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcget1beaker,
+        inputs
+        {
+            item 8 [Hydrocraft.HCWirezinc],
+            item 1 [Hydrocraft.HCBeakermercuricoxide],
+            item 2 [Hydrocraft.HCBatterycase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 2 Base.Battery,
+        }
+    }
+    craftRecipe Make Medium Battery
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcget1beaker,
+        inputs
+        {
+            item 3 [Hydrocraft.HCWirezinc],
+            item 1 [Hydrocraft.HCBeakermercuricoxide],
+            item 1 [Hydrocraft.HCBatterymediumcase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterymedium,
+        }
+    }
+    craftRecipe Make Large Battery
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcget2beakers,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWirezinc],
+            item 2 [Hydrocraft.HCBeakermercuricoxide],
+            item 1 [Hydrocraft.HCBatterylargecase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterylarge,
+        }
+    }
+    craftRecipe Make Huge Battery
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcget4beakers,
+        inputs
+        {
+            item 5 [Hydrocraft.HCWirezinc],
+            item 4 [Hydrocraft.HCBeakermercuricoxide],
+            item 1 [Hydrocraft.HCBatteryhugecase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatteryhuge,
+        }
+    }
+    craftRecipe Make Small Batterys
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWirealuminum],
+            item 1 [Hydrocraft.HCSulphurpowder],
+            item 1 [Hydrocraft.HCSaltpowder],
+            item 4 [Hydrocraft.HCBatterysmallcase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCBatterysmall,
+        }
+    }
+    craftRecipe Make Batterys
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 8 [Hydrocraft.HCWirealuminum],
+            item 1 [Hydrocraft.HCSulphurpowder],
+            item 1 [Hydrocraft.HCSaltpowder],
+            item 2 [Hydrocraft.HCBatterycase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 2 Base.Battery,
+        }
+    }
+    craftRecipe Make Medium Batterys
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 3 [Hydrocraft.HCWirealuminum],
+            item 1 [Hydrocraft.HCSulphurpowder],
+            item 1 [Hydrocraft.HCSaltpowder],
+            item 1 [Hydrocraft.HCBatterymediumcase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterymedium,
+        }
+    }
+    craftRecipe Make Large Battery
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWirealuminum],
+            item 2 [Hydrocraft.HCSulphurpowder],
+            item 2 [Hydrocraft.HCSaltpowder],
+            item 1 [Hydrocraft.HCBatterylargecase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatterylarge,
+        }
+    }
+    craftRecipe Make Huge Battery
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCWirealuminum],
+            item 4 [Hydrocraft.HCSulphurpowder],
+            item 4 [Hydrocraft.HCSaltpowder],
+            item 1 [Hydrocraft.HCBatteryhugecase],
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBatteryhuge,
+        }
+    }
+}

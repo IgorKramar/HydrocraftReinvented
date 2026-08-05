@@ -1,0 +1,2773 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCMagic8ball
+    {
+
+		DisplayCategory	 = Toy,	
+        Weight    		 = 0.1,
+        Type    		 = Normal,
+        DisplayName      = Magic 8 Ball,
+        icon 			 = HCMagic8ball,
+        WorldStaticModel = WorldItem-HCMagic8ball,
+    }
+    item HCPacifier
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Pacifier,
+        icon 			= HCPacifier,
+			DisplayCategory	= Toy,
+    }
+    item HCBabyteether
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Baby Teether,
+        icon 			= HCBabyteether,
+			DisplayCategory	= Toy,
+    }
+    item HCBabyrattle
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Baby Rattle,
+        icon 			= HCBabyrattle,
+			DisplayCategory	= Toy,
+    }
+    item HCBabybottle
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Baby Bottle,
+        icon 			= HCBabybottle,
+			DisplayCategory	= Toy,
+    }
+    item HCBabybib1
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Baby Bib,
+        icon 			= HCBabybib1,
+			DisplayCategory	= Toy,
+    }
+    item HCBabybib2
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Baby Bib,
+        icon 			= HCBabybib2,
+			DisplayCategory	= Toy,
+    }
+    item HCCrayonbox
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Box of Crayons,
+        icon 			= HCCrayonbox,
+			DisplayCategory	= Toy,
+    }
+    item HCChalk
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Chalk,
+        icon 			= HCChalk,
+			DisplayCategory	= Toy,
+    }
+    item HCChalkbox
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Box of Chalk,
+        icon 			= HCChalkbox,
+			DisplayCategory	= Toy,
+    }
+    item HCChalkeraser
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Chalk Eraser,
+        icon 			= HCChalkeraser,
+			DisplayCategory	= Toy,
+    }
+    item HCToybubbles
+    {
+
+        Weight			= 0.1,
+        Type			= Drainable,
+        UseDelta		= 0.25,
+        UseWhileEquipped	= FALSE,
+        DisplayName		= Bubbles,
+        Icon			= HCToybubbles,
+			DisplayCategory	= Toy,
+    }
+    item HCToyclay
+    {
+
+        Weight			= 0.1,
+        Type			= Drainable,
+        UseDelta		= 0.25,
+        UseWhileEquipped	= FALSE,
+        DisplayName		= Claydoh,
+        Icon			= HCToyclay,
+			DisplayCategory	= Toy,
+    }
+    item HCCueball
+    {
+
+	Weight			=	0.2,
+	Type			=	Normal,
+	DisplayName		=	Cue Ball,
+	Icon			=	HCCueball,
+			DisplayCategory	= Toy,
+    }
+    item HCGlassmarbles
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Glass Marbles,
+	Icon			=	HCGlassmarbles,
+			DisplayCategory	= Toy,
+    }
+    item HCBirdie
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Birdie,
+	Icon			=	HCBirdie,
+			DisplayCategory	= Toy,
+    }
+    item HCRubberball
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Rubber Ball,
+	Icon			=	HCRubberball,
+			DisplayCategory	= Toy,
+    }
+    item HCKickball
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Kickball,
+	Icon			=	HCKickball,
+			DisplayCategory	= Toy,
+    }
+    item HCSoftball
+    {
+
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Softball,
+	Icon			=	HCSoftball,
+			DisplayCategory	= Toy,
+    }
+    item HCBaseballglove
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Baseball Glove,
+	Icon			=	HCBaseballglove,
+			DisplayCategory	= Toy,
+    }
+    item HCWiffleball
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Wiffle Ball,
+	Icon			=	HCWiffleball,
+			DisplayCategory	= Toy,
+    }
+    item HCBowlingball
+    {
+
+	DisplayCategory	= Sports,
+	Type			=	Normal,
+	DisplayName		=	Bowling Ball,	
+	Weight			=	14,
+	Icon			=	HCBowlingball,
+	WorldStaticModel = WorldItem-HCBowlingball,
+    }
+    item HCBowlingpin
+    {
+
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Bowling Pin,
+	Icon			=	HCBowlingpin,
+			DisplayCategory	= Toy,
+    }
+    item HCVolleyball
+    {
+
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Volleyball,
+	Icon			=	HCVolleyball,
+			DisplayCategory	= Toy,
+    }
+    item HCTennisballcontainerfull
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Full Tennis Ball Container,
+        icon 			= HCTennisballcontainerfull,
+			DisplayCategory	= Toy,
+    }
+    item HCTennisballcontainer
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Empty Tennis Ball Container,
+        icon 			= HCTennisballcontainer,
+			DisplayCategory	= Toy,
+    }
+    item HCEmptyballoon
+    {
+
+		DisplayCategory		= Toy,	
+        Type    			= Normal,
+		DisplayName         = Empty Balloon,		
+        Weight    			= 0.1,
+		CanStoreWater		= TRUE,
+		ReplaceOnUseOn		= WaterSource-HCWaterballoon,
+        icon 				= HCEmptyballoon,
+        WorldStaticModel 	= WorldItem-HCDeflatedBalloon,
+    }
+    item HCWaterballoon
+    {
+
+	IsWaterSource		= TRUE,
+	Weight			= 1,
+	CanStoreWater		= TRUE,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.07,
+	DisplayName		= Water Balloon,
+	ReplaceOnDeplete	= HCEmptyballoon,
+	ReplaceOnUseOn		= WaterSource-HCWaterballoon,
+	Icon			= HCWaterballoon,
+			DisplayCategory	= Toy,
+    }
+    item HCBalloonbox
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Balloons,
+        icon 			= HCBalloonbox,
+			DisplayCategory	= Toy,
+    }
+    item HCToycar
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Car,
+        icon 			= HCToycar,
+    }
+    item HCToytrain
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Train,
+        icon 			= HCToytrain,
+    }
+    item HCToyairplane
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Airplane,
+        icon 			= HCToyairplane,
+    }
+    item HCToyglider
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Balsa Glider,
+        icon 			= HCToyglider,
+    }
+    item HCToyhelicopter
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Helicopter,
+        icon 			= HCToyhelicopter,
+    }
+    item HCToyrobot
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Robot,
+        icon 			= HCToyrobot,
+    }
+    item HCFrisbee
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Frisbee,
+        icon 			= HCFrisbee,
+    }
+    item HCPaddleball
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Paddle Ball,
+        icon 			= HCPaddleball,
+    }
+    item HCToyrabbit
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Rabbit,
+        icon 			= HCToyrabbit,
+    }
+    item HCToyhippo
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Hippo,
+        icon 			= HCToyhippo,
+    }
+    item HCToymonkey
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Monkey,
+        icon 			= HCToymonkey,
+    }
+    item HCToycat
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Cat,
+        icon 			= HCToycat,
+    }
+    item HCToypanda
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Panda,
+        icon 			= HCToypanda,
+    }
+    item HCToydonkey
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Donkey,
+        icon 			= HCToydonkey,
+    }
+    item HCToyhorse
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Horse,
+        icon 			= HCToyhorse,
+    }
+    item HCToysterioscope
+    {
+
+        Weight    		= 	0.5,
+	Type			=	Normal,
+	DisplayCategory 	= 	Toy,
+        DisplayName         	= 	Toy Sterioscope,
+        icon 			= 	HCToysterioscope,
+    }
+    item HCToysterioscopereel
+    {
+
+        Weight    		= 	0.1,
+	Type			=	Normal,
+	DisplayCategory 	= 	Toy,
+        DisplayName         	= 	Sterioscope Reel,
+        icon 			= 	HCToysterioscopereel,
+    }
+    item HCToyjack
+    {
+
+        Weight    		= 	0.1,
+	Type			=	Normal,
+	DisplayCategory 	= 	Toy,
+        DisplayName         	= 	Toy Jack,
+        icon 			= 	HCToyjack,
+    }
+    item HCToytop
+    {
+
+        Weight    		= 	0.1,
+	Type			=	Normal,
+	DisplayCategory 	= 	Toy,
+        DisplayName         	= 	Toy Top,
+        icon 			= 	HCToytop,
+    }
+    item HCToydrawing
+    {
+
+        Weight    		= 	0.5,
+	Type			=	Normal,
+	DisplayCategory 	= 	Toy,
+        DisplayName         	= 	Mechanical Drawing Toy,
+        icon 			= 	HCToydrawing,
+    }
+    item HCToyactionfigure1
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Action Figure,
+        icon 			= HCToyactionfigure1,
+    }
+    item HCToyactionfigure2
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Action Figure,
+        icon 			= HCToyactionfigure2,
+    }
+    item HCToyactionfigure3
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Action Figure,
+        icon 			= HCToyactionfigure3,
+    }
+    item HCToyactionfigure4
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Action Figure,
+        icon 			= HCToyactionfigure4,
+    }
+    item HCToypeople
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy People,
+        icon 			= HCToypeople,
+    }
+    item HCToydoll
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Doll,
+        icon 			= HCToydoll,
+    }
+    item HCToyragdoll
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Rag Doll,
+        icon 			= HCToyragdoll,
+    }
+    item HCToydollstraw
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Straw Doll,
+        icon 			= HCToydollstraw,
+    }
+    item HCToydragon
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Dragon,
+        icon 			= HCToydragon,
+    }
+    item HCToyship
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Ship,
+        icon 			= HCToyship,
+    }
+    item HCToyarmyman
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Army Man,
+        icon 			= HCToyarmyman,
+    }
+    item HCToyarmyman2
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Army Man,
+        icon 			= HCToyarmyman2,
+    }
+    item HCToyrings
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Rings,
+        icon 			= HCToyrings,
+    }
+    item HCToyglasses
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Funny Glasses,
+        icon 			= HCToyglasses,
+    }
+    item HCToyrocketship
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Rocketship,
+        icon 			= HCToyrocketship,
+    }
+    item HCToybrontosaurus
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Brontosaurus,
+        icon 			= HCToybrontosaurus,
+    }
+    item HCToypterodactyl
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Pterodactyl,
+        icon 			= HCToypterodactyl,
+    }
+    item HCToystegosaurus
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Stegosaurus,
+        icon 			= HCToystegosaurus,
+    }
+    item HCToytrex
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy T-Rex,
+        icon 			= HCToytrex,
+    }
+    item HCToytriceratops
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Triceratops,
+        icon 			= HCToytriceratops,
+    }
+    item HCToyshark
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Shark,
+        icon 			= HCToyshark,
+    }
+    item HCToyoctopus
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Octopus,
+        icon 			= HCToyoctopus,
+    }
+    item HCToyunicorn
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Unicorn,
+        icon 			= HCToyunicorn,
+    }
+    item HCToydog
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Dog,
+        icon 			= HCToydog,
+    }
+    item HCPinata
+    {
+
+	Weight	        	=	1,
+	Type	        	=	Normal,
+	DisplayName		=	Pinata,
+	Icon	        	=	HCPinata,
+			DisplayCategory	= Toy,
+    }
+    item HCPinatabroken
+    {
+
+	Weight	        	=	0.5,
+	Type	        	=	Normal,
+	DisplayName		=	Broken Pinata,
+	Icon	        	=	HCPinatabroken,
+			DisplayCategory	= Toy,
+    }
+    item HCToyblock
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Block,
+        icon 			= HCToyblock,
+    }
+    item HCToycaterpillar
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Caterpillar,
+        icon 			= HCToycaterpillar,
+    }
+    item HCHokeypuck
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Hockey Puck,
+        icon 			= HCHokeypuck,
+    }
+    item HCWhoopiecushion
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Whoopie Cushion,
+        icon 			= HCWhoopiecushion,
+    }
+    item HCPCgame1
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame1,
+    }
+    item HCPCgame2
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame2,
+    }
+    item HCPCgame3
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame3,
+    }
+    item HCPCgame4
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame4,
+    }
+    item HCPCgame5
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame5,
+    }
+    item HCPCgame6
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame6,
+    }
+    item HCCheckers
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Checkers,
+        icon 			= HCCheckers,
+    }
+    item HCBoardgame1
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Board Game,
+        icon 			= HCBoardgame1,
+    }
+    item HCBoardgame2
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Board Game,
+        icon 			= HCBoardgame2,
+    }
+    item HCBoardgame3
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Board Game,
+        icon 			= HCBoardgame3,
+    }
+    item HCCardgame1
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Card Game,
+        icon 			= HCCardgame1,
+    }
+    item HCTennisracket
+    {
+
+		MaxRange			=	1.5,
+		WeaponSprite			=	FryingPan,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		Weight				=	1,
+		ConditionLowerChanceOneIn	=	15,
+		PushBackMod			=	0.6,
+		MinDamage			=	0.3,
+		MaxDamage			=	0.7,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		DoorDamage			=	5,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	4,
+		DisplayName			=	Tennis Racket,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		KnockdownMod			=	0,
+		Icon				=	HCTennisracket,
+		RunAnim				=	Run_Weapon2,
+        	TwoHandWeapon 			= 	TRUE,
+        	TreeDamage  			=   	0,
+        	EnduranceMod 			= 	0.6,
+			DisplayCategory	= WepMelee,
+    }
+    item HCAluminiumbat
+    {
+
+        MaxRange    =   1.25,
+        WeaponSprite    =   Hydrocraft.HCAluminiumbat,
+        MinAngle    =   0.75,
+        Type    =   Weapon,
+        MinimumSwingTime    =   3,
+        KnockBackOnNoDeath  =   TRUE,
+        SwingAmountBeforeImpact =   0.02,
+        Categories  =   Blunt,
+        ConditionLowerChanceOneIn   =   20,
+        Weight  =   1.5,
+        SplatNumber =   1,
+        PushBackMod =   0.5,
+        SubCategory =   Swinging,
+        ConditionMax    =   30,
+        MaxHitCount =   2,
+        DoorDamage  =   5,
+        IdleAnim    =   Idle_Weapon2,
+        SwingAnim   =   Bat,
+        DisplayName =   Aluminium Bat,
+        MinRange    =   0.61,
+        SwingTime   =   3,
+        HitAngleMod =   -30,
+        KnockdownMod    =   2,
+        SplatBloodOnNoDeath =   FALSE,
+        Icon    =   HCAluminiumbat,
+        RunAnim =   Run_Weapon2,
+        TwoHandWeapon = TRUE,
+        BreakSound  =   BreakWoodItem,
+        TreeDamage  =   1,
+        CriticalChance  =   40,
+        critDmgMultiplier = 2,
+        MinDamage   =   0.8,
+        MaxDamage   =   1.1,
+        BaseSpeed = 1,
+        WeaponLength = 0.5,
+        AttachmentType = Shovel,
+			DisplayCategory	= WepMelee,
+    }
+    item HCWifflebat
+    {
+
+		MaxRange			=	1.5,
+		WeaponSprite			=	Baseballbat,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight				=	1,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	0.5,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	2,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	1,
+		DisplayName			=	Wiffle Bat,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	0.1,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCWifflebat,
+		RunAnim				=	Run_Weapon2,
+        	TwoHandWeapon 			= 	TRUE,
+		BreakSound  			=   	BreakMetalItem,
+        	TreeDamage  			=   	1,
+			DisplayCategory	= WepMelee,
+    }
+    item HCToysaber
+    {
+
+		MaxRange			=	1.5,
+		WeaponSprite			=	Baseballbat,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight				=	1,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	0.5,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	2,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	1,
+		DisplayName			=	Toy Saber,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	0.1,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCToysaber,
+		RunAnim				=	Run_Weapon2,
+        	TwoHandWeapon 			= 	TRUE,
+		BreakSound  			=   	BreakMetalItem,
+        	TreeDamage  			=   	1,
+			DisplayCategory	= WepMelee,
+    }
+    craftRecipe Carve Toy Horse
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCWoodblock],
+            item 4 [Base.Screws],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyhorse,
+        }
+    }
+    craftRecipe Make Straw Doll
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 2 [Hydrocraft.HCRopethin],
+            item 4 [Hydrocraft.HCStraw],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToydollstraw,
+        }
+    }
+    craftRecipe Box Crayons
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Base.Crayons],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCrayonbox,
+        }
+    }
+    craftRecipe Unbox Crayons
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCrayonbox],
+        }
+        outputs
+        {
+            item 20 Base.Crayons,
+        }
+    }
+    craftRecipe Box Chalk
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCChalk],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChalkbox,
+        }
+    }
+    craftRecipe Unbox Chalk
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCChalkbox],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCChalk,
+        }
+    }
+    craftRecipe Box Balloons
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 100 [Hydrocraft.HCEmptyballoon],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBalloonbox,
+        }
+    }
+    craftRecipe Unbox Balloons
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBalloonbox],
+        }
+        outputs
+        {
+            item 100 Hydrocraft.HCEmptyballoon,
+        }
+    }
+    craftRecipe Put Tennis Balls in Container
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTennisballcontainer],
+            item 3 [Base.TennisBall],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTennisballcontainerfull,
+        }
+    }
+    craftRecipe Remove Tennis Balls from Container
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hctennisballcontainer,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTennisballcontainerfull],
+        }
+        outputs
+        {
+            item 3 Base.TennisBall,
+        }
+    }
+    craftRecipe Play Chess
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.ChessBlack],
+            item 1 [Base.ChessWhite] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ChessBlack,
+        }
+    }
+    craftRecipe Play Golf
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Golfclub] mode:keep,
+            item 1 [Base.GolfBall],
+        }
+        outputs
+        {
+            item 1 Base.GolfBall,
+        }
+    }
+    craftRecipe Play Baseball
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.BaseballBat;Hydrocraft.HCAluminiumbat] mode:keep,
+            item 1 [Hydrocraft.HCBaseballglove] mode:keep,
+            item 1 [Base.Baseball],
+        }
+        outputs
+        {
+            item 1 Base.Baseball,
+        }
+    }
+    craftRecipe Play Softball
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.BaseballBat;Hydrocraft.HCAluminiumbat] mode:keep,
+            item 1 [Hydrocraft.HCBaseballglove] mode:keep,
+            item 1 [Hydrocraft.HCSoftball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSoftball,
+        }
+    }
+    craftRecipe Play Pool
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Poolcue] mode:keep,
+            item 15 [Base.PoolBall] mode:keep,
+            item 1 [Hydrocraft.HCCueball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCueball,
+        }
+    }
+    craftRecipe Play Wiffle Ball
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWifflebat] mode:keep,
+            item 1 [Hydrocraft.HCWiffleball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWiffleball,
+        }
+    }
+    craftRecipe Play Tennis
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTennisracket] mode:keep,
+            item 1 [Base.TennisBall],
+        }
+        outputs
+        {
+            item 1 Base.TennisBall,
+        }
+    }
+    craftRecipe Play Bowling
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 12 [Hydrocraft.HCBowlingpin] mode:keep,
+            item 1 [Hydrocraft.HCBowlingball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBowlingball,
+        }
+    }
+    craftRecipe Play Jacks
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 10 [Hydrocraft.HCToyjack] mode:keep,
+            item 1 [Hydrocraft.HCRubberball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubberball,
+        }
+    }
+    craftRecipe View Sterioscope
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToysterioscopereel] mode:keep,
+            item 1 [Hydrocraft.HCToysterioscope],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToysterioscope,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Baseball],
+        }
+        outputs
+        {
+            item 1 Base.Baseball,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBaseballglove],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBaseballglove,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Basketball],
+        }
+        outputs
+        {
+            item 1 Base.Basketball,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBinoculars],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBinoculars,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBowlingball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBowlingball,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBowlingpin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBowlingpin,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Bricktoys],
+        }
+        outputs
+        {
+            item 1 Base.Bricktoys,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCalculator],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCalculator,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Cube],
+        }
+        outputs
+        {
+            item 1 Base.Cube,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Dice],
+        }
+        outputs
+        {
+            item 1 Base.Dice,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Doll],
+        }
+        outputs
+        {
+            item 1 Base.Doll,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFrisbee],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFrisbee,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Football],
+        }
+        outputs
+        {
+            item 1 Base.Football,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGardengnome],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGardengnome,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.GolfBall],
+        }
+        outputs
+        {
+            item 1 Base.GolfBall,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLaserpointer],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLaserpointer,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaddleball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPaddleball,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.PoolBall],
+        }
+        outputs
+        {
+            item 1 Base.PoolBall,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubberball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRubberball,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCKickball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCKickball,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Rubberducky],
+        }
+        outputs
+        {
+            item 1 Base.Rubberducky,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.SoccerBall],
+        }
+        outputs
+        {
+            item 1 Base.SoccerBall,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Spiffo],
+        }
+        outputs
+        {
+            item 1 Base.Spiffo,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSoftball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSoftball,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.TennisBall],
+        }
+        outputs
+        {
+            item 1 Base.TennisBall,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.ToyBear],
+        }
+        outputs
+        {
+            item 1 Base.ToyBear,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToycar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToycar,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyairplane],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyairplane,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyrabbit],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyrabbit,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyrobot],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyrobot,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyactionfigure1],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyactionfigure1,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyactionfigure2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyactionfigure2,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyactionfigure3],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyactionfigure3,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyactionfigure4],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyactionfigure4,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToydoll],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToydoll,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToydollstraw],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToydollstraw,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToydragon],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToydragon,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyarmyman],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyarmyman,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyrings],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyrings,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyship],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyship,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToytrain],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToytrain,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCVolleyball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCVolleyball,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWiffleball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWiffleball,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.Yoyo],
+        }
+        outputs
+        {
+            item 1 Base.Yoyo,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyhippo],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyhippo,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToymonkey],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToymonkey,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToycat],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToycat,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToypanda],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToypanda,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToytop],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToytop,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToydrawing],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToydrawing,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.ToyCar],
+        }
+        outputs
+        {
+            item 1 Base.ToyCar,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.VideoGame],
+        }
+        outputs
+        {
+            item 1 Base.VideoGame,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.CatToy],
+        }
+        outputs
+        {
+            item 1 Base.CatToy,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBubblewrap],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBubblewrap,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToydonkey],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToydonkey,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyhorse],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyhorse,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyhelicopter],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyhelicopter,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyglasses],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyglasses,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyrocketship],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyrocketship,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToybrontosaurus],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToybrontosaurus,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToypterodactyl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToypterodactyl,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToystegosaurus],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToystegosaurus,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToytrex],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToytrex,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToytriceratops],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToytriceratops,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyshark],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyshark,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyoctopus],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyoctopus,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyunicorn],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyunicorn,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToydog],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToydog,
+        }
+    }
+    craftRecipe Make Pinata
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Notebook],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Hydrocraft.HCCrayonbox],
+            item 1 [Hydrocraft.HCCandymixed],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPinata,
+        }
+    }
+    craftRecipe Break Pinata
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HCPinataBreak,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPinata],
+            item 1 [Base.BaseballBat;Hydrocraft.HCAluminiumbat;Hydrocraft.HCHomemadebatcrude;Hydrocraft.HCHomemadebat;Base.Nightstick;Hydrocraft.HCWifflebat;Hydrocraft.HCQuarterstaff] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPinatabroken,
+        }
+    }
+    craftRecipe Ask Magic 8 Ball a Question
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HCEightBall,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMagic8ball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMagic8ball,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyblock],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyblock,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToycaterpillar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToycaterpillar,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBabyrattle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBabyrattle,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWhoopiecushion],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWhoopiecushion,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLeatherball],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeatherball,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassmarbles],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassmarbles,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyragdoll],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyragdoll,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToypeople],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToypeople,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyarmyman2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyarmyman2,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyglider],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToyglider,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToybubbles],
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCToyclay],
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCheckers],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheckers,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoardgame1],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBoardgame1,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoardgame2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBoardgame2,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoardgame3],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBoardgame3,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Base.CardDeck],
+        }
+        outputs
+        {
+            item 1 Base.CardDeck,
+        }
+    }
+    craftRecipe Play With
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        OnCreate = HCR42.HC_ToyStatModifier,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCardgame1],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCardgame1,
+        }
+    }
+    craftRecipe Build Toy Wagon
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:2;MetalWelding:2;Maintenance:2;Woodwork:5,
+        inputs
+        {
+            item 4 [Hydrocraft.HCMetalwheel],
+            item 4 [Base.SheetMetal],
+            item 2 [Hydrocraft.HCSteelpipe],
+            item 4 [Base.Plank],
+            item 10 [Base.Screws],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCToywagon,
+        }
+    }
+    fixing Fix Golf club
+    {
+        Require = Base.Golfclub,
+        Fixer = Hydrocraft.HCMaskingtape=2,
+        Fixer = Hydrocraft.HCPackingtape=2,
+        Fixer = Hydrocraft.HCElectrictape=2,
+    }
+}

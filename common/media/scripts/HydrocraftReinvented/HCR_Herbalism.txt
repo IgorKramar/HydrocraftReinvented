@@ -1,0 +1,1745 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCHerbtable
+    {
+
+    	Weight 			= 10,
+	    Type 			= Normal,
+	    DisplayName 	= Herbalist Table,
+	    Icon			= HCHerbtable,
+	    DisplayCategory = SurFor,
+    }
+    item HCPollen
+    {
+
+        Weight          = 0.005,
+        Type            = Normal,
+        DisplayName     = Pollen,
+        Icon            = HCPollen,
+	    DisplayCategory = SurApi,
+    }
+    item HCHops
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Hops,
+        icon 			= HCHops,
+	    DisplayCategory = SurFor,
+    }
+    item HCTeafresh
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Fresh Tea Leaves,
+        icon 			= HCTeafresh,
+	    DisplayCategory = SurFor,
+    }
+    item HCTeagreen
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Green Tea Leaves,
+        icon 			= HCTeagreen,
+	    DisplayCategory = SurFor,
+    }
+    item HCTeablack
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Black Tea Leaves,
+        icon 			= HCTeablack,
+	    DisplayCategory = SurFor,
+    }
+    item HCCorncobpipe
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Corn Cob Pipe,
+        icon 			= HCCorncobpipe,
+	    DisplayCategory = SurFor,
+    }
+    item HCMulberryleaf
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Mulberry Leaf,
+        icon 			= HCMulberryleaf,
+	    DisplayCategory = SurFor,
+    }
+    item HCMulberry
+    {
+
+	    HungerChange	= -10,
+	    ThirstChange	= -5,
+	    Weight			= 0.1,
+	    Type			= Food,
+	    UnhappyChange	= -10,
+	    DisplayName		= Mulberry,
+	    Icon			= HCMulberry,
+	    FoodType    	= Fruits,
+	    Carbohydrates 	= 9.8,
+        Proteins 		= 4,
+        Lipids 			= 0.4,
+        Calories 		= 70,
+	    DisplayCategory = FoodN,
+    }
+    item HCCamomiledry
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Dried Camomile,
+        icon 			= HCCamomiledry,
+	    DisplayCategory = SurFor,
+    }
+    item HCCamomileteamug
+    {
+
+	    FatigueChange	    = 20,
+	    HungerChange	    = -1,
+	    Weight			    = 1,
+	    Type			    = Food,
+	    UnhappyChange	    = -5,
+	    ThirstChange	    = -50,
+	    DisplayName		    = Camomile Tea,
+	    StressChange	    = -10,
+	    ReplaceOnUse	    = Mugl,
+	    Icon			    = MugFulll,
+	    ReduceFoodSickness 	= 5,
+	    FoodType    		= NoExplicit,
+	    Carbohydrates 		= 0,
+        Proteins 			= 0,
+        Lipids 				= 0,
+        Calories 			= 10,
+	    CantBeFrozen		= TRUE,
+	    DisplayCategory     = FoodB,
+    }
+    item HCCamomileteaclaymug
+    {
+
+	FatigueChange			= 20,
+	    HungerChange		= -1,
+	    Weight				= 1,
+	    Type				= Food,
+	    UnhappyChange		= -5,
+	    ThirstChange		= -50,
+	    DisplayName			= Camomile Tea,
+	    StressChange		= -10,
+	    ReplaceOnUse		= HCClaymug,
+	    Icon				= HCHotcuppa,
+        ReduceFoodSickness 	= 5,
+	    FoodType    		= NoExplicit,
+	    Carbohydrates 		= 0,
+        Proteins 			= 0,
+        Lipids 				= 0,
+        Calories 			= 10,
+	    CantBeFrozen		= TRUE,
+	    DisplayCategory     = FoodB,
+    }
+    item HCNettlesdry
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Dried Nettles,
+        icon 			= HCNettlesdry,
+	    DisplayCategory = Medical,
+    }
+    item HCNettleteamug
+    {
+
+	    HungerChange	        = -1,
+	    Weight			        = 1,
+	    Type			        = Food,
+	    UnhappyChange		    = -5,
+	    ThirstChange		    = -50,
+	    DisplayName		        = Nettle Tea,
+	    StressChange		    = -10,
+	    ReplaceOnUse		    = Mugl,
+	    Icon			        = MugFulll,
+	    ReduceFoodSickness 	    = 10,
+	    FluReduction		    = 5,
+	    ReduceInfectionPower    = 5,
+	    FoodType    		    = NoExplicit,
+	    Carbohydrates 		    = 0,
+        Proteins 		        = 2,
+        Lipids 			        = 0,
+        Calories 		        = 10,
+	    CantBeFrozen		    = TRUE,
+	    DisplayCategory         = Medical,
+    }
+    item HCNettleteaclaymug
+    {
+
+	    HungerChange		    = -1,
+	    Weight			        = 1,
+	    Type			        = Food,
+	    UnhappyChange		    = -5,
+	    ThirstChange		    = -50,
+	    DisplayName		        = Nettle Tea,
+	    StressChange		    = -10,
+	    ReplaceOnUse		    = HCClaymug,
+	    Icon			        = HCHotcuppa,
+        ReduceFoodSickness 	    = 10,
+	    FluReduction		    = 5,
+	    ReduceInfectionPower    = 5,
+	    FoodType    		    = NoExplicit,
+	    Carbohydrates 		    = 0,
+        Proteins 		        = 2,
+        Lipids 			        = 0,
+        Calories 		        = 10,
+	    CantBeFrozen		    = TRUE,
+	    DisplayCategory         = Medical,
+    }
+    item HCThistledry
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Dried Thistle,
+        icon 			= HCThistledry,
+	    DisplayCategory = SurFor,
+    }
+    item HCThistleteamug
+    {
+
+	    HungerChange	= -1,
+	    Weight			= 1,
+	    Type			= Food,
+	    UnhappyChange	= -5,
+	    ThirstChange	= -50,
+	    DisplayName		= Thistle Tea,
+	    StressChange	= -10,
+	    ReplaceOnUse	= Mugl,
+	    Icon			= MugFulll,
+	    FoodType    	= NoExplicit,
+	    Carbohydrates 	= 0,
+        Proteins 		= 2,
+        Lipids 			= 0,
+        Calories 		= 10,
+	    CantBeFrozen	= TRUE,
+	    DisplayCategory = FoodB,
+    }
+    item HCThistleteaclaymug
+    {
+
+	    HungerChange	= -1,
+	    Weight			= 1,
+	    Type			= Food,
+	    UnhappyChange	= -5,
+	    ThirstChange	= -50,
+	    DisplayName		= Thistle Tea,
+	    StressChange	= -10,
+	    ReplaceOnUse	= HCClaymug,
+	    Icon			= HCHotcuppa,
+	    FoodType    	= NoExplicit,
+	    Carbohydrates 	= 0,
+        Proteins 		= 2,
+        Lipids 			= 0,
+        Calories 		= 10,
+	    CantBeFrozen	= TRUE,
+	    DisplayCategory = FoodB,
+    }
+    item HCSkullcapdry
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Dried Skullcap,
+        icon 			= HCSkullcapdry,
+	    DisplayCategory = SurFor,
+    }
+    item HCSkullcapteamug
+    {
+
+	    FatigueChange		    = 10,
+	    HungerChange	        = -1,
+	    Weight			        = 1,
+	    Type			        = Food,
+	    UnhappyChange	        = -5,
+	    ThirstChange	        = -50,
+	    DisplayName		        = Skullcap Tea,
+	    StressChange	        = -5,
+        PainReduction 	        = 5,
+	    ReplaceOnUse	        = Mugl,
+	    Icon			        = MugFulll,
+	    FluReduction	        = 5,
+	    ReduceInfectionPower    = 5,
+	    FoodType    		    = NoExplicit,
+	    Carbohydrates 		    = 0,
+        Proteins 		        = 2,
+        Lipids 			        = 0,
+        Calories 		        = 10,
+	    CantBeFrozen		    = TRUE,
+	    DisplayCategory         = FoodB,
+    }
+    item HCSkullcapteaclaymug
+    {
+
+	    FatigueChange		    = 10,
+	    HungerChange		    = -1,
+	    Weight			        = 1,
+	    Type			        = Food,
+	    UnhappyChange		    = -5,
+	    ThirstChange		    = -50,
+	    DisplayName		        = Skullcap Tea,
+	    StressChange		    = -5,
+        PainReduction 		    = 5,
+	    ReplaceOnUse		    = HCClaymug,
+	    Icon			        = HCHotcuppa,
+	    FluReduction		    = 5,
+	    ReduceInfectionPower    = 5,
+	    FoodType    		    = NoExplicit,
+	    Carbohydrates 		    = 0,
+        Proteins 		        = 2,
+        Lipids 			        = 0,
+        Calories 		        = 10,
+	    CantBeFrozen		    = TRUE,
+	    DisplayCategory         = FoodB,
+    }
+    item HCDaisydry
+    {
+
+        Weight    		    = 0.01,
+        Type        		= Normal,
+        DisplayName         = Dried Daisy,
+        icon 			    = HCDaisydry,
+	    DisplayCategory     = Medical,
+    }
+    item HCDaisyteamug
+    {
+
+	    HungerChange		    = -1,
+	    Weight			        = 1,
+	    Type			        = Food,
+	    ThirstChange		    = -50,
+	    DisplayName		        = Daisy Tea,
+	    ReplaceOnUse		    = Mugl,
+	    Icon			        = MugFulll,
+	    ReduceFoodSickness 	    = 8,
+	    FluReduction		    = 8,
+	    ReduceInfectionPower    = 8,
+	    FoodType    		    = NoExplicit,
+	    Carbohydrates 		    = 0,
+        Proteins 		        = 2,
+        Lipids 			        = 0,
+        Calories 		        = 10,
+	    CantBeFrozen		    = TRUE,
+	    DisplayCategory         = Medical,
+    }
+    item HCDaisyteaclaymug
+    {
+
+	    HungerChange		    = -1,
+	    Weight			        = 1,
+	    Type			        = Food,
+	    ThirstChange		    = -50,
+	    DisplayName		        = Daisy Tea,
+	    ReplaceOnUse		    = HCClaymug,
+	    Icon			        = HCHotcuppa,
+	    ReduceFoodSickness 	    = 8,
+	    FluReduction		    = 8,
+	    ReduceInfectionPower    = 8,
+	    FoodType    		    = NoExplicit,
+	    Carbohydrates 		    = 0,
+        Proteins 		        = 2,
+        Lipids 			        = 0,
+        Calories 		        = 10,
+	    CantBeFrozen		    = TRUE,
+	    DisplayCategory         = Medical,
+    }
+    item HCAnemomedry
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Dried Anemone,
+        icon 			= HCAnemomedry,
+	    DisplayCategory = SurFor,
+    }
+    item HCAnemometeamug
+    {
+
+	    HungerChange	= -1,
+	    Weight			= 1,
+	    Type			= Food,
+	    ThirstChange	= -50,
+	    DisplayName		= Anemome Tea,
+	    StressChange	= -5,
+	    ReplaceOnUse	= Mugl,
+	    Icon			= MugFulll,
+	    OnEat 			= HCBetaBlockerMild,
+	    FoodType    	= NoExplicit,
+	    Carbohydrates 	= 0,
+        Proteins 		= 2,
+        Lipids 			= 0,
+        Calories 		= 10,
+	    CantBeFrozen	= TRUE,
+	    DisplayCategory = FoodB,
+    }
+    item HCAnemometeaclaymug
+    {
+
+	    HungerChange	= -1,
+	    Weight			= 1,
+	    Type			= Food,
+	    ThirstChange	= -50,
+	    DisplayName		= Anemome Tea,
+	    StressChange	= -5,
+	    ReplaceOnUse	= HCClaymug,
+	    Icon			= HCHotcuppa,
+	    OnEat 			= HCBetaBlockerMild,
+	    FoodType    	= NoExplicit,
+	    Carbohydrates 	= 0,
+        Proteins 		= 2,
+        Lipids 			= 0,
+        Calories 		= 10,
+	    CantBeFrozen	= TRUE,
+	    DisplayCategory = FoodB,
+    }
+    item HCCamelliadry
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Dried Camellia,
+        icon 			= HCCamelliadry,
+	    DisplayCategory = SurFor,
+    }
+    item HCCamelliateamug
+    {
+
+	    HungerChange	= -1,
+	    Weight			= 1,
+	    Type			= Food,
+	    ThirstChange	= -50,
+	    DisplayName		= Camellia Tea,
+	    EnduranceChange	= 5,
+        FatigueChange	= -5,
+	    ReplaceOnUse	= Mugl,
+	    Icon			= MugFulll,
+	    OnEat 			= HCBetaBlockerMild,
+	    FoodType    	= NoExplicit,
+	    Carbohydrates 	= 0,
+        Proteins 		= 2,
+        Lipids 			= 0,
+        Calories 		= 10,
+	    CantBeFrozen	= TRUE,
+	    DisplayCategory = FoodB,
+    }
+    item HCCamelliateaclaymug
+    {
+
+	    HungerChange	= -1,
+	    Weight			= 1,
+	    Type			= Food,
+	    ThirstChange	= -50,
+	    DisplayName		= Camellia Tea,
+	    EnduranceChange	= 5,
+        FatigueChange	= -5,
+	    ReplaceOnUse	= HCClaymug,
+	    Icon			= HCHotcuppa,
+	    OnEat 			= HCBetaBlockerMild,
+	    FoodType    	= NoExplicit,
+	    Carbohydrates 	= 0,
+        Proteins 		= 2,
+        Lipids 			= 0,
+        Calories 		= 10,
+	    CantBeFrozen	= TRUE,
+	    DisplayCategory = FoodB,
+    }
+    item HCChilipepperstem
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Chili Pepper Stem,
+        icon 			= HCChilipepperstem,
+	    DisplayCategory = SurFor,
+    }
+    item HCChilipepperdry
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     = Dried Chili Peppers,
+        icon 			= HCChilipepperdry,
+	    DisplayCategory = SurFor,
+    }
+    item HCRiceraw
+    {
+
+	    Type			= Normal,
+	    DisplayName		= Raw Rice,
+	    Icon			= HCRiceraw,
+	    Weight			= 0.1,
+	    DisplayCategory = CookRef,
+    }
+    item HCChaffrice
+    {
+
+
+	    Type			= Normal,
+	    DisplayName		= Rice with Chaff,
+	    Icon			= HCChaffrice,
+	    Weight			= 0.1,
+	    DisplayCategory = CookRef,
+    }
+    item HCChaff
+    {
+
+
+	    Type			= Normal,
+	    DisplayName		= Chaff,
+	    Icon			= HCChaff,
+	    Weight			= 0.1,
+	    DisplayCategory = SurFor,
+    }
+    item HCBran
+    {
+
+
+	    Type			= Normal,
+	    DisplayName		= Bran,
+	    Icon			= HCBran,
+	    Weight			= 0.1,
+	    DisplayCategory = SurFor,
+    }
+    item HCCob
+    {
+
+
+	    Type			= Normal,
+	    DisplayName		= Corn Cob,
+	    Icon			= HCCob,
+	    Weight			= 0.1,
+	    DisplayCategory = SurFor,
+    }
+    item HCHusk
+    {
+
+
+	    Type			= Normal,
+	    DisplayName		= Corn Husk,
+	    Icon			= HCHusk,
+	    Weight			= 0.1,
+	    DisplayCategory = SurFor,
+    }
+    item HCBamboo
+    {
+
+
+	    Type			= Normal,
+	    DisplayName		= Bamboo,
+	    Icon			= HCBamboo,
+	    Weight			= 1.0,
+	    DisplayCategory = SurFor,
+    }
+    item HCBamboogutter
+    {
+
+
+	    Type			= Normal,
+	    DisplayName		= Bamboo Gutter,
+	    Icon			= HCBamboogutter,
+	    Weight			= 0.5,
+	    DisplayCategory = SurFor,
+    }
+    item HCGarlicdry
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Dried Garlic,
+        icon 			= HCGarlicdry,
+	    DisplayCategory = SurFor,
+    }
+    item HCOniondry
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Dried Onion,
+        icon 			= HCOniondry,
+	    DisplayCategory = CookRef,
+    }
+    item HCJuniperberrydry
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Dried Juniper Berry,
+        icon 			= HCJuniperberrydry,
+	    DisplayCategory = SurFor,
+    }
+    item HCLavenderdry
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Dried Lavender,
+        icon 			= HCLavenderdry,
+	    DisplayCategory = SurFor,
+    }
+    item HCGinsengExtract
+    {
+
+        EnduranceChange     = 15,
+        Weight              = 0.5,
+        Type                = Food,
+        DisplayName         = Ginseng Extract,
+        Icon                = HCSmellingsaltscork,
+        CustomContextMenu   = Drink,
+        HungerChange        = 0.1,
+        Carbohydrates       = 0.1,
+        Proteins            = 0.1,
+        Lipids              = 0.1,
+        Calories            = 0.1,
+        ReplaceOnUse        = Hydrocraft.HCGlasstesttubecork,
+        CustomEatSound      = DrinkingFromBottle,
+	    DisplayCategory     = Drugs,
+    }
+    item HCLemongrassExtract
+    {
+
+        UnhappyChange       = 5,
+        Weight              = 0.5,
+        Type                = Food,
+        DisplayName         = Lemongrass Extract,
+        Icon                = HCSmellingsaltscork,
+        ReduceFoodSickness  = 50,
+        CustomContextMenu   = Drink,
+        HungerChange        = 0.1,
+        Carbohydrates       = 0.1,
+        Proteins            = 0.1,
+        Lipids              = 0.1,
+        Calories            = 0.1,
+        ReplaceOnUse        = Hydrocraft.HCGlasstesttubecork,
+        CustomEatSound      = DrinkingFromBottle,
+	    DisplayCategory     = Drugs,
+    }
+    craftRecipe Make Herbalist Table
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 3 [Base.Plank],
+            item 2 [Base.Nails],
+            item 2 [Base.Twine],
+            item 1 [Base.Bowl],
+            item 1 [Base.MortarPestle],
+            item 2 [Hydrocraft.HCClayjarsmall],
+            item 1 [Hydrocraft.HCTablewood],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHerbtable,
+        }
+    }
+    craftRecipe Create Ginseng Extract
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
+            item 7 [Base.Ginseng],
+            item 1 [Hydrocraft.HCGlasstesttubecork],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGinsengExtract,
+        }
+    }
+    craftRecipe Create Lemongrass Extract
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
+            item 5 [Base.LemonGrass],
+            item 1 [Hydrocraft.HCGlasstesttubecork],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLemongrassExtract,
+        }
+    }
+    craftRecipe Harvest Pollen
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Tweezers] mode:keep,
+            item 1 [Base.Violets;Hydrocraft.HCRosebud;Hydrocraft.HCCamomile;Hydrocraft.HCLavender;Hydrocraft.HCSunflower;Hydrocraft.HCFlaxflower;Hydrocraft.HCDaisy;Hydrocraft.HCIris;Hydrocraft.HCSkullcap;Hydrocraft.HCBluebell;Hydrocraft.HCLotusflower;Hydrocraft.HCHyacinthflower;Hydrocraft.HCWaterlilyflower;Hydrocraft.HCValerian;Hydrocraft.HCThistle;Hydrocraft.HCAnemome;Hydrocraft.HCCamellia;Hydrocraft.HCRhododendron;Hydrocraft.HCDaffodil;Hydrocraft.HCTulip;Hydrocraft.HCMorningglory;Hydrocraft.HCCalily;Hydrocraft.HCBleedingheart;Hydrocraft.HCPansy;Hydrocraft.HCTetterwort;Hydrocraft.HCDogwood;Hydrocraft.HCMagnolia;Hydrocraft.HCSpeedwell;Hydrocraft.HCColumbine;Hydrocraft.HCCinquefoils;Hydrocraft.HCStrelitzia;Hydrocraft.HCMazus;Hydrocraft.HCCarnation;Hydrocraft.HCChrysanthemum;Hydrocraft.HCBluedaisy;Hydrocraft.HCSoapgrass;Hydrocraft.HCChicory;Hydrocraft.HCWolfsbane;Hydrocraft.HCKvann],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPollen,
+        }
+    }
+    craftRecipe Harvest Pollen Considered
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Tweezers] mode:keep,
+            item 1 [Base.Violets;Hydrocraft.HCSunflower;Hydrocraft.HCFlaxflower;Hydrocraft.HCDaisy;Hydrocraft.HCIris;Hydrocraft.HCSkullcap;Hydrocraft.HCLotusflower;Hydrocraft.HCHyacinthflower;Hydrocraft.HCWaterlilyflower;Hydrocraft.HCValerian;Hydrocraft.HCThistle;Hydrocraft.HCAnemome;Hydrocraft.HCRhododendron;Hydrocraft.HCDaffodil;Hydrocraft.HCTulip;Hydrocraft.HCMorningglory;Hydrocraft.HCCalily;Hydrocraft.HCBleedingheart;Hydrocraft.HCPansy;Hydrocraft.HCTetterwort;Hydrocraft.HCDogwood;Hydrocraft.HCMagnolia;Hydrocraft.HCSpeedwell;Hydrocraft.HCColumbine;Hydrocraft.HCCinquefoils;Hydrocraft.HCStrelitzia;Hydrocraft.HCMazus;Hydrocraft.HCCarnation;Hydrocraft.HCChrysanthemum;Hydrocraft.HCBluedaisy;Hydrocraft.HCSoapgrass;Hydrocraft.HCChicory;Hydrocraft.HCWolfsbane;Hydrocraft.HCKvann],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPollen,
+        }
+    }
+    craftRecipe Harvest Flax
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFlaxflower],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCFlax,
+        }
+    }
+    craftRecipe Make Plantain Medicine
+    {
+        time = 60,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 5 [Base.Plantain],
+        }
+        outputs
+        {
+            item 1 Base.PlantainCataplasm,
+        }
+    }
+    craftRecipe Make Comfrey Medicine
+    {
+        time = 60,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 5 [Base.Comfrey],
+        }
+        outputs
+        {
+            item 1 Base.ComfreyCataplasm,
+        }
+    }
+    craftRecipe Make Wild Garlic Medicine
+    {
+        time = 60,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        xpAward = Doctor:2,
+        inputs
+        {
+            item 5 [Base.WildGarlic2],
+        }
+        outputs
+        {
+            item 1 Base.WildGarlicCataplasm,
+        }
+    }
+    craftRecipe Dry Leaves
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTeafresh],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTeagreen,
+        }
+    }
+    craftRecipe Dry Leaves
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTeagreen],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTeablack,
+        }
+    }
+    craftRecipe Make Teabag
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCTeagreen],
+        }
+        outputs
+        {
+            item 1 Base.Teabag2,
+        }
+    }
+    craftRecipe Make Teabag
+    {
+        time = 15,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTeablack],
+        }
+        outputs
+        {
+            item 1 Base.Teabag2,
+        }
+    }
+    craftRecipe Breed Silkmoths
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Ranching,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSilkmothmale],
+            item 1 [Hydrocraft.HCSilkmothfemale],
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCSilkegg,
+        }
+    }
+    craftRecipe Feed Silkworm
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Ranching,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSilkwom],
+            item 1 [Hydrocraft.HCMulberryleaf;Hydrocraft.HCOakleaves],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilkcocoon,
+        }
+    }
+    craftRecipe Harvest Silk
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Ranching,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:1,
+        OnCreate = HCR42.getSilkmoth,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSilkcocoon2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilkcocoonempty,
+        }
+    }
+    craftRecipe Cook Empty Silk Cocoon
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Hydrocraft.HCSilkcocoonempty],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCSilkfiber,
+        }
+    }
+    craftRecipe Soak Fresh Jute Stems
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJutestems],
+            item 1 [Hydrocraft.HCWoodenbucketwater],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJutestemswet,
+        }
+    }
+    craftRecipe Dry Jute Stems
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJutestemswet],
+            item 1 [Hydrocraft.HCDryingframe] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJutestemsdry,
+        }
+    }
+    craftRecipe Craft Corn Cob Pipe
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCob],
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCorncobpipe,
+        }
+    }
+    craftRecipe Dry Flower
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCamomile],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCamomiledry,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Base.Mugl],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCCamomiledry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCamomileteamug,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaymug],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCCamomiledry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCamomileteaclaymug,
+        }
+    }
+    craftRecipe Dry Herbs
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNettles],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNettlesdry,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Base.Mugl],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCNettlesdry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNettleteamug,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaymug],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCNettlesdry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNettleteaclaymug,
+        }
+    }
+    craftRecipe Dry Flower
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThistle],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThistledry,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Base.Mugl],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCThistledry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThistleteamug,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaymug],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCThistledry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThistleteaclaymug,
+        }
+    }
+    craftRecipe Dry Flower
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSkullcap],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSkullcapdry,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Base.Mugl],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCSkullcapdry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSkullcapteamug,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaymug],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCSkullcapdry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSkullcapteaclaymug,
+        }
+    }
+    craftRecipe Dry Flower
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDaisy],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDaisydry,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Base.Mugl],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCDaisydry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDaisyteamug,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaymug],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCDaisydry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDaisyteaclaymug,
+        }
+    }
+    craftRecipe Dry Flower
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAnemome],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnemomedry,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Base.Mugl],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCAnemomedry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnemometeamug,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaymug],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCAnemomedry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnemometeaclaymug,
+        }
+    }
+    craftRecipe Dry Flower
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCamellia],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCamelliadry,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Base.Mugl],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCCamelliadry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCamelliateamug,
+        }
+    }
+    craftRecipe Make Herbal Tea
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaymug],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCCamelliadry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCamelliateaclaymug,
+        }
+    }
+    craftRecipe Dry into Straw
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGrass;Hydrocraft.HCJutestems;Hydrocraft.HCReeds;Hydrocraft.HCPlantfibers;Hydrocraft.HCFlax;Hydrocraft.HCHusk;Hydrocraft.HCSoapgrass;Hydrocraft.HCAlfalfa],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCStraw,
+        }
+    }
+    craftRecipe Cut Chili Pepper Stem
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcchilipeppercut,
+        inputs
+        {
+            item 1 [Hydrocraft.HCChilipepper],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChilipepperstem,
+        }
+    }
+    craftRecipe Dry Spice
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Hydrocraft.HCChilipepper],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChilipepperdry,
+        }
+    }
+    craftRecipe Thresh Rice
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcplantfibers,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRiceraw],
+            item 1 [Hydrocraft.HCCurvedshaftsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChaffrice,
+        }
+    }
+    craftRecipe Thresh Rice
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcplantfibers,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRiceraw],
+            item 1 [Hydrocraft.HCThresher] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChaffrice,
+        }
+    }
+    craftRecipe Thresh Rice
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcplantfibers,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRiceraw],
+            item 1 [Hydrocraft.HCThreshermech] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChaffrice,
+        }
+    }
+    craftRecipe Extract Seed from Raw Rice
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRiceraw],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRiceseeds,
+        }
+    }
+    craftRecipe Shuck Corn
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hccob,
+        inputs
+        {
+            item 1 [Base.Corn],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCCornseeds,
+        }
+    }
+    craftRecipe Shuck Corn
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hccob,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCornwhite],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCCornwhiteseeds,
+        }
+    }
+    craftRecipe Shuck Corn
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hccob,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCornred],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCCornredseeds,
+        }
+    }
+    craftRecipe Shuck Corn
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hccob,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCornblue],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCCornblueseeds,
+        }
+    }
+    craftRecipe Make Bamboo Gutter
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBamboo],
+            item 1 [Base.Saw;Base.Machete] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBamboogutter,
+        }
+    }
+    craftRecipe Dry Spice
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGarlic],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGarlicdry,
+        }
+    }
+    craftRecipe Dry Spice
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Onion],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCOniondry,
+        }
+    }
+    craftRecipe Dry Berry
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJuniperberry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJuniperberrydry,
+        }
+    }
+    craftRecipe Dry Flower
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLavender],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLavenderdry,
+        }
+    }
+    craftRecipe Make Glue
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Hydrocraft.HCBluebell],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCGlueempty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Glue,
+        }
+    }
+    craftRecipe Make Wood Glue
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Hydrocraft.HCBluebell],
+            item 1 [Hydrocraft.HCWoodglueempty],
+            item 1 [Hydrocraft.HCCandleberrywax;Hydrocraft.HCRefinedbeeswax;Hydrocraft.HCWaxrecycled],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Woodglue,
+        }
+    }
+    craftRecipe Make Super Glue
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 10 [Hydrocraft.HCBluebell],
+            item 1 [Hydrocraft.HCGlycerin],
+            item 1 [Hydrocraft.HCGumstick;Hydrocraft.HCGumstick2;Hydrocraft.HCGumstick3],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSuperglue,
+        }
+    }
+}

@@ -1,0 +1,295 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCFeatherduster
+    {
+
+        Weight    		= 0.03,
+        Type    		= Normal,
+        DisplayName         	= Feather Duster,
+        icon 			= HCFeatherduster,
+		DisplayCategory	= Cleaning,
+    }
+    item HCShopvac
+    {
+
+        Weight    		= 5,
+        Type    		= Normal,
+        DisplayName         	= Shop Vac,
+        icon 			= HCShopvac,
+		DisplayCategory	= Cleaning,
+    }
+    item HCVacuum
+    {
+
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName         	= Vacuum Cleaner,
+        icon 			= HCVacuum,
+		DisplayCategory	= Cleaning,
+    }
+    item HCVac
+    {
+
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName         	= Vacuum Cleaner,
+        icon 			= HCVac,
+		DisplayCategory	= Cleaning,
+    }
+    item HCHandvac
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Hand Vacuum,
+        icon 			= HCHandvac,
+		DisplayCategory	= Cleaning,
+    }
+    item HCDustpan
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Dust Pan,
+        icon 			= HCDustpan,
+		DisplayCategory	= Cleaning,
+    }
+    item HCCleanerall
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= All Purpose Cleaner,
+        icon 			= HCCleanerall,
+		DisplayCategory	= Cleaning,
+    }
+    item HCCleanerfabric
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Fabric Cleaner,
+        icon 			= HCCleanerfabric,
+		DisplayCategory	= Cleaning,
+    }
+    item HCWindowcleaner
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Window Cleaner,
+        icon 			= HCWindowcleaner,
+		DisplayCategory	= Cleaning,
+    }
+    item HCFabricsoftener
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Fabric Softener,
+        icon 			= HCFabricsoftener,
+		DisplayCategory	= Cleaning,
+    }
+    item HCCleanser
+    {
+
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Cleanser,
+        icon 			= HCCleanser,
+		DisplayCategory	= Useless,
+    }
+    item HCAmmonia
+    {
+
+        Weight    		= 0.3,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Bottle of Ammonia,
+        icon 			= HCAmmonia,
+		DisplayCategory	= CraftChem,
+    }
+    item HCWashboard
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Washboard,
+        icon 			= HCWashboard,
+		DisplayCategory	= Cleaning,
+    }
+    item HCMothballs
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Mothballs,
+        icon 			= HCMothballs,
+		DisplayCategory	= Useless,
+    }
+    item HCMothballsbox
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Box of Mothballs,
+        icon 			= HCMothballsbox,
+		DisplayCategory	= Useless,
+    }
+    item HCBroom
+    {
+
+        MaxRange                 =    1.5,
+        WeaponSprite               =    Shovel,
+        MinAngle                    =    0.2,
+        Type                        =    Weapon,
+        MinimumSwingTime            =    1.5,
+        KnockBackOnNoDeath            =    TRUE,
+        SwingAmountBeforeImpact        =    0.02,
+        Categories                    =    Blunt,
+        ConditionLowerChanceOneIn        =    10,
+        Weight                =    1,
+        SplatNumber            =    1,
+        PushBackMod            =    0.25,
+        MaxDamage            =    0.5,
+        SubCategory            =    Swinging,
+        ConditionMax            =    15,
+        MaxHitCount            =    2,
+        DoorDamage            =    1,
+        IdleAnim                =    Idle_Weapon2,
+        SwingAnim                =    Bat,
+        CriticalChance            =    5,
+        WeaponWeight            =    0.5,
+        DisplayName            =    Broom,
+        MinRange                =    0.61,
+        SwingTime                =    2,
+        HitAngleMod            =    -30,
+        MinDamage                =    0.8,
+        KnockdownMod            =    0.5,
+        SplatBloodOnNoDeath        =    FALSE,
+        Icon                    =    HCBroom,
+        RunAnim                =    Run_Weapon2,
+      TwoHandWeapon             =     TRUE,
+            BreakSound             =       BreakWoodItem,
+        TreeDamage             =       1,
+		DisplayCategory	= WepMelee,
+    }
+    item HCPushbroom
+    {
+
+        MaxRange                 =    1.8,
+        WeaponSprite               =    Shovel,
+        MinAngle                    =    0.2,
+        Type                        =    Weapon,
+        MinimumSwingTime            =    1.5,
+        KnockBackOnNoDeath            =    TRUE,
+        SwingAmountBeforeImpact        =    0.02,
+        Categories                    =    Blunt,
+        ConditionLowerChanceOneIn        =    10,
+        Weight                =    2,
+        SplatNumber            =    1,
+        PushBackMod            =    0.25,
+        MaxDamage            =    0.5,
+        SubCategory            =    Swinging,
+        ConditionMax            =    15,
+        MaxHitCount            =    2,
+        DoorDamage            =    1,
+        IdleAnim                =    Idle_Weapon2,
+        SwingAnim                =    Bat,
+        CriticalChance            =    5,
+        WeaponWeight            =    0.5,
+        DisplayName            =    Push Broom,
+        MinRange                =    0.61,
+        SwingTime                =    2,
+        HitAngleMod            =    -30,
+        MinDamage                =    0.8,
+        KnockdownMod            =    0.5,
+        SplatBloodOnNoDeath        =    FALSE,
+        Icon                    =    HCPushbroom,
+        RunAnim                =    Run_Weapon2,
+      TwoHandWeapon             =     TRUE,
+            BreakSound             =       BreakWoodItem,
+        TreeDamage             =       1,
+		DisplayCategory	= WepMelee,
+    }
+    craftRecipe Box Mothballs
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 100 [Hydrocraft.HCMothballs],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMothballsbox,
+        }
+    }
+    craftRecipe Unbox Mothballs
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMothballsbox],
+        }
+        outputs
+        {
+            item 100 Hydrocraft.HCMothballs,
+        }
+    }
+    craftRecipe Wash Towel
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Weaving,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBathtoweldirty],
+            item 1 [Base.Bleach;Base.Soap2;Hydrocraft.HCSoap;Hydrocraft.HCCleanerall;Hydrocraft.HCCleanerfabric;Hydrocraft.HCFabricsoftener;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.3 [Water],
+        }
+        outputs
+        {
+            item 1 Base.BathTowelWet,
+        }
+    }
+    craftRecipe Wash Towel in Wash Tub
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBathtoweldirty],
+            item 1 [Hydrocraft.HCWashtubfull] mode:keep,
+            item 1 [Base.Bleach;Base.Soap2;Hydrocraft.HCSoap;Hydrocraft.HCCleanerall;Hydrocraft.HCCleanerfabric;Hydrocraft.HCFabricsoftener;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.3 [Water],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Hydrocraft.HCWashboard] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.BathTowelWet,
+        }
+    }
+}

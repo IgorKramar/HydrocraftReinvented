@@ -1,0 +1,926 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCPaintbrush
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Paintbrush,
+        icon 			= HCPaintbrush,
+		DisplayCategory	= Paint,
+    }
+    item HCPainterpalette
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Painter Palette,
+        icon 			= HCPainterpalette,
+		DisplayCategory	= Paint,
+    }
+    item HCInkroller
+    {
+
+	Weight			=	0.2,
+	Type			=	Normal,
+	DisplayName		=	ink Roller,
+	Icon			=	HCInkroller,
+		DisplayCategory	= Paint,
+    }
+    item HCCanvas
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Canvas,
+        icon 			= HCCanvas,
+		DisplayCategory	= Paint,
+    }
+    item HCEasel
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Easel,
+        icon 			= HCEasel,
+		DisplayCategory	= Paint,
+    }
+    item HCTurpentine
+    {
+
+        Weight    		= 0.3,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Turpentine,
+        icon 			= HCTurpentine,
+		DisplayCategory	= Paint,
+    }
+    item HCWhitepigment
+    {
+
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= White Pigment,
+        icon 			= HCWhitepigment,
+		DisplayCategory	= Paint,
+    }
+    item HCBrownpigment
+    {
+
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= Brown Pigment,
+        icon 			= HCBrownpigment,
+		DisplayCategory	= Paint,
+    }
+    item HCYellowpigment
+    {
+
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= Yellow Pigment,
+        icon 			= HCYellowpigment,
+		DisplayCategory	= Paint,
+    }
+    item HCRedpigment
+    {
+
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= Red Pigment,
+        icon 			= HCRedpigment,
+		DisplayCategory	= Paint,
+    }
+    item HCGreenpigment
+    {
+
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= Green Pigment,
+        icon 			= HCGreenpigment,
+		DisplayCategory	= Paint,
+    }
+    item HCBluepigment
+    {
+
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= Blue Pigment,
+        icon 			= HCBluepigment,
+		DisplayCategory	= Paint,
+    }
+    item HCPaintcan
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Empty Paint Can,
+        icon 			= HCPaintcan,
+		DisplayCategory	= Paint,
+    }
+    item HCJarpaintwhite
+    {
+
+        Weight    		= 0.6,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Jar of White Paint,
+        icon 			= HCJarpaintwhite,
+	ReplaceOnDeplete	= HCJar,
+		DisplayCategory	= Paint,
+    }
+    item HCJarpaintyellow
+    {
+
+        Weight    		= 0.6,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Jar of Yellow Paint,
+        icon 			= HCJarpaintyellow,
+	ReplaceOnDeplete	= HCJar,
+		DisplayCategory	= Paint,
+    }
+    item HCJarpaintred
+    {
+
+        Weight    		= 0.6,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Jar of Red Paint,
+        icon 			= HCJarpaintred,
+	ReplaceOnDeplete	= HCJar,
+		DisplayCategory	= Paint,
+    }
+    item HCJarpaintblue
+    {
+
+        Weight    		= 0.6,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Jar of Blue Paint,
+        icon 			= HCJarpaintblue,
+	ReplaceOnDeplete	= HCJar,
+		DisplayCategory	= Paint,
+    }
+    item HCJarpaintblack
+    {
+
+        Weight    		= 0.6,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Jar of Black Paint,
+        icon 			= HCJarpaintblack,
+	ReplaceOnDeplete	= HCJar,
+		DisplayCategory	= Paint,
+    }
+    craftRecipe Make Easel
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 6 [Base.WoodenStick2],
+            item 4 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCEasel,
+        }
+    }
+    craftRecipe Make Painter Palette
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPainterpalette,
+        }
+    }
+    craftRecipe Make Canvas
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Weaving,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLinencloth],
+            item 4 [Base.WoodenStick2],
+            item 2 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCanvas,
+        }
+    }
+    craftRecipe Extract White Pigment
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLeadpowder],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWhitepigment,
+        }
+    }
+    craftRecipe Extract Brown Pigment
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIronpowder;Hydrocraft.HCRedclay],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBrownpigment,
+        }
+    }
+    craftRecipe Extract Yellow Pigment
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIronpowder;Hydrocraft.HCTitaniumpowder;Hydrocraft.HCRedclay],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCYellowpigment,
+        }
+    }
+    craftRecipe Extract Red Pigment
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIronpowder;Hydrocraft.HCCinnabar;Hydrocraft.HCLeadpowder;Hydrocraft.HCRedclay],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRedpigment,
+        }
+    }
+    craftRecipe Extract Green Pigment
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCopperpowder;Hydrocraft.HCMalachite],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGreenpigment,
+        }
+    }
+    craftRecipe Extract Blue Pigment
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Sandbag],
+            item 1 [Hydrocraft.HCLimestone],
+            item 1 [Hydrocraft.HCCopperpowder],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBluepigment,
+        }
+    }
+    craftRecipe Extract Blue Pigment
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLapislazulipowder;Hydrocraft.HCCobaltpowder;Hydrocraft.HCAzuritepowder],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBluepigment,
+        }
+    }
+    craftRecipe Mix Can of Pink Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Hydrocraft.HCRedpigment],
+            item 1 [Hydrocraft.HCWhitepigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintPink,
+        }
+    }
+    craftRecipe Mix Can of Red Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 2 [Hydrocraft.HCRedpigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintRed,
+        }
+    }
+    craftRecipe Mix Can of Orange Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Hydrocraft.HCRedpigment],
+            item 1 [Hydrocraft.HCYellowpigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintOrange,
+        }
+    }
+    craftRecipe Mix Can of Brown Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 2 [Hydrocraft.HCBrownpigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintBrown,
+        }
+    }
+    craftRecipe Mix Can of Light Brown Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Hydrocraft.HCWhitepigment],
+            item 1 [Hydrocraft.HCBrownpigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintLightBrown,
+        }
+    }
+    craftRecipe Mix Can of Yellow Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 2 [Hydrocraft.HCYellowpigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintYellow,
+        }
+    }
+    craftRecipe Mix Can of Green Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 2 [Hydrocraft.HCGreenpigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintGreen,
+        }
+    }
+    craftRecipe Mix Can of Turquoise Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Hydrocraft.HCGreenpigment],
+            item 1 [Hydrocraft.HCBluepigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintTurquoise,
+        }
+    }
+    craftRecipe Mix Can of Cyan Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Hydrocraft.HCGreenpigment],
+            item 1 [Hydrocraft.HCBluepigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintCyan,
+        }
+    }
+    craftRecipe Mix Can of Light Blue Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Hydrocraft.HCWhitepigment],
+            item 1 [Hydrocraft.HCBluepigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintLightBlue,
+        }
+    }
+    craftRecipe Mix Can of Blue Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 2 [Hydrocraft.HCBluepigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintBlue,
+        }
+    }
+    craftRecipe Mix Can of Purple Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Hydrocraft.HCRedpigment],
+            item 1 [Hydrocraft.HCBluepigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintPurple,
+        }
+    }
+    craftRecipe Mix Can of Black Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 2 [Hydrocraft.HCCharcoalpowder],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintBlack,
+        }
+    }
+    craftRecipe Mix Can of Grey Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Hydrocraft.HCWhitepigment],
+            item 1 [Hydrocraft.HCCharcoalpowder],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintGrey,
+        }
+    }
+    craftRecipe Mix Can of White Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 2 [Hydrocraft.HCWhitepigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PaintWhite,
+        }
+    }
+    craftRecipe Mix Jar of White Paint
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCPaintcan],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCWhitepigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarpaintwhite,
+        }
+    }
+    craftRecipe Mix Jar of Yellow Paint
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCYellowpigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarpaintyellow,
+        }
+    }
+    craftRecipe Mix Jar of Red Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCRedpigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarpaintred,
+        }
+    }
+    craftRecipe Mix Jar of Blue Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCBluepigment],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarpaintblue,
+        }
+    }
+    craftRecipe Mix Jar of Black Paint
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJar],
+            item 1 [Base.Glue;Hydrocraft.HCGluejar],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCCharcoalpowder],
+            item 1 [Hydrocraft.HCLab2;Hydrocraft.HCLabbig2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJarpaintblack,
+        }
+    }
+    craftRecipe Paint on Canvas
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCanvas],
+            item 1 [Hydrocraft.HCJarpaintwhite],
+            item 1 [Hydrocraft.HCJarpaintyellow],
+            item 1 [Hydrocraft.HCJarpaintred],
+            item 1 [Hydrocraft.HCJarpaintblue],
+            item 1 [Hydrocraft.HCJarpaintblack],
+            item 1 [Hydrocraft.HCPainterpalette] mode:keep,
+            item 1 [Hydrocraft.HCPaintbrush] mode:keep,
+            item 1 [Hydrocraft.HCEasel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPainting1,
+        }
+    }
+    craftRecipe Paint on Canvas
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCanvas],
+            item 1 [Hydrocraft.HCJarpaintwhite],
+            item 1 [Hydrocraft.HCJarpaintyellow],
+            item 1 [Hydrocraft.HCJarpaintred],
+            item 1 [Hydrocraft.HCJarpaintblue],
+            item 1 [Hydrocraft.HCJarpaintblack],
+            item 1 [Hydrocraft.HCPainterpalette] mode:keep,
+            item 1 [Hydrocraft.HCPaintbrush] mode:keep,
+            item 1 [Hydrocraft.HCEasel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPainting2,
+        }
+    }
+    craftRecipe Paint on Canvas
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCanvas],
+            item 1 [Hydrocraft.HCJarpaintwhite],
+            item 1 [Hydrocraft.HCJarpaintyellow],
+            item 1 [Hydrocraft.HCJarpaintred],
+            item 1 [Hydrocraft.HCJarpaintblue],
+            item 1 [Hydrocraft.HCJarpaintblack],
+            item 1 [Hydrocraft.HCPainterpalette] mode:keep,
+            item 1 [Hydrocraft.HCPaintbrush] mode:keep,
+            item 1 [Hydrocraft.HCEasel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPainting3,
+        }
+    }
+    craftRecipe Paint on Canvas
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCanvas],
+            item 1 [Hydrocraft.HCJarpaintwhite],
+            item 1 [Hydrocraft.HCJarpaintyellow],
+            item 1 [Hydrocraft.HCJarpaintred],
+            item 1 [Hydrocraft.HCJarpaintblue],
+            item 1 [Hydrocraft.HCJarpaintblack],
+            item 1 [Hydrocraft.HCPainterpalette] mode:keep,
+            item 1 [Hydrocraft.HCPaintbrush] mode:keep,
+            item 1 [Hydrocraft.HCEasel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPainting4,
+        }
+    }
+    craftRecipe Paint on Canvas
+    {
+        time = 3000,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCanvas],
+            item 1 [Hydrocraft.HCJarpaintwhite],
+            item 1 [Hydrocraft.HCJarpaintyellow],
+            item 1 [Hydrocraft.HCJarpaintred],
+            item 1 [Hydrocraft.HCJarpaintblue],
+            item 1 [Hydrocraft.HCJarpaintblack],
+            item 1 [Hydrocraft.HCPainterpalette] mode:keep,
+            item 1 [Hydrocraft.HCPaintbrush] mode:keep,
+            item 1 [Hydrocraft.HCEasel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPainting5,
+        }
+    }
+}

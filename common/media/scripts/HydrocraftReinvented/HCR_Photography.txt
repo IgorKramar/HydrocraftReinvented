@@ -1,0 +1,108 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCFilmcanister
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Film Canister,
+        icon 			= HCFilmcanister,
+		DisplayCategory		=   CraftMisc,
+    }
+    item HCFilmroll
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Roll of Film,
+        icon 			= HCFilmroll,
+		DisplayCategory		=   CraftMisc,
+    }
+    item HCPhotodevloper
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Film Devloper,
+        icon 			= HCPhotodevloper,
+		DisplayCategory		=   CraftMisc,
+    }
+    item HCPhotofixer
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Film Fixer,
+        icon 			= HCPhotofixer,
+		DisplayCategory		=   CraftMisc,
+    }
+    item HCPhotolacquer
+    {
+
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.25,
+        DisplayName         	= 	Photo Lacquer,
+        icon 			= 	HCPhotolacquer,
+		DisplayCategory		=   CraftMisc,
+    }
+    item HCFlashlightbulbred
+    {
+
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Red Flashlight Bulb,
+        Icon			=	HCFlashlightbulbred,
+		DisplayCategory		=   CraftMisc,
+    }
+    item HCPhotobench
+    {
+
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Container,
+	Capacity             	= 50,
+        DisplayName         	= Photography Workbench,
+        icon 			= HCPhotobench,
+		DisplayCategory		=   CraftMisc,
+    }
+    craftRecipe Make Photography Workbench
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.CameraExpensive],
+            item 2 [Hydrocraft.HCFilmroll],
+            item 3 [Hydrocraft.HCFilmcanister],
+            item 1 [Hydrocraft.HCPhotodevloper],
+            item 1 [Hydrocraft.HCPhotofixer],
+            item 1 [Base.Vinegar2],
+            item 1 [Hydrocraft.HCRubberglove],
+            item 1 [Base.RoastingPan],
+            item 3 [Base.Newspaper],
+            item 6 [Hydrocraft.HCClothespin],
+            item 1 [Hydrocraft.HCRopethin],
+            item 1 [Hydrocraft.HCBottleopener],
+            item 1 [Hydrocraft.HCMeasuringcup],
+            item 1 [Hydrocraft.HCFlashlightbulbred],
+            item 1 [Hydrocraft.HCFlashlightoff],
+            item 1 [Hydrocraft.HCPlasticbin],
+            item 1 [Hydrocraft.HCWorkbench],
+            item 1 [Base.WoodenStick2],
+            item 1 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 tags[base:scissors],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPhotobench,
+        }
+    }
+}

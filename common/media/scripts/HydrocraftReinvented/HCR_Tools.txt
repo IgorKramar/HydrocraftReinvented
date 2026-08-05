@@ -1,0 +1,1760 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCBowdrillbow
+    {
+
+        Weight			= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Bow Drill Bow,
+        icon 			= HCBowdrillbow,
+		DisplayCategory	= Tool,
+    }
+    item HCBowdrill
+    {
+
+		Weight			=	0.2,
+		Type			=	Drainable,
+		UseDelta		=	0.25,
+		DisplayName		=	Fire Bow Drill,
+		ReplaceOnDeplete	=	HCBowdrillbow,
+		Icon			=	HCBowdrill,
+		DisplayCategory	= Tool,
+		Tags = StartFire,
+    }
+    item HCBowdrillflint
+    {
+
+	Weight			=	0.2,
+	Type			=	Drainable,
+	UseDelta		=	0.25,
+	DisplayName		=	Flint Tipped Bow Drill,
+	ReplaceOnDeplete	=	HCBowdrillbow,
+	Icon			=	HCBowdrillflint,
+		DisplayCategory	= Tool,
+    }
+    item HCDrillhand
+    {
+
+	Weight			=	0.5,
+	Type			=	Drainable,
+	UseDelta		=	0.125,
+	DisplayName		=	Hand Drill,
+	Icon			=	HCDrillhand,
+	DisplayCategory	= 	Tool,
+    }
+    item HCDrillcordless
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Cordless Drill,
+        icon 			= HCDrillcordless,
+		DisplayCategory	= Tool,
+    }
+    item HCDrillcordlesspowered
+    {
+
+	Weight				=	1,
+	Type				=	Drainable,
+	UseDelta			=	0.125,
+	DisplayName			=	Cordless Drill with Power,
+	ReplaceOnDeplete	=	HCDrillcordlessdead,
+	Icon				=	HCDrillcordlesspowered,
+		DisplayCategory	= Tool,
+    }
+    item HCDrillcordlessdead
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Dead Cordless Drill,
+        icon 			= HCDrillcordlessdead,
+		DisplayCategory	= Tool,
+    }
+    item HCFunnel
+    {
+
+		DisplayCategory	 = Tool,	
+		DisplayName      = Funnel,		
+        Type    		 = Normal,
+		Weight			 = 0.2,		
+        icon 			 = HCFunnel,
+		WorldStaticModel = WorldItem-HCFunnel,
+    }
+    item HCMasontrowel
+    {
+
+        Weight			= 1,
+        Type    		= Normal,
+        DisplayName         	= Mason Trowel,
+        icon 			= HCMasontrowel,
+		DisplayCategory	= Tool,
+    }
+    item HCPliers
+    {
+
+        Weight			= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Pliers,
+        icon 			= HCPliers,
+		DisplayCategory	= Tool,
+    }
+    item HCPipebender
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Pipe Bender,
+	Icon			=	HCPipebender,
+		DisplayCategory	= Tool,
+    }
+    item HCGlasscutter
+    {
+
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Glass Cutter,
+	Icon			=	HCGlasscutter,
+		DisplayCategory	= Tool,
+    }
+    item HCAuger
+    {
+
+		DisplayCategory	 = Tool,
+		Type    		 = Normal,
+		DisplayName      = Auger,
+        Weight    		 = 25,      
+        icon 			 = HCAuger,	
+		WorldStaticModel = WorldItem-HCAuger,
+    }
+    item HCWeldinghose
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Welding Hose,
+        icon 			= HCWeldinghose,
+		DisplayCategory	= CraftMetal,
+    }
+    item HCWeldingtank
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Welding Gas Tank,
+        icon 			= HCWeldingtank,
+		DisplayCategory	= CraftMetal,
+        WorldStaticModel = WorldItem-HCWeldingTank,
+    }
+    item HCWeldingtankempty
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Empty Welding Gas Tank,
+        icon 			= HCWeldingtank,
+		DisplayCategory	= CraftMetal,
+        WorldStaticModel = WorldItem-HCWeldingTank,
+    }
+    item HCWeldingsetempty
+    {
+
+        Weight    		= 6.5,
+        Type    		= Normal,
+        DisplayName         	= Welding Torch and Empty Gas Tank,
+        icon 			= HCWeldingsetempty,
+		DisplayCategory	= CraftMetal,
+    }
+    item HCWeldingset
+    {
+
+	Weight				=	6.5,
+	Type				=	Drainable,
+	UseDelta			=	0.125,
+	DisplayName			=	Welding Torch and Gas Tank,
+	ReplaceOnDeplete		=	HCWeldingsetempty,
+	Icon				=	HCWeldingset,
+	UseWhileEquipped    		=    	FALSE,
+		DisplayCategory	= CraftMetal,
+    }
+    item HCWeldingsetempty
+    {
+
+        Weight    		= 6.5,
+        Type    		= Normal,
+        DisplayName         	= Welding Torch and Empty Gas Tank,
+        icon 			= HCWeldingsetempty,
+		DisplayCategory	= CraftMetal,
+    }
+    item HCBackscratcher
+    {
+
+        Weight    		= 0.03,
+        Type    		= Normal,
+        DisplayName         	= Backscratcher,
+        icon 			= HCBackscratcher,
+		DisplayCategory	= Misc,
+    }
+    item HCShoehorn
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Shoehorn,
+        icon 			= HCShoehorn,
+		DisplayCategory	= Misc,
+    }
+    item HCFlyswatter
+    {
+
+        Weight    		= 0.03,
+        Type    		= Normal,
+        DisplayName         	= Flyswatter,
+        icon 			= HCFlyswatter,
+		DisplayCategory	= Misc,
+    }
+    item HCMeasuringtape
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Measuring Tape,
+        icon 			= HCMeasuringtape,
+		DisplayCategory	= Craft,
+    }
+    item HCBungeecord
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bungee Cord,
+        icon 			= HCBungeecord,
+		DisplayCategory	= Misc,
+    }
+    item HCSafetyglasses
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Safety Glasses,
+        icon 			= HCSafetyglasses,
+		DisplayCategory	= Craft,
+    }
+    item HCChildsafetyscissors
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Child Safety Scissors,
+        icon 			= HCChildsafetyscissors,
+		DisplayCategory	= Craft,
+		Tags			= Scissors,
+    }
+    item HCHotgluegun
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Hot Glue Gun,
+        icon 			= HCHotgluegun,
+		DisplayCategory	= Craft,
+    }
+    item HCHotgluegunfull
+    {
+
+	Weight				=	0.6,
+	Type				=	Drainable,
+	UseDelta			=	0.1,
+	DisplayName			=	Hot Glue Gun with Glue Stick,
+	ReplaceOnDeplete		=	HCHotgluegun,
+	Icon				=	HCHotgluegunfull,
+	UseWhileEquipped    		=    	FALSE,
+		DisplayCategory	= Craft,
+    }
+    item HCHotgluestick
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Hot Glue Sticks,
+        icon 			= HCHotgluestick,
+		DisplayCategory	= Craft,
+    }
+    item HCHotgluestickbox
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Hot Glue Sticks,
+        icon 			= HCHotgluestickbox,
+		DisplayCategory	= Craft,
+    }
+    item HCBolt
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bolt,
+        icon 			= HCBolt,
+		DisplayCategory	= Craft,
+    }
+    item HCBoltbox
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Bolts,
+        icon 			= HCBoltbox,
+		DisplayCategory	= Craft,
+    }
+    item HCNut
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Nut,
+        icon 			= HCNut,
+		DisplayCategory	= Craft,
+    }
+    item HCNutbox
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Nuts,
+        icon 			= HCNutbox,
+		DisplayCategory	= Craft,
+    }
+    item HCNutnbolt
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Nut and Bolt,
+        icon 			= HCNutnbolt,
+		DisplayCategory	= Craft,
+    }
+    item HCFuelcanister
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Fuel Canister,
+        icon 			= HCFuelcanister,
+		DisplayCategory = Useless,
+    }
+    item HCNailgunammobox
+    {
+
+        Weight 			= 1.0,
+        Type 			= Normal,
+        DisplayName 		= Box of Nail Gun Nails,
+	icon 			= HCNailgunammobox,
+		DisplayCategory	= Craft,
+    }
+    item HCFramesquare
+    {
+
+        Weight			= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Frame Square,
+        icon 			= HCFramesquare,
+		DisplayCategory	= Craft,
+    }
+    item HCPortableminingmachine
+    {
+
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName         	= Portable Mining Machine,
+        icon 			= HCPortableminingmachine,
+		DisplayCategory	= CraftMine,
+    }
+    item HCPortableminingmachinepowered
+    {
+
+	Weight				=	3,
+	Type				=	Drainable,
+	UseDelta			=	0.125,
+	DisplayName			=	Portable Mining Machine with Power,
+	ReplaceOnDeplete		=	HCPortableminingmachinedead,
+	Icon				=	HCPortableminingmachinepowered,
+		DisplayCategory	= CraftMine,
+    }
+    item HCPortableminingmachinedead
+    {
+
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName         	= Dead Portable Mining Machine,
+        icon 			= HCPortableminingmachinedead,
+		DisplayCategory	= CraftMine,
+    }
+    item HCDrillhead
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Drill Head,
+        icon 			= HCDrillhead,
+		DisplayCategory	= CraftMine,
+    }
+    item HCMiningdrill
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Mining Drill,
+        icon 			= HCMiningdrill,
+		DisplayCategory	= CraftMine,
+    }
+    item HCMiningdrillpowered
+    {
+
+	Weight				=	4,
+	Type				=	Drainable,
+	UseDelta			=	0.125,
+	DisplayName			=	Mining Drill with Power,
+	ReplaceOnDeplete		=	HCMiningdrilldead,
+	Icon				=	HCMiningdrillpowered,
+		DisplayCategory	= CraftMine,
+    }
+    item HCMiningdrilldead
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Dead Mining Drill,
+        icon 			= HCMiningdrilldead,
+		DisplayCategory	= CraftMine,
+    }
+    item HCGrinderhead
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Grinder Head,
+        icon 			= HCGrinderhead,
+		DisplayCategory	= CraftMine,
+    }
+    item HCMininggrinder
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Mining Grinder,
+        icon 			= HCMininggrinder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCMininggrinderpowered
+    {
+
+	Weight				=	4,
+	Type				=	Drainable,
+	UseDelta			=	0.125,
+	DisplayName			=	Mining Grinder with Power,
+	ReplaceOnDeplete		=	HCMininggrinderdead,
+	Icon				=	HCMininggrinderpowered,
+		DisplayCategory	= CraftMine,
+    }
+    item HCMininggrinderdead
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Dead Mining Grinder,
+        icon 			= HCMininggrinderdead,
+		DisplayCategory	= CraftMine,
+    }
+    item HCChiselhead
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Chisel Head,
+        icon 			= HCChiselhead,
+		DisplayCategory	= CraftMine,
+    }
+    item HCMiningchisel
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Mining Chisel,
+        icon 			= HCMininggrinder,
+		DisplayCategory	= CraftMine,
+    }
+    item HCMiningchiselpowered
+    {
+
+	Weight				=	4,
+	Type				=	Drainable,
+	UseDelta			=	0.125,
+	DisplayName			=	Mining Chisel with Power,
+	ReplaceOnDeplete		=	HCMiningchiseldead,
+	Icon				=	HCMiningchiselpowered,
+		DisplayCategory	= CraftMine,
+    }
+    item HCMiningchiseldead
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Dead Mining Chisel,
+        icon 			= HCMiningchiseldead,
+		DisplayCategory	= CraftMine,
+    }
+    item HCSawcircularblade
+    {
+
+	Weight			=	0.3,
+	Type			=	Normal,
+	DisplayName		=	Circular Saw Blade,
+	Icon			=	HCSawcircularblade,
+		DisplayCategory	= Craft,
+    }
+    item HCIcesaw
+    {
+
+	Weight			=	0.3,
+	Type			=	Normal,
+	DisplayName		=	Ice Saw,
+	Icon			=	HCIcesaw,
+		DisplayCategory	= Craft,
+    }
+    item HCSawmetal
+    {
+
+	Weight			=	0.3,
+	Type			=	Normal,
+	DisplayName		=	Metal Saw,
+	Icon			=	HCSawmetal,
+		DisplayCategory	= CraftMetal,
+    }
+    item HCSawlumber
+    {
+
+	Weight			=	0.3,
+	Type			=	Normal,
+	DisplayName		=	Lumber Saw,
+	Icon			=	HCSawlumber,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCElectricmultitooloff
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Electric Multitool,
+        icon 			= HCElectricmultitooloff,
+		DisplayCategory	= Craft,
+    }
+    item HCElectricmultitoolpowered
+    {
+
+	Weight				=	0.4,
+	Type				=	Drainable,
+	UseDelta			=	0.125,
+	DisplayName			=	Powered Electric Multitool,
+	ReplaceOnDeplete	=	HCElectricmultitooldead,
+	Icon				=	HCElectricmultitooloff,
+		DisplayCategory	= Craft,
+    }
+    item HCElectricmultitooldead
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Dead Electric Multitool,
+        icon 			= HCElectricmultitooloff,
+		DisplayCategory	= Craft,
+    }
+    item HCElectricmultitoolsawoff
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Multitool With Saw,
+        icon 			= HCElectricmultitoolsawoff,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCElectricmultitoolsawpowered
+    {
+
+	Weight				=	0.4,
+	Type				=	Drainable,
+	UseDelta			=	0.125,
+	DisplayName			=	Powered Multitool With Saw,
+	ReplaceOnDeplete		=	HCElectricmultitoolsawdead,
+	Icon				=	HCElectricmultitoolsawpowered,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCElectricmultitoolsawdead
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Dead Multitool Saw,
+        icon 			= HCElectricmultitoolsawdead,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCElectricmultitooldrilloff
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Multitool With Drill,
+        icon 			= HCElectricmultitooldrilloff,
+		DisplayCategory	= CraftMine,
+    }
+    item HCElectricmultitooldrillpowered
+    {
+
+	Weight				=	0.4,
+	Type				=	Drainable,
+	UseDelta			=	0.125,
+	DisplayName			=	Powered Multitool With Drill,
+	ReplaceOnDeplete		=	HCElectricmultitooldrilldead,
+	Icon				=	HCElectricmultitooldrillpowered,
+		DisplayCategory	= CraftMine,
+    }
+    item HCElectricmultitooldrilldead
+    {
+
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Dead Multitool Drill,
+        icon 			= HCElectricmultitooldrilldead,
+		DisplayCategory	= CraftMine,
+    }
+    item HCElectricmultitooldrillhead
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Multitool Drill Head,
+        icon 			= HCElectricmultitooldrillhead,
+		DisplayCategory	= CraftMine,
+    }
+    item HCElectricmultitoolsaw
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Multitool Saw,
+        icon 			= HCElectricmultitoolsaw,
+		DisplayCategory	= CraftCarp,
+    }
+    item HCHandpump
+    {
+
+        Weight    		= 2,
+        Type    		= Normal,
+        DisplayName     	= Hand Powered Pump,
+        icon 			= HCHandpump,
+		DisplayCategory	= Craft,
+    }
+    item HCStepladder
+    {
+
+        Weight    		= 20.0,
+        Type    		= Normal,
+        DisplayName         	= Step Ladder,
+        icon 			= HCStepladder,
+		DisplayCategory	= Craft,
+    }
+    item HCScissorlift
+    {
+
+        Weight    		= 20.0,
+        Type    		= Normal,
+        DisplayName         	= Scissor Lift,
+        icon 			= HCScissorlift,
+		DisplayCategory	= CraftElec,
+    }
+    item HCNailgunammo
+    {
+
+        Count        		=    10,
+        Weight        		=    0.01,
+        Type        		=    Normal,
+        DisplayCategory    	=    Craft,
+        DisplayName    		=    Nail Gun Ammo,
+        Icon        		=    HCNailgunammo,
+    }
+    item HCNailclip
+    {
+
+        Count        		=    12,
+        Weight        		=    0.1,
+        Type        		=    Normal,
+        DisplayName    		=    Nail gun clip,
+        Icon       	 	=    HCNailgunclip,
+    }
+    item HCNailgun
+    {
+
+        Count        		=    1,
+        Weight        		=    2,
+        Type        		=    Normal,
+        DisplayName    		=    Nail Gun,
+        Icon       	 	=    HCNailgun,
+		DisplayCategory	= Craft,
+    }
+    item HCNailgun
+    {
+
+		AmmoType			=	HCNailclip,
+		ImpactSound			=	null,
+		MaxRange			=	1,
+		WeaponSprite			=	Handgun,
+		SoundVolume			=	50,
+		MinAngle			=	0.95,
+		Type				=	Weapon,
+		MinimumSwingTime		=	0.5,
+		ToHitModifier			=	1.5,
+		NPCSoundBoost			=	1.5,
+		KnockBackOnNoDeath		=	TRUE,
+		Ranged				=	TRUE,
+		SwingAmountBeforeImpact		=	0,
+		ProjectileCount			=	1,
+		ConditionLowerChanceOneIn	=	60,
+		Weight				=	2,
+		SplatNumber			=	3,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.2,
+		SubCategory			=	Firearm,
+		ConditionMax			=	10,
+		ShareDamage			=	FALSE,
+		MaxHitCount			=	1,
+		IsAimedFirearm			=	TRUE,
+		DoorDamage			=	1,
+		UseEndurance			=	FALSE,
+		SwingAnim			=	Handgun,
+		WeaponWeight			=	2,
+		DisplayName			=	Nail Gun,
+		MinRange			=	0.01,
+		SwingTime			=	0.5,
+		MultipleHitConditionAffected	=	FALSE,
+		SwingSound			=	HCNailgunsound,
+		SoundRadius			=	150,
+		MinDamage			=	0.1,
+		SplatSize			=	3,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCNailgun,
+		RunAnim				=	Run_Weapon2,
+		CriticalChance 			= 	20,
+        	AimingPerkCritModifier 		= 	10,
+        	AimingPerkRangeModifier 	= 	1.5,
+        	HitChance 			= 	45,
+        	AimingPerkHitChanceModifier 	= 	15,
+        	AimingPerkMinAngleModifier 	= 	0.05,
+        	RecoilDelay 			= 	20,
+        	SoundGain 			= 	1.5,
+        	ClipSize 			= 	10,
+        	ReloadTime 			= 	10,
+        	AimingTime 			= 	40,
+        	BreakSound  			=   	BreakMetalItem,
+    }
+    item HCWrench
+    {
+
+		MaxRange			=	1.2,
+		WeaponSprite			=	Wrench,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath 		= 	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		Weight				=	1.3,
+		ConditionLowerChanceOneIn	=	70,
+		PushBackMod			=	0.5,
+		MinDamage			=	0.6,
+		MaxDamage			=	1.0,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	1,
+		DoorDamage			=	8,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	4,
+		DisplayName			=	Double Head Wrench,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		KnockdownMod			=	0,
+		Icon				=	HCWrench,
+		RunAnim				=	Run_Weapon2,
+		BreakSound  			=   BreakMetalItem,
+		TreeDamage  			=   1,
+		DisplayCategory	= Tool,
+    }
+    item HCMonkeywrench
+    {
+
+		MaxRange			=	1.3,
+		WeaponSprite			=	Baseballbat,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath 		= 	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		Weight				=	1.5,
+		ConditionLowerChanceOneIn	=	70,
+		PushBackMod			=	0.5,
+		MinDamage			=	0.6,
+		MaxDamage			=	1.1,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	1,
+		DoorDamage			=	8,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	4,
+		DisplayName			=	Monkey Wrench,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		KnockdownMod			=	0,
+		Icon				=	HCMonkeywrench,
+		RunAnim				=	Run_Weapon2,
+		BreakSound  			=   	BreakMetalItem,
+		TreeDamage  			=   	1,
+    }
+    item HCCane
+    {
+
+        	MaxRange                 	=    1.5,
+        	WeaponSprite               	=    Shovel,
+        	MinAngle                    	=    0.2,
+        	Type                        	=    Weapon,
+        	MinimumSwingTime            	=    1.5,
+        	KnockBackOnNoDeath            	=    TRUE,
+        	SwingAmountBeforeImpact        	=    0.02,
+        	Categories                    	=    Blunt,
+        	ConditionLowerChanceOneIn       =    10,
+       	 	Weight                		=    1,
+        	SplatNumber            		=    1,
+        	PushBackMod            		=    0.5,
+        	MaxDamage            		=    0.5,
+        	SubCategory            		=    Swinging,
+        	ConditionMax            	=    15,
+        	MaxHitCount            		=    2,
+        	DoorDamage            		=    1,
+        	IdleAnim                	=    Idle_Weapon2,
+        	SwingAnim                	=    Bat,
+        	CriticalChance            	=    5,
+        	WeaponWeight            	=    0.5,
+        	DisplayName            		=    Cane,
+        	MinRange                	=    0.61,
+        	SwingTime                	=    2,
+        	HitAngleMod            		=    -30,
+        	MinDamage                	=    0.8,
+        	KnockdownMod            	=    0.5,
+        	SplatBloodOnNoDeath        	=    FALSE,
+        	Icon                    	=    HCCane,
+        	RunAnim                		=    Run_Weapon2,
+      		TwoHandWeapon             	=    TRUE,
+            	BreakSound             		=    BreakWoodItem,
+        	TreeDamage             		=    1,
+			DisplayCategory	= WepMelee,
+    }
+    item HCPickaxe
+    {
+
+		DisplayName					=	Pickaxe,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Axe,
+		WeaponSprite					=	Fireaxe,
+		SwingAnim					=	Bat,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCPickaxe,
+		Weight						=	2,
+		WeaponWeight					=	2,
+		MaxRange					=	1.25,
+		MinRange					=	0.61,
+		MaxDamage					=	.8,
+		MinDamage					=	.5,
+		CriticalChance					=	20,
+		DoorDamage					=	25,
+		MaxHitCount					=	2,
+		PushBackMod					=	0.45,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1.5,
+		ConditionLowerChanceOneIn			=	40,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	1,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3.0,
+		MinimumSwingTime				=	3.0,
+		SwingAmountBeforeImpact				=	0.002,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	FALSE,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	10,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+    item ChainSaw
+    {
+
+        	MaxRange    					=    	1.6,
+        	WeaponSprite    				=    	Chainsaw,
+        	MinAngle    					=    	0.2,
+        	Type    					=    	Weapon,
+        	MinimumSwingTime    				=    	6.00,
+        	KnockBackOnNoDeath    				=    	True,
+        	SwingAmountBeforeImpact    			=    	0.12,
+        	Categories    					=    	Blade,
+        	ConditionLowerChanceOneIn    			=    	600,
+        	Weight    					=    	7,
+        	RequiresEquippedBothHands 			= 	true,
+        	SplatNumber    					=    	0,
+        	PushBackMod    					=    	0.75,
+        	MaxDamage    					=    	20.1,
+        	SubCategory    					=    	Swinging,
+        	ConditionMax    				=    	100,
+        	MaxHitCount    					=    	6,
+        	DoorDamage    					=    	135,
+        	IdleAnim    					=    	Idle,
+        	SwingAnim    					=    	Sledgehammer,
+        	CriticalChance    				=    	70,
+        	WeaponWeight    				=    	1,
+        	DisplayName    					=    	Chain Saw,
+        	MinRange    					=    	0.01,
+        	SwingTime    					=    	3,
+        	HitAngleMod    					=    	-30,
+        	MinDamage    					=    	20.0,
+        	KnockdownMod    				=    	2.3,
+        	SplatBloodOnNoDeath    				=    	FALSE,
+        	Icon    					=    	ChainSaw,
+        	RunAnim    					=    	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	BreakMetalItem,
+        	TreeDamage  					=   	125,
+			DisplayCategory	= Tool,
+    }
+    item ChainSawNoGas
+    {
+
+        	MaxRange    					=    	1.6,
+        	WeaponSprite    				=    	Chainsaw,
+        	MinAngle    					=    	0.2,
+        	Type    					=    	Weapon,
+        	RequiresEquippedBothHands 			= 	true,
+        	MinimumSwingTime    				=    	6.00,
+        	KnockBackOnNoDeath    				=    	True,
+        	SwingAmountBeforeImpact    			=    	0.02,
+        	Categories    					=    	Blade,
+        	ConditionLowerChanceOneIn    			=    	300,
+        	Weight    					=    	6,
+        	SplatNumber    					=    	0,
+        	PushBackMod    					=    	0.75,
+        	MaxDamage    					=    	2.1,
+        	SubCategory    					=    	Swinging,
+        	ConditionMax    				=    	100,
+        	MaxHitCount    					=    	1,
+        	DoorDamage    					=    	10,
+        	IdleAnim    					=    	Idle,
+        	SwingAnim    					=    	Sledgehammer,
+        	CriticalChance    				=    	70,
+        	WeaponWeight   	 				=    	1,
+        	DisplayName    					=    	Chain Saw (No Gas),
+        	MinRange    					=    	0.61,
+        	SwingTime    					=    	3,
+        	HitAngleMod    					=    	-30,
+        	MinDamage    					=    	0.75,
+        	KnockdownMod    				=    	1.3,
+        	SplatBloodOnNoDeath    				=    	FALSE,
+        	Icon    					=    	ChainSaw,
+        	RunAnim    					=    	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	BreakMetalItem,
+        	TreeDamage  					=   	3,
+			DisplayCategory	= Tool,
+    }
+    craftRecipe Cut Wrench
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Welding,
+        timedAction = Making,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWrench],
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Wrench,
+        }
+    }
+    craftRecipe Make Bow Drill Bow
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCurvedshaftsmall],
+            item 1 [Base.Twine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBowdrillbow,
+        }
+    }
+    craftRecipe Make Fire Bow Drill
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBowdrillbow],
+            item 1 [Base.WoodenStick2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBowdrill,
+        }
+    }
+    craftRecipe Make Flint Tipped Bow Drill
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBowdrillbow],
+            item 1 [Base.WoodenStick2],
+            item 1 [Base.SharpedStone],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBowdrillflint,
+        }
+    }
+    craftRecipe Insert Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDrillcordless],
+            item 1 [Hydrocraft.HCBatterylarge],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDrillcordlesspowered,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatterylargedead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDrillcordlessdead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDrillcordless,
+        }
+    }
+    craftRecipe Assemble Welding Torch
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.BlowTorch] mode:destroy,
+            item 1 [Hydrocraft.HCWeldinghose],
+            item 1 [Hydrocraft.HCWeldingtank],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWeldingset,
+        }
+    }
+    craftRecipe Replace Welding Gas Tank
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcemptyweldingtank,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWeldingsetempty],
+            item 1 [Hydrocraft.HCWeldingtank],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWeldingset,
+        }
+    }
+    craftRecipe Empty Welding Torch
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWeldingset] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWeldingsetempty,
+        }
+    }
+    craftRecipe Disassemble Welding Set
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcdisassembleweldingtorch,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWeldingsetempty] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWeldinghose,
+        }
+    }
+    craftRecipe Refill Hot Glue Gun
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHotgluegun],
+            item 1 [Hydrocraft.HCHotgluestick],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHotgluegunfull,
+        }
+    }
+    craftRecipe Clean Hot Glue Gun
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Survivalist,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHotgluegunfull] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHotgluegun,
+        }
+    }
+    craftRecipe Box Hot Glue Sticks
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCHotgluestick],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHotgluestickbox,
+        }
+    }
+    craftRecipe Unbox Hot Glue Sticks
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCHotgluestickbox],
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCHotgluestick,
+        }
+    }
+    craftRecipe Box Bolts
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 100 [Hydrocraft.HCBolt],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBoltbox,
+        }
+    }
+    craftRecipe Unbox Bolts
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoltbox],
+        }
+        outputs
+        {
+            item 100 Hydrocraft.HCBolt,
+        }
+    }
+    craftRecipe Box Nuts
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 100 [Hydrocraft.HCNut],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNutbox,
+        }
+    }
+    craftRecipe Unbox Nuts
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNutbox],
+        }
+        outputs
+        {
+            item 100 Hydrocraft.HCNut,
+        }
+    }
+    craftRecipe Put Nut on Bolt
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNut],
+            item 1 [Hydrocraft.HCBolt],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNutnbolt,
+        }
+    }
+    craftRecipe Removed Nut From Bolt
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbolt,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNutnbolt],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNut,
+        }
+    }
+    craftRecipe Box Nail Gun Ammo
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 100 [Hydrocraft.HCNailgunammo],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNailgunammobox,
+        }
+    }
+    craftRecipe Unbox Nail Gun Ammo
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNailgunammobox],
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCNailgunammo,
+        }
+    }
+    craftRecipe Make Nail Gun Ammo
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Nails],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNailgunammo,
+        }
+    }
+    craftRecipe Revert Nail Gun Ammo
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.Hammer;Hydrocraft.HCSmithyhammersteel;Base.Sledgehammer;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 [Hydrocraft.HCNailgunammo],
+        }
+        outputs
+        {
+            item 1 Base.Nails,
+        }
+    }
+    craftRecipe Make Nail Gun Ammo (100)
+    {
+        time = 1500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.NailsBox],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNailgunammobox,
+        }
+    }
+    craftRecipe Revert Nail Gun Ammo (100)
+    {
+        time = 1500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Hydrocraft.HCNailgunammobox],
+        }
+        outputs
+        {
+            item 1 Base.NailsBox,
+        }
+    }
+    craftRecipe Insert Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMiningdrill],
+            item 1 [Hydrocraft.HCBatteryhuge],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMiningdrillpowered,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatteryhugedead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMiningdrilldead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMiningdrill,
+        }
+    }
+    craftRecipe Attach Drill Head
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDrillhead],
+            item 1 [Hydrocraft.HCPortableminingmachine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMiningdrill,
+        }
+    }
+    craftRecipe Remove Drill Head
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcportableminingmachine,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMiningdrill],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDrillhead,
+        }
+    }
+    craftRecipe Insert Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMininggrinder],
+            item 1 [Hydrocraft.HCBatteryhuge],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMininggrinderpowered,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatteryhugedead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMininggrinderdead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMininggrinder,
+        }
+    }
+    craftRecipe Attach Grinder Head
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGrinderhead],
+            item 1 [Hydrocraft.HCPortableminingmachine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMininggrinder,
+        }
+    }
+    craftRecipe Remove Grinder Head
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcportableminingmachine,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMininggrinder],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGrinderhead,
+        }
+    }
+    craftRecipe Insert Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMiningchisel],
+            item 1 [Hydrocraft.HCBatteryhuge],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMiningchiselpowered,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatteryhugedead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMiningchiseldead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMiningchisel,
+        }
+    }
+    craftRecipe Attach Chisel Head
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCChiselhead],
+            item 1 [Hydrocraft.HCPortableminingmachine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMiningchisel,
+        }
+    }
+    craftRecipe Remove Chisel Head
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcportableminingmachine,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMiningchisel],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChiselhead,
+        }
+    }
+    craftRecipe Insert Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricmultitooldrilloff],
+            item 1 [Hydrocraft.HCBatterysmall],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricmultitooldrillpowered,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatterysmalldead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricmultitooldrilldead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricmultitooldrilloff,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatterysmalldead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricmultitoolsawdead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricmultitoolsawoff,
+        }
+    }
+    craftRecipe Attach Drill Head
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricmultitooldrillhead],
+            item 1 [Hydrocraft.HCElectricmultitooloff],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricmultitooldrilloff,
+        }
+    }
+    craftRecipe Remove Drill Head
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetmultitool,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricmultitooldrilloff],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricmultitooldrillhead,
+        }
+    }
+    craftRecipe Insert Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricmultitoolsawoff],
+            item 1 [Hydrocraft.HCBatterysmall],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricmultitoolsawpowered,
+        }
+    }
+    craftRecipe Remove Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatterysmalldead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricmultitoolsawdead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricmultitoolsawoff,
+        }
+    }
+    craftRecipe Attach Saw
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricmultitoolsaw],
+            item 1 [Hydrocraft.HCElectricmultitooloff],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricmultitoolsawoff,
+        }
+    }
+    craftRecipe Remove Saw
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgetmultitool,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectricmultitoolsawoff],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricmultitoolsaw,
+        }
+    }
+    craftRecipe Craft Hand Powered Pump
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        inputs
+        {
+            item 2 [Base.SmallSheetMetal],
+            item 1 [Hydrocraft.HCBookplumbing] mode:keep,
+            item 2 [Hydrocraft.HCSteelpipe],
+            item 1 [Hydrocraft.HCCrank],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCSawmetal] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCHandpump,
+        }
+    }
+    fixing Refuel Nailgun
+    {
+        Require = Hydrocraft.HCNailgun,
+        Fixer = Hydrocraft.HCFuelcanister,
+    }
+}

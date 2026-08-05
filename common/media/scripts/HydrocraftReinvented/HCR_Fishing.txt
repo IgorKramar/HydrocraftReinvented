@@ -1,0 +1,581 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCFishingkitline
+    {
+
+	Weight 				= 	1.0,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.125,
+	DisplayName 			= 	Fishing Kit,
+	ReplaceOnDeplete		=	HCFishingkitbroken,
+	Icon 				= 	HCFishingkit,
+		DisplayCategory =   SurFish,
+    }
+    item HCFishingkitbroken
+    {
+
+        Weight    			= 	1.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Fishing Kit with Broken Line,
+        icon 				= 	HCFishingkit,
+		DisplayCategory =   SurFish,
+    }
+    item HCLurewoodfish
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Wooden Fish Lure,
+        Icon		=	HCLurewoodfish,
+        Weight		=	0.1,
+        FishingLure	=	true,
+		DisplayCategory =   SurFish,
+    }
+    item HCLurefeatherfly
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Feather Lure,
+        Icon		=	HCLurefeatherfly,
+        Weight		=	0.1,
+        FishingLure	=	true,
+		DisplayCategory =   SurFish,
+    }
+    item HCLurepinecone
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Pinecone Lure,
+        Icon		=	HCLurepinecone,
+        Weight		=	0.1,
+        FishingLure	=	true,
+		DisplayCategory =   SurFish,
+    }
+    item HCLurebirchbark
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Birch Bark Lure,
+        Icon		=	HCLurebirchbark,
+        Weight		=	0.1,
+        FishingLure	=	true,
+		DisplayCategory =   SurFish,
+    }
+    item HCLurestick
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Stick Lure,
+        Icon		=	HCLurestick,
+        Weight		=	0.1,
+        FishingLure	=	true,
+		DisplayCategory =   SurFish,
+    }
+    item HCLuregarland
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Garland Lure,
+        Icon		=	HCLuregarland,
+        Weight		=	0.1,
+        FishingLure	=	true,
+		DisplayCategory =   SurFish,
+    }
+    item HCFishhookbone
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Bone Fishhook,
+        Icon		=	HCFishhookbone,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCFishhookcopper
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Copper Fishhook,
+        Icon		=	HCFishhookcopper,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCFishhooktin
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Tin Fishhook,
+        Icon		=	HCFishhooktitanium,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCFishhookbronze
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Bronze Fishhook,
+        Icon		=	HCFishhookbronze,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCFishhookiron
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Iron Fishhook,
+        Icon		=	HCFishhookiron,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCFishhooksteel
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Steel Fishhook,
+        Icon		=	HCFishhooksteel,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCFishhookaluminum
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Aluminum Fishhook,
+        Icon		=	HCFishhookaluminium,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCFishhooktitanium
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Titanium Fishhook,
+        Icon		=	HCFishhooktitanium,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCEggbass
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Bass Roe,
+        Icon		=	HCEggbass,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCEggcatfish
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Catfish Roe,
+        Icon		=	HCEggcatfish,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCEggcrappie
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Crappie Roe,
+        Icon		=	HCEggcrappie,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCEggpanfish
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Pan Fish Roe,
+        Icon		=	HCEggpanfish,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCEggperch
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Pearch Roe,
+        Icon		=	HCEggperch,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCEggpike
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Pike Roe,
+        Icon		=	HCEggpike,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCEggtrout
+    {
+
+        Type		=	Normal,
+        DisplayName	=	Trout Roe,
+        Icon		=	HCEggtrout,
+        Weight		=	0.01,
+		DisplayCategory =   SurFish,
+    }
+    item HCPondholedirt
+    {
+
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Dirt Pond Hole,
+        icon 			= HCPondholedirt,
+		DisplayCategory =   SurFish,
+    }
+    item HCPondholecement
+    {
+
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Cement Pond Hole,
+        icon 			= HCPondholecement,
+		DisplayCategory =   SurFish,
+    }
+    item HCPond
+    {
+
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Pond Hole with Water,
+        icon 			= HCPond,
+		DisplayCategory =   SurFish,
+    }
+    item HCPond2
+    {
+
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Pond,
+        icon 			= HCPond2,
+		DisplayCategory =   SurFish,
+    }
+    item HCPond3
+    {
+
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Pond,
+        icon 			= HCPond2,
+		DisplayCategory =   SurFish,
+    }
+    craftRecipe Make Lure
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:3;Fishing:3,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 1 [Base.Paperclip;Hydrocraft.HCFishhookbone;Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhooktitanium],
+            item 1 [Base.Paperclip;Hydrocraft.HCFishhookbone;Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhooktitanium],
+            item 1 [Base.Paperclip;Hydrocraft.HCFishhookbone;Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhooktitanium],
+            item 1 [Base.Paperclip;Hydrocraft.HCFishhookbone;Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhooktitanium],
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Hydrocraft.HCHotgluegunfull;Hydrocraft.HCSuperglue],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLurewoodfish,
+        }
+    }
+    craftRecipe Fix Fishing Rod
+    {
+        time = 80,
+        Tags = AnySurfaceCraft,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Base.FishingRodBreak],
+            item 2 [Base.FishingLine],
+            item 1 [Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhookbone],
+        }
+        outputs
+        {
+            item 1 Base.FishingRod,
+        }
+    }
+    craftRecipe Make Lure
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:3;Fishing:2,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 1 [Base.Paperclip;Hydrocraft.HCFishhookbone;Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhooktitanium],
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Hydrocraft.HCBlackfeathers;Hydrocraft.HCWhitefeathers;Hydrocraft.HCBrownfeathers;Hydrocraft.HCStripedfeather;Hydrocraft.HCBluejayfeather],
+            item 1 [Hydrocraft.HCBlackfeathers;Hydrocraft.HCWhitefeathers;Hydrocraft.HCBrownfeathers;Hydrocraft.HCStripedfeather;Hydrocraft.HCBluejayfeather],
+            item 1 [Hydrocraft.HCHotgluegunfull;Hydrocraft.HCSuperglue],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLurefeatherfly,
+        }
+    }
+    craftRecipe Make Lure
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Fishing:2,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 1 [Base.Paperclip;Hydrocraft.HCFishhookbone;Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhooktitanium],
+            item 1 [Hydrocraft.HCFircone;Base.Pinecone],
+            item 1 [Hydrocraft.HCBlackfeathers;Hydrocraft.HCWhitefeathers;Hydrocraft.HCBrownfeathers;Hydrocraft.HCStripedfeather;Hydrocraft.HCBluejayfeather],
+            item 1 [Hydrocraft.HCBlackfeathers;Hydrocraft.HCWhitefeathers;Hydrocraft.HCBrownfeathers;Hydrocraft.HCStripedfeather;Hydrocraft.HCBluejayfeather],
+            item 1 [Hydrocraft.HCHotgluegunfull;Hydrocraft.HCSuperglue],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLurepinecone,
+        }
+    }
+    craftRecipe Make Lure
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Fishing:1,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 1 [Base.Paperclip;Hydrocraft.HCFishhookbone;Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhooktitanium],
+            item 2 [Hydrocraft.HCBirchbark],
+            item 1 [Hydrocraft.HCHotgluegunfull;Hydrocraft.HCSuperglue],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLurebirchbark,
+        }
+    }
+    craftRecipe Make Lure
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Fishing:3,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 4 [Base.Paperclip;Hydrocraft.HCFishhookbone;Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhooktitanium],
+            item 1 [Base.WoodenStick2;Base.Twigs],
+            item 1 [Hydrocraft.HCGrass;Hydrocraft.HCStraw;Hydrocraft.HCPlantfibers],
+            item 1 [Hydrocraft.HCHotgluegunfull;Hydrocraft.HCSuperglue],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLurestick,
+        }
+    }
+    craftRecipe Make Lure
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Fishing:1,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 4 [Base.Paperclip],
+            item 1 [Hydrocraft.HCGarland],
+            item 1 [Hydrocraft.HCHotgluegunfull;Hydrocraft.HCSuperglue],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCLuregarland,
+        }
+    }
+    craftRecipe Dig Fish Pond
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 1 [Base.Shovel;Base.Shovel2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPondholedirt,
+        }
+    }
+    craftRecipe Fill Pond Hole with Cement
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPondholedirt],
+            item 8 tags[BucketConcrete] mode:keep,
+            item 1 [Hydrocraft.HCMasontrowel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPondholecement,
+        }
+    }
+    craftRecipe Fill Pond Hole with Water
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPondholecement],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 10 [Water],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPond,
+        }
+    }
+    craftRecipe Decorate Pond
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:7,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPond],
+            item 10 [Base.BaitFish],
+            item 1 [Base.FishingNet],
+            item 20 [Base.Stone2],
+            item 1 [Hydrocraft.HCLumberstack],
+            item 10 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPond2,
+        }
+    }
+    craftRecipe Anchor Pond
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPond2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPond3,
+        }
+    }
+    craftRecipe Repair Fishing Kit
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFishingkitbroken],
+            item 2 [Base.Twine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFishingkitline,
+        }
+    }
+    craftRecipe Repair Fishing Kit
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Fishing:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFishingkitbroken],
+            item 2 [Base.FishingLine],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFishingkitline,
+        }
+    }
+    craftRecipe Fish in Pond with Bait
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Fishing:2,
+        OnCreate = HCR42.HCPondFishing,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFishingkitline],
+            item 1 [Base.Worm;Base.Cricket;Base.Grasshopper;Base.Cockroach;Hydrocraft.HCBeetle;Hydrocraft.HCDragonfly;Hydrocraft.HCCaterpillar;Hydrocraft.HCCicada;Hydrocraft.HCPillbug;Hydrocraft.HCFirefly;Hydrocraft.HCMolecricket;Hydrocraft.HCHousefly;Hydrocraft.HCSilkwom;Hydrocraft.HCSilkmothmale;Hydrocraft.HCSilkmothfemale;Hydrocraft.HCLeech;Hydrocraft.HCLeechbloated;Hydrocraft.HCMaggot;Hydrocraft.HCTadpole;Base.BaitFish;Hydrocraft.HCCrayfish;Base.Cheese;Hydrocraft.HCCheddar;Base.Processedcheese;Hydrocraft.HCFishfood;Hydrocraft.HCFishfood2],
+            item 1 [Hydrocraft.HCPond2;Hydrocraft.HCPond3] mode:keep,
+        }
+    }
+    craftRecipe Spear Fish in Pond
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Fishing:2,
+        OnCreate = HCR42.HCPondFishing,
+        inputs
+        {
+            item 1 [Base.SpearCrafted],
+            item 1 [Hydrocraft.HCPond2;Hydrocraft.HCPond3] mode:keep,
+        }
+    }
+}

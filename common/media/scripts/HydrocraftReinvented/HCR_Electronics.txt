@@ -1,0 +1,1981 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCElectornicsbench
+    {
+
+	Weight              = 10,
+	Type                = Normal,
+    DisplayName         = Electronics Workbench,
+    icon                = HCElectornicsbench,
+	DisplayCategory			= CraftElec,
+    }
+    item HCElectornicsbench2
+    {
+
+    Weight              = 1000,
+    Type                = Container,
+    Capacity            = 100,
+    WeightReduction     = 0,
+    DisplayName         = Electronics Workbench,
+    icon                = HCElectornicsbench,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCalculator
+    {
+
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Calculator,
+        icon 			= HCCalculator,
+	DisplayCategory			= CraftElec,
+    }
+    item HCSolarcell
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Solar Cell,
+        icon 			= HCSolarcell,
+	DisplayCategory			= CraftElec,
+    }
+    item HCElectonicscale
+    {
+
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Electronic Scale,
+        icon 				= HCElectronicscale,
+	DisplayCategory			= CraftElec,
+    }
+    item HCRadioantenna
+    {
+
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Radio Antenna,
+        icon 			= HCRadioantenna,
+	DisplayCategory			= CraftElec,
+    }
+    item HCMag
+    {
+
+        Weight    	= 0.3,
+        Type    	= Normal,
+        DisplayName     = Magnetron,
+        icon 		= HCMag,
+	DisplayCategory			= CraftElec,
+    }
+    item HCPowercord
+    {
+
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Powercord,
+        icon 				= HCPowercord,
+	DisplayCategory			= CraftElec,
+    }
+    item HCControlpanel
+    {
+
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Control Panel,
+	DisplayCategory			= CraftElec,
+        icon 				= HCControlpanel,
+    }
+    item HCSteamCharger
+    {
+
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName        	= Steam Charger,
+        icon 				= HCSteamCharger,
+	DisplayCategory			= CraftElec,
+    }
+    item HCSteamCharger2
+    {
+
+        Weight              = 1000,
+        Type                = Container,
+        Capacity            = 100,
+        WeightReduction     = 0,
+        DisplayName         = Steam Charger,
+        icon                = HCSteamCharger2,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCashregister
+    {
+
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Cash Register,
+        icon 				= HCCashregister,
+	DisplayCategory			= CraftElec,
+    }
+    item HCFaxmachine
+    {
+
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Fax Machine,
+        icon 				= HCFaxmachine,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCopymachine
+    {
+
+        Weight    			= 10.0,
+        Type    			= Normal,
+        DisplayName         		= Copy Machine,
+        icon 				= HCCopymachine,
+	DisplayCategory			= Useless,
+    }
+    item HCPrinter
+    {
+
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Printer,
+        icon 				= HCPrinter,
+	DisplayCategory			= CraftElec,
+    }
+    item HCJoystick
+    {
+
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Joystick,
+        icon 				= HCJoystick,
+	DisplayCategory			= CraftElec,
+    }
+    item HCRouter
+    {
+
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Router,
+        icon 				= HCRouter,
+	DisplayCategory			= CraftElec,
+    }
+    item HCScaner
+    {
+
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Scanner,
+        icon 				= HCScaner,
+	DisplayCategory			= CraftElec,
+    }
+    item HCComputermonitor
+    {
+
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Computer Monitor,
+        icon 				= HCComputermonitor,
+	DisplayCategory			= CraftElec,
+    }
+    item HCComputer
+    {
+
+        Weight    			= 2.0,
+        Type    			= Normal,
+        DisplayName         		= Computer,
+        icon 				= HCComputer,
+	DisplayCategory			= CraftElec,
+    }
+    item HCComputerkeyboard
+    {
+
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Computer Keyboard,
+        icon 				= HCComputerkeyboard,
+	DisplayCategory			= CraftElec,
+    }
+    item HCElectricclamp
+    {
+
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Electric Clamp,
+        icon 				= HCElectricclamp,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCablecopper
+    {
+
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Copper Cable,
+        icon 				= HCCablecopper,
+	DisplayCategory			= CraftElec,
+    }
+    item HCComputermouse
+    {
+
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Computer Mouse,
+        icon 				= HCComputermouse,
+	DisplayCategory			= CraftElec,
+    }
+    item HCMousepad
+    {
+
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Mouse Pad,
+        icon 				= HCMousepad,
+	DisplayCategory			= CraftElec,
+    }
+    item HCComputerfan
+    {
+
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Computer Fan,
+        icon 				= HCComputerfan,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircutchip
+    {
+
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Circut Chip,
+        icon 				= HCCircutchip,
+	DisplayCategory			= CraftElec,
+    }
+    item HCSolder
+    {
+
+	Weight 				= 	0.1,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.1,
+	DisplayName 			= 	Solder,
+	Icon 				= 	HCSolder,
+	DisplayCategory			= CraftElec,
+    }
+    item HCSoldergun
+    {
+
+	Weight				=	0.5,
+	Type				=	Normal,
+	DisplayName			=	Solder Gun,
+	Icon				=	HCSoldergun,
+	DisplayCategory			= CraftElec,
+    }
+    item HCSoldergunpowered
+    {
+
+	Weight 				= 	0.5,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.125,
+	DisplayName 			= 	Solder Gun with Power,
+	ReplaceOnDeplete		=	HCSoldergundead,
+	Icon 				= 	HCSoldergunpowered,
+	DisplayCategory			= CraftElec,
+    }
+    item HCSoldergundead
+    {
+
+        Weight    			= 	0.5,
+        Type    			= 	Normal,
+        DisplayName         		= 	Solder Gun with Dead Battery,
+        icon 				= 	HCSoldergun,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCabletangle
+    {
+
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Tangled Cables,
+        icon 			= HCCabletangle,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircuitboarduseless
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Useless Circuit Board,
+        icon 			= HCCircuitboarduseless,
+	DisplayCategory			= CraftElec,
+    }
+    item HCElectronicpartsbroken
+    {
+
+	Weight				=	0.5,
+	Type				=	Drainable,
+	UseDelta			=	0.125,
+	DisplayName			=	Broken Electronic Parts,
+	ReplaceOnDeplete		=	HCCircuitboardpieces,
+	Icon				=	HCElectronicpartsbroken,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircuitboardpieces
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Empty Circuitboard Pieces,
+        icon 			= HCCircuitboardpieces,
+	DisplayCategory			= CraftElec,
+    }
+    item HCElectronicparts01
+    {
+
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Small Electronic Parts,
+        icon 			= HCElectronicparts01,
+	DisplayCategory			= CraftElec,
+    }
+    item HCElectronicparts02
+    {
+
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Small Electronic Parts,
+        icon 			= HCElectronicparts02,
+	DisplayCategory			= CraftElec,
+    }
+    item HCElectronicparts03
+    {
+
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Small Electronic Parts,
+        icon 			= HCElectronicparts03,
+	DisplayCategory			= CraftElec,
+    }
+    item HCElectronicparts04
+    {
+
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Small Electronic Parts,
+        icon 			= HCElectronicparts04,
+	DisplayCategory			= CraftElec,
+    }
+    item HCPlatinemovingsensor
+    {
+
+        Weight    		=    0.5,
+        Type    		=    Normal,
+        DisplayName    		=    Moving Sensor Platine,
+        Icon   		 	=    HCPlatinemovingsensor,
+	DisplayCategory			= CraftElec,
+    }
+    item HCPlatineirremote
+    {
+
+        Weight    		=    0.5,
+        Type    		=    Normal,
+        DisplayName    		=    IR Remote Platine,
+        Icon   		 	=    HCPlatineirremote,
+	DisplayCategory			= CraftElec,
+    }
+    item HCPlatineirreceiver
+    {
+
+        Weight    		=    0.5,
+        Type    		=    Normal,
+        DisplayName    		=    IR Receiver Platine,
+        Icon   		 	=    HCPlatineirreceiver,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircuitboardcopperside
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Copper Circuit Board,
+	Icon			=	HCCircuitboardcopperside,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircuitboardcoppersidephotolacquer
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Circuit Board With Photo Lacquer,
+	Icon			=	HCCircuitboardcoppersidephotolacquer,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircuitprint
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Circuit Print,
+	Icon			=	HCCircuitprint,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircuitboardprinted
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Printet Circuit Board,
+	Icon			=	HCCircuitboardprinted,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircuitboarddeveloped
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Developed Circuit Board,
+	Icon			=	HCCircuitboardcopperside,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircuitboardwashed01
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Washed Circuit Board,
+	Icon			=	HCCircuitboardwashed01,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircuitboardwashed02
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Re-Washed Circuit Board,
+	Icon			=	HCCircuitboardwashed02,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircuitboarddrilled
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Circuit Board With Holes,
+	Icon			=	HCCircuitboarddrilled,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCircuitboardempty
+    {
+
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Empty Circuit Board,
+	Icon			=	HCCircuitboardempty,
+	DisplayCategory			= CraftElec,
+    }
+    item HCDisplay
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Display,
+        icon 			= HCDisplay,
+	DisplayCategory			= CraftElec,
+    }
+    item HCSwitch
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Switch,
+        icon 			= HCSwitch,
+	DisplayCategory			= CraftElec,
+    }
+    item HCLedred
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Red LED,
+        icon 			= HCLedred,
+	DisplayCategory			= CraftElec,
+    }
+    item HCLedgreen
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Green LED,
+        icon 			= HCLedgreen,
+	DisplayCategory			= CraftElec,
+    }
+    item HCLedyellow
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Yellow LED,
+        icon 			= HCLedyellow,
+	DisplayCategory			= CraftElec,
+    }
+    item HCLedblue
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Blue LED,
+        icon 			= HCLedblue,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCapacitor01
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Capacitor,
+        icon 			= HCCapacitor01,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCapacitor02
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Capacitor,
+        icon 			= HCCapacitor02,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCeramicoscillator
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Ceramic Oscillator,
+        icon 			= HCCeramicoscillator,
+	DisplayCategory			= CraftElec,
+    }
+    item HCColoredwire
+    {
+
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Colored Wire,
+        icon 			= HCColoredwire,
+	DisplayCategory			= CraftElec,
+    }
+    item HCComputerfandismantled
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Dismantled Computer Fan,
+        icon 			= HCComputerfandismantled,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCoppercablered
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Red Copper Cable,
+        icon 			= HCCoppercablered,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCoppercablestriped
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Striped Copper Cable,
+        icon 			= HCCoppercablestriped,
+	DisplayCategory			= CraftElec,
+    }
+    item HCDiode
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Diode,
+        icon 			= HCDiode,
+	DisplayCategory			= CraftElec,
+    }
+    item HCElectromotor
+    {
+
+        Weight   		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Large Electromotor,
+        icon 			= HCElectromotor,
+	DisplayCategory			= CraftElec,
+    }
+    item HCElectromotorsmall
+    {
+
+        Weight   		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Small Electromotor,
+        icon 			= HCElectromotorsmall,
+	DisplayCategory			= CraftElec,
+    }
+    item HCFuse
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Fuse,
+        icon 			= HCFuse,
+	DisplayCategory			= CraftElec,
+    }
+    item HCGlowlamp
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glowlamp,
+        icon 			= HCGlowlamp,
+	DisplayCategory			= CraftElec,
+    }
+    item HCVacuumtube
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Vacuum Tube,
+        icon 			= HCVacuumtube,
+	DisplayCategory			= CraftElec,
+    }
+    item HCHeatelement
+    {
+
+        Weight   		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Heat Element,
+        icon 			= HCHeatelement,
+	DisplayCategory			= CraftElec,
+    }
+    item HCInduktor
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Inductor,
+        icon 			= HCInduktor,
+	DisplayCategory			= CraftElec,
+    }
+    item HCIREmitter
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= IR Emitter,
+        icon 			= HCIREmitter,
+	DisplayCategory			= CraftElec,
+    }
+    item HCIRReceiver
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= IR Receiver,
+        icon 			= HCIRReceiver,
+	DisplayCategory			= CraftElec,
+    }
+    item HCLDR
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= LDR,
+        icon 			= HCLDR,
+	DisplayCategory			= CraftElec,
+    }
+    item HCPoti
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Poti,
+        icon 			= HCPoti,
+	DisplayCategory			= CraftElec,
+    }
+    item HCReceiverIC
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Receiver IC,
+        icon 			= HCReceiverIC,
+	DisplayCategory			= CraftElec,
+    }
+    item HCIRDecoder
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= IR Decoder,
+        icon 			= HCReceiverIC,
+	DisplayCategory			= CraftElec,
+    }
+    item HCIREncoder
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= IR Encoder,
+        icon 			= HCReceiverIC,
+	DisplayCategory			= CraftElec,
+    }
+    item HCResistor
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Resistor,
+        icon 			= HCResistor,
+	DisplayCategory			= CraftElec,
+    }
+    item HCResistorbox
+    {
+
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Resistors,
+        icon 			= HCResistorbox,
+	DisplayCategory			= CraftElec,
+    }
+    item HCTerminalstrip
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Terminal Strip,
+        icon 			= HCTerminalstrip,
+	DisplayCategory			= CraftElec,
+    }
+    item HCTransistor
+    {
+
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Transistor,
+        icon 			= HCTransistor,
+	DisplayCategory			= CraftElec,
+    }
+    item HCWashingmachinepump
+    {
+
+        Weight   		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Washingmachine Pump,
+        icon 			= HCWashingmachinepump,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCPU
+    {
+
+        Weight			=	0.01,	
+        Type			=	Normal,
+        DisplayName		=	CPU,
+       	Icon			=	HCCPU,
+	DisplayCategory			= CraftElec,
+    }
+    item HCComputerPSU
+    {
+
+        Weight			=	1.0,	
+        Type			=	Normal,
+        DisplayName		=	Computer PSU,
+       	Icon			=	HCPSU,
+	DisplayCategory			= CraftElec,
+    }
+    item HCCopymachineGen
+    {
+
+        Weight                = 20.0,
+        Type                = Normal,
+        DisplayName                 = Copy Machine With Generator,
+        icon                 = HCCopymachineGen,
+	DisplayCategory			= Useless,
+    }
+    craftRecipe Make Electronics Workbench
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:20,
+        inputs
+        {
+            item 3 [Base.Notebook],
+            item 1 [Base.RadioRed;Base.RadioBlack],
+            item 1 [Base.HamRadio1;Base.HamRadio2],
+            item 1 [Hydrocraft.HCComputermonitor],
+            item 1 [Hydrocraft.HCComputer],
+            item 1 [Hydrocraft.HCComputerkeyboard],
+            item 1 [Hydrocraft.HCComputermouse],
+            item 1 [Hydrocraft.HCPowercord],
+            item 3 [Hydrocraft.HCWirecopper],
+            item 1 [Hydrocraft.HCToolbox],
+            item 1 [Hydrocraft.HCPlasticbin],
+            item 1 [Hydrocraft.HCWorkbench],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectornicsbench,
+        }
+    }
+    craftRecipe Anchor Electronics Workbench
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectornicsbench],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectornicsbench2,
+        }
+    }
+    craftRecipe Make Electric Clamp
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:2,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWirecopper],
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCClothespin],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectricclamp,
+        }
+    }
+    craftRecipe Make Control Panel
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:20,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelpole],
+            item 4 [Base.SheetMetal],
+            item 5 [Hydrocraft.HCCablecopper],
+            item 2 [Hydrocraft.HCLedred],
+            item 2 [Hydrocraft.HCLedyellow],
+            item 2 [Hydrocraft.HCLedgreen],
+            item 1 [Hydrocraft.HCSwitch],
+            item 1 [Hydrocraft.HCDisplay],
+            item 1 [Hydrocraft.HCPowercord],
+            item 1 [Hydrocraft.HCTerminalstrip],
+            item 1 [Hydrocraft.HCFuse],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCControlpanel,
+        }
+    }
+    craftRecipe Upgrade To Steam Charger
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:20,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteammachine],
+            item 1 [Hydrocraft.HCBatteryarray],
+            item 2 [Hydrocraft.HCBicyclewheel],
+            item 1 [Hydrocraft.HCSteelbeam],
+            item 4 [Hydrocraft.HCSteelpole],
+            item 1 [Hydrocraft.HCControlpanel],
+            item 5 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCXmaslights],
+            item 1 [Hydrocraft.HCDynamo],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteamCharger,
+        }
+    }
+    craftRecipe Anchor Steam Charger
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteamCharger],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteamCharger2,
+        }
+    }
+    craftRecipe Make Circut Chip
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectrumingot],
+            item 1 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircutchip,
+        }
+    }
+    craftRecipe Make Small Electromotor
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCTinboard],
+            item 2 [Hydrocraft.HCCoil],
+            item 1 [Hydrocraft.HCMagnetiteingot],
+            item 1 [Hydrocraft.HCSteelrod],
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectromotorsmall,
+        }
+    }
+    craftRecipe Make Large Electromotor
+    {
+        time = 800,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:4,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCTinboard],
+            item 4 [Hydrocraft.HCCoil],
+            item 1 [Hydrocraft.HCMagnetiteingot],
+            item 1 [Hydrocraft.HCSteelrod],
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCElectromotor,
+        }
+    }
+    craftRecipe Insert Small Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSoldergun],
+            item 1 [Hydrocraft.HCBatterysmall],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSoldergunpowered,
+        }
+    }
+    craftRecipe Remove Dead Small Battery
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcbatterysmalldead,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSoldergundead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSoldergun,
+        }
+    }
+    craftRecipe Loot Electronic Parts
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcelectronics02,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectronicpartsbroken],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboardpieces,
+        }
+    }
+    craftRecipe Loot Electronic Parts
+    {
+        time = 900,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcelectronics02,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectronicpartsbroken],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboardpieces,
+        }
+    }
+    craftRecipe Loot Electronic Parts
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcelectronicparts,
+        inputs
+        {
+            item 2 [Base.ElectronicsScrap],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCabletangle,
+        }
+    }
+    craftRecipe Sort Electronic Parts
+    {
+        time = 60,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcsortparts01,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectronicparts01],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboarduseless,
+        }
+    }
+    craftRecipe Sort Electronic Parts
+    {
+        time = 60,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcsortparts02,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectronicparts02],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboarduseless,
+        }
+    }
+    craftRecipe Sort Electronic Parts
+    {
+        time = 60,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcsortparts03,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectronicparts03],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboarduseless,
+        }
+    }
+    craftRecipe Sort Electronic Parts
+    {
+        time = 60,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcsortparts04,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectronicparts04],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboarduseless,
+        }
+    }
+    craftRecipe Untangle Cables
+    {
+        time = 120,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hccabletangle,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCabletangle],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCTerminalstrip,
+        }
+    }
+    craftRecipe Unbox Resistors
+    {
+        time = 10,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCResistorbox],
+        }
+        outputs
+        {
+            item 100 Hydrocraft.HCResistor,
+        }
+    }
+    craftRecipe Box Resistors
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        inputs
+        {
+            item 100 [Hydrocraft.HCResistor],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCResistorbox,
+        }
+    }
+    craftRecipe Recycle Colored Wire
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        OnCreate = HCR42.recipe_hcrecyclecable,
+        inputs
+        {
+            item 1 [Hydrocraft.HCColoredwire],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCablecopper,
+        }
+    }
+    craftRecipe Make Moving Sensor
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCircuitboardempty],
+            item 4 [Hydrocraft.HCResistor],
+            item 2 [Hydrocraft.HCCapacitor02],
+            item 1 [Hydrocraft.HCLedred],
+            item 1 [Hydrocraft.HCLDR],
+            item 2 [Hydrocraft.HCTransistor],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCWirecopper],
+            item 1 [Base.Tweezers] mode:keep,
+            item 1 [Hydrocraft.HCMagnifyglass] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlatinemovingsensor,
+        }
+    }
+    craftRecipe Put Sensor In Case
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Base.Screwdriver] mode:keep,
+            item 2 [Base.Screws],
+            item 1 [Hydrocraft.HCPlatinemovingsensor],
+            item 1 [Base.Battery] mode:destroy,
+            item 1 [Hydrocraft.HCSelfmadeplasticcase],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.MotionSensor,
+        }
+    }
+    craftRecipe Make IR Remote
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:6,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCircuitboardempty],
+            item 3 [Hydrocraft.HCResistor],
+            item 2 [Hydrocraft.HCCapacitor02],
+            item 1 [Hydrocraft.HCCeramicoscillator],
+            item 1 [Hydrocraft.HCIREncoder],
+            item 1 [Hydrocraft.HCIREmitter],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCWirecopper],
+            item 1 [Base.Tweezers] mode:keep,
+            item 1 [Hydrocraft.HCMagnifyglass] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlatineirremote,
+        }
+    }
+    craftRecipe Put Remote In Case
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Base.Battery] mode:destroy,
+            item 2 [Base.Screws],
+            item 1 [Hydrocraft.HCPlatineirremote],
+            item 1 [Hydrocraft.HCSelfmadeplasticcase],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.RemoteCraftedV3,
+        }
+    }
+    craftRecipe Make IR Receiver
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:2,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCircuitboardempty],
+            item 1 [Hydrocraft.HCIRReceiver],
+            item 1 [Hydrocraft.HCCapacitor02],
+            item 2 [Hydrocraft.HCResistor],
+            item 1 [Hydrocraft.HCIRDecoder],
+            item 2 [Hydrocraft.HCTransistor],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCWirecopper],
+            item 1 [Base.Tweezers] mode:keep,
+            item 1 [Hydrocraft.HCMagnifyglass] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlatineirreceiver,
+        }
+    }
+    craftRecipe Put Receiver In Case
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Base.Screwdriver] mode:keep,
+            item 2 [Base.Screws],
+            item 1 [Base.Battery] mode:destroy,
+            item 1 [Hydrocraft.HCPlatineirreceiver],
+            item 1 [Hydrocraft.HCSelfmadeplasticcase],
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.TriggerCrafted,
+        }
+    }
+    craftRecipe Spray Photo Lacquer on Platine
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCircuitboardcopperside],
+            item 1 [Hydrocraft.HCPhotolacquer],
+            item 1 [Hydrocraft.HCPhotobench] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboardcoppersidephotolacquer,
+        }
+    }
+    craftRecipe Make Circuit Print
+    {
+        time = 60,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+            item 1 [Base.Pencil;Base.Pen],
+            item 1 [Hydrocraft.HCBookelectrical] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitprint,
+        }
+    }
+    craftRecipe Place Circuit Print On Circuit Board
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
+            item 1 [Hydrocraft.HCCircuitprint],
+            item 1 [Hydrocraft.HCPlasticcanempty],
+            item 1 [Hydrocraft.HCCircuitboardcoppersidephotolacquer],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboardprinted,
+        }
+    }
+    craftRecipe Expose Printed Circuit Board
+    {
+        time = 250,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPhotobench] mode:keep,
+            item 1 [Hydrocraft.HCCircuitboardprinted],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboarddeveloped,
+        }
+    }
+    craftRecipe Develope Exposed Circuit Board
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPhotobench] mode:keep,
+            item 1 [Hydrocraft.HCPhotodevloper;Hydrocraft.HCBeakersodiumhydroxidesolution],
+            item 1 [Hydrocraft.HCCircuitboarddeveloped],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboardwashed01,
+        }
+    }
+    craftRecipe Etch Platine
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAcidbathmuriaticacid] mode:keep,
+            item 1 [Hydrocraft.HCCircuitboardwashed01],
+            item 1 [Base.Battery],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboardwashed02,
+        }
+    }
+    craftRecipe Drill Holes In Platine
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCircuitboardwashed02],
+            item 1 [Hydrocraft.HCElectricmultitooldrillpowered],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboarddrilled,
+        }
+    }
+    craftRecipe Clean Platine
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCircuitboarddrilled],
+            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboardempty,
+        }
+    }
+    craftRecipe Make Computer Mouse
+    {
+        time = 4000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:2,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCPlastic],
+            item 1 [Base.Screws],
+            item 1 [Base.MotionSensor],
+            item 1 [Hydrocraft.HCElectronicparts01;Hydrocraft.HCElectronicparts02;Hydrocraft.HCElectronicparts03;Hydrocraft.HCElectronicparts04],
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputermouse,
+        }
+    }
+    craftRecipe Make Computer Mouse
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:2,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCPlastic],
+            item 1 [Base.Screws],
+            item 1 [Base.MotionSensor],
+            item 1 [Hydrocraft.HCElectronicparts01;Hydrocraft.HCElectronicparts02;Hydrocraft.HCElectronicparts03;Hydrocraft.HCElectronicparts04],
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputermouse,
+        }
+    }
+    craftRecipe Make Computer Keyboard
+    {
+        time = 6000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 8 [Hydrocraft.HCPlastic],
+            item 4 [Base.Screws],
+            item 3 [Base.ElectronicsScrap],
+            item 2 [Hydrocraft.HCCablecopper],
+            item 3 [Hydrocraft.HCLedyellow],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputerkeyboard,
+        }
+    }
+    craftRecipe Make Computer Keyboard
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 8 [Hydrocraft.HCPlastic],
+            item 4 [Base.Screws],
+            item 3 [Base.ElectronicsScrap],
+            item 2 [Hydrocraft.HCCablecopper],
+            item 3 [Hydrocraft.HCLedyellow],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputerkeyboard,
+        }
+    }
+    craftRecipe Make Computer Monitor
+    {
+        time = 8000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:5,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCGlowlamp],
+            item 1 [Hydrocraft.HCGlasspane],
+            item 20 [Hydrocraft.HCPlastic],
+            item 12 [Base.Screws],
+            item 2 [Hydrocraft.HCTerminalstrip],
+            item 1 [Hydrocraft.HCSwitch],
+            item 3 [Hydrocraft.HCCapacitor02],
+            item 3 [Hydrocraft.HCResistor],
+            item 1 [Hydrocraft.HCDiode],
+            item 3 [Hydrocraft.HCTransistor],
+            item 1 [Hydrocraft.HCCircutchip],
+            item 5 [Base.ElectronicsScrap],
+            item 4 [Hydrocraft.HCColoredwire],
+            item 2 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCLedgreen],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputermonitor,
+        }
+    }
+    craftRecipe Make Computer Monitor
+    {
+        time = 800,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:5,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCGlowlamp],
+            item 1 [Hydrocraft.HCGlasspane],
+            item 20 [Hydrocraft.HCPlastic],
+            item 12 [Base.Screws],
+            item 2 [Hydrocraft.HCTerminalstrip],
+            item 1 [Hydrocraft.HCSwitch],
+            item 3 [Hydrocraft.HCCapacitor02],
+            item 3 [Hydrocraft.HCResistor],
+            item 1 [Hydrocraft.HCDiode],
+            item 3 [Hydrocraft.HCTransistor],
+            item 1 [Hydrocraft.HCCircutchip],
+            item 5 [Base.ElectronicsScrap],
+            item 4 [Hydrocraft.HCColoredwire],
+            item 2 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCLedgreen],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputermonitor,
+        }
+    }
+    craftRecipe Make Computer PSU
+    {
+        time = 6000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Base.SmallSheetMetal],
+            item 8 [Base.Screws],
+            item 3 [Base.ElectronicsScrap],
+            item 3 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCLedred],
+            item 1 [Hydrocraft.HCElectromotorsmall],
+            item 1 [Hydrocraft.HCSwitch],
+            item 1 [Hydrocraft.HCCapacitor01],
+            item 1 [Hydrocraft.HCResistor],
+            item 1 [Hydrocraft.HCDiode],
+            item 2 [Hydrocraft.HCTransistor],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputerPSU,
+        }
+    }
+    craftRecipe Make Computer PSU
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Base.SmallSheetMetal],
+            item 8 [Base.Screws],
+            item 3 [Base.ElectronicsScrap],
+            item 3 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCLedred],
+            item 1 [Hydrocraft.HCElectromotorsmall],
+            item 1 [Hydrocraft.HCSwitch],
+            item 1 [Hydrocraft.HCCapacitor01],
+            item 1 [Hydrocraft.HCResistor],
+            item 1 [Hydrocraft.HCDiode],
+            item 2 [Hydrocraft.HCTransistor],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputerPSU,
+        }
+    }
+    craftRecipe Make Computer Fan
+    {
+        time = 6000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCPlastic],
+            item 4 [Base.Screws],
+            item 1 [Hydrocraft.HCElectromotorsmall],
+            item 2 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputerfan,
+        }
+    }
+    craftRecipe Make Computer Fan
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCPlastic],
+            item 4 [Base.Screws],
+            item 1 [Hydrocraft.HCElectromotorsmall],
+            item 2 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputerfan,
+        }
+    }
+    craftRecipe Make Computer Tower
+    {
+        time = 8000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:6,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 3 [Base.SmallSheetMetal],
+            item 1 [Hydrocraft.HCCPU],
+            item 1 [Hydrocraft.HCComputerPSU],
+            item 2 [Hydrocraft.HCComputerfan],
+            item 10 [Hydrocraft.HCPlastic],
+            item 20 [Base.Screws],
+            item 3 [Hydrocraft.HCTerminalstrip],
+            item 1 [Hydrocraft.HCSwitch],
+            item 5 [Hydrocraft.HCCapacitor02],
+            item 5 [Hydrocraft.HCResistor],
+            item 1 [Hydrocraft.HCDiode],
+            item 5 [Hydrocraft.HCTransistor],
+            item 3 [Hydrocraft.HCCircutchip],
+            item 8 [Base.ElectronicsScrap],
+            item 8 [Hydrocraft.HCColoredwire],
+            item 5 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCLedgreen],
+            item 1 [Hydrocraft.HCLedred],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputer,
+        }
+    }
+    craftRecipe Make Computer Tower
+    {
+        time = 800,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:6,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 3 [Base.SmallSheetMetal],
+            item 1 [Hydrocraft.HCCPU],
+            item 1 [Hydrocraft.HCComputerPSU],
+            item 2 [Hydrocraft.HCComputerfan],
+            item 10 [Hydrocraft.HCPlastic],
+            item 20 [Base.Screws],
+            item 3 [Hydrocraft.HCTerminalstrip],
+            item 1 [Hydrocraft.HCSwitch],
+            item 5 [Hydrocraft.HCCapacitor02],
+            item 5 [Hydrocraft.HCResistor],
+            item 1 [Hydrocraft.HCDiode],
+            item 5 [Hydrocraft.HCTransistor],
+            item 3 [Hydrocraft.HCCircutchip],
+            item 8 [Base.ElectronicsScrap],
+            item 8 [Hydrocraft.HCColoredwire],
+            item 5 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCLedgreen],
+            item 1 [Hydrocraft.HCLedred],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCComputer,
+        }
+    }
+    craftRecipe Extract Working CPU
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:2,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 30 [Base.ElectronicsScrap],
+            item 1 [Base.Screwdriver] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCPU,
+        }
+    }
+    craftRecipe Extract Working CPU
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:2,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 30 [Base.ElectronicsScrap],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCPU,
+        }
+    }
+    craftRecipe Add Generator to Copy Machine
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        SkillRequired = Electricity:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCopymachine],
+            item 1 [Hydrocraft.HCPowercord],
+            item 1 [Base.Generator],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCopymachineGen,
+        }
+    }
+}

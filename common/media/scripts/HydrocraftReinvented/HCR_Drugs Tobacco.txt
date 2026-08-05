@@ -1,0 +1,502 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCCigarettebutt
+    {
+
+        Weight				= 0.01,
+        Type    			= Normal,
+        DisplayName        	= Cigarette Butt,
+        icon 				= HCCigarettebutt,
+		DisplayCategory		= Useless,
+		WorldStaticModel = Cigarette,
+    }
+    item HCCigarettecarton
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     	= Cigarette Carton,
+        icon 			= HCCigarettecarton,
+		DisplayCategory	= Drugs,
+		WorldStaticModel = Hydrocraft.HCCigarettecarton,
+    }
+    item HCCigarettepack
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Cigarette Pack,
+        icon 			= HCCigarettepack,
+		DisplayCategory	= Drugs,
+		WorldStaticModel = CigarettePack_Ground,
+    }
+    item HCCigarettecartonlights
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     	= Light Cigarette Carton,
+        icon 			= HCCigarettecartonlights,
+		DisplayCategory	= Drugs,
+		WorldStaticModel = Hydrocraft.HCCigarettecartonlights,
+    }
+    item HCCigarettepacklights
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Light Cigarette Pack,
+        icon 			= HCCigarettepacklights,
+		DisplayCategory	= Drugs,
+		WorldStaticModel = Hydrocraft.HCCigarettepacklights,
+    }
+    item HCCigaretteslights
+    {
+
+		Count				= 20,
+		HungerChange			= 0,
+		Weight				= 0.005,
+		RequireInHandOrInventory	= Lighter/Matches,
+		Type				= Food,
+		DisplayName			= Light Cigarettes,
+		StressChange			= -5,
+		Icon				= HCCigaretteslights,
+		CustomContextMenu 		= Smoke,
+		CantBeFrozen			= TRUE,
+		OnEat				= HCOnEat_Cigarettes,
+		/*ReplaceOnUse			= Hydrocraft.HCCigarettebutt,*/
+		StaticModel = Cigarette,
+		CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
+		WorldStaticModel = Cigarette,
+    }
+    item HCCigarettecartonmenthol
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     	= Menthol Cigarette Carton,
+        icon 			= HCCigarettecartonlights,
+		DisplayCategory	= Drugs,
+		WorldStaticModel = Hydrocraft.HCCigarettecartonmenthol,
+    }
+    item HCCigarettepackmenthol
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Menthol Cigarette Pack,
+        icon 			= HCCigarettepackmenthol,
+		DisplayCategory	= Drugs,
+		WorldStaticModel = Hydrocraft.HCCigarettepackmenthol,
+    }
+    item HCCigarettesmenthol
+    {
+
+		Count					= 20,
+		HungerChange				= 0,
+		Weight					= 0.005,
+		RequireInHandOrInventory		= Lighter/Matches,
+		Type					= Food,
+		DisplayName				= Menthol Cigarettes,
+		StressChange				= -5,
+		Icon					= HCCigarettesmenthol,
+		CustomContextMenu 		= 	Smoke,
+		CantBeFrozen				= TRUE,
+		OnEat					= HCOnEat_Cigarettes,
+		/*ReplaceOnUse	= Hydrocraft.HCCigarettebutt,*/
+		StaticModel = Cigarette,
+		CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
+		WorldStaticModel = Cigarette,
+    }
+    item HCTobaccoleaffresh
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Fresh Tobacco Leaves,
+        icon 			= HCTobaccoleaffresh,
+	DisplayCategory			= CraftChem,
+    }
+    item HCTobaccoleafdry
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Dried Tobacco Leaves,
+        icon 			= HCTobaccoleafdry,
+	DisplayCategory			= CraftChem,
+    }
+    item HCTobacco
+    {
+
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Tobacco,
+        icon 			= HCTobacco,
+	DisplayCategory			= CraftChem,
+    }
+    item HCCigarbox
+    {
+
+        WeightReduction     	= 10,
+        Weight              	= 0.1,
+        Type                	= Container,
+        Capacity            	= 1,
+        DisplayName         	= Cigar Box,
+        icon 			= HCCigarbox,
+		DisplayCategory	= Drugs,
+    }
+    item HCCigar
+    {
+
+	HungerChange			=	0,
+	Weight				=	0.1,
+	RequireInHandOrInventory	=	Lighter/Matches,
+	Type				=	Food,
+	UnhappyChange			=	10,
+	DisplayName			=	Cigar,
+	StressChange			=	-25,
+	UnhappyChange			=	5,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE,
+	OnEat 				= 	OnEat_Cigarettes,
+	StaticModel = Cigarette,
+	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
+    }
+    item HCCigarhandrolled
+    {
+
+	HungerChange			=	0,
+	Weight				=	0.1,
+	RequireInHandOrInventory	=	Lighter/Matches,
+	Type				=	Food,
+	UnhappyChange			=	10,
+	DisplayName			=	Hand-Rolled Cigar,
+	StressChange			=	-25,
+	UnhappyChange			=	-5,
+	Icon				=	HCCigarhandrolled,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE,
+	OnEat 				= 	OnEat_Cigarettes,
+	StaticModel = Cigarette,
+	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
+    }
+    item HCPipetobacco
+    {
+
+	HungerChange			=	0,
+	Weight				=	0.1,
+	RequireInHandOrInventory	=	Lighter/Matches,
+	Type				=	Food,
+	DisplayName			=	Clay Pipe with Tobacco,
+	StressChange			=	-25,
+	UnhappyChange			=	10,
+	ReplaceOnUse			=	HCClaypipesmoking,
+	Icon				=	HCClaypipesmoking,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE,
+	OnEat 				= 	OnEat_Cigarettes,
+	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
+    }
+    item HCCorncobpipetobacco
+    {
+
+	HungerChange			=	0,
+	Weight				=	0.1,
+	RequireInHandOrInventory	=	Lighter/Matches,
+	Type				=	Food,
+	DisplayName			=	Corn Cob Pipe with Tobacco,
+	StressChange			=	-25,
+	UnhappyChange			=	10,
+	ReplaceOnUse			=	HCCorncobpipe,
+	Icon				=	HCCorncobpipe,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE,
+	OnEat 				= 	OnEat_Cigarettes,
+	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
+    }
+    craftRecipe Open Cigarette Carton
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCigarettecarton],
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCCigarettepack,
+        }
+    }
+    craftRecipe Open Cigarette Pack
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_opencigpack1,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCigarettepack],
+        }
+    }
+    craftRecipe Pack Cigarettes
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Base.CigarettePack],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCigarettepack,
+        }
+    }
+    craftRecipe Pack Into Carton
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCCigarettepack],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCigarettecarton,
+        }
+    }
+    craftRecipe Open Cigarette Carton
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCigarettecartonlights],
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCCigarettepacklights,
+        }
+    }
+    craftRecipe Open Cigarette Pack
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_opencigpack2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCigarettepacklights],
+        }
+    }
+    craftRecipe Pack Cigarettes
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCCigaretteslights],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCigarettepacklights,
+        }
+    }
+    craftRecipe Pack Into Carton
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCCigarettepacklights],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCigarettecartonlights,
+        }
+    }
+    craftRecipe Open Cigarette Carton
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCigarettecartonmenthol],
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCCigarettepackmenthol,
+        }
+    }
+    craftRecipe Open Cigarette Pack
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_opencigpack3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCigarettepackmenthol],
+        }
+    }
+    craftRecipe Pack Cigarettes
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 20 [Hydrocraft.HCCigarettesmenthol],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCigarettepackmenthol,
+        }
+    }
+    craftRecipe Pack Into Carton
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Miscellaneous,
+        timedAction = Making,
+        inputs
+        {
+            item 10 [Hydrocraft.HCCigarettepackmenthol],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCigarettecartonmenthol,
+        }
+    }
+    craftRecipe Dry Leaves
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTobaccoleaffresh],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTobaccoleafdry,
+        }
+    }
+    craftRecipe Grind Tobacco
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.MortarPestle;Hydrocraft.HCLab] mode:keep,
+            item 1 [Hydrocraft.HCTobaccoleafdry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTobacco,
+        }
+    }
+    craftRecipe Grind Tobacco
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+            item 1 [Hydrocraft.HCTobaccoleafdry],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCTobacco,
+        }
+    }
+    craftRecipe Roll Cigar
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTobaccoleafdry],
+            item 1 [Hydrocraft.HCTobacco],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCigarhandrolled,
+        }
+    }
+    craftRecipe Put Tobacco in Pipe
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTobacco],
+            item 1 [Hydrocraft.HCClaypipesmoking],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPipetobacco,
+        }
+    }
+    craftRecipe Put Tobacco in Pipe
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTobacco],
+            item 1 [Hydrocraft.HCCorncobpipe],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCorncobpipetobacco,
+        }
+    }
+}

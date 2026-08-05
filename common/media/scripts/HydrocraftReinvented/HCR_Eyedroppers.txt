@@ -1,0 +1,1155 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCEyedropperammonia
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Ammonia,
+        icon 			= 	HCEyedropperammonia,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedroppercalciumchloridesolution
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Calciumchloride Solution,
+        icon 			= 	HCEyedroppercalciumchloridesolution,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedropperh2o2
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With H2O2,
+        icon 			= 	HCEyedropperh2o2,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedroppermercuricoxide
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Mercuricoxide,
+        icon 			= 	HCEyedroppermercuricoxide,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedroppermethylamin
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Methylamin,
+        icon 			= 	HCEyedroppermethylamin,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedroppermorphinhydrochloridsolution
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Morphinhydrochlorid Solution,
+        icon 			= 	HCEyedroppermorphinhydrochloridsolution,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedroppermuriaticacid
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Muriatic Acid,
+        icon 			= 	HCEyedroppermuriaticacid,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedropperpotassiumpermanganate
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Potassium Permanganate,
+        icon 			= 	HCEyedropperpotassiumpermanganate,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedropperphenyl
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Phenylacetic Acid,
+        icon 			= 	HCEyedropperphenyl,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedroppersodiumhydroxidesolution
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Sodiumhydroxide Solution,
+        icon 			= 	HCEyedroppersodiumhydroxidesolution,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedroppersulfuricacid
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Sulfuric Acid,
+        icon 			= 	HCEyedroppersulfuricacid,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedroppertronasulution
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Trona Solution,
+        icon 			= 	HCEyedroppertronasulution,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedropperwater
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Water,
+        icon 			= 	HCEyedropperwater,
+	DisplayCategory			= CraftChem,
+    }
+    item HCEyedropperether
+    {
+
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Ether,
+        icon 			= 	HCEyedropperether,
+	DisplayCategory			= CraftChem,
+    }
+    craftRecipe Put Ammonia In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperammonia],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerammoniahalf,
+        }
+    }
+    craftRecipe Put Ammonia In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperammonia],
+            item 1 [Hydrocraft.HCBeakerammoniahalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerammonia,
+        }
+    }
+    craftRecipe Remove Ammonia From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperammonia,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakerammonia],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerammoniahalf,
+        }
+    }
+    craftRecipe Remove Ammonia From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperammonia,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakerammoniahalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put Calciumchloride Solution In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppercalciumchloridesolution],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakercalciumchloridesolutionhalf,
+        }
+    }
+    craftRecipe Put Calciumchloride Solution In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppercalciumchloridesolution],
+            item 1 [Hydrocraft.HCBeakercalciumchloridesolutionhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakercalciumchloridesolution,
+        }
+    }
+    craftRecipe Remove Calciumchloride Solution From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppercalciumchloride,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakercalciumchloridesolution],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakercalciumchloridesolutionhalf,
+        }
+    }
+    craftRecipe Remove Calciumchloride Solution From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppercalciumchloride,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakercalciumchloridesolutionhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put H2O2 In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperh2o2],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerh2o2half,
+        }
+    }
+    craftRecipe Put H2O2 In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperh2o2],
+            item 1 [Hydrocraft.HCBeakerh2o2half],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerh2o2,
+        }
+    }
+    craftRecipe Remove H2O2 From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperh2o2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakerh2o2],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerh2o2half,
+        }
+    }
+    craftRecipe Remove H2O2 From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperh2o2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakerh2o2half],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put Mercuricoxide In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppermercuricoxide],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermercuricoxidehalf,
+        }
+    }
+    craftRecipe Put Mercuricoxide In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppermercuricoxide],
+            item 1 [Hydrocraft.HCBeakermercuricoxidehalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermercuricoxide,
+        }
+    }
+    craftRecipe Remove Mercuricoxide From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppermercuricoxide,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakermercuricoxide],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermercuricoxidehalf,
+        }
+    }
+    craftRecipe Remove Mercuricoxide From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppermercuricoxide,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakermercuricoxidehalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put Methylamin In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppermethylamin],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermethylaminhalf,
+        }
+    }
+    craftRecipe Put Methylamin In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppermethylamin],
+            item 1 [Hydrocraft.HCBeakermethylaminhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermethylamin,
+        }
+    }
+    craftRecipe Remove Methylamin From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppermethylamin,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakermethylamin],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermethylaminhalf,
+        }
+    }
+    craftRecipe Remove Methylamin From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppermethylamin,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakermethylaminhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put Morphinhydrochlorid Solution In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppermorphinhydrochloridsolution],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermorphinhydrochloridsolutionhalf,
+        }
+    }
+    craftRecipe Put Morphinhydrochlorid Solution In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppermorphinhydrochloridsolution],
+            item 1 [Hydrocraft.HCBeakermorphinhydrochloridsolutionhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermorphinhydrochloridsolution,
+        }
+    }
+    craftRecipe Remove Morphinhydrochlorid Solution From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppermorphinhydrochloridsolution,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakermorphinhydrochloridsolution],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermorphinhydrochloridsolutionhalf,
+        }
+    }
+    craftRecipe Remove Morphinhydrochlorid Solution From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppermorphinhydrochloridsolution,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakermorphinhydrochloridsolutionhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put Muriatic Acid In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppermuriaticacid],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermuriaticacidhalf,
+        }
+    }
+    craftRecipe Put Muriatic Acid In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppermuriaticacid],
+            item 1 [Hydrocraft.HCBeakermuriaticacidhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermuriaticacid,
+        }
+    }
+    craftRecipe Remove Muriatic Acid From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppermuriaticacid,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakermuriaticacid],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakermuriaticacidhalf,
+        }
+    }
+    craftRecipe Remove Muriatic Acid From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppermuriaticacid,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakermuriaticacidhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put Phenylacetic Acid In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperphenyl],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerphenylhalf,
+        }
+    }
+    craftRecipe Put Phenylacetic Acid In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperphenyl],
+            item 1 [Hydrocraft.HCBeakerphenylhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerphenyl,
+        }
+    }
+    craftRecipe Remove Phenylacetic Acid From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperphenyl,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakerphenyl],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerphenylhalf,
+        }
+    }
+    craftRecipe Remove Phenylacetic Acid From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperphenyl,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakerphenylhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put Sodiumhydroxide Solution In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppersodiumhydroxidesolution],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersodiumhydroxidesolutionhalf,
+        }
+    }
+    craftRecipe Put Sodiumhydroxide Solution In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppersodiumhydroxidesolution],
+            item 1 [Hydrocraft.HCBeakersodiumhydroxidesolutionhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersodiumhydroxidesolution,
+        }
+    }
+    craftRecipe Remove Sodiumhydroxide Solution From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppersodiumhydroxidesolution,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakersodiumhydroxidesolution],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersodiumhydroxidesolutionhalf,
+        }
+    }
+    craftRecipe Remove Sodiumhydroxide Solution From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppersodiumhydroxidesolution,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakersodiumhydroxidesolutionhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put Sulfuric Acid In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppersulfuricacid],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersulfuricacidhalf,
+        }
+    }
+    craftRecipe Put Sulfuric Acid In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppersulfuricacid],
+            item 1 [Hydrocraft.HCBeakersulfuricacidhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersulfuricacid,
+        }
+    }
+    craftRecipe Remove Sulfuric Acid From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppersulfuricacid,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakersulfuricacid],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakersulfuricacidhalf,
+        }
+    }
+    craftRecipe Remove Sulfuric Acid From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppersulfuricacid,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakersulfuricacidhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put Trona Solution In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppertronasulution],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakertronasolutionhalf,
+        }
+    }
+    craftRecipe Put Trona Solution In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedroppertronasulution],
+            item 1 [Hydrocraft.HCBeakertronasolutionhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakertronasolution,
+        }
+    }
+    craftRecipe Remove Trona Solution From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppertronasulution,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakertronasolution],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakertronasolutionhalf,
+        }
+    }
+    craftRecipe Remove Trona Solution From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedroppertronasulution,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakertronasolutionhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put Water In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperwater],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerwaterhalf,
+        }
+    }
+    craftRecipe Put Water In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperwater],
+            item 1 [Hydrocraft.HCBeakerwaterhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerwater,
+        }
+    }
+    craftRecipe Remove Water From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperwater,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakerwater],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerwaterhalf,
+        }
+    }
+    craftRecipe Remove Water From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperwater,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakerwaterhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Put Selfmade Ether In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperether],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerselfmadeetherhalf,
+        }
+    }
+    craftRecipe Put Selfmade Ether In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperether],
+            item 1 [Hydrocraft.HCBeakerselfmadeetherhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerselfmadeether,
+        }
+    }
+    craftRecipe Remove Selfmade Ether From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperether,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakerselfmadeether],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerselfmadeetherhalf,
+        }
+    }
+    craftRecipe Remove Selfmade Ether From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperether,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakerselfmadeetherhalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+    craftRecipe Seperate Ether
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCWaterbottlestarterfluidmixed],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCEyedropperether,
+        }
+    }
+    craftRecipe Put Ether in Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperether],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerselfmadeetherhalf,
+        }
+    }
+    craftRecipe Put Potassium Permanganate In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperpotassiumpermanganate],
+            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerpotassiumpermanganatehalf,
+        }
+    }
+    craftRecipe Put Potassium Permanganate In Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropper,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropperpotassiumpermanganate],
+            item 1 [Hydrocraft.HCBeakerpotassiumpermanganatehalf],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerpotassiumpermanganate,
+        }
+    }
+    craftRecipe Remove Potassium Permanganate From Beaker
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperpotassiumpermanganate,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper],
+            item 1 [Hydrocraft.HCBeakerpotassiumpermanganate],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeakerpotassiumpermanganatehalf,
+        }
+    }
+}

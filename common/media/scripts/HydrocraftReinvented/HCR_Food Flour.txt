@@ -1,0 +1,1463 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCRiceflour
+    {
+
+		Weight			=	1,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Rice Flour,
+		Icon			=	HCRiceflour,
+		ReplaceOnDeplete	=	Hydrocraft.HCFlourempty,
+		DisplayCategory		=   Cooking,
+    }
+    item HCWholemealflour
+    {
+
+		Weight			=	1,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Wholemeal Flour,
+		Icon			=	HCRiceflour,
+		ReplaceOnDeplete	=	Hydrocraft.HCFlourempty,
+		DisplayCategory		=   Cooking,
+    }
+    item HCWheatBundle
+    {
+
+		Weight				=	1,
+		Type				=	Normal,
+		DisplayName			=	Wheat Bundle,
+		Icon				=	HCWheatBundle,
+		DisplayCategory		=   Cooking,
+    }
+    item HCGruelbowl
+    {
+
+		HungerChange		=	-25,
+		Type			=	Food,
+		DisplayName		=	Bowl of Gruel,
+		Weight			=	0.6,
+		DaysTotallyRotten	=	3,
+		UnhappyChange		=	10,
+		BoredomChange		=	10,
+		Icon			=	BowlFull,
+		ReplaceOnUse		=	Bowl,
+		DaysFresh		=	1,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	76,
+        Proteins 		= 	10,
+        Lipids 			= 	1,
+        Calories 		= 	364,
+		DisplayCategory		=   FoodP,
+    }
+    item HCGruelbowlsweet
+    {
+
+		HungerChange		=	-30,
+		Type			=	Food,
+		DisplayName		=	Bowl of Sweetened Gruel,
+		Weight			=	0.6,
+		DaysTotallyRotten	=	3,
+		Icon			=	BowlFull,
+		ReplaceOnUse		=	Bowl,
+		DaysFresh		=	1,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	126,
+        	Proteins 		= 	10,
+        	Lipids 			= 	1,
+        	Calories 		= 	558,
+		DisplayCategory		=   FoodP,
+    }
+    item HCPancakebatter
+    {
+
+		HungerChange		=	-30,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	10,
+		BoredomChange		=	10,
+		DisplayName			=	Homemade Pancake Batter,
+		DaysTotallyRotten	=	5,
+		DaysFresh 			= 	3,
+		Icon				=	HCCupcakebatter,
+		IsCookable			=	FALSE,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	66,
+		Proteins 			= 	14.7,
+		Lipids 				= 	22.5,
+		Calories 			= 	525,
+		DisplayCategory		=   FoodP,
+    }
+    item HCPancakeshomemade
+    {
+		
+		HungerChange		=	-30,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		DisplayName			=	Homemade Pancake,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	12,
+		MinutesToBurn		=	17,
+		Icon				=	Pancakes,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	66,
+		Proteins 			= 	14.7,
+		Lipids 				= 	22.5,
+		Calories 			= 	525,
+		DisplayCategory		=   FoodP,
+    }
+    item HCPancakeshomemadepan
+    {
+
+		HungerChange		=	-30,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	12,
+		MinutesToBurn		=	17,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		ReplaceOnUse		=	Pan,
+		DisplayName			=	Baking Pan with Homemade Pancake,
+		Icon				=	Pancakes,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	66,
+		Proteins 			= 	14.7,
+		Lipids 				= 	22.5,
+		Calories 			= 	525,
+		DisplayCategory		=   FoodP,
+    }
+    item HCSourdoughstarter
+    {
+
+	Weight				=	0.1,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.25,
+	DisplayName			=	Sourdough Starter,
+    ReplaceOnDeplete	= 	HCJar,
+	Icon				=	HCSourdoughstarter,
+		DisplayCategory		=   CookRef,
+    }
+    item HCAcornsoaked
+    {
+
+        HungerChange        	=    	-5,    
+        Weight    		= 	0.05,
+        Type    		=    	Food,
+        UnhappyChange        	=    	10,
+        DaysTotallyRotten	=	365,
+        DaysFresh 		= 	300,
+        DisplayName         	= 	Soaked Acorn,
+        Icon 			= 	HCAcornsoaked,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	8,
+        Proteins 		= 	2.5,
+        Lipids 			= 	9,
+        Calories 		= 	67,
+		DisplayCategory		=   FoodP,
+    }
+    item HCWholegrainbread
+    {
+
+        Type				=			Food,
+        DisplayName			=		    Whole Grain Bread,
+        Icon				=			Dough,
+        Weight				=			0.3,
+        HungerChange 		=		-25,
+        UnhappyChange	    =	    5,
+        ThirstChange		=		15,
+        BoredomChange		=		15,
+        RemoveNegativeEffectOnCooked    =   TRUE,
+        IsCookable	=	TRUE,
+        DaysTotallyRotten	=	12,
+        MinutesToBurn	=	50,
+        MinutesToCook	=	20,
+        Carbohydrates = 99,
+        Proteins = 17.7,
+        Lipids = 6.66,
+        Calories = 532,
+        DaysFresh	=	6,
+		DisplayCategory		=   FoodP,
+    }
+    item HCPumpkinbreaddough
+    {
+
+	Type				=	Food,
+	DisplayName			=	Pumpkin Bread Dough,
+	Icon				=	HCPumpkinbreaddough,
+	Weight				=	0.3,
+        DaysTotallyRotten		=	5,
+        DaysFresh 			= 	3,
+	HungerChange			=	-35,
+	UnhappyChange			=	10,
+	BoredomChange			=	10,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	120.5,
+        Proteins 			= 	9.5,
+        Lipids 				= 	30,
+        Calories 			= 	785,
+		DisplayCategory		=   FoodP,
+    }
+    item HCPumpkinbread
+    {
+
+		HungerChange		=	-35,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Pumpkin Bread,
+		Icon				=	HCPumpkinbreadBaked,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	120.5,
+		Proteins 			= 	9.5,
+		Lipids 				= 	30,
+		Calories 			= 	785,
+		DisplayCategory		=   FoodP,
+    }
+    item HCPumpkinbreadpan
+    {
+
+		HungerChange		=	-35,
+		Weight				=	0.56,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Bread Pan with Pumkpin Bread,
+		Icon				=	HCPumpkinbread,
+		ReplaceOnUse		=	HCBreadpan,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	120.5,
+		Proteins 			= 	9.5,
+		Lipids 				= 	30,
+		Calories 			= 	785,
+		DisplayCategory		=   FoodP,
+    }
+    item HCRaisinbread
+    {
+
+		HungerChange		=	-35,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Raisin Bread,
+		Icon				=	HCRaisinbread,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	156,
+		Proteins 			= 	0,
+		Lipids 				= 	15,
+		Calories 			= 	858,
+		DisplayCategory		=   FoodP,
+    }
+    item HCRaisinbreadpan
+    {
+
+		HungerChange		=	-35,
+		Weight				=	0.56,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Bread Pan with Raisin Bread,
+		Icon				=	HCPumpkinbread,
+		ReplaceOnUse		=	HCBreadpan,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	156,
+		Proteins 			= 	0,
+		Lipids 				= 	15,
+		Calories 			= 	858,
+		DisplayCategory		=   FoodP,
+    }
+    item HCCornbread
+    {
+
+		HungerChange		=	-35,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Cornbread,
+		Icon				=	HCCornbread,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	162,
+		Proteins 			= 	21,
+		Lipids 				= 	30,
+		Calories 			= 	856,
+		DisplayCategory		=   FoodP,
+    }
+    item HCCornbreadpan
+    {
+
+		HungerChange		=	-35,
+		Weight				=	0.56,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Bread Pan with Cornbread,
+		Icon				=	HCPumpkinbread,
+		ReplaceOnUse		=	HCBreadpan,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	162,
+		Proteins 			= 	21,
+		Lipids 				= 	30,
+		Calories 			= 	856,
+		DisplayCategory		=   FoodP,
+    }
+    item HCGritspot
+    {
+
+		HungerChange			=	-40,
+		Weight				=	1.4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		DangerousUncooked		=	TRUE,
+		UnhappyChange			=	-10,
+		BoredomChange			=	-10,
+		MinutesToCook			=	30,
+		MinutesToBurn			=	50,
+		DaysFresh			=	3,	
+		DaysTotallyRotten		=	6,
+		DisplayName			=	Pot of Grits,
+		Icon				=	PotFull,
+		ReplaceOnUse			=	Pot,
+		FoodType    			=   	NoExplicit,
+		Carbohydrates 			= 	308,
+		Proteins 			= 	40,
+		Lipids 				= 	7.2,
+		Calories 			= 	1388, 
+		DisplayCategory		=   FoodP,
+    }
+    item HCGritsbowl
+    {
+
+		HungerChange		=	-25,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Bowl of Grits,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCGritsbowl,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
+		DaysTotallyRotten	=	3,
+		DaysFresh 			= 	6,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	77,
+		Proteins 			= 	10,
+		Lipids 				= 	1.8,
+		Calories 			= 	347, 
+		DisplayCategory		=   FoodP,
+    }
+    item HCGritscheesypot
+    {
+
+		HungerChange		=	-50,
+		Weight				=	1.4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		UnhappyChange		=	-15,
+		BoredomChange		=	-15,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
+		DaysFresh			=	3,	
+		DaysTotallyRotten	=	6,
+		DisplayName			=	Pot of Cheesy Grits,
+		Icon				=	PotFull,
+		ReplaceOnUse		=	Pot,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	309.3,
+		Proteins 			= 	65,
+		Lipids 				= 	73.2,
+		Calories 			= 	1500,   
+		DisplayCategory		=   FoodP,
+    }
+    item HCGritscheesybowl
+    {
+
+	HungerChange			=	-30,
+	UnhappyChange		=	-15,
+	BoredomChange		=	-15,
+	Weight				=	0.6,
+	Type				=	Food,
+	DisplayName			=	Bowl of Cheesy Grits,
+	IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
+	ReplaceOnUse			=	Bowl,
+	Icon				=	HCGritscheesybowl,
+	DaysTotallyRotten		=	3,
+	DaysFresh 			= 	6,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	77.3,
+        Proteins 			= 	16.1,
+        Lipids 				= 	18.3,
+        Calories 			= 	375, 
+		DisplayCategory		=   FoodP,
+    }
+    item HCEnglishmuffinbaked
+    {
+
+	HungerChange		=	-80,
+	Weight				=	0.5,
+	Type				=	Food,
+    DaysTotallyRotten	=	15,
+    DaysFresh 			= 	10,
+	UnhappyChange		=	-10,
+	BoredomChange		=	-10,
+	DisplayName			=	Baked English Muffin,
+	Icon				=	HCEnglishmuffin,
+	ReplaceOnUse		=	BakingTray,
+	FoodType    		=   NoExplicit,
+	Carbohydrates 		= 	13,
+    Proteins 			= 	2.2,
+    Lipids 				= 	0.5,
+    Calories 			= 	67,
+		DisplayCategory		=   FoodP,
+    }
+    item HCCroissantbaked
+    {
+
+    HungerChange			=	-15,
+    Weight				=	0.2,
+    Type				=	Food,
+    DaysTotallyRotten		=	5,
+    DaysFresh 			= 	3,
+    UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+    DisplayName			=	Baked Croissant,
+    Icon				=	HCCroissant,
+	ReplaceOnUse			=	BakingTray,
+	FoodType    			=   	NoExplicit,
+    Carbohydrates 			= 	36,
+    Proteins 			= 	3,
+    Lipids 				= 	5,
+    Calories 			= 	201,
+		DisplayCategory		=   FoodP,
+    }
+    item HCGarlicbreadbaked
+    {
+
+    HungerChange			=	-15,
+    Weight				=	0.2,
+    Type				=	Food,
+    DaysTotallyRotten		=	5,
+    DaysFresh 			= 	3,
+    UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+    DisplayName			=	Baked Garlic Bread,
+    Icon				=	HCGarlicbread,
+	ReplaceOnUse			=	BakingTray,
+	FoodType    			=   	NoExplicit,
+    Carbohydrates 			= 	25,
+    Proteins 			= 	4.9,
+    Lipids 				= 	10,
+    Calories 			= 	206,
+		DisplayCategory		=   FoodP,
+    }
+    item HCFrenchtoast
+    {
+
+    HungerChange			=	-15,
+    Weight				=	0.2,
+    Type				=	Food,
+    DaysTotallyRotten		=	5,
+    DaysFresh 			= 	3,
+    UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+    DisplayName			=	French Toast,
+    Icon				=	HCFrenchtoast,
+	FoodType    			=   	NoExplicit,
+    Carbohydrates 			= 	16,
+    Proteins 			= 	5,
+    Lipids 				= 	7,
+    Calories 			= 	149,
+		DisplayCategory		=   FoodP,
+    }
+    item HCFlatbread
+    {
+
+    HungerChange			=	-15,
+    Weight				=	0.2,
+    Type				=	Food,
+    DaysTotallyRotten		=	5,
+    DaysFresh 			= 	3,
+    UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+    DisplayName			=	Flatbread,
+    Icon				=	HCFlatbread,
+	FoodType    			=   	NoExplicit,
+	EvolvedRecipe 			= 	Soup:10;Stew:10;Stir fry:10;Salad:10;Roasted Vegetables:10,
+	Carbohydrates 			= 	35,
+    Proteins 			= 	7,
+    Lipids 				= 	8,
+    Calories 			= 	240,
+		DisplayCategory		=   FoodP,
+    }
+    item HCBisket
+    {
+
+    HungerChange			=	-10,
+    Weight				=	0.2,
+    Type				=	Food,
+    DaysTotallyRotten		=	5,
+    DaysFresh 			= 	3,
+    UnhappyChange			=	-5,
+	BoredomChange			=	-5,
+    DisplayName			=	Biscuit,
+    Icon				=	HCBisket,
+	FoodType    			=  	Bread,
+	EvolvedRecipe 			= 	Soup:10;Stew:10;Stir fry:10;Salad:10;Roasted Vegetables:10,
+	Carbohydrates 			= 	2,
+    Proteins 			= 	10,
+    Lipids 				= 	2,
+    Calories 			= 	59,
+		DisplayCategory		=   FoodP,
+    }
+    item HCBreadloafbag
+    {
+	
+	
+	HungerChange		= -60,
+	Weight			= 0.6,
+	Type			= Food,
+	DaysTotallyRotten	= 9,
+	DisplayName		= Bagged Wheat Bread Loaf,
+	Icon			= HCBreadloafbag,
+	DaysFresh		= 6,
+	EvolvedRecipe 		= Soup:5;Stew:5;Salad:5,
+	FoodType    		= NoExplicit,
+    Carbohydrates 		= 198,
+    Proteins 		= 35.4,
+    Lipids 			= 13.32,
+    Calories 		= 1064,
+    Packaged 		= TRUE,
+		DisplayCategory		=   FoodP,
+    }
+    item HCBreadwheatloafbag
+    {
+	
+	
+	HungerChange		= -60,
+	Weight			= 0.6,
+	Type			= Food,
+	DaysTotallyRotten	= 9,
+	DisplayName		= Bagged Wheat Bread Loaf,
+	Icon			= HCBreadwheatloafbag,
+	DaysFresh		= 6,
+	EvolvedRecipe 		= Soup:5;Stew:5;Salad:5,
+	FoodType    		= NoExplicit,
+    Carbohydrates 		= 198,
+    Proteins 		= 35.4,
+    Lipids 			= 13.32,
+    Calories 		= 1064,
+    Packaged 		= TRUE,
+		DisplayCategory		=   FoodP,
+    }
+    item HCBreadwheat
+    {
+	
+	
+		HungerChange		= -30,
+		Weight			= 0.3,
+		Type			= Food,
+		DaysTotallyRotten	= 6,
+		DisplayName		= Wheat Bread,
+		Icon			= HCBreadwheat,
+		DaysFresh		= 3,
+		EvolvedRecipe 		= Soup:5;Stew:5;Salad:5,
+		FoodType    		= NoExplicit,
+        	Carbohydrates 		= 99,
+        	Proteins 		= 17.7,
+        	Lipids 			= 6.66,
+        	Calories 		= 532,
+        	Packaged 		= TRUE,
+		DisplayCategory		=   FoodP,
+    }
+    item HCBreadwheatslices
+    {
+	
+	
+		HungerChange		= -10,
+		Weight			= 0.1,
+		Type			= Food,
+		DaysTotallyRotten	= 6,
+		DisplayName		= Wheat Bread,
+		Icon			= HCBreadwheatslices,
+		DaysFresh		= 3,
+		EvolvedRecipe 		= Soup:5;Stew:5;Salad:5,
+		FoodType    		= NoExplicit,
+        	Carbohydrates 		= 33,
+        	Proteins 		= 5.9,
+        	Lipids 			= 2.22,
+        	Calories 		= 177,
+        	Packaged 		= TRUE,
+		DisplayCategory		=   FoodP,
+    }
+    item HCBurgerbunbag
+    {
+	
+		Weight			= 0.6,
+		Type			= Food,
+		DaysTotallyRotten	= 9,
+		DisplayName		= Bag of Burger Buns,
+		Icon			= HCBurgerbunbag,
+		DaysFresh		= 6,
+		FoodType    		= NoExplicit,
+        	Carbohydrates 		= 33,
+        	Proteins 		= 5.9,
+        	Lipids 			= 2.22,
+        	Calories 		= 177,
+        	Packaged 		= TRUE,
+		DisplayCategory		=   FoodP,
+    }
+    item HCBurgerbun
+    {
+	
+		HungerChange		= -10,
+		Weight			= 0.1,
+		Type			= Food,
+		DaysTotallyRotten	= 6,
+		DisplayName		= Burger Bun,
+		Icon			= HCBurgerbun,
+		DaysFresh		= 3,
+		EvolvedRecipe 		= Soup:5;Stew:5;Salad:5;Burger:10,
+		FoodType    		= NoExplicit,
+        	Carbohydrates 		= 33,
+        	Proteins 		= 5.9,
+        	Lipids 			= 2.22,
+        	Calories 		= 177,
+        	Packaged 		= FALSE,
+		DisplayCategory		=   FoodP,
+    }
+    craftRecipe Feed The Birds
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Hunting,
+        timedAction = Making,
+        OnCreate = HCR42.HCFeedTheBirds,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEnglishmuffinbaked;Hydrocraft.HCCroissantbaked;Hydrocraft.HCGarlicbreadbaked],
+        }
+        outputs
+        {
+            item 1 Base.BakingTray,
+        }
+    }
+    craftRecipe Open Bag of Burger Buns
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBurgerbunbag],
+        }
+        outputs
+        {
+            item 8 Hydrocraft.HCBurgerbun,
+        }
+    }
+    craftRecipe Slice Bread
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Bread;Hydrocraft.HCWholegrainbread],
+            item 1 [Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
+        }
+        outputs
+        {
+            item 3 Base.BreadSlices,
+        }
+    }
+    craftRecipe Make Bowl of Gruel
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Bowl],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGruelbowl,
+        }
+    }
+    craftRecipe Make Bowl of Sweetened Gruel
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Bowl],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water],
+            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
+            item 1 [Base.Sugar],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGruelbowlsweet,
+        }
+    }
+    craftRecipe Make Dry Ramen Noodles
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.RollingPin] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Ramen,
+        }
+    }
+    craftRecipe Make Homemade Pancake Batter
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Bowl] mode:keep,
+            item 1 [Hydrocraft.HCWhisk;Hydrocraft.HCEggbeater] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
+            item 1 [Base.Sugar],
+            item 1 tags[Egg] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPancakebatter,
+        }
+    }
+    craftRecipe Make Homemade Pancakes
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbowl,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIcecreamscoop;Hydrocraft.HCLadle] mode:keep,
+            item 1 [Hydrocraft.HCPancakebatter],
+            item 1 [Base.Pan],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPancakeshomemadepan,
+        }
+    }
+    craftRecipe Make Sourdough Starter
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 2 [Base.Sugar],
+            item 4 [Base.Yeast],
+            item 1 [Hydrocraft.HCJar] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSourdoughstarter,
+        }
+    }
+    craftRecipe Dry Yeast
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSourdoughstarter],
+        }
+        outputs
+        {
+            item 1 Base.Yeast,
+        }
+    }
+    craftRecipe Grind Acorn Flour
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 24 [Hydrocraft.HCAcornsoaked],
+            item 1 [Hydrocraft.HCFlourempty],
+        }
+        outputs
+        {
+            item 1 Base.Flour2,
+        }
+    }
+    craftRecipe Grind Corn Flour
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 20 [Hydrocraft.HCCornseeds;Hydrocraft.HCCornredseeds;Hydrocraft.HCCornblueseeds;Hydrocraft.HCCornwhiteseeds],
+        }
+        outputs
+        {
+            item 1 Base.Cornflour2,
+        }
+    }
+    craftRecipe Grind Rice Flour
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 30 [Base.Rice],
+            item 1 [Hydrocraft.HCFlourempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRiceflour,
+        }
+    }
+    craftRecipe Grind Wholemeal flour
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 20 [Hydrocraft.HCWheat],
+            item 1 [Hydrocraft.HCFlourempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWholemealflour,
+        }
+    }
+    craftRecipe Grind Rice Flour
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCRicebrown],
+            item 1 [Hydrocraft.HCFlourempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRiceflour,
+        }
+    }
+    craftRecipe Grind Acorn Flour
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 24 [Hydrocraft.HCAcornsoaked],
+            item 1 [Hydrocraft.HCFlourempty],
+        }
+        outputs
+        {
+            item 1 Base.Flour2,
+        }
+    }
+    craftRecipe Grind Corn Flour
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 5 [Base.Corn;Hydrocraft.HCCornred;Hydrocraft.HCCornblue;Hydrocraft.HCCornwhite],
+        }
+        outputs
+        {
+            item 1 Base.Cornflour2,
+        }
+    }
+    craftRecipe Grind Rice Flour
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Base.Rice;Hydrocraft.HCRicebrown],
+            item 1 [Hydrocraft.HCFlourempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRiceflour,
+        }
+    }
+    craftRecipe Grind Acorn Flour
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 24 [Hydrocraft.HCAcornsoaked],
+            item 2 [Hydrocraft.HCFlourempty],
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+        }
+        outputs
+        {
+            item 2 Base.Flour2,
+        }
+    }
+    craftRecipe Grind Corn Flour
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 5 [Base.Corn;Hydrocraft.HCCornred;Hydrocraft.HCCornblue;Hydrocraft.HCCornwhite],
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+        }
+        outputs
+        {
+            item 2 Base.Cornflour2,
+        }
+    }
+    craftRecipe Grind Rice Flour
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Base.Rice;Hydrocraft.HCRicebrown],
+            item 2 [Hydrocraft.HCFlourempty],
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCRiceflour,
+        }
+    }
+    craftRecipe Grind Rice with Chaff
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcchaff,
+        inputs
+        {
+            item 2 [Hydrocraft.HCChaffrice],
+            item 1 [Hydrocraft.HCRiceempty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRicebrown,
+        }
+    }
+    craftRecipe Grind Rice with Chaff
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcchaff2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCChaffrice],
+            item 2 [Hydrocraft.HCRiceempty],
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCRicebrown,
+        }
+    }
+    craftRecipe Grind Rice with Chaff
+    {
+        time = 600,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcchaffbran,
+        inputs
+        {
+            item 2 [Hydrocraft.HCChaffrice],
+            item 2 [Hydrocraft.HCRiceempty],
+            item 1 [Hydrocraft.HCMacerator] mode:keep,
+            item 1 [Base.PetrolCan],
+        }
+        outputs
+        {
+            item 2 Base.Rice,
+        }
+    }
+    craftRecipe Make Whole Wheat Dough
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:10,
+        inputs
+        {
+            item 1 [Base.RollingPin] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCWholemealflour],
+            item 1 [Base.Salt],
+            item 1 [Base.Yeast],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWholegrainbread,
+        }
+    }
+    craftRecipe Thresh Wheat Bundle
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcstraw,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWheatBundle],
+            item 1 [Hydrocraft.HCCurvedshaftsmall] mode:keep,
+        }
+        outputs
+        {
+            item 5 Hydrocraft.HCWheat,
+        }
+    }
+    craftRecipe Thresh Wheat Bundle
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcstraw,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWheatBundle],
+            item 1 [Hydrocraft.HCThresher] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCWheat,
+        }
+    }
+    craftRecipe Thresh Wheat Bundle
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcstraw,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWheatBundle],
+            item 1 [Hydrocraft.HCThreshermech] mode:keep,
+        }
+        outputs
+        {
+            item 15 Hydrocraft.HCWheat,
+        }
+    }
+    craftRecipe Make Pumpkin Bread Dough
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
+            item 1 [Hydrocraft.HCPumpkinflesh],
+            item 1 tags[Egg] mode:keep,
+            item 1 [Base.Salt],
+            item 2 [Base.Sugar],
+            item 1 [Base.Yeast],
+            item 1 [Base.RollingPin] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPumpkinbreaddough,
+        }
+    }
+    craftRecipe Prepare Pumpkin Bread
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBreadpan],
+            item 1 [Hydrocraft.HCPumpkinbreaddough],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPumpkinbreadpan,
+        }
+    }
+    craftRecipe Prepare Raisin Bread
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBreadpan],
+            item 1 [Hydrocraft.HCDriedrasinsbag],
+            item 1 [Base.BreadDough],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRaisinbreadpan,
+        }
+    }
+    craftRecipe Prepare Cornbread
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBreadpan],
+            item 1 [Base.Cornflour2],
+            item 1 [Base.Butter],
+            item 1 [Base.CowMilk;Base.SheepMilk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [Base.Sugar],
+            item 1 [Base.Salt],
+            item 1 tags[Egg] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCornbreadpan,
+        }
+    }
+    craftRecipe Make Pot of Grits
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Cornflour2],
+            item 1 [Base.Butter],
+            item 1 [Base.Salt],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGritspot,
+        }
+    }
+    craftRecipe Fill Grits into Bowls
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 4 [Base.Bowl],
+            item 1 [Hydrocraft.HCGritspot],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCGritsbowl,
+        }
+    }
+    craftRecipe Make Pot of Cheesy Grits
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:2,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy,
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
+            item 1 [Base.Cornflour2],
+            item 1 [Base.Butter],
+            item 1 [Base.Salt],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGritscheesypot,
+        }
+    }
+    craftRecipe Fill Cheesy Grits into Bowls
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 4 [Base.Bowl],
+            item 1 [Hydrocraft.HCGritscheesypot],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCGritscheesybowl,
+        }
+    }
+    craftRecipe Make Flatbread
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:2,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Pan] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFlatbread,
+        }
+    }
+    craftRecipe Remove Homemade Pancake from Pan
+    {
+        time = 60,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingpan,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPancakeshomemadepan],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPancakeshomemade,
+        }
+    }
+    craftRecipe Remove Pumpkin Bread from Pan
+    {
+        time = 60,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbreadpan,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPumpkinbreadpan],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPumpkinbread,
+        }
+    }
+    craftRecipe Remove Raisin Bread from Pan
+    {
+        time = 60,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbreadpan,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRaisinbreadpan],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRaisinbread,
+        }
+    }
+    craftRecipe Remove Corn Bread from Pan
+    {
+        time = 60,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbreadpan,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCornbreadpan],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCornbread,
+        }
+    }
+}

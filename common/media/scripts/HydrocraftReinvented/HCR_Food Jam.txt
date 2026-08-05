@@ -1,0 +1,1255 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCJamgrape
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Grape Jam,
+	Icon				=	HCJamgrape,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamapple
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Apple Jam,
+	Icon				=	HCJamapple,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamorange
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Orange Jam,
+	Icon				=	HCJamorange,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJampeach
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Peach Jam,
+	Icon				=	HCJampeach,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJampear
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Pear Jam,
+	Icon				=	HCJampear,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamwatermelon
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Watermelon Jam,
+	Icon				=	HCJamwatermelon,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJampineapple
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Pineapple Jam,
+	Icon				=	HCJampineapple,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamcherry
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Cherry Jam,
+	Icon				=	HCJamcherry,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamstrawberry
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Strawberry Jam,
+	Icon				=	HCJamstrawberry,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamblueberry
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Blueberry Jam,
+	Icon				=	HCJamblueberry,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamblackberry
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Blackberry Jam,
+	Icon				=	HCJamblackberry,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamwildberry
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Wild Berry Jam,
+	Icon				=	HCJamwildberry,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamhuckleberry
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Huckleberry Jam,
+	Icon				=	HCJamhuckleberry,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamcranberry
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Cranberry Jam,
+	Icon				=	HCJamcranberry,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamraspberry
+    {
+
+	HungerChange			=	-40,
+	ThirstChange			=	10,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Raspberry Jam,
+	Icon				=	HCJamraspberry,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	345,
+        Proteins 			= 	2,
+        Lipids 				= 	0.5,
+        Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamstarter
+    {
+
+	HungerChange			=	-10,
+	Weight				=	1.1,
+	Type				=	Food,
+	DisplayName			=	Pot of Sugar Water,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	32.53,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	125,
+		DisplayCategory		=   FoodN,
+    }
+    item HCJamgrapepot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Grape Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJamapplepot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Apple Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJamorangepot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Orange Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJampeachpot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Peach Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJampearpot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Pear Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJamwatermelonpot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Watermelon Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJampineapplepot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Pineapple Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJamcherrypot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Cherry Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJamstrawberrypot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Strawberry Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJamblueberrypot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Blueberry Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJamblackberrypot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Blackberry Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJamwildberrypot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Wild Berry Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJamhuckleberrypot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Huckleberry Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJamcranberrypot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Cranberry Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    item HCJamraspberrypot
+    {
+
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1.5,
+	Type				=	Food,
+	DisplayName			=	Pot of Raspberry Jam,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	90,
+	MinutesToBurn			=	140,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	690,
+        Proteins 			= 	4,
+        Lipids 				= 	1,
+        Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
+    }
+    craftRecipe Prepare Jam Pot
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy,
+            item 3 [Base.Sugar],
+            item 1 [Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCLemonjuicebowl],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamstarter,
+        }
+    }
+    craftRecipe Prepare Grape Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 4 [Base.Grapes],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamgrapepot,
+        }
+    }
+    craftRecipe Make Jar of Grape Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamgrapepot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamgrape,
+        }
+    }
+    craftRecipe Prepare Apple Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 4 [Base.Apple],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamapplepot,
+        }
+    }
+    craftRecipe Make Jar of Apple Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamapplepot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamapple,
+        }
+    }
+    craftRecipe Prepare Orange Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 4 [Base.Orange],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamorangepot,
+        }
+    }
+    craftRecipe Make Jar of Orange Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamorangepot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamorange,
+        }
+    }
+    craftRecipe Prepare Peach Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 4 [Base.Peach],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJampeachpot,
+        }
+    }
+    craftRecipe Make Jar of Peach Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJampeachpot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJampeach,
+        }
+    }
+    craftRecipe Prepare Pear Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 4 [Hydrocraft.HCPear],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJampearpot,
+        }
+    }
+    craftRecipe Make Jar of Pear Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJampearpot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJampear,
+        }
+    }
+    craftRecipe Prepare Watermelon Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 2 [Base.Watermelon],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamwatermelonpot,
+        }
+    }
+    craftRecipe Make Jar of Watermelon Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamwatermelonpot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamwatermelon,
+        }
+    }
+    craftRecipe Prepare Pineapple Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 2 [Base.Pineapple],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJampineapplepot,
+        }
+    }
+    craftRecipe Make Jar of Pineapple Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJampineapplepot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJampineapple,
+        }
+    }
+    craftRecipe Prepare Cherry Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 8 [Base.Cherry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamcherrypot,
+        }
+    }
+    craftRecipe Make Jar of Cherry Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamcherrypot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamcherry,
+        }
+    }
+    craftRecipe Prepare Strawberry Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 8 [Base.Strewberrie],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamstrawberrypot,
+        }
+    }
+    craftRecipe Make Jar of Strawberry Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamstrawberrypot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamstrawberry,
+        }
+    }
+    craftRecipe Prepare Blueberry Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 8 [Base.BerryBlue],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamblueberrypot,
+        }
+    }
+    craftRecipe Make Jar of Blueberry Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamblueberrypot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamblueberry,
+        }
+    }
+    craftRecipe Prepare Blackbery Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 8 [Base.BerryBlack],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamblackberrypot,
+        }
+    }
+    craftRecipe Make Jar of Blackberry Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamblackberrypot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamblackberry,
+        }
+    }
+    craftRecipe Prepare Wild Berry Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 2 [Hydrocraft.HCBunchofberries],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamwildberrypot,
+        }
+    }
+    craftRecipe Make Jar of Wild Berry Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamwildberrypot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamwildberry,
+        }
+    }
+    craftRecipe Prepare Huckleberry Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 8 [Hydrocraft.HCHuckleberry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamhuckleberrypot,
+        }
+    }
+    craftRecipe Make Jar of Huckleberry Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamhuckleberrypot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamhuckleberry,
+        }
+    }
+    craftRecipe Prepare Cranberry Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 8 [Hydrocraft.HCCranberry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamcranberrypot,
+        }
+    }
+    craftRecipe Make Jar of Cranberry Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamcranberrypot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamcranberry,
+        }
+    }
+    craftRecipe Prepare Raspberry Jam
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCJamstarter] mode:destroy,
+            item 8 [Hydrocraft.HCRaspberry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCJamraspberrypot,
+        }
+    }
+    craftRecipe Make Jar of Raspberry Jam
+    {
+        time = 25,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:4,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 2 [Hydrocraft.HCJar],
+            item 1 [Hydrocraft.HCJamraspberrypot],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCJamraspberry,
+        }
+    }
+}

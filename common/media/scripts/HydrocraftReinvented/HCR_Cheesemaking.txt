@@ -1,0 +1,833 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCCheeserack
+    {
+
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack,
+	Icon			= HCCheeserack,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheeserackfull
+    {
+
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Cheese,
+	Icon			= HCCheeserackfull,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheeserackaged
+    {
+
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Aged Cheese,
+	Icon			= HCCheeserackaged,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheeserackfullcheddar
+    {
+
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Cheddar Cheese,
+	Icon			= HCCheeserackfullcheddar,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheeserackagedcheddar
+    {
+
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Aged Cheddar Cheese,
+	Icon			= HCCheeserackagedcheddar,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheeserackfullcheddarwaxed
+    {
+
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Waxed Cheddar Cheese,
+	Icon			= HCCheeserackfullcheddarwaxed,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheeserackagedcheddarwaxed
+    {
+
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Aged Waxed Cheddar Cheese,
+	Icon			= HCCheeserackagedcheddarwaxed,
+		DisplayCategory	= CookRef,
+    }
+    item HCRennet
+    {
+
+    Weight    		    = 0.3,
+	Type 			    = Drainable,
+	UseDelta 		    = 0.25,
+	ReplaceOnDeplete	= HCClayjarsmall,
+    DisplayName         = Jar of Rennet,
+    icon 			    = HCRennet,
+		DisplayCategory	= CookRef,
+    }
+    item HCVatcheese
+    {
+
+        Weight    		= 16,
+        Type    		= Normal,
+        DisplayName     = Cheese Vat,
+        icon 			= HCVatcheese,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheesetray
+    {
+
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName     = Cheese Tray,
+        icon 			= HCCheesetray,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheesetrayfull
+    {
+
+        Weight    		= 1.7,
+        Type    		= Normal,
+        DisplayName     = Full Cheese Tray,
+        icon 			= HCCheesetrayfull,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheesecurd
+    {
+
+		Weight			=	0.2,
+		Type			=	Normal,
+		DaysTotallyRotten	=	10,
+		DisplayName		=	Cheese Curd,
+		Icon			=	HCCheesecurd,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheesewheel
+    {
+
+		HungerChange	=	-70,
+		Weight			=	1.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	40,
+		DisplayName		=	Cheese Wheel,
+		Icon			=	HCCheesewheel,
+		DaysFresh		=	28,
+		FoodType    	=   NoExplicit,
+		Carbohydrates 	= 	26.4,
+        Proteins 		= 	300,
+        Lipids 			= 	324,
+        Calories 		= 	4272,
+		DisplayCategory	= FoodP,
+		Tags = Cheese,
+    }
+    item HCCheesecloth
+    {
+
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName     = Cheese Cloth,
+        icon 			= HCCheesecloth,
+		DisplayCategory	= CookRef,
+    }
+    item HCPotcheeseclothwrappedwax
+    {
+
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName     = Pot with Cheese Cloth-Wrapped Beeswax,
+        icon 			= HCPotcheeseclothwrappedwax,
+		DisplayCategory	= CookRef,
+    }
+    item HCPotrefinedwax
+    {
+
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName     = Pot with Refined Beeswax,
+        icon 			= HCPotrefinedwax,
+		DisplayCategory	= CookRef,
+    }
+    item HCRefinedbeeswax
+    {
+
+        Weight                  = 0.4,
+        Type                    = Normal,
+        DisplayName             = Refined Beeswax,
+        icon                    = HCRefinedbeeswax,
+		DisplayCategory	= CookRef,
+    }
+    item HCPotmeltedrefinedwax
+    {
+
+        Weight    		= 5,
+        Type    		= Normal,
+        DisplayName     = Pot of Melted Refined Beeswax,
+        icon 			= HCPotmeltedrefinedwax,
+		DisplayCategory	= CookRef,
+    }
+    item HCCurdkneaded
+    {
+
+		Weight			=	0.8,
+		Type			=	Normal,
+		DaysTotallyRotten	=	10,
+		DisplayName		=	Kneaded Cheese Curd,
+		Icon			=	HCCheesecurdkneaded,
+		DisplayCategory	= CookRef,
+    }
+    item HCCurdcubed
+    {
+
+		Weight			=	0.8,
+		Type			=	Normal,
+		DaysTotallyRotten	=	10,
+		DisplayName		=	Cubed Cheese Curd,
+		Icon			=	HCCheesecurdcubed,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheddarcheesetrayfull
+    {
+
+        Weight                  = 1.7,
+        Type                    = Normal,
+        DisplayName             = Full Cheddar Cheese Tray,
+        icon                    = HCCheesetrayfull,
+		DisplayCategory	= CookRef,
+    }
+    item HCCheddarwheelunaged
+    {
+
+		HungerChange		=	-80,
+		Weight			=	1.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	10,
+		DisplayName		=	Cheddar Wheel,
+		Icon			=	HCCheddarwheelunaged,
+		DaysFresh		=	7,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	15.6,
+        Proteins 		= 	300,
+        Lipids 			= 	396,
+        Calories 		= 	4824,
+		DisplayCategory	= FoodP,
+		Tags = Cheese,
+    }
+    item HCCheddarwheelwaxed
+    {
+
+		HungerChange		=	-80,
+		Weight			=	1.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	14,
+		DisplayName		=	Waxed Cheddar Wheel,
+		Icon			=	HCCheddarwheelwaxed,
+		DaysFresh		=	10,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	15.6,
+        Proteins 		= 	300,
+        Lipids 			= 	396,
+        Calories 		= 	4824,
+		DisplayCategory	= FoodP,
+		Tags = Cheese,
+    }
+    item HCCheddarwheelaged
+    {
+
+		HungerChange		=	-80,
+		Weight			=	1.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	40,
+		DisplayName		=	Aged Cheddar Wheel,
+		Icon			=	HCCheddarwheelwaxed,
+		DaysFresh		=	28,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	15.6,
+        Proteins 		= 	300,
+        Lipids 			= 	396,
+        Calories 		= 	4824,
+		DisplayCategory	= FoodP,
+		Tags = Cheese,
+    }
+    item HCCheddar
+    {
+
+        Type                    =       Food,
+        DisplayName             =       Cheddar Cheese,
+        Icon                    =       HCCheddar,
+        Weight                  =       0.2,
+        HungerChange            =       -25,
+        BoredomChange           =       -10,
+        UnhappyChange           =       -15,
+        DaysFresh               =       14,
+        DaysTotallyRotten       =       20,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	2.6,
+        Proteins 		= 	50,
+        Lipids 			= 	66,
+        Calories 		= 	402,
+        EvolvedRecipe           =       Burger:6;Salad:6;Sandwich:6,
+		DisplayCategory	= FoodP,
+		Tags = Cheese,
+    }
+    item HCCreamcheeseculture
+    {
+
+	Type				=	Food,
+	DisplayName			=	Cream Cheese Culture,
+	Weight				=	1.2,
+	HungerChange 			=	-20,
+	ThirstChange			= 	5,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	7,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCWoodenbucketmilk,
+		DisplayCategory	= FoodP,
+    }
+    item HCCreamcheese
+    {
+
+	Type				=	Food,
+	DisplayName			=	Cream Cheese,
+	Weight				=	1,
+	HungerChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	7,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCCreamcheese,
+	ReplaceOnUse			=	Bowl,
+        EvolvedRecipe         	 	=       Sandwich:4,
+		DisplayCategory	= FoodP,
+    }
+    item HCSmokedsalmoncreamcheese
+    {
+
+	Type				=	Food,
+	DisplayName			=	Smoked Salmon Cream Cheese,
+	Weight				=	1.2,
+	HungerChange 			=	-25,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	7,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCSmokedsalmoncreamcheese,
+	ReplaceOnUse			=	Bowl,
+        EvolvedRecipe         	 	=       Sandwich:5,
+		DisplayCategory	= FoodP,
+    }
+    item HCSmokedsalmoncreamcheesesandwich
+    {
+
+	Type				=	Food,
+	DisplayName			=	Smoked Salmon Cream Cheese Sandwich,
+	Weight				=	0.5,
+	HungerChange 			=	-20,
+	DaysTotallyRotten		=	7,
+	DaysFresh 			=	4,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCSmokedsalmoncreamcheesesandwich,
+		DisplayCategory	= FoodP,
+    }
+    craftRecipe Make Cheese Tray
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:1,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenring],
+            item 1 [Base.Plank],
+            item 1 [Base.Nails],
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheesetray,
+        }
+    }
+    craftRecipe Make Cheese Rack
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        SkillRequired = Woodwork:4,
+        xpAward = Woodwork:2,
+        inputs
+        {
+            item 6 [Base.Plank],
+            item 4 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheeserack,
+        }
+    }
+    craftRecipe Make Rennet
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClayjarsmall],
+            item 1 [Hydrocraft.HCIntestines],
+            item 1 [Base.Vinegar2],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRennet,
+        }
+    }
+    craftRecipe Fill Cheese Vat
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbucket4,
+        inputs
+        {
+            item 4 [Hydrocraft.HCRennet],
+            item 4 [Hydrocraft.HCWoodenbucketmilk] mode:destroy,
+            item 1 [Hydrocraft.HCVat],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCVatcheese,
+        }
+    }
+    craftRecipe Harvest Cheese Curds
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenvat,
+        inputs
+        {
+            item 1 [Hydrocraft.HCVatcheese],
+        }
+        outputs
+        {
+            item 16 Hydrocraft.HCCheesecurd,
+        }
+    }
+    craftRecipe Fill Cheese Trays
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCCheesecurd],
+            item 1 [Hydrocraft.HCCheesetray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheesetrayfull,
+        }
+    }
+    craftRecipe Put Cheese on Rack
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCCheesetrayfull],
+            item 1 [Hydrocraft.HCCheeserack],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheeserackfull,
+        }
+    }
+    craftRecipe Remove Cheese from Rack
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hccheesetray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCheeserackaged],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCCheesewheel,
+        }
+    }
+    craftRecipe Cut Cheese Wheel
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.Hydrocraft_OnCreate_CutIntoEightPieces,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCheesewheel],
+            item 1 [Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
+        }
+        outputs
+        {
+            item 8 Base.Cheese,
+        }
+    }
+    craftRecipe Prepare Cheese Cloth-Wrapped Wax
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy,
+            item 4 [Hydrocraft.HCBeeswax],
+            item 1 [Base.Stone2],
+            item 1 [Hydrocraft.HCCheesecloth],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotcheeseclothwrappedwax,
+        }
+    }
+    craftRecipe Prepare Pot of Refined Wax
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPotcheeseclothwrappedwax],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotrefinedwax,
+        }
+    }
+    craftRecipe Process Refined Wax
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_Process_RWAX,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPotrefinedwax],
+            item 1 [Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRefinedbeeswax,
+        }
+    }
+    craftRecipe Prepare Pot of Melted Refined Wax
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy,
+            item 1 [Hydrocraft.HCRefinedbeeswax],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPotmeltedrefinedwax,
+        }
+    }
+    craftRecipe Prepare Kneaded Cheese Curds
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.RollingPin] mode:keep,
+            item 1 [Base.Salt],
+            item 4 [Hydrocraft.HCCheesecurd],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCurdkneaded,
+        }
+    }
+    craftRecipe Prepare Cubed Cheese Curds
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCurdkneaded],
+            item 1 [Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCurdcubed,
+        }
+    }
+    craftRecipe Fill Cheese Trays
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCurdcubed],
+            item 1 [Hydrocraft.HCCheesetray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheddarcheesetrayfull,
+        }
+    }
+    craftRecipe Put Cheese on Rack
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCCheddarcheesetrayfull],
+            item 1 [Hydrocraft.HCCheeserack],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheeserackfullcheddar,
+        }
+    }
+    craftRecipe Remove Cheese from Rack
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hccheesetray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCheeserackagedcheddar],
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCCheddarwheelunaged,
+        }
+    }
+    craftRecipe Wax Cheddar Cheese
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcpot,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCheddarwheelunaged],
+            item 1 [Hydrocraft.HCPotmeltedrefinedwax],
+            item 1 [Base.Paintbrush] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheddarwheelwaxed,
+        }
+    }
+    craftRecipe Put Cheese on Rack
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCheddarwheelwaxed],
+            item 1 [Hydrocraft.HCCheeserack],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheeserackfullcheddarwaxed,
+        }
+    }
+    craftRecipe Remove Cheese from Rack
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCheeserackagedcheddarwaxed],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCheddarwheelaged,
+        }
+    }
+    craftRecipe Cut Cheese Wheel
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.Hydrocraft_OnCreate_CutIntoSixPieces,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCheddarwheelaged],
+            item 1 [Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
+        }
+        outputs
+        {
+            item 6 Hydrocraft.HCCheddar,
+        }
+    }
+    craftRecipe Make Cream Cheese Culture
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucketmilk],
+            item 1 [Base.Vinegar2],
+            item 1 [Base.Salt],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCreamcheeseculture,
+        }
+    }
+    craftRecipe Strain Cream Cheese
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcwoodenbucket,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCreamcheeseculture],
+            item 1 [Base.Bowl],
+            item 1 [Hydrocraft.HCCheesecloth] mode:keep,
+            item 1 [Base.Stone2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCreamcheese,
+        }
+    }
+    craftRecipe Maked Smoked Salmon Cream Cheese
+    {
+        time = 200,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:8,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCreamcheese],
+            item 1 [Hydrocraft.HCSmokedsalmon],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSmokedsalmoncreamcheese,
+        }
+    }
+}

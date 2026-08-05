@@ -1,0 +1,101 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCRubberglove
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Rubber Gloves,
+        icon 			= HCRubberglove,
+		DisplayCategory	= ClothM,
+    }
+    item HCGasmask
+    {
+
+        Weight    	        = 0.9,
+        Type    	        = Normal,
+        DisplayName    	    = Gasmask,
+        Icon    	        = HCGasmask,
+		DisplayCategory		= ClothM,
+    }
+    item HCImprovisedgasmask
+    {
+
+        Weight    	        = 0.9,
+        Type    	        = Normal,
+        DisplayName    	    = Improvised Gasmask,
+        Icon    	        = HCImprovisedgasmask,
+		DisplayCategory		= ClothM,
+    }
+    item HCImprovisedhazmat
+    {
+
+        Weight    	        = 1.3,
+        Type    	        = Normal,
+        DisplayName    	    = Improvised Hazmat Suit,
+        Icon    	        = HCImprovisedhazmat,
+		DisplayCategory		= ClothM,
+    }
+    item HCQuiver
+    {
+
+    DisplayCategory = Bag,
+    Type = Container,
+    DisplayName = Leather Quiver,
+    ClothingItem = HCQuiver,
+    CanBeEquipped = base:back,
+    WeightReduction	=	65,
+    Weight	=	1,
+    Capacity	=	6,
+    Icon	=	HCQuiver,
+    OpenSound   =   OpenBag,
+    CloseSound   =   CloseBag,
+    PutInSound   =   PutItemInBag,
+    BloodLocation = Bag,
+    RunSpeedModifier = 1.00,
+    CanHaveHoles = false,
+    AttachmentReplacement = Bag,
+    Tooltip = Tooltip_item_BonusLongbowReload,
+    ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+    ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+    WorldStaticModel = Hydrocraft.HCQuiver_Ground,
+    }
+    craftRecipe Wear Glasses
+    {
+        time = 15,
+        Tags = AnySurfaceCraft,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.WearGlassesRecipe,
+        inputs
+        {
+            item 1 [Base.Glasses],
+        }
+        outputs
+        {
+            item 1 Base.Glasses,
+        }
+    }
+    craftRecipe Make Improvised Gasmask
+    {
+        time = 300,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWaterbottlecutoff],
+            item 1 [Base.Glue;Hydrocraft.HCSuperglue;Hydrocraft.HCRubbercement;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar],
+            item 1 [Hydrocraft.HCSponge;Base.Sponge],
+            item 4 [Base.RubberBand],
+            item 1 [Base.DuctTape;Base.Scotchtape;Hydrocraft.HCMaskingtape;Hydrocraft.HCPackingtape;Hydrocraft.HCElectrictape],
+            item 1 [Hydrocraft.HCScalpelimprovised;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife;Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCImprovisedgasmask,
+        }
+    }
+}

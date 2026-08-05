@@ -1,0 +1,1967 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCPully
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Steel Pulley,
+        icon 			= HCPully,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCPullyiron
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Iron Pulley,
+        icon 			= HCPullyiron,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCPullywood
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Wood Pulley,
+        icon 			= HCPullywood,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCValve
+    {
+
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Valve,
+        icon 			= HCValve,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCGearcopper
+    {
+
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Copper Gear,
+        Icon	            		= HCGearcopper,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCGeartin
+    {
+
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Tin Gear,
+        Icon	            		= HCGeartin,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCGearbronze
+    {
+
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Bronze Gear,
+        Icon	            		= HCGearbronze,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCGeariron
+    {
+
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Iron Gear,
+        Icon	            		= HCGeariron,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCGearinvar
+    {
+
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Invar Gear,
+        Icon	            		= HCGearinvar,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCGearlead
+    {
+
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Lead Gear,
+        Icon	            		= HCGearlead,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCGearsteel
+    {
+
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Steel Gear,
+        Icon	            		= HCGearsteel,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCGeartitanium
+    {
+
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Titanium Gear,
+        Icon	            		= HCGeartitanium,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCRollingmillsmall
+    {
+
+        Weight    			= 5,
+        Type    			= Normal,
+        DisplayName         		= Small Rolling Mill,
+        icon 				= HCRollingmillsmall,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCWirecopper
+    {
+
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Copper Wire,
+        Icon	            		= HCWirecopper,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCWirelead
+    {
+
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Lead Wire,
+        Icon	            		= HCWirelead,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCWiresteel
+    {
+
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Steel Wire,
+        Icon	            		= HCWiresteel,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCWireconcertina
+    {
+
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Razor Wire,
+        Icon	            		= HCWireconcertina,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCWireconstantan
+    {
+
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Constantan Wire,
+        Icon	            		= HCWireconstantan,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCWirezinc
+    {
+
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Zinc Wire,
+        Icon	            		= HCWirezinc,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCWirealuminum
+    {
+
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Aluminum Wire,
+        Icon	            		= HCWirealuminum,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCWirethermocouple
+    {
+
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName         		= Thermocouple Wire,
+        icon 				= HCWirethermocouple,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCThermocouple
+    {
+
+        Weight    			= 1,
+        Type    			= Normal,
+        DisplayName         		= Thermocouple,
+        icon 				= HCThermocouple,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCConstantanheatingcoil
+    {
+
+        Weight	            		= 0.2,
+        Type    			= Normal,
+        DisplayName	        	= Constantan Heating Coil,
+        Icon	            		= HCConstantanheatingcoil,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCNichromeheatingcoil
+    {
+
+        Weight	            		= 0.2,
+        Type    			= Normal,
+        DisplayName	        	= Nichrome Heating Coil,
+        Icon	            		= HCNichromeheatingcoil,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCKanthalheatingcoil
+    {
+
+        Weight	            		= 0.2,
+        Type    			= Normal,
+        DisplayName	        	= Kanthal Heating Coil,
+        Icon	            		= HCKanthalheatingcoil,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCCoil
+    {
+
+        Weight    			= 2,
+        Type    			= Normal,
+        DisplayName         		= Coil,
+        icon 				= HCThermocouple,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCFurnaceiron
+    {
+
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Iron Furnace,
+        
+        icon 				= HCFurnaceiron,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCSteamengine
+    {
+
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Steam Engine,
+        
+        icon 				= HCSteamengine,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCSteamboiler
+    {
+
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Steam Boiler,
+        
+        icon 				= HCSteamboiler,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCSteammachine
+    {
+
+        Weight    			= 20,
+        Type    			= Normal,
+        DisplayName         		= Steam Machine,
+        
+        icon 				= HCSteammachine,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCTriphammer
+    {
+
+        Weight    			= 20,
+        Type    			= Normal,
+        DisplayName         		= Trip Hammer,
+        
+        icon 				= HCTriphammer,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCTriphammer2
+    {
+
+        Weight              = 20,
+        Type                = Normal,
+        DisplayName                 = Trip Hammer,
+        
+        icon                = HCTriphammer,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCSteamhammer
+    {
+
+        Weight    			= 20,
+        Type    			= Normal,
+        DisplayName         		= Steam Hammer,
+        
+        icon 				= HCSteamhammer,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCSteamhammer2
+    {
+
+        Weight              = 1000,
+        Type                = Container,
+        Capacity            = 100,
+        WeightReduction     = 0,
+        DisplayName         = Steam Hammer,
+        icon 				= HCSteamhammer,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCFurnace
+    {
+
+        Weight    			= 	20,
+        Type    			= 	Normal,
+        DisplayName         		= 	Industrial Furnace,
+        icon 				= 	HCFurnace,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCFurnace2
+    {
+
+        Weight              = 1000,
+        Type                = Container,
+        Capacity            = 100,
+        WeightReduction     = 0,
+        DisplayName         = 	Industrial Furnace,
+        icon 				= 	HCFurnace,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCFurnacearc
+    {
+
+        Weight    			= 	20,
+        Type    			= 	Normal,
+        DisplayName         = 	Arc Furnace,
+        icon 				= 	HCFurnacearc,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCFurnacearc2
+    {
+
+        Weight              = 1000,
+        Type                = Container,
+        Capacity            = 100,
+        WeightReduction     = 0,
+        DisplayName         = 	Arc Furnace,
+        icon 				= 	HCFurnacearc,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCMetalcasing
+    {
+
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName     	= Metal Casing,
+        icon 			= HCMetalcasing,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCDuct
+    {
+
+        Weight    		= 2,
+        Type    		= Normal,
+        DisplayName     	= Metal Duct,
+        icon 			= HCDuct,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCDuctfan
+    {
+
+        Weight    		= 2,
+        Type    		= Normal,
+        DisplayName     	= Duct Fan,
+        icon 			= HCDuctfan,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCFanbladesteel
+    {
+
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     	= Steel Fan Blade,
+        icon 			= HCFanbladesteel,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCGiglisawhandle
+    {
+
+        Weight               	= 0.3,
+        Type       		= Normal,
+        DisplayName          	= Gigli Saw Handle,
+        Icon               	= HCGiglisawhandle,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCSelfmadeheater
+    {
+
+	Weight			=	0.7,
+	Type			=	Normal,
+	DisplayName		=	Homemade Heating Plate,
+	Icon			=	HCSelfmadeheater,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCMetalwheeliron
+    {
+
+    	Weight        	= 2,
+    	Type        	= Normal,
+    	DisplayName    	= Iron Wheel,
+    	icon        	= HCMetalwheeliron,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCMetalwheel
+    {
+
+    	Weight        	= 2,
+    	Type        	= Normal,
+    	DisplayName    	= Steel Wheel,
+    	icon        	= HCMetalwheel,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCPiston
+    {
+
+        Weight   		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Electric Piston,
+        icon 			= HCPiston,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCMacerator
+    {
+
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName     	= Macerator,
+        icon 			= HCMacerator,
+		DisplayCategory          =   CraftInd,
+    }
+    item HCIndustrialpress
+    {
+
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName     	= Industrial Press,
+        icon 			= HCIndustrialpress,
+		DisplayCategory          =   CraftInd,
+    }
+    craftRecipe Make Copper Gears
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCopperingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCGearmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCGearcopper,
+        }
+    }
+    craftRecipe Make Tin Gears
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTiningot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCGearmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCGeartin,
+        }
+    }
+    craftRecipe Make Bronze Gears
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBronzeingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCGearmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCGearbronze,
+        }
+    }
+    craftRecipe Make Iron Gears
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIroningot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCGearmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCGeariron,
+        }
+    }
+    craftRecipe Make Invar Gears
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCInvaringot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCGearmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCGearinvar,
+        }
+    }
+    craftRecipe Make Lead Gears
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLeadingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCGearmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCGearlead,
+        }
+    }
+    craftRecipe Make Steel Gears
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCCoke],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCGearmold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCGearsteel,
+        }
+    }
+    craftRecipe Make Titanium Gears
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTitaniumingot],
+            item 1 [Hydrocraft.HCCoke],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCGearmold],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCGeartitanium,
+        }
+    }
+    craftRecipe Build Iron Furnace
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:4,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCManometer],
+            item 1 [Hydrocraft.HCThermocouple],
+            item 1 [Hydrocraft.HCCopperpipe],
+            item 1 [Hydrocraft.HCValve],
+            item 1 [Hydrocraft.HCCoppersheet],
+            item 5 [Hydrocraft.HCIronsheet],
+            item 5 [Hydrocraft.HCIronrod],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPipebender] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFurnaceiron,
+        }
+    }
+    craftRecipe Build Steam Engine
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:8;Mechanics:4,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 2 [Base.Screws],
+            item 1 [Hydrocraft.HCCopperpipe],
+            item 2 [Hydrocraft.HCPullyiron],
+            item 1 [Base.Rope],
+            item 1 [Hydrocraft.HCMetalwheeliron],
+            item 1 [Hydrocraft.HCIronrod],
+            item 3 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCIronpole],
+            item 1 [Base.Plank],
+            item 8 [Base.Nails],
+            item 1 [Hydrocraft.HCWoodbeam],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPipebender] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteamengine,
+        }
+    }
+    craftRecipe Build Steam Boiler
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:4,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBarrelmetalempty],
+            item 5 [Hydrocraft.HCCopperpipe],
+            item 3 [Hydrocraft.HCValve],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPipebender] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteamboiler,
+        }
+    }
+    craftRecipe Build Steam Machine
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:4,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFurnaceiron],
+            item 1 [Hydrocraft.HCSteamengine],
+            item 1 [Hydrocraft.HCSteamboiler],
+            item 2 [Hydrocraft.HCCopperpipe],
+            item 1 [Hydrocraft.HCValve],
+            item 1 [Hydrocraft.HCIronrod],
+            item 1 [Hydrocraft.HCCoppersheetlarge],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPipebender] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteammachine,
+        }
+    }
+    craftRecipe Build Trip Hammer
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:8;Mechanics:3,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCWoodbeam],
+            item 1 [Base.Sledgehammer2],
+            item 1 [Hydrocraft.HCAnvil],
+            item 2 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCIronrod],
+            item 1 [Base.Rope],
+            item 1 [Hydrocraft.HCRopethin],
+            item 1 [Hydrocraft.HCPullyiron;Hydrocraft.HCPullywood],
+            item 1 [Hydrocraft.HCCrank;Hydrocraft.HCCrankiron],
+            item 1 [Hydrocraft.HCLever],
+            item 4 [Base.Plank],
+            item 12 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTriphammer,
+        }
+    }
+    craftRecipe Upgrade to Steam Hammer
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:4,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteammachine],
+            item 1 [Hydrocraft.HCTriphammer],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteamhammer,
+        }
+    }
+    craftRecipe Anchor Steamhammer
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteamhammer],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteamhammer2,
+        }
+    }
+    craftRecipe Build Industrial Furnace
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:5,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGreybrickbox],
+            item 4 tags[BucketConcrete] mode:keep,
+            item 10 [Base.Screws],
+            item 2 [Hydrocraft.HCLargesheetmetal],
+            item 4 [Base.SheetMetal],
+            item 4 [Base.Pipe],
+            item 2 [Hydrocraft.HCSteelpipe],
+            item 10 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCMasontrowel] mode:keep,
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPipebender] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFurnace,
+        }
+    }
+    craftRecipe Upgrade to Industrial Furnace
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:5,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGreybrickbox],
+            item 4 tags[BucketConcrete] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace;Hydrocraft.HCBlastfurnace2],
+            item 10 [Base.Screws],
+            item 2 [Hydrocraft.HCLargesheetmetal],
+            item 4 [Base.SheetMetal],
+            item 4 [Base.Pipe],
+            item 2 [Hydrocraft.HCSteelpipe],
+            item 10 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCMasontrowel] mode:keep,
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCPipebender] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFurnace,
+        }
+    }
+    craftRecipe Anchor Industrial Furnace
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFurnace],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFurnace2,
+        }
+    }
+    craftRecipe Move And Empty Industrial Furnace
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFurnace2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFurnace2,
+        }
+    }
+    craftRecipe Make Metal Barrel
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Base.SheetMetal],
+            item 1 [Hydrocraft.HCLargesheetmetal],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalempty,
+        }
+    }
+    craftRecipe Make Propane Tank
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.OnCreatePropaneTank,
+        inputs
+        {
+            item 2 [Base.SheetMetal],
+            item 1 [Hydrocraft.HCLargesheetmetal],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.PropaneTank,
+        }
+    }
+    craftRecipe Make Metal Duct
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 8 [Hydrocraft.HCSteelsheet],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDuct,
+        }
+    }
+    craftRecipe Make Duct Fan
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 6 [Hydrocraft.HCSteelsheet],
+            item 1 [Hydrocraft.HCFanbladesteel],
+            item 1 [Hydrocraft.HCElectromotorsmall],
+            item 1 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDuctfan,
+        }
+    }
+    craftRecipe Make Fan Blade
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCSteelboard],
+            item 1 [Hydrocraft.HCGearsteel],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFanbladesteel,
+        }
+    }
+    craftRecipe Make Metal Casing
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 6 [Base.SheetMetal],
+            item 12 [Hydrocraft.HCSteelrod],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMetalcasing,
+        }
+    }
+    craftRecipe Make Iron Wheel
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCIronrod],
+            item 1 [Hydrocraft.HCMetalringiron],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMetalwheeliron,
+        }
+    }
+    craftRecipe Make Steel Wheel
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 2 [Hydrocraft.HCSteelrod],
+            item 1 [Hydrocraft.HCMetalring],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMetalwheel,
+        }
+    }
+    craftRecipe Make Iron Pulley
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:1,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCMetalwheeliron],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPullyiron,
+        }
+    }
+    craftRecipe Make Steel Pulley
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:1,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCMetalwheel],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPully,
+        }
+    }
+    craftRecipe Make Wood Pulley
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Carpentry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Woodwork:7;Mechanics:1,
+        xpAward = Mechanics:2;Woodwork:2,
+        inputs
+        {
+            item 1 [Base.Woodglue;Hydrocraft.HCWoodgluejar],
+            item 2 [Hydrocraft.HCWoodblock],
+            item 1 [Hydrocraft.HCWoodwheel],
+            item 1 [Base.WoodenStick2],
+            item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPullywood,
+        }
+    }
+    craftRecipe Make Valve
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:1,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Base.Pipe],
+            item 1 [Hydrocraft.HCMetalwheel],
+            item 1 [Base.Screws],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCValve,
+        }
+    }
+    craftRecipe Make Mine Cart
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:2,
+        xpAward = Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCMetalwheel],
+            item 5 [Base.SheetMetal],
+            item 8 [Hydrocraft.HCSteelrod],
+            item 2 [Hydrocraft.HCSteelpole],
+            item 1 [Hydrocraft.HCSteelbeam],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMinecart,
+        }
+    }
+    craftRecipe Make Dissection Table
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 4 [Hydrocraft.HCSteelrod],
+            item 2 [Hydrocraft.HCLargesheetmetal],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDissectiontable,
+        }
+    }
+    craftRecipe Make Giant Magnet
+    {
+        time = 1500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        OnCreate = HCR42.getBurned,
+        inputs
+        {
+            item 3 [Hydrocraft.HCChain],
+            item 10 [Hydrocraft.HCMagnetiteingot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCGiantmagnetmold],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCFurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMagnetgiant,
+        }
+    }
+    craftRecipe Make Small Rolling Mill
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Mechanics:3,
+        xpAward = Mechanics:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCrank],
+            item 2 [Hydrocraft.HCSteelrod],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 4 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRollingmillsmall,
+        }
+    }
+    craftRecipe Make Welding Rods
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.WeldingRods,
+        }
+    }
+    craftRecipe Make Copper Wire
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCopperingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWirecopper,
+        }
+    }
+    craftRecipe Make Electrum Wire
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCElectrumingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.ElectricWire,
+        }
+    }
+    craftRecipe Make Lead Wire
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLeadingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWirelead,
+        }
+    }
+    craftRecipe Make Iron Wire
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIroningot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Wire,
+        }
+    }
+    craftRecipe Make Steel Wire
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWiresteel,
+        }
+    }
+    craftRecipe Make Zinc Wire
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZincingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWirezinc,
+        }
+    }
+    craftRecipe Make Aluminum Wire
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWirealuminum,
+        }
+    }
+    craftRecipe Make Aluminum Foil
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAluminumingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Aluminum,
+        }
+    }
+    craftRecipe Make Constantan Wire
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCConstantaningot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWireconstantan,
+        }
+    }
+    craftRecipe Make Barbed Wire
+    {
+        time = 300,
+        Tags = AnySurfaceCraft,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 5 [Base.Wire],
+            item 5 [Base.Nails],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+        }
+        outputs
+        {
+            item 1 Base.BarbedWire,
+        }
+    }
+    craftRecipe Make Razor Wire
+    {
+        time = 300,
+        Tags = AnySurfaceCraft,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCWiresteel],
+            item 10 [Hydrocraft.HCRazorblade],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWireconcertina,
+        }
+    }
+    craftRecipe Make Constantan Heating Coil
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCConstantaningot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCConstantanheatingcoil,
+        }
+    }
+    craftRecipe Make Nichrome Heating Coil
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNichromeingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNichromeheatingcoil,
+        }
+    }
+    craftRecipe Make Kanthal Heating Coil
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCKanthalingot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCKanthalheatingcoil,
+        }
+    }
+    craftRecipe Make Thermocouple Wire
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCWireconstantan],
+            item 5 [Hydrocraft.HCWirecopper],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWirethermocouple,
+        }
+    }
+    craftRecipe Make Thermocouple
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 5 [Hydrocraft.HCWirethermocouple],
+            item 4 [Base.ElectronicsScrap],
+            item 4 [Base.Screws],
+            item 1 [Hydrocraft.HCCalculator],
+            item 1 [Hydrocraft.HCThermometer],
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermocouple,
+        }
+    }
+    craftRecipe Make Coil
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIronrod],
+            item 8 [Hydrocraft.HCWirecopper],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCoil,
+        }
+    }
+    craftRecipe Make Copper Cable
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1,
+        xpAward = Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRubbervulcanized],
+            item 5 [Hydrocraft.HCWirecopper],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCablecopper,
+        }
+    }
+    craftRecipe Make Solder
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPewteringot],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSolder,
+        }
+    }
+    craftRecipe Make Gigli Saw Handle
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGiglisawhandle,
+        }
+    }
+    craftRecipe Make Selfmade Heater
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Base.SmallSheetMetal],
+            item 1 [Hydrocraft.HCWireconstantan],
+            item 4 [Base.Nails],
+            item 1 [Hydrocraft.HCSwitch],
+            item 1 [Hydrocraft.HCCablecopper;Hydrocraft.HCCoppercablered;Hydrocraft.HCCoppercablestriped],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSelfmadeheater,
+        }
+    }
+    craftRecipe Make Electric Piston
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:1;Mechanics:1,
+        xpAward = Mechanics:2;Electricity:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGearsteel],
+            item 2 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCElectromotorsmall],
+            item 1 [Hydrocraft.HCSteelrod],
+            item 2 [Base.SheetMetal],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPiston,
+        }
+    }
+    craftRecipe Make Macerator
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:5;Mechanics:5,
+        xpAward = Electricity:2;Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCalculator],
+            item 1 [Hydrocraft.HCLedgreen],
+            item 1 [Hydrocraft.HCSwitch],
+            item 3 [Hydrocraft.HCCablecopper],
+            item 2 [Hydrocraft.HCCircutchip],
+            item 1 [Hydrocraft.HCElectromotorsmall],
+            item 6 [Hydrocraft.HCGearsteel],
+            item 2 [Hydrocraft.HCGrinderhead],
+            item 1 [Hydrocraft.HCPiston],
+            item 1 [Hydrocraft.HCMetalcasing],
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Base.Generator],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMacerator,
+        }
+    }
+    craftRecipe Make Steel Chain
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:2,
+        inputs
+        {
+            item 16 [Hydrocraft.HCRingsteel],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCChain,
+        }
+    }
+    craftRecipe Make Industrial Press
+    {
+        time = 5000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:5;Mechanics:5,
+        xpAward = Electricity:2;Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDisplay],
+            item 1 [Hydrocraft.HCCalculator],
+            item 1 [Hydrocraft.HCLedred],
+            item 1 [Hydrocraft.HCSwitch],
+            item 3 [Hydrocraft.HCCablecopper],
+            item 1 [Hydrocraft.HCPowercord],
+            item 2 [Hydrocraft.HCCircutchip],
+            item 2 [Hydrocraft.HCElectromotor],
+            item 1 [Hydrocraft.HCSteelpipe],
+            item 6 [Hydrocraft.HCGearsteel],
+            item 4 [Hydrocraft.HCPiston],
+            item 3 [Hydrocraft.HCSteelsheet],
+            item 2 [Hydrocraft.HCSteelsheetlarge],
+            item 2 [Base.SheetMetal],
+            item 6 [Hydrocraft.HCLargesheetmetal],
+            item 2 [Hydrocraft.HCTitaniumsheetlarge],
+            item 4 [Hydrocraft.HCTitaniumrod],
+            item 4 [Hydrocraft.HCSteelpole],
+            item 8 [Hydrocraft.HCBolt],
+            item 8 [Hydrocraft.HCNut],
+            item 1 [Hydrocraft.HCWrench] mode:keep,
+            item 1 [Base.Screwdriver] mode:keep,
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Base.Generator],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCIndustrialpress,
+        }
+    }
+    craftRecipe Build Arc Furnace
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Electricity:4;Mechanics:6,
+        xpAward = Electricity:2;Mechanics:2;MetalWelding:2,
+        inputs
+        {
+            item 1 [Base.Generator],
+            item 6 [Hydrocraft.HCCablecopper],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 12 [Hydrocraft.HCRefractorybrick],
+            item 48 [Base.Sandbag],
+            item 12 [Base.EmptySandbag],
+            item 3 [Hydrocraft.HCGraphiterod],
+            item 1 [Hydrocraft.HCSteelrod],
+            item 4 [Hydrocraft.HCSteelpole],
+            item 1 [Hydrocraft.HCMetalwheel],
+            item 1 [Hydrocraft.HCWeldingset],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
+            item 1 [Hydrocraft.HCSolder],
+            item 1 [Hydrocraft.HCSoldergunpowered],
+            item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
+            item 1 [Base.BucketEmpty;Hydrocraft.HCWoodenbucket] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFurnacearc,
+        }
+    }
+    craftRecipe Anchor Arc Furnace
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFurnacearc],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFurnacearc2,
+        }
+    }
+}

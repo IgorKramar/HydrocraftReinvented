@@ -1,0 +1,276 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCPapercrane
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Paper Crane,
+        icon 			= HCPapercrane,
+		DisplayCategory	= Toy,
+    }
+    item HCPaperairplane
+    {
+
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Airplane,
+        icon 			= HCPaperairplane,
+		DisplayCategory	= Toy,
+    }
+    item HCRagball
+    {
+
+        Weight    	=    0.1,
+        Type    	=    Normal,
+        DisplayName    	=    Rag Ball,
+        Icon    	=    HCRagball,
+		DisplayCategory	= Toy,
+    }
+    item HCPulp
+    {
+
+        Weight    	=    0.1,
+        Type    	=    Normal,
+        DisplayName    	=    Pulp,
+        Icon    	=    HCPulp,
+		DisplayCategory	= CraftMisc,
+    }
+    item HCNetting
+    {
+
+        Weight    	=    0.1,
+        Type    	=    Normal,
+        DisplayName    	=    Netting,
+        Icon    	=    HCNetting,
+		DisplayCategory	= CraftMisc,
+    }
+    item HCPaperscreen
+    {
+
+        Weight    	=    0.2,
+        Type    	=    Normal,
+        DisplayName    	=    Paper Screen,
+        Icon    	=    HCPaperscreen,
+		DisplayCategory	= CraftMisc,
+    }
+    item HCPaperscreenwet
+    {
+
+        Weight    	=    0.4,
+        Type    	=    Normal,
+        DisplayName    	=    Wet Paper Screen,
+        Icon    	=    HCPaperscreenwet,
+		DisplayCategory	= CraftMisc,
+    }
+    item HCPaperscreendry
+    {
+
+        Weight    	=    0.3,
+        Type    	=    Normal,
+        DisplayName    	=    Dry Paper Screen,
+        Icon    	=    HCPaperscreendry,
+		DisplayCategory	= CraftMisc,
+    }
+    item HCQuill
+    {
+
+        Weight    		= 0.1,
+	Type 			= Drainable,
+	UseDelta 		= 1.00,
+        DisplayName         	= Quill,
+        icon 			= HCQuill,
+		DisplayCategory	= CraftMisc,
+    }
+    item HCBlackink
+    {
+
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 1.00,
+        DisplayName         	= Ink Well,
+        icon 			= HCInkwell1,
+	ReplaceOnDeplete    = HCBlackink0,
+		DisplayCategory	= CraftMisc,
+    }
+    item HCBlackink0
+    {
+
+        Weight    		= 0.1,
+	Type 			= Normal,
+        DisplayName         	= Empty Ink Well,
+        icon 			= HCInkwell0,
+		DisplayCategory	= CraftMisc,
+    }
+    craftRecipe Fold Paper
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPapercrane,
+        }
+    }
+    craftRecipe Fold Paper
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Leisure,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.SheetPaper2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPaperairplane,
+        }
+    }
+    craftRecipe Make Rag Ball
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Papercraft,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 3 [Base.RippedSheets],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRagball,
+        }
+    }
+    craftRecipe Make Pulp
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft,
+        category = Papercraft,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRagball],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCTriphammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPulp,
+        }
+    }
+    craftRecipe Make Netting
+    {
+        time = 500,
+        Tags = AnySurfaceCraft,
+        category = Weaving,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Tailoring:1,
+        inputs
+        {
+            item 3 [Hydrocraft.HCRopethin],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNetting,
+        }
+    }
+    craftRecipe Make Paper Screen
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Papercraft,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNetting],
+            item 4 [Base.WoodenStick2],
+            item 2 [Base.Nails],
+            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPaperscreen,
+        }
+    }
+    craftRecipe Put Pulp onto Paper Screen
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft,
+        category = Papercraft,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPulp],
+            item 1 [Hydrocraft.HCPaperscreen],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPaperscreenwet,
+        }
+    }
+    craftRecipe Dry Pulp
+    {
+        time = 2000,
+        Tags = AnySurfaceCraft,
+        category = Papercraft,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaperscreenwet],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPaperscreendry,
+        }
+    }
+    craftRecipe Remove Paper Screen
+    {
+        time = 20,
+        Tags = AnySurfaceCraft,
+        category = Papercraft,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        OnCreate = HCR42.recipe_hcpaperscreen,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPaperscreendry],
+            item 1 [Hydrocraft.HCRuler] mode:keep,
+            item 1 [Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors;Hydrocraft.HCBoxcutter;Base.Scalpel;Hydrocraft.HCJackknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.SheetPaper2,
+        }
+    }
+    craftRecipe Make Quill
+    {
+        time = 100,
+        Tags = AnySurfaceCraft,
+        category = Papercraft,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBlackfeathers;Hydrocraft.HCWhitefeathers;Hydrocraft.HCBrownfeathers;Hydrocraft.HCStripedfeather;Hydrocraft.HCBluejayfeather],
+            item 1 [Hydrocraft.HCPliers] mode:keep,
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCQuill,
+        }
+    }
+}

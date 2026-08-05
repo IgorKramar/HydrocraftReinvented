@@ -1,0 +1,1616 @@
+module Hydrocraft
+{
+    imports { Base }
+    item HCSlicedapple
+    {
+
+	HungerChange			=	-5,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Sliced Apple,
+	Icon				=	HCSlicedapple,
+	DaysFresh			=	5,
+	DaysTotallyRotten		=	8,
+	EvolvedRecipe 			= 	Salad:5;Cake:4,
+	FoodType    			=  	Fruits,        	
+	Carbohydrates 			= 	14,
+        Proteins			= 	0.3,
+        Lipids 				= 	0.2,
+        Calories 			= 	52,
+		DisplayCategory		=   FoodP,
+    }
+    item HCSlicedorange
+    {
+
+	HungerChange			=	-5,
+	ThirstChange			=	-5,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Sliced Orange,
+	Icon				=	HCSlicedorange,
+	DaysFresh			=	5,
+	DaysTotallyRotten		=	8,
+	EvolvedRecipe 			= 	Salad:5;Cake:4,
+	FoodType    			=  	Fruits,        	
+	Carbohydrates 			= 	13,
+        Proteins			= 	0.9,
+        Lipids 				= 	0.2,
+        Calories 			= 	49,
+		DisplayCategory		=   FoodP,
+    }
+    item HCSlicedlemon
+    {
+
+	HungerChange			=	-5,
+	ThirstChange			=	-5,
+	Weight 				= 	0.1,
+	Type 				= 	Food,
+	DisplayName 			= 	Sliced Lemon,
+	Icon 				= 	HCSlicedlemon,
+	DaysFresh 			= 	5,
+	DaysTotallyRotten 		= 	8,
+	EvolvedRecipe 			= 	Salad:5;Cake:4,
+	FoodType    			=  	Fruits,        	
+	Carbohydrates 			= 	16,
+        Proteins			= 	1.5,
+        Lipids 				= 	0.3,
+        Calories 			= 	47,
+		DisplayCategory		=   FoodP,
+    }
+    item HCSlicedlime
+    {
+
+	HungerChange			=	-5,
+	ThirstChange			=	-5,
+	Weight 				= 	0.1,
+	Type 				= 	Food,
+	DisplayName 			= 	Sliced Lime,
+	Icon 				= 	HCSlicedlime,
+	DaysFresh 			= 	5,
+	DaysTotallyRotten 		= 	8,
+	EvolvedRecipe 			= 	Salad:5;Cake:4,
+	FoodType    			=  	Fruits,        	
+	Carbohydrates 			= 	11,
+        Proteins			= 	0.7,
+        Lipids 				= 	0.2,
+        Calories 			= 	30,
+		DisplayCategory		=   FoodP,
+    }
+    item HCLemonjuicebottle
+    {
+
+	Weight				=	0.1,
+	Type 				= 	Drainable,
+	UseDelta 			= 	0.25,
+	DisplayName			=	Bottle of Lemon Juice,
+	Icon				=	HCLemonjuicebottle,
+		DisplayCategory		=   FoodS,
+    }
+    item HCLemonjuicebowl
+    {
+
+	HungerChange			=	-5,
+	ThirstChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Bowl of Lemon Juice,
+	Icon				=	HCLemonjuicebowl,
+	ReplaceOnUse			=	Bowl,
+	DaysFresh			=	5,
+	DaysTotallyRotten		=	8,
+	FoodType    			=  	NoExplicit,        	
+	Carbohydrates 			= 	6.9,
+        Proteins			= 	0.4,
+        Lipids 				= 	0.2,
+        Calories 			= 	22,
+		DisplayCategory		=   FoodP,
+    }
+    item HCLimejuicebottle
+    {
+
+	Weight				=	0.1,
+	Type 				= 	Drainable,
+	UseDelta 			= 	0.25,
+	DisplayName			=	Bottle of Lime Juice,
+	Icon				=	HCLimejuicebottle,
+		DisplayCategory		=   FoodS,
+    }
+    item HCLimejuicebowl
+    {
+
+	HungerChange			=	-5,
+	ThirstChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Bowl of Lime Juice,
+	Icon				=	HCLimejuicebowl,
+	ReplaceOnUse			=	Bowl,
+	DaysFresh			=	5,
+	DaysTotallyRotten		=	8,
+	FoodType    			=  	NoExplicit,        	
+	Carbohydrates 			= 	8.4,
+        Proteins			= 	0.4,
+        Lipids 				= 	0.1,
+        Calories 			= 	25,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedappletray
+    {
+
+		HungerChange		=	-5,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Apple Slices,
+		Icon				=	HCDryingapple,
+		DaysFresh			=	1,
+		DaysTotallyRotten	=	1,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	FALSE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		ReplaceOnUse		=	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	14,
+		Proteins			= 	0.3,
+		Lipids 				= 	0.2,
+		Calories 			= 	52,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedapple
+    {
+
+		HungerChange		=	-5,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.6,
+		Type				=	Food,
+		ReplaceOnUse		=	BakingTray,
+		DisplayName			=	Dried Apple Slices,
+		Icon				=	HCDriedapple,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	14,
+		Proteins			= 	0.3,
+		Lipids 				= 	0.2,
+		Calories 			= 	52,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedapplebag
+    {
+
+		HungerChange		=	-5,	
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.1,
+		Type				=	Food,
+		ReplaceOnUse		=	HCZipperbag,
+		DisplayName			=	Bag of Dried Apple Slices,
+		Icon				=	HCDriedapplebag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	14,
+		Proteins			= 	0.3,
+		Lipids 				= 	0.2,
+		Calories 			= 	52,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedpeachtray
+    {
+
+		HungerChange		=	-5,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Peach Slices,
+		Icon				=	HCDryingpeach,
+		DaysFresh			=	1,
+		DaysTotallyRotten	=	1,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	FALSE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		ReplaceOnUse		=	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	9.5,
+		Proteins			= 	0.9,
+		Lipids 				= 	0.3,
+		Calories 			= 	39,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedpeach
+    {
+
+		HungerChange		=	-5,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.6,
+		Type				=	Food,
+		ReplaceOnUse		=	BakingTray,
+		DisplayName			=	Dried Peach Slices,
+		Icon				=	HCDriedpeach,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	9.5,
+		Proteins			= 	0.9,
+		Lipids 				= 	0.3,
+		Calories 			= 	39,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedpeachbag
+    {
+
+		HungerChange		=	-5,	
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.5,
+		Type				=	Food,
+		ReplaceOnUse		=	HCZipperbag,
+		DisplayName			=	Bag of Dried Peach Slices,
+		Icon				=	HCDriedpeachbag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	9.5,
+		Proteins			= 	0.9,
+		Lipids 				= 	0.3,
+		Calories 			= 	39,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedorangetray
+    {
+
+		HungerChange		=	-5,
+		ThirstChange		=	-20,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Orange Slices,
+		Icon				=	HCDryingorange,
+		DaysFresh			=	1,
+		DaysTotallyRotten	=	1,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	FALSE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		ReplaceOnUse		=	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	13,
+		Proteins			= 	0.9,
+		Lipids 				= 	0.2,
+		Calories 			= 	49,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedorange
+    {
+
+		HungerChange		=	-5,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.6,
+		Type				=	Food,
+		ReplaceOnUse		=	BakingTray,
+		DisplayName			=	Dried Orange Slices,
+		Icon				=	HCDriedorange,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	13,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	13,
+        Proteins			= 	0.9,
+		Lipids 				= 	0.2,
+		Calories 			= 	49,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedorangebag
+    {
+
+		HungerChange		=	-5,	
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.1,
+		Type				=	Food,
+		ReplaceOnUse		=	HCZipperbag,
+		DisplayName			=	Bag of Dried Orange Slices,
+		Icon				=	HCDriedorangebag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	13,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	13,
+		Proteins			= 	0.9,
+		Lipids 				= 	0.2,
+		Calories 			= 	49,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedlemontray
+    {
+
+		HungerChange 		= 	-5,
+		Weight 				= 	0.6,
+		Type 				= 	Food,
+		DisplayName 		= 	Tray with Lemon Slices,
+		Icon 				= 	HCDryinglemon,
+		DaysFresh 			= 	1,
+		DaysTotallyRotten 	= 	1,
+		IsCookable 			= 	TRUE,
+		DangerousUncooked 	= 	FALSE,
+		MinutesToCook 		= 	40,
+		MinutesToBurn 		= 	60,
+		ReplaceOnUse 		= 	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	16,
+		Proteins			= 	1.5,
+		Lipids 				= 	0.3,
+		Calories 			= 	47,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedlemon
+    {
+
+		HungerChange 		= 	-5,
+		BoredomChange 		= 	-5,
+		Weight 				= 	0.6,
+		Type 				= 	Food,
+		ReplaceOnUse 		= 	BakingTray,
+		DisplayName 		= 	Dried Lemon Slices,
+		Icon 				= 	HCDriedlemon,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	16,
+		Proteins			= 	1.5,
+		Lipids 				= 	0.3,
+		Calories 			= 	47,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedlemonbag
+    {
+
+		HungerChange 		= 	-5,
+		BoredomChange 		= 	-10,
+		UnhappyChange 		= 	-15,
+		Weight 				= 	0.1,
+		Type 				= 	Food,
+		ReplaceOnUse 		= 	HCZipperbag,
+		DisplayName 		= 	Bag of Dried Lemon Slices,
+		Icon 				= 	HCDriedlemonbag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	16,
+		Proteins			= 	1.5,
+		Lipids 				= 	0.3,
+		Calories 			= 	47,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedlimetray
+    {
+
+		HungerChange 		= 	-5,
+		Weight 				= 	0.6,
+		Type 				= 	Food,
+		DisplayName 		= 	Tray with Lime Slices,
+		Icon 				= 	HCDryinglime,
+		DaysFresh 			= 	1,
+		DaysTotallyRotten 	= 	1,
+		IsCookable 			= 	TRUE,
+		DangerousUncooked 	= 	FALSE,
+		MinutesToCook 		= 	40,
+		MinutesToBurn 		= 	60,
+		ReplaceOnUse 		= 	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	11,
+		Proteins			= 	0.7,
+		Lipids 				= 	0.2,
+		Calories 			= 	30,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedlime
+    {
+
+		HungerChange 		= 	-5,
+		BoredomChange 		= 	-5,
+		Weight 				= 	0.6,
+		Type 				= 	Food,
+		ReplaceOnUse 		= 	BakingTray,
+		DisplayName 		= 	Dried Lime Slices,
+		Icon 				= 	HCDriedlime,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	11,
+		Proteins			= 	0.7,
+		Lipids 				= 	0.2,
+		Calories 			= 	30,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedlimebag
+    {
+
+		HungerChange 		= 	-5,
+		BoredomChange 		= 	-10,
+		UnhappyChange 		= 	-5,
+		Weight 				= 	0.1,
+		Type 				= 	Food,
+		ReplaceOnUse 		= 	HCZipperbag,
+		DisplayName 		= 	Bag of Dried Lime Slices,
+		Icon 				= 	HCDriedlimebag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	11,
+		Proteins			= 	0.7,
+		Lipids 				= 	0.2,
+		Calories 			= 	30,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedbananachipstray
+    {
+
+		HungerChange		=	-5,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Banana Chips,
+		Icon				=	HCDryingbananachips,
+		DaysFresh			=	2,
+		DaysTotallyRotten	=	6,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	FALSE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		ReplaceOnUse		=	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	23,
+		Proteins			= 	1.1,
+		Lipids 				= 	0.1,
+		Calories 			= 	89,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedbananachips
+    {
+
+		HungerChange		=	-5,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.6,
+		Type				=	Food,
+		ReplaceOnUse		=	BakingTray,
+		DisplayName			=	Dried Banana Chips,
+		Icon				=	HCDriedbananachips,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	23,
+		Proteins			= 	1.1,
+		Lipids 				= 	0.1,
+		Calories 			= 	89,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedbananachipsbag
+    {
+
+		HungerChange		=	-5,	
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.1,
+		Type				=	Food,
+		ReplaceOnUse		=	HCZipperbag,
+		DisplayName			=	Bag of Dried Banana Chips,
+		Icon				=	HCDriedbananachipsbag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	23,
+		Proteins			= 	1.1,
+		Lipids 				= 	0.1,
+		Calories 			= 	89,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedstrawberrytray
+    {
+
+		HungerChange		=	-5,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Strawberry Slices,
+		Icon				=	HCDryingstrawberry,
+		DaysFresh			=	1,
+		DaysTotallyRotten	=	1,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	FALSE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		ReplaceOnUse		=	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	7.7,
+		Proteins			= 	0.7,
+		Lipids 				= 	0.3,
+		Calories 			= 	32,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedstrawberryslices
+    {
+
+		HungerChange		=	-5,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.6,
+		Type				=	Food,
+		ReplaceOnUse		=	BakingTray,
+		DisplayName			=	Dried Strawberry Slices,
+		Icon				=	HCDriedstrawberry,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	7.7,
+		Proteins			= 	0.7,
+		Lipids 				= 	0.3,
+		Calories 			= 	32,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedstrawberryslicesbag
+    {
+
+		HungerChange		=	-5,	
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.1,
+		Type				=	Food,
+		ReplaceOnUse		=	HCZipperbag,
+		DisplayName			=	Bag of Dried Strawberry Slices,
+		Icon				=	HCDriedstrawberrybag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	7.7,
+		Proteins			= 	0.7,
+		Lipids 				= 	0.3,
+		Calories 			= 	32,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedberriestray
+    {
+
+		HungerChange		=	-5,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Berries,
+		Icon				=	HCDriedberries,
+		DaysFresh			=	1,
+		DaysTotallyRotten	=	1,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	FALSE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		ReplaceOnUse		=	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	14,
+		Proteins			= 	0.7,
+		Lipids 				= 	0.3,
+		Calories 			= 	57,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedberries
+    {
+
+		HungerChange		=	-5,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.6,
+		Type				=	Food,
+		ReplaceOnUse		=	BakingTray,
+		DisplayName			=	Dried Berries,
+		Icon				=	HCDriedberries,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	14,
+		Proteins			= 	0.7,
+		Lipids 				= 	0.3,
+		Calories 			= 	57,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedberriesbag
+    {
+
+		HungerChange		=	-5,	
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.1,
+		Type				=	Food,
+		ReplaceOnUse		=	HCZipperbag,
+		DisplayName			=	Bag of Dried Berries,
+		Icon				=	HCDriedberriesbag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	14,
+		Proteins			= 	0.7,
+		Lipids 				= 	0.3,
+		Calories 			= 	57,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedtomatotray
+    {
+
+		HungerChange		=	-5,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Tomato Slices,
+		Icon				=	HCDryingtomato,
+		DaysFresh			=	1,
+		DaysTotallyRotten	=	1,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	FALSE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		ReplaceOnUse		=	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	3.9,
+		Proteins			= 	0.9,
+		Lipids 				= 	0.2,
+		Calories 			= 	18,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedtomato
+    {
+
+		HungerChange		=	-5,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.6,
+		Type				=	Food,
+		ReplaceOnUse		=	BakingTray,
+		DisplayName			=	Dried Tomato Slices,
+		Icon				=	HCDriedtomato,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	3.9,
+		Proteins			= 	0.9,
+		Lipids 				= 	0.2,
+		Calories 			= 	18,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedtomatobag
+    {
+
+		HungerChange		=	-5,	
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.1,
+		Type				=	Food,
+		ReplaceOnUse		=	HCZipperbag,
+		DisplayName			=	Bag of Dried Tomatoes,
+		Icon				=	HCDriedtomatobag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	3.9,
+		Proteins			= 	0.9,
+		Lipids 				= 	0.2,
+		Calories 			= 	18,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedpumpkinseedstray
+    {
+
+		HungerChange		=	-5,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Pumpkin Seeds,
+		Icon				=	HCDryingpumpkinseeds,
+		DaysFresh			=	1,
+		DaysTotallyRotten	=	1,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	FALSE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		ReplaceOnUse		=	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	1.1,
+		Proteins			= 	3,
+		Lipids 				= 	4.9,
+		Calories 			= 	56,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedpumpkinseeds
+    {
+
+		HungerChange		=	-5,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.6,
+		Type				=	Food,
+		ReplaceOnUse		=	BakingTray,
+		DisplayName			=	Dried Pumpkin Seeds,
+		Icon				=	HCDriedpumpkinseeds,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	1.1,
+		Proteins			= 	3,
+		Lipids 				= 	4.9,
+		Calories 			= 	56,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedpumpkinseedsbag
+    {
+
+		HungerChange		=	-5,	
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.1,
+		Type				=	Food,
+		ReplaceOnUse		=	HCZipperbag,
+		DisplayName			=	Bag of Dried Pumpkin Seeds,
+		Icon				=	HCDriedpumpkinseedsbag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	1.1,
+		Proteins			= 	3,
+		Lipids 				= 	4.9,
+		Calories 			= 	56,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedrasinstray
+    {
+
+		HungerChange		=	-5,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Rasins,
+		Icon				=	HCDryingrasins,
+		DaysFresh			=	2,
+		DaysTotallyRotten	=	6,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	FALSE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		ReplaceOnUse		=	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	17,
+		Proteins			= 	0.6,
+		Lipids 				= 	0.4,
+		Calories 			= 	67,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedrasins
+    {
+
+		HungerChange		=	-5,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.6,
+		Type				=	Food,
+		ReplaceOnUse		=	BakingTray,
+		DisplayName			=	Dried Rasins,
+		Icon				=	HCDriedrasins,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	17,
+		Proteins			= 	0.6,
+		Lipids 				= 	0.4,
+		Calories 			= 	67,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedrasinsbag
+    {
+
+		HungerChange		=	-5,	
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.1,
+		Type				=	Food,
+		ReplaceOnUse		=	HCZipperbag,
+		DisplayName			=	Bag of Rasins,
+		Icon				=	HCDriedrasinsbag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	17,
+		Proteins			= 	0.6,
+		Lipids 				= 	0.4,
+		Calories 			= 	67,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedcrasinstray
+    {
+
+		HungerChange		=	-5,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Crasins,
+		Icon				=	HCDryingcrasins,
+		DaysFresh			=	2,
+		DaysTotallyRotten	=	6,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	FALSE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		ReplaceOnUse		=	BakingTray,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	12,
+		Proteins			= 	0.5,
+		Lipids 				= 	0.1,
+		Calories 			= 	46,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedcrasins
+    {
+
+		HungerChange		=	-5,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.6,
+		Type				=	Food,
+		ReplaceOnUse		=	BakingTray,
+		DisplayName			=	Dried Crasins,
+		Icon				=	HCDriedcrasins,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	12,
+		Proteins			= 	0.5,
+		Lipids 				= 	0.1,
+		Calories 			= 	46,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedcrasinsbag
+    {
+
+		HungerChange		=	-5,	
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	0.1,
+		Type				=	Food,
+		ReplaceOnUse		=	HCZipperbag,
+		DisplayName			=	Bag of Crasins,
+		Icon				=	HCDriedcrasinsbag,
+		FoodType    		=  	Fruits,        	
+		Carbohydrates 		= 	12,
+		Proteins			= 	0.5,
+		Lipids 				= 	0.1,
+		Calories 			= 	46,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedfruittray
+    {
+
+		HungerChange		=	-15,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Chopped Fruit,
+		Icon				=	HCBakingtrayfruit,
+		UnhappyChange		=	-5,
+		ReplaceOnUse		=	BakingTray,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	20,
+		DaysTotallyRotten	=	3,
+		DaysFresh 			= 	1,
+		Carbohydrates 		= 	40,
+		Proteins 			= 	2,
+		Lipids 				= 	0,
+		Calories 			= 	168,
+		DisplayCategory		=   FoodP,
+    }
+    item HCDriedfruit
+    {
+
+		HungerChange		=	-20,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Tray with Dried Fruit,
+		Icon				=	HCBakingtraydriedfruit,
+		ReplaceOnUse		=	BakingTray,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	0,
+		MinutesToBurn		=	20,
+		UnhappyChange		=	-15,
+		FatigueChange		=	-5,
+		Carbohydrates 		= 	20,
+		Proteins 			= 	0,
+		Lipids 				= 	0,
+		Calories 			= 	80,
+		DisplayCategory		=   FoodN,
+    }
+    item HCDriedfruit
+    {
+
+		HungerChange		=	-20,
+		Weight				=	0.1,
+		Type				=	Food,
+		UnhappyChange		=	-15,
+		FatigueChange		=	-5,
+		DisplayName			=	Dried Fruit,
+		Icon				=	HCDriedfruit,
+		Carbohydrates 		= 	20,
+		Proteins 			= 	0,
+		Lipids 				= 	0,
+		Calories 			= 	80,
+		DisplayCategory		=   FoodN,
+    }
+    craftRecipe Slice Apple
+    {
+        time = 35,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Apple],
+            item 1 [Base.KitchenKnife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSlicedapple,
+        }
+    }
+    craftRecipe Slice Orange
+    {
+        time = 35,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Orange],
+            item 1 [Base.KitchenKnife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSlicedorange,
+        }
+    }
+    craftRecipe Slice Lemon
+    {
+        time = 35,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Lemon],
+            item 1 [Base.KitchenKnife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSlicedlemon,
+        }
+    }
+    craftRecipe Slice Lime
+    {
+        time = 35,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLime],
+            item 1 [Base.KitchenKnife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSlicedlime,
+        }
+    }
+    craftRecipe Make Lemon Juice
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:2,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
+            item 4 [Base.Lemon],
+            item 1 [Base.Bowl] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLemonjuicebowl,
+        }
+    }
+    craftRecipe Make Lime Juice
+    {
+        time = 40,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:2,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
+            item 4 [Hydrocraft.HCLime],
+            item 1 [Base.Bowl] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLimejuicebowl,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+            item 4 [Hydrocraft.HCSlicedapple],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedappletray,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+            item 1 [Base.Apple],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedappletray,
+        }
+    }
+    craftRecipe Store Dried Fruit in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedappletray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedapplebag,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+            item 1 [Base.Peach],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedpeachtray,
+        }
+    }
+    craftRecipe Store Dried Fruit in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedpeachtray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedpeachbag,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 4 [Hydrocraft.HCSlicedorange],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedorangetray,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Base.Orange],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedorangetray,
+        }
+    }
+    craftRecipe Store Dried Fruit in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedorangetray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedorangebag,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 4 [Hydrocraft.HCSlicedlemon],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedlemontray,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Base.Lemon],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedlemontray,
+        }
+    }
+    craftRecipe Store Dried Fruit in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedlemontray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedlemonbag,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 4 [Hydrocraft.HCSlicedlime],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedlimetray,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Hydrocraft.HCLime],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedlimetray,
+        }
+    }
+    craftRecipe Store Dried Fruit in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedlimetray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedlimebag,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Base.Banana],
+            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedbananachipstray,
+        }
+    }
+    craftRecipe Store Dried Fruit in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedbananachipstray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedbananachipsbag,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+            item 3 [Base.Strewberrie],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedstrawberrytray,
+        }
+    }
+    craftRecipe Store Dried Fruit in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedstrawberrytray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedstrawberryslicesbag,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+            item 1 [Hydrocraft.HCBunchofberries],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedberriestray,
+        }
+    }
+    craftRecipe Store Dried Fruit in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedberriestray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedberriesbag,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Base.Salt],
+            item 4 [Hydrocraft.HCSlicedtomato],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedtomatotray,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Base.KitchenKnife] mode:keep,
+            item 1 [Base.Salt],
+            item 1 [Base.Tomato],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedtomatotray,
+        }
+    }
+    craftRecipe Store Dried Fruit in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedtomatotray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedtomatobag,
+        }
+    }
+    craftRecipe Dry Seeds
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Base.Salt],
+            item 1 [Hydrocraft.HCPumpkinseeds],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedpumpkinseedstray,
+        }
+    }
+    craftRecipe Store Dried Seeds in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedpumpkinseedstray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedpumpkinseedsbag,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 1 [Base.Grapes],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedrasinstray,
+        }
+    }
+    craftRecipe Store Dried Fruit in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedrasinstray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedrasinsbag,
+        }
+    }
+    craftRecipe Dry Fruit
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.HCRecipeBowls,
+        inputs
+        {
+            item 1 [Base.BakingTray],
+            item 3 [Hydrocraft.HCCranberry],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedcrasinstray,
+        }
+    }
+    craftRecipe Store Dried Fruit in Bag
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCDriedcrasinstray],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedcrasinsbag,
+        }
+    }
+    craftRecipe Make Baking Tray With Chopped Fruit
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 2 [Base.Cherry],
+            item 1 [Base.Orange],
+            item 1 [Base.Apple],
+            item 1 [Base.Banana],
+            item 1 [Base.BakingTray],
+            item 1 [Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDriedfruittray,
+        }
+    }
+    craftRecipe Remove Dried Fruit From Baking Tray
+    {
+        time = 60,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:2,
+        OnCreate = HCR42.recipe_hcbakingtray,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDriedfruittray],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCDriedfruit,
+        }
+    }
+}

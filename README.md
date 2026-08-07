@@ -1,3 +1,5 @@
+![Hydrocraft Reinvented](banner.jpg)
+
 # Hydrocraft Reinvented [B42]
 
 Порт классического мега-мода **Hydrocraft** (B41) на Project Zomboid **Build 42.20+**.

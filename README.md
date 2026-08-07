@@ -5,7 +5,9 @@
 Порт классического мега-мода **Hydrocraft** (B41) на Project Zomboid **Build 42.20+**.
 Оригинал: [Hydromancerx](https://github.com/Hydrocraft/Hydrocraft); поддержка B41: Hydrocraft Continued team. Порт на B42: **hombrehumor**.
 
-*English version below.*
+[Мастерская Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) · [Сборка ZZZ Industrial Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259) · [История версий](CHANGELOG.md) · [Дорожная карта](ROADMAP.md)
+
+*English version below. Links: [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) · [Changelog](CHANGELOG.md) · [Roadmap](ROADMAP.md)*
 
 ---
 

@@ -879,7 +879,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCCopperore],
@@ -896,7 +896,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -915,7 +915,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCTinore],
@@ -932,7 +932,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -951,7 +951,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCLeadore],
@@ -968,7 +968,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -987,7 +987,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCIronore],
@@ -1004,7 +1004,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1023,7 +1023,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMagnetite],
@@ -1040,7 +1040,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1059,7 +1059,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMeteorite],
@@ -1076,7 +1076,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1095,7 +1095,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCSilverore],
@@ -1112,7 +1112,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1131,7 +1131,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCGoldore],
@@ -1148,7 +1148,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1167,7 +1167,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCBauxiteore],
@@ -1184,7 +1184,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1203,7 +1203,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCZincore],
@@ -1220,7 +1220,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1239,7 +1239,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCNickelore],
@@ -1256,7 +1256,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1275,7 +1275,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCCobaltore],
@@ -1292,7 +1292,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1311,7 +1311,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCChromeore],
@@ -1328,7 +1328,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1383,7 +1383,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1456,7 +1456,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCLithiumore],
@@ -1473,7 +1473,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:1,
+        xpAward = MetalWelding:10,
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
@@ -1906,7 +1906,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.hcammoniamaking,
         inputs
         {
@@ -1928,7 +1928,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.hcdryammoniarecipe,
         inputs
         {
@@ -1947,7 +1947,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCAmmonaltray],
@@ -1966,7 +1966,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         OnCreate = HCR42.hcfillammoniarecipe,
         inputs
         {
@@ -2022,7 +2022,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCSulphurpowder],
@@ -2042,7 +2042,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 200 [Base.GunPowder],
@@ -2115,7 +2115,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucketwater] mode:destroy,
@@ -2135,7 +2135,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 4 [Hydrocraft.HCTallow],
@@ -2158,7 +2158,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcbeakerbottle,
         inputs
         {
@@ -2182,7 +2182,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcbeakerbottle,
         inputs
         {
@@ -2288,7 +2288,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 2 [Hydrocraft.HCChalkrock],
@@ -2389,7 +2389,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcgetbeaker,
         inputs
         {
@@ -2431,7 +2431,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Base.Plank],
@@ -2532,7 +2532,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 4 [Hydrocraft.HCHaircolorblond],
@@ -2553,7 +2553,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCBeakerh2o2],
@@ -2641,7 +2641,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCBeakerh2o2cooled],
@@ -2663,7 +2663,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCBeakerh2o2hexa],
@@ -2686,7 +2686,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCBeakerh2o2hexacooled],
@@ -2708,7 +2708,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCBeakerh2o2hexacitricacid],
@@ -2731,7 +2731,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcgetbeaker,
         inputs
         {
@@ -2753,7 +2753,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCCoffeefilterwet],
@@ -2770,7 +2770,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCHmtdcrystals],
@@ -2843,7 +2843,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         OnCreate = HCR42.recipe_hcgetbeaker,
         inputs
         {
@@ -2865,7 +2865,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcgetballoonandhose,
         inputs
         {
@@ -2886,7 +2886,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCGlassbeaker],

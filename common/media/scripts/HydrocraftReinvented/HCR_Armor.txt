@@ -1209,7 +1209,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Tailoring:2,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:7,
         inputs
         {
             item 2 [Hydrocraft.HCLeatherhard],
@@ -1261,7 +1261,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCSteelingot],
@@ -1281,7 +1281,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCIroningot],
@@ -1301,7 +1301,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCBronzeingot],
@@ -1321,7 +1321,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCCopperingot],
@@ -1341,7 +1341,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 8 [Hydrocraft.HCRingsteel],
@@ -1361,7 +1361,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCSteelingot],
@@ -1381,7 +1381,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCIroningot],
@@ -1401,7 +1401,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCBronzeingot],
@@ -1421,7 +1421,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCCopperingot],
@@ -1442,7 +1442,7 @@ module Hydrocraft
         category = Armor,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:7,
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
@@ -1462,7 +1462,7 @@ module Hydrocraft
         category = Tailoring,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:7,
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
@@ -1481,7 +1481,7 @@ module Hydrocraft
         category = Tailoring,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:7,
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
@@ -1499,7 +1499,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCSteelingot],
@@ -1519,7 +1519,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCIroningot],
@@ -1539,7 +1539,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCBronzeingot],
@@ -1559,7 +1559,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCCopperingot],
@@ -1579,7 +1579,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 2 [Hydrocraft.HCLeatherhard],
@@ -1598,7 +1598,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
@@ -1618,7 +1618,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 2 [Hydrocraft.HCLeatherhard],
@@ -1637,7 +1637,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
@@ -1656,7 +1656,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 2 [Hydrocraft.HCAnimalfurdried],
@@ -1675,7 +1675,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
@@ -1778,7 +1778,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 16 [Hydrocraft.HCRingsteel],
@@ -1798,7 +1798,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 4 [Hydrocraft.HCSteelingot],
@@ -1818,7 +1818,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 5 [Hydrocraft.HCSteelingot],
@@ -1838,7 +1838,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 5 [Hydrocraft.HCIroningot],
@@ -1858,7 +1858,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 5 [Hydrocraft.HCBronzeingot],
@@ -1878,7 +1878,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 5 [Hydrocraft.HCCopperingot],
@@ -1898,7 +1898,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 4 [Hydrocraft.HCLeatherhard],
@@ -1917,7 +1917,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 4 [Hydrocraft.HCLeather],
@@ -1937,7 +1937,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 4 [Hydrocraft.HCLeatherhard],
@@ -1956,7 +1956,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 4 [Hydrocraft.HCLeather],
@@ -1993,7 +1993,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
@@ -2099,7 +2099,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 16 [Hydrocraft.HCRingsteel],
@@ -2119,7 +2119,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 4 [Hydrocraft.HCSteelingot],
@@ -2139,7 +2139,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCSteelingot],
@@ -2159,7 +2159,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCIroningot],
@@ -2179,7 +2179,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCBronzeingot],
@@ -2199,7 +2199,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCCopperingot],
@@ -2235,7 +2235,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 2 [Hydrocraft.HCLeatherhard],
@@ -2254,7 +2254,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
@@ -2274,7 +2274,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 2 [Hydrocraft.HCLeatherhard],
@@ -2293,7 +2293,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
@@ -2312,7 +2312,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 2 [Hydrocraft.HCAnimalfurdried],
@@ -2331,7 +2331,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 1 [Hydrocraft.HCCottoncloth;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
@@ -2401,7 +2401,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCSteelingot],
@@ -2422,7 +2422,7 @@ module Hydrocraft
         category = Armor,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
@@ -2442,7 +2442,7 @@ module Hydrocraft
         category = Armor,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:7,
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
@@ -2460,7 +2460,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 4 [Hydrocraft.HCSteelingot],
@@ -2480,7 +2480,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 4 [Hydrocraft.HCIroningot],
@@ -2500,7 +2500,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 4 [Hydrocraft.HCBronzeingot],
@@ -2520,7 +2520,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Armor,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 4 [Hydrocraft.HCCopperingot],

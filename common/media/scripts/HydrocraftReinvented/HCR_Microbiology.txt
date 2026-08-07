@@ -180,7 +180,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 2 [Base.Sugar],
@@ -203,7 +203,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCBeakerwaterhot],
@@ -221,7 +221,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:12,
         OnCreate = HCR42.recipe_hcgetbeaker,
         inputs
         {
@@ -240,7 +240,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         OnCreate = HCR42.recipe_hcmicroscopefunghi,
         inputs
         {
@@ -260,7 +260,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCPetribiowaste],
@@ -280,7 +280,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCMedicallab2] mode:keep,
@@ -298,7 +298,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCMedicallab2] mode:keep,
@@ -316,7 +316,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCMedicallab2] mode:keep,
@@ -334,7 +334,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCMedicallab2] mode:keep,
@@ -352,7 +352,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCMedicallab2] mode:keep,
@@ -371,7 +371,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:5,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         OnCreate = HCR42.recipe_hcgetpetridish,
         inputs
         {
@@ -392,7 +392,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:5,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 3 [Hydrocraft.HCPetridish],
@@ -411,7 +411,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:2,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         OnCreate = HCR42.recipe_hcgetpetridish,
         inputs
         {
@@ -432,7 +432,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         OnCreate = HCR42.recipe_hcgetpetridish,
         inputs
         {
@@ -453,7 +453,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         OnCreate = HCR42.recipe_hcgetpetridish,
         inputs
         {
@@ -474,7 +474,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:3,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         OnCreate = HCR42.recipe_hcgetpetridish,
         inputs
         {
@@ -494,7 +494,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:5,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         OnCreate = HCR42.recipe_hcgetpetridish,
         inputs
         {

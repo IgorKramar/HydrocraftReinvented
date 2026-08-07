@@ -245,7 +245,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCCandleberrywax;Hydrocraft.HCRefinedbeeswax;Hydrocraft.HCWaxrecycled],
@@ -263,7 +263,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCTallow],

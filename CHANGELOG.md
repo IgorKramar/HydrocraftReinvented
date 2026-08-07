@@ -6,6 +6,18 @@
 
 ## Русский
 
+### v1.4.0 — 2026-08-07
+
+**Баланс опыта (xpAward)** — крафт Hydrocraft снова прокачивает:
+- Механический порт из B41 награждал почти все 2 045 рецептов плоскими 2 XP —
+  на фоне ванильных 30 за сварку или плотницкое качаться крафтом HCR было
+  бессмысленно. Пересчитано 1 569 наград.
+- Новая шкала пропорциональна времени рецепта и откалибрована по ванильным
+  медианам 42.20.2: готовка 3, сварка 30, шитьё 11, плотницкое 30–40,
+  электрика 8; потолки — на ванильных p90 (эксплойтов «дешёвый крафт —
+  гора опыта» нет). Для навыков без ванильных крафт-аналогов (медицина,
+  фермерство, ловушки...) — скромная шкала 5–15.
+
 ### v1.3.0 — 2026-08-07
 
 **Ревизия распределения лута** — вещи Hydrocraft больше не вытесняют ванильный лут:
@@ -61,6 +73,18 @@
 ---
 
 ## English
+
+### v1.4.0 — 2026-08-07
+
+**XP balance (xpAward)** — Hydrocraft crafting levels you up again:
+- The mechanical B41 port awarded a flat 2 XP for nearly all 2,045 recipes —
+  next to vanilla's 30 for welding or carpentry, leveling through HCR crafting
+  was pointless. 1,569 awards recalculated.
+- The new scale is proportional to recipe time and calibrated against vanilla
+  42.20.2 medians: cooking 3, welding 30, tailoring 11, carpentry 30-40,
+  electrical 8; caps sit at vanilla p90 (no "cheap craft — huge XP" exploits).
+  Skills with no vanilla crafting analogues (first aid, farming, trapping...)
+  use a modest 5-15 scale.
 
 ### v1.3.0 — 2026-08-07
 

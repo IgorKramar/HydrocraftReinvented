@@ -1518,7 +1518,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCPitbullmaleinjured],
@@ -1538,7 +1538,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCPitbullfemaleinjured],
@@ -1558,7 +1558,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCDobermanmaleinjured],
@@ -1578,7 +1578,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCDobermanfemaleinjured],

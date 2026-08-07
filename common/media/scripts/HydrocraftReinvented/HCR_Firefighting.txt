@@ -79,7 +79,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         SkillRequired = Tailoring:4,
-        xpAward = Tailoring:10,
+        xpAward = Tailoring:18,
         inputs
         {
             item 20 [Base.Aluminum],

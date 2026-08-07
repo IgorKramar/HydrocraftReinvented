@@ -188,7 +188,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:4,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 6 [Base.WoodenStick2],
@@ -208,7 +208,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:4,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:40,
         inputs
         {
             item 1 [Hydrocraft.HCWoodblock],
@@ -244,7 +244,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCLeadpowder],
@@ -261,7 +261,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCIronpowder;Hydrocraft.HCRedclay],
@@ -278,7 +278,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCIronpowder;Hydrocraft.HCTitaniumpowder;Hydrocraft.HCRedclay],
@@ -295,7 +295,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCIronpowder;Hydrocraft.HCCinnabar;Hydrocraft.HCLeadpowder;Hydrocraft.HCRedclay],
@@ -312,7 +312,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCCopperpowder;Hydrocraft.HCMalachite],
@@ -329,7 +329,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Base.Sandbag],
@@ -348,7 +348,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCLapislazulipowder;Hydrocraft.HCCobaltpowder;Hydrocraft.HCAzuritepowder],
@@ -365,7 +365,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -388,7 +388,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -410,7 +410,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -433,7 +433,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -455,7 +455,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -478,7 +478,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -500,7 +500,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -522,7 +522,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -545,7 +545,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -568,7 +568,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -591,7 +591,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -613,7 +613,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -636,7 +636,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -658,7 +658,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -681,7 +681,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCPaintcan],
@@ -703,7 +703,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCJar],
@@ -725,7 +725,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCJar],
@@ -746,7 +746,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCJar],
@@ -767,7 +767,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCJar],
@@ -788,7 +788,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCJar],

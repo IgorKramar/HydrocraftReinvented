@@ -74,7 +74,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         inputs
         {
             item 8 [Hydrocraft.HCCarbattery],
@@ -99,7 +99,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:6,
-        xpAward = Electricity:2,
+        xpAward = Electricity:16,
         inputs
         {
             item 10 [Hydrocraft.HCSolarcell],
@@ -123,7 +123,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:7,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         inputs
         {
             item 4 [Hydrocraft.HCSolarpanel],
@@ -154,7 +154,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCSolarparkcharged],
@@ -174,7 +174,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 2 [Hydrocraft.HCSolarparkcharged],
@@ -194,7 +194,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 3 [Hydrocraft.HCSolarparkcharged],
@@ -214,7 +214,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 4 [Hydrocraft.HCSolarparkcharged],
@@ -234,7 +234,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 8 [Hydrocraft.HCSolarparkcharged],
@@ -254,7 +254,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 16 [Hydrocraft.HCSolarparkcharged],
@@ -274,7 +274,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:8,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCSolarpark],

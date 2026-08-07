@@ -400,7 +400,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCTobaccoleaffresh],

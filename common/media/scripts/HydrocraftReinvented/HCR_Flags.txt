@@ -305,7 +305,7 @@ module Hydrocraft
         category = Welding,
         timedAction = Making,
         SkillRequired = MetalWelding:2,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:40,
         inputs
         {
             item 1 [Hydrocraft.HCSteelrod],

@@ -343,7 +343,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:1,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:10,
         inputs
         {
             item 1 [Hydrocraft.HCWoodenring],
@@ -364,7 +364,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:4,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 6 [Base.Plank],
@@ -385,7 +385,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:9,
         inputs
         {
             item 1 [Hydrocraft.HCClayjarsmall],
@@ -429,7 +429,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenvat,
         inputs
         {
@@ -467,7 +467,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 4 [Hydrocraft.HCCheesetrayfull],
@@ -486,7 +486,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         OnCreate = HCR42.recipe_hccheesetray,
         inputs
         {
@@ -543,7 +543,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -582,7 +582,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -604,7 +604,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Base.RollingPin] mode:keep,
@@ -662,7 +662,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 4 [Hydrocraft.HCCheddarcheesetrayfull],
@@ -681,7 +681,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         OnCreate = HCR42.recipe_hccheesetray,
         inputs
         {
@@ -700,7 +700,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
@@ -721,7 +721,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCCheddarwheelwaxed],
@@ -740,7 +740,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCCheeserackagedcheddarwaxed],
@@ -776,7 +776,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:9,
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucketmilk],
@@ -798,7 +798,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbucket,
         inputs
         {
@@ -819,7 +819,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:9,
         inputs
         {
             item 1 [Hydrocraft.HCCreamcheese],

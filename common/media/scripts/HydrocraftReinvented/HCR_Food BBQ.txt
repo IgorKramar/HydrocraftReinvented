@@ -386,7 +386,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:1,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Bowl],

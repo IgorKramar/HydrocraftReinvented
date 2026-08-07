@@ -596,7 +596,7 @@ module Hydrocraft
         category = Survivalist,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:1,
+        xpAward = Woodwork:10,
         inputs
         {
             item 1 [Hydrocraft.HCBone;Hydrocraft.HCZombiebones],
@@ -614,7 +614,7 @@ module Hydrocraft
         category = Survivalist,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:1,
+        xpAward = Woodwork:10,
         inputs
         {
             item 1 [Hydrocraft.HCBlackfeathers;Hydrocraft.HCWhitefeathers;Hydrocraft.HCBrownfeathers;Hydrocraft.HCRedfeather;Hydrocraft.HCStripedfeather;Hydrocraft.HCBluejayfeather;Hydrocraft.HCDucttapefletching],
@@ -634,7 +634,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -656,7 +656,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -679,7 +679,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:5;Mechanics:1,
-        xpAward = Mechanics:2;Woodwork:2,
+        xpAward = Mechanics:3;Woodwork:10,
         inputs
         {
             item 4 [Base.Twine],
@@ -701,7 +701,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Tailoring:2,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:4,
         inputs
         {
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
@@ -721,7 +721,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:8;Mechanics:2,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
@@ -746,7 +746,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:8;Mechanics:2,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
@@ -774,7 +774,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:10;Mechanics:4,
-        xpAward = Mechanics:2;Woodwork:2,
+        xpAward = Mechanics:3;Woodwork:10,
         inputs
         {
             item 8 [Base.FishingLine],

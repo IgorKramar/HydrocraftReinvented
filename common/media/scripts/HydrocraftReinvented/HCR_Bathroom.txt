@@ -831,7 +831,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Health,
         timedAction = Making,
-        xpAward = Doctor:2,
+        xpAward = Doctor:3,
         inputs
         {
             item 1 [Hydrocraft.HCDiaper] mode:destroy,
@@ -848,7 +848,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Health,
         timedAction = Making,
-        xpAward = Doctor:2,
+        xpAward = Doctor:3,
         inputs
         {
             item 1 [Hydrocraft.HCDiaper] mode:destroy,
@@ -865,7 +865,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Health,
         timedAction = Making,
-        xpAward = Doctor:2,
+        xpAward = Doctor:3,
         inputs
         {
             item 1 [Hydrocraft.HCDiaperDirty],
@@ -883,7 +883,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Health,
         timedAction = Making,
-        xpAward = Doctor:2,
+        xpAward = Doctor:3,
         inputs
         {
             item 1 [Hydrocraft.HCMenstrualpad] mode:destroy,
@@ -900,7 +900,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Health,
         timedAction = Making,
-        xpAward = Doctor:2,
+        xpAward = Doctor:3,
         inputs
         {
             item 1 [Hydrocraft.HCMenstrualpad] mode:destroy,
@@ -917,7 +917,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Health,
         timedAction = Making,
-        xpAward = Doctor:2,
+        xpAward = Doctor:3,
         inputs
         {
             item 1 [Hydrocraft.HCMenstrualpadDirty],

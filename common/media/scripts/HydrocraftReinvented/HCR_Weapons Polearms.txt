@@ -823,7 +823,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:6,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 3 [Hydrocraft.HCSteelingot],
@@ -845,7 +845,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:6,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 3 [Hydrocraft.HCIroningot],
@@ -867,7 +867,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:6,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 3 [Hydrocraft.HCBronzeingot],
@@ -889,7 +889,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:6,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 3 [Hydrocraft.HCCopperingot],
@@ -911,7 +911,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:2,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCSteelingot],
@@ -933,7 +933,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:2,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCIroningot],
@@ -955,7 +955,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:2,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCBronzeingot],
@@ -977,7 +977,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:2,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCCopperingot],
@@ -1087,7 +1087,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:4,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCSteelingot],
@@ -1109,7 +1109,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:4,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCIroningot],
@@ -1131,7 +1131,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:4,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCBronzeingot],
@@ -1153,7 +1153,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:4,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCCopperingot],
@@ -1175,7 +1175,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:5,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCSteelingot],
@@ -1197,7 +1197,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:5,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCIroningot],
@@ -1219,7 +1219,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:5,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCBronzeingot],
@@ -1241,7 +1241,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:5,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCCopperingot],

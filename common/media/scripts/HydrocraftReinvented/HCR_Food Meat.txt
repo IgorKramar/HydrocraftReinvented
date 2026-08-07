@@ -696,7 +696,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:2,
-        xpAward = Cooking:2,
+        xpAward = Cooking:9,
         OnCreate = HCR42.recipe_hczedbutcher,
         inputs
         {
@@ -735,7 +735,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:2,
-        xpAward = Cooking:2,
+        xpAward = Cooking:9,
         OnCreate = HCR42.recipe_hczedbutcher,
         inputs
         {
@@ -754,7 +754,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:6,
-        xpAward = Cooking:2,
+        xpAward = Cooking:9,
         inputs
         {
             item 1 [Hydrocraft.HCTurkeymeat],
@@ -774,7 +774,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Base.Ham],

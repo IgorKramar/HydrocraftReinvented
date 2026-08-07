@@ -52,7 +52,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 4 [Hydrocraft.HCLard],
@@ -75,7 +75,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbucket,
         inputs
         {

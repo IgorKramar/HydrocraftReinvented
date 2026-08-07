@@ -530,7 +530,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
@@ -550,7 +550,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
@@ -569,7 +569,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
@@ -589,7 +589,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Hammer;Base.BaseballBat;Base.Plank] mode:keep,
@@ -607,7 +607,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
@@ -626,7 +626,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
@@ -646,7 +646,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
@@ -665,7 +665,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
@@ -684,7 +684,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
@@ -704,7 +704,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
@@ -723,7 +723,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
@@ -743,7 +743,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
@@ -762,7 +762,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
@@ -782,7 +782,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
@@ -801,7 +801,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
@@ -821,7 +821,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
@@ -840,7 +840,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
@@ -860,7 +860,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
@@ -879,7 +879,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
@@ -899,7 +899,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,

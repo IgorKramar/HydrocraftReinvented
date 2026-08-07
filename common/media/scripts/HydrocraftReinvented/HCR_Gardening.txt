@@ -306,7 +306,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:40,
         inputs
         {
             item 1 [Base.Dirtbag;Hydrocraft.HCDirt],
@@ -364,7 +364,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:3,
         inputs
         {
             item 1 [Hydrocraft.HCSpirulinatank] mode:keep,
@@ -449,7 +449,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Farming:2,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:10,
         inputs
         {
             item 4 [Base.WoodenStick2],
@@ -6732,7 +6732,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -6769,7 +6769,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -6806,7 +6806,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -6843,7 +6843,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -6880,7 +6880,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -6917,7 +6917,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -6954,7 +6954,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -6991,7 +6991,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -7028,7 +7028,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -7065,7 +7065,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -7102,7 +7102,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -7154,7 +7154,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -7191,7 +7191,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -7228,7 +7228,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -7265,7 +7265,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -7302,7 +7302,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -7339,7 +7339,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -7376,7 +7376,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8776,7 +8776,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8794,7 +8794,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8812,7 +8812,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8830,7 +8830,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8848,7 +8848,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8866,7 +8866,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8884,7 +8884,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8902,7 +8902,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8920,7 +8920,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8938,7 +8938,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8956,7 +8956,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8974,7 +8974,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -8992,7 +8992,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9010,7 +9010,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9028,7 +9028,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9046,7 +9046,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9064,7 +9064,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9082,7 +9082,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9100,7 +9100,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9118,7 +9118,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9136,7 +9136,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9154,7 +9154,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9172,7 +9172,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9190,7 +9190,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9208,7 +9208,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9226,7 +9226,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9244,7 +9244,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9262,7 +9262,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9280,7 +9280,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9298,7 +9298,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9316,7 +9316,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9334,7 +9334,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9352,7 +9352,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9370,7 +9370,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9388,7 +9388,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9406,7 +9406,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9424,7 +9424,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9442,7 +9442,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9460,7 +9460,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9479,7 +9479,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9497,7 +9497,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9515,7 +9515,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9533,7 +9533,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9551,7 +9551,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9569,7 +9569,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9587,7 +9587,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9605,7 +9605,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9623,7 +9623,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9641,7 +9641,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9659,7 +9659,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9677,7 +9677,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9695,7 +9695,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9713,7 +9713,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9731,7 +9731,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9749,7 +9749,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9767,7 +9767,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9785,7 +9785,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9803,7 +9803,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9821,7 +9821,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9893,7 +9893,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9911,7 +9911,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9929,7 +9929,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9947,7 +9947,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9965,7 +9965,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -9983,7 +9983,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {
@@ -10001,7 +10001,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Farming:2,
+        xpAward = Farming:5,
         OnCreate = HCR42.recipe_NDPlantsHarvest,
         inputs
         {

@@ -1105,7 +1105,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:2,
-        xpAward = Doctor:10,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Base.Notebook],

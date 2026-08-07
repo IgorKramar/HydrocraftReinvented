@@ -986,7 +986,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:4,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:40,
         inputs
         {
             item 2 [Hydrocraft.HCWoodblock],

@@ -813,7 +813,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:3,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         inputs
         {
             item 1 [Hydrocraft.HCMinecart],
@@ -852,7 +852,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         inputs
         {
             item 1 [Hydrocraft.HCSteammachine],
@@ -916,7 +916,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:8,
         OnCreate = HCR42.HCMine,
         inputs
         {
@@ -935,7 +935,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:4,
         OnCreate = HCR42.HCMine,
         inputs
         {
@@ -954,7 +954,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:5,
         OnCreate = HCR42.HCMine,
         inputs
         {
@@ -992,7 +992,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:15,
         OnCreate = HCR42.HCDarkmine,
         inputs
         {
@@ -1012,7 +1012,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:8,
         OnCreate = HCR42.HCDarkmine,
         inputs
         {
@@ -1032,7 +1032,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:12,
         OnCreate = HCR42.HCDarkmine,
         inputs
         {
@@ -1052,7 +1052,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:6,
         OnCreate = HCR42.HCDarkmine,
         inputs
         {
@@ -1072,7 +1072,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:8,
         OnCreate = HCR42.HCDarkmine,
         inputs
         {
@@ -1095,7 +1095,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:4,
         OnCreate = HCR42.HCDarkmine,
         inputs
         {
@@ -1118,7 +1118,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:4,
         inputs
         {
             item 1 [Hydrocraft.HCIronMineB] mode:keep,
@@ -1136,7 +1136,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:4,
         inputs
         {
             item 1 [Hydrocraft.HCCoalMineB] mode:keep,
@@ -1168,7 +1168,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Masonry,
         timedAction = Making,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:3,
         OnCreate = HCR42.HCShovelClay,
         inputs
         {
@@ -1183,7 +1183,7 @@ module Hydrocraft
         category = Masonry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:4,
         OnCreate = HCR42.HCMineStone,
         inputs
         {

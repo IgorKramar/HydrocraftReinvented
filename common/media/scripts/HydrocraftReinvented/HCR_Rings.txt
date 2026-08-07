@@ -18,7 +18,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         OnCreate = HCR42.getBurned,
         inputs
         {

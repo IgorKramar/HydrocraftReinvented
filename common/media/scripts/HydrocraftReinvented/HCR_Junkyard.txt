@@ -425,7 +425,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Engineer,
         timedAction = Making,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:10;MetalWelding:60,
         OnCreate = HCR42.hcjunkScrapParts,
         inputs
         {
@@ -580,7 +580,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Engineer,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 2 [Base.Screws],
@@ -632,7 +632,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Engineer,
         timedAction = Making,
-        xpAward = PlantScavenging:2,
+        xpAward = PlantScavenging:8,
         OnCreate = HCR42.hcmetalsearch,
         inputs
         {

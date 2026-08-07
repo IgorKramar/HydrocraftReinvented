@@ -86,7 +86,7 @@ module Hydrocraft
         category = Locksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCTitaniumingot],
@@ -107,7 +107,7 @@ module Hydrocraft
         category = Locksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCIroningot],
@@ -128,7 +128,7 @@ module Hydrocraft
         category = Locksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCBronzeingot],
@@ -149,7 +149,7 @@ module Hydrocraft
         category = Locksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCSteelingot],
@@ -236,7 +236,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:3,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Base.Padlock],
@@ -260,7 +260,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:3,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Base.CombinationPadlock],
@@ -284,7 +284,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:3,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.CrackOpenSafe,
         inputs
         {

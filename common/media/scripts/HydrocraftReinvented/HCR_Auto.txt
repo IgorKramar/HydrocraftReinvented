@@ -505,7 +505,7 @@ module Hydrocraft
         category = Electrical,
         timedAction = Making,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Base.CarBattery1;Base.CarBattery2;Base.CarBattery3] mode:destroy,
@@ -524,7 +524,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:1,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:16,
         inputs
         {
             item 1 [Hydrocraft.HCJunkbicycle],

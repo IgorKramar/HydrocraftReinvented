@@ -478,7 +478,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -502,7 +502,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -526,7 +526,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -550,7 +550,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -574,7 +574,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -598,7 +598,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -622,7 +622,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -646,7 +646,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -672,7 +672,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:4,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Hydrocraft.HCManometer],
@@ -700,7 +700,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:8;Mechanics:4,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:25;MetalWelding:70,
         inputs
         {
             item 2 [Base.Screws],
@@ -735,7 +735,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:4,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Hydrocraft.HCBarrelmetalempty],
@@ -759,7 +759,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:4,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Hydrocraft.HCFurnaceiron],
@@ -788,7 +788,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:8;Mechanics:3,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         inputs
         {
             item 2 [Hydrocraft.HCWoodbeam],
@@ -819,7 +819,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         inputs
         {
             item 1 [Hydrocraft.HCSteammachine],
@@ -854,7 +854,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:5,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Hydrocraft.HCGreybrickbox],
@@ -886,7 +886,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:5,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Hydrocraft.HCGreybrickbox],
@@ -948,7 +948,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 2 [Base.SheetMetal],
@@ -969,7 +969,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         OnCreate = HCR42.OnCreatePropaneTank,
         inputs
         {
@@ -991,7 +991,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 8 [Hydrocraft.HCSteelsheet],
@@ -1012,7 +1012,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 6 [Hydrocraft.HCSteelsheet],
@@ -1037,7 +1037,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 4 [Hydrocraft.HCSteelboard],
@@ -1058,7 +1058,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 6 [Base.SheetMetal],
@@ -1079,7 +1079,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 2 [Hydrocraft.HCIronrod],
@@ -1100,7 +1100,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 2 [Hydrocraft.HCSteelrod],
@@ -1122,7 +1122,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:1,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Hydrocraft.HCIroningot],
@@ -1144,7 +1144,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:1,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Hydrocraft.HCSteelingot],
@@ -1166,7 +1166,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:7;Mechanics:1,
-        xpAward = Mechanics:2;Woodwork:2,
+        xpAward = Mechanics:25;Woodwork:60,
         inputs
         {
             item 1 [Base.Woodglue;Hydrocraft.HCWoodgluejar],
@@ -1190,7 +1190,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:1,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:5;MetalWelding:30,
         inputs
         {
             item 1 [Base.Pipe],
@@ -1213,7 +1213,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:2,
-        xpAward = Mechanics:2;MetalWelding:2,
+        xpAward = Mechanics:25;MetalWelding:70,
         inputs
         {
             item 4 [Hydrocraft.HCMetalwheel],
@@ -1237,7 +1237,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 4 [Hydrocraft.HCSteelrod],
@@ -1258,7 +1258,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -1285,7 +1285,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Mechanics:3,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:5,
         inputs
         {
             item 1 [Hydrocraft.HCCrank],
@@ -1309,7 +1309,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCIroningot],
@@ -1333,7 +1333,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCCopperingot],
@@ -1356,7 +1356,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCElectrumingot],
@@ -1379,7 +1379,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCLeadingot],
@@ -1402,7 +1402,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCIroningot],
@@ -1425,7 +1425,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCSteelingot],
@@ -1448,7 +1448,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCZincingot],
@@ -1471,7 +1471,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCAluminumingot],
@@ -1494,7 +1494,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCAluminumingot],
@@ -1517,7 +1517,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCConstantaningot],
@@ -1539,7 +1539,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 5 [Base.Wire],
@@ -1560,7 +1560,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 5 [Hydrocraft.HCWiresteel],
@@ -1581,7 +1581,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCConstantaningot],
@@ -1603,7 +1603,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCNichromeingot],
@@ -1625,7 +1625,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCKanthalingot],
@@ -1647,7 +1647,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         inputs
         {
             item 5 [Hydrocraft.HCWireconstantan],
@@ -1671,7 +1671,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:5,
         inputs
         {
             item 5 [Hydrocraft.HCWirethermocouple],
@@ -1696,7 +1696,7 @@ module Hydrocraft
         category = Electrical,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCIronrod],
@@ -1716,7 +1716,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCRubbervulcanized],
@@ -1734,7 +1734,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:60,
         inputs
         {
             item 1 [Hydrocraft.HCPewteringot],
@@ -1756,7 +1756,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCSteelingot],
@@ -1777,7 +1777,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCSolder],
@@ -1801,7 +1801,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1;Mechanics:1,
-        xpAward = Mechanics:2;Electricity:2,
+        xpAward = Mechanics:16;Electricity:8,
         inputs
         {
             item 1 [Hydrocraft.HCGearsteel],
@@ -1826,7 +1826,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:5;Mechanics:5,
-        xpAward = Electricity:2;Mechanics:2;MetalWelding:2,
+        xpAward = Electricity:16;Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Hydrocraft.HCCalculator],
@@ -1856,7 +1856,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 16 [Hydrocraft.HCRingsteel],
@@ -1877,7 +1877,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:5;Mechanics:5,
-        xpAward = Electricity:2;Mechanics:2;MetalWelding:2,
+        xpAward = Electricity:20;Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Hydrocraft.HCDisplay],
@@ -1922,7 +1922,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:4;Mechanics:6,
-        xpAward = Electricity:2;Mechanics:2;MetalWelding:2,
+        xpAward = Electricity:16;Mechanics:25;MetalWelding:70,
         inputs
         {
             item 1 [Base.Generator],

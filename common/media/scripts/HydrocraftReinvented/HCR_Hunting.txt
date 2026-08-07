@@ -1803,7 +1803,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:1,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntSmallGame,
         inputs
         {
@@ -1824,7 +1824,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:3,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntDeer,
         inputs
         {
@@ -1845,7 +1845,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:4,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBoar,
         inputs
         {
@@ -1866,7 +1866,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:5,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBear,
         inputs
         {
@@ -1887,7 +1887,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:6,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntCougar,
         inputs
         {
@@ -1908,7 +1908,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:1,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntSmallGame,
         inputs
         {
@@ -1930,7 +1930,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:2,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBird,
         inputs
         {
@@ -1952,7 +1952,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:2,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntWaterfowl,
         inputs
         {
@@ -1974,7 +1974,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:3,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntDeer,
         inputs
         {
@@ -1996,7 +1996,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:4,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBoar,
         inputs
         {
@@ -2018,7 +2018,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:5,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBear,
         inputs
         {
@@ -2040,7 +2040,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:6,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntCougar,
         inputs
         {
@@ -2062,7 +2062,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:1,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntSmallGame,
         inputs
         {
@@ -2084,7 +2084,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:2,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBird,
         inputs
         {
@@ -2106,7 +2106,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:2,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntWaterfowl,
         inputs
         {
@@ -2128,7 +2128,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:3,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntDeer,
         inputs
         {
@@ -2150,7 +2150,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:4,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBoar,
         inputs
         {
@@ -2172,7 +2172,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:5,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBear,
         inputs
         {
@@ -2194,7 +2194,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:6,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntCougar,
         inputs
         {
@@ -2216,7 +2216,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:2,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntBird,
         inputs
         {
@@ -2238,7 +2238,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:2,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntWaterfowl,
         inputs
         {
@@ -2260,7 +2260,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:3,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntDeer,
         inputs
         {
@@ -2282,7 +2282,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:4,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntBoar,
         inputs
         {
@@ -2304,7 +2304,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:5,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntBear,
         inputs
         {
@@ -2326,7 +2326,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:5,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntCougar,
         inputs
         {
@@ -2348,7 +2348,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:3,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntDeer,
         inputs
         {
@@ -2370,7 +2370,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:4,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntBoar,
         inputs
         {
@@ -2392,7 +2392,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:5,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntBear,
         inputs
         {
@@ -2414,7 +2414,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:5,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntCougar,
         inputs
         {
@@ -2435,7 +2435,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntSmallGame,
         inputs
         {
@@ -2452,7 +2452,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntDeer,
         inputs
         {
@@ -2469,7 +2469,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBoar,
         inputs
         {
@@ -2486,7 +2486,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBear,
         inputs
         {
@@ -2503,7 +2503,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntCougar,
         inputs
         {
@@ -2520,7 +2520,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntSmallGame,
         inputs
         {
@@ -2538,7 +2538,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBird,
         inputs
         {
@@ -2556,7 +2556,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntWaterfowl,
         inputs
         {
@@ -2574,7 +2574,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntDeer,
         inputs
         {
@@ -2592,7 +2592,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBoar,
         inputs
         {
@@ -2610,7 +2610,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBear,
         inputs
         {
@@ -2632,7 +2632,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntCougar,
         inputs
         {
@@ -2654,7 +2654,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntSmallGame,
         inputs
         {
@@ -2672,7 +2672,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBird,
         inputs
         {
@@ -2690,7 +2690,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntWaterfowl,
         inputs
         {
@@ -2708,7 +2708,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntDeer,
         inputs
         {
@@ -2726,7 +2726,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBoar,
         inputs
         {
@@ -2744,7 +2744,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntBear,
         inputs
         {
@@ -2762,7 +2762,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:15,
         OnCreate = HCR42.HCHuntCougar,
         inputs
         {
@@ -2780,7 +2780,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntBird,
         inputs
         {
@@ -2798,7 +2798,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntBird,
         inputs
         {
@@ -2816,7 +2816,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntWaterfowl,
         inputs
         {
@@ -2834,7 +2834,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntDeer,
         inputs
         {
@@ -2852,7 +2852,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntBoar,
         inputs
         {
@@ -2870,7 +2870,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntBear,
         inputs
         {
@@ -2888,7 +2888,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntCougar,
         inputs
         {
@@ -2906,7 +2906,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntDeer,
         inputs
         {
@@ -2924,7 +2924,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntBoar,
         inputs
         {
@@ -2942,7 +2942,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntBear,
         inputs
         {
@@ -2960,7 +2960,7 @@ module Hydrocraft
         category = Hunting,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Trapping:2,
+        xpAward = Trapping:5,
         OnCreate = HCR42.HCHuntCougar,
         inputs
         {

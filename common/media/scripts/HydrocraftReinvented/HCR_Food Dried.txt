@@ -1005,7 +1005,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
@@ -1026,7 +1026,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
@@ -1067,7 +1067,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
@@ -1108,7 +1108,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.BakingTray],
@@ -1127,7 +1127,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.BakingTray],
@@ -1166,7 +1166,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.BakingTray],
@@ -1185,7 +1185,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.BakingTray],
@@ -1224,7 +1224,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.BakingTray],
@@ -1243,7 +1243,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.BakingTray],
@@ -1282,7 +1282,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
@@ -1323,7 +1323,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
@@ -1364,7 +1364,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
@@ -1404,7 +1404,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.BakingTray],
@@ -1424,7 +1424,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.BakingTray],
@@ -1464,7 +1464,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.BakingTray],
@@ -1503,7 +1503,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
@@ -1542,7 +1542,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
@@ -1580,7 +1580,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 2 [Base.Cherry],
@@ -1602,7 +1602,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {

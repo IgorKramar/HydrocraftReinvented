@@ -9,6 +9,8 @@
 
 ### ✅ Сделано
 
+- **Баланс опыта (`xpAward`)** — v1.4.0: 1 569 наград пересчитаны по времени
+  рецепта и ванильным медианам; плоских «2 XP за всё» больше нет.
 - **Ревизия распределения лута** — v1.3.0: доля HC-лута приведена к ≤30 %
   во всех списках, мёртвые цели (ArmyStorageGuns, Meat) перенаправлены.
 - **Полная миграция предметов на `ItemType`** — v1.2.0: все 5 209 предметов
@@ -16,8 +18,8 @@
 
 ### 🔧 В работе / ближайшее
 
-- **Баланс опыта (`xpAward`)** — значения перенесены из B41 механически,
-  местами щедро, местами скупо.
+- **Ревизия эволюционирующих рецептов** (супы, рагу, самогон) под текущую
+  ваниль.
 
 ### 🗺️ Дальний прицел
 
@@ -25,8 +27,6 @@
   предметы/лут — сделать их полноценными грядками.
 - **Продолжение ванильных цепочек**: кузнечество, гончарство и стекло B42
   как источники сырья для рецептов Hydrocraft — не дублируя, а продолжая.
-- **Ревизия эволюционирующих рецептов** (супы, рагу, самогон) под текущую
-  ваниль.
 - **Тестирование в мультиплеере** — порт писался и проверялся в одиночке;
   отчёты с серверов очень welcome.
 - **Кросс-совместимость** с другими кулинарными и производственными модами
@@ -52,6 +52,8 @@
 
 ### ✅ Done
 
+- **XP balance (`xpAward`)** — v1.4.0: 1,569 awards recalculated from recipe
+  time and vanilla medians; the flat "2 XP for everything" is gone.
 - **Loot distribution pass** — v1.3.0: HC loot share brought down to ≤30% in
   every list; dead targets (ArmyStorageGuns, Meat) redirected.
 - **Full `ItemType` migration** — v1.2.0: all 5,209 items on native B42
@@ -59,8 +61,8 @@
 
 ### 🔧 In progress / next
 
-- **XP balance (`xpAward`)** — values were carried over from B41 mechanically
-  and need tuning.
+- **Evolved recipe revision** (soups, stews, moonshine) against current
+  vanilla.
 
 ### 🗺️ Long term
 
@@ -68,8 +70,6 @@
   them into real farm plants.
 - **Continuing vanilla chains**: B42 smithing, pottery and glassmaking as
   material sources for Hydrocraft recipes — extending them, not duplicating.
-- **Evolved recipe revision** (soups, stews, moonshine) against current
-  vanilla.
 - **Multiplayer testing** — the port was built and tested in singleplayer;
   server reports are very welcome.
 - **Cross-mod compatibility** with other cooking/industry mods (Vanilla Foods

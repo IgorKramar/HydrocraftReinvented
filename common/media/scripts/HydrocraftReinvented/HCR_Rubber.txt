@@ -71,7 +71,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -96,7 +96,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -176,7 +176,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 4 [Hydrocraft.HCRubbervulcanized],
@@ -198,7 +198,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 1 [Hydrocraft.HCRubbersheet],
@@ -219,7 +219,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 1 [Hydrocraft.HCRubbersheet],
@@ -240,7 +240,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 10 [Hydrocraft.HCRubbersheet],
@@ -261,7 +261,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         OnCreate = HCR42.getBurned,
         inputs
         {

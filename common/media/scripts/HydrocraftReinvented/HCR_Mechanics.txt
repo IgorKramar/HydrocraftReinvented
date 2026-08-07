@@ -36,7 +36,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = MetalWelding:2;Maintenance:3,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Hydrocraft.HCNut],
@@ -57,7 +57,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.FrontCarDoor1],
@@ -81,7 +81,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.FrontCarDoor2],
@@ -105,7 +105,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.FrontCarDoor3],
@@ -129,7 +129,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.RearCarDoor1],
@@ -153,7 +153,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.RearCarDoor2],
@@ -177,7 +177,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.RearCarDoor3],
@@ -201,7 +201,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.RearCarDoorDouble1],
@@ -225,7 +225,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.EngineDoor1],
@@ -249,7 +249,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.EngineDoor2],
@@ -273,7 +273,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.EngineDoor3],
@@ -297,7 +297,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.TrunkDoor1],
@@ -321,7 +321,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.TrunkDoor2],
@@ -345,7 +345,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.TrunkDoor3],
@@ -369,7 +369,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.ModernCarMuffler1],
@@ -392,7 +392,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.ModernCarMuffler2],
@@ -415,7 +415,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.ModernCarMuffler3],
@@ -438,7 +438,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.ModernBrake1],
@@ -461,7 +461,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.ModernBrake2],
@@ -484,7 +484,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.ModernBrake3],
@@ -507,7 +507,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.ModernSuspension1],
@@ -530,7 +530,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.ModernSuspension2],
@@ -553,7 +553,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.ModernSuspension3],
@@ -576,7 +576,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.Windshield1],
@@ -599,7 +599,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.Windshield2],
@@ -622,7 +622,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.Windshield3],
@@ -645,7 +645,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.RearWindshield1],
@@ -668,7 +668,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.RearWindshield2],
@@ -691,7 +691,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.RearWindshield3],
@@ -714,7 +714,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.FrontWindow1],
@@ -737,7 +737,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.FrontWindow2],
@@ -760,7 +760,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.FrontWindow3],
@@ -783,7 +783,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.RearWindow1],
@@ -806,7 +806,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.RearWindow2],
@@ -829,7 +829,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:5;MetalWelding:6;Maintenance:4,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.RearWindow3],
@@ -852,7 +852,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -879,7 +879,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -906,7 +906,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -933,7 +933,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -960,7 +960,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -987,7 +987,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -1014,7 +1014,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -1041,7 +1041,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -1068,7 +1068,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -1095,7 +1095,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -1122,7 +1122,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -1149,7 +1149,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:6;MetalWelding:8;Maintenance:5,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         OnCreate = HCR42.getBurned,
         inputs
         {
@@ -1176,7 +1176,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:2;MetalWelding:2;Maintenance:3,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.Pistol;Base.Pistol2;Base.Pistol3;Base.Revolver;Base.Revolver_Long;Base.Revolver_Short;Hydrocraft.HCUzi],
@@ -1196,7 +1196,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:2;MetalWelding:2;Maintenance:3,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:3,
         inputs
         {
             item 1 [Base.VarmintRifle;Base.HuntingRifle;Base.Shotgun;Base.DoubleBarrelShotgun;Base.ShotgunSawnoff;Base.AssaultRifle;Base.AssaultRifle2;Hydrocraft.HCAA12],
@@ -1216,7 +1216,7 @@ module Hydrocraft
         category = Mechanics,
         timedAction = Making,
         SkillRequired = Mechanics:4;MetalWelding:4;Maintenance:4,
-        xpAward = Mechanics:2;Electricity:2,
+        xpAward = Mechanics:6;Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -1238,7 +1238,7 @@ module Hydrocraft
         category = Welding,
         timedAction = Making,
         SkillRequired = Mechanics:4;MetalWelding:4;Maintenance:4,
-        xpAward = Mechanics:2;Electricity:2,
+        xpAward = Mechanics:6;Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -1260,7 +1260,7 @@ module Hydrocraft
         category = Welding,
         timedAction = Making,
         SkillRequired = Mechanics:4;MetalWelding:4;Maintenance:4,
-        xpAward = Mechanics:2;Electricity:2,
+        xpAward = Mechanics:6;Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -1283,7 +1283,7 @@ module Hydrocraft
         category = Welding,
         timedAction = Making,
         SkillRequired = Mechanics:4;MetalWelding:4;Maintenance:4,
-        xpAward = Mechanics:2;Electricity:2,
+        xpAward = Mechanics:6;Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCPliers] mode:keep,

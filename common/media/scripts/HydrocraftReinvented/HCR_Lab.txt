@@ -1113,7 +1113,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:4,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 1 [Base.Plank],

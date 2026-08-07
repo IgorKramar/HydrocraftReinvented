@@ -103,7 +103,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Blacksmithing,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         inputs
         {
             item 1 [Hydrocraft.HCSteelingot],
@@ -205,7 +205,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Trapping:2,
-        xpAward = Trapping:2,
+        xpAward = Trapping:4,
         inputs
         {
             item 4 [Base.Nails],

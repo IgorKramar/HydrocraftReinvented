@@ -105,7 +105,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
@@ -128,7 +128,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:6,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {

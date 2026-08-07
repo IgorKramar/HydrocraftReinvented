@@ -632,7 +632,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:4,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 3 [Base.Plank],
@@ -657,7 +657,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:8,
         inputs
         {
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
@@ -676,7 +676,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:8,
         inputs
         {
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
@@ -695,7 +695,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Base.Tweezers] mode:keep,
@@ -713,7 +713,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Base.Tweezers] mode:keep,
@@ -731,7 +731,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCFlaxflower],
@@ -747,7 +747,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
         timedAction = Making,
-        xpAward = Doctor:2,
+        xpAward = Doctor:5,
         inputs
         {
             item 5 [Base.Plantain],
@@ -763,7 +763,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
         timedAction = Making,
-        xpAward = Doctor:2,
+        xpAward = Doctor:5,
         inputs
         {
             item 5 [Base.Comfrey],
@@ -779,7 +779,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
         timedAction = Making,
-        xpAward = Doctor:2,
+        xpAward = Doctor:5,
         inputs
         {
             item 5 [Base.WildGarlic2],
@@ -796,7 +796,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCTeafresh],
@@ -813,7 +813,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCTeagreen],
@@ -898,7 +898,7 @@ module Hydrocraft
         category = Ranching,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Tailoring:1,
+        xpAward = Tailoring:4,
         OnCreate = HCR42.getSilkmoth,
         inputs
         {
@@ -916,7 +916,7 @@ module Hydrocraft
         category = Weaving,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 10 [Hydrocraft.HCSilkcocoonempty],
@@ -938,7 +938,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCJutestems],
@@ -956,7 +956,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCJutestemswet],
@@ -974,7 +974,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCCob],
@@ -993,7 +993,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCCamomile],
@@ -1010,7 +1010,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Base.Mugl],
@@ -1030,7 +1030,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Hydrocraft.HCClaymug],
@@ -1050,7 +1050,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCNettles],
@@ -1067,7 +1067,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Base.Mugl],
@@ -1087,7 +1087,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Hydrocraft.HCClaymug],
@@ -1107,7 +1107,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCThistle],
@@ -1124,7 +1124,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Base.Mugl],
@@ -1144,7 +1144,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Hydrocraft.HCClaymug],
@@ -1164,7 +1164,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCSkullcap],
@@ -1181,7 +1181,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Base.Mugl],
@@ -1201,7 +1201,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Hydrocraft.HCClaymug],
@@ -1221,7 +1221,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:9,
         inputs
         {
             item 1 [Hydrocraft.HCDaisy],
@@ -1238,7 +1238,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Base.Mugl],
@@ -1258,7 +1258,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Hydrocraft.HCClaymug],
@@ -1278,7 +1278,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:9,
         inputs
         {
             item 1 [Hydrocraft.HCAnemome],
@@ -1295,7 +1295,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Base.Mugl],
@@ -1315,7 +1315,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Hydrocraft.HCClaymug],
@@ -1335,7 +1335,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCCamellia],
@@ -1352,7 +1352,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Base.Mugl],
@@ -1372,7 +1372,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:1,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Hydrocraft.HCClaymug],
@@ -1391,7 +1391,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCGrass;Hydrocraft.HCJutestems;Hydrocraft.HCReeds;Hydrocraft.HCPlantfibers;Hydrocraft.HCFlax;Hydrocraft.HCHusk;Hydrocraft.HCSoapgrass;Hydrocraft.HCAlfalfa],
@@ -1426,7 +1426,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 10 [Hydrocraft.HCChilipepper],
@@ -1443,7 +1443,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcplantfibers,
         inputs
         {
@@ -1462,7 +1462,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcplantfibers,
         inputs
         {
@@ -1481,7 +1481,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         OnCreate = HCR42.recipe_hcplantfibers,
         inputs
         {
@@ -1500,7 +1500,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCRiceraw],
@@ -1517,7 +1517,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hccob,
         inputs
         {
@@ -1536,7 +1536,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hccob,
         inputs
         {
@@ -1555,7 +1555,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hccob,
         inputs
         {
@@ -1574,7 +1574,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hccob,
         inputs
         {
@@ -1592,7 +1592,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:10,
         inputs
         {
             item 1 [Hydrocraft.HCBamboo],
@@ -1610,7 +1610,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCGarlic],
@@ -1627,7 +1627,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Base.Onion],
@@ -1644,7 +1644,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCJuniperberry],
@@ -1661,7 +1661,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCLavender],

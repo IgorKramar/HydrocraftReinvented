@@ -108,7 +108,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:16,
         inputs
         {
             item 1 [Hydrocraft.HCComputermonitor],
@@ -133,7 +133,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:5,
-        xpAward = Electricity:2,
+        xpAward = Electricity:16,
         inputs
         {
             item 1 [Base.PetrolCan],
@@ -157,7 +157,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:6,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         inputs
         {
             item 1 [Base.PetrolCan],
@@ -183,7 +183,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:6,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         inputs
         {
             item 1 [Base.PetrolCan],

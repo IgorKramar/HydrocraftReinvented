@@ -156,7 +156,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Base.Soap2;Hydrocraft.HCSoap],
@@ -173,7 +173,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Hydrocraft.HCSoapshards],

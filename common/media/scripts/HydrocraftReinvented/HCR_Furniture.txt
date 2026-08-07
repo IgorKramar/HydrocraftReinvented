@@ -188,7 +188,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:4,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 4 [Base.Plank],
@@ -210,7 +210,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:5,
-        xpAward = Electricity:2,
+        xpAward = Electricity:16,
         inputs
         {
             item 1 [Hydrocraft.HCJunkmicro],
@@ -231,7 +231,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:5,
-        xpAward = Electricity:2,
+        xpAward = Electricity:16,
         inputs
         {
             item 1 [Hydrocraft.HCJunkfridge],
@@ -252,7 +252,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:5,
-        xpAward = Electricity:2,
+        xpAward = Electricity:16,
         inputs
         {
             item 1 [Hydrocraft.HCJunkwash],
@@ -273,7 +273,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:5,
-        xpAward = Electricity:2,
+        xpAward = Electricity:16,
         inputs
         {
             item 1 [Hydrocraft.HCJunkdryer],
@@ -413,7 +413,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:2,
-        xpAward = Electricity:2,
+        xpAward = Electricity:16,
         inputs
         {
             item 1 [Hydrocraft.HCLampshade],

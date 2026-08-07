@@ -803,7 +803,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:20,
+        xpAward = Electricity:16,
         inputs
         {
             item 3 [Base.Notebook],
@@ -847,7 +847,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:2,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCWirecopper],
@@ -871,7 +871,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:20,
+        xpAward = Electricity:16,
         inputs
         {
             item 1 [Hydrocraft.HCSteelpole],
@@ -905,7 +905,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:20,
+        xpAward = Electricity:16,
         inputs
         {
             item 1 [Hydrocraft.HCSteammachine],
@@ -948,7 +948,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCElectrumingot],
@@ -971,7 +971,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:6,
         inputs
         {
             item 2 [Hydrocraft.HCTinboard],
@@ -997,7 +997,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:4,
-        xpAward = Electricity:2,
+        xpAward = Electricity:13,
         inputs
         {
             item 4 [Hydrocraft.HCTinboard],
@@ -1055,7 +1055,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         OnCreate = HCR42.recipe_hcelectronics02,
         inputs
         {
@@ -1076,7 +1076,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:14,
         OnCreate = HCR42.recipe_hcelectronics02,
         inputs
         {
@@ -1097,7 +1097,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         OnCreate = HCR42.recipe_hcelectronicparts,
         inputs
         {
@@ -1116,7 +1116,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Electrical,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         OnCreate = HCR42.recipe_hcsortparts01,
         inputs
         {
@@ -1134,7 +1134,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Electrical,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         OnCreate = HCR42.recipe_hcsortparts02,
         inputs
         {
@@ -1152,7 +1152,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Electrical,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         OnCreate = HCR42.recipe_hcsortparts03,
         inputs
         {
@@ -1170,7 +1170,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Electrical,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         OnCreate = HCR42.recipe_hcsortparts04,
         inputs
         {
@@ -1188,7 +1188,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Electrical,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         OnCreate = HCR42.recipe_hccabletangle,
         inputs
         {
@@ -1236,7 +1236,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Electrical,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         OnCreate = HCR42.recipe_hcrecyclecable,
         inputs
         {
@@ -1256,7 +1256,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCCircuitboardempty],
@@ -1285,7 +1285,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Base.Screwdriver] mode:keep,
@@ -1308,7 +1308,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:6,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCCircuitboardempty],
@@ -1337,7 +1337,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Base.Screwdriver] mode:keep,
@@ -1360,7 +1360,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:2,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCCircuitboardempty],
@@ -1389,7 +1389,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Base.Screwdriver] mode:keep,
@@ -1410,7 +1410,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCCircuitboardcopperside],
@@ -1428,7 +1428,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Electrical,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Base.SheetPaper2],
@@ -1446,7 +1446,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Electrical,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
@@ -1465,7 +1465,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:4,
         inputs
         {
             item 1 [Hydrocraft.HCPhotobench] mode:keep,
@@ -1482,7 +1482,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCPhotobench] mode:keep,
@@ -1500,7 +1500,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCAcidbathmuriaticacid] mode:keep,
@@ -1518,7 +1518,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Electrical,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCCircuitboardwashed02],
@@ -1535,7 +1535,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Electrical,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCCircuitboarddrilled],
@@ -1555,7 +1555,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:2,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         inputs
         {
             item 2 [Hydrocraft.HCPlastic],
@@ -1581,7 +1581,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:2,
-        xpAward = Electricity:2,
+        xpAward = Electricity:6,
         inputs
         {
             item 2 [Hydrocraft.HCPlastic],
@@ -1608,7 +1608,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         inputs
         {
             item 8 [Hydrocraft.HCPlastic],
@@ -1634,7 +1634,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:10,
         inputs
         {
             item 8 [Hydrocraft.HCPlastic],
@@ -1661,7 +1661,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:5,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         inputs
         {
             item 4 [Hydrocraft.HCGlowlamp],
@@ -1697,7 +1697,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:5,
-        xpAward = Electricity:2,
+        xpAward = Electricity:13,
         inputs
         {
             item 4 [Hydrocraft.HCGlowlamp],
@@ -1734,7 +1734,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         inputs
         {
             item 1 [Base.SmallSheetMetal],
@@ -1766,7 +1766,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:10,
         inputs
         {
             item 1 [Base.SmallSheetMetal],
@@ -1799,7 +1799,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         inputs
         {
             item 5 [Hydrocraft.HCPlastic],
@@ -1824,7 +1824,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:10,
         inputs
         {
             item 5 [Hydrocraft.HCPlastic],
@@ -1850,7 +1850,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:6,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         inputs
         {
             item 3 [Base.SmallSheetMetal],
@@ -1889,7 +1889,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:6,
-        xpAward = Electricity:2,
+        xpAward = Electricity:13,
         inputs
         {
             item 3 [Base.SmallSheetMetal],
@@ -1929,7 +1929,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:2,
-        xpAward = Electricity:2,
+        xpAward = Electricity:16,
         inputs
         {
             item 30 [Base.ElectronicsScrap],
@@ -1948,7 +1948,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:2,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 30 [Base.ElectronicsScrap],

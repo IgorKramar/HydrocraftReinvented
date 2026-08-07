@@ -270,7 +270,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:3;Fishing:3,
-        xpAward = Fishing:2,
+        xpAward = Fishing:5,
         inputs
         {
             item 1 [Base.Paperclip;Hydrocraft.HCFishhookbone;Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhooktitanium],
@@ -423,7 +423,7 @@ module Hydrocraft
         category = Fishing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Fishing:2,
+        xpAward = Fishing:10,
         inputs
         {
             item 1 [Base.Shovel;Base.Shovel2] mode:keep,
@@ -440,7 +440,7 @@ module Hydrocraft
         category = Fishing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Fishing:2,
+        xpAward = Fishing:10,
         inputs
         {
             item 1 [Hydrocraft.HCPondholedirt],
@@ -459,7 +459,7 @@ module Hydrocraft
         category = Fishing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Fishing:2,
+        xpAward = Fishing:10,
         inputs
         {
             item 1 [Hydrocraft.HCPondholecement],
@@ -479,7 +479,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:7,
-        xpAward = Fishing:2,
+        xpAward = Fishing:10,
         inputs
         {
             item 1 [Hydrocraft.HCPond],
@@ -518,7 +518,7 @@ module Hydrocraft
         category = Fishing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Fishing:2,
+        xpAward = Fishing:5,
         inputs
         {
             item 1 [Hydrocraft.HCFishingkitbroken],
@@ -536,7 +536,7 @@ module Hydrocraft
         category = Fishing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Fishing:2,
+        xpAward = Fishing:5,
         inputs
         {
             item 1 [Hydrocraft.HCFishingkitbroken],
@@ -554,7 +554,7 @@ module Hydrocraft
         category = Fishing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Fishing:2,
+        xpAward = Fishing:5,
         OnCreate = HCR42.HCPondFishing,
         inputs
         {
@@ -570,7 +570,7 @@ module Hydrocraft
         category = Fishing,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Fishing:2,
+        xpAward = Fishing:10,
         OnCreate = HCR42.HCPondFishing,
         inputs
         {

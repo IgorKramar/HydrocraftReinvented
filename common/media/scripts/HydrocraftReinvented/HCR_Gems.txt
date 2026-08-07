@@ -405,7 +405,7 @@ module Hydrocraft
         category = Jewelry,
         timedAction = Making,
         SkillRequired = Woodwork:8;Mechanics:2,
-        xpAward = Mechanics:2;Woodwork:2,
+        xpAward = Mechanics:16;Woodwork:60,
         inputs
         {
             item 1 [Hydrocraft.HCMagnifyglass],

@@ -108,7 +108,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:3,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:20,
         inputs
         {
             item 1 [Base.Nails],
@@ -127,7 +127,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:3,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 1 [Hydrocraft.HCPlankoil],

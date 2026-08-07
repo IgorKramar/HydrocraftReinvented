@@ -266,7 +266,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:50,
         OnCreate = HCR42.recipe_hccutfirtree3,
         inputs
         {
@@ -285,7 +285,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         OnCreate = HCR42.recipe_hccutfirtree4,
         inputs
         {
@@ -304,7 +304,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         OnCreate = HCR42.recipe_hccutfirtree5,
         inputs
         {
@@ -323,7 +323,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         OnCreate = HCR42.recipe_hccutfirtree6,
         inputs
         {
@@ -363,7 +363,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:50,
         OnCreate = HCR42.recipe_hccutoaktree3,
         inputs
         {
@@ -382,7 +382,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         OnCreate = HCR42.recipe_hccutoaktree4,
         inputs
         {
@@ -401,7 +401,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         OnCreate = HCR42.recipe_hccutoaktree5,
         inputs
         {
@@ -420,7 +420,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         OnCreate = HCR42.recipe_hccutoaktree6,
         inputs
         {
@@ -460,7 +460,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:50,
         OnCreate = HCR42.recipe_hccutbirchtree3,
         inputs
         {
@@ -479,7 +479,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         OnCreate = HCR42.recipe_hccutbirchtree4,
         inputs
         {
@@ -498,7 +498,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         OnCreate = HCR42.recipe_hccutbirchtree5,
         inputs
         {
@@ -517,7 +517,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         OnCreate = HCR42.recipe_hccutbirchtree6,
         inputs
         {

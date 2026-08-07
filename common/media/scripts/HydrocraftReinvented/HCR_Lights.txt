@@ -440,7 +440,7 @@ module Hydrocraft
         category = Electrical,
         timedAction = Making,
         SkillRequired = Electricity:2,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Base.LightBulb],
@@ -510,7 +510,7 @@ module Hydrocraft
         category = Electrical,
         timedAction = Making,
         SkillRequired = Electricity:2,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCFlashlightmk1off],

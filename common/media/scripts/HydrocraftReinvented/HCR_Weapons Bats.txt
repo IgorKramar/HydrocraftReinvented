@@ -1769,7 +1769,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:1,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
@@ -1788,7 +1788,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebatcrude],
@@ -1806,7 +1806,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebatcrude],
@@ -1824,7 +1824,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebatcrude],
@@ -1842,7 +1842,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebatcrude],
@@ -1860,7 +1860,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebatcrude],
@@ -1878,7 +1878,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebatcrude],
@@ -1897,7 +1897,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:4,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
@@ -1918,7 +1918,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebat],
@@ -1936,7 +1936,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebat],
@@ -1954,7 +1954,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebat],
@@ -1972,7 +1972,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebat],
@@ -1990,7 +1990,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebat],
@@ -2008,7 +2008,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadebat],
@@ -2027,7 +2027,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:8,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
@@ -2046,7 +2046,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Base.BaseballBat],
@@ -2064,7 +2064,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Base.BaseballBat],
@@ -2082,7 +2082,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Base.BaseballBat],
@@ -2100,7 +2100,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Base.BaseballBat],
@@ -2118,7 +2118,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Base.BaseballBat],
@@ -2136,7 +2136,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Base.BaseballBat],
@@ -2155,7 +2155,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:1,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
@@ -2174,7 +2174,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclubcrude],
@@ -2192,7 +2192,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclubcrude],
@@ -2210,7 +2210,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclubcrude],
@@ -2228,7 +2228,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclubcrude],
@@ -2246,7 +2246,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclubcrude],
@@ -2264,7 +2264,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclubcrude],
@@ -2283,7 +2283,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:4,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
@@ -2303,7 +2303,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclub],
@@ -2321,7 +2321,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclub],
@@ -2339,7 +2339,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclub],
@@ -2357,7 +2357,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclub],
@@ -2375,7 +2375,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclub],
@@ -2393,7 +2393,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCHomemadeclub],
@@ -2412,7 +2412,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:8,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
@@ -2431,7 +2431,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCMasterclub],
@@ -2449,7 +2449,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCMasterclub],
@@ -2467,7 +2467,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCMasterclub],
@@ -2485,7 +2485,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCMasterclub],
@@ -2503,7 +2503,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCMasterclub],
@@ -2521,7 +2521,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCMasterclub],

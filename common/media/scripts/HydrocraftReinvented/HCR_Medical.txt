@@ -934,7 +934,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 3 [Base.Notebook],
@@ -1073,7 +1073,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         SkillRequired = Doctor:3,
-        xpAward = Doctor:2,
+        xpAward = Doctor:10,
         OnCreate = HCR42.recipe_hcbowl,
         inputs
         {
@@ -1097,7 +1097,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:3,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCMedicallab2] mode:keep,
@@ -1118,7 +1118,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:3,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCMedicallab2] mode:keep,
@@ -1139,7 +1139,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:4,
-        xpAward = Doctor:2,
+        xpAward = Doctor:8,
         inputs
         {
             item 1 [Hydrocraft.HCValerian],
@@ -1159,7 +1159,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:4,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCValeriantray],
@@ -1177,7 +1177,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:4,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         OnCreate = HCR42.hcfillammoniarecipe,
         inputs
         {
@@ -1231,7 +1231,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:4,
-        xpAward = Doctor:2,
+        xpAward = Doctor:8,
         inputs
         {
             item 1 [Hydrocraft.HCHawthornfruit],
@@ -1251,7 +1251,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:4,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCHawthornfruittray],
@@ -1269,7 +1269,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:4,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         OnCreate = HCR42.hcfillammoniarecipe,
         inputs
         {
@@ -1336,7 +1336,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:3,
-        xpAward = Doctor:2,
+        xpAward = Doctor:6,
         inputs
         {
             item 1 [Hydrocraft.HCWillowbark],
@@ -1357,7 +1357,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:3,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         OnCreate = HCR42.hcextractassrecipe,
         inputs
         {
@@ -1394,7 +1394,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCBeakerselfmadeetherhalf],
@@ -1413,7 +1413,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCBeakerpotassiumpermanganatehalf],
@@ -1432,7 +1432,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCBeakerpotassiumpermanganatehalf],
@@ -1451,7 +1451,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCBeakerpotassiumpermanganatehalf],
@@ -1471,7 +1471,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:1,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:10,
         inputs
         {
             item 1 [Base.Sheet],
@@ -1492,7 +1492,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Health,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         inputs
         {
             item 2 [Hydrocraft.HCGiglisawhandle],
@@ -1558,7 +1558,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:4,
+        xpAward = Doctor:15,
         OnCreate = HCR42.recipe_hcdissectzed,
         inputs
         {
@@ -1580,7 +1580,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         OnCreate = HCR42.recipe_hcremovezed,
         inputs
         {
@@ -1649,7 +1649,7 @@ module Hydrocraft
         category = Health,
         timedAction = Making,
         SkillRequired = Doctor:2,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCMedicalskeletonhooked] mode:keep,
@@ -1692,7 +1692,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:8,
         inputs
         {
             item 1 [Base.AlcoholBandage],
@@ -1713,7 +1713,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:8,
         inputs
         {
             item 1 [Base.AlcoholRippedSheets],
@@ -1734,7 +1734,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:8,
         inputs
         {
             item 1 [Hydrocraft.HCMenstrualpadAlcohol],
@@ -1755,7 +1755,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:8,
         inputs
         {
             item 1 [Hydrocraft.HCDiaperAlcohol],
@@ -1776,7 +1776,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:8,
         inputs
         {
             item 1 [Hydrocraft.HCDiaperAlcohol],

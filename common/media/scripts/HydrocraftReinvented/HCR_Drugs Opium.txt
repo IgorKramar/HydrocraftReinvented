@@ -220,7 +220,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Hydrocraft.HCPoppyflower],
@@ -237,7 +237,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         inputs
         {
             item 1 [Base.Scalpel;Hydrocraft.HCBoxcutter;Hydrocraft.HCScalpelimprovised;Hydrocraft.HCRazorblade] mode:keep,
@@ -255,7 +255,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCPoppycapsuleripped],
@@ -274,7 +274,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCRawopium],
@@ -294,7 +294,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:3,
-        xpAward = Doctor:2,
+        xpAward = Doctor:4,
         OnCreate = HCR42.recipe_hcgetpetridish,
         inputs
         {
@@ -351,7 +351,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:5,
-        xpAward = Doctor:2,
+        xpAward = Doctor:12,
         inputs
         {
             item 1 [Hydrocraft.HCBeakercalciumchloridesolution],
@@ -371,7 +371,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:5,
-        xpAward = Doctor:2,
+        xpAward = Doctor:12,
         inputs
         {
             item 1 [Hydrocraft.HCBeakermorphinhydrochlorid],
@@ -392,7 +392,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:5,
-        xpAward = Doctor:2,
+        xpAward = Doctor:12,
         OnCreate = HCR42.recipe_hcgetbeaker,
         inputs
         {
@@ -414,7 +414,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:5,
-        xpAward = Doctor:2,
+        xpAward = Doctor:12,
         OnCreate = HCR42.recipe_hcgetbeaker,
         inputs
         {
@@ -436,7 +436,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:1,
-        xpAward = Doctor:2,
+        xpAward = Doctor:12,
         inputs
         {
             item 1 [Hydrocraft.HCTesttubemorphincork;Hydrocraft.HCTesttubemorphinrubber],

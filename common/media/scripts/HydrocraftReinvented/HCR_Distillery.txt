@@ -533,7 +533,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
@@ -555,7 +555,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
@@ -577,7 +577,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbarrel,
         inputs
         {
@@ -620,7 +620,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:9,
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbarrel],
@@ -641,7 +641,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         OnCreate = HCR42.recipe_getMethanol,
         inputs
         {
@@ -663,7 +663,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
@@ -704,7 +704,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:6,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbarrel,
         inputs
         {
@@ -728,7 +728,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:6,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbarrel,
         inputs
         {
@@ -753,7 +753,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
@@ -794,7 +794,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:6,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbarrel,
         inputs
         {
@@ -818,7 +818,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
@@ -859,7 +859,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:6,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbarrel,
         inputs
         {
@@ -883,7 +883,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
@@ -924,7 +924,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:6,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbarrel,
         inputs
         {
@@ -948,7 +948,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
@@ -989,7 +989,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:6,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbarrel,
         inputs
         {
@@ -1013,7 +1013,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
@@ -1054,7 +1054,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:6,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbarrel,
         inputs
         {
@@ -1078,7 +1078,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
@@ -1119,7 +1119,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:6,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbarrel,
         inputs
         {

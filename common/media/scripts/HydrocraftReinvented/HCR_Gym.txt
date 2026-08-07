@@ -72,7 +72,7 @@ module Hydrocraft
         category = Welding,
         timedAction = Making,
         SkillRequired = MetalWelding:2,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:40,
         inputs
         {
             item 2 [Hydrocraft.HCSteelpipe],
@@ -146,7 +146,7 @@ module Hydrocraft
         category = Welding,
         timedAction = Making,
         SkillRequired = Woodwork:4;MetalWelding:2,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         inputs
         {
             item 2 [Hydrocraft.HCStonewheel],
@@ -230,7 +230,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         SkillRequired = Electricity:3,
-        xpAward = Electricity:2,
+        xpAward = Electricity:6,
         inputs
         {
             item 1 [Hydrocraft.HCTredmill],

@@ -425,7 +425,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Base.Plank],
@@ -442,7 +442,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Blacksmithing,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Base.Axe],
@@ -459,7 +459,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Blacksmithing,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCAxehead],
@@ -478,7 +478,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Blacksmithing,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCMakeshiftaxe],
@@ -495,7 +495,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Blacksmithing,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCAxeheadworn],
@@ -514,7 +514,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Blacksmithing,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCMakeshiftaxeworn],
@@ -531,7 +531,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Blacksmithing,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 1 [Hydrocraft.HCAxeheadblunt],
@@ -551,7 +551,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:3,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:50,
         inputs
         {
             item 1 [Hydrocraft.HCAxehandle],
@@ -572,7 +572,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Blacksmithing,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:30,
         inputs
         {
             item 1 [Hydrocraft.HCSawcircularblade],
@@ -591,7 +591,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:4,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 3 [Hydrocraft.HCSteelingot],
@@ -613,7 +613,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:3,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCSteelingot],
@@ -635,7 +635,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:3,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 2 [Hydrocraft.HCIroningot],
@@ -657,7 +657,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:6,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 3 [Hydrocraft.HCSteelingot],
@@ -679,7 +679,7 @@ module Hydrocraft
         category = Blacksmithing,
         timedAction = Making,
         SkillRequired = Maintenance:6,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:30,
         inputs
         {
             item 3 [Hydrocraft.HCIroningot],

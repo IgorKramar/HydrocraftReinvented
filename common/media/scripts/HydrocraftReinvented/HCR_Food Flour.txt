@@ -774,7 +774,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         inputs
         {
             item 1 [Base.RollingPin] mode:keep,
@@ -837,7 +837,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
@@ -860,7 +860,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCSourdoughstarter],
@@ -877,7 +877,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 24 [Hydrocraft.HCAcornsoaked],
@@ -895,7 +895,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 20 [Hydrocraft.HCCornseeds;Hydrocraft.HCCornredseeds;Hydrocraft.HCCornblueseeds;Hydrocraft.HCCornwhiteseeds],
@@ -912,7 +912,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 30 [Base.Rice],
@@ -930,7 +930,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:4,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 20 [Hydrocraft.HCWheat],
@@ -948,7 +948,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 5 [Hydrocraft.HCRicebrown],
@@ -966,7 +966,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 24 [Hydrocraft.HCAcornsoaked],
@@ -984,7 +984,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 5 [Base.Corn;Hydrocraft.HCCornred;Hydrocraft.HCCornblue;Hydrocraft.HCCornwhite],
@@ -1001,7 +1001,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 2 [Base.Rice;Hydrocraft.HCRicebrown],
@@ -1019,7 +1019,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 24 [Hydrocraft.HCAcornsoaked],
@@ -1039,7 +1039,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 5 [Base.Corn;Hydrocraft.HCCornred;Hydrocraft.HCCornblue;Hydrocraft.HCCornwhite],
@@ -1058,7 +1058,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 2 [Base.Rice;Hydrocraft.HCRicebrown],
@@ -1078,7 +1078,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcchaff,
         inputs
         {
@@ -1097,7 +1097,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcchaff2,
         inputs
         {
@@ -1118,7 +1118,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcchaffbran,
         inputs
         {
@@ -1139,7 +1139,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:10,
+        xpAward = Cooking:2,
         inputs
         {
             item 1 [Base.RollingPin] mode:keep,
@@ -1160,7 +1160,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Farming,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcstraw,
         inputs
         {
@@ -1178,7 +1178,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Farming,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcstraw,
         inputs
         {
@@ -1196,7 +1196,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Farming,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         OnCreate = HCR42.recipe_hcstraw,
         inputs
         {
@@ -1301,7 +1301,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:1,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
@@ -1339,7 +1339,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:2,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
@@ -1379,7 +1379,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:2,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
@@ -1398,7 +1398,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcbakingpan,
         inputs
         {
@@ -1415,7 +1415,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcbreadpan,
         inputs
         {
@@ -1432,7 +1432,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcbreadpan,
         inputs
         {
@@ -1449,7 +1449,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcbreadpan,
         inputs
         {

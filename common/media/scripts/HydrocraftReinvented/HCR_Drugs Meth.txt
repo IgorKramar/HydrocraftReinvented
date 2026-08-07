@@ -58,7 +58,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:5,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         inputs
         {
             item 1 [Hydrocraft.HCLab2] mode:keep,
@@ -82,7 +82,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:6,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         OnCreate = HCR42.hcmeth,
         inputs
         {
@@ -106,7 +106,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:6,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         OnCreate = HCR42.hcmeth,
         inputs
         {
@@ -130,7 +130,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:6,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         OnCreate = HCR42.hcmeth,
         inputs
         {
@@ -154,7 +154,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Doctor:6,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         OnCreate = HCR42.hcmeth,
         inputs
         {
@@ -176,7 +176,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Chemistry,
         timedAction = Making,
-        xpAward = Doctor:2,
+        xpAward = Doctor:15,
         OnCreate = HCR42.hcbluemethrecipe,
         inputs
         {

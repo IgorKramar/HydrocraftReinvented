@@ -988,7 +988,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:50,
         inputs
         {
             item 1 [Hydrocraft.HCWrench],
@@ -1005,7 +1005,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Survivalist,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:20,
         inputs
         {
             item 1 [Hydrocraft.HCCurvedshaftsmall],
@@ -1022,7 +1022,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Survivalist,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:20,
         inputs
         {
             item 1 [Hydrocraft.HCBowdrillbow],

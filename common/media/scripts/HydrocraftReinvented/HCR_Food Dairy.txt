@@ -692,7 +692,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         OnCreate = HCR42.recipe_hcwoodenbucket,
         inputs
         {
@@ -743,7 +743,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
-        xpAward = Cooking:2,
+        xpAward = Cooking:4,
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucketmilk],
@@ -764,7 +764,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucketheatedmilk],

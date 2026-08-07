@@ -248,7 +248,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Woodwork:6,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:50,
         inputs
         {
             item 10 [Base.Screws],
@@ -347,7 +347,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:6,
         OnCreate = HCR42.HCHoneycomb12,
         inputs
         {
@@ -426,7 +426,7 @@ module Hydrocraft
         category = Farming,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Tailoring:3,
+        xpAward = Tailoring:6,
         inputs
         {
             item 1 [Hydrocraft.HCStrawhat],
@@ -447,7 +447,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         inputs
         {
             item 1 [Base.BakingTray],
@@ -465,7 +465,7 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
+        xpAward = Cooking:3,
         OnCreate = HCR42.recipe_hcjar,
         inputs
         {

@@ -789,7 +789,7 @@ module Hydrocraft
         category = Chemistry,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Cooking:2,
+        xpAward = Cooking:10,
         inputs
         {
             item 1 [Hydrocraft.HCGlycerin],
@@ -871,7 +871,7 @@ module Hydrocraft
         category = Electrical,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Electricity:2,
+        xpAward = Electricity:5,
         inputs
         {
             item 1 [Hydrocraft.HCMk1capsule],
@@ -900,7 +900,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:6,
         inputs
         {
             item 1 [Hydrocraft.HCMk1capsule],
@@ -924,7 +924,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Electrical,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCDetonatormk1],
@@ -949,7 +949,7 @@ module Hydrocraft
         category = Electrical,
         timedAction = Making,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         inputs
         {
             item 1 [Hydrocraft.HCDetonatormk1],
@@ -972,7 +972,7 @@ module Hydrocraft
         category = Electrical,
         timedAction = Making,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:5,
         inputs
         {
             item 1 [Hydrocraft.HCDetonatormk2off],
@@ -1310,7 +1310,7 @@ module Hydrocraft
         timedAction = Making,
         NeedToBeLearn = true,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:6,
         inputs
         {
             item 1 [Hydrocraft.HCDetonatorcapsulehmtd],
@@ -1335,7 +1335,7 @@ module Hydrocraft
         category = Electrical,
         timedAction = Making,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:3,
         OnCreate = HCR42.recipe_hcgetcapsule,
         inputs
         {
@@ -1360,7 +1360,7 @@ module Hydrocraft
         category = Electrical,
         timedAction = Making,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:5,
         OnCreate = HCR42.recipe_hcgetcapsule,
         inputs
         {
@@ -1384,7 +1384,7 @@ module Hydrocraft
         category = Electrical,
         timedAction = Making,
         SkillRequired = Electricity:1,
-        xpAward = Electricity:2,
+        xpAward = Electricity:6,
         OnCreate = HCR42.recipe_hcgetcapsule,
         inputs
         {

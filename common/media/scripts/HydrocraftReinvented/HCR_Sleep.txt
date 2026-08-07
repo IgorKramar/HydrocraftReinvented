@@ -250,7 +250,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Miscellaneous,
         timedAction = Making,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:40,
         inputs
         {
             item 1 [Hydrocraft.HCSleepingbag3sleepin],
@@ -267,7 +267,7 @@ module Hydrocraft
         category = Carpentry,
         timedAction = Making,
         SkillRequired = Woodwork:1,
-        xpAward = Woodwork:2,
+        xpAward = Woodwork:60,
         inputs
         {
             item 6 [Base.Log],

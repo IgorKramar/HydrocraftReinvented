@@ -92,7 +92,7 @@ module Hydrocraft
         category = Welding,
         timedAction = Making,
         SkillRequired = Electricity:4,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         OnCreate = HCR42.recipe_hcdismantlecopymachine,
         inputs
         {
@@ -532,7 +532,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:40,
         inputs
         {
             item 1 [Hydrocraft.HCPully],
@@ -550,7 +550,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         inputs
         {
             item 1 [Hydrocraft.HCPully],
@@ -568,7 +568,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:40,
         inputs
         {
             item 1 [Hydrocraft.HCPullyiron],
@@ -586,7 +586,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:20,
         inputs
         {
             item 1 [Hydrocraft.HCPullyiron],
@@ -604,7 +604,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         OnCreate = HCR42.recipe_hcdismantlemetal,
         inputs
         {
@@ -623,7 +623,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = MetalWelding:2,
+        xpAward = MetalWelding:70,
         OnCreate = HCR42.recipe_hcdismantlemetal,
         inputs
         {
@@ -642,7 +642,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantleforklift,
         inputs
         {
@@ -665,7 +665,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantleforklift,
         inputs
         {
@@ -688,7 +688,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlescissorlift,
         inputs
         {
@@ -711,7 +711,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlescissorlift,
         inputs
         {
@@ -735,7 +735,7 @@ module Hydrocraft
         category = Welding,
         timedAction = Making,
         SkillRequired = Electricity:6,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         OnCreate = HCR42.recipe_hcdismantleteslamachine,
         inputs
         {
@@ -754,7 +754,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlepallettruck,
         inputs
         {
@@ -773,7 +773,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlepallettruck,
         inputs
         {
@@ -792,7 +792,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantletoywagon,
         inputs
         {
@@ -811,7 +811,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantletoywagon,
         inputs
         {
@@ -830,7 +830,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlehanddolly,
         inputs
         {
@@ -849,7 +849,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlehanddolly,
         inputs
         {
@@ -868,7 +868,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlehanddolly,
         inputs
         {
@@ -887,7 +887,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlehanddolly,
         inputs
         {
@@ -906,7 +906,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlepushcart,
         inputs
         {
@@ -925,7 +925,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlepushcart,
         inputs
         {
@@ -944,7 +944,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlebedsprings,
         inputs
         {
@@ -963,7 +963,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlebedsprings,
         inputs
         {
@@ -982,7 +982,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantleglovebox,
         inputs
         {
@@ -1002,7 +1002,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         OnCreate = HCR42.recipe_hcdismantleglovebox,
         inputs
         {
@@ -1022,7 +1022,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlebrokenradiator,
         inputs
         {
@@ -1042,7 +1042,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Welding,
         timedAction = Making,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:25,
         OnCreate = HCR42.recipe_hcdismantlebrokenradiator,
         inputs
         {
@@ -1063,7 +1063,7 @@ module Hydrocraft
         category = Welding,
         timedAction = Making,
         SkillRequired = Electricity:2,
-        xpAward = Electricity:2,
+        xpAward = Electricity:20,
         OnCreate = HCR42.recipe_hcdismantlelawnmower,
         inputs
         {
@@ -1196,7 +1196,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:16,
         OnCreate = HCR42.recipe_hcbike1,
         inputs
         {
@@ -1216,7 +1216,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:16,
         OnCreate = HCR42.recipe_hcbike2,
         inputs
         {
@@ -1236,7 +1236,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:16,
         OnCreate = HCR42.recipe_hcdismantleengineparts,
         inputs
         {
@@ -1257,7 +1257,7 @@ module Hydrocraft
         category = Engineer,
         timedAction = Making,
         NeedToBeLearn = true,
-        xpAward = Mechanics:2,
+        xpAward = Mechanics:16,
         OnCreate = HCR42.recipe_hcdismantlebreaks,
         inputs
         {

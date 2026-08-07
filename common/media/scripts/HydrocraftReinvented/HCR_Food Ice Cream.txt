@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Popsicle Stick,
         icon 			= 	HCPopsiclestick,
 		DisplayCategory		=   Useless,
@@ -15,7 +15,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Icecream Sandwich,
 	Icon				=	HCIcecreamsandwich,
@@ -36,7 +36,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Melted Icecream Sandwich,
 	Icon				=	HCIcecreamsandwichmelted,
 	FoodType			=	NoExplicit,
@@ -53,7 +53,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Soft Serve Icecream,
 	Icon				=	HCIcecreamsoft,
@@ -74,7 +74,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Melted Serve Icecream,
 	Icon				=	HCIcecreamsoftmelted,
 	FoodType			=	NoExplicit,
@@ -91,7 +91,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Blueberry Popsicle,
 	Icon				=	HCPopsicle1,
@@ -113,7 +113,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Melted Blueberry Popsicle,
 	Icon				=	HCPopsicle1melted,
 	FoodType			=	NoExplicit,
@@ -131,7 +131,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Chocolate Popsicle,
 	Icon				=	HCPopsicle2,
@@ -153,7 +153,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Melted Chocolate Popsicle,
 	Icon				=	HCPopsicle2melted,
 	FoodType			=	NoExplicit,
@@ -171,7 +171,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Strawberry Popsicle,
 	Icon				=	HCPopsicle3,
@@ -193,7 +193,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Melted Strawberry Popsicle,
 	Icon				=	HCPopsicle3melted,
 	FoodType			=	NoExplicit,
@@ -211,7 +211,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Grape Popsicle,
 	Icon				=	HCPopsicle4,
@@ -233,7 +233,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Melted Grape Popsicle,
 	Icon				=	HCPopsicle4melted,
 	FoodType			=	NoExplicit,
@@ -251,7 +251,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Lime Popsicle,
 	Icon				=	HCPopsicle5,
@@ -273,7 +273,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Melted Lime Popsicle,
 	Icon				=	HCPopsicle5melted,
 	FoodType			=	NoExplicit,
@@ -291,7 +291,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Lemon Popsicle,
 	Icon				=	HCPopsicle6,
@@ -313,7 +313,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Melted Lemon Popsicle,
 	Icon				=	HCPopsicle6melted,
 	FoodType			=	NoExplicit,
@@ -331,7 +331,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Cherry Popsicle,
 	Icon				=	HCPopsicle7,
@@ -353,7 +353,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Melted Cherry Popsicle,
 	Icon				=	HCPopsicle7melted,
 	FoodType			=	NoExplicit,

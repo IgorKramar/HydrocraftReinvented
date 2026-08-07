@@ -4,7 +4,7 @@ module Hydrocraft
     item HCFinewoodfloor
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= floors_interior_tilesandwood_01_45,
 	DisplayName		= Finewood Floor,
@@ -14,7 +14,7 @@ module Hydrocraft
     item HCCarpetpurple
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= floors_interior_carpet_01_6,
 	DisplayName		= Violet Carpet,
@@ -24,7 +24,7 @@ module Hydrocraft
     item HCCarpetblue
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= floors_interior_carpet_01_0,
 	DisplayName		= Blue Carpet,
@@ -34,7 +34,7 @@ module Hydrocraft
     item HCCarpetgreen
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= floors_interior_carpet_01_5,
 	DisplayName		= Green Carpet,
@@ -44,7 +44,7 @@ module Hydrocraft
     item HCCarpetyellow
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= floors_interior_carpet_01_10,
 	DisplayName		= Yellow Carpet,
@@ -54,7 +54,7 @@ module Hydrocraft
     item HCCarpetorange
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= floors_interior_carpet_01_12,
 	DisplayName		= Orange Carpet,
@@ -64,7 +64,7 @@ module Hydrocraft
     item HCCarpetred
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= floors_interior_carpet_01_9,
 	DisplayName		= Red Carpet,
@@ -74,7 +74,7 @@ module Hydrocraft
     item HCCarpetwhite
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= floors_interior_carpet_01_11,
 	DisplayName		= White Carpet,
@@ -84,7 +84,7 @@ module Hydrocraft
     item HCCarpetblack
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= floors_interior_carpet_01_2,
 	DisplayName		= Black Carpet,
@@ -94,7 +94,7 @@ module Hydrocraft
     item HCNewfloor
     {
 
-    Type            = Moveable,
+    ItemType            = base:moveable,
     Weight          = 0.5,
     WorldObjectSprite   = roofs_01_54,
     DisplayName     = Black Carpet,

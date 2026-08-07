@@ -4,7 +4,7 @@ module Hydrocraft
     item HCSlicedtomato
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Sliced Tomato,
 	Icon				=	HCSlicedtomato,
 	Weight				=	0.05,
@@ -23,7 +23,7 @@ module Hydrocraft
     item HCSlicedonion
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Sliced Onion,
 	Icon				=	HCSlicedonion,
 	Weight				=	0.1,
@@ -43,7 +43,7 @@ module Hydrocraft
 
 	HungerChange			=	-40,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Salami,
 	Icon				=	HCSalami,
 	EvolvedRecipe 			= 	Sandwich:10;Burger:10;Salad:10,
@@ -59,7 +59,7 @@ module Hydrocraft
 
 	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Sliced Salami,
 	Icon				=	HCSlicedsalami,
 	EvolvedRecipe 			= 	Sandwich:5;Burger:5;Salad:5,
@@ -75,7 +75,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Peanut Butter and Jelly Sandwich,
 	Icon				=	HCJellysandwich,
 	BoredomChange			=	-10,
@@ -93,7 +93,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Jelly Sandwich,
 	Icon				=	HCJellysandwich,
 	BoredomChange			=	-10,
@@ -111,7 +111,7 @@ module Hydrocraft
 
 	HungerChange			=	-35,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-25,
 	BoredomChange			=	-25,
 	StressChange			=	-20,

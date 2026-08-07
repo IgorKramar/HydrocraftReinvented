@@ -6,7 +6,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	DangerousUncooked		=	FALSE,
 	DaysFresh			=	5,
@@ -26,7 +26,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Leftovers,
 	Icon				=	HCLeftovers1,
 	DaysFresh			=	2,
@@ -43,7 +43,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Chinese Takeout,
 	Icon				=	HCLeftovers2,
 	DaysFresh			=	2,
@@ -61,7 +61,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Cotton Candy,
 	Icon				=	HCCottoncandy,

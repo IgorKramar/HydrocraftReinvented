@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dog Poop,
         icon 			= HCDogpoop,
 		DisplayCategory	= AnimalPoop,
@@ -15,7 +15,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Beagle (Male),
 	Icon				=	HCBeaglemale,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Beagle (Female),
 	Icon				=	HCBeaglefemale,
@@ -35,7 +35,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Beagle,
 	Icon				=	HCBeagledead,
 		DisplayCategory	= AnimalDead,
@@ -44,7 +44,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Bernese Mountain Dog (Male),
 	Icon				=	HCBernesemale,
@@ -54,7 +54,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Bernese Mountain Dog (Female),
 	Icon				=	HCBernesefemale,
@@ -64,7 +64,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	10,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Bernese Mountain Dog,
 	Icon				=	HCBernesedead,
 		DisplayCategory	= AnimalDead,
@@ -73,7 +73,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Border Collie (Male),
 	Icon				=	HCBordercolliemale,
@@ -83,7 +83,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Border Collie (Female),
 	Icon				=	HCBordercolliefemale,
@@ -93,7 +93,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Border Collie,
 	Icon				=	HCBordercolliedead,
 		DisplayCategory	= AnimalDead,
@@ -102,7 +102,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Boxer (Male),
 	Icon				=	HCBoxermale,
@@ -112,7 +112,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Boxer (Female),
 	Icon				=	HCBoxerfemale,
@@ -122,7 +122,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Boxer,
 	Icon				=	HCBoxerdead,
 		DisplayCategory	= AnimalDead,
@@ -131,7 +131,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Collie (Male),
 	Icon				=	HCColliemale,
@@ -141,7 +141,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Collie (Female),
 	Icon				=	HCColliefemale,
@@ -151,7 +151,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Collie,
 	Icon				=	HCColliedead,
 		DisplayCategory	= AnimalDead,
@@ -160,7 +160,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Corgi (Male),
 	Icon				=	HCCorgimale,
@@ -170,7 +170,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Corgi (Female),
 	Icon				=	HCCorgifemale,
@@ -180,7 +180,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	3,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Corgi,
 	Icon				=	HCCorgidead,
 		DisplayCategory	= AnimalDead,
@@ -189,7 +189,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Dachshund (Male),
 	Icon				=	HCDachshundmale,
@@ -199,7 +199,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Dachshund (Female),
 	Icon				=	HCDachshundfemale,
@@ -209,7 +209,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	3,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Dachshund,
 	Icon				=	HCDachshunddead,
 		DisplayCategory	= AnimalDead,
@@ -218,7 +218,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Doberman (Male),
 	Icon				=	HCDobermanmale,
@@ -228,7 +228,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Doberman (Female),
 	Icon				=	HCDobermanfemale,
@@ -238,7 +238,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Doberman,
 	Icon				=	HCDobermandead,
 		DisplayCategory	= AnimalDead,
@@ -247,7 +247,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	German Shepherd (Male),
 	Icon				=	HCGermanshepherdmale,
@@ -257,7 +257,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	German Shepherd (Female),
 	Icon				=	HCGermanshepherdfemale,
@@ -267,7 +267,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead German Shepherd,
 	Icon				=	HCGermanshepherddead,
 		DisplayCategory	= AnimalDead,
@@ -276,7 +276,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Great Dane (Male),
 	Icon				=	HCGreatdanemale,
@@ -286,7 +286,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Great Dane (Female),
 	Icon				=	HCGreatdanefemale,
@@ -296,7 +296,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	10,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Great Dane,
 	Icon				=	HCGreatdanedead,
 		DisplayCategory	= AnimalDead,
@@ -305,7 +305,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Golden Retriever (Male),
 	Icon				=	HCGoldenmale,
@@ -315,7 +315,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Golden Retriever (Female),
 	Icon				=	HCGoldenfemale,
@@ -325,7 +325,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Golden Retriever,
 	Icon				=	HCGoldendead,
 		DisplayCategory	= AnimalDead,
@@ -334,7 +334,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Heeler (Male),
 	Icon				=	HCHeelermale,
@@ -344,7 +344,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Heeler (Female),
 	Icon				=	HCHeelerfemale,
@@ -354,7 +354,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Heeler,
 	Icon				=	HCHeelerdead,
 		DisplayCategory	= AnimalDead,
@@ -363,7 +363,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Husky (Male),
 	Icon				=	HCHuskymale,
@@ -373,7 +373,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Husky (Female),
 	Icon				=	HCHuskyfemale,
@@ -383,7 +383,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Husky,
 	Icon				=	HCHuskydead,
 		DisplayCategory	= AnimalDead,
@@ -392,7 +392,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Irish Setter (Male),
 	Icon				=	HCIrishsettermale,
@@ -402,7 +402,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Irish Setter (Female),
 	Icon				=	HCIrishsetterfemale,
@@ -412,7 +412,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Irish Setter,
 	Icon				=	HCIrishsetterdead,
 		DisplayCategory	= AnimalDead,
@@ -421,7 +421,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Labrador (Male),
 	Icon				=	HCLabradormale,
@@ -431,7 +431,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Labrador (Female),
 	Icon				=	HCLabradorfemale,
@@ -441,7 +441,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Labrador,
 	Icon				=	HCLabradordead,
 		DisplayCategory	= AnimalDead,
@@ -450,7 +450,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Pitbull (Male),
 	Icon				=	HCPitbullmale,
@@ -460,7 +460,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Pitbull (Female),
 	Icon				=	HCPitbullfemale,
@@ -470,7 +470,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Pitbull,
 	Icon				=	HCPitbulldead,
 		DisplayCategory	= AnimalDead,
@@ -479,7 +479,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Rottweiler (Male),
 	Icon				=	HCRottweilermale,
@@ -489,7 +489,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Rottweiler (Female),
 	Icon				=	HCRottweilerfemale,
@@ -499,7 +499,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	5,
-	Type                		= 	Normal,
+	ItemType                		= 	base:normal,
 	DisplayName 			= 	Dead Rottweiler,
 	Icon				=	HCRottweilerdead,
 		DisplayCategory	= AnimalDead,
@@ -508,7 +508,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Shiba Inu (Male),
 	Icon				=	HCShibainumale,
@@ -518,7 +518,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Shiba Inu (Female),
 	Icon				=	HCShibainufemale,
@@ -528,7 +528,7 @@ module Hydrocraft
     {
 
 	Weight 					= 	5,
-	Type                	= 	Container,
+	ItemType                	= 	base:container,
 	Capacity            	= 	0,
 	DisplayName 			= 	Dead Shiba Inu,
 	Icon					=	HCShibainudead,
@@ -708,7 +708,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
 	DisplayName 		= 	Injured Pitbull (Male),
 	Icon				=	HCPitbullmaleinjured,
 		DisplayCategory	= Animal,
@@ -717,7 +717,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
 	DisplayName 		= 	Injured Pitbull (Female),
 	Icon				=	HCPitbullfemaleinjured,
 		DisplayCategory	= Animal,
@@ -726,7 +726,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
 	DisplayName 		= 	Injured Doberman (Male),
 	Icon				=	HCDobermanmaleinjured,
 		DisplayCategory	= Animal,
@@ -735,7 +735,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
 	DisplayName 		= 	Injured Doberman (Female),
 	Icon				=	HCDobermanfemaleinjured,
 		DisplayCategory	= Animal,
@@ -746,7 +746,7 @@ module Hydrocraft
 		MaxRange					=	15,
 		WeaponSprite				=	Hydrocraft.HCWardog,
 		MinAngle					=	0,
-		Type						=	Weapon,
+		ItemType						=	base:weapon,
 		MinimumSwingTime			=	3,
 		KnockBackOnNoDeath			=	TRUE,
 		SwingAmountBeforeImpact		=	0.02,
@@ -783,7 +783,7 @@ module Hydrocraft
 		MaxRange					=	15,
 		WeaponSprite				=	Hydrocraft.HCWardog,
 		MinAngle					=	0,
-		Type						=	Weapon,
+		ItemType						=	base:weapon,
 		MinimumSwingTime			=	3,
 		KnockBackOnNoDeath			=	TRUE,
 		SwingAmountBeforeImpact		=	0.02,
@@ -820,7 +820,7 @@ module Hydrocraft
 		MaxRange					= 12,
 		WeaponSprite				= Hydrocraft.HCWardog,
 		MinAngle					= 0,
-		Type						= Weapon,
+		ItemType						= base:weapon,
 		MinimumSwingTime			= 3,
 		KnockBackOnNoDeath			= TRUE,
 		SwingAmountBeforeImpact		= 0.02,
@@ -857,7 +857,7 @@ module Hydrocraft
 		MaxRange				=	17,
 		WeaponSprite			=	Hydrocraft.HCWardog,
 		MinAngle				=	0,
-		Type					=	Weapon,
+		ItemType					=	base:weapon,
 		MinimumSwingTime		=	3,
 		KnockBackOnNoDeath		=	TRUE,
 		SwingAmountBeforeImpact	=	0.02,
@@ -894,7 +894,7 @@ module Hydrocraft
 		MaxRange				=	17,
 		WeaponSprite			=	Hydrocraft.HCWardog,
 		MinAngle				=	0,
-		Type					=	Weapon,
+		ItemType					=	base:weapon,
 		MinimumSwingTime		=	3,
 		KnockBackOnNoDeath		=	TRUE,
 		SwingAmountBeforeImpact	=	0.02,
@@ -931,7 +931,7 @@ module Hydrocraft
 		MaxRange				=	15,
 		WeaponSprite			=	Hydrocraft.HCWardog,
 		MinAngle				=	0,
-		Type					=	Weapon,
+		ItemType					=	base:weapon,
 		MinimumSwingTime		=	3,
 		KnockBackOnNoDeath		=	TRUE,
 		SwingAmountBeforeImpact	=	0.02,

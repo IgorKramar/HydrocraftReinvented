@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Detonator Capsule MK1,
         icon 			= HCMk1capsule,
 		DisplayCategory	= WepBomb,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Detonator Capsule Parts,
         icon 			= HCMk1capsuleparts,
 		DisplayCategory	= CraftAmmo,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Detonator MK2 Off,
         icon 			= HCDetonatormk2off,
 		DisplayCategory	= WepBomb,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Detonator MK3 Off,
         icon 			= HCDetonatormk3off,
 		DisplayCategory	= WepBomb,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.7,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dynamite MK2 Off,
         icon 			= HCDetonatormk2off,
 		DisplayCategory	= WepBomb,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.8,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dynamite MK3 Off,
         icon 			= HCDynamitemk3off,
 		DisplayCategory	= WepBomb,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.7,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Thermite Bomb MK2 Off,
         icon 			= HCThermitebombmk2off,
 		DisplayCategory	= WepBomb,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.8,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Thermite Bomb MK3 Off,
         icon 			= HCThermitebombmk3off,
 		DisplayCategory	= WepBomb,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Rubber Bung with Cables,
         icon 			= HCDetonatorrubberbungcabels,
 		DisplayCategory	= WepBomb,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
         Weight   		= 1.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Ammonal Bomb Off,
         icon 			= HCAmmonalbomboff,
 		DisplayCategory	= WepBomb,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.6,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Detonator MK3 with HMTD Off,
         icon 			= HCDetonatormk3hmtdoff,
 		DisplayCategory	= WepBomb,
@@ -106,7 +106,7 @@ module Hydrocraft
 		OtherHandUse				=	TRUE,
 		MaxRange					=	8,
 		WeaponSprite 				=   Molotov,
-		Type						=	Weapon,
+		ItemType						=	base:weapon,
 		MinimumSwingTime			=	1.5,
 		SwingAnim					=	Throw,
 		UseSelf						=	TRUE,
@@ -129,7 +129,7 @@ module Hydrocraft
     {
 
 		MaxRange				=	10,
-		Type					=	Weapon,
+		ItemType					=	base:weapon,
 		MinimumSwingTime		=	1.5,
 		SwingAnim	=	Throw,
 		WeaponSprite = Molotov,
@@ -153,7 +153,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	10,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim	=	Throw,
 			WeaponSprite = Molotov,
@@ -179,7 +179,7 @@ module Hydrocraft
     {
 
         	MaxRange	        	= 	10,
-        	Type	                	= 	Weapon,
+        	ItemType	                	= 	base:weapon,
         	MinimumSwingTime		= 	1.5,
         	SwingAnim	=	Throw,
 			WeaponSprite = Molotov,
@@ -206,7 +206,7 @@ module Hydrocraft
     {
 
         	MaxRange	        	= 	5,
-        	Type	                	= 	Weapon,
+        	ItemType	                	= 	base:weapon,
         	MinimumSwingTime		= 	1.5,
         	SwingAnim	=	Throw,
 			WeaponSprite = Molotov,
@@ -232,7 +232,7 @@ module Hydrocraft
     {
 
         	MaxRange			       = 10,
-        	Type				       = Weapon,
+        	ItemType				       = base:weapon,
         	MinimumSwingTime	       = 1.5,
         	SwingAnim			       = Throw,
 			WeaponSprite		       = Molotov,
@@ -255,7 +255,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	20,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -280,7 +280,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	20,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -305,7 +305,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	20,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -330,7 +330,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	20,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -355,7 +355,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	20,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -380,7 +380,7 @@ module Hydrocraft
     {
 
         	MaxRange	        	= 	3,
-        	Type	                	= 	Weapon,
+        	ItemType	                	= 	base:weapon,
         	MinimumSwingTime		= 	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -406,7 +406,7 @@ module Hydrocraft
     {
 
         	MaxRange	        	= 	3,
-        	Type	                	= 	Weapon,
+        	ItemType	                	= 	base:weapon,
         	MinimumSwingTime		= 	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -432,7 +432,7 @@ module Hydrocraft
     {
 
         	MaxRange	        	= 	3,
-        	Type	                	= 	Weapon,
+        	ItemType	                	= 	base:weapon,
         	MinimumSwingTime		= 	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -458,7 +458,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	10,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	1.5,
 		SwingAnim			=	Throw,
 		WeaponSprite		 = Molotov,
@@ -484,7 +484,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	10,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	1.5,
 		SwingAnim			=	Throw,
 		WeaponSprite		 = Molotov,
@@ -508,7 +508,7 @@ module Hydrocraft
     {
 
         	MaxRange	        	= 	10,
-        	Type	                	= 	Weapon,
+        	ItemType	                	= 	base:weapon,
         	MinimumSwingTime		= 	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -534,7 +534,7 @@ module Hydrocraft
     {
 
         	MaxRange	        	= 	10,
-        	Type	                	= 	Weapon,
+        	ItemType	                	= 	base:weapon,
         	MinimumSwingTime		= 	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -560,7 +560,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	10,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -587,7 +587,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	10,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -613,7 +613,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	10,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -639,7 +639,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	10,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -665,7 +665,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	1.5,
 		SwingAnim			=	Throw,
 		WeaponSprite		 = Molotov,
@@ -689,7 +689,7 @@ module Hydrocraft
     {
 
         	MaxRange	        	= 	3,
-        	Type	                	= 	Weapon,
+        	ItemType	                	= 	base:weapon,
         	MinimumSwingTime		= 	1.5,
 			SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,

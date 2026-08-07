@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Santa Hat,
         	Icon 			= HCSantahat,
 			DisplayCategory	=   Misc,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Blue Ornament,
         	Icon 			= HCOrnamentblue,
 			DisplayCategory	=   Misc,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Green Ornament,
         	Icon 			= HCOrnamentgreen,
 			DisplayCategory	=   Misc,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Purple Ornament,
         	Icon 			= HCOrnamentpurple,
 			DisplayCategory	=   Misc,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Red Ornament,
         	Icon 			= HCOrnamentred,
 			DisplayCategory	=   Misc,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Silver Ornament,
         	Icon 			= HCOrnamentsilver,
 			DisplayCategory	=   Misc,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Yellow Ornament,
         	Icon 			= HCOrnamentyellow,
 			DisplayCategory	=   Misc,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Gold Star,
         	Icon 			= HCStargold,
 			DisplayCategory	=   Misc,
@@ -78,7 +78,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 0.1,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 8,
         DisplayName         = Christmas Stocking,
         Icon                = HCStocking,
@@ -88,7 +88,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.3,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Snow Globe,
         	Icon 			= HCSnowglobe,
 			DisplayCategory	=   Misc,
@@ -97,7 +97,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Christmas Wreath,
         	Icon 			= HCwreath,
 			DisplayCategory	=   Misc,
@@ -106,7 +106,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Garland,
         	Icon 			= HCGarland,
 			DisplayCategory	=   Crafting,
@@ -115,7 +115,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Christmas Lights,
         	Icon 			= HCXmaslights,
 			DisplayCategory	=   CraftElec,
@@ -124,7 +124,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.5,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Gift,
         	Icon 			= HCXmasgift,
 			DisplayCategory	=   Misc,
@@ -133,7 +133,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 18,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree,
 			DisplayCategory	=   Misc,
@@ -142,7 +142,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 18,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree2,
 			DisplayCategory	=   Misc,
@@ -151,7 +151,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 18,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree3,
 			DisplayCategory	=   Misc,
@@ -160,7 +160,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 18,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree4,
 			DisplayCategory	=   Misc,
@@ -170,7 +170,7 @@ module Hydrocraft
 
         	WeightReduction     	= 60,
         	Weight             	 = 0.2,
-        	Type                	= Container,
+        	ItemType                	= base:container,
        	 	Capacity            	= 6,
         	DisplayName         	= Candy Bucket,
         	Icon                	= HCCandybucket,
@@ -180,7 +180,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.1,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Witch Hat,
         	Icon 			= HCWitchhat,
 			DisplayCategory	=   Misc,
@@ -189,7 +189,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.4,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Jack-O-Lantern,
         	Icon 			= HCJackolantern,
 			DisplayCategory	=   Misc,
@@ -199,7 +199,7 @@ module Hydrocraft
 
 		LightDistance		=	3,
 		Weight			=	0.4,
-		Type			=	Drainable,
+		ItemType			=	base:drainable,
 		TorchCone		=	FALSE,
 		UseDelta		=	0.003,
 		LightStrength		=	0.6,
@@ -212,7 +212,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.4,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= White Jack-O-Lantern,
         	Icon 			= HCJackolanternwhite,
 			DisplayCategory	=   Misc,
@@ -222,7 +222,7 @@ module Hydrocraft
 
 		LightDistance		=	3,
 		Weight			=	0.4,
-		Type			=	Drainable,
+		ItemType			=	base:drainable,
 		TorchCone		=	FALSE,
 		UseDelta		=	0.003,
 		LightStrength		=	0.6,
@@ -235,7 +235,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 0.4,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Green Jack-O-Lantern,
         	Icon 			= HCJackolanterngreen,
 			DisplayCategory	=   Misc,
@@ -245,7 +245,7 @@ module Hydrocraft
 
 		LightDistance		=	3,
 		Weight			=	0.4,
-		Type			=	Drainable,
+		ItemType			=	base:drainable,
 		TorchCone		=	FALSE,
 		UseDelta		=	0.003,
 		LightStrength		=	0.6,
@@ -258,7 +258,7 @@ module Hydrocraft
     {
 
 	    	Weight 			= 2,
-        	Type 			= Normal,
+        	ItemType 			= base:normal,
         	DisplayName 		= Head on a Pike,
         	Icon 			= HCPikehead,
 			DisplayCategory	=   Misc,
@@ -269,7 +269,7 @@ module Hydrocraft
 		MaxRange			=	0.9,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		KnockBackOnNoDeath		=	FALSE,
 		SwingAmountBeforeImpact		=	0.02,

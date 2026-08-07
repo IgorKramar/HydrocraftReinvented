@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pack of Pop,
         icon 			= HCPoppack1,
 		DisplayCategory		=	FoodB,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pack of Pop,
         icon 			= HCPoppack2,
 		DisplayCategory		=	FoodB,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pack of Pop,
         icon 			= HCPoppack3,
 		DisplayCategory		=	FoodB,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pack of Pop,
         icon 			= HCPoppack6,
 		DisplayCategory		=	FoodB,
@@ -43,7 +43,7 @@ module Hydrocraft
 	HungerChange		=	-8,
 	Weight			=	0.3,
 	AlwaysWelcomeGift	=	TRUE,
-	Type			=	Food,
+	ItemType			=	base:food,
 	UnhappyChange		=	-10,
 	ThirstChange		=	-60,
 	DisplayName		=	Pop,
@@ -64,7 +64,7 @@ module Hydrocraft
 	HungerChange		=	-8,
 	Weight			=	0.3,
 	AlwaysWelcomeGift	=	TRUE,
-	Type			=	Food,
+	ItemType			=	base:food,
 	UnhappyChange		=	-10,
 	ThirstChange		=	-60,
 	DisplayName		=	Pop,
@@ -85,7 +85,7 @@ module Hydrocraft
 	HungerChange		=	-8,
 	Weight			=	0.3,
 	AlwaysWelcomeGift	=	TRUE,
-	Type			=	Food,
+	ItemType			=	base:food,
 	UnhappyChange		=	-10,
 	ThirstChange		=	-60,
 	DisplayName		=	Pop,
@@ -105,7 +105,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.8,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-85,
 		DisplayName		=	Cherry Soda,
@@ -128,7 +128,7 @@ module Hydrocraft
 		FatigueChange		=	-10,
 		HungerChange		=	-15,
 		Weight			=	0.8,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-85,
 		DisplayName		=	Cola Soda,
@@ -150,7 +150,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.8,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-85,
 		DisplayName		=	Cream Soda,
@@ -173,7 +173,7 @@ module Hydrocraft
 		FatigueChange		=	-5,
 		HungerChange		=	-15,
 		Weight			=	0.8,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-85,
 		DisplayName		=	Dr. Pickins Soda,
@@ -195,7 +195,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.8,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-85,
 		DisplayName		=	Ginger Ale Soda,
@@ -217,7 +217,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.8,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-85,
 		DisplayName		=	Grape Soda,
@@ -239,7 +239,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.8,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-85,
 		DisplayName		=	Grapefruit Soda,
@@ -261,7 +261,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.8,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-85,
 		DisplayName		=	Lemon Lime Soda,
@@ -283,7 +283,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.8,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-85,
 		DisplayName		=	Pineapple Soda,
@@ -305,7 +305,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.8,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-85,
 		DisplayName		=	Root Beer Soda,

@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sleeping Bag in Bag,
         icon 			= HCSleepingbag,
 		DisplayCategory	= SurCamp,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sleeping Bag,
         icon 			= HCSleepingbagsleepin,
 	
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sleeping Bag in Bag,
         icon 			= HCSleepingbag2,
 		DisplayCategory	= SurCamp,
@@ -34,7 +34,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sleeping Bag,
         icon 			= HCSleepingbag2sleepin,
 	
@@ -45,7 +45,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sleeping Bag in Bag,
         icon 			= HCSleepingbag3,
 		DisplayCategory	= SurCamp,
@@ -54,7 +54,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sleeping Bag,
         icon 			= HCSleepingbag3sleepin,
 		DisplayCategory	= SurCamp,
@@ -64,7 +64,7 @@ module Hydrocraft
     {
 
         Weight    		= 10,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Forest Bed,
         icon 			= HCForestbedsleepin,
 		DisplayCategory	= SurCamp,
@@ -74,7 +74,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dome Tent Kit,
         icon 			= HCTentkit,
 		DisplayCategory	= SurCamp,
@@ -84,7 +84,7 @@ module Hydrocraft
 
 	WeightReduction     	= 0,
         Weight    		= 0.6,
-        Type                	= Container,
+        ItemType                	= base:container,
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dome Tent Kit,
         icon 			= HCTentkit2,
 		DisplayCategory	= SurCamp,
@@ -105,7 +105,7 @@ module Hydrocraft
 
 	WeightReduction     	= 0,
         Weight    		= 0.6,
-        Type                	= Container,
+        ItemType                	= base:container,
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent2,
@@ -116,7 +116,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dome Tent Kit,
         icon 			= HCTentkit3,
 		DisplayCategory	= SurCamp,
@@ -126,7 +126,7 @@ module Hydrocraft
 
 	WeightReduction     	= 0,
         Weight    		= 0.6,
-        Type                	= Container,
+        ItemType                	= base:container,
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent3,
@@ -137,7 +137,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dome Tent Kit,
         icon 			= HCTentkit4,
 		DisplayCategory	= SurCamp,
@@ -147,7 +147,7 @@ module Hydrocraft
 
 	WeightReduction     	= 0,
         Weight    		= 0.6,
-        Type                	= Container,
+        ItemType                	= base:container,
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent4,

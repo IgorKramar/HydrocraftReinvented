@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		        = 6,
-        Type    		        = Food,
+        ItemType    		        = base:food,
         FoodType	            = NoExplicit,
         DisplayName             = Pot with Sugar Beets,
         Icon 			        = HCPotBeets,
@@ -29,7 +29,7 @@ module Hydrocraft
     {
 
         Weight    		        = 6,
-        Type    		        = Food,
+        ItemType    		        = base:food,
         FoodType	            = NoExplicit,
         DisplayName             = Pot with Cooked Sugar Beets,
         Icon 			        = HCPotBeets,
@@ -53,7 +53,7 @@ module Hydrocraft
 
         HungerChange			=	-60,
         Weight				    =	1,
-        Type				    =	Food,
+        ItemType				    =	base:food,
         FoodType			    =	NoExplicit,
         DisplayName			    =	Drying Beet Sugar,
         Icon				    =	HCDriedSugar,
@@ -78,7 +78,7 @@ module Hydrocraft
         BoredomChange			=	-10,
         UnhappyChange			=	-15,
         Weight				    =	1,
-        Type				    =	Food,
+        ItemType				    =	base:food,
         FoodType			    =	NoExplicit,
         ReplaceOnUse			=	BakingTray,
         DisplayName			    =	Dried Sugar,
@@ -96,7 +96,7 @@ module Hydrocraft
         BoredomChange		=	-10,
         UnhappyChange		=	-15,
         Weight				=	0.1,
-        Type				=	Food,
+        ItemType				=	base:food,
         FoodType			=	NoExplicit,
         DisplayName			=	Sugar Powder,
         Icon				=	HCSugarPowder,

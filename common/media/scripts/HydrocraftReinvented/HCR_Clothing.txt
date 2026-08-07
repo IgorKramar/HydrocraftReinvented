@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Rubber Gloves,
         icon 			= HCRubberglove,
 		DisplayCategory	= ClothM,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    	        = 0.9,
-        Type    	        = Normal,
+        ItemType    	        = base:normal,
         DisplayName    	    = Gasmask,
         Icon    	        = HCGasmask,
 		DisplayCategory		= ClothM,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    	        = 0.9,
-        Type    	        = Normal,
+        ItemType    	        = base:normal,
         DisplayName    	    = Improvised Gasmask,
         Icon    	        = HCImprovisedgasmask,
 		DisplayCategory		= ClothM,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    	        = 1.3,
-        Type    	        = Normal,
+        ItemType    	        = base:normal,
         DisplayName    	    = Improvised Hazmat Suit,
         Icon    	        = HCImprovisedhazmat,
 		DisplayCategory		= ClothM,

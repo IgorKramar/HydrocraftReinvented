@@ -7,7 +7,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight			=	1,
 	CanStoreWater		=	TRUE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta		=	0.07,
 	DisplayName		=	Beaker With Water,
@@ -22,7 +22,7 @@ module Hydrocraft
     {
 
 	Weight				=	1,
-	Type			        =	Normal,
+	ItemType			        =	base:normal,
 	DisplayName			=	Beaker With Hot Water,
 	Icon				=	HCBeakerwaterhot,
 	DisplayCategory	=   CraftChem,
@@ -31,7 +31,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Beaker with Ammonia,
         icon 			= HCBeakerammonia,
 	DisplayCategory	=   CraftChem,
@@ -40,7 +40,7 @@ module Hydrocraft
     {
 
 	Weight			=	1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Beaker With Trona Solution,
 	Icon			=	HCBeakertronasolution,
 	DisplayCategory	=   CraftChem,
@@ -49,7 +49,7 @@ module Hydrocraft
     {
 
 	Weight			=	1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Beaker With Calcium Oxide And Water,
 	Icon			=	HCBeakerwatercalciumoxid,
 	DisplayCategory	=   CraftChem,
@@ -58,7 +58,7 @@ module Hydrocraft
     {
 
 	Weight			=	1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Beaker With Muriatic Acid,
 	Icon			=	HCBeakermuriaticacid,
 	DisplayCategory	=   CraftChem,
@@ -67,7 +67,7 @@ module Hydrocraft
     {
 
 	Weight				=	1,
-	Type			        =	Normal,
+	ItemType			        =	base:normal,
 	DisplayName			=	Sodium Hydroxide Soultion,
 	Icon				=	HCBeakersodiumhydroxidesolution,
 	DisplayCategory	=   CraftChem,
@@ -76,7 +76,7 @@ module Hydrocraft
     {
 
 	Weight				=	1,
-	Type			        =	Normal,
+	ItemType			        =	base:normal,
 	DisplayName			=	Calcium Chloride Soultion,
 	Icon				=	HCBeakercalciumchloridesolution,
 	DisplayCategory	=   CraftChem,
@@ -85,7 +85,7 @@ module Hydrocraft
     {
 
         Weight            		=    1,
-        Type            		=    Normal,
+        ItemType            		=    base:normal,
         DisplayName        		=    Beaker With Methylamin,
         Icon            		=    HCBeakermethylamin,
 		DisplayCategory	=   CraftChem,
@@ -94,7 +94,7 @@ module Hydrocraft
     {
 
         Weight            		=    1,
-        Type            		=    Normal,
+        ItemType            		=    base:normal,
         DisplayName        		=    Beaker With Sulfuric Acid,
         Icon            		=    HCBeakersulfuricacid,
 	DisplayCategory	=   CraftChem,
@@ -103,7 +103,7 @@ module Hydrocraft
     {
 
         Weight            		=    1,
-        Type            		=    Normal,
+        ItemType            		=    base:normal,
         DisplayName        		=    Beaker With Phenylacetic Acid,
         Icon            		=    HCBeakerphenyl,
 	DisplayCategory	=   CraftChem,
@@ -112,7 +112,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Beaker With Hydrogen Peroxide,
         icon 				= HCBeakerh2o2,
 	DisplayCategory	=   CraftChem,
@@ -121,7 +121,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Cold Beaker With Hydrogen Peroxide,
         icon 				= HCBeakerh2o2cooled,
 	DisplayCategory	=   CraftChem,
@@ -130,7 +130,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.6,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Beaker With Hydrogen Peroxide and Hexamethylentetramin,
         icon 				= HCBeakerh2o2hexa,
 	DisplayCategory	=   CraftChem,
@@ -139,7 +139,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.6,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Cold Beaker With Hydrogen Peroxide and Hexamethylentetramin,
         icon 				= HCBeakerh2o2hexacooled,
 	DisplayCategory	=   CraftChem,
@@ -148,7 +148,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.8,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Beaker With Hydrogen Peroxide and Hexamethylentetramin and Citric Acid,
         icon 				= HCBeakerh2o2hexa,
 	DisplayCategory	=   CraftChem,
@@ -157,7 +157,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.8,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Cold Beaker With Hydrogen Peroxide and Hexamethylentetramin and Citric Acid,
         icon 				= HCBeakerh2o2hexacitricacidcooled,
 	DisplayCategory	=   CraftChem,
@@ -166,7 +166,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.8,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Beaker With HMTD Foam,
         icon 				= HCBeakerhmtd,
 	DisplayCategory	=   CraftChem,
@@ -175,7 +175,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.8,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Beaker With Coppersulfate solution,
         icon 				= HCBeakerhmtd,
 	DisplayCategory	=   CraftChem,
@@ -184,7 +184,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.8,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Beaker With Nickel Sulfate solution,
         icon 				= HCBeakerhmtd,
 	DisplayCategory	=   CraftChem,
@@ -193,7 +193,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.8,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Beaker With Nitric Acid,
         icon 				= HCBeakerhmtd,
 	DisplayCategory	=   CraftChem,
@@ -202,7 +202,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.8,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Beaker With Mercuric Oxide,
         icon 				= HCBeakermercuricoxide,
 	DisplayCategory	=   CraftChem,
@@ -211,7 +211,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.8,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Beaker With Potassium Permanganate,
         icon 				= HCBeakerpotassiumpermanganate,
 	DisplayCategory	=   CraftChem,
@@ -220,7 +220,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Ammonia,
@@ -232,7 +232,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Calciumchloride Solution,
@@ -244,7 +244,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With H2O2,
@@ -256,7 +256,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Mercuricoxide,
@@ -268,7 +268,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Methylamin,
@@ -280,7 +280,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Morphinhydrochlorid Solution,
@@ -292,7 +292,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Muriatic Acid,
@@ -304,7 +304,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Phenylacetic Acid,
@@ -316,7 +316,7 @@ module Hydrocraft
     {
 
         Weight    		= 	1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Beaker With Ether,
         icon 			= 	HCBeakerselfmadeether,
 	DisplayCategory	=   CraftChem,
@@ -325,7 +325,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Sodiumhydroxide Solution,
@@ -337,7 +337,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Sulfuric Acid,
@@ -349,7 +349,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Trona Solution,
@@ -361,7 +361,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Water,
@@ -373,7 +373,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Ether,
@@ -385,7 +385,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.2,
         DisplayName         	= 	Beaker With Potassium Permanganate,

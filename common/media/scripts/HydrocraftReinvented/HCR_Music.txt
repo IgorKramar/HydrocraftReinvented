@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Book of Sheet Music,
         icon 			= HCBooksheetmusic,
 		DisplayCategory	= LitE,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Notebook of Sheet Music,
         icon 			= HCNotebooksheetmusic,
 		DisplayCategory	= LitE,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sheet Music,
         icon 			= HCPapersheetmusic,
 		DisplayCategory	= LitE,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Vinyl Record,
         icon 			= HCVinylrecord1,
 		DisplayCategory	= Toy,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Vinyl Record,
         icon 			= HCVinylrecord2,
 		DisplayCategory	= Toy,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Vinyl Record,
         icon 			= HCVinylrecord3,
 		DisplayCategory	= Toy,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Vinyl Record,
         icon 			= HCVinylrecord4,
 		DisplayCategory	= Toy,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Vinyl Record,
         icon 			= HCVinylrecord5,
 		DisplayCategory	= Toy,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
         Weight    		= 1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Phonograph,
         icon 			= HCPhonograph,
 		DisplayCategory	= Toy,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= DVD,
         icon 			= HCDVD,
 		DisplayCategory	= Useless,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Empty DVD Case,
         icon 			= HCDVDCase,
 		DisplayCategory	= Useless,
@@ -104,7 +104,7 @@ module Hydrocraft
     {
 
         Weight    		= 2.0,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= DVD Player,
         icon 			= HCDVDPlayer,
 		DisplayCategory	= Useless,
@@ -113,7 +113,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Empty CD Case,
         icon 			= HCCDcase,
 		DisplayCategory	= Useless,
@@ -122,7 +122,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= CD Case with CD,
         icon 			= HCCDcasefull,
 		DisplayCategory	= Useless,
@@ -131,7 +131,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.3,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Harmonica,
 	Icon			=	HCHarmonica,
 		DisplayCategory	= Toy,
@@ -140,7 +140,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.0,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Harp,
 	Icon			=	HCHarp,
 	DisplayCategory	= 	Toy,
@@ -149,7 +149,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.5,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Ukulele,
 	Icon			=	HCUkulele,
 	DisplayCategory	= 	Toy,
@@ -161,7 +161,7 @@ module Hydrocraft
         MaxRange	=	1.25,
         WeaponSprite	=	Banjo,
         MinAngle	=	0.75,
-        Type	=	Weapon,
+        ItemType	=	base:weapon,
         MinimumSwingTime	=	4,
         KnockBackOnNoDeath	=	FALSE,
         SwingAmountBeforeImpact	=	0.02,
@@ -199,7 +199,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.0,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Guitar,
 	Icon			=	HCGuitar,
 	DisplayCategory	= 	Toy,
@@ -208,7 +208,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.0,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Electric Guitar,
 	Icon			=	HCElectricguitar,
 	DisplayCategory	= 	CraftElec,
@@ -217,7 +217,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.0,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Electric Bass Guitar,
 	Icon			=	HCElectricguitarbass,
 	DisplayCategory	= 	CraftElec,
@@ -226,7 +226,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Guitar Pick,
 	Icon			=	HCGuitarpick,
 	DisplayCategory	= 	Useless,
@@ -235,7 +235,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.5,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Amp,
 	Icon			=	HCAmp,
 	DisplayCategory	= 	CraftElec,
@@ -244,7 +244,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Kazoo,
 	Icon			=	HCKazoo,
 	DisplayCategory	= 	Toy,
@@ -253,7 +253,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.5,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Wood Flute,
 	Icon			=	HCFlutewood,
 	DisplayCategory	= 	Toy,
@@ -262,7 +262,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.5,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Clarinet,
 	Icon			=	HCClarinet,
 	DisplayCategory	= 	Toy,
@@ -271,7 +271,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.5,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Trombone,
 	Icon			=	HCTrombone,
 	DisplayCategory	= 	Toy,
@@ -280,7 +280,7 @@ module Hydrocraft
     {
 
 	Weight			=	5.0,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Drum Kit,
 	Icon			=	HCDrumkit,
 	DisplayCategory	= 	Toy,
@@ -289,7 +289,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.0,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Drum,
 	Icon			=	HCDrum,
 	DisplayCategory	= 	Toy,
@@ -299,7 +299,7 @@ module Hydrocraft
 
 	    DisplayCategory = Instrument,
 		SubCategory	=	Swinging,		
-		Type		=	Weapon,		
+		ItemType		=	base:weapon,		
 		DisplayName	=	Maraca,	
 		Weight	=	0.5,		
 		WeaponSprite	=	Hydrocraft.HC_Maraca_AP,
@@ -336,7 +336,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.5,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Cow Bell,
 	Icon			=	HCCowbell,
 	DisplayCategory	= 	Toy,
@@ -345,7 +345,7 @@ module Hydrocraft
     {
 
 	Weight			=	20.0,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Piano,
 	Icon			=	HCPiano,
 	DisplayCategory	= 	Toy,
@@ -354,7 +354,7 @@ module Hydrocraft
     {
 
 	Weight			=	20.0,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Grand Piano,
 	Icon			=	HCPianogrand,
 	DisplayCategory	= 	Toy,

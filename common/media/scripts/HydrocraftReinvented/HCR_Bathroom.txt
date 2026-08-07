@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
         DisplayName     	= Opened Tooth Paste,
         icon 			= HCToothpasteopen,
 	UseDelta		= 0.1,
@@ -15,7 +15,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Floss,
         icon 			= HCFloss,
 	DisplayCategory          =   Misc,
@@ -24,7 +24,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Box of Black Hair Color,
@@ -35,7 +35,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Box of Blonde Hair Color,
@@ -46,7 +46,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Box of Brunette Hair Color,
@@ -57,7 +57,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Box of Pink Hair Color,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Box of Red Hair Color,
@@ -80,7 +80,7 @@ module Hydrocraft
 	
 		DisplayCategory  = CraftElec,
         Weight    		 = 1,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = Hairdryer,
         icon 			 = HCHairdryer,	
 		AttachmentType  = 	Screwdriver,
@@ -91,7 +91,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Electric Toothbrush,
         icon 			= HCElectrictoothbrush,
 		DisplayCategory = CraftElec,
@@ -100,7 +100,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.2,
-	Type 				= 	Drainable,
+	ItemType 				= 	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.125,
 	DisplayName 			= 	Electric Toothbrush with Power,
@@ -112,7 +112,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Electric Toothbrush with Dead Battery,
         icon 				= HCElectrictoothbrush,
 	DisplayCategory          =   Misc,
@@ -121,7 +121,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Electric Razor,
         icon 			= HCElectricrazor,
 		DisplayCategory = CraftElec,
@@ -130,7 +130,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.2,
-	Type 				= 	Drainable,
+	ItemType 				= 	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.125,
 	DisplayName 			= 	Electric Razon with Power,
@@ -142,7 +142,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Electric Razor with Dead Battery,
         icon 				= HCElectricrazor,
 	DisplayCategory          =   Misc,
@@ -150,7 +150,7 @@ module Hydrocraft
     item HCWashclothwet
     {
 
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Wet Washcloth,
 	Icon			=	HCWashclothwet,
 	Weight			=	0.4,
@@ -160,7 +160,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.2,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	DisplayName		=	Washcloth,
         UseWhileEquipped	=	FALSE,
 	Icon			=	HCWashcloth,
@@ -172,7 +172,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Chapstick,
@@ -183,7 +183,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Deodorant Stick,
@@ -194,7 +194,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Deodorant Spray,
@@ -205,7 +205,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Diaper,
         icon 			= HCDiaper,
 	ReplaceOnUse    	= HCDiaperDirty,
@@ -218,7 +218,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Diaper,
         icon 			= HCDiaper,
 	ReplaceOnUse    	= HCDiaperDirty,
@@ -232,7 +232,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dirty Diaper,
         icon 			= HCDiaperDirty,
 	CanBandage		= TRUE,
@@ -244,7 +244,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pack of Diapers,
         icon 			= HCDiaperpack,
 	DisplayCategory          =   Bandage,
@@ -253,7 +253,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Menstrual Pad,
         icon 			= HCMenstrualpad,
 	ReplaceOnUse    	= HCMenstrualpadDirty,
@@ -266,7 +266,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sterilized Menstrual Pad,
         icon 			= HCMenstrualpad,
 	ReplaceOnUse    	= HCMenstrualpadDirty,
@@ -279,7 +279,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dirty Menstrual Pad,
         icon 			= HCMenstrualpadDirty,
 	CanBandage		= TRUE,
@@ -290,7 +290,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Menstrual Pads,
         icon 			= HCMenstrualpadbox,
 	DisplayCategory          =   Bandage,
@@ -299,7 +299,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Tampon,
         icon 			= HCTampon,
 	DisplayCategory          =   CraftChem,
@@ -308,7 +308,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Tampons,
         icon 			= HCTamponbox,
 	DisplayCategory          =   CraftChem,
@@ -317,7 +317,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Tissues,
         icon 			= HCTissuebox,
 	DisplayCategory          =   Medical,
@@ -326,7 +326,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Baby Wipes,
         icon 			= HCBabywipes,
 	DisplayCategory          =   Useless,
@@ -335,7 +335,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Body Brush,
         icon 			= HCBodybrush,
 	DisplayCategory          =   Useless,
@@ -344,7 +344,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Hair Conditioner,
@@ -355,7 +355,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Hand Soap,
@@ -366,7 +366,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Loofah,
         icon 			= HCLoofah,
 	DisplayCategory          =   CraftChem,
@@ -375,7 +375,7 @@ module Hydrocraft
     {
 
 	Weight 			= 0.2,
-	Type			= Food,
+	ItemType			= base:food,
 	ThirstChange		= -20,
 	DisplayName 		= Mouthwash,
 	icon 			= HCMouthwash,
@@ -393,7 +393,7 @@ module Hydrocraft
     {
 
 	Weight 			= 0.2,
-	Type			= Food,
+	ItemType			= base:food,
 	ThirstChange		= -20,
 	DisplayName 		= Mouthwash,
 	icon 			= HCMouthwash2,
@@ -411,7 +411,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pumice Stone,
         icon 			= HCPumice,
 	DisplayCategory          =   Useless,
@@ -420,7 +420,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Shampoo,
@@ -431,7 +431,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Shaving Cream,
@@ -442,7 +442,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Nail Polish Remover,
@@ -453,7 +453,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Bath Sponge,
         icon 			= HCSponge,
 	DisplayCategory          =   CraftChem,
@@ -462,7 +462,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Styling Foam,
@@ -473,7 +473,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Toilet Brush,
         icon 			= HCToiletbrush,
 	DisplayCategory          =   Useless,
@@ -482,7 +482,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Drain Cleaner,
@@ -493,7 +493,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Toilet Cleaner,
@@ -504,7 +504,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Toiletpaper Pack,
         icon 			= HCToiletpaperpack,
 	DisplayCategory          =   Medical,
@@ -513,7 +513,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Tooth Cleaner,
         icon 			= HCToothcleaner,
 	DisplayCategory          =   Useless,
@@ -522,7 +522,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dentures,
         icon 			= HCDentures,
 	DisplayCategory          =   Useless,
@@ -531,7 +531,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Shaving Brush,
         icon 			= HCShavingbrush,
 	DisplayCategory          =   Useless,
@@ -540,7 +540,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sanitizing Jar,
         icon 			= HCSanitizingjar,
 		DisplayCategory = Useless,
@@ -549,7 +549,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Razor Blade,
         icon 			= HCRazorblade,
 		DisplayCategory = Craft,
@@ -558,7 +558,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Razor Blade,
         icon 			= HCRazorbladebox,
 		DisplayCategory = Craft,
@@ -567,7 +567,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Hand Mirror,
         icon 			= HCHandmirror,
 		DisplayCategory = Useless,
@@ -576,7 +576,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.8,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Bathroom Scale,
         icon 			= HCBathroomscale,
 		DisplayCategory = Useless,
@@ -586,7 +586,7 @@ module Hydrocraft
 
         WeightReduction    	=    	25,
         Weight    		=    	5,
-        Type    		=    	Container,
+        ItemType    		=    	base:container,
         Capacity    		=    	20,
         DisplayName    		=    	Clothing Hamper,
         Icon    		=    	HCClothhamper,
@@ -599,7 +599,7 @@ module Hydrocraft
 		MaxRange			=	0.7,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		KnockBackOnNoDeath		=	FALSE,
 		SwingAmountBeforeImpact		=	0.02,

@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight			= 9.0,
-	Type			= Normal,
+	ItemType			= base:normal,
 	DisplayName		= Log Pile,
 	icon			= HCLogstack1,
 	DisplayCategory	= CraftCarp,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 	Weight			= 5.0,
-	Type			= Normal,
+	ItemType			= base:normal,
 	DisplayName		= Oak Log Pile,
 	icon			= HCLogstack1,
 	DisplayCategory	= CraftCarp,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight          = 1000.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Log Pile,
         icon            = HCLogstack1,
 		DisplayCategory	= CraftCarp,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight          = 1000.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Log Pile,
         icon            = HCLogstack2,
 		DisplayCategory	= CraftCarp,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight          = 1000.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Log Pile,
         icon            = HCLogstack3,
 		DisplayCategory	= CraftCarp,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight          = 1000.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Log Stack,
         icon            = HCLogstack4,
 		DisplayCategory	= CraftCarp,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight          = 0.01,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Sawdust,
         icon            = HCSawdust,
 		DisplayCategory	= CraftCarp,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight          = 8,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wood Beam,
         icon            = HCWoodbeam,
 		DisplayCategory	= CraftCarp,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
         Weight          = 4,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wood Sheet,
         icon            = HCWoodsheet,
 		DisplayCategory	= CraftCarp,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
         Weight          = 0.2,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Small Curved Shaft,
         icon            = HCCurvedshaftsmall,
 		DisplayCategory	= CraftCarp,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
         Weight          = 1.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wood Block,
         icon            = HCWoodblock,
 		DisplayCategory	= CraftCarp,
@@ -104,7 +104,7 @@ module Hydrocraft
     {
 
         Weight          = 1.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Wheel,
         icon            = HCWoodwheel,
 		DisplayCategory	= CraftCarp,
@@ -113,7 +113,7 @@ module Hydrocraft
     {
 
         Weight          = 2.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Stamp Mill Wheel,
         icon            = HCStampmillwheel,
 		DisplayCategory	= CraftCarp,
@@ -123,7 +123,7 @@ module Hydrocraft
 
         WeightReduction = 0,
         Weight          = 10,
-        Type            = Container,
+        ItemType            = base:container,
         Capacity        = 50,
         DisplayName     = Workbench,
         icon            = HCWorkbench,
@@ -133,7 +133,7 @@ module Hydrocraft
     {
 
         Weight          = 5,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wood Table,
         icon            = HCTablewood,
 		DisplayCategory	= CraftCarp,
@@ -143,7 +143,7 @@ module Hydrocraft
 
         WeightReduction = 0,
         Weight          = 10,
-        Type            = Container,
+        ItemType            = base:container,
         Capacity        = 50,
         DisplayName     = Carpenter Bench,
         icon            = HCCarpenterbench,
@@ -153,7 +153,7 @@ module Hydrocraft
     {
 
         Weight          = 10,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Sawbuck,
         icon            = HCSawbuck,
 		DisplayCategory	= CraftCarp,
@@ -162,7 +162,7 @@ module Hydrocraft
     {
 
         Weight          = 5,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Plank Barrier,
         icon            = HCPlankbarrier,
 		DisplayCategory	= CraftCarp,
@@ -171,7 +171,7 @@ module Hydrocraft
     {
 
         Weight          = 4,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Churn,
         icon            = HCChurn,
 		DisplayCategory	= CraftCarp,
@@ -180,7 +180,7 @@ module Hydrocraft
     {
 
         Weight          = 4,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Barrel,
         icon            = HCWinebarrel,
 		DisplayCategory	= CraftCarp,
@@ -190,7 +190,7 @@ module Hydrocraft
 
         Weight          = 4,
         CanStoreWater   = TRUE,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Vat,
         ReplaceOnUseOn  = WaterSource-HCVatwater,
         icon            = HCVat,
@@ -203,7 +203,7 @@ module Hydrocraft
         IsWaterSource       = TRUE,
         Weight              = 16,
         CanStoreWater       = TRUE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         UseWhileEquipped    = 2.0,
         UseDelta            = 0.003125,
         DisplayName         = Wooden Vat with Water,
@@ -218,7 +218,7 @@ module Hydrocraft
 
         Weight          = 1,
         CanStoreWater   = TRUE,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Bucket,
         ReplaceOnUseOn  = WaterSource-HCWoodenbucketwater,
         icon            = HCWoodenbucket,
@@ -231,7 +231,7 @@ module Hydrocraft
         IsWaterSource       = TRUE,
         Weight              = 4,
         CanStoreWater       = TRUE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         UseDelta            = 0.2,
         UseWhileEquipped    = true,
         DisplayName         = Wooden Bucket with Water,
@@ -245,7 +245,7 @@ module Hydrocraft
     {
 
         Weight          = 0.5,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Ring,
         icon            = HCWoodenring,
 		DisplayCategory	= CraftCarp,
@@ -255,7 +255,7 @@ module Hydrocraft
 
         Weight              = 1,
         CanStoreWater       = TRUE,
-        Type                = Normal,
+        ItemType                = base:normal,
         DisplayName         = Wooden Washtub,
         ReplaceOnUseOn      = WaterSource-HCWashtubfull,
         icon                = HCWashtub,
@@ -268,7 +268,7 @@ module Hydrocraft
         IsWaterSource       = TRUE,
         Weight              = 4,
         CanStoreWater       = TRUE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         UseWhileEquipped    = 2.0,
         DisplayName         = Wooden Washtub with Water,
         ReplaceOnDeplete    = HCWashtub,
@@ -282,7 +282,7 @@ module Hydrocraft
 
         Weight          = 2,
         CanStoreWater   = TRUE,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Trough,
         ReplaceOnUseOn  = WaterSource-HCTroughfull,
         icon            = HCTrough,
@@ -295,7 +295,7 @@ module Hydrocraft
         IsWaterSource       = TRUE,
         Weight              = 8,
         CanStoreWater       = TRUE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         UseWhileEquipped    = FALSE,
         UseDelta            = 0.125,
         DisplayName         = Wooden Trough with Water,
@@ -309,7 +309,7 @@ module Hydrocraft
     {
 
         Weight          = 8,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Trough with Vegetable Oil,
         icon            = HCTroughvegoil,
 		DisplayCategory	= CraftCarp,
@@ -318,7 +318,7 @@ module Hydrocraft
     {
 
         Weight          = 12.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Lumber Stack,
         icon            = HCLumberstack,
 		DisplayCategory	= CraftCarp,
@@ -327,7 +327,7 @@ module Hydrocraft
     {
 
         Weight          = 12.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Pallet of Lumber,
         icon            = HCLumberbox,
 		DisplayCategory	= CraftCarp,
@@ -336,7 +336,7 @@ module Hydrocraft
     {
 
         Weight          = 1.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Pallet,
         icon            = HCWoodenpallet,
 		DisplayCategory	= CraftCarp,
@@ -345,7 +345,7 @@ module Hydrocraft
     {
 
         Weight          = 12.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Pallet of Logs,
         icon            = HCLogbox,
 		DisplayCategory	= CraftCarp,
@@ -354,7 +354,7 @@ module Hydrocraft
     {
 
         Weight          = 1.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Wheel,
         icon            = HCWoodwheel,
 		DisplayCategory	= CraftCarp,
@@ -364,7 +364,7 @@ module Hydrocraft
 
         WeightReduction             = 100,
         Weight                      = 20,
-        Type                        = Container,
+        ItemType                        = base:container,
         Capacity                    = 200,
         DisplayName                 = Wooden Wheelbarrow,
         icon                        = HCWoodenwheelbarrow,
@@ -375,7 +375,7 @@ module Hydrocraft
     {
 
         Weight          = 1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wood Shingles,
         icon            = HCWoodshingles,
 		DisplayCategory	= CraftCarp,
@@ -384,7 +384,7 @@ module Hydrocraft
     {
 
         Weight          = 10,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Empty Coffin,
         icon            = HCCoffin,
 		DisplayCategory	= CraftCarp,
@@ -393,7 +393,7 @@ module Hydrocraft
     {
 
         Weight          = 20,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Full Coffin,
         icon            = HCCoffin,
 		DisplayCategory	= CraftCarp,
@@ -402,7 +402,7 @@ module Hydrocraft
     {
 
         Weight          = 20,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Ladder,
         icon            = HCWoodenladder,
 		DisplayCategory	= CraftCarp,
@@ -411,7 +411,7 @@ module Hydrocraft
     {
 
         Weight          = 10,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Spinning Wheel,
         icon            = HCSpinningwheel,
 		DisplayCategory	= CraftCarp,
@@ -420,7 +420,7 @@ module Hydrocraft
     {
 
         Weight          = 10,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Primitive Loom,
         icon            = HCLoom,
 		DisplayCategory	= CraftCarp,
@@ -429,7 +429,7 @@ module Hydrocraft
     {
 
         Weight          = 20,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Floor Loom,
         icon            = HCLoomfloor,
 		DisplayCategory	= CraftCarp,
@@ -438,7 +438,7 @@ module Hydrocraft
     {
 
         Weight          = 10,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Log Table,
         icon            = HCTablelog,
 		DisplayCategory	= CraftCarp,
@@ -448,7 +448,7 @@ module Hydrocraft
 
         WeightReduction = 10,
         Weight          = 10,
-        Type            = Container,
+        ItemType            = base:container,
         Capacity        = 100,
         DisplayName     = Hunting Blind,
         icon            = HCHuntingblind,
@@ -459,7 +459,7 @@ module Hydrocraft
 
         WeightReduction = 10,
         Weight          = 10000,
-        Type            = Container,
+        ItemType            = base:container,
         Capacity        = 100,
         DisplayName     = Hunting Blind,
         icon            = HCHuntingblind,
@@ -469,7 +469,7 @@ module Hydrocraft
     {
 
         Weight          = 15,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Windmill,
         icon            = HCWindmill,
 		DisplayCategory	= CraftCarp,
@@ -478,7 +478,7 @@ module Hydrocraft
     {
 
         Weight          = 1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Windmill Blade,
         icon            = HCWindmillblade,
 		DisplayCategory	= CraftCarp,
@@ -488,7 +488,7 @@ module Hydrocraft
 
         Weight          = 15,
         CanStoreWater   = TRUE,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Water Tower,
         ReplaceOnUseOn  = WaterSource-HCWatertowerfull,
         icon            = HCWatertower,
@@ -501,7 +501,7 @@ module Hydrocraft
         IsWaterSource       = TRUE,
         Weight              = 15,
         CanStoreWater       = TRUE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         UseWhileEquipped    = 2.0,
         UseDelta            = 0.003125,
         DisplayName         = Water Tower with Water,
@@ -516,7 +516,7 @@ module Hydrocraft
 
         Weight          = 15,
         CanStoreWater   = TRUE,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Double Water Tower,
         ReplaceOnUseOn  = WaterSource-HCWatertowerfull2,
         icon            = HCWatertower2,
@@ -529,7 +529,7 @@ module Hydrocraft
         IsWaterSource       = TRUE,
         Weight              = 15,
         CanStoreWater       = TRUE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         UseWhileEquipped    = 2.0,
         UseDelta            = 0.0015625,
         DisplayName         = Double Water Tower with Water,
@@ -543,7 +543,7 @@ module Hydrocraft
     {
 
         Weight          = 20,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Water Pump,
         icon            = HCWaterpump,
 		DisplayCategory	= CraftCarp,
@@ -552,7 +552,7 @@ module Hydrocraft
     {
 
         Weight          = 10000,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Water Pump,
         icon            = HCWaterpump,
 		DisplayCategory	= CraftCarp,
@@ -561,7 +561,7 @@ module Hydrocraft
     {
 
         Weight          = 6,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Clothes Line,
         icon            = HCClothesline,
 		DisplayCategory	= CraftCarp,
@@ -570,7 +570,7 @@ module Hydrocraft
     {
 
         Weight          = 6,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Double Clothes Line,
         icon            = HCClothesline2,
 		DisplayCategory	= CraftCarp,
@@ -580,7 +580,7 @@ module Hydrocraft
 
         Weight          = 10,
         CanStoreWater   = TRUE,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Empty Makeshift Shower,
         icon            = HCShower,
         ReplaceOnUseOn  = WaterSource-HCShowerfull,
@@ -593,7 +593,7 @@ module Hydrocraft
         IsWaterSource       = TRUE,
         Weight              = 14,
         CanStoreWater       = TRUE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         DisplayName         = Makeshift Shower,
         UseWhileEquipped    = 2.0,
         UseDelta            = 0.25,
@@ -607,7 +607,7 @@ module Hydrocraft
 
         Weight          = 15,
         CanStoreWater   = TRUE,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Empty Makeshift Shower and Sink,
         icon            = HCShowersink,
         ReplaceOnUseOn  = WaterSource-HCShowersinkfull,
@@ -620,7 +620,7 @@ module Hydrocraft
         IsWaterSource       = TRUE,
         Weight              = 20,
         CanStoreWater       = TRUE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         DisplayName         = Makeshift Shower and Sink,
         UseWhileEquipped    = 2.0,
         UseDelta            = 0.125,
@@ -633,7 +633,7 @@ module Hydrocraft
     {
 
         Weight          = 3,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Scarecrow Stand,
         icon            = HCScarecrowstand,
 		DisplayCategory	= CraftCarp,
@@ -642,7 +642,7 @@ module Hydrocraft
     {
 
         Weight          = 4,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Scarecrow,
         icon            = HCScarecrow,
 		DisplayCategory	= CraftCarp,
@@ -651,7 +651,7 @@ module Hydrocraft
     {
 
         Weight          = 4,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Scarecrow,
         icon            = HCScarecrow2,
 		DisplayCategory	= CraftCarp,
@@ -660,7 +660,7 @@ module Hydrocraft
     {
 
         Weight          = 20,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Corpse Scarecrow,
         icon            = HCScarezed,
 		DisplayCategory	= CraftCarp,
@@ -669,7 +669,7 @@ module Hydrocraft
     {
 
         Weight          = 20,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Corpse Scarecrow,
         icon            = HCScarezed2,
 		DisplayCategory	= CraftCarp,
@@ -678,7 +678,7 @@ module Hydrocraft
     {
 
         Weight          = 10,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Archery Target,
         icon            = HCHaytarget,
 		DisplayCategory	= CraftCarp,
@@ -687,7 +687,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Bird Call,
         icon            = HCBirdcall,
 		DisplayCategory	= SurHunt,
@@ -696,7 +696,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Duck Call,
         icon            = HCDuckcall,
 		DisplayCategory	= SurHunt,
@@ -705,7 +705,7 @@ module Hydrocraft
     {
 
         Weight          = 2.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wagon Wheel,
         icon            = HCWagonwheel,
 		DisplayCategory	= CraftCarp,
@@ -714,7 +714,7 @@ module Hydrocraft
     {
 
         Weight          = 4.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Yoke,
         icon            = HCYoke,
 		DisplayCategory	= CraftCarp,
@@ -724,7 +724,7 @@ module Hydrocraft
 
         WeightReduction             = 100,
         Weight                      = 20,
-        Type                        = Container,
+        ItemType                        = base:container,
         Capacity                    = 200,
 	    RequiresEquippedBothHands 	= true,
         DisplayName                 = Wagon,
@@ -736,7 +736,7 @@ module Hydrocraft
 
         WeightReduction             = 100,
         Weight                      = 20,
-        Type                        = Container,
+        ItemType                        = base:container,
         Capacity                    = 300,
         RequiresEquippedBothHands 	= true,
         DisplayName                 = Covered Wagon,
@@ -748,7 +748,7 @@ module Hydrocraft
 
         WeightReduction             = 100,
         Weight                      = 0,
-        Type                        = Container,
+        ItemType                        = base:container,
         Capacity                    = 300,
         RequiresEquippedBothHands 	= true,
         DisplayName                 = Wagon with Oxen,
@@ -760,7 +760,7 @@ module Hydrocraft
 
         WeightReduction             = 100,
         Weight                      = 0,
-        Type                        = Container,
+        ItemType                        = base:container,
         Capacity                    = 300,
         RequiresEquippedBothHands 	= true,
         DisplayName                 = Covered Wagon with Oxen,
@@ -772,7 +772,7 @@ module Hydrocraft
 
         Weight          = 2,
         CanStoreWater   = TRUE,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Empty IBC,
         icon            = HCIBC,
         ReplaceOnUseOn  = WaterSource-HCIBCfull,
@@ -785,7 +785,7 @@ module Hydrocraft
         IsWaterSource       = TRUE,
         Weight              = 6,
         CanStoreWater       = TRUE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         DisplayName         = IBC,
         UseWhileEquipped    = 2.0,
         UseDelta            = 0.0125,
@@ -799,7 +799,7 @@ module Hydrocraft
 
         Weight          = 3,
         CanStoreWater   = TRUE,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Empty IBC Storage,
         icon            = HCIBCtower,
         ReplaceOnUseOn  = WaterSource-HCIBCstoragefull,
@@ -812,7 +812,7 @@ module Hydrocraft
         IsWaterSource       = TRUE,
         Weight              = 7,
         CanStoreWater       = TRUE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         DisplayName         = IBC Storage,
         UseWhileEquipped    = 2.0,
         UseDelta            = 0.0125,
@@ -826,7 +826,7 @@ module Hydrocraft
 
         Weight          = 6,
         CanStoreWater   = TRUE,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Empty IBC Tower,
         icon            = HCIBCtower2,
         ReplaceOnUseOn  = WaterSource-HCIBCtowerfull,
@@ -839,7 +839,7 @@ module Hydrocraft
         IsWaterSource       = TRUE,
         Weight              = 12,
         CanStoreWater       = TRUE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         DisplayName         = IBC Tower,
         UseWhileEquipped    = 2.0,
         UseDelta            = 0.00625,
@@ -852,7 +852,7 @@ module Hydrocraft
     {
 
         Weight          = 10,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Vending Stand,
         icon            = HCVendingstand,
 		DisplayCategory	= CraftCarp,
@@ -861,7 +861,7 @@ module Hydrocraft
     {
 
         Weight          = 10,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Vending Stand,
         icon            = HCVendingstand2,
 		DisplayCategory	= CraftCarp,
@@ -870,7 +870,7 @@ module Hydrocraft
     {
 
         Weight          = 4,
-        Type            = Literature,
+        ItemType            = base:literature,
         DisplayName     = Folding Sign,
         Icon            = HCFoldingsign,
         CanBeWrite      = true,
@@ -881,7 +881,7 @@ module Hydrocraft
     {
 
         Weight          = 4,
-        Type            = Literature,
+        ItemType            = base:literature,
         DisplayName     = Folding Sign,
         Icon            = HCFoldingsignchalkboard,
         CanBeWrite      = true,
@@ -892,7 +892,7 @@ module Hydrocraft
     {
 
         Weight          = 10,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Thresher,
         icon            = HCThresher,
 		DisplayCategory	= CookRef,
@@ -901,7 +901,7 @@ module Hydrocraft
     {
 
         Weight          = 10,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Mechanical Thresher,
         icon            = HCThreshermech,
 		DisplayCategory	= CookRef,
@@ -912,7 +912,7 @@ module Hydrocraft
         MaxRange                    = 2,
         WeaponSprite                = Plank,
         MinAngle                    = 0.2,
-        Type                        = Weapon,
+        ItemType                        = base:weapon,
         MinimumSwingTime            = 4,
         KnockBackOnNoDeath          = FALSE,
         SwingAmountBeforeImpact     = 0.02,

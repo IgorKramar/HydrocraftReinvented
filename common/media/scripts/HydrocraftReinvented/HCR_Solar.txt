@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		        = 5,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName			= Solar Panel,
 	Icon				= HCSolarpanel,
 	DisplayCategory          =   CraftElec,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		        = 5,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName			= Homemade Solar Panel,
 	Icon				= HCSelfmadesolarpanel,
 	DisplayCategory          =   CraftElec,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		        = 8,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName			= Battery Array,
 	Icon				= HCBatteryarray,
 	DisplayCategory          =   CraftElec,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		        = 20,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName			= Solar Park,
 	Icon				= HCSolarpark,
 	DisplayCategory          =   CraftElec,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		        = 20,
-	Type				= Drainable,
+	ItemType				= base:drainable,
 	UseDelta			= 0.00390625,
 	ReplaceOnDeplete		= HCSolarpark,
 	DisplayName			= Charged Solar Park,
@@ -52,7 +52,7 @@ module Hydrocraft
     {
 
         Weight    		        = 20,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName			= Solar Generator,
 	Icon				= HCSolargen,
 	DisplayCategory          =   CraftElec,
@@ -61,7 +61,7 @@ module Hydrocraft
     {
 
         Weight    		        = 1000,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName			= Solar Generator (Plugged In),
 	Icon				= HCSolargen2,
 	DisplayCategory          =   CraftElec,

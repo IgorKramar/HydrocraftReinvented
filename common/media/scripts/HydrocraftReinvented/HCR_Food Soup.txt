@@ -6,7 +6,7 @@ module Hydrocraft
 
 		HungerChange		=	-50,
 		Weight				=	4,
-		Type				=	Food,
+		ItemType				=	base:food,
 		IsCookable			=	TRUE,
 		UnhappyChange		=	-20,
 		MinutesToCook		=	90,
@@ -29,7 +29,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.8,
-		Type			= Normal,
+		ItemType			= base:normal,
 		DisplayName		= Box of Chicken Ramen,
 		icon 			= HCRamenflatchicken,
 		DisplayCategory	= FoodN,
@@ -38,7 +38,7 @@ module Hydrocraft
     {
 
 		Weight	 		= 0.8,
-		Type			= Normal,
+		ItemType			= base:normal,
 		DisplayName		= Box of Beef Ramen,
 		icon 			= HCRamenflatbeef,
 		DisplayCategory	= FoodN,
@@ -47,7 +47,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.8,
-		Type			= Normal,
+		ItemType			= base:normal,
 		DisplayName		= Box of Shrimp Ramen,
 		icon 			= HCRamenflatshrimp,
 		DisplayCategory	= FoodN,
@@ -56,7 +56,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.8,
-		Type			= Normal,
+		ItemType			= base:normal,
 		DisplayName		= Box of Cheese Ramen,
 		icon 			= HCRamenflatcheese,
 		DisplayCategory	= FoodN,
@@ -66,7 +66,7 @@ module Hydrocraft
 
 		DisplayName = Chicken Ramen,
 		DisplayCategory = FoodN,
-		Type = Food,
+		ItemType = base:food,
 		Weight = 0.2,
 		Icon = HCRamenchicken, /*Vanilla is: Ramen*/
 		EvolvedRecipe = Soup:10;Stir fry Griddle Pan:10;Stir fry:10,
@@ -88,7 +88,7 @@ module Hydrocraft
 
 		DisplayName = Beef Ramen,
 		DisplayCategory = FoodN,
-		Type = Food,
+		ItemType = base:food,
 		Weight = 0.2,
 		Icon = HCRamenbeef, /*Vanilla is: Ramen*/
 		EvolvedRecipe = Soup:10;Stir fry Griddle Pan:10;Stir fry:10,
@@ -110,7 +110,7 @@ module Hydrocraft
 
 		DisplayName = Shrimp Ramen,
 		DisplayCategory = FoodN,
-		Type = Food,
+		ItemType = base:food,
 		Weight = 0.2,
 		Icon = HCRamenshrimp, /*Vanilla is: Ramen*/
 		EvolvedRecipe = Soup:10;Stir fry Griddle Pan:10;Stir fry:10,
@@ -132,7 +132,7 @@ module Hydrocraft
 
 		DisplayName = Cheese Ramen,
 		DisplayCategory = FoodN,
-		Type = Food,
+		ItemType = base:food,
 		Weight = 0.2,
 		Icon = HCRamencheese, /*Vanilla is: Ramen*/
 		EvolvedRecipe = Soup:10;Stir fry Griddle Pan:10;Stir fry:10,

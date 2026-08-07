@@ -6,7 +6,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -28,7 +28,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -50,7 +50,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -71,7 +71,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -92,7 +92,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -113,7 +113,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -134,7 +134,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -155,7 +155,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -176,7 +176,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -197,7 +197,7 @@ module Hydrocraft
 
 	HungerChange 			= 	-15,
 	Weight 				= 	0.8,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	UseWhileEquipped 		= 	FALSE,
 	UnhappyChange 			= 	-10,
 	ThirstChange 			= 	-70,
@@ -218,7 +218,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -239,7 +239,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -260,7 +260,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -281,7 +281,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -302,7 +302,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -323,7 +323,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -344,7 +344,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -365,7 +365,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -386,7 +386,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -407,7 +407,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -428,7 +428,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -449,7 +449,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -470,7 +470,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -491,7 +491,7 @@ module Hydrocraft
 
 	HungerChange 			= 	-15,
 	Weight 				= 	0.8,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	UseWhileEquipped 		= 	FALSE,
 	UnhappyChange 			= 	-10,
 	ThirstChange 			= 	-70,
@@ -512,7 +512,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -533,7 +533,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -554,7 +554,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -575,7 +575,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -596,7 +596,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -617,7 +617,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -638,7 +638,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -659,7 +659,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -680,7 +680,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -701,7 +701,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -722,7 +722,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -743,7 +743,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -764,7 +764,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -785,7 +785,7 @@ module Hydrocraft
 
 	HungerChange 			= 	-15,
 	Weight 				= 	0.8,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	UseWhileEquipped 		= 	FALSE,
 	UnhappyChange 			= 	-10,
 	ThirstChange 			= 	-70,
@@ -806,7 +806,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -827,7 +827,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -848,7 +848,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -869,7 +869,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -890,7 +890,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -911,7 +911,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -932,7 +932,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -953,7 +953,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -974,7 +974,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -995,7 +995,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1016,7 +1016,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1037,7 +1037,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1058,7 +1058,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1079,7 +1079,7 @@ module Hydrocraft
 
 	HungerChange 			= 	-15,
 	Weight 				= 	0.8,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	UseWhileEquipped 		= 	FALSE,
 	UnhappyChange 			= 	-10,
 	ThirstChange 			= 	-70,
@@ -1100,7 +1100,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1121,7 +1121,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1142,7 +1142,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1163,7 +1163,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1184,7 +1184,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1205,7 +1205,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1226,7 +1226,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1247,7 +1247,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1268,7 +1268,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1289,7 +1289,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1310,7 +1310,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1331,7 +1331,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1352,7 +1352,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1373,7 +1373,7 @@ module Hydrocraft
 
 	HungerChange 			= 	-15,
 	Weight 				= 	0.8,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	UseWhileEquipped 		= 	FALSE,
 	UnhappyChange 			= 	-10,
 	ThirstChange 			= 	-70,
@@ -1394,7 +1394,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1415,7 +1415,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1436,7 +1436,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1457,7 +1457,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1478,7 +1478,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1499,7 +1499,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1520,7 +1520,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1541,7 +1541,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
@@ -1562,7 +1562,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1583,7 +1583,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1604,7 +1604,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1625,7 +1625,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1646,7 +1646,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1667,7 +1667,7 @@ module Hydrocraft
 
 	HungerChange 			= 	-7,
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	UseWhileEquipped 		= 	FALSE,
 	UnhappyChange 			= 	-5,
 	ThirstChange 			= 	-35,
@@ -1688,7 +1688,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1709,7 +1709,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1730,7 +1730,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1751,7 +1751,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1772,7 +1772,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1793,7 +1793,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1814,7 +1814,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1835,7 +1835,7 @@ module Hydrocraft
 
 	HungerChange			=	-7,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,	
 	UnhappyChange			=	-5,
 	ThirstChange			=	-35,
@@ -1856,7 +1856,7 @@ module Hydrocraft
 
 		HungerChange		=	-2,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-13,
 		DisplayName		=	Pink Lemonaid Juice Box,
@@ -1878,7 +1878,7 @@ module Hydrocraft
 
 		HungerChange		=	-2,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-13,
 		DisplayName		=	Cherry Juice Box,
@@ -1900,7 +1900,7 @@ module Hydrocraft
 
 		HungerChange		=	-2,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-13,
 		DisplayName		=	Orange Juice Box,
@@ -1922,7 +1922,7 @@ module Hydrocraft
 
 		HungerChange		=	-2,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-13,
 		DisplayName		=	Lemonaid Juice Box,
@@ -1944,7 +1944,7 @@ module Hydrocraft
 
 		HungerChange		=	-2,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-13,
 		DisplayName		=	Apple Juice Box,
@@ -1966,7 +1966,7 @@ module Hydrocraft
 
 		HungerChange		=	-2,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-10,
 		ThirstChange		=	-13,
 		DisplayName		=	Grape Juice Box,
@@ -1987,7 +1987,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Juice Box,
 		Icon				=	HCEmptyjuiceboxpinklemonaid,
 		DisplayCategory 	        =       Useless,
@@ -1996,7 +1996,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Juice Box,
 		Icon				=	HCEmptyjuiceboxcherry,
 		DisplayCategory 	        =       Useless,
@@ -2005,7 +2005,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Juice Box,
 		Icon				=	HCEmptyjuiceboxorange,
 		DisplayCategory 	        =       Useless,
@@ -2014,7 +2014,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Juice Box,
 		Icon				=	HCEmptyjuiceboxlemonaid,
 		DisplayCategory 	        =       Useless,
@@ -2023,7 +2023,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Juice Box,
 		Icon				=	HCEmptyjuiceboxapple,
 		DisplayCategory 	        =       Useless,
@@ -2032,7 +2032,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Juice Box,
 		Icon				=	HCEmptyjuiceboxbluerazzberry,
 		DisplayCategory 	        =       Useless,
@@ -2041,7 +2041,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Juice Box,
 		Icon				=	HCEmptyjuiceboxgrape,
 		DisplayCategory 	        =       Useless,

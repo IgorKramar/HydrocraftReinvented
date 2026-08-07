@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    	= 0.1,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName     = Glass Animal Eye,
         icon 		= HCAnimalglasseye,
 		DisplayCategory	= Misc,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    	= 1,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName     = Wooden Small Animal Armature,
         icon 		= HCArmaturesmallanimalwood,
 		DisplayCategory	= Misc,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    	= 1,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName     = Straw Small AnimalArmature,
         icon 		= HCArmaturesmallanimalstraw,
 		DisplayCategory	= Misc,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    	= 1,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName     = Clay Small Animal Armature,
         icon 		= HCArmaturesmallanimalclay,
 		DisplayCategory	= Misc,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    	= 1,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName     = Taxidermy Mouse,
         icon 		= HCTaxidermymouse,
 		DisplayCategory	= Misc,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    	= 2,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName     = Wooden Medium Animal Armature,
         icon 		= HCArmaturemediumanimalwood,
 		DisplayCategory	= Misc,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight    	= 2,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName     = Straw Medium Animal Armature,
         icon 		= HCArmaturemediumanimalstraw,
 		DisplayCategory	= Misc,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight    	= 2,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName    	= Clay Medium Animal Armature,
         icon 		= HCArmaturemediumanimalclay,
 		DisplayCategory	= Misc,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
         Weight    	= 2,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName     = Taxidermy Rabbit,
         icon 		= HCTaxidermyrabbit,
 		DisplayCategory	= Misc,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
         Weight    	= 3,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName     = Taxidermy Jackalope,
         icon 		= HCTaxidermyjackalope,
 		DisplayCategory	= Misc,
@@ -96,7 +96,7 @@ module Hydrocraft
 
 	WeightReduction         = 0,
 	Weight             	= 10,
-	Type                	= Container,
+	ItemType                	= base:container,
 	Capacity             	= 50,
         DisplayName         	= Taxidermy Workbench,
         icon 			= HCTaxidermyworkbench,

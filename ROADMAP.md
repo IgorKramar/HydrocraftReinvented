@@ -7,12 +7,13 @@
 
 ## Русский
 
+### ✅ Сделано
+
+- **Полная миграция предметов на `ItemType`** — v1.2.0: все 5 209 предметов
+  на нативных классах B42, легаси-формата в моде больше нет.
+
 ### 🔧 В работе / ближайшее
 
-- **Полная миграция предметов на `ItemType`.** Носибельные уже переведены
-  (v1.1.0); остальные ~5 000 предметов пока живут на легаси-формате B41.
-  Он работает, но именно он даёт редкие NPE в `instanceItem` (~20 предметов
-  с алкогольными свойствами). Миграция закроет этот класс проблем целиком.
 - **Ревизия распределения лута** — чтобы вещи Hydrocraft попадались там, где
   им логично лежать, и не вытесняли ванильный лут.
 - **Баланс опыта (`xpAward`)** — значения перенесены из B41 механически,
@@ -49,12 +50,13 @@
 
 ## English
 
+### ✅ Done
+
+- **Full `ItemType` migration** — v1.2.0: all 5,209 items on native B42
+  classes, no legacy format left in the mod.
+
 ### 🔧 In progress / next
 
-- **Full `ItemType` migration.** Wearables are done (v1.1.0); the remaining
-  ~5,000 items still use the legacy B41 format. It works, but it is the source
-  of rare `instanceItem` NPEs (~20 items with alcohol properties). Migration
-  kills this whole class of problems.
 - **Loot distribution pass** — make Hydrocraft items spawn where they
   logically belong without crowding out vanilla loot.
 - **XP balance (`xpAward`)** — values were carried over from B41 mechanically

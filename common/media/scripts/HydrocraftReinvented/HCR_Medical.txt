@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Medical Record,
         icon 			= HCMedicalrecord,
 		DisplayCategory	= Useless,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 	Weight          = 10,
-	Type            = Normal,
+	ItemType            = base:normal,
     DisplayName     = Medical Lab,
     icon 			= HCMedicallab,
 		DisplayCategory	= Medical,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
     Weight              = 1000,
-    Type                = Container,
+    ItemType                = base:container,
     Capacity            = 100,
     WeightReduction     = 0,
     DisplayName     = Medical Lab,
@@ -34,7 +34,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Stethoscope,
         icon 			= HCStethoscope,
 		DisplayCategory	= Medical,
@@ -43,7 +43,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Otoscope,
         icon 			= HCOtoscope,
 		DisplayCategory	= Medical,
@@ -52,7 +52,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Head Mirror,
         icon 			= HCHeadmirror,
 		DisplayCategory	= Medical,
@@ -61,7 +61,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sphygmomanometer,
         icon 			= HCSphygmomanometer,
 		DisplayCategory	= Medical,
@@ -70,7 +70,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Thermometer,
         icon 			= HCThermometer,
 		DisplayCategory	= Medical,
@@ -79,7 +79,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Manometer,
         icon 			= HCManometer,
 		DisplayCategory	= CraftInd,
@@ -88,7 +88,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Arm Sling,
         icon 			= HCArmsling,
 		DisplayCategory	= Useless,
@@ -97,7 +97,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.7,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Bone Saw,
         icon 			= HCBonesaw,
 		DisplayCategory	= Medical,
@@ -106,7 +106,7 @@ module Hydrocraft
     {
 
         Weight               	= 0.8,
-        Type       		= Normal,
+        ItemType       		= base:normal,
         DisplayName          	= Gigli Saw,
         Icon               	= HCGiglisaw,
 		DisplayCategory	= Medical,
@@ -115,7 +115,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Tongue Depressor,
         icon 			= HCTonguedepressor,
 		DisplayCategory	= Useless,
@@ -124,7 +124,7 @@ module Hydrocraft
     {
 
         Weight    		= 20,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Wheelchair,
         icon 			= HCWheelchair,
 		DisplayCategory	= Medical,
@@ -133,7 +133,7 @@ module Hydrocraft
     {
 
         Weight    		= 10,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Glove Box,
         icon 			= HCGlovebox,
 		DisplayCategory	= Medical,
@@ -142,7 +142,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.03,
-		Type    		= Normal,
+		ItemType    		= base:normal,
 		DisplayName		= Hearing Aid,
 		icon 			= HCHearingaid,
 		DisplayCategory	= Medical,
@@ -151,7 +151,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.03,
-		Type			= Normal,
+		ItemType			= base:normal,
 		DisplayName		= Broken Hearing Aid,
 		icon 			= HCHearingaid,
 		DisplayCategory	= Medical,
@@ -160,7 +160,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.03,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Eye,
         icon 			= HCGlasseye,
 		DisplayCategory	= Useless,
@@ -169,7 +169,7 @@ module Hydrocraft
     {
 
         Weight    		= 1.0,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Prosthetic Leg,
         icon 			= HCProstheticleg,
 		DisplayCategory	= Useless,
@@ -178,7 +178,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.03,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Eye Patch,
         icon 			= HCEyepatch,
 		DisplayCategory	= Useless,
@@ -187,7 +187,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Syringe,
         icon 			= HCSyringeempty,
 		DisplayCategory	= Medical,
@@ -196,7 +196,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Syringe with Human Blood,
         icon 			= HCSyringeblood,
 		DisplayCategory	= Medical,
@@ -205,7 +205,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Syringe with Zombie Blood,
         icon 			= HCSyringeblood,
 		DisplayCategory	= Medical,
@@ -213,7 +213,7 @@ module Hydrocraft
     item HCHomedisinfectant
     {
 
-        Type	            = Drainable,
+        ItemType	            = base:drainable,
         UseDelta	        = 0.1,
         UseWhileEquipped    = FALSE,
         DisplayName		    = Bottle of Homemade Disinfectant,
@@ -234,7 +234,7 @@ module Hydrocraft
     EnduranceChange     =   30,
 	Weight				=	1,
 	ReplaceOnDeplete	= 	HCGlasstesttubecork,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Vial of Smelling Salts,
 	Icon				=	HCSmellingsaltscork,
 	CustomContextMenu 	= 	Sniff,
@@ -249,7 +249,7 @@ module Hydrocraft
     EnduranceChange     =   30,
 	Weight				=	1,
 	ReplaceOnDeplete	= 	HCGlasstesttuberubberbung,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Vial of Smelling Salts,
 	Icon				=	HCSmellingsaltsbung,
 	CustomContextMenu 	= 	Sniff,
@@ -259,7 +259,7 @@ module Hydrocraft
     {
 
 	Weight	            = 	0.1,
-	Type	            = 	Normal,
+	ItemType	            = 	base:normal,
 	DisplayName			= 	Empty Pill Box,
 	Icon				= 	HCPillbox,
 		DisplayCategory	= Medical,
@@ -269,7 +269,7 @@ module Hydrocraft
 
         HungerChange			= -1,
         Weight				= 0.2,
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Adrenalin,
         Icon				= HCAdrenalin,
         EnduranceChange			= 10,
@@ -283,7 +283,7 @@ module Hydrocraft
     {
 
 	Weight	                        = 	0.2,
-	Type	                        = 	Normal,
+	ItemType	                        = 	base:normal,
 	DisplayName			= 	Box of Adrenalin,
 	Icon				= 	HCAdrenalinbox,
 		DisplayCategory	= Drugs,
@@ -292,7 +292,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.4,
-	Type 				= Drainable,
+	ItemType 				= base:drainable,
 	UseDelta 			= 0.2,
 	DisplayName 			= Bottle of Adrenalin,
 	Icon				= HCAdrenalinbottle,
@@ -303,7 +303,7 @@ module Hydrocraft
 
         HungerChange            	= -1,  
         Weight                  	= 0.3,
-        Type                    	= Food,
+        ItemType                    	= base:food,
         EnduranceChange			= 10,
         StressChange            	= 20,
         DisplayName			= Syringe with Adrenalin,                                                    
@@ -324,7 +324,7 @@ module Hydrocraft
     PoisonDetectionLevel    = 1,
     PoisonPower             = 3,
     UseForPoison            = 1,
-	Type			        = Food,
+	ItemType			        = base:food,
     ReplaceOnUse	        = RippedSheet,
     DisplayName         	= Ripped Sheet with Ether,
     icon 			        = HCEthersheet,
@@ -336,7 +336,7 @@ module Hydrocraft
 
 	UnhappyChange		= -5,
 	Weight	        	= 1.5,
-	Type	        	= Food,
+	ItemType	        	= base:food,
     ReplaceOnUse   	 	= BakingTray,
 	DisplayName		    = Tray With Valerian,
 	Icon	        	= HCValeriantray,
@@ -347,7 +347,7 @@ module Hydrocraft
 
 	UnhappyChange		= -5,
 	Weight	        	= 1.3,
-	Type	        	= Food,
+	ItemType	        	= base:food,
     ReplaceOnUse    	= BakingTray,
 	DisplayName	       	= Tray With Dry Valerian,
 	Icon	        	= HCValeriantray,
@@ -357,7 +357,7 @@ module Hydrocraft
     {
 
     Weight    		= 0.1,
-    Type    		= Normal,
+    ItemType    		= base:normal,
 	DisplayName		= Bottle of Anti-Depression Pills,
 	Icon	        = HCAntideppills,
 		DisplayCategory	= Drugs,
@@ -369,7 +369,7 @@ module Hydrocraft
 	UnhappyChange		= -35,
 	StressChange		= -10,
 	Weight	        	= 0.2,
-	Type	        	= Food,
+	ItemType	        	= base:food,
 	UseWhileEquipped	= FALSE,
 	DisplayName		    = Anti-Depression Pills,
 	Icon	        	= HCAntideppill,
@@ -381,7 +381,7 @@ module Hydrocraft
 
 	StressChange		= -5,
 	Weight	        	= 1.5,
-	Type	        	= Food,
+	ItemType	        	= base:food,
     ReplaceOnUse   	 	= BakingTray,
 	DisplayName         = Tray with Hawthorn Fruit,
 	Icon	        	= HCHawthornfruittray,
@@ -392,7 +392,7 @@ module Hydrocraft
 
 	StressChange		= -5,
 	Weight	        	= 1.3,
-	Type	        	= Food,
+	ItemType	        	= base:food,
     ReplaceOnUse    	= BakingTray,
 	DisplayName		    = Tray With Dry Hawthorn Fruit,
 	Icon	        	= HCHawthornfruittray,
@@ -402,7 +402,7 @@ module Hydrocraft
     {
 
     Weight        		= 0.2,
-    Type    	       	= Normal,
+    ItemType    	       	= base:normal,
 	DisplayName		    = Box of Ephedrine,
 	Icon	        	= HCEphedrinebox,
 		DisplayCategory	= Drugs,
@@ -412,7 +412,7 @@ module Hydrocraft
 
 	HungerChange		= -1,
 	Weight	        	= 0.1,
-	Type	        	= Food,
+	ItemType	        	= base:food,
 	UseWhileEquipped	= FALSE,
 	DisplayName		    = Ephedrine Pills,
 	Icon	        	= HCEphedrine,
@@ -424,7 +424,7 @@ module Hydrocraft
     {
 
     Weight    		= 0.2,
-    Type    		= Normal,
+    ItemType    		= base:normal,
 	DisplayName		= Box of Caffeine Pills,
 	Icon	        = HCCaffeinebox,
 		DisplayCategory	= Drugs,
@@ -434,7 +434,7 @@ module Hydrocraft
 
 	HungerChange		= -1,
 	Weight	        	= 0.1,
-	Type	        	= Food,
+	ItemType	        	= base:food,
 	UseWhileEquipped	= FALSE,
 	DisplayName		    = Caffeine Pills,
 	Icon	        	= HCCaffeinepills,
@@ -447,7 +447,7 @@ module Hydrocraft
     {
 
     Weight    		= 0.1,
-    Type    		= Normal,
+    ItemType    		= base:normal,
     DisplayName     = Willow Bark Tea,
     icon 			= HCWillowbarktea,
 	ReplaceOnUse	= HCJar,
@@ -459,7 +459,7 @@ module Hydrocraft
 	HungerChange		= -1,
 	ThirstChange		= -5,
 	Weight	        	= 0.1,
-	Type	        	= Food,
+	ItemType	        	= base:food,
 	UseWhileEquipped	= FALSE,
 	DisplayName		    = Cough Syrup,
 	Icon	        	= HCCoughsyrup,
@@ -472,7 +472,7 @@ module Hydrocraft
     {
 
 	Weight	            = 0.1,
-	Type	            = Normal,
+	ItemType	            = base:normal,
 	DisplayName			= Inhaler,
 	Icon				= HCInhaler,
 		DisplayCategory	= Useless,
@@ -481,7 +481,7 @@ module Hydrocraft
     {
 
 	Weight	            = 0.1,
-	Type	            = Normal,
+	ItemType	            = base:normal,
 	DisplayName			= Empty Eyedropper Bottle,
 	Icon				= HCEyedropperbottle,
 		DisplayCategory	= Useless,
@@ -490,7 +490,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.1,
-	Type 				= Drainable,
+	ItemType 				= base:drainable,
 	UseDelta 			= 0.2,
 	DisplayName 		= Bottle of Iodine,
 	ReplaceOnDeplete	= HCEyedropperbottle,
@@ -501,7 +501,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.1,
-	Type 				= Drainable,
+	ItemType 				= base:drainable,
 	UseDelta 			= 0.2,
 	DisplayName 		= Bottle of Ear Drops,
 	ReplaceOnDeplete	= HCEyedropperbottle,
@@ -512,7 +512,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.1,
-	Type 				= Drainable,
+	ItemType 				= base:drainable,
 	UseDelta 			= 0.2,
 	DisplayName 		= Bottle of Eye Drops,
 	ReplaceOnDeplete	= HCEyedropperbottle,
@@ -523,7 +523,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.1,
-	Type 				= Drainable,
+	ItemType 				= base:drainable,
 	UseDelta 			= 0.2,
 	DisplayName 		= Birth Control Pills,
 	Icon				= HCBirthcontrolpills,
@@ -533,7 +533,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.1,
-	Type 				= Drainable,
+	ItemType 				= base:drainable,
 	UseDelta 			= 0.2,
 	DisplayName 		= Erectile Dysfunction Pills,
 	Icon				= HCErectiledysfunctionpills,
@@ -542,7 +542,7 @@ module Hydrocraft
     item HCGauze
     {
 
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Gauze,
 	Icon			=	HCGauze,
 	Weight			=	0.1,
@@ -552,7 +552,7 @@ module Hydrocraft
     {
 
         Weight    		= 10,
-        Type   			= Normal,
+        ItemType   			= base:normal,
         DisplayName     = Dissection Table,
         icon 			= HCDissectiontable,
 		DisplayCategory	= Medical,
@@ -561,7 +561,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type   			= Normal,
+        ItemType   			= base:normal,
         DisplayName     = Dissection Table with Corpse,
         icon 			= HCDissectiontablebody,
 		DisplayCategory	= Medical,
@@ -570,7 +570,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type   			= Normal,
+        ItemType   			= base:normal,
         DisplayName     = Dissection Table with Dissected Corpse,
         icon 			= HCDissectiontabledissected,
 		DisplayCategory	= Medical,
@@ -579,7 +579,7 @@ module Hydrocraft
     {
 
         Weight    		= 10,
-        Type   			= Normal,
+        ItemType   			= base:normal,
         DisplayName     = Bloody Dissection Table,
         icon 			= HCDissectiontablebloody,
 		DisplayCategory	= Medical,
@@ -588,7 +588,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Zombie Brain,
         icon 			= HCZedbrain,
 		DisplayCategory	= CraftCom,
@@ -597,7 +597,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Zombie Heart,
         icon 			= HCZedheart,
 		DisplayCategory	= CraftCom,
@@ -606,7 +606,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Zombie Lung,
         icon 			= HCZedlung,
 		DisplayCategory	= CraftCom,
@@ -615,7 +615,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Zombie Kidney,
         icon 			= HCZedkidney,
 		DisplayCategory	= CraftCom,
@@ -624,7 +624,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Zombie Liver,
         icon 			= HCZedliver,
 		DisplayCategory	= CraftCom,
@@ -633,7 +633,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Zombie Pancreas,
         icon 			= HCZedpancreas,
 		DisplayCategory	= CraftCom,
@@ -642,7 +642,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Zombie Intestines,
         icon 			= HCZedintestines,
 		DisplayCategory	= CraftCom,
@@ -651,7 +651,7 @@ module Hydrocraft
     {
 
         Weight    		= 1.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Box with Medical Skeleton,
         icon 			= HCMedicalskeletonbox,
 		DisplayCategory	= Medical,
@@ -660,7 +660,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.7,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Medical Skeleton Parts,
         icon 			= HCMedicalskeletonparts,
 		DisplayCategory	= Medical,
@@ -669,7 +669,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.7,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Medical Skeleton Holder Parts,
         icon 			= HCMedicalskeletonholderparts,
 		DisplayCategory	= Medical,
@@ -678,7 +678,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.7,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Medical Skeleton Holder,
     	icon 			= HCMedicalskeletonholder,
 		DisplayCategory	= Medical,
@@ -687,7 +687,7 @@ module Hydrocraft
     {
 
     Weight    		= 0.7,
-    Type    		= Normal,
+    ItemType    		= base:normal,
     DisplayName     = Medical Skeleton,
 	icon 			= HCMedicalskeletonhooked,
 		DisplayCategory	= Medical,
@@ -696,7 +696,7 @@ module Hydrocraft
     {
 
     Weight    		= 1,
-    Type    		= Normal,
+    ItemType    		= base:normal,
     DisplayName     = Steam Pressure Pot,
     icon 			= HCSteampot,
 		DisplayCategory	= Misc,
@@ -706,7 +706,7 @@ module Hydrocraft
 
     WeightReduction     	= 10,
     Weight              	= 12,
-    Type                	= Container,
+    ItemType                	= base:container,
     Capacity            	= 10,
     DisplayName         	= Body Bag,
     Icon                	= HCBodybag,
@@ -718,7 +718,7 @@ module Hydrocraft
     Count			   = 1,
     Weight			   = 0.1,
     AlwaysWelcomeGift  = true,
-    Type			   = Normal,
+    ItemType			   = base:normal,
     DisplayName		   = Bandage with Herbal Medicine,
     ReplaceOnUse       = BandageDirty,
     Alcoholic		   = TRUE,
@@ -734,7 +734,7 @@ module Hydrocraft
     Count			   = 1,
     Weight			   = 0.1,
     AlwaysWelcomeGift  = true,
-    Type			   = Normal,
+    ItemType			   = base:normal,
     DisplayName		   = Rag with Herbal Medicine,
     ReplaceOnUse       = RippedSheetsDirty,
     Alcoholic		   = TRUE,
@@ -750,7 +750,7 @@ module Hydrocraft
         Count			   = 1,
         Weight			   = 0.1,
         AlwaysWelcomeGift  = true,
-        Type			   = Normal,
+        ItemType			   = base:normal,
         DisplayName		   = Menstral Pad with Herbal Medicine,
         ReplaceOnUse       = HCMenstrualpadDirty,
         Alcoholic		   = TRUE,
@@ -766,7 +766,7 @@ module Hydrocraft
     Count			   = 1,
     Weight			   = 0.1,
     AlwaysWelcomeGift  = true,
-    Type			   = Normal,
+    ItemType			   = base:normal,
     DisplayName		   = Diaper with Herbal Medicine,
     ReplaceOnUse       = HCDiaperDirty,
     Alcoholic		   = TRUE,
@@ -779,7 +779,7 @@ module Hydrocraft
     item HCCottonballspp
     {
 
-    Type	           = Drainable,
+    ItemType	           = base:drainable,
     UseDelta	       = 1,
     UseWhileEquipped   = FALSE,
     DisplayName		   = Cotton Balls Doused in Potassium Permanganate,
@@ -795,7 +795,7 @@ module Hydrocraft
     CanBandage		= true,
     Weight			= 0.05,
     Alcoholic		= TRUE,
-    Type			= Normal,
+    ItemType			= base:normal,
     DisplayName		= Bandage Doused in Potassium Permanganate,
     ReplaceOnUse    = BandageDirty,
     Icon			= HCBandagepp,
@@ -808,7 +808,7 @@ module Hydrocraft
     CanBandage		= true,
     Weight			= 0.05,
     Alcoholic		= TRUE,
-    Type			= Normal,
+    ItemType			= base:normal,
     DisplayName		= Rag Doused in Potassium Permanganate,
     ReplaceOnUse    = RippedSheetsDirty,
     Icon			= HCRagpp,
@@ -821,7 +821,7 @@ module Hydrocraft
         	MaxRange                 	=    1.8,
        	 	WeaponSprite               	=    Shovel,
         	MinAngle                    	=    0.2,
-        	Type                        	=    Weapon,
+        	ItemType                        	=    base:weapon,
         	MinimumSwingTime            	=    1.5,
         	KnockBackOnNoDeath            	=    TRUE,
         	SwingAmountBeforeImpact        	=    0.02,
@@ -858,7 +858,7 @@ module Hydrocraft
         	MaxRange                 	=    1.8,
        	 	WeaponSprite               	=    Shovel,
         	MinAngle                    	=    0.2,
-        	Type                        	=    Weapon,
+        	ItemType                        	=    base:weapon,
         	MinimumSwingTime            	=    1.5,
         	KnockBackOnNoDeath            	=    TRUE,
         	SwingAmountBeforeImpact        	=    0.02,
@@ -895,7 +895,7 @@ module Hydrocraft
         	MaxRange                 	=    1.8,
        	 	WeaponSprite               	=    Shovel,
         	MinAngle                    	=    0.2,
-        	Type                        	=    Weapon,
+        	ItemType                        	=    base:weapon,
         	MinimumSwingTime            	=    1.5,
         	KnockBackOnNoDeath            	=    TRUE,
         	SwingAmountBeforeImpact        	=    0.02,

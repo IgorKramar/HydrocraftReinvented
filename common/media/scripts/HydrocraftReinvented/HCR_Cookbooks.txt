@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Barbecue Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Make BBQ Sauce;Barbecue Meat;Barbecue Mushrooms;Make Mushrooms on a Stick;Grill Eggplant;Make Fried Frogs Legs;Cut Meat Cubes;Make Shish Kebab;Make Big Tasty Sandwiches,
@@ -18,7 +18,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Baking Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Make Pie Dough;Make Bread Dough;Make Cake Batter;Make Pumpkin Bread Dough;Make Flatbread;Make Sourdough Starter;Make Whole Wheat Dough;Dry Yeast,
@@ -31,7 +31,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Butcher's Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Butcher Carcass,
@@ -44,7 +44,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Cheese Making Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Make Rennet;Fill Cheese Vat;Harvest Cheese Curds;Fill Cheese Trays;Put Cheese on Rack;Remove Cheese from Rack;Prepare Kneaded Cheese Curds;Prepare Cubed Cheese Curds;Wax Cheddar Cheese;Cut Cheese Wheel;Make Cream Cheese Culture;Strain Cream Cheese,
@@ -57,7 +57,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Dried Fruit Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Dry Fruit;Store Dried Fruit in Bag;Dry Seeds;Store Dried Seeds in Bag;Make Baking Tray With Chopped Fruit;Remove Dried Fruit From Baking Tray,
@@ -70,7 +70,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Egg Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Fry Egg;Make Scrambled Eggs;Make Scrambled Eggs with Cheese;Make Omelet;Make Vegetable Omelet;Boil Egg,
@@ -83,7 +83,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Jerky Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Make Basic Marinade;Make Tasty Marinade;Make Simple Jerky;Make Tasty Jerky,
@@ -96,7 +96,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Mexican Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Make Taco Sauce;Make Guacamole;Make Salsa;Make Nacho Cheese;Make Corn Tortilla;Make Flour Tortilla;Make Quesadilla;Make Burrito;Make Burrito Grande;Make Taquito;Make Taco;Make Taco Grande;Make Soft Taco;Make Soft Taco Grande;Make Fish Taco;Make Corned Beef Taco;Make Enchilada;Make Nachos;Make Nachos Grande;Make Stuffed Bell Pepper;Make Stuffed Eggplant;Make Stuffed Squash,
@@ -109,7 +109,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Pasta Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Prepare Fresh Pasta;Make Tomato Sauce;Fill Tomato Sauce into Bowls;Prepare Lasagna,
@@ -122,7 +122,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Pickling Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Pickle Vegetables;Make Sauerkraut;Pickle Eggs;Pickled Fish;Make Spicy Paste;Make Kimchi,
@@ -135,7 +135,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Pizza Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Knead Pizza Dough;Make Tomato Sauce;Fill Tomato Sauce into Bowls;Make Boring Pizza;Make Cheese Pizza;Make Tasty Pizza;Cut Pizza,
@@ -148,7 +148,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Salting Meat Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Salt Meat;Refill Bag With Curing Salt,
@@ -161,7 +161,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Sausage Making Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Make Sausage,
@@ -174,7 +174,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Smoking Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Make Smoker;Fill Smoker;Smoke Meat;Smoke Tofu;Smoke Cheese,
@@ -187,7 +187,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Spices Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Make Chili Powder;Make Celery Seed;Make Garlic Powder;Make Onion Powder;Make Italian Herbs,
@@ -200,7 +200,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Viticulture Textbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Prepare Wine Barrels;Fill Bottles with Wine;Fill Vinegar Bottles with Vinegar;Fill Whiskey Bottles with Vinegar;Prepare Pot of Honey Brew;Fill Barrel with Honey Brew;Make Bottle of Mead;Prepare Pot of Rice Mash;Fill Barrel with Rice Mash;Make Bottle of Sake,
@@ -213,7 +213,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.5,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Yogurt Cookbook,
 		Icon		=	HCCookbook,
 		TeachedRecipes  =   	Ferment Milk;Jar Homemade Yogurt;Jar Homemade Tzatziki,
@@ -226,7 +226,7 @@ module Hydrocraft
     {
 
 		Weight			=	0.5,
-		Type			=	Literature,
+		ItemType			=	base:literature,
 		DisplayName		=	Alcoholic Beverages Cookbook,
 		Icon			=	HCCookbook,
 		TeachedRecipes  =   Mix Old Fashioned;Mix Martini;Mix Manhattan;Mix Daquiri;Mix Bloody Mary;Mix Whiskey Sour;Mix Mai Tai;Mix Cosmopolitan;Mix Tom Collins;Mix Long Island Iced Tea;Mix Gimlet;Mix Planter's Punch;Mix Margarita;Make Eggnog Pot,

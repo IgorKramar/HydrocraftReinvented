@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Centrifiuge,
         icon 			= HCCentifuge,
 		DisplayCategory          =   CraftChem,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 	Weight			=	4,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseDelta		=	0.125,
 	DisplayName		=	Centifuge with Power,
 	ReplaceOnDeplete	=	HCCentifugedead,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dead Centifuge,
         icon 			= HCCentifugedead,
 		DisplayCategory          =   CraftChem,
@@ -34,7 +34,7 @@ module Hydrocraft
     {
 
         Weight    		= 6,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Electrolyzer,
         icon 			= HCElectrolyzer,
 		DisplayCategory          =   CraftChem,

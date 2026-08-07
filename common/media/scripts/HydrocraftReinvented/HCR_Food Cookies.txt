@@ -6,7 +6,7 @@ module Hydrocraft
 
 		HungerChange			=	-30,
 		Weight				=	0.4,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Bag of Chocolate Chip Cookies,
 		Icon				=	HCCookieschocolatechipbag,
 		UnhappyChange			=	-20,
@@ -24,7 +24,7 @@ module Hydrocraft
 
 		HungerChange			=	-30,
 		Weight				=	0.4,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Bag of Mint Cookies,
 		Icon				=	HCCookiesmintbag,
 		UnhappyChange			=	-20,
@@ -42,7 +42,7 @@ module Hydrocraft
 
 		HungerChange			=	-30,
 		Weight				=	0.4,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Bag of Brownie Cookies,
 		Icon				=	HCCookiesbrowniebag,
 		UnhappyChange			=	-20,
@@ -58,7 +58,7 @@ module Hydrocraft
     item HCCookiedough
     {
 
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Cookie Dough,
 		Icon				=	HCCookiedough,
 		Weight				=	0.06,
@@ -79,7 +79,7 @@ module Hydrocraft
 
 		HungerChange		=	-10,
 		Weight				=	0.01,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Homemade Cookie,
 		Icon				=	HCCookieCooked,
 		UnhappyChange		=	-20,
@@ -101,7 +101,7 @@ module Hydrocraft
 
 		HungerChange		=	-30,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-5,
 		IsCookable			=	TRUE,
@@ -125,7 +125,7 @@ module Hydrocraft
 
 		HungerChange		=	-10,
 		Weight				=	0.01,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Chocolate Chip Cookie,
 		Icon				=	HCChipcookieCooked,
 		UnhappyChange		=	-20,
@@ -147,7 +147,7 @@ module Hydrocraft
 
 		HungerChange		=	-30,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-5,
 		IsCookable			=	TRUE,
@@ -171,7 +171,7 @@ module Hydrocraft
 
 		HungerChange		=	-10,
 		Weight				=	0.01,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-20,
 		BoredomChange		=	-15,
 		IsCookable			=	TRUE,
@@ -193,7 +193,7 @@ module Hydrocraft
 
 		HungerChange		=	-30,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-5,
 		IsCookable			=	TRUE,
@@ -217,7 +217,7 @@ module Hydrocraft
 
 		HungerChange		=	-10,
 		Weight				=	0.01,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-20,
 		BoredomChange		=	-15,
 		IsCookable			=	TRUE,
@@ -239,7 +239,7 @@ module Hydrocraft
 
 		HungerChange		=	-30,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-5,
 		IsCookable			=	TRUE,
@@ -263,7 +263,7 @@ module Hydrocraft
 
 		HungerChange		=	-10,
 		Weight				=	0.01,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-20,
 		BoredomChange		=	-15,
 		IsCookable			=	TRUE,
@@ -285,7 +285,7 @@ module Hydrocraft
 
 		HungerChange		=	-30,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-5,
 		IsCookable			=	TRUE,
@@ -309,7 +309,7 @@ module Hydrocraft
 
 		HungerChange		=	-10,
 		Weight				=	0.01,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-30,
 		BoredomChange		=	-20,
 		IsCookable			=	TRUE,
@@ -331,7 +331,7 @@ module Hydrocraft
 
 		HungerChange		=	-30,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-5,
 		IsCookable			=	TRUE,
@@ -355,7 +355,7 @@ module Hydrocraft
 
 		HungerChange		=	-10,
 		Weight				=	0.01,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-20,
 		BoredomChange		=	-15,
 		IsCookable			=	TRUE,
@@ -377,7 +377,7 @@ module Hydrocraft
 
 		HungerChange		=	-30,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-5,
 		IsCookable			=	TRUE,
@@ -401,7 +401,7 @@ module Hydrocraft
 
 		HungerChange		=	-35,
 		Weight				=	0.3,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-15,
 		BoredomChange		=	-10,
 		StressChange		=	-10,
@@ -422,7 +422,7 @@ module Hydrocraft
 
 		HungerChange		=	-50,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-5,
 		StressChange		=	-5,
@@ -445,7 +445,7 @@ module Hydrocraft
 
 		HungerChange		=	-35,
 		Weight				=	0.3,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-30,
 		BoredomChange		=	-20,
 		StressChange		=	-20,
@@ -466,7 +466,7 @@ module Hydrocraft
 
 		HungerChange		=	-50,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-15,
 		BoredomChange		=	-10,
 		StressChange		=	-10,
@@ -488,7 +488,7 @@ module Hydrocraft
     {
 
 		Weight    			= 0.02,
-		Type   				= Normal,
+		ItemType   				= base:normal,
 		DisplayName         		= Fortune Cookie,
 		icon 				= HCFortunecookie,
 	DisplayCategory          =   FoodN,
@@ -498,7 +498,7 @@ module Hydrocraft
 
 		HungerChange			=	-10,
 		Weight				=	0.01,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange			=	-10,
 		DisplayName			=	Broken Fortune Cookie,
 		Icon				=	HCFortunecookiebroken,
@@ -515,7 +515,7 @@ module Hydrocraft
     {
 
 		Weight    			= 0.01,
-		Type   				= Normal,
+		ItemType   				= base:normal,
 		DisplayName         		= Paper Fortune,
 		icon 				= HCFortune,
 	DisplayCategory          =   Useless,
@@ -524,7 +524,7 @@ module Hydrocraft
     {
 
 		Weight 			= 0.1,
-		Type 			= Normal,
+		ItemType 			= base:normal,
 		DisplayName 		= Cookiecutter,
 		Icon 			= HCCookiecutter,
 	DisplayCategory          =   Cooking,

@@ -6,6 +6,20 @@
 
 ## Русский
 
+### v1.2.0 — 2026-08-07
+
+**Полная миграция на нативные классы предметов B42:**
+- Все оставшиеся 5 162 предмета переведены с легаси-формата B41 (`Type = Normal/Food/...`)
+  на нативный `ItemType = base:*` (normal, food, drainable, literature, container,
+  weapon, moveable, clothing, weaponpart). Карта соответствий выверена по ванильным
+  скриптам 42.20.2. В моде не осталось ни одной легаси-строки `Type =`.
+- Теперь каждый предмет получает свой настоящий Java-класс: еда — Food, напитки
+  с алкоголем — с работающими алко-полями, литература — Literature и т.д.
+  Это закрывает целый класс редких ошибок `instanceItem` (NPE на предметах
+  с алкогольными свойствами) и делает поведение предметов ванильно-корректным.
+- 10 предметов одежды, пропущенных в v1.1.0 (шубы, плащи, шёлк, сапоги),
+  мигрированы и получили `CanBeEquipped` — теперь их можно носить.
+
 ### v1.1.0 — 2026-08-07
 
 **Критическое исправление стабильности:**
@@ -35,6 +49,21 @@
 ---
 
 ## English
+
+### v1.2.0 — 2026-08-07
+
+**Full migration to native B42 item classes:**
+- All remaining 5,162 items converted from the legacy B41 format
+  (`Type = Normal/Food/...`) to native `ItemType = base:*` (normal, food,
+  drainable, literature, container, weapon, moveable, clothing, weaponpart).
+  The mapping was verified against vanilla 42.20.2 scripts. Not a single
+  legacy `Type =` line remains in the mod.
+- Every item now gets its real Java class: food is Food, alcoholic drinks get
+  working alcohol fields, books are Literature, and so on. This closes a whole
+  class of rare `instanceItem` errors (NPEs on items with alcohol properties)
+  and makes item behavior vanilla-correct.
+- 10 clothing items missed in v1.1.0 (fur coats, cloaks, silk, boots) migrated
+  and given `CanBeEquipped` — they are wearable now.
 
 ### v1.1.0 — 2026-08-07
 

@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         UseDelta            = 0.1,
         DisplayName         = Jar of Gunpowder,
         ReplaceOnDeplete    = HCJar,
@@ -16,7 +16,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Charcoal Powder,
         icon            = HCCharcoalpowder,
 		DisplayCategory	= CraftChem,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Graphite Powder,
         icon            = HCGraphitepowder,
 		DisplayCategory	= CraftChem,
@@ -34,7 +34,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Salt Powder,
         icon            = HCSaltpowder,
 		DisplayCategory	= CookRef,
@@ -43,7 +43,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Saltpeter Powder,
         icon            = HCSaltpeterpowder,
 		DisplayCategory	= CookRef,
@@ -52,7 +52,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Sulphur Powder,
         icon            = HCSulphurpowder,
 		DisplayCategory	= CraftAmmo,
@@ -61,7 +61,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Copper Powder,
         icon            = HCCopperpowder,
 		DisplayCategory	= CraftMet,
@@ -70,7 +70,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Tin Powder,
         icon            = HCTinpowder,
 		DisplayCategory	= CraftMet,
@@ -79,7 +79,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Lead Powder,
         icon            = HCLeadpowder,
 		DisplayCategory	= CraftMet,
@@ -88,7 +88,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Iron Powder,
         icon            = HCIronpowder,
 		DisplayCategory	= CraftMet,
@@ -97,7 +97,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Magnetite Powder,
         icon            = HCMagnetitepowder,
 		DisplayCategory	= CraftMet,
@@ -106,7 +106,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Meteorite Powder,
         icon            = HCMeteoritepowder,
 		DisplayCategory	= CraftMet,
@@ -115,7 +115,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Silver Powder,
         icon            = HCSilverpowder,
 		DisplayCategory	= CraftMet,
@@ -124,7 +124,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Gold Powder,
         icon            = HCGoldpowder,
 		DisplayCategory	= CraftMet,
@@ -133,7 +133,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Aluminum Powder,
         icon            = HCAluminumpowder,
 		DisplayCategory	= CraftMet,
@@ -142,7 +142,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Zinc Powder,
         icon            = HCZincpowder,
 		DisplayCategory	= CraftMet,
@@ -151,7 +151,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Nickel Powder,
         icon            = HCNickelpowder,
 		DisplayCategory	= CraftMet,
@@ -160,7 +160,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Cobalt Powder,
         icon            = HCCobaltpowder,
 		DisplayCategory	= CraftMet,
@@ -169,7 +169,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Chrome Powder,
         icon            = HCChromepowder,
 		DisplayCategory	= CraftMet,
@@ -178,7 +178,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Tungsten Powder,
         icon            = HCTungstenpowder,
 		DisplayCategory	= CraftMet,
@@ -187,7 +187,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Titanium Powder,
         icon            = HCTitaniumpowder,
 		DisplayCategory	= CraftMet,
@@ -196,7 +196,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Phosphorus Powder,
         icon            = HCPhosphoruspowder,
 		DisplayCategory	= CraftChem,
@@ -205,7 +205,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Lithium Powder,
         icon            = HCLithiumpowder,
 		DisplayCategory	= CraftMet,
@@ -214,7 +214,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Chalk Powder,
         icon            = HCChalkpowder,
 		DisplayCategory	= CraftMas,
@@ -223,7 +223,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Feldspar Powder,
         icon            = HCFeldsparpowder,
 		DisplayCategory	= CraftMet,
@@ -232,7 +232,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Albite Powder,
         icon            = HCAlbitepowder,
 		DisplayCategory	= CraftMine,
@@ -241,7 +241,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Obsidian Powder,
         icon            = HCObsidianpowder,
 		DisplayCategory	= CraftMine,
@@ -250,7 +250,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Lapis Lazuli Powder,
         icon            = HCLapislazulipowder,
 		DisplayCategory	= CraftMine,
@@ -259,7 +259,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Azurite Powder,
         icon            = HCAzuritepowder,
 		DisplayCategory	= CraftMine,
@@ -268,7 +268,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Jade Powder,
         icon            = HCJadepowder,
 		DisplayCategory	= CraftMine,
@@ -277,7 +277,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Malachite Powder,
         icon            = HCMalachitepowder,
 		DisplayCategory	= CraftMet,
@@ -286,7 +286,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Marble Powder,
         Icon            = HCMarblepowder,
 		DisplayCategory	= CraftMine,
@@ -295,7 +295,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Calcite Powder,
         Icon            = HCCalcitepowder,
 		DisplayCategory	= CraftMine,
@@ -304,7 +304,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Magnesium Powder,
         Icon            = HCMagnesiumpowder,
 		DisplayCategory	= CraftMet,
@@ -313,7 +313,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Gypsum Powder,
         icon            = HCGypsumpowder,
 		DisplayCategory	= CraftMine,
@@ -322,7 +322,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Diatomite Powder,
         icon            = HCDiatomitepowder,
 		DisplayCategory	= CraftMine,
@@ -331,7 +331,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Trona Powder,
         Icon            = HCTronapowder,
 		DisplayCategory	= CraftMine,
@@ -340,7 +340,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Silver Iodide Powder,
         Icon            = HCSilveriodidepowder,
 		DisplayCategory	= CraftChem,
@@ -349,7 +349,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Calcium Hydroxide Powder,
         Icon            = HCCalciumhydroxidpowder,
 		DisplayCategory	= CraftChem,
@@ -358,7 +358,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Calcium Oxide Powder,
         Icon            = HCCalciumoxidpowder,
 		DisplayCategory	= CraftChem,
@@ -367,7 +367,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Calcium Carbonate Powder,
         Icon            = HCCalciumcarbonatpowder,
 		DisplayCategory	= CraftChem,
@@ -376,7 +376,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Copper Oxide Powder,
         Icon            = HCCopperoxidepowder,
 		DisplayCategory	= CraftChem,
@@ -385,7 +385,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Copper Sulfate Powder,
         Icon            = HCCoppersulfatepowder,
 		DisplayCategory	= CraftChem,
@@ -394,7 +394,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Nickel Sulfate Powder,
         Icon            = HCNickelsulfatepowder,
 		DisplayCategory	= CraftChem,
@@ -403,7 +403,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Sodium Carbonate Powder,
         Icon            = HCSodiumcarbonatpowder,
 		DisplayCategory	= CraftChem,
@@ -412,7 +412,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Sodium Hydroxide Powder,
         Icon            = HCSodiumhydroxidepowder,
 		DisplayCategory	= CraftChem,
@@ -421,7 +421,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Sodium Sulfate Powder,
         Icon            = HCSodiumsulfatpowder,
 		DisplayCategory	= CraftChem,
@@ -430,7 +430,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Ephedrine Powder,
         icon            = HCEphedrinepowder,
 		DisplayCategory	= CraftChem,
@@ -439,7 +439,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Calcium Chloride Powder,
         Icon            = HCCalciumchloridepowder,
 		DisplayCategory	= CraftChem,
@@ -448,7 +448,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Thermite,
         icon            = HCThermite,
 		DisplayCategory	= CraftChem,
@@ -457,7 +457,7 @@ module Hydrocraft
     {
 
         Weight          = 2,
-        Type            = Drainable,
+        ItemType            = base:drainable,
         icon            = HCKAS,
         DisplayName     = KAS 27 Fertilizer,
         UseDelta        = 0.25,
@@ -468,7 +468,7 @@ module Hydrocraft
     {
 
         Weight          = 2,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wet Ammonal Bag,
         icon            = HCAmmonalwet,
 		DisplayCategory	= CraftChem,
@@ -477,7 +477,7 @@ module Hydrocraft
     {
 
         Weight          = 2,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Ammonal Tray,
         icon            = HCAmmonaltray,
 		DisplayCategory	= CraftChem,
@@ -486,7 +486,7 @@ module Hydrocraft
     {
 
         Weight          = 2,
-        Type            = Food,
+        ItemType            = base:food,
         DisplayName     = Dry Ammonal,
         icon            = HCAmmonaldry,
 		DisplayCategory	= CraftChem,
@@ -495,7 +495,7 @@ module Hydrocraft
     {
 
         Weight          = 2,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Ammonal Bag,
         icon            = HCAmmonal,
 		DisplayCategory	= CraftChem,
@@ -504,7 +504,7 @@ module Hydrocraft
     {
 
         Weight          = 4,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Wooden Bucket with Lye,
         icon            = HCWoodenbucketlye,
 		DisplayCategory	= CraftChem,
@@ -513,7 +513,7 @@ module Hydrocraft
     {
 
         Weight          = 1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Nitric Acid,
         icon            = HCNitricacid,
     }
@@ -521,7 +521,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Glycerin,
         icon            = HCGlycerin,
 		DisplayCategory	= CraftChem,
@@ -530,7 +530,7 @@ module Hydrocraft
     {
 
         Weight          = 0.5,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Chemical Plastic Bottle With Sodium Hydroxide,
         Icon            = HCChemicalbottlesodiumhydroxide,
 		DisplayCategory	= CraftChem,
@@ -539,7 +539,7 @@ module Hydrocraft
     {
 
         Weight          = 1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Acid Bath Empty,
         Icon            = HCAcidbathempty,
 		DisplayCategory	= CraftChem,
@@ -548,7 +548,7 @@ module Hydrocraft
     {
 
         Weight          = 1.5,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Acid Bath Muriatic Acid,
         Icon            = HCAcidbathmuriaticacid,
 		DisplayCategory	= CraftChem,
@@ -557,7 +557,7 @@ module Hydrocraft
     {
 
         Weight          = 1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Conical Flask With Starter Fluid and Water,
         Icon            = HCWaterbottlestarterfluid,
 		DisplayCategory	= CraftChem,
@@ -566,7 +566,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         UseWhileEquipped    = FALSE,
         UseDelta            = 0.1,
         ReplaceOnDeplete    = HCGlasswaterbottle,
@@ -578,7 +578,7 @@ module Hydrocraft
     {
 
         Weight          = 0.3,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Box of Solid Fuel Cubes,
         icon            = HCSolidfuelbox,
 		DisplayCategory	= Fuel,
@@ -587,7 +587,7 @@ module Hydrocraft
     {
 
         Weight          = 0.3,
-        Type            = Drainable,
+        ItemType            = base:drainable,
         UseDelta        = 0.125,
         DisplayName     = Solid Fuel Cubes,
         icon            = HCSolidfuelcubes,
@@ -597,7 +597,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Solid Fuel Cube,
         icon            = HCSolidfuelcube,
 		DisplayCategory	= Fuel,
@@ -606,7 +606,7 @@ module Hydrocraft
     {
 
         Weight          = 0.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Hexamethylentetramin Powder,
         icon            = HCHexapowder,
 		DisplayCategory	= CraftChem,
@@ -615,7 +615,7 @@ module Hydrocraft
     {
 
         Weight          = 0.2,
-        Type            = Drainable,
+        ItemType            = base:drainable,
         UseDelta        = 0.125,
         DisplayName     = Citric Acid,
         icon            = HCCitricacid,
@@ -625,7 +625,7 @@ module Hydrocraft
     {
 
         Weight          = 2,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Glass Baloon and Waterbeaker,
         Icon            = HCGlassgastrap,
 		DisplayCategory	= CraftChem,
@@ -634,7 +634,7 @@ module Hydrocraft
     {
 
         Weight          = 2.1,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Glass Balloon and Waterbeaker with Salt,
         Icon            = HCGlassgassalt,
 		DisplayCategory	= CraftChem,
@@ -643,7 +643,7 @@ module Hydrocraft
     {
 
         Weight          = 2.2,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Glass Balloon and Waterbeaker with Salt and Sulfuric Acid,
         Icon            = HCGlassgassaltsulfuric,
 		DisplayCategory	= CraftChem,
@@ -652,7 +652,7 @@ module Hydrocraft
     {
 
         MaxRange                = 1,
-        Type                    = Weapon,
+        ItemType                    = base:weapon,
         MinimumSwingTime        = 1.5,
 		SwingAnim	            = Throw,
 		WeaponSprite            = Molotov,
@@ -675,7 +675,7 @@ module Hydrocraft
     {
 
         MaxRange                = 1,
-        Type                    = Weapon,
+        ItemType                    = base:weapon,
         MinimumSwingTime        = 1.5,
 		SwingAnim	            = Throw,
 		WeaponSprite            = Molotov,

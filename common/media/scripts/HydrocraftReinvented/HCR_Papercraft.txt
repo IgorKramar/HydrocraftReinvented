@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Paper Crane,
         icon 			= HCPapercrane,
 		DisplayCategory	= Toy,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Airplane,
         icon 			= HCPaperairplane,
 		DisplayCategory	= Toy,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    	=    0.1,
-        Type    	=    Normal,
+        ItemType    	=    base:normal,
         DisplayName    	=    Rag Ball,
         Icon    	=    HCRagball,
 		DisplayCategory	= Toy,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    	=    0.1,
-        Type    	=    Normal,
+        ItemType    	=    base:normal,
         DisplayName    	=    Pulp,
         Icon    	=    HCPulp,
 		DisplayCategory	= CraftMisc,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    	=    0.1,
-        Type    	=    Normal,
+        ItemType    	=    base:normal,
         DisplayName    	=    Netting,
         Icon    	=    HCNetting,
 		DisplayCategory	= CraftMisc,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    	=    0.2,
-        Type    	=    Normal,
+        ItemType    	=    base:normal,
         DisplayName    	=    Paper Screen,
         Icon    	=    HCPaperscreen,
 		DisplayCategory	= CraftMisc,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight    	=    0.4,
-        Type    	=    Normal,
+        ItemType    	=    base:normal,
         DisplayName    	=    Wet Paper Screen,
         Icon    	=    HCPaperscreenwet,
 		DisplayCategory	= CraftMisc,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight    	=    0.3,
-        Type    	=    Normal,
+        ItemType    	=    base:normal,
         DisplayName    	=    Dry Paper Screen,
         Icon    	=    HCPaperscreendry,
 		DisplayCategory	= CraftMisc,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-	Type 			= Drainable,
+	ItemType 			= base:drainable,
 	UseDelta 		= 1.00,
         DisplayName         	= Quill,
         icon 			= HCQuill,
@@ -87,7 +87,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-	Type 			= Drainable,
+	ItemType 			= base:drainable,
 	UseDelta 		= 1.00,
         DisplayName         	= Ink Well,
         icon 			= HCInkwell1,
@@ -98,7 +98,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-	Type 			= Normal,
+	ItemType 			= base:normal,
         DisplayName         	= Empty Ink Well,
         icon 			= HCInkwell0,
 		DisplayCategory	= CraftMisc,

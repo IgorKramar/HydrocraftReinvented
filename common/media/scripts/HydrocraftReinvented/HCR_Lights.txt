@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    				 =    	1,
-        Type    				 =    	Normal,
+        ItemType    				 =    	base:normal,
         DisplayName    			 =    	Lava Lamp,
         Icon    				 =    	HCLavalamp,
 		DisplayCategory          =   	LightSource,
@@ -17,7 +17,7 @@ module Hydrocraft
     {
 
         Weight    				 =    	0.1,
-        Type    				 =		Normal,
+        ItemType    				 =		base:normal,
         DisplayName    			 =    	Lamp Shade,
         Icon    				 =    	HCLampshade,
 		DisplayCategory          =   	Misc,
@@ -27,7 +27,7 @@ module Hydrocraft
     {
 
 		DisplayCategory          =    LightSource,
-        Type    				 =    Normal,		
+        ItemType    				 =    base:normal,		
         Weight    				 =    1,
         DisplayName    			 =    Road Flare,
         Icon   		 			 =    HCRoadflare,
@@ -44,7 +44,7 @@ module Hydrocraft
 		LightDistance	=	5,
 		Weight		=	1,
 		DisappearOnUse	=	TRUE,
-		Type		=	Drainable,
+		ItemType		=	base:drainable,
 		TorchCone	=	FALSE,
 		UseDelta	=	0.003,
 		LightStrength	=	0.4,
@@ -61,7 +61,7 @@ module Hydrocraft
     {
 
         Weight   				 =    0.5,
-        Type    				 =    Normal,
+        ItemType    				 =    base:normal,
         DisplayName   			 =    Laser Pointer,
         Icon    				 =    HCLaserpointer,
 		DisplayCategory          =    LightSource,
@@ -70,7 +70,7 @@ module Hydrocraft
     {
 
 		DisplayCategory          =   LightSource,	
-		Type					 =	 Drainable,	
+		ItemType					 =	 base:drainable,	
 		DisplayName				 =	 Laser Pointer,		
 		Icon					 =	 HCLaserpointeron,	
 		Weight					 =	 0.5,		
@@ -85,7 +85,7 @@ module Hydrocraft
     {
 
 		DisplayCategory         =   LightSource,
-		Type					=   Normal,
+		ItemType					=   base:normal,
 		DisplayName    			=   Red Glowstick,
         Weight    				=   0.2,
         Icon    				=   HCGlowstickred,
@@ -99,7 +99,7 @@ module Hydrocraft
     {
 
 		DisplayCategory          =  LightSource,
-		Type					 =	Drainable,
+		ItemType					 =	base:drainable,
 		DisplayName				 =	Red Glowstick,
 		Icon					 =	HCGlowstickredon,
 		Weight					 =	0.2,
@@ -119,7 +119,7 @@ module Hydrocraft
     {
 
 		DisplayCategory         =   LightSource,
-		Type    				=   Normal,
+		ItemType    				=   base:normal,
 		DisplayName    			=   Blue Glowstick,
         Weight    				=   0.2,
         Icon    				=   HCGlowstickblue,
@@ -133,7 +133,7 @@ module Hydrocraft
     {
 
 		DisplayCategory         =   LightSource,
-		Type					=	Drainable,
+		ItemType					=	base:drainable,
 		DisplayName				=	Blue Glowstick,	
 		Icon					=	HCGlowstickblueon,
 		Weight					=	0.2,
@@ -153,7 +153,7 @@ module Hydrocraft
     {
 
 		DisplayCategory         =   LightSource,
-		Type    				=   Normal,
+		ItemType    				=   base:normal,
 		DisplayName    			=   Green Glowstick,
         Weight    				=   0.2,
         Icon    				=   HCGlowstickgreen,
@@ -167,7 +167,7 @@ module Hydrocraft
     {
 
 		DisplayCategory         =   LightSource,
-		Type    				=   Normal,
+		ItemType    				=   base:normal,
 		DisplayName    			=   Green Glowstick,
         Weight    				=   0.2,
 		Icon					=	HCGlowstickgreenon,
@@ -187,7 +187,7 @@ module Hydrocraft
     {
 
 		Weight			 =	0.05,
-		Type			 =	Normal,
+		ItemType			 =	base:normal,
 		DisplayName		 =	Empty Lighter,
 		Icon			 =	Lighter,
 		DisplayCategory	 =	Fuel,
@@ -198,7 +198,7 @@ module Hydrocraft
     {
 
 		DisplayCategory     =   Fuel,
-		Type				= 	Drainable,
+		ItemType				= 	base:drainable,
 		DisplayName         = 	Lighter Fluid,
         Weight    			= 	0.2,
 		icon 				= 	HCLighterfluid,
@@ -209,7 +209,7 @@ module Hydrocraft
     {
 
         Weight    		=    1.5,
-        Type    		=    Normal,
+        ItemType    		=    base:normal,
         DisplayName    		=    Small Flashlight,
         Icon   		 	=    HCFlashlightoff,
 		DisplayCategory          =   LightSource,
@@ -218,7 +218,7 @@ module Hydrocraft
     {
 
         Weight    		=    1.5,
-        Type    		=    Normal,
+        ItemType    		=    base:normal,
         DisplayName    		=    Dead Small Flashlight,
         Icon   		 	=    HCFlashlightoff,
 		DisplayCategory          =   LightSource,
@@ -229,7 +229,7 @@ module Hydrocraft
 		LightDistance	    =	15,
 		Weight			    =	1.5,
 		ReplaceOnDeplete	=	HCFlashlightdead,
-		Type			    =	Drainable,
+		ItemType			    =	base:drainable,
 		TorchCone		    =	FALSE,
 		UseDelta		    =	0.0009,
 		LightStrength		=	0.8,
@@ -242,7 +242,7 @@ module Hydrocraft
     {
 
         Weight    		=    1.5,
-        Type    		=    Normal,
+        ItemType    		=    base:normal,
         DisplayName    	=    Small Homemade Flashlight,
         Icon   		 	=    HCFlashlightmk1off,
 		DisplayCategory          =   LightSource,
@@ -251,7 +251,7 @@ module Hydrocraft
     {
 
         Weight    		=    1.5,
-        Type    		=    Normal,
+        ItemType    		=    base:normal,
         DisplayName    		=    Dead Small Homemade Flashlight,
         Icon   		 	=    HCFlashlightmk1off,
 		DisplayCategory          =   LightSource,
@@ -262,7 +262,7 @@ module Hydrocraft
 		LightDistance		=	4,
 		Weight	        	=	0.5,
 		ReplaceOnDeplete	=	HCFlashlightmk1dead,
-		Type	        	=	Drainable,
+		ItemType	        	=	base:drainable,
 		TorchCone		=	TRUE,
 		UseDelta		=	0.0009,
 		LightStrength		=	0.2,
@@ -275,7 +275,7 @@ module Hydrocraft
     {
 
         Weight    		=    1.5,
-        Type    		=    Normal,
+        ItemType    		=    base:normal,
         DisplayName    		=    Dynamo Flashlight,
         Icon   		 	=    HCDynamoflashlightoff,
 		DisplayCategory          =   LightSource,
@@ -284,7 +284,7 @@ module Hydrocraft
     {
 
         Weight    		=    1.5,
-        Type    		=    Normal,
+        ItemType    		=    base:normal,
         DisplayName    		=    Dead Dynamo Flashlight,
         Icon   		 	=    HCDynamoflashlightoff,
 		DisplayCategory          =   LightSource,
@@ -295,7 +295,7 @@ module Hydrocraft
         LightDistance       = 7,
         Weight              = 0.5,
         DisappearOnUse      = FALSE,
-        Type                = Drainable,
+        ItemType                = base:drainable,
         TorchCone           = TRUE,
         UseDelta            = 0.002,
         LightStrength       = 0.7,

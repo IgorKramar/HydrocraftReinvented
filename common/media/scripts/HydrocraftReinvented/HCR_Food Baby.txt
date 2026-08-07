@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type   			= Normal,
+        ItemType   			= base:normal,
         DisplayName         	= Baby Food Jar,
         icon 			= HCBabyfoodjar,
 	DisplayCategory          =   Useless,
@@ -15,7 +15,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Applesauce),
 	Icon				=	HCBabyfood4,
@@ -33,7 +33,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Apricots),
 	Icon				=	HCBabyfood2,
@@ -51,7 +51,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Bananas),
 	Icon				=	HCBabyfood3,
@@ -69,7 +69,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Peaches),
 	Icon				=	HCBabyfood2,
@@ -87,7 +87,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Pears),
 	Icon				=	HCBabyfood4,
@@ -105,7 +105,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Plums),
 	Icon				=	HCBabyfood7,
@@ -123,7 +123,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Carrots),
 	Icon				=	HCBabyfood2,
@@ -141,7 +141,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Cream Corn),
 	Icon				=	HCBabyfood3,
@@ -159,7 +159,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Green Beans),
 	Icon				=	HCBabyfood4,
@@ -177,7 +177,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Squash),
 	Icon				=	HCBabyfood3,
@@ -194,7 +194,7 @@ module Hydrocraft
     {
 
 		DisplayCategory          =   FoodN,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Baby Food (Sweet Potatoes),
 		Weight				=	0.5,
 		UnhappyChange			=	-8,
@@ -214,7 +214,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Beef),
 	Icon				=	HCBabyfood1,
@@ -232,7 +232,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Chicken),
 	Icon				=	HCBabyfood1,
@@ -250,7 +250,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Lamb),
 	Icon				=	HCBabyfood1,
@@ -268,7 +268,7 @@ module Hydrocraft
 
 	HungerChange			=	-6,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-8,
 	DisplayName			=	Baby Food (Turkey),
 	Icon				=	HCBabyfood1,

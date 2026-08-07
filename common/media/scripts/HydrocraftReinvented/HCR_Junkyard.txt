@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Junk,
         icon 			= HCJunk,
 		DisplayCategory          =   CraftRec,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    			= 10,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         
         DisplayName         		= Small Empty Junkyard,
         icon 				= HCJunkyardsmallempty,
@@ -24,7 +24,7 @@ module Hydrocraft
     {
 
         Weight    			= 15,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         
         DisplayName         		= Small Full Junkyard,
         icon 				= HCJunkyardsmallfull,
@@ -34,7 +34,7 @@ module Hydrocraft
     {
 
         Weight    			= 15,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         
         DisplayName         		= Medium Empty Junkyard,
         icon 				= HCJunkyardmediumempty,
@@ -44,7 +44,7 @@ module Hydrocraft
     {
 
         Weight    			= 20,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         
         DisplayName         		= Medium Full Junkyard,
         icon 				= HCJunkyardmediumfull,
@@ -55,7 +55,7 @@ module Hydrocraft
 
         Weight    			= 15,
 	LightStrength	                = 0.8,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         
         DisplayName         		= Large Empty Junkyard,
         icon 				= HCJunkyardlargeempty,
@@ -64,7 +64,7 @@ module Hydrocraft
     item HCJunkyardlargefull
     {
 
-	Type             = Normal,
+	ItemType             = base:normal,
   Weight           = 30,
   DisplayName      = Large Full Junkyard,
   icon 			  	   = HCJunkyardlargefull,
@@ -75,7 +75,7 @@ module Hydrocraft
 
   WeightReduction  = 0,
   Weight           = 10000,
-  Type             = Container,
+  ItemType             = base:container,
   Capacity         = 500,
   DisplayName      = Large Full Junkyard,
   icon             = HCJunkyardlargefull,
@@ -85,7 +85,7 @@ module Hydrocraft
     {
 
         Weight    			= 30,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Giant Magnet,
         icon 				= HCMagnetgiant,
 		DisplayCategory          =   CraftInd,
@@ -95,7 +95,7 @@ module Hydrocraft
 
 	WeightReduction	       		=	45,
 	Weight	               		=	5,
-	Type	               		=	Container,
+	ItemType	               		=	base:container,
 	Capacity	       		=	50,
 	DisplayName	       		=	Makeshift Sled,
 	Icon	               		=	HCSled,
@@ -106,7 +106,7 @@ module Hydrocraft
     {
 
 	Weight				=	1,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Metal Detector,
 	Icon				=	HCDetector,
 		DisplayCategory          =   CraftRec,
@@ -115,7 +115,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1.0,
-	Type 				= 	Drainable,
+	ItemType 				= 	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.125,
 	DisplayName 			= 	Metal Detector with Power,
@@ -127,7 +127,7 @@ module Hydrocraft
     {
 
         Weight    			= 	1.0,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         		= 	Metal Detector with Dead Battery,
         icon 				= 	HCDetector,
 		DisplayCategory          =   CraftRec,
@@ -136,7 +136,7 @@ module Hydrocraft
     {
 
 	Weight				=	1,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Small Bag with Trash,
 	Icon				=	HCTrashsmall,
 		DisplayCategory          =   CraftRec,
@@ -145,7 +145,7 @@ module Hydrocraft
     {
 
 	Weight				=	3,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Medium Box With Trash,
 	Icon				=	HCTrashmedium,
 		DisplayCategory          =   CraftRec,
@@ -154,7 +154,7 @@ module Hydrocraft
     {
 
 	Weight				=	9,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Large Box With Trash,
 	Icon				=	HCTrashlarge,
 		DisplayCategory          =   CraftRec,
@@ -163,7 +163,7 @@ module Hydrocraft
     {
 
         Weight    			=       1,
-        Type    			=       Normal,
+        ItemType    			=       base:normal,
         DisplayName         		=       Broken Microwave,
         icon 				=       HCJunkmicro,
 		DisplayCategory          =   CraftRec,
@@ -172,7 +172,7 @@ module Hydrocraft
     {
 
 	Weight				=	1.5,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Broken TV,
 	Icon				=	HCJunktv,
 		DisplayCategory          =   CraftRec,
@@ -181,7 +181,7 @@ module Hydrocraft
     {
 
 	Weight				=	3,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Broken Fridge,
 	Icon				=	HCJunkfridge,
 		DisplayCategory          =   CraftRec,
@@ -190,7 +190,7 @@ module Hydrocraft
     {
 
 	Weight				=	3,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Broken Washing Machine,
 	Icon				=	HCJunkwash,
 		DisplayCategory          =   CraftRec,
@@ -199,7 +199,7 @@ module Hydrocraft
     {
 
 	Weight				=	3,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Broken Drying Machine,
 	Icon				=	HCJunkdryer,
 		DisplayCategory          =   CraftRec,
@@ -208,7 +208,7 @@ module Hydrocraft
     {
 
 	Weight				=	3,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Broken Bicycle,
 	Icon				=	HCJunkbicycle,
 		DisplayCategory          =   CraftRec,
@@ -217,7 +217,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.1,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Dynamo,
 	Icon				=	HCDynamo,
 		DisplayCategory          =   CraftRec,
@@ -226,7 +226,7 @@ module Hydrocraft
     {
 
 	Weight				=	3,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Broken Tredmill,
 	Icon				=	HCJunktredmill,
 		DisplayCategory          =   CraftRec,
@@ -235,7 +235,7 @@ module Hydrocraft
     {
 
         Weight    			= 10,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Broken Radiator,
         icon 				= HCRadiator2,
 		DisplayCategory          =   CraftRec,
@@ -244,7 +244,7 @@ module Hydrocraft
     {
 
         Weight    			= 10,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Rusty Bed Springs,
         icon 				= HCBedsprings,
 		DisplayCategory          =   CraftRec,
@@ -253,7 +253,7 @@ module Hydrocraft
     {
 
         Weight    			= 10,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Water Heater,
         icon 				= HCWaterheater,
 		DisplayCategory          =   CraftRec,
@@ -264,7 +264,7 @@ module Hydrocraft
 		MaxRange					=	2,
 		WeaponSprite					=	Poolcue,
 		MinAngle					=	0.2,
-		Type						=	Weapon,
+		ItemType						=	base:weapon,
 		MinimumSwingTime				=	4.0,
 		KnockBackOnNoDeath				=	TRUE,
 		SwingAmountBeforeImpact				=	0.002,

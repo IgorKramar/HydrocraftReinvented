@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Empty Label,
 	Icon			=	HCLabelempty,
 		DisplayCategory          =   CraftChem,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Ammonia Label,
 	Icon			=	HCLabelammonia,
 		DisplayCategory          =   CraftChem,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Liquid Soap Label,
 	Icon			=	HCLabeldetergent,
 		DisplayCategory          =   CraftChem,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Methylamin Label,
 	Icon			=	HCLabelmethylamin,
 		DisplayCategory          =   CraftChem,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Hydrogen Peroxide Label,
 	Icon			=	HCLabelh2o2,
 		DisplayCategory          =   CraftChem,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Phenylacetic Acid Label,
 	Icon			=	HCLabelphenylaceticacid,
 		DisplayCategory          =   CraftChem,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Insecticide Label,
 	Icon			=	HCLabelpoison,
 		DisplayCategory          =   CraftChem,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Sulfuric Acid Label,
 	Icon			=	HCLabelsulfuricacid,
 		DisplayCategory          =   CraftChem,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Homemade Ether Label,
 	Icon			=	HCLabelselfmadeether,
 		DisplayCategory          =   CraftChem,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
     Weight          =   0.1,
-        Type            =   Normal,
+        ItemType            =   base:normal,
         DisplayName     =   Homemade Agar Label,
     Icon            =   HCLabelselfmadeether,
 		DisplayCategory          =   CraftChem,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Gasoline Label,
 	Icon			=	HCLabelgasoline,
 		DisplayCategory          =   CraftChem,
@@ -104,7 +104,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Potassiumper Manganate Label,
 	Icon			=	HCLabelpotassiumpermanganate,
 		DisplayCategory          =   CraftChem,

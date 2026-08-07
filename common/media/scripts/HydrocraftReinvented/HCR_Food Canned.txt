@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight              		= 	4.5,
-        Type				= 	Normal,
+        ItemType				= 	base:normal,
         DisplayName         		= 	Box of Canned Goods,
         Icon                		= 	HCCannedfoodstash,
 	DisplayCategory          =   FoodC,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Apples,
 	Icon				=	HCCannedapple,
         Carbohydrates 			= 	136,
@@ -30,7 +30,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Pears,
 	Icon				=	HCCannedpear,
         Carbohydrates 			= 	152,
@@ -46,7 +46,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Peaches,
 	Icon				=	HCCannedpeach,
         Carbohydrates 			= 	144,
@@ -62,7 +62,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Green Beans,
 	Icon				=	HCCannedgreenbeans,
         Carbohydrates 			= 	58.4,
@@ -78,7 +78,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Mushrooms,
 	Icon				=	HCCannedmushrooms,
         Carbohydrates 			= 	40.8,
@@ -94,7 +94,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Pumpkin,
 	Icon				=	HCCannedpumpkin,
         Carbohydrates 			= 	64.8,
@@ -110,7 +110,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Spam,
 	Icon				=	HCCannedspam,
         Carbohydrates 			= 	18.4,
@@ -126,7 +126,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Cranberries,
 	Icon				=	HCCannedcranberries,
         Carbohydrates 			= 	184,
@@ -142,7 +142,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Pineapple,
 	Icon				=	HCCannedpineapple,
         Carbohydrates 			= 	160,
@@ -158,7 +158,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Refried Beans,
 	Icon				=	HCCannedrefriedbeans,
         Carbohydrates 			= 	112,
@@ -174,7 +174,7 @@ module Hydrocraft
     {
 
     	Weight                		=    	0.8,
-   	Type                		=    	Food,
+   	ItemType                		=    	base:food,
     	DisplayName            		=    	Canned Cream of Chicken,
     	Icon                		=    	HCCannedcreamofchicken,
         Carbohydrates 			= 	30.4,
@@ -190,7 +190,7 @@ module Hydrocraft
     {
 
         Weight				=	0.8,
-        Type				=	Food,
+        ItemType				=	base:food,
 	DisplayCategory 		=	Item,
 	Carbohydrates 			= 	3,
         Proteins 			= 	7.5,
@@ -205,7 +205,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Banged-Up Canned Food,
 	Icon				=	HCCanbangedup,
         Carbohydrates 			= 	112,
@@ -221,7 +221,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Cheese Sauce,
 	Icon				=	HCCannedcheesesauce,
     	Carbohydrates 			= 	26,
@@ -237,7 +237,7 @@ module Hydrocraft
     {
 
 	Weight				=	1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Chicken Breast,
 	Icon				=	HCCannedchickenbreast,
     	Carbohydrates 			= 	26,
@@ -253,7 +253,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Fruit Cocktail,
 	Icon				=	HCCannedfruitcocktail,
     	Carbohydrates 			= 	63,
@@ -269,7 +269,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Government Beef,
 	Icon				=	HCCannedgovermentbeef,
     	Carbohydrates 			= 	80,
@@ -285,7 +285,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Government Bread,
 	Icon				=	HCCannedgovermentbread,
     	Carbohydrates 			= 	43,
@@ -300,7 +300,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Government Chicken,
 	Icon				=	HCCannedgovermentchicken,
     	Carbohydrates 			= 	4,
@@ -316,7 +316,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Government Pork,
 	Icon				=	HCCannedgovermentpork,
     	Carbohydrates 			= 	2,
@@ -332,7 +332,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Mac and Cheese,
 	Icon				=	HCCannedmacncheese,
     	Carbohydrates 			= 	126,
@@ -348,7 +348,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Apple Pie Filling,
 	Icon				=	HCCannedpiefillingapple,
     	Carbohydrates 			= 	155,
@@ -364,7 +364,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Cherry Pie Filling,
 	Icon				=	HCCannedpiefillingcherry,
     	Carbohydrates 			= 	168,
@@ -380,7 +380,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Blueberry Pie Filling,
 	Icon				=	HCCannedpiefillingblueberry,
     	Carbohydrates 			= 	168,
@@ -396,7 +396,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Beef Raviloi,
 	Icon				=	HCCannedravioli,
     	Carbohydrates 			= 	12,
@@ -412,7 +412,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Canned Spaghetti Rings,
 	Icon				=	HCCannedspaghettirings,
     	Carbohydrates 			= 	12,
@@ -429,7 +429,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Apples,
 	ReplaceOnUse			=	HCCannedappleempty,
@@ -452,7 +452,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Pears,
 	ReplaceOnUse			=	HCCannedpearempty,
@@ -475,7 +475,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Peaches,
 	ReplaceOnUse			=	HCCannedpeachempty,
@@ -498,7 +498,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Green Beans,
 	ReplaceOnUse			=	HCCannedgreenbeansempty,
@@ -521,7 +521,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Mushrooms,
 	ReplaceOnUse			=	HCCannedmushroomsempty,
@@ -544,7 +544,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Pumpkin,
 	ReplaceOnUse			=	HCCannedpumpkinempty,
@@ -567,7 +567,7 @@ module Hydrocraft
 
 	HungerChange			=	-40,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Spam,
 	ReplaceOnUse			=	HCCannedspamempty,
@@ -590,7 +590,7 @@ module Hydrocraft
 
 	HungerChange			=	-35,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Cranberries,
 	ReplaceOnUse			=	HCCannedcranberriesempty,
@@ -613,7 +613,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Pineapple,
 	ReplaceOnUse			=	HCCannedpineappleempty,
@@ -636,7 +636,7 @@ module Hydrocraft
 
 	HungerChange			=	-35,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Refried Beans,
 	ReplaceOnUse			=	HCCannedrefriedbeansempty,
@@ -659,7 +659,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.8,
-    	Type                		=    	Food,
+    	ItemType                		=    	base:food,
     	DaysTotallyRotten        	=    	4,
     	DisplayName            		=    	Open Canned Cream of Chicken,
     	ReplaceOnUse            	=    	HCTincan,
@@ -681,7 +681,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Open Canned Classic Soup,
 	Icon				=	HCCannedsoupclassicopen,
 	CustomContextMenu 		= 	Drink,
@@ -705,7 +705,7 @@ module Hydrocraft
 	HungerChange			=	-30,
 	UnhappyChange			=	-10,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Banged-Up Can,
 	ReplaceOnUse			=	HCCanbangedupopenempty,
@@ -729,7 +729,7 @@ module Hydrocraft
 	HungerChange			=	-30,
 	UnhappyChange			=	-5,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Cheese Sauce,
 	ReplaceOnUse			=	HCCannedcheesesauceopenempty,
@@ -752,7 +752,7 @@ module Hydrocraft
 
 	HungerChange			=	-45,
 	Weight				=	1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Open Canned Chicken Breast,
 	ReplaceOnUse			=	HCCannedchickenbreastopenempty,
@@ -775,7 +775,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Opened Canned Fruit Cocktail,
 	ReplaceOnUse			=	HCCannedfruitcocktailopenempty,
@@ -798,7 +798,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Opened Canned Government Beef,
 	ReplaceOnUse			=	HCCannedgovermentbeefopenempty,
@@ -821,7 +821,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Opened Canned Government Bread,
 	ReplaceOnUse			=	HCCannedgovermentbreadopenempty,
@@ -844,7 +844,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Opened Canned Government Chicken,
 	ReplaceOnUse			=	HCCannedgovermentchickenopenempty,
@@ -867,7 +867,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Opened Canned Government Pork,
 	ReplaceOnUse			=	HCCannedgovermentporkopenempty,
@@ -890,7 +890,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Opened Canned Mac and Cheese,
 	ReplaceOnUse			=	HCCannedmacncheeseopenempty,
@@ -913,7 +913,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Opened Canned Apple Pie Filling,
 	ReplaceOnUse			=	HCCannedpiefillingappleopenempty,
@@ -936,7 +936,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Opened Canned Cherry Pie Filling,
 	ReplaceOnUse			=	HCCannedpiefillingcherryopenempty,
@@ -959,7 +959,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Opened Canned Blueberry Pie Filling,
 	ReplaceOnUse			=	HCCannedpiefillingblueberryopenempty,
@@ -982,7 +982,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Opened Canned Beef Raviloi,
 	ReplaceOnUse			=	HCCannedravioliopenempty,
@@ -1005,7 +1005,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	4,
 	DisplayName			=	Opened Spaghetti Rings,
 	ReplaceOnUse			=	HCCannedspaghettiringsopenempty,

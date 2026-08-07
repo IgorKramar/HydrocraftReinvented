@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		=    	0.1,
-        Type    		=    	Normal,
+        ItemType    		=    	base:normal,
         DisplayName    		=    	Plastic,
         Icon    		=    	HCPlastic,
 		DisplayCategory		=   Craft,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 	Weight			= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
 	DisplayName		= Bioplastic,
 	Icon			= HCBioplastic,
 		DisplayCategory		=   Craft,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.3,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Homemade Plastic Case,
 	Icon			=	HCSelfmadeplasticcase,
 		DisplayCategory		=   Craft,

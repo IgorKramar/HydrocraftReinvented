@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 10,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Telescope,
         icon 			= HCTelescope,
 		DisplayCategory          =   Toy,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 7,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Telescope Scope,
         icon 			= HCTelescopescope,
 		DisplayCategory          =   CraftMisc,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Telescope Tripod,
         icon 			= HCTelescopetripod,
 		DisplayCategory          =   CraftMisc,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Telescope in Box,
         icon 			= HCTelescopebox,
 		DisplayCategory          =   CraftMisc,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Star Chart,
         icon 			= HCStarchart,
 		DisplayCategory          =   CraftMisc,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Star Chart Board,
         icon 			= HCStarchartboard,
 		DisplayCategory          =   Toy,

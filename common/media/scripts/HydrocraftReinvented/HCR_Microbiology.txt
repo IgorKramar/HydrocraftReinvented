@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Microscope,
         icon 			= HCMicroscope,
 		DisplayCategory		= CraftChem,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.1,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName			= Empty Agar Jar,
 	Icon				= HCAgarempty,
 		DisplayCategory		= CraftChem,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.5,
-	Type 				= Drainable,
+	ItemType 				= base:drainable,
 	UseDelta 			= 0.2,
 	DisplayName 			= Agar,
 	ReplaceOnDeplete		= HCAgarempty,
@@ -34,7 +34,7 @@ module Hydrocraft
     {
 
 	Weight				= 1,
-	Type			        = Normal,
+	ItemType			        = base:normal,
 	DisplayName 			= Beaker With Agar,
 	Icon				= HCBeakeragar,
 		DisplayCategory		= CraftChem,
@@ -43,7 +43,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.01,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName			= Petri Dish With Agar,
 	Icon				= HCPetriagar,
 		DisplayCategory		= CraftChem,
@@ -52,7 +52,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Petri Dish,
         icon 			= HCPetridish,
 		DisplayCategory		= CraftChem,
@@ -61,7 +61,7 @@ module Hydrocraft
     {
 
 	Weight	                        = 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
 	DisplayName	                = Petri Dish with Biowaste,
 	ReplaceOnDeplete                = HCPetridish,
 	Icon				= HCPetribiowaste,
@@ -71,7 +71,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.01,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
         DisplayName     	        = Petri Dish with Penicilinum,
         Icon   		 	        = HCPetripenicillium,
 		DisplayCategory		= CraftChem,
@@ -80,7 +80,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.01,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName	                = Penecilinum Notate,
 	Icon	                        = HCPetripenecilinumzoom,
 		DisplayCategory		= CraftChem,
@@ -89,7 +89,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.01,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
         DisplayName     	        = Petri Dish with Aspergillus Niger,
         Icon   		 	        = HCPetriaspergillus,
 		DisplayCategory		= CraftChem,
@@ -98,7 +98,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.01,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName	                = Aspergillus Niger,
         Icon	                        = HCPetriaspergilluszoom,
 		DisplayCategory		= CraftChem,
@@ -107,7 +107,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.01,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
         DisplayName     	        = Petri Dish with Live Yeast,
         Icon   		 	        = HCPetriyeast,
 		DisplayCategory		= CraftChem,
@@ -116,7 +116,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.01,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName	                = Live Yeast,
         Icon	                        = HCPetriyeastzoom,
 		DisplayCategory		= CraftChem,
@@ -125,7 +125,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.01,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
         DisplayName     	        = Petri Dish with Slime Mold,
         Icon   		 	        = HCPetrididymium,
 		DisplayCategory		= CraftChem,
@@ -134,7 +134,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.01,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName	                = Slime Mold,
         Icon	                        = HCPetrididymiumzoom,
 		DisplayCategory		= CraftChem,
@@ -143,7 +143,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.01,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
         DisplayName     	        = Petri Dish with Nothing,
         Icon   		 	        = HCPetridish,
 		DisplayCategory		= CraftChem,
@@ -152,7 +152,7 @@ module Hydrocraft
     {
 
         Weight    		        = 0.01,
-        Type    		        = Normal,
+        ItemType    		        = base:normal,
 	DisplayName	                = Nothing,
         Icon	                        = HCPetrinothingzoom,
 		DisplayCategory		= CraftChem,

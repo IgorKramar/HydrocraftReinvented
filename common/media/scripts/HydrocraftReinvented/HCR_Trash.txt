@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Rusty Shards,
         icon 			= HCRustyshards,
 		DisplayCategory	= Trash,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Chip Bag,
 		Icon				=	HCCrispstrash,
 		DisplayCategory 		= 	Trash,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Chip Bag,
 		Icon				=	HCCrisps2trash,
 		DisplayCategory 		= 	Trash,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Chip Bag,
 		Icon				=	HCCrisps3trash,
 		DisplayCategory 		= 	Trash,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Chip Bag,
 		Icon				=	HCCrisps4trash,
 		DisplayCategory 		= 	Trash,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Chip Bag,
 		Icon				=	HCCrisps5trash,
 		DisplayCategory 		= 	Trash,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Chip Bag,
 		Icon				=	HCCrisps6trash,
 		DisplayCategory 		= 	Trash,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Chip Bag,
 		Icon				=	HCCrisps7trash,
 		DisplayCategory 		= 	Trash,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Pack,
 		Icon				=	HCCrisps8trash,
 		DisplayCategory 		= 	Trash,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Chip Bag,
 		Icon				=	HCCrisps9trash,
 		DisplayCategory 		= 	Trash,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Cookie Bag,
 		Icon				=	HCCookieschocolatechipbagtrash,
 		DisplayCategory 		= 	Trash,
@@ -104,7 +104,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Cookie Bag,
 		Icon				=	HCCookiesmintbagtrash,
 		DisplayCategory 		= 	Trash,
@@ -113,7 +113,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Cookie Bag,
 		Icon				=	HCCookiesbrowniebagtrash,
 		DisplayCategory 		= 	Trash,
@@ -122,7 +122,7 @@ module Hydrocraft
     {
 
         	Weight    			= 	0.02,
-        	Type    			= 	Normal,
+        	ItemType    			= 	base:normal,
         	DisplayName     		= 	Plastic Packaging,
         	icon 				= 	HCRamenchickentrash,
 		DisplayCategory 		= 	Trash,
@@ -131,7 +131,7 @@ module Hydrocraft
     {
 
         	Weight    			= 	0.02,
-        	Type    			= 	Normal,
+        	ItemType    			= 	base:normal,
         	DisplayName     		= 	Plastic Packaging,
         	icon 				= 	HCRamenchickentrash,
 		DisplayCategory 		= 	Trash,
@@ -140,7 +140,7 @@ module Hydrocraft
     {
 
         	Weight    			= 	0.02,
-        	Type    			= 	Normal,
+        	ItemType    			= 	base:normal,
         	DisplayName     		= 	Plastic Packaging,
         	icon 				= 	HCRamenchickentrash,
 		DisplayCategory 		= 	Trash,
@@ -149,7 +149,7 @@ module Hydrocraft
     {
 
         	Weight    			= 	0.02,
-        	Type    			= 	Normal,
+        	ItemType    			= 	base:normal,
         	DisplayName     		= 	Plastic Packaging,
         	icon 				= 	HCRamenchickentrash,
 		DisplayCategory 		= 	Trash,
@@ -158,7 +158,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.01,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Candy Wrapper,
 		Icon				=	HCChocolatetrash,
 		DisplayCategory 		= 	Trash,
@@ -167,7 +167,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.01,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Candy Wrapper,
 		Icon				=	HCChocolatedarktrash,
 		DisplayCategory 		= 	Trash,
@@ -176,7 +176,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.01,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Candy Wrapper,
 		Icon				=	HCChocolatewhitetrash,
 		DisplayCategory 		= 	Trash,
@@ -185,7 +185,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.02,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Candy Wrapper,
 		Icon				=	HCTrailmixtrash,
 		DisplayCategory 		= 	Trash,
@@ -196,7 +196,7 @@ module Hydrocraft
         	DisplayName			=	Empty Candy Wrapper,
         	Icon				=	HCCandycorntrash,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCCandymnmtrash
@@ -205,7 +205,7 @@ module Hydrocraft
         	DisplayName			=	Empty Candy Wrapper,
         	Icon				=	HCCandymnmtrash,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCCandyrainbowtrash
@@ -214,7 +214,7 @@ module Hydrocraft
         	DisplayName			=	Empty Candy Wrapper,
         	Icon				=	HCCandyrainbowtrash,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCGummybearstrash
@@ -223,7 +223,7 @@ module Hydrocraft
         	DisplayName			=	Empty Candy Wrapper,
         	Icon				=	HCGummybearstrash,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCGummywormstrash
@@ -232,7 +232,7 @@ module Hydrocraft
         	DisplayName			=	Empty Candy Wrapper,
         	Icon				=	HCGummywormstrash,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCJellybeanstrash
@@ -241,7 +241,7 @@ module Hydrocraft
         	DisplayName			=	Empty Candy Wrapper,
         	Icon				=	HCJellybeanstrash,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCTaffytrash
@@ -250,7 +250,7 @@ module Hydrocraft
         	DisplayName			=	Empty Candy Wrapper,
         	Icon				=	HCTaffytrash,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCMintcandytrash
@@ -259,7 +259,7 @@ module Hydrocraft
         	DisplayName			=	Empty Candy Wrapper,
         	Icon				=	HCMintcandytrash,
         	Weight				=	0.01,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCGumtrash
@@ -268,7 +268,7 @@ module Hydrocraft
         	DisplayName			=	Empty Pack of Chewing Gum,
         	Icon				=	HCGumtrash,
         	Weight				=	0.05,
-			Type				=	Normal,
+			ItemType				=	base:normal,
 			DisplayCategory 	= 	Trash,
     }
     item HCGum2trash
@@ -277,7 +277,7 @@ module Hydrocraft
         	DisplayName			=	Empty Pack of Chewing Gum,
         	Icon				=	HCGum2trash,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCGum3trash
@@ -286,7 +286,7 @@ module Hydrocraft
         	DisplayName			=	Empty Pack of Chewing Gum,
         	Icon				=	HCGum3trash,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCGumsticktrash
@@ -295,14 +295,14 @@ module Hydrocraft
         	DisplayName			=	Gum Wrapper,
         	Icon				=	HCGumsticktrash,
         	Weight				=	0.01,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCBeercan
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Aluminum Can,
 		Icon				=	HCBeercan,
 		DisplayCategory 		= 	Trash,
@@ -311,7 +311,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Aluminum Can,
 		Icon				=	HCPoptrash,
 		DisplayCategory 		= 	Trash,
@@ -320,7 +320,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Aluminum Can,
 		Icon				=	HCPop2trash,
 		DisplayCategory 		= 	Trash,
@@ -329,7 +329,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Aluminum Can,
 		Icon				=	HCPop3trash,
 		DisplayCategory 		= 	Trash,
@@ -338,7 +338,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Aluminum Can,
 		Icon				=	HCPop6trash,
 		DisplayCategory 		= 	Trash,
@@ -347,7 +347,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Aluminum Can,
 		Icon				=	HCEnergydrinktrash,
 		DisplayCategory 		= 	Trash,
@@ -356,7 +356,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Aluminum Can,
 		Icon				=	HCEnergydrink2trash,
 		DisplayCategory 		= 	Trash,
@@ -366,7 +366,7 @@ module Hydrocraft
 
         Weight	    			=    	0.1,
 		CanStoreWater			=		TRUE,
-        Type 		   			=    	Normal,
+        ItemType 		   			=    	base:normal,
         DisplayName    			=    	Tincan,
 		ReplaceOnUseOn			=		WaterSource-HCTincanwater,
         Icon    				=    	HCTincan,
@@ -379,7 +379,7 @@ module Hydrocraft
 		IsWaterSource			=	TRUE,
 		Weight					=	0.5,
 		CanStoreWater			=	TRUE,
-		Type					=	Drainable,
+		ItemType					=	base:drainable,
 		UseWhileEquipped		=	FALSE,
 		UseDelta				=	0.3,
 		DisplayName				=	Tin Can with Water,
@@ -395,7 +395,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater		=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn		=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedcornedbeefempty,
@@ -407,7 +407,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedcornempty,
@@ -419,7 +419,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedmushroomsoupempty,
@@ -431,7 +431,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedpeasempty,
@@ -443,7 +443,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedpotatoempty,
@@ -455,7 +455,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedsardinesempty,
@@ -467,7 +467,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedtomatoempty,
@@ -479,7 +479,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedcarrotsempty,
@@ -491,7 +491,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCBeansempty,
@@ -503,7 +503,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCSoupempty,
@@ -515,7 +515,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCTunaempty,
@@ -527,7 +527,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCDogfoodempty,
@@ -539,7 +539,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedbologneseempty,
@@ -551,7 +551,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedchiliempty,
@@ -563,7 +563,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedsoupclassicempty,
@@ -575,7 +575,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedappleempty,
@@ -587,7 +587,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedpearempty,
@@ -599,7 +599,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedpeachempty,
@@ -611,7 +611,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedgreenbeansempty,
@@ -623,7 +623,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedmushroomsempty,
@@ -635,7 +635,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater		=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn		=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedpumpkinempty,
@@ -647,7 +647,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		Icon				=	HCCannedspamempty,
 		ReplaceOnUseOn		=	WaterSource-HCTincanwater,
@@ -659,7 +659,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedcranberriesempty,
@@ -671,7 +671,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedpineappleempty,
@@ -683,7 +683,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedrefriedbeansempty,
@@ -695,7 +695,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	DentedTin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCoffeelargeempty,
@@ -707,7 +707,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCoffeelargeempty,
@@ -719,7 +719,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedchickenbreastopenempty,
@@ -731,7 +731,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedfruitcocktailopenempty,
@@ -743,7 +743,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedgovermentbeefopenempty,
@@ -755,7 +755,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedgovermentbreadopenempty,
@@ -767,7 +767,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedgovermentchickenopenempty,
@@ -779,7 +779,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedgovermentporkopenempty,
@@ -791,7 +791,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedmacncheeseopenempty,
@@ -803,7 +803,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedpiefillingappleopenempty,
@@ -815,7 +815,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedpiefillingcherryopenempty,
@@ -827,7 +827,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedpiefillingblueberryopenempty,
@@ -839,7 +839,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedravioliopenempty,
@@ -851,7 +851,7 @@ module Hydrocraft
 
 		Weight				=	0.1,
 		CanStoreWater			=	TRUE
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Tin Can,
 		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
 		Icon				=	HCCannedspaghettiringsopenempty,
@@ -862,7 +862,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	TV Dinner Package,
 		Icon				=	HCTVDinnerpackage,
 		DisplayCategory 		= 	Trash,
@@ -871,7 +871,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Mustard Bottle,
 		Icon				=	HCMustardempty,
 		DisplayCategory 		= 	Trash,
@@ -880,7 +880,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Ketchup Bottle,
 		Icon				=	HCKetchupempty,
 		DisplayCategory 		= 	CraftRef,
@@ -889,7 +889,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Peanut Butter Jar,
 		Icon				=	HCPeanutbutterjarempty,
 		DisplayCategory 		= 	CraftRef,
@@ -898,7 +898,7 @@ module Hydrocraft
     {
 
         	Weight                  	=    	0.1,
-        	Type                    	=    	Normal,
+        	ItemType                    	=    	base:normal,
        	 	DisplayName        		=    	Empty UHT Milkpackage,
         	Icon                    	=    	HCUHTmilkempty,
 		DisplayCategory 		= 	CraftRef,
@@ -907,7 +907,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Milk Carton,
 		Icon				=	HCMilkempty,
 		DisplayCategory 		= 	CraftRef,
@@ -917,7 +917,7 @@ module Hydrocraft
 
         	Weight    			=   	0.1,
 		CanStoreWater			=	TRUE,
-        	Type    			=   	Normal,
+        	ItemType    			=   	base:normal,
         	DisplayName    			=   	Empty Milk Jug,
 		ReplaceOnUseOn			=	WaterSource-HCMilkjugwater,
         	Icon    			=   	HCMilkjugempty,
@@ -929,7 +929,7 @@ module Hydrocraft
 
         	Weight    			=   	0.1,
 		CanStoreWater			=	TRUE,
-        	Type    			=   	Normal,
+        	ItemType    			=   	base:normal,
         	DisplayName    			=   	Empty Milk Jug,
 		ReplaceOnUseOn			=	WaterSource-HCMilkjugchocolatewater,
         	Icon    			=   	HCMilkjugchocolateempty,
@@ -940,7 +940,7 @@ module Hydrocraft
     {
 
         	Weight    			= 	0.1,
-        	Type    			= 	Normal,
+        	ItemType    			= 	base:normal,
         	DisplayName     		= 	Empty Evaporated Milk,
         	icon 				= 	HCEvaporatedmilkempty,
 		DisplayCategory 		= 	Trash,
@@ -951,14 +951,14 @@ module Hydrocraft
         	DisplayName			=	Empty Yoghurt,
         	Icon				=	HCYoghurtempty,
         	Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCIcecreamempty
     {
 
 		Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Ice Cream Can,
 		Icon				=	HCIcecreamempty,
 		DisplayCategory 		= 	Trash,
@@ -967,7 +967,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.04,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Cereal Box,
 		Icon				=	HCCerealtrash,
 		DisplayCategory 		= 	Trash,
@@ -976,7 +976,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.04,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Cereal Box,
 		Icon				=	HCCereal2trash,
 		DisplayCategory 		= 	Trash,
@@ -985,7 +985,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.04,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Cereal Box,
 		Icon				=	HCCereal3trash,
 		DisplayCategory 		= 	Trash,
@@ -994,7 +994,7 @@ module Hydrocraft
     {
 
 		Weight				=	0.04,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Empty Can of Oats,
 		Icon				=	HCOatsempty,
 		DisplayCategory 		= 	Trash,
@@ -1005,7 +1005,7 @@ module Hydrocraft
         	DisplayName			=	Empty Flour Bag,
         	Icon				=	HCFlourempty,
         	Weight				=	0.15,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	CraftRef,
     }
     item HCRiceempty
@@ -1014,7 +1014,7 @@ module Hydrocraft
         	DisplayName			=	Empty Rice Bag,
         	Icon				=	HCRiceempty,
         	Weight				=	0.15,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	CraftRef,
     }
     item HCSugarempty
@@ -1023,7 +1023,7 @@ module Hydrocraft
         	DisplayName			=	Empty Sugar Pack,
         	Icon				=	HCSugarempty,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	CraftRef,
     }
     item HCVinegarempty
@@ -1032,7 +1032,7 @@ module Hydrocraft
         	DisplayName			=	Empty Vinegar Bottle,
         	Icon				=	HCVinegarempty,
         	Weight				=	0.1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	CraftRef,
     }
     item HCGlueempty
@@ -1041,7 +1041,7 @@ module Hydrocraft
        	 	DisplayName			=	Empty Glue Bottle,
         	Icon				=	HCGlueempty,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	CraftRef,
     }
     item HCWoodglueempty
@@ -1050,7 +1050,7 @@ module Hydrocraft
         	DisplayName			=	Empty Glue Bottle,
         	Icon				=	HCWoodglueempty,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	CraftRef,
     }
     item HCScotchtapeempty
@@ -1059,7 +1059,7 @@ module Hydrocraft
         	DisplayName			=	Empty Adhesive Tape,
         	Icon				=	HCScotchtapeempty,
         	Weight				=	0.05,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayCategory 		= 	Trash,
     }
     item HCERFBtrashbag
@@ -1068,7 +1068,7 @@ module Hydrocraft
 		DisplayName 		=Plastic Packaging,
 		Icon 		= HCERFBtrash,
 		Weight 		= 0.1,
-		Type 		= Normal,
+		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
     }
     item HCMREempty
@@ -1077,7 +1077,7 @@ module Hydrocraft
 		DisplayName = Plastic Packaging,
 		Icon 		= HCMREtrash,
 		Weight 		= 0.01,
-		Type 		= Normal,
+		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
     }
     item HCMREsidetrash
@@ -1086,7 +1086,7 @@ module Hydrocraft
 		DisplayName 		= Cardboard Packaging,
 		Icon 		= HCMREsidetrash,
 		Weight 		= 0.1,
-		Type 		= Normal,
+		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
     }
     item HCMREcrackerstrash
@@ -1095,7 +1095,7 @@ module Hydrocraft
 		DisplayName 		= Plastic Packaging,
 		Icon 		= HCMREcrackerstrash,
 		Weight 		= 0.1,
-		Type 		= Normal,
+		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
     }
     item HCMREmealprepedtrash
@@ -1104,7 +1104,7 @@ module Hydrocraft
 		DisplayName 		= Plastic Packaging,
 		Icon 		= HCMREmealprepedtrash,
 		Weight 		= 0.01,
-		Type 		= Normal,
+		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
     }
     item HCMREmealsideprepedtrash
@@ -1113,7 +1113,7 @@ module Hydrocraft
 		DisplayName 		= Plastic Packaging,
 		Icon 		= HCMREmealsideprepedtrash,
 		Weight 		= 0.01,
-		Type 		= Normal,
+		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
     }
     item HCCandybar1trash
@@ -1122,7 +1122,7 @@ module Hydrocraft
 		DisplayName 		= Candy Bar Wrapper,
 		Icon 		= HCCandybarsnackerstrash,
 		Weight 		= 0.01,
-		Type 		= Normal,
+		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
     }
     item HCCandybar2trash
@@ -1131,7 +1131,7 @@ module Hydrocraft
 		DisplayName 		= Candy Bar Wrapper,
 		Icon 		= HCCandybarcoconuttrash,
 		Weight 		= 0.01,
-		Type 		= Normal,
+		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
     }
     item HCCandybar3trash
@@ -1140,7 +1140,7 @@ module Hydrocraft
 		DisplayName 		= Candy Bar Wrapper,
 		Icon 		= HCCandybarpeanutbuttertrash,
 		Weight 		= 0.01,
-		Type 		= Normal,
+		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
     }
     item HCCandybar4trash
@@ -1149,7 +1149,7 @@ module Hydrocraft
 		DisplayName 		= Candy Bar Wrapper,
 		Icon 		= HCCandybarzedtrash,
 		Weight 		= 0.01,
-		Type 		= Normal,
+		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
     }
     item HCCheesecrackerstrash
@@ -1158,7 +1158,7 @@ module Hydrocraft
 		DisplayName 		= Empty Box,
 		Icon 		= HCCheesecrackerstrash,
 		Weight 		= 0.1,
-		Type 		= Normal,
+		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
     }
 }

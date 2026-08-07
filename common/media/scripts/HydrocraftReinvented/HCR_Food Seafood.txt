@@ -4,7 +4,7 @@ module Hydrocraft
     item HCHerring
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Herring,
 	Icon				=	HCHerring,
 	IsCookable 			= 	TRUE,
@@ -26,7 +26,7 @@ module Hydrocraft
     item HCFriedherring
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Fried Herring,
 	Icon				=	HCHerringcooked,
 	Weight				=	0.2,
@@ -48,7 +48,7 @@ module Hydrocraft
     item HCCrab
     {
 
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Crab,
 		Icon				=	HCCrab,
 		IsCookable			=	TRUE,
@@ -73,7 +73,7 @@ module Hydrocraft
 
 		HungerChange		=	-30,
 		BoredomChange		=	-15,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Cooking Pot with Crab,
 		ReplaceOnUse		=	Pot,
 		Icon				=	PotFull,
@@ -95,7 +95,7 @@ module Hydrocraft
     item HCCrayfish
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Crayfish,
 	Icon				=	HCCrayfish,
 	IsCookable			=	TRUE,
@@ -120,7 +120,7 @@ module Hydrocraft
 
 		HungerChange			=	-25,
 		BoredomChange			=	-5,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Cooking Pot with Crayfish,
 		ReplaceOnUse			=	Pot,
 		Icon				=	PotFull,
@@ -142,7 +142,7 @@ module Hydrocraft
     item HCMusselpot
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Cooking Pot with Mussel,
 	IsCookable			=	TRUE,
 	DangerousUncooked		=	TRUE,
@@ -165,7 +165,7 @@ module Hydrocraft
     item HCMussel
     {
 
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Shelled Mussel,
 		Icon				=	HCMussel,
 		ReplaceOnUse		=	HCMusselshell,
@@ -189,7 +189,7 @@ module Hydrocraft
     item HCBlowfish
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Blowfish,
         Icon				= HCBlowfish,
         Weight				= 0.4,
@@ -214,7 +214,7 @@ module Hydrocraft
     item HCBream
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Bream,
         Icon				= HCBream,
         Weight				= 0.4,
@@ -235,7 +235,7 @@ module Hydrocraft
     item HCEel
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Eel,
         Icon				= HCEel,
         Weight				= 0.4,
@@ -256,7 +256,7 @@ module Hydrocraft
     item HCMackerel
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Mackerel,
         Icon				= HCMackerel,
         Weight				= 0.4,
@@ -277,7 +277,7 @@ module Hydrocraft
     item HCMackerelpike
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Mackerel Pike,
         Icon				= HCMackerelpike,
         Weight				= 0.4,
@@ -298,7 +298,7 @@ module Hydrocraft
     item HCPrawn
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Prawn,
         Icon				= HCPrawn,
         Weight				= 0.4,
@@ -319,7 +319,7 @@ module Hydrocraft
     item HCRedsnapper
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Red Snapper,
         Icon				= HCRedsnapper,
         Weight				= 0.4,
@@ -340,7 +340,7 @@ module Hydrocraft
     item HCSeabass
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Sea Bass,
         Icon				= HCSeabass,
         Weight				= 0.4,
@@ -361,7 +361,7 @@ module Hydrocraft
     item HCSmelt
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Smelt,
         Icon				= HCSmelt,
         Weight				= 0.4,
@@ -382,7 +382,7 @@ module Hydrocraft
     item HCSnowcrab
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Snow Crab,
         Icon				= HCSnowcrab,
         Weight				= 0.4,
@@ -403,7 +403,7 @@ module Hydrocraft
     item HCSquid
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Squid,
         Icon				= HCSquid,
         Weight				= 0.4,
@@ -424,7 +424,7 @@ module Hydrocraft
     item HCTuna
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Tuna,
         Icon				= HCTuna,
         Weight				= 0.4,
@@ -445,7 +445,7 @@ module Hydrocraft
     item HCWrasse
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Wrasse,
         Icon				= HCWrasse,
         Weight				= 0.4,
@@ -466,7 +466,7 @@ module Hydrocraft
     item HCAsp
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Asp,
         Icon				= HCAsp,
         Weight				= 0.4,
@@ -487,7 +487,7 @@ module Hydrocraft
     item HCBrill
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Brill,
         Icon				= HCBrill,
         Weight				= 0.4,
@@ -508,7 +508,7 @@ module Hydrocraft
     item HCBurbot
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Burbot,
         Icon				= HCBurbot,
         Weight				= 0.4,
@@ -529,7 +529,7 @@ module Hydrocraft
     item HCCarp
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Carp,
         Icon				= HCCarp,
         Weight				= 0.4,
@@ -550,7 +550,7 @@ module Hydrocraft
     item HCChub
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Chub,
         Icon				= HCChub,
         Weight				= 0.4,
@@ -571,7 +571,7 @@ module Hydrocraft
     item HCGrayling
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Grayling,
         Icon				= HCGrayling,
         Weight				= 0.4,
@@ -592,7 +592,7 @@ module Hydrocraft
     item HCLavaret
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Lavaret,
         Icon				= HCLavaret,
         Weight				= 0.4,
@@ -613,7 +613,7 @@ module Hydrocraft
     item HCPlaice
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Plaice,
         Icon				= HCPlaice,
         Weight				= 0.4,
@@ -634,7 +634,7 @@ module Hydrocraft
     item HCRoach
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Roach,
         Icon				= HCRoach,
         Weight				= 0.4,
@@ -655,7 +655,7 @@ module Hydrocraft
     item HCRuffe
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Ruffe,
         Icon				= HCRuffe,
         Weight				= 0.4,
@@ -676,7 +676,7 @@ module Hydrocraft
     item HCSalmon
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Salmon,
         Icon				= HCSalmon,
         Weight				= 0.4,
@@ -697,7 +697,7 @@ module Hydrocraft
     item HCSilverbream
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Silver Bream,
         Icon				= HCSilverbream,
         Weight				= 0.4,
@@ -718,7 +718,7 @@ module Hydrocraft
     item HCTench
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Tench,
         Icon				= HCTench,
         Weight				= 0.4,
@@ -739,7 +739,7 @@ module Hydrocraft
     item HCZander
     {
 
-        Type				= Food,
+        ItemType				= base:food,
         DisplayName			= Zander,
         Icon				= HCZander,
         Weight				= 0.4,
@@ -761,7 +761,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Wooden Bucket with Fish Oil,
         icon 			= HCWoodenbucketfishoil,
 		DisplayCategory		=	Cooking,
@@ -770,7 +770,7 @@ module Hydrocraft
     {
 
 	Weight 			     	= 	1,
-	Type 				    = 	Drainable,
+	ItemType 				    = 	base:drainable,
 	UseDelta 			    = 	0.25,
 	DisplayName 			= 	Jar of Fish Oil,
 	Icon 				    = 	HCFishoil,

@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight				=	10,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Empty Propane Tank,
 	Icon				=	PropaneTank,
 	DisplayCategory	=   CraftChem,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    			= 	20,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         		= 	Biogas Tank,
         icon 				= 	HCBiogas,
 	DisplayCategory	=   CraftChem,

@@ -6,7 +6,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,
         Weight    		= 0.02,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Penny,
         icon 			= HCPenny,
         WorldStaticModel = WorldItem-HCMoney_Penny,
@@ -16,7 +16,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,
         Weight    		= 0.03,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Nickel,
         icon 			= HCNickel,
 		WorldStaticModel = WorldItem-HCMoney_Nickel,
@@ -26,7 +26,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dime,
         icon 			= HCDime,
 		WorldStaticModel = WorldItem-HCMoney_Dime,
@@ -36,7 +36,7 @@ module Hydrocraft
 
 		DisplayCategory  = Money,
         Weight    		 = 0.04,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = Quarter,
         icon 			 = HCQuarter,
 		WorldStaticModel = WorldItem-HCMoney_Quarter,
@@ -46,7 +46,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,
         Weight    		= 0.05,
-        Type   			= Normal,
+        ItemType   			= base:normal,
         DisplayName         	= Half Dollar,
         icon 			= HCHalfdollar,
 		WorldStaticModel = WorldItem-HCMoney_HalfDollarCoin,
@@ -56,7 +56,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,
         Weight    		= 0.04,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dollar,
         icon 			= HCDollar,
 		WorldStaticModel = WorldItem-HCMoney_DollarCoin,
@@ -66,7 +66,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= 1 Dollar Bill,
         icon 			= HC1dollarbill,
 		WorldStaticModel = WorldItem-HCMoney_DollarBill,
@@ -76,7 +76,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= 2 Dollar Bill,
         icon 			 = HC2dollarbill,
 		WorldStaticModel = WorldItem-HCMoney_DollarBill,
@@ -86,7 +86,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= 5 Dollar Bill,
         icon 			 = HC5dollarbill,
 		WorldStaticModel = WorldItem-HCMoney_DollarBill,
@@ -96,7 +96,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,
         Weight    		 = 0.01,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName         	= 10 Dollar Bill,
         icon 			 = HC10dollarbill,
 		WorldStaticModel = WorldItem-HCMoney_DollarBill,
@@ -106,7 +106,7 @@ module Hydrocraft
 
 		DisplayCategory  = Money,
         Weight    		 = 0.01,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = 20 Dollar Bill,
         icon 			 = HC20dollarbill,
 		WorldStaticModel = WorldItem-HCMoney_DollarBill,
@@ -116,7 +116,7 @@ module Hydrocraft
 
 		DisplayCategory  = Money,
         Weight    		 = 0.01,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = 50 Dollar Bill,
         icon 			 = HC50dollarbill,
 		WorldStaticModel = WorldItem-HCMoney_DollarBill,
@@ -126,7 +126,7 @@ module Hydrocraft
 
 		DisplayCategory  = Money,
         Weight    		 = 0.01,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = 100 Dollar Bill,
         icon 			 = HC100dollarbill,
 		WorldStaticModel = WorldItem-HCMoney_DollarBill,
@@ -136,7 +136,7 @@ module Hydrocraft
 
 		DisplayCategory = Money,
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Blank Cheque,
         icon 			= HCCheque,
 		WorldStaticModel = WorldItem-HCMoney_BlankCheck,
@@ -146,7 +146,7 @@ module Hydrocraft
 
 		DisplayCategory	= CraftInd,
         Weight    		= 20,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Coin Press,
         icon 			= HCCoinpress,
     }
@@ -155,7 +155,7 @@ module Hydrocraft
 
 		DisplayCategory  = Money,
         Weight    		 = 0.04,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = Copper Coin,
         icon 			 = HCCoincopper,
 		WorldStaticModel = WorldItem-HCMoney_CopperCoin,
@@ -165,7 +165,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,		
         Weight    		 	= 0.04,
-        Type    		 	= Normal,
+        ItemType    		 	= base:normal,
         DisplayName      	= Silver Coin,
         icon 			 	= HCCoinsilver,
 		WorldStaticModel 	= WorldItem-HCMoney_SilverCoin,
@@ -175,7 +175,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,	
         Weight    			= 0.04,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         = Gold Coin,
         icon 				= HCCoingold,
 		WorldStaticModel 	= WorldItem-HCMoney_GoldCoin,
@@ -185,7 +185,7 @@ module Hydrocraft
 	
 		DisplayCategory		= Misc,
         Weight    		= 0.4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Piggy Bank,
         icon 			= HCPiggybank,
     }
@@ -194,7 +194,7 @@ module Hydrocraft
 
         	WeightReduction     	= 	25,
         	Weight              	= 	0.4,
-        	Type                	= 	Container,
+        	ItemType                	= 	base:container,
         	Capacity            	= 	10,
         	DisplayName        	= 	Piggy Bank,
         	Icon                	= 	HCPiggybank,
@@ -204,7 +204,7 @@ module Hydrocraft
 
         	WeightReduction     	= 	25,
         	Weight              	= 	0.2,
-        	Type                	= 	Container,
+        	ItemType                	= 	base:container,
         	Capacity            	= 	2,
         	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_01,
@@ -215,7 +215,7 @@ module Hydrocraft
 
         	WeightReduction     	= 	25,
         	Weight              	= 	0.2,
-        	Type                	= 	Container,
+        	ItemType                	= 	base:container,
         	Capacity            	= 	2,
         	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_02,
@@ -226,7 +226,7 @@ module Hydrocraft
 
         	WeightReduction     	= 	25,
         	Weight              	= 	0.2,
-        	Type                	= 	Container,
+        	ItemType                	= 	base:container,
         	Capacity            	= 	2,
         	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_03,
@@ -237,7 +237,7 @@ module Hydrocraft
 
         	WeightReduction     	= 	25,
         	Weight              	= 	0.2,
-        	Type                	= 	Container,
+        	ItemType                	= 	base:container,
         	Capacity            	= 	2,
         	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_04,
@@ -247,7 +247,7 @@ module Hydrocraft
     {
 
 	Weight			=	10.0,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Slot Machine,
 	Icon			=	HCSlotmachine,
     }
@@ -255,7 +255,7 @@ module Hydrocraft
     {
 
         Weight    		= 	10000,
-        Type    		=	Normal,
+        ItemType    		=	base:normal,
         DisplayName         	= 	Slot Machine,
         icon 			= 	HCSlotmachine,
     }
@@ -264,7 +264,7 @@ module Hydrocraft
 
 		DisplayCategory 	= Money,
         Weight    			= 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName        	= Poker Chip,
         icon 				= HCPokerchip,
 		WorldStaticModel 	= WorldItem-HCMoney_PokerChip,
@@ -274,7 +274,7 @@ module Hydrocraft
 
 		
 		Weight			=	10.0,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Roulette Table,
 		Icon			=	HCRoulette,
     }
@@ -283,7 +283,7 @@ module Hydrocraft
 
 		
         Weight    		= 	10000,
-        Type    		=	Normal,
+        ItemType    		=	base:normal,
         DisplayName         	= 	Roulette Table,
         icon 			= 	HCRoulette,
     }

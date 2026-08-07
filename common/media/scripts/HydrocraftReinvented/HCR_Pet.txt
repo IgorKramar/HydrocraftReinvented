@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 		Weight				= 	0.1,
-		Type    			= 	Normal,
+		ItemType    			= 	base:normal,
 		DisplayName         		= 	Grooming Brush,
 		icon 				= 	HCGroomingbrush,
 		DisplayCategory		=   AnimalMisc,
@@ -15,7 +15,7 @@ module Hydrocraft
 
 	WeightReduction        	= 	50,
 	Weight					=	15,
-	Type                	= 	Container,
+	ItemType                	= 	base:container,
 	Capacity             	= 	100,
 	DisplayName				=	Horse Saddle,
 	Icon					=	HCHorsesaddle,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
 		Weight				=	2,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Horse Collar,
 		Icon				=	HCHorsecollar,
 		DisplayCategory		=   AnimalMisc,
@@ -34,7 +34,7 @@ module Hydrocraft
     {
 
 		Weight				= 	0.1,
-		Type    			= 	Normal,
+		ItemType    			= 	base:normal,
 		DisplayName         		= 	Pet Cone,
 		icon 				= 	HCPetcone,
 		DisplayCategory		=   AnimalMisc,
@@ -43,7 +43,7 @@ module Hydrocraft
     {
 
 		Weight				= 	0.5,
-		Type    			= 	Normal,
+		ItemType    			= 	base:normal,
 		DisplayName         		= 	Pooper Scooper,
 		icon 				= 	HCPooperscooper,
 		DisplayCategory		=   AnimalMisc,
@@ -52,7 +52,7 @@ module Hydrocraft
     {
 
 		Weight				= 	0.1,
-		Type    			= 	Normal,
+		ItemType    			= 	base:normal,
 		DisplayName         		= 	Dog Rope Toy,
 		icon 				= 	HCDogropetoy,
 		DisplayCategory		=   AnimalMisc,
@@ -61,7 +61,7 @@ module Hydrocraft
     {
 
 		Weight    		= 1,
-		Type    		= Container,
+		ItemType    		= base:container,
 		Capacity    		= 2,
 		DisplayName         	= Medium Animal Cage,
 		icon 			= HCAnimalcage,
@@ -71,7 +71,7 @@ module Hydrocraft
     {
 
 		Weight    		= 1,
-		Type    		= Container,
+		ItemType    		= base:container,
 		Capacity    		= 2,
 		DisplayName         	= Bird Cage,
 		icon 			= HCBirdcage,
@@ -81,7 +81,7 @@ module Hydrocraft
     {
 
 		Weight    		= 0.5,
-		Type    		= Container,
+		ItemType    		= base:container,
 		Capacity    		= 1,
 		DisplayName         	= Small Animal Cage,
 		icon 			= HCAnimalcagesmall,
@@ -91,7 +91,7 @@ module Hydrocraft
     {
 
 		Weight    		= 0.1,
-		Type    		= Normal,
+		ItemType    		= base:normal,
 		DisplayName         	= Hamster Wheel,
 		icon 			= HCHamsterwheel,
 		DisplayCategory		=   AnimalMisc,
@@ -100,7 +100,7 @@ module Hydrocraft
     {
 
 		Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
 		DisplayName         	= Can of Rodent Food,
@@ -111,7 +111,7 @@ module Hydrocraft
     {
 
 		Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
 		DisplayName         	= Box of Rodent Food,
@@ -122,7 +122,7 @@ module Hydrocraft
     {
 
 		Weight				= 	0.2,
-		Type    			= 	Normal,
+		ItemType    			= 	base:normal,
 		DisplayName         		= 	Bird Feeder,
 		icon 				= 	HCBirdfeeder,
 		DisplayCategory		=   AnimalMisc,
@@ -131,7 +131,7 @@ module Hydrocraft
     {
 
 		Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
 		DisplayName         	= Box of Bird Food,
@@ -142,7 +142,7 @@ module Hydrocraft
     {
 
 		Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
 		DisplayName         	= Bag of Bird Food,
@@ -153,7 +153,7 @@ module Hydrocraft
     {
 
 		Weight    		= 0.5,
-		Type    		= Normal,
+		ItemType    		= base:normal,
 		DisplayName         	= Pet Bowl,
 		icon 			= HCDogbowl,
 		DisplayCategory		=   AnimalMisc,
@@ -162,7 +162,7 @@ module Hydrocraft
     {
 
 		DisplayCategory			= AnimalMisc,
-		Type    				= Normal,
+		ItemType    				= base:normal,
 		DisplayName         	= Dog Biscuit,
 		Weight    				= 0.1,
 		icon 					= HCDogbiscuit,
@@ -172,7 +172,7 @@ module Hydrocraft
     {
 
 		Weight    		= 1,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.15,
 		DisplayName         	= Bag of Dog Kibble,
@@ -183,7 +183,7 @@ module Hydrocraft
     {
 
 	Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
 	DisplayName         	= Box of Fish Food,
@@ -194,7 +194,7 @@ module Hydrocraft
     {
 
 	Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
 	DisplayName         	= Can of Fish Food,
@@ -206,7 +206,7 @@ module Hydrocraft
 
 	Weight    		= 	1,
 	CanStoreWater		= 	TRUE,
-	Type    		= 	Normal,
+	ItemType    		= 	base:normal,
 	DisplayName         	= 	Fish Bowl,
 	ReplaceOnUseOn		= 	WaterSource-HCFishbowlfull,
 	icon 			= 	HCFishbowl,
@@ -219,7 +219,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight				=	2,
 	CanStoreWater		=	TRUE,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta			=	0.025,
 	DisplayName			=	Fish Bowl with Water,
@@ -234,7 +234,7 @@ module Hydrocraft
 
 	DisplayCategory		=   AnimalMisc,
 	DisplayName         = 	Fish Tank,
-	Type    			= 	Normal,
+	ItemType    			= 	base:normal,
 	Weight    			= 	2,
 	icon 				= 	HCFishtank,
 	CanStoreWater		= 	TRUE,
@@ -247,7 +247,7 @@ module Hydrocraft
 
 	DisplayCategory		=   AnimalMisc,
 	DisplayName			=	Fish Tank with Water,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	Icon				=	HCFishtankfull,
 	IsWaterSource		=	TRUE,
 	Weight				=	6,
@@ -263,7 +263,7 @@ module Hydrocraft
     {
 
 	DisplayCategory		=   AnimalMisc,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Fish Tank with Head,
 	Icon				=	HCZedtank,
 	Weight				=	7,	
@@ -273,7 +273,7 @@ module Hydrocraft
     {
 
 		Weight    		= 0.5,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
 		DisplayName         	= Bag of Kitty Litter,
@@ -284,7 +284,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	DisplayName		=	Cat Food,
 	Icon			=	HCCatfood,
 		Carbohydrates 		= 	0,
@@ -299,7 +299,7 @@ module Hydrocraft
 
 	HungerChange		=	-17,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	DaysTotallyRotten	=	4,
 	DisplayName		=	Open Cat Food,
 	UnhappyChange		=	50,
@@ -318,7 +318,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.1,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
 	DisplayName 			= 	Dog Whistle,
 	Icon				=	HCDogwhistle,
 		DisplayCategory		=   AnimalMisc,
@@ -327,7 +327,7 @@ module Hydrocraft
     {
 
 		Weight    		= 0.2,
-		Type    		= Normal,
+		ItemType    		= base:normal,
 		DisplayName         	= Shears,
 		icon 			= HCShears,
 		DisplayCategory		=   AnimalMisc,

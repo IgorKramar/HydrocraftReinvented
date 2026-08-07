@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 	1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
         DisplayName         	= 	Binoculars,
         icon 			= 	HCBinoculars,
 		DisplayCategory          =   SurHunt,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.5,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Compass,
         icon 			= 	HCCompass,
 		DisplayCategory          =   SurCamp,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.05,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Map,
         icon 			= 	HCMap,
 		DisplayCategory          =   SurCamp,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
      	Weight    		= 	1,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	GPS,
         icon 			= 	HCGPS,
 		DisplayCategory          =   SurCamp,
@@ -42,7 +42,7 @@ module Hydrocraft
 
         Weight    		= 	1,
 	CanStoreWater		= 	TRUE,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Canteen,
 	ReplaceOnUseOn		= 	WaterSource-HCCanteenfull,
         icon 			= 	HCCanteen,
@@ -56,7 +56,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight			=	2,
 	CanStoreWater		=	TRUE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	IsCookable		=	TRUE,
 	UseDelta		=	0.07,
@@ -73,7 +73,7 @@ module Hydrocraft
 
         Weight    		= 	1,
 	CanStoreWater		= 	TRUE,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Strapped Canteens,
 	ReplaceOnUseOn		= 	WaterSource-HCStrappedcanteenfull,
         icon 			= 	HCStrappedcanteen,
@@ -87,7 +87,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight			=	2,
 	CanStoreWater		=	TRUE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	IsCookable		=	TRUE,
 	UseDelta		=	0.035,
@@ -103,7 +103,7 @@ module Hydrocraft
     {
 
 		Weight			=	0.3,
-		Type			=	Drainable,
+		ItemType			=	base:drainable,
 		UseDelta		=	0.00001,
 		UseWhileEquipped	=	FALSE,
 		DisplayName		=	Magnesium Striker,
@@ -115,7 +115,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
 	DisplayName		= 	Water Purifying Tablets,
 	Icon	        	= 	HCPurifyingtablets,
 		DisplayCategory          =   SurCamp,
@@ -124,7 +124,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
 	DisplayName		= 	Box of Water Purifying Tablets,
 	Icon	        	= 	HCPurifyingtabletsbox,
 		DisplayCategory          =   SurCamp,
@@ -133,7 +133,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1.0,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
 	DisplayName 			= 	Rubber Raft,
 	Icon				=	HCRaftrubber,
 		DisplayCategory          =   SurCamp,
@@ -142,7 +142,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Space Blanket,
         icon 			= 	HCSpaceblanket,
 		DisplayCategory          =   SurCamp,
@@ -153,7 +153,7 @@ module Hydrocraft
 		MaxRange			=	0.9,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		KnockBackOnNoDeath		=	FALSE,
 		SwingAmountBeforeImpact		=	0.02,
@@ -195,7 +195,7 @@ module Hydrocraft
     item HCPaddlewood
     {
 
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		DisplayName			=	Wooden Paddle,
 		Icon				=	HCPaddlewood,
 		Weight				=	2.0,
@@ -231,7 +231,7 @@ module Hydrocraft
     item HCPaddlemetal
     {
 
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		DisplayName			=	Metal Paddle,
 		Icon				=	HCPaddlemetal,
 		Weight				=	2.0,

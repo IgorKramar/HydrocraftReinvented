@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Paintbrush,
         icon 			= HCPaintbrush,
 		DisplayCategory	= Paint,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Painter Palette,
         icon 			= HCPainterpalette,
 		DisplayCategory	= Paint,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.2,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	ink Roller,
 	Icon			=	HCInkroller,
 		DisplayCategory	= Paint,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Canvas,
         icon 			= HCCanvas,
 		DisplayCategory	= Paint,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		= 1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Easel,
         icon 			= HCEasel,
 		DisplayCategory	= Paint,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Turpentine,
@@ -61,7 +61,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 	UseDelta		= 0.125,
         DisplayName         	= White Pigment,
         icon 			= HCWhitepigment,
@@ -71,7 +71,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 	UseDelta		= 0.125,
         DisplayName         	= Brown Pigment,
         icon 			= HCBrownpigment,
@@ -81,7 +81,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 	UseDelta		= 0.125,
         DisplayName         	= Yellow Pigment,
         icon 			= HCYellowpigment,
@@ -91,7 +91,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 	UseDelta		= 0.125,
         DisplayName         	= Red Pigment,
         icon 			= HCRedpigment,
@@ -101,7 +101,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 	UseDelta		= 0.125,
         DisplayName         	= Green Pigment,
         icon 			= HCGreenpigment,
@@ -111,7 +111,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 	UseDelta		= 0.125,
         DisplayName         	= Blue Pigment,
         icon 			= HCBluepigment,
@@ -121,7 +121,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Empty Paint Can,
         icon 			= HCPaintcan,
 		DisplayCategory	= Paint,
@@ -130,7 +130,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.6,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 	UseDelta		= 0.25,
         DisplayName         	= Jar of White Paint,
         icon 			= HCJarpaintwhite,
@@ -141,7 +141,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.6,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 	UseDelta		= 0.25,
         DisplayName         	= Jar of Yellow Paint,
         icon 			= HCJarpaintyellow,
@@ -152,7 +152,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.6,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 	UseDelta		= 0.25,
         DisplayName         	= Jar of Red Paint,
         icon 			= HCJarpaintred,
@@ -163,7 +163,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.6,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 	UseDelta		= 0.25,
         DisplayName         	= Jar of Blue Paint,
         icon 			= HCJarpaintblue,
@@ -174,7 +174,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.6,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 	UseDelta		= 0.25,
         DisplayName         	= Jar of Black Paint,
         icon 			= HCJarpaintblack,

@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Salad Tongs,
         icon 				= HCSaladtongs,
 		DisplayCategory          =   Useless,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Chopsticks,
         icon 				= HCChopsticks,
 		DisplayCategory          =   Cooking,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Whisk,
         icon 				= HCWhisk,
 		DisplayCategory          =   Cooking,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    			=    0.3,
-        Type    			=    Normal,
+        ItemType    			=    base:normal,
         DisplayName    			=    Cooking Apron,
         Icon    			=    HCCookingapron,
 		DisplayCategory          =   Useless,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    			=    0.1,
-        Type    			=    Normal,
+        ItemType    			=    base:normal,
         DisplayName    			=    Wax Paper,
         Icon    			=    HCWaxpaper,
 		DisplayCategory          =   Useless,
@@ -49,7 +49,7 @@ module Hydrocraft
     item HCPapertowelwet
     {
 
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Wet Paper Towel,
 	Icon				=	HCPapertowelwet,
 	Weight				=	0.3,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.1,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	DisplayName			=	Paper Towel,
         UseWhileEquipped		=	FALSE,
 	Icon				=	HCPapertowel,
@@ -71,7 +71,7 @@ module Hydrocraft
     {
 
         Weight        			=   0.3,
-        Type          			=   Normal,
+        ItemType          			=   base:normal,
         DisplayName    			=   Roll of Paper Towels,
         Icon    			=   HCPapertowelroll,
 		DisplayCategory          =   Misc,
@@ -80,7 +80,7 @@ module Hydrocraft
     {
 
         Weight        			=   0.01,
-        Type          			=   Normal,
+        ItemType          			=   base:normal,
         DisplayName    			=   Napkin,
         Icon    			=   HCNapkin,
 		DisplayCategory          =   Misc,
@@ -89,7 +89,7 @@ module Hydrocraft
     {
 
         Weight        			=   0.01,
-        Type          			=   Normal,
+        ItemType          			=   base:normal,
         DisplayName    			=   Dirty Napkin,
         Icon    			=   HCNapkindirty,
 		DisplayCategory          =   Misc,
@@ -98,7 +98,7 @@ module Hydrocraft
     {
 
         Weight        			=   0.01,
-        Type          			=   Normal,
+        ItemType          			=   base:normal,
         DisplayName    			=   Stack of Napkins,
         Icon    			=   HCNapkinstack,
 		DisplayCategory          =   Misc,
@@ -107,7 +107,7 @@ module Hydrocraft
     {
 
         Weight        			=   0.1,
-        Type          			=   Normal,
+        ItemType          			=   base:normal,
         DisplayName    			=   Napkin Holder,
         Icon    			=   HCNapkinstack,
 		DisplayCategory          =   Misc,
@@ -116,7 +116,7 @@ module Hydrocraft
     {
 
         Weight        			=   0.1,
-        Type          			=   Normal,
+        ItemType          			=   base:normal,
         DisplayName    			=   Full Napkin Holder,
         Icon    			=   HCNapkinholderfull,
 		DisplayCategory          =   Misc,
@@ -125,7 +125,7 @@ module Hydrocraft
     {
 	
 		DisplayCategory     = Craft,
-		Type    			= Normal,
+		ItemType    			= base:normal,
 		DisplayName         = Dry Coffee Filter,
         Weight    			= 0.05, 
         icon 				= HCCoffeefilterdry,
@@ -135,7 +135,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         = Coffee Filter Box,
         icon 				= HCCoffeefilterbox,
 		DisplayCategory          =   Craft,
@@ -144,7 +144,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Wet Coffee Filter,
         icon 				= HCCoffeefilterwet,
 		DisplayCategory          =   Craft,
@@ -153,7 +153,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Drying Coffee Filter,
         icon 				= HCCoffeefilterpapertowel,
 		DisplayCategory          =   Craft,
@@ -163,7 +163,7 @@ module Hydrocraft
 
         Weight   			 = 1,
 	CanStoreWater			= TRUE,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Thermos,
 	ReplaceOnUseOn			= WaterSource-HCThermosfull,
         icon 				= HCThermos,
@@ -176,7 +176,7 @@ module Hydrocraft
 	IsWaterSource			=	TRUE,
 	Weight				=	2,
 	CanStoreWater			=	TRUE,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.07,
 	DisplayName			=	Thermos with Water,
@@ -191,7 +191,7 @@ module Hydrocraft
 
         Weight    		= 0.2,
 	CanStoreWater		= TRUE,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Ale Stein,
 	ReplaceOnUseOn		= WaterSource-HCAlestienfull,
         icon 			= HCAlestien,
@@ -204,7 +204,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight			=	1,
 	CanStoreWater		=	TRUE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta		=	0.07,
 	DisplayName		=	Ale Stein with Water,
@@ -218,7 +218,7 @@ module Hydrocraft
     {
 
         Weight    			= 1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Cookie Jar,
         icon 				= HCCookiejar,
 		DisplayCategory          =   Cooking,
@@ -227,7 +227,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.1,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Cookie Mold,
 	Icon				=	HCCookiemold,
         MetalValue 			= 	5,
@@ -237,7 +237,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Bottle Opener,
         icon 				= HCBottleopener,
 		DisplayCategory          =   Craft,
@@ -246,7 +246,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Cheese Grater,
         icon 				= HCCheesegrater,
 		DisplayCategory          =   Cooking,
@@ -255,7 +255,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Egg Beater,
         icon 				= HCEggbeater,
 		DisplayCategory          =   Cooking,
@@ -264,7 +264,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Colander,
         icon 				= HCColander,
 		DisplayCategory          =   CraftMine,
@@ -273,7 +273,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Sieve,
         icon 				= HCSieve,
 		DisplayCategory          =   Cooking,
@@ -282,7 +282,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Juicer,
         icon 				= HCJuicer,
 		DisplayCategory          =   Cooking,
@@ -291,7 +291,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Mechanical Juicer,
         icon 				= HCJuicer2,
 		DisplayCategory          =   Cooking,
@@ -300,7 +300,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Meat Grinder,
         icon 				= HCMeatgrinder,
 		DisplayCategory          =   Cooking,
@@ -309,7 +309,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Ice Cream Scoop,
         icon 				= HCIcecreamscoop,
 		DisplayCategory          =   Cooking,
@@ -318,7 +318,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Ladle,
         icon 				= HCLadle,
 		DisplayCategory          =   Cooking,
@@ -327,7 +327,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Pizza Cutter,
         icon 				= HCPizzacutter,
 		DisplayCategory          =   Cooking,
@@ -336,7 +336,7 @@ module Hydrocraft
     {
 
         Weight    			= 3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName     		= Pizza Stone,
         icon 				= HCPizzastone,
 		DisplayCategory          =   Cooking,
@@ -345,7 +345,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.3,
-	Type 				= Drainable,
+	ItemType 				= base:drainable,
 	UseWhileEquipped 		= FALSE,
 	UseDelta 			= 0.05,
 	DisplayName			= Cling Wrap,
@@ -356,7 +356,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Table Spoon,
         icon 				= HCTablespoon,
 		DisplayCategory          =   Cooking,
@@ -365,7 +365,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Teaspoon,
         icon 				= HCTeaspoon,
 		DisplayCategory          =   Cooking,
@@ -374,7 +374,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Box of Plastic Spoons,
         icon 				= HCPlasticspoonbox,
 		DisplayCategory          =   Useless,
@@ -383,7 +383,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Box of Plastic Forks,
         icon 				= HCPlasticforkbox,
 		DisplayCategory          =   Useless,
@@ -392,7 +392,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Box of Plastic Knives,
         icon 				= HCPlasticknifebox,
 		DisplayCategory          =   Useless,
@@ -401,7 +401,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Plastic Coffee Spoon,
         icon 				= HCPlasticcoffeespoon,
 		DisplayCategory          =   Useless,
@@ -410,7 +410,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Plastic Plate,
         icon 				= HCPlasticplate,
 		DisplayCategory          =   Useless,
@@ -419,7 +419,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Plastic Plate,
         icon 				= HCPlasticplate2,
 		DisplayCategory          =   Useless,
@@ -428,7 +428,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Stack of Plastic Plates,
         icon 				= HCPlasticplatestack,
 		DisplayCategory          =   Useless,
@@ -437,7 +437,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Stack of Plastic Plates,
         icon 				= HCPlasticplatestack2,
 		DisplayCategory          =   Useless,
@@ -447,7 +447,7 @@ module Hydrocraft
 
         Weight    		= 0.1,
 	CanStoreWater		= TRUE,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Plastic Cup,
 	ReplaceOnUseOn		= WaterSource-HCPlasticcupfull,
         icon 			= HCPlasticcup,
@@ -460,7 +460,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight			=	0.8,
 	CanStoreWater		=	TRUE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta		=	0.07,
 	DisplayName		=	Plastic Cup with Water,
@@ -474,7 +474,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Stack of Plastic Cups,
         icon 				= HCPlasticcupstack,
 		DisplayCategory          =   Misc,
@@ -484,7 +484,7 @@ module Hydrocraft
 
         Weight    		= 0.1,
 	CanStoreWater		= TRUE,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Styrofoam Cup,
 	ReplaceOnUseOn		= WaterSource-HCStyrofoamcupfull,
         icon 			= HCStyrofoamcup,
@@ -497,7 +497,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight			=	0.8,
 	CanStoreWater		=	TRUE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta		=	0.07,
 	DisplayName		=	Styrofoam Cup with Water,
@@ -511,7 +511,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Stack of Styrofoam Cups,
         icon 				= HCStyrofoamcupstack,
 		DisplayCategory          =   Misc,
@@ -520,7 +520,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.4,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Plastic Tray,
         icon 				= HCTray,
 		DisplayCategory          =   Useless,
@@ -529,7 +529,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.4,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Metal Tray,
         icon 				= HCTray2,
 		DisplayCategory          =   Useless,
@@ -538,7 +538,7 @@ module Hydrocraft
     {
 
         Weight    			= 1.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Toaster,
         icon 				= HCToaster,
 		DisplayCategory          =   Cooking,
@@ -547,7 +547,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Chef Hat,
         icon 				= HCChefhat,
 		DisplayCategory          =   Useless,
@@ -556,7 +556,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Nut Cracker,
         icon 				= HCNutcracker,
 		DisplayCategory          =   Cooking,
@@ -565,7 +565,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName        		= Potato Peeler,
         icon 				= HCPotatopeeler,
 		DisplayCategory          =   Cooking,
@@ -574,7 +574,7 @@ module Hydrocraft
     {
 
         Weight   			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Potato Masher,
         icon 				= HCPotatomasher,
 		DisplayCategory          =   Cooking,
@@ -583,7 +583,7 @@ module Hydrocraft
     {
 
         Weight   			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Spatula,
         icon 				= HCSpatula,
 		DisplayCategory          =   Cooking,
@@ -592,7 +592,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName        		= Wooden Spatula,
         icon 				= HCWoodenspatula,
 		DisplayCategory          =   Cooking,
@@ -601,7 +601,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Flour Sieve,
         icon 				= HCFloursieve,
 		DisplayCategory          =   Cooking,
@@ -610,7 +610,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Scale,
         icon 				= HCScale,
 		DisplayCategory          =   Cooking,
@@ -619,7 +619,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Muffin Pan,
         icon 				= HCMuffinpan,
 		DisplayCategory          =   Cooking,
@@ -628,7 +628,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.4,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Bread Pan,
         icon 				= HCBreadpan,
 		DisplayCategory          =   Cooking,
@@ -637,7 +637,7 @@ module Hydrocraft
     {
 
         Weight    			= 1.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Blender,
         icon 				= HCBlender,
 		DisplayCategory          =   Cooking,
@@ -646,7 +646,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1.0,
-	Type 				= 	Drainable,
+	ItemType 				= 	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta			=	0.125,
 	DisplayName 		= 	Blender with Power,
@@ -658,7 +658,7 @@ module Hydrocraft
     {
 
         Weight    			= 1.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         = Blender with Dead Battery,
         icon 				= HCBlenderdead,
 		DisplayCategory          =   Cooking,
@@ -667,7 +667,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Cutting Board,
         icon 				= HCCuttingboard,
 		DisplayCategory          =   Cooking,
@@ -676,7 +676,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Measuring Cup,
         icon 				= HCMeasuringcup,
 		DisplayCategory          =   Cooking,
@@ -685,7 +685,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.2,
-	Type 				= Normal,
+	ItemType 				= base:normal,
 	DisplayName 			= Empty Short Glass,
 	Icon 				= HCGlassshortempty,
 		DisplayCategory          =   CraftDist,
@@ -694,7 +694,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.3,
-	Type 				= Normal,
+	ItemType 				= base:normal,
 	DisplayName 			= Empty Tall Glass,
 	Icon 				= HCGlasstallempty,
 		DisplayCategory          =   CraftDist,
@@ -703,7 +703,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.2,
-	Type 				= Normal,
+	ItemType 				= base:normal,
 	DisplayName 			= Empty Margarita Glass,
 	Icon 				= HCMargaritaglassempty,
 		DisplayCategory          =   CraftDist,
@@ -712,7 +712,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.2,
-	Type 				= Normal,
+	ItemType 				= base:normal,
 	DisplayName 			= Empty Cocktail Glass,
 	Icon 				= HCCocktailglassempty,
 		DisplayCategory          =   CraftDist,
@@ -721,7 +721,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.5,
-	Type 				= Normal,
+	ItemType 				= base:normal,
 	DisplayName 			= Cocktail Shaker,
 	Icon 				= HCCocktailshaker,
 		DisplayCategory          =   CraftDist,
@@ -730,7 +730,7 @@ module Hydrocraft
     {
 
         Weight    			= 6.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Dutch Oven,
         icon 				= HCDutchoven,
 		DisplayCategory          =   Misc,
@@ -739,7 +739,7 @@ module Hydrocraft
     {
 
         Weight    			= 2.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Wok,
         icon 				= HCWok,
 		DisplayCategory          =   Cooking,
@@ -748,7 +748,7 @@ module Hydrocraft
     {
 
         Weight    			= 1.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Rice Cooker,
         icon 				= HCRicecooker,
 		DisplayCategory          =   Cooking,
@@ -757,7 +757,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1.0,
-	Type 				= 	Drainable,
+	ItemType 				= 	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.125,
 	DisplayName 			= 	Rice Cooker with Power,
@@ -769,7 +769,7 @@ module Hydrocraft
     {
 
         Weight    			= 1.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Rice Cooker with Dead Battery,
         icon 				= HCRicecookerdead,
 		DisplayCategory          =   Cooking,
@@ -778,7 +778,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         = Zipper Bag,
         ReplaceOnUseOn      = WaterSource-HCZipperbagfull,
         icon 				= HCZipperbag,
@@ -792,7 +792,7 @@ module Hydrocraft
 	IsWaterSource		= TRUE,
     Weight              = 0.3,
     CanStoreWater       = TRUE,
-    Type                = Drainable,
+    ItemType                = base:drainable,
     UseWhileEquipped    = FALSE,
     UseDelta            = 0.2,
     DisplayName         = Full Zipper Bag,
@@ -806,7 +806,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Box of Zipper Bags,
         icon 				= HCZipperbagbox,
 		DisplayCategory          =   Cooking,
@@ -815,7 +815,7 @@ module Hydrocraft
     {
 
         Weight    			=    0.1,
-        Type    			=    Normal,
+        ItemType    			=    base:normal,
         DisplayName    			=    Menu,
         Icon    			=    HCMenu,
 		DisplayCategory          =   Useless,
@@ -825,7 +825,7 @@ module Hydrocraft
 
         Weight    		= 1,
 	CanStoreWater		= TRUE,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Copper Kettle,
 	ReplaceOnUseOn		= WaterSource-HCKettlecopperfull,
         icon 			= HCKettlecopper,
@@ -838,7 +838,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight			=	2,
 	CanStoreWater		=	TRUE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta		=	0.07,
 	DisplayName		=	Copper Kettle with Water,
@@ -854,7 +854,7 @@ module Hydrocraft
 
         Weight    		= 0.2,
 	CanStoreWater		= TRUE,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Copper Mug,
 	ReplaceOnUseOn		= WaterSource-HCMugcopperfull,
         icon 			= HCMugcopper,
@@ -867,7 +867,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight			=	1,
 	CanStoreWater		=	TRUE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta		=	0.07,
 	DisplayName		=	Copper Mug with Water,
@@ -881,7 +881,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.3,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Pyrex Dish,
 	Icon			=	HCPyrexdish,
 		DisplayCategory          =   Useless,
@@ -890,7 +890,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.5,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName     	=	Rounded Jello Mold,
         icon 			= 	HCJellomold1,
 		DisplayCategory          =   Cooking,
@@ -901,7 +901,7 @@ module Hydrocraft
 		MaxRange			=	0.6,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		SwingAmountBeforeImpact		=	0.02,
 		Categories			=	Blade,
@@ -935,7 +935,7 @@ module Hydrocraft
 		MaxRange			=	0.6,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		SwingAmountBeforeImpact		=	0.02,
 		Categories			=	Blade,
@@ -969,7 +969,7 @@ module Hydrocraft
 		MaxRange			=	0.6,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		SwingAmountBeforeImpact		=	0.02,
 		Categories			=	Blade,
@@ -1003,7 +1003,7 @@ module Hydrocraft
 		MaxRange			=	0.6,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		SwingAmountBeforeImpact		=	0.02,
 		Categories			=	Blade,
@@ -1036,7 +1036,7 @@ module Hydrocraft
 		MaxRange			=	0.9,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		KnockBackOnNoDeath		=	FALSE,
 		SwingAmountBeforeImpact		=	0.02,
@@ -1077,7 +1077,7 @@ module Hydrocraft
 		MaxRange	=	0.6,
 		WeaponSprite	=	Knife,
 		MinAngle	=	0,
-		Type	=	Weapon,
+		ItemType	=	base:weapon,
 		MinimumSwingTime	=	2,
 		SwingAmountBeforeImpact	=	0.02,
 		Categories	=	Blade,
@@ -1111,7 +1111,7 @@ module Hydrocraft
 		MaxRange	=	0.6,
 		WeaponSprite	=	Knife,
 		MinAngle	=	0,
-		Type	=	Weapon,
+		ItemType	=	base:weapon,
 		MinimumSwingTime	=	2,
 		SwingAmountBeforeImpact	=	0.02,
 		Categories	=	Blade,
@@ -1145,7 +1145,7 @@ module Hydrocraft
 		MaxRange			=	0.6,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		SwingAmountBeforeImpact		=	0.02,
 		Categories			=	Blade,
@@ -1179,7 +1179,7 @@ module Hydrocraft
 		MaxRange			=	0.6,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		SwingAmountBeforeImpact		=	0.02,
 		Categories			=	Blade,
@@ -1213,7 +1213,7 @@ module Hydrocraft
 		MaxRange			=	0.6,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		SwingAmountBeforeImpact		=	0.02,
 		Categories			=	Blade,

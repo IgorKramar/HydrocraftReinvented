@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.5,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Bug Net,
         icon 			= 	HCBugnet,
 		DisplayCategory	=   SurBug,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Bug Jar,
         icon 			= 	HCBugjar,
 		DisplayCategory	=   SurBug,
@@ -25,7 +25,7 @@ module Hydrocraft
 	LightDistance		=	3,
 	Weight			=	0.2,
 	DisappearOnUse		=	FALSE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	TorchCone		=	TRUE,
 	UseDelta		=	0.003,
 	LightStrength		=	0.4,
@@ -38,7 +38,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Beetle,
         icon 			= 	HCBeetle,
         FishingLure     	=   	true,
@@ -48,7 +48,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Bollweevil,
         icon 			= 	HCBollweevil,
 		DisplayCategory	=   SurBug,
@@ -57,7 +57,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Ladybug,
         icon 			= 	HCLadybug,
 		DisplayCategory	=   SurBug,
@@ -66,7 +66,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Dragonfly,
         icon 			= 	HCDragonfly,
         FishingLure     	=   	true,
@@ -76,7 +76,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Garden Spider,
         icon 			= 	HCGardenspider,
 		DisplayCategory	=   SurBug,
@@ -85,7 +85,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Caterpillar,
         icon 			= 	HCCaterpillar,
         FishingLure     	=   	true,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Poison Caterpillar,
         icon 			= 	HCCaterpillar2,
         FishingLure     	=   	true,
@@ -105,7 +105,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Bumblebee,
         icon 			= 	HCBumblebee,
 		DisplayCategory	=   SurBug,
@@ -114,7 +114,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Cicada,
         icon 			= 	HCCicada,
         FishingLure     	=   	true,
@@ -124,7 +124,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Red Ant,
         icon 			= 	HCRedant,
 		DisplayCategory	=   SurBug,
@@ -133,7 +133,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Black Ant,
         icon 			= 	HCBlackant,
 		DisplayCategory	=   SurBug,
@@ -142,7 +142,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Pillbug,
         icon 			= 	HCPillbug,
         FishingLure     	=   	true,
@@ -152,7 +152,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Firefly,
         icon 			= 	HCFirefly,
         FishingLure     	=   	true,
@@ -163,7 +163,7 @@ module Hydrocraft
 
         HungerChange        	=    	-5,    
         Weight    		= 	0.1,
-        Type    		=    	Food,
+        ItemType    		=    	base:food,
         UnhappyChange        	=    	20,
         DisplayName         	= 	Termite,
         icon 			= 	HCTermite,
@@ -178,7 +178,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Yellow Jacket,
         icon 			= 	HCYellowjacket,
 		DisplayCategory	=   SurBug,
@@ -187,7 +187,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Blue Butterfly,
         icon 			= 	HCButterfly,
 		DisplayCategory	=   SurBug,
@@ -196,7 +196,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Monarch Butterfly,
         icon 			= 	HCMonarch,
 		DisplayCategory	=   SurBug,
@@ -205,7 +205,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Chrysalis,
         icon 			= 	HCChrysalis,
 		DisplayCategory	=   SurBug,
@@ -214,7 +214,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Chrysalis,
         icon 			= 	HCChrysalis2,
 		DisplayCategory	=   SurBug,
@@ -224,7 +224,7 @@ module Hydrocraft
 
         HungerChange        	=    	-5,    
         Weight    		= 	0.1,
-        Type    		=    	Food,
+        ItemType    		=    	base:food,
         UnhappyChange        	=    	20,
         DisplayName         	= 	Mole Cricket,
         icon 			= 	HCMolecricket,
@@ -240,7 +240,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Black Widow Spider,
         icon 			= 	HCBlackwidow,
 		DisplayCategory	=   SurBug,
@@ -249,7 +249,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	House Spider,
         icon 			= 	HCHousespider,
 		DisplayCategory	=   SurBug,
@@ -258,7 +258,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	House Fly,
         icon 			= 	HCHousefly,
         FishingLure     	=   	true,
@@ -268,7 +268,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Silkworm Egg,
         icon 			= 	HCSilkegg,
 		DisplayCategory	=   SurBug,
@@ -277,7 +277,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Silkworm,
         icon 			= 	HCSilkwom,
         FishingLure     	=   	true,
@@ -287,7 +287,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Silk Cocoon,
         icon 			= 	HCSilkcocoon,
 		DisplayCategory	=   SurBug,
@@ -296,7 +296,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Mature Silk Cocoon,
         icon 			= 	HCSilkcocoon2,
 		DisplayCategory	=   SurBug,
@@ -305,7 +305,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Empty Silk Cocoon,
         icon 			= 	HCSilkcocoonempty,
 		DisplayCategory	=   SurBug,
@@ -314,7 +314,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Silkmoth (Male),
         icon 			= 	HCSilkmoth,
         FishingLure     	=   	true,
@@ -324,7 +324,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Silkmoth (Female),
         icon 			= 	HCSilkmoth,
         FishingLure     	=   	true,
@@ -334,7 +334,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Snail,
         icon 			= 	HCSnail,
 		DisplayCategory	=   SurBug,
@@ -343,7 +343,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Slug,
         icon 			= 	HCSlug,
 		DisplayCategory	=   SurBug,
@@ -352,7 +352,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.01,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Leech,
         icon 			= 	HCLeech,
         FishingLure     	=   	true,
@@ -362,7 +362,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.05,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Bloated Leech,
         icon 			= 	HCLeechbloated,
         FishingLure     	=   	true,
@@ -374,7 +374,7 @@ module Hydrocraft
         HungerChange        	= 	-5,
         UnhappyChange        	= 	20,
         Weight   		= 	0.1,
-        Type    		= 	Food,
+        ItemType    		= 	base:food,
         DisplayName         	= 	Maggot,
         icon 			= 	HCMaggot,
         FishingLure     	=   	true,
@@ -390,7 +390,7 @@ module Hydrocraft
 
         DisplayName         		= Bug Mash,
         Icon                		= HCBugmash,
-        Type                		= Food,
+        ItemType                		= base:food,
         FoodType            		= NoExplicit,
         Weight              		= 0.05,
 
@@ -415,7 +415,7 @@ module Hydrocraft
 
         HungerChange        	=    	-5,    
         Weight    		= 	0.1,
-        Type    		=    	Food,
+        ItemType    		=    	base:food,
         UnhappyChange        	=    	20,
         DisplayName         	= 	Beetle Grub,
         icon 			= 	HCBeetlegrub,
@@ -435,7 +435,7 @@ module Hydrocraft
 
         HungerChange        	=    	-5,    
         Weight    		= 	0.1,
-        Type    		=    	Food,
+        ItemType    		=    	base:food,
         UnhappyChange        	=    	5,
         DisplayName         	= 	Cooked Beetle Grub,
         icon 			= 	HCBeetlegrubcooked,
@@ -453,7 +453,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	DangerousUncooked		=	TRUE,
 	MinutesToCook			=	5,
@@ -474,7 +474,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	DangerousUncooked	=	TRUE,
 	MinutesToCook		=	5,
@@ -496,7 +496,7 @@ module Hydrocraft
 
 		DisplayCategory	 = Household,
         Weight    		 = 0.1,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = Empty Ant Farm,
         icon 			 = HCAntfarm,
 		WorldStaticModel = WorldItem-HCAntFarmEmpty,
@@ -506,7 +506,7 @@ module Hydrocraft
 
 		DisplayCategory	 = SurBug,
         Weight    		 = 0.1,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = Black Ant Farm,
         icon 			 = HCAntfarm2,
 		WorldStaticModel = WorldItem-HCAntFarmFull,
@@ -516,7 +516,7 @@ module Hydrocraft
 
 		DisplayCategory	 =   SurBug,
         Weight    		 = 0.1,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = Red Ant Farm,
         icon 			 = HCAntfarm2,
 		WorldStaticModel = WorldItem-HCAntFarmFull,

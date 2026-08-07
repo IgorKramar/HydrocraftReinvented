@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Steel Ring,
         icon 			= HCRingsteel,
 	DisplayCategory	= CraftGem,

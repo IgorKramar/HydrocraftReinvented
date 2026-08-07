@@ -6,7 +6,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	8,
 		DisplayName		=	Pear,
 		Icon			=	HCPear,
@@ -25,7 +25,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	9,
 		DisplayName		=	Lime,
 		Icon			=	HCLime,
@@ -43,7 +43,7 @@ module Hydrocraft
 
         	HungerChange		=	-15,
         	Weight			=	0.2,
-        	Type			=	Food,
+        	ItemType			=	base:food,
         	DaysTotallyRotten	=	8,
         	DisplayName		=	Green Grapes,
         	Icon			=	HCGrapesgreen,
@@ -62,7 +62,7 @@ module Hydrocraft
 	HungerChange			=	-20,
 	BoredomChange			=	-10,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-15,
 	DisplayName			=	Bunch of Berries,
 	Icon				=	HCBunchofberries,
@@ -81,7 +81,7 @@ module Hydrocraft
 	HungerChange	        	=	-10,
         ThirstChange			=	-15,
 	Weight	        		=	0.2,
-	Type	        		=	Food,
+	ItemType	        		=	base:food,
 	DaysFresh 			=	10,
 	DaysTotallyRotten 		=	20,
 	EvolvedRecipe 		= 	FruitSalad:8,
@@ -105,7 +105,7 @@ module Hydrocraft
 	DaysFresh 			=	10,
 	DaysTotallyRotten 		=	20,
 	EvolvedRecipe 		= 	FruitSalad:8,
-	Type	        		=	Food,
+	ItemType	        		=	base:food,
 	DisplayName			=	Prickly Pear Fruit,
 	Icon	        		=	HCPricklypearfruit,
 	CustomContextMenu 		= 	Eat,
@@ -121,7 +121,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	8,
 		DisplayName		=	Apricot,
 		Icon			=	HCApricot,
@@ -140,7 +140,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	8,
 		DisplayName		=	Dates,
 		Icon			=	HCDates,
@@ -158,7 +158,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	8,
 		DisplayName		=	Figs,
 		Icon			=	HCFigs,
@@ -176,7 +176,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	8,
 		DisplayName		=	Kiwi,
 		Icon			=	HCKiwi,
@@ -194,7 +194,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	8,
 		DisplayName		=	Plum,
 		Icon			=	HCPlum,
@@ -212,7 +212,7 @@ module Hydrocraft
 
 		HungerChange		=	-15,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	8,
 		DisplayName		=	Persimmon,
 		Icon			=	HCPersimmon,

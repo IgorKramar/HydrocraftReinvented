@@ -6,7 +6,7 @@ module Hydrocraft
 
 	Weight 				= 	0.75,
 	AlwaysWelcomeGift 		= 	true,
-	Type 				= 	Drainable,
+	ItemType 				= 	base:drainable,
 	UseDelta 			= 	0.1,
 	DisplayName 			= 	Cooking Oil,
 	Icon 				= 	HCCookingoil,
@@ -18,7 +18,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.75,
-	Type 				= 	Drainable,
+	ItemType 				= 	base:drainable,
 	UseDelta 			= 	0.1,
 	DisplayName 			= 	Corn Syrup,
 	Icon 				= 	HCCornsyrup,
@@ -29,7 +29,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	30,
 	DisplayName			=	Bottle of Relish,
 	Icon				=	HCRelish,
@@ -48,7 +48,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	30,
 	DisplayName			=	Bottle of Japanese Mayo,
 	Icon				=	HCMayojapan,
@@ -67,7 +67,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	30,
 	DisplayName			=	Bottle of Honey Mustard,
 	Icon				=	HCHoneymustard,
@@ -86,7 +86,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	30,
 	DisplayName			=	Bottle of Blue Cheese Dressing,
 	Icon				=	HCDressingbluecheese,
@@ -105,7 +105,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	30,
 	DisplayName			=	Bottle of Caesar Dressing,
 	Icon				=	HCDressingcaesar,
@@ -124,7 +124,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	30,
 	DisplayName			=	Bottle of French Dressing,
 	Icon				=	HCDressingfrench,
@@ -143,7 +143,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	30,
 	DisplayName			=	Bottle of Italian Dressing,
 	Icon				=	HCDressingitalian,
@@ -162,7 +162,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	30,
 	DisplayName			=	Bottle of Ranch Dressing,
 	Icon				=	HCDressingranch,
@@ -181,7 +181,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	30,
 	DisplayName			=	Bottle of Russian Dressing,
 	Icon				=	HCDressingrussian,
@@ -200,7 +200,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	30,
 	DisplayName			=	Bottle of Thousand Island Dressing,
 	Icon				=	HCDressianisland,
@@ -218,7 +218,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	DisplayName 			= 	Parmesan Cheese,
 	Icon 				= 	HCParmesan,
     Spice   			=   	true,
@@ -233,7 +233,7 @@ module Hydrocraft
 
 	Weight 				= 	0.5,
 	AlwaysWelcomeGift 	= 	true,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	DisplayName 		= 	Soy Sauce,
 	Icon				=	HCSoysaucefull,
     Spice   			=   	true,
@@ -248,7 +248,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName 		= 	BBQ Sauce,
 	Icon 				= 	HCBBQsaucefull,
 	Spice   			=   true,
@@ -263,7 +263,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	DisplayName 		= 	Garlic Powder,
 	Icon 				= 	HCGarlicpowderfull,
 	ReplaceOnUse		=	HCSpicejar,
@@ -279,7 +279,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	DisplayName 		= 	Italian Herbs,
 	Icon 				= 	HCHerbs,
 	ReplaceOnUse	=	HCSpicejar,
@@ -295,7 +295,7 @@ module Hydrocraft
 
 	Weight 				= 	0.4,
 	AlwaysWelcomeGift 		= 	true,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	DisplayName 			= 	Hot Sauce,
 	Icon 				= 	HCHotsauce,
         Spice   			=   	true,
@@ -310,7 +310,7 @@ module Hydrocraft
 
 	Weight 				= 	0.4,
 	AlwaysWelcomeGift 		= 	true,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	DisplayName 			= 	Sriracha,
 	Icon 				= 	HCSriracha,
         Spice   			=   	true,
@@ -325,7 +325,7 @@ module Hydrocraft
 
         HungerChange			=	-10,
         Weight				=	0.2,
-        Type				=	Food,
+        ItemType				=	base:food,
         DisplayName			=	Chili Powder,
         Icon				=	HCChilipowder,
         Spice   			=   	true,
@@ -341,7 +341,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.2,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	DisplayName 			= 	Homemade Ketchup,
 	ReplaceOnUse		=	HCJar,
 	Icon				=	HCKetchup,
@@ -356,7 +356,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.1,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	DisplayName 			= 	Sugar Cubes,
 	Icon 				= 	HCSugarcubes,
 	EvolvedRecipe = HotDrink:1;HotDrinkWhite:1;HotDrinkSpiffo:1;HotDrinkTea:1;Toast:1;Oatmeal:1,
@@ -374,7 +374,7 @@ module Hydrocraft
     {
 
 	Weight 					= 	1,
-	Type 					= 	Drainable,
+	ItemType 					= 	base:drainable,
 	UseDelta 				= 	0.1,
 	DisplayName 			= 	Jar of Cooking Oil,
 	Icon 					= 	HCCookingoiljar,
@@ -385,7 +385,7 @@ module Hydrocraft
     {
 
         Weight    			= 	0.03,
-        Type   				= 	Normal,
+        ItemType   				= 	base:normal,
         DisplayName         		= 	Empty Spice Jar,
         icon 				= 	HCSpicejar,
 	DisplayCategory			= 	Cooking,
@@ -394,7 +394,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -411,7 +411,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange		= 	-10,
 	ThirstChange		=	20,
 	BoredomChange		=	15,
@@ -428,7 +428,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -445,7 +445,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -462,7 +462,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -479,7 +479,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -496,7 +496,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -514,7 +514,7 @@ module Hydrocraft
 
 	HungerChange			= 	-10,
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
 	UnhappyChange			=	20,
@@ -530,7 +530,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -547,7 +547,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -564,7 +564,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -581,7 +581,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -598,7 +598,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -615,7 +615,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -632,7 +632,7 @@ module Hydrocraft
     {
 
 	Weight 					= 	0.4,
-	Type 					= 	Food,
+	ItemType 					= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -649,7 +649,7 @@ module Hydrocraft
     {
 
 	Weight 					= 	0.4,
-	Type 					= 	Food,
+	ItemType 					= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -666,7 +666,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -683,7 +683,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -700,7 +700,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -717,7 +717,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -734,7 +734,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -751,7 +751,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -768,7 +768,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -785,7 +785,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -802,7 +802,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -819,7 +819,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -836,7 +836,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -853,7 +853,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -870,7 +870,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -887,7 +887,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -904,7 +904,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -921,7 +921,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -938,7 +938,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -955,7 +955,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -972,7 +972,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -989,7 +989,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1006,7 +1006,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1023,7 +1023,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1040,7 +1040,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1057,7 +1057,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1074,7 +1074,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1091,7 +1091,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1108,7 +1108,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1125,7 +1125,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1142,7 +1142,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1159,7 +1159,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1176,7 +1176,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1193,7 +1193,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1210,7 +1210,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1227,7 +1227,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1244,7 +1244,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1261,7 +1261,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.4,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	HungerChange			= 	-10,
 	ThirstChange			=	20,
 	BoredomChange			=	15,
@@ -1279,7 +1279,7 @@ module Hydrocraft
 
 		HungerChange	=	-25,
 		Weight			=	0.3,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange	=	-15,
 		DisplayName		=	Homemade Peanut Butter,
 		Icon			=	HCPeanutbutter,
@@ -1299,7 +1299,7 @@ module Hydrocraft
 
 		HungerChange		=	-10,
 		Weight			=	0.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DisplayName		=	Alfredo Sauce,
 		Icon			=	HCAlfredosauce,
 		EvolvedRecipe 		= 	Sandwich:2;Burger:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,

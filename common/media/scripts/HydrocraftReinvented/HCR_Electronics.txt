@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight              = 10,
-	Type                = Normal,
+	ItemType                = base:normal,
     DisplayName         = Electronics Workbench,
     icon                = HCElectornicsbench,
 	DisplayCategory			= CraftElec,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
     Weight              = 1000,
-    Type                = Container,
+    ItemType                = base:container,
     Capacity            = 100,
     WeightReduction     = 0,
     DisplayName         = Electronics Workbench,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.7,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Calculator,
         icon 			= HCCalculator,
 	DisplayCategory			= CraftElec,
@@ -34,7 +34,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Solar Cell,
         icon 			= HCSolarcell,
 	DisplayCategory			= CraftElec,
@@ -43,7 +43,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Electronic Scale,
         icon 				= HCElectronicscale,
 	DisplayCategory			= CraftElec,
@@ -52,7 +52,7 @@ module Hydrocraft
     {
 
         Weight    		= 20,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Radio Antenna,
         icon 			= HCRadioantenna,
 	DisplayCategory			= CraftElec,
@@ -61,7 +61,7 @@ module Hydrocraft
     {
 
         Weight    	= 0.3,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName     = Magnetron,
         icon 		= HCMag,
 	DisplayCategory			= CraftElec,
@@ -70,7 +70,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Powercord,
         icon 				= HCPowercord,
 	DisplayCategory			= CraftElec,
@@ -79,7 +79,7 @@ module Hydrocraft
     {
 
         Weight    			= 10,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Control Panel,
 	DisplayCategory			= CraftElec,
         icon 				= HCControlpanel,
@@ -88,7 +88,7 @@ module Hydrocraft
     {
 
         Weight    			= 10,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName        	= Steam Charger,
         icon 				= HCSteamCharger,
 	DisplayCategory			= CraftElec,
@@ -97,7 +97,7 @@ module Hydrocraft
     {
 
         Weight              = 1000,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 100,
         WeightReduction     = 0,
         DisplayName         = Steam Charger,
@@ -108,7 +108,7 @@ module Hydrocraft
     {
 
         Weight    			= 1.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Cash Register,
         icon 				= HCCashregister,
 	DisplayCategory			= CraftElec,
@@ -117,7 +117,7 @@ module Hydrocraft
     {
 
         Weight    			= 1.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Fax Machine,
         icon 				= HCFaxmachine,
 	DisplayCategory			= CraftElec,
@@ -126,7 +126,7 @@ module Hydrocraft
     {
 
         Weight    			= 10.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Copy Machine,
         icon 				= HCCopymachine,
 	DisplayCategory			= Useless,
@@ -135,7 +135,7 @@ module Hydrocraft
     {
 
         Weight    			= 1.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Printer,
         icon 				= HCPrinter,
 	DisplayCategory			= CraftElec,
@@ -144,7 +144,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Joystick,
         icon 				= HCJoystick,
 	DisplayCategory			= CraftElec,
@@ -153,7 +153,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Router,
         icon 				= HCRouter,
 	DisplayCategory			= CraftElec,
@@ -162,7 +162,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.8,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Scanner,
         icon 				= HCScaner,
 	DisplayCategory			= CraftElec,
@@ -171,7 +171,7 @@ module Hydrocraft
     {
 
         Weight    			= 1.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Computer Monitor,
         icon 				= HCComputermonitor,
 	DisplayCategory			= CraftElec,
@@ -180,7 +180,7 @@ module Hydrocraft
     {
 
         Weight    			= 2.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Computer,
         icon 				= HCComputer,
 	DisplayCategory			= CraftElec,
@@ -189,7 +189,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Computer Keyboard,
         icon 				= HCComputerkeyboard,
 	DisplayCategory			= CraftElec,
@@ -198,7 +198,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Electric Clamp,
         icon 				= HCElectricclamp,
 	DisplayCategory			= CraftElec,
@@ -207,7 +207,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Copper Cable,
         icon 				= HCCablecopper,
 	DisplayCategory			= CraftElec,
@@ -216,7 +216,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Computer Mouse,
         icon 				= HCComputermouse,
 	DisplayCategory			= CraftElec,
@@ -225,7 +225,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Mouse Pad,
         icon 				= HCMousepad,
 	DisplayCategory			= CraftElec,
@@ -234,7 +234,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Computer Fan,
         icon 				= HCComputerfan,
 	DisplayCategory			= CraftElec,
@@ -243,7 +243,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Circut Chip,
         icon 				= HCCircutchip,
 	DisplayCategory			= CraftElec,
@@ -252,7 +252,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.1,
-	Type 				= 	Drainable,
+	ItemType 				= 	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.1,
 	DisplayName 			= 	Solder,
@@ -263,7 +263,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.5,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Solder Gun,
 	Icon				=	HCSoldergun,
 	DisplayCategory			= CraftElec,
@@ -272,7 +272,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.5,
-	Type 				= 	Drainable,
+	ItemType 				= 	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.125,
 	DisplayName 			= 	Solder Gun with Power,
@@ -284,7 +284,7 @@ module Hydrocraft
     {
 
         Weight    			= 	0.5,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         		= 	Solder Gun with Dead Battery,
         icon 				= 	HCSoldergun,
 	DisplayCategory			= CraftElec,
@@ -293,7 +293,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Tangled Cables,
         icon 			= HCCabletangle,
 	DisplayCategory			= CraftElec,
@@ -302,7 +302,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Useless Circuit Board,
         icon 			= HCCircuitboarduseless,
 	DisplayCategory			= CraftElec,
@@ -311,7 +311,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.5,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseDelta			=	0.125,
 	DisplayName			=	Broken Electronic Parts,
 	ReplaceOnDeplete		=	HCCircuitboardpieces,
@@ -322,7 +322,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Empty Circuitboard Pieces,
         icon 			= HCCircuitboardpieces,
 	DisplayCategory			= CraftElec,
@@ -331,7 +331,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Small Electronic Parts,
         icon 			= HCElectronicparts01,
 	DisplayCategory			= CraftElec,
@@ -340,7 +340,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Small Electronic Parts,
         icon 			= HCElectronicparts02,
 	DisplayCategory			= CraftElec,
@@ -349,7 +349,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Small Electronic Parts,
         icon 			= HCElectronicparts03,
 	DisplayCategory			= CraftElec,
@@ -358,7 +358,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Small Electronic Parts,
         icon 			= HCElectronicparts04,
 	DisplayCategory			= CraftElec,
@@ -367,7 +367,7 @@ module Hydrocraft
     {
 
         Weight    		=    0.5,
-        Type    		=    Normal,
+        ItemType    		=    base:normal,
         DisplayName    		=    Moving Sensor Platine,
         Icon   		 	=    HCPlatinemovingsensor,
 	DisplayCategory			= CraftElec,
@@ -376,7 +376,7 @@ module Hydrocraft
     {
 
         Weight    		=    0.5,
-        Type    		=    Normal,
+        ItemType    		=    base:normal,
         DisplayName    		=    IR Remote Platine,
         Icon   		 	=    HCPlatineirremote,
 	DisplayCategory			= CraftElec,
@@ -385,7 +385,7 @@ module Hydrocraft
     {
 
         Weight    		=    0.5,
-        Type    		=    Normal,
+        ItemType    		=    base:normal,
         DisplayName    		=    IR Receiver Platine,
         Icon   		 	=    HCPlatineirreceiver,
 	DisplayCategory			= CraftElec,
@@ -394,7 +394,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Copper Circuit Board,
 	Icon			=	HCCircuitboardcopperside,
 	DisplayCategory			= CraftElec,
@@ -403,7 +403,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Circuit Board With Photo Lacquer,
 	Icon			=	HCCircuitboardcoppersidephotolacquer,
 	DisplayCategory			= CraftElec,
@@ -412,7 +412,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Circuit Print,
 	Icon			=	HCCircuitprint,
 	DisplayCategory			= CraftElec,
@@ -421,7 +421,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Printet Circuit Board,
 	Icon			=	HCCircuitboardprinted,
 	DisplayCategory			= CraftElec,
@@ -430,7 +430,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Developed Circuit Board,
 	Icon			=	HCCircuitboardcopperside,
 	DisplayCategory			= CraftElec,
@@ -439,7 +439,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Washed Circuit Board,
 	Icon			=	HCCircuitboardwashed01,
 	DisplayCategory			= CraftElec,
@@ -448,7 +448,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Re-Washed Circuit Board,
 	Icon			=	HCCircuitboardwashed02,
 	DisplayCategory			= CraftElec,
@@ -457,7 +457,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Circuit Board With Holes,
 	Icon			=	HCCircuitboarddrilled,
 	DisplayCategory			= CraftElec,
@@ -466,7 +466,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Empty Circuit Board,
 	Icon			=	HCCircuitboardempty,
 	DisplayCategory			= CraftElec,
@@ -475,7 +475,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Display,
         icon 			= HCDisplay,
 	DisplayCategory			= CraftElec,
@@ -484,7 +484,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Switch,
         icon 			= HCSwitch,
 	DisplayCategory			= CraftElec,
@@ -493,7 +493,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Red LED,
         icon 			= HCLedred,
 	DisplayCategory			= CraftElec,
@@ -502,7 +502,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Green LED,
         icon 			= HCLedgreen,
 	DisplayCategory			= CraftElec,
@@ -511,7 +511,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Yellow LED,
         icon 			= HCLedyellow,
 	DisplayCategory			= CraftElec,
@@ -520,7 +520,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Blue LED,
         icon 			= HCLedblue,
 	DisplayCategory			= CraftElec,
@@ -529,7 +529,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Capacitor,
         icon 			= HCCapacitor01,
 	DisplayCategory			= CraftElec,
@@ -538,7 +538,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Capacitor,
         icon 			= HCCapacitor02,
 	DisplayCategory			= CraftElec,
@@ -547,7 +547,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Ceramic Oscillator,
         icon 			= HCCeramicoscillator,
 	DisplayCategory			= CraftElec,
@@ -556,7 +556,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Colored Wire,
         icon 			= HCColoredwire,
 	DisplayCategory			= CraftElec,
@@ -565,7 +565,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dismantled Computer Fan,
         icon 			= HCComputerfandismantled,
 	DisplayCategory			= CraftElec,
@@ -574,7 +574,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Red Copper Cable,
         icon 			= HCCoppercablered,
 	DisplayCategory			= CraftElec,
@@ -583,7 +583,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Striped Copper Cable,
         icon 			= HCCoppercablestriped,
 	DisplayCategory			= CraftElec,
@@ -592,7 +592,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Diode,
         icon 			= HCDiode,
 	DisplayCategory			= CraftElec,
@@ -601,7 +601,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Large Electromotor,
         icon 			= HCElectromotor,
 	DisplayCategory			= CraftElec,
@@ -610,7 +610,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Small Electromotor,
         icon 			= HCElectromotorsmall,
 	DisplayCategory			= CraftElec,
@@ -619,7 +619,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Fuse,
         icon 			= HCFuse,
 	DisplayCategory			= CraftElec,
@@ -628,7 +628,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glowlamp,
         icon 			= HCGlowlamp,
 	DisplayCategory			= CraftElec,
@@ -637,7 +637,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Vacuum Tube,
         icon 			= HCVacuumtube,
 	DisplayCategory			= CraftElec,
@@ -646,7 +646,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Heat Element,
         icon 			= HCHeatelement,
 	DisplayCategory			= CraftElec,
@@ -655,7 +655,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Inductor,
         icon 			= HCInduktor,
 	DisplayCategory			= CraftElec,
@@ -664,7 +664,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= IR Emitter,
         icon 			= HCIREmitter,
 	DisplayCategory			= CraftElec,
@@ -673,7 +673,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= IR Receiver,
         icon 			= HCIRReceiver,
 	DisplayCategory			= CraftElec,
@@ -682,7 +682,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= LDR,
         icon 			= HCLDR,
 	DisplayCategory			= CraftElec,
@@ -691,7 +691,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Poti,
         icon 			= HCPoti,
 	DisplayCategory			= CraftElec,
@@ -700,7 +700,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Receiver IC,
         icon 			= HCReceiverIC,
 	DisplayCategory			= CraftElec,
@@ -709,7 +709,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= IR Decoder,
         icon 			= HCReceiverIC,
 	DisplayCategory			= CraftElec,
@@ -718,7 +718,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= IR Encoder,
         icon 			= HCReceiverIC,
 	DisplayCategory			= CraftElec,
@@ -727,7 +727,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Resistor,
         icon 			= HCResistor,
 	DisplayCategory			= CraftElec,
@@ -736,7 +736,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Resistors,
         icon 			= HCResistorbox,
 	DisplayCategory			= CraftElec,
@@ -745,7 +745,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Terminal Strip,
         icon 			= HCTerminalstrip,
 	DisplayCategory			= CraftElec,
@@ -754,7 +754,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Transistor,
         icon 			= HCTransistor,
 	DisplayCategory			= CraftElec,
@@ -763,7 +763,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Washingmachine Pump,
         icon 			= HCWashingmachinepump,
 	DisplayCategory			= CraftElec,
@@ -772,7 +772,7 @@ module Hydrocraft
     {
 
         Weight			=	0.01,	
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	CPU,
        	Icon			=	HCCPU,
 	DisplayCategory			= CraftElec,
@@ -781,7 +781,7 @@ module Hydrocraft
     {
 
         Weight			=	1.0,	
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Computer PSU,
        	Icon			=	HCPSU,
 	DisplayCategory			= CraftElec,
@@ -790,7 +790,7 @@ module Hydrocraft
     {
 
         Weight                = 20.0,
-        Type                = Normal,
+        ItemType                = base:normal,
         DisplayName                 = Copy Machine With Generator,
         icon                 = HCCopymachineGen,
 	DisplayCategory			= Useless,

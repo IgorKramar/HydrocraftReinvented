@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 1000,
-	Type                	= Container,
+	ItemType                	= base:container,
 	Capacity             	= 1000,
         DisplayName         	= Helicopter,
         icon 			= HCHelicopterL,
@@ -15,7 +15,7 @@ module Hydrocraft
     {
 
         Weight    		= 1000,
-	Type                	= Container,
+	ItemType                	= base:container,
 	Capacity             	= 1000,
         DisplayName         	= Helicopter,
         icon 			= HCHelicopterR,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.01,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Ticket to Bedford Falls,
 	Icon			=	HCCinematicket,
 	DisplayCategory          =   Misc,
@@ -34,7 +34,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.01,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Ticket to Crossroads,
 	Icon			=	HCCinematicket,
 	DisplayCategory          =   Misc,
@@ -43,7 +43,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.01,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Ticket to New Denver,
 	Icon			=	HCCinematicket,
 	DisplayCategory          =   Misc,
@@ -52,7 +52,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.01,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Ticket to Valley Station,
 	Icon			=	HCCinematicket,
 	DisplayCategory          =   Misc,
@@ -61,7 +61,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.01,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Ticket Over the River,
 	Icon			=	HCCinematicket,
 	DisplayCategory          =   Misc,
@@ -70,7 +70,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.01,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Ticket Over to Midway Island,
 	Icon			=	HCCinematicket,
 	DisplayCategory          =   Misc,

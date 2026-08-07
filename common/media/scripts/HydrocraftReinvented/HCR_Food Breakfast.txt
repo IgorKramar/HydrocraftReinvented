@@ -6,7 +6,7 @@ module Hydrocraft
 
 	HungerChange		=	-40,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Marshmellow Cereal,
 	Icon				=	HCCereal2,
 	Carbohydrates		= 	472,
@@ -23,7 +23,7 @@ module Hydrocraft
 
 	HungerChange		=	-40,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Corn Cereal,
 	Icon				=	HCCereal3,
 	Carbohydrates 		= 	572,
@@ -39,7 +39,7 @@ module Hydrocraft
     {
 
 	HungerChange			=	-20,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Fried Egg,
 	MinutesToCook			=	10,
 	Weight				=	0.1,
@@ -62,7 +62,7 @@ module Hydrocraft
     {
 
 	HungerChange			=	-20,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Scrambled Egg,
 	MinutesToCook			=	10,
 	Weight				=	0.1,
@@ -85,7 +85,7 @@ module Hydrocraft
     {
 
 	HungerChange			=	-20,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Scrambled Egg with Cheese,
 	MinutesToCook			=	10,
 	Weight				=	0.1,
@@ -108,7 +108,7 @@ module Hydrocraft
     {
 
 	HungerChange			=	-20,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Omelet,
 	MinutesToCook			=	10,
 	Weight				=	0.1,
@@ -131,7 +131,7 @@ module Hydrocraft
     {
 
 	HungerChange			=	-20,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Vegetable Omelet,
 	MinutesToCook			=	10,
 	Weight				=	0.1,
@@ -154,7 +154,7 @@ module Hydrocraft
     {
 
 	HungerChange			=	-15,
-	Type				=	Food,
+	ItemType				=	base:food,
 	MinutesToCook			=	10,
 	Weight				=	0.1,
 	IsCookable			=	TRUE,

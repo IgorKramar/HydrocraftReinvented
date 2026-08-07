@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		=    	0.1,
-        Type    		=    	Normal,
+        ItemType    		=    	base:normal,
         DisplayName    		=    	Rubber,
         Icon    		=    	HCRubber,
 		DisplayCategory	= CraftInd,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		=    	0.1,
-        Type    		=    	Normal,
+        ItemType    		=    	base:normal,
         DisplayName    		=    	Vulcanized Rubber,
         Icon    		=    	HCRubbervulcanized,
 		DisplayCategory	= CraftInd,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		=    	0.4,
-        Type    		=    	Normal,
+        ItemType    		=    	base:normal,
         DisplayName    		=    	Rubber Sheet,
         Icon    		=    	HCRubbersheet,
 		DisplayCategory	= CraftInd,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
 
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
 
 	DisplayName		= 	Sap Catcher,
 
@@ -45,7 +45,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 1.0,
         DisplayName 		= Potted Rubber Tree with Sap Catchers,
@@ -57,7 +57,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type			= Drainable,
+        ItemType			= base:drainable,
 	UseDelta		= 0.25,
 	ReplaceOnDeplete	= HCWoodenbucket,
         DisplayName         	= Wooden Bucket with Rubber,

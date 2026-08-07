@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.1,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
 	DisplayName 			= 	Honeybee,
 	Icon				=	HCHoneybee,
 	DisplayCategory          =   SurApi,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.1,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
 	DisplayName 			= 	Queen Honeybee,
 	Icon				=	HCQueenbee,
 	DisplayCategory          =   SurApi,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.2,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
 	DisplayName 			= 	Beekeeper Hat,
 	Icon				=	HCBeekeeperhat,
 	DisplayCategory          =   SurApi,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.5,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
 	DisplayName 			= 	Empty Bee Smoker,
 	Icon				=	HCBeesmoker,
 	DisplayCategory          =   SurApi,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	0.5,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta			=	0.25,
 	DisplayName 		= 	Bee Smoker,
@@ -54,7 +54,7 @@ module Hydrocraft
 
 	HungerChange			=	-60,
 	Weight				=	1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	FoodType			=	NoExplicit,
 	UnhappyChange			=	-15,
 	DisplayName			=	Honey,
@@ -72,7 +72,7 @@ module Hydrocraft
 
 	HungerChange			=	-60,
 	Weight				=	1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	FoodType			=	NoExplicit,
 	UnhappyChange			=	-15,
 	DisplayName			=	Jar of Honey,
@@ -90,7 +90,7 @@ module Hydrocraft
 
 	HungerChange			=	-60,
 	Weight				=	1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	FoodType			=	NoExplicit,
 	DisplayName			=	Drying Honey,
 	Icon				=	HCDriedhoney,
@@ -115,7 +115,7 @@ module Hydrocraft
 	BoredomChange			=	-10,
 	UnhappyChange			=	-15,
 	Weight				=	1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	FoodType			=	NoExplicit,
 	ReplaceOnUse			=	BakingTray,
 	DisplayName			=	Dried Honey,
@@ -133,7 +133,7 @@ module Hydrocraft
 	BoredomChange			=	-10,
 	UnhappyChange			=	-15,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	FoodType			=	NoExplicit,
 	DisplayName			=	Honey Powder,
 	Icon				=	HCHoneypowder,
@@ -147,7 +147,7 @@ module Hydrocraft
     {
 
         Weight    			= 4,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Wooden Bucket with Honey,
         icon 				= HCWoodenbuckethoney,
 		DisplayCategory          =   SurApi,
@@ -156,7 +156,7 @@ module Hydrocraft
     {
 
 	Weight 				= 0.3,
-	Type 				= Normal,
+	ItemType 				= base:normal,
 	DisplayName 			= Honeycomb,
 	Icon				= HCHoneycomb,
 	DisplayCategory          =   SurApi,
@@ -165,7 +165,7 @@ module Hydrocraft
     {
 
 	Weight 			 = 3,
-	Type 			 = Normal,
+	ItemType 			 = base:normal,
 	DisplayName 	 = Wild Beehive,
 	Icon			 = HCBeehive,
 	DisplayCategory  = SurApi,
@@ -175,7 +175,7 @@ module Hydrocraft
     {
 
         Weight          		= 12,
-        Type            		= Normal,
+        ItemType            		= base:normal,
         DisplayName     		= Inactive Beehive,
         Icon            		= HCBeehive3,
 		DisplayCategory          =   SurApi,
@@ -184,7 +184,7 @@ module Hydrocraft
     {
 
         Weight                  = 1000,
-        Type                    = Normal,
+        ItemType                    = base:normal,
         DisplayName             = Inactive Beehive (Stage 3),
         Icon                    = HCBeehive3
 		DisplayCategory          =   SurApi,
@@ -193,7 +193,7 @@ module Hydrocraft
     {
 
         Weight          		= 12,
-        Type            		= Normal,
+        ItemType            		= base:normal,
         DisplayName     		= Beehive (Stage 3),
         Icon            		= HCBeehive3Active,
 		DisplayCategory          =   SurApi,
@@ -202,7 +202,7 @@ module Hydrocraft
     {
 
         Weight                  = 1000,
-        Type                    = Normal,
+        ItemType                    = base:normal,
         DisplayName             = Beehive Anchored,
         Icon                    = HCBeehive3Active,
 		DisplayCategory          =   SurApi,
@@ -211,7 +211,7 @@ module Hydrocraft
     {
 
         Weight          		= 12,
-        Type            		= Normal,
+        ItemType            		= base:normal,
         DisplayName     		= Beehive with Honey (Stage 3),
         Icon            		= HCBeehive3full,
 		DisplayCategory          =   SurApi,
@@ -220,7 +220,7 @@ module Hydrocraft
     {
 
         Weight                  = 1000,
-        Type                    = Normal,
+        ItemType                    = base:normal,
         DisplayName             = Beehive with Honey (Stage 3),
         Icon                    = HCBeehive3full,
 		DisplayCategory          =   SurApi,

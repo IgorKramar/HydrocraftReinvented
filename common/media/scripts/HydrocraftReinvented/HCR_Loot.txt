@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight              	= 1,
-        Type			= Normal,
+        ItemType			= base:normal,
         DisplayName         	= Box of Art Supplies,
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
@@ -16,7 +16,7 @@ module Hydrocraft
     {
 
         Weight              	= 1,
-        Type			= Normal,
+        ItemType			= base:normal,
         DisplayName         	= Box of Electronic Equipment,
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
@@ -27,7 +27,7 @@ module Hydrocraft
     {
 
         Weight              	= 1,
-        Type			= Normal,
+        ItemType			= base:normal,
         DisplayName         	= Box of Garden Equipment,
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
@@ -38,7 +38,7 @@ module Hydrocraft
     {
 
         Weight              	= 1,
-        Type			= Normal,
+        ItemType			= base:normal,
         DisplayName         	= Box of Holiday Supplies,
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
@@ -49,7 +49,7 @@ module Hydrocraft
     {
 
         Weight              	= 1,
-        Type			= Normal,
+        ItemType			= base:normal,
         DisplayName         	= Box of Lab Equipment,
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
@@ -60,7 +60,7 @@ module Hydrocraft
     {
 
         Weight              	= 1,
-        Type			= Normal,
+        ItemType			= base:normal,
         DisplayName         	= Box of Office Supplies,
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
@@ -71,7 +71,7 @@ module Hydrocraft
     {
 
         Weight              	= 1,
-        Type			= Normal,
+        ItemType			= base:normal,
         DisplayName         	= Box of Pet Equipment,
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
@@ -82,7 +82,7 @@ module Hydrocraft
     {
 
         Weight              	= 1,
-        Type			= Normal,
+        ItemType			= base:normal,
         DisplayName         	= Box of Photography Equipment,
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
@@ -93,7 +93,7 @@ module Hydrocraft
     {
 
         Weight              	= 1,
-        Type			= Normal,
+        ItemType			= base:normal,
         DisplayName         	= Box of Toys,
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,

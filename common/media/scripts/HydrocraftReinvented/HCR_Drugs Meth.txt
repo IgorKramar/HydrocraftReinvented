@@ -6,7 +6,7 @@ module Hydrocraft
 
         HungerChange            = -10,  
         Weight                  = 0.8,
-        Type                    = Food,
+        ItemType                    = base:food,
         ThirstChange            = -5,
         UnhappyChange		= -15,
         FatigueChange           = -20,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
         Weight    		= 3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Bakingtray with Blue Meth,
         icon 			= HCBluemethtray,
 		DisplayCategory	= CraftChem,
@@ -35,7 +35,7 @@ module Hydrocraft
   
         HungerChange            = -20,
         Weight                  = 0.5,
-        Type                    = Food,
+        ItemType                    = base:food,
         ThirstChange            = -5,
         UnhappyChange		= -15,
         FatigueChange           = -30,

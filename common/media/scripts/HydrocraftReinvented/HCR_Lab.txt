@@ -6,7 +6,7 @@ module Hydrocraft
 
 	DisplayCategory          =   CraftChem,	
 	Weight			=	0.2,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Magnet,
 	Icon			=	HCMagnet,
 	AttachmentType  = 	Hammer,
@@ -17,7 +17,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Empty Chemical Plastic Bottle,
 	Icon			=	HCChemicalbottleempty,
 		DisplayCategory          =   CraftChem,
@@ -26,7 +26,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Empty Plastic Can,
 	Icon			=	HCPlasticcanempty,
 		DisplayCategory          =   CraftChem,
@@ -36,7 +36,7 @@ module Hydrocraft
 
         Weight    		= 	0.3,
 	CanStoreWater		=	TRUE,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Glass Conical Flask,
 	ReplaceOnUseOn		=	WaterSource-HCGlasswaterbottle,
         icon 			= 	HCGlassflask,
@@ -51,7 +51,7 @@ module Hydrocraft
 	ReplaceOnUse		=	HCGlassflask,
 	Weight				=	1,
 	CanStoreWater		=	TRUE,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta			=	0.07,
 	DisplayName			=	Conical Flask With Water,
@@ -65,7 +65,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Buchner Flask,
         icon 			= HCGlassflaskbuchner,
 		DisplayCategory          =   CraftChem,
@@ -74,7 +74,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Florence Flask,
         icon 			= HCGlassflaskflorence,
 		DisplayCategory          =   CraftChem,
@@ -83,7 +83,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Retort Flask,
         icon 			= HCGlassflaskretort,
 		DisplayCategory          =   CraftChem,
@@ -93,7 +93,7 @@ module Hydrocraft
 
         Weight    		= 	0.3,
 	CanStoreWater		=	TRUE,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Glass Beaker,
 	ReplaceOnUseOn		=	WaterSource-HCBeakerwater,
         icon 			= 	HCGlassbeaker,
@@ -104,7 +104,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Graduated Cylinder,
         icon 			= HCGlassgraduatedcylinder,
 		DisplayCategory          =   CraftChem,
@@ -113,7 +113,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Eye Dropper,
         icon 			= HCEyedropper,
 		DisplayCategory          =   CraftChem,
@@ -122,7 +122,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Test Tube,
         icon 			= HCGlasstesttube,
 		DisplayCategory          =   CraftChem,
@@ -131,7 +131,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Glass Test Tubes,
         icon 			= HCTesttubebox,
 		DisplayCategory          =   CraftChem,
@@ -141,7 +141,7 @@ module Hydrocraft
 	
 		DisplayCategory  =   CraftChem,
         Weight    		 = 0.01,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = Cork,
         icon 			 = HCCork,
 		WorldStaticModel =  WorldItem-HCCork,
@@ -150,7 +150,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Corks,
         icon 			= HCCorkbox,
 		DisplayCategory          =   CraftChem,
@@ -159,7 +159,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cork with Hole,
         icon 			= HCCorkhole,
 		DisplayCategory          =   CraftChem,
@@ -168,7 +168,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Rubber Bung,
         icon 			= HCRubberbung,
 		DisplayCategory          =   CraftChem,
@@ -177,7 +177,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Rubber Bungs,
         icon 			= HCRubberbungbox,
 		DisplayCategory          =   CraftChem,
@@ -186,7 +186,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Rubber Bung with Hole,
         icon 			= HCRubberbunghole,
 		DisplayCategory          =   CraftChem,
@@ -195,7 +195,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Test Tube with Cork,
         icon 			= HCGlasstesttubecork,
 		DisplayCategory          =   CraftChem,
@@ -204,7 +204,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Test Tube with Cork with Hole,
         icon 			= HCGlasstesttubecorkhole,
 		DisplayCategory          =   CraftChem,
@@ -213,7 +213,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Test Tube with Rubber Bung,
         icon 			= HCGlasstesttuberubberbung,
 		DisplayCategory          =   CraftChem,
@@ -222,7 +222,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Test Tube with Rubber Bung with Hole,
         icon 			= HCGlasstesttuberubberbunghole,
 		DisplayCategory          =   CraftChem,
@@ -231,7 +231,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Test Tube Rack,
         icon 			= HCTesttuberack,
 		DisplayCategory          =   CraftChem,
@@ -240,7 +240,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Test Tube Rack with Glass Test Tubes with Corks,
         icon 			= HCTesttuberackcorks,
 		DisplayCategory          =   CraftChem,
@@ -249,7 +249,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Test Tube Rack with Glass Test Tubes with Rubber Bungs,
         icon 			= HCTesttuberackbungs,
 		DisplayCategory          =   CraftChem,
@@ -258,7 +258,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Testtube Holder,
         icon 			= HCTesttubeholder,
 		DisplayCategory          =   CraftChem,
@@ -267,7 +267,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Forceps,
         icon 			= HCForeceps,
 		DisplayCategory          =   CraftChem,
@@ -276,7 +276,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pinch Clamp,
         icon 			= HCPinchclamp,
 		DisplayCategory          =   CraftChem,
@@ -285,7 +285,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Utility Clamp,
         icon 			= HCUtilityclamp,
 		DisplayCategory          =   CraftChem,
@@ -294,7 +294,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Ring Clamp,
         icon 			= HCRingclamp,
 		DisplayCategory          =   CraftChem,
@@ -303,7 +303,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Ring Stand,
         icon 			= HCRingstand,
 		DisplayCategory          =   CraftChem,
@@ -312,7 +312,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.8,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Ring Stand with Clamp,
         icon 			= HCRingstandclamp,
 		DisplayCategory          =   CraftChem,
@@ -321,7 +321,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Wire Gauze,
         icon 			= HCWiregauze,
 		DisplayCategory          =   CraftChem,
@@ -330,7 +330,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Rubber Hose,
         icon 			= HCRubberhose,
 		DisplayCategory          =   CraftChem,
@@ -339,7 +339,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Bunsen Burner,
         icon 			= HCBunsenburner,
 		DisplayCategory          =   CraftChem,
@@ -348,7 +348,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Test Tube Brush,
         icon 			= HCTesttubebrush,
 		DisplayCategory          =   CraftChem,
@@ -357,7 +357,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Test Tube Brushes,
         icon 			= HCTesttubebrushbox,
 		DisplayCategory          =   CraftChem,
@@ -366,7 +366,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Funnel,
         icon 			= HCGlassfunnel,
 		DisplayCategory          =   CraftChem,
@@ -375,7 +375,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Cooler,
         icon 			= HCGlasscooler,
 		DisplayCategory          =   CraftChem,
@@ -384,7 +384,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Pipe,
         icon 			= HCGlasspipe,
 		DisplayCategory          =   CraftChem,
@@ -393,7 +393,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Glass Pipes,
         icon 			= HCGlasspipebox,
 		DisplayCategory          =   CraftChem,
@@ -402,7 +402,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Elbow Pipe,
         icon 			= HCGlasspipeelbow,
 		DisplayCategory          =   CraftChem,
@@ -411,7 +411,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Glass Elbow Pipe,
         icon 			= HCGlasspipeelbowbox,
 		DisplayCategory          =   CraftChem,
@@ -420,7 +420,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Burette,
         icon 			= HCGlassburette,
 		DisplayCategory          =   CraftChem,
@@ -429,7 +429,7 @@ module Hydrocraft
     {
 
 	Weight			=	1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Large Glass Balloon,
 	Icon			=	HCGlassballoon,
 		DisplayCategory          =   CraftChem,
@@ -438,7 +438,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Glass Connector,
 	Icon			=	HCGlassconnector,
 		DisplayCategory          =   CraftChem,
@@ -447,7 +447,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Large Glass Balloon with Connector,
 	Icon			=	HCGlassballoon,
 		DisplayCategory          =   CraftChem,
@@ -457,7 +457,7 @@ module Hydrocraft
 
         Weight    		= 1,
 	CanStoreWater		= TRUE,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Wash Bottle,
 	ReplaceOnUseOn		= WaterSource-HCWashbottlefull,
         icon 			= HCWashbottle,
@@ -470,7 +470,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight			=	2,
 	CanStoreWater		=	TRUE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta		=	0.07,
 	DisplayName		=	Wash Bottle with Water,
@@ -484,7 +484,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Magnifying Glass,
         icon 			= HCMagnifyglass,
 		DisplayCategory          =   Craft,
@@ -493,7 +493,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Protractor,
         icon 			= HCProtractor,
 		DisplayCategory          =   CraftChem,
@@ -502,7 +502,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Latex Gloves,
         icon 			= HCLatexgloves,
 		DisplayCategory          =   CraftChem,
@@ -511,7 +511,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Hydrogen Tank,
         icon 			= HCHydrogentank,
 		DisplayCategory          =   CraftChem,
@@ -521,7 +521,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Empty Hydrogen Tank,
         icon 			= HCHydrogentank,
 		DisplayCategory          =   CraftChem,
@@ -531,7 +531,7 @@ module Hydrocraft
     {
 
         Weight    		= 4.0026,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Helium Tank,
         icon 			= HCHeliumtank,
 		DisplayCategory          =   CraftChem,
@@ -541,7 +541,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Empty Helium Tank,
         icon 			= HCHeliumtank,
 		DisplayCategory          =   CraftChem,
@@ -551,7 +551,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Oxygen Tank,
         icon 			= HCOxygentank,
 		DisplayCategory          =   CraftChem,
@@ -561,7 +561,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Empty Oxygen Tank,
         icon 			= HCOxygentank,
 		DisplayCategory          =   CraftChem,
@@ -571,7 +571,7 @@ module Hydrocraft
     {
 
         Weight            	= 4,
-        Type            	= Normal,
+        ItemType            	= base:normal,
         DisplayName             = Hydrogen Chloride Tank,
         icon             	= HCHclgastank,
 		DisplayCategory          =   CraftChem,
@@ -581,7 +581,7 @@ module Hydrocraft
     {
 
         Weight            	= 4,
-        Type            	= Normal,
+        ItemType            	= base:normal,
         DisplayName             = Empty Hydrogen Chloride Tank,
         icon             	= HCHclgastank,
 		DisplayCategory          =   CraftChem,
@@ -591,7 +591,7 @@ module Hydrocraft
     {
 
         Weight            	= 4,
-        Type            	= Normal,
+        ItemType            	= base:normal,
         DisplayName             = Tank of Refrigerant,
         icon             	= HCTankfridge,
 		DisplayCategory          =   CraftChem,
@@ -600,7 +600,7 @@ module Hydrocraft
     {
 
         Weight            	= 4,
-        Type            	= Normal,
+        ItemType            	= base:normal,
         DisplayName             = Empty Tank of Refrigerant,
         icon             	= HCTankfridge,
 		DisplayCategory          =   CraftChem,
@@ -609,7 +609,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.5,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Plasma Globe,
 	Icon			=	HCPlasmaglobe,
 		DisplayCategory          =   CraftChem,
@@ -618,7 +618,7 @@ module Hydrocraft
     {
 
         Weight    		= 2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Van de Graaff Generator,
 		DisplayCategory          =   CraftChem,
         icon 			= HCTeslamachine,
@@ -628,7 +628,7 @@ module Hydrocraft
 
 	WeightReduction         = 0,
 	Weight             	= 10,
-	Type                	= Normal,
+	ItemType                	= base:normal,
     DisplayName         	= Laboratory,
     icon 			= HCLab,
 		DisplayCategory          =   CraftChem,
@@ -637,7 +637,7 @@ module Hydrocraft
     {
 
         Weight              = 1000,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 100,
         WeightReduction     = 0,
         DisplayName         = Laboratory,
@@ -648,7 +648,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Professional Lab,
         icon 			= HCLabbig,
 		DisplayCategory          =   CraftChem,
@@ -657,7 +657,7 @@ module Hydrocraft
     {
 
         Weight          = 1000,
-        Type            = Container,
+        ItemType            = base:container,
         Capacity        = 200,
         DisplayName     = Professional Lab,
         icon            = HCLabbig,
@@ -667,7 +667,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Rubber Belt,
         icon 			= HCRubberbelt,
 		DisplayCategory          =   CraftChem,

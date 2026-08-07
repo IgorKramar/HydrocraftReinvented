@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 		Weight			=	1,
-		Type			=	Drainable,
+		ItemType			=	base:drainable,
 		UseWhileEquipped	=	FALSE,
 		UseDelta		=	0.25,
 		DisplayName		=	Rice Flour,
@@ -17,7 +17,7 @@ module Hydrocraft
     {
 
 		Weight			=	1,
-		Type			=	Drainable,
+		ItemType			=	base:drainable,
 		UseWhileEquipped	=	FALSE,
 		UseDelta		=	0.25,
 		DisplayName		=	Wholemeal Flour,
@@ -29,7 +29,7 @@ module Hydrocraft
     {
 
 		Weight				=	1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Wheat Bundle,
 		Icon				=	HCWheatBundle,
 		DisplayCategory		=   Cooking,
@@ -38,7 +38,7 @@ module Hydrocraft
     {
 
 		HungerChange		=	-25,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DisplayName		=	Bowl of Gruel,
 		Weight			=	0.6,
 		DaysTotallyRotten	=	3,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
 		HungerChange		=	-30,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DisplayName		=	Bowl of Sweetened Gruel,
 		Weight			=	0.6,
 		DaysTotallyRotten	=	3,
@@ -79,7 +79,7 @@ module Hydrocraft
 
 		HungerChange		=	-30,
 		Weight				=	0.3,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	10,
 		BoredomChange		=	10,
 		DisplayName			=	Homemade Pancake Batter,
@@ -99,7 +99,7 @@ module Hydrocraft
 		
 		HungerChange		=	-30,
 		Weight				=	0.3,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-10,
 		DisplayName			=	Homemade Pancake,
@@ -121,7 +121,7 @@ module Hydrocraft
 
 		HungerChange		=	-30,
 		Weight				=	0.3,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-10,
 		IsCookable			=	TRUE,
@@ -144,7 +144,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.1,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.25,
 	DisplayName			=	Sourdough Starter,
@@ -157,7 +157,7 @@ module Hydrocraft
 
         HungerChange        	=    	-5,    
         Weight    		= 	0.05,
-        Type    		=    	Food,
+        ItemType    		=    	base:food,
         UnhappyChange        	=    	10,
         DaysTotallyRotten	=	365,
         DaysFresh 		= 	300,
@@ -173,7 +173,7 @@ module Hydrocraft
     item HCWholegrainbread
     {
 
-        Type				=			Food,
+        ItemType				=			base:food,
         DisplayName			=		    Whole Grain Bread,
         Icon				=			Dough,
         Weight				=			0.3,
@@ -196,7 +196,7 @@ module Hydrocraft
     item HCPumpkinbreaddough
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Pumpkin Bread Dough,
 	Icon				=	HCPumpkinbreaddough,
 	Weight				=	0.3,
@@ -217,7 +217,7 @@ module Hydrocraft
 
 		HungerChange		=	-35,
 		Weight				=	0.3,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-10,
 		IsCookable			=	TRUE,
@@ -239,7 +239,7 @@ module Hydrocraft
 
 		HungerChange		=	-35,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-10,
 		IsCookable			=	TRUE,
@@ -263,7 +263,7 @@ module Hydrocraft
 
 		HungerChange		=	-35,
 		Weight				=	0.3,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-10,
 		IsCookable			=	TRUE,
@@ -285,7 +285,7 @@ module Hydrocraft
 
 		HungerChange		=	-35,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-10,
 		IsCookable			=	TRUE,
@@ -309,7 +309,7 @@ module Hydrocraft
 
 		HungerChange		=	-35,
 		Weight				=	0.3,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-10,
 		IsCookable			=	TRUE,
@@ -331,7 +331,7 @@ module Hydrocraft
 
 		HungerChange		=	-35,
 		Weight				=	0.56,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		BoredomChange		=	-10,
 		IsCookable			=	TRUE,
@@ -355,7 +355,7 @@ module Hydrocraft
 
 		HungerChange			=	-40,
 		Weight				=	1.4,
-		Type				=	Food,
+		ItemType				=	base:food,
 		IsCookable			=	TRUE,
 		DangerousUncooked		=	TRUE,
 		UnhappyChange			=	-10,
@@ -381,7 +381,7 @@ module Hydrocraft
 		UnhappyChange		=	-10,
 		BoredomChange		=	-10,
 		Weight				=	0.6,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Bowl of Grits,
 		ReplaceOnUse		=	Bowl,
 		Icon				=	HCGritsbowl,
@@ -403,7 +403,7 @@ module Hydrocraft
 
 		HungerChange		=	-50,
 		Weight				=	1.4,
-		Type				=	Food,
+		ItemType				=	base:food,
 		IsCookable			=	TRUE,
 		DangerousUncooked	=	TRUE,
 		UnhappyChange		=	-15,
@@ -429,7 +429,7 @@ module Hydrocraft
 	UnhappyChange		=	-15,
 	BoredomChange		=	-15,
 	Weight				=	0.6,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bowl of Cheesy Grits,
 	IsCookable			=	TRUE,
 		MinutesToCook		=	30,
@@ -451,7 +451,7 @@ module Hydrocraft
 
 	HungerChange		=	-80,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
     DaysTotallyRotten	=	15,
     DaysFresh 			= 	10,
 	UnhappyChange		=	-10,
@@ -471,7 +471,7 @@ module Hydrocraft
 
     HungerChange			=	-15,
     Weight				=	0.2,
-    Type				=	Food,
+    ItemType				=	base:food,
     DaysTotallyRotten		=	5,
     DaysFresh 			= 	3,
     UnhappyChange			=	-10,
@@ -491,7 +491,7 @@ module Hydrocraft
 
     HungerChange			=	-15,
     Weight				=	0.2,
-    Type				=	Food,
+    ItemType				=	base:food,
     DaysTotallyRotten		=	5,
     DaysFresh 			= 	3,
     UnhappyChange			=	-10,
@@ -511,7 +511,7 @@ module Hydrocraft
 
     HungerChange			=	-15,
     Weight				=	0.2,
-    Type				=	Food,
+    ItemType				=	base:food,
     DaysTotallyRotten		=	5,
     DaysFresh 			= 	3,
     UnhappyChange			=	-10,
@@ -530,7 +530,7 @@ module Hydrocraft
 
     HungerChange			=	-15,
     Weight				=	0.2,
-    Type				=	Food,
+    ItemType				=	base:food,
     DaysTotallyRotten		=	5,
     DaysFresh 			= 	3,
     UnhappyChange			=	-10,
@@ -550,7 +550,7 @@ module Hydrocraft
 
     HungerChange			=	-10,
     Weight				=	0.2,
-    Type				=	Food,
+    ItemType				=	base:food,
     DaysTotallyRotten		=	5,
     DaysFresh 			= 	3,
     UnhappyChange			=	-5,
@@ -571,7 +571,7 @@ module Hydrocraft
 	
 	HungerChange		= -60,
 	Weight			= 0.6,
-	Type			= Food,
+	ItemType			= base:food,
 	DaysTotallyRotten	= 9,
 	DisplayName		= Bagged Wheat Bread Loaf,
 	Icon			= HCBreadloafbag,
@@ -591,7 +591,7 @@ module Hydrocraft
 	
 	HungerChange		= -60,
 	Weight			= 0.6,
-	Type			= Food,
+	ItemType			= base:food,
 	DaysTotallyRotten	= 9,
 	DisplayName		= Bagged Wheat Bread Loaf,
 	Icon			= HCBreadwheatloafbag,
@@ -611,7 +611,7 @@ module Hydrocraft
 	
 		HungerChange		= -30,
 		Weight			= 0.3,
-		Type			= Food,
+		ItemType			= base:food,
 		DaysTotallyRotten	= 6,
 		DisplayName		= Wheat Bread,
 		Icon			= HCBreadwheat,
@@ -631,7 +631,7 @@ module Hydrocraft
 	
 		HungerChange		= -10,
 		Weight			= 0.1,
-		Type			= Food,
+		ItemType			= base:food,
 		DaysTotallyRotten	= 6,
 		DisplayName		= Wheat Bread,
 		Icon			= HCBreadwheatslices,
@@ -649,7 +649,7 @@ module Hydrocraft
     {
 	
 		Weight			= 0.6,
-		Type			= Food,
+		ItemType			= base:food,
 		DaysTotallyRotten	= 9,
 		DisplayName		= Bag of Burger Buns,
 		Icon			= HCBurgerbunbag,
@@ -667,7 +667,7 @@ module Hydrocraft
 	
 		HungerChange		= -10,
 		Weight			= 0.1,
-		Type			= Food,
+		ItemType			= base:food,
 		DaysTotallyRotten	= 6,
 		DisplayName		= Burger Bun,
 		Icon			= HCBurgerbun,

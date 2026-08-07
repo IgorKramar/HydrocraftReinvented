@@ -6,7 +6,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.2,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-10,
         UnhappyChange		=	-10,
 	DisplayName		=	Glass of Chardonnay,
@@ -28,7 +28,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.2,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-10,
         UnhappyChange		=	-10,
 	DisplayName		=	Glass of Red Wine,
@@ -49,7 +49,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Wooden Bucket with Grape Juice,
         icon 			= HCWoodenbucketgrape,
 	DisplayCategory          =   CraftDist,
@@ -58,7 +58,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Wooden Bucket with White Grape Juice,
         icon 			= HCWoodenbucketgrapegreen,
 	DisplayCategory          =   CraftDist,
@@ -67,7 +67,7 @@ module Hydrocraft
     {
 
         Weight    		= 20,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Barrel of Red Grape Juice,
         icon 			= HCWinebarrel,
 	DisplayCategory          =   CraftDist,
@@ -76,7 +76,7 @@ module Hydrocraft
     {
 
         Weight    		= 20,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Barrel of White Grape Juice,
         icon 			= HCWinebarrel,
 	DisplayCategory          =   CraftDist,
@@ -85,7 +85,7 @@ module Hydrocraft
     {
 
         Weight    		= 20,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Barrel of Red Wine,
         icon 			= HCWinebarrel,
 	DisplayCategory          =   CraftDist,
@@ -94,7 +94,7 @@ module Hydrocraft
     {
 
         Weight    		= 20,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Barrel of White Wine,
         icon 			= HCWinebarrel,
 	DisplayCategory          =   CraftDist,
@@ -103,7 +103,7 @@ module Hydrocraft
     {
 
         Weight    		= 20,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Barrel of vinegar,
         icon 			= HCWinebarrel,
 	DisplayCategory          =   CraftDist,
@@ -113,7 +113,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	DangerousUncooked		=	TRUE,
 	MinutesToCook			=	120,
@@ -131,7 +131,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysFresh			=	1,	
 	DaysTotallyRotten		=	1,
 	DisplayName			=	Pot of Cooked Honey Brew,
@@ -143,7 +143,7 @@ module Hydrocraft
     {
 
         Weight    			= 	20,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
         DisplayName         		= 	Barrel of Brewed Honey,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
@@ -153,7 +153,7 @@ module Hydrocraft
     {
 
         Weight    			= 	20,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
         DisplayName         		= 	Barrel of Mead,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
@@ -164,7 +164,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	DangerousUncooked		=	TRUE,
 	MinutesToCook			=	120,
@@ -182,7 +182,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysFresh			=	1,	
 	DaysTotallyRotten		=	1,
 	DisplayName			=	Pot of Cooked Rice Mash,
@@ -194,7 +194,7 @@ module Hydrocraft
     {
 
         Weight    			= 	20,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
         DisplayName         		= 	Barrel of Rice Mash,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
@@ -204,7 +204,7 @@ module Hydrocraft
     {
 
         Weight    			= 	20,
-	Type 				= 	Normal,
+	ItemType 				= 	base:normal,
         DisplayName         		= 	Barrel of Sake,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,

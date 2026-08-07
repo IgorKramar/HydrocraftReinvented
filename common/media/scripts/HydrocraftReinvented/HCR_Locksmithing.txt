@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight			= 0.3,
-	Type			= Normal,
+	ItemType			= base:normal,
 	DisplayName		= Titanium Hinge,
 	Icon			= HCHingetitanium,
 		DisplayCategory          =   Misc,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 	Weight    		= 0.1,
-	Type    		= Normal,
+	ItemType    		= base:normal,
 	DisplayName		= Safe Key,
 	Icon			= Key2,
 		DisplayCategory          =   Misc,
@@ -24,7 +24,7 @@ module Hydrocraft
 
         Weight    		= 30.0,
 	Capacity             	= 50,
-        Type    		= Container,
+        ItemType    		= base:container,
         DisplayName         	= Metal Safe,
         icon 			= SafeOpen,
 		DisplayCategory          =   Container,
@@ -34,7 +34,7 @@ module Hydrocraft
 
         Weight    		= 1000.0,
 	Capacity             	= 50,
-        Type    		= Container,
+        ItemType    		= base:container,
         DisplayName         	= Locked Metal Safe,
         icon 			= SafeClosed,
 		DisplayCategory          =   Container,
@@ -44,7 +44,7 @@ module Hydrocraft
 
         Weight    		= 1000.0,
 	Capacity             	= 50,
-        Type    		= Container,
+        ItemType    		= base:container,
         DisplayName         	= KEY LOCKED,
         icon 			= SafeClosed,
 		DisplayCategory          =   Container,
@@ -54,7 +54,7 @@ module Hydrocraft
 
         Weight    		= 30.0,
 	Capacity             	= 50,
-        Type    		= Container,
+        ItemType    		= base:container,
         DisplayName         	= Metal Combination Safe,
         icon 			= SafeOpen,
 		DisplayCategory          =   Container,
@@ -64,7 +64,7 @@ module Hydrocraft
 
         Weight    		= 1000.0,
 	Capacity             	= 50,
-        Type    		= Container,
+        ItemType    		= base:container,
         DisplayName         	= Locked Metal Combination Safe,
         icon 			= SafeClosed,
 		DisplayCategory          =   Container,
@@ -74,7 +74,7 @@ module Hydrocraft
 
         Weight    		= 1000.0,
 	Capacity             	= 50,
-        Type    		= Container,
+        ItemType    		= base:container,
         DisplayName         	= COMBINATION LOCKED,
         icon 			= SafeClosed,
 		DisplayCategory          =   Container,

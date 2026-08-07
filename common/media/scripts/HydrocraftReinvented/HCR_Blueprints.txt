@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Potato Cannon Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Craft Potato Cannon,
@@ -18,7 +18,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Flamethrower Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Craft Flamethrower;Load Flamethrower,
@@ -31,7 +31,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Rocket Launcher Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Craft Rocket Launcher;Load Rocket Launcher,
@@ -44,7 +44,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Duct Tape Fletching Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Duct Tape Fletching,
@@ -57,7 +57,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Bone Arrowhead Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Bone Arrowhead,
@@ -70,7 +70,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Fishing Rod Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Fishing Rod;Fix Fishing Rod,
@@ -83,7 +83,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Fishing Net Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Fishing Net;Get Wire Back,
@@ -96,7 +96,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Crate Trap Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Wooden Cage Trap,
@@ -109,7 +109,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Stick Trap Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Stick Trap,
@@ -122,7 +122,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Snare Trap Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Snare Trap,
@@ -135,7 +135,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Trap Box Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Trap Box,
@@ -148,7 +148,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Cage Trap Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Cage Trap,
@@ -161,7 +161,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Mousetrap Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Mousetrap,
@@ -174,7 +174,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Nail Trap Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Spike Trap;Add Nails to Spike Trap;Set Nail Trap,
@@ -187,7 +187,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	Antibiotics Medical Research,
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Make Penicillin,
@@ -200,7 +200,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	Painkillers Medical Research,
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Make Willow Bark Tea;Extract Acetylsalicylic Acid,
@@ -213,7 +213,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	Anti-Depression Medical Research,
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Prepare Valerian;Dry Valerian;Make Anti-Depression Pills,
@@ -226,7 +226,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	Professional Lab Blueprints,
          Icon			=	HCBlueprint,
          TeachedRecipes 	=   	Build Professional Lab,
@@ -239,7 +239,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	Crystal Meth Research,
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Make Homemade Crystal Meth;Research Blue Meth,
@@ -252,7 +252,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	Blue Meth Research,
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Cook Blue Meth,
@@ -265,7 +265,7 @@ module Hydrocraft
     {
 
          Weight         =	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName	=	Injection Research,
          Icon			=	HCMedicalresearch,
          TeachedRecipes =   Take Blood from Zombie;Inject Yourself with Zombie Blood;Draw Up Syringe With Morphine,
@@ -278,7 +278,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Skinning Animals Research,
         Icon			=	HCBlueprint,
         /*TeachedRecipes 	=   Skin Animal,*/
@@ -291,7 +291,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		= Opium Medical Research,
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	= Dry Poppy Flower;Rip Poppy Capsules;Knead Raw Opium;Cook Raw Opium;Ferment Opium Powder;Make Morphine Hydrochloride Solution;Add Water To Morphine Hydrochloride;Add Ammonia To Morphine Hydrochloride Solution;Add Ammonia To Morphine Hydrochloride Solution,
@@ -304,7 +304,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	Ether Medical Research,
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	= Seperate Ether;Put Ether in Beaker;Soak Ripped Sheet with Selfmade Ether,
@@ -317,7 +317,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	Solar Park Blueprint,
          Icon			=	HCBlueprint,
          TeachedRecipes  	=   	Build Battery Array;Build Solar Panel;Build Solar Park;Recharge Battery;Upgrade to Solar Generator;Plugin Solar Generator;Unplug Solar Generator,
@@ -330,7 +330,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	HMTD Chemical Research,
          Icon			=	HCChemicalresearch,
          TeachedRecipes 	=   	Make Beaker with Hydrogen Peroxide;Cool Beaker with Hydrogen Peroxide;Add Hexamethylentetramin to Beaker with Hydrogen Peroxide;Cool Beaker with Hydrogen Peroxide and Hexamethylentetramin;Add Citric Acid to Beaker with Hydrogen Peroxide and Hexamethylentetramin;Cool Beaker with Hydrogen Peroxide Hexamethylentetramin and Citric Acid;Filtrate HMTD Crystals;Dry HMTD Crystals,
@@ -343,7 +343,7 @@ module Hydrocraft
     {
 
          Weight         =   0.1,
-         Type           =   Literature,
+         ItemType           =   base:literature,
          DisplayName        =   Herbal Medicine Research,
          Icon           =   HCChemicalresearch,
          TeachedRecipes     =  Create Ginseng Extract;Create Lemongrass Extract,
@@ -356,7 +356,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	Ammonal Chemical Research,
          Icon			=	HCChemicalresearch,
          TeachedRecipes 	=   	Make Ammonal;Dry Ammonal;Fill Ammonal in Bag,
@@ -369,7 +369,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Taxadermy Jackalope Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Craft Taxidermy Jackalope,
@@ -382,7 +382,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Steam Pressure Pot Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Craft Steam Pressure Pot,
@@ -395,7 +395,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	Carbon Fiber Chemical Research,
          Icon			=	HCChemicalresearch,
          TeachedRecipes 	=   	Make Carbon Powder;Make Carbon Nanorings;Make Carbon Nanochains;Make Carbon Nanofiber,
@@ -408,7 +408,7 @@ module Hydrocraft
     {
 
          Weight			=	0.1,
-         Type			=	Literature,
+         ItemType			=	base:literature,
          DisplayName		=	Beta Blocker Medical Research,
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Prepare Hawthorn Fruit;Dry Hawthorn Fruit;Make Beta Blocker Pills,
@@ -421,7 +421,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Spirulina Composter Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Build Spirulina Composter;Harvest Spirulina Composter,
@@ -434,7 +434,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Computer Mouse Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer Mouse,
@@ -447,7 +447,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Computer Keyboard Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer Keyboard,
@@ -460,7 +460,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Computer Monitor Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer Monitor,
@@ -473,7 +473,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Extract Working CPU Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Extract Working CPU,
@@ -486,7 +486,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Make Computer PSU Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer PSU,
@@ -499,7 +499,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Make Computer Fan Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer Fan,
@@ -512,7 +512,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Make Computer Tower Blueprint,
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer Tower,
@@ -525,7 +525,7 @@ module Hydrocraft
     {
 
         Weight          =   0.1,
-        Type            =   Literature,
+        ItemType            =   base:literature,
         DisplayName     =   Expand Mine to Iron Mine,
         Icon            =   HCBlueprint,
         TeachedRecipes  =   Expand Mine to Iron Mine,
@@ -538,7 +538,7 @@ module Hydrocraft
     {
 
         Weight          =   0.1,
-        Type            =   Literature,
+        ItemType            =   base:literature,
         DisplayName     =   Expand Mine to Coal Mine,
         Icon            =   HCBlueprint,
         TeachedRecipes  =   Expand Mine to Coal Mine,
@@ -551,7 +551,7 @@ module Hydrocraft
     {
 
         Weight          =   0.1,
-        Type            =   Literature,
+        ItemType            =   base:literature,
         DisplayName     =   Advanced Fitness Plan,
         Icon            =   HCBlueprint,
         TeachedRecipes  =   Exercise hard with Punching Bag;Exercise hard with Weights;Exercise hard on Treadmill,
@@ -564,7 +564,7 @@ module Hydrocraft
     {
 
         Weight          =   0.1,
-        Type            =   Literature,
+        ItemType            =   base:literature,
         DisplayName     =   How to make Methanol,
         Icon            =   HCCookbook,
         TeachedRecipes  =   Prepare Barrel of Lemon Mash;Distill Methanol,
@@ -577,7 +577,7 @@ module Hydrocraft
     {
 
         Weight          =   0.1,
-        Type            =   Literature,
+        ItemType            =   base:literature,
         DisplayName     =   Knitting patterns,
         Icon            =   HCCookbook,
         TeachedRecipes  =   Knit Long Wool Socks;Knit Scarf;Knit Balaclava;Knit Wool Sweater;Knit Thick Wool Sweater,
@@ -590,7 +590,7 @@ module Hydrocraft
     {
 
         Weight          =   0.1,
-        Type            =   Literature,
+        ItemType            =   base:literature,
         DisplayName     =   Tailoring With Silk,
         Icon            =   HCCookbook,
         TeachedRecipes  =   Make Long Silk Undies,

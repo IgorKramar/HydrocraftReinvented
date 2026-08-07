@@ -6,7 +6,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	5,
 	BoredomChange			=	5,
 	DisplayName			=	Honeybun Dough,
@@ -25,7 +25,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.9,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-20,
 	BoredomChange			=	-15,
 	IsCookable			=	TRUE,
@@ -49,7 +49,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-20,
 	BoredomChange			=	-15,
 	IsCookable			=	TRUE,
@@ -71,7 +71,7 @@ module Hydrocraft
 
         	HungerChange		=	-45,
         	Weight			=	0.7,
-        	Type			=	Food,
+        	ItemType			=	base:food,
         	UnhappyChange		=	5,
 		BoredomChange		=	5,
        	 	DisplayName		=	Homemade Cupcake Batter,
@@ -95,7 +95,7 @@ module Hydrocraft
 
 		HungerChange		=	-45,
 		Weight			=	0.5,
-		Type			=	Food,
+		ItemType			=	base:food,
 		UnhappyChange		=	-15,
 		BoredomChange		=	-15,
 		IsCookable		=	TRUE,
@@ -120,7 +120,7 @@ module Hydrocraft
 	HungerChange			=	-15,
 	UnhappyChange			=	-5,
 	Weight				=	0.6,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bowl of Frosting,
 	Icon				=	HCFrosting,
 	FoodType			=	NoExplicit,
@@ -141,7 +141,7 @@ module Hydrocraft
 	MinutesToBurn			=	15,
 	Weight				=	0.05,
 	AlwaysWelcomeGift		=	TRUE,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Unfrosted Cupcake,
 	Icon				=	HCCupcake,
 	DaysTotallyRotten		=	14,
@@ -164,7 +164,7 @@ module Hydrocraft
 	MinutesToBurn			=	15,
 	Weight				=	0.06,
 	AlwaysWelcomeGift		=	TRUE,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Frosted Cupcake,
 	Icon				=	HCCupcakefrosted,
 	DaysTotallyRotten		=	14,
@@ -180,7 +180,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Fruit Cake Batter,
 	Icon				=	HCFruitcakebatter,
 		DisplayCategory		= Cooking,
@@ -190,7 +190,7 @@ module Hydrocraft
 
 	HungerChange		=	-30,
 	Weight				=	0.7,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Fruit Cake in Bread Pan,
 	Icon				=	HCFruitcakemold,
 	ReplaceOnUse		=	BakingTray,
@@ -214,7 +214,7 @@ module Hydrocraft
 
 	HungerChange		=	-30,
 	Weight				=	0.7,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Fruit Cake,
 	Icon				=	HCFruitcake,
 	IsCookable			=	TRUE,
@@ -236,7 +236,7 @@ module Hydrocraft
 
 	HungerChange			=	-18,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Fruit Cake Slices,
 	Icon				=	HCFruitcakeslices,
 	DaysTotallyRotten		=	10,

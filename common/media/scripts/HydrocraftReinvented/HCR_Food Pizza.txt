@@ -4,7 +4,7 @@ module Hydrocraft
     item HCPizzadough
     {
 
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Pizza Dough,
 		Icon				=	HCPizzadough,
 		Weight				=	0.3,
@@ -21,7 +21,7 @@ module Hydrocraft
     item HCGratedcheese
     {
 
-	Type			=	Food,
+	ItemType			=	base:food,
 	DisplayName		=	Grated Cheese,
 	Icon			=	HCGratedcheese,
 	Weight			=	0.2,
@@ -39,7 +39,7 @@ module Hydrocraft
     item HCGratedcheddar
     {
 
-        Type                    = 	Food,
+        ItemType                    = 	base:food,
         DisplayName             = 	Grated Cheddar,
         Icon                    = 	HCGratedcheddar,
         Weight                  = 	0.2,
@@ -59,7 +59,7 @@ module Hydrocraft
 
 		HungerChange		=	-10,
 		Weight				=	1.4,
-		Type				=	Food,
+		ItemType				=	base:food,
 		IsCookable			=	TRUE,
 		DisplayName			=	Pot of Tomato Sauce,
 		ReplaceOnUse		=	Pot,
@@ -81,7 +81,7 @@ module Hydrocraft
 
 		HungerChange		=	-5,
 		Weight				=	0.7,
-		Type				=	Food,
+		ItemType				=	base:food,
 		IsCookable			=	TRUE,
 		DisplayName			=	Bowl of Tomato Sauce,
 		ReplaceOnUse		=	Bowl,
@@ -105,7 +105,7 @@ module Hydrocraft
 		HungerChange		=	-20,
 		UnhappyChange		=	-15,
 		BoredomChange		=	-15,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Boring Pizza,
 		IsCookable 			= 	TRUE,
 		DangerousUncooked	=	TRUE,
@@ -128,7 +128,7 @@ module Hydrocraft
 		HungerChange		=	-40,
 		UnhappyChange		=	-20,
 		BoredomChange		=	-20,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DisplayName			=	Cheese Pizza,
 		IsCookable 			= 	TRUE,
 		DangerousUncooked	=	TRUE,
@@ -151,7 +151,7 @@ module Hydrocraft
 		HungerChange		=	-50,
 		UnhappyChange		=	-25,
 		BoredomChange		=	-25,
-		Type				=	Food,		
+		ItemType				=	base:food,		
 		DisplayName			=	Tasty Pizza,
 		IsCookable 			= 	TRUE,
 		DangerousUncooked	=	TRUE,
@@ -172,7 +172,7 @@ module Hydrocraft
 
    	HungerChange			=	-10,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-5,
 	BoredomChange			=	-5,
 	DisplayName			=	Slice of Boring Pizza,
@@ -195,7 +195,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	BoredomChange			=	-10,
 	DisplayName			=	Slice of Simple Pizza,
@@ -218,7 +218,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-15,
 	BoredomChange			=	-15,
 	DisplayName			=	Slice of Tasty Pizza,

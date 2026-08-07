@@ -6,7 +6,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bag of Pumpkin Seeds,
 	Icon				=	HCPumpkinseedsnack,
 	FoodType			=	NoExplicit,
@@ -24,7 +24,7 @@ module Hydrocraft
 	HungerChange			=	-15,
 	BoredomChange			=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bag of Sunflower Seeds,
 	Icon				=	HCSunflowerseedsnack,
 	FoodType			=	NoExplicit,
@@ -42,7 +42,7 @@ module Hydrocraft
 	HungerChange			=	-15,
 	BoredomChange			=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Can of Roasted Peanuts,
 	Icon				=	HCPeanutsnack,
 	FoodType			=	NoExplicit,
@@ -59,7 +59,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Chips,
 	Icon				=	HCCrisps5,
         Carbohydrates 			= 	72,
@@ -76,7 +76,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Chips,
 	Icon				=	HCCrisps6,
         Carbohydrates 			= 	72,
@@ -93,7 +93,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Chips,
 	Icon				=	HCCrisps7,
         Carbohydrates 			= 	72,
@@ -110,7 +110,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Chips,
 	Icon				=	HCCrisps8,
         Carbohydrates 			= 	72,
@@ -127,7 +127,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Chips,
 	Icon				=	HCCrisps9,
         Carbohydrates 			= 	72,
@@ -144,7 +144,7 @@ module Hydrocraft
 
 	HungerChange			=	-12,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Cherry Snack Tarts,
 	Icon				=	HCSnacktartsred,
         Carbohydrates 			= 	76,
@@ -160,7 +160,7 @@ module Hydrocraft
 
 	HungerChange			=	-12,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Berry Snack Tarts,
 	Icon				=	HCSnacktartsblue,
         Carbohydrates 			= 	76,
@@ -175,7 +175,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Box of Berry Snack Tarts,
 	Icon				=	HCSnacktartsbluebox,
         Carbohydrates 			= 	304,
@@ -190,7 +190,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Box of Cherry Snack Tarts,
 	Icon				=	HCSnacktartsredbox,
         Carbohydrates 			= 	304,

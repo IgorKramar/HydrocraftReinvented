@@ -4,7 +4,7 @@ module Hydrocraft
     item HCChocolateshavings
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Chocolate Shavings,
 	UnhappyChange			=	-40,
 	HungerChange			=	-20,
@@ -23,7 +23,7 @@ module Hydrocraft
 
 	HungerChange		=	-40,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange		=	-10,
 	DisplayName			=	White Chocolate,
 	Icon				=	HCChocolatewhite,
@@ -42,7 +42,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Dark Chocolate,
 	Icon				=	HCChocolatedark,
@@ -62,7 +62,7 @@ module Hydrocraft
 	HungerChange			=	-40,
 	UnhappyChange			=	-10,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Trail Mix,
 	Icon				=	HCTrailmix,
 	FoodType			=	NoExplicit,
@@ -82,7 +82,7 @@ module Hydrocraft
 	UnhappyChange			=	-10,
 	FatigueChange			=	-10,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Energy Bar,
 	Icon				=	HCEnergybar,
 	FoodType			=	NoExplicit,
@@ -98,7 +98,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.1,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta    		=   0.20,
     DisplayName         = 	Pack of Chewing Gum,
@@ -111,7 +111,7 @@ module Hydrocraft
 
 	HungerChange			=	-1,
 	Weight				=	0.01,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Stick of Chewing Gum,
 	Icon				=	HCGumstick,
@@ -129,7 +129,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.1,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta    		=   	0.20,
     DisplayName         = 	Pack of Chewing Gum,
@@ -142,7 +142,7 @@ module Hydrocraft
 
 	HungerChange		=	-1,
 	Weight				=	0.01,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange		=	-10,
 	DisplayName			=	Stick of Chewing Gum,
 	Icon				=	HCGumstick2,
@@ -160,7 +160,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.1,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta    		=   0.20,
     DisplayName         = 	Pack of Chewing Gum,
@@ -173,7 +173,7 @@ module Hydrocraft
 
 	HungerChange			=	-1,
 	Weight				=	0.01,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Stick of Chewing Gum,
 	Icon				=	HCGumstick3,
@@ -192,7 +192,7 @@ module Hydrocraft
 
 		HungerChange		=	-25,
 		Weight				=	0.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-10,
 		DisplayName			=	Candy Corn,
 		Icon				=	HCCandycorn,
@@ -211,7 +211,7 @@ module Hydrocraft
 
 	HungerChange		=	-30,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange		=	-10,
 	DisplayName			=	Rainbow Chocolate Candy,
 	Icon				=	HCCandymnm,
@@ -230,7 +230,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Rainbow Fruit Candy,
 	Icon				=	HCCandyrainbow,
@@ -249,7 +249,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Gummy Bears,
 	Icon				=	HCGummybears,
@@ -268,7 +268,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Gummy Worms,
 	Icon				=	HCGummyworms,
@@ -287,7 +287,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Jellybeans,
 	Icon				=	HCJellybeans,
@@ -306,7 +306,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Taffy,
 	Icon				=	HCTaffy,
@@ -325,7 +325,7 @@ module Hydrocraft
 
 	HungerChange			=	-5,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Cherry Candy,
 	Icon				=	HCCandycherry,
@@ -342,7 +342,7 @@ module Hydrocraft
 
 	HungerChange			=	-5,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Apple Candy,
 	Icon				=	HCCandyapple,
@@ -359,7 +359,7 @@ module Hydrocraft
 
 	HungerChange	        	=	-50,
 	Weight	        		=	0.5,
-	Type	        		=	Food,
+	ItemType	        		=	base:food,
 	DisplayName			=	Mixed Candy,
         UnhappyChange			=	-20,
 	Icon	        		=	HCCandymixed,
@@ -377,7 +377,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	-10,
 	DisplayName			=	Fruit Leather,
 	Icon				=	HCFruitleather,

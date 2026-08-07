@@ -6,7 +6,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 0.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 6,
         DisplayName         = Wicker Basket,
         Icon                = HCWickerbasket,
@@ -17,7 +17,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 0.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 9,
         DisplayName         = Birch Bark Basket,
         Icon                = HCBirchbarkbasket,
@@ -28,7 +28,7 @@ module Hydrocraft
 
         WeightReduction     = 50,
         Weight              = 0.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 16,
         DisplayName         = Straw Basket,
         Icon                = HCStrawbasket,
@@ -39,7 +39,7 @@ module Hydrocraft
 
         Weight    		= 0.2,
 	CanStoreWater		= TRUE,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Birch Bark Cup,
 	ReplaceOnUseOn		= WaterSource-HCBirchbarkcupfull,
         icon 			= HCBirchbarkcup,
@@ -53,7 +53,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight			=	1,
 	CanStoreWater		=	TRUE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta		=	0.07,
 	IsCookable		=	TRUE,

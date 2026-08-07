@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 10,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Gem Cutter Wheel,
         icon 			= HCGemcutter,
 		DisplayCategory	= CraftGem,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Jade,
         icon 			= HCJade,
 		DisplayCategory 	= Mineral,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Jade,
         icon 			= HCJadecut,
 		DisplayCategory	= CraftGem,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Quartz Crystal,
         icon 			= HCQuartz,
 	DisplayCategory 	= Mineral,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Quartz Crystal,
         icon 			= HCQuartzcut,
 		DisplayCategory	= CraftGem,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Blue Quartz Crystal,
         icon 			= HCQuartzblue,
 	DisplayCategory 	= Mineral,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Blue Quartz Crystal,
         icon 			= HCQuartzbluecut,
 		DisplayCategory	= CraftGem,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Rose Quartz Crystal,
         icon 			= HCQuartzrose,
 	DisplayCategory 	= Mineral,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Rose Quartz Crystal,
         icon 			= HCQuartzrosecut,
 		DisplayCategory	= CraftGem,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Smokey Quartz Crystal,
         icon 			= HCQuartzsmokey,
 	DisplayCategory 	= Mineral,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Smokey Quartz Crystal,
         icon 			= HCQuartzsmokeycut,
 		DisplayCategory	= CraftGem,
@@ -104,7 +104,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Citrine Quartz Crystal,
         icon 			= HCQuartzcitrine,
 	DisplayCategory 	= Mineral,
@@ -113,7 +113,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Citrine Quartz Crystal,
         icon 			= HCQuartzcitrinecut,
 		DisplayCategory	= CraftGem,
@@ -122,7 +122,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Amethyst,
         icon 			= HCAmethyst,
 	DisplayCategory 	= Mineral,
@@ -131,7 +131,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Amethyst,
         icon 			= HCAmethystcut,
 		DisplayCategory	= CraftGem,
@@ -140,7 +140,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Azurite,
         icon 			= HCAzurite,
 	DisplayCategory 	= Mineral,
@@ -150,7 +150,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Azurite,
         icon 			= HCAzuritecut,
 		DisplayCategory	= CraftGem,
@@ -159,7 +159,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Diamond,
         icon 			= HCDiamond,
 	DisplayCategory 	= Mineral,
@@ -168,7 +168,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Diamond,
         icon 			= HCDiamondcut,
 		DisplayCategory	= CraftGem,
@@ -177,7 +177,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Emerald,
         icon 			= HCEmerald,
 	DisplayCategory 	= Mineral,
@@ -186,7 +186,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Emerald,
         icon 			= HCEmeraldcut,
 		DisplayCategory	= CraftGem,
@@ -195,7 +195,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Fire Agate,
         icon 			= HCFireagate,
 	DisplayCategory 	= Mineral,
@@ -204,7 +204,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Fire Agate,
         icon 			= HCFireagatecut,
 		DisplayCategory	= CraftGem,
@@ -213,7 +213,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Garnet,
         icon 			= HCGarnet,
 	DisplayCategory 	= Mineral,
@@ -222,7 +222,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Garnet,
         icon 			= HCGarnetcut,
 		DisplayCategory	= CraftGem,
@@ -231,7 +231,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Lapis Lazuli,
         icon 			= HCLapislazuli,
 	DisplayCategory 	= Mineral,
@@ -240,7 +240,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Malachite,
         icon 			= HCMalachite,
 		DisplayCategory	= CraftGem,
@@ -249,7 +249,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Lapis Lazuli,
         icon 			= HCLapislazulicut,
 	DisplayCategory 	= Mineral,
@@ -258,7 +258,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Malachite,
         icon 			= HCMalachitecut,
 		DisplayCategory	= CraftGem,
@@ -267,7 +267,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Olivine,
         icon 			= HCOlivine,
 	DisplayCategory 	= Mineral,
@@ -276,7 +276,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Olivine,
         icon 			= HCOlivinecut,
 		DisplayCategory	= CraftGem,
@@ -285,7 +285,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Rhodonite,
         icon 			= HCRhodonite,
 	DisplayCategory 	= Mineral,
@@ -294,7 +294,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Rhodonite,
         icon 			= HCRhodonitecut,
 		DisplayCategory	= CraftGem,
@@ -303,7 +303,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Ruby,
         icon 			= HCRuby,
 	DisplayCategory 	= Mineral,
@@ -312,7 +312,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Ruby,
         icon 			= HCRubycut,
 		DisplayCategory	= CraftGem,
@@ -321,7 +321,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sapphire,
         icon 			= HCSapphire,
 	DisplayCategory 	= Mineral,
@@ -330,7 +330,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Sapphire,
         icon 			= HCSapphirecut,
 		DisplayCategory	= CraftGem,
@@ -339,7 +339,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Topaz,
         icon 			= HCTopaz,
 	DisplayCategory 	= Mineral,
@@ -348,7 +348,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Topaz,
         icon 			= HCTopazcut,
 		DisplayCategory	= CraftGem,
@@ -357,7 +357,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Turquoise,
         icon 			= HCTurquoise,
 	DisplayCategory 	= Mineral,
@@ -366,7 +366,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Turquoise,
         icon 			= HCTurquoisecut,
 		DisplayCategory	= CraftGem,
@@ -375,7 +375,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Amazonite,
         icon 			= HCAmazonite,
 	DisplayCategory 	= Mineral,
@@ -384,7 +384,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cut Amazonite,
         icon 			= HCAmazonitecut,
 		DisplayCategory	= CraftGem,
@@ -393,7 +393,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Lepidolite,
         icon 			= HCLepidolite,
 	DisplayCategory 	= Mineral,

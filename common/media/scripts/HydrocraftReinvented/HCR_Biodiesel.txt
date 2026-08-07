@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Wooden Bucket with Vegetable Oil,
         icon 			= HCWoodenbucketvegoil,
 	DisplayCategory	=   CraftChem,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pot of Uncooked Vegetable Oil,
         icon 			= HCPotvegoil,
 	DisplayCategory	=   CraftChem,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pot of Cooked Vegetable Oil,
         icon 			= HCPotvegoilcooked,
 	DisplayCategory	=   CraftChem,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Wooden Washtub with Methoxide,
         icon 			= HCWashtubmethoxide,
 	DisplayCategory	=   CraftChem,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Wooden Washtub with Raw Biodiesel,
         icon 			= HCWashtubrawbiodiesel,
 	DisplayCategory	=   CraftChem,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Wooden Washtub with Unwashed Biodiesel,
         icon 			= HCWashtubunwashedbiodiesel,
 	DisplayCategory	=   CraftChem,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Wooden Washtub with Washed Biodiesel,
         icon 			= HCWashtubwashedbiodiesel,
 	DisplayCategory	=   CraftChem,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
 	Weight			= 5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
 	DisplayName		= Biodiesel Can,
 	Icon			= HCBiodieselcan,
 	DisplayCategory	=   Fuel,

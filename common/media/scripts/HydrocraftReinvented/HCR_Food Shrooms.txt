@@ -7,7 +7,7 @@ module Hydrocraft
 	HungerChange			=		-20,
 	BoredomChange			=		-10,
 	Weight				=		0.8,
-	Type				=		Food,
+	ItemType				=		base:food,
 	UnhappyChange			=		-15,
 	DisplayName			=		Bunch of Mushrooms,
 	Icon				=		HCBunchofshrooms,
@@ -25,7 +25,7 @@ module Hydrocraft
 
 	HungerChange			=		-15,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Portobello Mushroom,
 	Icon				=		HCPortobello,
 	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
@@ -44,7 +44,7 @@ module Hydrocraft
 
 	HungerChange			=		-15,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Shiitake Mushroom,
 	Icon				=		HCShiitake,
 	FoodType    			=   		Vegetables,
@@ -63,7 +63,7 @@ module Hydrocraft
 
 	HungerChange			=		-15,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Blewit Mushroom,
 	Icon				=		HCBlewitmushroom,
 	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
@@ -82,7 +82,7 @@ module Hydrocraft
 
 	HungerChange			=		-15,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Lobster Mushroom,
 	Icon				=		HCLobstermushroom,
 	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
@@ -101,7 +101,7 @@ module Hydrocraft
 
 	HungerChange			=		-15,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	IsCookable			=		TRUE,
 	DangerousUncooked		=		TRUE,
 	MinutesToCook			=		30,
@@ -124,7 +124,7 @@ module Hydrocraft
 
 	HungerChange			=		-15,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	IsCookable			=		TRUE,
 	DangerousUncooked		=		TRUE,
 	MinutesToCook			=		30,
@@ -147,7 +147,7 @@ module Hydrocraft
 
 	HungerChange			=		-15,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Chantrelle,
 	Icon				=		HCChantrelle,
 	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,

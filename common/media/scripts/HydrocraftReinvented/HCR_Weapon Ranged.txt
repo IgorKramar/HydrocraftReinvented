@@ -6,7 +6,7 @@ module Hydrocraft
 
         	DisplayName    	=    	Duct Tape Fletching,
         	Icon        	=    	HCDucttapefletching,
-        	Type        	=    	Normal,
+        	ItemType        	=    	base:normal,
         	Weight        	=    	0.1,
 			DisplayCategory	=		CraftAmmo,
     }
@@ -15,7 +15,7 @@ module Hydrocraft
 
         	DisplayName    	=    	Bone Arrowhead,
         	Icon        	=    	HCBonearrowhead,
-        	Type        	=    	Normal,
+        	ItemType        	=    	base:normal,
         	Weight        	=    	0.1,
 			DisplayCategory	=		CraftAmmo,
     }
@@ -24,7 +24,7 @@ module Hydrocraft
 
         CanStack    =   FALSE,
         Weight  =   0.2,
-        Type    =   Normal,
+        ItemType    =   base:normal,
         DisplayName =   UZI Magazine,
         Icon    =   BerettaClip,
         MaxAmmo = 30,
@@ -35,7 +35,7 @@ module Hydrocraft
     item HCUziSilencer
     {
 
-        Type = WeaponPart,
+        ItemType = base:weaponpart,
         DisplayName = Pistol Silencer,
         Icon = HCUziSilencer,
         Weight = 1,
@@ -55,7 +55,7 @@ module Hydrocraft
         WeaponSprite    =  Handgun02,
         SoundVolume =   30,
         MinAngle    =   0.95,
-        Type    =   Weapon,
+        ItemType    =   base:weapon,
         MinimumSwingTime    =   0.5,
         ToHitModifier   =   1.5,
         NPCSoundBoost   =   1.5,
@@ -135,7 +135,7 @@ module Hydrocraft
 
     CanStack        =   FALSE,
     Weight          =   0.2,
-    Type            =   Normal,
+    ItemType            =   base:normal,
     DisplayName     =   AA12 Magazine,
     Icon            =   HCMagAA12,
     MaxAmmo         =   20,
@@ -153,7 +153,7 @@ module Hydrocraft
 	WeaponSprite					=	Hydrocraft.HCAA12Shotgun,
 	SoundVolume						=	150,
 	MinAngle						=	0.9,
-	Type							=	Weapon,
+	ItemType							=	base:weapon,
 	KnockBackOnNoDeath				=	TRUE,
 	Ranged							=	TRUE,
 	ProjectileCount					=	6,
@@ -223,7 +223,7 @@ module Hydrocraft
     item HCShotgunSilencer
     {
 
-        Type = WeaponPart,
+        ItemType = base:weaponpart,
         DisplayName = Shotgun Silencer,
         Icon = HCUziSilencer,
         Weight = 1,
@@ -241,7 +241,7 @@ module Hydrocraft
 		Count		=	1,
 		DisplayName	=	Crossbow Bolt,
 		Icon		=	HCXbowbolt,
-        Type        	=    	Normal,
+        ItemType        	=    	base:normal,
         DisplayCategory =    	Ammo,
 		Weight		=	0.05,
     }
@@ -249,7 +249,7 @@ module Hydrocraft
     {
 
         Weight          =   0.01,
-        Type            =   Normal,
+        ItemType            =   base:normal,
         DisplayName             =   Metal Arrowhead,
         icon            =   HCBonearrowhead,
 			DisplayCategory	=		CraftAmmo,
@@ -260,7 +260,7 @@ module Hydrocraft
         Count		=	1,
         DisplayName	=	Arrow,
         Icon		=	HCArrow,
-        Type = Normal,
+        ItemType = base:normal,
         DisplayCategory =    	Ammo,
         Weight		=	0.05,
         WorldStaticModel = Hydrocraft.HCArrow,
@@ -271,7 +271,7 @@ module Hydrocraft
         Count		=	1,
         DisplayName	=	Arrows,
         Icon		=	HCArrow,
-        Type = WeaponPart,
+        ItemType = base:weaponpart,
         DisplayCategory =    	Ammo,
         Weight		=	0.05,
         WorldStaticModel = Hydrocraft.HCArrowAttachment,
@@ -283,7 +283,7 @@ module Hydrocraft
 
         CanStack    =   FALSE,
         Weight  =   0.5,
-        Type    =   WeaponPart,
+        ItemType    =   base:weaponpart,
         DisplayName =   Longbow Magazine,
         Icon    =   HCMagLongbow,
         MaxAmmo = 8,
@@ -301,7 +301,7 @@ module Hydrocraft
         WeaponSprite    =   Hydrocraft.HCLongbowDrawn,
         SoundVolume =   40,
         MinAngle    =   0.95,
-        Type    =   Weapon,
+        ItemType    =   base:weapon,
         MinimumSwingTime    =   1.5,
         ToHitModifier   =   1.5,
         NPCSoundBoost   =   1.5,
@@ -372,7 +372,7 @@ module Hydrocraft
         WeaponSprite    =   Hydrocraft.HCCrossbow,
         SoundVolume =   40,
         MinAngle    =   0.95,
-        Type    =   Weapon,
+        ItemType    =   base:weapon,
         MinimumSwingTime    =   1.5,
         ToHitModifier   =   1.5,
         NPCSoundBoost   =   1.5,
@@ -439,7 +439,7 @@ module Hydrocraft
     item x2CrossbowScope
     {
 
-        Type = WeaponPart,
+        ItemType = base:weaponpart,
         DisplayName = x2 Crossbow Scope,
         Icon = Scope2x,
         Weight = 0.3,
@@ -455,7 +455,7 @@ module Hydrocraft
     item x4CrossbowScope
     {
 
-        Type = WeaponPart,
+        ItemType = base:weaponpart,
         DisplayName = x4 Crossbow Scope,
         Icon = Scope4x,
         Weight = 0.4,
@@ -476,7 +476,7 @@ module Hydrocraft
         WeaponSprite    =   Hydrocraft.HCLongbow,
         SoundVolume =   40,
         MinAngle    =   0.95,
-        Type    =   Weapon,
+        ItemType    =   base:weapon,
         MinimumSwingTime    =   1.5,
         ToHitModifier   =   1.5,
         NPCSoundBoost   =   1.5,

@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.2,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Desk Bell,
 	Icon			=	HCDeskbell,
 			DisplayCategory	=   Misc,

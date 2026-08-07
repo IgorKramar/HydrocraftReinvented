@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Film Canister,
         icon 			= HCFilmcanister,
 		DisplayCategory		=   CraftMisc,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Roll of Film,
         icon 			= HCFilmroll,
 		DisplayCategory		=   CraftMisc,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Film Devloper,
         icon 			= HCPhotodevloper,
 		DisplayCategory		=   CraftMisc,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Film Fixer,
         icon 			= HCPhotofixer,
 		DisplayCategory		=   CraftMisc,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.3,
-	Type			= 	Drainable,
+	ItemType			= 	base:drainable,
 	UseWhileEquipped	= 	FALSE,
 	UseDelta		= 	0.25,
         DisplayName         	= 	Photo Lacquer,
@@ -52,7 +52,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Red Flashlight Bulb,
         Icon			=	HCFlashlightbulbred,
 		DisplayCategory		=   CraftMisc,
@@ -62,7 +62,7 @@ module Hydrocraft
 
 	WeightReduction         = 0,
 	Weight             	= 10,
-	Type                	= Container,
+	ItemType                	= base:container,
 	Capacity             	= 50,
         DisplayName         	= Photography Workbench,
         icon 			= HCPhotobench,

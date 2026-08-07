@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 		DisplayCategory	 = CraftCarp,	
-		Type    		 = Normal,
+		ItemType    		 = base:normal,
 		DisplayName      = Axe Handle,
         Weight			 = 1,
         icon 			 = HCAxehandle,
@@ -15,7 +15,7 @@ module Hydrocraft
     {
 
 		DisplayCategory	 = CraftMet,	
-		Type    		 = Normal,
+		ItemType    		 = base:normal,
 		DisplayName      = Axe Head,			
         Weight			 = 2,
         icon 			 = HCAxehead,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
 		DisplayCategory	 = CraftMet,
-		Type    		 = Normal,
+		ItemType    		 = base:normal,
         Weight			 = 2,
         DisplayName      = Worn Axe Head,
         icon 			 = HCAxehead,
@@ -35,7 +35,7 @@ module Hydrocraft
     {
 
         Weight			 = 2,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = Blunt Axe Head,
         icon 			 = HCAxehead,
 		DisplayCategory	 = CraftMet,
@@ -47,7 +47,7 @@ module Hydrocraft
 		MaxRange			=	1.6,
 		WeaponSprite			=	Fireaxe,
 		MinAngle			=	0.2,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3.5,
 		KnockBackOnNoDeath		=	TRUE,
 		SwingAmountBeforeImpact		=	0.002,
@@ -89,7 +89,7 @@ module Hydrocraft
 		MaxRange			=	1.5,
 		WeaponSprite			=	Fireaxe,
 		MinAngle			=	0.2,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3.5,
 		KnockBackOnNoDeath		=	TRUE,
 		SwingAmountBeforeImpact		=	0.002,
@@ -131,7 +131,7 @@ module Hydrocraft
 		MaxRange			=	1.5,
 		WeaponSprite			=	Fireaxe,
 		MinAngle			=	0.2,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3.5,
 		KnockBackOnNoDeath		=	TRUE,
 		SwingAmountBeforeImpact		=	0.002,
@@ -173,7 +173,7 @@ module Hydrocraft
 		MaxRange			=	1.5,
 		WeaponSprite			=	Fireaxe,
 		MinAngle			=	0.2,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3.5,
 		KnockBackOnNoDeath		=	TRUE,
 		SwingAmountBeforeImpact		=	0.002,
@@ -213,7 +213,7 @@ module Hydrocraft
     {
 
 		DisplayName					=	Survival Axe,
-		Type						=	Weapon,
+		ItemType						=	base:weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
 		WeaponSprite				=	Hydrocraft.HCSurvivalaxe,
@@ -255,7 +255,7 @@ module Hydrocraft
     {
 
 		DisplayName					=	Steel Hatchet,
-		Type						=	Weapon,
+		ItemType						=	base:weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
 		WeaponSprite					=	Hydrocraft.HCHatchetsteel,
@@ -297,7 +297,7 @@ module Hydrocraft
     {
 
 		DisplayName					=	Iron Hatchet,
-		Type						=	Weapon,
+		ItemType						=	base:weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
 		WeaponSprite					=	Hydrocraft.HCHatchetiron,
@@ -341,7 +341,7 @@ module Hydrocraft
 		MaxRange					=	1.5,
 		WeaponSprite				=	Hydrocraft.HCSkullsplitter,
 		MinAngle					=	0.2,
-		Type						=	Weapon,
+		ItemType						=	base:weapon,
 		MinimumSwingTime			=	3.0,
 		KnockBackOnNoDeath			=	TRUE,
 		SwingAmountBeforeImpact		=	0.002,
@@ -383,7 +383,7 @@ module Hydrocraft
 		MaxRange					=	1.5,
 		WeaponSprite					=	Fireaxe,
 		MinAngle					=	0.2,
-		Type						=	Weapon,
+		ItemType						=	base:weapon,
 		MinimumSwingTime				=	3.0,
 		KnockBackOnNoDeath				=	TRUE,
 		SwingAmountBeforeImpact				=	0.002,

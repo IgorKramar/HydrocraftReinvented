@@ -6,7 +6,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	DangerousUncooked		=	TRUE,
 	MinutesToCook			=	10,
@@ -26,7 +26,7 @@ module Hydrocraft
     {
 
 		HungerChange		=	-70,
-		Type				=	Food,
+		ItemType				=	base:food,
 		Weight				=	2,	
 		BoredomChange		=	-35,
 		UnhappyChange		=	-35,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight				=	2,
-        Type				=	Food,
+        ItemType				=	base:food,
         DisplayName			=	Fettuccine Pasta,
         Icon				=	HCPastafettuccine,
         HungerChange    		=   	-60,
@@ -67,7 +67,7 @@ module Hydrocraft
     {
 
         Weight				=	2,
-        Type				=	Food,
+        ItemType				=	base:food,
         DisplayName			=	Macaroni Pasta,
         Icon				=	HCPastamacaroni,
         HungerChange    		=   	-60,
@@ -84,7 +84,7 @@ module Hydrocraft
     {
 
         Weight				=	2,
-        Type				=	Food,
+        ItemType				=	base:food,
         DisplayName			=	Rotini Pasta,
         Icon				=	HCPastarotini,
         HungerChange    		=   	-60,

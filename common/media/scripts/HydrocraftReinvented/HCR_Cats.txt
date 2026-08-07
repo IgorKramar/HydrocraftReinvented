@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 		Weight    		= 0.1,
-		Type    		= Normal,
+		ItemType    		= base:normal,
 		DisplayName         	= Cat Poop,
 		icon 			= HCCatpoop,
 		DisplayCategory	= AnimalPoop,
@@ -15,7 +15,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatmale,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatfemale,
@@ -35,7 +35,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatdead,
@@ -45,7 +45,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatblackmale,
@@ -55,7 +55,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatblackfemale,
@@ -65,7 +65,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatblackdead,
@@ -75,7 +75,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatbluemale,
@@ -85,7 +85,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatbluefemale,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatbluedead,
@@ -105,7 +105,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatbrownmale,
@@ -115,7 +115,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatbrownfemale,
@@ -125,7 +125,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatbrowndead,
@@ -135,7 +135,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatcreammale,
@@ -145,7 +145,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatcreamfemale,
@@ -155,7 +155,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatcreamdead,
@@ -165,7 +165,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatgingermale,
@@ -175,7 +175,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatgingerfemale,
@@ -185,7 +185,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatgingerdead,
@@ -195,7 +195,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatsilvermale,
@@ -205,7 +205,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatsilverfemale,
@@ -215,7 +215,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatsilverdead,
@@ -225,7 +225,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                = 	Container,
+	ItemType                = 	base:container,
 	Capacity            = 	0,
 	DisplayName 		= 	Cat (Male),
 	Icon				=	HCCatwhitemale,
@@ -235,7 +235,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                = 	Container,
+	ItemType                = 	base:container,
 	Capacity            = 	0,
 	DisplayName 		= 	Cat (Female),
 	Icon				=	HCCatwhitefemale,
@@ -245,7 +245,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1,
-	Type                		= 	Container,
+	ItemType                		= 	base:container,
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatwhitedead,

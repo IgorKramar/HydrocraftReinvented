@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight             = 0.8,
-	Type			   = Drainable,
+	ItemType			   = base:drainable,
 	UseDelta 		   = 0.05,
 	DisplayName		   = Box of Garbage Bags,
 	ReplaceOnDeplete   = HCGarbagebagboxempty,
@@ -85,7 +85,7 @@ module Hydrocraft
 
         WeightReduction    	=    100,
         Weight    		    =    0.1,
-        Type    		    =    Container,
+        ItemType    		    =    base:container,
         Capacity    		=    10,
         DisplayName    		=    Doomsday Prepper Bag,
         Icon    		    =    HCPrepperbag,
@@ -100,7 +100,7 @@ module Hydrocraft
 
         WeightReduction         	= 100,
         Weight             		    = 20,
-        Type                		= Container,
+        ItemType                		= base:container,
         Capacity             		= 200,
         DisplayName             	= Wheelbarrow,
         Icon				        = HCWheelbarrow,
@@ -117,7 +117,7 @@ module Hydrocraft
 
 	WeightReduction         	= 100,
 	Weight             		    = 15,
-	Type                		= Container,
+	ItemType                		= base:container,
 	Capacity             		= 190,
 	DisplayName             	= Pallet Truck,
 	Icon				        = HCPallettruck,
@@ -130,7 +130,7 @@ module Hydrocraft
 
 	WeightReduction         	= 100,
 	Weight             		     = 10,
-	Type                		= Container,
+	ItemType                		= base:container,
 	Capacity             		= 180,
 	DisplayName             	= Push Cart,
 	Icon				        = HCPushcart,
@@ -143,7 +143,7 @@ module Hydrocraft
 
 	WeightReduction         	= 100,
 	Weight             		    = 7,
-	Type                		= Container,
+	ItemType                		= base:container,
 	Capacity             		= 170,
 	DisplayName             	= Hand Dolly,
 	Icon				        = HCHanddolly,
@@ -160,7 +160,7 @@ module Hydrocraft
 
 	WeightReduction         	= 100,
 	Weight             		    = 20,
-	Type                		= Container,
+	ItemType                		= base:container,
 	Capacity             		= 200,
 	DisplayName             	= Forklift,
 	Icon				        = HCForklift,
@@ -173,7 +173,7 @@ module Hydrocraft
 
 	WeightReduction        		= 100,
 	Weight             		    = 6,
-	Type                		= Container,
+	ItemType                		= base:container,
 	Capacity             		= 160,
 	DisplayName             	= Shopping Cart,
 	Icon				        = HCShoppingcart,
@@ -186,7 +186,7 @@ module Hydrocraft
 
     WeightReduction        		= 100,
     Weight             		    = 5,
-    Type                		= Container,
+    ItemType                		= base:container,
     Capacity             		= 150,
     DisplayName             	= Toy Wagon,
     Icon				        = HCToywagon,
@@ -203,7 +203,7 @@ module Hydrocraft
 
         WeightReduction     = 40,
         Weight              = 0.1,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 8,
         DisplayName         = Paper Bag,
         Icon                = HCPaperbag,
@@ -214,7 +214,7 @@ module Hydrocraft
 
         WeightReduction     = 20,
         Weight              = 0.1,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 4,
         DisplayName         = Paper Lunch Bag,
         Icon                = HCPaperlunchbag,
@@ -225,7 +225,7 @@ module Hydrocraft
 
         WeightReduction     = 20,
         Weight    		    = 0.1,
-        Type                = Container,
+        ItemType                = base:container,
         DisplayName     	= Spiffo's To-Go Order,
         icon 			    = HCSpiffosorderbag,
 		DisplayCategory	= Container,
@@ -235,7 +235,7 @@ module Hydrocraft
 
         WeightReduction     = 50,
         Weight              = 0.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 4,
         DisplayName         = Fanny Pack,
         Icon                = HCFannypackblue,
@@ -247,7 +247,7 @@ module Hydrocraft
 
         WeightReduction     = 50,
         Weight              = 0.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 4,
         DisplayName         = Fanny Pack,
         Icon                = HCFannypackyellow,
@@ -259,7 +259,7 @@ module Hydrocraft
 
         WeightReduction     = 50,
         Weight              = 0.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 4,
         DisplayName         = Fanny Pack,
         Icon                = HCFannypackred,
@@ -271,7 +271,7 @@ module Hydrocraft
 
         WeightReduction     = 50,
         Weight              = 0.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 4,
         DisplayName         = Fanny Pack,
         Icon                = HCFannypackgreen,
@@ -283,7 +283,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 1.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 10,
         DisplayName         = Briefcase,
         Icon                = HCLeatherbriefcase,
@@ -294,7 +294,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 1.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 15,
         DisplayName         = Duralumin Case,
         Icon                = HCDuralumincase,
@@ -305,7 +305,7 @@ module Hydrocraft
 
         WeightReduction     = 70,
         Weight              = 0.5,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 8,
         DisplayName         = Messenger Bag,
         Icon                = HCMessengerbag,
@@ -317,7 +317,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 0.5,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 8,
         DisplayName         = Pizza Delivery Bag,
         Icon                = HCPizzadeliverybag,
@@ -328,7 +328,7 @@ module Hydrocraft
 
         WeightReduction     = 70,
         Weight              = 0.5,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 12,
         DisplayName         = Mail Bag,
         Icon                = HCMailbag,
@@ -340,7 +340,7 @@ module Hydrocraft
 
         WeightReduction     = 70,
         Weight              = 0.5,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 6,
         DisplayName         = Satchel,
         Icon                = HCSatchel,
@@ -352,7 +352,7 @@ module Hydrocraft
 
         WeightReduction     = 55,
         Weight              = 0.5,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 12,
         DisplayName         = Cloth Tote Bag,
         Icon                = HCClothtotebag,
@@ -363,7 +363,7 @@ module Hydrocraft
 
         WeightReduction     = 80,
         Weight              = 1.5,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 15,
         DisplayName         = Doctor's Bag,
         Icon                = HCMedicalbag,
@@ -377,7 +377,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 1.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 8,
         DisplayName         = Medical Box,
         Icon                = HCMedicalbox,
@@ -388,7 +388,7 @@ module Hydrocraft
 
 		WeightReduction	= 80,
 		Weight			= 2.0,
-		Type			= Container,
+		ItemType			= base:container,
 		Capacity		= 15,
 		DisplayName		= Golf Bag,
 		Icon			= HCGolfbag,
@@ -402,7 +402,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 1.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 10,
         DisplayName         = Cosmetic Case,
         Icon                = HCCosmeticcase,
@@ -413,7 +413,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 0.5,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 6,
         DisplayName         = Lunch Box,
         Icon                = HCLunchbox,
@@ -424,7 +424,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 0.1,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 5,
         DisplayName         = Seed Bag,
         Icon                = HCSeedbag,
@@ -435,7 +435,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 0.1,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 5,
         DisplayName         = Shoe Box,
         Icon                = HCShoebox,
@@ -446,7 +446,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 1.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 8,
         DisplayName         = Metal Tool Box,
         Icon                = HCToolbox,
@@ -457,7 +457,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 0.8,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 6,
         DisplayName         = Wooden Tool Box,
         Icon                = HCWoodentoolbox,
@@ -468,7 +468,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 0.6,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 4,
         DisplayName         = Metal Box,
         Icon                = HCMetalbox,
@@ -479,7 +479,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 0.8,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 6,
         DisplayName         = Fishing Tackle Box,
         Icon                = HCFishingbox,
@@ -490,7 +490,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 0.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 12,
         DisplayName         = Fishing Basket,
         Icon                = HCFishingbasket,
@@ -501,7 +501,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 1.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 10,
         DisplayName         = Wooden Crate,
         Icon                = HCWoodencrate,
@@ -512,7 +512,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 25,
         DisplayName         = Toy Chest,
         Icon                = HCToychest,
@@ -523,7 +523,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 0.4,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 20,
         DisplayName         = Large Plastic Bin,
         Icon                = HCPlasticbin,
@@ -534,7 +534,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 0.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 10,
         DisplayName         = Small Plastic Bin,
         Icon                = HCPlasticbin2,
@@ -545,7 +545,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 0.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 20,
         DisplayName         = Cardboard Box,
         Icon                = HCCardboardbox,
@@ -555,7 +555,7 @@ module Hydrocraft
     {
 
         Weight    	     = 0.5,
-        Type    	     = Normal,
+        ItemType    	     = base:normal,
         DisplayName      = Stack of Cardboard Boxes,
         icon 		     = HCCardboardboxstack,
 		DisplayCategory	= Container,
@@ -564,7 +564,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Cardboard Flat,
         icon 			= HCCardboardflat,
 		DisplayCategory	= Useless,
@@ -574,7 +574,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 1.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 16,
         DisplayName         = Leather Bag,
         Icon                = HCLeatherbag,
@@ -585,7 +585,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 1.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 16,
         DisplayName         = Suitcase,
         Icon                = HCSuitcase,
@@ -596,7 +596,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 1.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 16,
         DisplayName         = Luggage,
         Icon                = HCLuggage,
@@ -607,7 +607,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 1.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 16,
         DisplayName         = Roller Luggage,
         Icon                = HCLuggage2,
@@ -618,7 +618,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 2.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 32,
         DisplayName         = Trunk,
         Icon                = HCTrunk,
@@ -629,7 +629,7 @@ module Hydrocraft
 
         WeightReduction     		= 60,
         Weight              		= 4.0,
-        Type                		= Container,
+        ItemType                		= base:container,
         Capacity            		= 32,
         DisplayName         		= Chest,
         Icon                		= HCChest,
@@ -641,7 +641,7 @@ module Hydrocraft
 
         WeightReduction     = 60,
         Weight              = 0.5,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 8,
         DisplayName         = Cooler,
         Icon                = HCCooler,
@@ -652,7 +652,7 @@ module Hydrocraft
 
         WeightReduction    		= 60,
         Weight              		= 1.0,
-        Type                		= Container,
+        ItemType                		= base:container,
         Capacity            		= 16,
         DisplayName         		= Ice Chest,
         Icon                		= HCIcechest,
@@ -664,7 +664,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 0.1,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 10,
         DisplayName         = Pillowcase,
         Icon                = HCPillowcase,
@@ -697,7 +697,7 @@ module Hydrocraft
 
         WeightReduction     = 50,
         Weight              = 0.4,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 12,
         DisplayName         = Improvised Handbag,
         Icon                = HCImprovisedhandbag,
@@ -708,7 +708,7 @@ module Hydrocraft
 
         WeightReduction     = 40,
         Weight              = 0.2,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 15,
         DisplayName         = Bindle,
         Icon                = HCBindle,
@@ -720,7 +720,7 @@ module Hydrocraft
 
         WeightReduction     = 65,
         Weight              = 1.5,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 10,
         DisplayName         = Shoulder Pole,
         Icon                = HCShoulderpole,
@@ -732,7 +732,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 45.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate1,
@@ -743,7 +743,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 45.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate2,
@@ -754,7 +754,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 50.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate3,
@@ -765,7 +765,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 10.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate4,
@@ -776,7 +776,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 10.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate5,
@@ -787,7 +787,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 10.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate6,
@@ -798,7 +798,7 @@ module Hydrocraft
 
         WeightReduction     = 10,
         Weight              = 10.0,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate7,

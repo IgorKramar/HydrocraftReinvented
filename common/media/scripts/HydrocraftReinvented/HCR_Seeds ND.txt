@@ -4,7 +4,7 @@ module Hydrocraft
     item HCTomatocherryseeds
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Tomatocherry Seeds,
 	    Icon			= HCTomatocherryseeds,
 	    Weight			= 0.009,
@@ -13,7 +13,7 @@ module Hydrocraft
     item HCTomatocherryseedspacket
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Tomatocherry Packet,
 	    Icon			= HCTomatocherryseedspacket,
 	    Weight			= 0.1,
@@ -52,7 +52,7 @@ module Hydrocraft
     item HCSquashsummerseeds
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Squashsummer Seeds,
 	    Icon			= HCSquashsummerseeds,
 	    Weight			= 0.009,
@@ -61,7 +61,7 @@ module Hydrocraft
     item HCSquashsummerseedspacket
     {
 
-	    Type			= 	Normal,
+	    ItemType			= 	base:normal,
 	    DisplayName		= Squashsummer Packet,
 	    Icon			= HCSquashsummerseedspacket,
 	    Weight			= 0.1,
@@ -101,7 +101,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.009,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Cauliflower Seeds,
         icon 			= HCCauliflowerseeds,
 		DisplayCategory	= SurFarm,
@@ -109,7 +109,7 @@ module Hydrocraft
     item HCCauliflowerseedspacket
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Cauliflower Seeds Packet,
 	    Icon			= HCCauliflowerseedspacket,
         Weight			= 0.1,
@@ -149,7 +149,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.009,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Persimmon Seeds,
         icon 			= HCPersimmonseeds,
 		DisplayCategory	= SurFarm,
@@ -157,7 +157,7 @@ module Hydrocraft
     item HCPersimmonseedspacket
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Persimmon Seeds Packet,
 	    Icon			= HCPersimmonseedspacket,
 	    Weight			= 0.1,
@@ -197,7 +197,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.009,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Plum Seeds,
         icon 			= HCPlumseeds,
 		DisplayCategory	= SurFarm,
@@ -205,7 +205,7 @@ module Hydrocraft
     item HCPlumseedspacket
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Plum Seeds Packet,
 	    Icon			= HCPlumseedspacket,
 	    Weight			= 0.1,
@@ -245,7 +245,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.009,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Kiwi Seeds,
         icon 			= HCKiwiseeds,
 		DisplayCategory	= SurFarm,
@@ -253,7 +253,7 @@ module Hydrocraft
     item HCKiwiseedspacket
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Kiwi Seeds Packet,
 	    Icon			= HCKiwiseedspacket,
 	    Weight			= 0.1,
@@ -293,7 +293,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.009,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Fig Seeds,
         icon 			= HCFigseeds,
 		DisplayCategory	= SurFarm,
@@ -301,7 +301,7 @@ module Hydrocraft
     item HCFigseedspacket
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Fig Seeds Packet,
 	    Icon			= HCFigseedspacket,
 	    Weight			= 0.1,
@@ -341,7 +341,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.009,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Date Seeds,
         icon 			= HCDateseeds,
 		DisplayCategory	= SurFarm,
@@ -349,7 +349,7 @@ module Hydrocraft
     item HCDateseedspacket
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Date Seeds Packet,
 	    Icon			= HCDateseedspacket,
 	    Weight			= 0.1,
@@ -389,7 +389,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.009,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Grape green Seeds,
         icon 			= HCGrapesgreenseeds,
 		DisplayCategory	= SurFarm,
@@ -397,7 +397,7 @@ module Hydrocraft
     item HCGrapesgreenseedspacket
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Grapesgreen Seeds Packet,
 	    Icon			= HCGrapesgreenseedspacket,
 	    Weight			= 0.1,
@@ -437,7 +437,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.009,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Lime Seeds,
         icon 			= HCLimeseeds,
 		DisplayCategory	= SurFarm,
@@ -445,7 +445,7 @@ module Hydrocraft
     item HCLimeseedspacket
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Lime Seeds Packet,
 	    Icon			= HCLimeseedspacket,
 	    Weight			= 0.1,
@@ -484,7 +484,7 @@ module Hydrocraft
     item HCWheat
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Wheat,
 	    Icon			= HCwheat,
 	    Weight			= 0.009,
@@ -493,7 +493,7 @@ module Hydrocraft
     item HCWheatseedpacket
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Wheat Seeds Packet,
 	    Icon			= HCwheatseedpacket,
 	    Weight			= 0.1,

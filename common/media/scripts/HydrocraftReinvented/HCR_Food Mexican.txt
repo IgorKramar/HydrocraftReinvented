@@ -7,7 +7,7 @@ module Hydrocraft
 	HungerChange			=	-20,
 	Weight 				= 	0.5,
 	AlwaysWelcomeGift 		= 	true,
-	Type 				= 	Food,
+	ItemType 				= 	base:food,
 	DisplayName 			= 	Bottle of Taco Sauce,
 	Icon 				= 	HCTacosaucebottle,
         Spice   			=   	true,
@@ -25,7 +25,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bowl of Taco Sauce,
 	ReplaceOnUse			=	Bowl,
 	Icon				=	HCTacosaucebowl,
@@ -47,7 +47,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Jar of Guacamole,
 	Icon				=	HCGuacamolejar,
 	DaysTotallyRotten		=	8,
@@ -68,7 +68,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bowl of Guacamole,
 	ReplaceOnUse			=	Bowl,
 	Icon				=	HCGuacamolebowl,
@@ -90,7 +90,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Jar of Salsa,
 	Icon				=	HCSalsajar,
 	DaysTotallyRotten		=	8,
@@ -111,7 +111,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bowl of Salsa,
 	ReplaceOnUse			=	Bowl,
 	Icon				=	HCSalsabowl,
@@ -133,7 +133,7 @@ module Hydrocraft
 
 	HungerChange			=	-40,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Jar of Nacho Cheese,
 	Icon				=	HCNachojar,
 	DaysTotallyRotten		=	8,
@@ -154,7 +154,7 @@ module Hydrocraft
 
 	HungerChange			=	-40,
 	Weight				=	1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bowl of Nacho Cheese,
 	ReplaceOnUse			=	Bowl,
 	Icon				=	HCNachobowl,
@@ -176,7 +176,7 @@ module Hydrocraft
 
 	HungerChange			=	-35,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Sour Cream,
 	Icon				=	HCSourcream,
 	DaysTotallyRotten		=	7,
@@ -196,7 +196,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bag of Corn Tortillas,
 	Icon				=	HCTortillacornbag,
 	FoodType    			=   	NoExplicit,
@@ -211,7 +211,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bag of Flour Tortillas,
 	Icon				=	HCTortillaflourbag,
 	FoodType    			=   	NoExplicit,
@@ -227,7 +227,7 @@ module Hydrocraft
 
 	HungerChange			=	-5,
 	Weight				=	0.02,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Corn Tortilla,
 	Icon				=	HCTortillacorn,
 	DaysFresh			=	3,
@@ -244,7 +244,7 @@ module Hydrocraft
 
 	HungerChange			=	-5,
 	Weight				=	0.02,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Flour Tortilla,
 	Icon				=	HCTortillaflour,
 	DaysFresh			=	3,
@@ -261,7 +261,7 @@ module Hydrocraft
 
 	HungerChange			=	-35,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Quesadilla,
 	Icon				=	HCQuesadilla,
 	ReplaceOnUse			=	Pan,
@@ -280,7 +280,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Burrito,
 	Icon				=	HCBurrito,
 	ReplaceOnUse			=	Pan,
@@ -303,7 +303,7 @@ module Hydrocraft
 
 	HungerChange			=	-35,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Burrito Grande,
 	Icon				=	HCBurrito,
 	ReplaceOnUse			=	Pan,
@@ -326,7 +326,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Taquito,
 	Icon				=	HCTaquito,
 	ReplaceOnUse			=	Pan,
@@ -350,7 +350,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Taco,
 	Icon				=	HCTacocorn,
 	ReplaceOnUse			=	Pan,
@@ -374,7 +374,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Taco Grande,
 	Icon				=	HCTacocorn,
 	ReplaceOnUse			=	Pan,
@@ -397,7 +397,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Soft Taco,
 	Icon				=	HCTacoflour,
 	ReplaceOnUse			=	Pan,
@@ -421,7 +421,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Soft Taco Grande,
 	Icon				=	HCTacoflour,
 	ReplaceOnUse			=	Pan,
@@ -444,7 +444,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Fish Taco,
 	Icon				=	HCTacofish,
 	ReplaceOnUse			=	Pan,
@@ -468,7 +468,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Corned Beef Taco,
 	Icon				=	HCTacocorn,
 	ReplaceOnUse			=	Pan,
@@ -491,7 +491,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Enchiladas,
 	Icon				=	HCEnchilada,
 	ReplaceOnUse			=	Pan,
@@ -515,7 +515,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.1,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bag of Tortilla Chips,
 	Icon				=	HCTortillachipsbag,
         EvolvedRecipe 			= 	Soup:2;Stew:2;Salad:2,
@@ -533,7 +533,7 @@ module Hydrocraft
 
 	HungerChange			=	-20,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Jar of Salsa Verde,
 	Icon				=	HCSalsagreenjar,
 	DaysTotallyRotten		=	8,
@@ -554,7 +554,7 @@ module Hydrocraft
 
 	HungerChange			=	-25,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Nachos,
 	Icon				=	HCNachos,
 	ReplaceOnUse			=	Bowl,
@@ -575,7 +575,7 @@ module Hydrocraft
 
 	HungerChange			=	-35,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Nachos Grande,
 	Icon				=	HCNachosgrande,
 	ReplaceOnUse			=	Bowl,
@@ -596,7 +596,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,
@@ -619,7 +619,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,
@@ -642,7 +642,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,
@@ -665,7 +665,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,
@@ -688,7 +688,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,

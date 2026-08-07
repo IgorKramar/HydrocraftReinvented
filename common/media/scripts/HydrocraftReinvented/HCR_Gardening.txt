@@ -6,7 +6,7 @@ module Hydrocraft
 
 	WeightReduction         = 0,
 	Weight             	= 10,
-	Type                	= Container,
+	ItemType                	= base:container,
 	Capacity             	= 50,
     DisplayName         	= Gardening Workbench,
     icon 			= HCGardenbench,
@@ -16,7 +16,7 @@ module Hydrocraft
     {
 
     Weight        	= 5.0,
-    Type        	= Normal,
+    ItemType        	= base:normal,
     DisplayName    	= Planter,
     icon        	= HCPlanter,
 	DisplayCategory          =   SurFarm,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
         Weight    	= 1,
-        Type    	= Normal,
+        ItemType    	= base:normal,
         DisplayName 	= Clay Flowerpot with Dirt,
         icon 		= HCClayflowerpotwithdirt,
 	DisplayCategory          =   SurFarm,
@@ -34,7 +34,7 @@ module Hydrocraft
     {
 
         Weight    			= 6,
-        Type    			= Drainable,
+        ItemType    			= base:drainable,
         DisplayName         		= Garden Hose,
         icon 				= HCGardenhose,
 	UseDelta 			= 0.1,
@@ -45,7 +45,7 @@ module Hydrocraft
     {
 
 	Weight			=	6,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Fish Tank with Spirulina,
 	Icon			=	HCSpirulinatank,
 	DisplayCategory          =   SurFarm,
@@ -54,7 +54,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Garden Apron,
         icon 				= HCGardenapron,
 	DisplayCategory          =   SurFarm,
@@ -63,7 +63,7 @@ module Hydrocraft
     {
 
         Weight    			= 1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Garden Gnome,
         icon 				= HCGardengnome,
 	DisplayCategory          =   Misc,
@@ -72,7 +72,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Wind Chimes,
         icon 				= HCWindchimes,
 	DisplayCategory          =   Misc,
@@ -81,7 +81,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Hand Cultivator,
         icon 				= HCHandcultivator,
 	DisplayCategory          =   SurFarm,
@@ -90,7 +90,7 @@ module Hydrocraft
     {
 
         Weight    			= 1.5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Hedge Trimmer Blade,
         icon 				= HCHedgetrimmerblade,
 	DisplayCategory          =   Craft,
@@ -99,7 +99,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.8,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Hedge Cutter Blade,
         icon 				= HCHedgecutterblade,
 	DisplayCategory          =   Craft,
@@ -108,7 +108,7 @@ module Hydrocraft
     {
 
         Weight    			= 1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Post Hole Digger,
         icon 				= HCPostholedigger,
 	DisplayCategory          =   CraftRec,
@@ -117,7 +117,7 @@ module Hydrocraft
     {
 
         Weight    			= 1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Looper,
         icon 				= HCLooper,
 	DisplayCategory          =   Craft,
@@ -126,7 +126,7 @@ module Hydrocraft
     {
 
         Weight    			= 1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Weed Wacker,
         icon 				= HCWeedwacker,
 	DisplayCategory          =   CraftElec,
@@ -135,7 +135,7 @@ module Hydrocraft
     {
 
         Weight    			= 5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Lawnmower,
         icon 				= HCLawnmower,
 	DisplayCategory          =   CraftElec,
@@ -143,7 +143,7 @@ module Hydrocraft
     item TrellisKit
     {
 
-	Type				= Normal,
+	ItemType				= base:normal,
 	DisplayName			= Trellis Kit,
 	Icon				= HCTrelliskit,
 	Weight				= 0.5,
@@ -155,7 +155,7 @@ module Hydrocraft
 		MaxRange			=	1.5,
 		WeaponSprite			=	Fireaxe,
 		MinAngle			=	0.2,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3.0,
 		KnockBackOnNoDeath		=	TRUE,
 		SwingAmountBeforeImpact		=	0.002,
@@ -195,7 +195,7 @@ module Hydrocraft
 		MaxRange			=	0.9,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		KnockBackOnNoDeath		=	FALSE,
 		SwingAmountBeforeImpact		=	0.02,
@@ -234,7 +234,7 @@ module Hydrocraft
 		MaxRange					=	0.9,
 		WeaponSprite					=	Knife,
 		MinAngle					=	0,
-		Type						=	Weapon,
+		ItemType						=	base:weapon,
 		MinimumSwingTime				=	2,
 		KnockBackOnNoDeath				=	FALSE,
 		SwingAmountBeforeImpact				=	0.02,
@@ -542,7 +542,7 @@ module Hydrocraft
     {
 
     Weight      		= 25,
-    Type        		= Normal,
+    ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
     DisplayName 		= Potted Rubber Tree,
     icon        		= HCPottedrubbertree,
@@ -552,7 +552,7 @@ module Hydrocraft
     {
 
         Weight      		= 25,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	    UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Apple Tree,
         icon        		= HCPottedappletree,
@@ -562,7 +562,7 @@ module Hydrocraft
     {
 
         Weight      		= 25,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Banana Tree,
         icon        		= HCPottedbananatree,
@@ -572,7 +572,7 @@ module Hydrocraft
     {
 
         Weight      		= 15,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blackberry Bush,
         icon        		= HCPottedblackberrybush,
@@ -582,7 +582,7 @@ module Hydrocraft
     {
 
         Weight      		= 15,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blueberry Bush,
         icon        		= HCPottedblueberrybush,
@@ -592,7 +592,7 @@ module Hydrocraft
     {
 
         Weight      		= 25,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Orange Tree,
         icon        		= HCPottedorangetree,
@@ -602,7 +602,7 @@ module Hydrocraft
     {
 
         Weight      		= 25,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Peach Tree,
         icon        		= HCPottedpeachtree,
@@ -612,7 +612,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Strawberry Bush,
         icon        		= HCPottedstrawberrybush,
@@ -622,7 +622,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Watermelon,
         icon        		= HCPottedwatermelon,
@@ -632,7 +632,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Bell Pepper,
         icon        		= HCPottedbellpepper,
@@ -642,7 +642,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Broccoli,
         icon        		= HCPottedbroccoli,
@@ -652,7 +652,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cabbage,
         icon        		= HCPottedcabbage,
@@ -662,7 +662,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Carrots,
         icon        		= HCPottedcarrots,
@@ -672,7 +672,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Corn Stalk,
         icon        		= HCPottedcorn,
@@ -682,7 +682,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Eggplant,
         icon        		= HCPottedeggplant,
@@ -692,7 +692,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Leek,
         icon        		= HCPottedleek,
@@ -702,7 +702,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Lettuce,
         icon        		= HCPottedlettuce,
@@ -712,7 +712,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Onion,
         icon        		= HCPottedonion,
@@ -722,7 +722,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pea Plant,
         icon        		= HCPottedpeaplant,
@@ -732,7 +732,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Potato,
         icon        		= HCPottedpotato,
@@ -742,7 +742,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pumpkin,
         icon        		= HCPottedpumpkin,
@@ -752,7 +752,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Radish,
         icon        		= HCPottedradish,
@@ -762,7 +762,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tomato,
         icon        		= HCPottedtomato,
@@ -772,7 +772,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Peanut Plant,
         icon        		= HCPottedpeanutplant,
@@ -782,7 +782,7 @@ module Hydrocraft
     {
 
         Weight      		= 25,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Avocado Tree,
         icon        		= HCPottedavocadotree,
@@ -792,7 +792,7 @@ module Hydrocraft
     {
 
         Weight      		= 25,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cherry Tree,
         icon        		= HCPottedcherrytree,
@@ -802,7 +802,7 @@ module Hydrocraft
     {
 
         Weight      		= 25,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pear Tree,
         icon        		= HCPottedpeartree,
@@ -812,7 +812,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pineapple,
         icon        		= HCPottedpineapple,
@@ -822,7 +822,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Zucchini,
         icon        		= HCPottedzucchini,
@@ -832,7 +832,7 @@ module Hydrocraft
     {
 
         Weight      		= 15,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tea Tree,
         icon        		= HCPottedtea,
@@ -842,7 +842,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Hemp Plant,
         icon        		= HCPottedhemp,
@@ -852,7 +852,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tobacco Plant,
         icon        		= HCPottedtobacco,
@@ -862,7 +862,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Chinese Cabbage,
         icon        		= HCPottedchinesecabbage,
@@ -872,7 +872,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cucumber,
         icon        		= HCPottedcucumber,
@@ -882,7 +882,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Ginger,
         icon        		= HCPottedginger,
@@ -892,7 +892,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Garlic,
         icon        		= HCPottedgarlic,
@@ -902,7 +902,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Green Onion,
         icon        		= HCPottedoniongreen,
@@ -912,7 +912,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Sweet Potato,
         icon        		= HCPottedsweetpotato,
@@ -922,7 +922,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Jute Plant,
         icon        		= HCPottedjute,
@@ -932,7 +932,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Green Pumpkin,
         icon        		= HCPottedpumpkingreen,
@@ -942,7 +942,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted White Pumpkin,
         icon        		= HCPottedpumpkinwhite,
@@ -952,7 +952,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Large Pumpkin,
         icon        		= HCPottedpumpkinlarge,
@@ -962,7 +962,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Buskin Pumpkin,
         icon        		= HCPottedpumpkinbuskin,
@@ -972,7 +972,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted White Corn,
         icon        		= HCPottedcornwhite,
@@ -982,7 +982,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Red Corn,
         icon        		= HCPottedcornred,
@@ -992,7 +992,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blue Corn,
         icon        		= HCPottedcornblue,
@@ -1002,7 +1002,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Chili Pepper Plant,
         icon        		= HCPottedchilipepperplant,
@@ -1012,7 +1012,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Poppy,
         icon        		= HCPottedpoppy,
@@ -1022,7 +1022,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cactus,
         Icon        		= HCPottedcactus,
@@ -1032,7 +1032,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blue Agave,
         Icon        		= HCPottedagaveblue,
@@ -1042,7 +1042,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Prickly Pear Cactus,
         Icon        		= HCPottedpricklypearcactus,
@@ -1052,7 +1052,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Green Chili,
         Icon        		= HCPottedchilipepperplant,
@@ -1062,7 +1062,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tomatillo Plant,
         Icon        		= HCPottedtomatilloplant,
@@ -1072,7 +1072,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cotton Plant,
         icon        		= HCPottedcottonplant,
@@ -1082,7 +1082,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Rice,
         icon        		= HCPottedrice,
@@ -1092,7 +1092,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Shiitake Mushrooms,
         icon        		= HCPottedshiitake,
@@ -1102,7 +1102,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Portobello Mushrooms,
         icon        		= HCPottedportobello,
@@ -1112,7 +1112,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Colewort,
         icon        		= HCPottedcolewort,
@@ -1122,7 +1122,7 @@ module Hydrocraft
     {
 
         Weight      		= 25,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Rubber Tree,
         icon        		= HCPottedrubbertree,
@@ -1132,7 +1132,7 @@ module Hydrocraft
     {
 
 	Weight			=	6,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Fish Tank with Spirulina,
 	Icon			=	HCSpirulinatank,
 		DisplayCategory			=   SurFarm,
@@ -1141,7 +1141,7 @@ module Hydrocraft
     {
 
         Weight      		= 1,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Basil,
         icon        		= HCPottedbasil,
@@ -1151,7 +1151,7 @@ module Hydrocraft
     {
 
         Weight      		= 1,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Alfalfa,
         icon        		= HCPottedalfalfa,
@@ -1161,7 +1161,7 @@ module Hydrocraft
     {
 
     Weight              = 1,
-    Type                = Normal,
+    ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
     DisplayName         = Potted Oregano,
     icon                = HCPottedalfalfa,
@@ -1171,7 +1171,7 @@ module Hydrocraft
     {
 
         Weight      		= 15,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Bamboo,
         icon        		= HCPottedbamboo,
@@ -1181,7 +1181,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Asparagus,
         icon        		= HCPottedasparagus,
@@ -1191,7 +1191,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Artichokes,
         icon        		= HCPottedartichokes,
@@ -1201,7 +1201,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Beets,
         icon        		= HCPottedbeets,
@@ -1211,7 +1211,7 @@ module Hydrocraft
     {
 
         Weight      		= 15,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Mulberry,
         icon        		= HCPottedmulberry,
@@ -1221,7 +1221,7 @@ module Hydrocraft
     {
 
         Weight      		= 15,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Apricot,
         icon        		= HCPottedapricot,
@@ -1231,7 +1231,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Celery,
         icon        		= HCPottedcelery,
@@ -1241,7 +1241,7 @@ module Hydrocraft
     {
 
         Weight      		= 5,
-    	Type        		= Normal,
+    	ItemType        		= base:normal,
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Spinach,
         icon        		= HCPottedspinach,
@@ -1251,7 +1251,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Cherry Tomato,
         icon                = HCPottedtomato,
@@ -1261,7 +1261,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Cherry Tomato,
         icon                = HCPottedtomatosmall,
@@ -1271,7 +1271,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Cherry Tomato,
         icon                = HCPottedtomatosmalldead,
@@ -1281,7 +1281,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Cherry Tomato,
         icon                = HCPottedtomatosmall,
@@ -1291,7 +1291,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Cherry Tomato,
         icon                = HCPottedtomato,
@@ -1301,7 +1301,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Cherry Tomato,
         icon                = HCPottedtomatodead,
@@ -1311,7 +1311,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Cherry Tomato,
         icon                = HCPottedtomatoready,
@@ -1321,7 +1321,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Sugar Beet,
         icon                = HCPottedbeets,
@@ -1331,7 +1331,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Sugar Beet,
         icon                = HCPottedbeetssmall,
@@ -1341,7 +1341,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Sugar Beet,
         icon                = HCPottedbeetssmalldead,
@@ -1351,7 +1351,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Sugar Beet,
         icon                = HCPottedbeetssmall,
@@ -1361,7 +1361,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Sugar Beet,
         icon                = HCPottedbeets,
@@ -1371,7 +1371,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Sugar Beet,
         icon                = HCPottedbeetsdead,
@@ -1381,7 +1381,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Sugar Beet,
         icon                = HCPottedbeets,
@@ -1391,7 +1391,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Potted Summer Squash,
         icon                = HCPottedSquashsummer,
@@ -1401,7 +1401,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Summer Squash,
         icon                = HCPottedSquashsummersmall,
@@ -1411,7 +1411,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Summer Squash,
         icon                = HCPottedSquashsummersmalldead,
@@ -1421,7 +1421,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Summer Squash,
         icon                = HCPottedSquashsummersmall,
@@ -1431,7 +1431,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Summer Squash,
         icon                = HCPottedSquashsummer,
@@ -1441,7 +1441,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Summer Squash,
         icon                = HCPottedSquashsummerdead,
@@ -1451,7 +1451,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Summer Squash,
         icon                = HCPottedSquashsummerready,
@@ -1461,7 +1461,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Red Potato,
         icon                = HCPottedpotato,
@@ -1471,7 +1471,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Red Potato,
         icon                = HCPottedpotatosmall,
@@ -1481,7 +1481,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Red Potato,
         icon                = HCPottedpotatosmalldead,
@@ -1491,7 +1491,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Red Potato,
         icon                = HCPottedpotatosmall,
@@ -1501,7 +1501,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Red Potato,
         icon                = HCPottedpotato,
@@ -1511,7 +1511,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Red Potato,
         icon                = HCPottedpotatodead,
@@ -1521,7 +1521,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Red Potato,
         icon                = HCPottedpotatoready,
@@ -1531,7 +1531,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Golden Potatoes,
         icon                = HCPottedpotato,
@@ -1541,7 +1541,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Golden Potatoes,
         icon                = HCPottedpotatosmall,
@@ -1551,7 +1551,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Golden Potatoes,
         icon                = HCPottedpotatosmalldead,
@@ -1561,7 +1561,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Golden Potatoes,
         icon                = HCPottedpotatosmall,
@@ -1571,7 +1571,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Golden Potatoes,
         icon                = HCPottedpotato,
@@ -1581,7 +1581,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Golden Potatoes,
         icon                = HCPottedpotatodead,
@@ -1591,7 +1591,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Golden Potatoes,
         icon                = HCPottedpotato,
@@ -1601,7 +1601,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted White Cabbage,
         icon                = HCPottedCabbagewhite,
@@ -1611,7 +1611,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted White Cabbage,
         icon                = HCPottedCabbagewhitesmall,
@@ -1621,7 +1621,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted White Cabbage,
         icon                = HCPottedCabbagewhitesmalldead,
@@ -1631,7 +1631,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted White Cabbage,
         icon                = HCPottedCabbagewhitesmall,
@@ -1641,7 +1641,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted White Cabbage,
         icon                = HCPottedCabbagewhite,
@@ -1651,7 +1651,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted White Cabbage,
         icon                = HCPottedCabbagewhitedead,
@@ -1661,7 +1661,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted White Cabbage,
         icon                = HCPottedCabbagewhiteready,
@@ -1671,7 +1671,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Red Cabbage,
         icon                = HCPottedCabbagered,
@@ -1681,7 +1681,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Red Cabbage,
         icon                = HCPottedCabbageredsmall,
@@ -1691,7 +1691,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Red Cabbage,
         icon                = HCPottedCabbageredsmalldead,
@@ -1701,7 +1701,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Red Cabbage,
         icon                = HCPottedCabbageredsmall,
@@ -1711,7 +1711,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Red Cabbage,
         icon                = HCPottedCabbagered,
@@ -1721,7 +1721,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Red Cabbage,
         icon                = HCPottedCabbagereddead,
@@ -1731,7 +1731,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Red Cabbage,
         icon                = HCPottedCabbageredready,
@@ -1741,7 +1741,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Yellow Bell Pepper,
         icon                = HCPottedbellpepper,
@@ -1751,7 +1751,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Yellow Bell Pepper,
         icon                = HCPottedbellpeppersmall,
@@ -1761,7 +1761,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Yellow Bell Pepper,
         icon                = HCPottedbellpeppersmalldead,
@@ -1771,7 +1771,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Yellow Bell Pepper,
         icon                = HCPottedbellpeppersmall,
@@ -1781,7 +1781,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Yellow Bell Pepper,
         icon                = HCPottedbellpepper,
@@ -1791,7 +1791,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Yellow Bell Pepper,
         icon                = HCPottedbellpepperdead,
@@ -1801,7 +1801,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Yellow Bell Pepper,
         icon                = HCPottedBellpepperyellowready,
@@ -1811,7 +1811,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Green Bell Pepper,
         icon                = HCPottedbellpepper,
@@ -1821,7 +1821,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Green Bell Pepper,
         icon                = HCPottedbellpeppersmall,
@@ -1831,7 +1831,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Green Bell Pepper,
         icon                = HCPottedbellpeppersmalldead,
@@ -1841,7 +1841,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Green Bell Pepper,
         icon                = HCPottedbellpeppersmall,
@@ -1851,7 +1851,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Green Bell Pepper,
         icon                = HCPottedbellpepper,
@@ -1861,7 +1861,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Green Bell Pepper,
         icon                = HCPottedbellpepperdead,
@@ -1871,7 +1871,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Green Bell Pepper,
         icon                = HCPottedBellpeppergreenready,
@@ -1881,7 +1881,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Cauliflower,
         icon                = HCPottedCauliflower,
@@ -1891,7 +1891,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Cauliflower,
         icon                = HCPottedCauliflowersmall,
@@ -1901,7 +1901,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Cauliflower,
         icon                = HCPottedCauliflowersmalldead,
@@ -1911,7 +1911,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Cauliflower,
         icon                = HCPottedCauliflowersmall,
@@ -1921,7 +1921,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Cauliflower,
         icon                = HCPottedCauliflower,
@@ -1931,7 +1931,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Cauliflower,
         icon                = HCPottedCauliflowerdead,
@@ -1941,7 +1941,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Cauliflower,
         icon                = HCPottedCauliflowerready,
@@ -1951,7 +1951,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Beans,
         icon                = HCPottedBeans,
@@ -1961,7 +1961,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Beans,
         icon                = HCPottedBeanssmall,
@@ -1971,7 +1971,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Beans,
         icon                = HCPottedBeanssmalldead,
@@ -1981,7 +1981,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Beans,
         icon                = HCPottedBeanssmall,
@@ -1991,7 +1991,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Beans,
         icon                = HCPottedBeans,
@@ -2001,7 +2001,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Beans,
         icon                = HCPottedBeansdead,
@@ -2011,7 +2011,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Beans,
         icon                = HCPottedBeansready,
@@ -2021,7 +2021,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Persimmon,
         icon                = HCPottedPersimmon,
@@ -2031,7 +2031,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Persimmon,
         icon                = HCPottedPersimmonsmall,
@@ -2041,7 +2041,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Persimmon,
         icon                = HCPottedPersimmonsmalldead,
@@ -2051,7 +2051,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Persimmon,
         icon                = HCPottedPersimmonsmall,
@@ -2061,7 +2061,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Persimmon,
         icon                = HCPottedPersimmon,
@@ -2071,7 +2071,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Persimmon,
         icon                = HCPottedPersimmondead,
@@ -2081,7 +2081,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Persimmon,
         icon                = HCPottedPersimmonready,
@@ -2091,7 +2091,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Plum,
         icon                = HCPottedPlum,
@@ -2101,7 +2101,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Plum,
         icon                = HCPottedPlumsmall,
@@ -2111,7 +2111,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Plum,
         icon                = HCPottedPlumsmalldead,
@@ -2121,7 +2121,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Plum,
         icon                = HCPottedPlumsmall,
@@ -2131,7 +2131,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Plum,
@@ -2141,7 +2141,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Plum,
@@ -2151,7 +2151,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Plum,
@@ -2161,7 +2161,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Potted Kiwi,
@@ -2171,7 +2171,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Kiwi,
@@ -2181,7 +2181,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Kiwi,
@@ -2191,7 +2191,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Kiwi,
@@ -2201,7 +2201,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Kiwi,
@@ -2211,7 +2211,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Kiwi,
@@ -2221,7 +2221,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Kiwi,
@@ -2231,7 +2231,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Potted Fig,
@@ -2241,7 +2241,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Fig,
@@ -2251,7 +2251,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Fig,
@@ -2261,7 +2261,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Fig,
@@ -2271,7 +2271,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Fig,
@@ -2281,7 +2281,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Fig,
@@ -2291,7 +2291,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Fig,
@@ -2301,7 +2301,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Potted Date,
@@ -2311,7 +2311,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Date,
@@ -2321,7 +2321,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Date,
@@ -2331,7 +2331,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Date,
@@ -2341,7 +2341,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Date,
@@ -2351,7 +2351,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Date,
@@ -2361,7 +2361,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Date,
@@ -2371,7 +2371,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Potted Lime Tree,
@@ -2381,7 +2381,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Lime Tree,
@@ -2391,7 +2391,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Lime Tree,
@@ -2401,7 +2401,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Lime Tree,
@@ -2411,7 +2411,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Lime Tree,
@@ -2421,7 +2421,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Lime Tree,
@@ -2431,7 +2431,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Lime Tree,
@@ -2441,7 +2441,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Wheat,
@@ -2451,7 +2451,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Wheat,
@@ -2461,7 +2461,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Wheat,
@@ -2471,7 +2471,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Potted Wheat,
@@ -2481,7 +2481,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Wheat,
@@ -2491,7 +2491,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Wheat,
@@ -2501,7 +2501,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Wheat,
@@ -2511,7 +2511,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Apple Tree,
@@ -2521,7 +2521,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Apple Tree,
@@ -2531,7 +2531,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Apple Tree,
@@ -2541,7 +2541,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Apple Tree,
@@ -2551,7 +2551,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Apple Tree,
@@ -2561,7 +2561,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Apple Tree,
@@ -2571,7 +2571,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Banana Tree,
@@ -2581,7 +2581,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Banana Tree,
@@ -2591,7 +2591,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Banana Tree,
@@ -2601,7 +2601,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Banana Tree,
@@ -2611,7 +2611,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Banana Tree,
@@ -2621,7 +2621,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Banana Tree,
@@ -2631,7 +2631,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Blackberry Bush,
@@ -2641,7 +2641,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Blackberry Bush,
@@ -2651,7 +2651,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Blackberry Bush,
@@ -2661,7 +2661,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Blackberry Bush,
@@ -2671,7 +2671,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Blackberry Bush,
@@ -2681,7 +2681,7 @@ module Hydrocraft
     {
 
     Weight              = 15,
-    Type                = Normal,
+    ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
     DisplayName         = Ready Potted Blackberry Bush,
     icon                = HCPottedblackberrybushready,
@@ -2690,7 +2690,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Blueberry Bush,
@@ -2700,7 +2700,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Blueberry Bush,
@@ -2710,7 +2710,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Blueberry Bush,
@@ -2720,7 +2720,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Blueberry Bush,
@@ -2730,7 +2730,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Blueberry Bush,
@@ -2740,7 +2740,7 @@ module Hydrocraft
     {
 
     Weight              = 15,
-    Type                = Normal,
+    ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
     DisplayName         = Ready Potted Blueberry Bush,
     icon                = HCPottedblueberrybushready,
@@ -2749,7 +2749,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Potted Mulberry,
@@ -2759,7 +2759,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Potted Candleberry Tree,
@@ -2769,7 +2769,7 @@ module Hydrocraft
     {
 
     Weight              = 5,
-    Type                = Normal,
+    ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
     DisplayName         = Potted Lemon Tree,
     icon                = HCPottedGeneric,
@@ -2778,7 +2778,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Orange Tree,
@@ -2788,7 +2788,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Orange Tree,
@@ -2798,7 +2798,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Orange Tree,
@@ -2808,7 +2808,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Orange Tree,
@@ -2818,7 +2818,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Orange Tree,
@@ -2828,7 +2828,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Orange Tree,
@@ -2838,7 +2838,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Peach Tree,
@@ -2848,7 +2848,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Peach Tree,
@@ -2858,7 +2858,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Peach Tree,
@@ -2868,7 +2868,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Peach Tree,
@@ -2878,7 +2878,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Peach Tree,
@@ -2888,7 +2888,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Peach Tree,
@@ -2898,7 +2898,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Strawberry Bush,
@@ -2908,7 +2908,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Strawberry Bush,
@@ -2918,7 +2918,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Strawberry Bush,
@@ -2928,7 +2928,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Strawberry Bush,
@@ -2938,7 +2938,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Strawberry Bush,
@@ -2948,7 +2948,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Strawberry Bush,
@@ -2958,7 +2958,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Watermelon,
@@ -2968,7 +2968,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Watermelon,
@@ -2978,7 +2978,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Watermelon,
@@ -2988,7 +2988,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Watermelon,
@@ -2998,7 +2998,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Watermelon,
@@ -3008,7 +3008,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Watermelon,
@@ -3018,7 +3018,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Bell Pepper,
@@ -3028,7 +3028,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Bell Pepper,
@@ -3038,7 +3038,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Bell Pepper,
@@ -3048,7 +3048,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Bell Pepper,
@@ -3058,7 +3058,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Bell Pepper,
@@ -3068,7 +3068,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Bell Pepper,
@@ -3078,7 +3078,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Broccoli,
@@ -3088,7 +3088,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Broccoli,
@@ -3098,7 +3098,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Broccoli,
@@ -3108,7 +3108,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Broccoli,
@@ -3118,7 +3118,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Broccoli,
@@ -3128,7 +3128,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Broccoli,
@@ -3138,7 +3138,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Cabbage,
@@ -3148,7 +3148,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Cabbage,
@@ -3158,7 +3158,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Cabbage,
@@ -3168,7 +3168,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Cabbage,
@@ -3178,7 +3178,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Cabbage,
@@ -3188,7 +3188,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Cabbage,
@@ -3198,7 +3198,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Carrots,
@@ -3208,7 +3208,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Carrots,
@@ -3218,7 +3218,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Carrots,
@@ -3228,7 +3228,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Carrots,
@@ -3238,7 +3238,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Carrots,
@@ -3248,7 +3248,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Carrots,
@@ -3258,7 +3258,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Corn Stalk,
@@ -3268,7 +3268,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Corn Stalk,
@@ -3278,7 +3278,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Corn Stalk,
@@ -3288,7 +3288,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Corn Stalk,
@@ -3298,7 +3298,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Corn Stalk,
@@ -3308,7 +3308,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Corn Stalk,
@@ -3318,7 +3318,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Eggplant,
@@ -3328,7 +3328,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Eggplant,
@@ -3338,7 +3338,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Eggplant,
@@ -3348,7 +3348,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Eggplant,
@@ -3358,7 +3358,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Eggplant,
@@ -3368,7 +3368,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Eggplant,
@@ -3378,7 +3378,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Leek,
@@ -3388,7 +3388,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Leek,
@@ -3398,7 +3398,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Leek,
@@ -3408,7 +3408,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Leek,
@@ -3418,7 +3418,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Leek,
@@ -3428,7 +3428,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Leek,
@@ -3438,7 +3438,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Lettuce,
@@ -3448,7 +3448,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Lettuce,
@@ -3458,7 +3458,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Lettuce,
@@ -3468,7 +3468,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Lettuce,
@@ -3478,7 +3478,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Lettuce,
@@ -3488,7 +3488,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Lettuce,
@@ -3498,7 +3498,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Onion,
@@ -3508,7 +3508,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Onion,
@@ -3518,7 +3518,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Onion,
@@ -3528,7 +3528,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Onion,
@@ -3538,7 +3538,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Onion,
@@ -3548,7 +3548,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Onion,
@@ -3558,7 +3558,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Pea Plant,
@@ -3568,7 +3568,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Pea Plant,
@@ -3578,7 +3578,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Pea Plant,
@@ -3588,7 +3588,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Pea Plant,
@@ -3598,7 +3598,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Pea Plant,
@@ -3608,7 +3608,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Pea Plant,
@@ -3618,7 +3618,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Potato,
@@ -3628,7 +3628,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Potato,
@@ -3638,7 +3638,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Potato,
@@ -3648,7 +3648,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Potato,
@@ -3658,7 +3658,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Potato,
@@ -3668,7 +3668,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Potato,
@@ -3678,7 +3678,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Pumpkin,
@@ -3688,7 +3688,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Pumpkin,
@@ -3698,7 +3698,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Pumpkin,
@@ -3708,7 +3708,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Pumpkin,
@@ -3718,7 +3718,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Pumpkin,
@@ -3728,7 +3728,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Pumpkin,
@@ -3738,7 +3738,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Radish,
@@ -3748,7 +3748,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Radish,
@@ -3758,7 +3758,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Radish,
@@ -3768,7 +3768,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Radish,
@@ -3778,7 +3778,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Radish,
@@ -3788,7 +3788,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Radish,
@@ -3798,7 +3798,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Tomato,
@@ -3808,7 +3808,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Tomato,
@@ -3818,7 +3818,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Tomato,
@@ -3828,7 +3828,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Tomato,
@@ -3838,7 +3838,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Tomato,
@@ -3848,7 +3848,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Tomato,
@@ -3858,7 +3858,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Peanut Plant,
@@ -3868,7 +3868,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Peanut Plant,
@@ -3878,7 +3878,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Peanut Plant,
@@ -3888,7 +3888,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Peanut Plant,
@@ -3898,7 +3898,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Peanut Plant,
@@ -3908,7 +3908,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Peanut Plant,
@@ -3918,7 +3918,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Avocado Tree,
@@ -3928,7 +3928,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Avocado Tree,
@@ -3938,7 +3938,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Avocado Tree,
@@ -3948,7 +3948,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Avocado Tree,
@@ -3958,7 +3958,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Avocado Tree,
@@ -3968,7 +3968,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Avocado Tree,
@@ -3978,7 +3978,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Cherry Tree,
@@ -3988,7 +3988,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Cherry Tree,
@@ -3998,7 +3998,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Cherry Tree,
@@ -4008,7 +4008,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Cherry Tree,
@@ -4018,7 +4018,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Cherry Tree,
@@ -4028,7 +4028,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Cherry Tree,
@@ -4038,7 +4038,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Pear Tree,
@@ -4048,7 +4048,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Pear Tree,
@@ -4058,7 +4058,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Pear Tree,
@@ -4068,7 +4068,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Pear Tree,
@@ -4078,7 +4078,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Pear Tree,
@@ -4088,7 +4088,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Pear Tree,
@@ -4098,7 +4098,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Pineapple,
@@ -4108,7 +4108,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Pineapple,
@@ -4118,7 +4118,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Pineapple,
@@ -4128,7 +4128,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Pineapple,
@@ -4138,7 +4138,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Pineapple,
@@ -4148,7 +4148,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Pineapple,
@@ -4158,7 +4158,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Zucchini,
@@ -4168,7 +4168,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Zucchini,
@@ -4178,7 +4178,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Zucchini,
@@ -4188,7 +4188,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Zucchini,
@@ -4198,7 +4198,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Zucchini,
@@ -4208,7 +4208,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Zucchini,
@@ -4218,7 +4218,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Tea Tree,
@@ -4228,7 +4228,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Tea Tree,
@@ -4238,7 +4238,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Tea Tree,
@@ -4248,7 +4248,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Tea Tree,
@@ -4258,7 +4258,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Tea Tree,
@@ -4268,7 +4268,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Tea Tree,
@@ -4278,7 +4278,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Hemp Plant,
@@ -4288,7 +4288,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Hemp Plant,
@@ -4298,7 +4298,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Hemp Plant,
@@ -4308,7 +4308,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Hemp Plant,
@@ -4318,7 +4318,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Hemp Plant,
@@ -4328,7 +4328,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Hemp Plant,
@@ -4338,7 +4338,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Tobacco Plant,
@@ -4348,7 +4348,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Tobacco Plant,
@@ -4358,7 +4358,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Tobacco Plant,
@@ -4368,7 +4368,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Tobacco Plant,
@@ -4378,7 +4378,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Tobacco Plant,
@@ -4388,7 +4388,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Tobacco Plant,
@@ -4398,7 +4398,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Chinese Cabbage,
@@ -4408,7 +4408,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Chinese Cabbage,
@@ -4418,7 +4418,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Chinese Cabbage,
@@ -4428,7 +4428,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Chinese Cabbage,
@@ -4438,7 +4438,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Chinese Cabbage,
@@ -4448,7 +4448,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Chinese Cabbage,
@@ -4458,7 +4458,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Cucumber,
@@ -4468,7 +4468,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Cucumber,
@@ -4478,7 +4478,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Cucumber,
@@ -4488,7 +4488,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Cucumber,
@@ -4498,7 +4498,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Cucumber,
@@ -4508,7 +4508,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Cucumber,
@@ -4518,7 +4518,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Ginger,
@@ -4528,7 +4528,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Ginger,
@@ -4538,7 +4538,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Ginger,
@@ -4548,7 +4548,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Ginger,
@@ -4558,7 +4558,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Ginger,
@@ -4568,7 +4568,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Ginger,
@@ -4578,7 +4578,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Garlic,
@@ -4588,7 +4588,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Garlic,
@@ -4598,7 +4598,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Garlic,
@@ -4608,7 +4608,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Garlic,
@@ -4618,7 +4618,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Garlic,
@@ -4628,7 +4628,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Garlic,
@@ -4638,7 +4638,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Green Onion,
@@ -4648,7 +4648,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Green Onion,
@@ -4658,7 +4658,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Green Onion,
@@ -4668,7 +4668,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Green Onion,
@@ -4678,7 +4678,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Green Onion,
@@ -4688,7 +4688,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Green Onion,
@@ -4698,7 +4698,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Sweet Potato,
@@ -4708,7 +4708,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Sweet Potato,
@@ -4718,7 +4718,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Sweet Potato,
@@ -4728,7 +4728,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Sweet Potato,
@@ -4738,7 +4738,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Sweet Potato,
@@ -4748,7 +4748,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Sweet Potato,
@@ -4758,7 +4758,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Jute Plant,
@@ -4768,7 +4768,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Jute Plant,
@@ -4778,7 +4778,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Jute Plant,
@@ -4788,7 +4788,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Jute Plant,
@@ -4798,7 +4798,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Jute Plant,
@@ -4808,7 +4808,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Jute Plant,
@@ -4818,7 +4818,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Green Pumpkin,
@@ -4828,7 +4828,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Green Pumpkin,
@@ -4838,7 +4838,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Green Pumpkin,
@@ -4848,7 +4848,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Green Pumpkin,
@@ -4858,7 +4858,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Green Pumpkin,
@@ -4868,7 +4868,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Green Pumpkin,
@@ -4878,7 +4878,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted White Pumpkin,
@@ -4888,7 +4888,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted White Pumpkin,
@@ -4898,7 +4898,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted White Pumpkin,
@@ -4908,7 +4908,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted White Pumpkin,
@@ -4918,7 +4918,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted White Pumpkin,
@@ -4928,7 +4928,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted White Pumpkin,
@@ -4938,7 +4938,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Large Pumpkin,
@@ -4948,7 +4948,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Large Pumpkin,
@@ -4958,7 +4958,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Large Pumpkin,
@@ -4968,7 +4968,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Large Pumpkin,
@@ -4978,7 +4978,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Large Pumpkin,
@@ -4988,7 +4988,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Large Pumpkin,
@@ -4998,7 +4998,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Buskin Pumpkin,
@@ -5008,7 +5008,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Buskin Pumpkin,
@@ -5018,7 +5018,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Buskin Pumpkin,
@@ -5028,7 +5028,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Buskin Pumpkin,
@@ -5038,7 +5038,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Buskin Pumpkin,
@@ -5048,7 +5048,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Buskin Pumpkin,
@@ -5058,7 +5058,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted White Corn,
@@ -5068,7 +5068,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted White Corn,
@@ -5078,7 +5078,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted White Corn,
@@ -5088,7 +5088,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted White Corn,
@@ -5098,7 +5098,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted White Corn,
@@ -5108,7 +5108,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted White Corn,
@@ -5118,7 +5118,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Red Corn,
@@ -5128,7 +5128,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Red Corn,
@@ -5138,7 +5138,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Red Corn,
@@ -5148,7 +5148,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Red Corn,
@@ -5158,7 +5158,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Red Corn,
@@ -5168,7 +5168,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Red Corn,
@@ -5178,7 +5178,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Blue Corn,
@@ -5188,7 +5188,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Blue Corn,
@@ -5198,7 +5198,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Blue Corn,
@@ -5208,7 +5208,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Blue Corn,
@@ -5218,7 +5218,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Blue Corn,
@@ -5228,7 +5228,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Blue Corn,
@@ -5238,7 +5238,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Chili Pepper Plant,
@@ -5248,7 +5248,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Chili Pepper Plant,
@@ -5258,7 +5258,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Chili Pepper Plant,
@@ -5268,7 +5268,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Chili Pepper Plant,
@@ -5278,7 +5278,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Chili Pepper Plant,
@@ -5288,7 +5288,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Chili Pepper Plant,
@@ -5298,7 +5298,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Poppy,
@@ -5308,7 +5308,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Poppy,
@@ -5318,7 +5318,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Poppy,
@@ -5328,7 +5328,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Poppy,
@@ -5338,7 +5338,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Poppy,
@@ -5348,7 +5348,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Poppy,
@@ -5358,7 +5358,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Cactus,
@@ -5368,7 +5368,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Cactus,
@@ -5378,7 +5378,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Cactus,
@@ -5388,7 +5388,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Cactus,
@@ -5398,7 +5398,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Cactus,
@@ -5408,7 +5408,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Cactus,
@@ -5418,7 +5418,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Blue Agave,
@@ -5428,7 +5428,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Blue Agave,
@@ -5438,7 +5438,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Blue Agave,
@@ -5448,7 +5448,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Blue Agave,
@@ -5458,7 +5458,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Blue Agave,
@@ -5468,7 +5468,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Blue Agave,
@@ -5478,7 +5478,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Prickly Pear Cactus,
@@ -5488,7 +5488,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Prickly Pear Cactus,
@@ -5498,7 +5498,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Prickly Pear Cactus,
@@ -5508,7 +5508,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Prickly Pear Cactus,
@@ -5518,7 +5518,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Prickly Pear Cactus,
@@ -5528,7 +5528,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Prickly Pear Cactus,
@@ -5538,7 +5538,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
     UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Potted Jalapeno,
@@ -5548,7 +5548,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Jalapeno,
@@ -5558,7 +5558,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Jalapeno,
@@ -5568,7 +5568,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Jalapeno,
@@ -5578,7 +5578,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Jalapeno,
@@ -5588,7 +5588,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Jalapeno,
@@ -5598,7 +5598,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Jalapeno,
@@ -5608,7 +5608,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Green Chili,
@@ -5618,7 +5618,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Green Chili,
@@ -5628,7 +5628,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Green Chili,
@@ -5638,7 +5638,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Green Chili,
@@ -5648,7 +5648,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Green Chili,
@@ -5658,7 +5658,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Green Chili,
@@ -5668,7 +5668,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Tomatillo Plant,
@@ -5678,7 +5678,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Tomatillo Plant,
@@ -5688,7 +5688,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Tomatillo Plant,
@@ -5698,7 +5698,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Tomatillo Plant,
@@ -5708,7 +5708,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Tomatillo Plant,
@@ -5718,7 +5718,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Tomatillo Plant,
@@ -5728,7 +5728,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Cotton Plant,
@@ -5738,7 +5738,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Cotton Plant,
@@ -5748,7 +5748,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Cotton Plant,
@@ -5758,7 +5758,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Cotton Plant,
@@ -5768,7 +5768,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Cotton Plant,
@@ -5778,7 +5778,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Cotton Plant,
@@ -5788,7 +5788,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Rice,
@@ -5798,7 +5798,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Rice,
@@ -5808,7 +5808,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Rice,
@@ -5818,7 +5818,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Rice,
@@ -5828,7 +5828,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Rice,
@@ -5838,7 +5838,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Rice,
@@ -5848,7 +5848,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Shiitake Mushrooms,
@@ -5858,7 +5858,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Shiitake Mushrooms,
@@ -5868,7 +5868,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Shiitake Mushrooms,
@@ -5878,7 +5878,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Shiitake Mushrooms,
@@ -5888,7 +5888,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Shiitake Mushrooms,
@@ -5898,7 +5898,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Shiitake Mushrooms,
@@ -5908,7 +5908,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Portobello Mushrooms,
@@ -5918,7 +5918,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Portobello Mushrooms,
@@ -5928,7 +5928,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Portobello Mushrooms,
@@ -5938,7 +5938,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Portobello Mushrooms,
@@ -5948,7 +5948,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Portobello Mushrooms,
@@ -5958,7 +5958,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Portobello Mushrooms,
@@ -5968,7 +5968,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Colewort,
@@ -5978,7 +5978,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Colewort,
@@ -5988,7 +5988,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Colewort,
@@ -5998,7 +5998,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Colewort,
@@ -6008,7 +6008,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Colewort,
@@ -6018,7 +6018,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Colewort,
@@ -6028,7 +6028,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Rubber Tree,
@@ -6038,7 +6038,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Rubber Tree,
@@ -6048,7 +6048,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Rubber Tree,
@@ -6058,7 +6058,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Rubber Tree,
@@ -6068,7 +6068,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Rubber Tree,
@@ -6078,7 +6078,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Rubber Tree,
@@ -6088,7 +6088,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-    Type            = Drainable,
+    ItemType            = base:drainable,
     UseWhileEquipped    = FALSE,
     UseDelta        = 1.0,
 		DisplayCategory		= SurFarm,
@@ -6100,7 +6100,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Rubber Tree with Sap Catchers,
@@ -6110,7 +6110,7 @@ module Hydrocraft
     {
 
         Weight              = 25,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Rubber Tree with Sap Catchers,
@@ -6120,7 +6120,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Basil,
@@ -6130,7 +6130,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Basil,
@@ -6140,7 +6140,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Basil,
@@ -6150,7 +6150,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Basil,
@@ -6160,7 +6160,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Basil,
@@ -6170,7 +6170,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Basil,
@@ -6180,7 +6180,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Oregano,
@@ -6190,7 +6190,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Oregano,
@@ -6200,7 +6200,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Oregano,
@@ -6210,7 +6210,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Basil,
@@ -6220,7 +6220,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Oregano,
@@ -6230,7 +6230,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Alfalfa,
@@ -6240,7 +6240,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Alfalfa,
@@ -6250,7 +6250,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Alfalfa,
@@ -6260,7 +6260,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Alfalfa,
@@ -6270,7 +6270,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Alfalfa,
@@ -6280,7 +6280,7 @@ module Hydrocraft
     {
 
         Weight              = 1,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Alfalfa,
@@ -6290,7 +6290,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Bamboo,
@@ -6300,7 +6300,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Bamboo,
@@ -6310,7 +6310,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Bamboo,
@@ -6320,7 +6320,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Bamboo,
@@ -6330,7 +6330,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Bamboo,
@@ -6340,7 +6340,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Bamboo,
@@ -6350,7 +6350,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Asparagus,
@@ -6360,7 +6360,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Asparagus,
@@ -6370,7 +6370,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Dry Potted Asparagus,
@@ -6380,7 +6380,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Asparagus,
@@ -6390,7 +6390,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Asparagus,
@@ -6400,7 +6400,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Asparagus,
@@ -6410,7 +6410,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Artichokes,
@@ -6420,7 +6420,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Artichokes,
@@ -6430,7 +6430,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Artichokes,
@@ -6440,7 +6440,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Artichokes,
@@ -6450,7 +6450,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Artichokes,
@@ -6460,7 +6460,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Artichokes,
@@ -6470,7 +6470,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Beets,
@@ -6480,7 +6480,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Beets,
@@ -6490,7 +6490,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Beets,
@@ -6500,7 +6500,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Beets,
@@ -6510,7 +6510,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Beets,
@@ -6520,7 +6520,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Beets,
@@ -6530,7 +6530,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Apricot,
@@ -6540,7 +6540,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Apricot,
@@ -6550,7 +6550,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Apricot,
@@ -6560,7 +6560,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Apricot,
@@ -6570,7 +6570,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Apricot,
@@ -6580,7 +6580,7 @@ module Hydrocraft
     {
 
         Weight              = 15,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Apricot,
@@ -6590,7 +6590,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Celery,
@@ -6600,7 +6600,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Celery,
@@ -6610,7 +6610,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Celery,
@@ -6620,7 +6620,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Celery,
@@ -6630,7 +6630,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Celery,
@@ -6640,7 +6640,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Celery,
@@ -6650,7 +6650,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Spinach,
@@ -6660,7 +6660,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Spinach,
@@ -6670,7 +6670,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Spinach,
@@ -6680,7 +6680,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Spinach,
@@ -6690,7 +6690,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Spinach,
@@ -6700,7 +6700,7 @@ module Hydrocraft
     {
 
         Weight              = 5,
-        Type                = Normal,
+        ItemType                = base:normal,
         UseWhileEquipped    = FALSE,
 		DisplayCategory		= SurFarm,
         DisplayName         = ReadyPotted Spinach,

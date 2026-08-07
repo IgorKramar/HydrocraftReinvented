@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Mine Hole,
         icon 			= HCMinehole,
 		DisplayCategory	= CraftMine,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 10000,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Mine Hole,
         icon 			= HCMinehole,
 		DisplayCategory	= CraftMine,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Mine Hole with Pully,
         icon 			= HCMinehole2,
 		DisplayCategory	= CraftMine,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 10000,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Mine Hole with Pully,
         icon 			= HCMinehole2,
 		DisplayCategory	= CraftMine,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight          = 30,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Iron Mine,
         icon            = HCMinehole2,
 		DisplayCategory	= CraftMine,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight          = 1000,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Iron Mine,
         icon            = HCMinehole2,
 		DisplayCategory	= CraftMine,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight          = 30,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Coal Mine,
         icon            = HCMinehole2,
 		DisplayCategory	= CraftMine,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight          = 10000,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Coal Mine,
         icon            = HCMinehole2,
 		DisplayCategory	= CraftMine,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dark Mine,
         icon 			= HCDarkmine,
 		DisplayCategory	= CraftMine,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
         Weight    		= 10000,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dark Mine,
         icon 			= HCDarkmine,
 		DisplayCategory	= CraftMine,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dark Mine with Pully,
         icon 			= HCDarkmine2,
 		DisplayCategory	= CraftMine,
@@ -104,7 +104,7 @@ module Hydrocraft
     {
 
         Weight    		= 10000,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dark Mine with Pully,
         icon 			= HCDarkmine2,
 		DisplayCategory	= CraftMine,
@@ -113,7 +113,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dark Mine with Steam Pully,
         icon 			= HCDarkmine3,
 		DisplayCategory	= CraftMine,
@@ -123,7 +123,7 @@ module Hydrocraft
 
         Weight    		= 10000,
         Capacity        = 100,
-        Type            = Container,
+        ItemType            = base:container,
         DisplayName     = Dark Mine with Steam Pully,
         icon 			= HCDarkmine3,
 		DisplayCategory	= CraftMine,
@@ -133,7 +133,7 @@ module Hydrocraft
 
 	WeightReduction        	= 50,
 	Weight             		= 20,
-	Type                	= Container,
+	ItemType                	= base:container,
 	Capacity             	= 200,
 	DisplayName             = Mine Cart,
 	Icon				   = HCMinecart,
@@ -144,7 +144,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Stone Quarry,
         icon 			= HCQuarrystone,
 		DisplayCategory	= CraftMine,
@@ -153,7 +153,7 @@ module Hydrocraft
     {
 
         Weight    		= 10000,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Stone Quarry,
         icon 			= HCQuarrystone,
 		DisplayCategory	= CraftMine,
@@ -162,7 +162,7 @@ module Hydrocraft
     {
 
     	Weight        	= 0.2,
-    	Type        	= Normal,
+    	ItemType        	= base:normal,
     	DisplayName    	= Dirt,
     	icon        	= HCDirt,
 		DisplayCategory	= CraftMine,
@@ -171,7 +171,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Coal,
         icon 			= HCCoal,
 	DisplayCategory 	= Mineral,
@@ -180,7 +180,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName        	= Copper Ore,
         icon 			= HCCopperore,
 	DisplayCategory 	= Mineral,
@@ -189,7 +189,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Tin Ore,
         icon 			= HCTinore,
 	DisplayCategory 	= Mineral,
@@ -198,7 +198,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Iron Ore,
         icon 			= HCIronore,
 	DisplayCategory 	= Mineral,
@@ -207,7 +207,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Lead Ore,
         icon 			= HCLeadore,
 	DisplayCategory 	= Mineral,
@@ -216,7 +216,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Bauxite Ore,
         icon 			= HCBauxiteore,
 	DisplayCategory 	= Mineral,
@@ -225,7 +225,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Silver Ore,
         icon 			= HCSilverore,
 	DisplayCategory 	= Mineral,
@@ -234,7 +234,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Gold Ore,
         icon 			= HCGoldore,
 	DisplayCategory 	= Mineral,
@@ -243,7 +243,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pyrite,
         icon 			= HCPyrite,
 	DisplayCategory 	= Mineral,
@@ -252,7 +252,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Platinum Ore,
         icon 			= HCPlatinumore,
 	DisplayCategory 	= Mineral,
@@ -261,7 +261,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Saltpeter,
         icon 			= HCSaltpeter,
 	DisplayCategory 	= Mineral,
@@ -270,7 +270,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sulphur,
         icon 			= HCSulphur,
 	DisplayCategory 	= Mineral,
@@ -279,7 +279,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Lithium Ore,
         icon 			= HCLithiumore,
 	DisplayCategory 	= Mineral,
@@ -288,7 +288,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Berlinite,
         icon 			= HCBerlinite,
 	DisplayCategory 	= Mineral,
@@ -297,7 +297,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Rock Salt,
         icon 			= HCRocksalt,
 	DisplayCategory 	= Mineral,
@@ -306,7 +306,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cinnabar,
         icon 			= HCCinnabar,
 	DisplayCategory 	= Mineral,
@@ -315,7 +315,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sandstone,
         icon 			= HCSandstone,
 	DisplayCategory 	= Mineral,
@@ -324,7 +324,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Limestone,
         icon 			= HCLimestone,
 	DisplayCategory 	= Mineral,
@@ -333,7 +333,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Graphite,
         icon 			= HCGraphite,
 	DisplayCategory 	= Mineral,
@@ -342,7 +342,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Chalk Rock,
         icon 			= HCChalkrock,
 	DisplayCategory 	= Mineral,
@@ -351,7 +351,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Borax,
         icon 			= HCBorax,
 	DisplayCategory 	= Mineral,
@@ -360,7 +360,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Feldspar,
         icon 			= HCFeldspar,
 	DisplayCategory 	= Mineral,
@@ -369,7 +369,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Albite,
         icon 			= HCAlbite,
 	DisplayCategory 	= Mineral,
@@ -378,7 +378,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Gypsum,
         icon 			= HCGypsum,
 	DisplayCategory 	= Mineral,
@@ -387,7 +387,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Magnetite,
         icon 			= HCMagnetite,
 	DisplayCategory 	= Mineral,
@@ -396,7 +396,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Meteorite,
         icon 			= HCMeteorite,
 	DisplayCategory 	= Mineral,
@@ -405,7 +405,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Obsidian,
         icon 			= HCObsidian,
 	DisplayCategory 	= Mineral,
@@ -414,7 +414,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Tungsten Ore,
         icon 			= HCTungstenore,
 	DisplayCategory 	= Mineral,
@@ -423,7 +423,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Titanium Ore,
         icon 			= HCTitaniumore,
 	DisplayCategory 	= Mineral,
@@ -432,7 +432,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Marble,
         icon 			= HCMarble,
 	DisplayCategory 	= Mineral,
@@ -441,7 +441,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Sphalerite,
         icon 			= HCZincore,
 	   DisplayCategory 	= Mineral,
@@ -450,7 +450,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pentlandite,
         icon 			= HCNickelore,
 	DisplayCategory 	= Mineral,
@@ -459,7 +459,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cobalt Ore,
         icon 			= HCCobaltore,
 	DisplayCategory 	= Mineral,
@@ -468,7 +468,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Diatomite,
         icon 			= HCDiatomite,
 	DisplayCategory 	= Mineral,
@@ -477,7 +477,7 @@ module Hydrocraft
     {
 
 	Weight			= 0.5,
-	Type			= Normal,
+	ItemType			= base:normal,
 	DisplayName		= Trona,
 	Icon			= HCTrona,
 	DisplayCategory 	= Mineral,
@@ -486,7 +486,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Chromite,
         icon 			= HCChromite,
 	DisplayCategory 	= Mineral,
@@ -495,7 +495,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Uranium Ore,
         icon 			= HCUraniumore,
 	DisplayCategory 	= Mineral,
@@ -504,7 +504,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Thorium Ore,
         icon 			= HCThoriumore,
 	DisplayCategory 	= Mineral,
@@ -513,7 +513,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Alabaster,
         icon 			= HCAlabaster,
 	DisplayCategory 	= Mineral,
@@ -522,7 +522,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Basalt,
         icon 			= HCBasalt,
 	DisplayCategory 	= Mineral,
@@ -531,7 +531,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dacite,
         icon 			= HCDacite,
 	DisplayCategory 	= Mineral,
@@ -540,7 +540,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Gabbro,
         icon 			= HCGabbro,
 	DisplayCategory 	= Mineral,
@@ -549,7 +549,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Kaolinite,
         icon 			= HCKaolinite,
 	DisplayCategory 	= Mineral,
@@ -558,7 +558,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Kimberlite,
         icon 			= HCKimberlite,
 	DisplayCategory 	= Mineral,
@@ -567,7 +567,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Rhyolite,
         icon 			= HCRhyolite,
 	DisplayCategory 	= Mineral,
@@ -576,7 +576,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Schist,
         icon 			= HCSchist,
 	DisplayCategory 	= Mineral,
@@ -585,7 +585,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Shale,
         icon 			= HCShale,
 	DisplayCategory 	= Mineral,

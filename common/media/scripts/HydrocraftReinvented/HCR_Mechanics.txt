@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight  =   0.4,
-        Type    =   Normal,
+        ItemType    =   base:normal,
         DisplayName =   Spare Gun Parts,
         Icon    =   EngineParts,
 		DisplayCategory          =   WepPart,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight  =   0.2,
-        Type    =   Normal,
+        ItemType    =   base:normal,
         DisplayName =   Metal File,
         Icon    =   HCFile,
 		DisplayCategory          =   CraftInd,
@@ -24,7 +24,7 @@ module Hydrocraft
     {
 
         Weight  =   0.1,
-        Type    =   Normal,
+        ItemType    =   base:normal,
         DisplayName =   Killer Rivet,
         Icon    =   HCKillerRivet,
 		DisplayCategory          =   CraftTailor,

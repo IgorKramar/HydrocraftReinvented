@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pencil Sharpener,
         icon 			= HCPencilsharpener,
 		DisplayCategory	= Useless,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 		DisplayCategory	 = Household,
-		Type    		 = Normal,
+		ItemType    		 = base:normal,
 		DisplayName      = Box of Pencils,
         Weight    		 = 0.3,
         icon 			 = HCPencilbox,
@@ -24,7 +24,7 @@ module Hydrocraft
     {
 
 		DisplayCategory	 = Household,
-		Type    		 = Normal,
+		ItemType    		 = base:normal,
 		DisplayName      = Box of Pens,
         Weight    		 = 0.3,
         icon 			 = HCPenbox,		
@@ -35,7 +35,7 @@ module Hydrocraft
 
 	    DisplayCategory  = Household,	
         Weight    		 = 0.1,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = Staples,
         icon 			 = HCStaples,
 		WorldStaticModel = WorldItem-HCOffice_Staples,
@@ -44,7 +44,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Staples,
         icon 			= HCStaplesbox,
 		DisplayCategory	= Craft,
@@ -53,7 +53,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Empty Stapler,
         icon 			= HCStapler,
 		DisplayCategory	= Craft,
@@ -62,7 +62,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.6,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseDelta		=	0.25,
 	DisplayName		=	Stapler,
 	ReplaceOnDeplete	=	HCStapler,
@@ -73,7 +73,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Empty Staple Gun,
         icon 			= HCStaplegun,
 		DisplayCategory	= Craft,
@@ -82,7 +82,7 @@ module Hydrocraft
     {
 
 	Weight			=	1,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseDelta		=	0.25,
 	DisplayName		=	Staple Gun,
 	ReplaceOnDeplete	=	HCStaplegun,
@@ -94,7 +94,7 @@ module Hydrocraft
 
 	    DisplayCategory = Household,		
         Weight			= 0.01,
-        Type			= Literature,
+        ItemType			= base:literature,
         DisplayName		= Post-It Note,
         Icon			= HCPostit,
         CanBeWrite  		= true,
@@ -106,7 +106,7 @@ module Hydrocraft
 
 	    DisplayCategory  = Household,	
         Weight    		 = 0.3,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = Pad of Post-It Notes,
         icon 			 = HCPostitpad,
 		WorldStaticModel = WorldItem-HCOffice_StickyNotePad,
@@ -115,7 +115,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Rubberbands,
         icon 			= HCRubberbandbox,
 		DisplayCategory	= Misc,
@@ -124,7 +124,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Abacus,
         icon 			= HCAbacus,
 		DisplayCategory	= Useless,
@@ -133,7 +133,7 @@ module Hydrocraft
     {
 
         Weight    		= 2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Typewriter,
         icon 			= HCTypewriter,
 		DisplayCategory	= Useless,
@@ -142,7 +142,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Binder Clip,
         icon 			= HCBinderclip,
 		DisplayCategory	= Useless,
@@ -152,7 +152,7 @@ module Hydrocraft
 
         DisplayCategory     = Household,	
         Weight              = 0.2,
-        Type             	= Normal,
+        ItemType             	= base:normal,
         DisplayName         = Bookend,
         icon             	= HCBookend,
         StaticModel     	= HCBookmarked,
@@ -162,7 +162,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Clipboard,
         icon 			= HCClipboard,
 		DisplayCategory	= Useless,
@@ -171,7 +171,7 @@ module Hydrocraft
     {
 
 		DisplayCategory	 = Household,
-        Type    		 = Normal,	
+        ItemType    		 = base:normal,	
         DisplayName         	= Whiteout,
         icon 			= HCWhiteout,
         Weight    		= 0.1,
@@ -181,7 +181,7 @@ module Hydrocraft
     {
 
 		DisplayCategory	 = Household,
-        Type    		 = Normal,		
+        ItemType    		 = base:normal,		
         Weight    		 = 0.05,
         DisplayName      = Thumbtack,
         icon 			 = HCThumbtack,
@@ -191,7 +191,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Highlighter,
         icon 			= HCHighlighter,
 		DisplayCategory	= Useless,
@@ -201,7 +201,7 @@ module Hydrocraft
 
 		DisplayCategory	= Household,	
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Ruler,
         icon 			= HCRuler,
 		WorldStaticModel = WorldItem-HCOffice_Ruler,
@@ -210,7 +210,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Staple Remover,
         icon 			= HCStapleremover,
 		DisplayCategory	= Useless,
@@ -220,7 +220,7 @@ module Hydrocraft
 
 		DisplayCategory	 = Household,	
         Weight    		 = 0.1,
-        Type    		 = Normal,
+        ItemType    		 = base:normal,
         DisplayName      = Triangle,
         icon 			 = HCTriangle,
 		WorldStaticModel = WorldItem-HCOffice_Triangle,
@@ -229,7 +229,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Rubber Stamp,
         icon 			= HCStamp,
 		DisplayCategory	= Misc,
@@ -238,7 +238,7 @@ module Hydrocraft
     {
 
 		DisplayCategory	= Household,
-		Type    		= Normal,
+		ItemType    		= base:normal,
         DisplayName         	= Folder,	
         Weight    		= 0.1,
         icon 			= HCFolder,
@@ -249,7 +249,7 @@ module Hydrocraft
 
 		DisplayCategory	= Household,	
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Folder,
         icon 			= HCFolder2,
     }
@@ -257,7 +257,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Manila Envelope,
         icon 			= HCManilaenvelope,
 		DisplayCategory	= Useless,
@@ -266,7 +266,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Manila Envelope,
         icon 			= HCManilaenvelope2,
 		DisplayCategory	= Useless,
@@ -275,7 +275,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Certificate,
         icon 			= HCCertificate,
 		DisplayCategory	= Useless,
@@ -284,7 +284,7 @@ module Hydrocraft
     {
 
         Weight    		= 1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Globe,
         icon 			= HCGlobe,
 		DisplayCategory	= Useless,
@@ -293,7 +293,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Ship in a Bottle,
         icon 			= HCShipinbottle,
 		DisplayCategory	= Useless,
@@ -302,7 +302,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Duct Tape Package,
         icon 			= HCDucttapepack,
 		DisplayCategory	= Craft,
@@ -311,7 +311,7 @@ module Hydrocraft
     {
 
         Weight			= 0.3,
-        Type			= Drainable,
+        ItemType			= base:drainable,
         UseDelta		= 0.25,
         UseWhileEquipped	= FALSE,
         DisplayName		= Electric Tape,
@@ -322,7 +322,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Electrical Tape Package,
         icon 			= HCElectricaltapepack,
 		DisplayCategory	= Craft,
@@ -331,7 +331,7 @@ module Hydrocraft
     {
 
         Weight			= 0.3,
-        Type			= Drainable,
+        ItemType			= base:drainable,
         UseDelta		= 0.25,
         UseWhileEquipped	= FALSE,
         DisplayName		= Masking Tape,
@@ -342,7 +342,7 @@ module Hydrocraft
     {
 
         Weight			= 0.3,
-        Type			= Drainable,
+        ItemType			= base:drainable,
         UseDelta		= 0.25,
         UseWhileEquipped	= FALSE,
         DisplayName		= Packing Tape,
@@ -353,7 +353,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Glue Package,
         icon 			= HCGluepack,
 		DisplayCategory	= Craft,
@@ -362,7 +362,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Wood Glue Package,
         icon 			= HCWoodgluepack,
 		DisplayCategory	= Craft,
@@ -370,7 +370,7 @@ module Hydrocraft
     item HCSuperglue
     {
 
-        Type	            	= Drainable,
+        ItemType	            	= base:drainable,
         UseDelta	        = 0.2,
         UseWhileEquipped	= FALSE,
         DisplayName		= Super Glue,
@@ -381,7 +381,7 @@ module Hydrocraft
     item HCRubbercement
     {
 
-        Type	            	= Drainable,
+        ItemType	            	= base:drainable,
         UseDelta	        = 0.2,
         UseWhileEquipped	= FALSE,
         DisplayName		= Rubber Cement,

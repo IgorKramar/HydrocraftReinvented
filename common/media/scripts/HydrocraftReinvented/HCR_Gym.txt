@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight          = 0.4,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName         = Boxing Gloves,
     UseWhileEquipped    = true,
         icon            = HCBoxinggloves,
@@ -15,7 +15,7 @@ module Hydrocraft
     {
 
         Weight          = 8.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName             = Punching Bag Stand,
         icon            = HCPunchingstand,
 	DisplayCategory          =   Fitness,
@@ -24,7 +24,7 @@ module Hydrocraft
     {
 
         Weight          = 12.0,
-    Type            = Normal,
+    ItemType            = base:normal,
         DisplayName             = Punching Bag,
         icon            = HCPunchingbag,
 	DisplayCategory          =   Fitness,
@@ -33,7 +33,7 @@ module Hydrocraft
     {
 
     Weight          = 0.3,
-        Type            = Normal,
+        ItemType            = base:normal,
     DisplayName     = Gym Towel,
     Icon            = HCGymtowel,
 	DisplayCategory          =   Fitness,
@@ -42,7 +42,7 @@ module Hydrocraft
     {
 
         Weight          = 20.0,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName         = Weight Bench,
         icon            = HCWeights,
 	DisplayCategory          =   Fitness,
@@ -51,7 +51,7 @@ module Hydrocraft
     {
 
     Weight              =   6,
-    Type                =   Normal,
+    ItemType                =   base:normal,
     DisplayName         =   Treadmill,
     Icon                =   HCTredmill,
 	DisplayCategory          =   Fitness,
@@ -60,7 +60,7 @@ module Hydrocraft
     {
 
     Weight              =   20,
-    Type                =   Normal,
+    ItemType                =   base:normal,
     DisplayName         =   Treadmill with Generator,
     Icon                =   HCTredmillgenerator,
 	DisplayCategory          =   Fitness,

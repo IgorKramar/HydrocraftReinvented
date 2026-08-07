@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight 				= 	1.0,
-	Type 				= 	Drainable,
+	ItemType 				= 	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.125,
 	DisplayName 			= 	Fishing Kit,
@@ -17,7 +17,7 @@ module Hydrocraft
     {
 
         Weight    			= 	1.0,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         		= 	Fishing Kit with Broken Line,
         icon 				= 	HCFishingkit,
 		DisplayCategory =   SurFish,
@@ -25,7 +25,7 @@ module Hydrocraft
     item HCLurewoodfish
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Wooden Fish Lure,
         Icon		=	HCLurewoodfish,
         Weight		=	0.1,
@@ -35,7 +35,7 @@ module Hydrocraft
     item HCLurefeatherfly
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Feather Lure,
         Icon		=	HCLurefeatherfly,
         Weight		=	0.1,
@@ -45,7 +45,7 @@ module Hydrocraft
     item HCLurepinecone
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Pinecone Lure,
         Icon		=	HCLurepinecone,
         Weight		=	0.1,
@@ -55,7 +55,7 @@ module Hydrocraft
     item HCLurebirchbark
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Birch Bark Lure,
         Icon		=	HCLurebirchbark,
         Weight		=	0.1,
@@ -65,7 +65,7 @@ module Hydrocraft
     item HCLurestick
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Stick Lure,
         Icon		=	HCLurestick,
         Weight		=	0.1,
@@ -75,7 +75,7 @@ module Hydrocraft
     item HCLuregarland
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Garland Lure,
         Icon		=	HCLuregarland,
         Weight		=	0.1,
@@ -85,7 +85,7 @@ module Hydrocraft
     item HCFishhookbone
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Bone Fishhook,
         Icon		=	HCFishhookbone,
         Weight		=	0.01,
@@ -94,7 +94,7 @@ module Hydrocraft
     item HCFishhookcopper
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Copper Fishhook,
         Icon		=	HCFishhookcopper,
         Weight		=	0.01,
@@ -103,7 +103,7 @@ module Hydrocraft
     item HCFishhooktin
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Tin Fishhook,
         Icon		=	HCFishhooktitanium,
         Weight		=	0.01,
@@ -112,7 +112,7 @@ module Hydrocraft
     item HCFishhookbronze
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Bronze Fishhook,
         Icon		=	HCFishhookbronze,
         Weight		=	0.01,
@@ -121,7 +121,7 @@ module Hydrocraft
     item HCFishhookiron
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Iron Fishhook,
         Icon		=	HCFishhookiron,
         Weight		=	0.01,
@@ -130,7 +130,7 @@ module Hydrocraft
     item HCFishhooksteel
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Steel Fishhook,
         Icon		=	HCFishhooksteel,
         Weight		=	0.01,
@@ -139,7 +139,7 @@ module Hydrocraft
     item HCFishhookaluminum
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Aluminum Fishhook,
         Icon		=	HCFishhookaluminium,
         Weight		=	0.01,
@@ -148,7 +148,7 @@ module Hydrocraft
     item HCFishhooktitanium
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Titanium Fishhook,
         Icon		=	HCFishhooktitanium,
         Weight		=	0.01,
@@ -157,7 +157,7 @@ module Hydrocraft
     item HCEggbass
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Bass Roe,
         Icon		=	HCEggbass,
         Weight		=	0.01,
@@ -166,7 +166,7 @@ module Hydrocraft
     item HCEggcatfish
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Catfish Roe,
         Icon		=	HCEggcatfish,
         Weight		=	0.01,
@@ -175,7 +175,7 @@ module Hydrocraft
     item HCEggcrappie
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Crappie Roe,
         Icon		=	HCEggcrappie,
         Weight		=	0.01,
@@ -184,7 +184,7 @@ module Hydrocraft
     item HCEggpanfish
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Pan Fish Roe,
         Icon		=	HCEggpanfish,
         Weight		=	0.01,
@@ -193,7 +193,7 @@ module Hydrocraft
     item HCEggperch
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Pearch Roe,
         Icon		=	HCEggperch,
         Weight		=	0.01,
@@ -202,7 +202,7 @@ module Hydrocraft
     item HCEggpike
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Pike Roe,
         Icon		=	HCEggpike,
         Weight		=	0.01,
@@ -211,7 +211,7 @@ module Hydrocraft
     item HCEggtrout
     {
 
-        Type		=	Normal,
+        ItemType		=	base:normal,
         DisplayName	=	Trout Roe,
         Icon		=	HCEggtrout,
         Weight		=	0.01,
@@ -221,7 +221,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dirt Pond Hole,
         icon 			= HCPondholedirt,
 		DisplayCategory =   SurFish,
@@ -230,7 +230,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cement Pond Hole,
         icon 			= HCPondholecement,
 		DisplayCategory =   SurFish,
@@ -239,7 +239,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pond Hole with Water,
         icon 			= HCPond,
 		DisplayCategory =   SurFish,
@@ -248,7 +248,7 @@ module Hydrocraft
     {
 
         Weight    		= 30,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pond,
         icon 			= HCPond2,
 		DisplayCategory =   SurFish,
@@ -257,7 +257,7 @@ module Hydrocraft
     {
 
         Weight    		= 10000,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pond,
         icon 			= HCPond2,
 		DisplayCategory =   SurFish,

@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Candleberry Wax,
         icon 			= 	HCCandleberrywax,
 		DisplayCategory          =   SurFarm,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Beeswax,
         icon 			= 	HCBeeswax,
 		DisplayCategory          =   SurApi,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.2,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Tallow Candle,
 	Icon			=	HCCandletallow,
 	DisplayCategory =   CraftMisc,
@@ -33,7 +33,7 @@ module Hydrocraft
 
 	LightDistance		=	3,
 	Weight			=	0.2,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	TorchCone		=	FALSE,
 	UseDelta		=	0.003,
 	LightStrength		=	0.6,
@@ -46,7 +46,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.5,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Candle Holder,
 	Icon			=	HCCandleholder,
 	DisplayCategory =   CraftMisc,
@@ -55,7 +55,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.7,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Candle in Holder,
 	Icon			=	HCCandleholder2,
 	DisplayCategory =   CraftMisc,
@@ -65,7 +65,7 @@ module Hydrocraft
 
 	LightDistance		=	6,
 	Weight			=	0.2,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	TorchCone		=	FALSE,
 	UseDelta		=	0.003,
 	LightStrength		=	0.8,
@@ -79,7 +79,7 @@ module Hydrocraft
     {
 
   Weight    		      = 0.5,
-  Type			          = Drainable,
+  ItemType			          = base:drainable,
 	UseDelta		        = 0.1,
 	ReplaceOnDeplete		= HCHardhat,
   DisplayName         = Candle Mining Hat,
@@ -90,7 +90,7 @@ module Hydrocraft
     {
 
   Weight    		= 0.5,
-  Type			= Normal,
+  ItemType			= base:normal,
   DisplayName         	= Flashlight Mining Hat,
   icon 			= HCMininghat2,
   DisplayCategory =   ClothP,
@@ -99,7 +99,7 @@ module Hydrocraft
     {
 
     Weight    		    = 0.5,
-    Type			        = Drainable,
+    ItemType			        = base:drainable,
 	  UseDelta		      = 0.3,
 	  ReplaceOnDeplete	= HCMininghatlampdead,
     DisplayName       = Flashlight Mining Hat with Power,
@@ -110,7 +110,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type			= Normal,
+        ItemType			= base:normal,
         DisplayName         	= Flashlight Mining Hat with Dead Battery,
         icon 			= HCMininghat2,
   DisplayCategory =   ClothP,

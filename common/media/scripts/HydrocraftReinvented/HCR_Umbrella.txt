@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         DisplayCategory = Household,
-        Type				=			Normal,
+        ItemType				=			base:normal,
         DisplayName			=		    Umbrella,
         Icon				=			SB_UmbrellaOpen,
         Weight				=			1.5,
@@ -22,7 +22,7 @@ module Hydrocraft
         DisplayCategory = Household,
         Categories	=	Improvised;Spear,
         SubCategory	=	Swinging,		
-        Type	=	Weapon,	
+        ItemType	=	base:weapon,	
         TwoHandWeapon = TRUE,		
         DisplayName	=	Closed Umbrella,		
         Icon	=	SB_UmbrellaClosed,

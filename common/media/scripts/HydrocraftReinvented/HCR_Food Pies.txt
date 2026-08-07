@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
     	Weight				=	0.5,
-    	Type				=	Normal,
+    	ItemType				=	base:normal,
     	DisplayName			=   	Pie Pan,
     	Icon				=	HCPiepan,
 		DisplayCategory		= Cooking,
@@ -13,7 +13,7 @@ module Hydrocraft
     item HCPiecrust
     {
 	
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Pie Crust,
 	Icon				=	HCPiecrust,
 	Weight				=	0.1,
@@ -33,7 +33,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Pie Pan with Apple Pie,
 		Icon				=	HCPieapple,
@@ -57,7 +57,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Apple Pie,
 		Icon				=	HCPieapple,
@@ -79,7 +79,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Pie Pan with Blueberry Pie,
 		Icon				=	HCPieblueberry,
@@ -103,7 +103,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Blueberry Pie,
 		Icon				=	HCPieblueberry,
@@ -125,7 +125,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Pie Pan with Peach Pie,
 		Icon				=	HCPiepeach,
@@ -149,7 +149,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Peach Pie,
 		Icon				=	HCPiepeach,
@@ -171,7 +171,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Pie Pan with Pear Pie,
 		Icon				=	HCPiepeach,
@@ -195,7 +195,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Pear Pie,
 		Icon				=	HCPiepear,
@@ -217,7 +217,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Pie Pan with Pumpkin Pie,
 		Icon				=	HCPiepumpkin,
@@ -241,7 +241,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Pumpkin Pie,
 		Icon				=	HCPiepumpkin,
@@ -263,7 +263,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Pie Pan with Cherry Pie,
 		Icon				=	HCPiecherry,
@@ -287,7 +287,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Cherry Pie,
 		Icon				=	HCPiecherry,
@@ -309,7 +309,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Pie Pan with Blackberry Pie,
 		Icon				=	HCPieblackberry,
@@ -333,7 +333,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Blackberry Pie,
 		Icon				=	HCPieblackberry,
@@ -355,7 +355,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Pie Pan with Quiche,
 		Icon				=	HCQuiche,
@@ -379,7 +379,7 @@ module Hydrocraft
 
 		HungerChange		=	-40,
 		Weight				=	1.1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName			=	Quiche,
 		Icon				=	HCQuiche,

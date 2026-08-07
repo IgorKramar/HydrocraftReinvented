@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Envelope,
         icon 			= HCEnvelope,
 		DisplayCategory		=   Useless,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Postage Stamp,
         icon 			= HCPostagestamp,
 		DisplayCategory		=   Useless,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
 		Weight			=	0.1,
-		Type			=	Normal,
+		ItemType			=	base:normal,
 		DisplayName		=	Sealed Envelope,
 		icon			=	HCSealedletter,
 		DisplayCategory	=	Useless,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter2,
 		DisplayCategory		=   Useless,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter3,
 		DisplayCategory		=   Useless,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter4,
 		DisplayCategory		=   Useless,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter5,
 		DisplayCategory		=   Useless,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter6,
 		DisplayCategory		=   Useless,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter7,
 		DisplayCategory		=   Useless,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Bubble Wrap,
         icon 			= HCBubblewrap,
 		DisplayCategory		=   Toy,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Postcard,
         Icon			=	HCPostcard1,
         CanBeWrite  		=   	true,
@@ -106,7 +106,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Postcard,
         Icon			=	HCPostcard2,
         CanBeWrite  		=   	true,
@@ -117,7 +117,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Postcard,
         Icon			=	HCPostcard3,
         CanBeWrite  		=   	true,
@@ -128,7 +128,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Postcard,
         Icon			=	HCPostcard4,
         CanBeWrite  		=   	true,
@@ -139,7 +139,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Postcard,
         Icon			=	HCPostcard5,
         CanBeWrite  		=   	true,
@@ -150,7 +150,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Postcard,
         Icon			=	HCPostcard6,
         CanBeWrite  		=   	true,
@@ -161,7 +161,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Postcard,
         Icon			=	HCPostcard7,
         CanBeWrite  		=   	true,
@@ -172,7 +172,7 @@ module Hydrocraft
     {
 
         Weight			=	0.1,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Postcard,
         Icon			=	HCPostcard8,
         CanBeWrite  		=   	true,
@@ -185,7 +185,7 @@ module Hydrocraft
 		MaxRange			=	0.9,
 		WeaponSprite			=	Hydrocraft.HCBoxcutter,
 		MinAngle			=	0,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
 		KnockBackOnNoDeath		=	FALSE,
 		SwingAmountBeforeImpact		=	0.02,

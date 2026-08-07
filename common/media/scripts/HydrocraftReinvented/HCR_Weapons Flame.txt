@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Bottle of Napalm,
         icon 			= HCWaterbottlenapalm,
 			DisplayCategory		=	WepBomb,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.8,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Napalm Bomb MK2 Off,
         icon 			= HCNapalmbombmk2off,
 			DisplayCategory		=	WepBomb,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.9,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Napalm Bomb MK3 Off,
         icon 			= HCNapalmbombmk3off,
 			DisplayCategory		=	WepBomb,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Soap Shards,
         icon 			= HCSoapshards,
 			DisplayCategory		=	CraftAmmo,
@@ -46,7 +46,7 @@ module Hydrocraft
         ReplaceOnCooked		= Hydrocraft.HCPotmoltensoap,
 	ReplaceOnUse		= Pot,
         Weight			= 3,
-        Type    		= Food,
+        ItemType    		= base:food,
         DisplayName         	= Pot with Soap,
         icon 			= HCPotmoltensoap,
         Poison                  = true,
@@ -58,7 +58,7 @@ module Hydrocraft
     {
 
         Weight   		= 3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pot with Molten Soap,
         icon 			= HCPotmoltensoap,
 			DisplayCategory		=	CraftAmmo,
@@ -67,7 +67,7 @@ module Hydrocraft
     {
 
         Weight   		= 3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Pot with Napalm,
         icon 			= HCPotnapalm,
 			DisplayCategory		=	CraftAmmo,
@@ -77,7 +77,7 @@ module Hydrocraft
 
 		OtherHandUse			=	TRUE,
 		MaxRange			=	8,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	1.5,
 		SwingAnim			=	Throw,
 		WeaponSprite		 = Molotov,
@@ -102,7 +102,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	10,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,
@@ -128,7 +128,7 @@ module Hydrocraft
     {
 
         	MaxRange			=	10,
-        	Type				=	Weapon,
+        	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
 			WeaponSprite		 = Molotov,

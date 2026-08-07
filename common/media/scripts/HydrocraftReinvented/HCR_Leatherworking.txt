@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		=    0.1,
-        Type   			=    Normal,
+        ItemType   			=    base:normal,
         DisplayName   		=    Leather,
         Icon    		=    HCLeather,
 		DisplayCategory          =   CraftTailor,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		=    0.1,
-        Type   			=    Normal,
+        ItemType   			=    base:normal,
         DisplayName   	=    Camo Leather,
         Icon    		=    HCLeatherCamo,
 		DisplayCategory          =   CraftTailor,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		=    0.1,
-        Type   			=    Normal,
+        ItemType   			=    base:normal,
         DisplayName   		=    Fine Leather,
         Icon    		=    HCLeatherfine,
 		DisplayCategory          =   CraftTailor,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		=    0.03,
-        Type   			=    Normal,
+        ItemType   			=    base:normal,
         DisplayName   		=    Fine Leather Strip,
         Icon    		=    HCLeatherstripfine,
 		DisplayCategory          =   CraftTailor,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		=    0.3,
-        Type   			=    Normal,
+        ItemType   			=    base:normal,
         DisplayName   		=    Hardened Leather,
         Icon    		=    HCLeatherhard,
 		DisplayCategory          =   CraftTailor,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    		=    0.03,
-        Type   			=    Normal,
+        ItemType   			=    base:normal,
         DisplayName   		=    Hard Leather Strip,
         Icon    		=    HCLeatherstriphard,
 		DisplayCategory          =   CraftTailor,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Belt Buckle,
         icon 			= HCBeltbuckle,
 		DisplayCategory          =   CraftTailor,
@@ -88,7 +88,7 @@ module Hydrocraft
     item HCAnimalfur
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Fur,
         	Weight 		= 	0.1,
 		Icon		=	HCAnimalfur,
@@ -97,7 +97,7 @@ module Hydrocraft
     item HCHiderawrabbit
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Rabbit Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawrabbit,
@@ -106,7 +106,7 @@ module Hydrocraft
     item HCHiderawsquirrel
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         DisplayName 	= 	Raw Squirrel Hide,
         Weight 		= 	0.1,
 		Icon		=	HCHiderawsquirrel,
@@ -115,7 +115,7 @@ module Hydrocraft
     item HCHiderawgroundhog
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         DisplayName 	= 	Raw Groundhog Hide,
         Weight 		= 	0.1,
 		Icon		=	HCHiderawgroundhog,
@@ -124,7 +124,7 @@ module Hydrocraft
     item HCHiderawmuskrat
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Muskrat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawmuskrat,
@@ -133,7 +133,7 @@ module Hydrocraft
     item HCHiderawnutria
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Nutria Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawnutria,
@@ -142,7 +142,7 @@ module Hydrocraft
     item HCHiderawbeaver
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Beaver Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawbeaver,
@@ -151,7 +151,7 @@ module Hydrocraft
     item HCPorcupinequills
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Porcupine Quills,
         	Weight 		= 	0.2,
 		Icon		=	HCPorcupinequills,
@@ -160,7 +160,7 @@ module Hydrocraft
     item HCHiderawarmadillo
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Armadillo Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawarmadillo,
@@ -169,7 +169,7 @@ module Hydrocraft
     item HCHiderawfox
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Fox Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawfox,
@@ -178,7 +178,7 @@ module Hydrocraft
     item HCHiderawopossum
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Opossum Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawopossum,
@@ -187,7 +187,7 @@ module Hydrocraft
     item HCHiderawskunk
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Skunk Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawskunk,
@@ -196,7 +196,7 @@ module Hydrocraft
     item HCHiderawraccoon
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Raccoon Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawraccoon,
@@ -205,7 +205,7 @@ module Hydrocraft
     item HCHiderawboar
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Boar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawboar,
@@ -214,7 +214,7 @@ module Hydrocraft
     item HCHiderawdeer
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Deer Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawdeer,
@@ -223,7 +223,7 @@ module Hydrocraft
     item HCHiderawbearblack
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Black Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawbearblack,
@@ -232,7 +232,7 @@ module Hydrocraft
     item HCHiderawbear
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Grizzly Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawbear,
@@ -241,7 +241,7 @@ module Hydrocraft
     item HCHiderawcougar
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Cougar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawcougar,
@@ -251,7 +251,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName    		= Raw Dog hide,
         icon 			= HCHiderawrabbit,
 		DisplayCategory          =   CraftTailor,
@@ -260,7 +260,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Raw Cat hide,
         icon 			= HCHiderawrabbit,
 		DisplayCategory          =   CraftTailor,
@@ -268,7 +268,7 @@ module Hydrocraft
     item HCHiderawsheep
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Sheep Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawsheep,
@@ -277,7 +277,7 @@ module Hydrocraft
     item HCHiderawgoat
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Goat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawgoat,
@@ -286,7 +286,7 @@ module Hydrocraft
     item HCHiderawpig
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Pig Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawpig,
@@ -295,7 +295,7 @@ module Hydrocraft
     item HCHiderawcow
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Cow Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawcow,
@@ -304,7 +304,7 @@ module Hydrocraft
     item HCHiderawbull
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Bull Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawbull,
@@ -313,7 +313,7 @@ module Hydrocraft
     item HCHiderawdonkey
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Donkey Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawdonkey,
@@ -322,7 +322,7 @@ module Hydrocraft
     item HCHiderawhorse
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Horse Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawhorse,
@@ -331,7 +331,7 @@ module Hydrocraft
     item HCHidestrap
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Hide Strap,
         	Weight 		= 	0.05,
 		Icon		=	HCHidestrap,
@@ -340,7 +340,7 @@ module Hydrocraft
     item HCAnimalfurdried
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Fur,
         	Weight 		= 	0.1,
 		Icon		=	HCAnimalfurdried,
@@ -349,7 +349,7 @@ module Hydrocraft
     item HCHidedriedrabbit
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Rabbit Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedrabbit,
@@ -358,7 +358,7 @@ module Hydrocraft
     item HCHidedriedsquirrel
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Squirrel Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedsquirrel,
@@ -367,7 +367,7 @@ module Hydrocraft
     item HCHidedriedgroundhog
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Groundhog Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedgroundhog,
@@ -376,7 +376,7 @@ module Hydrocraft
     item HCHidedriedmuskrat
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Muskrat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedmuskrat,
@@ -385,7 +385,7 @@ module Hydrocraft
     item HCHidedriednutria
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Nutria Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriednutria,
@@ -394,7 +394,7 @@ module Hydrocraft
     item HCHidedriedbeaver
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Beaver Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedbeaver,
@@ -403,7 +403,7 @@ module Hydrocraft
     item HCHidedriedarmadillo
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Armadillo Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedarmadillo,
@@ -412,7 +412,7 @@ module Hydrocraft
     item HCHidedriedfox
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Fox Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedfox,
@@ -421,7 +421,7 @@ module Hydrocraft
     item HCHidedriedopossum
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Opossum Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedopossum,
@@ -430,7 +430,7 @@ module Hydrocraft
     item HCHidedriedskunk
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Skunk Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedskunk,
@@ -439,7 +439,7 @@ module Hydrocraft
     item HCHidedriedraccoon
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Raccoon Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedraccoon,
@@ -448,7 +448,7 @@ module Hydrocraft
     item HCHidedriedboar
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Boar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedboar,
@@ -457,7 +457,7 @@ module Hydrocraft
     item HCHidedrieddeer
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Deer Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedrieddeer,
@@ -466,7 +466,7 @@ module Hydrocraft
     item HCHidedriedbearblack
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Black Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedbearblack,
@@ -475,7 +475,7 @@ module Hydrocraft
     item HCHidedriedbear
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Grizzly Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedbear,
@@ -484,7 +484,7 @@ module Hydrocraft
     item HCHidedriedcougar
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Cougar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedcougar,
@@ -493,7 +493,7 @@ module Hydrocraft
     item HCHidedrieddog
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Dog Hide,
         	Weight 		= 	0.3,
 		Icon		=	HCHidedriedrabbit,
@@ -502,7 +502,7 @@ module Hydrocraft
     item HCHidedriedcat
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Cat Hide,
         	Weight 		= 	0.3,
 		Icon		=	HCHidedriedrabbit,
@@ -511,7 +511,7 @@ module Hydrocraft
     item HCHidedriedsheep
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Sheep Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedsheep,
@@ -520,7 +520,7 @@ module Hydrocraft
     item HCHidedriedgoat
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Goat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedgoat,
@@ -529,7 +529,7 @@ module Hydrocraft
     item HCHidedriedpig
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Pig Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedpig,
@@ -538,7 +538,7 @@ module Hydrocraft
     item HCHidedriedcow
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Cow Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedcow,
@@ -547,7 +547,7 @@ module Hydrocraft
     item HCHidedriedbull
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Bull Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedbull,
@@ -556,7 +556,7 @@ module Hydrocraft
     item HCHidedrieddonkey
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Donkey Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedrieddonkey,
@@ -565,7 +565,7 @@ module Hydrocraft
     item HCHidedriedhorse
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Horse Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedhorse,
@@ -574,7 +574,7 @@ module Hydrocraft
     item HCAnimalfurlime
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Fur,
         	Weight 		= 	0.1,
 		Icon		=	HCAnimalfurlime,
@@ -583,7 +583,7 @@ module Hydrocraft
     item HCHidelimedrabbit
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Rabbit Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedrabbit,
@@ -592,7 +592,7 @@ module Hydrocraft
     item HCHidelimedsquirrel
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Squirrel Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedsquirrel,
@@ -601,7 +601,7 @@ module Hydrocraft
     item HCHidelimedgroundhog
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Groundhog Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedgroundhog,
@@ -610,7 +610,7 @@ module Hydrocraft
     item HCHidelimedmuskrat
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Muskrat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedmuskrat,
@@ -619,7 +619,7 @@ module Hydrocraft
     item HCHidelimednutria
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Nutria Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimednutria,
@@ -628,7 +628,7 @@ module Hydrocraft
     item HCHidelimedbeaver
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Beaver Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedbeaver,
@@ -637,7 +637,7 @@ module Hydrocraft
     item HCHidelimedarmadillo
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Armadillo Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedarmadillo,
@@ -646,7 +646,7 @@ module Hydrocraft
     item HCHidelimedfox
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Fox Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedfox,
@@ -655,7 +655,7 @@ module Hydrocraft
     item HCHidelimedopossum
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Opossum Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedopossum,
@@ -664,7 +664,7 @@ module Hydrocraft
     item HCHidelimedskunk
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Skunk Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedskunk,
@@ -673,7 +673,7 @@ module Hydrocraft
     item HCHidelimedraccoon
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Raccoon Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedraccoon,
@@ -682,7 +682,7 @@ module Hydrocraft
     item HCHidelimedboar
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Boar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedboar,
@@ -691,7 +691,7 @@ module Hydrocraft
     item HCHidelimeddeer
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Deer Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimeddeer,
@@ -700,7 +700,7 @@ module Hydrocraft
     item HCHidelimedbearblack
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Black Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedbearblack,
@@ -709,7 +709,7 @@ module Hydrocraft
     item HCHidelimedbear
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Grizzly Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedbear,
@@ -718,7 +718,7 @@ module Hydrocraft
     item HCHidelimedcougar
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Cougar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedcougar,
@@ -727,7 +727,7 @@ module Hydrocraft
     item HCHidelimeddog
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Dog Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedrabbit,
@@ -736,7 +736,7 @@ module Hydrocraft
     item HCHidelimedcat
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Cat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedrabbit,
@@ -745,7 +745,7 @@ module Hydrocraft
     item HCHidelimedsheep
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Sheep Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedsheep,
@@ -754,7 +754,7 @@ module Hydrocraft
     item HCHidelimedgoat
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Goat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedgoat,
@@ -763,7 +763,7 @@ module Hydrocraft
     item HCHidelimedpig
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Pig Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedpig,
@@ -772,7 +772,7 @@ module Hydrocraft
     item HCHidelimedcow
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Cow Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedcow,
@@ -781,7 +781,7 @@ module Hydrocraft
     item HCHidelimedbull
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Bull Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedbull,
@@ -790,7 +790,7 @@ module Hydrocraft
     item HCHidelimeddonkey
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Donkey Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimeddonkey,
@@ -799,7 +799,7 @@ module Hydrocraft
     item HCHidelimedhorse
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Limed Horse Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedhorse,
@@ -808,7 +808,7 @@ module Hydrocraft
     item HCZedskin
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Raw Skin,
 		DisplayCategory          =   CraftTailor,
         	Weight 		= 	0.1,
@@ -817,7 +817,7 @@ module Hydrocraft
     item HCZedskindried
     {
 
-		Type 		= 	Normal,
+		ItemType 		= 	base:normal,
         	DisplayName 	= 	Dried Skin,
         	Weight 		= 	0.1,
 		Icon		=	HCZedskindried,
@@ -827,7 +827,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Fox Hat,
         icon 			= HCFoxhat,
 		DisplayCategory          =   CraftTailor,
@@ -836,7 +836,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Raccoon Hat,
         icon 			= HCRaccoonhat,
 		DisplayCategory          =   CraftTailor,
@@ -846,8 +846,9 @@ module Hydrocraft
 
 		Palettes	=	Shirt_White,
 		BodyLocation	=	base:jacket,
+		CanBeEquipped	=	base:jacket,
 		PalettesStart	=	Shirt_,
-		Type		=	Clothing,
+		ItemType		=	base:clothing,
 		Temperature	=	23,
 		SpriteName	=	Shirt,
 		DisplayName	=	Black Bear Cloak,
@@ -862,8 +863,9 @@ module Hydrocraft
 
 		Palettes	=	Shirt_White,
 		BodyLocation	=	base:jacket,
+		CanBeEquipped	=	base:jacket,
 		PalettesStart	=	Shirt_,
-		Type		=	Clothing,
+		ItemType		=	base:clothing,
 		Temperature	=	24,
 		SpriteName	=	Shirt,
 		DisplayName	=	Grizzly Bear Cloak,
@@ -878,8 +880,9 @@ module Hydrocraft
 
 		Palettes	=	Shirt_White,
 		BodyLocation	=	base:jacket,
+		CanBeEquipped	=	base:jacket,
 		PalettesStart	=	Shirt_,
-		Type		=	Clothing,
+		ItemType		=	base:clothing,
 		Temperature	=	23,
 		SpriteName	=	Shirt,
 		DisplayName	=	Fur Coat,
@@ -894,8 +897,9 @@ module Hydrocraft
 
 		Palettes	=	Trousers_White,
 		BodyLocation	=	base:pants,
+		CanBeEquipped	=	base:pants,
 		PalettesStart	=	Trousers_,
-		Type		=	Clothing,
+		ItemType		=	base:clothing,
 		Temperature	=	15,
 		SpriteName	=	Trousers,
 		DisplayName	=	Fur Pants,
@@ -910,8 +914,9 @@ module Hydrocraft
 
 		Palettes	=	Shirt_White,
 		BodyLocation	=	base:jacket,
+		CanBeEquipped	=	base:jacket,
 		PalettesStart	=	Shirt_,
-		Type		=	Clothing,
+		ItemType		=	base:clothing,
 		Temperature	=	24,
 		SpriteName	=	Shirt,
 		DisplayName	=	Trapper Jacket,
@@ -925,7 +930,9 @@ module Hydrocraft
     {
 
 		BodyLocation	=	base:shoes,
-		Type		=	Clothing,
+
+		CanBeEquipped	=	base:shoes,
+		ItemType		=	base:clothing,
 		Temperature	=	5,
 		SpriteName	=	Shoes1,
 		DisplayName	=	Leather Boots,
@@ -1023,7 +1030,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.7,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Drying Frame,
         icon 			= HCDryingframe,
 		DisplayCategory          =   CraftTailor,
@@ -1032,7 +1039,7 @@ module Hydrocraft
     {
 
         Weight    			= 4,
-        Type    			= Drainable,
+        ItemType    			= base:drainable,
         UseDelta        	= 0.2,
         ReplaceOnDeplete    = HCWoodenbucket,
         DisplayName     	= Wooden Bucket with Tannin,
@@ -1043,7 +1050,7 @@ module Hydrocraft
     {
 
         Weight    			= 4,
-        Type    			= Drainable,
+        ItemType    			= base:drainable,
         UseDelta        	= 0.2,
         ReplaceOnDeplete    = HCWoodenbucket,
         DisplayName     	= Wooden Bucket with Rose Tanning Oil,
@@ -1054,7 +1061,7 @@ module Hydrocraft
     {
 
         Weight    			= 4,
-        Type    			= Drainable,
+        ItemType    			= base:drainable,
         UseDelta        	= 0.2,
         ReplaceOnDeplete    = HCWoodenbucket,
         DisplayName     	= Wooden Bucket with Milk of Lime,
@@ -1066,7 +1073,7 @@ module Hydrocraft
 
         Weight    		= 	1,
 	CanStoreWater		=	TRUE,
-        Type    		= 	Normal,
+        ItemType    		= 	base:normal,
         DisplayName         	= 	Waterflask,
 	ReplaceOnUseOn		=	WaterSource-HCWaterflaskfull,
         icon 			= 	HCWaterflask,
@@ -1079,7 +1086,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight			=	2,
 	CanStoreWater		=	TRUE,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	UseWhileEquipped	=	2,
 	UseDelta		=	0.07,
 	DisplayName		=	Full Waterflask,
@@ -1093,7 +1100,7 @@ module Hydrocraft
     {
 
         Weight    		=    1,
-        Type    		=    Normal,
+        ItemType    		=    base:normal,
         DisplayName    		=    War Dog Armor,
         Icon    		=    HCWardogarmor,
 		DisplayCategory          =   CraftTailor,
@@ -1102,7 +1109,7 @@ module Hydrocraft
     {
 
         Weight    		= 1.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName    	= Spiked War Dog Armor,
         Icon    		= HCWardogarmorSpiked,
 		DisplayCategory          =   CraftTailor,
@@ -1111,7 +1118,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.5,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Leather Ball,
 	Icon			=	HCLeatherball,
 		DisplayCategory          =   Toy,
@@ -1120,7 +1127,7 @@ module Hydrocraft
     {
 
 	Weight			=	3,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Leather Sand bag,
 	Icon			=	HCLeatherSandbag,
 		DisplayCategory          =   CraftTailor,

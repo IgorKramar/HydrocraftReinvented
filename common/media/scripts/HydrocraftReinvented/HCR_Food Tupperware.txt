@@ -6,7 +6,7 @@ module Hydrocraft
 
         Weight    			= 0.8,
 	CanStoreWater			= TRUE,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Large Tupperware Container,
 	ReplaceOnUseOn			= WaterSource-HCLargetupwater,
         icon 				= HCLargetup,
@@ -18,7 +18,7 @@ module Hydrocraft
 
 	HungerChange			=	-60,
 	Weight				=	1.6,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	30,
 	UnhappyChange			=	10,
 	DisplayName			=	Large Tupperware Container with Food,
@@ -31,7 +31,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.4,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Large Tupperware Lid,
         icon 				= HCLargetuplid,
 	DisplayCategory          =   Cooking,
@@ -40,7 +40,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.4,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Large Tupperware Container without Lid,
         icon 				= HCLargetupbowl,
 	DisplayCategory          =   Cooking,
@@ -51,7 +51,7 @@ module Hydrocraft
 	IsWaterSource			=	TRUE,
 	Weight				=	1.6,
 	CanStoreWater			=	TRUE,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.02,
 	DisplayName			=	Large Tupperware Container with Water,
@@ -66,7 +66,7 @@ module Hydrocraft
 
         Weight    			= 0.4,
 	CanStoreWater			= TRUE,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Medium Tupperware Container,
 	ReplaceOnUseOn			= WaterSource-HCMediumtupwater,
         icon 				= HCMediumtup,
@@ -78,7 +78,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	30,
 	UnhappyChange			=	10,
 	DisplayName			=	Medium Tupperware Container with Food,
@@ -91,7 +91,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Medium Tupperware Lid,
         icon 				= HCMediumtuplid,
 	DisplayCategory          =   Cooking,
@@ -100,7 +100,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Medium Tupperware Container without Lid,
         icon 				= HCMediumtupbowl,
 	DisplayCategory          =   Cooking,
@@ -111,7 +111,7 @@ module Hydrocraft
 	IsWaterSource			=	TRUE,
 	Weight				=	0.8,
 	CanStoreWater			=	TRUE,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.08,
 	DisplayName			=	Medium Tupperware Container with Water,
@@ -126,7 +126,7 @@ module Hydrocraft
 
         Weight    			= 0.2,
 	CanStoreWater			= TRUE,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Small Tupperware Container,
 	ReplaceOnUseOn			= WaterSource-HCSmalltupwater,
         icon 				= HCSmalltup,
@@ -138,7 +138,7 @@ module Hydrocraft
 
 	HungerChange			=	-15,
 	Weight				=	0.4,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten		=	30,
 	UnhappyChange			=	10,
 	DisplayName			=	Small Tupperware Container with Food,
@@ -151,7 +151,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Small Tupperware Lid,
         icon 				= HCSmalltuplid,
 	DisplayCategory          =   Cooking,
@@ -160,7 +160,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Small Tupperware Container without Lid,
         icon 				= HCSmalltupbowl,
 	DisplayCategory          =   Cooking,
@@ -171,7 +171,7 @@ module Hydrocraft
 	IsWaterSource			=	TRUE,
 	Weight				=	1.6,
 	CanStoreWater			=	TRUE,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.08,
 	DisplayName			=	Small Tupperware Container with Water,

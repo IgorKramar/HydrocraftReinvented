@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
     	Weight 			= 10,
-	    Type 			= Normal,
+	    ItemType 			= base:normal,
 	    DisplayName 	= Herbalist Table,
 	    Icon			= HCHerbtable,
 	    DisplayCategory = SurFor,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight          = 0.005,
-        Type            = Normal,
+        ItemType            = base:normal,
         DisplayName     = Pollen,
         Icon            = HCPollen,
 	    DisplayCategory = SurApi,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Hops,
         icon 			= HCHops,
 	    DisplayCategory = SurFor,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Fresh Tea Leaves,
         icon 			= HCTeafresh,
 	    DisplayCategory = SurFor,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Green Tea Leaves,
         icon 			= HCTeagreen,
 	    DisplayCategory = SurFor,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Black Tea Leaves,
         icon 			= HCTeablack,
 	    DisplayCategory = SurFor,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Corn Cob Pipe,
         icon 			= HCCorncobpipe,
 	    DisplayCategory = SurFor,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Mulberry Leaf,
         icon 			= HCMulberryleaf,
 	    DisplayCategory = SurFor,
@@ -79,7 +79,7 @@ module Hydrocraft
 	    HungerChange	= -10,
 	    ThirstChange	= -5,
 	    Weight			= 0.1,
-	    Type			= Food,
+	    ItemType			= base:food,
 	    UnhappyChange	= -10,
 	    DisplayName		= Mulberry,
 	    Icon			= HCMulberry,
@@ -94,7 +94,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dried Camomile,
         icon 			= HCCamomiledry,
 	    DisplayCategory = SurFor,
@@ -105,7 +105,7 @@ module Hydrocraft
 	    FatigueChange	    = 20,
 	    HungerChange	    = -1,
 	    Weight			    = 1,
-	    Type			    = Food,
+	    ItemType			    = base:food,
 	    UnhappyChange	    = -5,
 	    ThirstChange	    = -50,
 	    DisplayName		    = Camomile Tea,
@@ -127,7 +127,7 @@ module Hydrocraft
 	FatigueChange			= 20,
 	    HungerChange		= -1,
 	    Weight				= 1,
-	    Type				= Food,
+	    ItemType				= base:food,
 	    UnhappyChange		= -5,
 	    ThirstChange		= -50,
 	    DisplayName			= Camomile Tea,
@@ -147,7 +147,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dried Nettles,
         icon 			= HCNettlesdry,
 	    DisplayCategory = Medical,
@@ -157,7 +157,7 @@ module Hydrocraft
 
 	    HungerChange	        = -1,
 	    Weight			        = 1,
-	    Type			        = Food,
+	    ItemType			        = base:food,
 	    UnhappyChange		    = -5,
 	    ThirstChange		    = -50,
 	    DisplayName		        = Nettle Tea,
@@ -180,7 +180,7 @@ module Hydrocraft
 
 	    HungerChange		    = -1,
 	    Weight			        = 1,
-	    Type			        = Food,
+	    ItemType			        = base:food,
 	    UnhappyChange		    = -5,
 	    ThirstChange		    = -50,
 	    DisplayName		        = Nettle Tea,
@@ -202,7 +202,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dried Thistle,
         icon 			= HCThistledry,
 	    DisplayCategory = SurFor,
@@ -212,7 +212,7 @@ module Hydrocraft
 
 	    HungerChange	= -1,
 	    Weight			= 1,
-	    Type			= Food,
+	    ItemType			= base:food,
 	    UnhappyChange	= -5,
 	    ThirstChange	= -50,
 	    DisplayName		= Thistle Tea,
@@ -232,7 +232,7 @@ module Hydrocraft
 
 	    HungerChange	= -1,
 	    Weight			= 1,
-	    Type			= Food,
+	    ItemType			= base:food,
 	    UnhappyChange	= -5,
 	    ThirstChange	= -50,
 	    DisplayName		= Thistle Tea,
@@ -251,7 +251,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dried Skullcap,
         icon 			= HCSkullcapdry,
 	    DisplayCategory = SurFor,
@@ -262,7 +262,7 @@ module Hydrocraft
 	    FatigueChange		    = 10,
 	    HungerChange	        = -1,
 	    Weight			        = 1,
-	    Type			        = Food,
+	    ItemType			        = base:food,
 	    UnhappyChange	        = -5,
 	    ThirstChange	        = -50,
 	    DisplayName		        = Skullcap Tea,
@@ -286,7 +286,7 @@ module Hydrocraft
 	    FatigueChange		    = 10,
 	    HungerChange		    = -1,
 	    Weight			        = 1,
-	    Type			        = Food,
+	    ItemType			        = base:food,
 	    UnhappyChange		    = -5,
 	    ThirstChange		    = -50,
 	    DisplayName		        = Skullcap Tea,
@@ -308,7 +308,7 @@ module Hydrocraft
     {
 
         Weight    		    = 0.01,
-        Type        		= Normal,
+        ItemType        		= base:normal,
         DisplayName         = Dried Daisy,
         icon 			    = HCDaisydry,
 	    DisplayCategory     = Medical,
@@ -318,7 +318,7 @@ module Hydrocraft
 
 	    HungerChange		    = -1,
 	    Weight			        = 1,
-	    Type			        = Food,
+	    ItemType			        = base:food,
 	    ThirstChange		    = -50,
 	    DisplayName		        = Daisy Tea,
 	    ReplaceOnUse		    = Mugl,
@@ -339,7 +339,7 @@ module Hydrocraft
 
 	    HungerChange		    = -1,
 	    Weight			        = 1,
-	    Type			        = Food,
+	    ItemType			        = base:food,
 	    ThirstChange		    = -50,
 	    DisplayName		        = Daisy Tea,
 	    ReplaceOnUse		    = HCClaymug,
@@ -359,7 +359,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dried Anemone,
         icon 			= HCAnemomedry,
 	    DisplayCategory = SurFor,
@@ -369,7 +369,7 @@ module Hydrocraft
 
 	    HungerChange	= -1,
 	    Weight			= 1,
-	    Type			= Food,
+	    ItemType			= base:food,
 	    ThirstChange	= -50,
 	    DisplayName		= Anemome Tea,
 	    StressChange	= -5,
@@ -389,7 +389,7 @@ module Hydrocraft
 
 	    HungerChange	= -1,
 	    Weight			= 1,
-	    Type			= Food,
+	    ItemType			= base:food,
 	    ThirstChange	= -50,
 	    DisplayName		= Anemome Tea,
 	    StressChange	= -5,
@@ -408,7 +408,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dried Camellia,
         icon 			= HCCamelliadry,
 	    DisplayCategory = SurFor,
@@ -418,7 +418,7 @@ module Hydrocraft
 
 	    HungerChange	= -1,
 	    Weight			= 1,
-	    Type			= Food,
+	    ItemType			= base:food,
 	    ThirstChange	= -50,
 	    DisplayName		= Camellia Tea,
 	    EnduranceChange	= 5,
@@ -439,7 +439,7 @@ module Hydrocraft
 
 	    HungerChange	= -1,
 	    Weight			= 1,
-	    Type			= Food,
+	    ItemType			= base:food,
 	    ThirstChange	= -50,
 	    DisplayName		= Camellia Tea,
 	    EnduranceChange	= 5,
@@ -459,7 +459,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Chili Pepper Stem,
         icon 			= HCChilipepperstem,
 	    DisplayCategory = SurFor,
@@ -468,7 +468,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dried Chili Peppers,
         icon 			= HCChilipepperdry,
 	    DisplayCategory = SurFor,
@@ -476,7 +476,7 @@ module Hydrocraft
     item HCRiceraw
     {
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Raw Rice,
 	    Icon			= HCRiceraw,
 	    Weight			= 0.1,
@@ -486,7 +486,7 @@ module Hydrocraft
     {
 
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Rice with Chaff,
 	    Icon			= HCChaffrice,
 	    Weight			= 0.1,
@@ -496,7 +496,7 @@ module Hydrocraft
     {
 
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Chaff,
 	    Icon			= HCChaff,
 	    Weight			= 0.1,
@@ -506,7 +506,7 @@ module Hydrocraft
     {
 
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Bran,
 	    Icon			= HCBran,
 	    Weight			= 0.1,
@@ -516,7 +516,7 @@ module Hydrocraft
     {
 
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Corn Cob,
 	    Icon			= HCCob,
 	    Weight			= 0.1,
@@ -526,7 +526,7 @@ module Hydrocraft
     {
 
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Corn Husk,
 	    Icon			= HCHusk,
 	    Weight			= 0.1,
@@ -536,7 +536,7 @@ module Hydrocraft
     {
 
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Bamboo,
 	    Icon			= HCBamboo,
 	    Weight			= 1.0,
@@ -546,7 +546,7 @@ module Hydrocraft
     {
 
 
-	    Type			= Normal,
+	    ItemType			= base:normal,
 	    DisplayName		= Bamboo Gutter,
 	    Icon			= HCBamboogutter,
 	    Weight			= 0.5,
@@ -556,7 +556,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dried Garlic,
         icon 			= HCGarlicdry,
 	    DisplayCategory = SurFor,
@@ -565,7 +565,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dried Onion,
         icon 			= HCOniondry,
 	    DisplayCategory = CookRef,
@@ -574,7 +574,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dried Juniper Berry,
         icon 			= HCJuniperberrydry,
 	    DisplayCategory = SurFor,
@@ -583,7 +583,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Dried Lavender,
         icon 			= HCLavenderdry,
 	    DisplayCategory = SurFor,
@@ -593,7 +593,7 @@ module Hydrocraft
 
         EnduranceChange     = 15,
         Weight              = 0.5,
-        Type                = Food,
+        ItemType                = base:food,
         DisplayName         = Ginseng Extract,
         Icon                = HCSmellingsaltscork,
         CustomContextMenu   = Drink,
@@ -611,7 +611,7 @@ module Hydrocraft
 
         UnhappyChange       = 5,
         Weight              = 0.5,
-        Type                = Food,
+        ItemType                = base:food,
         DisplayName         = Lemongrass Extract,
         Icon                = HCSmellingsaltscork,
         ReduceFoodSickness  = 50,

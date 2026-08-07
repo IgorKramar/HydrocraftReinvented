@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 		Weight			 =	2,
-		Type			 =	Normal,
+		ItemType			 =	base:normal,
 		DisplayName		 =	Keep Out Sign,
 		Icon			 =	HCSignkeepout,
 		DisplayCategory  =   Household,
@@ -15,7 +15,7 @@ module Hydrocraft
     {
 
 		Weight			 =	2,
-		Type			 =	Normal,
+		ItemType			 =	base:normal,
 		DisplayName		 =	Biohazard Sign,
 		Icon			 =	HCSignbiohazard,
 		DisplayCategory  =   Household,

@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Ammonia,
         icon 			= 	HCEyedropperammonia,
 	DisplayCategory			= CraftChem,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Calciumchloride Solution,
         icon 			= 	HCEyedroppercalciumchloridesolution,
 	DisplayCategory			= CraftChem,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With H2O2,
         icon 			= 	HCEyedropperh2o2,
 	DisplayCategory			= CraftChem,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Mercuricoxide,
         icon 			= 	HCEyedroppermercuricoxide,
 	DisplayCategory			= CraftChem,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Methylamin,
         icon 			= 	HCEyedroppermethylamin,
 	DisplayCategory			= CraftChem,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Morphinhydrochlorid Solution,
         icon 			= 	HCEyedroppermorphinhydrochloridsolution,
 	DisplayCategory			= CraftChem,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Muriatic Acid,
         icon 			= 	HCEyedroppermuriaticacid,
 	DisplayCategory			= CraftChem,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Potassium Permanganate,
         icon 			= 	HCEyedropperpotassiumpermanganate,
 	DisplayCategory			= CraftChem,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Phenylacetic Acid,
         icon 			= 	HCEyedropperphenyl,
 	DisplayCategory			= CraftChem,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Sodiumhydroxide Solution,
         icon 			= 	HCEyedroppersodiumhydroxidesolution,
 	DisplayCategory			= CraftChem,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Sulfuric Acid,
         icon 			= 	HCEyedroppersulfuricacid,
 	DisplayCategory			= CraftChem,
@@ -104,7 +104,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Trona Solution,
         icon 			= 	HCEyedroppertronasulution,
 	DisplayCategory			= CraftChem,
@@ -113,7 +113,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Water,
         icon 			= 	HCEyedropperwater,
 	DisplayCategory			= CraftChem,
@@ -122,7 +122,7 @@ module Hydrocraft
     {
 
         Weight    		= 	0.1,
-	Type			= 	Normal,
+	ItemType			= 	base:normal,
         DisplayName         	= 	Eyedropper With Ether,
         icon 			= 	HCEyedropperether,
 	DisplayCategory			= CraftChem,

@@ -6,7 +6,7 @@ module Hydrocraft
 
 	HungerChange		=	-10,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten	=	15,
 	DisplayName			=	Beans,
 	Icon				=	HCBeans,
@@ -24,7 +24,7 @@ module Hydrocraft
 
 	HungerChange		=	-2,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten	=	15,
 	DisplayName			=	Coffee Beans,
 	Icon				=	HCBeans,
@@ -41,7 +41,7 @@ module Hydrocraft
 
 	HungerChange		=	-10,
 	Weight				=	0.3,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten	=	30,
 	DisplayName			=	Soy Beans,
 	Icon				=	HCBeanseeds,
@@ -60,7 +60,7 @@ module Hydrocraft
 
 	HungerChange			=		-20,
 	Weight				=		0.3,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DaysTotallyRotten		=		15,
 	DisplayName			=		Peapod,
 	Icon				=		HCPeapod,
@@ -76,7 +76,7 @@ module Hydrocraft
     item HCSweetpotato
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Sweet Potato,
 	Icon				=		HCSweetpotato,
 	Weight				=		0.3,
@@ -96,7 +96,7 @@ module Hydrocraft
     item HCChinesecabbage
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Chinese Cabbage,
 	Icon				=		HCChinesecabbage,
 	Weight				=		0.3,
@@ -115,7 +115,7 @@ module Hydrocraft
     item HCCucumber
     {
 
-        Type				=		Food,
+        ItemType				=		base:food,
         DisplayName			=		Cucumber,
         Icon				=		HCCucumber,
         Weight				=		0.3,
@@ -137,7 +137,7 @@ module Hydrocraft
 
 	HungerChange			=		-10,
 	Weight				=		0.3,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DaysTotallyRotten		=		10,
 	DisplayName			=		Cauliflower,
 	Icon				=		HCCauliflower,
@@ -155,7 +155,7 @@ module Hydrocraft
 
 	HungerChange			=		-5,
         Weight				=		0.2,
-        Type				=		Food,
+        ItemType				=		base:food,
         DaysTotallyRotten		=		10,
         DisplayName			=		Bell Pepper,
         Icon				=		HCBellpeppergreen,
@@ -174,7 +174,7 @@ module Hydrocraft
 
 	HungerChange			=		-5,
         Weight				=		0.2,
-        Type				=		Food,
+        ItemType				=		base:food,
         DaysTotallyRotten		=		10,
         DisplayName			=		Bell Pepper,
         Icon				=		HCBellpepperyellow,
@@ -193,7 +193,7 @@ module Hydrocraft
 
 	HungerChange			=		-5,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DaysTotallyRotten		=		9,
 	DisplayName			=		Green Onion,
 	Icon				=		HCOniongreen,
@@ -211,7 +211,7 @@ module Hydrocraft
 
 	HungerChange			=		-25,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DaysTotallyRotten		=		20,
 	DisplayName			=		Garlic,
 	Icon				=		HCGarlic,
@@ -227,7 +227,7 @@ module Hydrocraft
     item HCGinger
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Ginger,
 	Icon				=		HCGinger,
 	Weight				=		0.2,
@@ -245,7 +245,7 @@ module Hydrocraft
     item HCPumpkin
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Pumpkin,
 	Icon				=		HCPumpkin,
 	Weight				=		0.9,
@@ -265,7 +265,7 @@ module Hydrocraft
     item HCPumpkinflesh
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Pumpkin Flesh,
 	Icon				=		HCPumpkinflesh,
 	Weight				=		0.1,
@@ -284,7 +284,7 @@ module Hydrocraft
     {
 
 	DisplayCategory          =   FoodP,   
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Green Pumpkin,
 	Icon				=		HCPumpkingreen,
 	Weight				=		0.9,
@@ -305,7 +305,7 @@ module Hydrocraft
     {
 
     DisplayCategory          =   FoodP,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		White Pumpkin,
 	Icon				=		HCPumpkinwhite,
 	Weight				=		0.9,
@@ -325,7 +325,7 @@ module Hydrocraft
     item HCPumpkinlarge
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Large Pumpkin,
 	Icon				=		HCPumpkinlarge,
 	Weight				=		0.9,
@@ -345,7 +345,7 @@ module Hydrocraft
     item HCPumpkinbuskin
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Buskin Pumpkin,
 	Icon				=		HCPumpkinbuskin,
 	Weight				=		0.9,
@@ -367,7 +367,7 @@ module Hydrocraft
 
 	HungerChange			=		-15,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DaysTotallyRotten		=		8,
 	DisplayName			=		Red Corn,
 	Icon				=		HCCornred,
@@ -385,7 +385,7 @@ module Hydrocraft
 
 	HungerChange			=		-15,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DaysTotallyRotten		=		8,
 	DisplayName			=		Blue Corn,
 	Icon				=		HCCornblue,
@@ -403,7 +403,7 @@ module Hydrocraft
 
 	HungerChange			=		-15,
 	Weight				=		0.2,
-	Type				=		Food,
+	ItemType				=		base:food,
 	DaysTotallyRotten		=		8,
 	DisplayName			=		White Corn,
 	Icon				=		HCCornwhite,
@@ -419,7 +419,7 @@ module Hydrocraft
     item HCCabbagered
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Red Cabbage,
 	Icon				=		HCCabbagered,
 	Weight				=		0.2,
@@ -438,7 +438,7 @@ module Hydrocraft
     item HCCabbagewhite
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		White Cabbage,
 	Icon				=		HCCabbagewhite,
 	Weight				=		0.2,
@@ -457,7 +457,7 @@ module Hydrocraft
     item HCPotatogolden
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Golden Potato,
 	Icon				=		HCPotatogolden,
 	Weight				=		0.3,
@@ -476,7 +476,7 @@ module Hydrocraft
     item HCPotatored
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Red Potato,
 	Icon				=		HCPotatored,
 	Weight				=		0.3,
@@ -495,7 +495,7 @@ module Hydrocraft
     item HCChilipepper
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Chili Pepper,
 	Icon				=		HCChilipepper,
 	Weight				=		0.2,
@@ -514,7 +514,7 @@ module Hydrocraft
     item HCChilipeppercut
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Cut Chili Pepper,
 	Icon				=		HCChilipeppercut,
 	Weight				=		0.1,
@@ -532,7 +532,7 @@ module Hydrocraft
     item HCChiligreen
     {
 
-	Type	        		=		Food,
+	ItemType	        		=		base:food,
 	HungerChange	        	=		-10,
 	Weight	        		=		0.2,
 	DaysFresh 			=		14,
@@ -552,7 +552,7 @@ module Hydrocraft
     item HCTomatillo
     {
 
-	Type	        		=		Food,
+	ItemType	        		=		base:food,
 	HungerChange	        	=		-5,
 	Weight	        		=		0.1,
 	DaysFresh 			=		10,
@@ -572,7 +572,7 @@ module Hydrocraft
     item HCColewort
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Colewort,
 	Icon				=		HCColewort,
 	Weight				=		0.3,
@@ -590,7 +590,7 @@ module Hydrocraft
     item HCArtichoke
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Artichoke,
 	Icon				=		HCArtichoke,
 	Weight				=		0.3,
@@ -608,7 +608,7 @@ module Hydrocraft
     item HCSpirulinafresh
     {
 
-		Type				=		Food,
+		ItemType				=		base:food,
 		DisplayName			=		Spirulina,
 		Icon				=		HCSpirulinafresh,
 		Weight				=		0.1,
@@ -629,7 +629,7 @@ module Hydrocraft
     item HCAlgaePowder
     {
 
-		Type				=		Food,
+		ItemType				=		base:food,
 		DisplayName			=		Algae powder,
 		Icon				=		HCSpirulinapowder,
 		Weight				=		0.1,
@@ -644,7 +644,7 @@ module Hydrocraft
     item HCBeet
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Beetroot,
 	Icon				=		HCBeet,
 	Weight				=		0.3,
@@ -663,7 +663,7 @@ module Hydrocraft
     item HCBasilleaf
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Basil Leaf,
 	Icon				=		HCBasilleaf,
 	Weight				=		0.1,
@@ -682,7 +682,7 @@ module Hydrocraft
     item HCOreganoleaf
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Oregano Leaf,
 	Icon				=		HCBasilleaf,
 	Weight				=		0.1,
@@ -701,7 +701,7 @@ module Hydrocraft
     item HCAsparagus
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Asparagus,
 	Icon				=		HCAsparagus,
 	Weight				=		0.3,
@@ -719,7 +719,7 @@ module Hydrocraft
     item HCJalapeno
     {
 
-	Type	        		=		Food,
+	ItemType	        		=		base:food,
 	HungerChange	        	=		-10,
 	Weight	        		=		0.2,
 	DaysFresh 			=		14,
@@ -739,7 +739,7 @@ module Hydrocraft
     item HCSquashsummer
     {
 
-        Type				=		Food,
+        ItemType				=		base:food,
         DisplayName			=		Summer Squash,
         Icon				=		HCSquashsummer,
         Weight				=		0.3,
@@ -758,7 +758,7 @@ module Hydrocraft
     item HCBeetsugar
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Sugar Beet,
 	Icon				=		HCBeetsugar,
 	Weight				=		0.3,
@@ -777,7 +777,7 @@ module Hydrocraft
     item HCCelery
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Celery,
 	Icon				=		HCCelery,
 	Weight				=		0.3,
@@ -795,7 +795,7 @@ module Hydrocraft
     item HCTomatocherry
     {
 
-	Type	        		=		Food,
+	ItemType	        		=		base:food,
 	HungerChange	        	=		-5,
 	Weight	        		=		0.1,
 	DaysFresh 			=		10,
@@ -814,7 +814,7 @@ module Hydrocraft
     item HCSpinach
     {
 
-	Type				=		Food,
+	ItemType				=		base:food,
 	DisplayName			=		Spinach,
 	Icon				=		HCSpinach,
 	Weight				=		0.3,

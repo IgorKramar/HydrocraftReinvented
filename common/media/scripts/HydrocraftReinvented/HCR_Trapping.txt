@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight    			= 	0.1,
-	Type    			= 	Normal,
+	ItemType    			= 	base:normal,
 	DisplayName			=	No Result,
 	Icon				=	Nothing,
     }
@@ -13,7 +13,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.1,
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Steel Spring,
 	Icon				=	HCSteelspring,
 			DisplayCategory	= CraftMetal,
@@ -22,7 +22,7 @@ module Hydrocraft
     {
 
         Weight    			= 	25.0,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         		= 	Set Propane Trap,
         icon 				= 	Propanetrap,
 			DisplayCategory	= SurTrap,
@@ -31,7 +31,7 @@ module Hydrocraft
     {
 
         Weight    			= 	25.0,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         		= 	Exloded Propane Trap,
         icon 				= 	Propanetrap,
 			DisplayCategory	= SurTrap,
@@ -40,7 +40,7 @@ module Hydrocraft
     {
 
         Weight    			= 	2.0,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         		= 	Set Bear Trap,
         icon 				= 	Beartrap,
 			DisplayCategory	= SurTrap,
@@ -49,7 +49,7 @@ module Hydrocraft
     {
 
         Weight    			= 	2.0,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         		= 	Closed Bear Trap,
         icon 				= 	Beartrapclosed,
 			DisplayCategory	= SurTrap,
@@ -58,7 +58,7 @@ module Hydrocraft
     {
 
         Weight    			= 	3.0,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         		= 	Set Nail Trap,
         icon 				= 	Spiketrap,
 			DisplayCategory	= SurTrap,
@@ -67,7 +67,7 @@ module Hydrocraft
     {
 
         Weight    			= 	3.0,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         		= 	Broken Nail Trap,
         icon 				= 	Spiketrapclosed,
 			DisplayCategory	= SurTrap,
@@ -76,7 +76,7 @@ module Hydrocraft
     {
 
         MaxRange    =   3,
-        Type    =   Weapon,
+        ItemType    =   base:weapon,
         MinimumSwingTime    =   1.5,
         SwingAnim   =   Throw,
         WeaponSprite = Spiketrapclosed,

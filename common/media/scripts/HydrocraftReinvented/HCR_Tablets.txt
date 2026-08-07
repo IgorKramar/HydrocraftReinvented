@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight 			= 12,
-	Type 			= Normal,
+	ItemType 			= base:normal,
 	DisplayName 		= Primitive Research Station,
 	Icon			= HCResearchtable,
 		DisplayCategory	= CraftMas,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight			=	0.5,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Skin Animal Tablet,
         Icon			=	HCClaytabletwritten,
         /*TeachedRecipes 		=   	Skin Animal,*/
@@ -27,7 +27,7 @@ module Hydrocraft
     {
 
         Weight          =   0.5,
-        Type            =   Literature,
+        ItemType            =   base:literature,
         DisplayName     =   Butcher Carcass Tablet,
         Icon            =   HCClaytabletwritten,
         TeachedRecipes      =  Butcher Carcass,
@@ -40,7 +40,7 @@ module Hydrocraft
     {
 
         Weight			=	0.5,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Bunch of Berries Tablet,
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=  Make Bunch of Berries,
@@ -53,7 +53,7 @@ module Hydrocraft
     {
 
         Weight			=	0.5,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Bunch of Mushrooms Tablet,
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=   	Make Bunch of Mushrooms,
@@ -66,7 +66,7 @@ module Hydrocraft
     {
 
         Weight			=	0.5,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Birch Bark Basket Tablet,
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=   	Make Birch Bark Basket,
@@ -79,7 +79,7 @@ module Hydrocraft
     {
 
         Weight			=	0.5,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Wicker Basket Tablet,
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=   	Make Wicker Basket,
@@ -92,7 +92,7 @@ module Hydrocraft
     {
 
         Weight			=	0.5,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Straw Basket Tablet,
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=   	Make Straw Basket,
@@ -105,7 +105,7 @@ module Hydrocraft
     {
 
         Weight			=	0.5,
-        Type			=	Literature,
+        ItemType			=	base:literature,
         DisplayName		=	Stick Trap Tablet,
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=   	Make Stick Trap,
@@ -118,7 +118,7 @@ module Hydrocraft
     {
 
         Weight          =   0.5,
-        Type            =   Literature,
+        ItemType            =   base:literature,
         DisplayName     =   Bone Needle Research,
         Icon            =   HCClaytabletwritten,
         TeachedRecipes      = Carve Knitting Needles;Craft Bone Needle,
@@ -131,7 +131,7 @@ module Hydrocraft
     {
 
         Weight          = 0.5,
-        Type            = Literature,
+        ItemType            = base:literature,
         DisplayName     = Drying Frame Research,
         Icon            = HCClaytabletwritten,
         TeachedRecipes  = Make Drying Frame;Dry Hide,

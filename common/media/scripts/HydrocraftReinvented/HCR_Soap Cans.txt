@@ -6,7 +6,7 @@ module Hydrocraft
 
 	Weight			=	0.1,
 	CanStoreWater		=	TRUE,
-        Type			=	Drainable,
+        ItemType			=	base:drainable,
 	
 	ReplaceOnUseOn		=	WaterSource-HCDetergentwater,
         DisplayName		=	Empty Liquid Soap Can,
@@ -18,7 +18,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -30,7 +30,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -42,7 +42,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -54,7 +54,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -66,7 +66,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -78,7 +78,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -90,7 +90,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -102,7 +102,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -114,7 +114,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -126,7 +126,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -138,7 +138,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -150,7 +150,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -162,7 +162,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -174,7 +174,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -186,7 +186,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -198,7 +198,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Drainable,
+        ItemType			        =	base:drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
@@ -210,7 +210,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UseWhileEquipped		=	FALSE,
 	HungerChange			=	-45,	
 	UnhappyChange			=	-25,
@@ -226,7 +226,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-        Type			        =	Food,
+        ItemType			        =	base:food,
 	UseDelta		        =       0.2,
 	BoredomChange			=	-25,
 	UnhappyChange			=	-28,
@@ -242,7 +242,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-	Type			        =	Food,
+	ItemType			        =	base:food,
 	DisplayName			=	Liquid Soap Can With UHTMilk,
 	ThirstChange 			=	-125,
 	HungerChange 			= 	-12.5,
@@ -258,7 +258,7 @@ module Hydrocraft
     {
 
 	Weight				=	2.5,
-	Type			        =	Food,
+	ItemType			        =	base:food,
 	DisplayName			=	Liquid Soap Can With Insecticide,
         Poison                          =       true,
 	PoisonDetectionLevel 	        =       1,
@@ -274,7 +274,7 @@ module Hydrocraft
 	IsWaterSource		=	TRUE,
 	Weight		       	=	2.5,
 	CanStoreWater		=	TRUE,
-    Type		      	=	Drainable,
+    ItemType		      	=	base:drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta		    =	0.07,
 	DisplayName		    =	Liquid Soap Can Water,

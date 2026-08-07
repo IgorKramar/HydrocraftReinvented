@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type	                = Container,
+        ItemType	                = base:container,
         Capacity	        = 27,
         DisplayName     	= Empty Metal Barrel,
 		DisplayCategory          =   Container,
@@ -15,7 +15,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type	                = Container,
+        ItemType	                = base:container,
         Capacity	        = 27,
         DisplayName     	= Empty Blue Barrel,
 		DisplayCategory          =   Container,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
     Weight    		= 10,
-    Type    		= Drainable,
+    ItemType    		= base:drainable,
 	UseDelta		= 0.05,
     DisplayName     = Metal Barrel with Ammonia,
     icon 			= HCBarrelmetal,
@@ -36,7 +36,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type	                = Container,
+        ItemType	                = base:container,
         Capacity	        = 27,
         DisplayName     	= Empty Ammonia Barrel,
 		DisplayCategory	= CraftChem,
@@ -46,7 +46,7 @@ module Hydrocraft
     {
 
     Weight    		    = 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
 	UseDelta		    = 0.05,
     DisplayName     	= Metal Barrel with Ammonia,
     icon 			    = HCAmmoniabarrelmetal,
@@ -57,7 +57,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type	                = Container,
+        ItemType	                = base:container,
         Capacity	        = 27,
         DisplayName     	= Blue Empty Ammonia Barrel,
 		DisplayCategory	= CraftChem,
@@ -67,7 +67,7 @@ module Hydrocraft
     {
 
     Weight    		    = 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
 	UseDelta		    = 0.05,
     DisplayName     	= Blue Barrel with Ammonia,
     icon 			    = HCAmmoniabarrelblue,
@@ -78,7 +78,7 @@ module Hydrocraft
     {
 
     Weight    		    = 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
     DisplayName         = Metal Barrel with Methylamin,
     icon 		     	= HCBarrelmetal,
 	ReplaceOnDeplete	= HCBarrelmetalempty,
@@ -88,7 +88,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type	                = Container,
+        ItemType	                = base:container,
         Capacity	        = 27,
         DisplayName     	= Empty Methylamin Barrel,
 		DisplayCategory	= CraftChem,
@@ -98,7 +98,7 @@ module Hydrocraft
     {
 
     Weight    		    = 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
 	UseDelta		    = 0.05,
     DisplayName     	= Metal Barrel with Methylamin,
     icon 			    = HCMethylaminbarrelmetal,
@@ -109,7 +109,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type	                = Container,
+        ItemType	                = base:container,
         Capacity	        = 27,
         DisplayName     	= Blue Empty Methylamin Barrel,
 		DisplayCategory	= CraftChem,
@@ -119,7 +119,7 @@ module Hydrocraft
     {
 
     Weight    		    = 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
 	UseDelta		    = 0.05,
     DisplayName         = Blue Barrel with Methylamin,
     icon 			    = HCMethylaminbarrelblue,
@@ -130,7 +130,7 @@ module Hydrocraft
     {
 
     Weight    		    = 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
 	UseDelta		    = 0.05,
     DisplayName         = Metal Barrel with Phenylacetic Acid,
     icon 			    = HCBarrelmetal,
@@ -141,7 +141,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type	                = Container,
+        ItemType	                = base:container,
         Capacity	        = 27,
         DisplayName     	= Empty Phenylacetic Acid Barrel,
 		DisplayCategory	= CraftChem,
@@ -151,7 +151,7 @@ module Hydrocraft
     {
 
     Weight    		    = 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
 	UseDelta		    = 0.05,
     DisplayName         = Metal Barrel with Phenylacetic Acid,
     icon 			    = HCPhenylbarrelmetal,
@@ -162,7 +162,7 @@ module Hydrocraft
     {
 
     Weight    		= 4,
-    Type	                = Container,
+    ItemType	                = base:container,
     Capacity	        = 27,
     DisplayName     	= Blue Empty Phenylacetic Acid Barrel,
     icon 			= HCPhenylbarrelblue,
@@ -172,7 +172,7 @@ module Hydrocraft
     {
 
     Weight    	     	= 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
 	UseDelta		    = 0.05,
     DisplayName     	= Blue Barrel with Phenylacetic Acid,
     icon     			= HCPhenylbarrelblue,
@@ -183,7 +183,7 @@ module Hydrocraft
     {
 
     Weight    		    = 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
 	UseDelta		    = 0.05,
     DisplayName     	= Metal Barrel with Phenylacetic Acid,
     icon 			    = HCBarrelmetal,
@@ -194,7 +194,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type	                = Container,
+        ItemType	                = base:container,
         Capacity	        = 27,
         DisplayName     	= Empty Phenylacetic Acid Barrel,
 		DisplayCategory	= CraftChem,
@@ -204,7 +204,7 @@ module Hydrocraft
     {
 
     Weight    		    = 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
 	UseDelta		    = 0.05,
     DisplayName     	= Metal Barrel with Sulfuric Acid,
     icon 		     	= HCSulfuricacidbarrelmetal,
@@ -215,7 +215,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type	                = Container,
+        ItemType	                = base:container,
         Capacity	        = 27,
         DisplayName     	= Blue Empty Sulfuric Acid Barrel,
 		DisplayCategory	= CraftChem,
@@ -225,7 +225,7 @@ module Hydrocraft
     {
 
     Weight    		    = 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
 	UseDelta		    = 0.05,
     DisplayName         = Blue Barrel with Sulfuric Acid,
     icon 			    = HCSulfuricacidbarrelblue,
@@ -236,7 +236,7 @@ module Hydrocraft
     {
 
     Weight    		= 20,
-    Type    		= Normal,
+    ItemType    		= base:normal,
     DisplayName     	= Toxic Waste,
     icon 			= HCBarrelbluetoxicwaste,
 	DisplayCategory	= CraftChem,
@@ -245,7 +245,7 @@ module Hydrocraft
     {
 
         Weight    		= 20,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Sealed Toxic Waste,
 		DisplayCategory	= Useless,
         icon 			= HCToxicwaste,
@@ -254,7 +254,7 @@ module Hydrocraft
     {
 
     Weight            	= 10,
-    Type    		    = Drainable,
+    ItemType    		    = base:drainable,
 	UseDelta		    = 0.05,
     DisplayName         = Metal Barrel with Gasoline,
     icon             	= HCBarrelmetal,
@@ -265,7 +265,7 @@ module Hydrocraft
     {
 
         Weight            	= 4,
-        Type                    = Container,
+        ItemType                    = base:container,
         Capacity            	= 27,
         DisplayName         	= Empty Gasoline Barrel,
 		DisplayCategory	= CraftChem,
@@ -275,7 +275,7 @@ module Hydrocraft
     {
 
         Weight            	= 10,
-        Type    		= Drainable,
+        ItemType    		= base:drainable,
 		UseDelta		= 0.05,
         DisplayName         	= Metal Barrel with Gasoline,
 		DisplayCategory	= CraftChem,

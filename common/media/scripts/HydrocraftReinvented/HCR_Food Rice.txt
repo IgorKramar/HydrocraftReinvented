@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight				=	2,
-        Type				=	Food,
+        ItemType				=	base:food,
         DisplayName			=	Brown Rice,
         Icon				=	HCRicebrown,
         HungerChange    		=   	-60,
@@ -24,7 +24,7 @@ module Hydrocraft
 
 	HungerChange			=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	DangerousUncooked		=	TRUE,
 	MinutesToCook			=	30,
@@ -47,7 +47,7 @@ module Hydrocraft
 
 		HungerChange		=	-50,
 		Weight				=	4,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-20,
 		IsCookable			=	TRUE,
 		MinutesToCook		=	90,
@@ -71,7 +71,7 @@ module Hydrocraft
 
 		HungerChange		=	-30,
 		Weight				=	1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-5,
 		IsCookable			=	TRUE,
 		MinutesToCook		=	90,
@@ -96,7 +96,7 @@ module Hydrocraft
 
 		HungerChange		=	-50,
 		Weight				=	4,
-		Type				=	Food,
+		ItemType				=	base:food,
 		IsCookable			=	TRUE,
 		UnhappyChange		=	-20,
 		MinutesToCook		=	90,
@@ -120,7 +120,7 @@ module Hydrocraft
 
 		HungerChange		=	-35,
 		Weight				=	1,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	-5,
 		IsCookable			=	TRUE,
 		MinutesToCook		=	90,
@@ -144,7 +144,7 @@ module Hydrocraft
 
 	HungerChange			=	-50,
 	Weight				=	1.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	IsCookable			=	TRUE,
 	DangerousUncooked		=	TRUE,
 	UnhappyChange			=	-45,

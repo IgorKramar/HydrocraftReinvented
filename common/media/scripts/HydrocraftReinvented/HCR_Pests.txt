@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Rat Poison,
         icon 				= HCRatpoison,
 		DisplayCategory		=   Useless,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.3,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Box of Rat Poison,
         icon 				= HCRatpoisonbox,
 		DisplayCategory		=   Useless,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    			= 0.1,
-	Type				= Drainable,
+	ItemType				= base:drainable,
 	UseDelta			= 0.25,
         DisplayName         		= Can of Bug Spray,
         icon 				= HCBugspraycan,
@@ -33,7 +33,7 @@ module Hydrocraft
     {
 
 	Weight				= 6.5,
-	Type				= Drainable,
+	ItemType				= base:drainable,
 	UseDelta			= 0.125,
         DisplayName         		= Bug Sprayer,
         icon 				= HCBugsprayer,
@@ -44,7 +44,7 @@ module Hydrocraft
     {
 
         Weight    			= 6.0,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Empty Bug Sprayer,
         icon 				= HCBugsprayer,
 		DisplayCategory		=   SurFarm,

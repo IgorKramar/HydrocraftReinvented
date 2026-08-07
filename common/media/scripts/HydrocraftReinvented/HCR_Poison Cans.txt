@@ -6,7 +6,7 @@ module Hydrocraft
 
         Weight			    =	0.1,
         CanStoreWater	    =	TRUE,
-        Type			    =	Drainable,
+        ItemType			    =	base:drainable,
         ReplaceOnUseOn	    =	WaterSource-HCPoisonwater,
         DisplayName		    =	Empty Insecticide Can,
         Icon			    =	HCPoisonempty,
@@ -17,7 +17,7 @@ module Hydrocraft
     {
 
         Weight				=	2.5,
-        Type			    =	Drainable,
+        ItemType			    =	base:drainable,
         UseDelta		    =       0.25,
         ReplaceOnDeplete	=	HCPoisonempty,
         DisplayName			=	Insecticide,
@@ -28,7 +28,7 @@ module Hydrocraft
     {
 
         Weight				=	2.5,
-        Type			    =	Drainable,
+        ItemType			    =	base:drainable,
         UseDelta		    =   0.25,
         ReplaceOnDeplete	=	HCPoisonempty,
         DisplayName			=	Insecticide Can With Liqiud Soap,
@@ -41,7 +41,7 @@ module Hydrocraft
         IsWaterSource		=	TRUE,
         Weight			    =	2.5,
         CanStoreWater		=	TRUE,
-        Type			    =	Drainable,
+        ItemType			    =	base:drainable,
         UseWhileEquipped    =	FALSE,
         UseDelta		    =	0.07,
         DisplayName		    =	Inscticide Can With Water,

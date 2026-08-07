@@ -6,7 +6,7 @@ module Hydrocraft
 
 		HungerChange		=	0,
 		Weight				=	0.4,
-		Type				=	Food,
+		ItemType				=	base:food,
 		UnhappyChange		=	0,
 		DisplayName			=	Bag of Food,
 		DaysTotallyRotten	=	5,

@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 		Weight				=	1,
-		Type				=	Normal,
+		ItemType				=	base:normal,
 		DisplayName			=	Box of Things,
 		Icon				=	HCCardboardboxsealed,
 		StaticModel	 = BoxOfThings,

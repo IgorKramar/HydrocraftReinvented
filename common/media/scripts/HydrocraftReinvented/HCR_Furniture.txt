@@ -4,7 +4,7 @@ module Hydrocraft
     item HCWindowswood
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= fixtures_windows_01_1,
 	DisplayName		= Wooden Windows,
@@ -14,7 +14,7 @@ module Hydrocraft
     item HCMicrowave
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= appliances_cooking_01_25,
 	DisplayName		= Microwave,
@@ -24,7 +24,7 @@ module Hydrocraft
     item HCMinifridge
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= appliances_refrigeration_01_24,
 	DisplayName		= Mini Fridge,
@@ -34,7 +34,7 @@ module Hydrocraft
     item HCWashingmachine
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= appliances_laundry_01_5,
 	DisplayName		= Washing Machine,
@@ -44,7 +44,7 @@ module Hydrocraft
     item HCDryingmachine
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= appliances_laundry_01_1,
 	DisplayName		= Drying Machine,
@@ -54,7 +54,7 @@ module Hydrocraft
     item HCPedestalmarble
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= location_shop_mall_01_64,
 	DisplayName		= Marble Pedestal,
@@ -64,7 +64,7 @@ module Hydrocraft
     item HCStatuemarble1
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= location_shop_mall_01_65,
 	DisplayName		= Marble Statue,
@@ -74,7 +74,7 @@ module Hydrocraft
     item HCStatuemarble2
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= location_shop_mall_01_66,
 	DisplayName		= Marble Statue,
@@ -84,7 +84,7 @@ module Hydrocraft
     item HCStatuemarble3
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= location_shop_mall_01_67,
 	DisplayName		= Marble Statue,
@@ -94,7 +94,7 @@ module Hydrocraft
     item HCStatuemarble4
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= location_shop_mall_01_68,
 	DisplayName		= Marble Statue,
@@ -104,7 +104,7 @@ module Hydrocraft
     item HCStatuemarble5
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= location_shop_mall_01_69,
 	DisplayName		= Marble Statue,
@@ -114,7 +114,7 @@ module Hydrocraft
     item HCStatuemarble6
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= location_shop_mall_01_70,
 	DisplayName		= Marble Statue,
@@ -124,7 +124,7 @@ module Hydrocraft
     item HCPainting1
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= walls_decoration_01_46,
 	DisplayName		= Painting,
@@ -134,7 +134,7 @@ module Hydrocraft
     item HCPainting2
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= walls_decoration_01_48,
 	DisplayName		= Painting,
@@ -144,7 +144,7 @@ module Hydrocraft
     item HCPainting3
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= walls_decoration_01_35,
 	DisplayName		= Painting,
@@ -154,7 +154,7 @@ module Hydrocraft
     item HCPainting4
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= walls_decoration_01_56,
 	DisplayName		= Painting,
@@ -164,7 +164,7 @@ module Hydrocraft
     item HCPainting5
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= walls_decoration_01_50,
 	DisplayName		= Painting,
@@ -174,7 +174,7 @@ module Hydrocraft
     item HCLamp1
     {
 
-	Type 			= Moveable,
+	ItemType 			= base:moveable,
 	Weight 			= 0.5,
 	WorldObjectSprite 	= lighting_indoor_01_35,
 	DisplayName		= Lamp,

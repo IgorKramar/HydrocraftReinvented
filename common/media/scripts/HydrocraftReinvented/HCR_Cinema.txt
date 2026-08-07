@@ -6,7 +6,7 @@ module Hydrocraft
 
 		DisplayCategory          =   Household,	
 		Weight					 =	 0.01,
-        Type			 		 =	 Normal,
+        ItemType			 		 =	 base:normal,
         DisplayName				 =	 Cinema Ticket,
 		Icon					 =	 HCCinematicket,
 		WorldStaticModel 		 = 	 WorldItem-HCCinemaTicket,
@@ -15,7 +15,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.5,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Movie Film Roll,
 	Icon			=	HCMovieroll,
 	DisplayCategory          =   Useless,
@@ -24,7 +24,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.0,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Movie Film Can,
 	Icon			=	HCFilmcan,
 	DisplayCategory          =   CraftMisc,

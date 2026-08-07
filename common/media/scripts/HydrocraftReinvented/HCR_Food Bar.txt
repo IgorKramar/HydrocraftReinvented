@@ -6,7 +6,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Short Glass of Gin,
@@ -28,7 +28,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Tall Glass of Gin,
@@ -50,7 +50,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Cocktail Glass of Gin,
@@ -72,7 +72,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Short Glass of Whiskey,
@@ -94,7 +94,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Tall Glass of Whiskey,
@@ -116,7 +116,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Cocktail Glass of Whiskey,
@@ -138,7 +138,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Short Glass of Rum,
@@ -160,7 +160,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Tall Glass of Rum,
@@ -182,7 +182,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Cocktail Glass of Rum,
@@ -204,7 +204,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Short Glass of Vodka,
@@ -226,7 +226,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Tall Glass of Vodka,
@@ -248,7 +248,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight				=	0.2,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-10,
     UnhappyChange		=	-10,
 	DisplayName			=	Cocktail Glass of Vodka,
@@ -270,7 +270,7 @@ module Hydrocraft
 
 	HungerChange	    =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName			=	Bloody Mary Mixer,
     UnhappyChange		=	+10,
@@ -292,7 +292,7 @@ module Hydrocraft
 
 	HungerChange	    =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName			=	Lemon Mixer,
     UnhappyChange		=	+10,
@@ -314,7 +314,7 @@ module Hydrocraft
 
 	HungerChange	    =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName			=	Lime Mixer,
     UnhappyChange		=	+10,
@@ -339,7 +339,7 @@ module Hydrocraft
 	StressChange			=	-10,
 	HungerChange			=	-5,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange			=	-50,
 	DisplayName			=	Cup of Irish Coffee,
 	Alcoholic		=	TRUE,
@@ -363,7 +363,7 @@ module Hydrocraft
 	StressChange			=	-10,
 	HungerChange			=	-5,
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange			=	-50,
 	DisplayName			=	Cup of Irish Coffee,
 	Alcoholic		=	TRUE,
@@ -384,7 +384,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Whiskey,
 	Alcoholic		=	TRUE,
@@ -409,7 +409,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Whiskey,
 	Alcoholic		=	TRUE,
@@ -434,7 +434,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Whiskey,
 	Alcoholic		=	TRUE,
@@ -459,7 +459,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Whiskey,
 	Alcoholic		=	TRUE,
@@ -484,7 +484,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Corn Whiskey,
 	Alcoholic		=	TRUE,
@@ -509,7 +509,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Bourbon,
 	Alcoholic		=	TRUE,
@@ -534,7 +534,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Bourbon,
 	Alcoholic		=	TRUE,
@@ -559,7 +559,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Scotch,
 	Alcoholic		=	TRUE,
@@ -584,7 +584,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Rum,
 	Alcoholic		=	TRUE,
@@ -609,7 +609,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Gin,
 	Alcoholic		=	TRUE,
@@ -634,7 +634,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Gin,
 	Alcoholic		=	TRUE,
@@ -659,7 +659,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Gin,
 	Alcoholic		=	TRUE,
@@ -684,7 +684,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Vodka,
 	Alcoholic		=	TRUE,
@@ -709,7 +709,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Vodka,
 	Alcoholic		=	TRUE,
@@ -734,7 +734,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Beer,
 	Alcoholic		=	TRUE,
@@ -759,7 +759,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Beer,
 	Alcoholic		=	TRUE,
@@ -784,7 +784,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Beer,
 	Alcoholic		=	TRUE,
@@ -809,7 +809,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Beer,
 	Alcoholic		=	TRUE,
@@ -834,7 +834,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Beer,
 	Alcoholic		=	TRUE,
@@ -859,7 +859,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Beer,
 	Alcoholic		=	TRUE,
@@ -884,7 +884,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Beer,
 	Alcoholic		=	TRUE,
@@ -909,7 +909,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Beer,
 	Alcoholic		=	TRUE,
@@ -934,7 +934,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Can of Beer,
 	Alcoholic		=	TRUE,
@@ -959,7 +959,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Can of Beer,
 	Alcoholic		=	TRUE,
@@ -984,7 +984,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Can of Beer,
 	Alcoholic		=	TRUE,
@@ -1009,7 +1009,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Can of Beer,
 	Alcoholic		=	TRUE,
@@ -1034,7 +1034,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Can of Beer,
 	Alcoholic		=	TRUE,
@@ -1059,7 +1059,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Can of Beer,
 	Alcoholic		=	TRUE,
@@ -1084,7 +1084,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Can of Beer,
 	Alcoholic		=	TRUE,
@@ -1109,7 +1109,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Can of Beer,
 	Alcoholic		=	TRUE,
@@ -1134,7 +1134,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Can of Beer,
 	Alcoholic		=	TRUE,
@@ -1159,7 +1159,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Can of Beer,
 	Alcoholic		=	TRUE,
@@ -1183,7 +1183,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.0,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	DisplayName		=	Bottle of Bitters,
         UseDelta		=	0.025,
 	ReplaceOnDeplete	=	WineEmpty2,
@@ -1194,7 +1194,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.0,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	DisplayName		=	Bottle of Triple Sec,
         UseDelta		=	0.025,
 	ReplaceOnDeplete	=	WhiskeyEmpty,
@@ -1205,7 +1205,7 @@ module Hydrocraft
     {
 
 	Weight			=	1.0,
-	Type			=	Drainable,
+	ItemType			=	base:drainable,
 	DisplayName		=	Bottle of Vermouth,
         UseDelta		=	0.025,
 	ReplaceOnDeplete	=	WineEmpty,
@@ -1217,7 +1217,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Absinth,
 	Alcoholic		=	TRUE,
@@ -1242,7 +1242,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Herbal Liqueur,
 	Alcoholic		=	TRUE,
@@ -1267,7 +1267,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Old Fashioned Drink,
 	Alcoholic		=	TRUE,
@@ -1291,7 +1291,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Martini Drink,
 	Alcoholic		=	TRUE,
@@ -1315,7 +1315,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Manhattan Drink,
 	Alcoholic		=	TRUE,
@@ -1339,7 +1339,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Daquiri Drink,
 	Alcoholic		=	TRUE,
@@ -1363,7 +1363,7 @@ module Hydrocraft
 
 	HungerChange		=	-10,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Bloody Mary Drink,
 	Alcoholic		=	TRUE,
@@ -1387,7 +1387,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Whiskey Sour Drink,
 	Alcoholic		=	TRUE,
@@ -1411,7 +1411,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Mai Tai Drink,
 	Alcoholic		=	TRUE,
@@ -1435,7 +1435,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Cosmopolitan Drink,
 	Alcoholic		=	TRUE,
@@ -1459,7 +1459,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Tom Collins Drink,
 	Alcoholic		=	TRUE,
@@ -1483,7 +1483,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Long Island Iced Tea Drink,
 	Alcoholic		=	TRUE,
@@ -1508,7 +1508,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Gimlet Drink,
 	Alcoholic		=	TRUE,
@@ -1532,7 +1532,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Planter's Punch Drink,
 	Alcoholic		=	TRUE,
@@ -1556,7 +1556,7 @@ module Hydrocraft
 
 	HungerChange		=	-5,
 	Weight			=	0.3,
-	Type			=	Food,
+	ItemType			=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Whiskey and Coke,
 	Alcoholic		=	TRUE,
@@ -1580,7 +1580,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Tequila,
 	Alcoholic		=	TRUE,
@@ -1605,7 +1605,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Mezcal,
 	Alcoholic		=	TRUE,
@@ -1629,7 +1629,7 @@ module Hydrocraft
     {
 
 	Weight	        	=	0.2,
-	Type	        	=	Normal,
+	ItemType	        	=	base:normal,
 	DisplayName		=	Empty Mezcal Bottle with Worm,
 	Icon	        	=	HCMezcalemptyworm,
 	DisplayCategory          =   CraftDist,
@@ -1639,7 +1639,7 @@ module Hydrocraft
 
 	HungerChange	        =	-1,
 	Weight	        	=	0.05,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-5,
 	DisplayName		=	Mezcal Worm,
 	Alcoholic		=	TRUE,
@@ -1661,7 +1661,7 @@ module Hydrocraft
 
 	HungerChange	        =	-5,
 	Weight	        	=	0.5,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Margarita Drink,
 	Alcoholic		=	TRUE,
@@ -1685,7 +1685,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Sake,
 	Alcoholic		=	TRUE,
@@ -1710,7 +1710,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Applejack,
 	Alcoholic		=	TRUE,
@@ -1735,7 +1735,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Peach Schnapps,
 	Alcoholic		=	TRUE,
@@ -1760,7 +1760,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Flip,
 	Alcoholic		=	TRUE,
@@ -1785,7 +1785,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Mead,
 	Alcoholic		=	TRUE,
@@ -1810,7 +1810,7 @@ module Hydrocraft
 
 	HungerChange	        =	-20,
 	Weight	        	=	1,
-	Type	        	=	Food,
+	ItemType	        	=	base:food,
 	ThirstChange		=	-20,
 	DisplayName		=	Mead,
 	Alcoholic		=	TRUE,
@@ -1835,7 +1835,7 @@ module Hydrocraft
 
          ThirstChange		= 	-10,
 	 Weight			=	0.9,
-	 Type			=	Food,
+	 ItemType			=	base:food,
 	 DisplayName		=	Agua Ardiente Bottle,
 	 Icon			=	HCAguaardiente,
          CustomContextMenu 	= 	Drink,
@@ -1860,7 +1860,7 @@ module Hydrocraft
 	HungerChange		=	-40,
         ThirstChange		= 	-200,
 	Weight			=	1.1,
-	Type			=	Food,
+	ItemType			=	base:food,
 	DisplayName		=	Eggnog Pot,
 	Icon			=	HCEggnogpot,
 	CustomContextMenu 	= 	Drink,
@@ -1885,7 +1885,7 @@ module Hydrocraft
 	HungerChange		=	-10,
         ThirstChange		= 	-60,
 	Weight			=	0.2,
-	Type			=	Food,
+	ItemType			=	base:food,
 	DisplayName		=	Eggnog Cuppa,
 	Icon			=	HCEggnogmug,
 	CustomContextMenu 	= 	Drink,
@@ -1910,7 +1910,7 @@ module Hydrocraft
 	HungerChange		=	-25,
         ThirstChange		= 	-150,
 	Weight			=	0.8,
-	Type			=	Food,
+	ItemType			=	base:food,
 	DisplayName		=	Whiskey Eggnog Bottle,
 	Icon			=	HCWhiskeyeggnogfull,
 	CustomContextMenu 	= 	Drink,
@@ -1935,7 +1935,7 @@ module Hydrocraft
 	HungerChange		=	-40,
        	ThirstChange		= 	-200,
 	Weight			=	1.1,
-	Type			=	Food,
+	ItemType			=	base:food,
 	DisplayName		=	Monkey Tail Pot,
 	Icon			=	HCColademonopot,
         CustomContextMenu 	= 	Drink,
@@ -1961,7 +1961,7 @@ module Hydrocraft
 	HungerChange		=	-10,
         ThirstChange		= 	-60,
 	Weight			=	0.2,
-	Type			=	Food,
+	ItemType			=	base:food,
 	DisplayName		=	Monkey Tail Mug,
 	Icon			=	HCColademonomug,
         CustomContextMenu 	= 	Drink,
@@ -1986,7 +1986,7 @@ module Hydrocraft
 	HungerChange		=	-25,
         ThirstChange		= 	-150,
 	Weight			=	0.8,
-	Type			=	Food,
+	ItemType			=	base:food,
 	DisplayName		=	Whiskey Monkey Tail Bottle,
 	Icon			=	HCWhiskeycolademonofull,
         CustomContextMenu 	= 	Drink,
@@ -2010,7 +2010,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Pack of Beer,
-		Type 				= Food,
+		ItemType 				= base:food,
 		Weight 				= 1,
 		Icon 				= HCBeercan1pack,
 		CantBeFrozen 		= TRUE,
@@ -2020,7 +2020,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Pack of Beer,
-		Type 				= Food,
+		ItemType 				= base:food,
 		Weight 				= 1,
 		Icon 				= HCBeercan2pack,
 		CantBeFrozen 		= TRUE,
@@ -2030,7 +2030,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Pack of Beer,
-		Type 				= Food,
+		ItemType 				= base:food,
 		Weight 				= 1,
 		Icon 				= HCBeercan3pack,
 		CantBeFrozen 		= TRUE,
@@ -2040,7 +2040,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Pack of Beer,
-		Type 				= Food,
+		ItemType 				= base:food,
 		Weight 				= 1,
 		Icon 				= HCBeercan4pack,
 		CantBeFrozen 		= TRUE,
@@ -2050,7 +2050,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Pack of Beer,
-		Type 				= Food,
+		ItemType 				= base:food,
 		Weight 				= 1,
 		Icon 				= HCBeercan5pack,
 		CantBeFrozen 		= TRUE,
@@ -2060,7 +2060,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Pack of Beer,
-		Type 				= Food,
+		ItemType 				= base:food,
 		Weight 				= 1,
 		Icon 				= HCBeercan6pack,
 		CantBeFrozen 		= TRUE,
@@ -2070,7 +2070,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Pack of Beer,
-		Type 				= Food,
+		ItemType 				= base:food,
 		Weight 				= 1,
 		Icon 				= HCBeercan7pack,
 		CantBeFrozen 		= TRUE,
@@ -2080,7 +2080,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Pack of Beer,
-		Type 				= Food,
+		ItemType 				= base:food,
 		Weight 				= 1,
 		Icon 				= HCBeercan8pack,
 		CantBeFrozen 		= TRUE,
@@ -2090,7 +2090,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Pack of Beer,
-		Type 				= Food,
+		ItemType 				= base:food,
 		Weight 				= 1,
 		Icon 				= HCBeercan9pack,
 		CantBeFrozen 		= TRUE,
@@ -2100,7 +2100,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Pack of Beer,
-		Type 				= Food,
+		ItemType 				= base:food,
 		Weight 				= 1,
 		Icon 				= HCBeercan10pack,
 		CantBeFrozen 		= TRUE,

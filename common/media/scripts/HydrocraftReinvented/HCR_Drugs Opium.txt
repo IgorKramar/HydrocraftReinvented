@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight			        = 0.1,
-    Type    		        = Normal,
+    ItemType    		        = base:normal,
     DisplayName    	        = Poppy Flower,
     Icon   		 	        = HCPoppyflower,
 	DisplayCategory			= CraftChem,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 	Weight			        = 0.1,
-    Type    		        = Normal,
+    ItemType    		        = base:normal,
     DisplayName     	    = Poppy Capsule,
     Icon   		 	        = HCPoppycapsule,
 	DisplayCategory			= CraftChem,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
 	Weight	                = 0.1,
-    Type    		        = Normal,
+    ItemType    		        = base:normal,
 	DisplayName	            = Ripped Poppy Capsule,
 	Icon	                = HCPoppycapsuleripped,
 	DisplayCategory			= CraftChem,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
 	Weight	                = 0.1,
-    Type    		        = Normal,
+    ItemType    		        = base:normal,
 	DisplayName	            = Kneaded Raw Opium,
 	Icon	                = HCRawopium,
 	DisplayCategory			= CraftChem,
@@ -43,7 +43,7 @@ module Hydrocraft
     PainReduction 		   = 10,
     FatigueChange          = 10,
 	Weight				   = 0.1,
-	Type				   = Food,
+	ItemType				   = base:food,
 	DisplayName			   = Opium Powder,
     StressChange		   = -20,
 	UnhappyChange		   = -25,
@@ -61,7 +61,7 @@ module Hydrocraft
     {
 
     Weight                 = 0.5,
-    Type                   = Normal,
+    ItemType                   = base:normal,
     DisplayName	           = Jar With Fermented Opium,
     Icon	               = HCJaropium,
 	DisplayCategory			= CraftChem,
@@ -70,7 +70,7 @@ module Hydrocraft
     {
 
     Weight    		       = 0.1,
-    Type    		       = Normal,
+    ItemType    		       = base:normal,
     DisplayName     	   = Pure Opium,
     Icon   		 	       = HCPureopium,
 	DisplayCategory			= CraftChem,
@@ -82,7 +82,7 @@ module Hydrocraft
     FatigueChange              = 10,
 	Weight				       = 0.1,
 	RequireInHandOrInventory   = Lighter/Matches,
-	Type				       = Food,
+	ItemType				       = base:food,
 	DisplayName			       = Clay Pipe with Pure Opium,
 	StressChange			   = -20,
 	UnhappyChange			   = -25,
@@ -100,7 +100,7 @@ module Hydrocraft
     FatigueChange              = 10,
 	Weight				       = 0.1,
 	RequireInHandOrInventory   = Lighter/Matches,
-	Type				       = Food,
+	ItemType				       = base:food,
 	DisplayName			       = Corn Cob Pipe with Pure Opium,
 	StressChange			   = -20,
 	UnhappyChange			   = -25,
@@ -117,7 +117,7 @@ module Hydrocraft
     PainReduction 			   = 30,
     HungerChange               = -10,  
     Weight                     = 0.3,
-    Type                       = Food,
+    ItemType                       = base:food,
     ThirstChange               = -5,
     UnhappyChange			   = -25,
     FatigueChange              = 25,
@@ -141,7 +141,7 @@ module Hydrocraft
     PainReduction 			    = 50,
     HungerChange            	= -20,  
     Weight                  	= 0.05,
-    Type                    	= Food,
+    ItemType                    	= base:food,
     UnhappyChange			    = -15,
     FatigueChange           	= -10,
     StressChange            	= -20,
@@ -160,7 +160,7 @@ module Hydrocraft
     {
 
 	Weight			        = 1,
-	Type			        = Food,
+	ItemType			        = base:food,
 	DisplayName		        = Beaker with Morphine Hydrochlorid Solution,
 	Icon			        = HCBeakermorphinhydrochloridsolution,
 	IsCookable		        = TRUE,
@@ -177,7 +177,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.7,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Beaker with Morphine Hydrochlorid,
 	Icon			=	HCBeakermorphinhydrochlorid,
 	DisplayCategory			= CraftChem,
@@ -186,7 +186,7 @@ module Hydrocraft
     {
 
 	Weight			=	1,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Beaker with Morphine Hydrochlorid Solution,
 	Icon			=	HCBeakermorphinhydrochloridsolution,
 	DisplayCategory			= CraftChem,
@@ -195,7 +195,7 @@ module Hydrocraft
     {
 
 	Weight             = 0.5,
-	Type               = Drainable,
+	ItemType               = base:drainable,
 	UseDelta           = 0.25,
 	DisplayName        = Testtube with Morphine,
 	Icon               = HCTesttubemorphinrubber,
@@ -206,7 +206,7 @@ module Hydrocraft
     {
 
 	Weight			   =	0.5,
-	Type 			   =   Drainable,
+	ItemType 			   =   base:drainable,
 	UseDelta 		   =   0.25,
 	DisplayName		   =	Testtube with Morphine,
 	Icon			   =	HCTesttubemorphincork,

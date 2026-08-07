@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Fresh Hemp Bud,
         icon 			= HCHempbudfresh,
 		DisplayCategory	= SurFarm,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Cured Hemp Bud,
         icon 			= HCHempbudcured,
 		DisplayCategory	= SurFarm,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Glass Bong,
         icon 			= HCBongempty,
 		DisplayCategory	= Drugs,
@@ -34,7 +34,7 @@ module Hydrocraft
 	HungerChange			=	15,
 	Weight				=	0.5,
 	RequireInHandOrInventory	=	Lighter,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Glass Bong with Hemp,
 	StressChange			=	-30,
 	UnhappyChange			=	-30,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dirty Glass Bong,
         icon 			= HCBongdirty,
 		DisplayCategory	= Drugs,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Acrylic Bong,
         icon 			= HCBongacrylicempty,
 		DisplayCategory	= Drugs,
@@ -70,7 +70,7 @@ module Hydrocraft
 	HungerChange			=	15,
 	Weight				=	0.4,
 	RequireInHandOrInventory	=	Lighter,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Acrylic Bong with Hemp,
 	StressChange			=	-30,
 	UnhappyChange			=	-30,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dirty Acrylic Bong,
         icon 			= HCBongacrylicdirty,
 		DisplayCategory	= Drugs,
@@ -97,7 +97,7 @@ module Hydrocraft
 	HungerChange			=	10,
 	Weight				=	0.1,
 	RequireInHandOrInventory	=	Lighter/Matches,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Clay Pipe with Hemp,
 	StressChange			=	-25,
 	UnhappyChange			=	-25,
@@ -115,7 +115,7 @@ module Hydrocraft
 	HungerChange			=	10,
 	Weight				=	0.1,
 	RequireInHandOrInventory	=	Lighter/Matches,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Corn Cob Pipe with Hemp,
 	StressChange			=	-25,
 	UnhappyChange			=	-25,

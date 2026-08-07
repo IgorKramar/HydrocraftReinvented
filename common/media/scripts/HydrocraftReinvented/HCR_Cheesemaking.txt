@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight 			= 10,
-	Type 			= Normal,
+	ItemType 			= base:normal,
 	DisplayName 		= Cheese Rack,
 	Icon			= HCCheeserack,
 		DisplayCategory	= CookRef,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 	Weight 			= 10,
-	Type 			= Normal,
+	ItemType 			= base:normal,
 	DisplayName 		= Cheese Rack with Cheese,
 	Icon			= HCCheeserackfull,
 		DisplayCategory	= CookRef,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
 	Weight 			= 10,
-	Type 			= Normal,
+	ItemType 			= base:normal,
 	DisplayName 		= Cheese Rack with Aged Cheese,
 	Icon			= HCCheeserackaged,
 		DisplayCategory	= CookRef,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
 	Weight 			= 10,
-	Type 			= Normal,
+	ItemType 			= base:normal,
 	DisplayName 		= Cheese Rack with Cheddar Cheese,
 	Icon			= HCCheeserackfullcheddar,
 		DisplayCategory	= CookRef,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
 	Weight 			= 10,
-	Type 			= Normal,
+	ItemType 			= base:normal,
 	DisplayName 		= Cheese Rack with Aged Cheddar Cheese,
 	Icon			= HCCheeserackagedcheddar,
 		DisplayCategory	= CookRef,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
 	Weight 			= 10,
-	Type 			= Normal,
+	ItemType 			= base:normal,
 	DisplayName 		= Cheese Rack with Waxed Cheddar Cheese,
 	Icon			= HCCheeserackfullcheddarwaxed,
 		DisplayCategory	= CookRef,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
 	Weight 			= 10,
-	Type 			= Normal,
+	ItemType 			= base:normal,
 	DisplayName 		= Cheese Rack with Aged Waxed Cheddar Cheese,
 	Icon			= HCCheeserackagedcheddarwaxed,
 		DisplayCategory	= CookRef,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
     Weight    		    = 0.3,
-	Type 			    = Drainable,
+	ItemType 			    = base:drainable,
 	UseDelta 		    = 0.25,
 	ReplaceOnDeplete	= HCClayjarsmall,
     DisplayName         = Jar of Rennet,
@@ -79,7 +79,7 @@ module Hydrocraft
     {
 
         Weight    		= 16,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Cheese Vat,
         icon 			= HCVatcheese,
 		DisplayCategory	= CookRef,
@@ -88,7 +88,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Cheese Tray,
         icon 			= HCCheesetray,
 		DisplayCategory	= CookRef,
@@ -97,7 +97,7 @@ module Hydrocraft
     {
 
         Weight    		= 1.7,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Full Cheese Tray,
         icon 			= HCCheesetrayfull,
 		DisplayCategory	= CookRef,
@@ -106,7 +106,7 @@ module Hydrocraft
     {
 
 		Weight			=	0.2,
-		Type			=	Normal,
+		ItemType			=	base:normal,
 		DaysTotallyRotten	=	10,
 		DisplayName		=	Cheese Curd,
 		Icon			=	HCCheesecurd,
@@ -117,7 +117,7 @@ module Hydrocraft
 
 		HungerChange	=	-70,
 		Weight			=	1.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	40,
 		DisplayName		=	Cheese Wheel,
 		Icon			=	HCCheesewheel,
@@ -134,7 +134,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Cheese Cloth,
         icon 			= HCCheesecloth,
 		DisplayCategory	= CookRef,
@@ -143,7 +143,7 @@ module Hydrocraft
     {
 
         Weight    		= 6,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Pot with Cheese Cloth-Wrapped Beeswax,
         icon 			= HCPotcheeseclothwrappedwax,
 		DisplayCategory	= CookRef,
@@ -152,7 +152,7 @@ module Hydrocraft
     {
 
         Weight    		= 6,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Pot with Refined Beeswax,
         icon 			= HCPotrefinedwax,
 		DisplayCategory	= CookRef,
@@ -161,7 +161,7 @@ module Hydrocraft
     {
 
         Weight                  = 0.4,
-        Type                    = Normal,
+        ItemType                    = base:normal,
         DisplayName             = Refined Beeswax,
         icon                    = HCRefinedbeeswax,
 		DisplayCategory	= CookRef,
@@ -170,7 +170,7 @@ module Hydrocraft
     {
 
         Weight    		= 5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     = Pot of Melted Refined Beeswax,
         icon 			= HCPotmeltedrefinedwax,
 		DisplayCategory	= CookRef,
@@ -179,7 +179,7 @@ module Hydrocraft
     {
 
 		Weight			=	0.8,
-		Type			=	Normal,
+		ItemType			=	base:normal,
 		DaysTotallyRotten	=	10,
 		DisplayName		=	Kneaded Cheese Curd,
 		Icon			=	HCCheesecurdkneaded,
@@ -189,7 +189,7 @@ module Hydrocraft
     {
 
 		Weight			=	0.8,
-		Type			=	Normal,
+		ItemType			=	base:normal,
 		DaysTotallyRotten	=	10,
 		DisplayName		=	Cubed Cheese Curd,
 		Icon			=	HCCheesecurdcubed,
@@ -199,7 +199,7 @@ module Hydrocraft
     {
 
         Weight                  = 1.7,
-        Type                    = Normal,
+        ItemType                    = base:normal,
         DisplayName             = Full Cheddar Cheese Tray,
         icon                    = HCCheesetrayfull,
 		DisplayCategory	= CookRef,
@@ -209,7 +209,7 @@ module Hydrocraft
 
 		HungerChange		=	-80,
 		Weight			=	1.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	10,
 		DisplayName		=	Cheddar Wheel,
 		Icon			=	HCCheddarwheelunaged,
@@ -227,7 +227,7 @@ module Hydrocraft
 
 		HungerChange		=	-80,
 		Weight			=	1.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	14,
 		DisplayName		=	Waxed Cheddar Wheel,
 		Icon			=	HCCheddarwheelwaxed,
@@ -245,7 +245,7 @@ module Hydrocraft
 
 		HungerChange		=	-80,
 		Weight			=	1.2,
-		Type			=	Food,
+		ItemType			=	base:food,
 		DaysTotallyRotten	=	40,
 		DisplayName		=	Aged Cheddar Wheel,
 		Icon			=	HCCheddarwheelwaxed,
@@ -261,7 +261,7 @@ module Hydrocraft
     item HCCheddar
     {
 
-        Type                    =       Food,
+        ItemType                    =       base:food,
         DisplayName             =       Cheddar Cheese,
         Icon                    =       HCCheddar,
         Weight                  =       0.2,
@@ -282,7 +282,7 @@ module Hydrocraft
     item HCCreamcheeseculture
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Cream Cheese Culture,
 	Weight				=	1.2,
 	HungerChange 			=	-20,
@@ -296,7 +296,7 @@ module Hydrocraft
     item HCCreamcheese
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Cream Cheese,
 	Weight				=	1,
 	HungerChange 			=	-20,
@@ -311,7 +311,7 @@ module Hydrocraft
     item HCSmokedsalmoncreamcheese
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Smoked Salmon Cream Cheese,
 	Weight				=	1.2,
 	HungerChange 			=	-25,
@@ -326,7 +326,7 @@ module Hydrocraft
     item HCSmokedsalmoncreamcheesesandwich
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Smoked Salmon Cream Cheese Sandwich,
 	Weight				=	0.5,
 	HungerChange 			=	-20,

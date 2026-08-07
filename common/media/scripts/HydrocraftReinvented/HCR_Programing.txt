@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight             	= 20,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Desktop Computer,
         icon 			= HCComputerdesktop,
 		DisplayCategory = CraftElec,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Floppy Disk,
         icon 			= HCFloppy,
 		DisplayCategory = Misc,
@@ -24,7 +24,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Floppy Disk with Evolution Simulator,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
@@ -34,7 +34,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Floppy Disk with Gesture Recognition Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
@@ -44,7 +44,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Floppy Disk with Voice Recognition Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
@@ -54,7 +54,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Floppy Disk with Graphics Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
@@ -64,7 +64,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Floppy Disk with Writing Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
@@ -74,7 +74,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Floppy Disk with Web Browser Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
@@ -84,7 +84,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Floppy Disk with Audio Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
@@ -94,7 +94,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Floppy Disk with Email Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,

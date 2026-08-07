@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.03,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Feather Duster,
         icon 			= HCFeatherduster,
 		DisplayCategory	= Cleaning,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Shop Vac,
         icon 			= HCShopvac,
 		DisplayCategory	= Cleaning,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Vacuum Cleaner,
         icon 			= HCVacuum,
 		DisplayCategory	= Cleaning,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Vacuum Cleaner,
         icon 			= HCVac,
 		DisplayCategory	= Cleaning,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight    		= 1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Hand Vacuum,
         icon 			= HCHandvac,
 		DisplayCategory	= Cleaning,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.5,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dust Pan,
         icon 			= HCDustpan,
 		DisplayCategory	= Cleaning,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= All Purpose Cleaner,
@@ -70,7 +70,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Fabric Cleaner,
@@ -81,7 +81,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Window Cleaner,
@@ -92,7 +92,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Fabric Softener,
@@ -103,7 +103,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.2,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Cleanser,
@@ -114,7 +114,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-	Type			= Drainable,
+	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
         DisplayName         	= Bottle of Ammonia,
@@ -125,7 +125,7 @@ module Hydrocraft
     {
 
         Weight    		= 1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Washboard,
         icon 			= HCWashboard,
 		DisplayCategory	= Cleaning,
@@ -134,7 +134,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Mothballs,
         icon 			= HCMothballs,
 		DisplayCategory	= Useless,
@@ -143,7 +143,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Box of Mothballs,
         icon 			= HCMothballsbox,
 		DisplayCategory	= Useless,
@@ -154,7 +154,7 @@ module Hydrocraft
         MaxRange                 =    1.5,
         WeaponSprite               =    Shovel,
         MinAngle                    =    0.2,
-        Type                        =    Weapon,
+        ItemType                        =    base:weapon,
         MinimumSwingTime            =    1.5,
         KnockBackOnNoDeath            =    TRUE,
         SwingAmountBeforeImpact        =    0.02,
@@ -192,7 +192,7 @@ module Hydrocraft
         MaxRange                 =    1.8,
         WeaponSprite               =    Shovel,
         MinAngle                    =    0.2,
-        Type                        =    Weapon,
+        ItemType                        =    base:weapon,
         MinimumSwingTime            =    1.5,
         KnockBackOnNoDeath            =    TRUE,
         SwingAmountBeforeImpact        =    0.02,

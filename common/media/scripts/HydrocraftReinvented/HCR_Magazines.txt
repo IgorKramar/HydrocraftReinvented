@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.2,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		UnhappyChange	=	-100,
 		DisplayName	=	Adult Magazine,
 		StressChange	=	-100,
@@ -19,7 +19,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.2,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		UnhappyChange	=	-100,
 		DisplayName	=	Adult Magazine,
 		StressChange	=	-100,
@@ -33,7 +33,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.2,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		UnhappyChange	=	-100,
 		DisplayName	=	Adult Magazine,
 		StressChange	=	-100,
@@ -47,7 +47,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.2,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		UnhappyChange	=	-100,
 		DisplayName	=	Adult Magazine,
 		StressChange	=	-100,
@@ -61,7 +61,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.2,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		UnhappyChange	=	-100,
 		DisplayName	=	Adult Magazine,
 		StressChange	=	-100,
@@ -75,7 +75,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.2,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		UnhappyChange	=	-100,
 		DisplayName	=	Adult Magazine,
 		StressChange	=	-100,
@@ -89,7 +89,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.1,
-		Type			= Literature,
+		ItemType			= base:literature,
 		DisplayName		= Metalworking Monthly - Sheets,
 		Icon			= HCMagazinemetalworking1,
 		TeachedRecipes  = Make Small Sheet Of Metal;Make Sheet Of Metal;Make Large Sheet Of Metal,
@@ -102,7 +102,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.1,
-		Type			= Literature,
+		ItemType			= base:literature,
 		DisplayName		= Metalworking Monthly - Pipes,
 		Icon			= HCMagazinemetalworking2,
 		TeachedRecipes  = Make Metal Pipe,                                         
@@ -115,7 +115,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.1,
-		Type			= Literature,
+		ItemType			= base:literature,
 		DisplayName		= Metalworking Monthly - steelworkers,
 		Icon			= HCMagazinemetalworking3,
 		TeachedRecipes  = Make Steel Beam;Make Steel Pole,
@@ -128,7 +128,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.1,
-		Type			= Literature,
+		ItemType			= base:literature,
 		DisplayName		= Metalworking Monthly - Silverware,
 		Icon			= HCMagazinemetalworking4,
 		TeachedRecipes  = Make Sterling Silver Knife;Make Sterling Silver Fork;Make Sterling Silver Spoon,
@@ -141,7 +141,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.1,
-		Type			= Literature,
+		ItemType			= base:literature,
 		DisplayName		= Metalworking Monthly - Tools,
 		Icon			= HCMagazinemetalworking5,
 		TeachedRecipes  = Craft Pickaxe;Make Steel Hammer;Make Steel Saw;Make Lumber Saw;Make Iron Hand Drill;Make Steel Saw;Make Steel Hammer;Make Screws;Make Gigli Saw Handle,
@@ -154,7 +154,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.1,
-		Type			= Literature,
+		ItemType			= base:literature,
 		DisplayName		= Metalworking Monthly - Gears,
 		Icon			= HCMagazinemetalworking6,
 		TeachedRecipes  = Make Gears,
@@ -167,7 +167,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.1,
-		Type			= Literature,
+		ItemType			= base:literature,
 		DisplayName		= Metalworking Monthly - Agri Tools,
 		Icon			= HCMagazinemetalworking7,
 		TeachedRecipes  = Make Iron Trowel;Make Steel Shears;Make Iron Spade;Make Steel Rake;Make Steel Pruning Shears,
@@ -180,7 +180,7 @@ module Hydrocraft
     {
 
 		Weight			= 0.1,
-		Type			= Literature,
+		ItemType			= base:literature,
 		DisplayName		= Better Shelters and Farms,
 		Icon			= HCMagazinefarming1,
 		TeachedRecipes  = Build Trellis Kit,
@@ -193,7 +193,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.1,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Backyard Electronics Vol 1,
 		Icon		=	HCMagazineelectronics01,
 		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make Moving Sensor;Put Sensor In Case,
@@ -206,7 +206,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.1,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Backyard Electronics Vol 2,
 		Icon		=	HCMagazineelectronics02,
 		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make IR Remote;Put Remote In Case,
@@ -219,7 +219,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.1,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Backyard Electronics Vol 3,
 		Icon		=	HCMagazineelectronics03,
 		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make IR Receiver;Put Receiver In Case,
@@ -232,7 +232,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.1,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		DisplayName	=	Popular Machines Vol 1,
 		Icon		=	HCMagazinespopularmachines01,
 		TeachedRecipes  =   	Build Battery Array;Build Selfmade Solar Panel;Build Solar Park;Recharge Battery,
@@ -245,7 +245,7 @@ module Hydrocraft
     {
 
 	    Weight		=	0.1,
-	    Type		=	Literature,
+	    ItemType		=	base:literature,
 	    DisplayName		=	Old Christmas Magazine,
 	    Icon		=	HCMagazinexmas,
 	    TeachedRecipes  	=   	Make Fruit Cake Batter;Make Christmas Cookies;Make Frosted Christmas Cookies;Make Eggnog Pot;Make Monkey Tail Pot;Make Christmas Ham,
@@ -258,7 +258,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.1,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		UnhappyChange	=	-4,
 		DisplayName	=	Sports Magazine,
 		StressChange	=	-4,
@@ -273,7 +273,7 @@ module Hydrocraft
     {
 
 		Weight		=	0.1,
-		Type		=	Literature,
+		ItemType		=	base:literature,
 		UnhappyChange	=	-4,
 		DisplayName	=	Sports Magazine,
 		StressChange	=	-4,

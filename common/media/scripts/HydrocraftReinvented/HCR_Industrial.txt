@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Steel Pulley,
         icon 			= HCPully,
 		DisplayCategory          =   CraftInd,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Iron Pulley,
         icon 			= HCPullyiron,
 		DisplayCategory          =   CraftInd,
@@ -23,7 +23,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Wood Pulley,
         icon 			= HCPullywood,
 		DisplayCategory          =   CraftInd,
@@ -32,7 +32,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.3,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Valve,
         icon 			= HCValve,
 		DisplayCategory          =   CraftInd,
@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName	        	= Copper Gear,
         Icon	            		= HCGearcopper,
 		DisplayCategory          =   CraftInd,
@@ -50,7 +50,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName	        	= Tin Gear,
         Icon	            		= HCGeartin,
 		DisplayCategory          =   CraftInd,
@@ -59,7 +59,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName	        	= Bronze Gear,
         Icon	            		= HCGearbronze,
 		DisplayCategory          =   CraftInd,
@@ -68,7 +68,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName	        	= Iron Gear,
         Icon	            		= HCGeariron,
 		DisplayCategory          =   CraftInd,
@@ -77,7 +77,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName	        	= Invar Gear,
         Icon	            		= HCGearinvar,
 		DisplayCategory          =   CraftInd,
@@ -86,7 +86,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName	        	= Lead Gear,
         Icon	            		= HCGearlead,
 		DisplayCategory          =   CraftInd,
@@ -95,7 +95,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName	        	= Steel Gear,
         Icon	            		= HCGearsteel,
 		DisplayCategory          =   CraftInd,
@@ -104,7 +104,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName	        	= Titanium Gear,
         Icon	            		= HCGeartitanium,
 		DisplayCategory          =   CraftInd,
@@ -113,7 +113,7 @@ module Hydrocraft
     {
 
         Weight    			= 5,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Small Rolling Mill,
         icon 				= HCRollingmillsmall,
 		DisplayCategory          =   CraftInd,
@@ -122,7 +122,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.2,
-        Type	            		= Drainable,
+        ItemType	            		= base:drainable,
         DisplayName	        	= Copper Wire,
         Icon	            		= HCWirecopper,
         UseWhileEquipped		= FALSE,
@@ -133,7 +133,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.2,
-        Type	            		= Drainable,
+        ItemType	            		= base:drainable,
         DisplayName	        	= Lead Wire,
         Icon	            		= HCWirelead,
         UseWhileEquipped		= FALSE,
@@ -144,7 +144,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.2,
-        Type	            		= Drainable,
+        ItemType	            		= base:drainable,
         DisplayName	        	= Steel Wire,
         Icon	            		= HCWiresteel,
         UseWhileEquipped		= FALSE,
@@ -155,7 +155,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.2,
-        Type	            		= Drainable,
+        ItemType	            		= base:drainable,
         DisplayName	        	= Razor Wire,
         Icon	            		= HCWireconcertina,
         UseWhileEquipped		= FALSE,
@@ -166,7 +166,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.2,
-        Type	            		= Drainable,
+        ItemType	            		= base:drainable,
         DisplayName	        	= Constantan Wire,
         Icon	            		= HCWireconstantan,
         UseWhileEquipped		= FALSE,
@@ -177,7 +177,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.2,
-        Type	            		= Drainable,
+        ItemType	            		= base:drainable,
         DisplayName	        	= Zinc Wire,
         Icon	            		= HCWirezinc,
         UseWhileEquipped		= FALSE,
@@ -188,7 +188,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.2,
-        Type	            		= Drainable,
+        ItemType	            		= base:drainable,
         DisplayName	        	= Aluminum Wire,
         Icon	            		= HCWirealuminum,
         UseWhileEquipped		= FALSE,
@@ -199,7 +199,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.2,
-        Type	            		= Drainable,
+        ItemType	            		= base:drainable,
         DisplayName         		= Thermocouple Wire,
         icon 				= HCWirethermocouple,
         UseWhileEquipped		= FALSE,
@@ -210,7 +210,7 @@ module Hydrocraft
     {
 
         Weight    			= 1,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Thermocouple,
         icon 				= HCThermocouple,
 		DisplayCategory          =   CraftInd,
@@ -219,7 +219,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName	        	= Constantan Heating Coil,
         Icon	            		= HCConstantanheatingcoil,
 		DisplayCategory          =   CraftInd,
@@ -228,7 +228,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName	        	= Nichrome Heating Coil,
         Icon	            		= HCNichromeheatingcoil,
 		DisplayCategory          =   CraftInd,
@@ -237,7 +237,7 @@ module Hydrocraft
     {
 
         Weight	            		= 0.2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName	        	= Kanthal Heating Coil,
         Icon	            		= HCKanthalheatingcoil,
 		DisplayCategory          =   CraftInd,
@@ -246,7 +246,7 @@ module Hydrocraft
     {
 
         Weight    			= 2,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Coil,
         icon 				= HCThermocouple,
 		DisplayCategory          =   CraftInd,
@@ -255,7 +255,7 @@ module Hydrocraft
     {
 
         Weight    			= 10,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Iron Furnace,
         
         icon 				= HCFurnaceiron,
@@ -265,7 +265,7 @@ module Hydrocraft
     {
 
         Weight    			= 10,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Steam Engine,
         
         icon 				= HCSteamengine,
@@ -275,7 +275,7 @@ module Hydrocraft
     {
 
         Weight    			= 10,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Steam Boiler,
         
         icon 				= HCSteamboiler,
@@ -285,7 +285,7 @@ module Hydrocraft
     {
 
         Weight    			= 20,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Steam Machine,
         
         icon 				= HCSteammachine,
@@ -295,7 +295,7 @@ module Hydrocraft
     {
 
         Weight    			= 20,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Trip Hammer,
         
         icon 				= HCTriphammer,
@@ -305,7 +305,7 @@ module Hydrocraft
     {
 
         Weight              = 20,
-        Type                = Normal,
+        ItemType                = base:normal,
         DisplayName                 = Trip Hammer,
         
         icon                = HCTriphammer,
@@ -315,7 +315,7 @@ module Hydrocraft
     {
 
         Weight    			= 20,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName         		= Steam Hammer,
         
         icon 				= HCSteamhammer,
@@ -325,7 +325,7 @@ module Hydrocraft
     {
 
         Weight              = 1000,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 100,
         WeightReduction     = 0,
         DisplayName         = Steam Hammer,
@@ -336,7 +336,7 @@ module Hydrocraft
     {
 
         Weight    			= 	20,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         		= 	Industrial Furnace,
         icon 				= 	HCFurnace,
 		DisplayCategory          =   CraftInd,
@@ -345,7 +345,7 @@ module Hydrocraft
     {
 
         Weight              = 1000,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 100,
         WeightReduction     = 0,
         DisplayName         = 	Industrial Furnace,
@@ -356,7 +356,7 @@ module Hydrocraft
     {
 
         Weight    			= 	20,
-        Type    			= 	Normal,
+        ItemType    			= 	base:normal,
         DisplayName         = 	Arc Furnace,
         icon 				= 	HCFurnacearc,
 		DisplayCategory          =   CraftInd,
@@ -365,7 +365,7 @@ module Hydrocraft
     {
 
         Weight              = 1000,
-        Type                = Container,
+        ItemType                = base:container,
         Capacity            = 100,
         WeightReduction     = 0,
         DisplayName         = 	Arc Furnace,
@@ -376,7 +376,7 @@ module Hydrocraft
     {
 
         Weight    		= 4,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Metal Casing,
         icon 			= HCMetalcasing,
 		DisplayCategory          =   CraftInd,
@@ -385,7 +385,7 @@ module Hydrocraft
     {
 
         Weight    		= 2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Metal Duct,
         icon 			= HCDuct,
 		DisplayCategory          =   CraftInd,
@@ -394,7 +394,7 @@ module Hydrocraft
     {
 
         Weight    		= 2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Duct Fan,
         icon 			= HCDuctfan,
 		DisplayCategory          =   CraftInd,
@@ -403,7 +403,7 @@ module Hydrocraft
     {
 
         Weight    		= 1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Steel Fan Blade,
         icon 			= HCFanbladesteel,
 		DisplayCategory          =   CraftInd,
@@ -412,7 +412,7 @@ module Hydrocraft
     {
 
         Weight               	= 0.3,
-        Type       		= Normal,
+        ItemType       		= base:normal,
         DisplayName          	= Gigli Saw Handle,
         Icon               	= HCGiglisawhandle,
 		DisplayCategory          =   CraftInd,
@@ -421,7 +421,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.7,
-	Type			=	Normal,
+	ItemType			=	base:normal,
 	DisplayName		=	Homemade Heating Plate,
 	Icon			=	HCSelfmadeheater,
 		DisplayCategory          =   CraftInd,
@@ -430,7 +430,7 @@ module Hydrocraft
     {
 
     	Weight        	= 2,
-    	Type        	= Normal,
+    	ItemType        	= base:normal,
     	DisplayName    	= Iron Wheel,
     	icon        	= HCMetalwheeliron,
 		DisplayCategory          =   CraftInd,
@@ -439,7 +439,7 @@ module Hydrocraft
     {
 
     	Weight        	= 2,
-    	Type        	= Normal,
+    	ItemType        	= base:normal,
     	DisplayName    	= Steel Wheel,
     	icon        	= HCMetalwheel,
 		DisplayCategory          =   CraftInd,
@@ -448,7 +448,7 @@ module Hydrocraft
     {
 
         Weight   		= 0.2,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Electric Piston,
         icon 			= HCPiston,
 		DisplayCategory          =   CraftInd,
@@ -457,7 +457,7 @@ module Hydrocraft
     {
 
         Weight    		= 6,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Macerator,
         icon 			= HCMacerator,
 		DisplayCategory          =   CraftInd,
@@ -466,7 +466,7 @@ module Hydrocraft
     {
 
         Weight    		= 10,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Industrial Press,
         icon 			= HCIndustrialpress,
 		DisplayCategory          =   CraftInd,

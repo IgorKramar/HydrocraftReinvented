@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 	Weight			=	0.3,
-        Type			=	Normal,
+        ItemType			=	base:normal,
         DisplayName		=	Handcuffs,
 	Icon			=	HCHandcuffs,
 		DisplayCategory		=   Useless,
@@ -14,7 +14,7 @@ module Hydrocraft
     {
 
 		DisplayCategory		=   Household,	
-        Type				=	Normal,
+        ItemType				=	base:normal,
         DisplayName			=	Police Badge,
 		Icon				=	HCPolicebadge,
 		Weight				=	0.2,		
@@ -26,7 +26,7 @@ module Hydrocraft
 		MaxRange			=	1.5,
 		WeaponSprite			=	Baseballbat,
 		MinAngle			=	0.2,
-		Type				=	Weapon,
+		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3,
 		KnockBackOnNoDeath		=	TRUE,
 		SwingAmountBeforeImpact		=	0.02,

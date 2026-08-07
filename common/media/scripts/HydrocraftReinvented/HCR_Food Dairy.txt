@@ -4,7 +4,7 @@ module Hydrocraft
     item HCUHTmilk
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Package of UHT Milk,
 	Weight				=	1.0,
 	ThirstChange 		=	-50,
@@ -25,7 +25,7 @@ module Hydrocraft
     item HCSoymilk
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Bottle of Soy Milk,
 	Weight				=	1.0,
 	ThirstChange 		=	-50,
@@ -53,7 +53,7 @@ module Hydrocraft
     {
 
 	Weight				=	0.5,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Evaporated Milk,
 	Icon				=	HCEvaporatedmilk,
     Carbohydrates 			= 	136,
@@ -69,7 +69,7 @@ module Hydrocraft
 
 	HungerChange		=	-30,
 	Weight				=	0.8,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DaysTotallyRotten	=	4,
 	DisplayName			=	Opened Evaporated Milk,
 	ReplaceOnUse		=	HCEvaporatedmilkopenempty,
@@ -94,7 +94,7 @@ module Hydrocraft
 	EvolvedRecipe		=	Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
 	Weight				=	2.0,
 	AlwaysWelcomeGift	=	true,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-200,
 	DisplayName			=	Milk Jug,
 	Icon				=	HCMilkjug,
@@ -119,7 +119,7 @@ module Hydrocraft
 	IsWaterSource			=	TRUE,
 	Weight				=	2,
 	CanStoreWater			=	TRUE,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.07,
 	DisplayName			=	Milk Jug with Water,
@@ -137,7 +137,7 @@ module Hydrocraft
 	EvolvedRecipe		=	Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
 	Weight				=	2.0,
 	AlwaysWelcomeGift	=	true,
-	Type				=	Food,
+	ItemType				=	base:food,
 	ThirstChange		=	-200,
 	DisplayName			=	Chocolate Milk Jug,
 	Icon				=	HCMilkjugchocolate,
@@ -162,7 +162,7 @@ module Hydrocraft
 	IsWaterSource			=	TRUE,
 	Weight				=	2,
 	CanStoreWater			=	TRUE,
-	Type				=	Drainable,
+	ItemType				=	base:drainable,
 	UseWhileEquipped		=	FALSE,
 	UseDelta			=	0.07,
 	DisplayName			=	Milk Jug with Water,
@@ -179,7 +179,7 @@ module Hydrocraft
     HungerChange		=	-20,
 	BoredomChange		=	10,
 	UnhappyChange		=	15,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Cream,
 	Weight				=	0.1,
 	ThirstChange 		=	-5,
@@ -200,7 +200,7 @@ module Hydrocraft
 		BoredomChange		=	-20,
 		UnhappyChange		=	-20,
 		Weight				=	0.4,
-		Type				=	Food,
+		ItemType				=	base:food,
 		DaysFresh			= 	14,
 		DaysTotallyRotten	= 	30,
 		CantBeFrozen 		= 	TRUE,
@@ -220,7 +220,7 @@ module Hydrocraft
     {
 
 		Weight			 = 0.5,
-		Type			 = Normal,
+		ItemType			 = base:normal,
 		DisplayName		 = Can of Rotten Whipped Cream,
 		Icon			 = HCWhippedcreamcan,
 	DisplayCategory          =   Useless,
@@ -229,7 +229,7 @@ module Hydrocraft
     {
 
 		Weight			 = 0.1,
-		Type			 = Normal,
+		ItemType			 = base:normal,
 		DisplayName		 = Empty Can of Whipped Cream,
 		Icon			 = HCWhippedcreamcan,
 	DisplayCategory          =   Useless,
@@ -237,7 +237,7 @@ module Hydrocraft
     item HCWoodenbucketheatedmilk
     {
 
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Wooden Bucket with Heated Milk,
 	Weight				=	4,
 	Icon				=	HCWoodenbucketheatedmilk,
@@ -246,7 +246,7 @@ module Hydrocraft
     item HCWoodenbucketfermentedmilk
     {
 
-	Type				=	Normal,
+	ItemType				=	base:normal,
 	DisplayName			=	Wooden Bucket with Fermented Milk,
 	Weight				=	4,
 	Icon				=	HCWoodenbucketfermentedmilk,
@@ -255,7 +255,7 @@ module Hydrocraft
     item HCJarhomemadeyogurt
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Jarred Homemade Yogurt,
 	UnhappyChange			=	-15,
 	HungerChange			=	-30,
@@ -276,7 +276,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtstrawberries
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Yogurt with Strawberries,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,
@@ -297,7 +297,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtcranberries
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Yogurt with Cranberries,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,
@@ -319,7 +319,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtraspberries
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Yogurt with Raspberries,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,
@@ -341,7 +341,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtblueberries
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Yogurt with Blueberries,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,
@@ -363,7 +363,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtcitrusfruit
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Yogurt with Citrus Fruit,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,
@@ -385,7 +385,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtapple
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Yogurt with Apple,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,
@@ -407,7 +407,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtstracciatella
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Stracciatella Yogurt,
 	UnhappyChange			=	-25,
 	HungerChange			=	-55,
@@ -429,7 +429,7 @@ module Hydrocraft
     item HCJarhomemadetzatziki
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Tzatziki,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,
@@ -450,7 +450,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtpear
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Pear Yogurt,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,
@@ -471,7 +471,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtbanana
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Banana Yogurt,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,
@@ -492,7 +492,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtcherry
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Cherry Yogurt,
 	UnhappyChange			=	-25,
 	HungerChange			=	-30,
@@ -513,7 +513,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtpineapple
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Pineapple Yogurt,
 	UnhappyChange			=	-25,
 	HungerChange			=	-40,
@@ -534,7 +534,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtpeach
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Peach Yogurt,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,
@@ -555,7 +555,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtcurrant
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Currant Yogurt,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,
@@ -576,7 +576,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtgrape
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Grape Yogurt,
 	UnhappyChange			=	-25,
 	HungerChange			=	-25,
@@ -597,7 +597,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtwatermelon
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Watermelon Yogurt,
 	UnhappyChange			=	-25,
 	HungerChange			=	-40,
@@ -618,7 +618,7 @@ module Hydrocraft
     item HCJarhomemadeyogurtlemon
     {
 
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Homemade Lemon Yogurt,
 	UnhappyChange			=	-25,
 	HungerChange			=	-35,

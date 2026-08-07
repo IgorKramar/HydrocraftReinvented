@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
         Weight				= 0.01,
-        Type    			= Normal,
+        ItemType    			= base:normal,
         DisplayName        	= Cigarette Butt,
         icon 				= HCCigarettebutt,
 		DisplayCategory		= Useless,
@@ -15,7 +15,7 @@ module Hydrocraft
     {
 
         Weight    		= 1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Cigarette Carton,
         icon 			= HCCigarettecarton,
 		DisplayCategory	= Drugs,
@@ -25,7 +25,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Cigarette Pack,
         icon 			= HCCigarettepack,
 		DisplayCategory	= Drugs,
@@ -35,7 +35,7 @@ module Hydrocraft
     {
 
         Weight    		= 1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Light Cigarette Carton,
         icon 			= HCCigarettecartonlights,
 		DisplayCategory	= Drugs,
@@ -45,7 +45,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Light Cigarette Pack,
         icon 			= HCCigarettepacklights,
 		DisplayCategory	= Drugs,
@@ -58,7 +58,7 @@ module Hydrocraft
 		HungerChange			= 0,
 		Weight				= 0.005,
 		RequireInHandOrInventory	= Lighter/Matches,
-		Type				= Food,
+		ItemType				= base:food,
 		DisplayName			= Light Cigarettes,
 		StressChange			= -5,
 		Icon				= HCCigaretteslights,
@@ -75,7 +75,7 @@ module Hydrocraft
     {
 
         Weight    		= 1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Menthol Cigarette Carton,
         icon 			= HCCigarettecartonlights,
 		DisplayCategory	= Drugs,
@@ -85,7 +85,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.1,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName     	= Menthol Cigarette Pack,
         icon 			= HCCigarettepackmenthol,
 		DisplayCategory	= Drugs,
@@ -98,7 +98,7 @@ module Hydrocraft
 		HungerChange				= 0,
 		Weight					= 0.005,
 		RequireInHandOrInventory		= Lighter/Matches,
-		Type					= Food,
+		ItemType					= base:food,
 		DisplayName				= Menthol Cigarettes,
 		StressChange				= -5,
 		Icon					= HCCigarettesmenthol,
@@ -115,7 +115,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Fresh Tobacco Leaves,
         icon 			= HCTobaccoleaffresh,
 	DisplayCategory			= CraftChem,
@@ -124,7 +124,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Dried Tobacco Leaves,
         icon 			= HCTobaccoleafdry,
 	DisplayCategory			= CraftChem,
@@ -133,7 +133,7 @@ module Hydrocraft
     {
 
         Weight    		= 0.01,
-        Type    		= Normal,
+        ItemType    		= base:normal,
         DisplayName         	= Tobacco,
         icon 			= HCTobacco,
 	DisplayCategory			= CraftChem,
@@ -143,7 +143,7 @@ module Hydrocraft
 
         WeightReduction     	= 10,
         Weight              	= 0.1,
-        Type                	= Container,
+        ItemType                	= base:container,
         Capacity            	= 1,
         DisplayName         	= Cigar Box,
         icon 			= HCCigarbox,
@@ -155,7 +155,7 @@ module Hydrocraft
 	HungerChange			=	0,
 	Weight				=	0.1,
 	RequireInHandOrInventory	=	Lighter/Matches,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	10,
 	DisplayName			=	Cigar,
 	StressChange			=	-25,
@@ -173,7 +173,7 @@ module Hydrocraft
 	HungerChange			=	0,
 	Weight				=	0.1,
 	RequireInHandOrInventory	=	Lighter/Matches,
-	Type				=	Food,
+	ItemType				=	base:food,
 	UnhappyChange			=	10,
 	DisplayName			=	Hand-Rolled Cigar,
 	StressChange			=	-25,
@@ -192,7 +192,7 @@ module Hydrocraft
 	HungerChange			=	0,
 	Weight				=	0.1,
 	RequireInHandOrInventory	=	Lighter/Matches,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Clay Pipe with Tobacco,
 	StressChange			=	-25,
 	UnhappyChange			=	10,
@@ -210,7 +210,7 @@ module Hydrocraft
 	HungerChange			=	0,
 	Weight				=	0.1,
 	RequireInHandOrInventory	=	Lighter/Matches,
-	Type				=	Food,
+	ItemType				=	base:food,
 	DisplayName			=	Corn Cob Pipe with Tobacco,
 	StressChange			=	-25,
 	UnhappyChange			=	10,

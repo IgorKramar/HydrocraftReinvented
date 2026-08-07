@@ -9,13 +9,13 @@
 
 ### ✅ Сделано
 
+- **Ревизия распределения лута** — v1.3.0: доля HC-лута приведена к ≤30 %
+  во всех списках, мёртвые цели (ArmyStorageGuns, Meat) перенаправлены.
 - **Полная миграция предметов на `ItemType`** — v1.2.0: все 5 209 предметов
   на нативных классах B42, легаси-формата в моде больше нет.
 
 ### 🔧 В работе / ближайшее
 
-- **Ревизия распределения лута** — чтобы вещи Hydrocraft попадались там, где
-  им логично лежать, и не вытесняли ванильный лут.
 - **Баланс опыта (`xpAward`)** — значения перенесены из B41 механически,
   местами щедро, местами скупо.
 
@@ -52,13 +52,13 @@
 
 ### ✅ Done
 
+- **Loot distribution pass** — v1.3.0: HC loot share brought down to ≤30% in
+  every list; dead targets (ArmyStorageGuns, Meat) redirected.
 - **Full `ItemType` migration** — v1.2.0: all 5,209 items on native B42
   classes, no legacy format left in the mod.
 
 ### 🔧 In progress / next
 
-- **Loot distribution pass** — make Hydrocraft items spawn where they
-  logically belong without crowding out vanilla loot.
 - **XP balance (`xpAward`)** — values were carried over from B41 mechanically
   and need tuning.
 

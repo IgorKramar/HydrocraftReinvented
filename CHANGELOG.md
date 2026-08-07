@@ -6,6 +6,18 @@
 
 ## Русский
 
+### v1.3.0 — 2026-08-07
+
+**Ревизия распределения лута** — вещи Hydrocraft больше не вытесняют ванильный лут:
+- В 31 списке спавна, где доля HC-предметов доходила до 66 % (все ресторанные
+  холодильники, книжные полки, стойки журналов, медицинские шкафы...), веса
+  отмасштабированы до целевых ≤30 % — ванильного лута снова большинство везде.
+- Починены мёртвые цели: оружие переехало из несуществующего в B42 списка
+  ArmyStorageGuns в ArmyStorageAmmunition; 15 видов рыбы и морепродуктов —
+  из официально пустого списка Meat к мясникам (ButcherFish, ButcherFreezer),
+  раньше они не спавнились вовсе.
+- Убрана двойная вставка продуктов в холодильник пекарни.
+
 ### v1.2.0 — 2026-08-07
 
 **Полная миграция на нативные классы предметов B42:**
@@ -49,6 +61,18 @@
 ---
 
 ## English
+
+### v1.3.0 — 2026-08-07
+
+**Loot distribution pass** — Hydrocraft items no longer crowd out vanilla loot:
+- In 31 spawn lists where the HC share reached up to 66% (every restaurant
+  fridge, bookshelves, magazine racks, medical storage...), weights are scaled
+  down to a target of ≤30% — vanilla loot is the majority everywhere again.
+- Dead targets fixed: firearms moved from the ArmyStorageGuns list (removed in
+  B42) to ArmyStorageAmmunition; 15 kinds of fish and seafood moved from the
+  officially deprecated Meat list to the butchers (ButcherFish, ButcherFreezer)
+  — they never spawned before.
+- Removed a double food insertion into the bakery fridge.
 
 ### v1.2.0 — 2026-08-07
 

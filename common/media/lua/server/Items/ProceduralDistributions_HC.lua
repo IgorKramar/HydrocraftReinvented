@@ -368,7 +368,7 @@ local tools_crate_items = {
         "Hydrocraft.HCStepladder", 0.07,
         "Hydrocraft.HCScissorlift", 0.07,
 };
-insertItemListsInProcDistribution( "CrateTools", {   tools_crate_items  } );
+insertItemListsInProcDistribution( "CrateTools", {   tools_crate_items  } , 0.53 );
 
 --GigamartBakingMisc
 local gigamart_baking_misc_items = {
@@ -651,7 +651,8 @@ local meat_items = {
         "Hydrocraft.HCTuna", 1,
         "Hydrocraft.HCWrasse", 1,
 };
-insertItemListsInProcDistribution( "Meat", {   meat_items  } );
+insertItemListsInProcDistribution( "ButcherFish", {   meat_items  } );
+insertItemListsInProcDistribution( "ButcherFreezer", {   meat_items  } );
 
 --FridgeOther
 local fridge_other_items = {
@@ -1141,7 +1142,7 @@ local store_shelf_snacks_items = {
         "Hydrocraft.HCSodapineapple", 2,
         "Hydrocraft.HCSodarootbeer", 2,
 };
-insertItemListsInProcDistribution( "StoreShelfSnacks", {   store_shelf_snacks_items  } );
+insertItemListsInProcDistribution( "StoreShelfSnacks", {   store_shelf_snacks_items  } , 0.74 );
 
 -- Bakery ProceduralDistributions
 local bakery_items = {
@@ -1285,7 +1286,7 @@ local postoffice_boxes_items = {
         "Hydrocraft.HCPostcard7", 1,
         "Hydrocraft.HCPostcard8", 1,
 };
-insertItemListsInProcDistribution( "PostOfficeBoxes", {   postoffice_boxes_items  } );
+insertItemListsInProcDistribution( "PostOfficeBoxes", {   postoffice_boxes_items  } , 0.57 );
 
 ---------------------------------
 -- Bathroom Inventory Spawning --
@@ -1480,7 +1481,7 @@ local medicalclinic_tools_items = {
         "Hydrocraft.HCAdrenalinbottle", 5,
         "Hydrocraft.HCAgar", 2,
 };
-insertItemListsInProcDistribution( "MedicalStorageTools", {   medicalclinic_tools_items  } );
+insertItemListsInProcDistribution( "MedicalStorageTools", {   medicalclinic_tools_items  } , 0.21 );
 
 --------------------------------------
 -- General Store Inventory Spawning --
@@ -1728,8 +1729,8 @@ local shed_items = {
         "Hydrocraft.HCSignkeepout", 1,
 
 };
-insertItemListsInProcDistribution( "CrateTools", {   shed_items  } );
-insertItemListsInProcDistribution( "GarageTools", {   shed_items  } );
+insertItemListsInProcDistribution( "CrateTools", {   shed_items  } , 0.53 );
+insertItemListsInProcDistribution( "GarageTools", {   shed_items  } , 0.53 );
 
 local store_counter_tobacco_items = {
         "Hydrocraft.HCAirfreshener", 1,
@@ -1838,10 +1839,10 @@ local magazines_items = {
 
 --On second thoughts.. wiping these lists might break other mods...
 
-insertItemListsInProcDistribution( "CrateMagazines", {   magazines_items  } );
-insertItemListsInProcDistribution( "MagazineRackMixed", {   magazines_items  } );
-insertItemListsInProcDistribution( "MagazineRackMaps", {   magazines_items  } );
-insertItemListsInProcDistribution( "MagazineRackNewspaper", {   magazines_items  } );
+insertItemListsInProcDistribution( "CrateMagazines", {   magazines_items  } , 0.29 );
+insertItemListsInProcDistribution( "MagazineRackMixed", {   magazines_items  } , 0.7 );
+insertItemListsInProcDistribution( "MagazineRackMaps", {   magazines_items  } , 0.11 );
+insertItemListsInProcDistribution( "MagazineRackNewspaper", {   magazines_items  } , 0.25 );
 
 
 -- Add items for Fishing Storage Crates
@@ -1912,7 +1913,7 @@ local library_counter_items = {
         "Hydrocraft.HCMagazineelectronics03", 1,
         "Hydrocraft.HCBookmark", 0.2,
 };
-insertItemListsInProcDistribution( "LibraryCounter", {   library_counter_items  } );
+insertItemListsInProcDistribution( "LibraryCounter", {   library_counter_items  } , 0.29 );
 
 -- Add items for Ice Cream Shop Counter
 local icecreamkitchen_items = {
@@ -2088,7 +2089,7 @@ local garagestorage_items = {
         "Hydrocraft.HCBicyclewheel", 0.5,
         "Hydrocraft.HCMagazinexmas", 1,
 }
-insertItemListsInProcDistribution( "GarageTools", {   garagestorage_items  } );
+insertItemListsInProcDistribution( "GarageTools", {   garagestorage_items  } , 0.53 );
 
 -- Add items for Mechanic Shelves
 local mechanic_metalshelves_items = {
@@ -2394,10 +2395,10 @@ local books = {
 };
 
 
-insertItemListsInProcDistribution( "LibraryBooks", {   books  } );
-insertItemListsInProcDistribution( "LibraryCounter", {   books  } );
+insertItemListsInProcDistribution( "LibraryBooks", {   books  } , 0.69 );
+insertItemListsInProcDistribution( "LibraryCounter", {   books  } , 0.29 );
 insertItemListsInProcDistribution( "BookstoreBooks", {   books  } );
-insertItemListsInProcDistribution( "LivingRoomShelf", {   books  } );
+insertItemListsInProcDistribution( "LivingRoomShelf", {   books  } , 0.24 );
 insertItemListsInProcDistribution( "PostOfficeBooks", {   books  } );
 insertItemListsInProcDistribution( "CrateBooks", {   books  } );
 
@@ -2552,7 +2553,7 @@ local Garageunits_Carpentry_items = {
         "Hydrocraft.HCTesttuberack", 1,
 
 };
-insertItemListsInProcDistribution( "CrateTools", {   Garageunits_Carpentry_items  } );
+insertItemListsInProcDistribution( "CrateTools", {   Garageunits_Carpentry_items  } , 0.53 );
 
 
 local Garageunits_Mechanic_items = {
@@ -2642,7 +2643,7 @@ local Garageunits_coocking_items = {
         "Hydrocraft.HCCookiecutter", 1,
         "Hydrocraft.HCPyrexdish", 1,
 };
-insertItemListsInProcDistribution( "CrateDishes", {   Garageunits_coocking_items  } );
+insertItemListsInProcDistribution( "CrateDishes", {   Garageunits_coocking_items  } , 0.72 );
 
 
 
@@ -2842,7 +2843,7 @@ local Garageunits_Computer_items = {
         "Hydrocraft.HCMousepad", 1,
         "Hydrocraft.HCComputerfan", 1,
 };
-insertItemListsInProcDistribution( "CrateComputer", {   Garageunits_Computer_items  } );
+insertItemListsInProcDistribution( "CrateComputer", {   Garageunits_Computer_items  } , 0.26 );
 
 
 local Garageunits_Office_items = {
@@ -2981,25 +2982,24 @@ local fridge_items = {
         "Hydrocraft.HCMilkjug", 0.8,
         "Hydrocraft.HCMilkjugchocolate", 0.8,
 }
-insertItemListsInProcDistribution( "BakeryKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "BurgerKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "CafeKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "ChineseKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "DeepFryKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "BakeryKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "DinerKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "FishChipsKitchenFridge", {   fridge_items  } );
+insertItemListsInProcDistribution( "BakeryKitchenFridge", {   fridge_items  } , 0.68 );
+insertItemListsInProcDistribution( "BurgerKitchenFridge", {   fridge_items  } , 0.29 );
+insertItemListsInProcDistribution( "CafeKitchenFridge", {   fridge_items  } , 0.33 );
+insertItemListsInProcDistribution( "ChineseKitchenFridge", {   fridge_items  } , 0.4 );
+insertItemListsInProcDistribution( "DeepFryKitchenFridge", {   fridge_items  } , 0.17 );
+insertItemListsInProcDistribution( "DinerKitchenFridge", {   fridge_items  } , 0.36 );
+insertItemListsInProcDistribution( "FishChipsKitchenFridge", {   fridge_items  } , 0.29 );
 insertItemListsInProcDistribution( "FridgeGeneric", {   fridge_items  } );
-insertItemListsInProcDistribution( "BandPracticeFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "ItalianKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "JaysKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "MexicanKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "PizzaKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "RestaurantKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "SeafoodKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "SpiffosKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "SushiKitchenFridge", {   fridge_items  } );
-insertItemListsInProcDistribution( "WesternKitchenFridge", {   fridge_items  } );
+insertItemListsInProcDistribution( "BandPracticeFridge", {   fridge_items  } , 0.47 );
+insertItemListsInProcDistribution( "ItalianKitchenFridge", {   fridge_items  } , 0.38 );
+insertItemListsInProcDistribution( "JaysKitchenFridge", {   fridge_items  } , 0.29 );
+insertItemListsInProcDistribution( "MexicanKitchenFridge", {   fridge_items  } , 0.31 );
+insertItemListsInProcDistribution( "PizzaKitchenFridge", {   fridge_items  } , 0.3 );
+insertItemListsInProcDistribution( "RestaurantKitchenFridge", {   fridge_items  } , 0.69 );
+insertItemListsInProcDistribution( "SeafoodKitchenFridge", {   fridge_items  } , 0.18 );
+insertItemListsInProcDistribution( "SpiffosKitchenFridge", {   fridge_items  } , 0.24 );
+insertItemListsInProcDistribution( "SushiKitchenFridge", {   fridge_items  } , 0.69 );
+insertItemListsInProcDistribution( "WesternKitchenFridge", {   fridge_items  } , 0.61 );
 
 
 
@@ -3210,7 +3210,7 @@ local function OnLoadSpawnGuns()
 				"Hydrocraft.HCShotgunSilencer", 0.5,
 		};
 		insertItemListsInProcDistribution( "PoliceStorageGuns", {   firearms_items  } );
-		insertItemListsInProcDistribution( "ArmyStorageGuns", {   firearms_items  } );
+		insertItemListsInProcDistribution( "ArmyStorageAmmunition", {   firearms_items  } );
 	end
 
 end

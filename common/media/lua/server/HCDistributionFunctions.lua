@@ -172,7 +172,7 @@ end
 -- Method for new distribution. Appends distribition to location
 -- @todo for items only, extension for trash etc. 
 -------------------------------------------------------------------
-function insertItemListsInProcDistribution(location, itemDistList )
+function insertItemListsInProcDistribution(location, itemDistList, scale )
         local debugfactor = 1;
         local loc = ProceduralDistributions["list"][location]
         if loc == nil or loc.items == nil then
@@ -180,20 +180,14 @@ function insertItemListsInProcDistribution(location, itemDistList )
             return
         end
         local table = loc.items
-		if(table == nil) then
-			print("Error: unknown distribution location " .. location .. " - insert aborted.")
-			return
-		end
         local n = #table
         for idx, itemDist in ipairs(itemDistList) do
-                for i=1,#itemDist do 
+                for i=1,#itemDist do
                         n=n+1
-                        table[n] = itemDist[i]
---                        print ( ">>>>>" .. itemDist[i] )
---                        for jdx, info in ipairs(itemDist[i]) do
---                          print ( ">info1"..info )
---                        end
-                        
+                        local v = itemDist[i]
+                        -- scale: множитель весов, чтобы HC-лут не вытеснял ванильный
+                        if scale and type(v) == "number" then v = v * scale end
+                        table[n] = v
                 end
         end
 end

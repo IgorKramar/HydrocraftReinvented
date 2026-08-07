@@ -67,9 +67,10 @@ module Hydrocraft
     item HCBlacksmithapron
     {
 
-		Type = Clothing,
+		ItemType = base:clothing,
 		DisplayName = Blacksmith Apron,
 		ClothingItem = HCBlacksmithapron,
+		CanBeEquipped = base:torsoextra,
 		BodyLocation = base:torsoextra,
 		BloodLocation = Apron,
 		Icon = HCBlacksmithapron,
@@ -937,9 +938,10 @@ module Hydrocraft
     item HCGrCamLeatherJacket
     {
 
-        Type = Clothing,
+        ItemType = base:clothing,
         DisplayName = Green Camo Leather Jacket,
         ClothingItem = Jacket_ArmyCamoGreen,
+        CanBeEquipped = base:jacket,
         BodyLocation = base:jacket,
         Icon = ShirtCamoGreen,
         BloodLocation = Jacket,
@@ -958,9 +960,10 @@ module Hydrocraft
     item HCJAcketCowFur
     {
 
-        Type = Clothing,
+        ItemType = base:clothing,
         DisplayName = Cow Fur Jacket,
         ClothingItem = HCJAcketCowFur,
+        CanBeEquipped = base:jacket,
         BodyLocation = base:jacket,
         Icon = ShirtCamoGrey,
         BloodLocation = Jacket,
@@ -979,9 +982,10 @@ module Hydrocraft
     item HCLeatherpants
     {
 
-        Type = Clothing,
+        ItemType = base:clothing,
         DisplayName = Leather Pants,
         ClothingItem = HCPantsLeather,
+        CanBeEquipped = base:pants,
         BodyLocation = base:pants,
         Icon = TrousersDenimBlack,
         BloodLocation = Trousers,
@@ -998,9 +1002,10 @@ module Hydrocraft
     item HCLeatherpantsHard
     {
 
-        Type = Clothing,
+        ItemType = base:clothing,
         DisplayName = Hardened Leather Pants,
         ClothingItem = HCPantsLeatherHard,
+        CanBeEquipped = base:pants,
         BodyLocation = base:pants,
         Icon = TrousersDenimBlack,
         BloodLocation = Trousers,

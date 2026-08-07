@@ -41,7 +41,7 @@ module Hydrocraft
     {
 
     DisplayCategory = Bag,
-    Type = Container,
+    ItemType = base:container,
     DisplayName = Leather Quiver,
     ClothingItem = HCQuiver,
     CanBeEquipped = base:back,

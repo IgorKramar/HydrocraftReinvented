@@ -53,9 +53,10 @@ module Hydrocraft
     {
 
 	    DisplayCategory = Accessory,
-		Type = Clothing,
+		ItemType = base:clothing,
 		DisplayName = Motorcycle Helmet,
 		ClothingItem = HC_Helmetmotorcycle,
+		CanBeEquipped = base:fullhat,
 		BodyLocation = base:fullhat,
 		Icon = HCHelmetmotorcycle,
 		BloodLocation = FullHelmet,
@@ -122,8 +123,9 @@ module Hydrocraft
     {
 
 		Weight    		 = 2.0,
-		Type             = Clothing,
+		ItemType             = base:clothing,
 		ClothingItem     = HCHelmiron,
+		CanBeEquipped = base:hat,
 		BodyLocation     = base:hat,
 		DisplayName      = Iron Helmet,
 		icon 			 = HCHelmiron,
@@ -142,8 +144,9 @@ module Hydrocraft
     {
 
 		Weight    		 = 2.0,
-		Type             = Clothing,
+		ItemType             = base:clothing,
 		ClothingItem     = HCHelmbronze,
+		CanBeEquipped = base:hat,
 		BodyLocation     = base:hat,
 		DisplayName      = Bronze Helmet,
 		icon 			 = HCHelmbronze,
@@ -162,8 +165,9 @@ module Hydrocraft
     {
 
 		Weight    		 = 2.0,
-		Type             = Clothing,
+		ItemType             = base:clothing,
 		ClothingItem     = HCHelmcopper,
+		CanBeEquipped = base:hat,
 		BodyLocation     = base:hat,
 		DisplayName      = Copper Helmet,
 		icon 			 = HCHelmcopper,
@@ -202,9 +206,10 @@ module Hydrocraft
     {
 
         DisplayCategory 		= Accessory,
-		Type 					= Clothing,	
+		ItemType 					= base:clothing,	
         DisplayName         	= Oven Mitts,		
 		ClothingItem 			= HC_OvenMitts,
+		CanBeEquipped = base:hands,
 		BodyLocation 			= base:hands,
 		BloodLocation 			= Hands,		
         Weight    				= 0.1,
@@ -223,9 +228,10 @@ module Hydrocraft
     {
 
 		DisplayCategory = Accessory,
-        Type = Clothing,
+        ItemType = base:clothing,
         DisplayName = Work Gloves,
         ClothingItem = Gloves_LeatherGloves,
+        CanBeEquipped = base:hands,
         BodyLocation = base:hands,
         IconsForTexture = GlovesLeatherBlackpng;GlovesLeatherBrown,
         BloodLocation = Hands,
@@ -330,9 +336,10 @@ module Hydrocraft
     item HCGlovesHardLeather
     {
 
-        Type = Clothing,
+        ItemType = base:clothing,
         DisplayName = Hardened Leather Gloves,
         ClothingItem = HCGlovesHardLeather,
+        CanBeEquipped = base:hands,
         icon         = HCGlovecord,
         BodyLocation = base:hands,
         BloodLocation = Hands,
@@ -687,8 +694,9 @@ module Hydrocraft
     item HCArmoriron
     {
 
-		Type             = Clothing,
+		ItemType             = base:clothing,
 		ClothingItem     = HCArmoriron,
+		CanBeEquipped = base:torsoextra,
 		BodyLocation     = base:torsoextra,
 		BloodLocation    = ShirtNoSleeves,
         Weight    		 = 10.0,
@@ -707,8 +715,9 @@ module Hydrocraft
     item HCArmorbronze
     {
 
-		Type             = Clothing,
+		ItemType             = base:clothing,
 		ClothingItem     = HCArmorbronze,
+		CanBeEquipped = base:torsoextra,
 		BodyLocation     = base:torsoextra,
 		BloodLocation    = ShirtNoSleeves,
         Weight    		 = 10.0,
@@ -727,8 +736,9 @@ module Hydrocraft
     item HCArmorcopper
     {
 
-		Type             = Clothing,
+		ItemType             = base:clothing,
 		ClothingItem     = HCArmorcopper,
+		CanBeEquipped = base:torsoextra,
 		BodyLocation     = base:torsoextra,
 		BloodLocation    = ShirtNoSleeves,
         Weight    		 = 10.0,
@@ -958,8 +968,9 @@ module Hydrocraft
     {
 
 		Weight    		        = 2.0,
-		Type    		        = Clothing,
+		ItemType    		        = base:clothing,
 		ClothingItem            = HCLegarmoriron,
+		CanBeEquipped = base:legs1,
 		BodyLocation            = base:legs1,
 		BloodLocation           = Trousers,
 		Insulation              = 0.3,
@@ -976,8 +987,9 @@ module Hydrocraft
     {
 
 		Weight    		        = 2.0,
-		Type    		        = Clothing,
+		ItemType    		        = base:clothing,
 		ClothingItem            = HCLegarmorbronze,
+		CanBeEquipped = base:legs1,
 		BodyLocation            = base:legs1,
 		BloodLocation           = Trousers,
 		Insulation              = 0.3,
@@ -994,8 +1006,9 @@ module Hydrocraft
     {
 
 		Weight    		        = 2.0,
-		Type    		        = Clothing,
+		ItemType    		        = base:clothing,
 		ClothingItem            = HCLegarmorcopper,
+		CanBeEquipped = base:legs1,
 		BodyLocation            = base:legs1,
 		BloodLocation           = Trousers,
 		Insulation              = 0.3,

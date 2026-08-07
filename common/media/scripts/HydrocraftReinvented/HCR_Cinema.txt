@@ -33,9 +33,10 @@ module Hydrocraft
     {
 
 	DisplayCategory          =   Accessory,	
-    Type					 =	 Clothing,
+    ItemType					 = base:clothing,
     DisplayName				 =	 3D Glasses,
-	ClothingItem 			 = 	 Glasses_3Dglasses,	
+	ClothingItem 			 = 	 Glasses_3Dglasses,
+	CanBeEquipped = base:eyes,	
 	BodyLocation 			 = 	 base:eyes,	
 	Icon					 =	 HC3Dglasses,
 	Weight					 =	 0.05,	

@@ -4,10 +4,11 @@ module Hydrocraft
     item HCFiresuit
     {
 
-        Type = Clothing,
+        ItemType = base:clothing,
         DisplayName = Fire Suit,
         BodyLocation = base:fullsuithead,
         ClothingItem = HCFiresuit,
+        CanBeEquipped = base:fullsuithead,
         Icon = HCFiresuit,
         BloodLocation = Trousers;Jumper,
         RunSpeedModifier = 0.75,

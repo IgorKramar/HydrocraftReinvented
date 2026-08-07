@@ -15,7 +15,7 @@ module Hydrocraft
     item HCAlicepack3
     {
 
-        Type                    = Container,
+        ItemType                    = base:container,
         DisplayName             = Fine Leather Alice Pack,
         ClothingItem            = HCPackFineAlice,
         CanBeEquipped           = base:back,
@@ -39,7 +39,7 @@ module Hydrocraft
 
         WeightReduction =   82,
         Weight  =   1,
-        Type    =   Container,
+        ItemType    = base:container,
         Capacity    =   24,
         DisplayName =   Camping Pack,
         IconsForTexture = BigHiking_Blue;BigHiking_Green;BigHiking_Red,
@@ -62,7 +62,7 @@ module Hydrocraft
 
         WeightReduction =   75,
         Weight  =   0.8,
-        Type    =   Container,
+        ItemType    = base:container,
         Capacity    =   20,
         DisplayName =   Climbing Pack,
         IconsForTexture =   Hiking_Blue;Hiking_Green;Hiking_Red,
@@ -673,7 +673,7 @@ module Hydrocraft
     item HCImprovisedbackpack
     {
 
-        Type                    = Container,
+        ItemType                    = base:container,
         DisplayName             = Improvised Backpack,
         ClothingItem            = HCImprovisedbackpack,
         CanBeEquipped           = base:back,

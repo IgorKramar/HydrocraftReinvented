@@ -474,9 +474,10 @@ module Hydrocraft
     item HCHydroshirt
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Hydro's Shirt,
         ClothingItem    = HCHydroshirt,
+        CanBeEquipped = base:shirt,
         BodyLocation    = base:shirt,
         Icon            = ShirtGeneric,
         BloodLocation   = ShirtLongSleeves,
@@ -491,9 +492,10 @@ module Hydrocraft
     item HCLinenshirt
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Linen Shirt,
         ClothingItem    = HCShirtLinen,
+        CanBeEquipped = base:shirt,
         BodyLocation    = base:shirt,
         Icon            = ShirtGeneric,
         BloodLocation   = ShirtLongSleeves,
@@ -507,9 +509,10 @@ module Hydrocraft
     item HCLinenshirtWired
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Reinforced Linen Shirt,
         ClothingItem    = HCShirtLinenWired,
+        CanBeEquipped = base:shirt,
         BodyLocation    = base:shirt,
         Icon            = ShirtGeneric,
         BloodLocation   = ShirtLongSleeves,
@@ -524,9 +527,10 @@ module Hydrocraft
     item HCLinenshirtAlu
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Armored Linen Shirt,
         ClothingItem    = HCShirtLinenAlu,
+        CanBeEquipped = base:shirt,
         BodyLocation    = base:shirt,
         Icon            = ShirtGeneric,
         BloodLocation   = ShirtLongSleeves,
@@ -541,9 +545,10 @@ module Hydrocraft
     item HCLinenpants
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Linen Pants,
         ClothingItem    = HCPantsLinen,
+        CanBeEquipped = base:pants,
         BodyLocation    = base:pants,
         Icon            = TrousersGeneric,
         BloodLocation   = Trousers,
@@ -556,9 +561,10 @@ module Hydrocraft
     item HCLinenpantsAlu
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Armored Linen Pants,
         ClothingItem    = HCPantsLinenAlu,
+        CanBeEquipped = base:pants,
         BodyLocation    = base:pants,
         Icon            = TrousersGeneric,
         BloodLocation   = Trousers,
@@ -573,9 +579,10 @@ module Hydrocraft
     item HCLinenpantsWired
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Reinforced Linen Pants,
         ClothingItem    = HCPantsLinenWired,
+        CanBeEquipped = base:pants,
         BodyLocation    = base:pants,
         Icon            = TrousersGeneric,
         BloodLocation   = Trousers,
@@ -695,9 +702,10 @@ module Hydrocraft
     item HCSocksWoolAnkle
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Wool Socks,
         ClothingItem    = Socks_Ankle,
+        CanBeEquipped = base:socks,
         BodyLocation    = base:socks,
         Icon            = SocksAnkleWhite,
         BloodLocation   = Shoes,
@@ -709,9 +717,10 @@ module Hydrocraft
     item HCSocksWoolLong
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Long Wool Socks,
         ClothingItem    = Socks_Long,
+        CanBeEquipped = base:socks,
         BodyLocation    = base:socks,
         Icon            = SocksWhite,
         BloodLocation   = Shoes,
@@ -723,9 +732,10 @@ module Hydrocraft
     item HCSweaterWoolThick
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Thick Wool Sweater,
         ClothingItem    = HCSweaterWool,
+        CanBeEquipped = base:sweater,
         BodyLocation    = base:sweater,
         BloodLocation   = Jumper,
         Icon            = SweaterTurtleneckWhite,
@@ -739,9 +749,10 @@ module Hydrocraft
     item HCSweaterWool
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Wool Sweater,
         ClothingItem    = HCSweaterWool,
+        CanBeEquipped = base:sweater,
         BodyLocation    = base:sweater,
         BloodLocation   = Jumper,
         Icon            = SweaterTurtleneckWhite,
@@ -755,9 +766,10 @@ module Hydrocraft
     item HCSilkUndiesWarm
     {
 
-        Type            = Clothing,
+        ItemType            = base:clothing,
         DisplayName     = Long Silk Undies,
         ClothingItem    = LongJohns,
+        CanBeEquipped = base:torso1legs1,
         BodyLocation    = base:torso1legs1,
         BloodLocation   = Trousers;ShirtLongSleeves,
         Icon            = Longjohns,

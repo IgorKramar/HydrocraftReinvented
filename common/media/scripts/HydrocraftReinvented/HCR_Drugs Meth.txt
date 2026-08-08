@@ -98,7 +98,7 @@ module Hydrocraft
             item 5 Hydrocraft.HCBluemethtray,
         }
     }
-    craftRecipe Cook Blue Meth
+    craftRecipe Cook Blue Meth (Blue Barrel with Methylamin)
     {
         time = 5000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -122,7 +122,7 @@ module Hydrocraft
             item 5 Hydrocraft.HCBluemethtray,
         }
     }
-    craftRecipe Cook Blue Meth
+    craftRecipe Cook Blue Meth (Blue Barrel with Phenylacetic Acid)
     {
         time = 5000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -146,7 +146,7 @@ module Hydrocraft
             item 5 Hydrocraft.HCBluemethtray,
         }
     }
-    craftRecipe Cook Blue Meth
+    craftRecipe Cook Blue Meth (Blue Barrel with Methylamin 2)
     {
         time = 5000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

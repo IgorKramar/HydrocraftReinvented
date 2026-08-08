@@ -271,64 +271,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCFir3],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCFirstump,
-        }
-    }
-    craftRecipe Cut Fir Tree
-    {
-        time = 500,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Carpentry,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Woodwork:60,
-        OnCreate = HCR42.recipe_hccutfirtree4,
-        inputs
-        {
-            item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCFir4],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCFirstump,
-        }
-    }
-    craftRecipe Cut Fir Tree
-    {
-        time = 1000,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Carpentry,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Woodwork:60,
-        OnCreate = HCR42.recipe_hccutfirtree5,
-        inputs
-        {
-            item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCFir5],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCFirstump,
-        }
-    }
-    craftRecipe Cut Fir Tree
-    {
-        time = 2000,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Carpentry,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Woodwork:60,
-        OnCreate = HCR42.recipe_hccutfirtree6,
-        inputs
-        {
-            item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCFir6],
+            item 1 [Hydrocraft.HCFir3;Hydrocraft.HCFir4;Hydrocraft.HCFir5;Hydrocraft.HCFir6],
         }
         outputs
         {
@@ -368,64 +311,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCOak3],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCOakstump,
-        }
-    }
-    craftRecipe Cut Oak Tree
-    {
-        time = 500,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Carpentry,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Woodwork:60,
-        OnCreate = HCR42.recipe_hccutoaktree4,
-        inputs
-        {
-            item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCOak4],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCOakstump,
-        }
-    }
-    craftRecipe Cut Oak Tree
-    {
-        time = 1000,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Carpentry,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Woodwork:60,
-        OnCreate = HCR42.recipe_hccutoaktree5,
-        inputs
-        {
-            item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCOak5],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCOakstump,
-        }
-    }
-    craftRecipe Cut Oak Tree
-    {
-        time = 2000,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Carpentry,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Woodwork:60,
-        OnCreate = HCR42.recipe_hccutoaktree6,
-        inputs
-        {
-            item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCOak6],
+            item 1 [Hydrocraft.HCOak3;Hydrocraft.HCOak4;Hydrocraft.HCOak5;Hydrocraft.HCOak6],
         }
         outputs
         {
@@ -465,64 +351,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCBirch3],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCBirchstump,
-        }
-    }
-    craftRecipe Cut Birch Tree
-    {
-        time = 500,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Carpentry,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Woodwork:60,
-        OnCreate = HCR42.recipe_hccutbirchtree4,
-        inputs
-        {
-            item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCBirch4],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCBirchstump,
-        }
-    }
-    craftRecipe Cut Birch Tree
-    {
-        time = 1000,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Carpentry,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Woodwork:60,
-        OnCreate = HCR42.recipe_hccutbirchtree5,
-        inputs
-        {
-            item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCBirch5],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCBirchstump,
-        }
-    }
-    craftRecipe Cut Birch Tree
-    {
-        time = 2000,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Carpentry,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Woodwork:60,
-        OnCreate = HCR42.recipe_hccutbirchtree6,
-        inputs
-        {
-            item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCBirch6],
+            item 1 [Hydrocraft.HCBirch3;Hydrocraft.HCBirch4;Hydrocraft.HCBirch5;Hydrocraft.HCBirch6],
         }
         outputs
         {

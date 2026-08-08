@@ -311,7 +311,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCZincingot,
         }
     }
-    craftRecipe Recycle Zinc
+    craftRecipe Recycle Zinc (Nickel)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -335,7 +335,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCZincingot,
         }
     }
-    craftRecipe Recycle Zinc
+    craftRecipe Recycle Zinc (Dime)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -359,7 +359,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCZincingot,
         }
     }
-    craftRecipe Recycle Zinc
+    craftRecipe Recycle Zinc (Quarter)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -383,7 +383,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCZincingot,
         }
     }
-    craftRecipe Recycle Zinc
+    craftRecipe Recycle Zinc (Half Dollar)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -407,7 +407,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCZincingot,
         }
     }
-    craftRecipe Recycle Zinc
+    craftRecipe Recycle Zinc (Dollar)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -521,7 +521,7 @@ module Hydrocraft
             item 10 Hydrocraft.HCCoincopper,
         }
     }
-    craftRecipe Press Coin
+    craftRecipe Press Coin (Silver Coin)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -539,7 +539,7 @@ module Hydrocraft
             item 10 Hydrocraft.HCCoinsilver,
         }
     }
-    craftRecipe Press Coin
+    craftRecipe Press Coin (Gold Coin)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -594,7 +594,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWallet,
         }
     }
-    craftRecipe Open Wallet
+    craftRecipe Open Wallet (Wallet)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -610,7 +610,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWallet2,
         }
     }
-    craftRecipe Open Wallet
+    craftRecipe Open Wallet (Wallet 2)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -626,7 +626,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWallet3,
         }
     }
-    craftRecipe Open Wallet
+    craftRecipe Open Wallet (Wallet 3)
     {
         time = 15,
         Tags = AnySurfaceCraft,

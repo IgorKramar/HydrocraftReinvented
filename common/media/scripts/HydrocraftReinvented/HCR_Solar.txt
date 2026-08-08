@@ -146,7 +146,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSolarpark,
         }
     }
-    craftRecipe Recharge Battery
+    craftRecipe Recharge Battery (Small Battery)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -166,7 +166,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBatterysmall,
         }
     }
-    craftRecipe Recharge Battery
+    craftRecipe Recharge Battery (Variant)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -186,7 +186,7 @@ module Hydrocraft
             item 1 Base.Battery,
         }
     }
-    craftRecipe Recharge Battery
+    craftRecipe Recharge Battery (9 Volt Battery)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -206,7 +206,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBattery9volt,
         }
     }
-    craftRecipe Recharge Battery
+    craftRecipe Recharge Battery (Medium Battery)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -226,7 +226,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBatterymedium,
         }
     }
-    craftRecipe Recharge Battery
+    craftRecipe Recharge Battery (Large Battery)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -246,7 +246,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBatterylarge,
         }
     }
-    craftRecipe Recharge Battery
+    craftRecipe Recharge Battery (Huge Battery)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

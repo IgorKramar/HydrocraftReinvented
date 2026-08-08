@@ -6,6 +6,24 @@
 
 ## Русский
 
+### v1.5.0 — 2026-08-08
+
+**Система обучения рецептам работает — спасибо Haase за отчёт:**
+- Книги снова учат: B42 переименовал поле `TeachedRecipes` в `LearnedRecipes`,
+  из-за чего все 171 книжная строка молча игнорировалась — ни один рецепт
+  нельзя было выучить (и чит-разблокировка тоже не работала). Поле переведено
+  на новый формат.
+- Вычищены 346 книжных ссылок на рецепты вырезанных систем (кости,
+  животноводство и пр.) — треть списков вела в никуда.
+- Найдены и обезврежены 366 ДУБЛЕЙ имён рецептов (наследие B41, где варианты
+  «сделай из любого» были отдельными рецептами с одним именем): в B42 движок
+  хранит рецепты по имени, и из 102 вариантов сока выживал один. 54 группы
+  слиты в честные альтернативы «любой из», 1 441 вариант получил уникальное
+  имя с уточнением в скобках — и полный русский перевод каждого.
+- 17 рецептов-«сирот» (включая меховую и шёлковую одежду из v1.2.0), которых
+  не учила ни одна книга, добавлены в тематические учебники.
+- Итог: 3 527 уникальных рецептов, 0 битых ссылок, 0 невыучиваемых.
+
 ### v1.4.0 — 2026-08-07
 
 **Баланс опыта (xpAward)** — крафт Hydrocraft снова прокачивает:
@@ -73,6 +91,23 @@
 ---
 
 ## English
+
+### v1.5.0 — 2026-08-08
+
+**The recipe learning system works — thanks to Haase for the report:**
+- Books teach again: B42 renamed `TeachedRecipes` to `LearnedRecipes`, so all
+  171 book lines were silently ignored — no recipe could be learned (and the
+  cheat unlock didn't work either). The field is migrated.
+- Purged 346 book references to recipes of the cut systems (boneworking,
+  husbandry etc.) — a third of the lists led nowhere.
+- Found and defused 366 DUPLICATE recipe names (a B41 legacy where "make from
+  any" variants were separate recipes sharing one name): the B42 engine stores
+  recipes by name, so only one of 102 juice variants survived. 54 groups are
+  merged into proper "any of" alternatives; 1,441 variants received unique
+  names with a clarifier in parentheses — each with a full Russian translation.
+- 17 orphan recipes (including the fur and silk clothing from v1.2.0) that no
+  book taught are now placed into fitting textbooks.
+- Result: 3,527 unique recipes, 0 broken references, 0 unlearnable.
 
 ### v1.4.0 — 2026-08-07
 

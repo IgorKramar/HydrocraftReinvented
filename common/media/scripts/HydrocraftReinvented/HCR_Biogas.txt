@@ -59,7 +59,7 @@ module Hydrocraft
             item 1 Base.PropaneTank,
         }
     }
-    craftRecipe Make Biogas
+    craftRecipe Make Biogas (Variant)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -77,7 +77,7 @@ module Hydrocraft
             item 1 Base.PropaneTank,
         }
     }
-    craftRecipe Make Biogas
+    craftRecipe Make Biogas (Welding Gas Tank)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -95,7 +95,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWeldingtank,
         }
     }
-    craftRecipe Make Biogas
+    craftRecipe Make Biogas (Welding Gas Tank 2)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

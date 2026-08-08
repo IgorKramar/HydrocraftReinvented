@@ -1354,7 +1354,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWoodenbucketvegoil,
         }
     }
-    craftRecipe Make Vegetable Oil
+    craftRecipe Make Vegetable Oil (Variant)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1373,7 +1373,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWoodenbucketvegoil,
         }
     }
-    craftRecipe Make Vegetable Oil
+    craftRecipe Make Vegetable Oil (Pumpkin Seeds Packet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1392,7 +1392,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWoodenbucketvegoil,
         }
     }
-    craftRecipe Make Vegetable Oil
+    craftRecipe Make Vegetable Oil (Cotton Seeds Packet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1411,7 +1411,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWoodenbucketvegoil,
         }
     }
-    craftRecipe Make Vegetable Oil
+    craftRecipe Make Vegetable Oil (Corn Seeds Packet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1430,7 +1430,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWoodenbucketvegoil,
         }
     }
-    craftRecipe Make Vegetable Oil
+    craftRecipe Make Vegetable Oil (Flaxseed package)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1449,7 +1449,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWoodenbucketvegoil,
         }
     }
-    craftRecipe Make Vegetable Oil
+    craftRecipe Make Vegetable Oil (Red Corn Seeds Packet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1468,7 +1468,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWoodenbucketvegoil,
         }
     }
-    craftRecipe Make Vegetable Oil
+    craftRecipe Make Vegetable Oil (Blue Corn Seeds Packet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1619,7 +1619,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPeanutbutter,
         }
     }
-    craftRecipe Make Peanutbutter
+    craftRecipe Make Peanutbutter (Variant)
     {
         time = 100,
         Tags = AnySurfaceCraft,

@@ -842,7 +842,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDiaperAlcohol,
         }
     }
-    craftRecipe Disinfect Diaper
+    craftRecipe Disinfect Diaper (Variant)
     {
         time = 40,
         Tags = AnySurfaceCraft,
@@ -894,7 +894,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMenstrualpadAlcohol,
         }
     }
-    craftRecipe Disinfect Menstrual Pad
+    craftRecipe Disinfect Menstrual Pad (Variant)
     {
         time = 40,
         Tags = AnySurfaceCraft,
@@ -1006,7 +1006,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCElectrictoothbrush,
         }
     }
-    craftRecipe Insert Battery
+    craftRecipe Insert Battery (Electric Razon with Power)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1022,7 +1022,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCElectricrazorpowered,
         }
     }
-    craftRecipe Remove Battery
+    craftRecipe Remove Battery (Electric Razor)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1072,7 +1072,7 @@ module Hydrocraft
             item 1 Base.Toothbrush,
         }
     }
-    craftRecipe Brush Teeth
+    craftRecipe Brush Teeth (Electric Toothbrush with Power)
     {
         time = 95,
         Tags = AnySurfaceCraft,

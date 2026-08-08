@@ -1378,7 +1378,7 @@ module Hydrocraft
             item 6 Hydrocraft.HCPlasticplate,
         }
     }
-    craftRecipe Stack Plastic Plates
+    craftRecipe Stack Plastic Plates (Stack of Plastic Plates)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1393,7 +1393,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlasticplatestack2,
         }
     }
-    craftRecipe Unstack Plastic Plates
+    craftRecipe Unstack Plastic Plates (Plastic Plate)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1513,7 +1513,7 @@ module Hydrocraft
             item 100 Hydrocraft.HCZipperbag,
         }
     }
-    craftRecipe Insert Battery
+    craftRecipe Insert Battery (Rice Cooker with Power)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1529,7 +1529,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRicecookerpowered,
         }
     }
-    craftRecipe Remove Battery
+    craftRecipe Remove Battery (Rice Cooker)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1545,7 +1545,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRicecooker,
         }
     }
-    craftRecipe Insert Battery
+    craftRecipe Insert Battery (Blender with Power)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1561,7 +1561,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBlenderpowered,
         }
     }
-    craftRecipe Remove Battery
+    craftRecipe Remove Battery (Blender)
     {
         time = 15,
         Tags = AnySurfaceCraft,

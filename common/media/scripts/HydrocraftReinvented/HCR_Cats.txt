@@ -304,7 +304,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCatdead,
         }
     }
-    craftRecipe Kill Cat
+    craftRecipe Kill Cat (Dead Cat)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -319,7 +319,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCatblackdead,
         }
     }
-    craftRecipe Kill Cat
+    craftRecipe Kill Cat (Dead Cat 2)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -334,7 +334,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCatbluedead,
         }
     }
-    craftRecipe Kill Cat
+    craftRecipe Kill Cat (Dead Cat 3)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -349,7 +349,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCatbrowndead,
         }
     }
-    craftRecipe Kill Cat
+    craftRecipe Kill Cat (Dead Cat 4)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -364,7 +364,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCatcreamdead,
         }
     }
-    craftRecipe Kill Cat
+    craftRecipe Kill Cat (Dead Cat 5)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -379,7 +379,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCatgingerdead,
         }
     }
-    craftRecipe Kill Cat
+    craftRecipe Kill Cat (Dead Cat 6)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -394,7 +394,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCatsilverdead,
         }
     }
-    craftRecipe Kill Cat
+    craftRecipe Kill Cat (Dead Cat 7)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

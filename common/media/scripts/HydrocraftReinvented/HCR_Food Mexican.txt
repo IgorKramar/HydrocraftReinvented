@@ -1197,7 +1197,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCStuffedbellpeppergreen,
         }
     }
-    craftRecipe Make Stuffed Bell Pepper
+    craftRecipe Make Stuffed Bell Pepper (Stuffed Red Bell Pepper)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -1219,7 +1219,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCStuffedbellpepperred,
         }
     }
-    craftRecipe Make Stuffed Bell Pepper
+    craftRecipe Make Stuffed Bell Pepper (Stuffed Yellow Bell Pepper)
     {
         time = 100,
         Tags = AnySurfaceCraft,

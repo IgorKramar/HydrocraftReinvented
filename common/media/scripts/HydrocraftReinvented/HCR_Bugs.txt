@@ -557,7 +557,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCJarfireflies,
         }
     }
-    craftRecipe Put Bug in Jar
+    craftRecipe Put Bug in Jar (Bug Jar)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -677,7 +677,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCChrysalis,
         }
     }
-    craftRecipe Feed Caterpillar
+    craftRecipe Feed Caterpillar (Chrysalis)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -712,7 +712,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCAntfarmblack,
         }
     }
-    craftRecipe Assemble Ant Farm
+    craftRecipe Assemble Ant Farm (Red Ant Farm)
     {
         time = 200,
         Tags = AnySurfaceCraft,
@@ -739,19 +739,7 @@ module Hydrocraft
         OnCreate = HCR42.HC_ToyStatModifier,
         inputs
         {
-            item 1 [Hydrocraft.HCAntfarmblack] mode:keep,
-        }
-    }
-    craftRecipe Watch Ants
-    {
-        time = 500,
-        Tags = AnySurfaceCraft,
-        category = Leisure,
-        timedAction = Making,
-        OnCreate = HCR42.HC_ToyStatModifier,
-        inputs
-        {
-            item 1 [Hydrocraft.HCAntfarmred] mode:keep,
+            item 1 [Hydrocraft.HCAntfarmblack;Hydrocraft.HCAntfarmred] mode:keep,
         }
     }
     craftRecipe Feed Ants
@@ -765,21 +753,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSugarcubes;Hydrocraft.HCCaterpillar;Hydrocraft.HCBeetlegrub],
-            item 1 [Hydrocraft.HCAntfarmblack] mode:keep,
-        }
-    }
-    craftRecipe Feed Ants
-    {
-        time = 100,
-        Tags = AnySurfaceCraft,
-        category = Leisure,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        OnCreate = HCR42.HC_ToyStatModifier,
-        inputs
-        {
-            item 1 [Hydrocraft.HCSugarcubes;Hydrocraft.HCCaterpillar;Hydrocraft.HCBeetlegrub],
-            item 1 [Hydrocraft.HCAntfarmred] mode:keep,
+            item 1 [Hydrocraft.HCAntfarmblack;Hydrocraft.HCAntfarmred] mode:keep,
         }
     }
 }

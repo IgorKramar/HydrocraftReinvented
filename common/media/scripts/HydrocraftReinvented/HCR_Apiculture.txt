@@ -319,7 +319,7 @@ module Hydrocraft
             item 12 Hydrocraft.HCHoneycomb,
         }
     }
-    craftRecipe Harvest Honeycomb
+    craftRecipe Harvest Honeycomb (Inactive Beehive (Stage 3))
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -451,26 +451,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 1 [Hydrocraft.HCHoney],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDryinghoney,
-        }
-    }
-    craftRecipe Dry Honey
-    {
-        time = 75,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        SkillRequired = Cooking:3,
-        xpAward = Cooking:3,
-        OnCreate = HCR42.recipe_hcjar,
-        inputs
-        {
-            item 1 [Base.BakingTray],
-            item 1 [Hydrocraft.HCJarhoney],
+            item 1 [Hydrocraft.HCHoney;Hydrocraft.HCJarhoney],
         }
         outputs
         {
@@ -506,7 +487,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 4 [Hydrocraft.HCHoneypowder],
+            item 4 [Hydrocraft.HCHoneypowder;Hydrocraft.HCSugarPowder],
             item 1 [Hydrocraft.HCSugarempty],
         }
         outputs

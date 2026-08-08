@@ -145,7 +145,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerammoniahalf,
         }
     }
-    craftRecipe Put Ammonia In Beaker
+    craftRecipe Put Ammonia In Beaker (Beaker with Ammonia)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -181,7 +181,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerammoniahalf,
         }
     }
-    craftRecipe Remove Ammonia From Beaker
+    craftRecipe Remove Ammonia From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -217,7 +217,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakercalciumchloridesolutionhalf,
         }
     }
-    craftRecipe Put Calciumchloride Solution In Beaker
+    craftRecipe Put Calciumchloride Solution In Beaker (Calcium Chloride Soultion)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -253,7 +253,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakercalciumchloridesolutionhalf,
         }
     }
-    craftRecipe Remove Calciumchloride Solution From Beaker
+    craftRecipe Remove Calciumchloride Solution From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -289,7 +289,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerh2o2half,
         }
     }
-    craftRecipe Put H2O2 In Beaker
+    craftRecipe Put H2O2 In Beaker (Beaker With Hydrogen Peroxide)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -325,7 +325,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerh2o2half,
         }
     }
-    craftRecipe Remove H2O2 From Beaker
+    craftRecipe Remove H2O2 From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -361,7 +361,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakermercuricoxidehalf,
         }
     }
-    craftRecipe Put Mercuricoxide In Beaker
+    craftRecipe Put Mercuricoxide In Beaker (Beaker With Mercuric Oxide)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -397,7 +397,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakermercuricoxidehalf,
         }
     }
-    craftRecipe Remove Mercuricoxide From Beaker
+    craftRecipe Remove Mercuricoxide From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -433,7 +433,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakermethylaminhalf,
         }
     }
-    craftRecipe Put Methylamin In Beaker
+    craftRecipe Put Methylamin In Beaker (Beaker With Methylamin)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -469,7 +469,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakermethylaminhalf,
         }
     }
-    craftRecipe Remove Methylamin From Beaker
+    craftRecipe Remove Methylamin From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -505,7 +505,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakermorphinhydrochloridsolutionhalf,
         }
     }
-    craftRecipe Put Morphinhydrochlorid Solution In Beaker
+    craftRecipe Put Morphinhydrochlorid Solution In Beaker (Beaker with Morphine Hydrochlorid Solution)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -541,7 +541,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakermorphinhydrochloridsolutionhalf,
         }
     }
-    craftRecipe Remove Morphinhydrochlorid Solution From Beaker
+    craftRecipe Remove Morphinhydrochlorid Solution From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -577,7 +577,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakermuriaticacidhalf,
         }
     }
-    craftRecipe Put Muriatic Acid In Beaker
+    craftRecipe Put Muriatic Acid In Beaker (Beaker With Muriatic Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -613,7 +613,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakermuriaticacidhalf,
         }
     }
-    craftRecipe Remove Muriatic Acid From Beaker
+    craftRecipe Remove Muriatic Acid From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -649,7 +649,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerphenylhalf,
         }
     }
-    craftRecipe Put Phenylacetic Acid In Beaker
+    craftRecipe Put Phenylacetic Acid In Beaker (Beaker With Phenylacetic Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -685,7 +685,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerphenylhalf,
         }
     }
-    craftRecipe Remove Phenylacetic Acid From Beaker
+    craftRecipe Remove Phenylacetic Acid From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -721,7 +721,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakersodiumhydroxidesolutionhalf,
         }
     }
-    craftRecipe Put Sodiumhydroxide Solution In Beaker
+    craftRecipe Put Sodiumhydroxide Solution In Beaker (Sodium Hydroxide Soultion)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -757,7 +757,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakersodiumhydroxidesolutionhalf,
         }
     }
-    craftRecipe Remove Sodiumhydroxide Solution From Beaker
+    craftRecipe Remove Sodiumhydroxide Solution From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -793,7 +793,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakersulfuricacidhalf,
         }
     }
-    craftRecipe Put Sulfuric Acid In Beaker
+    craftRecipe Put Sulfuric Acid In Beaker (Beaker With Sulfuric Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -829,7 +829,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakersulfuricacidhalf,
         }
     }
-    craftRecipe Remove Sulfuric Acid From Beaker
+    craftRecipe Remove Sulfuric Acid From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -865,7 +865,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakertronasolutionhalf,
         }
     }
-    craftRecipe Put Trona Solution In Beaker
+    craftRecipe Put Trona Solution In Beaker (Beaker With Trona Solution)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -901,7 +901,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakertronasolutionhalf,
         }
     }
-    craftRecipe Remove Trona Solution From Beaker
+    craftRecipe Remove Trona Solution From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -937,7 +937,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerwaterhalf,
         }
     }
-    craftRecipe Put Water In Beaker
+    craftRecipe Put Water In Beaker (Beaker With Water)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -973,7 +973,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerwaterhalf,
         }
     }
-    craftRecipe Remove Water From Beaker
+    craftRecipe Remove Water From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1009,7 +1009,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerselfmadeetherhalf,
         }
     }
-    craftRecipe Put Selfmade Ether In Beaker
+    craftRecipe Put Selfmade Ether In Beaker (Beaker With Ether)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1045,7 +1045,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerselfmadeetherhalf,
         }
     }
-    craftRecipe Remove Selfmade Ether From Beaker
+    craftRecipe Remove Selfmade Ether From Beaker (Glass Beaker)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1116,7 +1116,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerpotassiumpermanganatehalf,
         }
     }
-    craftRecipe Put Potassium Permanganate In Beaker
+    craftRecipe Put Potassium Permanganate In Beaker (Beaker With Potassium Permanganate)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

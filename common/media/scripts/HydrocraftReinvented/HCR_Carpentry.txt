@@ -971,7 +971,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLogstack2,
         }
     }
-    craftRecipe Add Logs to Pile
+    craftRecipe Add Logs to Pile (Log Pile)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -987,7 +987,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLogstack2,
         }
     }
-    craftRecipe Add Logs to Pile
+    craftRecipe Add Logs to Pile (Log Pile 2)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1003,7 +1003,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLogstack3,
         }
     }
-    craftRecipe Add Logs to Pile
+    craftRecipe Add Logs to Pile (Log Stack)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1035,7 +1035,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLogstack3,
         }
     }
-    craftRecipe Remove Logs from Pile
+    craftRecipe Remove Logs from Pile (Log Pile)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1051,7 +1051,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLogstack2,
         }
     }
-    craftRecipe Remove Logs from Pile
+    craftRecipe Remove Logs from Pile (Log Pile 2)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1133,7 +1133,7 @@ module Hydrocraft
             item 3 Hydrocraft.HCWoodblock,
         }
     }
-    craftRecipe Make Wood Block
+    craftRecipe Make Wood Block (Wood Block)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1272,7 +1272,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWoodbeam,
         }
     }
-    craftRecipe Make Wood Beam
+    craftRecipe Make Wood Beam (Wood Beam)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1312,7 +1312,7 @@ module Hydrocraft
             item 2 Hydrocraft.HCWoodsheet,
         }
     }
-    craftRecipe Make Wood Sheet
+    craftRecipe Make Wood Sheet (Wood Sheet)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1332,7 +1332,7 @@ module Hydrocraft
             item 4 Hydrocraft.HCWoodsheet,
         }
     }
-    craftRecipe Make Wood Block
+    craftRecipe Make Wood Block (Wood Block 2)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1351,7 +1351,7 @@ module Hydrocraft
             item 12 Hydrocraft.HCWoodblock,
         }
     }
-    craftRecipe Make Wood Block
+    craftRecipe Make Wood Block (Wood Block 3)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1369,7 +1369,7 @@ module Hydrocraft
             item 12 Hydrocraft.HCWoodblock,
         }
     }
-    craftRecipe Make Wood Block
+    craftRecipe Make Wood Block (Wood Block 4)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1407,7 +1407,7 @@ module Hydrocraft
             item 4 Base.Plank,
         }
     }
-    craftRecipe Make Wood Planks
+    craftRecipe Make Wood Planks (Variant)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1426,7 +1426,7 @@ module Hydrocraft
             item 8 Base.Plank,
         }
     }
-    craftRecipe Make Wood Planks
+    craftRecipe Make Wood Planks (Variant 2)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1445,7 +1445,7 @@ module Hydrocraft
             item 12 Base.Plank,
         }
     }
-    craftRecipe Make Wood Planks
+    craftRecipe Make Wood Planks (Variant 3)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1464,7 +1464,7 @@ module Hydrocraft
             item 16 Base.Plank,
         }
     }
-    craftRecipe Make Wood Planks
+    craftRecipe Make Wood Planks (Variant 4)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1482,7 +1482,7 @@ module Hydrocraft
             item 4 Base.Plank,
         }
     }
-    craftRecipe Make Wood Planks
+    craftRecipe Make Wood Planks (Variant 5)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1501,7 +1501,7 @@ module Hydrocraft
             item 5 Base.Plank,
         }
     }
-    craftRecipe Make Wood Planks
+    craftRecipe Make Wood Planks (Variant 6)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1520,7 +1520,7 @@ module Hydrocraft
             item 10 Base.Plank,
         }
     }
-    craftRecipe Make Wood Planks
+    craftRecipe Make Wood Planks (Variant 7)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1539,7 +1539,7 @@ module Hydrocraft
             item 15 Base.Plank,
         }
     }
-    craftRecipe Make Wood Planks
+    craftRecipe Make Wood Planks (Variant 8)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -2454,7 +2454,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCShowersink,
         }
     }
-    craftRecipe Add Sink
+    craftRecipe Add Sink (Variant)
     {
         time = 400,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -2520,7 +2520,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCScarecrow,
         }
     }
-    craftRecipe Attatch Scarecrow
+    craftRecipe Attatch Scarecrow (Scarecrow)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -2561,7 +2561,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCScarezed,
         }
     }
-    craftRecipe Attatch Corpse Scarecrow
+    craftRecipe Attatch Corpse Scarecrow (Corpse Scarecrow)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -2747,28 +2747,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCWoodenring],
-            item 12 [Base.Woodglue],
-            item 6 [Base.WoodenStick2],
-            item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
-            item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCWagonwheel,
-        }
-    }
-    craftRecipe Make Wagon Wheel
-    {
-        time = 200,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Carpentry,
-        timedAction = Making,
-        SkillRequired = Woodwork:10,
-        xpAward = Woodwork:40,
-        inputs
-        {
-            item 2 [Hydrocraft.HCWoodenring],
-            item 12 [Hydrocraft.HCWoodgluejar],
+            item 12 [Base.Woodglue;Hydrocraft.HCWoodgluejar],
             item 6 [Base.WoodenStick2],
             item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
             item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
@@ -2900,7 +2879,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTroughvegoil,
         }
     }
-    craftRecipe Fill Trough with Vegetable Oil
+    craftRecipe Fill Trough with Vegetable Oil (Wooden Bucket with Vegetable Oil)
     {
         time = 250,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -3064,7 +3043,7 @@ module Hydrocraft
             item 8 Hydrocraft.HCChopsticks,
         }
     }
-    craftRecipe Make Chopsticks
+    craftRecipe Make Chopsticks (Chopsticks)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -3082,7 +3061,7 @@ module Hydrocraft
             item 3 Hydrocraft.HCChopsticks,
         }
     }
-    craftRecipe Make Chopsticks
+    craftRecipe Make Chopsticks (Chopsticks 2)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -3108,19 +3087,7 @@ module Hydrocraft
         OnCreate = HCR42.HCRemoveLogFromInfiniteLogpile,
         inputs
         {
-            item 1 [Hydrocraft.HCInfiniteLogpile] mode:keep,
-        }
-    }
-    craftRecipe Remove Log
-    {
-        time = 1,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Carpentry,
-        timedAction = Making,
-        OnCreate = HCR42.HCRemoveLogFromInfiniteLogpileOak,
-        inputs
-        {
-            item 1 [Hydrocraft.HCInfiniteLogpileOak] mode:keep,
+            item 1 [Hydrocraft.HCInfiniteLogpile;Hydrocraft.HCInfiniteLogpileOak] mode:keep,
         }
     }
 }

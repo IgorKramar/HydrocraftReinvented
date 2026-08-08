@@ -535,7 +535,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedfishfillet,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Ham)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -559,7 +559,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedham,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Mutton)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -583,7 +583,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedmutton,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Pork)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -607,7 +607,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedpork,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Beef)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -631,7 +631,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedbeef,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Cheval)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -655,7 +655,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedcheval,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Rabbit)
     {
         time = 3000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -679,7 +679,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedrabbit,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Salmon)
     {
         time = 3000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -703,7 +703,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedsalmon,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Frog Meat)
     {
         time = 3000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -727,7 +727,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedfrogmeat,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Small Animal Meat)
     {
         time = 3000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -751,7 +751,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedsmallanimalmeat,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Small Bird Meat)
     {
         time = 3000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -775,7 +775,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedsmallbirdmeat,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Chicken)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -799,7 +799,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedchicken,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Duck)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -823,7 +823,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedduck,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Goose)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -847,7 +847,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedgoose,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Turkey)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -871,7 +871,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedturkey,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Venison)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -895,7 +895,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedvenison,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Bear)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -919,7 +919,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedbear,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Cougar)
     {
         time = 4000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -943,7 +943,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedcougar,
         }
     }
-    craftRecipe Smoke Meat
+    craftRecipe Smoke Meat (Smoked Small Game)
     {
         time = 3000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1015,7 +1015,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmokedcheesewheel,
         }
     }
-    craftRecipe Cut Cheese Wheel
+    craftRecipe Cut Cheese Wheel (Smoked Cheese)
     {
         time = 50,
         Tags = AnySurfaceCraft,

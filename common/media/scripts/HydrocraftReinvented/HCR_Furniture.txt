@@ -320,7 +320,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCStatuemarble1,
         }
     }
-    craftRecipe Make Marble Statue
+    craftRecipe Make Marble Statue (Marble Statue)
     {
         time = 1000,
         Tags = AnySurfaceCraft,
@@ -337,7 +337,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCStatuemarble2,
         }
     }
-    craftRecipe Make Marble Statue
+    craftRecipe Make Marble Statue (Marble Statue 2)
     {
         time = 1000,
         Tags = AnySurfaceCraft,
@@ -354,7 +354,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCStatuemarble3,
         }
     }
-    craftRecipe Make Marble Statue
+    craftRecipe Make Marble Statue (Marble Statue 3)
     {
         time = 1000,
         Tags = AnySurfaceCraft,
@@ -371,7 +371,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCStatuemarble4,
         }
     }
-    craftRecipe Make Marble Statue
+    craftRecipe Make Marble Statue (Marble Statue 4)
     {
         time = 1000,
         Tags = AnySurfaceCraft,
@@ -388,7 +388,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCStatuemarble5,
         }
     }
-    craftRecipe Make Marble Statue
+    craftRecipe Make Marble Statue (Marble Statue 5)
     {
         time = 1000,
         Tags = AnySurfaceCraft,

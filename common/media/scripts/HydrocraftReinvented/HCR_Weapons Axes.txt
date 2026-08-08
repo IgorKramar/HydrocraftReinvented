@@ -472,7 +472,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMakeshiftaxe,
         }
     }
-    craftRecipe Remove Axe Head
+    craftRecipe Remove Axe Head (Worn Axe Head)
     {
         time = 150,
         Tags = AnySurfaceCraft,
@@ -489,7 +489,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCAxeheadworn,
         }
     }
-    craftRecipe Craft Makeshift Axe
+    craftRecipe Craft Makeshift Axe (Variant)
     {
         time = 150,
         Tags = AnySurfaceCraft,
@@ -508,7 +508,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMakeshiftaxeworn,
         }
     }
-    craftRecipe Remove Axe Head
+    craftRecipe Remove Axe Head (Blunt Axe Head)
     {
         time = 150,
         Tags = AnySurfaceCraft,
@@ -525,7 +525,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCAxeheadblunt,
         }
     }
-    craftRecipe Craft Makeshift Axe
+    craftRecipe Craft Makeshift Axe (Variant 2)
     {
         time = 150,
         Tags = AnySurfaceCraft,

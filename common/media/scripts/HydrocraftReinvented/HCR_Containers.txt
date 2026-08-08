@@ -836,7 +836,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWorkgloves,
         }
     }
-    craftRecipe Bury Trash
+    craftRecipe Bury Trash (Variant)
     {
         time = 1000,
         Tags = AnySurfaceCraft,
@@ -853,7 +853,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWorkgloves,
         }
     }
-    craftRecipe Bury Trash
+    craftRecipe Bury Trash (Variant 2)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -870,7 +870,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWorkgloves,
         }
     }
-    craftRecipe Bury Trash
+    craftRecipe Bury Trash (Mining Drill with Power)
     {
         time = 250,
         Tags = AnySurfaceCraft,

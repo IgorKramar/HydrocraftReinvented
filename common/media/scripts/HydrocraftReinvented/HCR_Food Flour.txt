@@ -941,7 +941,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWholemealflour,
         }
     }
-    craftRecipe Grind Rice Flour
+    craftRecipe Grind Rice Flour (Rice Flour)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -959,7 +959,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRiceflour,
         }
     }
-    craftRecipe Grind Acorn Flour
+    craftRecipe Grind Acorn Flour (Variant)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -977,7 +977,7 @@ module Hydrocraft
             item 1 Base.Flour2,
         }
     }
-    craftRecipe Grind Corn Flour
+    craftRecipe Grind Corn Flour (Variant)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -994,7 +994,7 @@ module Hydrocraft
             item 1 Base.Cornflour2,
         }
     }
-    craftRecipe Grind Rice Flour
+    craftRecipe Grind Rice Flour (Rice Flour 2)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1012,7 +1012,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRiceflour,
         }
     }
-    craftRecipe Grind Acorn Flour
+    craftRecipe Grind Acorn Flour (Variant 2)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1032,7 +1032,7 @@ module Hydrocraft
             item 2 Base.Flour2,
         }
     }
-    craftRecipe Grind Corn Flour
+    craftRecipe Grind Corn Flour (Variant 2)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1051,7 +1051,7 @@ module Hydrocraft
             item 2 Base.Cornflour2,
         }
     }
-    craftRecipe Grind Rice Flour
+    craftRecipe Grind Rice Flour (Rice Flour 3)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1090,7 +1090,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRicebrown,
         }
     }
-    craftRecipe Grind Rice with Chaff
+    craftRecipe Grind Rice with Chaff (Brown Rice)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1111,7 +1111,7 @@ module Hydrocraft
             item 2 Hydrocraft.HCRicebrown,
         }
     }
-    craftRecipe Grind Rice with Chaff
+    craftRecipe Grind Rice with Chaff (Variant)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1172,7 +1172,7 @@ module Hydrocraft
             item 5 Hydrocraft.HCWheat,
         }
     }
-    craftRecipe Thresh Wheat Bundle
+    craftRecipe Thresh Wheat Bundle (Wheat)
     {
         time = 250,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1190,7 +1190,7 @@ module Hydrocraft
             item 10 Hydrocraft.HCWheat,
         }
     }
-    craftRecipe Thresh Wheat Bundle
+    craftRecipe Thresh Wheat Bundle (Wheat 2)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

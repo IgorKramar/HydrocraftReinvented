@@ -149,7 +149,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCFloppyevosim,
         }
     }
-    craftRecipe Write Computer Program
+    craftRecipe Write Computer Program (Floppy Disk with Gesture Recognition Software)
     {
         time = 2000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -175,7 +175,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCFloppygesture,
         }
     }
-    craftRecipe Write Computer Program
+    craftRecipe Write Computer Program (Floppy Disk with Voice Recognition Software)
     {
         time = 2000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -219,7 +219,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPCgame1,
         }
     }
-    craftRecipe Play Computer Game
+    craftRecipe Play Computer Game (Computer Game)
     {
         time = 2000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -237,7 +237,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPCgame2,
         }
     }
-    craftRecipe Play Computer Game
+    craftRecipe Play Computer Game (Computer Game 2)
     {
         time = 2000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -255,7 +255,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPCgame3,
         }
     }
-    craftRecipe Play Computer Game
+    craftRecipe Play Computer Game (Computer Game 3)
     {
         time = 2000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -273,7 +273,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPCgame4,
         }
     }
-    craftRecipe Play Computer Game
+    craftRecipe Play Computer Game (Computer Game 4)
     {
         time = 2000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -291,7 +291,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPCgame5,
         }
     }
-    craftRecipe Play Computer Game
+    craftRecipe Play Computer Game (Computer Game 5)
     {
         time = 2000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

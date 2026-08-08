@@ -39,7 +39,7 @@ module Hydrocraft
         icon 			= HCElectrolyzer,
 		DisplayCategory          =   CraftChem,
     }
-    craftRecipe Insert Battery
+    craftRecipe Insert Battery (Centifuge with Power)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -55,7 +55,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCentifugepowered,
         }
     }
-    craftRecipe Remove Battery
+    craftRecipe Remove Battery (Centrifiuge)
     {
         time = 15,
         Tags = AnySurfaceCraft,

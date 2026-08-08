@@ -670,7 +670,7 @@ module Hydrocraft
             item 1 Base.Smallanimalmeat,
         }
     }
-    craftRecipe Butcher Turtle
+    craftRecipe Butcher Turtle (Variant)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -727,7 +727,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCZedmeatheadless,
         }
     }
-    craftRecipe Butcher Carcass
+    craftRecipe Butcher Carcass (Headless Skeleton)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

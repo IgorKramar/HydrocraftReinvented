@@ -291,7 +291,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPetripenecilinumzoom,
         }
     }
-    craftRecipe Look Through Microscope
+    craftRecipe Look Through Microscope (Aspergillus Niger)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -309,7 +309,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPetriaspergilluszoom,
         }
     }
-    craftRecipe Look Through Microscope
+    craftRecipe Look Through Microscope (Live Yeast)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -327,7 +327,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPetriyeastzoom,
         }
     }
-    craftRecipe Look Through Microscope
+    craftRecipe Look Through Microscope (Slime Mold)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -345,7 +345,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPetrididymiumzoom,
         }
     }
-    craftRecipe Look Through Microscope
+    craftRecipe Look Through Microscope (Nothing)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -384,7 +384,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPetripenicillium,
         }
     }
-    craftRecipe Cultivate Penicillium
+    craftRecipe Cultivate Penicillium (Petri Dish with Penicilinum)
     {
         time = 600,
         Tags = AnySurfaceCraft,

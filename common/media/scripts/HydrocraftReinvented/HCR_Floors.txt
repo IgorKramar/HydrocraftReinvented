@@ -160,7 +160,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCarpetpurple,
         }
     }
-    craftRecipe Make Carpet
+    craftRecipe Make Carpet (Blue Carpet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -180,7 +180,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCarpetblue,
         }
     }
-    craftRecipe Make Carpet
+    craftRecipe Make Carpet (Green Carpet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -200,7 +200,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCarpetgreen,
         }
     }
-    craftRecipe Make Carpet
+    craftRecipe Make Carpet (Yellow Carpet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -220,7 +220,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCarpetyellow,
         }
     }
-    craftRecipe Make Carpet
+    craftRecipe Make Carpet (Orange Carpet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -240,7 +240,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCarpetorange,
         }
     }
-    craftRecipe Make Carpet
+    craftRecipe Make Carpet (Red Carpet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -260,7 +260,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCarpetred,
         }
     }
-    craftRecipe Make Carpet
+    craftRecipe Make Carpet (White Carpet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -280,7 +280,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCarpetwhite,
         }
     }
-    craftRecipe Make Carpet
+    craftRecipe Make Carpet (Black Carpet)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

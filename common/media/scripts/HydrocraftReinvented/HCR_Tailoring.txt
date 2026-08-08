@@ -873,23 +873,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 3 [Hydrocraft.HCGrass],
-        }
-        outputs
-        {
-            item 1 Base.Twine,
-        }
-    }
-    craftRecipe Make Twine
-    {
-        time = 15,
-        Tags = AnySurfaceCraft,
-        category = Tailoring,
-        timedAction = Making,
-        xpAward = Tailoring:4,
-        inputs
-        {
-            item 3 [Hydrocraft.HCStraw],
+            item 3 [Hydrocraft.HCGrass;Hydrocraft.HCStraw],
         }
         outputs
         {
@@ -911,7 +895,7 @@ module Hydrocraft
             item 1 Base.Rope,
         }
     }
-    craftRecipe Make Rope
+    craftRecipe Make Rope (Variant)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1009,24 +993,7 @@ module Hydrocraft
         inputs
         {
             item 3 [Hydrocraft.HCCottonthread],
-            item 1 [Hydrocraft.HCLoom] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCCottoncloth,
-        }
-    }
-    craftRecipe Make Cotton Cloth
-    {
-        time = 500,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Tailoring,
-        timedAction = Making,
-        OnCreate = HCR42.recipe_hcspindle3,
-        inputs
-        {
-            item 3 [Hydrocraft.HCCottonthread],
-            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+            item 1 [Hydrocraft.HCLoom;Hydrocraft.HCLoomfloor] mode:keep,
         }
         outputs
         {
@@ -1044,25 +1011,7 @@ module Hydrocraft
         inputs
         {
             item 6 [Hydrocraft.HCCottonthread],
-            item 1 [Hydrocraft.HCLoom] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCGymtowel,
-        }
-    }
-    craftRecipe Make Gym Towel
-    {
-        time = 500,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Tailoring,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        OnCreate = HCR42.recipe_hcspindle6,
-        inputs
-        {
-            item 6 [Hydrocraft.HCCottonthread],
-            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+            item 1 [Hydrocraft.HCLoom;Hydrocraft.HCLoomfloor] mode:keep,
         }
         outputs
         {
@@ -1078,25 +1027,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 3 [Hydrocraft.HCPlantfibers],
-            item 1 [Hydrocraft.HCSpindle],
-            item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCLinenthread,
-        }
-    }
-    craftRecipe Make Linen Thread
-    {
-        time = 15,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Tailoring,
-        timedAction = Making,
-        xpAward = Tailoring:4,
-        inputs
-        {
-            item 3 [Hydrocraft.HCFlax],
+            item 3 [Hydrocraft.HCFlax;Hydrocraft.HCPlantfibers],
             item 1 [Hydrocraft.HCSpindle],
             item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
         }
@@ -1116,25 +1047,7 @@ module Hydrocraft
         inputs
         {
             item 3 [Hydrocraft.HCLinenthread],
-            item 1 [Hydrocraft.HCLoom] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCLinencloth,
-        }
-    }
-    craftRecipe Make Linen Cloth
-    {
-        time = 500,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Tailoring,
-        timedAction = Making,
-        xpAward = Tailoring:18,
-        OnCreate = HCR42.recipe_hcspindle3,
-        inputs
-        {
-            item 3 [Hydrocraft.HCLinenthread],
-            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+            item 1 [Hydrocraft.HCLoom;Hydrocraft.HCLoomfloor] mode:keep,
         }
         outputs
         {
@@ -1152,25 +1065,7 @@ module Hydrocraft
         inputs
         {
             item 3 [Hydrocraft.HCLinenthread],
-            item 1 [Hydrocraft.HCLoom] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCCheesecloth,
-        }
-    }
-    craftRecipe Make Cheese Cloth
-    {
-        time = 500,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Tailoring,
-        timedAction = Making,
-        xpAward = Tailoring:18,
-        OnCreate = HCR42.recipe_hcspindle3,
-        inputs
-        {
-            item 3 [Hydrocraft.HCLinenthread],
-            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+            item 1 [Hydrocraft.HCLoom;Hydrocraft.HCLoomfloor] mode:keep,
         }
         outputs
         {
@@ -1217,7 +1112,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCYarnblack,
         }
     }
-    craftRecipe Dye Yarn
+    craftRecipe Dye Yarn (Purple Yarn)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1240,7 +1135,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCYarnpurple,
         }
     }
-    craftRecipe Dye Yarn
+    craftRecipe Dye Yarn (Blue Yarn)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1262,7 +1157,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCYarnblue,
         }
     }
-    craftRecipe Dye Yarn
+    craftRecipe Dye Yarn (Green Yarn)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1284,7 +1179,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCYarngreen,
         }
     }
-    craftRecipe Dye Yarn
+    craftRecipe Dye Yarn (Yellow Yarn)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1306,7 +1201,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCYarnyellow,
         }
     }
-    craftRecipe Dye Yarn
+    craftRecipe Dye Yarn (Orange Yarn)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1329,7 +1224,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCYarnorange,
         }
     }
-    craftRecipe Dye Yarn
+    craftRecipe Dye Yarn (Red Yarn)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1361,24 +1256,7 @@ module Hydrocraft
         inputs
         {
             item 3 [Hydrocraft.HCYarn],
-            item 1 [Hydrocraft.HCLoom] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCWoolcloth,
-        }
-    }
-    craftRecipe Make Wool Cloth
-    {
-        time = 500,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Tailoring,
-        timedAction = Making,
-        xpAward = Tailoring:18,
-        inputs
-        {
-            item 3 [Hydrocraft.HCYarn],
-            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+            item 1 [Hydrocraft.HCLoom;Hydrocraft.HCLoomfloor] mode:keep,
         }
         outputs
         {
@@ -1414,25 +1292,7 @@ module Hydrocraft
         inputs
         {
             item 3 [Hydrocraft.HCSilkthread],
-            item 1 [Hydrocraft.HCLoom] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCSilkcloth,
-        }
-    }
-    craftRecipe Make Silk Cloth
-    {
-        time = 500,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Tailoring,
-        timedAction = Making,
-        xpAward = Tailoring:18,
-        OnCreate = HCR42.recipe_hcspindle3,
-        inputs
-        {
-            item 3 [Hydrocraft.HCSilkthread],
-            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+            item 1 [Hydrocraft.HCLoom;Hydrocraft.HCLoomfloor] mode:keep,
         }
         outputs
         {
@@ -1505,7 +1365,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRopethin,
         }
     }
-    craftRecipe Make Thin Rope
+    craftRecipe Make Thin Rope (Thin Rope)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1521,7 +1381,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRopethin,
         }
     }
-    craftRecipe Make Thin Rope
+    craftRecipe Make Thin Rope (Thin Rope 2)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1537,7 +1397,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRopethin,
         }
     }
-    craftRecipe Make Thin Rope
+    craftRecipe Make Thin Rope (Thin Rope 3)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1553,7 +1413,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRopethin,
         }
     }
-    craftRecipe Make Thin Rope
+    craftRecipe Make Thin Rope (Thin Rope 4)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1569,7 +1429,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRopethin,
         }
     }
-    craftRecipe Make Thin Rope
+    craftRecipe Make Thin Rope (Thin Rope 5)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1584,7 +1444,7 @@ module Hydrocraft
             item 3 Hydrocraft.HCRopethin,
         }
     }
-    craftRecipe Make Rope
+    craftRecipe Make Rope (Variant 2)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1615,7 +1475,7 @@ module Hydrocraft
             item 3 Hydrocraft.HCBarkstrip,
         }
     }
-    craftRecipe Make Thin Rope
+    craftRecipe Make Thin Rope (Thin Rope 6)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1630,7 +1490,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRopethin,
         }
     }
-    craftRecipe Make Thin Rope
+    craftRecipe Make Thin Rope (Thin Rope 7)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1645,7 +1505,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRopethin,
         }
     }
-    craftRecipe Make Thin Rope
+    craftRecipe Make Thin Rope (Thin Rope 8)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1660,7 +1520,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRopethin,
         }
     }
-    craftRecipe Make Thin Rope
+    craftRecipe Make Thin Rope (Thin Rope 9)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -1702,24 +1562,7 @@ module Hydrocraft
         inputs
         {
             item 3 [Hydrocraft.HCJutefibers],
-            item 1 [Hydrocraft.HCLoom] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCBurlapcloth,
-        }
-    }
-    craftRecipe Make Burlap Cloth
-    {
-        time = 500,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Tailoring,
-        timedAction = Making,
-        xpAward = Tailoring:18,
-        inputs
-        {
-            item 3 [Hydrocraft.HCJutefibers],
-            item 1 [Hydrocraft.HCLoomfloor] mode:keep,
+            item 1 [Hydrocraft.HCLoom;Hydrocraft.HCLoomfloor] mode:keep,
         }
         outputs
         {
@@ -1761,7 +1604,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCReedmatdry,
         }
     }
-    craftRecipe Make Thread
+    craftRecipe Make Thread (Silk Filament)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1778,7 +1621,7 @@ module Hydrocraft
             item 1 Base.Thread,
         }
     }
-    craftRecipe Make Thread
+    craftRecipe Make Thread (Cotton)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1795,7 +1638,7 @@ module Hydrocraft
             item 1 Base.Thread,
         }
     }
-    craftRecipe Make Thread
+    craftRecipe Make Thread (Plant Fibers)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1812,7 +1655,7 @@ module Hydrocraft
             item 1 Base.Thread,
         }
     }
-    craftRecipe Make Thread
+    craftRecipe Make Thread (Flax)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1829,7 +1672,7 @@ module Hydrocraft
             item 1 Base.Thread,
         }
     }
-    craftRecipe Make Thread
+    craftRecipe Make Thread (Wool)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1927,7 +1770,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSewingpinbox,
         }
     }
-    craftRecipe Unbox Clothespins
+    craftRecipe Unbox Clothespins (Sewing Pin)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -2037,61 +1880,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 2 [Base.Sheet],
-            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
-            item 4 [Base.Thread],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCPillowcase,
-        }
-    }
-    craftRecipe Make Pillow Case
-    {
-        time = 100,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Weaving,
-        timedAction = Making,
-        xpAward = Tailoring:4,
-        inputs
-        {
-            item 2 [Hydrocraft.HCLinencloth],
-            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
-            item 4 [Base.Thread],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCPillowcase,
-        }
-    }
-    craftRecipe Make Pillow Case
-    {
-        time = 100,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Weaving,
-        timedAction = Making,
-        xpAward = Tailoring:4,
-        inputs
-        {
-            item 2 [Hydrocraft.HCWoolcloth],
-            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
-            item 4 [Base.Thread],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCPillowcase,
-        }
-    }
-    craftRecipe Make Pillow Case
-    {
-        time = 100,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Weaving,
-        timedAction = Making,
-        xpAward = Tailoring:4,
-        inputs
-        {
-            item 2 [Hydrocraft.HCSilkcloth],
+            item 2 [Base.Sheet;Hydrocraft.HCLinencloth;Hydrocraft.HCSilkcloth;Hydrocraft.HCWoolcloth],
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
             item 4 [Base.Thread],
         }
@@ -2109,26 +1898,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 10 [Hydrocraft.HCWhitefeathers],
-            item 1 [Hydrocraft.HCPillowcase],
-            item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
-            item 1 [Base.Thread],
-        }
-        outputs
-        {
-            item 1 Base.Pillow,
-        }
-    }
-    craftRecipe Make Pillow
-    {
-        time = 25,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Weaving,
-        timedAction = Making,
-        xpAward = Tailoring:4,
-        inputs
-        {
-            item 10 [Hydrocraft.HCBrownfeathers],
+            item 10 [Hydrocraft.HCBrownfeathers;Hydrocraft.HCWhitefeathers],
             item 1 [Hydrocraft.HCPillowcase],
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
             item 1 [Base.Thread],
@@ -2345,7 +2115,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLinenshirtWired,
         }
     }
-    craftRecipe Reinforce Shirt
+    craftRecipe Reinforce Shirt (Armored Linen Shirt)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -2391,7 +2161,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLinenpantsWired,
         }
     }
-    craftRecipe Reinforce Pants
+    craftRecipe Reinforce Pants (Armored Linen Pants)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

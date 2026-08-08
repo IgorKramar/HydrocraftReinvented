@@ -417,7 +417,7 @@ module Hydrocraft
             item 4 Hydrocraft.HCBoringpizzaslice,
         }
     }
-    craftRecipe Cut Pizza
+    craftRecipe Cut Pizza (Slice of Simple Pizza)
     {
         time = 20,
         Tags = AnySurfaceCraft,
@@ -435,7 +435,7 @@ module Hydrocraft
             item 4 Hydrocraft.HCSimplepizzaslice,
         }
     }
-    craftRecipe Cut Pizza
+    craftRecipe Cut Pizza (Slice of Tasty Pizza)
     {
         time = 20,
         Tags = AnySurfaceCraft,

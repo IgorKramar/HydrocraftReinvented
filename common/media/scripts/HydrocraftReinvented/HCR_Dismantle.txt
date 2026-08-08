@@ -17,7 +17,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -34,7 +34,7 @@ module Hydrocraft
             item 1 Base.Amplifier,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 2)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -51,7 +51,7 @@ module Hydrocraft
             item 2 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Plastic)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -68,7 +68,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlastic,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Solar Cell)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -85,7 +85,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSolarcell,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 3)
     {
         time = 2000,
         Tags = AnySurfaceCraft,
@@ -105,7 +105,7 @@ module Hydrocraft
             item 20 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 4)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -122,7 +122,7 @@ module Hydrocraft
             item 3 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 5)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -139,7 +139,7 @@ module Hydrocraft
             item 3 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Plastic 2)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -156,7 +156,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlastic,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Plastic 3)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -173,7 +173,7 @@ module Hydrocraft
             item 2 Hydrocraft.HCPlastic,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 6)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -190,7 +190,7 @@ module Hydrocraft
             item 3 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Plastic 4)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -207,7 +207,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlastic,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 7)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -223,7 +223,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 8)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -240,7 +240,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 9)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -257,7 +257,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 10)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -274,7 +274,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 11)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -291,7 +291,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Plastic 5)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -308,7 +308,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlastic,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 12)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -325,7 +325,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 13)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -341,7 +341,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 14)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -358,7 +358,7 @@ module Hydrocraft
             item 2 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Plastic 6)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -375,7 +375,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlastic,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Plastic 7)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -392,7 +392,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlastic,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Plastic 8)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -409,7 +409,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlastic,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Plastic 9)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -426,7 +426,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlastic,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 15)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -443,7 +443,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Large Electromotor)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -460,7 +460,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCElectromotor,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Switch)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -477,7 +477,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSwitch,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 16)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -493,7 +493,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 17)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -510,7 +510,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 18)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -526,7 +526,7 @@ module Hydrocraft
             item 1 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Steel Wheel)
     {
         time = 200,
         Tags = AnySurfaceCraft,
@@ -544,7 +544,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMetalwheel,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Steel Wheel 2)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -562,7 +562,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMetalwheel,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Iron Wheel)
     {
         time = 200,
         Tags = AnySurfaceCraft,
@@ -580,7 +580,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMetalwheeliron,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Iron Wheel 2)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -598,7 +598,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMetalwheeliron,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 19)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -617,7 +617,7 @@ module Hydrocraft
             item 40 Base.MetalBar,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 20)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -636,7 +636,7 @@ module Hydrocraft
             item 40 Base.MetalBar,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 21)
     {
         time = 6000,
         Tags = AnySurfaceCraft,
@@ -659,7 +659,7 @@ module Hydrocraft
             item 4 Base.NormalTire1,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 22)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -682,7 +682,7 @@ module Hydrocraft
             item 4 Base.NormalTire1,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 23)
     {
         time = 6000,
         Tags = AnySurfaceCraft,
@@ -705,7 +705,7 @@ module Hydrocraft
             item 4 Base.NormalTire1,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 24)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -728,7 +728,7 @@ module Hydrocraft
             item 4 Base.NormalTire1,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 25)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -748,7 +748,7 @@ module Hydrocraft
             item 150 Base.ElectronicsScrap,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Large Steel Sheet)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -767,7 +767,7 @@ module Hydrocraft
             item 2 Hydrocraft.HCSteelsheetlarge,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Large Steel Sheet 2)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -786,7 +786,7 @@ module Hydrocraft
             item 2 Hydrocraft.HCSteelsheetlarge,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Large Steel Sheet 3)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -805,7 +805,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSteelsheetlarge,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Large Steel Sheet 4)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -824,7 +824,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSteelsheetlarge,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 26)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -843,7 +843,7 @@ module Hydrocraft
             item 1 Base.SheetMetal,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 27)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -862,7 +862,7 @@ module Hydrocraft
             item 1 Base.SheetMetal,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 28)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -881,7 +881,7 @@ module Hydrocraft
             item 1 Base.SheetMetal,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 29)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -900,7 +900,7 @@ module Hydrocraft
             item 1 Base.SheetMetal,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Large Steel Sheet 5)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -919,7 +919,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSteelsheetlarge,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Large Steel Sheet 6)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -938,7 +938,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSteelsheetlarge,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Steel Spring)
     {
         time = 2000,
         Tags = AnySurfaceCraft,
@@ -957,7 +957,7 @@ module Hydrocraft
             item 24 Hydrocraft.HCSteelspring,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Steel Spring 2)
     {
         time = 1000,
         Tags = AnySurfaceCraft,
@@ -976,7 +976,7 @@ module Hydrocraft
             item 24 Hydrocraft.HCSteelspring,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 30)
     {
         time = 5000,
         Tags = AnySurfaceCraft,
@@ -996,7 +996,7 @@ module Hydrocraft
             item 4 Base.MetalBar,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Variant 31)
     {
         time = 2500,
         Tags = AnySurfaceCraft,
@@ -1016,7 +1016,7 @@ module Hydrocraft
             item 4 Base.MetalBar,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Brass Sheet)
     {
         time = 1000,
         Tags = AnySurfaceCraft,
@@ -1036,7 +1036,7 @@ module Hydrocraft
             item 10 Hydrocraft.HCBrasssheet,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Brass Sheet 2)
     {
         time = 1000,
         Tags = AnySurfaceCraft,
@@ -1056,7 +1056,7 @@ module Hydrocraft
             item 10 Hydrocraft.HCBrasssheet,
         }
     }
-    craftRecipe Dismantle
+    craftRecipe Dismantle (Steel Wheel 3)
     {
         time = 2000,
         Tags = AnySurfaceCraft,
@@ -1200,27 +1200,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbike1,
         inputs
         {
-            item 1 [Hydrocraft.HCJunkbicycle],
-            item 1 [Base.Screwdriver] mode:keep,
-            item 1 [Hydrocraft.HCPliers] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDynamo,
-        }
-    }
-    craftRecipe Dismantle Bicycle
-    {
-        time = 500,
-        Tags = AnySurfaceCraft,
-        category = Engineer,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Mechanics:16,
-        OnCreate = HCR42.recipe_hcbike2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCBicycle],
+            item 1 [Hydrocraft.HCBicycle;Hydrocraft.HCJunkbicycle],
             item 1 [Base.Screwdriver] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
         }
@@ -1250,7 +1230,7 @@ module Hydrocraft
             item 1 Base.ScrapMetal,
         }
     }
-    craftRecipe Dismantle Auto Parts
+    craftRecipe Dismantle Auto Parts (Drum Brake)
     {
         time = 500,
         Tags = AnySurfaceCraft,

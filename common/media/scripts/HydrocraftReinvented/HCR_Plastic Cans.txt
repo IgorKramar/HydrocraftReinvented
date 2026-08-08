@@ -433,7 +433,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hclabelh2o2,
         inputs
         {
-            item 1 [Hydrocraft.HCh2o2canempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCh2o2canempty;Hydrocraft.HCSulfuricacidcanempty],
             item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
@@ -461,26 +461,6 @@ module Hydrocraft
             item 5 Hydrocraft.HCPlastic,
         }
     }
-    craftRecipe Clean Empty Liquid Soap Can
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Chemistry,
-        timedAction = Making,
-        OnCreate = HCR42.recipe_hclabelsulfuricacid,
-        inputs
-        {
-            item 1 [Hydrocraft.HCSulfuricacidcanempty],
-            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
-            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.1 [Water],
-            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCPlasticcanempty,
-        }
-    }
     craftRecipe Fill Empty Plastic Can With Grape Juice
     {
         time = 50,
@@ -499,7 +479,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlasticcangrape,
         }
     }
-    craftRecipe Fill Empty Plastic Can With Grape Juice
+    craftRecipe Fill Empty Plastic Can With Grape Juice (Liquid Soap Can With Grape Juice)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -536,7 +516,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlasticcanh2o2,
         }
     }
-    craftRecipe Fill Empty Plastic Can With Hydrogen Peroxide
+    craftRecipe Fill Empty Plastic Can With Hydrogen Peroxide (Liquid Soap Can With Hydrogen Peroxide)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -575,7 +555,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCh2o2can,
         }
     }
-    craftRecipe Fill Empty Labeled Can With Hydrogen Peroxide
+    craftRecipe Fill Empty Labeled Can With Hydrogen Peroxide (Liquid Soap Can With Hydrogen Peroxide)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -594,7 +574,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCh2o2can,
         }
     }
-    craftRecipe Fill Empty Labeled Can With Hydrogen Peroxide
+    craftRecipe Fill Empty Labeled Can With Hydrogen Peroxide (Hydrogen Peroxide)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -633,7 +613,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlasticcanmuriaticacid,
         }
     }
-    craftRecipe Fill Empty Plastic Can With Muriatic Acid
+    craftRecipe Fill Empty Plastic Can With Muriatic Acid (Liquid Soap Can With Muriatic Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -711,7 +691,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlasticcannitricacid,
         }
     }
-    craftRecipe Fill Empty Plastic Can With Nitric Acid
+    craftRecipe Fill Empty Plastic Can With Nitric Acid (Liquid Soap Can With Nitric Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -768,7 +748,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlasticcanvegoil,
         }
     }
-    craftRecipe Fill Empty Plastic Can With Vegetable Oil
+    craftRecipe Fill Empty Plastic Can With Vegetable Oil (Liquid Soap Can With Vegetable Oil)
     {
         time = 50,
         Tags = AnySurfaceCraft,

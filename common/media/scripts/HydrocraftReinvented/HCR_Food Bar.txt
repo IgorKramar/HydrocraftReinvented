@@ -2126,7 +2126,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCoffeeirish,
         }
     }
-    craftRecipe Brew Irish Coffee
+    craftRecipe Brew Irish Coffee (Cup of Irish Coffee)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -2146,7 +2146,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCoffeeirish2,
         }
     }
-    craftRecipe Brew Irish Coffee
+    craftRecipe Brew Irish Coffee (Cup of Irish Coffee 2)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -2166,7 +2166,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCoffeeirish,
         }
     }
-    craftRecipe Brew Irish Coffee
+    craftRecipe Brew Irish Coffee (Cup of Irish Coffee 3)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -2444,24 +2444,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCDrinkglasstallwhiskey],
-            item 1 [Base.Pop;Base.Pop2],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkwhiskeyandcoke,
-        }
-    }
-    craftRecipe Whiskey and Coke
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCDrinkglasstallwhiskey],
-            item 1 [Hydrocraft.HCSodacola],
+            item 1 [Base.Pop;Base.Pop2;Hydrocraft.HCSodacola],
         }
         outputs
         {
@@ -2620,7 +2603,7 @@ module Hydrocraft
             item 6 Hydrocraft.HCBeercan1,
         }
     }
-    craftRecipe Open Pack of Beer
+    craftRecipe Open Pack of Beer (Can of Beer)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2635,7 +2618,7 @@ module Hydrocraft
             item 6 Hydrocraft.HCBeercan2,
         }
     }
-    craftRecipe Open Pack of Beer
+    craftRecipe Open Pack of Beer (Can of Beer 2)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2650,7 +2633,7 @@ module Hydrocraft
             item 6 Hydrocraft.HCBeercan3,
         }
     }
-    craftRecipe Open Pack of Beer
+    craftRecipe Open Pack of Beer (Can of Beer 3)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2665,7 +2648,7 @@ module Hydrocraft
             item 6 Hydrocraft.HCBeercan4,
         }
     }
-    craftRecipe Open Pack of Beer
+    craftRecipe Open Pack of Beer (Can of Beer 4)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2680,7 +2663,7 @@ module Hydrocraft
             item 6 Hydrocraft.HCBeercan5,
         }
     }
-    craftRecipe Open Pack of Beer
+    craftRecipe Open Pack of Beer (Can of Beer 5)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2695,7 +2678,7 @@ module Hydrocraft
             item 6 Hydrocraft.HCBeercan6,
         }
     }
-    craftRecipe Open Pack of Beer
+    craftRecipe Open Pack of Beer (Can of Beer 6)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2710,7 +2693,7 @@ module Hydrocraft
             item 6 Hydrocraft.HCBeercan7,
         }
     }
-    craftRecipe Open Pack of Beer
+    craftRecipe Open Pack of Beer (Can of Beer 7)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2725,7 +2708,7 @@ module Hydrocraft
             item 6 Hydrocraft.HCBeercan8,
         }
     }
-    craftRecipe Open Pack of Beer
+    craftRecipe Open Pack of Beer (Can of Beer 8)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2740,7 +2723,7 @@ module Hydrocraft
             item 6 Hydrocraft.HCBeercan9,
         }
     }
-    craftRecipe Open Pack of Beer
+    craftRecipe Open Pack of Beer (Can of Beer 9)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2770,7 +2753,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeercan1pack,
         }
     }
-    craftRecipe Pack Beer
+    craftRecipe Pack Beer (Pack of Beer)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2785,7 +2768,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeercan2pack,
         }
     }
-    craftRecipe Pack Beer
+    craftRecipe Pack Beer (Pack of Beer 2)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2800,7 +2783,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeercan3pack,
         }
     }
-    craftRecipe Pack Beer
+    craftRecipe Pack Beer (Pack of Beer 3)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2815,7 +2798,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeercan4pack,
         }
     }
-    craftRecipe Pack Beer
+    craftRecipe Pack Beer (Pack of Beer 4)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2830,7 +2813,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeercan5pack,
         }
     }
-    craftRecipe Pack Beer
+    craftRecipe Pack Beer (Pack of Beer 5)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2845,7 +2828,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeercan6pack,
         }
     }
-    craftRecipe Pack Beer
+    craftRecipe Pack Beer (Pack of Beer 6)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2860,7 +2843,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeercan7pack,
         }
     }
-    craftRecipe Pack Beer
+    craftRecipe Pack Beer (Pack of Beer 7)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2875,7 +2858,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeercan8pack,
         }
     }
-    craftRecipe Pack Beer
+    craftRecipe Pack Beer (Pack of Beer 8)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2890,7 +2873,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeercan9pack,
         }
     }
-    craftRecipe Pack Beer
+    craftRecipe Pack Beer (Pack of Beer 9)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -2966,41 +2949,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCGin1],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkcocktailglassgin,
-        }
-    }
-    craftRecipe Pour Cocktail Glass of Gin
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCGin2],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkcocktailglassgin,
-        }
-    }
-    craftRecipe Pour Cocktail Glass of Gin
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCGin3],
+            item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],
         }
         outputs
         {
@@ -3017,41 +2966,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCGin1],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglassshortgin,
-        }
-    }
-    craftRecipe Pour Short Glass of Gin
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCGin2],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglassshortgin,
-        }
-    }
-    craftRecipe Pour Short Glass of Gin
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCGin3],
+            item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],
         }
         outputs
         {
@@ -3068,41 +2983,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCGin1],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglasstallgin,
-        }
-    }
-    craftRecipe Pour Tall Glass of Gin
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCGin2],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglasstallgin,
-        }
-    }
-    craftRecipe Pour Tall Glass of Gin
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCGin3],
+            item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],
         }
         outputs
         {
@@ -3119,92 +3000,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Base.Whiskey],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglassshortwhiskey,
-        }
-    }
-    craftRecipe Pour Short Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCWhiskey1],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglassshortwhiskey,
-        }
-    }
-    craftRecipe Pour Short Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCWhiskey2],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglassshortwhiskey,
-        }
-    }
-    craftRecipe Pour Short Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCWhiskey3],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglassshortwhiskey,
-        }
-    }
-    craftRecipe Pour Short Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCWhiskey4],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglassshortwhiskey,
-        }
-    }
-    craftRecipe Pour Short Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCWhiskeycorn],
+            item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],
         }
         outputs
         {
@@ -3221,92 +3017,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Base.Whiskey],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglasstallwhiskey,
-        }
-    }
-    craftRecipe Pour Tall Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCWhiskey1],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglasstallwhiskey,
-        }
-    }
-    craftRecipe Pour Tall Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCWhiskey2],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglasstallwhiskey,
-        }
-    }
-    craftRecipe Pour Tall Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCWhiskey3],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglasstallwhiskey,
-        }
-    }
-    craftRecipe Pour Tall Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCWhiskey4],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglasstallwhiskey,
-        }
-    }
-    craftRecipe Pour Tall Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCWhiskeycorn],
+            item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],
         }
         outputs
         {
@@ -3323,92 +3034,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Base.Whiskey],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkcocktailglasswhiskey,
-        }
-    }
-    craftRecipe Pour Cocktail Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCWhiskey1],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkcocktailglasswhiskey,
-        }
-    }
-    craftRecipe Pour Cocktail Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCWhiskey2],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkcocktailglasswhiskey,
-        }
-    }
-    craftRecipe Pour Cocktail Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCWhiskey3],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkcocktailglasswhiskey,
-        }
-    }
-    craftRecipe Pour Cocktail Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCWhiskey4],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkcocktailglasswhiskey,
-        }
-    }
-    craftRecipe Pour Cocktail Glass of Whiskey
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCWhiskeycorn],
+            item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],
         }
         outputs
         {
@@ -3425,41 +3051,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCVodka],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkcocktailglassvodka,
-        }
-    }
-    craftRecipe Pour Cocktail Glass of Vodka
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCVodka1],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkcocktailglassvodka,
-        }
-    }
-    craftRecipe Pour Cocktail Glass of Vodka
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCVodka2],
+            item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],
         }
         outputs
         {
@@ -3476,41 +3068,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCVodka],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglassshortvodka,
-        }
-    }
-    craftRecipe Pour Short Glass of Vodka
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCVodka1],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglassshortvodka,
-        }
-    }
-    craftRecipe Pour Short Glass of Vodka
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCVodka2],
+            item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],
         }
         outputs
         {
@@ -3527,41 +3085,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCVodka],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglasstallvodka,
-        }
-    }
-    craftRecipe Pour Tall Glass of Vodka
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCVodka1],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDrinkglasstallvodka,
-        }
-    }
-    craftRecipe Pour Tall Glass of Vodka
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCVodka2],
+            item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],
         }
         outputs
         {

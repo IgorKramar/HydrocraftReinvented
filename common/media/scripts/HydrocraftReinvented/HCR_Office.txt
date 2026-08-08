@@ -603,7 +603,7 @@ module Hydrocraft
             item 100 Base.SheetPaper2,
         }
     }
-    craftRecipe Pull out Pages
+    craftRecipe Pull out Pages (Variant)
     {
         time = 20,
         Tags = AnySurfaceCraft,
@@ -618,7 +618,7 @@ module Hydrocraft
             item 20 Base.SheetPaper2,
         }
     }
-    craftRecipe Pull out Pages
+    craftRecipe Pull out Pages (Variant 2)
     {
         time = 500,
         Tags = AnySurfaceCraft,

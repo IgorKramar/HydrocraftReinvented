@@ -266,7 +266,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTaxidermyjackalope,
         }
     }
-    craftRecipe Craft Small Animal Armature
+    craftRecipe Craft Small Animal Armature (Clay Small Animal Armature)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -284,7 +284,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCArmaturesmallanimalclay,
         }
     }
-    craftRecipe Craft Small Animal Armature
+    craftRecipe Craft Small Animal Armature (Clay Small Animal Armature 2)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -302,7 +302,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCArmaturesmallanimalclay,
         }
     }
-    craftRecipe Craft Medium Animal Armature
+    craftRecipe Craft Medium Animal Armature (Clay Medium Animal Armature)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -320,7 +320,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCArmaturemediumanimalclay,
         }
     }
-    craftRecipe Craft Medium Animal Armature
+    craftRecipe Craft Medium Animal Armature (Clay Medium Animal Armature 2)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -338,7 +338,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCArmaturemediumanimalclay,
         }
     }
-    craftRecipe Craft Taxidermy Mouse
+    craftRecipe Craft Taxidermy Mouse (Clay Small Animal Armature)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -360,7 +360,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTaxidermymouse,
         }
     }
-    craftRecipe Craft Taxidermy Rabbit
+    craftRecipe Craft Taxidermy Rabbit (Clay Medium Animal Armature)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

@@ -339,7 +339,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCXmastree2,
         }
     }
-    craftRecipe Decorate Christmas Tree
+    craftRecipe Decorate Christmas Tree (Christmas Tree)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -360,7 +360,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCXmastree3,
         }
     }
-    craftRecipe Decorate Christmas Tree
+    craftRecipe Decorate Christmas Tree (Christmas Tree 2)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -377,7 +377,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCXmastree4,
         }
     }
-    craftRecipe Play With
+    craftRecipe Play With (Snow Globe)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -427,7 +427,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCJackolantern,
         }
     }
-    craftRecipe Carve Jack-O-Lantern
+    craftRecipe Carve Jack-O-Lantern (White Jack-O-Lantern)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -445,7 +445,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCJackolanternwhite,
         }
     }
-    craftRecipe Carve Jack-O-Lantern
+    craftRecipe Carve Jack-O-Lantern (Green Jack-O-Lantern)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -481,7 +481,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCJackolanternon,
         }
     }
-    craftRecipe Lite Jack-O-Lantern
+    craftRecipe Lite Jack-O-Lantern (Lit White Jack-O-Lantern)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -499,7 +499,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCJackolanternwhiteon,
         }
     }
-    craftRecipe Lite Jack-O-Lantern
+    craftRecipe Lite Jack-O-Lantern (Lit Green Jack-O-Lantern)
     {
         time = 15,
         Tags = AnySurfaceCraft,

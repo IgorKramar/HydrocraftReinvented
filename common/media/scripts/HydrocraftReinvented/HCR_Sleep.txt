@@ -184,7 +184,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSleepingbag,
         }
     }
-    craftRecipe Unpack Sleeping Bag
+    craftRecipe Unpack Sleeping Bag (Sleeping Bag)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -199,7 +199,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSleepingbag2sleepin,
         }
     }
-    craftRecipe Pack Sleeping Bag
+    craftRecipe Pack Sleeping Bag (Sleeping Bag in Bag)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -214,7 +214,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSleepingbag2,
         }
     }
-    craftRecipe Unpack Sleeping Bag
+    craftRecipe Unpack Sleeping Bag (Sleeping Bag 2)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -229,7 +229,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSleepingbag3sleepin,
         }
     }
-    craftRecipe Pack Sleeping Bag
+    craftRecipe Pack Sleeping Bag (Sleeping Bag in Bag 2)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -260,7 +260,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSleepingbag3,
         }
     }
-    craftRecipe Build Forest Bed
+    craftRecipe Build Forest Bed (Forest Bed)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -310,7 +310,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTentkit,
         }
     }
-    craftRecipe Unpack Dome Tent
+    craftRecipe Unpack Dome Tent (Dome Tent)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -325,7 +325,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTent2sleepin,
         }
     }
-    craftRecipe Pack Dome Tent
+    craftRecipe Pack Dome Tent (Dome Tent Kit)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -340,7 +340,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTentkit2,
         }
     }
-    craftRecipe Unpack Dome Tent
+    craftRecipe Unpack Dome Tent (Dome Tent 2)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -355,7 +355,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTent3sleepin,
         }
     }
-    craftRecipe Pack Dome Tent
+    craftRecipe Pack Dome Tent (Dome Tent Kit 2)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -370,7 +370,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTentkit3,
         }
     }
-    craftRecipe Unpack Dome Tent
+    craftRecipe Unpack Dome Tent (Dome Tent 3)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -385,7 +385,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTent4sleepin,
         }
     }
-    craftRecipe Pack Dome Tent
+    craftRecipe Pack Dome Tent (Dome Tent Kit 3)
     {
         time = 15,
         Tags = AnySurfaceCraft,

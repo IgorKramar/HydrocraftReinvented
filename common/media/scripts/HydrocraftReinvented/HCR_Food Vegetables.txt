@@ -932,7 +932,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCAlgaePowder,
         }
     }
-    craftRecipe Make Algae Powder
+    craftRecipe Make Algae Powder (Duckweed)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

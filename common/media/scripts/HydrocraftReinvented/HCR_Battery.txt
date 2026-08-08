@@ -698,7 +698,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBatteryhuge,
         }
     }
-    craftRecipe Make Small Batterys
+    craftRecipe Make Small Batterys (Zinc Wire)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -722,7 +722,7 @@ module Hydrocraft
             item 4 Hydrocraft.HCBatterysmall,
         }
     }
-    craftRecipe Make Batterys
+    craftRecipe Make Batterys (Zinc Wire)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -746,7 +746,7 @@ module Hydrocraft
             item 2 Base.Battery,
         }
     }
-    craftRecipe Make Medium Battery
+    craftRecipe Make Medium Battery (Zinc Wire)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -770,7 +770,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBatterymedium,
         }
     }
-    craftRecipe Make Large Battery
+    craftRecipe Make Large Battery (Zinc Wire)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -794,7 +794,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBatterylarge,
         }
     }
-    craftRecipe Make Huge Battery
+    craftRecipe Make Huge Battery (Zinc Wire)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -818,7 +818,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBatteryhuge,
         }
     }
-    craftRecipe Make Small Batterys
+    craftRecipe Make Small Batterys (Aluminum Wire)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -842,7 +842,7 @@ module Hydrocraft
             item 4 Hydrocraft.HCBatterysmall,
         }
     }
-    craftRecipe Make Batterys
+    craftRecipe Make Batterys (Aluminum Wire)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -890,7 +890,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBatterymedium,
         }
     }
-    craftRecipe Make Large Battery
+    craftRecipe Make Large Battery (Aluminum Wire)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -914,7 +914,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBatterylarge,
         }
     }
-    craftRecipe Make Huge Battery
+    craftRecipe Make Huge Battery (Aluminum Wire)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

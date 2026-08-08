@@ -789,7 +789,7 @@ module Hydrocraft
             item 1 Base.WildGarlicCataplasm,
         }
     }
-    craftRecipe Dry Leaves
+    craftRecipe Dry Leaves (Green Tea Leaves)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -806,7 +806,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTeagreen,
         }
     }
-    craftRecipe Dry Leaves
+    craftRecipe Dry Leaves (Black Tea Leaves)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -840,7 +840,7 @@ module Hydrocraft
             item 1 Base.Teabag2,
         }
     }
-    craftRecipe Make Teabag
+    craftRecipe Make Teabag (Black Tea Leaves)
     {
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1023,7 +1023,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCamomileteamug,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Camomile Tea)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1060,7 +1060,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCNettlesdry,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Nettle Tea)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1080,7 +1080,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCNettleteamug,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Nettle Tea 2)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1100,7 +1100,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCNettleteaclaymug,
         }
     }
-    craftRecipe Dry Flower
+    craftRecipe Dry Flower (Dried Thistle)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1117,7 +1117,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCThistledry,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Thistle Tea)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1137,7 +1137,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCThistleteamug,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Thistle Tea 2)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1157,7 +1157,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCThistleteaclaymug,
         }
     }
-    craftRecipe Dry Flower
+    craftRecipe Dry Flower (Dried Skullcap)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1174,7 +1174,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSkullcapdry,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Skullcap Tea)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1194,7 +1194,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSkullcapteamug,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Skullcap Tea 2)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1214,7 +1214,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSkullcapteaclaymug,
         }
     }
-    craftRecipe Dry Flower
+    craftRecipe Dry Flower (Dried Daisy)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1231,7 +1231,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDaisydry,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Daisy Tea)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1251,7 +1251,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDaisyteamug,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Daisy Tea 2)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1271,7 +1271,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDaisyteaclaymug,
         }
     }
-    craftRecipe Dry Flower
+    craftRecipe Dry Flower (Dried Anemone)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1288,7 +1288,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCAnemomedry,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Anemome Tea)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1308,7 +1308,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCAnemometeamug,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Anemome Tea 2)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1328,7 +1328,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCAnemometeaclaymug,
         }
     }
-    craftRecipe Dry Flower
+    craftRecipe Dry Flower (Dried Camellia)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1345,7 +1345,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCamelliadry,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Camellia Tea)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1365,7 +1365,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCamelliateamug,
         }
     }
-    craftRecipe Make Herbal Tea
+    craftRecipe Make Herbal Tea (Camellia Tea 2)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -1448,45 +1448,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCRiceraw],
-            item 1 [Hydrocraft.HCCurvedshaftsmall] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCChaffrice,
-        }
-    }
-    craftRecipe Thresh Rice
-    {
-        time = 250,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Farming,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Cooking:10,
-        OnCreate = HCR42.recipe_hcplantfibers,
-        inputs
-        {
-            item 1 [Hydrocraft.HCRiceraw],
-            item 1 [Hydrocraft.HCThresher] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCChaffrice,
-        }
-    }
-    craftRecipe Thresh Rice
-    {
-        time = 100,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Farming,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Cooking:4,
-        OnCreate = HCR42.recipe_hcplantfibers,
-        inputs
-        {
-            item 1 [Hydrocraft.HCRiceraw],
-            item 1 [Hydrocraft.HCThreshermech] mode:keep,
+            item 1 [Hydrocraft.HCCurvedshaftsmall;Hydrocraft.HCThresher;Hydrocraft.HCThreshermech] mode:keep,
         }
         outputs
         {
@@ -1529,7 +1491,7 @@ module Hydrocraft
             item 20 Hydrocraft.HCCornseeds,
         }
     }
-    craftRecipe Shuck Corn
+    craftRecipe Shuck Corn (White Corn Seeds)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1548,7 +1510,7 @@ module Hydrocraft
             item 20 Hydrocraft.HCCornwhiteseeds,
         }
     }
-    craftRecipe Shuck Corn
+    craftRecipe Shuck Corn (Red Corn Seeds)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1567,7 +1529,7 @@ module Hydrocraft
             item 20 Hydrocraft.HCCornredseeds,
         }
     }
-    craftRecipe Shuck Corn
+    craftRecipe Shuck Corn (Blue Corn Seeds)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1603,7 +1565,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBamboogutter,
         }
     }
-    craftRecipe Dry Spice
+    craftRecipe Dry Spice (Dried Garlic)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1620,7 +1582,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGarlicdry,
         }
     }
-    craftRecipe Dry Spice
+    craftRecipe Dry Spice (Dried Onion)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1654,7 +1616,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCJuniperberrydry,
         }
     }
-    craftRecipe Dry Flower
+    craftRecipe Dry Flower (Dried Lavender)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

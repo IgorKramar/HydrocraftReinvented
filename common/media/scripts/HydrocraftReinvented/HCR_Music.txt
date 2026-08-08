@@ -376,7 +376,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBooksheetmusic,
         }
     }
-    craftRecipe Read Music
+    craftRecipe Read Music (Notebook of Sheet Music)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -393,7 +393,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCNotebooksheetmusic,
         }
     }
-    craftRecipe Read Music
+    craftRecipe Read Music (Sheet Music)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -427,7 +427,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPapersheetmusic,
         }
     }
-    craftRecipe Write Music
+    craftRecipe Write Music (Notebook of Sheet Music)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -461,7 +461,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPhonograph,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Harmonica)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -478,7 +478,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCHarmonica,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Harp)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -495,7 +495,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCHarp,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Ukulele)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -512,7 +512,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCUkulele,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Guitar)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -529,7 +529,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGuitar,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Kazoo)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -546,7 +546,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCKazoo,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Wood Flute)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -563,7 +563,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCFlutewood,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Clarinet)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -580,7 +580,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCClarinet,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Variant)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -593,7 +593,7 @@ module Hydrocraft
             item 1 [Base.Saxophone] mode:keep,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Trombone)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -610,7 +610,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTrombone,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Drum)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -627,7 +627,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDrum,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Maraca)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -643,7 +643,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMaracas,
         }
     }
-    craftRecipe Play Music
+    craftRecipe Play Music (Cow Bell)
     {
         time = 500,
         Tags = AnySurfaceCraft,

@@ -1063,7 +1063,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCQuarterstaffBarbedWire,
         }
     }
-    craftRecipe Reinforce Quarterstaff
+    craftRecipe Reinforce Quarterstaff (Variant)
     {
         time = 25,
         Tags = AnySurfaceCraft,

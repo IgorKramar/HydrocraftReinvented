@@ -1016,7 +1016,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPitbullmalewar,
         }
     }
-    craftRecipe Attach Armor to Dog
+    craftRecipe Attach Armor to Dog (Variant)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1034,7 +1034,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPitbullfemalewar,
         }
     }
-    craftRecipe Attach Armor to Dog
+    craftRecipe Attach Armor to Dog (Variant 2)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1068,7 +1068,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPitbullmaleinjured,
         }
     }
-    craftRecipe Remove Armor from Wardog
+    craftRecipe Remove Armor from Wardog (Injured Pitbull (Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1084,7 +1084,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPitbullfemaleinjured,
         }
     }
-    craftRecipe Attach Armor to Dog
+    craftRecipe Attach Armor to Dog (Variant 3)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1102,7 +1102,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDobermanmalewar,
         }
     }
-    craftRecipe Attach Armor to Dog
+    craftRecipe Attach Armor to Dog (Variant 4)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1120,7 +1120,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDobermanmalewarSpiked,
         }
     }
-    craftRecipe Attach Armor to Dog
+    craftRecipe Attach Armor to Dog (Variant 5)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1138,7 +1138,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDobermanfemalewar,
         }
     }
-    craftRecipe Remove Armor from Wardog
+    craftRecipe Remove Armor from Wardog (Injured Doberman (Male))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1154,7 +1154,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDobermanmaleinjured,
         }
     }
-    craftRecipe Remove Armor from Wardog
+    craftRecipe Remove Armor from Wardog (Injured Doberman (Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1204,7 +1204,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCHuskymale,
         }
     }
-    craftRecipe Attach Bags to Dog
+    craftRecipe Attach Bags to Dog (Pack Husky (Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1222,7 +1222,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCHuskyfemalepack,
         }
     }
-    craftRecipe Remove Bags from Dog
+    craftRecipe Remove Bags from Dog (Husky (Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1238,7 +1238,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCHuskyfemale,
         }
     }
-    craftRecipe Attach Bags to Dog
+    craftRecipe Attach Bags to Dog (Pack Bernese Mountain Dog (Male))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1256,7 +1256,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBernesemalepack,
         }
     }
-    craftRecipe Remove Bags from Dog
+    craftRecipe Remove Bags from Dog (Bernese Mountain Dog (Male))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1272,7 +1272,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBernesemale,
         }
     }
-    craftRecipe Attach Bags to Dog
+    craftRecipe Attach Bags to Dog (Pack Bernese Mountain Dog (Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1290,7 +1290,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBernesefemalepack,
         }
     }
-    craftRecipe Remove Bags from Dog
+    craftRecipe Remove Bags from Dog (Bernese Mountain Dog (Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1306,7 +1306,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBernesefemale,
         }
     }
-    craftRecipe Attach Bags to Dog
+    craftRecipe Attach Bags to Dog (Pack Great Dane (Male))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1324,7 +1324,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGreatdanemalepack,
         }
     }
-    craftRecipe Remove Bags from Dog
+    craftRecipe Remove Bags from Dog (Great Dane (Male))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1340,7 +1340,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGreatdanemale,
         }
     }
-    craftRecipe Attach Bags to Dog
+    craftRecipe Attach Bags to Dog (Pack Great Dane (Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1358,7 +1358,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGreatdanefemalepack,
         }
     }
-    craftRecipe Remove Bags from Dog
+    craftRecipe Remove Bags from Dog (Great Dane (Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1374,7 +1374,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGreatdanefemale,
         }
     }
-    craftRecipe Attach Bags to Dog
+    craftRecipe Attach Bags to Dog (Pack German Shepherd (Male))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1392,7 +1392,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGermanshepherdmalepack,
         }
     }
-    craftRecipe Remove Bags from Dog
+    craftRecipe Remove Bags from Dog (German Shepherd (Male))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1408,7 +1408,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGermanshepherdmale,
         }
     }
-    craftRecipe Attach Bags to Dog
+    craftRecipe Attach Bags to Dog (Pack German Shepherd (Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1426,7 +1426,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGermanshepherdfemalepack,
         }
     }
-    craftRecipe Remove Bags from Dog
+    craftRecipe Remove Bags from Dog (German Shepherd (Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1442,7 +1442,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGermanshepherdfemale,
         }
     }
-    craftRecipe Attach Bags to Dog
+    craftRecipe Attach Bags to Dog (Pack Labrador (Male))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1460,7 +1460,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLabradormalepack,
         }
     }
-    craftRecipe Remove Bags from Dog
+    craftRecipe Remove Bags from Dog (Labrador (Male))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1476,7 +1476,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLabradormale,
         }
     }
-    craftRecipe Attach Bags to Dog
+    craftRecipe Attach Bags to Dog (Pack Labrador(Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1494,7 +1494,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLabradorfemalepack,
         }
     }
-    craftRecipe Remove Bags from Dog
+    craftRecipe Remove Bags from Dog (Labrador (Female))
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1530,7 +1530,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPitbullmale,
         }
     }
-    craftRecipe Heal Dog
+    craftRecipe Heal Dog (Pitbull (Female))
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1550,7 +1550,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPitbullfemale,
         }
     }
-    craftRecipe Heal Dog
+    craftRecipe Heal Dog (Doberman (Male))
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1570,7 +1570,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDobermanmale,
         }
     }
-    craftRecipe Heal Dog
+    craftRecipe Heal Dog (Doberman (Female))
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

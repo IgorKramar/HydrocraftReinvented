@@ -87,41 +87,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 4 [Hydrocraft.HCPoison],
-            item 1 [Hydrocraft.HCBugsprayerempty],
-            item 1 [Hydrocraft.HCHandpump;Hydrocraft.HCFunnel] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCBugsprayer,
-        }
-    }
-    craftRecipe Refill Bug Sprayer
-    {
-        time = 100,
-        Tags = AnySurfaceCraft,
-        category = Farming,
-        timedAction = Making,
-        inputs
-        {
-            item 4 [Hydrocraft.HCPlasticcanpoison],
-            item 1 [Hydrocraft.HCBugsprayerempty],
-            item 1 [Hydrocraft.HCHandpump;Hydrocraft.HCFunnel] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCBugsprayer,
-        }
-    }
-    craftRecipe Refill Bug Sprayer
-    {
-        time = 100,
-        Tags = AnySurfaceCraft,
-        category = Farming,
-        timedAction = Making,
-        inputs
-        {
-            item 4 [Hydrocraft.HCDetergentpoison],
+            item 4 [Hydrocraft.HCDetergentpoison;Hydrocraft.HCPlasticcanpoison;Hydrocraft.HCPoison],
             item 1 [Hydrocraft.HCBugsprayerempty],
             item 1 [Hydrocraft.HCHandpump;Hydrocraft.HCFunnel] mode:keep,
         }

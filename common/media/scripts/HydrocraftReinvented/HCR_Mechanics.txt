@@ -74,7 +74,7 @@ module Hydrocraft
             item 1 Base.FrontCarDoor1,
         }
     }
-    craftRecipe Renew Car Door
+    craftRecipe Renew Car Door (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -98,7 +98,7 @@ module Hydrocraft
             item 1 Base.FrontCarDoor2,
         }
     }
-    craftRecipe Renew Car Door
+    craftRecipe Renew Car Door (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -122,7 +122,7 @@ module Hydrocraft
             item 1 Base.FrontCarDoor3,
         }
     }
-    craftRecipe Renew Car Door
+    craftRecipe Renew Car Door (Variant 3)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -146,7 +146,7 @@ module Hydrocraft
             item 1 Base.RearCarDoor1,
         }
     }
-    craftRecipe Renew Car Door
+    craftRecipe Renew Car Door (Variant 4)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -170,7 +170,7 @@ module Hydrocraft
             item 1 Base.RearCarDoor2,
         }
     }
-    craftRecipe Renew Car Door
+    craftRecipe Renew Car Door (Variant 5)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -194,7 +194,7 @@ module Hydrocraft
             item 1 Base.RearCarDoor3,
         }
     }
-    craftRecipe Renew Car Door
+    craftRecipe Renew Car Door (Variant 6)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -242,7 +242,7 @@ module Hydrocraft
             item 1 Base.EngineDoor1,
         }
     }
-    craftRecipe Renew Engine Hood
+    craftRecipe Renew Engine Hood (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -266,7 +266,7 @@ module Hydrocraft
             item 1 Base.EngineDoor2,
         }
     }
-    craftRecipe Renew Engine Hood
+    craftRecipe Renew Engine Hood (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -314,7 +314,7 @@ module Hydrocraft
             item 1 Base.TrunkDoor1,
         }
     }
-    craftRecipe Renew Trunk Lid
+    craftRecipe Renew Trunk Lid (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -338,7 +338,7 @@ module Hydrocraft
             item 1 Base.TrunkDoor2,
         }
     }
-    craftRecipe Renew Trunk Lid
+    craftRecipe Renew Trunk Lid (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -385,7 +385,7 @@ module Hydrocraft
             item 1 Base.ModernCarMuffler1,
         }
     }
-    craftRecipe Renew Muffler
+    craftRecipe Renew Muffler (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -408,7 +408,7 @@ module Hydrocraft
             item 1 Base.ModernCarMuffler2,
         }
     }
-    craftRecipe Renew Muffler
+    craftRecipe Renew Muffler (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -454,7 +454,7 @@ module Hydrocraft
             item 1 Base.ModernBrake1,
         }
     }
-    craftRecipe Renew Car Brake
+    craftRecipe Renew Car Brake (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -477,7 +477,7 @@ module Hydrocraft
             item 1 Base.ModernBrake2,
         }
     }
-    craftRecipe Renew Car Brake
+    craftRecipe Renew Car Brake (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -523,7 +523,7 @@ module Hydrocraft
             item 1 Base.ModernSuspension1,
         }
     }
-    craftRecipe Renew Suspension
+    craftRecipe Renew Suspension (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -546,7 +546,7 @@ module Hydrocraft
             item 1 Base.ModernSuspension2,
         }
     }
-    craftRecipe Renew Suspension
+    craftRecipe Renew Suspension (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -592,7 +592,7 @@ module Hydrocraft
             item 1 Base.Windshield1,
         }
     }
-    craftRecipe Renew Windshield
+    craftRecipe Renew Windshield (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -615,7 +615,7 @@ module Hydrocraft
             item 1 Base.Windshield2,
         }
     }
-    craftRecipe Renew Windshield
+    craftRecipe Renew Windshield (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -661,7 +661,7 @@ module Hydrocraft
             item 1 Base.RearWindshield1,
         }
     }
-    craftRecipe Renew Rear Windshield
+    craftRecipe Renew Rear Windshield (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -684,7 +684,7 @@ module Hydrocraft
             item 1 Base.RearWindshield2,
         }
     }
-    craftRecipe Renew Rear Windshield
+    craftRecipe Renew Rear Windshield (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -730,7 +730,7 @@ module Hydrocraft
             item 1 Base.FrontWindow1,
         }
     }
-    craftRecipe Renew Front Window
+    craftRecipe Renew Front Window (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -753,7 +753,7 @@ module Hydrocraft
             item 1 Base.FrontWindow2,
         }
     }
-    craftRecipe Renew Front Window
+    craftRecipe Renew Front Window (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -799,7 +799,7 @@ module Hydrocraft
             item 1 Base.RearWindow1,
         }
     }
-    craftRecipe Renew Rear Window
+    craftRecipe Renew Rear Window (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -822,7 +822,7 @@ module Hydrocraft
             item 1 Base.RearWindow2,
         }
     }
-    craftRecipe Renew Rear Window
+    craftRecipe Renew Rear Window (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft,
@@ -872,7 +872,7 @@ module Hydrocraft
             item 1 Base.FrontWindow1,
         }
     }
-    craftRecipe Make Standard Car Window
+    craftRecipe Make Standard Car Window (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -899,7 +899,7 @@ module Hydrocraft
             item 1 Base.RearWindow1,
         }
     }
-    craftRecipe Make Standard Car Window
+    craftRecipe Make Standard Car Window (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -926,7 +926,7 @@ module Hydrocraft
             item 1 Base.Windshield1,
         }
     }
-    craftRecipe Make Standard Car Window
+    craftRecipe Make Standard Car Window (Variant 3)
     {
         time = 22,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -980,7 +980,7 @@ module Hydrocraft
             item 1 Base.FrontWindow2,
         }
     }
-    craftRecipe Make Heavy Car Window
+    craftRecipe Make Heavy Car Window (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1007,7 +1007,7 @@ module Hydrocraft
             item 1 Base.RearWindow2,
         }
     }
-    craftRecipe Make Heavy Car Window
+    craftRecipe Make Heavy Car Window (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1034,7 +1034,7 @@ module Hydrocraft
             item 1 Base.Windshield2,
         }
     }
-    craftRecipe Make Heavy Car Window
+    craftRecipe Make Heavy Car Window (Variant 3)
     {
         time = 22,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1088,7 +1088,7 @@ module Hydrocraft
             item 1 Base.FrontWindow3,
         }
     }
-    craftRecipe Make Sport Car Window
+    craftRecipe Make Sport Car Window (Variant)
     {
         time = 22,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1115,7 +1115,7 @@ module Hydrocraft
             item 1 Base.RearWindow3,
         }
     }
-    craftRecipe Make Sport Car Window
+    craftRecipe Make Sport Car Window (Variant 2)
     {
         time = 22,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1142,7 +1142,7 @@ module Hydrocraft
             item 1 Base.Windshield3,
         }
     }
-    craftRecipe Make Sport Car Window
+    craftRecipe Make Sport Car Window (Variant 3)
     {
         time = 22,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1231,7 +1231,7 @@ module Hydrocraft
             item 1 Base.EngineParts,
         }
     }
-    craftRecipe Produce Engine Parts
+    craftRecipe Produce Engine Parts (Variant)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1253,7 +1253,7 @@ module Hydrocraft
             item 1 Base.EngineParts,
         }
     }
-    craftRecipe Produce Engine Parts
+    craftRecipe Produce Engine Parts (Variant 2)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1276,7 +1276,7 @@ module Hydrocraft
             item 1 Base.EngineParts,
         }
     }
-    craftRecipe Produce Engine Parts
+    craftRecipe Produce Engine Parts (Variant 3)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

@@ -342,7 +342,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBluepigment,
         }
     }
-    craftRecipe Extract Blue Pigment
+    craftRecipe Extract Blue Pigment (Lapis Lazuli Powder)
     {
         time = 400,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -827,7 +827,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPainting1,
         }
     }
-    craftRecipe Paint on Canvas
+    craftRecipe Paint on Canvas (Painting)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -851,7 +851,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPainting2,
         }
     }
-    craftRecipe Paint on Canvas
+    craftRecipe Paint on Canvas (Painting 2)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -875,7 +875,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPainting3,
         }
     }
-    craftRecipe Paint on Canvas
+    craftRecipe Paint on Canvas (Painting 3)
     {
         time = 3000,
         Tags = AnySurfaceCraft,
@@ -899,7 +899,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPainting4,
         }
     }
-    craftRecipe Paint on Canvas
+    craftRecipe Paint on Canvas (Painting 4)
     {
         time = 3000,
         Tags = AnySurfaceCraft,

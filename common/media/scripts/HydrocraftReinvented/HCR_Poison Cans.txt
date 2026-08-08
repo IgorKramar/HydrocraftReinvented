@@ -96,24 +96,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 4 [Hydrocraft.HCDetergent],
-            item 1 [Hydrocraft.HCPoisonempty],
-            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCPoisondetergent,
-        }
-    }
-    craftRecipe Fill Empty Insecticide Can With Liquid Soap
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Chemistry,
-        timedAction = Making,
-        inputs
-        {
-            item 4 [Hydrocraft.HCPlasticcandetergent],
+            item 4 [Hydrocraft.HCDetergent;Hydrocraft.HCPlasticcandetergent],
             item 1 [Hydrocraft.HCPoisonempty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }

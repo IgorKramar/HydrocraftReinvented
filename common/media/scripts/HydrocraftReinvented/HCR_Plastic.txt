@@ -50,22 +50,6 @@ module Hydrocraft
             item 4 Hydrocraft.HCBioplastic,
         }
     }
-    craftRecipe Recycle Plastic Can
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Engineer,
-        timedAction = Making,
-        inputs
-        {
-            item 1 [Hydrocraft.HCPlasticcanempty],
-            item 1 [Hydrocraft.HCBoxcutter;Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife;Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors] mode:keep,
-        }
-        outputs
-        {
-            item 5 Hydrocraft.HCPlastic,
-        }
-    }
     craftRecipe Make Plastic Case
     {
         time = 50,

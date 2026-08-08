@@ -432,7 +432,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledtomatoes,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Radish)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -454,7 +454,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledradish,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Broccoli)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -476,7 +476,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledbroccoli,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Eggplant)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -498,7 +498,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledeggplant,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Red Bellpeppers)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -520,7 +520,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledbellpepperred,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Yellow Bellpeppers)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -542,7 +542,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledbellpepperyellow,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Green Bellpeppers)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -564,7 +564,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledbellpeppergreen,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Carrots)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -586,7 +586,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledcarrots,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Ginger)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -609,7 +609,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledginger,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Garlic)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -631,7 +631,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledgarlic,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Onions)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -653,7 +653,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledonion,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Green Onions)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -675,7 +675,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledoniongreen,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Cucumbers)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -697,7 +697,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledcucumbers,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Chinese Cabbage)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -720,7 +720,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledchinesecabbage,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Artichokes)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -743,7 +743,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPickledartichoke,
         }
     }
-    craftRecipe Pickle Vegetables
+    craftRecipe Pickle Vegetables (Jar of Pickled Zucchini)
     {
         time = 75,
         Tags = AnySurfaceCraft,
@@ -781,53 +781,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCJar],
             item 1 [Base.Vinegar2],
             item 1 [Base.Salt],
-            item 2 [Base.Cabbage],
-            item 1 [Base.KitchenKnife] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCSauerkraut,
-        }
-    }
-    craftRecipe Make Sauerkraut
-    {
-        time = 75,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        SkillRequired = Cooking:4,
-        xpAward = Cooking:3,
-        OnCreate = HCR42.recipe_hcsaltshaker,
-        inputs
-        {
-            item 1 [Hydrocraft.HCJar],
-            item 1 [Base.Vinegar2],
-            item 1 [Base.Salt],
-            item 2 [Hydrocraft.HCCabbagered],
-            item 1 [Base.KitchenKnife] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCSauerkraut,
-        }
-    }
-    craftRecipe Make Sauerkraut
-    {
-        time = 75,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        SkillRequired = Cooking:4,
-        xpAward = Cooking:3,
-        OnCreate = HCR42.recipe_hcsaltshaker,
-        inputs
-        {
-            item 1 [Hydrocraft.HCJar],
-            item 1 [Base.Vinegar2],
-            item 1 [Base.Salt],
-            item 2 [Hydrocraft.HCCabbagewhite],
+            item 2 [Base.Cabbage;Hydrocraft.HCCabbagered;Hydrocraft.HCCabbagewhite],
             item 1 [Base.KitchenKnife] mode:keep,
         }
         outputs
@@ -913,73 +867,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCJar],
             item 1 [Base.Salt],
-            item 5 [Base.Cabbage],
-            item 1 [Hydrocraft.HCSpicypaste],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCKimchi,
-        }
-    }
-    craftRecipe Make Kimchi
-    {
-        time = 75,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        SkillRequired = Cooking:4,
-        xpAward = Cooking:3,
-        OnCreate = HCR42.recipe_hcsaltshakerandbowls,
-        inputs
-        {
-            item 1 [Hydrocraft.HCJar],
-            item 1 [Base.Salt],
-            item 5 [Hydrocraft.HCChinesecabbage],
-            item 1 [Hydrocraft.HCSpicypaste],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCKimchi,
-        }
-    }
-    craftRecipe Make Kimchi
-    {
-        time = 75,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        SkillRequired = Cooking:4,
-        xpAward = Cooking:3,
-        OnCreate = HCR42.recipe_hcsaltshakerandbowls,
-        inputs
-        {
-            item 1 [Hydrocraft.HCJar],
-            item 1 [Base.Salt],
-            item 5 [Hydrocraft.HCCabbagewhite],
-            item 1 [Hydrocraft.HCSpicypaste],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCKimchi,
-        }
-    }
-    craftRecipe Make Kimchi
-    {
-        time = 75,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        SkillRequired = Cooking:4,
-        xpAward = Cooking:3,
-        OnCreate = HCR42.recipe_hcsaltshakerandbowls,
-        inputs
-        {
-            item 1 [Hydrocraft.HCJar],
-            item 1 [Base.Salt],
-            item 5 [Hydrocraft.HCCabbagered],
+            item 5 [Base.Cabbage;Hydrocraft.HCCabbagered;Hydrocraft.HCCabbagewhite;Hydrocraft.HCChinesecabbage],
             item 1 [Hydrocraft.HCSpicypaste],
         }
         outputs

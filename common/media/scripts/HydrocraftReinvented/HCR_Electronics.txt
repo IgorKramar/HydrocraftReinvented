@@ -1068,7 +1068,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCircuitboardpieces,
         }
     }
-    craftRecipe Loot Electronic Parts
+    craftRecipe Loot Electronic Parts (Empty Circuitboard Pieces)
     {
         time = 900,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1089,7 +1089,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCircuitboardpieces,
         }
     }
-    craftRecipe Loot Electronic Parts
+    craftRecipe Loot Electronic Parts (Tangled Cables)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1120,61 +1120,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcsortparts01,
         inputs
         {
-            item 1 [Hydrocraft.HCElectronicparts01],
-            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCCircuitboarduseless,
-        }
-    }
-    craftRecipe Sort Electronic Parts
-    {
-        time = 60,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Electrical,
-        timedAction = Making,
-        xpAward = Electricity:3,
-        OnCreate = HCR42.recipe_hcsortparts02,
-        inputs
-        {
-            item 1 [Hydrocraft.HCElectronicparts02],
-            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCCircuitboarduseless,
-        }
-    }
-    craftRecipe Sort Electronic Parts
-    {
-        time = 60,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Electrical,
-        timedAction = Making,
-        xpAward = Electricity:3,
-        OnCreate = HCR42.recipe_hcsortparts03,
-        inputs
-        {
-            item 1 [Hydrocraft.HCElectronicparts03],
-            item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCCircuitboarduseless,
-        }
-    }
-    craftRecipe Sort Electronic Parts
-    {
-        time = 60,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Electrical,
-        timedAction = Making,
-        xpAward = Electricity:3,
-        OnCreate = HCR42.recipe_hcsortparts04,
-        inputs
-        {
-            item 1 [Hydrocraft.HCElectronicparts04],
+            item 1 [Hydrocraft.HCElectronicparts01;Hydrocraft.HCElectronicparts02;Hydrocraft.HCElectronicparts03;Hydrocraft.HCElectronicparts04],
             item 1 [Hydrocraft.HCElectornicsbench2] mode:keep,
         }
         outputs
@@ -1573,7 +1519,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCComputermouse,
         }
     }
-    craftRecipe Make Computer Mouse
+    craftRecipe Make Computer Mouse (Plastic)
     {
         time = 400,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1626,7 +1572,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCComputerkeyboard,
         }
     }
-    craftRecipe Make Computer Keyboard
+    craftRecipe Make Computer Keyboard (Plastic)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1689,7 +1635,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCComputermonitor,
         }
     }
-    craftRecipe Make Computer Monitor
+    craftRecipe Make Computer Monitor (Glowlamp)
     {
         time = 800,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1758,7 +1704,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCComputerPSU,
         }
     }
-    craftRecipe Make Computer PSU
+    craftRecipe Make Computer PSU (Variant)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1816,7 +1762,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCComputerfan,
         }
     }
-    craftRecipe Make Computer Fan
+    craftRecipe Make Computer Fan (Plastic)
     {
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1881,7 +1827,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCComputer,
         }
     }
-    craftRecipe Make Computer Tower
+    craftRecipe Make Computer Tower (Variant)
     {
         time = 800,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1940,7 +1886,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCPU,
         }
     }
-    craftRecipe Extract Working CPU
+    craftRecipe Extract Working CPU (Variant)
     {
         time = 100,
         Tags = AnySurfaceCraft,

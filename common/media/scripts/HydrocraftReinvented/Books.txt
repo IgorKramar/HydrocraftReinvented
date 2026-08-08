@@ -85,7 +85,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Astronomy Textbook,
 		Icon		=	HCBookastronomy,
-		TeachedRecipes  =   	Assemble Telescope;Disassemble Telescope;Gaze Through Telescope;Build Star Chart Board;View Star Chart Board,
+		LearnedRecipes  =   	Assemble Telescope;Disassemble Telescope;Gaze Through Telescope;Build Star Chart Board;View Star Chart Board,
         	ReplaceOnUse    =   	HCBookastronomy,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookastronomyOpen,
@@ -128,7 +128,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Animal Husbandry Textbook,
 		Icon		=	HCBookanimalhusbandry,
-		TeachedRecipes  =   	Breed Rabbits;Breed Pigs;Breed Sheep;Breed Goats;Breed Cows;Breed Donkeys;Breed Horses,
+
         	ReplaceOnUse    =   	HCBookanimalhusbandry,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookanimalhusbandryOpen,
@@ -171,7 +171,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Celtic Folklore,
 		Icon		=	HCBookceltic,
-		TeachedRecipes  =   	Make Rune Stone,
+
         	ReplaceOnUse    =   	HCBookceltic,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookcelticOpen,
@@ -184,7 +184,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Chemistry Textbook,
 		Icon		=	HCBookchemistry,
-		TeachedRecipes  =   	Use Centrifiuge;Use Electrolyzer;Make Saltpeter Powder;Make Salt Powder;Make Sulphur Powder;Make Meteorite Powder;Make Phosphorus Powder;Make Marble Powder;Make Diatomite Powder;Make Ephedrin Powder;Make Beaker of Ammonia;Make Albite Powder;Make Feldspar Powder;Make Methylamin;Add Salt to Glass Balloon;Add Sulfuric Acid to Glass Balloon with Salt;Make Muriatic Acid;Make Mercuric Oxide;Make Acid Bath;Make Beaker of Potassium Permanganate,
+		LearnedRecipes  =   	Use Centrifiuge;Use Electrolyzer;Make Saltpeter Powder;Make Saltpeter Powder (Saltpeter Powder);Make Salt Powder;Make Salt Powder (Salt Powder);Make Salt Powder (Salt Powder 2);Make Sulphur Powder;Make Sulphur Powder (Sulphur Powder);Make Meteorite Powder;Make Meteorite Powder (Meteorite Powder);Make Phosphorus Powder;Make Phosphorus Powder (Phosphorus Powder);Make Phosphorus Powder (Phosphorus Powder 2);Make Marble Powder;Make Marble Powder (Marble Powder);Make Diatomite Powder;Make Diatomite Powder (Diatomite Powder);Make Ephedrin Powder;Make Ephedrin Powder (Ephedrine Powder);Make Beaker of Ammonia;Make Beaker of Ammonia (Bottle of Ammonia);Make Albite Powder;Make Albite Powder (Albite Powder);Make Feldspar Powder;Make Feldspar Powder (Feldspar Powder);Make Methylamin;Make Methylamin (Metal Barrel with Methylamin);Add Salt to Glass Balloon;Add Sulfuric Acid to Glass Balloon with Salt;Make Muriatic Acid;Make Mercuric Oxide;Make Acid Bath;Make Beaker of Potassium Permanganate,
         	ReplaceOnUse    =   	HCBookchemistry,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookchemistryOpen,
@@ -197,7 +197,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Boneworking Textbook,
 		Icon		=	HCBookboneworking,
-		TeachedRecipes  =   	Carve Bone Buttons;Harvest Bones;Cut Open Bone;Make Bone Powder;Make Shell Powder;Dry Gelatin;Make Bone Ash;Make Gelatin;Make Glue;Make Wood Glue;Make Super Glue;Make Smelling Salts;Craft Bone Shiv;Craft Bone Dice;Craft Bone Needle;Craft Bone Fishhook,
+		LearnedRecipes  =   	Make Glue;Make Wood Glue;Make Super Glue;Make Smelling Salts;Make Smelling Salts (Vial of Smelling Salts),
         ReplaceOnUse    =   	HCBookboneworking,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookboneworkingOpen,
@@ -255,7 +255,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Entomology Textbook,
 		Icon		=	HCBookentomology,
-		TeachedRecipes  =   	Catch Bugs;Make Bug Net;Assemble Ant Farm;Feed Ants;Feed Caterpillar,
+		LearnedRecipes  =   	Catch Bugs;Make Bug Net;Assemble Ant Farm;Assemble Ant Farm (Red Ant Farm);Feed Ants;Feed Caterpillar;Feed Caterpillar (Chrysalis),
         	ReplaceOnUse    =   	HCBookentomology,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookentomologyOpen,
@@ -373,7 +373,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Medical Textbook,
 		Icon		=	HCBookmedical,
-		TeachedRecipes  =  Make Medical Lab;Make Crutch;Take Blood from Yourself;Research Injections;Soak in Potassium Permanganate,
+		LearnedRecipes  =  Make Medical Lab;Make Crutch;Take Blood from Yourself;Research Injections;Soak in Potassium Permanganate;Soak in Potassium Permanganate (Rag Doused in Potassium Permanganate);Soak in Potassium Permanganate (Cotton Balls Doused in Potassium Permanganate),
         ReplaceOnUse    =  HCBookmedical,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookmedicalOpen,
@@ -386,7 +386,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Music Textbook,
 		Icon		=	HCBookmusic,
-		TeachedRecipes  = Play Music;Read Music;Write Music;Carve Wooden Flute,
+		LearnedRecipes  = Play Music;Play Music (Harmonica);Play Music (Harp);Play Music (Ukulele);Play Music (Guitar);Play Music (Kazoo);Play Music (Wood Flute);Play Music (Clarinet);Play Music (Variant);Play Music (Trombone);Play Music (Drum);Play Music (Maraca);Play Music (Cow Bell);Read Music;Read Music (Notebook of Sheet Music);Read Music (Sheet Music);Write Music;Write Music (Notebook of Sheet Music);Carve Wooden Flute,
         ReplaceOnUse    =   	HCBookmusic,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookmusicOpen,
@@ -474,7 +474,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Tree Fieldguide,
 		Icon		=	HCBooktreeguide,
-		TeachedRecipes  =   	Plant Fir Cone;Plant Acorn;Plant Birch Catkin;Cut Fir Tree;Cut Oak Tree;Cut Birch Tree,
+		LearnedRecipes  =   	Plant Fir Cone;Plant Acorn;Plant Birch Catkin;Cut Fir Tree;Cut Oak Tree;Cut Birch Tree,
         	ReplaceOnUse    =   	HCBooktreeguide,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBooktreeguideOpen,
@@ -500,7 +500,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Veterinary Medicine Textbook,
 		Icon		=	HCBookvet,
-		TeachedRecipes  =   	Heal Dog,
+		LearnedRecipes  =   	Heal Dog;Heal Dog (Pitbull (Female));Heal Dog (Doberman (Male));Heal Dog (Doberman (Female)),
         ReplaceOnUse    =   	HCBookvet,
 		DisplayCategory	=   LitR,
     }
@@ -524,7 +524,7 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Anatomy Textbook,
 		Icon			=	HCBookanatomy,
-		TeachedRecipes  =   Harvest Bones;Remove Skull;Remove Head;Skin Corpse;Dissect Corpse;Clean Dissection Table,
+		LearnedRecipes  =   Remove Head;Skin Corpse;Dissect Corpse;Clean Dissection Table,
         ReplaceOnUse    =   HCBookanatomy,
 		DisplayCategory	=   LitR,
     }
@@ -535,7 +535,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Art History Textbook,
 		Icon		=	HCBookarthistory,
-		TeachedRecipes  =   	Paint on Canvas;Dye Yarn,
+		LearnedRecipes  =   	Paint on Canvas;Paint on Canvas (Painting);Paint on Canvas (Painting 2);Paint on Canvas (Painting 3);Paint on Canvas (Painting 4);Dye Yarn;Dye Yarn (Purple Yarn);Dye Yarn (Blue Yarn);Dye Yarn (Green Yarn);Dye Yarn (Yellow Yarn);Dye Yarn (Orange Yarn);Dye Yarn (Red Yarn),
         	ReplaceOnUse    =   	HCBookarthistory,
 		DisplayCategory	=   LitR,
     }
@@ -559,7 +559,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Bird Fieldguide,
 		Icon		=	HCBookbirdgude,
-		TeachedRecipes  =   	Carve Wooden Bird Call;Carve Wooden Duck Call;Remove Eggs from Nest,
+		LearnedRecipes  =   	Carve Wooden Bird Call;Carve Wooden Duck Call;Remove Eggs from Nest,
         	ReplaceOnUse    =   	HCBookbirdgude,
 		DisplayCategory	=   LitR,
     }
@@ -596,7 +596,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Economics Textbook,
 		Icon		=	HCBookeconomics,
-		TeachedRecipes  =   	Make Coin Press;Press Coin,
+		LearnedRecipes  =   	Make Coin Press;Press Coin;Press Coin (Silver Coin);Press Coin (Gold Coin),
         	ReplaceOnUse    =   	HCBookeconomics,
 		DisplayCategory	=   LitR,
     }
@@ -607,7 +607,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Fish Fieldguide,
 		Icon		=	HCBookfishguide,
-		TeachedRecipes  =   	Make Fishhooks;Make Fishing Kit;Repair Fishing Kit;Make Lure;Fish in Pond with Lure;Fish in Pond with Bait;Spear Fish in Pond,
+		LearnedRecipes  =   	Repair Fishing Kit;Make Lure;Make Lure (Feather Lure);Make Lure (Pinecone Lure);Make Lure (Birch Bark Lure);Make Lure (Stick Lure);Make Lure (Garland Lure);Fish in Pond with Bait;Spear Fish in Pond,
         	ReplaceOnUse    =   	HCBookfishguide,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookfishguideOpen,
@@ -620,7 +620,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Flower Fieldguide,
 		Icon		=	HCBookflowerguide,
-		TeachedRecipes  =   	Gather Flora,
+		LearnedRecipes  =   	Gather Flora,
         	ReplaceOnUse    =   	HCBookflowerguide,
 		DisplayCategory	=   LitR,
     }
@@ -631,7 +631,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Geology Textbook,
 		Icon		=	HCBookgeology,
-		TeachedRecipes  =   	Sift Dirt;Dig Mine;Upgrade Mine;Mine;Upgrade to Dark Mine;Upgrade Dark Mine;Add Steam Machine to Dark Mine;Make Mining Hat;Dig Quarry;Mine Iron;Mine Coal;Mine Stone,
+		LearnedRecipes  =   	Sift Dirt;Dig Mine;Upgrade Mine;Mine;Mine (Dirt);Mine (Dirt 2);Mine (Dirt 3);Mine (Variant);Mine (Variant 2);Mine (Variant 3);Mine (Variant 4);Mine (Variant 5);Mine (Variant 6);Upgrade to Dark Mine;Upgrade Dark Mine;Add Steam Machine to Dark Mine;Make Mining Hat;Make Mining Hat (Flashlight Mining Hat);Dig Quarry;Mine Iron;Mine Coal;Mine Stone;Mine Stone (Mining Drill with Power),
         	ReplaceOnUse    =   	HCBookgeology,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookgeologyOpen,
@@ -644,7 +644,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Gem Cutting Textbook,
 		Icon		=	HCBookgemcutting,
-		TeachedRecipes  =   	Make Gem Cutter Wheel;Cut Gem;Make Jade Powder;Make Malachite Powder;Make Obsidian Powder;Make Azurite Powder;Make Lapis Lazuli Powder,
+		LearnedRecipes  =   	Make Gem Cutter Wheel;Cut Gem;Cut Gem (Cut Quartz Crystal);Cut Gem (Cut Blue Quartz Crystal);Cut Gem (Cut Rose Quartz Crystal);Cut Gem (Cut Smokey Quartz Crystal);Cut Gem (Cut Citrine Quartz Crystal);Cut Gem (Cut Amethyst);Cut Gem (Cut Azurite);Cut Gem (Cut Diamond);Cut Gem (Cut Emerald);Cut Gem (Cut Fire Agate);Cut Gem (Cut Garnet);Cut Gem (Cut Lapis Lazuli);Cut Gem (Cut Malachite);Cut Gem (Cut Olivine);Cut Gem (Cut Rhodonite);Cut Gem (Cut Ruby);Cut Gem (Cut Sapphire);Cut Gem (Cut Topaz);Cut Gem (Cut Turquoise);Cut Gem (Cut Amazonite);Make Jade Powder;Make Jade Powder (Jade Powder);Make Malachite Powder;Make Malachite Powder (Malachite Powder);Make Azurite Powder;Make Azurite Powder (Azurite Powder);Make Lapis Lazuli Powder;Make Lapis Lazuli Powder (Lapis Lazuli Powder),
         	ReplaceOnUse    =   	HCBookgemcutting,
 		DisplayCategory	=   LitR,
     }
@@ -656,7 +656,7 @@ module Hydrocraft
 		DisplayName	=	Jewelry Crafting Textbook,
 		Weight		=	0.5,
 		Icon		=	HCBookjewelry,
-		TeachedRecipes	=	Make Steel Ring,
+		LearnedRecipes	=	Make Steel Ring,
        	ReplaceOnUse    =   	HCBookjewelry,
     }
     item HCBookgreekmyths
@@ -718,7 +718,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Mammal Fieldguide,
 		Icon		=	HCBookmammalguide,
-		TeachedRecipes  =   	Gather Dung,
+		LearnedRecipes  =   	Gather Dung,
         	ReplaceOnUse    =   	HCBookmammalguide,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookmammalguideOpen,
@@ -744,7 +744,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Oceanography Textbook,
 		Icon		=	HCBookoceanography,
-        	TeachedRecipes  = 	Grow Spirulina in Tank;Harvest Spirulina;Dig Fish Pond;Fill Pond Hole with Cement;Fill Pond Hole with Water;Decorate Pond,
+        	LearnedRecipes  = 	Grow Spirulina in Tank;Harvest Spirulina;Dig Fish Pond;Fill Pond Hole with Cement;Fill Pond Hole with Water;Decorate Pond,
         	ReplaceOnUse    =   	HCBookoceanography,
 		DisplayCategory	=   LitR,
     }
@@ -822,7 +822,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Science Textbook,
 		Icon		=	HCBookscience,
-        	TeachedRecipes  = 	Make Laboratory;Research Professional Lab,
+        	LearnedRecipes  = 	Make Laboratory;Research Professional Lab;Make Beaker of Copper Sulfate Solution;Make Beaker of Nickel Sulfate Solution;Make Beaker of Nitric Acid,
         	ReplaceOnUse    =   	HCBookscience,
 		DisplayCategory	=   LitR,
     }
@@ -872,7 +872,7 @@ module Hydrocraft
         	ItemType		=	base:literature,
         	DisplayName	=	Apiculture Textbook,
         	Icon		=	HCBookapiculture,
-            TeachedRecipes  = Harvest Wild Beehive;Build Beehive;Fill Bee Smoker with Fuel;Feed Beehive;Harvest Honeycomb;Process Honeycomb;Make Bee Smoker;Make Beekeeper Hat;Prepare Cheese Cloth-Wrapped Wax;Prepare Pot of Refined Wax;Process Refined Wax;Prepare Pot of Melted Refined Wax,
+            LearnedRecipes  = Harvest Wild Beehive;Build Beehive;Fill Bee Smoker with Fuel;Harvest Honeycomb;Harvest Honeycomb (Inactive Beehive (Stage 3));Process Honeycomb;Make Bee Smoker;Make Beekeeper Hat;Prepare Cheese Cloth-Wrapped Wax;Prepare Pot of Refined Wax;Process Refined Wax;Prepare Pot of Melted Refined Wax,
             ReplaceOnUse    =   	HCBookapiculture,
 		DisplayCategory	=   LitR,
     }
@@ -884,7 +884,7 @@ module Hydrocraft
 		DisplayName	=	Plumbing Textbook,
 		Icon		=	HCBookplumbing,
         	ReplaceOnUse    =   	HCBookplumbing,
-		TeachedRecipes  =   	Build Water Tower;Build Double Water Tower;Make Water Pump;Make Pipe Bender;Make Valve,
+		LearnedRecipes  =   	Build Water Tower;Build Double Water Tower;Make Water Pump;Make Valve,
 		DisplayCategory	=   LitR,
     }
     item HCBookelectrical
@@ -894,7 +894,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Electrical Engineering Textbook,
 		Icon		=	HCBookelectricity,
-		TeachedRecipes  =   	Upgrade To Steam Charger;Make Thermocouple;Make Electronics Workbench;Make Copper Cable;Make Coil;Make Solder;Make Circut Chip;Loot Electronic Parts;Make Lamp;Make Large Electromotor;Make Small Electromotor;Make Control Panel;Make Selfmade Heater,
+		LearnedRecipes  =   	Upgrade To Steam Charger;Make Thermocouple;Make Electronics Workbench;Make Copper Cable;Make Coil;Make Solder;Make Circut Chip;Loot Electronic Parts;Loot Electronic Parts (Empty Circuitboard Pieces);Loot Electronic Parts (Tangled Cables);Make Lamp;Make Large Electromotor;Make Small Electromotor;Make Control Panel;Make Selfmade Heater,
         	ReplaceOnUse    =   	HCBookelectrical,
 		DisplayCategory	=   LitR,
     }
@@ -905,7 +905,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Computer Programing Textbook,
 		Icon		=	HCBookcomputerprograming,
-		TeachedRecipes  =   	Make Desktop Computer;Write Computer Program,
+		LearnedRecipes  =   	Make Desktop Computer;Write Computer Program;Write Computer Program (Floppy Disk with Gesture Recognition Software);Write Computer Program (Floppy Disk with Voice Recognition Software),
         	ReplaceOnUse    =   	HCBookcomputerprograming,
 		DisplayCategory	=   LitR,
     }
@@ -916,7 +916,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Battery Textbook,
 		Icon		=	HCBookbattery,
-		TeachedRecipes  =   	Recycle Small Battery Case;Recycle Battery Case;Recycle Medium Battery Case;Recycle Large Battery Case;Recycle Huge Battery Case;Recharge Small Battery;Recharge Battery;Recharge 9 Volt Battery;Recharge Medium Battery;Recharge Large Battery;Recharge Huge Battery;Make Small Battery Cases;Make Battery Cases;Make Medium Battery Cases;Make Large Battery Case;Make Huge Battery Case;Make Small Batterys;Make Batterys;Make Medium Battery;Make Large Battery;Make Huge Battery;Make Medium Batterys,
+		LearnedRecipes  =   	Recycle Small Battery Case;Recycle Battery Case;Recycle Medium Battery Case;Recycle Large Battery Case;Recycle Huge Battery Case;Recharge Small Battery;Recharge Battery;Recharge Battery (Small Battery);Recharge Battery (Variant);Recharge Battery (9 Volt Battery);Recharge Battery (Medium Battery);Recharge Battery (Large Battery);Recharge Battery (Huge Battery);Recharge 9 Volt Battery;Recharge Medium Battery;Recharge Large Battery;Recharge Huge Battery;Make Small Battery Cases;Make Battery Cases;Make Medium Battery Cases;Make Large Battery Case;Make Huge Battery Case;Make Small Batterys;Make Small Batterys (Zinc Wire);Make Small Batterys (Aluminum Wire);Make Batterys;Make Batterys (Zinc Wire);Make Batterys (Aluminum Wire);Make Medium Battery;Make Medium Battery (Zinc Wire);Make Large Battery;Make Large Battery (Zinc Wire);Make Large Battery (Aluminum Wire);Make Huge Battery;Make Huge Battery (Zinc Wire);Make Huge Battery (Aluminum Wire);Make Medium Batterys,
         ReplaceOnUse    =   	HCBookbattery,
 		DisplayCategory	=   LitR,
     }
@@ -940,7 +940,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Archery Textbook,
 		Icon		=	HCBookarchery,
-		TeachedRecipes  =   	Make Longbow;Make Arrow;Make Crossbow;Make Bolt;Upgrade Longbow;Make Longbow Mag;Make Metal Arrowhead;Shoot Target,
+		LearnedRecipes  =   	Make Longbow;Make Arrow;Make Crossbow;Make Bolt;Upgrade Longbow;Make Longbow Mag;Make Metal Arrowhead,
         	ReplaceOnUse    =   	HCBookarchery,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookarcheryOpen,
@@ -953,7 +953,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Pottery Textbook,
 		Icon		=	HCBookpottery,
-		TeachedRecipes  =   	Make Bone Clay;Make Kiln;Make Clay Pot;Make Clay Flowerpot;Make Clay Jar;Make Small Clay Jar;Make Clay Mug;Make Clay Teapot;Make Clay Cauldron;Make Clay Urn;Make Large Clay Urn;Make Clay Smoking Pipe;Make Clay Pipe;Make Ring Mold;Make Bar Mold;Make Nail Mold;Make Screw Mold;Make Fishhook Mold;Make Gear Mold;Make Bung Mold;Make Giant Magnet Mold;Make Bullet Casing Mold;Make Bullet Tip Mold;Make Anvil Mold;Make Buckshot Mold;Make Block Mold;Make Pipe Mold;Make Porcelain Teacup;Make Porcelain Saucer;Make Porcelain Teapot;Make Porcelain Plate;Make Porcelain Platter;Make Porcelain Vase;Make Spindle Head;Make Clay Oil Lamp;Make Bolt Mold;Make Arrow Head Mold;Make Ingot Mold;Make Huge Ingot Mold;Make Leaf Spring Mold,
+
         ReplaceOnUse    =   	HCBookpottery,
 		DisplayCategory	=   LitR,
     }
@@ -964,7 +964,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Glass Working Textbook,
 		Icon		=	HCBookglassworking,
-		TeachedRecipes  =   	Create Glass from Sand;Recycle Glass;Create Glass Pane;Create Large Glass Pane;Create Conical Flask;Create Glass Buchner Flask;Create Glass Florence Flask;Create Glass Retort Flask;Create Glass Beaker;Create Glass Bong;Create Empty Jar;Create Empty Spice Jars;Create Empty Glass Bottle;Create Empty Whiskey Bottle;Create Glass Jug;Create Empty Wine Bottle;Create Glass Graduated Cylinder;Create Glass Test Tubes;Create Large Glass Balloon;Create Glass Connector;Create Glass Pipe;Create Glass Elbow Pipe;Create Glass Cooler;Create Glass Funnel;Create Wine Glasses;Create Beer Glasses;Create Measuring Cup;Create Eye Dropper;Create Thermometer;Create Empty Salt Shaker;Create Petri Dishes;Create Microscope Slides;Create Glass Animal Eyes;Create Glass Marbles;Create Empty Ink Well,
+
         ReplaceOnUse    =   	HCBookglassworking,
 		DisplayCategory	=   LitR,
     }
@@ -975,7 +975,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Copper Working Textbook,
 		Icon		=	HCBookcopperworking,
-		TeachedRecipes  =   	Make Copper Ingot;Make Copper Ingots;Recycle Copper;Make Copper Rod;Make Copper Powder;Make Copper Circuit Board,
+		LearnedRecipes  =   	Recycle Copper;Make Copper Powder;Make Copper Powder (Copper Powder),
         	ReplaceOnUse    =   	HCBookcopperworking,
 		DisplayCategory	=   LitR,
     }
@@ -986,7 +986,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Tin Working Textbook,
 		Icon		=	HCBooktinworking,
-		TeachedRecipes  =   	Make Tin Ingot;Make Tin Ingots;Recycle Tin;Make Tin Rod;Make Tin Powder,
+		LearnedRecipes  =   	Make Tin Powder;Make Tin Powder (Tin Powder),
         	ReplaceOnUse    =   	HCBooktinworking,
 		DisplayCategory	=   LitR,
     }
@@ -997,7 +997,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Bronze Working Textbook,
 		Icon		=	HCBookbronzeworking,
-		TeachedRecipes  =   	Make Bronze Ingot;Make Brass Ingot;Recycle Bronze;Recycle Brass;Make Bronze Rod;Make Bronze Candle Holder;Make Oil Lamp;Make Brass Bullet Casings;,
+
         	ReplaceOnUse    =   	HCBookbronzeworking,
 		DisplayCategory	=   LitR,
     }
@@ -1008,7 +1008,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Alloys Textbook,
 		Icon		=	HCBookalloys,
-		TeachedRecipes  =   	Make Constantan Ingot;Make Pewter Ingot;Make Sterling Silver Ingot;Make Electrum Ingot;Make Rose Gold Ingot;Make White Gold Ingot;Make Invar Ingot;Make Nichrome Ingot;Make Kanthal Ingot;Make Constantan Ingot;Make Duralumin Ingot;Recycle Electrum;Make Invar Rod,
+
         	ReplaceOnUse    =   	HCBookalloys,
 		DisplayCategory	=   LitR,
     }
@@ -1019,7 +1019,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Metalurgy Textbook,
 		Icon		=	HCBookmetalurgy,
-		TeachedRecipes  =   	Make Metal Bar;Make Nickel Ingot;Make Nickel Ingots;Make Zinc Ingot;Make Zinc Ingots;Make Chrome Ingot;Make Chrome Ingots;Make Tungsten Ingot;Make Tungsten Ingots;Recycle Zinc;Make Nickel Powder;Make Cobalt Powder;Make Zinc Powder;Make Chrome Powder;Make Tungsten Powder,
+		LearnedRecipes  =   	Recycle Zinc;Recycle Zinc (Nickel);Recycle Zinc (Dime);Recycle Zinc (Quarter);Recycle Zinc (Half Dollar);Recycle Zinc (Dollar);Make Nickel Powder;Make Nickel Powder (Nickel Powder);Make Cobalt Powder;Make Cobalt Powder (Cobalt Powder);Make Zinc Powder;Make Zinc Powder (Zinc Powder);Make Chrome Powder;Make Chrome Powder (Chrome Powder);Make Tungsten Powder;Make Tungsten Powder (Tungsten Powder),
         	ReplaceOnUse    =   	HCBookmetalurgy,
 		DisplayCategory	=   LitR,
     }
@@ -1030,7 +1030,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Iron Working Textbook,
 		Icon		=	HCBookironworking,
-		TeachedRecipes  =   	Make Iron Ingot;Make Iron Ingots;Make Iron Anvil;Make Nails;Recycle Iron;Make Iron Rod;Make Iron Pole;Make Iron Cauldron;Make Iron Powder,
+		LearnedRecipes  =   	Make Iron Powder;Make Iron Powder (Iron Powder),
         	ReplaceOnUse    =   	HCBookironworking,
 		DisplayCategory	=   LitR,
     }
@@ -1041,7 +1041,7 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Lead Working Textbook,
 		Icon			=	HCBookleadworking,
-		TeachedRecipes  =   Make Lead Ingot;Make Lead Ingots;Recycle Lead;Make Lead Rod;Make Lead Buckshot;Make Lead Bullet Tips;Make Lead Anvil;Make Lead Powder,
+		LearnedRecipes  =   Make Lead Powder;Make Lead Powder (Lead Powder),
         ReplaceOnUse    =   HCBookleadworking,
 		DisplayCategory	=   LitR,
     }
@@ -1052,7 +1052,7 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Steel Working Textbook,
 		Icon			=	HCBooksteelworking,
-		TeachedRecipes  =   Make Steel Ingot;Make Steel Ingots;Recycle Steel;Recycle Spring Steel;Make Steel Rod;Make Leaf Spring;Make Clothespins,
+		LearnedRecipes  =   Make Clothespins,
         ReplaceOnUse    =   HCBooksteelworking,
 		DisplayCategory	=   LitR,
     }
@@ -1063,7 +1063,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Coal Working Textbook,
 		Icon		=	HCBookcoalworking,
-		TeachedRecipes  =   	Make Charcoal Powder;Make Graphite Powder;Make Coke;Make Graphite Ingot;Make Graphite Ingots;Make Graphite Rod;Make Tar Sticks;Distill Lighter Fluid;Distill Creosote Oil;Treat Wood Plank,
+		LearnedRecipes  =   	Make Charcoal Powder;Make Charcoal Powder (Charcoal Powder);Make Graphite Powder;Make Graphite Powder (Graphite Powder),
         ReplaceOnUse    =   	HCBookcoalworking,
 		DisplayCategory	=   LitR,
     }
@@ -1074,7 +1074,7 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Silver Working Textbook,
 		Icon			=	HCBooksilverworking,
-		TeachedRecipes  =   Make Silver Ingot;Make Silver Ingots;Recycle Silver;Make Silver Powder,
+		LearnedRecipes  =   Recycle Silver;Make Silver Powder;Make Silver Powder (Silver Powder),
         ReplaceOnUse    =   HCBooksilverworking,
 		DisplayCategory	=   LitR,
     }
@@ -1085,7 +1085,7 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Gold Working Textbook,
 		Icon			=	HCBookgoldworking,
-		TeachedRecipes  =   Make Gold Ingot;Make Gold Ingots;Recycle Gold;Make Gold Powder,
+		LearnedRecipes  =   Recycle Gold;Make Gold Powder;Make Gold Powder (Gold Powder),
         ReplaceOnUse    =   HCBookgoldworking,
 		DisplayCategory	=   LitR,
     }
@@ -1096,7 +1096,7 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Aluminum Working Textbook,
 		Icon			=	HCBookaluminumworking,
-		TeachedRecipes  =   Make Aluminum Ingot;Make Aluminum Ingots;Recycle Aluminum;Make Aluminum Tent Peg;Make Aluminum Powder;Make Aluminum Foil,
+		LearnedRecipes  =   Make Aluminum Powder;Make Aluminum Powder (Aluminum Powder);Make Aluminum Foil,
         ReplaceOnUse    =   HCBookaluminumworking,
 		DisplayCategory	=   LitR,
     }
@@ -1107,7 +1107,7 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Titanium Working Textbook,
 		Icon			=	HCBooktitaniumworking,
-		TeachedRecipes  =   Make Titanium Ingot;Make Titanium Ingots;Make Titanium Rod;Make Titanium Powder,
+		LearnedRecipes  =   Make Titanium Powder,
         ReplaceOnUse    =   HCBooktitaniumworking,
 		DisplayCategory	=   LitR,
     }
@@ -1118,7 +1118,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Lithium Working Textbook,
 		Icon		=	HCBooklithiumworking,
-		TeachedRecipes  =   	Make Lithium Ingot;Make Lithium Ingots;Recycle Lithium;Make Lithium Powder,
+		LearnedRecipes  =   	Make Lithium Powder;Make Lithium Powder (Lithium Powder),
         	ReplaceOnUse    =   	HCBooklithiumworking,
 		DisplayCategory	=   LitR,
     }
@@ -1129,7 +1129,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Rubber Working Textbook,
 		Icon		=	HCBookrubberworking,
-		TeachedRecipes  =   	Make Rubber;Recycle Rubber;Make Vulcanized Rubber;Make Rubber Sheet;Make Rubber Hose;Make Rubber Bungs;Make Sap Catcher;Add Sap Catchers to Rubber Tree;Make Rubber Cement,
+		LearnedRecipes  =   	Make Rubber;Make Vulcanized Rubber;Make Rubber Sheet;Make Rubber Hose;Make Rubber Hose (Welding Hose);Make Rubber Hose (Garden Hose);Make Rubber Bungs;Make Sap Catcher;Add Sap Catchers to Rubber Tree;Make Rubber Cement;Make Rubber Cement (Methanol),
         	ReplaceOnUse    =   	HCBookrubberworking,
 		DisplayCategory	=   LitR,
     }
@@ -1140,7 +1140,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Candle Making Textbook,
 		Icon		=	HCBookcandlemaking,
-		TeachedRecipes  =   	Make Wax Candle;Make Tallow Candle;Make Candleberry Wax;Recycle Wax;Prepare Cheese Cloth-wrapped Wax;Prepare Pot of Refined Wax;Process Refined Wax;Prepare Pot of Melted Refined Wax;Make Tallow,
+		LearnedRecipes  =   	Make Wax Candle;Make Tallow Candle;Make Candleberry Wax;Prepare Pot of Refined Wax;Process Refined Wax;Prepare Pot of Melted Refined Wax;Make Tallow,
         	ReplaceOnUse    =   	HCBookcandlemaking,
 		DisplayCategory	=   LitR,
     }
@@ -1151,7 +1151,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Soap Making Textbook,
 		Icon		=	HCBooksoapmaking,
-		TeachedRecipes  =   	Make Tallow;Make Homemade Soap,
+		LearnedRecipes  =   	Make Tallow;Make Homemade Soap,
         	ReplaceOnUse    =   	HCBooksoapmaking,
 		DisplayCategory	=   LitR,
     }
@@ -1162,7 +1162,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Basketry Textbook,
 		Icon		=	HCBookbasketry,
-		TeachedRecipes  =   	Make Wicker Basket;Make Birch Bark Basket;Make Straw Basket;Make Fishing Basket;Weave Reed Mat;Dry Reed Mat;Make Netting,
+		LearnedRecipes  =   	Make Wicker Basket;Make Birch Bark Basket;Make Straw Basket;Make Fishing Basket;Weave Reed Mat;Dry Reed Mat;Make Netting,
         	ReplaceOnUse    =   	HCBookbasketry,
 		DisplayCategory	=   LitR,
     }
@@ -1173,7 +1173,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Masonry Textbook,
 		Icon		=	HCBookmasonry,
-		TeachedRecipes  =   	Make Grey Bricks;Make Red Bricks;Make Mortar;Construct Brick Pillar;Make Smelter;Make Blast Furnace;Upgrade to Blast Furnace;Make Concrete Ingot;Make Concrete Powder;Make Concrete;Make Plaster;Make Plaster Powder;Make Gypsum Powder;Make Concrete Block;Make Hempcrete Block;Make Refractory Brick;Make Leadcrete Block,
+		LearnedRecipes  =   	Make Gypsum Powder;Make Gypsum Powder (Gypsum Powder),
         	ReplaceOnUse    =   	HCBookmasonry,
 		DisplayCategory	=   LitR,
     }
@@ -1184,7 +1184,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Stoneworking Textbook,
 		Icon		=	HCBookstoneworking,
-		TeachedRecipes  =   	Make Gravel;Make Sand;Make Mortar;Construct Stone Pillar;Make Stone Anvil;Make Tombstone;Construct Tar Kiln;Construct Well;Construct Cellar;Make Stone Wheel;Construct Oil Press;Construct Grindstone;Make Stone Arrowhead;Build Stamp Mill;Upgrade Stamp Mill;Make Obelisk,
+
         	ReplaceOnUse    =   	HCBookstoneworking,
 		DisplayCategory	=   LitR,
     }
@@ -1195,7 +1195,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Hunting Textbook,
 		Icon		=	HCBookhunting,
-		TeachedRecipes  =   	Hunt Animals;Kill Animal;Butcher Carcass;Make Drying Frame;Dry Fur;Dry Hide;Cut Dry Fur;Cut Hide Straps;Open Bear Trap;Set Bear Trap;Build Hunting Blind,
+		LearnedRecipes  =   	Hunt Animals;Hunt Animals (Binoculars);Hunt Animals (Binoculars 2);Hunt Animals (Binoculars 3);Hunt Animals (Binoculars 4);Hunt Animals (Binoculars 5);Hunt Animals (Binoculars 6);Hunt Animals (Binoculars 7);Hunt Animals (Binoculars 8);Hunt Animals (Binoculars 9);Hunt Animals (Binoculars 10);Hunt Animals (Binoculars 11);Hunt Animals (Binoculars 12);Hunt Animals (Binoculars 13);Hunt Animals (Binoculars 14);Hunt Animals (Binoculars 15);Hunt Animals (Binoculars 16);Hunt Animals (Binoculars 17);Hunt Animals (Binoculars 18);Hunt Animals (Binoculars 19);Hunt Animals (Binoculars 20);Hunt Animals (Binoculars 21);Hunt Animals (Binoculars 22);Hunt Animals (Binoculars 23);Hunt Animals (Binoculars 24);Hunt Animals (Binoculars 25);Hunt Animals (Binoculars 26);Hunt Animals (Binoculars 27);Hunt Animals (Binoculars 28);Hunt Animals (Hunting Blind);Hunt Animals (Hunting Blind 2);Hunt Animals (Hunting Blind 3);Hunt Animals (Hunting Blind 4);Hunt Animals (Hunting Blind 5);Hunt Animals (Hunting Blind 6);Hunt Animals (Hunting Blind 7);Hunt Animals (Hunting Blind 8);Hunt Animals (Hunting Blind 9);Hunt Animals (Hunting Blind 10);Hunt Animals (Binoculars 29);Hunt Animals (Binoculars 30);Hunt Animals (Hunting Blind 11);Hunt Animals (Hunting Blind 12);Hunt Animals (Hunting Blind 13);Hunt Animals (Hunting Blind 14);Hunt Animals (Hunting Blind 15);Hunt Animals (Hunting Blind 16);Hunt Animals (Hunting Blind 17);Hunt Animals (Hunting Blind 18);Hunt Animals (Hunting Blind 19);Hunt Animals (Hunting Blind 20);Hunt Animals (Hunting Blind 21);Hunt Animals (Hunting Blind 22);Hunt Animals (Hunting Blind 23);Hunt Animals (Hunting Blind 24);Hunt Animals (Hunting Blind 25);Hunt Animals (Hunting Blind 26);Hunt Animals (Hunting Blind 27);Hunt Animals (Hunting Blind 28);Kill Animal;Kill Animal (Dead Black Duck);Kill Animal (Dead Black Duck 2);Kill Animal (Dead Canvasback Duck);Kill Animal (Dead Canvasback Duck 2);Kill Animal (Dead Mallard);Kill Animal (Dead Pintail Duck);Kill Animal (Dead Pintail Duck 2);Kill Animal (Dead Redhead Duck);Kill Animal (Dead Redhead Duck 2);Kill Animal (Dead Scaup Duck);Kill Animal (Dead Scaup Duck 2);Kill Animal (Dead Wood Duck);Kill Animal (Dead Wood Duck 2);Kill Animal (Dead Canadian Goose);Kill Animal (Dead Snow Goose);Kill Animal (Dead Quail);Kill Animal (Dead Quail 2);Kill Animal (Dead Turkey);Kill Animal (Dead Muskrat);Kill Animal (Dead Groundhog);Kill Animal (Dead Nutria);Kill Animal (Dead Beaver);Kill Animal (Dead Porcupine);Kill Animal (Dead Armadillo);Kill Animal (Dead Fox);Kill Animal (Dead Opossum);Kill Animal (Dead Skunk);Kill Animal (Dead Raccoon);Kill Animal (Dead Boar);Kill Animal (Dead Deer);Kill Animal (Dead Deer 2);Kill Animal (Dead Black Bear);Kill Animal (Dead Grizzly Bear);Butcher Carcass;Butcher Carcass (Headless Skeleton);Make Drying Frame;Dry Fur;Dry Hide;Dry Hide (Dried Squirrel Hide);Dry Hide (Dried Groundhog Hide);Dry Hide (Dried Muskrat Hide);Dry Hide (Dried Nutria Hide);Dry Hide (Dried Beaver Hide);Dry Hide (Dried Armadillo Hide);Dry Hide (Dried Fox Hide);Dry Hide (Dried Opossum Hide);Dry Hide (Dried Skunk Hide);Dry Hide (Dried Raccoon Hide);Dry Hide (Dried Boar Hide);Dry Hide (Dried Deer Hide);Dry Hide (Dried Black Bear Hide);Dry Hide (Dried Grizzly Bear Hide);Dry Hide (Dried Cougar Hide);Dry Hide (Dried Dog Hide);Dry Hide (Dried Cat Hide);Dry Hide (Dried Sheep Hide);Dry Hide (Dried Goat Hide);Dry Hide (Dried Pig Hide);Dry Hide (Dried Cow Hide);Dry Hide (Dried Bull Hide);Dry Hide (Dried Donkey Hide);Dry Hide (Dried Horse Hide);Cut Dry Fur;Cut Dry Fur (Dried Fur);Cut Dry Fur (Dried Fur 2);Cut Dry Fur (Dried Fur 3);Cut Dry Fur (Dried Fur 4);Cut Hide Straps;Open Bear Trap;Set Bear Trap;Build Hunting Blind,
         	ReplaceOnUse    =   	HCBookhunting,
 		DisplayCategory	=   LitR,
     }
@@ -1206,7 +1206,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Leather Working Textbook,
 		Icon		=	HCBookleatherworking,
-		TeachedRecipes  =  Make Leather;Cut Leather;Make Hardened Leather;Make Fine Leather;Make Tannin;Make Milk of Lime;Make Limed Hide;Make Rose Tanning Oil;Make Waterflask;Make Bellows;Make Blacksmith Apron;Make Fine Leather Alice Pack;Make Horse Saddle;Make Horse Collar;Dry Skin;Make Belt;Stitch Leather Sand Bag;Stitch Boxing Gloves;Make Camo Leather;Stitch Green Camo Leather Jacket;Stitch Leather Pants;Stitch Hardened Leather Pants; Make Quiver,
+		LearnedRecipes  =  Make Leather;Cut Leather;Make Hardened Leather;Make Hardened Leather (Candleberry Wax);Make Fine Leather;Make Tannin;Make Milk of Lime;Make Limed Hide;Make Rose Tanning Oil;Make Waterflask;Make Blacksmith Apron;Make Fine Leather Alice Pack;Make Horse Saddle;Make Horse Collar;Dry Skin;Make Belt;Stitch Leather Sand Bag;Stitch Boxing Gloves;Make Camo Leather;Stitch Green Camo Leather Jacket;Stitch Leather Pants;Stitch Hardened Leather Pants;Make Quiver;Make Studded Leather Gloves;Make Greaves;Make Greaves (Leather Greaves),
         ReplaceOnUse    =   	HCBookleatherworking,
 		DisplayCategory	=   LitR,
     }
@@ -1217,7 +1217,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Tailoring Textbook,
 		Icon		=	HCBooktailoring,
-		TeachedRecipes  =   	Stitch Linen Shirt;Make Netting;Make Spindle;Make Work Gloves;Stitch Linen Pants;Make Gym Towel;Make Bag;Recycle Bag;Recycle Sack;Stitch Garden Apron;Make Tailor's Workbench;Knit Wool Socks,
+		LearnedRecipes  =   	Stitch Linen Shirt;Make Netting;Make Spindle;Make Work Gloves;Stitch Linen Pants;Make Gym Towel;Make Bag;Recycle Bag;Recycle Sack;Stitch Garden Apron;Make Tailor's Workbench;Knit Wool Socks;Stitch Fur Hat;Stitch Fur Hat (Raccoon Hat);Stitch Fur Cloak;Stitch Fur Cloak (Grizzly Bear Cloak);Stitch Fur Coat;Stitch Fur Pants;Stitch Trapper Jacket;Stitch Silk Shirt;Stitch Silk Pants;Stitch Wool Shirt;Stitch Wool Pants,
         ReplaceOnUse    =   	HCBooktailoring,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBooktailoringOpen,
@@ -1230,7 +1230,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Hatter Textbook,
 		Icon		=	HCBookhatter,
-		TeachedRecipes  =  Make Straw Hat,
+		LearnedRecipes  =  Make Straw Hat,
         ReplaceOnUse    =   	HCBookhatter,
 		DisplayCategory	=   LitR,
     }
@@ -1241,7 +1241,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Cobbling Textbook,
 		Icon		=	HCBookcobbling,
-		TeachedRecipes  =   	Make Leather Boots,
+		LearnedRecipes  =   	Make Leather Boots,
         ReplaceOnUse    =   	HCBookcobbling,
 		DisplayCategory	=   LitR,
     }
@@ -1252,7 +1252,7 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Armor Crafting Textbook,
 		Icon			=	HCBookarmorcrafting,
-		TeachedRecipes  =   Reinforce Shirt;Reinforce Pants;Stitch Cow Fur Jacket;Stitch Hardened Leather Gloves;Make Leather Gloves;Make War Dog Armor;Make Spiked War Dog Armor;Attach Armor to Dog;Remove Armor from Wardog,
+		LearnedRecipes  =   Reinforce Shirt;Reinforce Shirt (Armored Linen Shirt);Reinforce Pants;Reinforce Pants (Armored Linen Pants);Stitch Cow Fur Jacket;Stitch Hardened Leather Gloves;Make Leather Gloves;Make War Dog Armor;Make Spiked War Dog Armor;Attach Armor to Dog;Attach Armor to Dog (Variant);Attach Armor to Dog (Variant 2);Attach Armor to Dog (Variant 3);Attach Armor to Dog (Variant 4);Attach Armor to Dog (Variant 5);Remove Armor from Wardog;Remove Armor from Wardog (Injured Pitbull (Female));Remove Armor from Wardog (Injured Doberman (Male));Remove Armor from Wardog (Injured Doberman (Female)),
         ReplaceOnUse    =   HCBookarmorcrafting,
 		DisplayCategory	=   LitR,
     }
@@ -1263,7 +1263,7 @@ module Hydrocraft
         	ItemType		=	base:literature,
         	DisplayName	=	Herbalism Textbook,
         	Icon		=	HCBookherbalism,
-        	TeachedRecipes  =  Harvest Flax;Add Herbal Medicine;Make Bunch of Berries;Dry Leaves;Dry Herbs;Dry Flower;Dry Spice;Dry Berry;Make Herbal Tea;Make Teabag;Grind Tobacco;Roll Cigar;Cure Hemp Bud;Soak Fresh Jute Stems;Dry Jute Stems;Make Mild Poison;Make Strong Poison;Extract Seed from Raw Rice;Thresh Rice;Shuck Corn;Harvest Pollen;Harvest Pollen Considered;Gather Seeds,
+        	LearnedRecipes  =  Harvest Flax;Add Herbal Medicine;Add Herbal Medicine (Rag with Herbal Medicine);Add Herbal Medicine (Menstral Pad with Herbal Medicine);Add Herbal Medicine (Diaper with Herbal Medicine);Add Herbal Medicine (Diaper with Herbal Medicine 2);Make Bunch of Berries;Dry Leaves;Dry Leaves (Green Tea Leaves);Dry Leaves (Black Tea Leaves);Dry Herbs;Dry Flower;Dry Flower (Dried Thistle);Dry Flower (Dried Skullcap);Dry Flower (Dried Daisy);Dry Flower (Dried Anemone);Dry Flower (Dried Camellia);Dry Flower (Dried Lavender);Dry Spice;Dry Spice (Dried Garlic);Dry Spice (Dried Onion);Dry Berry;Make Herbal Tea;Make Herbal Tea (Camomile Tea);Make Herbal Tea (Nettle Tea);Make Herbal Tea (Nettle Tea 2);Make Herbal Tea (Thistle Tea);Make Herbal Tea (Thistle Tea 2);Make Herbal Tea (Skullcap Tea);Make Herbal Tea (Skullcap Tea 2);Make Herbal Tea (Daisy Tea);Make Herbal Tea (Daisy Tea 2);Make Herbal Tea (Anemome Tea);Make Herbal Tea (Anemome Tea 2);Make Herbal Tea (Camellia Tea);Make Herbal Tea (Camellia Tea 2);Make Teabag;Make Teabag (Black Tea Leaves);Grind Tobacco;Grind Tobacco (Tobacco);Roll Cigar;Cure Hemp Bud;Soak Fresh Jute Stems;Dry Jute Stems;Extract Seed from Raw Rice;Thresh Rice;Shuck Corn;Shuck Corn (White Corn Seeds);Shuck Corn (Red Corn Seeds);Shuck Corn (Blue Corn Seeds);Harvest Pollen;Harvest Pollen Considered,
         	ReplaceOnUse    =   	HCBookherbalism,
 		DisplayCategory	=   LitR,
     }
@@ -1274,7 +1274,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Sericulture Textbook,
 		Icon		=	HCBooksericulture,
-		TeachedRecipes  =   	Breed Silkmoths;Feed Silkworm;Harvest Silk;Cook Empty Silk Cocoon,
+		LearnedRecipes  =   	Breed Silkmoths;Feed Silkworm;Harvest Silk;Cook Empty Silk Cocoon,
         	ReplaceOnUse    =   	HCBooksericulture,
 		DisplayCategory	=   LitR,
     }
@@ -1285,7 +1285,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Fungi Fieldguide,
 		Icon		=	HCBookfungiguide,
-		TeachedRecipes  =   	Make Bunch of Mushrooms,
+		LearnedRecipes  =   	Make Bunch of Mushrooms;Make Bunch of Mushrooms (Variant);Make Bunch of Mushrooms (Variant 2);Make Bunch of Mushrooms (Variant 3);Make Bunch of Mushrooms (Variant 4);Make Bunch of Mushrooms (Variant 5);Make Bunch of Mushrooms (Variant 6);Make Bunch of Mushrooms (Variant 7);Make Bunch of Mushrooms (Variant 8);Make Bunch of Mushrooms (Variant 9);Make Bunch of Mushrooms (Variant 10);Make Bunch of Mushrooms (Variant 11);Make Bunch of Mushrooms (Variant 12);Make Bunch of Mushrooms (Variant 13);Make Bunch of Mushrooms (Variant 14);Make Bunch of Mushrooms (Variant 15);Make Bunch of Mushrooms (Variant 16);Make Bunch of Mushrooms (Variant 17);Make Bunch of Mushrooms (Variant 18);Make Bunch of Mushrooms (Variant 19);Make Bunch of Mushrooms (Variant 20);Make Bunch of Mushrooms (Variant 21);Make Bunch of Mushrooms (Portobello Mushroom);Make Bunch of Mushrooms (Portobello Mushroom 2);Make Bunch of Mushrooms (Portobello Mushroom 3);Make Bunch of Mushrooms (Shiitake Mushroom);Make Bunch of Mushrooms (Shiitake Mushroom 2);Make Bunch of Mushrooms (Shiitake Mushroom 3);Make Bunch of Mushrooms (Blewit Mushroom);Make Bunch of Mushrooms (Blewit Mushroom 2);Make Bunch of Mushrooms (Blewit Mushroom 3);Make Bunch of Mushrooms (Lobster Mushroom);Make Bunch of Mushrooms (Lobster Mushroom 2);Make Bunch of Mushrooms (Lobster Mushroom 3);Make Bunch of Mushrooms (Witch's Hat Mushroom);Make Bunch of Mushrooms (Witch's Hat Mushroom 2);Make Bunch of Mushrooms (Witch's Hat Mushroom 3);Make Bunch of Mushrooms (Yellow Morel Mushroom);Make Bunch of Mushrooms (Yellow Morel Mushroom 2);Make Bunch of Mushrooms (Yellow Morel Mushroom 3),
         	ReplaceOnUse    =   	HCBookfungiguide,
 		DisplayCategory	=   LitR,
     }
@@ -1296,7 +1296,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Pharmacology Textbook,
 		Icon		=	HCBookpharmacology,
-		TeachedRecipes  =   	Research Painkillers;Research Anti-Depression Medication;Research Antibiotics;Research Crystal Meth;Research Opium;Research Beta Blocker Medication,
+		LearnedRecipes  =   	Research Painkillers;Research Anti-Depression Medication;Research Antibiotics;Research Crystal Meth;Research Opium;Research Beta Blocker Medication;Research Ether,
         	ReplaceOnUse    =   	HCBookpharmacology,
 		DisplayCategory	=   LitR,
     }
@@ -1307,7 +1307,7 @@ module Hydrocraft
 		ItemType		=	base:literature,											
 		DisplayName	=	Welding Textbook,                                   
 		Icon		=	HCBookwelding,
-		TeachedRecipes  =  Build Industrial Furnace;Upgrade to Industrial Furnace;Build Arc Furnace;Cut Small Copper Sheets;Cut Small Tin Sheets;Cut Small Bronze Sheets;Cut Small Iron Sheets;Cut Small Steel Sheet;Cut Small Lead Sheets;Cut Small Metal Sheets;Cut Small Titanium Sheets;Make Large Copper Sheet;Make Large Tin Sheet;Make Large Silver Sheet;Make Large Bronze Sheet;Make Large Iron Sheet;Make Large Lead Sheet;Make Large Steel Sheet;Make Large Aluminum Sheet;Make Large Titanium Sheet;Make Steel Pipe;Make Copper Pipe;Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Iron Wheel;Make Steel Wheel;Make Iron Pulley;Make Steel Pulley;Make Wood Pulley;Make Mine Cart;Make Steel Chain;Make Large Iron Ring;Make Large Steel Ring,
+		LearnedRecipes  =  Build Industrial Furnace;Upgrade to Industrial Furnace;Build Arc Furnace;Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Iron Wheel;Make Steel Wheel;Make Iron Pulley;Make Steel Pulley;Make Wood Pulley;Make Mine Cart;Make Steel Chain,
         ReplaceOnUse    =   	HCBookwelding,
 		DisplayCategory	=   LitR,
     }
@@ -1318,7 +1318,7 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Wire Textbook,
 		Icon			=	HCBookwire,
-		TeachedRecipes  =   Make Welding Rods;Make Copper Wire;Make Lead Wire;Make Iron Wire;Make Steel Wire;Make Electrum Wire;Make Constantan Wire;Make Aluminum Wire;Make Zinc Wire;Make Thermocouple Wire;Make Constantan Heating Coil;Make Nichrome Heating Coil;Make Kanthal Heating Coil;Make Barbed Wire;Make Razor Wire,
+		LearnedRecipes  =   Make Welding Rods;Make Copper Wire;Make Lead Wire;Make Iron Wire;Make Steel Wire;Make Electrum Wire;Make Constantan Wire;Make Aluminum Wire;Make Zinc Wire;Make Thermocouple Wire;Make Constantan Heating Coil;Make Nichrome Heating Coil;Make Kanthal Heating Coil;Make Barbed Wire;Make Razor Wire,
         ReplaceOnUse    =   HCBookwire,
 		DisplayCategory	=   LitR,
     }
@@ -1329,7 +1329,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Magnets Textbook,
 		Icon		=	HCBookmagnets,
-		TeachedRecipes  =   	Make Magnetite Ingot;Make Magnetite Ingots;Make Giant Magnet;Search Junk with Giant Magnet;Make Magnetite Powder,
+		LearnedRecipes  =   	Make Giant Magnet;Search Junk with Giant Magnet;Make Magnetite Powder;Make Magnetite Powder (Magnetite Powder),
         	ReplaceOnUse    =   	HCBookmagnets,
 		DisplayCategory	=   LitR,
     }
@@ -1340,7 +1340,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Industrial Mechanics Textbook,
 		Icon		=	HCBookindustrial,
-		TeachedRecipes  =   Build Mechanical Thresher;Build Trip Hammer;Build Steam Boiler;Build Iron Furnace;Build Steam Engine;Build Steam Machine;Upgrade to Steam Hammer;Make Copper Gears;Make Tin Gears;Make Bronze Gears;Make Iron Gears;Make Invar Gears;Make Lead Gears;Make Steel Gears;Make Titanium Gears;Make Small Copper Sheet;Make Small Tin Sheet;Make Small Bronze Sheet;Make Small Iron Sheet;Make Small Lead Sheet;Make Small Steel Sheet;Make Small Metal Sheet;Make Small Titanium Sheet;Make Copper Sheet;Make Tin Sheet;Make Silver Sheet;Make Bronze Sheet;Make Iron Sheet;Make Lead Sheet;Make Steel Sheet;Make Metal Sheet;Make Titanium Sheet;Make Large Copper Sheet;Make Large Tin Sheet;Make Large Silver Sheet;Make Large Bronze Sheet;Make Large Iron Sheet;Make Large Lead Sheet;Make Large Steel Sheet;Make Large Aluminum Sheet;Make Large Titanium Sheet;Make Steel Crank;Make Iron Crank;Make Lever;Make Small Rolling Mill;Make Electric Piston;Make Macerator;Make Industrial Press;Make Fan Blade;Make Duct Fan;Make Metal Duct,
+		LearnedRecipes  =   Build Mechanical Thresher;Build Trip Hammer;Build Steam Boiler;Build Iron Furnace;Build Steam Engine;Build Steam Machine;Upgrade to Steam Hammer;Make Copper Gears;Make Tin Gears;Make Bronze Gears;Make Iron Gears;Make Invar Gears;Make Lead Gears;Make Steel Gears;Make Titanium Gears;Make Small Rolling Mill;Make Electric Piston;Make Macerator;Make Industrial Press;Make Fan Blade;Make Duct Fan;Make Metal Duct,
         ReplaceOnUse    =   	HCBookindustrial,
 		DisplayCategory	=   LitR,
     }
@@ -1351,7 +1351,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Gunsmithing Textbook,
 		Icon		=	HCBookgunsmithing,
-		TeachedRecipes  =	Make Gunpowder;Make 9mm Bullets;Make .223 Bullets;Make .308 Bullets;Make Shotgun Shells,
+		LearnedRecipes  =	Make Gunpowder;Make 9mm Bullets;Make .308 Bullets;Make Shotgun Shells,
         ReplaceOnUse    =   	HCBookgunsmithing,
 		DisplayCategory	=   LitR,
     }
@@ -1362,7 +1362,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Rocketry Textbook,
 		Icon		=	HCBookrocketry,
-		TeachedRecipes  =   	Craft Rocket,
+
         	ReplaceOnUse    =   	HCBookrocketry,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookrocketryOpen,
@@ -1375,7 +1375,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Appliance Repair Manual,
 		Icon		=	HCBookjunk,
-		TeachedRecipes  =   	Dismantle Fridge;Dismantle TV;Dismantle Washing Machine;Dismantle Drying Machine;Dismantle Microwave;Dismantle Tredmill;Fix Microwave;Fix Fridge;Fix Washing Machine;Fix Drying Machine;Make Copper Cooling Rack,
+		LearnedRecipes  =   	Dismantle Fridge;Dismantle TV;Dismantle Washing Machine;Dismantle Drying Machine;Dismantle Microwave;Dismantle Tredmill;Fix Microwave;Fix Fridge;Fix Washing Machine;Fix Drying Machine,
         	ReplaceOnUse    =   	HCBookjunk,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookjunkOpen,
@@ -1388,7 +1388,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Auto Repair Manual,
 		Icon		=	HCBookauto,
-		TeachedRecipes  =   	Dismantle Auto Parts,
+		LearnedRecipes  =   	Dismantle Auto Parts;Dismantle Auto Parts (Drum Brake),
         	ReplaceOnUse    =   	HCBookauto,
 		DisplayCategory	=   LitR,
     }
@@ -1399,7 +1399,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Bicycle Repair Manual,
 		Icon		=	HCBookbicycle,
-		TeachedRecipes  =   	Repair Bicycle;Dismantle Bicycle;Attach Baskets to Bicycle;Remove Baskets to Bicycle,
+		LearnedRecipes  =   	Repair Bicycle;Dismantle Bicycle;Attach Baskets to Bicycle;Remove Baskets to Bicycle,
         	ReplaceOnUse    =   	HCBookbicycle,
 		DisplayCategory	=   LitR,
     }
@@ -1410,7 +1410,7 @@ module Hydrocraft
 		ItemType		= 	base:literature,
 		DisplayName	= 	Anarchist Cookbook,
 		Icon		= 	HCBookanarchist,
-		TeachedRecipes  = 	Add Private Notes to Anarchist Cookbook;Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Electric Clamp;Find Seeds;Make Crossbow Scope,
+		LearnedRecipes  = 	Add Private Notes to Anarchist Cookbook;Add Private Notes to Anarchist Cookbook (Anarchist Cookbook with Private Note);Add Private Notes to Anarchist Cookbook (Anarchist Cookbook);Add Private Notes to Anarchist Cookbook (Anarchist Cookbook 2);Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Electric Clamp;Find Seeds;Make Crossbow Scope;Make Crossbow Scope (x4 Crossbow Scope),
         	ReplaceOnUse    = 	HCBookanarchist,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookanarchistOpen,
@@ -1423,7 +1423,7 @@ module Hydrocraft
 		ItemType		= 	base:literature,
 		DisplayName	= 	Anarchist Cookbook with Private Note,
 		Icon		= 	HCBookanarchistpn01,
-		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD;Make Electric Clamp;Make Crossbow Scope,
+		LearnedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD;Make Electric Clamp;Make Crossbow Scope;Make Crossbow Scope (x4 Crossbow Scope),
         	ReplaceOnUse    = 	HCBookanarchisthmtd,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookanarchistOpen,
@@ -1436,7 +1436,7 @@ module Hydrocraft
 		ItemType		= 	base:literature,
 		DisplayName	= 	Anarchist Cookbook with Private Note,
 		Icon		= 	HCBookanarchistpn01,
-		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Ammonal;Dry Ammonal;Cook Ammonal;Fill Ammonal in Bag;Make Electric Clamp;Make Crossbow Scope,
+		LearnedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Ammonal;Dry Ammonal;Cook Ammonal;Fill Ammonal in Bag;Make Electric Clamp;Make Crossbow Scope;Make Crossbow Scope (x4 Crossbow Scope),
         	ReplaceOnUse    = 	HCBookanarchistammonal,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookanarchistOpen,
@@ -1449,7 +1449,7 @@ module Hydrocraft
 		ItemType		= 	base:literature,
 		DisplayName	= 	Anarchist Cookbook,
 		Icon		= 	HCBookanarchistpn02,
-		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD;Make Ammonal;Dry Ammonal;Fill Ammonal in Bag;Make Ammonal Bomb;Make Electric Clamp,
+		LearnedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD;Make Ammonal;Dry Ammonal;Fill Ammonal in Bag;Make Ammonal Bomb;Make Electric Clamp,
         	ReplaceOnUse    = 	HCBookanarchistpn02,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookanarchistOpen,
@@ -1685,7 +1685,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Locksmithing Textbook,
 		Icon		=	HCBooklocksmithing,
-		TeachedRecipes  =   	Make Bronze Doorknob;Make Iron Hinge;Make Steel Padlock;Make Titanium Hinge;Make Metal Safe;Make Metal Combination Safe,
+		LearnedRecipes  =   	Make Bronze Doorknob;Make Iron Hinge;Make Steel Padlock;Make Titanium Hinge;Make Metal Safe;Make Metal Combination Safe;Attempt to Crack Safe Open,
         	ReplaceOnUse    =   	HCBooklocksmithing,
 		DisplayCategory	=   LitR,
     }
@@ -1696,7 +1696,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Microbiology Textbook,
 		Icon		=	HCBookmicrobiology,
-		TeachedRecipes  =   	Look Through Microscope;Prepare Petri Dish;Make Homemade Agar;Prepare Agar;Clean Petri Dish,
+		LearnedRecipes  =   	Look Through Microscope;Look Through Microscope (Aspergillus Niger);Look Through Microscope (Live Yeast);Look Through Microscope (Slime Mold);Look Through Microscope (Nothing);Prepare Petri Dish;Make Homemade Agar;Prepare Agar;Clean Petri Dish,
         	ReplaceOnUse    =   	HCBookmicrobiology,
 		DisplayCategory	=   LitR,
     }
@@ -1707,7 +1707,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Gardening Textbook,
 		Icon		=	HCBookgardening,
-		TeachedRecipes  =   	Make Gardening Workbench;Plant Crop;Harvest Crop;Make Fertile Soil;Build Planter;Fill Clay Pot with Dirt;Build Scarecrow Stand;Attatch Scarecrow;Attatch Corpse Scarecrow;Make Mildew Cure;Make Flies Cure;Build Trellis Kit;Build Compost Bin;Make Compost;Fill Bag With Compost;Fill Bag With Rice Hull Charcoal;Build Composter,
+		LearnedRecipes  =   	Make Gardening Workbench;Plant Crop;Plant Crop (Small Potted Sugar Beet);Plant Crop (Small Potted Summer Squash);Plant Crop (Small Potted Red Potato);Plant Crop (Small Potted Golden Potatoes);Plant Crop (Small Potted White Cabbage);Plant Crop (Small Potted Red Cabbage);Plant Crop (Small Potted Yellow Bell Pepper);Plant Crop (Small Potted Green Bell Pepper);Plant Crop (Small Potted Cauliflower);Plant Crop (Small Potted Beans);Plant Crop (Small Potted Persimmon);Plant Crop (Small Potted Plum);Plant Crop (Small Potted Kiwi);Plant Crop (Small Potted Fig);Plant Crop (Small Potted Date);Plant Crop (Small Potted Lime Tree);Plant Crop (Small Potted Wheat);Plant Crop (Small Potted Asparagus);Plant Crop (Small Potted Apple Tree);Plant Crop (Small Potted Banana Tree);Plant Crop (Small Potted Blackberry Bush);Plant Crop (Small Potted Blueberry Bush);Plant Crop (Potted Lemon Tree);Plant Crop (Potted Mulberry);Plant Crop (Potted Candleberry Tree);Plant Crop (Small Potted Orange Tree);Plant Crop (Small Potted Peach Tree);Plant Crop (Small Potted Strawberry Bush);Plant Crop (Small Potted Watermelon);Plant Crop (Small Potted Bell Pepper);Plant Crop (Small Potted Broccoli);Plant Crop (Small Potted Cabbage);Plant Crop (Small Potted Carrots);Plant Crop (Small Potted Corn Stalk);Plant Crop (Small Potted Eggplant);Plant Crop (Small Potted Leek);Plant Crop (Small Potted Lettuce);Plant Crop (Small Potted Onion);Plant Crop (Small Potted Pea Plant);Plant Crop (Small Potted Potato);Plant Crop (Small Potted Pumpkin);Plant Crop (Small Potted Radish);Plant Crop (Small Potted Tomato);Plant Crop (Small Potted Peanut Plant);Plant Crop (Small Potted Avocado Tree);Plant Crop (Small Potted Cherry Tree);Plant Crop (Small Potted Pear Tree);Plant Crop (Small Potted Pineapple);Plant Crop (Small Potted Zucchini);Plant Crop (Small Potted Tea Tree);Plant Crop (Small Potted Tobacco Plant);Plant Crop (Small Potted Chinese Cabbage);Plant Crop (Small Potted Cucumber);Plant Crop (Small Potted Ginger);Plant Crop (Small Potted Garlic);Plant Crop (Small Potted Green Onion);Plant Crop (Small Potted Sweet Potato);Plant Crop (Small Potted Jute Plant);Plant Crop (Small Potted Green Pumpkin);Plant Crop (Small Potted White Pumpkin);Plant Crop (Small Potted Large Pumpkin);Plant Crop (Small Potted Buskin Pumpkin);Plant Crop (Small Potted White Corn);Plant Crop (Small Potted Red Corn);Plant Crop (Small Potted Blue Corn);Plant Crop (Small Potted Chili Pepper Plant);Plant Crop (Small Potted Poppy);Plant Crop (Small Potted Cactus);Plant Crop (Small Potted Blue Agave);Plant Crop (Small Potted Prickly Pear Cactus);Plant Crop (Small Potted Green Chili);Plant Crop (Small Potted Tomatillo Plant);Plant Crop (Small Potted Cotton Plant);Plant Crop (Small Potted Rice);Plant Crop (Small Potted Shiitake Mushrooms);Plant Crop (Small Potted Portobello Mushrooms);Plant Crop (Small Potted Colewort);Plant Crop (Small Potted Rubber Tree);Plant Crop (Small Potted Bamboo);Plant Crop (Small Potted Artichokes);Plant Crop (Small Potted Beets);Plant Crop (Potted Mulberry 2);Plant Crop (Small Potted Apricot);Plant Crop (Small Potted Celery);Plant Crop (Small Potted Spinach);Plant Crop (Small Potted Basil);Plant Crop (Small Potted Alfalfa);Plant Crop (Small Potted Oregano);Harvest Crop;Harvest Crop (Planter);Harvest Crop (Planter 2);Harvest Crop (Planter 3);Harvest Crop (Planter 4);Harvest Crop (Planter 5);Harvest Crop (Planter 6);Harvest Crop (Planter 7);Harvest Crop (Planter 8);Harvest Crop (Planter 9);Harvest Crop (Planter 10);Harvest Crop (Potted Persimmon);Harvest Crop (Potted Plum);Harvest Crop (Potted Kiwi);Harvest Crop (Potted Fig);Harvest Crop (Potted Date);Harvest Crop (Potted Lime Tree);Harvest Crop (Planter 11);Harvest Crop (Planter 12);Harvest Crop (Potted Apple Tree);Harvest Crop (Potted Banana Tree);Harvest Crop (Potted Blackberry Bush);Harvest Crop (Potted Blueberry Bush);Harvest Crop (Potted Orange Tree);Harvest Crop (Potted Peach Tree);Harvest Crop (Planter 13);Harvest Crop (Planter 14);Harvest Crop (Planter 15);Harvest Crop (Planter 16);Harvest Crop (Planter 17);Harvest Crop (Planter 18);Harvest Crop (Planter 19);Harvest Crop (Planter 20);Harvest Crop (Planter 21);Harvest Crop (Planter 22);Harvest Crop (Planter 23);Harvest Crop (Planter 24);Harvest Crop (Planter 25);Harvest Crop (Planter 26);Harvest Crop (Planter 27);Harvest Crop (Planter 28);Harvest Crop (Planter 29);Harvest Crop (Potted Avocado Tree);Harvest Crop (Potted Cherry Tree);Harvest Crop (Potted Pear Tree);Harvest Crop (Planter 30);Harvest Crop (Planter 31);Harvest Crop (Planter 32);Harvest Crop (Planter 33);Harvest Crop (Planter 34);Harvest Crop (Planter 35);Harvest Crop (Planter 36);Harvest Crop (Planter 37);Harvest Crop (Planter 38);Harvest Crop (Planter 39);Harvest Crop (Planter 40);Harvest Crop (Planter 41);Harvest Crop (Planter 42);Harvest Crop (Planter 43);Harvest Crop (Planter 44);Harvest Crop (Planter 45);Harvest Crop (Planter 46);Harvest Crop (Planter 47);Harvest Crop (Planter 48);Harvest Crop (Planter 49);Harvest Crop (Planter 50);Harvest Crop (Planter 51);Harvest Crop (Planter 52);Harvest Crop (Planter 53);Harvest Crop (Planter 54);Harvest Crop (Planter 55);Harvest Crop (Planter 56);Harvest Crop (Planter 57);Harvest Crop (Planter 58);Harvest Crop (Planter 59);Harvest Crop (Planter 60);Harvest Crop (Potted Rubber Tree);Harvest Crop (Clay Flowerpot with Dirt);Harvest Crop (Clay Flowerpot with Dirt 2);Harvest Crop (Clay Flowerpot with Dirt 3);Harvest Crop (Planter 61);Harvest Crop (Planter 62);Harvest Crop (Planter 63);Harvest Crop (Planter 64);Harvest Crop (Potted Apricot);Harvest Crop (Planter 65);Harvest Crop (Planter 66);Harvest Crop (Wooden Bucket with Rubber);Make Fertile Soil;Build Planter;Fill Clay Pot with Dirt;Build Scarecrow Stand;Attatch Scarecrow;Attatch Scarecrow (Scarecrow);Attatch Corpse Scarecrow;Attatch Corpse Scarecrow (Corpse Scarecrow);Build Trellis Kit,
         	ReplaceOnUse    =   	HCBookgardening,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookgardeningOpen,
@@ -1720,7 +1720,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Sculpting Textbook,
 		Icon		=	HCBooksculpting,
-		TeachedRecipes  =   	Make Marble Statue;Make Marble Pedestal;Carve Venus Figurine,
+		LearnedRecipes  =   	Make Marble Statue;Make Marble Statue (Marble Statue);Make Marble Statue (Marble Statue 2);Make Marble Statue (Marble Statue 3);Make Marble Statue (Marble Statue 4);Make Marble Statue (Marble Statue 5);Make Marble Pedestal,
         	ReplaceOnUse    =   	HCBooksculpting,
 		DisplayCategory	=   LitR,
     }
@@ -1796,7 +1796,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Organic Chemistry Textbook,
 		Icon		=	HCBookorganicchemistry,
-		TeachedRecipes  =   	Make Bioplastic;Build Biogas Collector;Make Biogas,
+		LearnedRecipes  =   	Make Bioplastic;Build Biogas Collector;Make Biogas;Make Biogas (Variant);Make Biogas (Welding Gas Tank);Make Biogas (Welding Gas Tank 2),
         	ReplaceOnUse    =   	HCBookorganicchemistry,
 		DisplayCategory	=   LitR,
     }
@@ -1820,7 +1820,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Explosives Textbook,
 		Icon		=	HCBookexplosives,
-		TeachedRecipes  =   	Make Gunpowder;Make Thermite;Make Glycerin;Make Dynamite;Craft Propane Bomb Trap;Set Propane Bomb Trap,
+		LearnedRecipes  =   	Make Gunpowder;Make Thermite;Make Thermite (Thermite);Make Thermite (Thermite 2);Make Glycerin;Make Dynamite;Craft Propane Bomb Trap;Set Propane Bomb Trap,
         	ReplaceOnUse    =   	HCBookexplosives,
 		DisplayCategory	=   LitR,
     }
@@ -1831,7 +1831,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Biodiesel Textbook,
 		Icon		=	HCBookbiodiesel,
-		TeachedRecipes  =   	Cook Pot of Vegtable Oil;Make Methoxide;Make Raw Biodiesel;Remove Glycerin;Wash Biodiesel;Store Biodiesel;Add Gasoline to Biodiesel,
+		LearnedRecipes  =   	Cook Pot of Vegtable Oil;Make Methoxide;Make Raw Biodiesel;Remove Glycerin;Wash Biodiesel;Store Biodiesel;Add Gasoline to Biodiesel,
         	ReplaceOnUse    =   	HCBookbiodiesel,
 		DisplayCategory	=   LitR,
     }
@@ -1842,7 +1842,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Distillation Textbook,
 		Icon		=	HCBookdistillery,
-		TeachedRecipes  =   	Make Copper Cooler;Make Copper Mashpot;Build Distillery;Distill Fish Oil,
+		LearnedRecipes  =   	Make Copper Cooler;Make Copper Mashpot;Build Distillery,
         	ReplaceOnUse    =   	HCBookdistillery,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookdistilleryOpen,
@@ -1855,7 +1855,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Photography Textbook,
 		Icon		=	HCBookphotography,
-		TeachedRecipes  =   	Make Photography Workbench,
+		LearnedRecipes  =   	Make Photography Workbench,
         	ReplaceOnUse    =   	HCBookphotography,
 		DisplayCategory	=   LitR,
     }
@@ -1866,7 +1866,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Mycology Textbook,
 		Icon		=	HCBookmycology,
-		TeachedRecipes  =   	Examine Biowaste;Cultivate Penicillium;Cultivate Aspergillus;Cultivate Yeast;Cultivate Slime Mold;Extract Yeast,
+		LearnedRecipes  =   	Examine Biowaste;Cultivate Penicillium;Cultivate Penicillium (Petri Dish with Penicilinum);Cultivate Aspergillus;Cultivate Yeast;Cultivate Slime Mold;Extract Yeast,
         	ReplaceOnUse    =   	HCBookmycology,
 		DisplayCategory	=   LitR,
     }
@@ -1877,7 +1877,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Taxidermy Textbook,
 		Icon		=	HCBooktaxidermy,
-		TeachedRecipes  =   	Make Taxidermy Workbench;Create Glass Animal Eyes;Craft Small Animal Armature;Attach Straw to Small Animal Armature;Craft Medium Animal Armature;Attach Straw to Medium Animal Armature;Craft Taxidermy Mouse;Craft Taxidermy Rabbit,
+		LearnedRecipes  =   	Make Taxidermy Workbench;Craft Small Animal Armature;Craft Small Animal Armature (Clay Small Animal Armature);Craft Small Animal Armature (Clay Small Animal Armature 2);Attach Straw to Small Animal Armature;Craft Medium Animal Armature;Craft Medium Animal Armature (Clay Medium Animal Armature);Craft Medium Animal Armature (Clay Medium Animal Armature 2);Attach Straw to Medium Animal Armature;Craft Taxidermy Mouse;Craft Taxidermy Mouse (Clay Small Animal Armature);Craft Taxidermy Rabbit;Craft Taxidermy Rabbit (Clay Medium Animal Armature),
         	ReplaceOnUse    =   	HCBooktaxidermy,
 		DisplayCategory	=   LitR,
     }
@@ -1898,7 +1898,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Paper Making Textbook,
 		Icon		=	HCBookpapermaking,
-		TeachedRecipes  =   	Make Rag Ball;Make Pulp;Make Netting;Make Paper Screen;Put Pulp onto Paper Screen;Dry Pulp;Remove Paper Screen,
+		LearnedRecipes  =   	Make Rag Ball;Make Pulp;Make Netting;Make Paper Screen;Put Pulp onto Paper Screen;Dry Pulp;Remove Paper Screen,
         	ReplaceOnUse    =   	HCBookpapermaking,
 		DisplayCategory	=   LitR,
     }
@@ -1909,7 +1909,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Toy Making Textbook,
 		Icon		=	HCBooktoys,
-		TeachedRecipes  =  Build Toy Wagon;Carve Toy Horse;Make Straw Doll;Make Leather Ball;Create Glass Marbles,
+		LearnedRecipes  =  Build Toy Wagon;Carve Toy Horse;Make Straw Doll;Make Leather Ball,
         	ReplaceOnUse    =   	HCBooktoys,
 		DisplayCategory	=   LitR,
     }
@@ -1952,7 +1952,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBookanarchisthmtd,
         }
     }
-    craftRecipe Add Private Notes to Anarchist Cookbook
+    craftRecipe Add Private Notes to Anarchist Cookbook (Anarchist Cookbook with Private Note)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -1969,7 +1969,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBookanarchistammonal,
         }
     }
-    craftRecipe Add Private Notes to Anarchist Cookbook
+    craftRecipe Add Private Notes to Anarchist Cookbook (Anarchist Cookbook)
     {
         time = 500,
         Tags = AnySurfaceCraft,
@@ -1986,7 +1986,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBookanarchistpn02,
         }
     }
-    craftRecipe Add Private Notes to Anarchist Cookbook
+    craftRecipe Add Private Notes to Anarchist Cookbook (Anarchist Cookbook 2)
     {
         time = 500,
         Tags = AnySurfaceCraft,

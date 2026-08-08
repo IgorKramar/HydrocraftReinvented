@@ -263,48 +263,7 @@ module Hydrocraft
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Base.Flour2;Hydrocraft.HCPotatoflour;Hydrocraft.HCRiceflour],
-            item 1 [Base.Honey],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCHoneybundough,
-        }
-    }
-    craftRecipe Make Honeybun Dough
-    {
-        time = 90,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        SkillRequired = Cooking:5,
-        xpAward = Cooking:4,
-        inputs
-        {
-            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.2 [Water],
-            item 1 [Base.Flour2;Hydrocraft.HCPotatoflour;Hydrocraft.HCRiceflour],
-            item 1 [Hydrocraft.HCHoney],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCHoneybundough,
-        }
-    }
-    craftRecipe Make Honeybun Dough
-    {
-        time = 90,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        SkillRequired = Cooking:5,
-        xpAward = Cooking:4,
-        OnCreate = HCR42.recipe_hcjar,
-        inputs
-        {
-            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.2 [Water],
-            item 1 [Base.Flour2;Hydrocraft.HCPotatoflour;Hydrocraft.HCRiceflour],
-            item 1 [Hydrocraft.HCJarhoney],
+            item 1 [Base.Honey;Hydrocraft.HCHoney;Hydrocraft.HCJarhoney],
         }
         outputs
         {

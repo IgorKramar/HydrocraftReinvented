@@ -352,7 +352,7 @@ module Hydrocraft
             item 6 Base.Pop,
         }
     }
-    craftRecipe Pack Pop
+    craftRecipe Pack Pop (Pack of Pop)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -367,7 +367,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPoppack2,
         }
     }
-    craftRecipe Unpack Pop
+    craftRecipe Unpack Pop (Variant)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -382,7 +382,7 @@ module Hydrocraft
             item 6 Base.Pop2,
         }
     }
-    craftRecipe Pack Pop
+    craftRecipe Pack Pop (Pack of Pop 2)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -397,7 +397,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPoppack3,
         }
     }
-    craftRecipe Unpack Pop
+    craftRecipe Unpack Pop (Variant 2)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -412,7 +412,7 @@ module Hydrocraft
             item 6 Base.Pop3,
         }
     }
-    craftRecipe Pack Pop
+    craftRecipe Pack Pop (Pack of Pop 3)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -427,7 +427,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPoppack6,
         }
     }
-    craftRecipe Unpack Pop
+    craftRecipe Unpack Pop (Pop)
     {
         time = 15,
         Tags = AnySurfaceCraft,

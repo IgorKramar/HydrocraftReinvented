@@ -91,7 +91,7 @@ module Hydrocraft
             item 1 Base.RoastingPan,
         }
     }
-    craftRecipe Empty Roasting Pan
+    craftRecipe Empty Roasting Pan (Variant)
     {
         time = 40,
         Tags = AnySurfaceCraft,

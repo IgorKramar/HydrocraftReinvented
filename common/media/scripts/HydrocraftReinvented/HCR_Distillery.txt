@@ -538,29 +538,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
             item 1 [Base.Pot] mode:destroy,
-            item 10 [Base.Potato],
-            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.5 [Water],
-            item 1 [Base.Yeast],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCPotofpotatomash,
-        }
-    }
-    craftRecipe Prepare Pot of Potato Mash
-    {
-        time = 100,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        SkillRequired = Cooking:3,
-        xpAward = Cooking:4,
-        inputs
-        {
-            item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy,
-            item 10 [Hydrocraft.HCPotatogolden],
+            item 10 [Base.Potato;Hydrocraft.HCPotatogolden],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
             item 1 [Base.Yeast],

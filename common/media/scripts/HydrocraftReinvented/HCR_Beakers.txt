@@ -428,7 +428,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerammonia,
         }
     }
-    craftRecipe Make Beaker of Ammonia
+    craftRecipe Make Beaker of Ammonia (Bottle of Ammonia)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -546,7 +546,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerphenyl,
         }
     }
-    craftRecipe Fill Beaker With Phenylacetic Acid
+    craftRecipe Fill Beaker With Phenylacetic Acid (Metal Barrel with Phenylacetic Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -565,7 +565,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerphenyl,
         }
     }
-    craftRecipe Fill Beaker With Phenylacetic Acid
+    craftRecipe Fill Beaker With Phenylacetic Acid (Metal Barrel with Phenylacetic Acid 2)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -584,7 +584,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerphenyl,
         }
     }
-    craftRecipe Fill Beaker With Phenylacetic Acid
+    craftRecipe Fill Beaker With Phenylacetic Acid (Blue Barrel with Phenylacetic Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -621,7 +621,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakermethylamin,
         }
     }
-    craftRecipe Fill Beaker With Methylamin
+    craftRecipe Fill Beaker With Methylamin (Metal Barrel with Methylamin)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -640,7 +640,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakermethylamin,
         }
     }
-    craftRecipe Fill Beaker With Methylamin
+    craftRecipe Fill Beaker With Methylamin (Metal Barrel with Methylamin 2)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -659,7 +659,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakermethylamin,
         }
     }
-    craftRecipe Fill Beaker With Methylamin
+    craftRecipe Fill Beaker With Methylamin (Blue Barrel with Methylamin)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -696,7 +696,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerammonia,
         }
     }
-    craftRecipe Fill Beaker With Ammonia
+    craftRecipe Fill Beaker With Ammonia (Metal Barrel with Ammonia)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -715,7 +715,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerammonia,
         }
     }
-    craftRecipe Fill Beaker With Ammonia
+    craftRecipe Fill Beaker With Ammonia (Metal Barrel with Ammonia 2)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -734,7 +734,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakerammonia,
         }
     }
-    craftRecipe Fill Beaker With Ammonia
+    craftRecipe Fill Beaker With Ammonia (Blue Barrel with Ammonia)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -771,7 +771,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakersulfuricacid,
         }
     }
-    craftRecipe Fill Beaker With Sulfuric Acid
+    craftRecipe Fill Beaker With Sulfuric Acid (Metal Barrel with Phenylacetic Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -790,7 +790,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakersulfuricacid,
         }
     }
-    craftRecipe Fill Beaker With Sulfuric Acid
+    craftRecipe Fill Beaker With Sulfuric Acid (Metal Barrel with Sulfuric Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -809,7 +809,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBeakersulfuricacid,
         }
     }
-    craftRecipe Fill Beaker With Sulfuric Acid
+    craftRecipe Fill Beaker With Sulfuric Acid (Blue Barrel with Sulfuric Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

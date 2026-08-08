@@ -133,7 +133,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMininghat,
         }
     }
-    craftRecipe Make Mining Hat
+    craftRecipe Make Mining Hat (Flashlight Mining Hat)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -184,7 +184,7 @@ module Hydrocraft
             item 1 Base.CandleLit,
         }
     }
-    craftRecipe Light Candle
+    craftRecipe Light Candle (Lit Tallow Candle)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -200,7 +200,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCandletallowlit,
         }
     }
-    craftRecipe Light Candle
+    craftRecipe Light Candle (Lit Candle in Holder)
     {
         time = 30,
         Tags = AnySurfaceCraft,
@@ -274,7 +274,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCandletallow,
         }
     }
-    craftRecipe Insert Battery
+    craftRecipe Insert Battery (Flashlight Mining Hat with Power)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -290,7 +290,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMininghatlamppowered,
         }
     }
-    craftRecipe Remove Battery
+    craftRecipe Remove Battery (Flashlight Mining Hat)
     {
         time = 15,
         Tags = AnySurfaceCraft,

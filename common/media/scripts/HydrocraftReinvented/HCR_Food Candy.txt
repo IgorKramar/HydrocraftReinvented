@@ -422,7 +422,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGumstick,
         }
     }
-    craftRecipe Take Stick of Gum
+    craftRecipe Take Stick of Gum (Stick of Chewing Gum)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -437,7 +437,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGumstick2,
         }
     }
-    craftRecipe Take Stick of Gum
+    craftRecipe Take Stick of Gum (Stick of Chewing Gum 2)
     {
         time = 15,
         Tags = AnySurfaceCraft,

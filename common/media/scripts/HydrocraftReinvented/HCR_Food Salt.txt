@@ -409,7 +409,7 @@ module Hydrocraft
             item 5 Hydrocraft.HCSaltpowder,
         }
     }
-    craftRecipe Make Salt Powder
+    craftRecipe Make Salt Powder (Salt Powder)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -427,7 +427,7 @@ module Hydrocraft
             item 5 Hydrocraft.HCSaltpowder,
         }
     }
-    craftRecipe Make Salt Powder
+    craftRecipe Make Salt Powder (Salt Powder 2)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -504,7 +504,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedfishfillet,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Ham)
     {
         time = 5000,
         Tags = AnySurfaceCraft,
@@ -523,7 +523,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedham,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Variant)
     {
         time = 2500,
         Tags = AnySurfaceCraft,
@@ -544,7 +544,7 @@ module Hydrocraft
             item 1 Base.Ham,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Mutton)
     {
         time = 4000,
         Tags = AnySurfaceCraft,
@@ -563,7 +563,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedmutton,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Pork)
     {
         time = 5000,
         Tags = AnySurfaceCraft,
@@ -582,7 +582,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedpork,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Beef)
     {
         time = 5000,
         Tags = AnySurfaceCraft,
@@ -601,7 +601,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedbeef,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Beef 2)
     {
         time = 5000,
         Tags = AnySurfaceCraft,
@@ -620,7 +620,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedbeef,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Rabbit)
     {
         time = 4000,
         Tags = AnySurfaceCraft,
@@ -639,7 +639,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedrabbit,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Salmon)
     {
         time = 4000,
         Tags = AnySurfaceCraft,
@@ -658,7 +658,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedsalmon,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Small Animal Meat)
     {
         time = 3500,
         Tags = AnySurfaceCraft,
@@ -677,7 +677,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedsmallanimalmeat,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Small Bird Meat)
     {
         time = 3500,
         Tags = AnySurfaceCraft,
@@ -696,7 +696,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedsmallbirdmeat,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Duck)
     {
         time = 4000,
         Tags = AnySurfaceCraft,
@@ -715,7 +715,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedduck,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Goose)
     {
         time = 4500,
         Tags = AnySurfaceCraft,
@@ -734,7 +734,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedgoose,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Turkey)
     {
         time = 5000,
         Tags = AnySurfaceCraft,
@@ -753,7 +753,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedturkey,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Venison)
     {
         time = 5000,
         Tags = AnySurfaceCraft,
@@ -772,7 +772,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedvenison,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Bear Steak)
     {
         time = 5000,
         Tags = AnySurfaceCraft,
@@ -791,7 +791,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedbear,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Cougar Steak)
     {
         time = 5000,
         Tags = AnySurfaceCraft,
@@ -810,7 +810,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSaltedcougar,
         }
     }
-    craftRecipe Salt Meat
+    craftRecipe Salt Meat (Salted Small Game Steak)
     {
         time = 5000,
         Tags = AnySurfaceCraft,

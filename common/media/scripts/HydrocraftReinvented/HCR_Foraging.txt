@@ -1335,7 +1335,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCHickorynuts2,
         }
     }
-    craftRecipe Crack Nuts
+    craftRecipe Crack Nuts (Peeled Chestnut)
     {
         time = 15,
         Tags = AnySurfaceCraft,

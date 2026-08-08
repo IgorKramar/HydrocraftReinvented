@@ -310,7 +310,7 @@ module Hydrocraft
             item 1 Base.WaterBottle,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Variant)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -327,7 +327,7 @@ module Hydrocraft
             item 1 Base.Pot,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Variant 2)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -344,7 +344,7 @@ module Hydrocraft
             item 1 Base.Whiskey,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Variant 3)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -361,7 +361,7 @@ module Hydrocraft
             item 1 Base.MugWhite,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Full Clay Teapot)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -378,7 +378,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCClayteapotfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Full Clay Mug)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -395,7 +395,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCClaymugfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Large Tupperware Container with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -412,7 +412,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLargetupwater,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Medium Tupperware Container with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -429,7 +429,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMediumtupwater,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Small Tupperware Container with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -446,7 +446,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSmalltupwater,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Full Zipper Bag)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -463,7 +463,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCZipperbagfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Thermos with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -480,7 +480,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCThermosfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Water Balloon)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -497,7 +497,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWaterballoon,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Wash Bottle with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -514,7 +514,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWashbottlefull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Wooden Vat with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -531,7 +531,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCVatwater,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Wooden Bucket with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -548,7 +548,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWoodenbucketwater,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Wooden Washtub with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -565,7 +565,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWashtubfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Water Tower with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -582,7 +582,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWatertowerfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Makeshift Shower and Sink)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -599,7 +599,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCShowersinkfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Makeshift Shower)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -616,7 +616,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCShowerfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (IBC)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -633,7 +633,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCIBCfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (IBC Storage)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -650,7 +650,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCIBCstoragefull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (IBC Tower)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -667,7 +667,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCIBCtowerfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Fish Tank with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -684,7 +684,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCFishtankfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Copper Mug with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -701,7 +701,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMugcopperfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Copper Kettle with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -718,7 +718,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCKettlecopperfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Iron Cauldron with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -735,7 +735,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCauldronironfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Strapped Canteens with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -752,7 +752,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCStrappedcanteenfull,
         }
     }
-    craftRecipe Purify Water
+    craftRecipe Purify Water (Birch Bark Cup with Water)
     {
         time = 15,
         Tags = AnySurfaceCraft,

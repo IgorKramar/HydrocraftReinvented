@@ -284,26 +284,6 @@ module Hydrocraft
 	RainFactor 		    = 	1,
 		DisplayCategory	= FoodB,
     }
-    craftRecipe Clean Empty Liquid Soap Can
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Miscellaneous,
-        timedAction = Making,
-        OnCreate = HCR42.recipe_hclabeldetergent,
-        inputs
-        {
-            item 1 [Hydrocraft.HCDetergentempty],
-            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
-            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.1 [Water],
-            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCPlasticcanempty,
-        }
-    }
     craftRecipe Recycle Liquid Soap Can
     {
         time = 50,
@@ -340,7 +320,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentammonia,
         }
     }
-    craftRecipe Fill Empty Soap Can With Ammonia
+    craftRecipe Fill Empty Soap Can With Ammonia (Plastic Can With Ammonia)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -359,7 +339,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentammonia,
         }
     }
-    craftRecipe Fill Empty Soap Can With Ammonia
+    craftRecipe Fill Empty Soap Can With Ammonia (Ammonia)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -378,7 +358,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentammonia,
         }
     }
-    craftRecipe Fill Empty Soap Can With Ammonia
+    craftRecipe Fill Empty Soap Can With Ammonia (Metal Barrel with Ammonia)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -398,7 +378,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentammonia,
         }
     }
-    craftRecipe Fill Empty Soap Can With Ammonia
+    craftRecipe Fill Empty Soap Can With Ammonia (Metal Barrel with Ammonia 2)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -418,7 +398,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentammonia,
         }
     }
-    craftRecipe Fill Empty Soap Can With Ammonia
+    craftRecipe Fill Empty Soap Can With Ammonia (Blue Barrel with Ammonia)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -476,7 +456,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentcoppersulfatesolution,
         }
     }
-    craftRecipe Fill Empty Soap Can With Coppersulfate Solution
+    craftRecipe Fill Empty Soap Can With Coppersulfate Solution (Plastic Can With Copper Sulfate Solution)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -513,7 +493,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentgrape,
         }
     }
-    craftRecipe Fill Empty Soap Can With Grape Juice
+    craftRecipe Fill Empty Soap Can With Grape Juice (Plastic Can With Grape Juice)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -550,7 +530,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergenth2o2,
         }
     }
-    craftRecipe Fill Empty Soap Can With Hydrogen Peroxide
+    craftRecipe Fill Empty Soap Can With Hydrogen Peroxide (Plastic Can With Hydrogen Peroxide)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -569,7 +549,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergenth2o2,
         }
     }
-    craftRecipe Fill Empty Soap Can With Hydrogen Peroxide
+    craftRecipe Fill Empty Soap Can With Hydrogen Peroxide (Hydrogen Peroxide)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -606,7 +586,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergenthoney,
         }
     }
-    craftRecipe Fill Empty Soap Can With Honey
+    craftRecipe Fill Empty Soap Can With Honey (Plastic Can With Honey)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -641,7 +621,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentlime,
         }
     }
-    craftRecipe Fill Empty Soap Can With Milk Of Lime
+    craftRecipe Fill Empty Soap Can With Milk Of Lime (Plastic Can With Milk of Lime)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -678,7 +658,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentlye,
         }
     }
-    craftRecipe Fill Empty Soap Can With Lye
+    craftRecipe Fill Empty Soap Can With Lye (Plastic Can With Lye)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -715,7 +695,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentmethanol,
         }
     }
-    craftRecipe Fill Empty Soap Can With Methanol
+    craftRecipe Fill Empty Soap Can With Methanol (Plastic Can With Methanol)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -741,24 +721,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 4 [Hydrocraft.HCUHTmilk],
-            item 1 [Hydrocraft.HCDetergentempty],
-            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDetergentmilk,
-        }
-    }
-    craftRecipe Fill Empty Soap Can With UHT Milk
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        inputs
-        {
-            item 4 [Hydrocraft.HCPlasticcanmilk],
+            item 4 [Hydrocraft.HCPlasticcanmilk;Hydrocraft.HCUHTmilk],
             item 1 [Hydrocraft.HCDetergentempty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
@@ -787,7 +750,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentmuriaticacid,
         }
     }
-    craftRecipe Fill Empty Soap Can With Muriatic Acid
+    craftRecipe Fill Empty Soap Can With Muriatic Acid (Plastic Can With Muriatic Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -826,7 +789,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentnickelsulfatesolution,
         }
     }
-    craftRecipe Fill Empty Soap Can With Nickel Sulfate Solution
+    craftRecipe Fill Empty Soap Can With Nickel Sulfate Solution (Plastic Can With Nickel Sulfate Solution)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -865,7 +828,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentnitricacid,
         }
     }
-    craftRecipe Fill Empty Soap Can With Nitric Acid
+    craftRecipe Fill Empty Soap Can With Nitric Acid (Plastic Can With Nitric Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -892,24 +855,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 4 [Hydrocraft.HCMotoroil],
-            item 1 [Hydrocraft.HCDetergentempty],
-            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDetergentoil,
-        }
-    }
-    craftRecipe Fill Empty Soap Can With Oil
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Chemistry,
-        timedAction = Making,
-        inputs
-        {
-            item 4 [Hydrocraft.HCPlasticcanoil],
+            item 4 [Hydrocraft.HCMotoroil;Hydrocraft.HCPlasticcanoil],
             item 1 [Hydrocraft.HCDetergentempty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
@@ -926,26 +872,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 4 [Hydrocraft.HCPoison],
-            item 1 [Hydrocraft.HCDetergentempty],
-            item 1 [Hydrocraft.HCRubberglove] mode:keep,
-            item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
-            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCDetergentpoison,
-        }
-    }
-    craftRecipe Fill Empty Soap Can With Insecticide
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Chemistry,
-        timedAction = Making,
-        inputs
-        {
-            item 4 [Hydrocraft.HCPlasticcanpoison],
+            item 4 [Hydrocraft.HCPlasticcanpoison;Hydrocraft.HCPoison],
             item 1 [Hydrocraft.HCDetergentempty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
@@ -974,7 +901,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentrose,
         }
     }
-    craftRecipe Fill Empty Soap Can With Rose Tanning Oil
+    craftRecipe Fill Empty Soap Can With Rose Tanning Oil (Plastic Can With Rose Tanning Oil)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1011,7 +938,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentsulfuricacid,
         }
     }
-    craftRecipe Fill Empty Soap Can With Sulfuric Acid
+    craftRecipe Fill Empty Soap Can With Sulfuric Acid (Plastic Can With Sulfuric Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1030,7 +957,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentsulfuricacid,
         }
     }
-    craftRecipe Fill Empty Soap Can With Sulfuric Acid
+    craftRecipe Fill Empty Soap Can With Sulfuric Acid (Sulfuric Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1049,7 +976,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentsulfuricacid,
         }
     }
-    craftRecipe Fill Empty Soap Can With Sulfuric Acid
+    craftRecipe Fill Empty Soap Can With Sulfuric Acid (Metal Barrel with Phenylacetic Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1069,7 +996,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentsulfuricacid,
         }
     }
-    craftRecipe Fill Empty Soap Can With Sulfuric Acid
+    craftRecipe Fill Empty Soap Can With Sulfuric Acid (Metal Barrel with Sulfuric Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1089,7 +1016,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentsulfuricacid,
         }
     }
-    craftRecipe Fill Empty Soap Can With Sulfuric Acid
+    craftRecipe Fill Empty Soap Can With Sulfuric Acid (Blue Barrel with Sulfuric Acid)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1127,7 +1054,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergenttan,
         }
     }
-    craftRecipe Fill Empty Soap Can With Tannin
+    craftRecipe Fill Empty Soap Can With Tannin (Plastic Can With Tannin)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -1162,7 +1089,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetergentvegoil,
         }
     }
-    craftRecipe Fill Empty Soap Can With Vegetable Oil
+    craftRecipe Fill Empty Soap Can With Vegetable Oil (Plastic Can With Vegetable Oil)
     {
         time = 50,
         Tags = AnySurfaceCraft,

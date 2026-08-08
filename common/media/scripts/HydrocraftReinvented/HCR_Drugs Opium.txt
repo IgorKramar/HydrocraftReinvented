@@ -326,7 +326,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPipeopiumpure,
         }
     }
-    craftRecipe Put Opium in Pipe
+    craftRecipe Put Opium in Pipe (Corn Cob Pipe with Pure Opium)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -406,7 +406,7 @@ module Hydrocraft
             item 2 Hydrocraft.HCTesttubemorphinrubber,
         }
     }
-    craftRecipe Add Ammonia To Morphine Hydrochloride Solution
+    craftRecipe Add Ammonia To Morphine Hydrochloride Solution (Testtube with Morphine)
     {
         time = 150,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

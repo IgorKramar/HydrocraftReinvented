@@ -305,7 +305,7 @@ module Hydrocraft
             item 1 Base.FishingRod,
         }
     }
-    craftRecipe Make Lure
+    craftRecipe Make Lure (Feather Lure)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -329,7 +329,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLurefeatherfly,
         }
     }
-    craftRecipe Make Lure
+    craftRecipe Make Lure (Pinecone Lure)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -352,7 +352,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLurepinecone,
         }
     }
-    craftRecipe Make Lure
+    craftRecipe Make Lure (Birch Bark Lure)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -373,7 +373,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLurebirchbark,
         }
     }
-    craftRecipe Make Lure
+    craftRecipe Make Lure (Stick Lure)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -395,7 +395,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCLurestick,
         }
     }
-    craftRecipe Make Lure
+    craftRecipe Make Lure (Garland Lure)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -522,25 +522,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCFishingkitbroken],
-            item 2 [Base.Twine],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCFishingkitline,
-        }
-    }
-    craftRecipe Repair Fishing Kit
-    {
-        time = 500,
-        Tags = AnySurfaceCraft,
-        category = Fishing,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Fishing:5,
-        inputs
-        {
-            item 1 [Hydrocraft.HCFishingkitbroken],
-            item 2 [Base.FishingLine],
+            item 2 [Base.FishingLine;Base.Twine],
         }
         outputs
         {

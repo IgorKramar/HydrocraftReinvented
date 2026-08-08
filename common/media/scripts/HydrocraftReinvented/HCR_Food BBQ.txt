@@ -420,7 +420,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBBQsteak,
         }
     }
-    craftRecipe Barbecue Meat
+    craftRecipe Barbecue Meat (BBQ Salmon)
     {
         time = 55,
         Tags = AnySurfaceCraft,
@@ -441,7 +441,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBBQsalmon,
         }
     }
-    craftRecipe Barbecue Meat
+    craftRecipe Barbecue Meat (BBQ Chicken)
     {
         time = 55,
         Tags = AnySurfaceCraft,
@@ -462,7 +462,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBBQchicken,
         }
     }
-    craftRecipe Barbecue Meat
+    craftRecipe Barbecue Meat (BBQ Duck)
     {
         time = 55,
         Tags = AnySurfaceCraft,
@@ -483,7 +483,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBBQduck,
         }
     }
-    craftRecipe Barbecue Meat
+    craftRecipe Barbecue Meat (BBQ Goose)
     {
         time = 55,
         Tags = AnySurfaceCraft,
@@ -504,7 +504,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBBQgoose,
         }
     }
-    craftRecipe Barbecue Meat
+    craftRecipe Barbecue Meat (BBQ Turkey)
     {
         time = 55,
         Tags = AnySurfaceCraft,
@@ -525,7 +525,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBBQturkey,
         }
     }
-    craftRecipe Barbecue Meat
+    craftRecipe Barbecue Meat (BBQ Rat)
     {
         time = 55,
         Tags = AnySurfaceCraft,

@@ -118,7 +118,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPapercrane,
         }
     }
-    craftRecipe Fold Paper
+    craftRecipe Fold Paper (Airplane)
     {
         time = 500,
         Tags = AnySurfaceCraft,

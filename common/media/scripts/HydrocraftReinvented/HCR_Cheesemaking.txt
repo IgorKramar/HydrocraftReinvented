@@ -635,7 +635,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCurdcubed,
         }
     }
-    craftRecipe Fill Cheese Trays
+    craftRecipe Fill Cheese Trays (Full Cheddar Cheese Tray)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -654,7 +654,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCheddarcheesetrayfull,
         }
     }
-    craftRecipe Put Cheese on Rack
+    craftRecipe Put Cheese on Rack (Cheese Rack with Cheddar Cheese)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -673,7 +673,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCheeserackfullcheddar,
         }
     }
-    craftRecipe Remove Cheese from Rack
+    craftRecipe Remove Cheese from Rack (Cheddar Wheel)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -713,7 +713,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCheddarwheelwaxed,
         }
     }
-    craftRecipe Put Cheese on Rack
+    craftRecipe Put Cheese on Rack (Cheese Rack with Waxed Cheddar Cheese)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -732,7 +732,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCheeserackfullcheddarwaxed,
         }
     }
-    craftRecipe Remove Cheese from Rack
+    craftRecipe Remove Cheese from Rack (Aged Cheddar Wheel)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -750,7 +750,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCheddarwheelaged,
         }
     }
-    craftRecipe Cut Cheese Wheel
+    craftRecipe Cut Cheese Wheel (Cheddar Cheese)
     {
         time = 50,
         Tags = AnySurfaceCraft,

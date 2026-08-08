@@ -211,26 +211,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
-            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.1 [Water],
-            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCWaterbottleclean,
-        }
-    }
-    craftRecipe Clean Bottle
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Chemistry,
-        timedAction = Making,
-        inputs
-        {
-            item 1 [Base.WaterBottle] mode:destroy,
+            item 1 [Base.PopBottle;Base.WaterBottle] mode:destroy,
             item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],

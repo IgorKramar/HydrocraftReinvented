@@ -151,39 +151,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 10 [Hydrocraft.HCPastafettuccine],
-            item 1 [Base.Saucepan] mode:destroy,
-        }
-        outputs
-        {
-            item 1 Base.WaterSaucepanPasta,
-        }
-    }
-    craftRecipe Place Pasta in Saucepan
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        inputs
-        {
-            item 10 [Hydrocraft.HCPastamacaroni],
-            item 1 [Base.Saucepan] mode:destroy,
-        }
-        outputs
-        {
-            item 1 Base.WaterSaucepanPasta,
-        }
-    }
-    craftRecipe Place Pasta in Saucepan
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        inputs
-        {
-            item 10 [Hydrocraft.HCPastarotini],
+            item 10 [Hydrocraft.HCPastafettuccine;Hydrocraft.HCPastamacaroni;Hydrocraft.HCPastarotini],
             item 1 [Base.Saucepan] mode:destroy,
         }
         outputs
@@ -199,39 +167,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 10 [Hydrocraft.HCPastafettuccine],
-            item 1 [Base.Pot] mode:destroy,
-        }
-        outputs
-        {
-            item 1 Base.WaterPotPasta,
-        }
-    }
-    craftRecipe Place Pasta in Cooking Pot
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        inputs
-        {
-            item 10 [Hydrocraft.HCPastamacaroni],
-            item 1 [Base.Pot] mode:destroy,
-        }
-        outputs
-        {
-            item 1 Base.WaterPotPasta,
-        }
-    }
-    craftRecipe Place Pasta in Cooking Pot
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        inputs
-        {
-            item 10 [Hydrocraft.HCPastarotini],
+            item 10 [Hydrocraft.HCPastafettuccine;Hydrocraft.HCPastamacaroni;Hydrocraft.HCPastarotini],
             item 1 [Base.Pot] mode:destroy,
         }
         outputs

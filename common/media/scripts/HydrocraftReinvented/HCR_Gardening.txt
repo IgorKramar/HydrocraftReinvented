@@ -6743,7 +6743,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Sugar Beet)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -6762,7 +6762,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedBeetsugarsmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -6780,7 +6780,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Summer Squash)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -6799,7 +6799,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedSquashsummersmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 2)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -6817,7 +6817,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Red Potato)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -6836,7 +6836,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedPotatoredsmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 3)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -6854,7 +6854,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Golden Potatoes)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -6873,7 +6873,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedPotatogoldensmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 4)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -6891,7 +6891,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted White Cabbage)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -6910,7 +6910,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedCabbagewhitesmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 5)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -6928,7 +6928,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Red Cabbage)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -6947,7 +6947,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedCabbageredsmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 6)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -6965,7 +6965,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Yellow Bell Pepper)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -6984,7 +6984,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedBellpepperyellowsmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 7)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7002,7 +7002,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Green Bell Pepper)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7021,7 +7021,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedBellpeppergreensmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 8)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7039,7 +7039,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Cauliflower)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7058,7 +7058,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedCauliflowersmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 9)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7076,7 +7076,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Beans)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7095,7 +7095,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedBeanssmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 10)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7128,7 +7128,7 @@ module Hydrocraft
             item 3 Hydrocraft.HCBeans,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Persimmon)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7147,7 +7147,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedPersimmonsmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Persimmon)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7165,7 +7165,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedPersimmon,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Plum)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7184,7 +7184,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedPlumsmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Plum)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7202,7 +7202,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedPlum,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Kiwi)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7221,7 +7221,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedKiwismall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Kiwi)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7239,7 +7239,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedKiwi,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Fig)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7258,7 +7258,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedFigsmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Fig)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7276,7 +7276,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedFig,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Date)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7295,7 +7295,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedDatesmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Date)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7313,7 +7313,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedDate,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Lime Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7332,7 +7332,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedlimetreesmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Lime Tree)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7350,7 +7350,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedlimetree,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Wheat)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7369,7 +7369,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedwheatsmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 11)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7387,7 +7387,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Asparagus)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7421,7 +7421,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Remove Crop
+    craftRecipe Remove Crop (Clay Flowerpot with Dirt)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -7436,7 +7436,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCClayflowerpotwithdirt,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Apple Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7455,7 +7455,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedappletreesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Banana Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7474,7 +7474,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedbananatreesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Blackberry Bush)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7493,7 +7493,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedblackberrybushsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Blueberry Bush)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7512,7 +7512,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedblueberrybushsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Potted Lemon Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7531,7 +7531,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedlemontree,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Potted Mulberry)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7550,7 +7550,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedmulberry,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Potted Candleberry Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7569,7 +7569,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcandleberry,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Orange Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7588,7 +7588,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedorangetreesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Peach Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7607,7 +7607,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpeachtreesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Strawberry Bush)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7626,7 +7626,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedstrawberrybushsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Watermelon)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7645,7 +7645,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedwatermelonsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Bell Pepper)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7664,7 +7664,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedbellpeppersmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Broccoli)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7683,7 +7683,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedbroccolismall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Cabbage)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7702,7 +7702,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcabbagesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Carrots)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7721,7 +7721,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcarrotssmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Corn Stalk)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7740,7 +7740,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcornstalksmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Eggplant)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7759,7 +7759,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedeggplantsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Leek)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7778,7 +7778,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedleeksmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Lettuce)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7797,7 +7797,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedlettucesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Onion)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7816,7 +7816,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedonionsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Pea Plant)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7835,7 +7835,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpeaplantsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Potato)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7854,7 +7854,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpotatosmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Pumpkin)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7873,7 +7873,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpumpkinsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Radish)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7892,7 +7892,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedradishsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Tomato)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7911,7 +7911,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedtomatosmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Peanut Plant)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7930,7 +7930,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpeanutplantsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Avocado Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7949,7 +7949,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedavocadotreesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Cherry Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7968,7 +7968,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcherrytreesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Pear Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -7987,7 +7987,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpeartreesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Pineapple)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8006,7 +8006,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpineapplesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Zucchini)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8025,7 +8025,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedzucchinismall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Tea Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8044,7 +8044,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedteasmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Tobacco Plant)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8063,7 +8063,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedtobaccosmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Chinese Cabbage)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8082,7 +8082,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedchinesecabbagesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Cucumber)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8101,7 +8101,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcucumbersmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Ginger)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8120,7 +8120,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedgingersmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Garlic)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8139,7 +8139,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedgarlicsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Green Onion)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8158,7 +8158,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedoniongreensmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Sweet Potato)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8177,7 +8177,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedsweetpotatosmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Jute Plant)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8196,7 +8196,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedjutesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Green Pumpkin)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8215,7 +8215,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpumpkingreensmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted White Pumpkin)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8234,7 +8234,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpumpkinwhitesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Large Pumpkin)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8253,7 +8253,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpumpkinlargesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Buskin Pumpkin)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8272,7 +8272,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpumpkinbuskinsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted White Corn)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8291,7 +8291,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcornwhitesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Red Corn)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8310,7 +8310,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcornredsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Blue Corn)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -8329,7 +8329,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcornbluesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Chili Pepper Plant)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8348,7 +8348,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedchilipepperplantsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Poppy)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8367,7 +8367,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpoppysmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Cactus)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8386,7 +8386,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcactussmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Blue Agave)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8405,7 +8405,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedagavebluesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Prickly Pear Cactus)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8424,7 +8424,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpricklypearcactussmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Green Chili)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8443,7 +8443,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedchiligreensmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Tomatillo Plant)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8462,7 +8462,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedtomatilloplantsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Cotton Plant)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8481,7 +8481,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcottonplantsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Rice)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8502,7 +8502,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedricesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Shiitake Mushrooms)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8522,7 +8522,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedshiitakesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Portobello Mushrooms)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -8541,7 +8541,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedportobellosmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Colewort)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -8560,7 +8560,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcolewortsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Rubber Tree)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8579,7 +8579,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedrubbertreesmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Bamboo)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8598,7 +8598,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedbamboosmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Artichokes)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8617,7 +8617,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedartichokessmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Beets)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -8636,7 +8636,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedbeetssmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Potted Mulberry 2)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -8655,7 +8655,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedmulberry,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Apricot)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -8674,7 +8674,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedapricotsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Celery)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -8693,7 +8693,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcelerysmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Spinach)
     {
         time = 1500,
         Tags = AnySurfaceCraft,
@@ -8712,7 +8712,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedspinachsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Basil)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8731,7 +8731,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedbasilsmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Alfalfa)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8750,7 +8750,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedalfalfasmall,
         }
     }
-    craftRecipe Plant Crop
+    craftRecipe Plant Crop (Small Potted Oregano)
     {
         time = 300,
         Tags = AnySurfaceCraft,
@@ -8769,7 +8769,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedoreganosmall,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 12)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8787,7 +8787,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Apple Tree)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8805,7 +8805,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedappletree,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Banana Tree)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8823,7 +8823,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedbananatree,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Blackberry Bush)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8841,7 +8841,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedblackberrybush,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Blueberry Bush)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8859,7 +8859,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedblueberrybush,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Orange Tree)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8877,7 +8877,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedorangetree,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Peach Tree)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8895,7 +8895,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpeachtree,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 13)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8913,7 +8913,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 14)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8931,7 +8931,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 15)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8949,7 +8949,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 16)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8967,7 +8967,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 17)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -8985,7 +8985,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 18)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9003,7 +9003,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 19)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9021,7 +9021,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 20)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9039,7 +9039,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 21)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9057,7 +9057,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 22)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9075,7 +9075,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 23)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9093,7 +9093,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 24)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9111,7 +9111,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 25)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9129,7 +9129,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 26)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9147,7 +9147,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 27)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9165,7 +9165,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 28)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9183,7 +9183,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 29)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9201,7 +9201,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Avocado Tree)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9219,7 +9219,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedavocadotree,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Cherry Tree)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9237,7 +9237,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedcherrytree,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Pear Tree)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9255,7 +9255,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedpeartree,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 30)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9273,7 +9273,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 31)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9291,7 +9291,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 32)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9309,7 +9309,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 33)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9327,7 +9327,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 34)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9345,7 +9345,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 35)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9363,7 +9363,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 36)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9381,7 +9381,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 37)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9399,7 +9399,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 38)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9417,7 +9417,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 39)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9435,7 +9435,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 40)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9453,7 +9453,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 41)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9472,7 +9472,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 42)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9490,7 +9490,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 43)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9508,7 +9508,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 44)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9526,7 +9526,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 45)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9544,7 +9544,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 46)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9562,7 +9562,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 47)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9580,7 +9580,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 48)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9598,7 +9598,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 49)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9616,7 +9616,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 50)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9634,7 +9634,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 51)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9652,7 +9652,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 52)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9670,7 +9670,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 53)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9688,7 +9688,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 54)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9706,7 +9706,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 55)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9724,7 +9724,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 56)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9742,7 +9742,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 57)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9760,7 +9760,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 58)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9778,7 +9778,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 59)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9796,7 +9796,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 60)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9814,7 +9814,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Rubber Tree)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9832,7 +9832,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedrubbertree,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Clay Flowerpot with Dirt)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9850,7 +9850,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCClayflowerpotwithdirt,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Clay Flowerpot with Dirt 2)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9868,7 +9868,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCClayflowerpotwithdirt,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Clay Flowerpot with Dirt 3)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9886,7 +9886,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCClayflowerpotwithdirt,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 61)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9904,7 +9904,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 62)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9922,7 +9922,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 63)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9940,7 +9940,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 64)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9958,7 +9958,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Potted Apricot)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9976,7 +9976,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedapricot,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 65)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -9994,7 +9994,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPlanter,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Planter 66)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

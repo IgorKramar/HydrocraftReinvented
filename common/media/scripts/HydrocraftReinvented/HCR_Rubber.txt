@@ -148,7 +148,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPottedrubbertree2,
         }
     }
-    craftRecipe Harvest Crop
+    craftRecipe Harvest Crop (Wooden Bucket with Rubber)
     {
         time = 150,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -212,7 +212,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRubberhose,
         }
     }
-    craftRecipe Make Rubber Hose
+    craftRecipe Make Rubber Hose (Welding Hose)
     {
         time = 3000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -233,7 +233,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWeldinghose,
         }
     }
-    craftRecipe Make Rubber Hose
+    craftRecipe Make Rubber Hose (Garden Hose)
     {
         time = 9000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -301,7 +301,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCRubbercement,
         }
     }
-    craftRecipe Make Rubber Cement
+    craftRecipe Make Rubber Cement (Methanol)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

@@ -679,7 +679,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMinehole2,
         }
     }
-    craftRecipe Anchor Mine
+    craftRecipe Anchor Mine (Mine Hole with Pully)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -715,7 +715,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCIronMine,
         }
     }
-    craftRecipe Anchor Mine
+    craftRecipe Anchor Mine (Iron Mine)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -751,7 +751,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCoalMine,
         }
     }
-    craftRecipe Anchor Mine
+    craftRecipe Anchor Mine (Coal Mine)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -829,7 +829,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDarkmine2,
         }
     }
-    craftRecipe Anchor Dark Mine
+    craftRecipe Anchor Dark Mine (Dark Mine with Pully)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -863,7 +863,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDarkmine3,
         }
     }
-    craftRecipe Anchor Dark Mine
+    craftRecipe Anchor Dark Mine (Dark Mine with Steam Pully)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -928,7 +928,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDirt,
         }
     }
-    craftRecipe Mine
+    craftRecipe Mine (Dirt)
     {
         time = 250,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -947,7 +947,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDirt,
         }
     }
-    craftRecipe Mine
+    craftRecipe Mine (Dirt 2)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -966,7 +966,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDirt,
         }
     }
-    craftRecipe Mine
+    craftRecipe Mine (Dirt 3)
     {
         time = 150,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -985,7 +985,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDirt,
         }
     }
-    craftRecipe Mine
+    craftRecipe Mine (Variant)
     {
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1005,7 +1005,7 @@ module Hydrocraft
             item 1 Base.Stone2,
         }
     }
-    craftRecipe Mine
+    craftRecipe Mine (Variant 2)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1025,7 +1025,7 @@ module Hydrocraft
             item 1 Base.Stone2,
         }
     }
-    craftRecipe Mine
+    craftRecipe Mine (Variant 3)
     {
         time = 750,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1045,7 +1045,7 @@ module Hydrocraft
             item 1 Base.Stone2,
         }
     }
-    craftRecipe Mine
+    craftRecipe Mine (Variant 4)
     {
         time = 350,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1065,7 +1065,7 @@ module Hydrocraft
             item 1 Base.Stone2,
         }
     }
-    craftRecipe Mine
+    craftRecipe Mine (Variant 5)
     {
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1088,7 +1088,7 @@ module Hydrocraft
             item 1 Base.Stone2,
         }
     }
-    craftRecipe Mine
+    craftRecipe Mine (Variant 6)
     {
         time = 250,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -1195,7 +1195,7 @@ module Hydrocraft
             item 1 Base.Stone2,
         }
     }
-    craftRecipe Mine Stone
+    craftRecipe Mine Stone (Mining Drill with Power)
     {
         time = 75,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,

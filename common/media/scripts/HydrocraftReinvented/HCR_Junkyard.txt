@@ -383,7 +383,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCJunkyardmediumfull,
         }
     }
-    craftRecipe Search Junk
+    craftRecipe Search Junk (Variant)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -401,7 +401,7 @@ module Hydrocraft
             item 1 Base.Garbagebag,
         }
     }
-    craftRecipe Search Junk
+    craftRecipe Search Junk (Cardboard Box)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -501,7 +501,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCJunkyardlargefull2,
         }
     }
-    craftRecipe Search Junk
+    craftRecipe Search Junk (Variant 2)
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -519,7 +519,7 @@ module Hydrocraft
             item 1 Base.Garbagebag,
         }
     }
-    craftRecipe Search Junk
+    craftRecipe Search Junk (Cardboard Box 2)
     {
         time = 200,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -537,7 +537,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCardboardbox,
         }
     }
-    craftRecipe Search Junk
+    craftRecipe Search Junk (Cardboard Box 3)
     {
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -594,7 +594,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSled,
         }
     }
-    craftRecipe Insert Battery
+    craftRecipe Insert Battery (Metal Detector with Power)
     {
         time = 15,
         Tags = AnySurfaceCraft,
@@ -610,7 +610,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCDetectorpowered,
         }
     }
-    craftRecipe Remove Battery
+    craftRecipe Remove Battery (Metal Detector)
     {
         time = 15,
         Tags = AnySurfaceCraft,

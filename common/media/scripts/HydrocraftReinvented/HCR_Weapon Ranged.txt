@@ -556,7 +556,7 @@ module Hydrocraft
             item 1 Hydrocraft.x2CrossbowScope,
         }
     }
-    craftRecipe Make Crossbow Scope
+    craftRecipe Make Crossbow Scope (x4 Crossbow Scope)
     {
         time = 200,
         Tags = AnySurfaceCraft,

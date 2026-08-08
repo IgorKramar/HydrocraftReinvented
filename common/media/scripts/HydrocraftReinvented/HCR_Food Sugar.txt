@@ -161,22 +161,4 @@ module Hydrocraft
             item 4 Hydrocraft.HCSugarPowder,
         }
     }
-    craftRecipe Make Bag of Sugar
-    {
-        time = 20,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        SkillRequired = Cooking:3,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 4 [Hydrocraft.HCSugarPowder],
-            item 1 [Hydrocraft.HCSugarempty],
-        }
-        outputs
-        {
-            item 1 Base.Sugar,
-        }
-    }
 }

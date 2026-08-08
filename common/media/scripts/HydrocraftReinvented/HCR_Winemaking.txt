@@ -228,7 +228,7 @@ module Hydrocraft
             item 4 Hydrocraft.HCWineglassfull,
         }
     }
-    craftRecipe Pour Wine
+    craftRecipe Pour Wine (Glass of Red Wine)
     {
         time = 70,
         Tags = AnySurfaceCraft,
@@ -265,7 +265,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCWoodenbucketgrape,
         }
     }
-    craftRecipe Juice Grapes Into Wooden Bucket
+    craftRecipe Juice Grapes Into Wooden Bucket (Wooden Bucket with White Grape Juice)
     {
         time = 100,
         Tags = AnySurfaceCraft,
@@ -305,7 +305,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelgrape,
         }
     }
-    craftRecipe Prepare Wine Barrels
+    craftRecipe Prepare Wine Barrels (Barrel of White Grape Juice)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -346,7 +346,7 @@ module Hydrocraft
             item 20 Base.Wine2,
         }
     }
-    craftRecipe Fill Bottles with Wine
+    craftRecipe Fill Bottles with Wine (Variant)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -418,52 +418,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pot] mode:destroy,
-            item 5 [Base.Honey],
-            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.5 [Water],
-            item 1 [Base.Yeast],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCPotofhoneybrew,
-        }
-    }
-    craftRecipe Prepare Pot of Honey Brew
-    {
-        time = 100,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        SkillRequired = Cooking:3,
-        xpAward = Cooking:4,
-        inputs
-        {
-            item 1 [Base.Pot] mode:destroy,
-            item 5 [Hydrocraft.HCHoney],
-            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.5 [Water],
-            item 1 [Base.Yeast],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCPotofhoneybrew,
-        }
-    }
-    craftRecipe Prepare Pot of Honey Brew
-    {
-        time = 100,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        SkillRequired = Cooking:3,
-        xpAward = Cooking:4,
-        OnCreate = HCR42.recipe_hcjar5,
-        inputs
-        {
-            item 1 [Base.Pot] mode:destroy,
-            item 5 [Hydrocraft.HCJarhoney],
+            item 5 [Base.Honey;Hydrocraft.HCHoney;Hydrocraft.HCJarhoney],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
             item 1 [Base.Yeast],

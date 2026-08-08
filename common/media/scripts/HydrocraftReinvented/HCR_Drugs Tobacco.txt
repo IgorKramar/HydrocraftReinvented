@@ -246,7 +246,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_opencigpack1,
         inputs
         {
-            item 1 [Hydrocraft.HCCigarettepack],
+            item 1 [Hydrocraft.HCCigarettepack;Hydrocraft.HCCigarettepacklights;Hydrocraft.HCCigarettepackmenthol],
         }
     }
     craftRecipe Pack Cigarettes
@@ -279,7 +279,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCigarettecarton,
         }
     }
-    craftRecipe Open Cigarette Carton
+    craftRecipe Open Cigarette Carton (Light Cigarette Pack)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -294,19 +294,7 @@ module Hydrocraft
             item 10 Hydrocraft.HCCigarettepacklights,
         }
     }
-    craftRecipe Open Cigarette Pack
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Miscellaneous,
-        timedAction = Making,
-        OnCreate = HCR42.recipe_opencigpack2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCCigarettepacklights],
-        }
-    }
-    craftRecipe Pack Cigarettes
+    craftRecipe Pack Cigarettes (Light Cigarette Pack)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -321,7 +309,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCigarettepacklights,
         }
     }
-    craftRecipe Pack Into Carton
+    craftRecipe Pack Into Carton (Light Cigarette Carton)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -336,7 +324,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCigarettecartonlights,
         }
     }
-    craftRecipe Open Cigarette Carton
+    craftRecipe Open Cigarette Carton (Menthol Cigarette Pack)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -351,19 +339,7 @@ module Hydrocraft
             item 10 Hydrocraft.HCCigarettepackmenthol,
         }
     }
-    craftRecipe Open Cigarette Pack
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Miscellaneous,
-        timedAction = Making,
-        OnCreate = HCR42.recipe_opencigpack3,
-        inputs
-        {
-            item 1 [Hydrocraft.HCCigarettepackmenthol],
-        }
-    }
-    craftRecipe Pack Cigarettes
+    craftRecipe Pack Cigarettes (Menthol Cigarette Pack)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -378,7 +354,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCigarettepackmenthol,
         }
     }
-    craftRecipe Pack Into Carton
+    craftRecipe Pack Into Carton (Menthol Cigarette Carton)
     {
         time = 50,
         Tags = AnySurfaceCraft,
@@ -428,7 +404,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCTobacco,
         }
     }
-    craftRecipe Grind Tobacco
+    craftRecipe Grind Tobacco (Tobacco)
     {
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -482,7 +458,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPipetobacco,
         }
     }
-    craftRecipe Put Tobacco in Pipe
+    craftRecipe Put Tobacco in Pipe (Corn Cob Pipe with Tobacco)
     {
         time = 15,
         Tags = AnySurfaceCraft,

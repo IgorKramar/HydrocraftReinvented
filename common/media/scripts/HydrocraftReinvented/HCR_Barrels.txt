@@ -339,7 +339,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalammonia,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Ammonia
+    craftRecipe Fill Empty Metal Barrel With Ammonia (Ammonia)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -358,7 +358,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalammonia,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Ammonia
+    craftRecipe Fill Empty Metal Barrel With Ammonia (Liquid Soap Can With Ammonia)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -377,7 +377,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalammonia,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Ammonia
+    craftRecipe Fill Empty Metal Barrel With Ammonia (Metal Barrel with Ammonia)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -397,7 +397,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalammonia,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Ammonia
+    craftRecipe Fill Empty Metal Barrel With Ammonia (Blue Barrel with Ammonia)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -425,27 +425,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 20 [Hydrocraft.HCBarrelmetalammonia],
-            item 1 [Hydrocraft.HCAmmoniabarrelempty],
-            item 1 [Hydrocraft.HCRubberglove] mode:keep,
-            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCHandpump] mode:keep,
-            item 1 [Hydrocraft.HCRubberhose] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCAmmoniabarrelfull,
-        }
-    }
-    craftRecipe Fill Empty Ammonia Barrel With Ammonia
-    {
-        time = 250,
-        Tags = AnySurfaceCraft,
-        category = Chemistry,
-        timedAction = Making,
-        inputs
-        {
-            item 20 [Hydrocraft.HCAmmoniabarrelbluefull],
+            item 20 [Hydrocraft.HCAmmoniabarrelbluefull;Hydrocraft.HCBarrelmetalammonia],
             item 1 [Hydrocraft.HCAmmoniabarrelempty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
@@ -465,27 +445,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 20 [Hydrocraft.HCBarrelmetalammonia],
-            item 1 [Hydrocraft.HCAmmoniabarrelblueempty],
-            item 1 [Hydrocraft.HCRubberglove] mode:keep,
-            item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCHandpump] mode:keep,
-            item 1 [Hydrocraft.HCRubberhose] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCAmmoniabarrelbluefull,
-        }
-    }
-    craftRecipe Fill Blue Empty Ammonia Barrel With Ammonia
-    {
-        time = 250,
-        Tags = AnySurfaceCraft,
-        category = Chemistry,
-        timedAction = Making,
-        inputs
-        {
-            item 20 [Hydrocraft.HCAmmoniabarrelfull],
+            item 20 [Hydrocraft.HCAmmoniabarrelfull;Hydrocraft.HCBarrelmetalammonia],
             item 1 [Hydrocraft.HCAmmoniabarrelblueempty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
@@ -517,7 +477,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalmethylamin,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Methylamin
+    craftRecipe Fill Empty Metal Barrel With Methylamin (Metal Barrel with Methylamin)
     {
         time = 250,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
@@ -538,7 +498,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalmethylamin,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Methylamin
+    craftRecipe Fill Empty Metal Barrel With Methylamin (Blue Barrel with Methylamin)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -577,7 +537,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMethylaminbarrelfull,
         }
     }
-    craftRecipe Fill Empty Methylamin Barrel With Methylamin
+    craftRecipe Fill Empty Methylamin Barrel With Methylamin (Metal Barrel with Methylamin)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -597,7 +557,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMethylaminbarrelfull,
         }
     }
-    craftRecipe Fill Empty Methylamin Barrel With Methylamin
+    craftRecipe Fill Empty Methylamin Barrel With Methylamin (Blue Barrel with Methylamin)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -636,7 +596,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMethylaminbarrelbluefull,
         }
     }
-    craftRecipe Fill Blue Empty Methylamin Barrel With Methylamin
+    craftRecipe Fill Blue Empty Methylamin Barrel With Methylamin (Metal Barrel with Methylamin)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -656,7 +616,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCMethylaminbarrelbluefull,
         }
     }
-    craftRecipe Fill Blue Empty Methylamin Barrel With Methylamin
+    craftRecipe Fill Blue Empty Methylamin Barrel With Methylamin (Metal Barrel with Methylamin 2)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -695,7 +655,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalphenyl,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Phenylacetic Acid
+    craftRecipe Fill Empty Metal Barrel With Phenylacetic Acid (Metal Barrel with Phenylacetic Acid)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -715,7 +675,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalphenyl,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Phenylacetic Acid
+    craftRecipe Fill Empty Metal Barrel With Phenylacetic Acid (Blue Barrel with Phenylacetic Acid)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -754,7 +714,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPhenylbarrelfull,
         }
     }
-    craftRecipe Fill Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    craftRecipe Fill Empty Phenylacetic Acid Barrel With Phenylacetic Acid (Metal Barrel with Phenylacetic Acid)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -774,7 +734,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPhenylbarrelfull,
         }
     }
-    craftRecipe Fill Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    craftRecipe Fill Empty Phenylacetic Acid Barrel With Phenylacetic Acid (Blue Barrel with Phenylacetic Acid)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -813,7 +773,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPhenylbarrelbluefull,
         }
     }
-    craftRecipe Fill Blue Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    craftRecipe Fill Blue Empty Phenylacetic Acid Barrel With Phenylacetic Acid (Metal Barrel with Phenylacetic Acid)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -833,7 +793,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCPhenylbarrelbluefull,
         }
     }
-    craftRecipe Fill Blue Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    craftRecipe Fill Blue Empty Phenylacetic Acid Barrel With Phenylacetic Acid (Metal Barrel with Phenylacetic Acid 2)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -872,7 +832,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSulfuricacidbarrelfull,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid
+    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid (Metal Barrel with Ammonia)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -891,7 +851,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalammonia,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid
+    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid (Metal Barrel with Ammonia 2)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -910,7 +870,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalammonia,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid
+    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid (Metal Barrel with Ammonia 3)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -929,7 +889,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalammonia,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid
+    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid (Metal Barrel with Phenylacetic Acid)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -949,7 +909,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalsulfuricacid,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid
+    craftRecipe Fill Empty Metal Barrel With Sulfuric Acid (Metal Barrel with Phenylacetic Acid 2)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -988,7 +948,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSulfuricacidbarrelfull,
         }
     }
-    craftRecipe Fill Empty Sulfuric Acid Barrel With Sulfuric Acid
+    craftRecipe Fill Empty Sulfuric Acid Barrel With Sulfuric Acid (Metal Barrel with Phenylacetic Acid)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -1008,7 +968,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSulfuricacidbarrelfull,
         }
     }
-    craftRecipe Fill Empty Sulfuric Acid Barrel With Sulfuric Acid
+    craftRecipe Fill Empty Sulfuric Acid Barrel With Sulfuric Acid (Blue Barrel with Sulfuric Acid)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -1047,7 +1007,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSulfuricacidbarrelbluefull,
         }
     }
-    craftRecipe Fill Blue Empty Sulfuric Acid Barrel With Sulfuric Acid
+    craftRecipe Fill Blue Empty Sulfuric Acid Barrel With Sulfuric Acid (Metal Barrel with Phenylacetic Acid)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -1067,7 +1027,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCSulfuricacidbarrelbluefull,
         }
     }
-    craftRecipe Fill Blue Empty Sulfuric Acid Barrel With Sulfuric Acid
+    craftRecipe Fill Blue Empty Sulfuric Acid Barrel With Sulfuric Acid (Metal Barrel with Sulfuric Acid)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -1122,7 +1082,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCBarrelmetalgasoline,
         }
     }
-    craftRecipe Fill Empty Metal Barrel With Gasoline
+    craftRecipe Fill Empty Metal Barrel With Gasoline (Metal Barrel with Gasoline)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -1157,7 +1117,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCGasolinebarrelfull,
         }
     }
-    craftRecipe Fill Empty Gasoline Barrel With Gasoline
+    craftRecipe Fill Empty Gasoline Barrel With Gasoline (Metal Barrel with Gasoline)
     {
         time = 250,
         Tags = AnySurfaceCraft,
@@ -1183,26 +1143,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 8 [Hydrocraft.HCBarrelmetalgasoline],
-            item 1 [Base.PetrolCan],
-            item 1 [Hydrocraft.HCHandpump] mode:keep,
-            item 1 [Hydrocraft.HCRubberhose] mode:keep,
-            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
-        }
-        outputs
-        {
-            item 1 Base.PetrolCan,
-        }
-    }
-    craftRecipe Fill Empty Petrol Cans With Gasoline
-    {
-        time = 250,
-        Tags = AnySurfaceCraft,
-        category = Chemistry,
-        timedAction = Making,
-        inputs
-        {
-            item 8 [Hydrocraft.HCGasolinebarrelfull],
+            item 8 [Hydrocraft.HCBarrelmetalgasoline;Hydrocraft.HCGasolinebarrelfull],
             item 1 [Base.PetrolCan],
             item 1 [Hydrocraft.HCHandpump] mode:keep,
             item 1 [Hydrocraft.HCRubberhose] mode:keep,

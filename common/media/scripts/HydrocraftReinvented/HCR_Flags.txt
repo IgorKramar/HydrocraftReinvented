@@ -308,8 +308,8 @@ module Hydrocraft
         xpAward = MetalWelding:40,
         inputs
         {
-            item 1 [Hydrocraft.HCSteelrod],
-            item 1 [Hydrocraft.HCSteelpole],
+            item 1 [Hydrocraft.HCSteelrod;Base.SteelBar],
+            item 1 [Hydrocraft.HCSteelpole;Base.MetalPipe],
             item 1 [Base.OldTire1;Base.OldTire2;Base.OldTire3;Base.NormalTire1;Base.NormalTire2;Base.NormalTire3;Base.ModernTire1;Base.ModernTire2;Base.ModernTire3],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 tags[base:weldingmask] mode:keep,

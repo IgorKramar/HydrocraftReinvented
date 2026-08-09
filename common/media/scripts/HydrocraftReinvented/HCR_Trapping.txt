@@ -106,7 +106,7 @@ module Hydrocraft
         xpAward = MetalWelding:20,
         inputs
         {
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 tags[base:tongs;base:crudetongs],

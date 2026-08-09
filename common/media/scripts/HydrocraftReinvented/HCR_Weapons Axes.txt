@@ -555,7 +555,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCAxehandle],
-            item 3 [Hydrocraft.HCSteelingot],
+            item 3 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
@@ -594,7 +594,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 3 [Hydrocraft.HCSteelingot],
+            item 3 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Base.WoodenStick2],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
@@ -616,7 +616,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCSteelingot],
+            item 2 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Base.WoodenStick2],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
@@ -638,7 +638,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCIroningot],
+            item 2 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Base.WoodenStick2],
             item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
@@ -660,7 +660,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 3 [Hydrocraft.HCSteelingot],
+            item 3 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Base.WoodenStick2],
             item 1 [Hydrocraft.HCSmithyhammersteel] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
@@ -682,7 +682,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 3 [Hydrocraft.HCIroningot],
+            item 3 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Base.WoodenStick2],
             item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],

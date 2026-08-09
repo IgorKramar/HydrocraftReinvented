@@ -953,7 +953,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Pottery Textbook,
 		Icon		=	HCBookpottery,
-
+		LearnedRecipes  =   	Shape Gear Mold;Shape Clay Smoking Pipe;Shape Ring Mold,
         ReplaceOnUse    =   	HCBookpottery,
 		DisplayCategory	=   LitR,
     }
@@ -964,7 +964,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Glass Working Textbook,
 		Icon		=	HCBookglassworking,
-
+		LearnedRecipes  =   	Fuse Large Glass Pane;Blow Glass Animal Eyes,
         ReplaceOnUse    =   	HCBookglassworking,
 		DisplayCategory	=   LitR,
     }
@@ -1019,7 +1019,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Metalurgy Textbook,
 		Icon		=	HCBookmetalurgy,
-		LearnedRecipes  =   	Recycle Zinc;Recycle Zinc (Nickel);Recycle Zinc (Dime);Recycle Zinc (Quarter);Recycle Zinc (Half Dollar);Recycle Zinc (Dollar);Make Nickel Powder;Make Nickel Powder (Nickel Powder);Make Cobalt Powder;Make Cobalt Powder (Cobalt Powder);Make Zinc Powder;Make Zinc Powder (Zinc Powder);Make Chrome Powder;Make Chrome Powder (Chrome Powder);Make Tungsten Powder;Make Tungsten Powder (Tungsten Powder),
+		LearnedRecipes  =   	Recycle Zinc;Recycle Zinc (Nickel);Recycle Zinc (Dime);Recycle Zinc (Quarter);Recycle Zinc (Half Dollar);Recycle Zinc (Dollar);Make Nickel Powder;Make Nickel Powder (Nickel Powder);Make Cobalt Powder;Make Cobalt Powder (Cobalt Powder);Make Zinc Powder;Make Zinc Powder (Zinc Powder);Make Chrome Powder;Make Chrome Powder (Chrome Powder);Make Tungsten Powder;Make Tungsten Powder (Tungsten Powder);Smelt Aluminum Ingot;Recycle Aluminum Cans;Smelt Tin Ingot;Recycle Tin Cans;Smelt Bronze Ingot;Smelt Magnetite Ingot;Forge Steel Crank;Forge Iron Crank;Forge Large Iron Ring;Smelt Lead Ingot;Burn Coke;Forge Iron Sheet;Forge Copper Sheet;Forge Large Copper Sheet;Forge Iron Pole,
         	ReplaceOnUse    =   	HCBookmetalurgy,
 		DisplayCategory	=   LitR,
     }

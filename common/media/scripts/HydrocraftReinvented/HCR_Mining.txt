@@ -820,7 +820,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCPully],
             item 6 [Hydrocraft.HCRopethick],
             item 1 [Hydrocraft.HCCrank],
-            item 1 [Hydrocraft.HCSteelrod],
+            item 1 [Hydrocraft.HCSteelrod;Base.SteelBar],
             item 1 [Hydrocraft.HCDarkmine;Hydrocraft.HCDarkmineB],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
         }

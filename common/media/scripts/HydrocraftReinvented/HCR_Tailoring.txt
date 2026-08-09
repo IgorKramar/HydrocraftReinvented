@@ -934,7 +934,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCrank;Hydrocraft.HCCrankiron],
-            item 2 [Hydrocraft.HCSteelrod],
+            item 2 [Hydrocraft.HCSteelrod;Base.SteelBar],
             item 4 [Base.BarbedWire],
             item 8 [Hydrocraft.HCGeariron],
             item 1 [Hydrocraft.HCRopethin],
@@ -1081,7 +1081,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 3 [Hydrocraft.HCWool],
+            item 3 [Hydrocraft.HCWool;Base.WoolRaw],
             item 1 [Hydrocraft.HCSpindle] mode:keep,
             item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
         }
@@ -1099,7 +1099,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCYarn;Base.Yarn],
             item 2 [Hydrocraft.HCCharcoalpowder],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
@@ -1121,7 +1121,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCYarn;Base.Yarn],
             item 1 [Hydrocraft.HCRedpigment],
             item 1 [Hydrocraft.HCBluepigment],
             item 1 [Base.Charcoal],
@@ -1144,7 +1144,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCYarn;Base.Yarn],
             item 2 [Hydrocraft.HCBluepigment],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
@@ -1166,7 +1166,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCYarn;Base.Yarn],
             item 2 [Hydrocraft.HCGreenpigment],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
@@ -1188,7 +1188,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCYarn;Base.Yarn],
             item 2 [Hydrocraft.HCYellowpigment],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
@@ -1210,7 +1210,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCYarn;Base.Yarn],
             item 1 [Hydrocraft.HCRedpigment],
             item 1 [Hydrocraft.HCYellowpigment],
             item 1 [Base.Charcoal],
@@ -1233,7 +1233,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCYarn],
+            item 1 [Hydrocraft.HCYarn;Base.Yarn],
             item 2 [Hydrocraft.HCRedpigment],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
@@ -1255,7 +1255,7 @@ module Hydrocraft
         xpAward = Tailoring:37,
         inputs
         {
-            item 3 [Hydrocraft.HCYarn],
+            item 3 [Hydrocraft.HCYarn;Base.Yarn],
             item 1 [Hydrocraft.HCLoom;Hydrocraft.HCLoomfloor] mode:keep,
         }
         outputs
@@ -1406,7 +1406,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcspindle3,
         inputs
         {
-            item 3 [Hydrocraft.HCYarn],
+            item 3 [Hydrocraft.HCYarn;Base.Yarn],
         }
         outputs
         {
@@ -1681,7 +1681,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 3 [Hydrocraft.HCWool],
+            item 3 [Hydrocraft.HCWool;Base.WoolRaw],
             item 1 [Hydrocraft.HCSpinningwheel;Hydrocraft.HCTailoringbench2] mode:keep,
         }
         outputs
@@ -1898,7 +1898,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 10 [Hydrocraft.HCBrownfeathers;Hydrocraft.HCWhitefeathers],
+            item 10 [Hydrocraft.HCBrownfeathers;Hydrocraft.HCWhitefeathers;Base.ChickenFeather;Base.TurkeyFeather],
             item 1 [Hydrocraft.HCPillowcase],
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
             item 1 [Base.Thread],
@@ -1975,7 +1975,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
-            item 2 [Hydrocraft.HCYarn],
+            item 2 [Hydrocraft.HCYarn;Base.Yarn],
         }
         outputs
         {
@@ -1993,7 +1993,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
-            item 4 [Hydrocraft.HCYarn],
+            item 4 [Hydrocraft.HCYarn;Base.Yarn],
         }
         outputs
         {
@@ -2011,7 +2011,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
-            item 8 [Hydrocraft.HCYarn],
+            item 8 [Hydrocraft.HCYarn;Base.Yarn],
         }
         outputs
         {
@@ -2029,7 +2029,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
-            item 12 [Hydrocraft.HCYarn],
+            item 12 [Hydrocraft.HCYarn;Base.Yarn],
         }
         outputs
         {
@@ -2047,7 +2047,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
-            item 4 [Hydrocraft.HCYarn],
+            item 4 [Hydrocraft.HCYarn;Base.Yarn],
         }
         outputs
         {
@@ -2065,7 +2065,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.KnittingNeedles;Hydrocraft.HCTailoringbench2] mode:keep,
-            item 4 [Hydrocraft.HCYarn],
+            item 4 [Hydrocraft.HCYarn;Base.Yarn],
         }
         outputs
         {

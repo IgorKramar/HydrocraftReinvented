@@ -19,9 +19,12 @@ skill = player:getPerkLevel(Perks.PlantScavenging);
     chance = ZombRand(4096);
     secondChance = 0;
     if chance <= dirtLvl10 then
-        secondChance = ZombRand(2);
+        secondChance = ZombRand(3);
         if secondChance == 0 then player:getInventory():AddItem("Hydrocraft.HCSandstone");
-        elseif secondChance == 1 then player:getInventory():AddItem("Hydrocraft.HCTrashlarge");	
+        elseif secondChance == 1 then player:getInventory():AddItem("Hydrocraft.HCTrashlarge");
+        elseif secondChance == 2 then
+            local tablets = {"Hydrocraft.HCTabletButcherCarcass","Hydrocraft.HCTabletDryingFrame","Hydrocraft.HCTabletberries","Hydrocraft.HCTabletbirchbarkbasket","Hydrocraft.HCTabletshrooms","Hydrocraft.HCTabletstrawbasket","Hydrocraft.HCTabletwickerbasket"};
+            player:getInventory():AddItem(tablets[ZombRand(#tablets)+1]);
         end
     elseif chance <= dirtLvl9+dirtLvl10 then
 		secondChance = ZombRand(2);
@@ -102,11 +105,13 @@ skill = player:getPerkLevel(Perks.PlantScavenging);
     chance = ZombRand(4096);
     secondChance = 0;
     if chance <= mineLvl10 then
-        secondChance = ZombRand(4);
+        secondChance = ZombRand(6);
         if secondChance == 0 then player:getInventory():AddItem("Hydrocraft.HCGoldore");
         elseif secondChance == 1 then player:getInventory():AddItem("Hydrocraft.HCTrashlarge");
         elseif secondChance == 2 then player:getInventory():AddItem("Hydrocraft.HCMeteorite");
-        elseif secondChance == 3 then player:getInventory():AddItem("Hydrocraft.HCSandstone");            
+        elseif secondChance == 3 then player:getInventory():AddItem("Hydrocraft.HCSandstone");
+        elseif secondChance == 4 then player:getInventory():AddItem("Hydrocraft.HCJade");
+        elseif secondChance == 5 then player:getInventory():AddItem("Hydrocraft.HCLapislazuli");
         end
     elseif chance <= mineLvl9+mineLvl10 then
         secondChance = ZombRand(4);
@@ -115,12 +120,13 @@ skill = player:getPerkLevel(Perks.PlantScavenging);
         elseif secondChance == 2 then player:getInventory():AddItem("Hydrocraft.HCStonearrowhead");
         elseif secondChance == 3 then player:getInventory():AddItem("Hydrocraft.HCNickelore");              
         end
-    elseif chance <= mineLvl8+mineLvl9+mineLvl10 then   
-        secondChance = ZombRand(4);
+    elseif chance <= mineLvl8+mineLvl9+mineLvl10 then
+        secondChance = ZombRand(5);
         if secondChance == 0 then player:getInventory():AddItem("Hydrocraft.HCBauxiteore");
         elseif secondChance == 1 then player:getInventory():AddItem("Hydrocraft.HCCinnabar");
         elseif secondChance == 2 then player:getInventory():AddItem("Hydrocraft.HCMagnetite");
-        elseif secondChance == 3 then player:getInventory():AddItem("Hydrocraft.HCTrashsmall");             
+        elseif secondChance == 3 then player:getInventory():AddItem("Hydrocraft.HCTrashsmall");
+        elseif secondChance == 4 then player:getInventory():AddItem("Hydrocraft.HCMarble");
         end
     elseif chance <= mineLvl7+mineLvl8+mineLvl9+mineLvl10 then
         secondChance = ZombRand(4);

@@ -1264,7 +1264,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCSteelingot],
+            item 2 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1284,7 +1284,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCIroningot],
+            item 2 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1324,7 +1324,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCCopperingot],
+            item 2 [Hydrocraft.HCCopperingot;Base.CopperIngot],
             item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1364,7 +1364,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCSteelingot],
+            item 2 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1384,7 +1384,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCIroningot],
+            item 2 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1424,7 +1424,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCCopperingot],
+            item 2 [Hydrocraft.HCCopperingot;Base.CopperIngot],
             item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1446,7 +1446,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCBoneneedle] mode:keep,
             item 2 [Base.Thread],
         }
@@ -1502,7 +1502,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCSteelingot],
+            item 2 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1522,7 +1522,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCIroningot],
+            item 2 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1562,7 +1562,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCCopperingot],
+            item 2 [Hydrocraft.HCCopperingot;Base.CopperIngot],
             item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1583,7 +1583,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCLeatherhard],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCBoneneedle] mode:keep,
             item 4 [Base.Thread],
         }
@@ -1602,7 +1602,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCBoneneedle] mode:keep,
             item 2 [Base.Thread],
             item 1 [Base.Rope],
@@ -1697,7 +1697,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 4 [Hydrocraft.HCBone],
+            item 4 [Hydrocraft.HCBone;Base.AnimalBone],
             item 1 [Base.Rope],
         }
         outputs
@@ -1801,7 +1801,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 4 [Hydrocraft.HCSteelingot],
+            item 4 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1821,7 +1821,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 5 [Hydrocraft.HCSteelingot],
+            item 5 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1841,7 +1841,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 5 [Hydrocraft.HCIroningot],
+            item 5 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1881,7 +1881,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 5 [Hydrocraft.HCCopperingot],
+            item 5 [Hydrocraft.HCCopperingot;Base.CopperIngot],
             item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -1902,7 +1902,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCLeatherhard],
-            item 2 [Hydrocraft.HCSteelingot],
+            item 2 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCBoneneedle] mode:keep,
             item 8 [Base.Thread],
         }
@@ -1921,7 +1921,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCLeather],
-            item 2 [Hydrocraft.HCSteelingot],
+            item 2 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCBoneneedle] mode:keep,
             item 4 [Base.Thread],
             item 1 [Base.Rope],
@@ -2017,7 +2017,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 8 [Hydrocraft.HCBone],
+            item 8 [Hydrocraft.HCBone;Base.AnimalBone],
             item 2 [Base.Rope],
         }
         outputs
@@ -2122,7 +2122,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 4 [Hydrocraft.HCSteelingot],
+            item 4 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -2142,7 +2142,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCSteelingot],
+            item 2 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -2162,7 +2162,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCIroningot],
+            item 2 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -2202,7 +2202,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCCopperingot],
+            item 2 [Hydrocraft.HCCopperingot;Base.CopperIngot],
             item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -2239,7 +2239,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCLeatherhard],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCBoneneedle] mode:keep,
             item 4 [Base.Thread],
         }
@@ -2258,7 +2258,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCLeather],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCBoneneedle] mode:keep,
             item 2 [Base.Thread],
             item 1 [Base.Rope],
@@ -2353,7 +2353,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 4 [Hydrocraft.HCBone],
+            item 4 [Hydrocraft.HCBone;Base.AnimalBone],
             item 1 [Base.Rope],
         }
         outputs
@@ -2404,7 +2404,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 2 [Hydrocraft.HCSteelingot],
+            item 2 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -2463,7 +2463,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 4 [Hydrocraft.HCSteelingot],
+            item 4 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -2483,7 +2483,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 4 [Hydrocraft.HCIroningot],
+            item 4 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
@@ -2523,7 +2523,7 @@ module Hydrocraft
         xpAward = MetalWelding:30,
         inputs
         {
-            item 4 [Hydrocraft.HCCopperingot],
+            item 4 [Hydrocraft.HCCopperingot;Base.CopperIngot],
             item 1 [Hydrocraft.HCSmithyhammercopper;Hydrocraft.HCSmithyhammerbronze;Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,

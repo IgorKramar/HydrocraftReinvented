@@ -269,7 +269,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcspindle3,
         inputs
         {
-            item 3 [Hydrocraft.HCYarn],
+            item 3 [Hydrocraft.HCYarn;Base.Yarn],
             item 1 [Hydrocraft.HCWoolcloth],
             item 1 [Base.Needle;Hydrocraft.HCBoneneedle] mode:keep,
             item 3 [Base.Thread],

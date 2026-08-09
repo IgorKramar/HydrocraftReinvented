@@ -357,7 +357,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCJunkyardsmallfull],
             item 1 [Base.Shovel;Base.Shovel2] mode:keep,
-            item 3 [Hydrocraft.HCSteelrod],
+            item 3 [Hydrocraft.HCSteelrod;Base.SteelBar],
             item 8 [Hydrocraft.HCChickenwire],
             item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
         }
@@ -450,7 +450,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCJunkyardmediumfull],
             item 1 [Base.Shovel;Base.Shovel2] mode:keep,
             item 6 [Hydrocraft.HCSteelbeam],
-            item 12 [Hydrocraft.HCSteelrod],
+            item 12 [Hydrocraft.HCSteelrod;Base.SteelBar],
             item 1 [Base.Screwdriver] mode:keep,
             item 20 [Hydrocraft.HCBolt],
             item 20 [Hydrocraft.HCNut],

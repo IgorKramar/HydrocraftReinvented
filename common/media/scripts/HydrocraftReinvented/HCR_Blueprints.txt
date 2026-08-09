@@ -741,7 +741,7 @@ module Hydrocraft
         {
             item 1 [Base.SheetPaper2],
             item 1 [Base.Pencil;Base.Pen],
-            item 1 [Hydrocraft.HCBone;Hydrocraft.HCZombiebones] mode:keep,
+            item 1 [Hydrocraft.HCBone;Hydrocraft.HCZombiebones;Base.AnimalBone] mode:keep,
             item 1 [Hydrocraft.HCBookarchery] mode:keep,
         }
         outputs

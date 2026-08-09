@@ -308,7 +308,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCClaytablet],
-            item 2 [Hydrocraft.HCBone],
+            item 2 [Hydrocraft.HCBone;Base.AnimalBone],
             item 1 [Hydrocraft.HCResearchtable] mode:keep,
         }
         outputs

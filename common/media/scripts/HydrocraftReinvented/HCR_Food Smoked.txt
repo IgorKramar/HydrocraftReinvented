@@ -479,7 +479,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCBarrelmetalempty],
-            item 6 [Hydrocraft.HCSteelrod],
+            item 6 [Hydrocraft.HCSteelrod;Base.SteelBar],
             item 1 [Base.SheetMetal],
             item 1 [Hydrocraft.HCSteelpipe],
             item 1 [Hydrocraft.HCMetalring],
@@ -859,7 +859,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Hydrocraft.HCTurkeymeat],
+            item 1 [Hydrocraft.HCTurkeymeat;Base.TurkeyFillet],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],

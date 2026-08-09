@@ -563,7 +563,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Hydrocraft.HCTurkeymeat],
+            item 1 [Hydrocraft.HCTurkeymeat;Base.TurkeyFillet],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs

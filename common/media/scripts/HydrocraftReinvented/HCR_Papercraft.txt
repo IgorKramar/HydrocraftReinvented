@@ -264,7 +264,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCBlackfeathers;Hydrocraft.HCWhitefeathers;Hydrocraft.HCBrownfeathers;Hydrocraft.HCStripedfeather;Hydrocraft.HCBluejayfeather],
+            item 1 [Hydrocraft.HCBlackfeathers;Hydrocraft.HCWhitefeathers;Hydrocraft.HCBrownfeathers;Hydrocraft.HCStripedfeather;Hydrocraft.HCBluejayfeather;Base.ChickenFeather;Base.TurkeyFeather],
             item 1 [Hydrocraft.HCPliers] mode:keep,
             item 1 tags[base:sharpknife] mode:keep,
         }

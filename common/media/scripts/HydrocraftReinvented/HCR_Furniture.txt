@@ -193,7 +193,7 @@ module Hydrocraft
         {
             item 4 [Base.Plank],
             item 4 [Base.Nails],
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
             item 1 tags[base:saw;base:smallsaw;base:crudesaw] mode:keep,
         }

@@ -1,0 +1,984 @@
+module Hydrocraft
+{
+    imports { Base }
+
+    /* v1.5.5 Reclamation: producers restored for orphaned intermediates.
+       Butchering yields follow B41 HCButchering.lua; smelting mirrors the
+       Recycle Zinc house pattern; stations accept vanilla B42 equivalents. */
+
+    craftRecipe Butcher Deer Carcass
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        SkillRequired = Cooking:2,
+        xpAward = Cooking:9,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDeerdead;Hydrocraft.HCDeerdead2],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCVenison,
+            item 1 Hydrocraft.HCHiderawdeer,
+            item 4 Hydrocraft.HCIntestines,
+            item 4 Hydrocraft.HCLard,
+            item 6 Hydrocraft.HCBone,
+            item 1 Hydrocraft.HCDeerantlers,
+        }
+    }
+    craftRecipe Butcher Boar Carcass
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        SkillRequired = Cooking:2,
+        xpAward = Cooking:9,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBoardead;Hydrocraft.HCPigdead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Base.PorkChop,
+            item 2 Base.Bacon,
+            item 1 Hydrocraft.HCHiderawboar,
+            item 4 Hydrocraft.HCIntestines,
+            item 4 Hydrocraft.HCLard,
+            item 6 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Bear Carcass
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:12,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeardead;Hydrocraft.HCBlackbeardead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 20 Hydrocraft.HCBearsteak,
+            item 1 Hydrocraft.HCHiderawbear,
+            item 6 Hydrocraft.HCIntestines,
+            item 6 Hydrocraft.HCLard,
+            item 12 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Cougar Carcass
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        SkillRequired = Cooking:2,
+        xpAward = Cooking:9,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCougardead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 8 Hydrocraft.HCCougarsteak,
+            item 1 Hydrocraft.HCHiderawcougar,
+            item 3 Hydrocraft.HCIntestines,
+            item 2 Hydrocraft.HCLard,
+            item 10 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Chicken
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCChickendead;Hydrocraft.HCChickendead2],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Chicken,
+            item 5 Hydrocraft.HCBrownfeathers,
+        }
+    }
+    craftRecipe Butcher Turkey
+    {
+        time = 60,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTurkeydead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTurkeymeat,
+            item 12 Hydrocraft.HCBrownfeathers,
+        }
+    }
+    craftRecipe Butcher Small Bird
+    {
+        time = 30,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPigeondead;Hydrocraft.HCSparrowdead;Hydrocraft.HCCardinaldead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Smallbirdmeat,
+            item 2 Hydrocraft.HCWhitefeathers,
+        }
+    }
+    craftRecipe Butcher Game Bird
+    {
+        time = 30,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCQuaildead;Hydrocraft.HCGrousedead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Smallbirdmeat,
+            item 2 Hydrocraft.HCBrownfeathers,
+        }
+    }
+    craftRecipe Butcher Black Bird
+    {
+        time = 30,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCrowdead;Hydrocraft.HCMagpiedead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Smallbirdmeat,
+            item 2 Hydrocraft.HCBlackfeathers,
+        }
+    }
+    craftRecipe Butcher Blue Jay
+    {
+        time = 30,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBluejaydead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.Smallbirdmeat,
+            item 1 Hydrocraft.HCBluejayfeather,
+        }
+    }
+    craftRecipe Butcher Duck
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDuckdead;Hydrocraft.HCDMallarddead;Hydrocraft.HCRedheadduckdead;Hydrocraft.HCRedheadduckdead2;Hydrocraft.HCPintailduckdead;Hydrocraft.HCPintailduckdead2;Hydrocraft.HCBlackduckdead;Hydrocraft.HCBlackduckdead2;Hydrocraft.HCCanvasbackduckdead;Hydrocraft.HCCanvasbackduckdead2;Hydrocraft.HCScaupduckdead;Hydrocraft.HCScaupduckdead2;Hydrocraft.HCCootdead;Hydrocraft.HCWoodduckdead;Hydrocraft.HCWoodduckdead2],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCDuckmeat,
+            item 3 Hydrocraft.HCStripedfeather,
+        }
+    }
+    craftRecipe Butcher Goose
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCanadiangoosedead;Hydrocraft.HCSnowgoosedead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCGoosemeat,
+            item 4 Hydrocraft.HCWhitefeathers,
+        }
+    }
+    craftRecipe Smelt Aluminum Ingot
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:6,
+        xpAward = MetalWelding:30,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBauxiteore;Hydrocraft.HCAluminumpowder],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAluminumingot,
+        }
+    }
+    craftRecipe Recycle Aluminum Cans
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:6,
+        xpAward = MetalWelding:30,
+        inputs
+        {
+            item 4 [Base.PopEmpty;Base.Pop2Empty;Base.Pop3Empty],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAluminumingot,
+        }
+    }
+    craftRecipe Smelt Tin Ingot
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:2,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 1 [Hydrocraft.HCTinore;Hydrocraft.HCTinpowder],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTiningot,
+        }
+    }
+    craftRecipe Recycle Tin Cans
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:2,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 3 [Hydrocraft.HCTincan],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCTiningot,
+        }
+    }
+    craftRecipe Smelt Bronze Ingot
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:2,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCopperingot;Base.CopperIngot],
+            item 1 [Hydrocraft.HCTiningot],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBronzeingot,
+        }
+    }
+    craftRecipe Smelt Magnetite Ingot
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:5,
+        xpAward = MetalWelding:30,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMagnetite;Hydrocraft.HCMagnetitepowder],
+            item 1 [Hydrocraft.HCCoke;Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCBlastfurnace2;Hydrocraft.HCFurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMagnetiteingot,
+        }
+    }
+    craftRecipe Forge Steel Crank
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        xpAward = MetalWelding:15,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelrod;Base.SteelBar],
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium;Hydrocraft.HCSmithyhammeriron] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Hydrocraft.HCAnvil2;Base.BlacksmithAnvil;Base.BenchAnvil;Base.BlockAnvil;Base.StoneAnvil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCrank,
+        }
+    }
+    craftRecipe Forge Iron Crank
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:3,
+        xpAward = MetalWelding:15,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIronrod;Base.IronBar],
+            item 1 [Hydrocraft.HCWoodblock],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Hydrocraft.HCAnvil2;Base.BlacksmithAnvil;Base.BenchAnvil;Base.BlockAnvil;Base.StoneAnvil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCrankiron,
+        }
+    }
+    craftRecipe Forge Large Iron Ring
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:3,
+        xpAward = MetalWelding:15,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIronrod;Base.IronBar],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Hydrocraft.HCAnvil2;Base.BlacksmithAnvil;Base.BenchAnvil;Base.BlockAnvil;Base.StoneAnvil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMetalringiron,
+        }
+    }
+    craftRecipe Fuse Large Glass Pane
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 2 [Hydrocraft.HCGlasspane;Base.GlassPanel],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlasspanelarge,
+        }
+    }
+    craftRecipe Blow Glass Animal Eyes
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 10 Hydrocraft.HCAnimalglasseye,
+        }
+    }
+    craftRecipe Shape Clay Tablet
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Masonry,
+        timedAction = Making,
+        xpAward = Strength:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGreyclay;Hydrocraft.HCRedclay;Base.Clay],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCClaytablet,
+        }
+    }
+    craftRecipe Shape Gear Mold
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Masonry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Strength:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGreyclay;Hydrocraft.HCRedclay;Base.Clay],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGearmold,
+        }
+    }
+    craftRecipe Shape Clay Smoking Pipe
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Masonry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Strength:3,
+        inputs
+        {
+            item 2 [Hydrocraft.HCGreyclay;Hydrocraft.HCRedclay;Base.Clay],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCClaypipesmoking,
+        }
+    }
+    craftRecipe Forge Iron Sheet
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:3,
+        xpAward = MetalWelding:15,
+        inputs
+        {
+            item 1 [Hydrocraft.HCIroningot;Base.IronIngot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Hydrocraft.HCAnvil2;Base.BlacksmithAnvil;Base.BenchAnvil;Base.BlockAnvil;Base.StoneAnvil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCIronsheet,
+        }
+    }
+    craftRecipe Forge Copper Sheet
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:3,
+        xpAward = MetalWelding:15,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCopperingot;Base.CopperIngot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Hydrocraft.HCAnvil2;Base.BlacksmithAnvil;Base.BenchAnvil;Base.BlockAnvil;Base.StoneAnvil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCoppersheet,
+        }
+    }
+    craftRecipe Forge Large Copper Sheet
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        xpAward = MetalWelding:20,
+        inputs
+        {
+            item 2 [Hydrocraft.HCCopperingot;Base.CopperIngot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Hydrocraft.HCAnvil2;Base.BlacksmithAnvil;Base.BenchAnvil;Base.BlockAnvil;Base.StoneAnvil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCoppersheetlarge,
+        }
+    }
+    craftRecipe Forge Iron Pole
+    {
+        time = 300,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:4,
+        xpAward = MetalWelding:20,
+        inputs
+        {
+            item 2 [Hydrocraft.HCIroningot;Base.IronIngot],
+            item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Hydrocraft.HCAnvil2;Base.BlacksmithAnvil;Base.BenchAnvil;Base.BlockAnvil;Base.StoneAnvil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCIronpole,
+        }
+    }
+    craftRecipe Bundle Wheat
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        xpAward = Farming:3,
+        inputs
+        {
+            item 4 [Hydrocraft.HCWheat],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWheatBundle,
+        }
+    }
+    craftRecipe Mature Silk Cocoon
+    {
+        time = 200,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Ranching,
+        timedAction = Making,
+        xpAward = Farming:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSilkcocoon],
+            item 1 [Hydrocraft.HCMulberryleaf],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSilkcocoon2,
+        }
+    }
+    craftRecipe Burn Coke
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:3,
+        xpAward = MetalWelding:15,
+        inputs
+        {
+            item 2 [Hydrocraft.HCCoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCCoke,
+        }
+    }
+    craftRecipe Smelt Lead Ingot
+    {
+        time = 400,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = MetalWelding:3,
+        xpAward = MetalWelding:25,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLeadore;Hydrocraft.HCLeadpowder],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
+            item 1 tags[base:tongs;base:crudetongs],
+            item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
+            item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLeadingot,
+        }
+    }
+    craftRecipe Shape Ring Mold
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Masonry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Strength:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGreyclay;Hydrocraft.HCRedclay;Base.Clay],
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRingmold,
+        }
+    }
+    craftRecipe Breed Silkworms
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Ranching,
+        timedAction = Making,
+        xpAward = Farming:5,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSilkmothfemale],
+            item 1 [Hydrocraft.HCSilkmothmale],
+            item 2 [Hydrocraft.HCMulberryleaf],
+        }
+        outputs
+        {
+            item 2 Hydrocraft.HCSilkwom,
+        }
+    }
+    craftRecipe Butcher Small Game (Fox)
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCFoxdead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSmallgamesteak,
+            item 1 Hydrocraft.HCHiderawfox,
+            item 2 Hydrocraft.HCIntestines,
+            item 2 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Small Game (Skunk)
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSkunkdead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSmallgamesteak,
+            item 1 Hydrocraft.HCHiderawskunk,
+            item 2 Hydrocraft.HCIntestines,
+            item 2 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Small Game (Raccoon)
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRaccoondead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSmallgamesteak,
+            item 1 Hydrocraft.HCHiderawraccoon,
+            item 2 Hydrocraft.HCIntestines,
+            item 2 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Small Game (Beaver)
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeaverdead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSmallgamesteak,
+            item 1 Hydrocraft.HCHiderawbeaver,
+            item 2 Hydrocraft.HCIntestines,
+            item 2 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Small Game (Muskrat)
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMuskratdead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSmallgamesteak,
+            item 1 Hydrocraft.HCHiderawmuskrat,
+            item 2 Hydrocraft.HCIntestines,
+            item 2 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Small Game (Opossum)
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCOpossumdead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSmallgamesteak,
+            item 1 Hydrocraft.HCHiderawopossum,
+            item 2 Hydrocraft.HCIntestines,
+            item 2 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Small Game (Groundhog)
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGroundhogdead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSmallgamesteak,
+            item 1 Hydrocraft.HCHiderawgroundhog,
+            item 2 Hydrocraft.HCIntestines,
+            item 2 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Small Game (Armadillo)
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCArmadillodead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSmallgamesteak,
+            item 1 Hydrocraft.HCHiderawarmadillo,
+            item 2 Hydrocraft.HCIntestines,
+            item 2 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Small Game (Porcupine)
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPorcupinedead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSmallgamesteak,
+            item 1 Hydrocraft.HCPorcupinequills,
+            item 2 Hydrocraft.HCIntestines,
+            item 2 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Butcher Small Game (Nutria)
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Hunting,
+        timedAction = Making,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCNutriadead],
+            item 1 tags[base:sharpknife] mode:keep,
+        }
+        outputs
+        {
+            item 4 Hydrocraft.HCSmallgamesteak,
+            item 1 Hydrocraft.HCHiderawnutria,
+            item 2 Hydrocraft.HCIntestines,
+            item 2 Hydrocraft.HCBone,
+        }
+    }
+    craftRecipe Charge Solar Park
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:8,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSolarpark],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSolarparkcharged,
+        }
+    }
+    craftRecipe Fill Wooden Bucket with Milk
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Ranching,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [*],
+            -fluid 5.0 [CowMilk;SheepMilk;AnimalMilk] mode:mixture,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWoodenbucketmilk,
+        }
+    }
+}

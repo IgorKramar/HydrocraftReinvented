@@ -781,7 +781,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
-            item 1 [Base.CowMilk;Base.SheepMilk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
             item 1 [Base.Butter],
             item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
             item 1 [Base.Bowl] mode:keep,

@@ -52,7 +52,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCBiogas] mode:keep,
             item 1 [Base.PropaneTank] mode:destroy,
-            item 100 [Hydrocraft.HCCompost],
+            item 100 [Hydrocraft.HCCompost;Base.CompostBag],
         }
         outputs
         {
@@ -88,7 +88,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCBiogas] mode:keep,
             item 1 [Hydrocraft.HCWeldingtankempty],
-            item 100 [Hydrocraft.HCCompost],
+            item 100 [Hydrocraft.HCCompost;Base.CompostBag],
         }
         outputs
         {

@@ -104,7 +104,7 @@ module Hydrocraft
         {
             item 10 [Hydrocraft.HCSolarcell],
             item 1 [Hydrocraft.HCWirecopper],
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 1 [Hydrocraft.HCWoodsheet],
             item 1 [Hydrocraft.HCSoldergunpowered],
             item 1 [Hydrocraft.HCSolder],
@@ -127,7 +127,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCSolarpanel],
-            item 1 [Hydrocraft.HCSteelpole],
+            item 1 [Hydrocraft.HCSteelpole;Base.MetalPipe],
             item 1 [Hydrocraft.HCBatteryarray],
             item 2 [Hydrocraft.HCCoppercablered],
             item 2 [Hydrocraft.HCCablecopper],

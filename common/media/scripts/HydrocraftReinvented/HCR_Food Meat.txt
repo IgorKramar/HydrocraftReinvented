@@ -757,7 +757,7 @@ module Hydrocraft
         xpAward = Cooking:9,
         inputs
         {
-            item 1 [Hydrocraft.HCTurkeymeat],
+            item 1 [Hydrocraft.HCTurkeymeat;Base.TurkeyFillet],
             item 1 [Hydrocraft.HCDuckmeat],
             item 1 [Base.Chicken],
             item 1 [Base.RoastingPan],

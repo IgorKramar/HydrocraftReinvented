@@ -599,7 +599,7 @@ module Hydrocraft
         xpAward = Woodwork:10,
         inputs
         {
-            item 1 [Hydrocraft.HCBone;Hydrocraft.HCZombiebones],
+            item 1 [Hydrocraft.HCBone;Hydrocraft.HCZombiebones;Base.AnimalBone],
             item 1 tags[base:sharpknife] mode:keep,
         }
         outputs
@@ -617,7 +617,7 @@ module Hydrocraft
         xpAward = Woodwork:10,
         inputs
         {
-            item 1 [Hydrocraft.HCBlackfeathers;Hydrocraft.HCWhitefeathers;Hydrocraft.HCBrownfeathers;Hydrocraft.HCRedfeather;Hydrocraft.HCStripedfeather;Hydrocraft.HCBluejayfeather;Hydrocraft.HCDucttapefletching],
+            item 1 [Hydrocraft.HCBlackfeathers;Hydrocraft.HCWhitefeathers;Hydrocraft.HCBrownfeathers;Hydrocraft.HCRedfeather;Hydrocraft.HCStripedfeather;Hydrocraft.HCBluejayfeather;Hydrocraft.HCDucttapefletching;Base.ChickenFeather;Base.TurkeyFeather],
             item 1 [Hydrocraft.HCStonearrowhead;Hydrocraft.HCBonearrowhead;Hydrocraft.HCMetalArrowhead],
             item 1 [Base.Glue;Hydrocraft.HCTar;Hydrocraft.HCRubbercement;Hydrocraft.HCSuperglue;Hydrocraft.HCHotgluegunfull;Hydrocraft.HCGluejar;Base.Woodglue;Hydrocraft.HCWoodgluejar],
             item 1 [Base.WoodenStick2],
@@ -660,7 +660,7 @@ module Hydrocraft
         OnCreate = HCR42.getBurned,
         inputs
         {
-            item 1 [Hydrocraft.HCIroningot;Hydrocraft.HCBronzeingot;Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCIroningot;Hydrocraft.HCBronzeingot;Hydrocraft.HCSteelingot;Base.SteelIngot;Base.IronIngot],
             item 1 tags[base:tongs;base:crudetongs],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,

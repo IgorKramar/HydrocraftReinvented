@@ -112,7 +112,7 @@ module Hydrocraft
         xpAward = Cooking:9,
         inputs
         {
-            item 1 [Hydrocraft.HCCrab;Hydrocraft.HCHerring;Base.Salmon;Base.FishFillet;Base.FrogMeat;Base.Smallbirdmeat;Base.Chicken;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.Smallanimalmeat;Base.Rabbitmeat;Hydrocraft.HCSmallgamesteak;Hydrocraft.HCVenison;Hydrocraft.HCBearsteak;Base.MuttonChop;Base.PorkChop;Hydrocraft.HCFreshham;Base.Steak;Hydrocraft.HCCheval],
+            item 1 [Hydrocraft.HCCrab;Hydrocraft.HCHerring;Base.Salmon;Base.FishFillet;Base.FrogMeat;Base.Smallbirdmeat;Base.Chicken;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.Smallanimalmeat;Base.Rabbitmeat;Hydrocraft.HCSmallgamesteak;Hydrocraft.HCVenison;Hydrocraft.HCBearsteak;Base.MuttonChop;Base.PorkChop;Hydrocraft.HCFreshham;Base.Steak;Hydrocraft.HCCheval;Base.TurkeyFillet],
             item 1 [Hydrocraft.HCBasicmarinade],
         }
         outputs
@@ -131,7 +131,7 @@ module Hydrocraft
         xpAward = Cooking:9,
         inputs
         {
-            item 1 [Hydrocraft.HCCrab;Hydrocraft.HCHerring;Base.Salmon;Base.FishFillet;Base.FrogMeat;Base.Smallbirdmeat;Base.Chicken;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.Smallanimalmeat;Base.Rabbitmeat;Hydrocraft.HCSmallgamesteak;Hydrocraft.HCVenison;Hydrocraft.HCBearsteak;Base.MuttonChop;Base.PorkChop;Hydrocraft.HCFreshham;Base.Steak;Hydrocraft.HCCheval],
+            item 1 [Hydrocraft.HCCrab;Hydrocraft.HCHerring;Base.Salmon;Base.FishFillet;Base.FrogMeat;Base.Smallbirdmeat;Base.Chicken;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.Smallanimalmeat;Base.Rabbitmeat;Hydrocraft.HCSmallgamesteak;Hydrocraft.HCVenison;Hydrocraft.HCBearsteak;Base.MuttonChop;Base.PorkChop;Hydrocraft.HCFreshham;Base.Steak;Hydrocraft.HCCheval;Base.TurkeyFillet],
             item 1 [Hydrocraft.HCTastymarinade],
         }
         outputs

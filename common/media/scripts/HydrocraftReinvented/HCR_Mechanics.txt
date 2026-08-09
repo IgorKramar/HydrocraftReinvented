@@ -62,7 +62,7 @@ module Hydrocraft
         {
             item 1 [Base.FrontCarDoor1],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -86,7 +86,7 @@ module Hydrocraft
         {
             item 1 [Base.FrontCarDoor2],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -110,7 +110,7 @@ module Hydrocraft
         {
             item 1 [Base.FrontCarDoor3],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -134,7 +134,7 @@ module Hydrocraft
         {
             item 1 [Base.RearCarDoor1],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -158,7 +158,7 @@ module Hydrocraft
         {
             item 1 [Base.RearCarDoor2],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -182,7 +182,7 @@ module Hydrocraft
         {
             item 1 [Base.RearCarDoor3],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -206,7 +206,7 @@ module Hydrocraft
         {
             item 1 [Base.RearCarDoorDouble1],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -230,7 +230,7 @@ module Hydrocraft
         {
             item 1 [Base.EngineDoor1],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -254,7 +254,7 @@ module Hydrocraft
         {
             item 1 [Base.EngineDoor2],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -278,7 +278,7 @@ module Hydrocraft
         {
             item 1 [Base.EngineDoor3],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -302,7 +302,7 @@ module Hydrocraft
         {
             item 1 [Base.TrunkDoor1],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -326,7 +326,7 @@ module Hydrocraft
         {
             item 1 [Base.TrunkDoor2],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -350,7 +350,7 @@ module Hydrocraft
         {
             item 1 [Base.TrunkDoor3],
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 [Hydrocraft.HCSteelingot],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -718,7 +718,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.FrontWindow1],
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -741,7 +741,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.FrontWindow2],
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -764,7 +764,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.FrontWindow3],
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -787,7 +787,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.RearWindow1],
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -810,7 +810,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.RearWindow2],
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -833,7 +833,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.RearWindow3],
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCPliers] mode:keep,
@@ -856,7 +856,7 @@ module Hydrocraft
         OnCreate = HCR42.getBurned,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 2 [Hydrocraft.HCBioplastic],
             item 1 [Hydrocraft.HCAluminumingot],
             item 1 [Base.Charcoal],
@@ -883,7 +883,7 @@ module Hydrocraft
         OnCreate = HCR42.getBurned,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 2 [Hydrocraft.HCBioplastic],
             item 1 [Hydrocraft.HCAluminumingot],
             item 1 [Base.Charcoal],
@@ -964,7 +964,7 @@ module Hydrocraft
         OnCreate = HCR42.getBurned,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 2 [Hydrocraft.HCBioplastic],
             item 1 [Hydrocraft.HCAluminumingot],
             item 1 [Base.Charcoal],
@@ -991,7 +991,7 @@ module Hydrocraft
         OnCreate = HCR42.getBurned,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 2 [Hydrocraft.HCBioplastic],
             item 1 [Hydrocraft.HCAluminumingot],
             item 1 [Base.Charcoal],
@@ -1072,7 +1072,7 @@ module Hydrocraft
         OnCreate = HCR42.getBurned,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 2 [Hydrocraft.HCBioplastic],
             item 1 [Hydrocraft.HCAluminumingot],
             item 1 [Base.Charcoal],
@@ -1099,7 +1099,7 @@ module Hydrocraft
         OnCreate = HCR42.getBurned,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 2 [Hydrocraft.HCBioplastic],
             item 1 [Hydrocraft.HCAluminumingot],
             item 1 [Base.Charcoal],

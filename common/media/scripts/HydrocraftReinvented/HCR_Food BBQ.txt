@@ -517,7 +517,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pan] mode:keep,
-            item 1 [Hydrocraft.HCTurkeymeat],
+            item 1 [Hydrocraft.HCTurkeymeat;Base.TurkeyFillet],
             item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
         }
         outputs
@@ -644,7 +644,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.KitchenKnife] mode:keep,
-            item 1 [Base.FishFillet;Base.Salmon;Hydrocraft.HCHerring;Hydrocraft.HCCrab;Base.Steak;Hydrocraft.HCCougarsteak;Base.MuttonChop;Base.PorkChop;Hydrocraft.HCFreshham;Base.Ham;Base.Chicken;Hydrocraft.HCBearsteak;Hydrocraft.HCVenison;Hydrocraft.HCCheval;Hydrocraft.HCSmallgamesteak;Base.Rabbitmeat;Base.Smallanimalmeat;Base.Smallbirdmeat;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.FrogMeat],
+            item 1 [Base.FishFillet;Base.Salmon;Hydrocraft.HCHerring;Hydrocraft.HCCrab;Base.Steak;Hydrocraft.HCCougarsteak;Base.MuttonChop;Base.PorkChop;Hydrocraft.HCFreshham;Base.Ham;Base.Chicken;Hydrocraft.HCBearsteak;Hydrocraft.HCVenison;Hydrocraft.HCCheval;Hydrocraft.HCSmallgamesteak;Base.Rabbitmeat;Base.Smallanimalmeat;Base.Smallbirdmeat;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.FrogMeat;Base.TurkeyFillet],
         }
     }
     craftRecipe Make Shish Kebab

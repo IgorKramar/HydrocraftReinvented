@@ -874,7 +874,7 @@ module Hydrocraft
         xpAward = Electricity:16,
         inputs
         {
-            item 1 [Hydrocraft.HCSteelpole],
+            item 1 [Hydrocraft.HCSteelpole;Base.MetalPipe],
             item 4 [Base.SheetMetal],
             item 5 [Hydrocraft.HCCablecopper],
             item 2 [Hydrocraft.HCLedred],
@@ -912,7 +912,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBatteryarray],
             item 2 [Hydrocraft.HCBicyclewheel],
             item 1 [Hydrocraft.HCSteelbeam],
-            item 4 [Hydrocraft.HCSteelpole],
+            item 4 [Hydrocraft.HCSteelpole;Base.MetalPipe],
             item 1 [Hydrocraft.HCControlpanel],
             item 5 [Hydrocraft.HCCablecopper],
             item 1 [Hydrocraft.HCXmaslights],
@@ -952,7 +952,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCElectrumingot],
-            item 1 [Hydrocraft.HCIroningot],
+            item 1 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Hydrocraft.HCCablecopper],
             item 1 [Hydrocraft.HCSolder],
             item 1 [Hydrocraft.HCSoldergunpowered],
@@ -977,7 +977,7 @@ module Hydrocraft
             item 2 [Hydrocraft.HCTinboard],
             item 2 [Hydrocraft.HCCoil],
             item 1 [Hydrocraft.HCMagnetiteingot],
-            item 1 [Hydrocraft.HCSteelrod],
+            item 1 [Hydrocraft.HCSteelrod;Base.SteelBar],
             item 1 [Hydrocraft.HCCablecopper],
             item 1 [Hydrocraft.HCSolder],
             item 1 [Hydrocraft.HCSoldergunpowered],
@@ -1003,7 +1003,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCTinboard],
             item 4 [Hydrocraft.HCCoil],
             item 1 [Hydrocraft.HCMagnetiteingot],
-            item 1 [Hydrocraft.HCSteelrod],
+            item 1 [Hydrocraft.HCSteelrod;Base.SteelBar],
             item 1 [Hydrocraft.HCCablecopper],
             item 1 [Hydrocraft.HCSolder],
             item 1 [Hydrocraft.HCSoldergunpowered],
@@ -1611,7 +1611,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCGlowlamp],
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 20 [Hydrocraft.HCPlastic],
             item 12 [Base.Screws],
             item 2 [Hydrocraft.HCTerminalstrip],
@@ -1647,7 +1647,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCGlowlamp],
-            item 1 [Hydrocraft.HCGlasspane],
+            item 1 [Hydrocraft.HCGlasspane;Base.GlassPanel],
             item 20 [Hydrocraft.HCPlastic],
             item 12 [Base.Screws],
             item 2 [Hydrocraft.HCTerminalstrip],

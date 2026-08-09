@@ -2059,7 +2059,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCCrank;Hydrocraft.HCCrankiron],
             item 6 [Base.HandScythe],
-            item 2 [Hydrocraft.HCSteelrod],
+            item 2 [Hydrocraft.HCSteelrod;Base.SteelBar],
             item 8 [Hydrocraft.HCGearsteel],
             item 4 [Hydrocraft.HCWoodbeam],
             item 20 [Base.Plank],
@@ -2767,7 +2767,7 @@ module Hydrocraft
         xpAward = Mechanics:8;Woodwork:50,
         inputs
         {
-            item 2 [Hydrocraft.HCSteelpole],
+            item 2 [Hydrocraft.HCSteelpole;Base.MetalPipe],
             item 4 [Hydrocraft.HCLeafSpring],
             item 36 [Hydrocraft.HCPlankoil],
             item 100 [Base.Nails],

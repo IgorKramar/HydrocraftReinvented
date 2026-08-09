@@ -281,7 +281,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCDogbowl] mode:keep,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCCatfoodopen;Base.TunaTinOpen;Base.MeatPatty;Hydrocraft.HCSmallgamesteak;Base.Smallanimalmeat;Base.Smallbirdmeat;Base.Chicken;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.FishFillet;Base.Salmon],
+            item 1 [Hydrocraft.HCCatfoodopen;Base.TunaTinOpen;Base.MeatPatty;Hydrocraft.HCSmallgamesteak;Base.Smallanimalmeat;Base.Smallbirdmeat;Base.Chicken;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.FishFillet;Base.Salmon;Base.TurkeyFillet],
             item 1 [Hydrocraft.HCCatmale;Hydrocraft.HCCatfemale;Hydrocraft.HCCatblackmale;Hydrocraft.HCCatblackfemale;Hydrocraft.HCCatbluemale;Hydrocraft.HCCatbluefemale;Hydrocraft.HCCatbluemale;Hydrocraft.HCCatbluefemale;Hydrocraft.HCCatbrownmale;Hydrocraft.HCCatbrownfemale;Hydrocraft.HCCatcreammale;Hydrocraft.HCCatcreamfemale;Hydrocraft.HCCatgingermale;Hydrocraft.HCCatgingerfemale;Hydrocraft.HCCatsilvermale;Hydrocraft.HCCatsilverfemale;Hydrocraft.HCCatwmale;Hydrocraft.HCCatwhitefemale] mode:keep,
         }
         outputs

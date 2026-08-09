@@ -1033,7 +1033,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCCamomiledry],
@@ -1090,7 +1090,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCNettlesdry],
@@ -1147,7 +1147,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCThistledry],
@@ -1204,7 +1204,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCSkullcapdry],
@@ -1261,7 +1261,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCDaisydry],
@@ -1318,7 +1318,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCAnemomedry],
@@ -1375,7 +1375,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCCamelliadry],

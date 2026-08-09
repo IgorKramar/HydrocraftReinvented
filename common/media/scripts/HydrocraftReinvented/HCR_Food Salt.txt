@@ -746,7 +746,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Hydrocraft.HCTurkeymeat],
+            item 1 [Hydrocraft.HCTurkeymeat;Base.TurkeyFillet],
         }
         outputs
         {

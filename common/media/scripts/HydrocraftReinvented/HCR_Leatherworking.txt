@@ -1950,7 +1950,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCLeather],
             item 2 [Hydrocraft.HCRopethin],
             item 4 [Base.Thread],
-            item 4 [Hydrocraft.HCWool],
+            item 4 [Hydrocraft.HCWool;Base.WoolRaw],
         }
         outputs
         {

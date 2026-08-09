@@ -87,7 +87,7 @@ local pl = getPlayer();
 pl:getXp():AddXP(Perks.Strength, 2);
 pl:getXp():AddXP(Perks.Fitness, 2);  
 
-player:getStats():setEndurance(player:getStats():getEndurance() - 0.01)
+player:getStats():add(CharacterStat.ENDURANCE, -0.01)
 skill = player:getPerkLevel(Perks.PlantScavenging);
 
     mineLvl0 = 1024+(18.6*skill);
@@ -186,7 +186,7 @@ end
 
 -- shovel clay
 function HCShovelClay(items, result, player)
-player:getStats():setEndurance(player:getStats():getEndurance() - 0.01)
+player:getStats():add(CharacterStat.ENDURANCE, -0.01)
 
 local pl = getPlayer();
 pl:getXp():AddXP(Perks.Strength, 2);
@@ -201,7 +201,7 @@ end
 
 -- Mine stone
 function HCMineStone(items, result, player)
-player:getStats():setEndurance(player:getStats():getEndurance() - 0.01)
+player:getStats():add(CharacterStat.ENDURANCE, -0.01)
 local pl = getPlayer();
 pl:getXp():AddXP(Perks.Strength, 2);
 pl:getXp():AddXP(Perks.Fitness, 2);  
@@ -219,7 +219,7 @@ local pl = getPlayer();
 pl:getXp():AddXP(Perks.Strength, 5);
 pl:getXp():AddXP(Perks.Fitness, 5);  
 
-player:getStats():setEndurance(player:getStats():getEndurance() - 0.01)
+player:getStats():add(CharacterStat.ENDURANCE, -0.01)
 skill = player:getPerkLevel(Perks.PlantScavenging);
 
 for i=1,5,1 do  

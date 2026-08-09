@@ -5,7 +5,7 @@ function HCDungGather(items, result, player)
 player:Say("There are no dung indoors.");
 return;
 end
-player:getStats():setFatigue(player:getStats():getFatigue()+0.05)
+player:getStats():add(CharacterStat.FATIGUE, +0.05)
     skill = player:getPerkLevel(Perks.PlantScavenging);
 
     dungLvl0 = 1024+(18.6*skill);

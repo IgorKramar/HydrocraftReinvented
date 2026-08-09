@@ -997,7 +997,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Bronze Working Textbook,
 		Icon		=	HCBookbronzeworking,
-
+		LearnedRecipes  =   	Smelt Bronze Ingot;Smelt Tin Ingot;Recycle Tin Cans,
         	ReplaceOnUse    =   	HCBookbronzeworking,
 		DisplayCategory	=   LitR,
     }
@@ -1184,7 +1184,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Stoneworking Textbook,
 		Icon		=	HCBookstoneworking,
-
+		LearnedRecipes  =   	Dig Quarry;Mine Stone;Make Marble Pedestal;Make Marble Statue,
         	ReplaceOnUse    =   	HCBookstoneworking,
 		DisplayCategory	=   LitR,
     }

@@ -6,7 +6,7 @@ if not player:isOutside() then player:Say("There are no flora indoors.");
 return;
 end
 
-player:getStats():setFatigue(player:getStats():getFatigue()+0.01);
+player:getStats():add(CharacterStat.FATIGUE, +0.01);
 
 
 local skill = player:getPerkLevel(Perks.PlantScavenging);

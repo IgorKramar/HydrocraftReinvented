@@ -33,6 +33,16 @@
 - Итог: некрафтуемых рецептов 803 → 101, недостижимых предметов 1 737 → 138.
   Остаток — осознанный: живые животные вырезанного разведения B41 (71) и
   легаси-ёмкости «с водой» до полной миграции на жидкости B42 (задел на v1.6).
+- **Починены шахта, сбор флоры и все lua-действия** (спасибо Haase за отчёт):
+  B42.20 переписал класс Stats — старые `setFatigue`/`setEndurance`/`setHunger`
+  удалены из движка, из-за чего добыча в шахте, сбор растений, ловля жуков,
+  пруд и навоз падали с ошибкой «Object tried to call nil». Все вызовы
+  переведены на новый API `CharacterStat` (6 lua-файлов).
+- Учебники бронзового и каменного дела больше не пустые: бронза учит выплавке
+  олова и бронзы, камень — карьеру, добыче камня и мраморной скульптуре.
+- Русские имена для 215 ванильных построек нового меню строительства B42
+  (купольные печи, горны, бревенчатые стены, черепа на столбах...) — у ванили
+  42.20 эти ключи ещё не переведены, HCR закрывает пробел самостоятельно.
 
 ### v1.5.0 — 2026-08-08
 
@@ -147,6 +157,18 @@
   The remainder is deliberate: live animals of the cut B41 husbandry (71)
   and legacy "filled with water" containers pending the full B42 fluid
   migration (groundwork for v1.6).
+- **Mining, flora gathering and all lua actions fixed** (thanks to Haase for
+  the report): B42.20 rewrote the Stats class — the old `setFatigue`/
+  `setEndurance`/`setHunger` are gone from the engine, so mining, plant
+  gathering, bug catching, pond and dung actions crashed with "Object tried
+  to call nil". All calls migrated to the new `CharacterStat` API (6 lua files).
+- Bronze Working and Stoneworking textbooks are no longer empty: bronze
+  teaches tin and bronze smelting; stone teaches the quarry, stone mining
+  and marble sculpture.
+- Russian names for 215 vanilla build-menu entities of the new B42
+  construction system (dome kilns, forges, log walls, skull poles...) —
+  vanilla 42.20 has not translated these keys yet, HCR covers the gap
+  on its own.
 
 ### v1.5.0 — 2026-08-08
 

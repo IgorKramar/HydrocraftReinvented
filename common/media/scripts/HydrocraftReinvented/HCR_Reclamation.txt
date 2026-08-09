@@ -964,6 +964,186 @@ module Hydrocraft
             item 1 Hydrocraft.HCSolarparkcharged,
         }
     }
+    craftRecipe Anchor Iron Anvil
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAnvil],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnvil2,
+        }
+    }
+    craftRecipe Unanchor Iron Anvil
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAnvil2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnvil,
+        }
+    }
+    craftRecipe Anchor Lead Anvil
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAnvillead],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnvillead2,
+        }
+    }
+    craftRecipe Unanchor Lead Anvil
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAnvillead2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnvillead,
+        }
+    }
+    craftRecipe Anchor Stone Anvil
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAnvilstone],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnvilstone2,
+        }
+    }
+    craftRecipe Unanchor Stone Anvil
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAnvilstone2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCAnvilstone,
+        }
+    }
+    craftRecipe Anchor Smelter
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSmelter],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSmelter2,
+        }
+    }
+    craftRecipe Unanchor Smelter
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSmelter2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSmelter,
+        }
+    }
+    craftRecipe Anchor Blast Furnace
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBlastfurnace],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlastfurnace2,
+        }
+    }
+    craftRecipe Unanchor Blast Furnace
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBlastfurnace2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBlastfurnace,
+        }
+    }
+    craftRecipe Anchor Oil Press
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCOilpress],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCOilpress2,
+        }
+    }
+    craftRecipe Unanchor Oil Press
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Anchor,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCOilpress2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCOilpress,
+        }
+    }
     craftRecipe Fill Wooden Bucket with Milk
     {
         time = 50,

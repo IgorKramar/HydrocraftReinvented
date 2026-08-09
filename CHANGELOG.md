@@ -6,6 +6,34 @@
 
 ## Русский
 
+### v1.5.5 — 2026-08-09
+
+**«Связная экономика» — у каждого предмета снова есть источник:**
+- Полный аудит достижимости показал: при порте из B41 осознанно не переносились
+  системы, которые B42 закрывает нативно (кузница, гончарка, разделка,
+  животноводство) — но их ПРОДУКТЫ остались ингредиентами сотен рецептов.
+  Итог на старте: 803 рецепта нельзя было скрафтить, 1 737 предметов — получить.
+- **Мост к ванили B42**: слитки, стержни, листы, литейные формы, стекло, пряжа,
+  шерсть, перья, молоко, компост и др. теперь принимают ванильные эквиваленты
+  (300+ расширений OR-списков) — прогресс ванильной кузницы и фермы работает
+  на рецепты Hydrocraft.
+- **71 новый рецепт** (файл HCR_Reclamation): разделка туш и птицы по выходам
+  оригинального B41 (олень, кабан, медведь, пума, 10 видов мелкой дичи, куры,
+  индейки, утки, гуси — мясо, шкуры, кишки, перья); выплавка алюминия, олова,
+  бронзы, свинца, магнетита и кокса; ковка листов, стержней, рукояток и колец;
+  сплавление стеклянных панелей; лепка форм и табличек; разведение шелкопрядов;
+  зарядка солнечного парка; ведро молока через систему жидкостей B42;
+  якорение наковален, плавильни, домны и маслопресса.
+- **Лут**: 450 предметов, потерявших источники (броня, спасённые материалы,
+  инструменты, реагенты...), возвращены в тематические точки спавна с низкими
+  весами; самоцветы и 14 пород — в шахты; 13 природных находок — в сбор флоры;
+  7 табличек-исследований — в раскопки; бамбук и колокольчик — в луга.
+- Учебники металлургии, гончарного дела и стеклодувства учат новым рецептам;
+  все 71 имеют русский перевод.
+- Итог: некрафтуемых рецептов 803 → 101, недостижимых предметов 1 737 → 138.
+  Остаток — осознанный: живые животные вырезанного разведения B41 (71) и
+  легаси-ёмкости «с водой» до полной миграции на жидкости B42 (задел на v1.6).
+
 ### v1.5.0 — 2026-08-08
 
 **Система обучения рецептам работает — спасибо Haase за отчёт:**
@@ -91,6 +119,34 @@
 ---
 
 ## English
+
+### v1.5.5 — 2026-08-09
+
+**"Connected Economy" — every item has a source again:**
+- A full reachability audit revealed: the B41 port deliberately skipped systems
+  B42 covers natively (smithing, pottery, butchering, husbandry) — but their
+  PRODUCTS remained ingredients of hundreds of recipes. Starting point: 803
+  recipes uncraftable, 1,737 items unobtainable.
+- **Vanilla B42 bridge**: ingots, rods, sheets, molds, glass, yarn, wool,
+  feathers, milk, compost etc. now accept vanilla equivalents (300+ OR-list
+  extensions) — vanilla forge and farm progression feeds Hydrocraft recipes.
+- **71 new recipes** (HCR_Reclamation): carcass and bird butchering with
+  original B41 yields (deer, boar, bear, cougar, 10 small game species,
+  chickens, turkeys, ducks, geese — meat, hides, intestines, feathers);
+  smelting of aluminum, tin, bronze, lead, magnetite and coke; forging of
+  sheets, rods, cranks and rings; glass pane fusing; clay molds and tablets;
+  silkworm breeding; solar park charging; milk bucket via the B42 fluid
+  system; anchoring of anvils, smelter, blast furnace and oil press.
+- **Loot**: 450 items that lost their sources (armor, rescued materials,
+  tools, reagents...) returned to themed spawn points at low weights; gems
+  and 14 rock types — into mines; 13 nature finds — into flora gathering;
+  7 research tablets — into digging; bamboo and bluebell — into meadows.
+- Metallurgy, pottery and glassworking textbooks teach the new recipes;
+  all 71 are fully translated to Russian.
+- Result: uncraftable recipes 803 → 101, unreachable items 1,737 → 138.
+  The remainder is deliberate: live animals of the cut B41 husbandry (71)
+  and legacy "filled with water" containers pending the full B42 fluid
+  migration (groundwork for v1.6).
 
 ### v1.5.0 — 2026-08-08
 

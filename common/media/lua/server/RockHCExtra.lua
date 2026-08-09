@@ -239,14 +239,17 @@ for i=1,5,1 do
     chance = ZombRand(4096);
     secondChance = 0;
     if chance <= darkLvl10 then
-        secondChance = ZombRand(7);
+        secondChance = ZombRand(8);
         if secondChance == 0 then player:getInventory():AddItem("Hydrocraft.HCGoldore");
         elseif secondChance == 1 then player:getInventory():AddItem("Hydrocraft.HCTrashlarge");
 		elseif secondChance == 2 then player:getInventory():AddItem("Hydrocraft.HCZincore");
 		elseif secondChance == 3 then player:getInventory():AddItem("Hydrocraft.HCTungstenore");
-		elseif secondChance == 4 then player:getInventory():AddItem("Hydrocraft.HCTitaniumore");	
+		elseif secondChance == 4 then player:getInventory():AddItem("Hydrocraft.HCTitaniumore");
 		elseif secondChance == 5 then player:getInventory():AddItem("Hydrocraft.HCBerlinite");
         elseif secondChance == 6 then player:getInventory():AddItem("Hydrocraft.HCDiatomite");
+        elseif secondChance == 7 then
+            local gems = {"Hydrocraft.HCQuartz","Hydrocraft.HCQuartzblue","Hydrocraft.HCQuartzrose","Hydrocraft.HCQuartzsmokey","Hydrocraft.HCQuartzcitrine","Hydrocraft.HCAmethyst","Hydrocraft.HCDiamond","Hydrocraft.HCEmerald","Hydrocraft.HCFireagate","Hydrocraft.HCGarnet","Hydrocraft.HCOlivine","Hydrocraft.HCRhodonite","Hydrocraft.HCRuby","Hydrocraft.HCSapphire","Hydrocraft.HCTopaz","Hydrocraft.HCTurquoise","Hydrocraft.HCAmazonite","Hydrocraft.HCLepidolite"};
+            player:getInventory():AddItem(gems[ZombRand(#gems)+1]);
         end
     elseif chance <= darkLvl9+darkLvl10 then
 		secondChance = ZombRand(7);
@@ -269,12 +272,15 @@ for i=1,5,1 do
 		elseif secondChance == 7 then player:getInventory():AddItem("Hydrocraft.HCAlbite");
         end
     elseif chance <= darkLvl7+darkLvl8+darkLvl9+darkLvl10 then
-        secondChance = ZombRand(5);
+        secondChance = ZombRand(6);
         if secondChance == 0 then player:getInventory():AddItem("Hydrocraft.HCIronore");
         elseif secondChance == 1 then player:getInventory():AddItem("Hydrocraft.HCLeadore");
 		elseif secondChance == 2 then player:getInventory():AddItem("Hydrocraft.HCSaltpeter");
         elseif secondChance == 3 then player:getInventory():AddItem("Hydrocraft.HCSulphur");
         elseif secondChance == 4 then player:getInventory():AddItem("Hydrocraft.HCTrashlarge");
+        elseif secondChance == 5 then
+            local rocks = {"Hydrocraft.HCPyrite","Hydrocraft.HCPlatinumore","Hydrocraft.HCObsidian","Hydrocraft.HCUraniumore","Hydrocraft.HCThoriumore","Hydrocraft.HCAlabaster","Hydrocraft.HCBasalt","Hydrocraft.HCDacite","Hydrocraft.HCGabbro","Hydrocraft.HCKaolinite","Hydrocraft.HCKimberlite","Hydrocraft.HCRhyolite","Hydrocraft.HCSchist","Hydrocraft.HCShale"};
+            player:getInventory():AddItem(rocks[ZombRand(#rocks)+1]);
         end
     elseif chance <= darkLvl6+darkLvl7+darkLvl8+darkLvl9+darkLvl10 then
         secondChance = ZombRand(6);

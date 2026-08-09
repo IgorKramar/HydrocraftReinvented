@@ -1,7 +1,7 @@
 
 --Randomize findings for Fishing in Pond.
 function HCPondFishing(items, result, player)
-player:getStats():add(CharacterStat.FATIGUE, +0.05)
+player:getStats():add(CharacterStat.FATIGUE, 0.05)
     skill = player:getPerkLevel(Perks.PlantScavenging);
 
     pondLvl0 = 1024+(18.6*skill);

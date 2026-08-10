@@ -6,6 +6,15 @@
 
 ## Русский
 
+### v1.5.7 — 2026-08-09
+
+**Тапервэр работает — спасибо Crossfit Jesus за отчёт:**
+- Пластиковые контейнеры снова наполняются едой: рецепты «Наполнить контейнер»
+  (118 видов еды; большой — 4 порции, средний — 2, малый — 1) не пережили порт
+  из B41 — восстановлены.
+- Крышка больше не может исчезнуть при открытии контейнера: раньше её выдавал
+  lua-скрипт (хрупко), теперь она — обычный второй результат рецепта.
+
 ### v1.5.6 — 2026-08-09
 
 **Хотфикс по репорту Haase + русское меню строительства:**
@@ -133,6 +142,16 @@
 ---
 
 ## English
+
+### v1.5.7 — 2026-08-09
+
+**Tupperware works — thanks to Crossfit Jesus for the report:**
+- Plastic containers can be filled with food again: the "Fill Container"
+  recipes (118 foods; large — 4 portions, medium — 2, small — 1) did not
+  survive the B41 port — restored.
+- The lid can no longer vanish when opening a container: it used to be
+  granted by a lua script (fragile), now it is a regular second output
+  of the recipe.
 
 ### v1.5.6 — 2026-08-09
 

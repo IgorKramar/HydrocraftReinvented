@@ -203,7 +203,6 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Miscellaneous,
         timedAction = Making,
-        OnCreate = HCR42.recipe_hclargetuplid,
         inputs
         {
             item 1 [Hydrocraft.HCLargetup],
@@ -211,6 +210,7 @@ module Hydrocraft
         outputs
         {
             item 1 Hydrocraft.HCLargetupbowl,
+            item 1 Hydrocraft.HCLargetuplid,
         }
     }
     craftRecipe Put Lid on Medium Tupperware Container
@@ -235,7 +235,6 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Miscellaneous,
         timedAction = Making,
-        OnCreate = HCR42.recipe_hcmediumtuplid,
         inputs
         {
             item 1 [Hydrocraft.HCMediumtup],
@@ -243,6 +242,7 @@ module Hydrocraft
         outputs
         {
             item 1 Hydrocraft.HCMediumtupbowl,
+            item 1 Hydrocraft.HCMediumtuplid,
         }
     }
     craftRecipe Put Lid on Small Tupperware Container
@@ -267,7 +267,6 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Miscellaneous,
         timedAction = Making,
-        OnCreate = HCR42.recipe_hcsmalltuplid,
         inputs
         {
             item 1 [Hydrocraft.HCSmalltup],
@@ -275,6 +274,59 @@ module Hydrocraft
         outputs
         {
             item 1 Hydrocraft.HCSmalltupbowl,
+            item 1 Hydrocraft.HCSmalltuplid,
         }
     }
+    craftRecipe Fill Large Tupperware Container with Food
+    {
+        time = 30,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCLargetup],
+            item 4 [Hydrocraft.HCBunchofberries;Base.Tofu;Base.Yoghurt;Base.CakeSlice;Base.Cheese;Base.Processedcheese;Base.BreadSlices;Base.Sandwich;Base.Pizza;Base.Fries;Base.Pancakes;Base.Waffles;Hydrocraft.HCBakedpotato;Hydrocraft.HCHashbrowns;Hydrocraft.HCPotatopancakes;Hydrocraft.HCFries;Hydrocraft.HCCornonthecob;Base.Pie;Base.PiePumpkin;Base.FishFillet;Base.Salmon;Base.TunaTinOpen;Base.CannedSardinesOpen;Hydrocraft.HCFriedherring;Hydrocraft.HCBBQsalmon;Base.Corndog;Base.DogfoodOpen;Base.Burger;Base.MeatPatty;Base.Hotdog;Base.MuttonChop;Base.PorkChop;Base.Rabbitmeat;Base.Smallanimalmeat;Base.Smallbirdmeat;Base.Ham;Base.Chicken;Base.Egg;Base.Steak;Base.Bacon;Base.BaconRashers;Base.BaconBits;Base.FrogMeat;Base.CannedCornedBeefOpen;Base.HamSlice;Hydrocraft.HCCannedspamopen;Hydrocraft.HCFriedegg;Hydrocraft.HCHardboiledegg;Hydrocraft.HCBBQsteak;Hydrocraft.HCBBQchicken;Hydrocraft.HCBBQrat;Base.Lettuce;Base.BellPepper;Base.Corn;Base.Eggplant;Base.Leek;Base.Broccoli;Base.Carrots;Base.Peas;Base.RedRadish;Base.Potato;Base.Cabbage;Base.Zucchini;Base.CannedCarrotsOpen;Base.CannedCornOpen;Base.CannedMushroomSoupOpen;Base.CannedPeasOpen;Base.CannedPotatoOpen;Hydrocraft.HCBunchofshrooms;Hydrocraft.HCSlicedonion;Hydrocraft.HCCannedgreenbeansopen;Hydrocraft.HCCannedshroomsopen;Hydrocraft.HCCannedpumpkinopen;Hydrocraft.HCBBQshroom;Hydrocraft.HCGrilledeggplant;Base.Peach;Base.Lemon;Base.Grapes;Base.Apple;Base.Banana;Base.Orange;Base.WatermelonSliced;Base.WatermelonSmashed;Base.Tomato;Hydrocraft.HCPear;Base.Pineapple;Base.Avocado;Base.Cherry;Base.CannedTomatoOpen;Hydrocraft.HCSlicedtomato;Hydrocraft.HCCannedappleopen;Hydrocraft.HCCannedpearopen;Hydrocraft.HCCannedpeachopen;Hydrocraft.HCCannedcranberriesopen;Hydrocraft.HCBBQduck;Hydrocraft.HCBBQgoose;Hydrocraft.HCBBQturkey;Hydrocraft.HCBBQsmallbird;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Hydrocraft.HCFreshham;Hydrocraft.HCSausagefrog;Hydrocraft.HCSausagebird;Hydrocraft.HCSausagechicken;Hydrocraft.HCSausageduck;Hydrocraft.HCSausagegoose;Hydrocraft.HCSausageturkey;Hydrocraft.HCSausagevermin;Hydrocraft.HCSausagerabbit;Hydrocraft.HCSausagesmallgame;Hydrocraft.HCSausagedeer;Hydrocraft.HCSausagebear;Hydrocraft.HCSausagemutton;Hydrocraft.HCSausagepork;Hydrocraft.HCSausagebeef;Hydrocraft.HCSausageitalian;Hydrocraft.HCSausagehot],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLargetupfood,
+        }
+    }
+    craftRecipe Fill Medium Tupperware Container with Food
+    {
+        time = 30,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCMediumtup],
+            item 2 [Hydrocraft.HCBunchofberries;Base.Tofu;Base.Yoghurt;Base.CakeSlice;Base.Cheese;Base.Processedcheese;Base.BreadSlices;Base.Sandwich;Base.Pizza;Base.Fries;Base.Pancakes;Base.Waffles;Hydrocraft.HCBakedpotato;Hydrocraft.HCHashbrowns;Hydrocraft.HCPotatopancakes;Hydrocraft.HCFries;Hydrocraft.HCCornonthecob;Base.Pie;Base.PiePumpkin;Base.FishFillet;Base.Salmon;Base.TunaTinOpen;Base.CannedSardinesOpen;Hydrocraft.HCFriedherring;Hydrocraft.HCBBQsalmon;Base.Corndog;Base.DogfoodOpen;Base.Burger;Base.MeatPatty;Base.Hotdog;Base.MuttonChop;Base.PorkChop;Base.Rabbitmeat;Base.Smallanimalmeat;Base.Smallbirdmeat;Base.Ham;Base.Chicken;Base.Egg;Base.Steak;Base.Bacon;Base.BaconRashers;Base.BaconBits;Base.FrogMeat;Base.CannedCornedBeefOpen;Base.HamSlice;Hydrocraft.HCCannedspamopen;Hydrocraft.HCFriedegg;Hydrocraft.HCHardboiledegg;Hydrocraft.HCBBQsteak;Hydrocraft.HCBBQchicken;Hydrocraft.HCBBQrat;Base.Lettuce;Base.BellPepper;Base.Corn;Base.Eggplant;Base.Leek;Base.Broccoli;Base.Carrots;Base.Peas;Base.RedRadish;Base.Potato;Base.Cabbage;Base.Zucchini;Base.CannedCarrotsOpen;Base.CannedCornOpen;Base.CannedMushroomSoupOpen;Base.CannedPeasOpen;Base.CannedPotatoOpen;Hydrocraft.HCBunchofshrooms;Hydrocraft.HCSlicedonion;Hydrocraft.HCCannedgreenbeansopen;Hydrocraft.HCCannedshroomsopen;Hydrocraft.HCCannedpumpkinopen;Hydrocraft.HCBBQshroom;Hydrocraft.HCGrilledeggplant;Base.Peach;Base.Lemon;Base.Grapes;Base.Apple;Base.Banana;Base.Orange;Base.WatermelonSliced;Base.WatermelonSmashed;Base.Tomato;Hydrocraft.HCPear;Base.Pineapple;Base.Avocado;Base.Cherry;Base.CannedTomatoOpen;Hydrocraft.HCSlicedtomato;Hydrocraft.HCCannedappleopen;Hydrocraft.HCCannedpearopen;Hydrocraft.HCCannedpeachopen;Hydrocraft.HCCannedcranberriesopen;Hydrocraft.HCBBQduck;Hydrocraft.HCBBQgoose;Hydrocraft.HCBBQturkey;Hydrocraft.HCBBQsmallbird;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Hydrocraft.HCFreshham;Hydrocraft.HCSausagefrog;Hydrocraft.HCSausagebird;Hydrocraft.HCSausagechicken;Hydrocraft.HCSausageduck;Hydrocraft.HCSausagegoose;Hydrocraft.HCSausageturkey;Hydrocraft.HCSausagevermin;Hydrocraft.HCSausagerabbit;Hydrocraft.HCSausagesmallgame;Hydrocraft.HCSausagedeer;Hydrocraft.HCSausagebear;Hydrocraft.HCSausagemutton;Hydrocraft.HCSausagepork;Hydrocraft.HCSausagebeef;Hydrocraft.HCSausageitalian;Hydrocraft.HCSausagehot],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMediumtupfood,
+        }
+    }
+    craftRecipe Fill Small Tupperware Container with Food
+    {
+        time = 30,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSmalltup],
+            item 1 [Hydrocraft.HCBunchofberries;Base.Tofu;Base.Yoghurt;Base.CakeSlice;Base.Cheese;Base.Processedcheese;Base.BreadSlices;Base.Sandwich;Base.Pizza;Base.Fries;Base.Pancakes;Base.Waffles;Hydrocraft.HCBakedpotato;Hydrocraft.HCHashbrowns;Hydrocraft.HCPotatopancakes;Hydrocraft.HCFries;Hydrocraft.HCCornonthecob;Base.Pie;Base.PiePumpkin;Base.FishFillet;Base.Salmon;Base.TunaTinOpen;Base.CannedSardinesOpen;Hydrocraft.HCFriedherring;Hydrocraft.HCBBQsalmon;Base.Corndog;Base.DogfoodOpen;Base.Burger;Base.MeatPatty;Base.Hotdog;Base.MuttonChop;Base.PorkChop;Base.Rabbitmeat;Base.Smallanimalmeat;Base.Smallbirdmeat;Base.Ham;Base.Chicken;Base.Egg;Base.Steak;Base.Bacon;Base.BaconRashers;Base.BaconBits;Base.FrogMeat;Base.CannedCornedBeefOpen;Base.HamSlice;Hydrocraft.HCCannedspamopen;Hydrocraft.HCFriedegg;Hydrocraft.HCHardboiledegg;Hydrocraft.HCBBQsteak;Hydrocraft.HCBBQchicken;Hydrocraft.HCBBQrat;Base.Lettuce;Base.BellPepper;Base.Corn;Base.Eggplant;Base.Leek;Base.Broccoli;Base.Carrots;Base.Peas;Base.RedRadish;Base.Potato;Base.Cabbage;Base.Zucchini;Base.CannedCarrotsOpen;Base.CannedCornOpen;Base.CannedMushroomSoupOpen;Base.CannedPeasOpen;Base.CannedPotatoOpen;Hydrocraft.HCBunchofshrooms;Hydrocraft.HCSlicedonion;Hydrocraft.HCCannedgreenbeansopen;Hydrocraft.HCCannedshroomsopen;Hydrocraft.HCCannedpumpkinopen;Hydrocraft.HCBBQshroom;Hydrocraft.HCGrilledeggplant;Base.Peach;Base.Lemon;Base.Grapes;Base.Apple;Base.Banana;Base.Orange;Base.WatermelonSliced;Base.WatermelonSmashed;Base.Tomato;Hydrocraft.HCPear;Base.Pineapple;Base.Avocado;Base.Cherry;Base.CannedTomatoOpen;Hydrocraft.HCSlicedtomato;Hydrocraft.HCCannedappleopen;Hydrocraft.HCCannedpearopen;Hydrocraft.HCCannedpeachopen;Hydrocraft.HCCannedcranberriesopen;Hydrocraft.HCBBQduck;Hydrocraft.HCBBQgoose;Hydrocraft.HCBBQturkey;Hydrocraft.HCBBQsmallbird;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Hydrocraft.HCFreshham;Hydrocraft.HCSausagefrog;Hydrocraft.HCSausagebird;Hydrocraft.HCSausagechicken;Hydrocraft.HCSausageduck;Hydrocraft.HCSausagegoose;Hydrocraft.HCSausageturkey;Hydrocraft.HCSausagevermin;Hydrocraft.HCSausagerabbit;Hydrocraft.HCSausagesmallgame;Hydrocraft.HCSausagedeer;Hydrocraft.HCSausagebear;Hydrocraft.HCSausagemutton;Hydrocraft.HCSausagepork;Hydrocraft.HCSausagebeef;Hydrocraft.HCSausageitalian;Hydrocraft.HCSausagehot],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSmalltupfood,
+        }
+    }
+
 }

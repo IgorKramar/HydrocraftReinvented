@@ -35,6 +35,8 @@ van_en = load_dict(VANILLA / "EN/ItemName.json" if VANILLA else None)
 items = {}     # full id -> dict
 recipes = {}   # name -> dict
 book_teaches = defaultdict(list)  # recipe name -> [book full id]
+item_locs = defaultdict(list)     # full id -> [(файл, строка)] — ловит переопределения
+recipe_locs = defaultdict(list)   # имя рецепта -> [(файл, строка)]
 
 item_re = re.compile(r'^\s*item\s+(\S+)\s*$')
 recipe_re = re.compile(r'^\s*craftRecipe\s+(.+?)\s*$')
@@ -63,12 +65,21 @@ def parse_file(path: Path):
                 if depth == 0 and j > i + 1:
                     break
             fid = f"{module}.{name}"
+            item_locs[fid].append((path.name, i + 1))
             repl = []
             for rf in ("ReplaceOnDeplete", "ReplaceOnUse", "ReplaceOnCooked", "ReplaceOnRotten"):
                 v = fields.get(rf)
                 if v:
                     v = v.strip()
                     repl.append(v if "." in v else f"{module}.{v}")
+            # ReplaceOnUseOn = <Источник>-<Предмет>: наполнение из источника в мире
+            # (WaterSource-HCTincanwater). Предмет справа тоже добывается — иначе
+            # анализ достижимости считает 43 таких предмета недоступными.
+            v = fields.get("ReplaceOnUseOn")
+            if v:
+                target = v.strip().rsplit("-", 1)[-1].strip()
+                if target:
+                    repl.append(target if "." in target else f"{module}.{target}")
             items[fid] = {
                 "id": fid,
                 "en": fields.get("DisplayName", name),
@@ -101,6 +112,7 @@ def parse_file(path: Path):
                 j += 1
                 if depth == 0 and j > i + 1:
                     break
+            recipe_locs[rname].append((path.name, i + 1))
             recipes[rname] = {
                 "name": rname,
                 "cat": fields.get("category", ""),
@@ -159,6 +171,12 @@ def en_item(fid: str) -> str:
     short = fid.split(".", 1)[-1]
     return van_en.get(fid) or van_en.get(short) or short
 
+# ---------- переопределения ----------
+# Движок грузит скрипты по алфавиту, второе определение затирает первое —
+# молча. Модель хранила только победителя, поэтому дубли не были видны.
+dup_items = {k: v for k, v in item_locs.items() if len(v) > 1}
+dup_recipes = {k: v for k, v in recipe_locs.items() if len(v) > 1}
+
 model = {
     "items": items,
     "recipes": recipes,
@@ -169,13 +187,25 @@ model = {
     "ru_recipes": ru_recipes,
     "van_ru": van_ru,
     "van_en": van_en,
+    "dup_items": {k: v for k, v in sorted(dup_items.items())},
+    "dup_recipes": {k: v for k, v in sorted(dup_recipes.items())},
 }
 OUT.write_text(json.dumps(model, ensure_ascii=False), encoding="utf-8")
 
 # отчёт
 n_book = sum(1 for r in recipes.values() if r["name"] in book_teaches)
-print(f"items={len(items)} recipes={len(recipes)} taught={n_book}")
+n_item_defs = sum(len(v) for v in item_locs.values())
+n_recipe_defs = sum(len(v) for v in recipe_locs.values())
+print(f"items={len(items)} (определений {n_item_defs}) "
+      f"recipes={len(recipes)} (определений {n_recipe_defs}) taught={n_book}")
 print(f"ru items covered={sum(1 for i in items if i in ru_items)}/{len(items)}")
 print(f"ru recipes covered={sum(1 for r in recipes if r in ru_recipes)}/{len(recipes)}")
 missing_learn = [r['name'] for r in recipes.values() if r['learn'] and r['name'] not in book_teaches]
 print(f"NeedToBeLearn без книги: {len(missing_learn)}")
+for label, dups in (("предметов", dup_items), ("рецептов", dup_recipes)):
+    if dups:
+        print(f"! переопределений {label}: {len(dups)} "
+              f"(побеждает последнее по алфавиту файлов)", file=sys.stderr)
+        for name, locs in sorted(dups.items()):
+            print("    " + name + ": " + ", ".join(f"{f}:{ln}" for f, ln in locs),
+                  file=sys.stderr)

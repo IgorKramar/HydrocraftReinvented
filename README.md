@@ -37,7 +37,7 @@ Build 42 сам добавил многое из того, что Hydrocraft д�
 
 - **5 196 предметов** — животные и собаки, MRE-пайки, электроника, шахты,
   пасека, ткачество, химия, сотни блюд и напитков
-- **3 620 рецептов** (2 086 уникальных, 99 % переносимого объёма B41) — полная
+- **3 590 рецептов** (99 % переносимого объёма B41) — полная
   конвертация в систему `craftRecipe` B42
 - **121 схема починки**, 233 модели, 5 679 текстур, 38 звуков, tiledef 591
 - **Полная русская локализация**: 100 % предметов, 100 % рецептов,
@@ -102,7 +102,7 @@ referenced by the rest of the content were rescued.
 
 - **5,196 items** — animals and dogs, MRE rations, electronics, mines,
   beekeeping, weaving, chemistry, hundreds of dishes and drinks
-- **3,620 recipes** (2,086 unique, 99% of portable B41 content) — fully
+- **3,590 recipes** (99% of portable B41 content) — fully
   converted to the B42 `craftRecipe` system
 - **121 fixing schemes**, 233 models, 5,679 textures, 38 sounds, tiledef 591
 - **Full Russian localization**: 100% of items, 100% of recipes, all 32 craft

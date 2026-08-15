@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 """model.json -> HCR_Database.xlsx (Сводка, Предметы, Рецепты, Книги)."""
-import json, re
-from pathlib import Path
+import re
 from collections import defaultdict
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
 
-HERE = Path(__file__).parent
-M = json.loads((HERE / "model.json").read_text(encoding="utf-8"))
+from hcr_paths import DOCS, load_model, mod_version, require_vanilla_names
+
+M = load_model()
+require_vanilla_names(M)
 items, recipes = M["items"], M["recipes"]
 ru_items, ru_recipes = M["ru_items"], M["ru_recipes"]
 van_ru, van_en = M["van_ru"], M["van_en"]
@@ -83,7 +84,7 @@ wb = Workbook()
 ws = wb.active; ws.title = "Сводка"
 rows = [
     ["Hydrocraft Reinvented [B42] — сводная база данных", ""],
-    ["Источник: common/media/scripts + Translate/RU (версия мода 1.5.0)", ""],
+    [f"Источник: common/media/scripts + Translate/RU (версия мода {mod_version()})", ""],
     ["", ""],
     ["Предметов", "=COUNTA(Предметы!A:A)-1"],
     ["Рецептов", "=COUNTA(Рецепты!A:A)-1"],
@@ -139,7 +140,6 @@ for sheet in wb.worksheets:
             if cell.font is None or not cell.font.bold:
                 cell.font = BASE
 
-out = Path(r"C:\Users\Игорь\projects\HydrocraftReinvented\docs")
-out.mkdir(exist_ok=True)
-wb.save(out / "HCR_Database.xlsx")
-print("saved", out / "HCR_Database.xlsx")
+DOCS.mkdir(exist_ok=True)
+wb.save(DOCS / "HCR_Database.xlsx")
+print("saved", DOCS / "HCR_Database.xlsx")

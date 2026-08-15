@@ -4,19 +4,13 @@ import json, re, sys
 from pathlib import Path
 from collections import defaultdict
 
-REPO = Path(r"C:\Users\Игорь\projects\HydrocraftReinvented")
-SCRIPTS = REPO / "common/media/scripts"
-TR_RU = REPO / "common/media/lua/shared/Translate/RU"
-VANILLA = Path(r"C:\Program Files (x86)\Steam\steamapps\common\ProjectZomboid\media\lua\shared\Translate")
-OUT = Path(__file__).parent / "model.json"
+from hcr_paths import MODEL as OUT, SCRIPTS, TR_RU, find_game, read_text
 
-def read_text(p: Path) -> str:
-    for enc in ("utf-8-sig", "utf-8", "cp1252"):
-        try:
-            return p.read_text(encoding=enc)
-        except UnicodeDecodeError:
-            continue
-    return p.read_text(encoding="utf-8", errors="replace")
+GAME = find_game(required=False)
+VANILLA = (GAME / "media/lua/shared/Translate") if GAME else None
+if GAME is None:
+    print("! установка Project Zomboid не найдена — ванильные названия в модель не попадут "
+          "(укажите --game <путь> или PZ_GAME_DIR)", file=sys.stderr)
 
 # ---------- переводы ----------
 ru_items = json.loads(read_text(TR_RU / "ItemName.json"))          # "Hydrocraft.X" -> RU
@@ -31,11 +25,11 @@ def parse_legacy(path: Path, prefix: str) -> dict:
         d[m.group(1)] = m.group(2).replace('\\"', '"')
     return d
 
-def load_dict(path: Path) -> dict:
-    return json.loads(read_text(path)) if path.exists() else {}
+def load_dict(path) -> dict:
+    return json.loads(read_text(path)) if path and path.exists() else {}
 
-van_ru = load_dict(VANILLA / "RU/ItemName.json")
-van_en = load_dict(VANILLA / "EN/ItemName.json")
+van_ru = load_dict(VANILLA / "RU/ItemName.json" if VANILLA else None)
+van_en = load_dict(VANILLA / "EN/ItemName.json" if VANILLA else None)
 
 # ---------- разбор скриптов ----------
 items = {}     # full id -> dict

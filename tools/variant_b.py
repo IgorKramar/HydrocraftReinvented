@@ -1,23 +1,16 @@
 # -*- coding: utf-8 -*-
 """Вариант B: урожай/семена (динамическая lua-склейка) считаем достижимыми."""
 import json, re
-from pathlib import Path
 from collections import Counter
 
-HERE = Path(__file__).parent
-M = json.loads((HERE / "model.json").read_text(encoding="utf-8"))
+from hcr_paths import HERE, LUA, find_game, load_model, read_text
+
+M = load_model()
 items, recipes = M["items"], M["recipes"]
 ru_items, van_ru = M["ru_items"], M["van_ru"]
 book_teaches = M["book_teaches"]
 
-REPO = Path(r"C:\Users\Игорь\projects\HydrocraftReinvented")
-GAME = Path(r"C:\Program Files (x86)\Steam\steamapps\common\ProjectZomboid")
-
-def read_text(p):
-    for enc in ("utf-8-sig", "utf-8", "cp1252"):
-        try: return p.read_text(encoding=enc)
-        except UnicodeDecodeError: continue
-    return p.read_text(encoding="utf-8", errors="replace")
+GAME = find_game()
 
 def ru(fid): return ru_items.get(fid) or van_ru.get(fid) or fid
 
@@ -31,7 +24,7 @@ for f in (GAME / "media/scripts").rglob("*.txt"):
         if m: van_items.add(f"{module}.{m.group(1)}")
 
 lua_strings = set()
-for f in (REPO / "common/media/lua").rglob("*.lua"):
+for f in LUA.rglob("*.lua"):
     for m in re.finditer(r'"([A-Za-z0-9._\- ]{2,64})"|\'([A-Za-z0-9._\- ]{2,64})\'', read_text(f)):
         lua_strings.add((m.group(1) or m.group(2)).strip())
 
@@ -56,7 +49,7 @@ for fid in list(items):
         if crop2 in items:
             reachable.add(crop2)
 # altName-продукты урожая из PlantsGrowing.lua (точные строки altName = "X")
-pg = (REPO / "common/media/lua/client/PlantsGrowing.lua").read_text(encoding="utf-8", errors="replace")
+pg = read_text(LUA / "client/PlantsGrowing.lua")
 for m in re.finditer(r'altName\s*=\s*"([A-Za-z]+)"', pg):
     for cand in ("Hydrocraft.HC" + m.group(1), "Base." + m.group(1), "farming." + m.group(1)):
         if cand in items or cand in van_items:

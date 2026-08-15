@@ -19,3 +19,10 @@ console.txt
 workshop.txt.bak
 
 ~$*.xlsx
+
+# Промежуточные файлы инструментов аудита (tools/)
+__pycache__/
+tools/model.json
+tools/no_source.json
+tools/gaps_report.txt
+tools/gaps_variant_b.txt

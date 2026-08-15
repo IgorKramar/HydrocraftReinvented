@@ -1,23 +1,16 @@
 # -*- coding: utf-8 -*-
 """Поиск пробелов: недостижимые предметы, некрафтуемые рецепты, битые ссылки."""
-import json, re
-from pathlib import Path
+import re
 from collections import defaultdict
 
-HERE = Path(__file__).parent
-M = json.loads((HERE / "model.json").read_text(encoding="utf-8"))
+from hcr_paths import HERE, LUA, find_game, load_model, read_text
+
+M = load_model()
 items, recipes = M["items"], M["recipes"]
 ru_items, ru_recipes, van_ru = M["ru_items"], M["ru_recipes"], M["van_ru"]
 book_teaches = M["book_teaches"]
 
-REPO = Path(r"C:\Users\Игорь\projects\HydrocraftReinvented")
-GAME = Path(r"C:\Program Files (x86)\Steam\steamapps\common\ProjectZomboid")
-
-def read_text(p):
-    for enc in ("utf-8-sig", "utf-8", "cp1252"):
-        try: return p.read_text(encoding=enc)
-        except UnicodeDecodeError: continue
-    return p.read_text(encoding="utf-8", errors="replace")
+GAME = find_game()
 
 def ru(fid):
     return ru_items.get(fid) or van_ru.get(fid) or fid
@@ -78,7 +71,7 @@ dangling_books = sorted(set(book_teaches) - set(recipes))
 
 # ---------- 3. Источники вне крафта: все строковые литералы из lua ----------
 lua_strings = set()
-for f in (REPO / "common/media/lua").rglob("*.lua"):
+for f in LUA.rglob("*.lua"):
     txt = read_text(f)
     for m in re.finditer(r'"([A-Za-z0-9._\- ]{2,64})"|\'([A-Za-z0-9._\- ]{2,64})\'', txt):
         lua_strings.add((m.group(1) or m.group(2)).strip())

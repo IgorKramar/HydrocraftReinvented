@@ -1,11 +1,11 @@
 
-Recipe = Recipe or {}
-Recipe.OnTest = Recipe.OnTest or {}
-Recipe.OnCreate = Recipe.OnCreate or {}
-Recipe.OnCanPerform = Recipe.OnCanPerform or {}
-Recipe.OnTest.Hydrocraft = Recipe.OnTest.Hydrocraft or {}
-Recipe.OnCreate.Hydrocraft = Recipe.OnCreate.Hydrocraft or {}
-Recipe.OnCanPerform.Hydrocraft = Recipe.OnCanPerform.Hydrocraft or {}
+HCRecipe = HCRecipe or {}
+HCRecipe.OnTest = HCRecipe.OnTest or {}
+HCRecipe.OnCreate = HCRecipe.OnCreate or {}
+HCRecipe.OnCanPerform = HCRecipe.OnCanPerform or {}
+HCRecipe.OnTest.Hydrocraft = HCRecipe.OnTest.Hydrocraft or {}
+HCRecipe.OnCreate.Hydrocraft = HCRecipe.OnCreate.Hydrocraft or {}
+HCRecipe.OnCanPerform.Hydrocraft = HCRecipe.OnCanPerform.Hydrocraft or {}
 
 Hydrocraft = Hydrocraft or {}
 Hydrocraft.OnTest = Hydrocraft.OnTest or {}
@@ -67,7 +67,7 @@ end
 
 
 --[[
-Don't call this from a recipe, call Recipe.OnCreate.TransferToPaperBag_GiveRoastingPan
+Don't call this from a recipe, call HCRecipe.OnCreate.TransferToPaperBag_GiveRoastingPan
 Or create a similar function if using a different pan/pot.
 ]]--
 local function Recipe_OnCreate_TransferToPaperBag(items, result, player, panName)
@@ -114,7 +114,7 @@ local function Recipe_OnCreate_TransferToPaperBag(items, result, player, panName
 end
 
 --Generic function, takes any food item and a paper bag, sets the result's calorie/lipid stats and returns the Roasting Pan
-function Recipe.OnCreate.TransferToPaperBag_GiveRoastingPan(items, result, player)
+function HCRecipe.OnCreate.TransferToPaperBag_GiveRoastingPan(items, result, player)
 	Recipe_OnCreate_TransferToPaperBag(items, result, player, "Base.RoastingPan")
 end
 
@@ -246,7 +246,7 @@ function Hydrocraft.OnCreate.MakeBowlofCereal(items, result, player)
 	Recipe_OnCreate_ComplexBetter(items, result, "Make Bowl of Cereal")
 end
 
-function Recipe.OnTest.Hydrocraft.IsCooked(item)
+function HCRecipe.OnTest.Hydrocraft.IsCooked(item)
 	if item:IsFood() then
 		if item:isCooked() then
 			return true

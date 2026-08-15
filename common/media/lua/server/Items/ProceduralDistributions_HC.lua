@@ -63,8 +63,8 @@ local desk_items = {
         "Hydrocraft.HCFolder", 1,
         "Hydrocraft.HCFolder2", 1,
         "Hydrocraft.HCBoxcutter", 1,
-        "Hydrocraft.HCBatterysmall", 0.2,
-        "Hydrocraft.HCBatterymedium", 0.2,
+        "Hydrocraft.HCBatterysmall", 0.5,
+        "Hydrocraft.HCBatterymedium", 0.5,
 --         "Hydrocraft.HCBattery9volt", 0.01,
         "Hydrocraft.HCFloppy", 1,
         "Hydrocraft.HCComputermonitor", 1,
@@ -200,7 +200,7 @@ local lumber_crate_items = {
 --         "Hydrocraft.HCLogbox", 0.01,
         "Hydrocraft.HCLumberstack", 5,
 --         "Hydrocraft.HCLumberbox", 0.01,
-        "Hydrocraft.HCSawlumber", 0.4,
+        "Hydrocraft.HCSawlumber", 1.5,
         "Hydrocraft.HCRopethick", 1,
         "Hydrocraft.HCSawcircularblade", 0.5,
         "Hydrocraft.HCPallettruck", 0.5,
@@ -275,10 +275,10 @@ local metalwork_crate_items = {
         "Hydrocraft.HCPlasticbin", 1,
         "Hydrocraft.HCPlasticbin2", 1,
         "Hydrocraft.HCSafetyglasses", 1,
-        "Hydrocraft.HCBatterysmall", 0.2,
-        "Hydrocraft.HCBatterymedium", 0.2,
-        "Hydrocraft.HCBatterylarge", 0.5,
-        "Hydrocraft.HCBattery9volt", 0.2,
+        "Hydrocraft.HCBatterysmall", 1,
+        "Hydrocraft.HCBatterymedium", 1,
+        "Hydrocraft.HCBatterylarge", 0.8,
+        "Hydrocraft.HCBattery9volt", 1,
         "Hydrocraft.HCPowercord", 1,
         "Hydrocraft.HCCorkhole", 1,
         "Hydrocraft.HCRubberbung", 1,
@@ -320,7 +320,7 @@ local metalwork_crate_items = {
         "Hydrocraft.HCGlassconnector", 1,
         "Hydrocraft.HCWireconcertina", 1,
 
-        "Hydrocraft.HCAuger", 0.1,
+        "Hydrocraft.HCAuger", 0.5,
 
         "Hydrocraft.HCMetalbox", 1,
         "Hydrocraft.HCWiresteel", 1,
@@ -329,12 +329,13 @@ insertItemListsInProcDistribution( "CrateMetalwork", {   metalwork_crate_items  
 
 --CrateTools
 local tools_crate_items = {
+        "Hydrocraft.HCSawlumber", 1,
         "Hydrocraft.HCHotgluegun", 1,
         "Hydrocraft.HCWorkgloves", 1,
         "Hydrocraft.HCWrench", 1,
         "Hydrocraft.HCPliers", 1,
         "Hydrocraft.HCFunnel", 1,
-        "Hydrocraft.HCAuger", 0.1,
+        "Hydrocraft.HCAuger", 0.6,
 
         "Hydrocraft.HCHedgecutter", 1,
         "Hydrocraft.HCHedgetrimmer", 1,
@@ -1092,9 +1093,9 @@ local kitchen_random_junk = {
 --         "Hydrocraft.HCCleanser", 0.01,
 --         "Hydrocraft.HCAmmonia", 0.01,
         "Hydrocraft.HCElectonicscale", 1,
-        "Hydrocraft.HCBatterysmall", 0.5,
-        "Hydrocraft.HCBatterymedium", 0.5,
-        "Hydrocraft.HCBattery9volt", 0.5,
+        "Hydrocraft.HCBatterysmall", 1,
+        "Hydrocraft.HCBatterymedium", 1,
+        "Hydrocraft.HCBattery9volt", 1,
         "Hydrocraft.HCGlassshortempty", 1,
         "Hydrocraft.HCGlasstallempty", 1,
         "Hydrocraft.HCCork", 1,
@@ -1496,11 +1497,11 @@ insertItemListsInProcDistribution( "StoreCounterBags", {   store_counter_bags_it
 
 local store_shelf_electronics_items = {
         "Hydrocraft.HCElectonicscale", 0.5,
-        "Hydrocraft.HCBatterysmall", 0.2,
-        "Hydrocraft.HCBatterymedium", 0.2,
-        "Hydrocraft.HCBatterylarge", 0.2,
-        "Hydrocraft.HCBatteryhuge", 0.2,
-        "Hydrocraft.HCBattery9volt", 0.2,
+        "Hydrocraft.HCBatterysmall", 2,
+        "Hydrocraft.HCBatterymedium", 2,
+        "Hydrocraft.HCBatterylarge", 1,
+        "Hydrocraft.HCBatteryhuge", 0.5,
+        "Hydrocraft.HCBattery9volt", 2,
         "Hydrocraft.HCTerminalstrip", 0.5,
         "Hydrocraft.HCCalculator", 0.5,
         "Hydrocraft.HCDVD", 0.5,
@@ -1558,8 +1559,8 @@ local electronics_items = {
         "Hydrocraft.HCCDcase", 0.1,
         "Hydrocraft.HCCDcasefull", 0.1,
         "Hydrocraft.HCElectonicscale", 0.1,
-        "Hydrocraft.HCBatteryhuge", 0.3,
-        "Hydrocraft.HCBattery9volt", 0.1,
+        "Hydrocraft.HCBatteryhuge", 0.5,
+        "Hydrocraft.HCBattery9volt", 2,
         "Hydrocraft.HCPowercord", 1,
         "Hydrocraft.HCCashregister", 0.1,
         "Hydrocraft.HCFaxmachine", 1,
@@ -1621,7 +1622,7 @@ local shed_items = {
         "Hydrocraft.HCFunnel", 1,
         "Hydrocraft.HCWorkgloves", 1,
         "Hydrocraft.HCWrench", 1,
-        "Hydrocraft.HCAuger", 0.1,
+        "Hydrocraft.HCAuger", 0.4,
         "Hydrocraft.HCLooper", 1,
         "Hydrocraft.HCElectrictape", 1,
         "Hydrocraft.HCGardenhose", 1,
@@ -1972,7 +1973,7 @@ local garagestorage_items = {
         "Hydrocraft.HCPliers", 1,
         "Hydrocraft.HCFunnel", 1,
         "Hydrocraft.HCWrench", 1,
-        "Hydrocraft.HCAuger", 0.1,
+        "Hydrocraft.HCAuger", 0.4,
         "Hydrocraft.HCLooper", 1,
         "Hydrocraft.HCElectrictape", 1,
         "Hydrocraft.HCGardenhose", 1,
@@ -2406,7 +2407,7 @@ insertItemListsInProcDistribution( "CrateBooks", {   books  } );
 -- Add items for Tool Store Shelves
 local tools_Metalwork_items = {
         "Hydrocraft.HCWrench", 1,
-        "Hydrocraft.HCAuger", 0.1,
+        "Hydrocraft.HCAuger", 0.5,
         "Hydrocraft.HCLooper", 1,
         "Hydrocraft.HCWeldingtank", 1,
         "Base.BlowTorch", 1,
@@ -2475,6 +2476,7 @@ insertItemListsInProcDistribution( "CrateConcrete", {   tools_Mason_items  } );
 insertItemListsInProcDistribution( "CratePlaster", {   tools_Mason_items  } );
 
 local tools_GenTools_items =  {
+        "Hydrocraft.HCSawlumber", 1,
         "Hydrocraft.HCFunnel", 1,
         "Hydrocraft.HCRubberbandbox", 1,
         "Hydrocraft.HCBungeecord", 1,
@@ -2675,17 +2677,17 @@ local Garageunits_eletronic_items = {
         "Hydrocraft.HCElectricmultitooldrillhead", 1,
         "Hydrocraft.HCColoredwire", 1,
         "Hydrocraft.HCSolarpanel", 1,
-        "Hydrocraft.HCBatterysmall", 0.2,
-        "Hydrocraft.HCBatterymedium", 0.2,
-        "Hydrocraft.HCBatterylarge", 0.2,
-        "Hydrocraft.HCBatteryhuge", 0.2,
+        "Hydrocraft.HCBatterysmall", 1.5,
+        "Hydrocraft.HCBatterymedium", 1.5,
+        "Hydrocraft.HCBatterylarge", 0.8,
+        "Hydrocraft.HCBatteryhuge", 0.4,
         "Hydrocraft.HCCircuitboardcopperside", 1,
 };
 insertItemListsInProcDistribution( "CrateElectronics", {   Garageunits_eletronic_items  } );
 
 
 local Garageunits_metalwork_items = {
-        "Hydrocraft.HCAuger", 0.1,
+        "Hydrocraft.HCAuger", 0.4,
         "Hydrocraft.HCWiregauze", 1,
         "Hydrocraft.HCWeldinghose", 1,
         "Hydrocraft.HCWeldingtank", 1,

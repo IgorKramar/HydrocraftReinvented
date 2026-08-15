@@ -1,10 +1,10 @@
 
 --These will exist, but just in case
-Recipe = Recipe or {}
-Recipe.GetItemTypes = Recipe.GetItemTypes or {}
+HCRecipe = HCRecipe or {}
+HCRecipe.GetItemTypes = HCRecipe.GetItemTypes or {}
 --TODO: rename to Hydrocraft.GetItemTypes, to make it clearer which are vanilla and which are HC?
 
-function Recipe.GetItemTypes.LeatherGloves(scriptItems)
+function HCRecipe.GetItemTypes.LeatherGloves(scriptItems)
 	local all = getScriptManager():getAllItems()
 	for i=0, all:size()-1 do
 		local item = all:get(i)
@@ -14,56 +14,56 @@ function Recipe.GetItemTypes.LeatherGloves(scriptItems)
 	end
 end
 
-function Recipe.GetItemTypes.BlacksmithTongs(scriptItems)
+function HCRecipe.GetItemTypes.BlacksmithTongs(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("BlacksmithTongs"))
 end
 
-function Recipe.GetItemTypes.Potato(scriptItems)
+function HCRecipe.GetItemTypes.Potato(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Potato"))
 end
 
-function Recipe.GetItemTypes.RoastingPanFull(scriptItems)
+function HCRecipe.GetItemTypes.RoastingPanFull(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("RoastingPanFull"))
 end
 
-function Recipe.GetItemTypes.PaperBagFull(scriptItems)
+function HCRecipe.GetItemTypes.PaperBagFull(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("PaperBagFull"))
 end
 
-function Recipe.GetItemTypes.ServeInPaperBag(scriptItems)
+function HCRecipe.GetItemTypes.ServeInPaperBag(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("ServeInPaperBag"))
 end
 
-function Recipe.GetItemTypes.Box12(scriptItems)
+function HCRecipe.GetItemTypes.Box12(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Box12"))
 end
 
-function Recipe.GetItemTypes.Box25(scriptItems)
+function HCRecipe.GetItemTypes.Box25(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Box25"))
 end
 
-function Recipe.GetItemTypes.Box50(scriptItems)
+function HCRecipe.GetItemTypes.Box50(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Box50"))
 end
 
-function Recipe.GetItemTypes.Box100(scriptItems)
+function HCRecipe.GetItemTypes.Box100(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Box100"))
 end
 
 --Note: Recipe.GetItemTypes.Milk exists in Vanilla PZ
-function Recipe.GetItemTypes.Cereal(scriptItems)
+function HCRecipe.GetItemTypes.Cereal(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Cereal"))
 end
 
-function Recipe.GetItemTypes.NylonBag(scriptItems)
+function HCRecipe.GetItemTypes.NylonBag(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("NylonBag"))
 end
 
-function Recipe.GetItemTypes.HuntingShotgun(scriptItems)
+function HCRecipe.GetItemTypes.HuntingShotgun(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("HuntingShotgun"))
 end
 
-function Recipe.GetItemTypes.BooksWithNumberOfPages(scriptItems)
+function HCRecipe.GetItemTypes.BooksWithNumberOfPages(scriptItems)
 	local all = getScriptManager():getAllItems()
 	for i=0, all:size()-1 do
 		local item = all:get(i)
@@ -75,7 +75,7 @@ function Recipe.GetItemTypes.BooksWithNumberOfPages(scriptItems)
 	end
 end
 
-function Recipe.GetItemTypes.FoodThatCanRot(scriptItems)
+function HCRecipe.GetItemTypes.FoodThatCanRot(scriptItems)
 	local all = getScriptManager():getAllItems()
 	for i=0, all:size()-1 do
 		local item = all:get(i)
@@ -85,10 +85,10 @@ function Recipe.GetItemTypes.FoodThatCanRot(scriptItems)
 	end
 end
 
-function Recipe.GetItemTypes.Shit(scriptItems)
+function HCRecipe.GetItemTypes.Shit(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Shit"))
 end
 
-function Recipe.GetItemTypes.BucketConcrete(scriptItems)
+function HCRecipe.GetItemTypes.BucketConcrete(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("BucketConcrete"))
 end

@@ -1,12 +1,12 @@
 --Initializations.
 
-Recipe = Recipe or {}
-Recipe.OnCreate = Recipe.OnCreate or {}
-Recipe.OnCreate.Hydrocraft = Recipe.OnCreate.Hydrocraft or {}
-Recipe.GetItemTypes = Recipe.GetItemTypes or {}
-Recipe.OnTest = Recipe.OnTest or {}
-Recipe.OnCanPerform = Recipe.OnCanPerform or {}
-Recipe.OnGiveXP = Recipe.OnGiveXP or {}
+HCRecipe = HCRecipe or {}
+HCRecipe.OnCreate = HCRecipe.OnCreate or {}
+HCRecipe.OnCreate.Hydrocraft = HCRecipe.OnCreate.Hydrocraft or {}
+HCRecipe.GetItemTypes = HCRecipe.GetItemTypes or {}
+HCRecipe.OnTest = HCRecipe.OnTest or {}
+HCRecipe.OnCanPerform = HCRecipe.OnCanPerform or {}
+HCRecipe.OnGiveXP = HCRecipe.OnGiveXP or {}
 
 -- ***********************************************************
 -- **                    Hydromancerx                       **
@@ -498,7 +498,7 @@ function recipe_hcpillowcase(items, result, player)
 	inv:AddItem("Hydrocraft.HCPillowcase");
 end
 
-function Recipe.OnCreate.Hydrocraft.RecycleBag(items, result, player)
+function HCRecipe.OnCreate.Hydrocraft.RecycleBag(items, result, player)
 
 	local bag = items:get(0)
 	local nylonAmount = bag:getModData().NylonAmount
@@ -2156,9 +2156,29 @@ function HC_ToyStatModifier(items, result, player)
 end
 
 --Changes made to boredom and unhappyness.
-function HCDoStats(player, b, u)
-	player:getBodyDamage():setBoredomLevel(player:getBodyDamage():getBoredomLevel() - b);
-	player:getBodyDamage():setUnhappynessLevel(player:getBodyDamage():getUnhappynessLevel() - u);
+--B42.20 снял сеттеры BodyDamage (setBoredomLevel/setUnhappynessLevel), поэтому
+--сначала пробуем их — для сборок, где они ещё есть, — а при отказе уходим
+--на аддитивный API статов. Шкала BodyDamage 0..100, у CharacterStat 0..1,
+--отсюда деление. Если движок не даёт ни того, ни другого, рецепт просто
+--не меняет статы, но не падает.
+function HCDoStats(player, b, u, s)
+	b = b or 0; u = u or 0; s = s or 0;
+	local bd = player:getBodyDamage();
+	local okB = pcall(function() bd:setBoredomLevel(bd:getBoredomLevel() - b) end);
+	local okU = pcall(function() bd:setUnhappynessLevel(bd:getUnhappynessLevel() - u) end);
+	local stats = player:getStats();
+	if not stats or not CharacterStat then return end
+	if not okB and CharacterStat.BOREDOM then
+		stats:add(CharacterStat.BOREDOM, -b / 100);
+	end
+	if not okU and CharacterStat.UNHAPPINESS then
+		stats:add(CharacterStat.UNHAPPINESS, -u / 100);
+	end
+	--Стресс передавался вызывающими (recipe_minorhyienic), но прежняя
+	--сигнатура его теряла.
+	if s ~= 0 and CharacterStat.STRESS then
+		stats:add(CharacterStat.STRESS, -s / 100);
+	end
 end
 
 --Cookie Jar random cookies.
@@ -2184,7 +2204,7 @@ function HCAddManySameItem(item, count, player)
 end
 
 function HCHappyTen(items, result, player)
-	player:getBodyDamage():setUnhappynessLevel(player:getBodyDamage():getUnhappynessLevel() - 10);
+	HCDoStats(player, 0, 10);
 end
 
 --Checking Bowls.
@@ -2538,7 +2558,7 @@ end
 
 
 
-function Recipe.GetItemTypes.GatherSeeds(scriptItems)
+function HCRecipe.GetItemTypes.GatherSeeds(scriptItems)
 local allScriptItems = getScriptManager():getAllItems();
 for typeOfSeed,props in pairs(farming_vegetableconf.props) do
 	if (props.seedCollect ~= nil and props.seedCollect > 0) then 
@@ -2616,7 +2636,7 @@ function HCOpenSealedLetter(items, result, player)
 	inv:AddItem(magazine);
 end
 
-function Recipe.OnCreate.Hydrocraft.BoxThings(items, result, player)
+function HCRecipe.OnCreate.Hydrocraft.BoxThings(items, result, player)
 
 	local item = items:get(0)
 	local count = items:size()
@@ -2636,7 +2656,7 @@ function Recipe.OnCreate.Hydrocraft.BoxThings(items, result, player)
 
 end
 
-function Recipe.OnCreate.Hydrocraft.OpenBox(items, result, player)
+function HCRecipe.OnCreate.Hydrocraft.OpenBox(items, result, player)
 
 	local item = items:get(0)
 
@@ -2649,7 +2669,7 @@ function Recipe.OnCreate.Hydrocraft.OpenBox(items, result, player)
 end
 
 --use to give the player the accurate number of pages from a book
-function Recipe.OnCreate.Hydrocraft.PullOutPages(items, result, player)
+function HCRecipe.OnCreate.Hydrocraft.PullOutPages(items, result, player)
 	local book = items:get(0)
 	local pageCount = book:getNumberOfPages()
 	if pageCount > 0 then

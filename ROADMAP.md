@@ -34,14 +34,66 @@
 - Эволюционирующие рецепты: продукты Hydrocraft в ванильных супах, рагу
   и пицце.
 
-#### v1.8.0 — «Индустрия» / The Industry Update
+#### v1.8.0 — «Мастерская» / The Workshop Update
 
-- Ванильные станции варят слитки Hydrocraft и наоборот (расцепить 43 рецепта
-  от HC-станций).
-- Переплавка устаревшей металлической утвари ванильной кузницей
+Самый крупный неиспользованный слой B42. Сегодня все 3 590 рецептов мода
+крафтятся на `AnySurfaceCraft`, а «станции» — это предметы в рюкзаке: титановый
+молот на 91 рецепт, макератор на 43, стеклянная воронка на 107. Плавка титана
+на парковке — прямое наследие B41. B42 умеет многотайловые сущности, и мод
+не использует их ни разу (`entity`-скриптов в моде: 0).
+
+- **Станции становятся сущностями**: пары «предмет / закреплённый предмет»
+  (30 рецептов якорения — от наковален до шахты, пруда, лабораторий
+  и свалки) переезжают в многотайловые объекты B42 с визуальными
+  состояниями и собственным списком рецептов. Собственные, без ванильного
+  двойника: макератор, винокурня, маслопресс, ткацкий станок и прялка,
+  три лаборатории, электронный и портновский верстаки, коптильня, шахта,
+  карьер, пруд, свалка.
+- **Расцепление — только там, где ваниль дублирует механику**: наковальни
+  трёх видов (228 упоминаний в рецептах) уходят к ванильной кузнице B42,
+  плавильня, домна, электро- и промышленная печь — к ванильной выплавке.
+  Держать свою копию того, что движок теперь умеет сам, незачем: это
+  философия порта, применённая к станциям.
+- **Переплавка устаревшей металлической утвари** ванильной кузницей
   (по предложению Crossfit Jesus).
-- Junkyard 2.0: свалки с разборкой остовов машин.
-- Пересортировка крафт-меню из «Прочего» по человеческим категориям.
+- **Junkyard 2.0**: свалки с разборкой остовов машин.
+- Крафт-меню разгружается само: станция показывает свои рецепты, и «Прочее»
+  худеет без ручной пересортировки.
+
+### 🛠️ Идеи за пределами плана (v2.0+)
+
+Не обещания, а направления — что из этого поедет, решат отзывы и то,
+насколько больно дастся миграция сейвов в v1.6.
+
+- **«Глубина» — шахта как подземелье.** Сейчас добыча это lua-таймер
+  со случайным дропом (`HCMine`, `HCMineStone`, `HCDarkmine`). У мода есть
+  свой tiledef-пак и 233 модели: рудные жилы как объекты мира, ярусы
+  с ростом ценности и риска, свет как расходуемый ресурс, обвалы, вагонетки.
+- **Энергосеть.** После v1.6 складывается цепочка, которой не хватает
+  звена: биодизель и биогаз → генератор → батареи и солнечный парк →
+  освещение и промышленные потребители. Сегодня это разрозненные предметы
+  из четырёх файлов.
+- **Профессии, черты, ожившие книги.** В B42 черты стали скриптами —
+  можно вернуть отключённую механику «очки и слуховой аппарат лечат черты».
+  Плюс профессии (пасечник, шахтёр, химик, старьёвщик) — у мода 32 категории
+  крафта и ни одной точки входа в билд персонажа. Книги, которые сейчас
+  не учат ничему, становятся книгами ванильных навыков: кузнечное дело,
+  гончарство, кладка, стекло — тематика совпадает один в один.
+- **Живность.** `HCR_Dogs` (42 КБ), кошки и питомцы — пока предметы, а B42
+  умеет живых животных с поведением. Собака, которая ходит за игроком,
+  охраняет базу и помогает на охоте, — то, ради чего в B41 ставили
+  Hydrocraft. Сюда же решается судьба 71 вырезанного «живого» предмета,
+  а пасека цепляется за ванильное опыление грядок из v1.7.
+- **Мир, в котором это водится.** Тайлы есть, точек на карте нет: вход
+  в шахту, карьер, пасечная ферма, свалка, лаборатория — инфраструктура,
+  которую находят, а не крафтят с нуля. Дешёвый вариант того же —
+  тематические зомби-аутфиты (шахтёр, пасечник, дезинсектор) с профильным
+  лутом.
+- **Инженерная гигиена.** Инструменты в `tools/` написаны, но запускаются
+  руками. CI на push, валящий сборку на переопределениях предметов, битых
+  ссылках, недостижимых предметах и пропусках перевода, ловил бы такие
+  вещи сам. Туда же: аудит мультиплеера и профилирование загрузки
+  при 5 196 предметах и 5 679 текстурах.
 
 ### 🔭 За горизонтом
 
@@ -50,8 +102,6 @@
 - **Кросс-совместимость** с кулинарными и производственными модами
   (Vanilla Foods Expanded уже дружит; Sapph's Cooking — как только автор
   починит слоты одежды под B42).
-- Судьба вырезанного разведения животных B41 (71 «живой» предмет) — ваниль
-  закрывает основное, решаем, что делать с экзотикой.
 
 ### ✅ Сделано
 
@@ -108,14 +158,63 @@ The mod's last legacy layer: ~1,000 items still emulate liquids with
   to real B42 farming plots (pots stay for the windowsill).
 - Evolved recipes: Hydrocraft produce in vanilla soups, stews and pizza.
 
-#### v1.8.0 — The Industry Update
+#### v1.8.0 — The Workshop Update
 
-- Vanilla stations smelt Hydrocraft ingots and vice versa (decouple 43
-  recipes from HC stations).
-- Melting down obsolete metalware with vanilla smithing (suggested by
+B42's largest untouched layer. Today all 3,590 recipes craft on
+`AnySurfaceCraft`, and the "stations" are items in your backpack: a titanium
+hammer gates 91 recipes, a macerator 43, a glass funnel 107. Smelting titanium
+in a parking lot is B41 legacy. B42 supports multi-tile entities, and the mod
+uses them exactly zero times (`entity` scripts in the mod: 0).
+
+- **Stations become entities**: the "item / anchored item" pairs (30 anchoring
+  recipes — from anvils to the mine, pond, labs and scrapyard) move to
+  multi-tile B42 objects with visual states and their own recipe lists. The
+  ones with no vanilla counterpart stay ours: macerator, distillery, oil
+  press, loom and spinning wheel, three labs, electronics and tailor's
+  benches, smoker, mine, quarry, pond, scrapyard.
+- **Decoupling only where vanilla duplicates the mechanic**: the three anvil
+  types (228 recipe references) move to B42's vanilla smithing, and the
+  smelter, blast furnace, arc and industrial furnaces to vanilla melting.
+  Keeping our own copy of what the engine now does natively makes no sense —
+  it is the port's philosophy applied to stations.
+- **Melting down obsolete metalware** with vanilla smithing (suggested by
   Crossfit Jesus).
-- Junkyard 2.0: scrapyards with car wreck salvage.
-- A proper reorganization of the craft menu out of "Miscellaneous".
+- **Junkyard 2.0**: scrapyards with car wreck salvage.
+- The craft menu unloads itself: a station lists its own recipes, so
+  "Miscellaneous" shrinks without a manual re-sort.
+
+### 🛠️ Ideas beyond the plan (v2.0+)
+
+Directions, not promises — what actually ships depends on feedback and on how
+painful the v1.6 save migration turns out to be.
+
+- **"The Deep" — the mine as a dungeon.** Mining is currently a Lua timer with
+  a random drop (`HCMine`, `HCMineStone`, `HCDarkmine`). The mod has its own
+  tiledef pack and 233 models: ore veins as world objects, tiers trading value
+  against risk, light as a consumable, cave-ins, mine carts.
+- **A power grid.** After v1.6 one link completes the chain: biodiesel and
+  biogas → generator → batteries and solar farm → lighting and industrial
+  consumers. Today those are unrelated items across four files.
+- **Professions, traits, books that teach again.** B42 turned traits into
+  scripts, so the disabled "glasses and hearing aid cure traits" mechanic can
+  come back. Plus professions (beekeeper, miner, chemist, scrapper) — the mod
+  has 32 craft categories and no entry point in character creation. And the
+  books that currently teach nothing become vanilla skill books: smithing,
+  pottery, masonry, glassmaking — the subject matter already matches.
+- **Livestock.** `HCR_Dogs` (42 KB), cats and pets are still items, while B42
+  has live animals with behavior. A dog that follows you, guards the base and
+  helps on the hunt is what people installed Hydrocraft for in B41. This also
+  settles the fate of the 71 cut "live animal" items, and the apiary hooks
+  into v1.7's vanilla pollination.
+- **A world to find it in.** The tiles exist, the map spots do not: a mine
+  entrance, quarry, apiary farm, scrapyard, laboratory — infrastructure you
+  find rather than craft from scratch. The cheap version of the same idea:
+  themed zombie outfits (miner, beekeeper, exterminator) with matching loot.
+- **Engineering hygiene.** The `tools/` audit suite exists but runs by hand.
+  CI on push, failing the build on item redefinitions, broken references,
+  unreachable items and missing translations, would catch these by itself.
+  Same bucket: a multiplayer audit and load profiling at 5,196 items and
+  5,679 textures.
 
 ### 🔭 Beyond the horizon
 
@@ -124,8 +223,6 @@ The mod's last legacy layer: ~1,000 items still emulate liquids with
 - **Cross-mod compatibility** with cooking/industry mods (Vanilla Foods
   Expanded already works; Sapph's Cooking once its author fixes the B42
   clothing slots).
-- The fate of the cut B41 animal husbandry (71 "live animal" items) —
-  vanilla covers the basics, deciding what to do with the exotics.
 
 ### ✅ Done
 

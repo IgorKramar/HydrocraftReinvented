@@ -60,7 +60,60 @@
 - Крафт-меню разгружается само: станция показывает свои рецепты, и «Прочее»
   худеет без ручной пересортировки.
 
-### 🛠️ Идеи за пределами плана (v2.0+)
+#### v2.0.0 — «Производство» / The Automation Update
+
+Энергия, транспорт и станки — сейчас это разрозненные предметы в четырёх
+файлах, а должно быть одной цепочкой. Опирается на слой сущностей из v1.8:
+без многотайловых станций автоматизировать нечего.
+
+- **Солнечная энергетика по-настоящему.** Сегодня `HCSolargen` — это 46 строк
+  lua, подделывающих ванильный генератор с бесконечным топливом. Взамен:
+  панели по тирам (самодельная и заводская), контроллер заряда, аккумуляторные
+  банки на существующих батареях пяти типоразмеров, выработка от времени
+  суток, сезона и облачности, деградация и чистка панелей, щит со счётчиком.
+  Ветряк и беговая дорожка-генератор входят в ту же сеть, биодизель и биогаз
+  дают вторую опору рядом с солнцем.
+- **Конвейеры и манипуляторы.** Ленты, повороты, разветвители, сортировка
+  по фильтру, погрузчики в контейнеры и обратно. Без питания лента стоит —
+  логистика становится потребителем сети, а не отдельной игрушкой.
+- **Станки с буферами.** Автоматические версии HC-станций (макератор, пресс,
+  дробилка, печь): входной и выходной буфер, заданный рецепт, расход энергии,
+  остановка по переполнению. Ручной крафт остаётся — автоматизация это
+  поздняя игра, а не замена раннему.
+- **Панель Sandbox**: скорость лент, аппетит станков, потолок нагрузки на тик,
+  выключатель всей подсистемы для серверов.
+
+#### v2.1.0 — «Терминал» / The Computer Update
+
+Весь материальный слой в моде уже есть: `HCComputer` с монитором, клавиатурой,
+мышью, блоком питания и вентилятором, чертежи на каждую деталь, книги по
+программированию и робототехнике, девять дискет и полная цепочка изготовления
+печатных плат (медь → фоторезист → проявка → сверление → печать). Не хватает
+того, ради чего это собирают.
+
+- **Компьютер с собственным окном**: своя «ОС» — файловая система внутри
+  сейва, редактор, консоль, список задач. Дискеты становятся носителями:
+  найденная в луте — готовая программа, чистая — место под свою.
+- **Язык автоматизации, а не голый Lua.** Игрок пишет на ограниченном языке,
+  который исполняет виртуальная машина мода с бюджетом инструкций на тик.
+  Пускать пользовательский Lua внутрь нельзя: на сервере это исполнение
+  произвольного кода, а один бесконечный цикл вешает клиент всем.
+- **API автоматизации**: датчики (заряд банки, заполнение бункера, состояние
+  станка), управление лентами, станками, светом и дверями, расписания
+  и условия. Скрипт заменяет ручной обход базы.
+- **ЧПУ**: программируемый станок, где задание описывает деталь, а из заготовки
+  выходят шестерни, стволы и корпуса. Программа — предмет: пишется на
+  компьютере, переносится дискетой, попадается в луте готовой.
+- **Мультиплеер с первого дня**: состояние сети и вычислений живёт на сервере,
+  клиент только рисует. Иначе подсистема превращается в чит и рассинхрон.
+
+Оба выпуска — исследовательские. В Project Zomboid нет ни транспорта предметов,
+ни пользовательских вычислений: и то и другое придётся строить с нуля на
+lua-тиках, а самое трудное здесь не механика, а производительность и сетевая
+часть. Разумный первый шаг — вертикальный срез: одна панель, одна лента, один
+станок и один компьютер, которые работают вместе. На нём и мерить.
+
+### 🛠️ Идеи за пределами плана (v2.2+)
 
 Не обещания, а направления — что из этого поедет, решат отзывы и то,
 насколько больно дастся миграция сейвов в v1.6.
@@ -69,10 +122,6 @@
   со случайным дропом (`HCMine`, `HCMineStone`, `HCDarkmine`). У мода есть
   свой tiledef-пак и 233 модели: рудные жилы как объекты мира, ярусы
   с ростом ценности и риска, свет как расходуемый ресурс, обвалы, вагонетки.
-- **Энергосеть.** После v1.6 складывается цепочка, которой не хватает
-  звена: биодизель и биогаз → генератор → батареи и солнечный парк →
-  освещение и промышленные потребители. Сегодня это разрозненные предметы
-  из четырёх файлов.
 - **Профессии, черты, ожившие книги.** В B42 черты стали скриптами —
   можно вернуть отключённую механику «очки и слуховой аппарат лечат черты».
   Плюс профессии (пасечник, шахтёр, химик, старьёвщик) — у мода 32 категории
@@ -183,7 +232,60 @@ uses them exactly zero times (`entity` scripts in the mod: 0).
 - The craft menu unloads itself: a station lists its own recipes, so
   "Miscellaneous" shrinks without a manual re-sort.
 
-### 🛠️ Ideas beyond the plan (v2.0+)
+#### v2.0.0 — The Automation Update
+
+Power, transport and machines are scattered items across four files today;
+they should be one chain. Built on v1.8's entity layer — without multi-tile
+stations there is nothing to automate.
+
+- **Solar power for real.** `HCSolargen` is currently 46 lines of Lua faking a
+  vanilla generator with infinite fuel. Instead: tiered panels (homemade and
+  factory), a charge controller, battery banks on the existing five battery
+  sizes, output driven by time of day, season and cloud cover, panel
+  degradation and cleaning, a breaker panel with a meter. The windmill and the
+  treadmill generator join the same grid, and biodiesel and biogas give it a
+  second leg beside the sun.
+- **Conveyors and loaders.** Belts, corners, splitters, filtered sorting,
+  loaders into and out of containers. An unpowered belt stands still —
+  logistics becomes a consumer on the grid, not a separate toy.
+- **Machines with buffers.** Automated versions of HC stations (macerator,
+  press, crusher, furnace): input and output buffers, an assigned recipe,
+  power draw, a stop on overflow. Hand crafting stays — automation is late
+  game, not a replacement for the early one.
+- **Sandbox panel**: belt speed, machine appetite, a per-tick load ceiling, and
+  a kill switch for the whole subsystem on servers.
+
+#### v2.1.0 — The Computer Update
+
+The physical layer already exists in the mod: `HCComputer` with monitor,
+keyboard, mouse, PSU and fan, blueprints for every part, books on programming
+and robotics, nine floppies and a complete circuit board fabrication chain
+(copper → photoresist → developing → drilling → printing). What's missing is
+the reason to assemble it.
+
+- **A computer with its own window**: an "OS" of its own — a filesystem inside
+  the save, an editor, a console, a task list. Floppies become media: one
+  found in loot is a finished program, a blank one is room for yours.
+- **An automation language, not raw Lua.** The player writes in a restricted
+  language executed by the mod's own VM with a per-tick instruction budget.
+  Letting player Lua inside is not an option: on a server that is arbitrary
+  code execution, and a single infinite loop freezes everyone's client.
+- **An automation API**: sensors (bank charge, hopper level, machine state),
+  control over belts, machines, lights and doors, schedules and conditions.
+  A script replaces walking the base by hand.
+- **CNC**: a programmable machine where the job describes the part and the
+  blank comes out as gears, barrels and casings. The program is an item:
+  written on the computer, carried on a floppy, occasionally found ready-made.
+- **Multiplayer from day one**: grid and computation state live on the server,
+  the client only draws. Otherwise the subsystem becomes a cheat and a desync.
+
+Both releases are exploratory. Project Zomboid has neither item transport nor
+user computation: both have to be built from scratch on Lua ticks, and the hard
+part is not the mechanics but performance and networking. The sane first step is
+a vertical slice — one panel, one belt, one machine and one computer working
+together — and measuring on that.
+
+### 🛠️ Ideas beyond the plan (v2.2+)
 
 Directions, not promises — what actually ships depends on feedback and on how
 painful the v1.6 save migration turns out to be.
@@ -192,9 +294,6 @@ painful the v1.6 save migration turns out to be.
   a random drop (`HCMine`, `HCMineStone`, `HCDarkmine`). The mod has its own
   tiledef pack and 233 models: ore veins as world objects, tiers trading value
   against risk, light as a consumable, cave-ins, mine carts.
-- **A power grid.** After v1.6 one link completes the chain: biodiesel and
-  biogas → generator → batteries and solar farm → lighting and industrial
-  consumers. Today those are unrelated items across four files.
 - **Professions, traits, books that teach again.** B42 turned traits into
   scripts, so the disabled "glasses and hearing aid cure traits" mechanic can
   come back. Plus professions (beekeeper, miner, chemist, scrapper) — the mod

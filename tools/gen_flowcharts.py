@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 """model.json -> docs/FLOWCHARTS.md (Mermaid: обучение + межкатегорийные потоки + глубокие цепочки)."""
-import json, re
-from pathlib import Path
+import re
 from collections import defaultdict, Counter
 
-HERE = Path(__file__).parent
-M = json.loads((HERE / "model.json").read_text(encoding="utf-8"))
+from hcr_paths import DOCS, load_model, mod_version, require_vanilla_names
+
+M = load_model()
+require_vanilla_names(M)
 items, recipes = M["items"], M["recipes"]
 ru_items, ru_recipes = M["ru_items"], M["ru_recipes"]
 van_ru = M["van_ru"]
@@ -152,12 +153,13 @@ for k, path in enumerate(picked, 1):
         g.append(f'    c{k}_{idx} -->|"{label}"| c{k}_{idx+1}')
     chain_blocks.append("\n".join(g))
 
+VER = mod_version()
 md = f"""# Карта крафта и обучения / Craft & Learning Flowcharts
 
-*Автогенерация из скриптов мода (v1.5.0): {len(items)} предметов, {len(recipes)} рецептов,
+*Автогенерация из скриптов мода (v{VER}): {len(items)} предметов, {len(recipes)} рецептов,
 {len({b for bl in book_teaches.values() for b in bl})} книг и чертежей. Полные данные — в [HCR_Database.xlsx](HCR_Database.xlsx).*
 
-*Auto-generated from the mod scripts (v1.5.0). Full data in [HCR_Database.xlsx](HCR_Database.xlsx).*
+*Auto-generated from the mod scripts (v{VER}). Full data in [HCR_Database.xlsx](HCR_Database.xlsx).*
 
 ## 1. Обучение: откуда берутся рецепты / Learning map
 
@@ -185,7 +187,8 @@ md = f"""# Карта крафта и обучения / Craft & Learning Flowch
 for k, block in enumerate(chain_blocks, 1):
     md += f"### Цепочка {k} ({len(picked[k-1])} звеньев)\n\n```mermaid\n{block}\n```\n\n"
 
-out = Path(r"C:\Users\Игорь\projects\HydrocraftReinvented\docs\FLOWCHARTS.md")
+DOCS.mkdir(exist_ok=True)
+out = DOCS / "FLOWCHARTS.md"
 out.write_text(md, encoding="utf-8")
 print("saved", out)
 print("learn edges:", sum(1 for l in learn if '-->' in l), "| flow edges:", sum(1 for l in flow if '-->' in l))

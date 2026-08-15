@@ -34,14 +34,36 @@
 - Эволюционирующие рецепты: продукты Hydrocraft в ванильных супах, рагу
   и пицце.
 
-#### v1.8.0 — «Индустрия» / The Industry Update
+#### v1.8.0 — «Мастерская» / The Workshop Update
 
-- Ванильные станции варят слитки Hydrocraft и наоборот (расцепить 43 рецепта
-  от HC-станций).
-- Переплавка устаревшей металлической утвари ванильной кузницей
+Самый крупный неиспользованный слой B42. Сегодня все 3 590 рецептов мода
+крафтятся на `AnySurfaceCraft`, а «станции» — это предметы в рюкзаке: титановый
+молот на 91 рецепт, макератор на 43, стеклянная воронка на 107. Плавка титана
+на парковке — прямое наследие B41. B42 умеет многотайловые сущности, и мод
+не использует их ни разу (`entity`-скриптов в моде: 0).
+
+- **Станции становятся сущностями**: пары «предмет / закреплённый предмет»
+  (30 рецептов якорения — от наковален до шахты, пруда, лабораторий
+  и свалки) переезжают в многотайловые объекты B42 с визуальными
+  состояниями и собственным списком рецептов. Собственные, без ванильного
+  двойника: макератор, винокурня, маслопресс, ткацкий станок и прялка,
+  три лаборатории, электронный и портновский верстаки, коптильня, шахта,
+  карьер, пруд, свалка.
+- **Расцепление — только там, где ваниль дублирует механику**: наковальни
+  трёх видов (228 упоминаний в рецептах) уходят к ванильной кузнице B42,
+  плавильня, домна, электро- и промышленная печь — к ванильной выплавке.
+  Держать свою копию того, что движок теперь умеет сам, незачем: это
+  философия порта, применённая к станциям.
+- **Переплавка устаревшей металлической утвари** ванильной кузницей
   (по предложению Crossfit Jesus).
-- Junkyard 2.0: свалки с разборкой остовов машин.
-- Пересортировка крафт-меню из «Прочего» по человеческим категориям.
+- **Junkyard 2.0**: свалки с разборкой остовов машин.
+- Крафт-меню разгружается само: станция показывает свои рецепты, и «Прочее»
+  худеет без ручной пересортировки.
+
+Дальше v1.8 план перестаёт быть расписанием и становится замыслом:
+автоматизация производства, программируемый компьютер, дерево исследований
+и шесть новых производственных веток вынесены в отдельный документ —
+[Дальние планы](docs/VISION.md).
 
 ### 🔭 За горизонтом
 
@@ -50,8 +72,6 @@
 - **Кросс-совместимость** с кулинарными и производственными модами
   (Vanilla Foods Expanded уже дружит; Sapph's Cooking — как только автор
   починит слоты одежды под B42).
-- Судьба вырезанного разведения животных B41 (71 «живой» предмет) — ваниль
-  закрывает основное, решаем, что делать с экзотикой.
 
 ### ✅ Сделано
 
@@ -108,14 +128,34 @@ The mod's last legacy layer: ~1,000 items still emulate liquids with
   to real B42 farming plots (pots stay for the windowsill).
 - Evolved recipes: Hydrocraft produce in vanilla soups, stews and pizza.
 
-#### v1.8.0 — The Industry Update
+#### v1.8.0 — The Workshop Update
 
-- Vanilla stations smelt Hydrocraft ingots and vice versa (decouple 43
-  recipes from HC stations).
-- Melting down obsolete metalware with vanilla smithing (suggested by
+B42's largest untouched layer. Today all 3,590 recipes craft on
+`AnySurfaceCraft`, and the "stations" are items in your backpack: a titanium
+hammer gates 91 recipes, a macerator 43, a glass funnel 107. Smelting titanium
+in a parking lot is B41 legacy. B42 supports multi-tile entities, and the mod
+uses them exactly zero times (`entity` scripts in the mod: 0).
+
+- **Stations become entities**: the "item / anchored item" pairs (30 anchoring
+  recipes — from anvils to the mine, pond, labs and scrapyard) move to
+  multi-tile B42 objects with visual states and their own recipe lists. The
+  ones with no vanilla counterpart stay ours: macerator, distillery, oil
+  press, loom and spinning wheel, three labs, electronics and tailor's
+  benches, smoker, mine, quarry, pond, scrapyard.
+- **Decoupling only where vanilla duplicates the mechanic**: the three anvil
+  types (228 recipe references) move to B42's vanilla smithing, and the
+  smelter, blast furnace, arc and industrial furnaces to vanilla melting.
+  Keeping our own copy of what the engine now does natively makes no sense —
+  it is the port's philosophy applied to stations.
+- **Melting down obsolete metalware** with vanilla smithing (suggested by
   Crossfit Jesus).
-- Junkyard 2.0: scrapyards with car wreck salvage.
-- A proper reorganization of the craft menu out of "Miscellaneous".
+- **Junkyard 2.0**: scrapyards with car wreck salvage.
+- The craft menu unloads itself: a station lists its own recipes, so
+  "Miscellaneous" shrinks without a manual re-sort.
+
+Past v1.8 the plan stops being a schedule and becomes intent: production
+automation, a programmable computer, a research tree and six new production
+branches live in a separate document — [Vision](docs/VISION.md).
 
 ### 🔭 Beyond the horizon
 
@@ -124,8 +164,6 @@ The mod's last legacy layer: ~1,000 items still emulate liquids with
 - **Cross-mod compatibility** with cooking/industry mods (Vanilla Foods
   Expanded already works; Sapph's Cooking once its author fixes the B42
   clothing slots).
-- The fate of the cut B41 animal husbandry (71 "live animal" items) —
-  vanilla covers the basics, deciding what to do with the exotics.
 
 ### ✅ Done
 

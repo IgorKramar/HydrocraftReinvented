@@ -6,6 +6,30 @@
 
 ## Русский
 
+### v1.5.8 — 2026-08-15
+
+**Ошибки загрузки и статы — спасибо Crossfit Jesus и Haase за отчёты:**
+- **Красные ошибки при старте игры** (`attempted index of non-table`
+  в `Functions.lua` и `HCExtra.lua`): мод дописывал свои функции в глобальную
+  таблицу `Recipe`, которой в B42 больше нет в прежнем виде. Ошибка обрывала
+  выполнение файла на середине. Все 47 обращений переведены на собственный
+  неймспейс мода `HCRecipe` — чужие глобальные таблицы больше не трогаем.
+- **`Object tried to call nil in HCDoStats`** при рецептах «поиграть
+  с игрушкой» (йо-йо, шашки, кубик Рубика — 127 рецептов): B42.20 снял
+  сеттеры `setBoredomLevel` и `setUnhappynessLevel` у `BodyDamage`. Волна
+  исправлений v1.5.6 шла по `getStats()` и это место не задела. Теперь скука
+  и уныние меняются через тот API, который есть в движке, а если нет ни одного —
+  рецепт просто не меняет статы вместо падения. Заодно заработал стресс:
+  вызывающий код его передавал, а прежняя сигнатура теряла.
+- **Лут: батарейки, бур и пила по дереву** снова находятся. После ревизии
+  v1.3.0 веса ушли в 0.1–0.2 даже там, где предмет уместен: батарейки
+  в магазинах электроники и гаражах подняты до 1–2, бур в ящиках
+  с инструментом — до 0.4–0.6. Пила по дереву стояла в единственном списке
+  (деревянные ящики, вес 0.4) — вес поднят до 1.5 и добавлены ящики
+  с инструментом и магазины инструментов, где её и искали. Спасибо Haase
+  за проверку на восьмичасовом забеге и Crossfit Jesus за сверку
+  через ItemSpawner.
+
 ### v1.5.7 — 2026-08-09
 
 **Тапервэр работает — спасибо Crossfit Jesus за отчёт:**
@@ -142,6 +166,30 @@
 ---
 
 ## English
+
+### v1.5.8 — 2026-08-15
+
+**Load errors and stats — thanks to Crossfit Jesus and Haase for the reports:**
+- **Red errors on game start** (`attempted index of non-table` in
+  `Functions.lua` and `HCExtra.lua`): the mod was writing its functions into the
+  global `Recipe` table, which no longer exists in that form in B42. The error
+  aborted the file halfway through. All 47 references now live in the mod's own
+  `HCRecipe` namespace — we no longer touch foreign globals.
+- **`Object tried to call nil in HCDoStats`** on "play with toy" recipes
+  (yo-yo, checkers, Rubik's cube — 127 recipes): B42.20 removed the
+  `setBoredomLevel` and `setUnhappynessLevel` setters from `BodyDamage`. The
+  v1.5.6 fix pass swept `getStats()` and missed this one. Boredom and
+  unhappiness now go through whichever API the engine actually exposes, and if
+  neither exists the recipe simply leaves stats alone instead of crashing.
+  Stress works too now: the calling code passed it and the old signature
+  dropped it.
+- **Loot: batteries, auger and lumber saw** can be found again. After the
+  v1.3.0 pass the weights had fallen to 0.1–0.2 even where the item belongs:
+  batteries in electronics stores and garages are back up to 1–2, the auger in
+  tool crates to 0.4–0.6. The lumber saw sat in a single list (wood crates,
+  weight 0.4) — raised to 1.5 and added to tool crates and tool stores, where
+  players were looking for it. Thanks to Haase for the eight-hour test run and
+  to Crossfit Jesus for the ItemSpawner cross-check.
 
 ### v1.5.7 — 2026-08-09
 

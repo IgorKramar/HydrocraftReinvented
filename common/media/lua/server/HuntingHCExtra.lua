@@ -4,11 +4,11 @@
 --Adapted for Hydrocraft by Yossitaru.
 ------HUNTING-----
 
-Recipe = Recipe or {}
-Recipe.OnCreate = Recipe.OnCreate or {}
-Recipe.OnCanPerform = Recipe.OnCanPerform or {}
-Recipe.OnCreate.Hydrocraft = Recipe.OnCreate.Hydrocraft or {}
-Recipe.OnCanPerform.Hydrocraft = Recipe.OnCanPerform.Hydrocraft or {}
+HCRecipe = HCRecipe or {}
+HCRecipe.OnCreate = HCRecipe.OnCreate or {}
+HCRecipe.OnCanPerform = HCRecipe.OnCanPerform or {}
+HCRecipe.OnCreate.Hydrocraft = HCRecipe.OnCreate.Hydrocraft or {}
+HCRecipe.OnCanPerform.Hydrocraft = HCRecipe.OnCanPerform.Hydrocraft or {}
 
 function countDogs(player)
 	 local inv = player:getInventory();
@@ -426,7 +426,7 @@ Use in OnCanPerform to check if the player is near water, e.g. for duck hunting
 Recipe must require HCBinoculars, just to reduce the need to run the same check on over ingredient (there's probably a better solution...)
 Recipe will then only be available if 5 or more tiles around the player are water, checks the 25 tiles centred on the player.
 ]]--
-function Recipe.OnCanPerform.Hydrocraft.PlayerIsNearWater(recipe, player, item)
+function HCRecipe.OnCanPerform.Hydrocraft.PlayerIsNearWater(recipe, player, item)
 	if item and item:getFullType() ~= "Hydrocraft.HCBinoculars" then
 		return true	
 	end

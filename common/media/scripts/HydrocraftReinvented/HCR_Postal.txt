@@ -184,6 +184,7 @@ module Hydrocraft
 
 		MaxRange			=	0.9,
 		WeaponSprite			=	Hydrocraft.HCBoxcutter,
+		WorldStaticModel	=	HCBoxcutter,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,

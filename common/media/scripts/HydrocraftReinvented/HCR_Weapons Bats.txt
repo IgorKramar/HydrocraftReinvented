@@ -591,6 +591,7 @@ module Hydrocraft
 
 		MaxRange	=	1.5,
 		WeaponSprite	=	HCHomemadebattrimmer,
+		WorldStaticModel	=	HCHomemadebattrimmer,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,

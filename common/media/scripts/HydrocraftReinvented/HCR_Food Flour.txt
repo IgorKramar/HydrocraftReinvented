@@ -684,7 +684,7 @@ module Hydrocraft
     craftRecipe Feed The Birds
     {
         time = 100,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Hunting,
         timedAction = Making,
         OnCreate = HCR42.HCFeedTheBirds,

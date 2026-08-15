@@ -1,0 +1,53 @@
+module Hydrocraft
+{
+    imports { Base }
+
+/*
+    Модели оружия для B42.
+
+    В B41 предмет показывался в руках по полю WeaponSprite. В B42 нужен меш,
+    подключённый блоком model, и ссылка на него из предмета (WorldStaticModel).
+    Без этого предмет невидим в руках и не проигрывает замах.
+
+    Здесь собраны те предметы, у которых в моде есть и меш (models_X/weapons),
+    и текстура. Остальному оружию меша не поставлялось: в B41 оно ссылалось
+    на ванильные спрайты. Подобрать им ванильные модели B42 помогает
+    tools/weapon_models.py — его нужно запускать при установленной игре.
+*/
+
+    model HCBoxcutter
+    {
+        mesh = weapons/HCBoxcutter,
+        texture = weapons/HCBoxcutter,
+    }
+    model HCCrossbow
+    {
+        mesh = weapons/HCCrossbow,
+        texture = weapons/HCCrossbow,
+    }
+    model HCHomemadebattrimmer
+    {
+        mesh = weapons/HCHomemadebattrimmer,
+        texture = weapons/HCHomemadebattrimmer,
+    }
+    model HCLongbow
+    {
+        mesh = weapons/HCLongbow,
+        texture = weapons/HCLongbow,
+    }
+    model HCQuarterstaffBarbedWire
+    {
+        mesh = weapons/HCQuarterstaffBarbedWire,
+        texture = weapons/HCQuarterstaffBarbedWire,
+    }
+    model HCQuarterstaffGrip
+    {
+        mesh = weapons/HCQuarterstaffGrip,
+        texture = weapons/HCQuarterstaffGrip,
+    }
+    model HCUzi
+    {
+        mesh = weapons/HCUzi,
+        texture = weapons/HCUzi,
+    }
+}

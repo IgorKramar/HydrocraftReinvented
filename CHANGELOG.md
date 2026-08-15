@@ -6,6 +6,30 @@
 
 ## Русский
 
+### v1.5.9 — 2026-08-15
+
+**Оружие, рукавицы и птицы — по репортам Asteraaaaaki и kaio.mafra:**
+- **Невидимое оружие в руках** (репорт Asteraaaaaki про биту с гаечным ключом
+  в мультиплеере): в B41 предмет показывался по полю `WeaponSprite`, в B42
+  нужен меш, подключённый блоком `model`, и ссылка `WorldStaticModel`. Из 187
+  предметов мода на старом механизме сидели все. Семь предметов, у которых
+  в моде есть и меш, и текстура, подключены полностью: арбалет, длинный лук,
+  узи, канцелярский нож, шест с колючей проволокой, шест с обмоткой,
+  самодельная бита с триммером. Остальным 180 меш никогда не поставлялся —
+  они ссылались на ванильные спрайты B41 (`Knife`, `Shovel`, `Plank`).
+  Для них добавлен инструмент `tools/weapon_models.py`: при установленной игре
+  он сверяет имена с ванильными моделями B42 и печатает готовые строки.
+- **Кухонные рукавицы** (репорт kaio.mafra): в описании одежды модель была
+  записана как `HC_OvenMitts.FBX`, а файл называется `.fbx` — на linux-сервере
+  это отсутствующий файл. Убраны и маски от шляпы, случайно скопированные
+  в описание перчаток. Поток ошибок при взятии рукавиц воспроизвести без игры
+  не удалось: если он останется, нужен текст ошибки.
+- **«Покормить птиц»** (репорт kaio.mafra): рецепт требовал рабочую
+  поверхность, а птиц кормят на улице, где поверхности нет. Получался тупик —
+  в помещении пункт виден, но lua отказывается («нет птиц в помещении»),
+  на улице пункта нет вовсе. Добавлен `CanBeDoneFromFloor`: теперь рецепт
+  доступен на земле под открытым небом.
+
 ### v1.5.8 — 2026-08-15
 
 **Ошибки загрузки и статы — спасибо Crossfit Jesus и Haase за отчёты:**
@@ -166,6 +190,30 @@
 ---
 
 ## English
+
+### v1.5.9 — 2026-08-15
+
+**Weapons, mitts and birds — from reports by Asteraaaaaki and kaio.mafra:**
+- **Weapons invisible in hand** (Asteraaaaaki's report about the wrench bat in
+  multiplayer): B41 displayed items via `WeaponSprite`; B42 needs a mesh wired
+  through a `model` block plus a `WorldStaticModel` reference. All 187 weapon
+  items were still on the old mechanism. Seven items that ship both a mesh and
+  a texture are now fully wired: crossbow, longbow, uzi, box cutter, barbed-wire
+  quarterstaff, gripped quarterstaff, homemade trimmer bat. The other 180 never
+  shipped a mesh — they pointed at B41 vanilla sprites (`Knife`, `Shovel`,
+  `Plank`). For those there is now `tools/weapon_models.py`: with the game
+  installed it matches the names against vanilla B42 models and prints
+  ready-to-paste lines.
+- **Oven mitts** (kaio.mafra): the clothing definition spelled the model
+  `HC_OvenMitts.FBX` while the file is `.fbx` — a missing file on a Linux
+  server. The hat masks accidentally copied into a glove definition are gone
+  too. The error spam on picking them up could not be reproduced without the
+  game: if it persists, the error text would help.
+- **"Feed the Birds"** (kaio.mafra): the recipe required a crafting surface,
+  but birds are fed outdoors where there is none. A catch-22 — indoors the
+  option shows and the Lua refuses ("there are no birds indoors"), outdoors the
+  option never appears. Added `CanBeDoneFromFloor`: the recipe now works on the
+  ground outside.
 
 ### v1.5.8 — 2026-08-15
 

@@ -56,8 +56,8 @@ player:getBodyDamage():setUnhappynessLevel(player:getBodyDamage():getUnhappyness
 
 Тот же класс поломки, что чинили в v1.5.6, но той волной не пойманный: тогда
 переводили вызовы `player:getStats()` на `CharacterStat`, а эти два сидят
-на `getBodyDamage()`. Ломает все рецепты «поиграть с игрушкой» —
-`HC_ToyStatModifier` упоминается в 9 файлах скриптов.
+на `getBodyDamage()`. Ломает все рецепты «поиграть с игрушкой»: на `HCR42.HC_ToyStatModifier`
+завязано **127 рецептов** в 9 файлах скриптов.
 
 **Чинится**: перевести на актуальный API скуки и уныния; точное имя стата
 сверить с движком, шаблон — как в `RockHCExtra.lua:90`.

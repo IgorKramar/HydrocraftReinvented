@@ -178,15 +178,6 @@ module Hydrocraft
 	UseWhileEquipped    		=    	FALSE,
 		DisplayCategory	= CraftMetal,
     }
-    item HCWeldingsetempty
-    {
-
-        Weight    		= 6.5,
-        ItemType    		= base:normal,
-        DisplayName         	= Welding Torch and Empty Gas Tank,
-        icon 			= HCWeldingsetempty,
-		DisplayCategory	= CraftMetal,
-    }
     item HCBackscratcher
     {
 

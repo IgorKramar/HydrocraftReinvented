@@ -1118,25 +1118,6 @@ module Hydrocraft
         icon        		= HCPottedcolewort,
 		DisplayCategory			=   SurFarm,
     }
-    item HCPottedrubbertree
-    {
-
-        Weight      		= 25,
-    	ItemType        		= base:normal,
-	UseWhileEquipped	= FALSE,
-        DisplayName 		= Potted Rubber Tree,
-        icon        		= HCPottedrubbertree,
-		DisplayCategory			=   SurFarm,
-    }
-    item HCSpirulinatank
-    {
-
-	Weight			=	6,
-	ItemType			=	base:normal,
-	DisplayName		=	Fish Tank with Spirulina,
-	Icon			=	HCSpirulinatank,
-		DisplayCategory			=   SurFarm,
-    }
     item HCPottedbasil
     {
 

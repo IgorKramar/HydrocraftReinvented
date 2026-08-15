@@ -97,22 +97,6 @@ module Hydrocraft
 	Icon				=	HCPlasticcanmethanol,
 		DisplayCategory		=   CraftChem,
     }
-    item HCPlasticcanmilk
-    {
-
-	Weight				=	2.5,
-	ItemType			        =	base:food,
-	DisplayName			=	Plastic Can With UHTMilk,
-	ThirstChange 			=	-125,
-	HungerChange 			= 	-12.5,
-	DaysTotallyRotten		=	500,
-	DaysFresh 			=	250,
-	ReplaceOnUse		        =	HCPlasticcanempty,
-	ReplaceOnDeplete	        =	HCPlasticcanempty,
-
-	Icon				=	HCPlasticcanmilk,
-		DisplayCategory		=   FoodP,
-    }
     item HCPlasticcanmuriaticacid
     {
 

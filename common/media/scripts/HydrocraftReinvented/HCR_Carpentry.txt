@@ -350,15 +350,6 @@ module Hydrocraft
         icon            = HCLogbox,
 		DisplayCategory	= CraftCarp,
     }
-    item HCWoodwheel
-    {
-
-        Weight          = 1.0,
-        ItemType            = base:normal,
-        DisplayName     = Wooden Wheel,
-        icon            = HCWoodwheel,
-		DisplayCategory	= CraftCarp,
-    }
     item HCWoodenwheelbarrow
     {
 

@@ -23,6 +23,7 @@
 | [docs/RELEASING.md](docs/RELEASING.md) | чек-лист выпуска |
 | [docs/FEEDBACK.md](docs/FEEDBACK.md) | разбор обратной связи из Мастерской, открытые баги с диагнозом |
 | [ROADMAP.md](ROADMAP.md) / [docs/VISION.md](docs/VISION.md) | ближние выпуски / дальний замысел |
+| [docs/ICON_PROMPTS.md](docs/ICON_PROMPTS.md) | недостающие иконки: стиль мода в цифрах и промпты для генерации |
 | [tools/README.md](tools/README.md) | инструменты аудита |
 
 ## Команды

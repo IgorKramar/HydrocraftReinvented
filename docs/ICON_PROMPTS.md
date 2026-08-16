@@ -1,0 +1,183 @@
+# Промпты для недостающих иконок
+
+*Четырнадцать иконок, которых в моде нет, а предметы есть. Промпты написаны
+по замерам существующих файлов, а не на глаз: размеры, число цветов, контур
+и проекция взяты из самих ассетов. Текст промптов — по-английски, генераторы
+на нём работают заметно точнее.*
+
+*Актуальный список пробелов всегда можно пересобрать:
+`python3 tools/make_icon.py audit`*
+
+---
+
+## Два стиля, не один
+
+В моде два разных вида ассетов, и путать их нельзя.
+
+| | **A. Ручные предметы** | **B. Объекты мира** |
+|---|---|---|
+| Размер | 32×32 | 176×149 (стол), 200×320 (растения) |
+| Цветов в файле | медиана 19 | 3 000–6 400 |
+| Вид | три четверти, предмет по диагонали | изометрия PZ (дважды шире, чем выше) |
+| Контур | жёсткий, чаще всего чистый чёрный `#000000` | тёмная кромка силуэта, внутри мягкие переходы |
+| Сглаживание | нет | есть |
+| Фон | прозрачный | прозрачный |
+
+Частые цвета мода: `#000000`, `#ffffff`, `#3a2c2c`, `#4a302b`, `#3a3f3a`,
+`#5b5a5a`, `#c3c3c3`, `#efe4b0`. Дерево — тёплое коричневое (`#4a302b`),
+металл — холодный серый (`#5b5a5a` … `#c3c3c3`).
+
+## Как пользоваться
+
+1. Если у иконки указан **референс** — генерируйте через img2img от него,
+   сила преобразования 0.35–0.5. Так сохраняются пропорции, угол и палитра;
+   text-to-image по такому узкому стилю почти всегда промахивается.
+2. Готовый файл прогнать через палитру мода (только для группы A —
+   у объектов мира палитра широкая, приводить её не нужно):
+   `python3 tools/make_icon.py palette --input новое.png --out Item_HCXxx.png`
+3. Положить в `common/media/textures/` под именем `Item_<значение поля Icon>.png`
+   и проверить: `python3 tools/make_icon.py audit`.
+
+---
+
+## A. Ручные предметы, 32×32
+
+**Общий хвост промпта** (добавлять к каждому):
+
+> 32x32 pixel art game icon, transparent background, single object centered,
+> three-quarter view tilted diagonally, hard 1px pure black `#000000` outline,
+> flat limited palette of about 15–20 colors, crisp pixels with no
+> anti-aliasing, no gradients, no drop shadow, no text, no border, no frame,
+> 1990s survival game inventory sprite
+
+**Общий негативный промпт:**
+
+> blurry, anti-aliased, smooth gradients, glow, drop shadow, text, watermark,
+> border, frame, multiple objects, photorealistic, 3d render, isometric
+
+### `Item_HCBaton.png` — полицейская дубинка
+
+Предмет `HCBaton` («Police Baton»), встречается в полицейском луте.
+Референса в моде нет; ближе всего по духу — рукояти инструментов
+(`Item_HCAxehandle.png`).
+
+> A black police baton (nightstick) with a short side handle, matte black
+> rubber grip with subtle ribbing, slightly worn tip, lying diagonally from
+> lower-left to upper-right
+
+### `Item_HCPickaxe.png` — кирка
+
+Предмет `HCPickaxe`, в двух списках лута. Стилевой референс —
+`Item_HCSmithyhammersteel.png`: там ровно то сочетание, что нужно, —
+деревянная рукоять `#4a302b` и стальная голова `#8d8d8d`/`#212121`.
+
+> A pickaxe with a straight wooden handle and a double-pointed steel head,
+> one end tapered to a point and the other flattened into a chisel, light
+> rust speckles on the metal, diagonal composition with the head at the top
+
+### `Item_HCDeskbell.png` — звонок на стойке
+
+Предмет `HCDeskbell` из гостиничного лута.
+
+> A brass hotel desk bell: rounded dome on a flat round base with a small
+> pressable button on top, warm brass yellows `#bc9d33` and `#937c26`, one
+> bright specular highlight on the dome, seen slightly from above
+
+### `Item_HCCandybarzedtrash.png` — обёртка от батончика
+
+Предмет `HCCandybar4trash` («Candy Bar Wrapper»).
+**Референсы обязательны:** `Item_HCCandybarzed.png` — цвета и рисунок
+самой обёртки, `Item_HCCandybarcoconuttrash.png` — как в этом моде выглядит
+скомканная обёртка. Задача сводится к «возьми смятую форму первого
+и раскрась цветами второго».
+
+> A crumpled empty candy bar wrapper, torn open at one end, foil interior
+> catching a little light, keep the original wrapper's colors and lettering
+> blocks unreadable at this size
+
+---
+
+## B. Объекты мира
+
+**Общий хвост промпта:**
+
+> isometric game sprite for Project Zomboid, dimetric projection (2:1),
+> transparent background, soft shading with visible pixel structure, muted
+> desaturated palette, no outline glow, no text, no background scenery,
+> lighting from the upper left
+
+**Общий негативный промпт:**
+
+> cartoon, cel shading, thick black outline, bright saturated colors, text,
+> watermark, background, ground shadow, multiple objects, front view,
+> perspective view
+
+### Стол для вскрытия, 176×149
+
+Референс для обоих: `Item_HCDissectiontable.png` (пустой стол) и
+`Item_HCDissectiontabledissected.png` (вскрытое тело) — между ними и нужно
+попасть.
+
+**`Item_HCDissectiontablebody.png`** — «Dissection Table with Corpse»:
+
+> The same stainless steel dissection table, now with an intact pale corpse
+> lying on it under a partial sheet, body untouched and unopened, the lower
+> shelf still holding its tray, sandbag and blue bucket
+
+**`Item_HCDissectiontablebloody.png`** — «Bloody Dissection Table»:
+
+> The same stainless steel dissection table, empty but smeared with dried
+> blood: dark red streaks and pooled stains on the tabletop and a few drips
+> down the near edge, nothing lying on it
+
+### Горшечные растения, 200×320
+
+Все восемь — один и тот же деревянный ящик-кашпо с металлическими уголками
+и тёмной землёй, меняется только растение. **Референс для каждого — базовый
+вариант того же растения**, он в моде есть; менять нужно только листву
+и плоды.
+
+«Созревший» (`ready`) в этом моде означает пик плодоношения: плодов заметно
+больше, чем в базовом варианте, листва густая и сочная.
+
+| Файл | Референс | Что меняем |
+|---|---|---|
+| `Item_HCPottedtomatoready.png` | `Item_HCPottedtomato.png` | больше спелых красных черри, гроздьями, листва тёмно-зелёная |
+| `Item_HCPottedpotatoready.png` | `Item_HCPottedpotato.png` | пышная ботва, у основания видны выступившие из земли красные клубни |
+| `Item_HCPottedradishready.png` | `Item_HCPottedradish.png` | розово-красные плечики редиса торчат из земли, ботва высокая |
+| `Item_HCPottedCabbageredready.png` | `Item_HCPottedCabbagered.png` | плотный фиолетово-красный кочан в центре, внешние листья отогнуты |
+| `Item_HCPottedCabbagewhiteready.png` | `Item_HCPottedCabbagewhite.png` | плотный бледно-зелёный кочан, внешние листья отогнуты |
+| `Item_HCPottedorangetreeready.png` | `Item_HCPottedorangetree.png` | много спелых оранжевых плодов по всей кроне |
+
+Промпт для «созревшего» (подставить культуру):
+
+> A potted <культура> plant at peak harvest in the same wooden planter box
+> with metal corner brackets and dark soil, noticeably more ripe fruit than
+> the reference, lush healthy foliage, same planter, same angle, same scale
+
+Два оставшихся — увядание, а не созревание:
+
+**`Item_HCPottedorangetreedead.png`**, референс `Item_HCPottedorangetree.png`:
+
+> The same potted orange tree, now dead: bare grey-brown branches, no fruit,
+> a few shrivelled brown leaves clinging on, dry cracked soil, planter
+> unchanged
+
+**`Item_HCPottedpeaplantsmalldry.png`**, референс `Item_HCPottedpeaplantsmall.png`
+(там же рядом есть `Item_HCPottedpeaplantsmalldead.png` — целиться нужно
+между базовым и им):
+
+> The same small potted pea seedling, now dry and wilting: leaves drooping
+> and yellowing at the edges, stems limp but still standing, soil pale and
+> cracked, planter unchanged
+
+---
+
+## Проверка результата
+
+- размер файла совпадает с референсом до пикселя;
+- фон прозрачный, полупрозрачных пикселей по краю нет (генераторы любят
+  оставлять кайму — обрежьте её);
+- имя файла = `Item_` + значение поля `Icon` у предмета, регистр важен
+  на linux-серверах;
+- `python3 tools/make_icon.py audit` больше не показывает эту иконку.

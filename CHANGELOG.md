@@ -17,8 +17,9 @@
   разошёлся регистр, где-то опечатка в имени файла (`HCPlasticspoonkbox`),
   где-то лишняя буква. Файлы всё это время лежали на месте. Найдено тем же
   аудитом.
-- **Полицейская дубинка и кирка получили иконки** — первые из четырнадцати
-  недостающих. Промпты для остальных собраны в `docs/ICON_PROMPTS.md`.
+- **Четыре предмета получили новые иконки**: полицейская дубинка, кирка,
+  звонок на стойке и обёртка от батончика — вместо пустых квадратов.
+  Осталось десять Промпты для остальных собраны в `docs/ICON_PROMPTS.md`.
 - Инструмент `tools/make_icon.py` для иконок новых предметов: перекраска
   в другой материал по палитрам, снятым с самого мода (деревянные рукояти
   при этом остаются деревянными), сборка «предмет в коробке», приведение
@@ -235,8 +236,8 @@
 - **Five more items had broken icon references**: a case mismatch, a typo in
   the filename (`HCPlasticspoonkbox`), a stray letter. The files were there
   all along. Found by the same audit.
-- **The police baton and the pickaxe have icons again** — the first two of
-  fourteen missing ones.
+- **Four items got new icons**: police baton, pickaxe, desk bell and candy bar
+  wrapper, instead of blank squares. Ten to go
   Prompts for the rest live in `docs/ICON_PROMPTS.md`.
 - A `tools/make_icon.py` helper for new item icons: recolouring into another
   material using palettes lifted from the mod itself (wooden handles stay

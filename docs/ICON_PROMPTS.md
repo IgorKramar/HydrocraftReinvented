@@ -100,7 +100,7 @@ python3 tools/make_icon.py import --input сгенерированное.png \
 превращается в серое пятно, а симметричная «рогатая» голова узнаётся сразу.
 Принято без обводки и без поля, 31 цвет.
 
-### `Item_HCDeskbell.png` — звонок на стойке
+### `Item_HCDeskbell.png` — звонок на стойке ✅ сделано в v1.5.11
 
 Предмет `HCDeskbell` из гостиничного лута.
 
@@ -108,7 +108,7 @@ python3 tools/make_icon.py import --input сгенерированное.png \
 > pressable button on top, warm brass yellows `#bc9d33` and `#937c26`, one
 > bright specular highlight on the dome, seen slightly from above
 
-### `Item_HCCandybarzedtrash.png` — обёртка от батончика
+### `Item_HCCandybarzedtrash.png` — обёртка от батончика ✅ сделано в v1.5.11
 
 Предмет `HCCandybar4trash` («Candy Bar Wrapper»).
 **Референсы обязательны:** `Item_HCCandybarzed.png` — цвета и рисунок
@@ -119,6 +119,13 @@ python3 tools/make_icon.py import --input сгенерированное.png \
 > A crumpled empty candy bar wrapper, torn open at one end, foil interior
 > catching a little light, keep the original wrapper's colors and lettering
 > blocks unreadable at this size
+
+**Урок на будущее.** В первом заходе я написал в промпте «dark brown and red
+wrapper colors», не посмотрев на сам батончик, — а `Item_HCCandybarzed.png`
+зелёно-оливковый. Пришлось сдвигать оттенок скриптом уже после генерации:
+насыщенные пиксели переведены на оттенок 63° (среднее по цветам батончика),
+фольга и контур не тронуты. **Перед тем как писать про цвета — снимите их
+с родственного предмета**, это две строки на Pillow.
 
 ---
 

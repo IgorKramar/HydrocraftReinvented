@@ -248,29 +248,47 @@ def cmd_import(a):
     # 3b. выравнивание по существующему состоянию того же объекта.
     #     У горшечных растений и мебели важно, чтобы кашпо (или стол) стояло
     #     там же и было того же размера, иначе при смене состояния предмет
-    #     дёргается. Считаем самую широкую непрозрачную строку — это и есть
-    #     основание, — и подгоняем масштаб и нижний край под референс.
-    if a.align_to:
-        ref = load(a.align_to)
-        def base_metrics(img):
+    #     дёргается.
+    if a.align_to or a.planter_from:
+        ref = load(a.align_to or a.planter_from)
+
+        def base_geom(img):
+            """Ширина основания, строка верхней кромки и низ содержимого.
+
+            Мерить надо не самую широкую строку вообще — у пышного растения
+            это листва, — а самую широкую в нижней части: там кашпо.
+            """
             p_ = pixels(img); w_, h_ = img.size
-            rows = [(sum(1 for x in range(w_) if p_[y * w_ + x][3] > 0), y) for y in range(h_)]
-            rows = [r for r in rows if r[0] > 0]
+            ws = [sum(1 for x in range(w_) if p_[y * w_ + x][3] > 0) for y in range(h_)]
+            rows = [y for y, v in enumerate(ws) if v > 0]
             if not rows: sys.exit("пустая картинка при выравнивании")
-            widest = max(rows)[0]
-            bottom = max(y for _, y in rows)
-            return widest, bottom
-        rw, rb = base_metrics(ref)
-        cw_, cb_ = base_metrics(im)
+            bottom = max(rows)
+            lo = bottom - max(8, round((bottom - min(rows)) * 0.35))
+            rim_w, rim_y = max((ws[y], y) for y in range(lo, bottom + 1))
+            return rim_w, rim_y, bottom
+
+        rw, r_rim, rb = base_geom(ref)
+        cw_, _, _ = base_geom(im)
         k = rw / max(cw_, 1)
         im = im.resize((max(1, round(im.width * k)), max(1, round(im.height * k))), Image.BOX)
+        _, c_rim2, cb2 = base_geom(im)
         canvas = Image.new("RGBA", ref.size, (0, 0, 0, 0))
-        # низ основания совмещаем с референсным
-        _, cb2 = base_metrics(im)
         canvas.alpha_composite(im, ((ref.width - im.width) // 2, rb - cb2))
         res = canvas
-        print(f"выравнивание по {a.align_to}: масштаб {k:.3f}, "
-              f"ширина основания {cw_} -> {rw}")
+        print(f"выравнивание по {a.align_to or a.planter_from}: масштаб {k:.3f}, "
+              f"основание {cw_} -> {rw}")
+
+        # Кашпо (или тумба) во всех состояниях одно и то же — берём его
+        # из референса целиком: так совпадут и размер, и цвет досок, которые
+        # генератор всё равно рисует по-своему. Сверху кромки — новое
+        # содержимое, ниже — референсное основание.
+        if a.planter_from:
+            rp, np_ = pixels(ref), pixels(res)
+            w_ = ref.width
+            merged = [rp[i] if i // w_ >= r_rim else np_[i] for i in range(len(rp))]
+            res = Image.new("RGBA", ref.size); res.putdata(merged)
+            print(f"основание взято из {a.planter_from} (строки от {r_rim})")
+
         save(res, a.out)
         return
 
@@ -447,6 +465,8 @@ def main():
     i.add_argument("--margin", type=int, default=0)
     i.add_argument("--stretch-v", dest="stretch_v", type=float, default=1.0,
                    help="растянуть по вертикали до подгонки (кашпо часто выходит низким)")
+    i.add_argument("--planter-from", dest="planter_from",
+                   help="взять нижнюю часть (кашпо, тумбу) из существующего состояния")
     i.add_argument("--align-to", dest="align_to",
                    help="подогнать масштаб и посадку под существующее состояние "
                         "(например Item_HCPottedtomato.png)")

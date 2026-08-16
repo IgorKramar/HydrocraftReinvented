@@ -245,49 +245,80 @@ def cmd_import(a):
         im = im.resize((im.width, max(1, round(im.height * a.stretch_v))), Image.BOX)
         print(f"растяжка по вертикали ×{a.stretch_v}")
 
-    # 3b. выравнивание по существующему состоянию того же объекта.
-    #     У горшечных растений и мебели важно, чтобы кашпо (или стол) стояло
-    #     там же и было того же размера, иначе при смене состояния предмет
-    #     дёргается.
+    # 3b. подгонка кашпо под существующее состояние того же объекта.
+    #     Склеивать половинки нельзя: самая широкая строка у изометрического
+    #     ящика находится ВНИЗУ, и горизонтальный разрез рассекает ящик
+    #     пополам — верх остаётся генераторским, получается ступенька и два
+    #     разных дерева. Поэтому ящик не режется, а подгоняется: габариты
+    #     по деревянной части, цвет досок — из референса.
     if a.align_to or a.planter_from:
         ref = load(a.align_to or a.planter_from)
 
-        def base_geom(img):
-            """Ширина основания, строка верхней кромки и низ содержимого.
+        def wood_mask(img):
+            """Пиксели дерева: тёплые и достаточно насыщенные."""
+            out = []
+            for c in pixels(img):
+                warm = c[3] > 0 and c[0] > c[2] + 18 and (max(c[:3]) - min(c[:3])) > 25
+                out.append(warm)
+            return out
 
-            Мерить надо не самую широкую строку вообще — у пышного растения
-            это листва, — а самую широкую в нижней части: там кашпо.
-            """
-            p_ = pixels(img); w_, h_ = img.size
-            ws = [sum(1 for x in range(w_) if p_[y * w_ + x][3] > 0) for y in range(h_)]
-            rows = [y for y, v in enumerate(ws) if v > 0]
-            if not rows: sys.exit("пустая картинка при выравнивании")
-            bottom = max(rows)
-            lo = bottom - max(8, round((bottom - min(rows)) * 0.35))
-            rim_w, rim_y = max((ws[y], y) for y in range(lo, bottom + 1))
-            return rim_w, rim_y, bottom
+        def wood_box(img):
+            m = wood_mask(img); w_, h_ = img.size
+            xs = [i % w_ for i, v in enumerate(m) if v]
+            ys = [i // w_ for i, v in enumerate(m) if v]
+            if not xs: sys.exit("не нашёл деревянных пикселей — кашпо не опознано")
+            return min(xs), min(ys), max(xs), max(ys)
 
-        rw, r_rim, rb = base_geom(ref)
-        cw_, _, _ = base_geom(im)
-        k = rw / max(cw_, 1)
-        im = im.resize((max(1, round(im.width * k)), max(1, round(im.height * k))), Image.BOX)
-        _, c_rim2, cb2 = base_geom(im)
+        rx0, ry0, rx1, ry1 = wood_box(ref)
+        cx0, cy0, cx1, cy1 = wood_box(im)
+        kx = (rx1 - rx0 + 1) / max(cx1 - cx0 + 1, 1)
+        ky = (ry1 - ry0 + 1) / max(cy1 - cy0 + 1, 1)
+        im = im.resize((max(1, round(im.width * kx)), max(1, round(im.height * ky))), Image.BOX)
+        nx0, ny0, nx1, ny1 = wood_box(im)
         canvas = Image.new("RGBA", ref.size, (0, 0, 0, 0))
-        canvas.alpha_composite(im, ((ref.width - im.width) // 2, rb - cb2))
+        canvas.alpha_composite(im, (rx0 - nx0, ry0 - ny0))
         res = canvas
-        print(f"выравнивание по {a.align_to or a.planter_from}: масштаб {k:.3f}, "
-              f"основание {cw_} -> {rw}")
+        print(f"кашпо подогнано по {a.align_to or a.planter_from}: "
+              f"масштаб {kx:.3f}×{ky:.3f}, габариты дерева "
+              f"{cx1-cx0+1}×{cy1-cy0+1} -> {rx1-rx0+1}×{ry1-ry0+1}")
 
-        # Кашпо (или тумба) во всех состояниях одно и то же — берём его
-        # из референса целиком: так совпадут и размер, и цвет досок, которые
-        # генератор всё равно рисует по-своему. Сверху кромки — новое
-        # содержимое, ниже — референсное основание.
+        # Цвет досок. Раскладывать по крайним тонам оказалось плохо —
+        # доски уходили в темноту. Переносим статистику: средний тон
+        # и разброс по каждому каналу приводим к референсным, текстура
+        # при этом сохраняется.
         if a.planter_from:
-            rp, np_ = pixels(ref), pixels(res)
-            w_ = ref.width
-            merged = [rp[i] if i // w_ >= r_rim else np_[i] for i in range(len(rp))]
-            res = Image.new("RGBA", ref.size); res.putdata(merged)
-            print(f"основание взято из {a.planter_from} (строки от {r_rim})")
+            rp, rmask = pixels(ref), wood_mask(ref)
+            cur, cmask = pixels(res), wood_mask(res)
+            # Считаем цвет только по стенкам: в верхней части кадра тоже
+            # есть тёплое и насыщенное — бамбуковые колышки у помидора,
+            # земля, — и статистика от них уезжает в жёлтый.
+            def walls(img, mask):
+                w_, h_ = img.size
+                rows = [i // w_ for i, v in enumerate(mask) if v]
+                bot = max(rows); top = min(rows)
+                lo = bot - max(6, round((bot - top) * 0.35))
+                return [c[:3] for i, c in enumerate(pixels(img))
+                        if mask[i] and lo <= i // w_ <= bot]
+            ref_w = walls(ref, rmask)
+            cur_w = walls(res, cmask)
+            if len(ref_w) > 50 and len(cur_w) > 50:
+                def stats(px_):
+                    n = len(px_)
+                    mean = [sum(c[k] for c in px_) / n for k in range(3)]
+                    var = [sum((c[k] - mean[k]) ** 2 for c in px_) / n for k in range(3)]
+                    return mean, [max(v ** 0.5, 1e-3) for v in var]
+                rm, rs = stats(ref_w)
+                cm, cs = stats(cur_w)
+                out = []
+                for i, c in enumerate(cur):
+                    if not cmask[i]:
+                        out.append(c); continue
+                    v = tuple(min(255, max(0, round((c[k] - cm[k]) * (rs[k] / cs[k]) + rm[k])))
+                              for k in range(3))
+                    out.append((*v, c[3]))
+                res = Image.new("RGBA", res.size); res.putdata(out)
+                print("доски приведены к цвету референса: "
+                      f"средний тон {tuple(round(x) for x in cm)} -> {tuple(round(x) for x in rm)}")
 
         save(res, a.out)
         return

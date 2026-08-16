@@ -435,6 +435,7 @@ module Hydrocraft
 
         MaxRange                    =   2,
         WeaponSprite                =   Hydrocraft.HCQuarterstaffGrip,
+        WorldStaticModel	=	HCQuarterstaffGrip,
         MinAngle                    =   0.2,
         ItemType                        =   base:weapon,
         MinimumSwingTime            =   1.7,
@@ -472,6 +473,7 @@ module Hydrocraft
 
         MaxRange                    =   2,
         WeaponSprite                =   Hydrocraft.HCQuarterstaffBarbedWire,
+        WorldStaticModel	=	HCQuarterstaffBarbedWire,
         MinAngle                    =   0.2,
         ItemType                        =   base:weapon,
         MinimumSwingTime            =   1.5,

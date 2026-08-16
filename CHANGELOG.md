@@ -6,6 +6,18 @@
 
 ## Русский
 
+### v1.5.11 — 2026-08-16
+
+**Иконки:**
+- **Четыре предмета получили обратно свои иконки**: в поле `Icon` было
+  записано имя файла с расширением (`HCCloth.png` вместо `HCCloth`), и движок
+  такую иконку не находил — предметы висели пустыми квадратами. Нашлось
+  аудитом нового инструмента `tools/make_icon.py`.
+- Инструмент `tools/make_icon.py` для иконок новых предметов: перекраска
+  в другой материал по палитрам, снятым с самого мода (деревянные рукояти
+  при этом остаются деревянными), сборка «предмет в коробке», приведение
+  сторонней картинки к палитре мода и аудит ссылок на иконки.
+
 ### v1.5.10 — 2026-08-15
 
 **Предложения игроков — спасибо kaio.mafra за подробный список:**
@@ -206,6 +218,18 @@
 ---
 
 ## English
+
+### v1.5.11 — 2026-08-16
+
+**Icons:**
+- **Four items got their icons back**: the `Icon` field held a filename with
+  an extension (`HCCloth.png` instead of `HCCloth`), which the engine cannot
+  resolve — those items showed as blank squares. Found by the audit in the new
+  `tools/make_icon.py`.
+- A `tools/make_icon.py` helper for new item icons: recolouring into another
+  material using palettes lifted from the mod itself (wooden handles stay
+  wooden), composing "item in a box", snapping outside artwork to the mod's
+  palette, and auditing icon references.
 
 ### v1.5.10 — 2026-08-15
 

@@ -306,7 +306,7 @@ module Hydrocraft
         Weight    	    = 0.2,
         ItemType    	    = base:normal,
         DisplayName    	= Wool Cloth,
-        Icon    	    = HCWoolcloth.png,
+        Icon    	    = HCWoolcloth,
 		DisplayCategory	= CraftTailor,
     }
     item HCCloth
@@ -315,7 +315,7 @@ module Hydrocraft
         Weight    	    = 0.2,
         ItemType    	    = base:normal,
         DisplayName    	= Cloth,
-        Icon    	    = HCCloth.png,
+        Icon    	    = HCCloth,
 		DisplayCategory	= CraftTailor,
     }
     item HCSilkfiber
@@ -664,7 +664,7 @@ module Hydrocraft
         Weight          = 0.2,
         ItemType            = base:normal,
         DisplayName     = Clothespin,
-        icon            = HCClothespin.png,
+        icon            = HCClothespin,
 		DisplayCategory	= CraftTailor,
     }
     item HCClothespinbox
@@ -673,7 +673,7 @@ module Hydrocraft
         Weight          = 0.6,
         ItemType            = base:normal,
         DisplayName     = Box of Clothespins,
-        icon            = HCClothespinbox.png,
+        icon            = HCClothespinbox,
 		DisplayCategory	= CraftTailor,
     }
     item HCClotheslinefull

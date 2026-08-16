@@ -32,11 +32,26 @@
 1. Если у иконки указан **референс** — генерируйте через img2img от него,
    сила преобразования 0.35–0.5. Так сохраняются пропорции, угол и палитра;
    text-to-image по такому узкому стилю почти всегда промахивается.
-2. Готовый файл прогнать через палитру мода (только для группы A —
-   у объектов мира палитра широкая, приводить её не нужно):
-   `python3 tools/make_icon.py palette --input новое.png --out Item_HCXxx.png`
-3. Положить в `common/media/textures/` под именем `Item_<значение поля Icon>.png`
-   и проверить: `python3 tools/make_icon.py audit`.
+2. Генерируйте крупно (512–1024) и не мучайтесь с фоном: приёмка сама уберёт
+   фон, обрежет поля, ужмёт и подгонит палитру.
+
+```sh
+python3 tools/make_icon.py import --input сгенерированное.png \
+    --out Item_HCXxx.png              # группа A, 32×32
+python3 tools/make_icon.py import --input сгенерированное.png \
+    --out Item_HCXxx.png --size 176 --no-palette   # группа B, объекты мира
+```
+
+3. **Тёмным предметам** добавьте `--outline-fix --lighten 1.5`: чёрное на чёрном
+   контуре сливается в пятно, а у соседей по моду силуэт всегда отбит. Проверено
+   на дубинке — без этого читалась как палка, с этим встала в ряд с ключом
+   и молотом.
+4. Проверить: `python3 tools/make_icon.py audit` — иконка должна исчезнуть
+   из списка.
+
+Полезные флаги приёмки: `--bg #rrggbb` если фон определился неверно,
+`--bg-tol` для его допуска, `--margin` для воздуха по краям,
+`--filter nearest` если картинка уже пиксельная и нужного размера.
 
 ---
 
@@ -55,11 +70,14 @@
 > blurry, anti-aliased, smooth gradients, glow, drop shadow, text, watermark,
 > border, frame, multiple objects, photorealistic, 3d render, isometric
 
-### `Item_HCBaton.png` — полицейская дубинка
+### `Item_HCBaton.png` — полицейская дубинка ✅ сделано в v1.5.11
 
 Предмет `HCBaton` («Police Baton»), встречается в полицейском луте.
 Референса в моде нет; ближе всего по духу — рукояти инструментов
 (`Item_HCAxehandle.png`).
+
+Принято с параметрами `--outline-fix --lighten 1.5`: 19 цветов, ровно
+медиана мода. Промпт ниже сработал с первого раза.
 
 > A black police baton (nightstick) with a short side handle, matte black
 > rubber grip with subtle ribbing, slightly worn tip, lying diagonally from

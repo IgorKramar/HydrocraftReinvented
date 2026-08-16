@@ -171,6 +171,82 @@ def cmd_compose(a):
     save(base, a.out)
 
 
+# ---------- import ----------
+def cmd_import(a):
+    """Из большой картинки генератора — готовая иконка мода."""
+    im = Image.open(a.input).convert("RGBA")
+    px = pixels(im)
+    w, h = im.size
+
+    # 1. фон. Генераторы почти всегда отдают его непрозрачным и светлым.
+    if a.bg == "auto":
+        corners = [px[0], px[w - 1], px[(h - 1) * w], px[h * w - 1]]
+        bg = max(set(corners), key=corners.count)[:3]
+    elif a.bg == "keep":
+        bg = None
+    else:
+        bg = hex2rgb(a.bg)
+    if bg is not None:
+        tol = a.bg_tol
+        px = [(0, 0, 0, 0) if c[3] > 0 and all(abs(c[i] - bg[i]) <= tol for i in range(3)) else c
+              for c in px]
+        im = Image.new("RGBA", (w, h)); im.putdata(px)
+
+    # 2. обрезаем по содержимому — генератор любит оставлять поля
+    box = im.getbbox()
+    if box: im = im.crop(box)
+
+    # 3. дополняем до квадрата, чтобы пропорции не поехали
+    side = max(im.size) + 2 * a.margin
+    sq = Image.new("RGBA", (side, side), (0, 0, 0, 0))
+    sq.alpha_composite(im, ((side - im.width) // 2, (side - im.height) // 2))
+
+    # 4. уменьшение. BOX усредняет — при сжатии в полсотни раз это честнее
+    #    nearest, который просто выкидывает пиксели вместе с деталями.
+    small = sq.resize((a.size, a.size), Image.BOX if a.filter == "box" else Image.NEAREST)
+
+    # 5. полупрозрачную кайму убираем: в иконках мода её нет
+    out = [(c[0], c[1], c[2], 255) if c[3] >= a.alpha_cut else (0, 0, 0, 0)
+           for c in pixels(small)]
+    res = Image.new("RGBA", small.size); res.putdata(out)
+
+    # 6. тёмным предметам нужен явный контур: чёрное на чёрном сливается
+    #    в пятно, а у соседей по моду силуэт всегда отбит.
+    if a.outline_fix or a.lighten != 1.0:
+        w2, h2 = res.size
+        cur = pixels(res)
+        get = lambda x, y: cur[y * w2 + x] if 0 <= x < w2 and 0 <= y < h2 else (0, 0, 0, 0)
+        fixed = []
+        for y in range(h2):
+            for x in range(w2):
+                c = get(x, y)
+                if c[3] == 0:
+                    fixed.append((0, 0, 0, 0)); continue
+                edge = any(get(x + dx, y + dy)[3] == 0 for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)))
+                if edge and a.outline_fix:
+                    fixed.append((0, 0, 0, 255))
+                else:
+                    fixed.append((*[min(255, int(v * a.lighten)) for v in c[:3]], 255))
+        res = Image.new("RGBA", res.size); res.putdata(fixed)
+
+    # 7. палитра мода
+    if not a.no_palette:
+        pal = mod_palette(a.colors)
+        cache = {}
+        out = []
+        for c in pixels(res):
+            if c[3] == 0: out.append((0, 0, 0, 0)); continue
+            if c[:3] not in cache:
+                cache[c[:3]] = min(pal, key=lambda p_: sum((p_[i] - c[i]) ** 2 for i in range(3)))
+            out.append((*cache[c[:3]], 255))
+        res = Image.new("RGBA", res.size); res.putdata(out)
+
+    save(res, a.out)
+    op = [c for c in pixels(res) if c[3] > 0]
+    print(f"{im.size[0]}x{im.size[1]} -> {a.size}x{a.size}, непрозрачных пикселей {len(op)}, "
+          f"цветов {len({c[:3] for c in op})}")
+
+
 # ---------- palette ----------
 def mod_palette(limit=64):
     cols = Counter()
@@ -251,6 +327,21 @@ def main():
     p = sub.add_parser("palette"); p.set_defaults(fn=cmd_palette)
     p.add_argument("--input", required=True); p.add_argument("--out", required=True)
     p.add_argument("--colors", type=int, default=64)
+
+    i = sub.add_parser("import"); i.set_defaults(fn=cmd_import)
+    i.add_argument("--input", required=True); i.add_argument("--out", required=True)
+    i.add_argument("--size", type=int, default=32)
+    i.add_argument("--bg", default="auto", help="auto | keep | #rrggbb")
+    i.add_argument("--bg-tol", dest="bg_tol", type=int, default=18)
+    i.add_argument("--margin", type=int, default=0)
+    i.add_argument("--filter", default="box", choices=["box", "nearest"])
+    i.add_argument("--alpha-cut", dest="alpha_cut", type=int, default=128)
+    i.add_argument("--colors", type=int, default=64)
+    i.add_argument("--no-palette", dest="no_palette", action="store_true")
+    i.add_argument("--outline-fix", dest="outline_fix", action="store_true",
+                   help="обвести силуэт чёрным — нужно тёмным предметам")
+    i.add_argument("--lighten", type=float, default=1.0,
+                   help="осветлить тело предмета, чтобы контур читался (1.4-1.6 для чёрного)")
 
     a_ = sub.add_parser("audit"); a_.set_defaults(fn=cmd_audit)
 

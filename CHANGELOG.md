@@ -18,8 +18,8 @@
   где-то лишняя буква. Файлы всё это время лежали на месте. Найдено тем же
   аудитом.
 - **Четыре предмета получили новые иконки**: полицейская дубинка, кирка,
-  звонок на стойке и обёртка от батончика — вместо пустых квадратов.
-  Осталось десять Промпты для остальных собраны в `docs/ICON_PROMPTS.md`.
+  звонок на стойке и обёртка от батончика. Стол для вскрытия получил
+  недостающие состояния — с телом и в крови. Осталось восемь Промпты для остальных собраны в `docs/ICON_PROMPTS.md`.
 - Инструмент `tools/make_icon.py` для иконок новых предметов: перекраска
   в другой материал по палитрам, снятым с самого мода (деревянные рукояти
   при этом остаются деревянными), сборка «предмет в коробке», приведение
@@ -237,7 +237,8 @@
   the filename (`HCPlasticspoonkbox`), a stray letter. The files were there
   all along. Found by the same audit.
 - **Four items got new icons**: police baton, pickaxe, desk bell and candy bar
-  wrapper, instead of blank squares. Ten to go
+  wrapper. The dissection table got its missing states — with a corpse and
+  bloodied. Eight to go
   Prompts for the rest live in `docs/ICON_PROMPTS.md`.
 - A `tools/make_icon.py` helper for new item icons: recolouring into another
   material using palettes lifted from the mod itself (wooden handles stay

@@ -179,7 +179,39 @@ def cmd_import(a):
     w, h = im.size
 
     # 1. фон. Генераторы почти всегда отдают его непрозрачным и светлым.
-    if a.bg == "auto":
+    if a.bg == "flood":
+        # Заливка от углов с порогом «по соседу», а не «по цвету»: так
+        # снимается и фон, и мягкая тень на полу, но заливка встаёт на жёстком
+        # контуре предмета. Иначе тень не отделить — у стола для вскрытия она
+        # совпадает по яркости со сталью.
+        from collections import deque
+        def L(c): return 0.299 * c[0] + 0.587 * c[1] + 0.114 * c[2]
+        seen = bytearray(w * h)
+        q = deque()
+        for sx, sy in ((0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1)):
+            i = sy * w + sx
+            if not seen[i]:
+                seen[i] = 1; q.append((sx, sy))
+        while q:
+            x, y = q.popleft()
+            base = L(px[y * w + x][:3])
+            for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                nx, ny = x + dx, y + dy
+                if not (0 <= nx < w and 0 <= ny < h): continue
+                j = ny * w + nx
+                if seen[j]: continue
+                if abs(L(px[j][:3]) - base) <= a.flood_tol:
+                    seen[j] = 1; q.append((nx, ny))
+        # Заливка не дотягивается до «карманов» фона, замкнутых деталями
+        # (просветы между ножками и полками). Добиваем их по цвету затравки:
+        # фон у генераторов ровный, а сталь до него по яркости не достаёт.
+        seed = px[0][:3]
+        px = [(0, 0, 0, 0) if (seen[i] or (c[3] > 0 and
+              all(abs(c[k] - seed[k]) <= a.flood_tol for k in range(3))))
+              else c for i, c in enumerate(px)]
+        im = Image.new("RGBA", (w, h)); im.putdata(px)
+        bg = None
+    elif a.bg == "auto":
         corners = [px[0], px[w - 1], px[(h - 1) * w], px[h * w - 1]]
         bg = max(set(corners), key=corners.count)[:3]
     elif a.bg == "keep":
@@ -218,6 +250,32 @@ def cmd_import(a):
     out = [(c[0], c[1], c[2], 255) if c[3] >= a.alpha_cut else (0, 0, 0, 0)
            for c in pixels(small)]
     res = Image.new("RGBA", small.size); res.putdata(out)
+
+    # 5b. мусор от заливки: одиночные пиксели, оставшиеся от фона.
+    if a.despeckle > 0:
+        from collections import deque
+        w3, h3 = res.size
+        cur = pixels(res)
+        seen = bytearray(w3 * h3)
+        drop = []
+        for i0 in range(w3 * h3):
+            if seen[i0] or cur[i0][3] == 0: continue
+            comp, q = [], deque([i0]); seen[i0] = 1
+            while q:
+                i = q.popleft(); comp.append(i)
+                x, y = i % w3, i // w3
+                for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                    nx, ny = x + dx, y + dy
+                    if not (0 <= nx < w3 and 0 <= ny < h3): continue
+                    j = ny * w3 + nx
+                    if not seen[j] and cur[j][3] > 0:
+                        seen[j] = 1; q.append(j)
+            if len(comp) <= a.despeckle:
+                drop += comp
+        if drop:
+            for i in drop: cur[i] = (0, 0, 0, 0)
+            res = Image.new("RGBA", res.size); res.putdata(cur)
+            print(f"убрано мелких островов: {len(drop)} пикселей")
 
     # 6. тёмным предметам нужен явный контур: чёрное на чёрном сливается
     #    в пятно, а у соседей по моду силуэт всегда отбит.
@@ -340,7 +398,11 @@ def main():
     i = sub.add_parser("import"); i.set_defaults(fn=cmd_import)
     i.add_argument("--input", required=True); i.add_argument("--out", required=True)
     i.add_argument("--size", default="32", help="32 или 176x149")
-    i.add_argument("--bg", default="auto", help="auto | keep | #rrggbb")
+    i.add_argument("--bg", default="auto", help="auto | flood | keep | #rrggbb")
+    i.add_argument("--despeckle", type=int, default=4,
+                   help="убирать островки не больше N пикселей (0 — не трогать)")
+    i.add_argument("--flood-tol", dest="flood_tol", type=float, default=12.0,
+                   help="порог заливки по соседнему пикселю (для --bg flood)")
     i.add_argument("--bg-tol", dest="bg_tol", type=int, default=18)
     i.add_argument("--margin", type=int, default=0)
     i.add_argument("--filter", default="box", choices=["box", "nearest"])

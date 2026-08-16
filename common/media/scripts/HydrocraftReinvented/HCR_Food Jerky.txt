@@ -29,6 +29,10 @@ module Hydrocraft
     {
 
 	HungerChange 			= 	-15,
+	Calories			=	249,
+	Lipids			=	1.5,
+	Proteins			=	4.9,
+	Carbohydrates			=	32.8,
 	IsCookable 			= 	TRUE,
 	DangerousUncooked 		= 	TRUE,
 	MinutesToBurn 			= 	120,
@@ -46,6 +50,10 @@ module Hydrocraft
     {
 
 	HungerChange 			= 	-15,
+	Calories			=	249,
+	Lipids			=	1.5,
+	Proteins			=	4.9,
+	Carbohydrates			=	32.8,
 	IsCookable 			= 	TRUE,
 	DangerousUncooked 		= 	TRUE,
 	MinutesToBurn 			= 	120,

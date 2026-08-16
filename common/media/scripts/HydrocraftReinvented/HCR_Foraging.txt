@@ -218,6 +218,10 @@ module Hydrocraft
     {
 
 	HungerChange		=	-10,
+	Calories			=	70,
+	Lipids			=	0.0,
+	Proteins			=	4.0,
+	Carbohydrates			=	5.0,
 	Weight			=	0.1,
 	ItemType			=	base:food,
 	DaysTotallyRotten	=	10,

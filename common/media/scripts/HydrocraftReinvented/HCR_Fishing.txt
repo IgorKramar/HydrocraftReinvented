@@ -511,6 +511,26 @@ module Hydrocraft
             item 1 Hydrocraft.HCPond3,
         }
     }
+    craftRecipe Assemble Fishing Kit
+    {
+        time = 400,
+        Tags = AnySurfaceCraft,
+        category = Fishing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Fishing:10,
+        inputs
+        {
+            item 1 [Base.FishingRod;Base.FishingRodBreak],
+            item 2 [Base.FishingLine;Base.Twine],
+            item 1 [Hydrocraft.HCFishhookbone;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhooktitanium],
+            item 5 [Base.Worm;Base.Cricket;Base.Grasshopper;Base.Cockroach;Base.BaitFish;Hydrocraft.HCBeetle;Hydrocraft.HCDragonfly;Hydrocraft.HCCaterpillar;Hydrocraft.HCCicada;Hydrocraft.HCPillbug;Hydrocraft.HCFirefly;Hydrocraft.HCMolecricket;Hydrocraft.HCHousefly;Hydrocraft.HCMaggot;Hydrocraft.HCTadpole;Hydrocraft.HCCrayfish;Hydrocraft.HCLurewoodfish;Hydrocraft.HCFishfood;Hydrocraft.HCFishfood2],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFishingkitline,
+        }
+    }
     craftRecipe Repair Fishing Kit
     {
         time = 500,

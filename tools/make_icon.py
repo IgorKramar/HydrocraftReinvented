@@ -238,6 +238,42 @@ def cmd_import(a):
     else:
         tw = th = int(a.size)
 
+    # 3a. вертикальная растяжка. Генераторы норовят нарисовать кашпо
+    #     приземистее, чем в моде: изометрия PZ сильно вытянута по высоте,
+    #     а обучающие данные — нет.
+    if a.stretch_v != 1.0:
+        im = im.resize((im.width, max(1, round(im.height * a.stretch_v))), Image.BOX)
+        print(f"растяжка по вертикали ×{a.stretch_v}")
+
+    # 3b. выравнивание по существующему состоянию того же объекта.
+    #     У горшечных растений и мебели важно, чтобы кашпо (или стол) стояло
+    #     там же и было того же размера, иначе при смене состояния предмет
+    #     дёргается. Считаем самую широкую непрозрачную строку — это и есть
+    #     основание, — и подгоняем масштаб и нижний край под референс.
+    if a.align_to:
+        ref = load(a.align_to)
+        def base_metrics(img):
+            p_ = pixels(img); w_, h_ = img.size
+            rows = [(sum(1 for x in range(w_) if p_[y * w_ + x][3] > 0), y) for y in range(h_)]
+            rows = [r for r in rows if r[0] > 0]
+            if not rows: sys.exit("пустая картинка при выравнивании")
+            widest = max(rows)[0]
+            bottom = max(y for _, y in rows)
+            return widest, bottom
+        rw, rb = base_metrics(ref)
+        cw_, cb_ = base_metrics(im)
+        k = rw / max(cw_, 1)
+        im = im.resize((max(1, round(im.width * k)), max(1, round(im.height * k))), Image.BOX)
+        canvas = Image.new("RGBA", ref.size, (0, 0, 0, 0))
+        # низ основания совмещаем с референсным
+        _, cb2 = base_metrics(im)
+        canvas.alpha_composite(im, ((ref.width - im.width) // 2, rb - cb2))
+        res = canvas
+        print(f"выравнивание по {a.align_to}: масштаб {k:.3f}, "
+              f"ширина основания {cw_} -> {rw}")
+        save(res, a.out)
+        return
+
     # 4. вписываем содержимое в пропорции цели, не растягивая его:
     #    сначала холст нужного соотношения, потом одно уменьшение.
     ar = tw / th
@@ -409,6 +445,11 @@ def main():
                    help="порог заливки по соседнему пикселю (для --bg flood)")
     i.add_argument("--bg-tol", dest="bg_tol", type=int, default=18)
     i.add_argument("--margin", type=int, default=0)
+    i.add_argument("--stretch-v", dest="stretch_v", type=float, default=1.0,
+                   help="растянуть по вертикали до подгонки (кашпо часто выходит низким)")
+    i.add_argument("--align-to", dest="align_to",
+                   help="подогнать масштаб и посадку под существующее состояние "
+                        "(например Item_HCPottedtomato.png)")
     i.add_argument("--no-crop", dest="no_crop", action="store_true",
                    help="не обрезать по содержимому: кадр остаётся как у референса")
     i.add_argument("--filter", default="box", choices=["box", "nearest"])

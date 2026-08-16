@@ -42,10 +42,12 @@ python3 tools/make_icon.py import --input сгенерированное.png \
     --out Item_HCXxx.png --size 176 --no-palette   # группа B, объекты мира
 ```
 
-3. **Тёмным предметам** добавьте `--outline-fix --lighten 1.5`: чёрное на чёрном
-   контуре сливается в пятно, а у соседей по моду силуэт всегда отбит. Проверено
-   на дубинке — без этого читалась как палка, с этим встала в ряд с ключом
-   и молотом.
+3. **Тёмным и массивным** предметам добавьте `--outline-fix --lighten 1.5`:
+   чёрное на чёрном контуре сливается в пятно, а у соседей по моду силуэт
+   всегда отбит. Проверено на дубинке — без этого читалась как палка.
+   **Тонким предметам обводка вредит**: у кирки она съела рога, и остриё
+   потеряло форму. Правило простое — толще трёх пикселей в самом узком
+   месте, можно обводить; тоньше, лучше не трогать.
 4. Проверить: `python3 tools/make_icon.py audit` — иконка должна исчезнуть
    из списка.
 
@@ -83,7 +85,7 @@ python3 tools/make_icon.py import --input сгенерированное.png \
 > rubber grip with subtle ribbing, slightly worn tip, lying diagonally from
 > lower-left to upper-right
 
-### `Item_HCPickaxe.png` — кирка
+### `Item_HCPickaxe.png` — кирка ✅ сделано в v1.5.11
 
 Предмет `HCPickaxe`, в двух списках лута. Стилевой референс —
 `Item_HCSmithyhammersteel.png`: там ровно то сочетание, что нужно, —
@@ -92,6 +94,11 @@ python3 tools/make_icon.py import --input сгенерированное.png \
 > A pickaxe with a straight wooden handle and a double-pointed steel head,
 > one end tapered to a point and the other flattened into a chisel, light
 > rust speckles on the metal, diagonal composition with the head at the top
+
+Из двух вариантов принят тот, где **оба конца изогнутые и заострённые**,
+хотя промпт просил остриё плюс долото: плоский конец при 32 пикселях
+превращается в серое пятно, а симметричная «рогатая» голова узнаётся сразу.
+Принято без обводки и без поля, 31 цвет.
 
 ### `Item_HCDeskbell.png` — звонок на стойке
 

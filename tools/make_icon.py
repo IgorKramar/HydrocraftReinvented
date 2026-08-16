@@ -224,9 +224,13 @@ def cmd_import(a):
               for c in px]
         im = Image.new("RGBA", (w, h)); im.putdata(px)
 
-    # 2. обрезаем по содержимому — генератор любит оставлять поля
-    box = im.getbbox()
-    if box: im = im.crop(box)
+    # 2. обрезаем по содержимому — генератор любит оставлять поля.
+    #    Для состояний одного объекта это вредно: у горшечных растений
+    #    сверху много пустоты, и обрезка сдвинет кашпо относительно
+    #    соседних состояний. Тогда --no-crop.
+    if not a.no_crop:
+        box = im.getbbox()
+        if box: im = im.crop(box)
 
     # 3. целевой размер: "32" — квадрат, "176x149" — как есть.
     if "x" in str(a.size).lower():
@@ -405,6 +409,8 @@ def main():
                    help="порог заливки по соседнему пикселю (для --bg flood)")
     i.add_argument("--bg-tol", dest="bg_tol", type=int, default=18)
     i.add_argument("--margin", type=int, default=0)
+    i.add_argument("--no-crop", dest="no_crop", action="store_true",
+                   help="не обрезать по содержимому: кадр остаётся как у референса")
     i.add_argument("--filter", default="box", choices=["box", "nearest"])
     i.add_argument("--alpha-cut", dest="alpha_cut", type=int, default=128)
     i.add_argument("--colors", type=int, default=64)

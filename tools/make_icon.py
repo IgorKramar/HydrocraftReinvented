@@ -196,14 +196,23 @@ def cmd_import(a):
     box = im.getbbox()
     if box: im = im.crop(box)
 
-    # 3. дополняем до квадрата, чтобы пропорции не поехали
-    side = max(im.size) + 2 * a.margin
-    sq = Image.new("RGBA", (side, side), (0, 0, 0, 0))
-    sq.alpha_composite(im, ((side - im.width) // 2, (side - im.height) // 2))
+    # 3. целевой размер: "32" — квадрат, "176x149" — как есть.
+    if "x" in str(a.size).lower():
+        tw, th = (int(v) for v in str(a.size).lower().split("x"))
+    else:
+        tw = th = int(a.size)
 
-    # 4. уменьшение. BOX усредняет — при сжатии в полсотни раз это честнее
-    #    nearest, который просто выкидывает пиксели вместе с деталями.
-    small = sq.resize((a.size, a.size), Image.BOX if a.filter == "box" else Image.NEAREST)
+    # 4. вписываем содержимое в пропорции цели, не растягивая его:
+    #    сначала холст нужного соотношения, потом одно уменьшение.
+    ar = tw / th
+    cw = max(im.width, int(round(im.height * ar))) + 2 * a.margin
+    ch = max(im.height, int(round(im.width / ar))) + 2 * a.margin
+    canvas = Image.new("RGBA", (cw, ch), (0, 0, 0, 0))
+    canvas.alpha_composite(im, ((cw - im.width) // 2, (ch - im.height) // 2))
+
+    # BOX усредняет — при сжатии в полсотни раз это честнее nearest,
+    # который просто выкидывает пиксели вместе с деталями.
+    small = canvas.resize((tw, th), Image.BOX if a.filter == "box" else Image.NEAREST)
 
     # 5. полупрозрачную кайму убираем: в иконках мода её нет
     out = [(c[0], c[1], c[2], 255) if c[3] >= a.alpha_cut else (0, 0, 0, 0)
@@ -243,7 +252,7 @@ def cmd_import(a):
 
     save(res, a.out)
     op = [c for c in pixels(res) if c[3] > 0]
-    print(f"{im.size[0]}x{im.size[1]} -> {a.size}x{a.size}, непрозрачных пикселей {len(op)}, "
+    print(f"{im.size[0]}x{im.size[1]} -> {res.width}x{res.height}, непрозрачных пикселей {len(op)}, "
           f"цветов {len({c[:3] for c in op})}")
 
 
@@ -330,7 +339,7 @@ def main():
 
     i = sub.add_parser("import"); i.set_defaults(fn=cmd_import)
     i.add_argument("--input", required=True); i.add_argument("--out", required=True)
-    i.add_argument("--size", type=int, default=32)
+    i.add_argument("--size", default="32", help="32 или 176x149")
     i.add_argument("--bg", default="auto", help="auto | keep | #rrggbb")
     i.add_argument("--bg-tol", dest="bg_tol", type=int, default=18)
     i.add_argument("--margin", type=int, default=0)

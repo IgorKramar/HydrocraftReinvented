@@ -17,6 +17,10 @@ module Hydrocraft
     {
 
 	HungerChange			=	-60,
+	Calories			=	996,
+	Lipids			=	6.0,
+	Proteins			=	19.8,
+	Carbohydrates			=	131.1,
 	Weight				=	1.6,
 	ItemType				=	base:food,
 	DaysTotallyRotten		=	30,
@@ -77,6 +81,10 @@ module Hydrocraft
     {
 
 	HungerChange			=	-30,
+	Calories			=	498,
+	Lipids			=	3.0,
+	Proteins			=	9.9,
+	Carbohydrates			=	65.6,
 	Weight				=	0.8,
 	ItemType				=	base:food,
 	DaysTotallyRotten		=	30,
@@ -137,6 +145,10 @@ module Hydrocraft
     {
 
 	HungerChange			=	-15,
+	Calories			=	249,
+	Lipids			=	1.5,
+	Proteins			=	4.9,
+	Carbohydrates			=	32.8,
 	Weight				=	0.4,
 	ItemType				=	base:food,
 	DaysTotallyRotten		=	30,

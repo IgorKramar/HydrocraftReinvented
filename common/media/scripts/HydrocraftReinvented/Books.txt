@@ -607,7 +607,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Fish Fieldguide,
 		Icon		=	HCBookfishguide,
-		LearnedRecipes  =   	Repair Fishing Kit;Make Lure;Make Lure (Feather Lure);Make Lure (Pinecone Lure);Make Lure (Birch Bark Lure);Make Lure (Stick Lure);Make Lure (Garland Lure);Fish in Pond with Bait;Spear Fish in Pond,
+		LearnedRecipes  =   	Assemble Fishing Kit;Repair Fishing Kit;Make Lure;Make Lure (Feather Lure);Make Lure (Pinecone Lure);Make Lure (Birch Bark Lure);Make Lure (Stick Lure);Make Lure (Garland Lure);Fish in Pond with Bait;Spear Fish in Pond,
         	ReplaceOnUse    =   	HCBookfishguide,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookfishguideOpen,

@@ -391,6 +391,10 @@ module Hydrocraft
     {
 
         HungerChange		=	-90,
+        Calories			=	1458,
+        Lipids			=	75.6,
+        Proteins			=	207.0,
+        Carbohydrates			=	25.7,
         UnhappyChange	    =	50,
         StressChange        =       20,
        	ReduceInfectionPower= 	5,

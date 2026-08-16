@@ -6,6 +6,22 @@
 
 ## Русский
 
+### v1.5.10 — 2026-08-15
+
+**Предложения игроков — спасибо kaio.mafra за подробный список:**
+- **Питательность еды**: у 96 съедобных предметов вообще не было калорий,
+  углеводов, белков и жиров — съедаешь, голод падает, а система питания B42
+  этого не видит. Пробелы закрыты по медиане своей же категории: сыры считаются
+  как сыры, приправы как приправы, браги как браги. Больше всего досталось
+  приправам (61 предмет), брагам винокурни (14) и сырам (4). Десять предметов
+  оставлены без питательности сознательно: это лекарства и наркотики, у которых
+  голод −1 побочен.
+- **Рыболовный набор собирается с нуля** (по предложению kaio.mafra): удочка,
+  две лески или бечёвки, крючок любого металла и пять любых наживок, включая
+  искусственные. Раньше набор можно было только найти сломанным и починить —
+  тем, кто живёт с земли, взять его было негде. Рецепту учит тот же учебник
+  рыбалки.
+
 ### v1.5.9 — 2026-08-15
 
 **Оружие, рукавицы и птицы — по репортам Asteraaaaaki и kaio.mafra:**
@@ -190,6 +206,22 @@
 ---
 
 ## English
+
+### v1.5.10 — 2026-08-15
+
+**Player suggestions — thanks to kaio.mafra for the detailed list:**
+- **Food nutrition**: 96 edible items had no calories, carbs, proteins or
+  lipids at all — you eat them, hunger drops, and B42's nutrition system never
+  notices. The gaps are filled from each item's own category median: cheeses
+  count as cheeses, condiments as condiments, mashes as mashes. The bulk of it
+  was condiments (61 items), distillery mashes (14) and cheeses (4). Ten items
+  were deliberately left alone: medicine and drugs, where the −1 hunger is
+  incidental.
+- **The fishing kit can be built from scratch** (kaio.mafra's suggestion): a
+  rod, two lines or twine, a hook of any metal and five baits of any kind,
+  artificial included. Previously the kit could only be found broken and
+  repaired — living off the land had no entry point. The same fishing textbook
+  teaches the new recipe.
 
 ### v1.5.9 — 2026-08-15
 

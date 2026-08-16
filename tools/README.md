@@ -7,6 +7,9 @@
 - `analyze_gaps.py` — расширенный отчёт с битыми ссылками.
 - `weapon_models.py` — аудит отображения оружия: у кого есть `WorldStaticModel`,
   кого чинит собственный меш мода, кому нужна ванильная модель B42.
+- `make_icon.py` — иконки для новых предметов: перекраска в другой материал,
+  сборка «предмет в коробке», приведение сторонней картинки к палитре мода,
+  аудит ссылок на иконки. Требует Pillow.
 - `build_xlsx.py` / `gen_flowcharts.py` — генерация docs/HCR_Database.xlsx и docs/FLOWCHARTS.md.
 
 Порядок: `parse_hcr.py` → остальное (модель кладётся рядом со скриптом).
@@ -41,7 +44,8 @@ PZ_GAME_DIR="~/.steam/steam/steamapps/common/ProjectZomboid" python3 tools/varia
 
 ## Зависимости
 
-Python 3.8+; `build_xlsx.py` дополнительно требует `openpyxl`
-(`pip install openpyxl`). Остальные скрипты — только стандартная библиотека.
+Python 3.8+; `build_xlsx.py` требует `openpyxl`, `make_icon.py` — `Pillow`
+(`pip install openpyxl Pillow`). Остальные скрипты — только стандартная библиотека.
 
-Промежуточные файлы (`model.json`, `gaps_*.txt`, `no_source.json`) не версионируются.
+Промежуточные файлы (`model.json`, `gaps_*.txt`, `no_source.json`,
+`icon_audit.txt`) не версионируются.

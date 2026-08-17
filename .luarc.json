@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime": {
+    "version": "Lua 5.1"
+  },
+  "workspace": {
+    "library": ["tools/pz-lua"],
+    "ignoreDir": ["tools/pz-lua", "docs", "common/media/textures"],
+    "checkThirdParty": false
+  },
+  "diagnostics": {
+    "globals": [
+      "BodyPartType",
+      "CharacterStat",
+      "Events",
+      "InventoryItemFactory",
+      "IsoGenerator",
+      "Perks",
+      "ProfessionFactory",
+      "TraitFactory",
+      "ZombRand",
+      "ZombRandFloat",
+      "getAllRecipes",
+      "getCell",
+      "getCore",
+      "getGameTime",
+      "getPlayer",
+      "getSandboxOptions",
+      "getScriptManager",
+      "getSoundManager",
+      "getSpecificPlayer",
+      "getTextManager",
+      "getTextOrNull",
+      "getTexture",
+      "getWorld",
+      "instanceItem",
+      "isClient",
+      "isServer",
+      "sendClientCommand",
+      "sendServerCommand"
+    ]
+  }
+}

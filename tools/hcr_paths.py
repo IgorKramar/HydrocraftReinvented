@@ -57,6 +57,20 @@ def _is_game_dir(path: Path) -> bool:
     return (path / "media/scripts").is_dir()
 
 
+def _resolve_game_dir(path: Path):
+    """Каталог игры или её вложенный projectzomboid/ — иначе None.
+
+    На Windows media/ лежит прямо в каталоге игры, на Linux и macOS Steam
+    добавляет уровень: .../ProjectZomboid/projectzomboid/media/scripts.
+    Внешний каталог там содержит только лаунчер, поэтому проверять нужно оба —
+    и в автопоиске, и в пути, указанном руками.
+    """
+    for candidate in (path, path / "projectzomboid"):
+        if _is_game_dir(candidate):
+            return candidate
+    return None
+
+
 def _from_argv():
     argv = sys.argv[1:]
     for i, arg in enumerate(argv):
@@ -72,14 +86,16 @@ def find_game(required: bool = True):
     for explicit in (_from_argv(), os.environ.get(GAME_ENV)):
         if explicit:
             path = Path(explicit).expanduser()
-            if _is_game_dir(path):
-                return path
+            found = _resolve_game_dir(path)
+            if found:
+                return found
             sys.exit(f"{path} — не похоже на установку Project Zomboid "
-                     "(нет подкаталога media/scripts).")
+                     "(нет подкаталога media/scripts ни в нём, ни во "
+                     "вложенном projectzomboid/).")
     for candidate in GAME_CANDIDATES:
-        path = Path(candidate).expanduser()
-        if _is_game_dir(path):
-            return path
+        found = _resolve_game_dir(Path(candidate).expanduser())
+        if found:
+            return found
     if required:
         sys.exit(_HINT)
     return None

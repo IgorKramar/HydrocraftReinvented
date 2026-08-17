@@ -1,5 +1,8 @@
 # Инструменты аудита / Audit tools
 
+- `setup_dev.py` — подготовка машины: ссылка `pz-lua` на Lua игры, `.venv`
+  с openpyxl и Pillow, проверка lua-language-server. `--check` — только
+  диагностика, ненулевой код возврата, если чего-то не хватает.
 - `hcr_paths.py` — общие пути и поиск установки игры (сам ничего не делает).
 - `parse_hcr.py` — парсер скриптов мода в model.json (предметы, рецепты, книги).
 - `variant_b.py` — анализ достижимости: недостижимые предметы и некрафтуемые рецепты
@@ -37,6 +40,10 @@ python3 tools/parse_hcr.py --game "C:\Program Files (x86)\Steam\steamapps\common
 PZ_GAME_DIR="~/.steam/steam/steamapps/common/ProjectZomboid" python3 tools/variant_b.py
 ```
 
+На Windows `media/` лежит прямо в каталоге игры, на Linux и macOS — во вложенном
+`projectzomboid/`. Обе раскладки есть в списке автопоиска, и обе принимаются
+в `--game`/`PZ_GAME_DIR`: указать можно как внешний каталог, так и вложенный.
+
 `variant_b.py` и `analyze_gaps.py` без игры не работают (не с чем сверять ванильные
 предметы). `parse_hcr.py` отработает и без неё, но предупредит: в модели не будет
 ванильных названий, и генераторы документации откажутся писать в `docs/`, чтобы
@@ -45,8 +52,26 @@ PZ_GAME_DIR="~/.steam/steam/steamapps/common/ProjectZomboid" python3 tools/varia
 
 ## Зависимости
 
-Python 3.8+; `build_xlsx.py` требует `openpyxl`, `make_icon.py` — `Pillow`
-(`pip install openpyxl Pillow`). Остальные скрипты — только стандартная библиотека.
+Python 3.8+; `build_xlsx.py` требует `openpyxl`, `make_icon.py` — `Pillow`.
+Остальные скрипты — только стандартная библиотека.
+
+Ставит их `setup_dev.py`. Если в системном Python их нет (на Arch и других
+дистрибутивах с externally-managed окружением их там и не будет), он заводит
+`tools/.venv` — тогда эти два скрипта запускаются через `tools/.venv/bin/python`.
+
+## Проверка Lua
+
+`.luarc.json` в корне репозитория настраивает lua-language-server. Ванильный
+API он берёт из `pz-lua` — ссылки на `media/lua` игры, которую заводит
+`setup_dev.py`. Разовый прогон:
+
+```sh
+lua-language-server --check=. --configpath=.luarc.json --checklevel=Warning
+```
+
+Сейчас на моде 18 диагностик, все настоящие. Новые движковые глобали
+дописываются в `diagnostics.globals` — функции самого мода туда не попадают,
+их отсутствие означает битую ссылку.
 
 Промежуточные файлы (`model.json`, `gaps_*.txt`, `no_source.json`,
-`icon_audit.txt`) не версионируются.
+`icon_audit.txt`), `.venv/` и ссылка `pz-lua` не версионируются.

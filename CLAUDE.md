@@ -29,18 +29,54 @@
 ## Команды
 
 ```sh
+# окружение (один раз на машине; --check — только диагностика)
+python3 tools/setup_dev.py
+
 # аудит (перед каждым коммитом, трогающим скрипты)
-python3 tools/parse_hcr.py --game "<путь к Project Zomboid>"   # или PZ_GAME_DIR
+python3 tools/parse_hcr.py        # --game <путь> или PZ_GAME_DIR, если игра не нашлась
 python3 tools/variant_b.py        # недостижимые предметы, некрафтуемые рецепты
 python3 tools/analyze_gaps.py     # битые ссылки
 
+# Lua: 18 диагностик на моде — все настоящие, новых быть не должно
+lua-language-server --check=. --configpath=.luarc.json --checklevel=Warning
+
 # документация (требует установленной игры — иначе откажется писать)
-python3 tools/build_xlsx.py
+tools/.venv/bin/python tools/build_xlsx.py
 python3 tools/gen_flowcharts.py
 ```
 
 Каталог игры ищется в порядке: `--game <путь>` → `PZ_GAME_DIR` → типовые места
 установки Steam. Без него работает только `parse_hcr.py`, и то с предупреждением.
+На Linux и macOS Steam кладёт игру на уровень глубже, чем на Windows
+(`.../ProjectZomboid/projectzomboid/`) — оба варианта в списке поиска, и оба
+принимаются в `--game`.
+
+## Инструменты
+
+`tools/setup_dev.py` — точка входа на новой машине. Идемпотентен, ставит без
+root: заводит `tools/pz-lua` (ссылку на `media/lua` игры, из неё
+lua-language-server берёт ванильный Lua API), создаёт `tools/.venv`
+с `openpyxl` и `Pillow`. Что требует root — только печатает командой.
+
+`openpyxl` и `Pillow` нужны `build_xlsx.py` и `make_icon.py`. Если они не стоят
+в системном Python, скрипт кладёт их в `tools/.venv` — тогда эти два инструмента
+запускаются через `tools/.venv/bin/python`. Остальным хватает стандартной
+библиотеки.
+
+`.luarc.json` версионируется и настраивает lua-language-server: Lua 5.1,
+ванильный API из `tools/pz-lua`, список движковых глобалей в
+`diagnostics.globals`. Глобали движка (`getPlayer`, `ZombRand`, `Perks`, …)
+не видны статически, поэтому каждая новая обязана попасть в этот список —
+иначе она утонет в шуме. Функции самого мода туда не добавляются: если
+lua-language-server не нашёл такую функцию, её действительно нет.
+
+Из установленных плагинов Claude Code к этому репозиторию относятся `lua-lsp`
+(тот самый lua-language-server) и набор `gamedev-claude-plugins` — последний
+для продумывания геймдизайна: баланс, экономика, прогрессия, обратная связь
+игроков. Движковые плагины (Unreal, Unity, Godot, Phaser) выключены: PZ на них
+не похож. MCP `steam` даёт карточку мода в Мастерской по ID `3778201332` —
+подписки, дату обновления, теги; это полезно для `docs/FEEDBACK.md`
+и чек-листа выпуска.
 
 ## Что нужно знать до первой правки
 

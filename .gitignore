@@ -22,6 +22,8 @@ workshop.txt.bak
 
 # Промежуточные файлы инструментов аудита (tools/)
 __pycache__/
+tools/.venv/
+tools/pz-lua
 tools/model.json
 tools/no_source.json
 tools/gaps_report.txt

@@ -26,6 +26,20 @@
   при этом остаются деревянными), сборка «предмет в коробке», приведение
   сторонней картинки к палитре мода и аудит ссылок на иконки.
 
+**Молчавшие обработчики — найдено проверкой Lua языковым сервером:**
+- **Ожоги при плавке не работали ни разу**: обработчик 30 рецептов плавки
+  вызывал функции `HCNearKiln` и `containsItem`, потерянные при переезде
+  на B42, и падал раньше, чем успевал нанести урон. Мощность ожога теперь
+  определяется по печи в инвентаре — плавильня, доменная и промышленная печь
+  жгут по-разному, как и задумывалось.
+- **Защита от ожогов не срабатывала**: во второй копии функции сравнивалась
+  переменная, которой не присваивали значение, поэтому огнеупорный костюм,
+  рукавицы, фартук и каска не защищали ни от чего.
+- **Окурки от сигарет не появлялись**, а обложки книг не выдавались: оба
+  обработчика читали настройки песочницы, которых в B42 нет — файл опций
+  потерялся при переезде, остались одни переводы. Обе мелочи снова работают;
+  пока опции не вернутся, они просто включены.
+
 ### v1.5.10 — 2026-08-15
 
 **Предложения игроков — спасибо kaio.mafra за подробный список:**
@@ -244,6 +258,20 @@
   material using palettes lifted from the mod itself (wooden handles stay
   wooden), composing "item in a box", snapping outside artwork to the mod's
   palette, and auditing icon references.
+
+**Silent handlers — found by running a Lua language server over the mod:**
+- **Smelting burns never fired**: the handler behind 30 smelting recipes called
+  `HCNearKiln` and `containsItem`, both lost in the move to B42, and died before
+  it could deal any damage. Burn strength now comes from the furnace in your
+  inventory — smelter, blast furnace and industrial furnace burn differently
+  again, as intended.
+- **Burn protection did nothing**: the second copy of the function compared
+  a variable that was never assigned, so the fire suit, gloves, apron and
+  helmet protected against nothing.
+- **Cigarette butts never spawned** and book covers were never handed out: both
+  handlers read sandbox settings that do not exist in B42 — the options file was
+  lost in the move and only its translations survived. Both work again; until
+  the options come back, they are simply on.
 
 ### v1.5.10 — 2026-08-15
 

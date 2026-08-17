@@ -19,8 +19,8 @@
   аудитом.
 - **Четыре предмета получили новые иконки**: полицейская дубинка, кирка,
   звонок на стойке и обёртка от батончика. Стол для вскрытия получил
-  недостающие состояния — с телом и в крови, а помидор, картофель и редис —
-  вид со спелым урожаем. Осталось пять. Промпты для остальных собраны в `docs/ICON_PROMPTS.md`.
+  недостающие состояния — с телом и в крови. Осталось восемь. Промпты
+  для остальных собраны в `docs/ICON_PROMPTS.md`.
 - Инструмент `tools/make_icon.py` для иконок новых предметов: перекраска
   в другой материал по палитрам, снятым с самого мода (деревянные рукояти
   при этом остаются деревянными), сборка «предмет в коробке», приведение
@@ -239,8 +239,7 @@
   all along. Found by the same audit.
 - **Four items got new icons**: police baton, pickaxe, desk bell and candy bar
   wrapper. The dissection table got its missing states — with a corpse and
-  bloodied, and tomato, potato and radish got their ripe-harvest state.
-  Five to go. Prompts for the rest live in `docs/ICON_PROMPTS.md`.
+  bloodied. Eight to go. Prompts for the rest live in `docs/ICON_PROMPTS.md`.
 - A `tools/make_icon.py` helper for new item icons: recolouring into another
   material using palettes lifted from the mod itself (wooden handles stay
   wooden), composing "item in a box", snapping outside artwork to the mod's

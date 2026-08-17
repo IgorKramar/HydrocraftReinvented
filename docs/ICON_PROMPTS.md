@@ -218,7 +218,10 @@ python3 tools/make_icon.py import --input помидор.png \
     --bg flood --no-crop
 ```
 
-**Двух флагов оказалось мало — вот что вылезло на первой тройке.**
+**Первая тройка (помидор, картофель, редис) была сгенерирована и отклонена**
+— результат не дотянул до нарисованных вручную соседних состояний. Ниже —
+что при этом выяснилось про приёмку; флаги остались в инструменте
+и пригодятся следующему заходу.
 
 *Кадр.* Генератор рисует объект крупнее, чем в моде: у базовых растений
 основание кашпо 109–110 пикселей при ширине кадра 200, а у сгенерированных
@@ -271,9 +274,9 @@ python3 tools/make_icon.py import --input редис.png \
 
 | Файл | Референс | Что меняем |
 |---|---|---|
-| `Item_HCPottedtomatoready.png` ✅ | `Item_HCPottedtomato.png` | больше спелых красных черри, гроздьями, листва тёмно-зелёная |
-| `Item_HCPottedpotatoready.png` ✅ | `Item_HCPottedpotato.png` | пышная ботва, у основания видны выступившие из земли красные клубни |
-| `Item_HCPottedradishready.png` ✅ | `Item_HCPottedradish.png` | розово-красные плечики редиса торчат из земли, ботва высокая |
+| `Item_HCPottedtomatoready.png` | `Item_HCPottedtomato.png` | больше спелых красных черри, гроздьями, листва тёмно-зелёная |
+| `Item_HCPottedpotatoready.png` | `Item_HCPottedpotato.png` | пышная ботва, у основания видны выступившие из земли красные клубни |
+| `Item_HCPottedradishready.png` | `Item_HCPottedradish.png` | розово-красные плечики редиса торчат из земли, ботва высокая |
 | `Item_HCPottedCabbageredready.png` | `Item_HCPottedCabbagered.png` | плотный фиолетово-красный кочан в центре, внешние листья отогнуты |
 | `Item_HCPottedCabbagewhiteready.png` | `Item_HCPottedCabbagewhite.png` | плотный бледно-зелёный кочан, внешние листья отогнуты |
 | `Item_HCPottedorangetreeready.png` | `Item_HCPottedorangetree.png` | много спелых оранжевых плодов по всей кроне |

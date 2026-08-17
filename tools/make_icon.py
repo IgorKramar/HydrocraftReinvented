@@ -171,6 +171,238 @@ def cmd_compose(a):
     save(base, a.out)
 
 
+# ---------- import ----------
+def cmd_import(a):
+    """Из большой картинки генератора — готовая иконка мода."""
+    im = Image.open(a.input).convert("RGBA")
+    px = pixels(im)
+    w, h = im.size
+
+    # 1. фон. Генераторы почти всегда отдают его непрозрачным и светлым.
+    if a.bg == "flood":
+        # Заливка от углов с порогом «по соседу», а не «по цвету»: так
+        # снимается и фон, и мягкая тень на полу, но заливка встаёт на жёстком
+        # контуре предмета. Иначе тень не отделить — у стола для вскрытия она
+        # совпадает по яркости со сталью.
+        from collections import deque
+        def L(c): return 0.299 * c[0] + 0.587 * c[1] + 0.114 * c[2]
+        seen = bytearray(w * h)
+        q = deque()
+        for sx, sy in ((0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1)):
+            i = sy * w + sx
+            if not seen[i]:
+                seen[i] = 1; q.append((sx, sy))
+        while q:
+            x, y = q.popleft()
+            base = L(px[y * w + x][:3])
+            for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                nx, ny = x + dx, y + dy
+                if not (0 <= nx < w and 0 <= ny < h): continue
+                j = ny * w + nx
+                if seen[j]: continue
+                if abs(L(px[j][:3]) - base) <= a.flood_tol:
+                    seen[j] = 1; q.append((nx, ny))
+        # Заливка не дотягивается до «карманов» фона, замкнутых деталями
+        # (просветы между ножками и полками). Добиваем их по цвету затравки:
+        # фон у генераторов ровный, а сталь до него по яркости не достаёт.
+        seed = px[0][:3]
+        px = [(0, 0, 0, 0) if (seen[i] or (c[3] > 0 and
+              all(abs(c[k] - seed[k]) <= a.flood_tol for k in range(3))))
+              else c for i, c in enumerate(px)]
+        im = Image.new("RGBA", (w, h)); im.putdata(px)
+        bg = None
+    elif a.bg == "auto":
+        corners = [px[0], px[w - 1], px[(h - 1) * w], px[h * w - 1]]
+        bg = max(set(corners), key=corners.count)[:3]
+    elif a.bg == "keep":
+        bg = None
+    else:
+        bg = hex2rgb(a.bg)
+    if bg is not None:
+        tol = a.bg_tol
+        px = [(0, 0, 0, 0) if c[3] > 0 and all(abs(c[i] - bg[i]) <= tol for i in range(3)) else c
+              for c in px]
+        im = Image.new("RGBA", (w, h)); im.putdata(px)
+
+    # 2. обрезаем по содержимому — генератор любит оставлять поля.
+    #    Для состояний одного объекта это вредно: у горшечных растений
+    #    сверху много пустоты, и обрезка сдвинет кашпо относительно
+    #    соседних состояний. Тогда --no-crop.
+    if not a.no_crop:
+        box = im.getbbox()
+        if box: im = im.crop(box)
+
+    # 3. целевой размер: "32" — квадрат, "176x149" — как есть.
+    if "x" in str(a.size).lower():
+        tw, th = (int(v) for v in str(a.size).lower().split("x"))
+    else:
+        tw = th = int(a.size)
+
+    # 3a. вертикальная растяжка. Генераторы норовят нарисовать кашпо
+    #     приземистее, чем в моде: изометрия PZ сильно вытянута по высоте,
+    #     а обучающие данные — нет.
+    if a.stretch_v != 1.0:
+        im = im.resize((im.width, max(1, round(im.height * a.stretch_v))), Image.BOX)
+        print(f"растяжка по вертикали ×{a.stretch_v}")
+
+    # 3b. подгонка кашпо под существующее состояние того же объекта.
+    #     Склеивать половинки нельзя: самая широкая строка у изометрического
+    #     ящика находится ВНИЗУ, и горизонтальный разрез рассекает ящик
+    #     пополам — верх остаётся генераторским, получается ступенька и два
+    #     разных дерева. Поэтому ящик не режется, а подгоняется: габариты
+    #     по деревянной части, цвет досок — из референса.
+    if a.align_to or a.planter_from:
+        ref = load(a.align_to or a.planter_from)
+
+        def wood_mask(img):
+            """Пиксели дерева: тёплые и достаточно насыщенные."""
+            out = []
+            for c in pixels(img):
+                warm = c[3] > 0 and c[0] > c[2] + 18 and (max(c[:3]) - min(c[:3])) > 25
+                out.append(warm)
+            return out
+
+        def wood_box(img):
+            m = wood_mask(img); w_, h_ = img.size
+            xs = [i % w_ for i, v in enumerate(m) if v]
+            ys = [i // w_ for i, v in enumerate(m) if v]
+            if not xs: sys.exit("не нашёл деревянных пикселей — кашпо не опознано")
+            return min(xs), min(ys), max(xs), max(ys)
+
+        rx0, ry0, rx1, ry1 = wood_box(ref)
+        cx0, cy0, cx1, cy1 = wood_box(im)
+        kx = (rx1 - rx0 + 1) / max(cx1 - cx0 + 1, 1)
+        ky = (ry1 - ry0 + 1) / max(cy1 - cy0 + 1, 1)
+        im = im.resize((max(1, round(im.width * kx)), max(1, round(im.height * ky))), Image.BOX)
+        nx0, ny0, nx1, ny1 = wood_box(im)
+        canvas = Image.new("RGBA", ref.size, (0, 0, 0, 0))
+        canvas.alpha_composite(im, (rx0 - nx0, ry0 - ny0))
+        res = canvas
+        print(f"кашпо подогнано по {a.align_to or a.planter_from}: "
+              f"масштаб {kx:.3f}×{ky:.3f}, габариты дерева "
+              f"{cx1-cx0+1}×{cy1-cy0+1} -> {rx1-rx0+1}×{ry1-ry0+1}")
+
+        # Цвет досок. Раскладывать по крайним тонам оказалось плохо —
+        # доски уходили в темноту. Переносим статистику: средний тон
+        # и разброс по каждому каналу приводим к референсным, текстура
+        # при этом сохраняется.
+        if a.planter_from:
+            rp, rmask = pixels(ref), wood_mask(ref)
+            cur, cmask = pixels(res), wood_mask(res)
+            # Считаем цвет только по стенкам: в верхней части кадра тоже
+            # есть тёплое и насыщенное — бамбуковые колышки у помидора,
+            # земля, — и статистика от них уезжает в жёлтый.
+            def walls(img, mask):
+                w_, h_ = img.size
+                rows = [i // w_ for i, v in enumerate(mask) if v]
+                bot = max(rows); top = min(rows)
+                lo = bot - max(6, round((bot - top) * 0.35))
+                return [c[:3] for i, c in enumerate(pixels(img))
+                        if mask[i] and lo <= i // w_ <= bot]
+            ref_w = walls(ref, rmask)
+            cur_w = walls(res, cmask)
+            if len(ref_w) > 50 and len(cur_w) > 50:
+                def stats(px_):
+                    n = len(px_)
+                    mean = [sum(c[k] for c in px_) / n for k in range(3)]
+                    var = [sum((c[k] - mean[k]) ** 2 for c in px_) / n for k in range(3)]
+                    return mean, [max(v ** 0.5, 1e-3) for v in var]
+                rm, rs = stats(ref_w)
+                cm, cs = stats(cur_w)
+                out = []
+                for i, c in enumerate(cur):
+                    if not cmask[i]:
+                        out.append(c); continue
+                    v = tuple(min(255, max(0, round((c[k] - cm[k]) * (rs[k] / cs[k]) + rm[k])))
+                              for k in range(3))
+                    out.append((*v, c[3]))
+                res = Image.new("RGBA", res.size); res.putdata(out)
+                print("доски приведены к цвету референса: "
+                      f"средний тон {tuple(round(x) for x in cm)} -> {tuple(round(x) for x in rm)}")
+
+        save(res, a.out)
+        return
+
+    # 4. вписываем содержимое в пропорции цели, не растягивая его:
+    #    сначала холст нужного соотношения, потом одно уменьшение.
+    ar = tw / th
+    cw = max(im.width, int(round(im.height * ar))) + 2 * a.margin
+    ch = max(im.height, int(round(im.width / ar))) + 2 * a.margin
+    canvas = Image.new("RGBA", (cw, ch), (0, 0, 0, 0))
+    canvas.alpha_composite(im, ((cw - im.width) // 2, (ch - im.height) // 2))
+
+    # BOX усредняет — при сжатии в полсотни раз это честнее nearest,
+    # который просто выкидывает пиксели вместе с деталями.
+    small = canvas.resize((tw, th), Image.BOX if a.filter == "box" else Image.NEAREST)
+
+    # 5. полупрозрачную кайму убираем: в иконках мода её нет
+    out = [(c[0], c[1], c[2], 255) if c[3] >= a.alpha_cut else (0, 0, 0, 0)
+           for c in pixels(small)]
+    res = Image.new("RGBA", small.size); res.putdata(out)
+
+    # 5b. мусор от заливки: одиночные пиксели, оставшиеся от фона.
+    if a.despeckle > 0:
+        from collections import deque
+        w3, h3 = res.size
+        cur = pixels(res)
+        seen = bytearray(w3 * h3)
+        drop = []
+        for i0 in range(w3 * h3):
+            if seen[i0] or cur[i0][3] == 0: continue
+            comp, q = [], deque([i0]); seen[i0] = 1
+            while q:
+                i = q.popleft(); comp.append(i)
+                x, y = i % w3, i // w3
+                for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                    nx, ny = x + dx, y + dy
+                    if not (0 <= nx < w3 and 0 <= ny < h3): continue
+                    j = ny * w3 + nx
+                    if not seen[j] and cur[j][3] > 0:
+                        seen[j] = 1; q.append(j)
+            if len(comp) <= a.despeckle:
+                drop += comp
+        if drop:
+            for i in drop: cur[i] = (0, 0, 0, 0)
+            res = Image.new("RGBA", res.size); res.putdata(cur)
+            print(f"убрано мелких островов: {len(drop)} пикселей")
+
+    # 6. тёмным предметам нужен явный контур: чёрное на чёрном сливается
+    #    в пятно, а у соседей по моду силуэт всегда отбит.
+    if a.outline_fix or a.lighten != 1.0:
+        w2, h2 = res.size
+        cur = pixels(res)
+        get = lambda x, y: cur[y * w2 + x] if 0 <= x < w2 and 0 <= y < h2 else (0, 0, 0, 0)
+        fixed = []
+        for y in range(h2):
+            for x in range(w2):
+                c = get(x, y)
+                if c[3] == 0:
+                    fixed.append((0, 0, 0, 0)); continue
+                edge = any(get(x + dx, y + dy)[3] == 0 for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)))
+                if edge and a.outline_fix:
+                    fixed.append((0, 0, 0, 255))
+                else:
+                    fixed.append((*[min(255, int(v * a.lighten)) for v in c[:3]], 255))
+        res = Image.new("RGBA", res.size); res.putdata(fixed)
+
+    # 7. палитра мода
+    if not a.no_palette:
+        pal = mod_palette(a.colors)
+        cache = {}
+        out = []
+        for c in pixels(res):
+            if c[3] == 0: out.append((0, 0, 0, 0)); continue
+            if c[:3] not in cache:
+                cache[c[:3]] = min(pal, key=lambda p_: sum((p_[i] - c[i]) ** 2 for i in range(3)))
+            out.append((*cache[c[:3]], 255))
+        res = Image.new("RGBA", res.size); res.putdata(out)
+
+    save(res, a.out)
+    op = [c for c in pixels(res) if c[3] > 0]
+    print(f"{im.size[0]}x{im.size[1]} -> {res.width}x{res.height}, непрозрачных пикселей {len(op)}, "
+          f"цветов {len({c[:3] for c in op})}")
+
+
 # ---------- palette ----------
 def mod_palette(limit=64):
     cols = Counter()
@@ -251,6 +483,34 @@ def main():
     p = sub.add_parser("palette"); p.set_defaults(fn=cmd_palette)
     p.add_argument("--input", required=True); p.add_argument("--out", required=True)
     p.add_argument("--colors", type=int, default=64)
+
+    i = sub.add_parser("import"); i.set_defaults(fn=cmd_import)
+    i.add_argument("--input", required=True); i.add_argument("--out", required=True)
+    i.add_argument("--size", default="32", help="32 или 176x149")
+    i.add_argument("--bg", default="auto", help="auto | flood | keep | #rrggbb")
+    i.add_argument("--despeckle", type=int, default=4,
+                   help="убирать островки не больше N пикселей (0 — не трогать)")
+    i.add_argument("--flood-tol", dest="flood_tol", type=float, default=12.0,
+                   help="порог заливки по соседнему пикселю (для --bg flood)")
+    i.add_argument("--bg-tol", dest="bg_tol", type=int, default=18)
+    i.add_argument("--margin", type=int, default=0)
+    i.add_argument("--stretch-v", dest="stretch_v", type=float, default=1.0,
+                   help="растянуть по вертикали до подгонки (кашпо часто выходит низким)")
+    i.add_argument("--planter-from", dest="planter_from",
+                   help="взять нижнюю часть (кашпо, тумбу) из существующего состояния")
+    i.add_argument("--align-to", dest="align_to",
+                   help="подогнать масштаб и посадку под существующее состояние "
+                        "(например Item_HCPottedtomato.png)")
+    i.add_argument("--no-crop", dest="no_crop", action="store_true",
+                   help="не обрезать по содержимому: кадр остаётся как у референса")
+    i.add_argument("--filter", default="box", choices=["box", "nearest"])
+    i.add_argument("--alpha-cut", dest="alpha_cut", type=int, default=128)
+    i.add_argument("--colors", type=int, default=64)
+    i.add_argument("--no-palette", dest="no_palette", action="store_true")
+    i.add_argument("--outline-fix", dest="outline_fix", action="store_true",
+                   help="обвести силуэт чёрным — нужно тёмным предметам")
+    i.add_argument("--lighten", type=float, default=1.0,
+                   help="осветлить тело предмета, чтобы контур читался (1.4-1.6 для чёрного)")
 
     a_ = sub.add_parser("audit"); a_.set_defaults(fn=cmd_audit)
 

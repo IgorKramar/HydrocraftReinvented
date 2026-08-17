@@ -23,6 +23,7 @@
 | [docs/RELEASING.md](docs/RELEASING.md) | чек-лист выпуска |
 | [docs/FEEDBACK.md](docs/FEEDBACK.md) | разбор обратной связи из Мастерской, открытые баги с диагнозом |
 | [ROADMAP.md](ROADMAP.md) / [docs/VISION.md](docs/VISION.md) | ближние выпуски / дальний замысел |
+| [docs/ICON_PROMPTS.md](docs/ICON_PROMPTS.md) | недостающие иконки: стиль мода в цифрах и промпты для генерации |
 | [tools/README.md](tools/README.md) | инструменты аудита |
 
 ## Команды
@@ -74,9 +75,20 @@ python3 tools/gen_flowcharts.py
 Влитый PR закрыт навсегда: дописывать в его ветку нельзя — коммит повиснет
 между релизами, а описание PR перестанет соответствовать тому, что в нём было.
 
+Проверять нужно **состояние пул-реквеста**, а не «влита ли ветка целиком»:
+
+```sh
+gh pr list --head <ветка> --state open      # пусто = открытого PR нет
+gh pr list --head <ветка> --state merged    # непусто = PR уже влит
+```
+
+Наивная проверка `git merge-base --is-ancestor HEAD origin/main` этот случай
+пропускает: стоит после мержа добавить в ветку хоть один коммит, как она
+перестаёт быть предком `main`, и проверка отвечает «не влита», хотя PR закрыт
+навсегда. Так уже случалось трижды.
+
 ```sh
 git fetch origin main
-git merge-base --is-ancestor HEAD origin/main && echo "ветка влита — начинайте заново"
 git log --oneline origin/main..HEAD          # что в ветке сверх main
 ```
 

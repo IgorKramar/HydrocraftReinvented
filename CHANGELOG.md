@@ -13,6 +13,14 @@
   записано имя файла с расширением (`HCCloth.png` вместо `HCCloth`), и движок
   такую иконку не находил — предметы висели пустыми квадратами. Нашлось
   аудитом нового инструмента `tools/make_icon.py`.
+- **Ещё пять предметов остались без иконок из-за кривых ссылок**: где-то
+  разошёлся регистр, где-то опечатка в имени файла (`HCPlasticspoonkbox`),
+  где-то лишняя буква. Файлы всё это время лежали на месте. Найдено тем же
+  аудитом.
+- **Четыре предмета получили новые иконки**: полицейская дубинка, кирка,
+  звонок на стойке и обёртка от батончика. Стол для вскрытия получил
+  недостающие состояния — с телом и в крови. Осталось восемь. Промпты
+  для остальных собраны в `docs/ICON_PROMPTS.md`.
 - Инструмент `tools/make_icon.py` для иконок новых предметов: перекраска
   в другой материал по палитрам, снятым с самого мода (деревянные рукояти
   при этом остаются деревянными), сборка «предмет в коробке», приведение
@@ -226,6 +234,12 @@
   an extension (`HCCloth.png` instead of `HCCloth`), which the engine cannot
   resolve — those items showed as blank squares. Found by the audit in the new
   `tools/make_icon.py`.
+- **Five more items had broken icon references**: a case mismatch, a typo in
+  the filename (`HCPlasticspoonkbox`), a stray letter. The files were there
+  all along. Found by the same audit.
+- **Four items got new icons**: police baton, pickaxe, desk bell and candy bar
+  wrapper. The dissection table got its missing states — with a corpse and
+  bloodied. Eight to go. Prompts for the rest live in `docs/ICON_PROMPTS.md`.
 - A `tools/make_icon.py` helper for new item icons: recolouring into another
   material using palettes lifted from the mod itself (wooden handles stay
   wooden), composing "item in a box", snapping outside artwork to the mod's

@@ -1084,7 +1084,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Cardboard Packaging,
-		Icon 		= HCMREsidetrash,
+		Icon 		= HCMREmealsidetrash,
 		Weight 		= 0.1,
 		ItemType 		= base:normal,
 		DisplayCategory	= Trash,
@@ -1111,7 +1111,7 @@ module Hydrocraft
     {
 
 		DisplayName 		= Plastic Packaging,
-		Icon 		= HCMREmealsideprepedtrash,
+		Icon 		= HCMREmealprepedtrash,
 		Weight 		= 0.01,
 		ItemType 		= base:normal,
 		DisplayCategory	= Trash,

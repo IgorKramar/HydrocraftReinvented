@@ -2597,10 +2597,17 @@ function HCgatherSeeds(items, resultItem, player) --0 = thing with seeds, 1=knif
 	end
 end
 
---calls vanilla code then adds a cigarette butt if desired
+-- Добавляет окурок, если это включено в песочнице.
+-- Вызова OnEat_Cigarettes здесь больше нет: в B41 эта глобаль держала логику
+-- курения, в B42 её нет — эффект даёт сам движок по полю StressChange предмета.
+-- Пока вызов оставался, обработчик падал на первой же строке, и окурки
+-- не появлялись ни разу.
 function HCOnEat_Cigarettes(food, character, percent)
-	OnEat_Cigarettes(food, character, percent) --calls vanilla smoking code
-	if(SandboxVars.Hydrocraft.SpawnCigaretteButts == true) then
+	-- SandboxVars.Hydrocraft в B42 равен nil: опции песочницы при порте
+	-- потерялись, остались только их переводы. Без опции окурки появляются —
+	-- иначе включить их было бы нечем.
+	local hcSandbox = SandboxVars and SandboxVars.Hydrocraft
+	if(hcSandbox == nil or hcSandbox.SpawnCigaretteButts ~= false) then
 		character:getInventory():AddItem("Hydrocraft.HCCigarettebutt")
 	end
 end

@@ -9,7 +9,11 @@ booksRemoveCover = {'Hydrocraft.HCBookanimalhusbandry','Hydrocraft.HCBookbedtime
 	local inv = player:getInventory()
 	inv:AddItem(booksRemoveCover[r]);
 
-	if SandboxVars.Hydrocraft.SpawnBookCovers then
+	-- SandboxVars.Hydrocraft в B42 равен nil: опции песочницы при порте
+	-- потерялись, остались только их переводы. Без опции обложка выдаётся —
+	-- иначе включить её было бы нечем.
+	local hcSandbox = SandboxVars and SandboxVars.Hydrocraft
+	if hcSandbox == nil or hcSandbox.SpawnBookCovers ~= false then
 		inv:AddItem("Hydrocraft.HCBookcover")
 	end
 

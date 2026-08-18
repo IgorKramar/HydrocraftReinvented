@@ -5,6 +5,10 @@
 5–15 августа. Цитаты сохранены на языке оригинала. Каждый пункт сверен
 с кодом — файл и строка указаны.*
 
+*Довесок от 18 августа: реакция на релиз v1.5.8–1.5.11 («Update is live»,
+17 авг). Пункты 7–17 ниже не разобраны и не чинились — только записаны.
+Разбор запланирован на выходные.*
+
 ---
 
 ## 🔴 Баги
@@ -151,6 +155,101 @@ B41). В `HCR_Weapons Bats.txt` — ноль `WorldStaticModel`. Рендери�
 **Исправлено в v1.5.9**: рецепту добавлен `CanBeDoneFromFloor` — теперь его
 видно на земле под открытым небом.
 
+### 7. ⏳ Рецепты требуют поверхность по умолчанию, даже когда не должны
+
+**Crossfit Jesus, 18 авг**:
+> Make wood planks recipe with the Sawbuck requires a surface which makes it
+> almost impossible to use it :/ same for stacking plank, stack / unstack
+> needs a surface. Need to check a bunch of recipes! […] most recipes if not
+> all needs a surface. Most of them dont really needs it but, dont know why
+> but its a by default requirement
+
+Похоже на системную проблему, не единичный рецепт — то же семейство багов,
+что уже чинили у «Feed the birds» (#6): `Tags = AnySurfaceCraft` навешан
+там, где по смыслу рецепта поверхность не нужна (козлы для распиловки,
+стек/расстек досок). Нужен обход всех рецептов на этот тег и проверка,
+где он лишний.
+
+### 8. ⏳ Семена — через «Pour on ground» вместо отдельного действия
+
+**Crossfit Jesus, 18 авг**:
+> Some food, like bell peper and some other, has "Pour on ground" to obtain
+> seeds
+
+### 9. ⏳ Соль для консервации редко встречается в луте
+
+**Crossfit Jesus, 18 авг**: то же семейство, что и лут батареек/бура (#4),
+но по другому предмету — весы не проверялись.
+
+### 10. ⏳ Труп зомби нельзя носить в инвентаре — стол для вскрытия бесполезен
+
+**Crossfit Jesus, 18 авг**:
+> the fact that you cant have zombies corpses on inventory makes Dissect
+> corpse useless. U could also butcher zombies corpses in order to uses the
+> bones IIRC (the meat was contaminated) U Also could produce charcoal with
+> corpses, very very handy, since u need a insane amount of charcoal late
+> game. Funny enough u can debug corpse (male or female) in your inventory,
+> maybe add an option to put corpse in inventory?
+
+Через дебаг-меню труп в инвентарь кладётся — то есть движок это не
+запрещает в принципе, вопрос в правах доступа к предмету. Предложение
+(разделка на кости, уголь из трупа) — уже расширение, не просто починка.
+
+### 11. ⏳ Офисный лут не спавнится
+
+**Crossfit Jesus, 18 авг**:
+> In offices, u should be able to find many "office item", like stapples
+> box, computer items, and many more i dont remember unfortunatly..!
+
+### 12. ⏳ Детское питание и MRE редко в луте
+
+**Crossfit Jesus, 18 авг**: «Baby food pots, MREs needs to be foundable
+easily too» — то же семейство весов, что #4 и #9.
+
+### 13. ⏳ Дублирующиеся предметы без модели засоряют лут
+
+**Crossfit Jesus, 18 авг**:
+> many items, like suitcase, and "bags" like that doesnt have any model and
+> are duplicate from vanilla game, pollute the loots a bit
+
+Возможно, кандидаты на вырезание по той же философии «дополнить, не
+задублировать» — нужно свериться, чем они отличаются от ванильных.
+
+### 14. ⏳ Мелкий контейнерный лут слишком редкий
+
+**Crossfit Jesus, 18 авг**, пять позиций разом:
+> Ziplock bags, tupperwares […] Plastic large bin seems to be very very rare
+> (electronic workbench) Sewing pins / box of, is the same (taxidermy
+> workbench) clothespins / box of seems to be as rare as auger. U need those
+> for lategame craft.
+
+Прищепки сравниваются с буром (`HCAuger`) — тем самым, что уже чинили
+в #4, значит вес там тоже около 0.1.
+
+### 15. ⏳ «Uncover book» не выдаёт обложку и кидает ошибку
+
+**Crossfit Jesus, 18 авг**:
+> Uncover book recipe doesnt work properly. The book appears but not the
+> cover (useless item btw). An error popup at the right moment u uncover the
+> book.
+
+### 16. ⏳ Поддон кирпича не встречается в луте
+
+**Crossfit Jesus, 18 авг**:
+> Pallet of brick (grey or brown) is a must to find to build industrial
+> furnace. Seems impossible to find yet (its not supposed to be that rare)
+
+### 17. ⏳ Посохи всё ещё невидимы в руках
+
+**Gentoo, 18 авг**: «Посохи все еще не видимы».
+
+Прямое продолжение #3 (невидимое оружие): посохи не входят в семь
+предметов, починенных в v1.5.9 (`HCR_WeaponModels.txt`), — значит, у них
+либо нет своего меша в моде, либо `tools/weapon_models.py --game` ещё
+не запускался по ним. Нужно запустить инструмент и проверить, в какую
+из трёх групп (готовые / чинятся своим мешем / нужна ванильная модель)
+они попадают.
+
 ---
 
 ## ✅ Уже закрыто (для ответов в треде)
@@ -244,6 +343,13 @@ Haase (9 авг) отдельно спрашивал, не стоит ли пр�
 сыр, алкоголь, ульи — привязанные к часам сервера. Ответ обещан отдельным
 постом; по сути это его же тема из треда предложений.
 
+**Nutsashell, 17 авг**:
+> Is this mod safe to remove mid game? […] will it corrupt my save or just
+> remove the items so I can continue?
+
+В апдейте от 17 авг автор написал, что ответит в треде обсуждений — пока
+не ответил.
+
 ---
 
 ## 🗣️ Фон
@@ -275,3 +381,17 @@ Haase (9 авг) отдельно спрашивал, не стоит ли пр�
 
 Из предложений дешевле всего массовая упаковка и калорийность еды: чистые
 скрипты, без движковых систем.
+
+**Довесок от 18 авг, к разбору на выходных:**
+
+6. **Тег поверхности не по адресу** (#7) — тот же класс бага, что #6,
+   но заявлен как массовый, стоит проверить первым.
+7. **Посохи** (#17) — прямое продолжение #3, инструмент для диагностики
+   уже есть (`tools/weapon_models.py`), нужен только прогон с игрой.
+8. **Лут** (#9, #12, #14) — третья волна жалоб на веса после #4, тот же
+   разбор `ProceduralDistributions_HC.lua`.
+9. **`Uncover book`** (#15) — конкретная ошибка с воспроизведением,
+   должно чиниться быстро при наличии текста ошибки от игрока.
+10. Остальное (#8, #10, #11, #13, #16) — по одному репорту, без
+    подтверждения вторым игроком; #10 к тому же не баг, а предложение
+    новой механики.

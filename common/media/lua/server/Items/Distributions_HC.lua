@@ -181,7 +181,7 @@ local zombie_items = {
         "Base.Worm", 0.25,
         "Base.Book", 0.2,
 
-        "Base.WaterBottleEmpty", 0.3,
+        "Base.WaterBottle", 0.3,
         "Base.BandageDirty", 0.2,
         "Base.Headphones", 0.2,
 }
@@ -556,7 +556,6 @@ SuburbsDistributions["HCCampingpack"] = {
                 "Hydrocraft.HCEnergybar", 1,
                 "Hydrocraft.HCTrailmix", 1,
                 "Hydrocraft.HCMRE", 1,
-                "camping.CampingTentKit", 1,
         },
         fillRand = 5,
 };
@@ -624,9 +623,9 @@ SuburbsDistributions["HCBriefcase"] = {
                 "Base.LetterOpener", 1,
                 "Base.Scissors", 1,
                 "Base.Eraser", 1,
-                "Base.SheetPaper", 1,
-                "Base.SheetPaper", 1,
-                "Base.SheetPaper", 1,
+                "Base.SheetPaper2", 1,
+                "Base.SheetPaper2", 1,
+                "Base.SheetPaper2", 1,
                 "Hydrocraft.HCPencilbox", 1,
                 "Hydrocraft.HCPenbox", 1,
                 "Hydrocraft.HCPostitpad", 1,
@@ -723,7 +722,7 @@ SuburbsDistributions["HCCosmeticcase"] = {
                 "Base.MakeupEyeshadow", 50,
                 "Base.MakeupFoundation", 50,
                 "Base.Comb", 50,
-                "Base.Hairspray", 50,
+                "Base.Hairspray2", 50,
                 "Base.Mirror", 50,
                 "Base.Perfume", 10,
                 "Base.CottonBalls", 10,
@@ -769,8 +768,6 @@ SuburbsDistributions["HCToolbox"] = {
 SuburbsDistributions["HCFishingbox"] = {
         rolls = 1,
         items = {
-                "Base.FishingTackle", 50,
-                "Base.FishingTackle2", 50,
                 "Base.FishingRod", 50,
                 "Base.FishingLine", 50,
                 "Base.FishingNet", 10,
@@ -783,11 +780,6 @@ SuburbsDistributions["HCFishingbox"] = {
 SuburbsDistributions["HCShoebox"] = {
         rolls = 1,
         items = {
-                "Base.Shoes", 50,
-                "Hydrocraft.HCBoots", 50,
-                "Hydrocraft.HCFlipflops", 50,
-                "Hydrocraft.HCCleats", 50,
-                "Hydrocraft.HCBootconstruction", 50,
         },
         fillRand = 0,
 };
@@ -837,7 +829,6 @@ SuburbsDistributions["HCAnimalcage"] = {
                 "Hydrocraft.HCCatgingerfemale", 10,
                 "Hydrocraft.HCCatsilvermale", 10,
                 "Hydrocraft.HCCatsilverfemale", 10,
-                "Hydrocraft.HCCatwhitemale", 10,
                 "Hydrocraft.HCCatwhitefemale", 10,
         },
         fillRand = 0,

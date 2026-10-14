@@ -1425,8 +1425,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWhisk;Base.Spoon;Hydrocraft.HCPlasticspoon;Hydrocraft.HCWoodenspoon;Hydrocraft.HCSpork] mode:keep,
-            item 1 [Base.Saucepan] mode:destroy,
-            item 1 [Hydrocraft.HCJellopacketchocolate],
+            item 1 [Base.Saucepan] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCJellopacketchocolate] flags[ItemCount],
         }
         outputs
         {
@@ -1444,7 +1444,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWhisk;Base.Spoon;Hydrocraft.HCPlasticspoon;Hydrocraft.HCWoodenspoon;Hydrocraft.HCSpork] mode:keep,
-            item 1 [Base.Saucepan] mode:destroy,
+            item 1 [Base.Saucepan] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCJellopacketvanilla],
         }
         outputs
@@ -1463,8 +1463,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcsaucepan,
         inputs
         {
-            item 1 [Hydrocraft.HCJellochocolateprep],
-            item 4 [Base.Bowl],
+            item 1 [Hydrocraft.HCJellochocolateprep] flags[ItemCount],
+            item 4 [Base.Bowl] flags[ItemCount],
         }
         outputs
         {
@@ -1483,7 +1483,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJellovanillaprep],
-            item 4 [Base.Bowl],
+            item 4 [Base.Bowl] flags[ItemCount],
         }
         outputs
         {
@@ -1501,8 +1501,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWhisk;Base.Spoon;Hydrocraft.HCPlasticspoon;Hydrocraft.HCWoodenspoon;Hydrocraft.HCSpork] mode:keep,
-            item 1 [Base.Saucepan] mode:destroy,
-            item 1 [Hydrocraft.HCJellopacketapple],
+            item 1 [Base.Saucepan] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCJellopacketapple] flags[ItemCount],
         }
         outputs
         {
@@ -1520,8 +1520,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcsaucepan,
         inputs
         {
-            item 1 [Hydrocraft.HCJelloappleprep],
-            item 1 [Hydrocraft.HCJellomold1],
+            item 1 [Hydrocraft.HCJelloappleprep] flags[ItemCount],
+            item 1 [Hydrocraft.HCJellomold1] flags[ItemCount],
         }
         outputs
         {
@@ -1539,7 +1539,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcjellomold,
         inputs
         {
-            item 1 [Hydrocraft.HCJelloapple1cold],
+            item 1 [Hydrocraft.HCJelloapple1cold] flags[ItemCount],
         }
         outputs
         {
@@ -1555,8 +1555,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 2 [Hydrocraft.HCJelloapplecubes],
-            item 1 [Base.Bowl],
+            item 2 [Hydrocraft.HCJelloapplecubes] flags[ItemCount],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 5 [Hydrocraft.HCWhippedcreamcan],
         }
         outputs
@@ -1575,8 +1575,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWhisk;Base.Spoon;Hydrocraft.HCPlasticspoon;Hydrocraft.HCWoodenspoon;Hydrocraft.HCSpork] mode:keep,
-            item 1 [Base.Saucepan] mode:destroy,
-            item 1 [Hydrocraft.HCJellopacketblueberry],
+            item 1 [Base.Saucepan] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCJellopacketblueberry] flags[ItemCount],
         }
         outputs
         {
@@ -1594,8 +1594,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcsaucepan,
         inputs
         {
-            item 1 [Hydrocraft.HCJelloblueberryprep],
-            item 1 [Hydrocraft.HCJellomold1],
+            item 1 [Hydrocraft.HCJelloblueberryprep] flags[ItemCount],
+            item 1 [Hydrocraft.HCJellomold1] flags[ItemCount],
         }
         outputs
         {
@@ -1613,7 +1613,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcjellomold,
         inputs
         {
-            item 1 [Hydrocraft.HCJelloblueberry1cold],
+            item 1 [Hydrocraft.HCJelloblueberry1cold] flags[ItemCount],
         }
         outputs
         {
@@ -1629,8 +1629,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 2 [Hydrocraft.HCJelloblueberrycubes],
-            item 1 [Base.Bowl],
+            item 2 [Hydrocraft.HCJelloblueberrycubes] flags[ItemCount],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 5 [Hydrocraft.HCWhippedcreamcan],
         }
         outputs
@@ -1649,8 +1649,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWhisk;Base.Spoon;Hydrocraft.HCPlasticspoon;Hydrocraft.HCWoodenspoon;Hydrocraft.HCSpork] mode:keep,
-            item 1 [Base.Saucepan] mode:destroy,
-            item 1 [Hydrocraft.HCJellopacketcherry],
+            item 1 [Base.Saucepan] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCJellopacketcherry] flags[ItemCount],
         }
         outputs
         {
@@ -1668,8 +1668,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcsaucepan,
         inputs
         {
-            item 1 [Hydrocraft.HCJellocherryprep],
-            item 1 [Hydrocraft.HCJellomold1],
+            item 1 [Hydrocraft.HCJellocherryprep] flags[ItemCount],
+            item 1 [Hydrocraft.HCJellomold1] flags[ItemCount],
         }
         outputs
         {
@@ -1687,7 +1687,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcjellomold,
         inputs
         {
-            item 1 [Hydrocraft.HCJellocherry1cold],
+            item 1 [Hydrocraft.HCJellocherry1cold] flags[ItemCount],
         }
         outputs
         {
@@ -1703,8 +1703,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 2 [Hydrocraft.HCJellocherrycubes],
-            item 1 [Base.Bowl],
+            item 2 [Hydrocraft.HCJellocherrycubes] flags[ItemCount],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 5 [Hydrocraft.HCWhippedcreamcan],
         }
         outputs
@@ -1723,8 +1723,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWhisk;Base.Spoon;Hydrocraft.HCPlasticspoon;Hydrocraft.HCWoodenspoon;Hydrocraft.HCSpork] mode:keep,
-            item 1 [Base.Saucepan] mode:destroy,
-            item 1 [Hydrocraft.HCJellopacketlemon],
+            item 1 [Base.Saucepan] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCJellopacketlemon] flags[ItemCount],
         }
         outputs
         {
@@ -1742,8 +1742,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcsaucepan,
         inputs
         {
-            item 1 [Hydrocraft.HCJellolemonprep],
-            item 1 [Hydrocraft.HCJellomold1],
+            item 1 [Hydrocraft.HCJellolemonprep] flags[ItemCount],
+            item 1 [Hydrocraft.HCJellomold1] flags[ItemCount],
         }
         outputs
         {
@@ -1761,7 +1761,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcjellomold,
         inputs
         {
-            item 1 [Hydrocraft.HCJellolemon1cold],
+            item 1 [Hydrocraft.HCJellolemon1cold] flags[ItemCount],
         }
         outputs
         {
@@ -1777,8 +1777,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 2 [Hydrocraft.HCJellolemoncubes],
-            item 1 [Base.Bowl],
+            item 2 [Hydrocraft.HCJellolemoncubes] flags[ItemCount],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 5 [Hydrocraft.HCWhippedcreamcan],
         }
         outputs
@@ -1797,8 +1797,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWhisk;Base.Spoon;Hydrocraft.HCPlasticspoon;Hydrocraft.HCWoodenspoon;Hydrocraft.HCSpork] mode:keep,
-            item 1 [Base.Saucepan] mode:destroy,
-            item 1 [Hydrocraft.HCJellopacketorange],
+            item 1 [Base.Saucepan] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCJellopacketorange] flags[ItemCount],
         }
         outputs
         {
@@ -1816,8 +1816,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcsaucepan,
         inputs
         {
-            item 1 [Hydrocraft.HCJelloorangeprep],
-            item 1 [Hydrocraft.HCJellomold1],
+            item 1 [Hydrocraft.HCJelloorangeprep] flags[ItemCount],
+            item 1 [Hydrocraft.HCJellomold1] flags[ItemCount],
         }
         outputs
         {
@@ -1835,7 +1835,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcjellomold,
         inputs
         {
-            item 1 [Hydrocraft.HCJelloorange1cold],
+            item 1 [Hydrocraft.HCJelloorange1cold] flags[ItemCount],
         }
         outputs
         {
@@ -1851,8 +1851,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 2 [Hydrocraft.HCJelloorangecubes],
-            item 1 [Base.Bowl],
+            item 2 [Hydrocraft.HCJelloorangecubes] flags[ItemCount],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 5 [Hydrocraft.HCWhippedcreamcan],
         }
         outputs
@@ -1871,8 +1871,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWhisk;Base.Spoon;Hydrocraft.HCPlasticspoon;Hydrocraft.HCWoodenspoon;Hydrocraft.HCSpork] mode:keep,
-            item 1 [Base.Saucepan] mode:destroy,
-            item 1 [Hydrocraft.HCJellopacketlime],
+            item 1 [Base.Saucepan] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCJellopacketlime] flags[ItemCount],
         }
         outputs
         {
@@ -1890,8 +1890,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcsaucepan,
         inputs
         {
-            item 1 [Hydrocraft.HCJellolimeprep],
-            item 1 [Hydrocraft.HCJellomold1],
+            item 1 [Hydrocraft.HCJellolimeprep] flags[ItemCount],
+            item 1 [Hydrocraft.HCJellomold1] flags[ItemCount],
         }
         outputs
         {
@@ -1909,7 +1909,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcjellomold,
         inputs
         {
-            item 1 [Hydrocraft.HCJellolime1cold],
+            item 1 [Hydrocraft.HCJellolime1cold] flags[ItemCount],
         }
         outputs
         {
@@ -1925,8 +1925,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 2 [Hydrocraft.HCJellolimecubes],
-            item 1 [Base.Bowl],
+            item 2 [Hydrocraft.HCJellolimecubes] flags[ItemCount],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 5 [Hydrocraft.HCWhippedcreamcan],
         }
         outputs
@@ -1945,8 +1945,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWhisk;Base.Spoon;Hydrocraft.HCPlasticspoon;Hydrocraft.HCWoodenspoon;Hydrocraft.HCSpork] mode:keep,
-            item 1 [Base.Saucepan] mode:destroy,
-            item 1 [Hydrocraft.HCJellopacketwatermelon],
+            item 1 [Base.Saucepan] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCJellopacketwatermelon] flags[ItemCount],
         }
         outputs
         {
@@ -1964,8 +1964,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcsaucepan,
         inputs
         {
-            item 1 [Hydrocraft.HCJellowatermelonprep],
-            item 1 [Hydrocraft.HCJellomold1],
+            item 1 [Hydrocraft.HCJellowatermelonprep] flags[ItemCount],
+            item 1 [Hydrocraft.HCJellomold1] flags[ItemCount],
         }
         outputs
         {
@@ -1983,7 +1983,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcjellomold,
         inputs
         {
-            item 1 [Hydrocraft.HCJellowatermelon1cold],
+            item 1 [Hydrocraft.HCJellowatermelon1cold] flags[ItemCount],
         }
         outputs
         {
@@ -1999,8 +1999,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 2 [Hydrocraft.HCJellowatermeloncubes],
-            item 1 [Base.Bowl],
+            item 2 [Hydrocraft.HCJellowatermeloncubes] flags[ItemCount],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 5 [Hydrocraft.HCWhippedcreamcan],
         }
         outputs
@@ -2019,8 +2019,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWhisk;Base.Spoon;Hydrocraft.HCPlasticspoon;Hydrocraft.HCWoodenspoon;Hydrocraft.HCSpork] mode:keep,
-            item 1 [Base.Saucepan] mode:destroy,
-            item 1 [Hydrocraft.HCJellopacketstrawberry],
+            item 1 [Base.Saucepan] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCJellopacketstrawberry] flags[ItemCount],
         }
         outputs
         {
@@ -2038,8 +2038,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcsaucepan,
         inputs
         {
-            item 1 [Hydrocraft.HCJellostrawberryprep],
-            item 1 [Hydrocraft.HCJellomold1],
+            item 1 [Hydrocraft.HCJellostrawberryprep] flags[ItemCount],
+            item 1 [Hydrocraft.HCJellomold1] flags[ItemCount],
         }
         outputs
         {
@@ -2057,7 +2057,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcjellomold,
         inputs
         {
-            item 1 [Hydrocraft.HCJellostrawberry1cold],
+            item 1 [Hydrocraft.HCJellostrawberry1cold] flags[ItemCount],
         }
         outputs
         {
@@ -2073,8 +2073,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 2 [Hydrocraft.HCJellostrawberrycubes],
-            item 1 [Base.Bowl],
+            item 2 [Hydrocraft.HCJellostrawberrycubes] flags[ItemCount],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 5 [Hydrocraft.HCWhippedcreamcan],
         }
         outputs
@@ -2091,7 +2091,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJelloapple1],
+            item 1 [Hydrocraft.HCJelloapple1] flags[ItemCount],
             item 1 [Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -2108,7 +2108,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJelloblueberry1],
+            item 1 [Hydrocraft.HCJelloblueberry1] flags[ItemCount],
             item 1 [Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -2125,7 +2125,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJellocherry1],
+            item 1 [Hydrocraft.HCJellocherry1] flags[ItemCount],
             item 1 [Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -2142,7 +2142,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJellolemon1],
+            item 1 [Hydrocraft.HCJellolemon1] flags[ItemCount],
             item 1 [Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -2159,7 +2159,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJellolime1],
+            item 1 [Hydrocraft.HCJellolime1] flags[ItemCount],
             item 1 [Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -2176,7 +2176,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJelloorange1],
+            item 1 [Hydrocraft.HCJelloorange1] flags[ItemCount],
             item 1 [Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -2192,7 +2192,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCJellostrawberry1],
+            item 1 [Hydrocraft.HCJellostrawberry1] flags[ItemCount],
             item 1 [Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -2208,7 +2208,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCJellowatermelon1],
+            item 1 [Hydrocraft.HCJellowatermelon1] flags[ItemCount],
             item 1 [Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs

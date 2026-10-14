@@ -389,7 +389,7 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Bowl],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 1 [Base.Ketchup;Hydrocraft.HCKetchup],
             item 1 [Base.Sugar],
             item 1 [Hydrocraft.HCWhisk] mode:keep,
@@ -412,7 +412,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pan] mode:keep,
-            item 1 [Base.Steak],
+            item 1 [Base.Steak] flags[ItemCount],
             item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
         }
         outputs
@@ -433,7 +433,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pan] mode:keep,
-            item 1 [Base.Salmon],
+            item 1 [Base.Salmon] flags[ItemCount],
             item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
         }
         outputs
@@ -454,7 +454,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pan] mode:keep,
-            item 1 [Base.Chicken],
+            item 1 [Base.Chicken] flags[ItemCount],
             item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
         }
         outputs
@@ -475,7 +475,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pan] mode:keep,
-            item 1 [Hydrocraft.HCDuckmeat],
+            item 1 [Hydrocraft.HCDuckmeat] flags[ItemCount],
             item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
         }
         outputs
@@ -496,7 +496,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pan] mode:keep,
-            item 1 [Hydrocraft.HCGoosemeat],
+            item 1 [Hydrocraft.HCGoosemeat] flags[ItemCount],
             item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
         }
         outputs
@@ -538,7 +538,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pan] mode:keep,
-            item 1 [Base.DeadRat],
+            item 1 [Base.DeadRat] flags[ItemCount],
             item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
         }
         outputs
@@ -559,7 +559,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pan] mode:keep,
-            item 1 [Hydrocraft.HCBunchofshrooms],
+            item 1 [Hydrocraft.HCBunchofshrooms] flags[ItemCount],
             item 1 [Hydrocraft.HCBBQsauce;Hydrocraft.HCBBQsaucebowl],
         }
         outputs
@@ -578,7 +578,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCChopsticks],
-            item 1 [Hydrocraft.HCBunchofshrooms],
+            item 1 [Hydrocraft.HCBunchofshrooms] flags[ItemCount],
         }
         outputs
         {
@@ -598,7 +598,7 @@ module Hydrocraft
         {
             item 1 [Base.BakingTray] mode:keep,
             item 1 [Base.KitchenKnife] mode:keep,
-            item 1 [Base.Eggplant],
+            item 1 [Base.Eggplant] flags[ItemCount],
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
         }
         outputs
@@ -619,10 +619,10 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pan] mode:keep,
-            item 1 [Base.FrogMeat],
+            item 1 [Base.FrogMeat] flags[ItemCount],
             item 1 [Base.Salt],
             item 1 [Base.Pepper],
-            item 1 tags[Egg] mode:keep,
+            item 1 tags[Egg] flags[ItemCount],
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
         }
@@ -644,7 +644,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.KitchenKnife] mode:keep,
-            item 1 [Base.FishFillet;Base.Salmon;Hydrocraft.HCHerring;Hydrocraft.HCCrab;Base.Steak;Hydrocraft.HCCougarsteak;Base.MuttonChop;Base.PorkChop;Hydrocraft.HCFreshham;Base.Ham;Base.Chicken;Hydrocraft.HCBearsteak;Hydrocraft.HCVenison;Hydrocraft.HCCheval;Hydrocraft.HCSmallgamesteak;Base.Rabbitmeat;Base.Smallanimalmeat;Base.Smallbirdmeat;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.FrogMeat;Base.TurkeyFillet],
+            item 1 [Base.FishFillet;Base.Salmon;Hydrocraft.HCHerring;Hydrocraft.HCCrab;Base.Steak;Hydrocraft.HCCougarsteak;Base.MuttonChop;Base.PorkChop;Hydrocraft.HCFreshham;Base.Ham;Base.Chicken;Hydrocraft.HCBearsteak;Hydrocraft.HCVenison;Hydrocraft.HCCheval;Hydrocraft.HCSmallgamesteak;Base.Rabbitmeat;Base.Smallanimalmeat;Base.Smallbirdmeat;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.FrogMeat;Base.TurkeyFillet] flags[ItemCount],
         }
     }
     craftRecipe Make Shish Kebab
@@ -659,7 +659,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCChopsticks],
             item 5 [Hydrocraft.HCMeatCubes],
-            item 1 [Base.Onion],
+            item 1 [Base.Onion] flags[ItemCount],
             item 1 [Base.Cabbage;Base.Lettuce;Base.BellPepper;Hydrocraft.HCBellpeppergreen;Hydrocraft.HCBellpepperyellow;Base.Eggplant;Hydrocraft.HCOniongreen;Hydrocraft.HCGarlic;Base.Broccoli;Base.Carrots;Base.Potato;Hydrocraft.HCPotatogolden;Hydrocraft.HCPotatored;Base.Zucchini;Base.Tomato],
             item 1 [Base.KitchenKnife] mode:keep,
         }

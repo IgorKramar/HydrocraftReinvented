@@ -6,6 +6,27 @@
 
 ## Русский
 
+### v1.5.12 — 2026-10-14 — доводка играбельности на 42.21.0
+
+- Восемь новых растений используют исходный ящик из hcBuilding2x без изменения
+  пропорций; прозрачный отступ предотвращает обрезание его основания землёй.
+- Томат и обе капусты перерисованы через fal с настоящей прозрачностью, чтобы
+  устранить белую кайму исходных генераций.
+
+- Исправлены ошибки traits API, MRE, устаревшие vanilla IDs и расход ингредиентов:
+  целая еда, упаковки, физические ёмкости и сохраняемые кузнечные щипцы.
+- Порции еды наследуют свежесть и свойства исходного продукта; питательность
+  распределяется между результатами, посуда возвращается только после опустошения.
+- Возвращены таймеры горшечных растений, сыра и ульев с серверным авторитетом.
+  Добавлены доступный рецепт стальной балки и недостающие пути снабжения.
+- Исправлены модели оружия и регистрация одежды. Носимая кольчуга получает
+  отдельный ID, чтобы старые экземпляры могли безопасно загрузиться и мигрировать.
+- Добавлены восемь отсутствовавших иконок растений, текстура кольчуги, иконка
+  кремниевого порошка и модель существующей ловушки через fal.ai;
+  происхождение записано в `docs/ASSET_PROVENANCE.json`.
+- Проверки и оставшиеся ограничения: [отчёт доводки](docs/PLAYABILITY_VERIFICATION.md).
+  Проверено на 42.21.0; отчёт описывает границы проверок и оставшуюся работу.
+
 ### v1.5.11 — 2026-08-16
 
 **Иконки:**
@@ -240,6 +261,22 @@
 ---
 
 ## English
+
+### v1.5.12 — 2026-10-14 — Build 42.21.0 playability update
+
+- Corrected traits API use, MRE declarations, obsolete item IDs, whole ingredient
+  consumption, empty containers and reusable smithing tools.
+- Food portions retain their source state and share its nutrition; dishes return
+  only after their contents have been consumed. Native fluid quantities and drink
+  packaging now have in-game conservation checks.
+- Restored server-authoritative plant, cheese and hive timers, reachable production
+  routes, clothing registration and safe migration of saved chainmail.
+- Repaired weapon model references, added ten fal-generated textures and a new
+  model for the existing trap. Provenance is recorded in docs/ASSET_PROVENANCE.json.
+- Eight plant icons use original atlas planter geometry and correct ground alignment.
+  Tomato and both cabbage canopies were regenerated with transparent alpha.
+- See the [verification report](docs/PLAYABILITY_VERIFICATION.md)
+  for measured results and remaining limits.
 
 ### v1.5.11 — 2026-08-16
 

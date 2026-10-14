@@ -349,7 +349,6 @@ local tools_crate_items = {
         "Hydrocraft.HCFlashlightoff", 1,
         "Hydrocraft.HCMasontrowel", 1,
         "Hydrocraft.HCSurvivalaxe", 0.1,
-        "Hydrocraft.HCMachete", 0.1,
         "Hydrocraft.HCAluminiumbat", 1,
         "Hydrocraft.HCTypewriter", 0.1,
         "Hydrocraft.HCHanddolly", 1,
@@ -375,7 +374,7 @@ insertItemListsInProcDistribution( "CrateTools", {   tools_crate_items  } , 0.53
 local gigamart_baking_misc_items = {
         "Hydrocraft.HCTortillacornbag", 1,
         "Hydrocraft.HCTortillaflourbag", 1,
-        "Hydrocraft.Cornflour", 1,
+        "Base.Cornflour2", 1,
         "Hydrocraft.HCTortillachipsbag", 1,
         "Hydrocraft.HCWaxpaper", 1,
         "Hydrocraft.HCPapertowel", 1,
@@ -994,7 +993,7 @@ local kitchen_breakfast_items = {
         "Hydrocraft.HCJellopacketvanilla", 1,
         "Hydrocraft.HCTortillacornbag", 1,
         "Hydrocraft.HCTortillaflourbag", 1,
-        "Hydrocraft.Cornflour", 1,
+        "Base.Cornflour2", 1,
         "Hydrocraft.HCHoney", 1,
         "Hydrocraft.HCCornsyrup", 1,
         "Hydrocraft.HCJamhuckleberry", 1,
@@ -1153,8 +1152,6 @@ local bakery_items = {
 
         "Hydrocraft.HCPieapple", 1,
         "Hydrocraft.HCPieblueberry", 1,
-        "Hydrocraft.HCPiepeachbaked", 1,
-        "Hydrocraft.HCPiepearbaked", 1,
         "Hydrocraft.HCPiepumpkin", 1,
         "Hydrocraft.HCPiecherry", 1,
         "Hydrocraft.HCPieblackberry", 1,
@@ -1268,7 +1265,7 @@ local postoffice_boxes_items = {
         --"Hydrocraft.HCSealedletter7", 5,
         "Hydrocraft.HCCardboardbox", 5,
         "Hydrocraft.HCCardboardboxstack", 5,
-        "Hydrocraft.RubberBand", 5,
+        "Base.RubberBand", 5,
         "Hydrocraft.HCRubberbandbox", 5,
         "Hydrocraft.HCMetalbox", 1,
         "Hydrocraft.HCBubblewrap", 1,
@@ -1529,7 +1526,7 @@ local pizza_kitchen_serving_items = {
         "Hydrocraft.HCPizzadeliverybag", 1,
 };
 local pizza_kitchen_sauce_items = {
-        "Hydrocraft.HCAlfredosauce"
+        "Hydrocraft.HCAlfredosauce", 1,
 };
 local pizza_kitchen_cheese_items = {
         "Hydrocraft.HCPizzastone", 1,
@@ -1812,12 +1809,6 @@ local magazines_items = {
 	--"Magazine", 20,
 	--"Magazine", 10,
 	--"Magazine", 10,
-	"MagazineCrossword1", 1,
-	"MagazineCrossword2", 1,
-	"MagazineCrossword3", 1,
-	"MagazineWordsearch1", 1,
-	"MagazineWordsearch2", 1,
-	"MagazineWordsearch3", 1,
 	"MechanicMag1", 1,
 	"MechanicMag2", 1,
 	"MechanicMag3", 1,

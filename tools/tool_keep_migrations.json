@@ -1,0 +1,3658 @@
+{
+  "upstream": "brosseaualex/Hydrocraft",
+  "commit": "917d37d4ed526f429e1525316c9fab487bbf7257",
+  "policy": "133 output-matched pinned upstream keep Tongs lines, plus8 explicitly reviewed B42 auxiliary tool roles. Construction-component Tongs in Gem Cutter remains consumed; fire charges remain consumed. Separate evidence categories are not interchangeable.",
+  "migrations": [
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Helmet (Steel Helmet)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Helmet",
+          "result": "HCHelmsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Helmet (Iron Helmet)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Helmet",
+          "result": "HCHelmiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Helmet (Bronze Helmet)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Helmet",
+          "result": "HCHelmbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Helmet (Copper Helmet)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Helmet",
+          "result": "HCHelmcopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Gauntlets",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Gauntlets",
+          "result": "HCGlovechainmail",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Gauntlets (Steel Gauntlets)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Gauntlets",
+          "result": "HCGlovesteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Gauntlets (Iron Gauntlets)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Gauntlets",
+          "result": "HCGloveiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Gauntlets (Bronze Gauntlets)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Gauntlets",
+          "result": "HCGlovebronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Gauntlets (Bronze Gauntlets 2)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Gauntlets",
+          "result": "HCGlovecopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Arm Guards",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Arm Guards",
+          "result": "HCArmarmorsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Arm Guards (Iron Arm Guards)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Arm Guards",
+          "result": "HCArmarmoriron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Arm Guards (Bronze Arm Guards)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Arm Guards",
+          "result": "HCArmarmorbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Arm Guards (Copper Arm Guards)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Arm Guards",
+          "result": "HCArmarmorcopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Armor",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Armor",
+          "result": "HCArmorchainmail",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Armor (Scalemail Armor)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Armor",
+          "result": "HCArmorscalemail",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Armor (Steel Armor)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Armor",
+          "result": "HCArmorsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Armor (Iron Armor)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Armor",
+          "result": "HCArmoriron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Armor (Bronze Armor)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Armor",
+          "result": "HCArmorbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Armor (Copper Armor)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Armor",
+          "result": "HCArmorcopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Leg Guards",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Leg Guards",
+          "result": "HCLegarmorchainmail",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Leg Guards (Scalemail Leg Guards)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Leg Guards",
+          "result": "HCLegarmorscalemail",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Leg Guards (Steel Leg Guards)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Leg Guards",
+          "result": "HCLegarmorsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Leg Guards (Iron Leg Guards)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Leg Guards",
+          "result": "HCLegarmoriron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Leg Guards (Bronze Leg Guards)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Leg Guards",
+          "result": "HCLegarmorbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Leg Guards (Copper Leg Guards)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Leg Guards",
+          "result": "HCLegarmorcopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Greaves",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Greaves",
+          "result": "HCBootsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Shield",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Shield",
+          "result": "HCShieldsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Shield (Iron Shield)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Shield",
+          "result": "HCShieldiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Shield (Bronze Shield)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Shield",
+          "result": "HCShieldbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Shield (Copper Shield)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Armor.txt",
+          "recipe": "Make Shield",
+          "result": "HCShieldcopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Make Aluminum Jar Lid",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Food Jarred Fruit.txt",
+          "recipe": "Make Aluminum Jar Lid",
+          "result": "JarLid",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Copper Gears",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Gears",
+          "result": "HCGearcopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Tin Gears",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Gears",
+          "result": "HCGeartin",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Bronze Gears",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Gears",
+          "result": "HCGearbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Iron Gears",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Gears",
+          "result": "HCGeariron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Invar Gears",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Gears",
+          "result": "HCGearinvar",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Lead Gears",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Gears",
+          "result": "HCGearlead",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Steel Gears",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Gears",
+          "result": "HCGearsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Titanium Gears",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Gears",
+          "result": "HCGeartitanium",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Giant Magnet",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Giant Magnet",
+          "result": "HCMagnetgiant",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Small Rolling Mill",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Small Rolling Mill",
+          "result": "HCRollingmillsmall",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Copper Wire",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Copper Wire",
+          "result": "HCWirecopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Electrum Wire",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Electrum Wire",
+          "result": "ElectricWire",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Lead Wire",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Lead Wire",
+          "result": "HCWirelead",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Iron Wire",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Iron Wire",
+          "result": "Wire",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Steel Wire",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Steel Wire",
+          "result": "HCWiresteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Zinc Wire",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Zinc Wire",
+          "result": "HCWirezinc",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Aluminum Wire",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Aluminum Wire",
+          "result": "HCWirealuminum",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Aluminum Foil",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Aluminum Foil",
+          "result": "Aluminum",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Constantan Wire",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Constantan Wire",
+          "result": "HCWireconstantan",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Constantan Heating Coil",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Constantan Heating Coil",
+          "result": "HCConstantanheatingcoil",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Nichrome Heating Coil",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Nichrome Heating Coil",
+          "result": "HCNichromeheatingcoil",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Kanthal Heating Coil",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Kanthal Heating Coil",
+          "result": "HCKanthalheatingcoil",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Thermocouple Wire",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Thermocouple Wire",
+          "result": "HCWirethermocouple",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Solder",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Solder",
+          "result": "HCSolder",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Gigli Saw Handle",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Industrial.txt",
+          "recipe": "Make Gigli Saw Handle",
+          "result": "HCGiglisawhandle",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Locksmithing.txt",
+      "recipe": "Make Titanium Hinge",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Lockcmithing.txt",
+          "recipe": "Make Titanium Hinge",
+          "result": "HCHingetitanium",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Locksmithing.txt",
+      "recipe": "Make Iron Hinge",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Lockcmithing.txt",
+          "recipe": "Make Iron Hinge",
+          "result": "Hinge",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Locksmithing.txt",
+      "recipe": "Make Bronze Doorknob",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Lockcmithing.txt",
+          "recipe": "Make Bronze Doorknob",
+          "result": "Doorknob",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Locksmithing.txt",
+      "recipe": "Make Steel Padlock",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Lockcmithing.txt",
+          "recipe": "Make Steel Padlock",
+          "result": "Padlock",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Zinc Ingot",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc (Nickel)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Zinc Ingot",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc (Dime)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Zinc Ingot",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc (Quarter)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Zinc Ingot",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc (Half Dollar)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Zinc Ingot",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc (Dollar)",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Zinc Ingot",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Zinc",
+          "result": "HCZincingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Copper",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Copper Ingot",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Copper.txt",
+          "recipe": "Recycle Copper",
+          "result": "HCCopperingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Silver",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Silver Ingot",
+          "result": "HCSilveringot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Silver",
+          "result": "HCSilveringot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Silver.txt",
+          "recipe": "Recycle Silver",
+          "result": "HCSilveringot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Silver.txt",
+          "recipe": "Recycle Silver",
+          "result": "HCSilveringot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Gold",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Gold Ingot",
+          "result": "HCGoldingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Money.txt",
+          "recipe": "Recycle Gold",
+          "result": "HCGoldingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Gold.txt",
+          "recipe": "Recycle Gold",
+          "result": "HCGoldingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Gold.txt",
+          "recipe": "Recycle Gold",
+          "result": "HCGoldingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Gold.txt",
+          "recipe": "Recycle Gold",
+          "result": "HCGoldingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Gold.txt",
+          "recipe": "Recycle Gold",
+          "result": "HCGoldingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Gold.txt",
+          "recipe": "Recycle Gold",
+          "result": "HCGoldingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Make Coin Press",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Money.txt",
+          "recipe": "Make Coin Press",
+          "result": "HCCoinpress",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Smelt Aluminum Ingot",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Aluminum Ingot",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Recycle Aluminum Cans",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Aluminum Ingot",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Aluminum.txt",
+          "recipe": "Recycle Aluminum",
+          "result": "HCAluminumingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Smelt Tin Ingot",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Tin Ingot",
+          "result": "HCTiningot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Tin.txt",
+          "recipe": "Recycle Tin",
+          "result": "HCTiningot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Recycle Tin Cans",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Tin Ingot",
+          "result": "HCTiningot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Tin.txt",
+          "recipe": "Recycle Tin",
+          "result": "HCTiningot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Smelt Bronze Ingot",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Bronze Ingot",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Bronze.txt",
+          "recipe": "Recycle Bronze",
+          "result": "HCBronzeingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Smelt Magnetite Ingot",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Magnetite Ingot",
+          "result": "HCMagnetiteingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Forge Steel Crank",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Smithing.txt",
+          "recipe": "Make Crank",
+          "result": "HCCrank",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Forge Iron Crank",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Smithing.txt",
+          "recipe": "Make Crank",
+          "result": "HCCrankiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Forge Large Iron Ring",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Smithing.txt",
+          "recipe": "Make Metal Ring",
+          "result": "HCMetalringiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Fuse Large Glass Pane",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Glassworking.txt",
+          "recipe": "Create Large Glass Pane",
+          "result": "HCGlasspanelarge",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Blow Glass Animal Eyes",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Glassworking.txt",
+          "recipe": "Create Glass Animal Eyes",
+          "result": "HCAnimalglasseye",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Forge Iron Sheet",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Smithing.txt",
+          "recipe": "Make Sheet Of Metal",
+          "result": "HCIronsheet",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Forge Copper Sheet",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Smithing.txt",
+          "recipe": "Make Sheet Of Metal",
+          "result": "HCCoppersheet",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Forge Large Copper Sheet",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Smithing.txt",
+          "recipe": "Make Large Sheet Of Metal",
+          "result": "HCCoppersheetlarge",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Forge Iron Pole",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Smithing.txt",
+          "recipe": "Make Iron Pole",
+          "result": "HCIronpole",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Smithing.txt",
+          "recipe": "Make Iron Pole",
+          "result": "HCIronpole",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Smelt Lead Ingot",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Metalurgy.txt",
+          "recipe": "Make Lead Ingot",
+          "result": "HCLeadingot",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Lead.txt",
+          "recipe": "Recycle Lead",
+          "result": "HCLeadingot",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Rings.txt",
+      "recipe": "Make Steel Ring",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Rings.txt",
+          "recipe": "Make Ring",
+          "result": "HCRingsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Rubber.txt",
+      "recipe": "Make Vulcanized Rubber",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubbervulcanized",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Rubber.txt",
+          "recipe": "Make Vulcanized Rubber",
+          "result": "HCRubbervulcanized",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Rubber.txt",
+      "recipe": "Make Rubber",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Recycling Rubber.txt",
+          "recipe": "Recycle Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        },
+        {
+          "file": "Rubber.txt",
+          "recipe": "Make Rubber",
+          "result": "HCRubber",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Rubber.txt",
+      "recipe": "Make Rubber Sheet",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Rubber.txt",
+          "recipe": "Make Rubber Sheet",
+          "result": "HCRubbersheet",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Rubber.txt",
+      "recipe": "Make Rubber Bungs",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Rubber.txt",
+          "recipe": "Make Rubber Bungs",
+          "result": "HCRubberbung",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Trapping.txt",
+      "recipe": "Make Steel Spring",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Trapping.txt",
+          "recipe": "Make Steel Spring",
+          "result": "HCSteelspring",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Axes.txt",
+      "recipe": "Make Steel Axe",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Axes.txt",
+          "recipe": "Make Steel Axe",
+          "result": "Axe",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Axes.txt",
+      "recipe": "Make Steel Hatchet",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Axes.txt",
+          "recipe": "Make Steel Hatchet",
+          "result": "HCHatchetsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Axes.txt",
+      "recipe": "Make Iron Hatchet",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Axes.txt",
+          "recipe": "Make Iron Hatchet",
+          "result": "HCHatchetiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Axes.txt",
+      "recipe": "Make Iron Battleaxe",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Axes.txt",
+          "recipe": "Make Iron Battleaxe",
+          "result": "HCBattleaxeiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Blades.txt",
+      "recipe": "Make Steel Knife",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Blades.txt",
+          "recipe": "Make Steel Knife",
+          "result": "HCKnifesteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Blades.txt",
+      "recipe": "Make Iron Knife",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Blades.txt",
+          "recipe": "Make Iron Knife",
+          "result": "HCKnifeiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Blades.txt",
+      "recipe": "Make Steel Dagger",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Blades.txt",
+          "recipe": "Make Steel Dagger",
+          "result": "HCDaggersteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Blades.txt",
+      "recipe": "Make Iron Dagger",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Blades.txt",
+          "recipe": "Make Iron Dagger",
+          "result": "HCDaggeriron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Titanium Smithy Hammer",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Titanium Smithy Hammer",
+          "result": "HCSmithyhammertitanium",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Steel Smithy Hammer",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Steel Smithy Hammer",
+          "result": "HCSmithyhammersteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Iron Smithy Hammer",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Iron Smithy Hammer",
+          "result": "HCSmithyhammeriron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Bronze Smithy Hammer",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Bronze Smithy Hammer",
+          "result": "HCSmithyhammerbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Copper Smithy Hammer",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Copper Smithy Hammer",
+          "result": "HCSmithyhammercopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Steel War Hammer",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Steel War Hammer",
+          "result": "HCWarhammersteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Iron War Hammer",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Iron War Hammer",
+          "result": "HCWarhammeriron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Bronze War Hammer",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Bronze War Hammer",
+          "result": "HCWarhammerbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Copper War Hammer",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Copper War Hammer",
+          "result": "HCWarhammercopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Steel Spiked Mace",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Steel Spiked Mace",
+          "result": "HCSpikedmacesteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Iron Spiked Mace",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Iron Spiked Mace",
+          "result": "HCSpikedmaceiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Bronze Spiked Mace",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Bronze Spiked Mace",
+          "result": "HCSpikedmacebronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Copper Spiked Mace",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Copper Spiked Mace",
+          "result": "HCSpikedmacecopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Steel Spiked Flail",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Steel Spiked Flail",
+          "result": "HCSpikedflailsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Iron Spiked Flail",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Iron Spiked Flail",
+          "result": "HCSpikedflailiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Bronze Spiked Flail",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Bronze Spiked Flail",
+          "result": "HCSpikedflailbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Copper Spiked Flail",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Hammers.txt",
+          "recipe": "Make Copper Spiked Flail",
+          "result": "HCSpikedflailcopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Steel Halberd",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Steel Halberd",
+          "result": "HCHalberdsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Iron Halberd",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Iron Halberd",
+          "result": "HCHalberdiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Bronze Halberd",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Bronze Halberd",
+          "result": "HCHalberdbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Copper Halberd",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Copper Halberd",
+          "result": "HCHalberdcopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Steel Spear",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Steel Spear",
+          "result": "HCSpearsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Iron Spear",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Iron Spear",
+          "result": "HCSpeariron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Bronze Spear",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Bronze Spear",
+          "result": "HCSpearbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Copper Spear",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Copper Spear",
+          "result": "HCSpearcopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Steel Trident",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Steel Trident",
+          "result": "HCTridentsteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Iron Trident",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Iron Trident",
+          "result": "HCTridentiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Bronze Trident",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Bronze Trident",
+          "result": "HCTridentbronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Copper Trident",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Copper Trident",
+          "result": "HCTridentcopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Steel Scythe",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Steel Scythe",
+          "result": "HCScythesteel",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Iron Scythe",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Iron Scythe",
+          "result": "HCScytheiron",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Bronze Scythe",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Bronze Scythe",
+          "result": "HCScythebronze",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Weapons Polearms.txt",
+      "recipe": "Make Copper Scythe",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "source": [
+        {
+          "file": "Weapons Polearms.txt",
+          "recipe": "Make Copper Scythe",
+          "result": "HCScythecopper",
+          "input": "keep Tongs,"
+        }
+      ],
+      "basis": "upstream_keep"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Welding Rods",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "basis": "B42_tool_role_review",
+      "rationale": "Iron and steel ingots supply the welding rods. Tongs hold material while the existing kept rolling mill and welding equipment shape it; they are not a rod constituent.",
+      "source": [],
+      "native_reference": {
+        "version": "42.21",
+        "script": "media/scripts/generated/entities/blacksmith/craftRecipes/recipes_blacksmith_heads.txt",
+        "recipes": [
+          "Forge_Smithing_Hammer_Head",
+          "Forge_Garden_Hoe_Head"
+        ],
+        "finding": "Native forge recipes keep tongs and crude tongs as workpiece-holding tools. No new wear flags are added to the port."
+      }
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Make Clothespins",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "basis": "B42_tool_role_review",
+      "rationale": "Spring steel and wooden sticks supply five pins. Tongs are the forming tool beside the existing kept rolling mill, gloves and mask; consuming an entire tongs per five pins is a tool-mode omission.",
+      "source": [],
+      "native_reference": {
+        "version": "42.21",
+        "script": "media/scripts/generated/entities/blacksmith/craftRecipes/recipes_blacksmith_heads.txt",
+        "recipes": [
+          "Forge_Smithing_Hammer_Head",
+          "Forge_Garden_Hoe_Head"
+        ],
+        "finding": "Native forge recipes keep tongs and crude tongs as workpiece-holding tools. No new wear flags are added to the port."
+      }
+    },
+    {
+      "file": "HCR_Weapon Ranged.txt",
+      "recipe": "Make Bolt",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "basis": "B42_tool_role_review",
+      "rationale": "An aluminium ingot and expendable bolt mould supply five crossbow bolts. Tongs hold the casting at the existing kept furnace, alongside kept protective gloves.",
+      "source": [],
+      "native_reference": {
+        "version": "42.21",
+        "script": "media/scripts/generated/entities/blacksmith/craftRecipes/recipes_blacksmith_heads.txt",
+        "recipes": [
+          "Forge_Smithing_Hammer_Head",
+          "Forge_Garden_Hoe_Head"
+        ],
+        "finding": "Native forge recipes keep tongs and crude tongs as workpiece-holding tools. No new wear flags are added to the port."
+      }
+    },
+    {
+      "file": "HCR_Weapon Ranged.txt",
+      "recipe": "Make Metal Arrowhead",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "basis": "B42_tool_role_review",
+      "rationale": "One ingot and an expendable arrowhead mould supply five heads. Tongs hold hot material at the existing kept smelter, alongside kept protective gloves.",
+      "source": [],
+      "native_reference": {
+        "version": "42.21",
+        "script": "media/scripts/generated/entities/blacksmith/craftRecipes/recipes_blacksmith_heads.txt",
+        "recipes": [
+          "Forge_Smithing_Hammer_Head",
+          "Forge_Garden_Hoe_Head"
+        ],
+        "finding": "Native forge recipes keep tongs and crude tongs as workpiece-holding tools. No new wear flags are added to the port."
+      }
+    },
+    {
+      "file": "HCR_Weapons Axes.txt",
+      "recipe": "Craft Pickaxe",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "basis": "B42_tool_role_review",
+      "rationale": "The axe handle and three steel ingots supply the pickaxe. Tongs are a smithing tool alongside the kept hammer, gloves and anvil.",
+      "source": [],
+      "native_reference": {
+        "version": "42.21",
+        "script": "media/scripts/generated/entities/blacksmith/craftRecipes/recipes_blacksmith_heads.txt",
+        "recipes": [
+          "Forge_Smithing_Hammer_Head",
+          "Forge_Garden_Hoe_Head"
+        ],
+        "finding": "Native forge recipes keep tongs and crude tongs as workpiece-holding tools. No new wear flags are added to the port."
+      }
+    },
+    {
+      "file": "HCR_Weapons Axes.txt",
+      "recipe": "Make Skull Splitter",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "basis": "B42_tool_role_review",
+      "rationale": "Three steel ingots and a wooden stick supply the weapon. Tongs hold its workpiece alongside the kept hammer, gloves and anvil.",
+      "source": [],
+      "native_reference": {
+        "version": "42.21",
+        "script": "media/scripts/generated/entities/blacksmith/craftRecipes/recipes_blacksmith_heads.txt",
+        "recipes": [
+          "Forge_Smithing_Hammer_Head",
+          "Forge_Garden_Hoe_Head"
+        ],
+        "finding": "Native forge recipes keep tongs and crude tongs as workpiece-holding tools. No new wear flags are added to the port."
+      }
+    },
+    {
+      "file": "HCR_Weapons Blades.txt",
+      "recipe": "Make Conan Sword",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "basis": "B42_tool_role_review",
+      "rationale": "Three steel ingots supply the sword. Tongs hold the workpiece alongside the kept smithing hammer, gloves and anvil.",
+      "source": [],
+      "native_reference": {
+        "version": "42.21",
+        "script": "media/scripts/generated/entities/blacksmith/craftRecipes/recipes_blacksmith_heads.txt",
+        "recipes": [
+          "Forge_Smithing_Hammer_Head",
+          "Forge_Garden_Hoe_Head"
+        ],
+        "finding": "Native forge recipes keep tongs and crude tongs as workpiece-holding tools. No new wear flags are added to the port."
+      }
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipe": "Make Steel Sledgehammer",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "occurrences": 1,
+      "basis": "B42_tool_role_review",
+      "rationale": "Four steel ingots and a wooden stick supply the hammer. Tongs hold the head while the kept smithing hammer and anvil shape it.",
+      "source": [],
+      "native_reference": {
+        "version": "42.21",
+        "script": "media/scripts/generated/entities/blacksmith/craftRecipes/recipes_blacksmith_heads.txt",
+        "recipes": [
+          "Forge_Smithing_Hammer_Head",
+          "Forge_Garden_Hoe_Head"
+        ],
+        "finding": "Native forge recipes keep tongs and crude tongs as workpiece-holding tools. No new wear flags are added to the port."
+      }
+    }
+  ],
+  "protected": [
+    {
+      "file": "HCR_Apiculture.txt",
+      "recipe": "Fill Bee Smoker with Fuel",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Biodiesel.txt",
+      "recipe": "Cook Pot of Vegtable Oil",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Candlemaking.txt",
+      "recipe": "Light Candle",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Candlemaking.txt",
+      "recipe": "Light Candle (Lit Tallow Candle)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Candlemaking.txt",
+      "recipe": "Light Candle (Lit Candle in Holder)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Candlemaking.txt",
+      "recipe": "Make Candleberry Wax",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Cheesemaking.txt",
+      "recipe": "Make Rennet",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Cheesemaking.txt",
+      "recipe": "Prepare Pot of Refined Wax",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Cheesemaking.txt",
+      "recipe": "Prepare Pot of Melted Refined Wax",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Cheesemaking.txt",
+      "recipe": "Make Cream Cheese Culture",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Cook Ammonal",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Glycerin",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Calcium Oxide",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Vodka",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Methanol",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Tequila",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Mezcal",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Applejack",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Peach Schnapps",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Flip",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Gin",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Whiskey",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Corn Whiskey",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Drugs Opium.txt",
+      "recipe": "Cook Raw Opium",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Firefighting.txt",
+      "recipe": "Make Fireproof Suit",
+      "input": "item 1 tags[base:weldingmask],"
+    },
+    {
+      "file": "HCR_Food Dairy.txt",
+      "recipe": "Heat Milk",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Roast Coffee",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Ham)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Mutton)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Pork)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Beef)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Cheval)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Rabbit)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Salmon)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Frog Meat)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Small Animal Meat)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Small Bird Meat)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Chicken)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Duck)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Goose)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Turkey)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Venison)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Bear)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Cougar)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Small Game)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Tofu",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Cheese",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Gems.txt",
+      "recipe": "Make Gem Cutter Wheel",
+      "input": "item 1 tags[base:tongs;base:crudetongs],",
+      "source": [
+        {
+          "file": "Gems.txt",
+          "recipe": "Make Gem Cutter Wheel",
+          "result": "HCGemcutter",
+          "input": "Tongs,"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Cook Empty Silk Cocoon",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Glue",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Wood Glue",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Super Glue",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Holiday.txt",
+      "recipe": "Lite Jack-O-Lantern",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Holiday.txt",
+      "recipe": "Lite Jack-O-Lantern (Lit White Jack-O-Lantern)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Holiday.txt",
+      "recipe": "Lite Jack-O-Lantern (Lit Green Jack-O-Lantern)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Copper Gears",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Tin Gears",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Bronze Gears",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Iron Gears",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Invar Gears",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Lead Gears",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Steel Gears",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Titanium Gears",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Make Giant Magnet",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Leatherworking.txt",
+      "recipe": "Make Camo Leather",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Leatherworking.txt",
+      "recipe": "Make Hardened Leather",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Leatherworking.txt",
+      "recipe": "Make Hardened Leather (Candleberry Wax)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Standard Car Window",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Standard Car Window (Variant)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Standard Car Window (Variant 2)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Standard Car Window (Variant 3)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Heavy Car Window",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Heavy Car Window (Variant)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Heavy Car Window (Variant 2)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Heavy Car Window (Variant 3)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Sport Car Window",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Sport Car Window (Variant)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Sport Car Window (Variant 2)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Mechanics.txt",
+      "recipe": "Make Sport Car Window (Variant 3)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc (Nickel)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc (Dime)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc (Quarter)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc (Half Dollar)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Zinc (Dollar)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Copper",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Silver",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Money.txt",
+      "recipe": "Recycle Gold",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Photography.txt",
+      "recipe": "Make Photography Workbench",
+      "input": "item 1 tags[base:scissors],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Smelt Aluminum Ingot",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Recycle Aluminum Cans",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Smelt Tin Ingot",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Recycle Tin Cans",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Smelt Bronze Ingot",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Smelt Magnetite Ingot",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Fuse Large Glass Pane",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Blow Glass Animal Eyes",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Shape Gear Mold",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Shape Clay Smoking Pipe",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Burn Coke",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Smelt Lead Ingot",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Shape Ring Mold",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Rings.txt",
+      "recipe": "Make Steel Ring",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Rubber.txt",
+      "recipe": "Make Vulcanized Rubber",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Rubber.txt",
+      "recipe": "Make Rubber",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Rubber.txt",
+      "recipe": "Make Rubber Bungs",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Soapmaking.txt",
+      "recipe": "Make Tallow",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Soapmaking.txt",
+      "recipe": "Make Homemade Soap",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Make Tailor's Workbench",
+      "input": "item 1 tags[base:scissors],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Purple Yarn)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Blue Yarn)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Green Yarn)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Yellow Yarn)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Orange Yarn)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Red Yarn)",
+      "input": "item 1 tags[base:startfire],"
+    },
+    {
+      "file": "HCR_Trapping.txt",
+      "recipe": "Make Steel Spring",
+      "input": "item 1 tags[base:startfire],"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+module Hydrocraft
+{
+    imports { Base }
+
+    /* Restore only missing HC-specific transitions from pinned Hydrocraft
+       917d37d. Native B42 materials/tools replace absent B41 equivalents;
+       output counts, material counts and original keep/use roles remain. */
+
+    craftRecipe Make Smelter
+    {
+        time = 1000,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Masonry,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 50 [Base.ClayBrick],
+            item 4 [Base.BucketConcreteFull;Base.BucketCarvedConcreteFull],
+            item 1 [Hydrocraft.HCMasontrowel;Base.MasonsTrowel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSmelter,
+        }
+    }
+
+    craftRecipe Make Lever
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Engineer,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:30,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelrod;Base.SteelBar],
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
+            item 1 [Base.Screws],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium;Base.SmithingHammer] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
+            item 1 [Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Base.BlacksmithAnvil;Base.BenchAnvil;Base.BlockAnvil;Base.StoneAnvil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCLever,
+        }
+    }
+
+    craftRecipe Make Copper Pipe
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = MetalWelding:70,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCoppersheetlarge],
+            item 1 [Hydrocraft.HCWeldingset;Base.BlowTorch],
+            item 1 [Hydrocraft.HCWorkgloves;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown] mode:keep,
+            item 1 tags[base:weldingmask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCopperpipe,
+        }
+    }
+
+    craftRecipe Make Steel Pruning Shears
+    {
+        time = 150,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Blacksmithing,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Maintenance:2,
+        xpAward = MetalWelding:30,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
+            item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium;Base.SmithingHammer] mode:keep,
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
+            item 1 [Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown] mode:keep,
+            item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2;Base.BlacksmithAnvil;Base.BenchAnvil;Base.BlockAnvil;Base.StoneAnvil] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPruningsheers,
+        }
+    }
+}

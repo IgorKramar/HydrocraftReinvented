@@ -119,7 +119,7 @@ module Hydrocraft
         DisplayName         	= Feral Pig Poop,
         icon 			= HCPigpoop,
 		DisplayCategory          =   AnimalPoop,
-		Tags = Shit,
+		Tags = hydrocraft:shit,
     }
     item HCCowpoop
     {
@@ -129,7 +129,7 @@ module Hydrocraft
         DisplayName         	= Cow Poop,
         icon 			= HCCowpoop,
 		DisplayCategory          =   AnimalPoop,
-		Tags = Shit,
+		Tags = hydrocraft:shit,
     }
     item HCWoodenbucketmilk
     {
@@ -1116,7 +1116,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.3,
-		WeaponSprite			=	LeadPipe,
+		WeaponSprite			=	Base.LeadPipe,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3,

@@ -12,7 +12,7 @@ module Hydrocraft
 	Icon 				= 	HCCookingoil,
 	DisplayCategory          =   Cooking,
 	ReplaceOnDeplete        =   WaterBottleEmpty,
-	WorldStaticModel    = OilVegetable_Ground,
+	WorldStaticModel = OilVegetable_Ground,
     }
     item HCCornsyrup
     {
@@ -1831,7 +1831,7 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 10 [Base.FishFillet],
+            item 10 [Base.FishFillet] flags[ItemCount],
             item 1 [Hydrocraft.HCWoodenbucket],
             item 1 [Hydrocraft.HCOilpress;Hydrocraft.HCOilpress2] mode:keep,
         }
@@ -1850,7 +1850,7 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 4 [Base.Peanuts],
+            item 4 [Base.Peanuts] flags[ItemCount],
             item 1 [Base.Salt],
             item 1 [Base.Sugar],
             item 1 [Hydrocraft.HCCookingoil;Hydrocraft.HCCookingoiljar;Base.OilVegetable],
@@ -1873,7 +1873,7 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 4 [Base.Peanuts],
+            item 4 [Base.Peanuts] flags[ItemCount],
             item 1 [Base.Salt],
             item 1 [Base.Sugar],
             item 1 [Hydrocraft.HCCookingoil;Hydrocraft.HCCookingoiljar;Base.OilVegetable],

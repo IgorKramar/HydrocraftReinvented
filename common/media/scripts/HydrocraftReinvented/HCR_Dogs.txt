@@ -9,7 +9,7 @@ module Hydrocraft
         DisplayName         	= Dog Poop,
         icon 			= HCDogpoop,
 		DisplayCategory	= AnimalPoop,
-		Tags = Shit,
+		Tags = hydrocraft:shit,
     }
     item HCBeaglemale
     {

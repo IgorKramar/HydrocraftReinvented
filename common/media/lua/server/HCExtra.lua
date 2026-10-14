@@ -384,7 +384,7 @@ end
 
 function recipe_hcwoodenstick(items, result, player)
 	local inv = player:getInventory();
-	inv:AddItem("Base.WoodenStick");
+	inv:AddItem("Base.WoodenStick2");
 end
 
 function recipe_hcsawdust(items, result, player)
@@ -467,15 +467,13 @@ end
 
 --Homemade Beta Blockers
 function HCBetaBlocker(items, result, player)
-	local player = getPlayer(); 
 	local stats = player:getStats();
-	stats:setPanic(stats:getPanic() - 10);
+	stats:remove(CharacterStat.PANIC, 10);
 end
 
  function HCBetaBlockerMild(items, result, player)
-	local player = getPlayer(); 
 	local stats = player:getStats();
-	stats:setPanic(stats:getPanic() - 5);
+	stats:remove(CharacterStat.PANIC, 5);
 end
 
 --Sewing Stuff
@@ -542,7 +540,7 @@ end
 
 function recipe_hcwoodenbucketbottle(items, result, player)
 	local inv = player:getInventory()
-	inv:AddItem("Base.WhiskeyEmpty")
+	inv:AddItem("Base.Whiskey")
 	inv:AddItem("Hydrocraft.HCWoodenbucket")
 end 
 
@@ -567,8 +565,8 @@ function recipe_hcwoodenbucket5(items, result, player)
 end 
 
 function recipe_hcwoodenbarrel(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCWoodenbarrel");
+	-- Distilling consumes one use of a drainable barrel, not the barrel itself.
+	-- Native ReplaceOnDeplete returns its empty barrel after the last bottle.
 end
 
 --Electric  Stuff
@@ -652,8 +650,8 @@ function recipe_hcDisDomputer(items, result, player)
 	local inv = player:getInventory();
 	inv:AddItem("Hydrocraft.HCSwitch");
 	inv:AddItems("Hydrocraft.HCPlastic",6);
-	inv:AddItems("Hydrocraft.Screws",10);
-	inv:AddItems("Hydrocraft.ElectronicsScrap",15);
+	inv:AddItems("Base.Screws",10);
+	inv:AddItems("Base.ElectronicsScrap",15);
 	inv:AddItems("Hydrocraft.HCColoredwire",4);
 	inv:AddItem("Hydrocraft.HCLedgreen");
 	inv:AddItem("Hydrocraft.HCLedred");
@@ -663,8 +661,8 @@ end
 function recipe_hcDisKeyboard(items, result, player)
 	local inv = player:getInventory();
 	inv:AddItems("Hydrocraft.HCPlastic",2);
-	inv:AddItems("Hydrocraft.Screws",2);
-	inv:AddItems("Hydrocraft.ElectronicsScrap",5);
+	inv:AddItems("Base.Screws",2);
+	inv:AddItems("Base.ElectronicsScrap",5);
 	inv:AddItem("Hydrocraft.HCLedyellow");
 	inv:AddItem("Hydrocraft.HCCablecopper");
 end
@@ -673,7 +671,7 @@ end
 function recipe_hcwashingmachine(items, result, player)
 	local inv = player:getInventory()
 	inv:AddItem("Hydrocraft.HCElectromotor")
-	inv:AddItems("Hydrocraft.SheetMetal", 2)
+	inv:AddItems("Base.SheetMetal", 2)
 	inv:AddItem("Hydrocraft.HCWashingmachinepump")
 	inv:AddItems("Hydrocraft.HCTerminalstrip", 5)
 	inv:AddItems("Hydrocraft.HCColoredwire", 2)
@@ -686,7 +684,7 @@ end
 function recipe_hcfridge(items, result, player)
 	local inv = player:getInventory()
 	inv:AddItem("Hydrocraft.HCElectromotor")
-	inv:AddItem("Hydrocraft.SheetMetal")
+	inv:AddItem("Base.SheetMetal")
 	inv:AddItems("Hydrocraft.HCTerminalstrip", 5)
 	inv:AddItems("Hydrocraft.HCColoredwire", 2)
 	inv:AddItem("Hydrocraft.HCLedred")
@@ -713,7 +711,7 @@ function recipe_hcDismEguitar(items, result, player)
 	local inv = player:getInventory()
 	inv:AddItem("Hydrocraft.HCSwitch")
 	inv:AddItems("Hydrocraft.HCColoredwire", 2)
-	inv:AddItems("Hydrocraft.ElectronicsScrap", 2)
+	inv:AddItems("Base.ElectronicsScrap", 2)
 end 
 
 function recipe_hcbike1(items, result, player)
@@ -725,7 +723,7 @@ end
 function recipe_hcbike2(items, result, player)
 	local inv = player:getInventory()
 	inv:AddItems("Base.Pipe", 4)
-	inv:AddItems("Base.HCBicyclewheel", 2)
+	inv:AddItems("Hydrocraft.HCBicyclewheel", 2)
 end 
 
 function recipe_hcelectronicparts(items, result, player)
@@ -858,7 +856,7 @@ function recipe_hcdismantleteslamachine(items, result, player)
 	inv:AddItem("Hydrocraft.HCLedred")
 	inv:AddItem("Hydrocraft.HCLedgreen")
 	
-	inv:AddItems("Hydrocraft.HCAluminumscrap", 2)
+	inv:AddItems("Base.AluminumScrap", 2)
 	inv:AddItems("Hydrocraft.HCRubberbelt", 4)
 	inv:AddItems("Hydrocraft.HCPully", 4)
 	inv:AddItems("Hydrocraft.HCLargesheetmetal", 5)
@@ -914,26 +912,26 @@ end
 function recipe_hcdismantlehanddolly(items, result, player)
 	local inv = player:getInventory()
 	inv:AddItems("Base.MetalBar", 10)
-	inv:AddItems("Base.HCMetalwheel", 2)
+	inv:AddItems("Hydrocraft.HCMetalwheel", 2)
 	inv:AddItems("Hydrocraft.HCRubberscrap", 4)
 end
 
 function recipe_hcdismantlepushcart(items, result, player)
 	local inv = player:getInventory()
 	inv:AddItems("Base.MetalBar", 4)
-	inv:AddItems("Base.HCMetalwheel", 4)
+	inv:AddItems("Hydrocraft.HCMetalwheel", 4)
 	inv:AddItems("Hydrocraft.HCRubberscrap", 8)
 end
 
 function recipe_hcdismantlebedsprings(items, result, player)
 	local inv = player:getInventory()
 	inv:AddItems("Base.MetalBar", 4)
-	inv:AddItems("Hydrocraft.HCAluminumscrap", 20)
+	inv:AddItems("Base.AluminumScrap", 20)
 end
 
 function recipe_hcdismantleglovebox(items, result, player)
 	local inv = player:getInventory()
-	inv:AddItems("Base.Sheetmetal", 9)
+	inv:AddItems("Base.SheetMetal", 9)
 	inv:AddItems("Hydrocraft.HCPlasticscrap", 8)
 	inv:AddItems("Hydrocraft.HCLedred", 2)
 	inv:AddItems("Hydrocraft.HCCablecopper", 3)
@@ -957,7 +955,7 @@ end
 
 function recipe_hcdismantlebrokenradiator(items, result, player)
 	local inv = player:getInventory()
-	inv:AddItems("Hydrocraft.HCBrassscrap", 4)
+	inv:AddItems("Base.BrassScrap", 4)
 end
 
 function recipe_hcdismantlelawnmower(items, result, player)
@@ -967,7 +965,7 @@ function recipe_hcdismantlelawnmower(items, result, player)
 	inv:AddItems("Base.MetalBar", 8)
 
     inv:AddItem("Hydrocraft.HCSawcircularblade")
-    inv:AddItem("Hydrocraft.HCCablecopper,")
+    inv:AddItem("Hydrocraft.HCCablecopper")
 end
 
 function recipe_hcdismantleprojector(items, result, player)
@@ -978,7 +976,7 @@ function recipe_hcdismantleprojector(items, result, player)
 	inv:AddItems("Hydrocraft.HCDiode", 4)
 	inv:AddItems("Hydrocraft.HCLargesheetmetal", 3)
     inv:AddItems("Base.MetalBar", 4)
-    inv:AddItems("Base.Sheetmetal", 12)
+    inv:AddItems("Base.SheetMetal", 12)
     inv:AddItems("Base.SmallSheetMetal", 4)
 
     inv:AddItem("Hydrocraft.HCIREncoder")
@@ -1045,7 +1043,7 @@ end
 
 function recipe_hcbiodieselcan(items, result, player)
 	local inv = player:getInventory();
-	inv:AddItem("Base.EmptyPetrolCan");
+	inv:AddItem("Base.PetrolCan");
 end
 
 function recipe_hcgetcalciumcarbonate(items, result, player)
@@ -1164,7 +1162,7 @@ end
 function recipe_hcbeakerbottle(items, result, player)
         local inv = player:getInventory();
         inv:AddItem("Hydrocraft.HCGlassbeaker");
-        inv:AddItem("Base.WhiskeyEmpty");
+        inv:AddItem("Base.Whiskey");
 end
 
 function recipe_hccork(items, result, player)
@@ -1407,7 +1405,7 @@ end
 
 --Open Cigarette Packs
 function recipe_opencigpack1(items, result, player)
-	player:getInventory():AddItem("Base.Cigarettes")
+	player:getInventory():AddItem("Base.CigaretteSingle")
 end
 
 function recipe_opencigpack2(items, result, player)
@@ -1459,15 +1457,22 @@ end
 
 function recipe_hcfeedbeehive3(items, result, player)
 	local inv = player:getInventory();
+	local anchored = false
+	for i = 0, items:size() - 1 do
+		if items:get(i):getType() == "HCBeehive3b" then anchored = true end
+	end
+	local inactive = anchored and "Hydrocraft.HCBeehive3b" or "Hydrocraft.HCBeehive3"
+	local active = anchored and "Hydrocraft.HCBeehive3bActive" or "Hydrocraft.HCBeehive3Active"
 
 	if isWinter() then 
 		player:Say("Bees are dormant in the winter.")
 		inv:AddItems("Hydrocraft.HCPollen",12)
-		inv:AddItem("Hydrocraft.HCBeehive3")			
+		inv:AddItem(inactive)
 		return
 	end
 
-	inv:AddItem("Hydrocraft.HCBeehive3Active")
+	local hive = inv:AddItem(active)
+	HCRTimed.initialize(hive, getGameTime():getWorldAgeHours())
 end
 
 function recipe_hcbeehive1(items, result, player)
@@ -1496,7 +1501,7 @@ function recipe_Process_RWAX(items, result, player)
 	local inv = player:getInventory();
 	inv:AddItem("Hydrocraft.HCCheesecloth");
 	inv:AddItem("Base.Pot");
-	inv:AddItem("Base.Stone");
+	inv:AddItem("Base.Stone2");
 end
 
 function recipe_hccheesetray(items, result, player)
@@ -1509,12 +1514,12 @@ end
 
 function recipe_hcwineempty(items, result, player)
 	local inv = player:getInventory();
-	inv:AddItem("Base.WineEmpty");
+	inv:AddItem("Base.Wine");
 end
 
 function recipe_hcwineempty2(items, result, player)
 	local inv = player:getInventory();
-	inv:AddItem("Base.WineEmpty2");
+	inv:AddItem("Base.Wine2");
 end
 
 
@@ -1542,9 +1547,9 @@ function recipe_hcsaltshaker(items,result,player)
 	player:getInventory():AddItem("Hydrocraft.HCSaltshakerempty");
 end
 
-function recipe_hcsaltshakerandbowls(items,result,player)
+function recipe_hcsaltshakerandbowls(items,result,player,recipeData)
 	player:getInventory():AddItem("Hydrocraft.HCSaltshakerempty");
-	HCRecipeBowls(items, result, player)
+	HCRecipeBowls(items, result, player, recipeData)
 end
 
 --Kitchen Stuff (Item Returns)
@@ -2001,7 +2006,7 @@ function recipe_hccutbirchtree3(items, result, player)
 	HCAddManySameItem("Base.Log", 0, player);
 	HCAddManySameItem("Base.Twigs", 1, player);
 	HCAddManySameItem("Hydrocraft.HCBirchbark", 0, player);	
-	HCAddManySameItem("Hydrocraft.TreeBranch", 4, player);
+	HCAddManySameItem("Base.TreeBranch2", 4, player);
 end 
 
 function recipe_hccutbirchtree4(items, result, player)
@@ -2009,7 +2014,7 @@ function recipe_hccutbirchtree4(items, result, player)
 	HCAddManySameItem("Base.Twigs", 3, player);
 	HCAddManySameItem("Hydrocraft.HCBirchcatkin", 0, player);
 	HCAddManySameItem("Hydrocraft.HCBirchbark", 1, player);	
-	HCAddManySameItem("Hydrocraft.TreeBranch", 9, player);	
+	HCAddManySameItem("Base.TreeBranch2", 9, player);
 end
 
 function recipe_hccutbirchtree5(items, result, player)
@@ -2017,7 +2022,7 @@ function recipe_hccutbirchtree5(items, result, player)
 	HCAddManySameItem("Base.Twigs", 7, player);
 	HCAddManySameItem("Hydrocraft.HCBirchcatkin", 1, player);
 	HCAddManySameItem("Hydrocraft.HCBirchbark", 2, player);	
-	HCAddManySameItem("Hydrocraft.TreeBranch", 14, player);	
+	HCAddManySameItem("Base.TreeBranch2", 14, player);
 end  
 
 function recipe_hccutbirchtree6(items, result, player)
@@ -2025,7 +2030,7 @@ function recipe_hccutbirchtree6(items, result, player)
 	HCAddManySameItem("Base.Twigs", 15, player);
 	HCAddManySameItem("Hydrocraft.HCBirchcatkin", 2, player);
 	HCAddManySameItem("Hydrocraft.HCBirchbark", 3, player);	
-	HCAddManySameItem("Hydrocraft.TreeBranch", 19, player);
+	HCAddManySameItem("Base.TreeBranch2", 19, player);
 end 
 
 --Breaking Dead Stuff
@@ -2156,23 +2161,17 @@ function HC_ToyStatModifier(items, result, player)
 end
 
 --Changes made to boredom and unhappyness.
---B42.20 снял сеттеры BodyDamage (setBoredomLevel/setUnhappynessLevel), поэтому
---сначала пробуем их — для сборок, где они ещё есть, — а при отказе уходим
---на аддитивный API статов. Шкала BodyDamage 0..100, у CharacterStat 0..1,
---отсюда деление. Если движок не даёт ни того, ни другого, рецепт просто
---не меняет статы, но не падает.
+-- BOREDOM/UNHAPPINESS/PANIC в B42 имеют шкалу 0..100, STRESS — 0..1.
+-- Сеттеры BodyDamage удалены. Не делим эффект игрушек на 100.
 function HCDoStats(player, b, u, s)
 	b = b or 0; u = u or 0; s = s or 0;
-	local bd = player:getBodyDamage();
-	local okB = pcall(function() bd:setBoredomLevel(bd:getBoredomLevel() - b) end);
-	local okU = pcall(function() bd:setUnhappynessLevel(bd:getUnhappynessLevel() - u) end);
 	local stats = player:getStats();
 	if not stats or not CharacterStat then return end
-	if not okB and CharacterStat.BOREDOM then
-		stats:add(CharacterStat.BOREDOM, -b / 100);
+	if CharacterStat.BOREDOM then
+		stats:remove(CharacterStat.BOREDOM, b);
 	end
-	if not okU and CharacterStat.UNHAPPINESS then
-		stats:add(CharacterStat.UNHAPPINESS, -u / 100);
+	if CharacterStat.UNHAPPINESS then
+		stats:remove(CharacterStat.UNHAPPINESS, u);
 	end
 	--Стресс передавался вызывающими (recipe_minorhyienic), но прежняя
 	--сигнатура его теряла.
@@ -2208,22 +2207,17 @@ function HCHappyTen(items, result, player)
 end
 
 --Checking Bowls.
-function HCRecipeBowls(items, result, player)
-    bowls = 0;
-    for x=0, items:size()-1 do
-        print(items:get(x):getType()); --TODO: add 'BowlOfFood' tag?
-            if items:get(x):getType() == "HCTacosaucebowl" or items:get(x):getType() == "HCGuacamolebowl" or items:get(x):getType() == "HCSalsabowl" or items:get(x):getType() == "HCNachobowl" or items:get(x):getType() == "HCSpicypaste" or items:get(x):getType() == "HCTomatosaucebowl" or items:get(x):getType() == "HCLemonjuicebowl" or items:get(x):getType() == "HCBBQsaucebowl" then
-                    bowls = bowls + 1;
-            end
-    end
-    if bowls > 0 then
-		player:getInventory():AddItems("Base.Bowl", bowls)
+function HCRecipeBowls(items, result, player, recipeData)
+    -- Return an actual emptied food bowl, never one still containing sauce.
+    -- Drainable bowls are handled by native ReplaceOnDeplete instead.
+    if recipeData then
+        HCRFood.returnContainer(recipeData, player, "Base.Bowl")
     end
 end
 
 --Random Gifts
 function HCRandomGiftGet(items, result, player)
-giftSet = {"Hydrocraft.HCBookanarchist", "Hydrocraft.HCBinoculars", "Hydrocraft.HCCalculator", "Hydrocraft.HCLaserpointer", "Base.Spiffo", "Hydrocraft.HCToyrobot", "Hydrocraft.HCToydrawing",  "Hydrocraft.HCDVDPlayer", "Base.Book", "Base.WhiskeyFull", "Base.Wine", "Base.Wine2", "Base.FishingRod", "Base.Headphones",  "Base.Radio", "Base.DigitalWatch", "Hydrocraft.HCFlashlightoff","Hydrocraft.HCBookbedtime", "Hydrocraft.HCBookfairytale", "Hydrocraft.HCDogwhistle"};
+giftSet = {"Hydrocraft.HCBookanarchist", "Hydrocraft.HCBinoculars", "Hydrocraft.HCCalculator", "Hydrocraft.HCLaserpointer", "Base.Spiffo", "Hydrocraft.HCToyrobot", "Hydrocraft.HCToydrawing",  "Hydrocraft.HCDVDPlayer", "Base.Book", "Base.Whiskey", "Base.Wine", "Base.Wine2", "Base.FishingRod", "Base.Headphones",  "Base.RadioRed", "Base.WristWatch_Left_DigitalBlack", "Hydrocraft.HCFlashlightoff","Hydrocraft.HCBookbedtime", "Hydrocraft.HCBookfairytale", "Hydrocraft.HCDogwhistle"};
     gift = ZombRand(#giftSet) + 1;
     player:getInventory():AddItem(giftSet[gift]);
 end
@@ -2631,12 +2625,12 @@ function HCOpenSealedLetter(items, result, player)
 		"Base.ElectronicsMag4", --How to Use Generators
 		"Base.HottieZ", --TODO: remove vanilla mags? They're already very common.
 		"Base.ComicBook",
-		"Base.MagazineCrossword1",
-		"Base.MagazineCrossword2",
-		"Base.MagazineCrossword3",
-		"Base.MagazineWordsearch1",
-		"Base.MagazineWordsearch2",
-		"Base.MagazineWordsearch3"
+		"Base.MagazineCrossword",
+		"Base.MagazineCrossword",
+		"Base.MagazineCrossword",
+		"Base.MagazineWordsearch",
+		"Base.MagazineWordsearch",
+		"Base.MagazineWordsearch"
 	}
 	local magazine = list[ 1 + ZombRand( #list ) ]
 	local inv = player:getInventory();

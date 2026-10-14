@@ -246,7 +246,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCheesegrater] mode:keep,
-            item 1 [Base.Cheese],
+            item 1 [Base.Cheese] flags[ItemCount],
         }
         outputs
         {
@@ -263,7 +263,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCheesegrater] mode:keep,
-            item 1 [Hydrocraft.HCCheddar],
+            item 1 [Hydrocraft.HCCheddar] flags[ItemCount],
         }
         outputs
         {
@@ -281,8 +281,8 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Base.Pot],
-            item 4 [Base.Tomato],
+            item 1 [Base.Pot] flags[ItemCount],
+            item 4 [Base.Tomato] flags[ItemCount],
             item 1 [Base.Salt],
             item 1 [Hydrocraft.HCGarlicpowder],
             item 1 [Hydrocraft.HCHerbs],
@@ -303,7 +303,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
-            item 2 [Base.Bowl],
+            item 2 [Base.Bowl] flags[ItemCount],
             item 1 [Hydrocraft.HCTomatosaucepot],
         }
         outputs
@@ -347,7 +347,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPizzastone] mode:keep,
-            item 1 [Hydrocraft.HCPizzadough],
+            item 1 [Hydrocraft.HCPizzadough] flags[ItemCount],
             item 1 [Hydrocraft.HCTomatosaucebowl],
         }
         outputs
@@ -367,9 +367,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPizzastone] mode:keep,
-            item 1 [Hydrocraft.HCPizzadough],
+            item 1 [Hydrocraft.HCPizzadough] flags[ItemCount],
             item 1 [Hydrocraft.HCTomatosaucebowl],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar] flags[ItemCount],
         }
         outputs
         {
@@ -388,9 +388,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPizzastone] mode:keep,
-            item 1 [Hydrocraft.HCPizzadough],
+            item 1 [Hydrocraft.HCPizzadough] flags[ItemCount],
             item 1 [Hydrocraft.HCTomatosaucebowl],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar] flags[ItemCount],
             item 1 [Base.BellPepper;Hydrocraft.HCBellpepperyellow;Hydrocraft.HCBellpeppergreen;Base.Broccoli;Base.Leek;Base.Eggplant;Base.Pineapple;Base.Avocado;Hydrocraft.HCBunchofshrooms;Hydrocraft.HCPortobello;Hydrocraft.HCShiitake;Hydrocraft.HCSlicedonion;Hydrocraft.HCSlicedtomato;Hydrocraft.HCDriedtomatobag;Hydrocraft.HCCannedshrooms;Hydrocraft.HCSpinach;Hydrocraft.HCChiligreen;Hydrocraft.HCChilipepper;Hydrocraft.HCGarlic],
             item 1 [Base.Chicken;Hydrocraft.HCDuckmeat;Hydrocraft.HCGoosemeat;Hydrocraft.HCTurkeymeat;Base.TunaTinOpen;Base.CannedSardinesOpen;Base.Salmon;Base.BaconRashers;Base.BaconBits;Base.FrogMeat;Hydrocraft.HCSlicedsalami;Base.HamSlice;Hydrocraft.HCCannedspam;Hydrocraft.HCCrab;Hydrocraft.HCCheval;Hydrocraft.HCSmallgamesteak;Hydrocraft.HCVenison;Hydrocraft.HCBearsteak;Base.TurkeyFillet],
         }
@@ -410,7 +410,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPizzacutter] mode:keep,
-            item 1 [Hydrocraft.HCBoringpizza],
+            item 1 [Hydrocraft.HCBoringpizza] flags[ItemCount],
         }
         outputs
         {
@@ -428,7 +428,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPizzacutter] mode:keep,
-            item 1 [Hydrocraft.HCSimplepizza],
+            item 1 [Hydrocraft.HCSimplepizza] flags[ItemCount],
         }
         outputs
         {
@@ -446,7 +446,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPizzacutter] mode:keep,
-            item 1 [Hydrocraft.HCTastypizza],
+            item 1 [Hydrocraft.HCTastypizza] flags[ItemCount],
         }
         outputs
         {

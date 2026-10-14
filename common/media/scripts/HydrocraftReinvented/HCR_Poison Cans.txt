@@ -64,7 +64,49 @@ module Hydrocraft
             item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+            item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlasticcanempty,
+        }
+    }
+        craftRecipe Clean Empty Insecticide Can (Bleach)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclabelpoison,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPoisonempty],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [Bleach],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCPlasticcanempty,
+        }
+    }
+        craftRecipe Clean Empty Insecticide Can (Cleaning Liquid)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hclabelpoison,
+        inputs
+        {
+            item 1 [Hydrocraft.HCPoisonempty],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.01 [CleaningLiquid],
         }
         outputs
         {

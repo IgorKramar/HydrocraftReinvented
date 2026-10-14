@@ -294,7 +294,47 @@ module Hydrocraft
             item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],
+            item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalempty,
+        }
+    }
+        craftRecipe Clean Empty Metal Barrel (Bleach)
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmoniabarrelempty;Hydrocraft.HCMethylaminbarrelempty;Hydrocraft.HCPhenylbarrelempty;Hydrocraft.HCSulfuricacidbarrelempty] mode:destroy,
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [Bleach],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelmetalempty,
+        }
+    }
+        craftRecipe Clean Empty Metal Barrel (Cleaning Liquid)
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmoniabarrelempty;Hydrocraft.HCMethylaminbarrelempty;Hydrocraft.HCPhenylbarrelempty;Hydrocraft.HCSulfuricacidbarrelempty] mode:destroy,
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.01 [CleaningLiquid],
         }
         outputs
         {
@@ -313,7 +353,47 @@ module Hydrocraft
             item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],
+            item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelblueempty,
+        }
+    }
+        craftRecipe Clean Empty Blue Barrel (Bleach)
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmoniabarrelblueempty;Hydrocraft.HCMethylaminbarrelblueempty;Hydrocraft.HCPhenylbarrelblueempty;Hydrocraft.HCSulfuricacidbarrelblueempty] mode:destroy,
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [Bleach],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBarrelblueempty,
+        }
+    }
+        craftRecipe Clean Empty Blue Barrel (Cleaning Liquid)
+    {
+        time = 250,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCAmmoniabarrelblueempty;Hydrocraft.HCMethylaminbarrelblueempty;Hydrocraft.HCPhenylbarrelblueempty;Hydrocraft.HCSulfuricacidbarrelblueempty] mode:destroy,
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.01 [CleaningLiquid],
         }
         outputs
         {
@@ -1073,7 +1153,8 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 20 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 25 [Petrol],
             item 1 [Hydrocraft.HCBarrelmetalempty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
@@ -1108,7 +1189,8 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 20 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 25 [Petrol],
             item 1 [Hydrocraft.HCGasolinebarrelempty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
@@ -1144,7 +1226,7 @@ module Hydrocraft
         inputs
         {
             item 8 [Hydrocraft.HCBarrelmetalgasoline;Hydrocraft.HCGasolinebarrelfull],
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Hydrocraft.HCHandpump] mode:keep,
             item 1 [Hydrocraft.HCRubberhose] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,

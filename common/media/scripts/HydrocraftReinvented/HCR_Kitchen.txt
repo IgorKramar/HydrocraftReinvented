@@ -129,7 +129,6 @@ module Hydrocraft
 		DisplayName         = Dry Coffee Filter,
         Weight    			= 0.05, 
         icon 				= HCCoffeefilterdry,
-		WorldStaticModel 	= WorldItem-HCCoffeeFilter,
     }
     item HCCoffeefilterbox
     {
@@ -899,7 +898,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	0.6,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -933,7 +932,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	0.6,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -967,7 +966,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	0.6,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -1001,7 +1000,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	0.6,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -1034,7 +1033,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	0.9,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -1075,7 +1074,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	0.6,
-		WeaponSprite	=	Knife,
+		WeaponSprite	=	Base.Knife,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	2,
@@ -1109,7 +1108,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	0.6,
-		WeaponSprite	=	Knife,
+		WeaponSprite	=	Base.Knife,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	2,
@@ -1143,7 +1142,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	0.6,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -1177,7 +1176,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	0.6,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -1211,7 +1210,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	0.6,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -1595,12 +1594,12 @@ module Hydrocraft
     craftRecipe Pack Coffee Filter Box
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 50 [Hydrocraft.HCCoffeefilterdry],
+            item 50 [Hydrocraft.HCCoffeefilterdry] flags[ItemCount],
         }
         outputs
         {

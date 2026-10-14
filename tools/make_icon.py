@@ -497,7 +497,7 @@ def main():
     i.add_argument("--stretch-v", dest="stretch_v", type=float, default=1.0,
                    help="растянуть по вертикали до подгонки (кашпо часто выходит низким)")
     i.add_argument("--planter-from", dest="planter_from",
-                   help="взять нижнюю часть (кашпо, тумбу) из существующего состояния")
+                   help="подогнать тёплые цвета и габариты по референсу; для растений затем использовать fit_planter_icons.py")
     i.add_argument("--align-to", dest="align_to",
                    help="подогнать масштаб и посадку под существующее состояние "
                         "(например Item_HCPottedtomato.png)")

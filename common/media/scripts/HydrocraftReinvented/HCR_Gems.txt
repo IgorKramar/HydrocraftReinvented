@@ -434,7 +434,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCJade],
+            item 1 [Hydrocraft.HCJade] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -451,7 +451,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCQuartz],
+            item 1 [Hydrocraft.HCQuartz] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -468,7 +468,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCQuartzblue],
+            item 1 [Hydrocraft.HCQuartzblue] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -485,7 +485,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCQuartzrose],
+            item 1 [Hydrocraft.HCQuartzrose] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -502,7 +502,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCQuartzsmokey],
+            item 1 [Hydrocraft.HCQuartzsmokey] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -519,7 +519,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCQuartzcitrine],
+            item 1 [Hydrocraft.HCQuartzcitrine] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -536,7 +536,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCAmethyst],
+            item 1 [Hydrocraft.HCAmethyst] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -553,7 +553,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCAzurite],
+            item 1 [Hydrocraft.HCAzurite] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -570,7 +570,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCDiamond],
+            item 1 [Hydrocraft.HCDiamond] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -587,7 +587,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCEmerald],
+            item 1 [Hydrocraft.HCEmerald] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -604,7 +604,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCFireagate],
+            item 1 [Hydrocraft.HCFireagate] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -621,7 +621,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCGarnet],
+            item 1 [Hydrocraft.HCGarnet] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -638,7 +638,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCLapislazuli],
+            item 1 [Hydrocraft.HCLapislazuli] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -655,7 +655,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCMalachite],
+            item 1 [Hydrocraft.HCMalachite] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -672,7 +672,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCOlivine],
+            item 1 [Hydrocraft.HCOlivine] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -689,7 +689,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCRhodonite],
+            item 1 [Hydrocraft.HCRhodonite] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -706,7 +706,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCRuby],
+            item 1 [Hydrocraft.HCRuby] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -723,7 +723,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCSapphire],
+            item 1 [Hydrocraft.HCSapphire] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -740,7 +740,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCTopaz],
+            item 1 [Hydrocraft.HCTopaz] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -757,7 +757,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCTurquoise],
+            item 1 [Hydrocraft.HCTurquoise] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs
@@ -774,7 +774,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCAmazonite],
+            item 1 [Hydrocraft.HCAmazonite] flags[ItemCount],
             item 1 [Hydrocraft.HCGemcutter] mode:keep,
         }
         outputs

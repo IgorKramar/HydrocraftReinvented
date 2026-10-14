@@ -1,3 +1,4 @@
+require "HCR_Boxing"
 
 --These will exist, but just in case
 HCRecipe = HCRecipe or {}
@@ -15,52 +16,54 @@ function HCRecipe.GetItemTypes.LeatherGloves(scriptItems)
 end
 
 function HCRecipe.GetItemTypes.BlacksmithTongs(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("BlacksmithTongs"))
+	scriptItems:addAll(getScriptManager():getItemsTag("base:tongs"))
+    scriptItems:addAll(getScriptManager():getItemsTag("base:crudetongs"))
 end
 
 function HCRecipe.GetItemTypes.Potato(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("Potato"))
+	scriptItems:addAll(getScriptManager():getItemsTag("hydrocraft:potato"))
+    scriptItems:add(getScriptManager():getItem("Base.Potato"))
 end
 
 function HCRecipe.GetItemTypes.RoastingPanFull(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("RoastingPanFull"))
+	scriptItems:addAll(getScriptManager():getItemsTag("hydrocraft:roastingpanfull"))
 end
 
 function HCRecipe.GetItemTypes.PaperBagFull(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("PaperBagFull"))
+	scriptItems:addAll(getScriptManager():getItemsTag("hydrocraft:paperbagfull"))
 end
 
 function HCRecipe.GetItemTypes.ServeInPaperBag(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("ServeInPaperBag"))
+	scriptItems:addAll(getScriptManager():getItemsTag("hydrocraft:serveinpaperbag"))
 end
 
 function HCRecipe.GetItemTypes.Box12(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("Box12"))
+	HCRBox.addMaterialTypes(scriptItems)
 end
 
 function HCRecipe.GetItemTypes.Box25(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("Box25"))
+	HCRBox.addMaterialTypes(scriptItems)
 end
 
 function HCRecipe.GetItemTypes.Box50(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("Box50"))
+	HCRBox.addMaterialTypes(scriptItems)
 end
 
 function HCRecipe.GetItemTypes.Box100(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("Box100"))
+	HCRBox.addMaterialTypes(scriptItems)
 end
 
 --Note: Recipe.GetItemTypes.Milk exists in Vanilla PZ
 function HCRecipe.GetItemTypes.Cereal(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("Cereal"))
+	scriptItems:addAll(getScriptManager():getItemsTag("hydrocraft:cereal"))
 end
 
 function HCRecipe.GetItemTypes.NylonBag(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("NylonBag"))
+	scriptItems:addAll(getScriptManager():getItemsTag("hydrocraft:nylonbag"))
 end
 
 function HCRecipe.GetItemTypes.HuntingShotgun(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("HuntingShotgun"))
+	scriptItems:addAll(getScriptManager():getItemsTag("hydrocraft:huntingshotgun"))
 end
 
 function HCRecipe.GetItemTypes.BooksWithNumberOfPages(scriptItems)
@@ -86,9 +89,10 @@ function HCRecipe.GetItemTypes.FoodThatCanRot(scriptItems)
 end
 
 function HCRecipe.GetItemTypes.Shit(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("Shit"))
+	scriptItems:addAll(getScriptManager():getItemsTag("hydrocraft:shit"))
 end
 
 function HCRecipe.GetItemTypes.BucketConcrete(scriptItems)
-	scriptItems:addAll(getScriptManager():getItemsTag("BucketConcrete"))
+	scriptItems:add(getScriptManager():getItem("Base.BucketConcreteFull"))
+    scriptItems:add(getScriptManager():getItem("Base.BucketCarvedConcreteFull"))
 end

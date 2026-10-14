@@ -1,3 +1,4 @@
+require "HCR_Compatibility"
 --- HUNTING MOD LUAS ---
 --- *UNGRATEFULDEAD* ---
 ------------------------
@@ -49,7 +50,7 @@ local luck= ZombRand(11);
 local count=0;
 local ItemNr=0;
 animals={'Hydrocraft.HCChickenmalehungry','Hydrocraft.HCChickenfemalehungry','Hydrocraft.HCChickenmalebaby','Hydrocraft.HCChickenfemalebaby'}
-if  player:getTraits():contains('Lucky') then luck = luck + 3;
+if  HCR.hasTrait(player, "Lucky") then luck = luck + 3;
 end
 
 if luck >= 10 then
@@ -69,7 +70,7 @@ function HCHuntSmallGame(items, result, player)
 	local chance = 0;
 	--Base chance per weapon type.	
 	for x=0, items:size()-1 do
-		if items:get(x):getType() == "WoodenLance" then
+		if items:get(x):getType() == "WoodenLance" or items:get(x):getType() == "SpearCrafted" then
 			chance = 39;
 		elseif items:get(x):getType() == "HCLongbow" or items:get(x):getType() == "HCCrossbow" then
 			chance = 49;
@@ -93,12 +94,6 @@ function HCHuntSmallGame(items, result, player)
 			local animal = ZombRand(12);
 			if animal == 0 then
 				player:getInventory():AddItem("Base.DeadRabbit");
-				local babys = ZombRand(2);
-				if babys == 0 then 
-					player:getInventory():AddItem("Hydrocraft.HCRabbitfemalehungry");
-				else 
-					player:getInventory():AddItem("Hydrocraft.HCRabbitmalehungry");	
-				end
 			elseif animal == 1 then
 				player:getInventory():AddItem("Base.DeadSquirrel");
 			elseif animal == 2 then
@@ -137,7 +132,7 @@ function HCHuntDeer(items, result, player)
 	local chance = 0;
 	--Base chance per weapon type.
 	for x=0, items:size()-1 do
-		if items:get(x):getType() == "WoodenLance" then
+		if items:get(x):getType() == "WoodenLance" or items:get(x):getType() == "SpearCrafted" then
 			chance = 29;
 		elseif items:get(x):getType() == "HCLongbow" or items:get(x):getType() == "HCCrossbow" then
 			chance = 39;
@@ -179,7 +174,7 @@ function HCHuntBoar(items, result, player)
 	local chance = 0;
 	--Base chance per weapon type.
 	for x=0, items:size()-1 do
-		if items:get(x):getType() == "WoodenLance" then
+		if items:get(x):getType() == "WoodenLance" or items:get(x):getType() == "SpearCrafted" then
 			chance = 19;
 		elseif items:get(x):getType() == "HCLongbow" or items:get(x):getType() == "HCCrossbow" then
 			chance = 29;
@@ -200,12 +195,7 @@ function HCHuntBoar(items, result, player)
 	else
 		actual = ZombRand(100);
 		if actual <= chance then
-			local animal = ZombRand(2)
-			if animal == 0 then
-				player:getInventory():AddItem("Hydrocraft.HCBoardead");
-			elseif animal == 1 then
-				player:getInventory():AddItem("Hydrocraft.HCPigdead");
-			end
+			player:getInventory():AddItem("Hydrocraft.HCBoardead");
 			HCSpeaking(player, 1);
 		else
 			HCSpeaking(player, 2);
@@ -221,7 +211,7 @@ function HCHuntBear(items, result, player)
 	local chance = 0;
 	--Base chance per weapon type.
 	for x=0, items:size()-1 do
-		if items:get(x):getType() == "WoodenLance" then
+		if items:get(x):getType() == "WoodenLance" or items:get(x):getType() == "SpearCrafted" then
 			chance = 19;
 		elseif items:get(x):getType() == "HCLongbow" or items:get(x):getType() == "HCCrossbow" then
 			chance = 29;
@@ -264,7 +254,7 @@ function HCHuntCougar(items, result, player)
 	local chance = 0;
 	--Base chance per weapon type.
 	for x=0, items:size()-1 do
-		if items:get(x):getType() == "WoodenLance" then
+		if items:get(x):getType() == "WoodenLance" or items:get(x):getType() == "SpearCrafted" then
 			chance = 19;
 		elseif items:get(x):getType() == "HCLongbow" or items:get(x):getType() == "HCCrossbow" then
 			chance = 29;
@@ -381,7 +371,7 @@ function HCHuntWaterfowl(items, result, player)
 			if animal == 0 then
 				player:getInventory():AddItem("Hydrocraft.HCDuckdead");
 			elseif animal == 1 then
-				player:getInventory():AddItem("Hydrocraft.HCDMallarddead");
+				player:getInventory():AddItem("Hydrocraft.HCMallarddead");
 			elseif animal == 2 then
 				player:getInventory():AddItem("Hydrocraft.HCCanadiangoosedead");
 			elseif animal == 3 then

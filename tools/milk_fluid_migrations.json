@@ -1,0 +1,209 @@
+{
+  "upstream": "brosseaualex/Hydrocraft",
+  "commit": "917d37d4ed526f429e1525316c9fab487bbf7257",
+  "old_milk_source": "Base Items.txt / module Base / item Milk: Food HungerChange=-10; no drainable UseDelta",
+  "native_source": "installed42.21 media/scripts/generated/items/normal.txt / Base.Milk: FluidContainer capacity1.0, CowMilk1.0",
+  "policy": "Full legacy Milk input=one litre; Milk;1/;2=0.1/0.2 litre. Retain current HC Food alternatives and their portion amounts in original recipes; native fluid alternatives are separate variants. Partial fluid never uses ItemCount.",
+  "migrations": [
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Eggnog Pot",
+      "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
+      "kind": "split_food_or",
+      "native_recipe": "Make Eggnog Pot (Carton Milk)",
+      "litres": 1.0,
+      "source": {
+        "file": "Food Bar.txt",
+        "recipe": "Make Eggnog Pot",
+        "result": "HCEggnogpot",
+        "input": "Milk,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Monkey Tail Pot",
+      "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
+      "kind": "split_food_or",
+      "native_recipe": "Make Monkey Tail Pot (Carton Milk)",
+      "litres": 1.0,
+      "source": {
+        "file": "Food Bar.txt",
+        "recipe": "Make Monkey Tail Pot",
+        "result": "HCColademonopot",
+        "input": "Milk,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    },
+    {
+      "file": "HCR_Food Dairy.txt",
+      "recipe": "Pour Out Milk",
+      "input": "item 1 [Base.Milk],",
+      "kind": "whole_carton_conversion",
+      "after": "item 1 [Base.Milk] mode:destroy flags[ItemCount],",
+      "basis": "Current explicit pour-out/container conversion: discard all fluid and convert exactly one native carton to the existing HC empty carton."
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Add Milk From Carton",
+      "input": "item 1 [Base.Milk],",
+      "kind": "native_fluid",
+      "native_recipe": "Add Milk From Carton",
+      "litres": 0.1,
+      "source": {
+        "file": "Food Drinks.txt",
+        "recipe": "Add Milk From Carton",
+        "result": "HCCoffeeblacksugarmilk",
+        "input": "Milk;1,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Add Milk From Carton (Cup of Coffee with Sugar and Milk)",
+      "input": "item 1 [Base.Milk],",
+      "kind": "native_fluid",
+      "native_recipe": "Add Milk From Carton (Cup of Coffee with Sugar and Milk)",
+      "litres": 0.1,
+      "source": {
+        "file": "Food Drinks.txt",
+        "recipe": "Add Milk From Carton",
+        "result": "HCCoffeeblack2sugarmilk",
+        "input": "Milk;1,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Add Milk From Carton (Thermos of Coffee with Sugar and Milk)",
+      "input": "item 2 [Base.Milk],",
+      "kind": "native_fluid",
+      "native_recipe": "Add Milk From Carton (Thermos of Coffee with Sugar and Milk)",
+      "litres": 0.2,
+      "source": {
+        "file": "Food Drinks.txt",
+        "recipe": "Add Milk From Carton",
+        "result": "HCThermoscoffeesugarmilk",
+        "input": "Milk;2,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Make Cup of Hot Chocolate",
+      "input": "item 1 [Base.Milk;Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],",
+      "kind": "split_food_or",
+      "native_recipe": "Make Cup of Hot Chocolate (Carton Milk)",
+      "litres": 1.0,
+      "source": {
+        "file": "Food Drinks.txt",
+        "recipe": "Make Cup of Hot Chocolate",
+        "result": "HCCococup",
+        "input": "Milk/HCUHTmilk/HCSoymilk,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Make Cup of Hot Chocolate (Cup of Hot Chocolate)",
+      "input": "item 1 [Base.Milk;Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],",
+      "kind": "split_food_or",
+      "native_recipe": "Make Cup of Hot Chocolate (Cup of Hot Chocolate) (Carton Milk)",
+      "litres": 1.0,
+      "source": {
+        "file": "Food Drinks.txt",
+        "recipe": "Make Cup of Hot Chocolate",
+        "result": "HCCococup2",
+        "input": "Milk/HCUHTmilk/HCSoymilk,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Prepare Cornbread",
+      "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
+      "kind": "split_food_or",
+      "native_recipe": "Prepare Cornbread (Carton Milk)",
+      "litres": 1.0,
+      "source": {
+        "file": "Food Flour.txt",
+        "recipe": "Prepare Cornbread",
+        "result": "HCCornbreadpan",
+        "input": "Milk,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    },
+    {
+      "file": "HCR_Food Mexican.txt",
+      "recipe": "Make Nacho Cheese",
+      "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
+      "kind": "split_food_or",
+      "native_recipe": "Make Nacho Cheese (Carton Milk)",
+      "litres": 1.0,
+      "source": {
+        "file": "Food Mexican.txt",
+        "recipe": "Make Nacho Cheese",
+        "result": "HCNachobowl",
+        "input": "Milk,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    },
+    {
+      "file": "HCR_Food Pastry.txt",
+      "recipe": "Make Frosting",
+      "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
+      "kind": "split_food_or",
+      "native_recipe": "Make Frosting (Carton Milk)",
+      "litres": 1.0,
+      "source": {
+        "file": "Food Pastry.txt",
+        "recipe": "Make Frosting",
+        "result": "HCFrosting",
+        "input": "Milk,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    },
+    {
+      "file": "HCR_Food Pastry.txt",
+      "recipe": "Make Fruit Cake Batter",
+      "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
+      "kind": "split_food_or",
+      "native_recipe": "Make Fruit Cake Batter (Carton Milk)",
+      "litres": 1.0,
+      "source": {
+        "file": "Food Pastry.txt",
+        "recipe": "Make Fruit Cake Batter",
+        "result": "HCFruitcakebatter",
+        "input": "Milk,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    },
+    {
+      "file": "HCR_Food Rice.txt",
+      "recipe": "Make Pot of Rice Pudding",
+      "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
+      "kind": "split_food_or",
+      "native_recipe": "Make Pot of Rice Pudding (Carton Milk)",
+      "litres": 1.0,
+      "source": {
+        "file": "Food Soup.txt",
+        "recipe": "Make Pot of Rice Pudding",
+        "result": "HCRicepuddingpot",
+        "input": "Milk/HCUHTmilk/HCSoymilk,"
+      },
+      "old_hunger_units": 10,
+      "native_carton_litres": 1.0
+    }
+  ]
+}

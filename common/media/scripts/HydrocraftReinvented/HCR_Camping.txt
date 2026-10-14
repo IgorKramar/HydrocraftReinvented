@@ -151,7 +151,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	0.9,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -210,7 +210,7 @@ module Hydrocraft
 		HitAngleMod			=	-30.0,
 		SwingAnim			=	Bat,
 		MaxHitCount 		=	1,
-		WeaponSprite		=	Shovel,
+		WeaponSprite		=	Base.Shovel,
 		IdleAnim			=	Idle_Weapon2,
 		RunAnim				=	Run_Weapon2,
 		Weight				=	1.5,
@@ -246,7 +246,7 @@ module Hydrocraft
 		HitAngleMod			=	-30.0,
 		SwingAnim			=	Bat,
 		MaxHitCount 			=	1,
-		WeaponSprite			=	Shovel,
+		WeaponSprite			=	Base.Shovel,
 		IdleAnim			=	Idle_Weapon2,
 		RunAnim				=	Run_Weapon2,
 		Weight				=	1.5,
@@ -303,7 +303,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Base.WaterBottle] mode:destroy,
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
         }
         outputs
         {
@@ -320,7 +320,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
         }
         outputs
         {
@@ -337,7 +337,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Base.Whiskey] mode:destroy,
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
         }
         outputs
         {
@@ -354,7 +354,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Base.MugWhite] mode:destroy,
+            item 1 [Base.MugWhite] mode:destroy flags[ItemCount],
         }
         outputs
         {

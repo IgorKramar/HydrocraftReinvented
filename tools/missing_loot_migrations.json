@@ -1,0 +1,175 @@
+{
+  "gameVersion": "42.21",
+  "policy": "Remove exact guaranteed-absent active loot entries only; remove both item and numeric weight. No animal restoration, replacements, weight retuning, or edits to dormant legacy callbacks.",
+  "removals": [
+    {
+      "file": "server/Items/Distributions_HC.lua",
+      "item": "Base.FishingTackle",
+      "kind": "weighted_pair",
+      "input": "\"Base.FishingTackle\", 50,",
+      "occurrences": 1,
+      "evidence": "Absent from installed 42.21 script declarations and current mod; active server distribution registration."
+    },
+    {
+      "file": "server/Items/Distributions_HC.lua",
+      "item": "Base.FishingTackle2",
+      "kind": "weighted_pair",
+      "input": "\"Base.FishingTackle2\", 50,",
+      "occurrences": 1,
+      "evidence": "Absent from installed 42.21 script declarations and current mod; active server distribution registration."
+    },
+    {
+      "file": "server/Items/Distributions_HC.lua",
+      "item": "Base.Shoes",
+      "kind": "weighted_pair",
+      "input": "\"Base.Shoes\", 50,",
+      "occurrences": 1,
+      "evidence": "Absent from installed 42.21 script declarations and current mod; active server distribution registration."
+    },
+    {
+      "file": "server/Items/Distributions_HC.lua",
+      "item": "Hydrocraft.HCBoots",
+      "kind": "weighted_pair",
+      "input": "\"Hydrocraft.HCBoots\", 50,",
+      "occurrences": 1,
+      "evidence": "Absent from installed 42.21 script declarations and current mod; active server distribution registration."
+    },
+    {
+      "file": "server/Items/Distributions_HC.lua",
+      "item": "Hydrocraft.HCFlipflops",
+      "kind": "weighted_pair",
+      "input": "\"Hydrocraft.HCFlipflops\", 50,",
+      "occurrences": 1,
+      "evidence": "Absent from installed 42.21 script declarations and current mod; active server distribution registration."
+    },
+    {
+      "file": "server/Items/Distributions_HC.lua",
+      "item": "Hydrocraft.HCCleats",
+      "kind": "weighted_pair",
+      "input": "\"Hydrocraft.HCCleats\", 50,",
+      "occurrences": 1,
+      "evidence": "Absent from installed 42.21 script declarations and current mod; active server distribution registration."
+    },
+    {
+      "file": "server/Items/Distributions_HC.lua",
+      "item": "Hydrocraft.HCBootconstruction",
+      "kind": "weighted_pair",
+      "input": "\"Hydrocraft.HCBootconstruction\", 50,",
+      "occurrences": 1,
+      "evidence": "Absent from installed 42.21 script declarations and current mod; active server distribution registration."
+    },
+    {
+      "file": "server/Items/Distributions_HC.lua",
+      "item": "Hydrocraft.HCCatwhitemale",
+      "kind": "weighted_pair",
+      "input": "\"Hydrocraft.HCCatwhitemale\", 10,",
+      "occurrences": 1,
+      "evidence": "Absent from installed 42.21 script declarations and current mod; active server distribution registration."
+    },
+    {
+      "file": "server/Items/ProceduralDistributions_HC.lua",
+      "item": "Hydrocraft.HCMachete",
+      "kind": "weighted_pair",
+      "input": "\"Hydrocraft.HCMachete\", 0.1,",
+      "occurrences": 1,
+      "evidence": "Absent from installed 42.21 script declarations and current mod; active server distribution registration."
+    },
+    {
+      "file": "server/Items/ProceduralDistributions_HC.lua",
+      "item": "Hydrocraft.HCPiepeachbaked",
+      "kind": "weighted_pair",
+      "input": "\"Hydrocraft.HCPiepeachbaked\", 1,",
+      "occurrences": 1,
+      "evidence": "Absent from installed 42.21 script declarations and current mod; active server distribution registration."
+    },
+    {
+      "file": "server/Items/ProceduralDistributions_HC.lua",
+      "item": "Hydrocraft.HCPiepearbaked",
+      "kind": "weighted_pair",
+      "input": "\"Hydrocraft.HCPiepearbaked\", 1,",
+      "occurrences": 1,
+      "evidence": "Absent from installed 42.21 script declarations and current mod; active server distribution registration."
+    },
+    {
+      "file": "server/HCLoot.lua",
+      "item": "Hydrocraft.HCStyrofoamball",
+      "kind": "unweighted_entry",
+      "input": "\"Hydrocraft.HCStyrofoamball\", ",
+      "occurrences": 1,
+      "evidence": "Absent declaration; reachable Open Art Supply Box OnCreate HCR42.recipe_hclootart -> HCItemGet."
+    },
+    {
+      "file": "server/HCLoot.lua",
+      "item": "Hydrocraft.HCStyrofoamblock",
+      "kind": "unweighted_entry",
+      "input": "\"Hydrocraft.HCStyrofoamblock\", ",
+      "occurrences": 1,
+      "evidence": "Absent declaration; reachable Open Art Supply Box OnCreate HCR42.recipe_hclootart -> HCItemGet."
+    },
+    {
+      "file": "server/Items/ProceduralDistributions_HC.lua",
+      "item": "Base.MagazineCrossword1",
+      "kind": "weighted_pair",
+      "input": "\"MagazineCrossword1\", 1,",
+      "occurrences": 1,
+      "evidence": "Unqualified loot IDs resolve in Base; absent from installed42.21 declarations and mod. Runtime registration test covers this pool."
+    },
+    {
+      "file": "server/Items/ProceduralDistributions_HC.lua",
+      "item": "Base.MagazineCrossword2",
+      "kind": "weighted_pair",
+      "input": "\"MagazineCrossword2\", 1,",
+      "occurrences": 1,
+      "evidence": "Unqualified loot IDs resolve in Base; absent from installed42.21 declarations and mod. Runtime registration test covers this pool."
+    },
+    {
+      "file": "server/Items/ProceduralDistributions_HC.lua",
+      "item": "Base.MagazineCrossword3",
+      "kind": "weighted_pair",
+      "input": "\"MagazineCrossword3\", 1,",
+      "occurrences": 1,
+      "evidence": "Unqualified loot IDs resolve in Base; absent from installed42.21 declarations and mod. Runtime registration test covers this pool."
+    },
+    {
+      "file": "server/Items/ProceduralDistributions_HC.lua",
+      "item": "Base.MagazineWordsearch1",
+      "kind": "weighted_pair",
+      "input": "\"MagazineWordsearch1\", 1,",
+      "occurrences": 1,
+      "evidence": "Unqualified loot IDs resolve in Base; absent from installed42.21 declarations and mod. Runtime registration test covers this pool."
+    },
+    {
+      "file": "server/Items/ProceduralDistributions_HC.lua",
+      "item": "Base.MagazineWordsearch2",
+      "kind": "weighted_pair",
+      "input": "\"MagazineWordsearch2\", 1,",
+      "occurrences": 1,
+      "evidence": "Unqualified loot IDs resolve in Base; absent from installed42.21 declarations and mod. Runtime registration test covers this pool."
+    },
+    {
+      "file": "server/Items/ProceduralDistributions_HC.lua",
+      "item": "Base.MagazineWordsearch3",
+      "kind": "weighted_pair",
+      "input": "\"MagazineWordsearch3\", 1,",
+      "occurrences": 1,
+      "evidence": "Unqualified loot IDs resolve in Base; absent from installed42.21 declarations and mod. Runtime registration test covers this pool."
+    },
+    {
+      "file": "server/Items/Distributions_HC.lua",
+      "item": "camping.CampingTentKit",
+      "kind": "weighted_pair",
+      "input": "\"camping.CampingTentKit\", 1,",
+      "occurrences": 1,
+      "evidence": "Old camping module item absent from installed42.21 and mod; active backpack pool. No replacement chosen."
+    }
+  ],
+  "corrections": [
+    {
+      "file": "server/Items/ProceduralDistributions_HC.lua",
+      "before": "\"Hydrocraft.HCAlfredosauce\"",
+      "after": "\"Hydrocraft.HCAlfredosauce\", 1,",
+      "occurrences": 3,
+      "evidence": "pizza_kitchen_sauce_items was malformed singleton. Same existing item has weight1 in gigamart_sauce_items and kitchen_dry_food_items; preserve their established weight."
+    }
+  ]
+}

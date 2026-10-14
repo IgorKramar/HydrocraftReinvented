@@ -2,17 +2,18 @@ module Hydrocraft
 {
     imports { Base }
 
+    model Chainsaw
+    {
+        mesh = weapons_chainsaw,
+        texture = Objects_chainsaw,
+        static = true,
+    }
+
 /*
-    Модели оружия для B42.
-
-    В B41 предмет показывался в руках по полю WeaponSprite. В B42 нужен меш,
-    подключённый блоком model, и ссылка на него из предмета (WorldStaticModel).
-    Без этого предмет невидим в руках и не проигрывает замах.
-
-    Здесь собраны те предметы, у которых в моде есть и меш (models_X/weapons),
-    и текстура. Остальному оружию меша не поставлялось: в B41 оно ссылалось
-    на ванильные спрайты. Подобрать им ванильные модели B42 помогает
-    tools/weapon_models.py — его нужно запускать при установленной игре.
+    WeaponSprite указывает на модель оружия в руках, WorldStaticModel — на
+    модель размещения. Имена чувствительны к регистру. Кастомные ссылки
+    квалифицируются модулем Hydrocraft; голое имя ищется в Base.
+    Проверено по ModelManager/HandWeapon установленной B42.
 */
 
     model HCBoxcutter
@@ -49,5 +50,89 @@ module Hydrocraft
     {
         mesh = weapons/HCUzi,
         texture = weapons/HCUzi,
+    }
+
+    model HCAA12Shotgun
+    {
+        mesh = weapons/HCAA12Shotgun,
+        texture = weapons/HCAA12Shotgun,
+    }
+
+    model HCLongbowDrawn
+    {
+        mesh = weapons/HCLongbowDrawn,
+        texture = weapons/HCLongbow,
+    }
+
+    model HCQuarterstaff
+    {
+        mesh = weapons/HCQuarterStaff,
+        texture = weapons/HCQuarterStaff,
+    }
+
+    model HCScythebronze
+    {
+        mesh = weapons/HCScythe,
+        texture = weapons/HCScytheBronze,
+    }
+
+    model HCScythecopper
+    {
+        mesh = weapons/HCScythe,
+        texture = weapons/HCScytheCopper,
+    }
+
+    model HCScytheiron
+    {
+        mesh = weapons/HCScythe,
+        texture = weapons/HCScytheIron,
+    }
+
+    model HCScythesteel
+    {
+        mesh = weapons/HCScythe,
+        texture = weapons/HCScytheSteel,
+    }
+
+    model HCSmithyhammerbronze
+    {
+        mesh = weapons/HCSmithyHammer,
+        texture = weapons/HCSmithyHammerBronze,
+    }
+
+    model HCSmithyhammercopper
+    {
+        mesh = weapons/HCSmithyHammer,
+        texture = weapons/HCSmithyHammerCopper,
+    }
+
+    model HCSmithyhammeriron
+    {
+        mesh = weapons/HCSmithyHammer,
+        texture = weapons/HCSmithyHammerIron,
+    }
+
+    model HCSmithyhammersteel
+    {
+        mesh = weapons/HCSmithyHammer,
+        texture = weapons/HCSmithyHammerSteel,
+    }
+
+    model HCSmithyhammertitanium
+    {
+        mesh = weapons/HCSmithyHammer,
+        texture = weapons/HCSmithyHammerTitanium,
+    }
+
+    model HCSurvivalaxe
+    {
+        mesh = weapons/HCSurvivalAxe,
+        texture = weapons/HCSurvivalAxe,
+    }
+
+    model HCWardog
+    {
+        mesh = weapons/HCWardog,
+        texture = weapons/1handed/Drumstick,
     }
 }

@@ -1,0 +1,1474 @@
+{
+  "game_version": "42.21",
+  "upstream_commit": "917d37d4ed526f429e1525316c9fab487bbf7257",
+  "evidence": "B41 PetrolCan UseDelta=.125 (eight charges), B42 generated/items/normal.txt PetrolCan FluidContainer capacity10L:1.25L per source use. EmptyPetrolCan/BucketEmpty/EmptyJar/HCClaymug/empty cans and bottles are whole physical inputs; require ItemCount and empty fluid contents. Named ItemIsFluid flags do not exclude legacy nonfluid HCClaymug alternatives. Native InputScript IsEmpty tests fluid contents when present. Fuel portions retain native can and permit pooling across cans via consumeFromItem native amount.",
+  "legacy_schema_source": "https://undeniable.info/pz/wiki/item.php?Name=PetrolCan",
+  "migrations": [
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Helmet",
+      "input": "item 1 [Base.Bucket],",
+      "fluid_types": [
+        "Base.Bucket"
+      ],
+      "before": "item 1 [Base.Bucket],",
+      "after": "item 1 [Base.Bucket] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "BucketEmpty,",
+      "source_file": "Armor.txt",
+      "source_recipe": "Make Helmet",
+      "source_line": 999,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Barrels.txt",
+      "recipe": "Fill Empty Metal Barrel With Gasoline",
+      "input": "item 20 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 20 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 25.0,
+      "legacy_input": "PetrolCan=20,",
+      "source_file": "Barrels.txt",
+      "source_recipe": "Fill Empty Metal Barrel With Gasoline",
+      "source_line": 874,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Barrels.txt",
+      "recipe": "Fill Empty Gasoline Barrel With Gasoline",
+      "input": "item 20 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 20 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 25.0,
+      "legacy_input": "PetrolCan=20,",
+      "source_file": "Barrels.txt",
+      "source_recipe": "Fill Empty Gasoline Barrel With Gasoline",
+      "source_line": 895,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Barrels.txt",
+      "recipe": "Fill Empty Petrol Cans With Gasoline",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "EmptyPetrolCan,",
+      "source_file": "Barrels.txt",
+      "source_recipe": "Fill Empty Petrol Cans With Gasoline",
+      "source_line": 916,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Biodiesel.txt",
+      "recipe": "Store Biodiesel",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "EmptyPetrolCan,",
+      "source_file": "Biodiesel.txt",
+      "source_recipe": "Store Biodiesel",
+      "source_line": 167,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Biodiesel.txt",
+      "recipe": "Add Gasoline to Biodiesel",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Biodiesel.txt",
+      "source_recipe": "Add Gasoline to Biodiesel",
+      "source_line": 180,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Bugs.txt",
+      "recipe": "Put Bug in Jar",
+      "input": "item 1 [Base.EmptyJar],",
+      "fluid_types": [
+        "Base.EmptyJar"
+      ],
+      "before": "item 1 [Base.EmptyJar],",
+      "after": "item 1 [Base.EmptyJar] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "EmptyJar,",
+      "source_file": "Bugs.txt",
+      "source_recipe": "Put Bug in Jar",
+      "source_line": 498,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Bugs.txt",
+      "recipe": "Put Bug in Jar (Bug Jar)",
+      "input": "item 1 [Base.EmptyJar],",
+      "fluid_types": [
+        "Base.EmptyJar"
+      ],
+      "before": "item 1 [Base.EmptyJar],",
+      "after": "item 1 [Base.EmptyJar] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "EmptyJar,",
+      "source_file": "Bugs.txt",
+      "source_recipe": "Put Bug in Jar",
+      "source_line": 508,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Carpentry.txt",
+      "recipe": "Build Makeshift Shower",
+      "input": "item 1 [Base.Bucket],",
+      "fluid_types": [
+        "Base.Bucket"
+      ],
+      "before": "item 1 [Base.Bucket],",
+      "after": "item 1 [Base.Bucket] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "BucketEmpty,",
+      "source_file": "Carpentry.txt",
+      "source_recipe": "Build Makeshift Shower",
+      "source_line": 1995,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Centifuge.txt",
+      "recipe": "Use Electrolyzer",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Centifuge.txt",
+      "source_recipe": "Use Electrolyzer",
+      "source_line": 76,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Chalk Powder (Chalk Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Chalk Powder",
+      "source_line": 637,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Charcoal Powder (Charcoal Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Charcoal Powder",
+      "source_line": 661,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Graphite Powder (Graphite Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Graphite Powder",
+      "source_line": 686,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Saltpeter Powder (Saltpeter Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Saltpeter Powder",
+      "source_line": 711,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Sulphur Powder (Sulphur Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Sulphur Powder",
+      "source_line": 736,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Copper Powder (Copper Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Copper Powder",
+      "source_line": 761,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Tin Powder (Tin Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Tin Powder",
+      "source_line": 786,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Lead Powder (Lead Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Lead Powder",
+      "source_line": 811,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Iron Powder (Iron Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Iron Powder",
+      "source_line": 836,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Magnetite Powder (Magnetite Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Magnetite Powder",
+      "source_line": 861,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Meteorite Powder (Meteorite Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Meteorite Powder",
+      "source_line": 886,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Silver Powder (Silver Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Silver Powder",
+      "source_line": 911,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Gold Powder (Gold Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Gold Powder",
+      "source_line": 936,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Aluminum Powder (Aluminum Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Aluminum Powder",
+      "source_line": 961,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Zinc Powder (Zinc Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Zinc Powder",
+      "source_line": 986,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Nickel Powder (Nickel Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Nickel Powder",
+      "source_line": 1011,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Cobalt Powder (Cobalt Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Cobalt Powder",
+      "source_line": 1036,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Chrome Powder (Chrome Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Chrome Powder",
+      "source_line": 1061,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Tungsten Powder (Tungsten Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Tungsten Powder",
+      "source_line": 1086,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Titanium Powder",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Titanium Powder",
+      "source_line": 1111,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Phosphorus Powder (Phosphorus Powder 2)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Phosphorus Powder",
+      "source_line": 1149,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Lithium Powder (Lithium Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Lithium Powder",
+      "source_line": 1174,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Lapis Lazuli Powder (Lapis Lazuli Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Lapis Lazuli Powder",
+      "source_line": 1199,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Azurite Powder (Azurite Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Azurite Powder",
+      "source_line": 1224,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Jade Powder (Jade Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Jade Powder",
+      "source_line": 1249,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Malachite Powder (Malachite Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Malachite Powder",
+      "source_line": 1274,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Marble Powder (Marble Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Marble Powder",
+      "source_line": 1299,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Albite Powder (Albite Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Albite Powder",
+      "source_line": 1324,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Feldspar Powder (Feldspar Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Feldspar Powder",
+      "source_line": 1349,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Gypsum Powder (Gypsum Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Gypsum Powder",
+      "source_line": 1374,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Diatomite Powder (Diatomite Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Diatomite Powder",
+      "source_line": 1399,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Trona Powder (Trona Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Trona Powder",
+      "source_line": 1423,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Thermite (Thermite 2)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Thermite",
+      "source_line": 1459,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Ephedrin Powder (Ephedrine Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Make Ephedrin Powder",
+      "source_line": 1538,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Grind Solid Fuel Cube (Hexamethylentetramin Powder)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Alchemy.txt",
+      "source_recipe": "Grind Solid Fuel Cube",
+      "source_line": 1961,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Containers.txt",
+      "recipe": "Craft Shoulder Pole using Planks",
+      "input": "item 2 [Base.Bucket],",
+      "fluid_types": [
+        "Base.Bucket"
+      ],
+      "before": "item 2 [Base.Bucket],",
+      "after": "item 2 [Base.Bucket] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "BucketEmpty=2,",
+      "source_file": "Containers.txt",
+      "source_recipe": "Craft Shoulder Pole using Planks",
+      "source_line": 1000,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Containers.txt",
+      "recipe": "Craft Shoulder Pole using Sturdy Sticks",
+      "input": "item 2 [Base.Bucket],",
+      "fluid_types": [
+        "Base.Bucket"
+      ],
+      "before": "item 2 [Base.Bucket],",
+      "after": "item 2 [Base.Bucket] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "BucketEmpty=2,",
+      "source_file": "Containers.txt",
+      "source_recipe": "Craft Shoulder Pole using Sturdy Sticks",
+      "source_line": 1012,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Drugs Tobacco.txt",
+      "recipe": "Grind Tobacco (Tobacco)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Drugs Tobacco.txt",
+      "source_recipe": "Grind Tobacco",
+      "source_line": 316,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Food Bar.txt",
+      "source_recipe": "Brew Irish Coffee",
+      "source_line": 1990,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 3)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Food Bar.txt",
+      "source_recipe": "Brew Irish Coffee",
+      "source_line": 1990,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Pour Black Coffee into Mug (Cup of Black Coffee)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Food Drinks.txt",
+      "source_recipe": "Pour Black Coffee into Mug",
+      "source_line": 431,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Make Cup of Hot Chocolate (Cup of Hot Chocolate)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Food Drinks.txt",
+      "source_recipe": "Make Cup of Hot Chocolate",
+      "source_line": 588,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Grind Acorn Flour (Variant 2)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Food Flour.txt",
+      "source_recipe": "Grind Acorn Flour",
+      "source_line": 936,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Grind Corn Flour (Variant 2)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Food Flour.txt",
+      "source_recipe": "Grind Corn Flour",
+      "source_line": 950,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Grind Rice Flour (Rice Flour 3)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Food Flour.txt",
+      "source_recipe": "Grind Rice Flour",
+      "source_line": 1002,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Grind Rice with Chaff (Brown Rice)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Food Flour.txt",
+      "source_recipe": "Grind Rice with Chaff",
+      "source_line": 1044,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Grind Rice with Chaff (Variant)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Food Flour.txt",
+      "source_recipe": "Grind Rice with Chaff",
+      "source_line": 1059,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Put on Lid",
+      "input": "item 1 [Base.EmptyJar],",
+      "fluid_types": [
+        "Base.EmptyJar"
+      ],
+      "before": "item 1 [Base.EmptyJar],",
+      "after": "item 1 [Base.EmptyJar] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "EmptyJar,",
+      "source_file": "Food Jarred Fruit.txt",
+      "source_recipe": "Put on Lid",
+      "source_line": 461,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Food Salt.txt",
+      "recipe": "Make Salt Powder (Salt Powder 2)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Food Salt.txt",
+      "source_recipe": "Make Salt Powder",
+      "source_line": 396,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Camomile Tea)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Herbalism.txt",
+      "source_recipe": "Make Herbal Tea",
+      "source_line": 873,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Nettle Tea 2)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Herbalism.txt",
+      "source_recipe": "Make Herbal Tea",
+      "source_line": 909,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Thistle Tea 2)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Herbalism.txt",
+      "source_recipe": "Make Herbal Tea",
+      "source_line": 945,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Skullcap Tea 2)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Herbalism.txt",
+      "source_recipe": "Make Herbal Tea",
+      "source_line": 981,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Daisy Tea 2)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Herbalism.txt",
+      "source_recipe": "Make Herbal Tea",
+      "source_line": 1017,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Anemome Tea 2)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Herbalism.txt",
+      "source_recipe": "Make Herbal Tea",
+      "source_line": 1053,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Camellia Tea 2)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Herbalism.txt",
+      "source_recipe": "Make Herbal Tea",
+      "source_line": 1089,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Programing.txt",
+      "recipe": "Write Computer Program",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Programing.txt",
+      "source_recipe": "Write Computer Program",
+      "source_line": 113,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Programing.txt",
+      "recipe": "Write Computer Program (Floppy Disk with Gesture Recognition Software)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Programing.txt",
+      "source_recipe": "Write Computer Program",
+      "source_line": 131,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Programing.txt",
+      "recipe": "Write Computer Program (Floppy Disk with Voice Recognition Software)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Programing.txt",
+      "source_recipe": "Write Computer Program",
+      "source_line": 151,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Programing.txt",
+      "recipe": "Play Computer Game",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Programing.txt",
+      "source_recipe": "Play Computer Game",
+      "source_line": 171,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Programing.txt",
+      "recipe": "Play Computer Game (Computer Game)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Programing.txt",
+      "source_recipe": "Play Computer Game",
+      "source_line": 183,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Programing.txt",
+      "recipe": "Play Computer Game (Computer Game 2)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Programing.txt",
+      "source_recipe": "Play Computer Game",
+      "source_line": 195,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Programing.txt",
+      "recipe": "Play Computer Game (Computer Game 3)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Programing.txt",
+      "source_recipe": "Play Computer Game",
+      "source_line": 208,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Programing.txt",
+      "recipe": "Play Computer Game (Computer Game 4)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Programing.txt",
+      "source_recipe": "Play Computer Game",
+      "source_line": 221,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Programing.txt",
+      "recipe": "Play Computer Game (Computer Game 5)",
+      "input": "item 1 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 1 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.25 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 1.25,
+      "legacy_input": "PetrolCan,",
+      "source_file": "Programing.txt",
+      "source_recipe": "Play Computer Game",
+      "source_line": 234,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipe": "Recycle Aluminum Cans",
+      "input": "item 4 [Base.PopEmpty;Base.Pop2Empty;Base.Pop3Empty],",
+      "fluid_types": [
+        "Base.Pop2Empty",
+        "Base.Pop3Empty",
+        "Base.PopEmpty"
+      ],
+      "before": "item 4 [Base.PopEmpty;Base.Pop2Empty;Base.Pop3Empty],",
+      "after": "item 4 [Base.PopEmpty;Base.Pop2Empty;Base.Pop3Empty] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "",
+      "source_file": "HCR_Reclamation.txt",
+      "source_recipe": "Recycle Aluminum Cans",
+      "source_line": null,
+      "source_kind": "current_added_recipe",
+      "current_input": "item 4 [Base.PopEmpty;Base.Pop2Empty;Base.Pop3Empty],"
+    },
+    {
+      "file": "HCR_Travel.txt",
+      "recipe": "Travel to Bedford Falls",
+      "input": "item 16 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 16 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 20 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 20.0,
+      "legacy_input": "PetrolCan=16,",
+      "source_file": "Travel.txt",
+      "source_recipe": "Travel to Bedford Falls",
+      "source_line": 79,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Travel.txt",
+      "recipe": "Travel to Crossroads",
+      "input": "item 16 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 16 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 20 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 20.0,
+      "legacy_input": "PetrolCan=16,",
+      "source_file": "Travel.txt",
+      "source_recipe": "Travel to Crossroads",
+      "source_line": 95,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Travel.txt",
+      "recipe": "Travel to New Denver",
+      "input": "item 16 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 16 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 20 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 20.0,
+      "legacy_input": "PetrolCan=16,",
+      "source_file": "Travel.txt",
+      "source_recipe": "Travel to New Denver",
+      "source_line": 111,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Travel.txt",
+      "recipe": "Travel to Valley Station",
+      "input": "item 16 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 16 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 20 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 20.0,
+      "legacy_input": "PetrolCan=16,",
+      "source_file": "Travel.txt",
+      "source_recipe": "Travel to Valley Station",
+      "source_line": 127,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Travel.txt",
+      "recipe": "Travel to Bedford Falls (GPS)",
+      "input": "item 16 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 16 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 20 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 20.0,
+      "legacy_input": "PetrolCan=16,",
+      "source_file": "Travel.txt",
+      "source_recipe": "Travel to Bedford Falls",
+      "source_line": 79,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Travel.txt",
+      "recipe": "Travel to Crossroads (GPS)",
+      "input": "item 16 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 16 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 20 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 20.0,
+      "legacy_input": "PetrolCan=16,",
+      "source_file": "Travel.txt",
+      "source_recipe": "Travel to Crossroads",
+      "source_line": 95,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Travel.txt",
+      "recipe": "Travel to New Denver (GPS)",
+      "input": "item 16 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 16 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 20 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 20.0,
+      "legacy_input": "PetrolCan=16,",
+      "source_file": "Travel.txt",
+      "source_recipe": "Travel to New Denver",
+      "source_line": 111,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Travel.txt",
+      "recipe": "Travel to Valley Station (GPS)",
+      "input": "item 16 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 16 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 20 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 20.0,
+      "legacy_input": "PetrolCan=16,",
+      "source_file": "Travel.txt",
+      "source_recipe": "Travel to Valley Station",
+      "source_line": 127,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Weapons Explosives.txt",
+      "recipe": "Make Chlorgas Grenade",
+      "input": "item 1 [Base.WaterBottle;Base.PopBottle],",
+      "fluid_types": [
+        "Base.PopBottle",
+        "Base.WaterBottle"
+      ],
+      "before": "item 1 [Base.WaterBottle;Base.PopBottle],",
+      "after": "item 1 [Base.WaterBottle;Base.PopBottle] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "WaterBottleEmpty/PopBottleEmpty,",
+      "source_file": "Weapons Explosives.txt",
+      "source_recipe": "Make Chlorgas Grenade",
+      "source_line": 721,
+      "source_kind": "upstream917_recipe"
+    },
+    {
+      "file": "HCR_Weapons Flame.txt",
+      "recipe": "Make Napalm",
+      "input": "item 2 [Base.PetrolCan],",
+      "fluid_types": [
+        "Base.PetrolCan"
+      ],
+      "before": "item 2 [Base.PetrolCan],",
+      "after": "item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 2.5 [Petrol],",
+      "kind": "petrol_portion",
+      "litres": 2.5,
+      "legacy_input": "PetrolCan=2,",
+      "source_file": "Weapons Flame.txt",
+      "source_recipe": "Make Napalm",
+      "source_line": 170,
+      "source_kind": "upstream917_recipe"
+    }
+  ]
+}

@@ -13,7 +13,7 @@ module Hydrocraft
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
         StaticModel = HCComic1_Open,
-        WorldStaticModel = HCComic1_Ground,
+        WorldStaticModel = Hydrocraft.HCComic1_Ground,
     }
     item HCComic2
     {
@@ -27,7 +27,7 @@ module Hydrocraft
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
         StaticModel = HCComic2_Open,
-        WorldStaticModel = HCComic2_Ground,
+        WorldStaticModel = Hydrocraft.HCComic2_Ground,
     }
     item HCComic3
     {
@@ -41,7 +41,7 @@ module Hydrocraft
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
         StaticModel = HCComic3_Open,
-        WorldStaticModel = HCComic3_Ground,
+        WorldStaticModel = Hydrocraft.HCComic3_Ground,
     }
     item HCComic4
     {
@@ -55,7 +55,7 @@ module Hydrocraft
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
         StaticModel = HCComic4_Open,
-        WorldStaticModel = HCComic4_Ground,
+        WorldStaticModel = Hydrocraft.HCComic4_Ground,
     }
     item HCComic5
     {
@@ -69,7 +69,7 @@ module Hydrocraft
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
         StaticModel = HCComic5_Open,
-        WorldStaticModel = HCComic5_Ground,
+        WorldStaticModel = Hydrocraft.HCComic5_Ground,
     }
     item HCComic6
     {
@@ -83,7 +83,7 @@ module Hydrocraft
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
         StaticModel = HCComic6_Open,
-        WorldStaticModel = HCComic6_Ground,
+        WorldStaticModel = Hydrocraft.HCComic6_Ground,
     }
     item HCComic7
     {
@@ -97,7 +97,7 @@ module Hydrocraft
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
         StaticModel = HCComic7_Open,
-        WorldStaticModel = HCComic7_Ground,
+        WorldStaticModel = Hydrocraft.HCComic7_Ground,
     }
     item HCComic8
     {
@@ -111,7 +111,7 @@ module Hydrocraft
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
         StaticModel = HCComic8_Open,
-        WorldStaticModel = HCComic8_Ground,
+        WorldStaticModel = Hydrocraft.HCComic8_Ground,
     }
     item HCComic9
     {
@@ -125,6 +125,6 @@ module Hydrocraft
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
         StaticModel = HCComic9_Open,
-        WorldStaticModel = HCComic9_Ground,
+        WorldStaticModel = Hydrocraft.HCComic9_Ground,
     }
 }

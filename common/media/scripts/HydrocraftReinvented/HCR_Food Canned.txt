@@ -24,7 +24,6 @@ module Hydrocraft
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedapple,
     }
     item HCCannedpear
     {
@@ -40,7 +39,6 @@ module Hydrocraft
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedpear,
     }
     item HCCannedpeach
     {
@@ -72,7 +70,6 @@ module Hydrocraft
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedgreenbeans,
     }
     item HCCannedshrooms
     {
@@ -88,7 +85,6 @@ module Hydrocraft
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedshrooms,
     }
     item HCCannedpumpkin
     {
@@ -104,7 +100,6 @@ module Hydrocraft
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedpumpkin,
     }
     item HCCannedspam
     {
@@ -136,7 +131,6 @@ module Hydrocraft
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedcranberries,
     }
     item HCCannedpineapple
     {
@@ -152,7 +146,6 @@ module Hydrocraft
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedpineapple,
     }
     item HCCannedrefriedbeans
     {
@@ -168,7 +161,6 @@ module Hydrocraft
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedrefriedbeans,
     }
     item HCCannedcreamofchicken
     {
@@ -215,7 +207,6 @@ module Hydrocraft
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCanbangedup,
     }
     item HCCannedcheesesauce
     {
@@ -231,7 +222,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedcheesesauce,
     }
     item HCCannedchickenbreast
     {
@@ -247,7 +237,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedchickenbreast,
     }
     item HCCannedfruitcocktail
     {
@@ -263,7 +252,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedfruitcocktail,
     }
     item HCCannedgovermentbeef
     {
@@ -279,7 +267,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedgovermentbeef,
     }
     item HCCannedgovermentbread
     {
@@ -294,7 +281,6 @@ module Hydrocraft
     	Calories 			= 	195,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
-	WorldStaticModel = Hydrocraft.HCCannedgovernmentbread,
     }
     item HCCannedgovermentchicken
     {
@@ -310,7 +296,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedgovernmentchicken,
     }
     item HCCannedgovermentpork
     {
@@ -326,7 +311,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedgovernmentpork,
     }
     item HCCannedmacncheese
     {
@@ -342,7 +326,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedmacncheese,
     }
     item HCCannedpiefillingapple
     {
@@ -358,7 +341,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedpiefillingapple,
     }
     item HCCannedpiefillingcherry
     {
@@ -374,7 +356,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedpiefillingcherry,
     }
     item HCCannedpiefillingblueberry
     {
@@ -390,7 +371,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedpiefillingblueberry,
     }
     item HCCannedravioli
     {
@@ -406,7 +386,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedravioli,
     }
     item HCCannedspaghettirings
     {
@@ -422,7 +401,6 @@ module Hydrocraft
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
-	WorldStaticModel = Hydrocraft.HCCannedspaghettirings,
     }
     item HCCannedappleopen
     {
@@ -445,7 +423,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Apple,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedappleopen,
     }
     item HCCannedpearopen
     {
@@ -468,7 +445,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Pear,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedpearopen,
     }
     item HCCannedpeachopen
     {
@@ -514,7 +490,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Green Beans,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedgreenbeansopen,
     }
     item HCCannedshroomsopen
     {
@@ -537,7 +512,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Mushrooms,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedshroomsopen,
     }
     item HCCannedpumpkinopen
     {
@@ -560,7 +534,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Pumpkin,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedpumpkinopen,
     }
     item HCCannedspamopen
     {
@@ -583,7 +556,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Spam,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedspamopen,
     }
     item HCCannedcranberriesopen
     {
@@ -606,7 +578,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Cranberries,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedcranberriesopen,
     }
     item HCCannedpineappleopen
     {
@@ -629,7 +600,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     EvolvedRecipeName 		= 	Canned Pineapple,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedpineappleopen,
     }
     item HCCannedrefriedbeansopen
     {
@@ -652,7 +622,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Refried Beans,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedrefriedbeansopen,
     }
     item HCCannedcreamofchickenopen
     {
@@ -721,7 +690,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Shit,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCanbangedupopen,
     }
     item HCCannedcheesesauceopen
     {
@@ -745,7 +713,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Cheese,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedcheesesauceopen,
     }
     item HCCannedchickenbreastopen
     {
@@ -768,7 +735,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Chicken,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedchickenbreastopen,
     }
     item HCCannedfruitcocktailopen
     {
@@ -791,7 +757,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedfruitcocktailopen,
     }
     item HCCannedgovermentbeefopen
     {
@@ -814,7 +779,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Meat,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedgovernmentbeefopen,
     }
     item HCCannedgovermentbreadopen
     {
@@ -837,7 +801,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Bread,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedgovernmentbreadopen,
     }
     item HCCannedgovermentchickenopen
     {
@@ -860,7 +823,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Meat,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedgovernmentchickenopen,
     }
     item HCCannedgovermentporkopen
     {
@@ -883,7 +845,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Meat,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedgovernmentporkopen,
     }
     item HCCannedmacncheeseopen
     {
@@ -906,7 +867,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Pasta,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedmacncheeseopen,
     }
     item HCCannedpiefillingappleopen
     {
@@ -929,7 +889,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedpiefillingappleopen,
     }
     item HCCannedpiefillingcherryopen
     {
@@ -952,7 +911,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedpiefillingcherryopen,
     }
     item HCCannedpiefillingblueberryopen
     {
@@ -975,7 +933,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedpiefillingblueberryopen,
     }
     item HCCannedravioliopen
     {
@@ -998,7 +955,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Pasta,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedravioliopen,
     }
     item HCCannedspaghettiringsopen
     {
@@ -1021,7 +977,6 @@ module Hydrocraft
 	CantBeFrozen			=	TRUE,
    	 EvolvedRecipeName 		= 	Canned Pasta,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedspaghettiringsopen,
     }
     craftRecipe Remove Cans
     {
@@ -1047,7 +1002,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedapple],
+            item 1 [Hydrocraft.HCCannedapple] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1063,7 +1018,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedpear],
+            item 1 [Hydrocraft.HCCannedpear] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1079,7 +1034,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedpeach],
+            item 1 [Hydrocraft.HCCannedpeach] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1095,7 +1050,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedgreenbeans],
+            item 1 [Hydrocraft.HCCannedgreenbeans] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1111,7 +1066,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedshrooms],
+            item 1 [Hydrocraft.HCCannedshrooms] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1127,7 +1082,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedpumpkin],
+            item 1 [Hydrocraft.HCCannedpumpkin] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1143,7 +1098,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedspam],
+            item 1 [Hydrocraft.HCCannedspam] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1159,7 +1114,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedcranberries],
+            item 1 [Hydrocraft.HCCannedcranberries] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1175,7 +1130,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedpineapple],
+            item 1 [Hydrocraft.HCCannedpineapple] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1191,7 +1146,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedrefriedbeans],
+            item 1 [Hydrocraft.HCCannedrefriedbeans] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1223,7 +1178,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedsoupclassic],
+            item 1 [Hydrocraft.HCCannedsoupclassic] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1239,7 +1194,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCanbangedup],
+            item 1 [Hydrocraft.HCCanbangedup] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1271,7 +1226,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedchickenbreast],
+            item 1 [Hydrocraft.HCCannedchickenbreast] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1287,7 +1242,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedfruitcocktail],
+            item 1 [Hydrocraft.HCCannedfruitcocktail] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1303,7 +1258,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedgovermentbeef],
+            item 1 [Hydrocraft.HCCannedgovermentbeef] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1319,7 +1274,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedgovermentbread],
+            item 1 [Hydrocraft.HCCannedgovermentbread] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1335,7 +1290,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedgovermentchicken],
+            item 1 [Hydrocraft.HCCannedgovermentchicken] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1351,7 +1306,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedgovermentpork],
+            item 1 [Hydrocraft.HCCannedgovermentpork] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1367,7 +1322,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedmacncheese],
+            item 1 [Hydrocraft.HCCannedmacncheese] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1383,7 +1338,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedpiefillingapple],
+            item 1 [Hydrocraft.HCCannedpiefillingapple] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1399,7 +1354,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedpiefillingblueberry],
+            item 1 [Hydrocraft.HCCannedpiefillingblueberry] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1431,7 +1386,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedravioli],
+            item 1 [Hydrocraft.HCCannedravioli] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs
@@ -1447,7 +1402,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCannedspaghettirings],
+            item 1 [Hydrocraft.HCCannedspaghettirings] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs

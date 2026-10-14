@@ -1,3 +1,4 @@
+require "HCR_Compatibility"
 --Fire Risks
 
 -- Мощность ожога по источнику тепла и порядок проверки — как в B41: срабатывает
@@ -10,9 +11,7 @@ local HEAT_SOURCES = {
 	{ power = 100, types = { "HCFurnace", "HCFurnace2" } },
 }
 
--- Источник тепла ищется в инвентаре, а не в items. В B42 он входит в рецепт
--- с mode:keep, то есть не расходуется, а мост отдаёт в items только
--- getAllConsumedItems — печи там не будет никогда.
+-- Сохраняем прежнюю проверку переносимых источников тепла в инвентаре.
 local function heatBurnPower(player)
 	local inv = player:getInventory()
 	for _, source in ipairs(HEAT_SOURCES) do
@@ -62,14 +61,15 @@ local function GenericBurn(items, result, player, burnPower)
 
 	--print ("Burnpower before proffesion/trait/random: " .. burnPower);
 
-	if player:getTraits():contains('Lucky') then
+	if HCR.hasTrait(player, "Lucky") then
 		burnPower = burnPower - ZombRand(10);
 	else
 		burnPower = burnPower + ZombRand(15); 
 	end
 
-	local profession = player:getDescriptor():getProfession()
-	if profession == "fireofficer" or profession == "metalworker" then
+	local descriptor = player:getDescriptor()
+	if descriptor:isCharacterProfession(CharacterProfession.FIRE_OFFICER)
+		or descriptor:isCharacterProfession(CharacterProfession.METALWORKER) then
 		burnPower = burnPower - 30
 	end
 

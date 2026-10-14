@@ -502,6 +502,7 @@ module Hydrocraft
     }
     item HCMREbox
     {
+        ItemType = base:normal,
 
 		Weight			=	2,
 		Icon			=	HCMREbox,
@@ -544,7 +545,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_HCMRE_OpenPackage,
         inputs
         {
-            item 1 [Hydrocraft.HCMRE],
+            item 1 [Hydrocraft.HCMRE] flags[ItemCount],
         }
         outputs
         {
@@ -561,11 +562,11 @@ module Hydrocraft
         OnCreate = HCR42.recipe_HCMRE_HeatPackage,
         inputs
         {
-            item 1 [Hydrocraft.HCMREFRH],
+            item 1 [Hydrocraft.HCMREFRH] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCMREmeal],
-            item 1 [Hydrocraft.HCMREmealside],
+            item 1 [Hydrocraft.HCMREmeal] flags[ItemCount],
+            item 1 [Hydrocraft.HCMREmealside] flags[ItemCount],
         }
     }
     craftRecipe Unbox MREs
@@ -601,13 +602,13 @@ module Hydrocraft
     craftRecipe Unpack Small Pallet of MREs
     {
         time = 20,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         OnCreate = HCR42.recipe_hcpallet,
         inputs
         {
-            item 1 [Hydrocraft.HCMREpalletsmall],
+            item 1 [Hydrocraft.HCMREpalletsmall] flags[ItemCount],
         }
         outputs
         {
@@ -617,14 +618,14 @@ module Hydrocraft
     craftRecipe Pack Small Pallet of MREs
     {
         time = 20,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 4 [Hydrocraft.HCMREbox],
-            item 1 [Hydrocraft.HCRopethick],
-            item 1 [Hydrocraft.HCWoodenpallet],
+            item 4 [Hydrocraft.HCMREbox] flags[ItemCount],
+            item 1 [Hydrocraft.HCRopethick] flags[ItemCount],
+            item 1 [Hydrocraft.HCWoodenpallet] flags[ItemCount],
         }
         outputs
         {
@@ -634,13 +635,13 @@ module Hydrocraft
     craftRecipe Unpack Medium Pallet of MREs
     {
         time = 20,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         OnCreate = HCR42.recipe_hcpallet,
         inputs
         {
-            item 1 [Hydrocraft.HCMREpalletmedium],
+            item 1 [Hydrocraft.HCMREpalletmedium] flags[ItemCount],
         }
         outputs
         {
@@ -650,14 +651,14 @@ module Hydrocraft
     craftRecipe Pack Medium Pallet of MREs
     {
         time = 20,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 8 [Hydrocraft.HCMREbox],
-            item 1 [Hydrocraft.HCRopethick],
-            item 1 [Hydrocraft.HCWoodenpallet],
+            item 8 [Hydrocraft.HCMREbox] flags[ItemCount],
+            item 1 [Hydrocraft.HCRopethick] flags[ItemCount],
+            item 1 [Hydrocraft.HCWoodenpallet] flags[ItemCount],
         }
         outputs
         {
@@ -667,13 +668,13 @@ module Hydrocraft
     craftRecipe Unpack Large Pallet of MREs
     {
         time = 20,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         OnCreate = HCR42.recipe_hcpallet,
         inputs
         {
-            item 1 [Hydrocraft.HCMREpalletlarge],
+            item 1 [Hydrocraft.HCMREpalletlarge] flags[ItemCount],
         }
         outputs
         {
@@ -683,14 +684,14 @@ module Hydrocraft
     craftRecipe Pack Large Pallet of MREs
     {
         time = 20,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 12 [Hydrocraft.HCMREbox],
-            item 1 [Hydrocraft.HCRopethick],
-            item 1 [Hydrocraft.HCWoodenpallet],
+            item 12 [Hydrocraft.HCMREbox] flags[ItemCount],
+            item 1 [Hydrocraft.HCRopethick] flags[ItemCount],
+            item 1 [Hydrocraft.HCWoodenpallet] flags[ItemCount],
         }
         outputs
         {

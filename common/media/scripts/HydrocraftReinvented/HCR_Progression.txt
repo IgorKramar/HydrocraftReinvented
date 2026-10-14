@@ -1,0 +1,67 @@
+module Hydrocraft
+{
+    imports { Base }
+
+    craftRecipe Feed Beehive
+    {
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        SkillRequired = Farming:2,
+        xpAward = Farming:2,
+        OnCreate = HCR42.recipe_hcfeedbeehive3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeehive3;Hydrocraft.HCBeehive3b] flags[ItemCount],
+            item 12 [Hydrocraft.HCPollen] flags[ItemCount],
+        }
+        outputs
+        {
+        }
+    }
+
+    craftRecipe Harvest Portable Beehive
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Farming,
+        timedAction = Making,
+        SkillRequired = Farming:2,
+        xpAward = Farming:4,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBeehive3full] flags[ItemCount],
+            item 1 [Hydrocraft.HCBeesmokerfull],
+            item 1 [Hydrocraft.HCBeekeeperhat] mode:keep,
+            item 1 [Hydrocraft.HCWorkgloves;Base.Gloves_LeatherGloves] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBeehive3,
+            item 12 Hydrocraft.HCHoneycomb,
+        }
+    }
+
+    /* Балка нужна до большой свалки, поэтому не может добываться только на ней. */
+    craftRecipe Weld Steel Beam
+    {
+        time = 240,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Welding,
+        timedAction = Making,
+        SkillRequired = Welding:3,
+        xpAward = Welding:15,
+        inputs
+        {
+            item 4 [Base.SteelBar] flags[ItemCount],
+            item 4 [Base.BlowTorch],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:hammer] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCSteelbeam,
+        }
+    }
+}

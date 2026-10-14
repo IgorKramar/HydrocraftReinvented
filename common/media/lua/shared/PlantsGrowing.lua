@@ -15,6 +15,7 @@ function recipe_NDPlantsHarvest(items, result, player)
 		end
     end
 	
+	if not plant then return end
 	plantName = plant:getType();
 	--Formatting
 	plantName = string.gsub(plantName, "HCPotted", "");
@@ -29,7 +30,7 @@ function recipe_NDPlantsHarvest(items, result, player)
 	if plantName == "Apple" or plantName == "Banana" or plantName == "Blackberry" or plantName == "Blueberry" or plantName == "Grape" or plantName == "Lemon" or plantName == "Orange" or plantName == "Peach" or plantName == "Watermelon" or plantName == "Bellpepper" or plantName == "Corn" or plantName == "Eggplant" or plantName == "Leek" or plantName == "Lettuce" or plantName == "Onion" or plantName == "Peanutplant" or plantName == "Avocado" or plantName == "Cherry" or plantName == "Pineapple" or plantName == "Zucchini" then
 		namespace = "Base.";
 	elseif plantName == "Cabbage" or plantName == "Strawberry" or plantName == "Broccoli" or plantName == "Carrots" or plantName == "Potato" or plantName == "Radish" or plantName == "Tomato" then
-		namespace = "farming.";
+		namespace = "Base.";
 		altSeedName = namespace..plantName.."Seed";
 	else
 		namespace = "Hydrocraft.HC";
@@ -37,7 +38,19 @@ function recipe_NDPlantsHarvest(items, result, player)
 	
 	--Get Alternative Name and Alternative Seed Name if applicable
 	if plantName == "Agaveblue" then
-		altName = "AgaveblueCut";
+        altName = "Agavebluecut";
+	elseif plantName == "Date" then
+		altName = "Dates";
+	elseif plantName == "Fig" then
+		altName = "Figs";
+	elseif plantName == "Tea" then
+		altName = "Teafresh";
+	elseif plantName == "Avocado" then
+		altSeedName = "Hydrocraft.HCAvacadoseeds";
+	elseif plantName == "Sweetpotato" then
+		altSeedName = "Hydrocraft.HCPotatosweetseeds";
+	elseif plantName == "Jalapeno" then
+		altSeedName = "Base.JalapenoSeed";
 	elseif plantName == "Artichokes" then
 		altName = "Artichoke";
 	elseif plantName == "Basil" then
@@ -48,6 +61,7 @@ function recipe_NDPlantsHarvest(items, result, player)
 		altName = "Beet"
 	elseif plantName == "Bellpepper" then
 		altName = "BellPepper";
+		altSeedName = "Base.BellPepperSeed";
 	elseif plantName == "Blackberry" then
 		altName = "BerryBlack";
 	elseif plantName == "Blueberry" then
@@ -60,8 +74,9 @@ function recipe_NDPlantsHarvest(items, result, player)
 	elseif plantName == "Cottonplant" then
 		altName = "Cottonraw";
 		altSeedName = "Hydrocraft.HCCottonseeds";
-	elseif plantName == "PeaPlant" then
+	elseif plantName == "Peaplant" then
 		altName = "Peapod";
+		altSeedName = "Hydrocraft.HCPeaseeds";
 	elseif plantName == "Jute" then
 		altName = "Jutestems";
 	elseif plantName == "Peanutplant" then
@@ -76,12 +91,14 @@ function recipe_NDPlantsHarvest(items, result, player)
 		altSeedName = "Hydrocraft.HCPricklypearseeds";
 	elseif plantName == "Radish" then
 		altName = "RedRadish";
-		altSeedName = "farming.RedRadishSeed";
+		altSeedName = "Base.RedRadishSeed";
+	elseif plantName == "Beans" then
+		altSeedName = "Hydrocraft.HCBeanseeds";
 	elseif plantName == "Rice" then
 		altName = "Riceraw";
 	elseif plantName == "Strawberry" then
 		altName = "Strewberrie";
-		altSeedName = "farming.StrewberrieSeed";
+		altSeedName = "Base.StrewberrieSeed";
 	elseif plantName == "Tobacco" then
 		altName = "Tobaccoleaffresh";
 	elseif plantName == "Tomatilloplant" then
@@ -92,7 +109,7 @@ function recipe_NDPlantsHarvest(items, result, player)
 	end
 	
 	--Main product counts
-	if plantName == "Pricklypearcactus" or plantName == "Watermelon" or plantName == "Pineapple" or plantName == "Pumpkin" or plantName == "Pumpkingreen" or plantName == "Puumpkinwhite" or plantName == "Pumpkinlarge" or plantName == "Pumpkinbuskin" or plantName == "Alfalfa" then
+	if plantName == "Pricklypearcactus" or plantName == "Watermelon" or plantName == "Pineapple" or plantName == "Pumpkin" or plantName == "Pumpkingreen" or plantName == "Pumpkinwhite" or plantName == "Pumpkinlarge" or plantName == "Pumpkinbuskin" or plantName == "Alfalfa" then
 		prodCount = 3;
 	elseif plantName == "Bellpepper" or plantName == "Blackberry" or plantName == "Blueberry" or plantName == "Peaplant" or plantName == "Peanutplant" or plantName == "Radish" or plantName == "Strawberry" or plantName == "Apple" or plantName == "Banana" or plantName == "Grape" or plantName == "Lemon" or plantName == "Orange" or plantName == "Peach" or plantName == "Corn" or plantName == "Eggplant" or plantName == "Leek" or plantName == "Lettuce" or plantName == "Onion" or plantName == "Cherry" or plantName == "Zucchini" or plantName == "Cabbage" or plantName == "Broccoli" or plantName == "Carrots" or	plantName == "Potato" or plantName == "Tomato" or plantName == "Kiwi" or plantName == "Plum" or plantName == "Persimmon" or plantName == "Date" or plantName == "Fig" or plantName == "Beans" or plantName == "Grapesgreen" or plantName == "Lime" or plantName == "Bellpeppergreen" or plantName == "Bellpepperyellow" or plantName == "Pear" or plantName == "Tomatocherry" or plantName == "Apricot" then
 		prodCount = 10;
@@ -128,7 +145,7 @@ function recipe_NDPlantsHarvest(items, result, player)
 		prodCount = 0;
 		altSeedName = "Hydrocraft.HCRubbertreeseeds";
 	elseif plantName == "Carrots" then
-		altSeedName = "farming.CarrotSeed";
+		altSeedName = "Base.CarrotSeed";
 	end
 
 	--Item giving

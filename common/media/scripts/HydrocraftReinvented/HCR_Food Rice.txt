@@ -177,8 +177,8 @@ module Hydrocraft
             item 1 [Base.Pan] mode:keep,
             item 1 [Base.RiceBowl] mode:destroy,
             item 1 [Base.Butter;Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
-            item 1 tags[Egg] mode:keep,
-            item 1 [Base.Broccoli;Base.Cabbage;Base.Carrots;Hydrocraft.HCOniongreen;Hydrocraft.HCChinesecabbage;Hydrocraft.HCCabbagered;Hydrocraft.HCCabbagewhite],
+            item 1 tags[Egg] flags[ItemCount],
+            item 1 [Base.Broccoli;Base.Cabbage;Base.Carrots;Hydrocraft.HCOniongreen;Hydrocraft.HCChinesecabbage;Hydrocraft.HCCabbagered;Hydrocraft.HCCabbagewhite] flags[ItemCount],
         }
         outputs
         {
@@ -194,9 +194,9 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
-            item 1 [Base.OpenBeans],
-            item 1 [Base.Rice;Hydrocraft.HCRicebrown],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.OpenBeans] flags[ItemCount],
+            item 1 [Base.Rice;Hydrocraft.HCRicebrown] flags[ItemCount],
             item 1 [Base.Tomato;Hydrocraft.HCTomatosaucebowl],
         }
         outputs
@@ -214,8 +214,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
-            item 4 [Base.Bowl],
-            item 1 [Hydrocraft.HCRiceandbeanspot],
+            item 4 [Base.Bowl] flags[ItemCount],
+            item 1 [Hydrocraft.HCRiceandbeanspot] flags[ItemCount],
         }
         outputs
         {
@@ -232,10 +232,31 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
-            item 1 [Base.Rice;Hydrocraft.HCRicebrown],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Rice;Hydrocraft.HCRicebrown] flags[ItemCount],
             item 1 [Base.Sugar],
-            item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRicepuddingpot,
+        }
+    }
+    craftRecipe Make Pot of Rice Pudding (Carton Milk)
+    {
+        time = 95,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:1,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Rice;Hydrocraft.HCRicebrown] flags[ItemCount],
+            item 1 [Base.Sugar],
+            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.0 [CowMilk],
         }
         outputs
         {
@@ -252,8 +273,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
-            item 4 [Base.Bowl] mode:destroy,
-            item 1 [Hydrocraft.HCRicepuddingpot],
+            item 4 [Base.Bowl] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCRicepuddingpot] flags[ItemCount],
         }
         outputs
         {
@@ -274,8 +295,8 @@ module Hydrocraft
             item 1 [Base.Pan] mode:destroy,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
-            item 1 [Base.Rice;Hydrocraft.HCRicebrown],
-            item 1 [Base.Broccoli;Hydrocraft.HCBunchofshrooms;Base.Egg;Base.Carrots;Hydrocraft.HCPeapod],
+            item 1 [Base.Rice;Hydrocraft.HCRicebrown] flags[ItemCount],
+            item 1 [Base.Broccoli;Hydrocraft.HCBunchofshrooms;Base.Egg;Base.Carrots;Hydrocraft.HCPeapod] flags[ItemCount],
         }
         outputs
         {

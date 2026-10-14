@@ -481,6 +481,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
         xpAward = Cooking:4,
@@ -524,7 +525,7 @@ module Hydrocraft
         OnCreate = HCR42.Hydrocraft_OnCreate_CutIntoEightPieces,
         inputs
         {
-            item 1 [Hydrocraft.HCCheesewheel],
+            item 1 [Hydrocraft.HCCheesewheel] flags[ItemCount],
             item 1 [Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -542,7 +543,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 4 [Hydrocraft.HCBeeswax],
             item 1 [Base.Stone2],
             item 1 [Hydrocraft.HCCheesecloth],
@@ -602,7 +603,7 @@ module Hydrocraft
         OnCreate = HCR42.getBurned,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCRefinedbeeswax],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
@@ -676,6 +677,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
         xpAward = Cooking:4,
@@ -720,7 +722,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
-            item 1 [Hydrocraft.HCCheddarwheelunaged],
+            item 1 [Hydrocraft.HCCheddarwheelunaged] flags[ItemCount],
             item 1 [Hydrocraft.HCPotmeltedrefinedwax],
             item 1 [Base.Paintbrush] mode:keep,
         }
@@ -735,12 +737,13 @@ module Hydrocraft
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCCheddarwheelwaxed],
+            item 1 [Hydrocraft.HCCheddarwheelwaxed] flags[ItemCount],
             item 1 [Hydrocraft.HCCheeserack],
         }
         outputs
@@ -776,7 +779,7 @@ module Hydrocraft
         OnCreate = HCR42.Hydrocraft_OnCreate_CutIntoSixPieces,
         inputs
         {
-            item 1 [Hydrocraft.HCCheddarwheelaged],
+            item 1 [Hydrocraft.HCCheddarwheelaged] flags[ItemCount],
             item 1 [Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -819,7 +822,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCreamcheeseculture],
-            item 1 [Base.Bowl],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 1 [Hydrocraft.HCCheesecloth] mode:keep,
             item 1 [Base.Stone2] mode:keep,
         }
@@ -839,7 +842,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCreamcheese],
-            item 1 [Hydrocraft.HCSmokedsalmon],
+            item 1 [Hydrocraft.HCSmokedsalmon] flags[ItemCount],
         }
         outputs
         {

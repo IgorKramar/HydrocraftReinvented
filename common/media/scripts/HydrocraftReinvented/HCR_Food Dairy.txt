@@ -730,7 +730,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Base.Milk],
+            item 1 [Base.Milk] mode:destroy flags[ItemCount],
         }
         outputs
         {
@@ -806,8 +806,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 4 [Base.Strewberrie],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 4 [Base.Strewberrie] flags[ItemCount],
             item 1 [Base.Bowl] mode:keep,
             item 1 [Base.Sugar],
         }
@@ -827,8 +827,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 4 [Hydrocraft.HCRaspberry],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 4 [Hydrocraft.HCRaspberry] flags[ItemCount],
             item 1 [Base.Sugar],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -848,8 +848,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 4 [Base.BerryBlue],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 4 [Base.BerryBlue] flags[ItemCount],
             item 5 [Hydrocraft.HCHoney],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -869,8 +869,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 4 [Base.BerryBlue],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 4 [Base.BerryBlue] flags[ItemCount],
             item 5 [Hydrocraft.HCJarhoney],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -890,10 +890,10 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Hydrocraft.HCSlicedorange],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Hydrocraft.HCSlicedorange] flags[ItemCount],
             item 1 [Hydrocraft.HCSlicedlemon],
-            item 1 [Hydrocraft.HCSlicedlime],
+            item 1 [Hydrocraft.HCSlicedlime] flags[ItemCount],
             item 5 [Hydrocraft.HCHoney],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -913,10 +913,10 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Hydrocraft.HCSlicedorange],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Hydrocraft.HCSlicedorange] flags[ItemCount],
             item 1 [Hydrocraft.HCSlicedlemon],
-            item 1 [Hydrocraft.HCSlicedlime],
+            item 1 [Hydrocraft.HCSlicedlime] flags[ItemCount],
             item 5 [Hydrocraft.HCJarhoney],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -937,9 +937,9 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcjar,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Hydrocraft.HCDriedapplebag],
-            item 1 [Hydrocraft.HCDriedrasinsbag],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Hydrocraft.HCDriedapplebag] flags[ItemCount],
+            item 1 [Hydrocraft.HCDriedrasinsbag] flags[ItemCount],
             item 5 [Hydrocraft.HCSunflowerseedsnack],
             item 5 [Hydrocraft.HCJampear],
             item 1 [Base.Bowl] mode:keep,
@@ -960,8 +960,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Hydrocraft.HCChocolateshavings],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Hydrocraft.HCChocolateshavings] flags[ItemCount],
             item 1 [Base.Sugar],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -981,8 +981,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Hydrocraft.HCCucumber],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Hydrocraft.HCCucumber] flags[ItemCount],
             item 5 [Hydrocraft.HCGarlic],
             item 1 [Hydrocraft.HCDill],
             item 1 [Base.Salt],
@@ -1004,8 +1004,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Hydrocraft.HCPear],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Hydrocraft.HCPear] flags[ItemCount],
             item 1 [Base.Sugar],
             item 1 [Hydrocraft.HCCinnamon],
             item 1 [Base.Bowl] mode:keep,
@@ -1026,8 +1026,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Base.Banana],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Base.Banana] flags[ItemCount],
             item 5 [Hydrocraft.HCHoney],
             item 1 [Hydrocraft.HCCardamom],
             item 1 [Base.Bowl] mode:keep,
@@ -1048,9 +1048,9 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Base.Banana],
-            item 1 [Hydrocraft.HCDriedbananachipsbag],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Base.Banana] flags[ItemCount],
+            item 1 [Hydrocraft.HCDriedbananachipsbag] flags[ItemCount],
             item 5 [Hydrocraft.HCJarhoney],
             item 1 [Hydrocraft.HCCardamom],
             item 1 [Base.Bowl] mode:keep,
@@ -1071,8 +1071,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 4 [Base.Cherry],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 4 [Base.Cherry] flags[ItemCount],
             item 1 [Base.Sugar],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -1092,8 +1092,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Base.Pineapple],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Base.Pineapple] flags[ItemCount],
             item 5 [Hydrocraft.HCJampineapple],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -1113,8 +1113,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Base.Peach],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Base.Peach] flags[ItemCount],
             item 5 [Hydrocraft.HCJampeach],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -1134,9 +1134,9 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 2 [Hydrocraft.HCBlackcurrant],
-            item 2 [Hydrocraft.HCRedcurrant],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 2 [Hydrocraft.HCBlackcurrant] flags[ItemCount],
+            item 2 [Hydrocraft.HCRedcurrant] flags[ItemCount],
             item 1 [Base.Sugar],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -1156,9 +1156,9 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Base.Grapes],
-            item 1 [Hydrocraft.HCDriedrasinsbag],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Base.Grapes] flags[ItemCount],
+            item 1 [Hydrocraft.HCDriedrasinsbag] flags[ItemCount],
             item 5 [Hydrocraft.HCJamgrape],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -1178,8 +1178,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
-            item 1 [Hydrocraft.HCJarredmelon],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
+            item 1 [Hydrocraft.HCJarredmelon] flags[ItemCount],
             item 5 [Hydrocraft.HCJamwatermelon],
             item 1 [Base.Bowl] mode:keep,
         }
@@ -1199,7 +1199,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
             item 4 [Hydrocraft.HCSlicedlemon],
             item 5 [Hydrocraft.HCHoney],
             item 10 [Hydrocraft.HCCurdlemon],
@@ -1222,7 +1222,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCJarhomemadeyogurt],
+            item 1 [Hydrocraft.HCJarhomemadeyogurt] flags[ItemCount],
             item 4 [Hydrocraft.HCSlicedlemon],
             item 5 [Hydrocraft.HCJarhoney],
             item 10 [Hydrocraft.HCCurdlemon],
@@ -1244,7 +1244,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Whiskey],
+            item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Base.Salt],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.9 [Water],

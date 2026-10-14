@@ -264,7 +264,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPetribiowaste],
-            item 1 [Base.Bleach],
+            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [Bleach],
             item 1 [Base.Sponge;Hydrocraft.HCSponge] mode:keep,
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
         }
@@ -396,7 +397,7 @@ module Hydrocraft
         inputs
         {
             item 3 [Hydrocraft.HCPetridish],
-            item 1 [Base.BreadSlices;Hydrocraft.HCSlicedorange;Hydrocraft.HCSlicedlemon;Hydrocraft.HCSlicedlime],
+            item 1 [Base.BreadSlices;Hydrocraft.HCSlicedorange;Hydrocraft.HCSlicedlemon;Hydrocraft.HCSlicedlime] flags[ItemCount],
         }
         outputs
         {

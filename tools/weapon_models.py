@@ -1,18 +1,7 @@
 # -*- coding: utf-8 -*-
 """Аудит отображения оружия: у кого есть модель, у кого нет и чем закрыть.
 
-В B41 предмет показывался в руках по полю WeaponSprite. В B42 нужен меш,
-подключённый блоком model, и ссылка WorldStaticModel из предмета. Мод пришёл
-из B41 со 187 предметами на WeaponSprite, и почти всем им меша не поставлялось:
-они ссылались на ванильные спрайты B41.
-
-Скрипт делит оружие на три группы:
-
-  1. подключено      — есть WorldStaticModel, вопросов нет;
-  2. чинится своими  — меш лежит в моде, нужен блок model;
-  3. нужна ваниль    — меша нет; при установленной игре скрипт ищет ванильную
-                       модель B42 с подходящим именем и печатает готовые строки
-                       WorldStaticModel.
+В B42 WeaponSprite указывает на model оружия в руках; WorldStaticModel отвечает за размещение. Проверяем существование модели, а не только наличие поля. Имена чувствительны к регистру; собственные модели квалифицируются Hydrocraft.
 
 Запуск: python3 tools/weapon_models.py --game "<путь к Project Zomboid>"
 Ничего не переписывает — только отчёт в tools/weapon_models.txt.
@@ -86,7 +75,7 @@ else:
 # ---------- разбор ----------
 wired, fixable, need_vanilla, hopeless = [], [], [], []
 for name, w in sorted(weapons.items()):
-    if w["model"]:
+    if (w["sprite"].startswith("Hydrocraft.") and w["sprite"].split(".")[-1] in models) or (not w["sprite"].startswith("Hydrocraft.") and w["sprite"].split(".")[-1] in van_models):
         wired.append(name)
     elif name in mod_meshes:
         has_tex = name in mod_textures
@@ -98,18 +87,18 @@ for name, w in sorted(weapons.items()):
 
 lines = [f"Оружейных предметов: {len(weapons)}; блоков model в моде: {len(models)}; "
          f"мешей в models_X: {len(mod_meshes)}"]
-lines.append(f"\n1. Подключено (WorldStaticModel есть): {len(wired)}")
+lines.append(f"\n1. Подключено (WeaponSprite разрешается): {len(wired)}")
 lines += [f"   {n}" for n in wired]
 
 lines.append(f"\n2. Чинится своими силами — меш и текстура в моде: {len(fixable)}")
 for n, w, _ in fixable:
     lines.append(f"   {n:28} {w['file']:26} меш {mod_meshes[n].relative_to(MODELS_X)}")
     lines.append(f"      model {n} {{ mesh = {mod_meshes[n].parent.name}/{n}, texture = {mod_meshes[n].parent.name}/{n}, }}")
-    lines.append(f"      WorldStaticModel = {n},")
+    lines.append(f"      WeaponSprite = Hydrocraft.{n},")
 
 lines.append(f"\n3. Нужна ванильная модель B42 — имя из WeaponSprite совпало: {len(need_vanilla)}")
 for n, w, match in need_vanilla:
-    lines.append(f"   {n:28} {w['file']:26} WorldStaticModel = {match},")
+    lines.append(f"   {n:28} {w['file']:26} WeaponSprite = Base.{match},")
 
 lines.append(f"\n4. Не закрывается автоматически: {len(hopeless)}")
 by_file = defaultdict(list)

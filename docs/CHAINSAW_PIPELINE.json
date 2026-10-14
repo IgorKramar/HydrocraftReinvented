@@ -1,0 +1,23 @@
+{
+  "source": "common/media/models/weapons_chainsaw.txt",
+  "asset": "common/media/models_X/weapons_chainsaw.x",
+  "texture": "common/media/textures/Objects_chainsaw.png",
+  "source_sha256": "0a7f3935cd57a432f97ea0121b5571b43153d2c688489e55c0fef75759cd5051",
+  "output_sha256": "38533c9d151e9deab10246e6af55a48a8465f1d189458c377f1d443f7532c579",
+  "vertices": 743,
+  "triangles": 1343,
+  "bounds": [
+    [
+      -0.10210475,
+      -0.02897834,
+      -0.05236559
+    ],
+    [
+      0.03543725,
+      0.46774721,
+      0.05222271
+    ]
+  ],
+  "processing": "Original Hydrocraft static TXT positions/normals/triangles and .49672555m length unchanged; corresponding original Objects_chainsaw albedo replaces transparent UV template; legacy top-left UV V converted to native bottom-origin sampler, then shared DirectX exporter compensates Assimp X V conversion; blade-tip atlas samples verified grey and housing red; loadX StaticMesh avoids native TXT null skinningData bug",
+  "verification": "Real Assimp round-trip and atlas samples checked; equipped native 42.21 display confirmed after cold restart: red housing, grey blade, no static TXT NPE."
+}

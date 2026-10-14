@@ -648,7 +648,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Frog;Hydrocraft.HCToad;Hydrocraft.HCNewt;Hydrocraft.HCSalamander],
+            item 1 [Base.Frog;Hydrocraft.HCToad;Hydrocraft.HCNewt;Hydrocraft.HCSalamander] flags[ItemCount],
             item 1 [Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -704,7 +704,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hczedbutcher,
         inputs
         {
-            item 1 [Hydrocraft.HCZedmeat],
+            item 1 [Hydrocraft.HCZedmeat] flags[ItemCount],
             item 1 [Base.MeatCleaver] mode:keep,
         }
         outputs
@@ -723,7 +723,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hczedhead,
         inputs
         {
-            item 1 [Hydrocraft.HCZedmeat],
+            item 1 [Hydrocraft.HCZedmeat] flags[ItemCount],
             item 1 [Base.MeatCleaver] mode:keep,
         }
         outputs
@@ -743,7 +743,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hczedbutcher,
         inputs
         {
-            item 1 [Hydrocraft.HCZedmeatheadless],
+            item 1 [Hydrocraft.HCZedmeatheadless] flags[ItemCount],
             item 1 [Base.MeatCleaver] mode:keep,
         }
         outputs
@@ -762,8 +762,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCTurkeymeat;Base.TurkeyFillet],
-            item 1 [Hydrocraft.HCDuckmeat],
-            item 1 [Base.Chicken],
+            item 1 [Hydrocraft.HCDuckmeat] flags[ItemCount],
+            item 1 [Base.Chicken] flags[ItemCount],
             item 1 [Base.RoastingPan],
         }
         outputs
@@ -781,9 +781,9 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Base.Ham],
-            item 3 [Base.Tomato],
-            item 4 [Base.Potato],
+            item 1 [Base.Ham] flags[ItemCount],
+            item 3 [Base.Tomato] flags[ItemCount],
+            item 4 [Base.Potato] flags[ItemCount],
             item 1 [Base.RoastingPan],
         }
         outputs

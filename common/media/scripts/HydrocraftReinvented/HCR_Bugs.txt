@@ -499,7 +499,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
         DisplayName      = Empty Ant Farm,
         icon 			 = HCAntfarm,
-		WorldStaticModel = WorldItem-HCAntFarmEmpty,
+		WorldStaticModel = Hydrocraft.WorldItem-HCAntFarmEmpty,
     }
     item HCAntfarmblack
     {
@@ -509,7 +509,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
         DisplayName      = Black Ant Farm,
         icon 			 = HCAntfarm2,
-		WorldStaticModel = WorldItem-HCAntFarmFull,
+		WorldStaticModel = Hydrocraft.WorldItem-HCAntFarmFull,
     }
     item HCAntfarmred
     {
@@ -519,7 +519,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
         DisplayName      = Red Ant Farm,
         icon 			 = HCAntfarm2,
-		WorldStaticModel = WorldItem-HCAntFarmFull,
+		WorldStaticModel = Hydrocraft.WorldItem-HCAntFarmFull,
     }
     craftRecipe Make Bug Net
     {
@@ -549,7 +549,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Base.EmptyJar],
+            item 1 [Base.EmptyJar] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Hydrocraft.HCFirefly],
         }
         outputs
@@ -565,7 +565,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Base.EmptyJar],
+            item 1 [Base.EmptyJar] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Base.Worm;Base.Cricket;Base.Grasshopper;Base.Cockroach;Hydrocraft.HCBeetle;Hydrocraft.HCBollweevil;Hydrocraft.HCLadybug;Hydrocraft.HCDragonfly;Hydrocraft.HCGardenspider;Hydrocraft.HCCaterpillar;Hydrocraft.HCCaterpillar2;Hydrocraft.HCBumblebee;Hydrocraft.HCBeetlegrub;Hydrocraft.HCCicada;Hydrocraft.HCRedant;Hydrocraft.HCBlackant;Hydrocraft.HCPillbug;Hydrocraft.HCTermite;Hydrocraft.HCYellowjacket;Hydrocraft.HCButterfly;Hydrocraft.HCMonarch;Hydrocraft.HCMolecricket;Hydrocraft.HCBlackwidow;Hydrocraft.HCHousespider;Hydrocraft.HCHousefly;Hydrocraft.HCSnail],
         }
         outputs
@@ -636,7 +636,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCSnail],
             item 1 [Base.Worm;Base.Cricket;Base.Grasshopper;Base.Cockroach;Hydrocraft.HCBeetle;Hydrocraft.HCCaterpillar;Hydrocraft.HCBeetlegrub;Hydrocraft.HCCicada;Hydrocraft.HCPillbug;Hydrocraft.HCMolecricket],
-            item 1 [Hydrocraft.HCBunchofshrooms],
+            item 1 [Hydrocraft.HCBunchofshrooms] flags[ItemCount],
         }
         outputs
         {

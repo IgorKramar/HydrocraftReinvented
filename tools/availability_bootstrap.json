@@ -1,0 +1,161 @@
+{
+  "basis": "B42 availability review: inferred conservative weights, not historical upstream loot values. Every pool exists and is referenced by installed placed distributions.",
+  "seeds": [
+    {
+      "item": "Hydrocraft.HCMothballsbox",
+      "pool": "GigamartCleaning",
+      "weight": 0.2,
+      "basis": "Cleaning supply; existing rat-poison and purification boxes are comparable. Rare availability restoration, not upstream weight."
+    },
+    {
+      "item": "Hydrocraft.HCPoppack6",
+      "pool": "CrateSodaCans",
+      "weight": 0.2,
+      "basis": "Missing generic pop pack; existing Hydrocraft pop packs retain their higher weights. Original unpack recipe yields six cans."
+    },
+    {
+      "item": "Hydrocraft.HCPlasticplate",
+      "pool": "KitchenDishes",
+      "weight": 0.2,
+      "basis": "Two plain disposable plate variants bootstrap their original stacking cycles."
+    },
+    {
+      "item": "Hydrocraft.HCPlasticplate2",
+      "pool": "KitchenDishes",
+      "weight": 0.2,
+      "basis": "Two plain disposable plate variants bootstrap their original stacking cycles."
+    },
+    {
+      "item": "Hydrocraft.HCCoinsilver",
+      "pool": "JewelrySilver",
+      "weight": 0.1,
+      "basis": "Rare collectible silver coin; original recycling and pressing quantities unchanged."
+    },
+    {
+      "item": "Hydrocraft.HCCoingold",
+      "pool": "JewelryGold",
+      "weight": 0.1,
+      "basis": "Rare collectible gold coin; original recycling and pressing quantities unchanged."
+    },
+    {
+      "item": "Hydrocraft.HCBooksheetmusic",
+      "pool": "MusicStoreLiterature",
+      "weight": 0.2,
+      "basis": "Sheet-music literature fits actual placed music-store literature pool."
+    },
+    {
+      "item": "Hydrocraft.HCPhonograph",
+      "pool": "CrateInstruments",
+      "weight": 0.1,
+      "basis": "Rare music equipment; existing vanilla instrument weights4-8 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCHarp",
+      "pool": "CrateInstruments",
+      "weight": 0.1,
+      "basis": "Rare music equipment; existing vanilla instrument weights4-8 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCUkulele",
+      "pool": "CrateInstruments",
+      "weight": 0.1,
+      "basis": "Rare music equipment; existing vanilla instrument weights4-8 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCGuitar",
+      "pool": "CrateInstruments",
+      "weight": 0.1,
+      "basis": "Rare music equipment; existing vanilla instrument weights4-8 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCClarinet",
+      "pool": "CrateInstruments",
+      "weight": 0.1,
+      "basis": "Rare music equipment; existing vanilla instrument weights4-8 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCTrombone",
+      "pool": "CrateInstruments",
+      "weight": 0.1,
+      "basis": "Rare music equipment; existing vanilla instrument weights4-8 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCDrum",
+      "pool": "CrateInstruments",
+      "weight": 0.1,
+      "basis": "Rare music equipment; existing vanilla instrument weights4-8 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCMaracas",
+      "pool": "CrateInstruments",
+      "weight": 0.1,
+      "basis": "Rare music equipment; existing vanilla instrument weights4-8 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCCowbell",
+      "pool": "CrateInstruments",
+      "weight": 0.1,
+      "basis": "Rare music equipment; existing vanilla instrument weights4-8 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCTentkit2",
+      "pool": "CampingStoreTents",
+      "weight": 0.2,
+      "basis": "Original Hydrocraft tent-kit analogue has weight.2; each kit retains its unpack/pack recipe."
+    },
+    {
+      "item": "Hydrocraft.HCTentkit3",
+      "pool": "CampingStoreTents",
+      "weight": 0.2,
+      "basis": "Original Hydrocraft tent-kit analogue has weight.2; each kit retains its unpack/pack recipe."
+    },
+    {
+      "item": "Hydrocraft.HCTentkit4",
+      "pool": "CampingStoreTents",
+      "weight": 0.2,
+      "basis": "Original Hydrocraft tent-kit analogue has weight.2; each kit retains its unpack/pack recipe."
+    },
+    {
+      "item": "Hydrocraft.HCMagic8ball",
+      "pool": "CrateToys",
+      "weight": 0.2,
+      "basis": "Rare toy variants; existing Hydrocraft toys generally weight1 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCWiffleball",
+      "pool": "CrateToys",
+      "weight": 0.2,
+      "basis": "Rare toy variants; existing Hydrocraft toys generally weight1 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCVolleyball",
+      "pool": "CrateToys",
+      "weight": 0.2,
+      "basis": "Rare toy variants; existing Hydrocraft toys generally weight1 remain dominant."
+    },
+    {
+      "item": "Hydrocraft.HCOilpress",
+      "pool": "CrateMetalwork",
+      "weight": 0.1,
+      "basis": "Rare unanchored oil press; original anchor cycle supplies existing food-processing tool."
+    }
+  ],
+  "recipe": {
+    "file": "HCR_Industrial.txt",
+    "name": "Build Trip Hammer",
+    "old": "item 1 [Hydrocraft.HCAnvil],",
+    "new": "item 1 [Hydrocraft.HCAnvil;Base.BlacksmithAnvil;Base.BenchAnvil;Base.BlockAnvil],",
+    "basis": "Consumed structural anvil component; native anvils are not converted into legacy anvil duplicates. Other source quantities/learning/skill gates unchanged."
+  },
+  "excluded": [
+    "Hydrocraft.HCAnvil",
+    "Hydrocraft.HCAnvil2",
+    "Hydrocraft.HCAnvillead",
+    "Hydrocraft.HCAnvillead2",
+    "Hydrocraft.HCAnvilstone",
+    "Hydrocraft.HCAnvilstone2",
+    "Hydrocraft.HCArmorchainmail",
+    "Hydrocraft.HCEquiparmor",
+    "Hydrocraft.HCClayteapotfull"
+  ]
+}

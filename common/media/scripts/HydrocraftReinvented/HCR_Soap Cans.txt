@@ -513,7 +513,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 4 [Hydrocraft.HCPlasticcangrape],
+            item 4 [Hydrocraft.HCPlasticcangrape] flags[ItemCount],
             item 1 [Hydrocraft.HCDetergentempty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }

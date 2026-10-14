@@ -9,7 +9,7 @@ module Hydrocraft
 		DisplayName      = Axe Handle,
         Weight			 = 1,
         icon 			 = HCAxehandle,
-		WorldStaticModel = WorldItem-HCAxehandle,
+		WorldStaticModel = Hydrocraft.WorldItem-HCAxehandle,
     }
     item HCAxehead
     {
@@ -19,7 +19,7 @@ module Hydrocraft
 		DisplayName      = Axe Head,			
         Weight			 = 2,
         icon 			 = HCAxehead,
-		WorldStaticModel = WorldItem-HCAxeHead,
+		WorldStaticModel = Hydrocraft.WorldItem-HCAxeHead,
     }
     item HCAxeheadworn
     {
@@ -29,7 +29,7 @@ module Hydrocraft
         Weight			 = 2,
         DisplayName      = Worn Axe Head,
         icon 			 = HCAxehead,
-		WorldStaticModel = WorldItem-HCAxeHead,
+		WorldStaticModel = Hydrocraft.WorldItem-HCAxeHead,
     }
     item HCAxeheadblunt
     {
@@ -39,13 +39,13 @@ module Hydrocraft
         DisplayName      = Blunt Axe Head,
         icon 			 = HCAxehead,
 		DisplayCategory	 = CraftMet,
-		WorldStaticModel = WorldItem-HCAxeHead,
+		WorldStaticModel = Hydrocraft.WorldItem-HCAxeHead,
     }
     item HCSawbladeaxe
     {
 
 		MaxRange			=	1.6,
-		WeaponSprite			=	Fireaxe,
+		WeaponSprite			=	Base.FireAxe,
 		MinAngle			=	0.2,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3.5,
@@ -87,7 +87,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.5,
-		WeaponSprite			=	Fireaxe,
+		WeaponSprite			=	Base.FireAxe,
 		MinAngle			=	0.2,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3.5,
@@ -129,7 +129,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.5,
-		WeaponSprite			=	Fireaxe,
+		WeaponSprite			=	Base.FireAxe,
 		MinAngle			=	0.2,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3.5,
@@ -171,7 +171,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.5,
-		WeaponSprite			=	Fireaxe,
+		WeaponSprite			=	Base.FireAxe,
 		MinAngle			=	0.2,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3.5,
@@ -258,7 +258,7 @@ module Hydrocraft
 		ItemType						=	base:weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	Hydrocraft.HCHatchetsteel,
+		WeaponSprite					=	Base.HandAxeForged,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -300,7 +300,7 @@ module Hydrocraft
 		ItemType						=	base:weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	Hydrocraft.HCHatchetiron,
+		WeaponSprite					=	Base.HandAxeForged,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -339,7 +339,7 @@ module Hydrocraft
     {
 
 		MaxRange					=	1.5,
-		WeaponSprite				=	Hydrocraft.HCSkullsplitter,
+		WeaponSprite				=	Base.MacheteForged,
 		MinAngle					=	0.2,
 		ItemType						=	base:weapon,
 		MinimumSwingTime			=	3.0,
@@ -381,7 +381,7 @@ module Hydrocraft
     {
 
 		MaxRange					=	1.5,
-		WeaponSprite					=	Fireaxe,
+		WeaponSprite					=	Base.FireAxe,
 		MinAngle					=	0.2,
 		ItemType						=	base:weapon,
 		MinimumSwingTime				=	3.0,
@@ -557,7 +557,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCAxehandle],
             item 3 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
         }
@@ -597,7 +597,7 @@ module Hydrocraft
             item 3 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Base.WoodenStick2],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
         }
@@ -619,7 +619,7 @@ module Hydrocraft
             item 2 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Base.WoodenStick2],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
         }
@@ -641,7 +641,7 @@ module Hydrocraft
             item 2 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Base.WoodenStick2],
             item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
         }
@@ -663,7 +663,7 @@ module Hydrocraft
             item 3 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 1 [Base.WoodenStick2],
             item 1 [Hydrocraft.HCSmithyhammersteel] mode:keep,
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
         }
@@ -685,7 +685,7 @@ module Hydrocraft
             item 3 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Base.WoodenStick2],
             item 1 [Hydrocraft.HCSmithyhammeriron;Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
         }

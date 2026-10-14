@@ -480,7 +480,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Base.EmptyJar],
+            item 1 [Base.EmptyJar] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Base.JarLid],
         }
         outputs
@@ -514,7 +514,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCAluminumingot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCAnvil;Hydrocraft.HCAnvillead;Hydrocraft.HCAnvil2;Hydrocraft.HCAnvillead2] mode:keep,
         }
@@ -533,10 +533,10 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Base.Vinegar2],
             item 1 [Base.Sugar],
-            item 4 [Base.WatermelonSliced],
+            item 4 [Base.WatermelonSliced] flags[ItemCount],
         }
         outputs
         {
@@ -555,7 +555,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJarredmelonpot],
+            item 1 [Hydrocraft.HCJarredmelonpot] flags[ItemCount],
         }
         outputs
         {
@@ -572,10 +572,10 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
             item 1 [Base.Sugar],
-            item 8 [Hydrocraft.HCSlicedapple],
+            item 8 [Hydrocraft.HCSlicedapple] flags[ItemCount],
         }
         outputs
         {
@@ -593,7 +593,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Hammer;Base.BaseballBat;Base.Plank] mode:keep,
-            item 1 [Hydrocraft.HCJarredapplepot],
+            item 1 [Hydrocraft.HCJarredapplepot] flags[ItemCount],
         }
         outputs
         {
@@ -612,7 +612,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJarredapplepot],
+            item 1 [Hydrocraft.HCJarredapplepot] flags[ItemCount],
         }
         outputs
         {
@@ -629,10 +629,10 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
             item 1 [Base.Sugar],
-            item 2 [Base.Peach],
+            item 2 [Base.Peach] flags[ItemCount],
         }
         outputs
         {
@@ -651,7 +651,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJarredpeachpot],
+            item 1 [Hydrocraft.HCJarredpeachpot] flags[ItemCount],
         }
         outputs
         {
@@ -687,10 +687,10 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
             item 1 [Base.Sugar],
-            item 8 [Hydrocraft.HCSlicedorange],
+            item 8 [Hydrocraft.HCSlicedorange] flags[ItemCount],
         }
         outputs
         {
@@ -709,7 +709,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJarredorangepot],
+            item 1 [Hydrocraft.HCJarredorangepot] flags[ItemCount],
         }
         outputs
         {
@@ -726,10 +726,10 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
             item 1 [Base.Sugar],
-            item 8 [Hydrocraft.HCSlicedlemon],
+            item 8 [Hydrocraft.HCSlicedlemon] flags[ItemCount],
         }
         outputs
         {
@@ -748,7 +748,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJarredlemonpot],
+            item 1 [Hydrocraft.HCJarredlemonpot] flags[ItemCount],
         }
         outputs
         {
@@ -765,10 +765,10 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCLimejuicebowl;Hydrocraft.HCLimejuicebottle],
             item 1 [Base.Sugar],
-            item 8 [Hydrocraft.HCSlicedlime],
+            item 8 [Hydrocraft.HCSlicedlime] flags[ItemCount],
         }
         outputs
         {
@@ -787,7 +787,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJarredlimepot],
+            item 1 [Hydrocraft.HCJarredlimepot] flags[ItemCount],
         }
         outputs
         {
@@ -804,10 +804,10 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
             item 1 [Base.Sugar],
-            item 2 [Base.Grapes],
+            item 2 [Base.Grapes] flags[ItemCount],
         }
         outputs
         {
@@ -826,7 +826,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJarredgrapespot],
+            item 1 [Hydrocraft.HCJarredgrapespot] flags[ItemCount],
         }
         outputs
         {
@@ -843,10 +843,10 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
             item 1 [Base.Sugar],
-            item 1 [Hydrocraft.HCBunchofberries],
+            item 1 [Hydrocraft.HCBunchofberries] flags[ItemCount],
         }
         outputs
         {
@@ -865,7 +865,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJarredberriespot],
+            item 1 [Hydrocraft.HCJarredberriespot] flags[ItemCount],
         }
         outputs
         {
@@ -882,10 +882,10 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Base.Butter],
             item 1 [Base.Sugar],
-            item 16 [Hydrocraft.HCSlicedlemon],
+            item 16 [Hydrocraft.HCSlicedlemon] flags[ItemCount],
         }
         outputs
         {
@@ -902,10 +902,10 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Base.Butter],
             item 1 [Base.Sugar],
-            item 16 [Hydrocraft.HCSlicedlime],
+            item 16 [Hydrocraft.HCSlicedlime] flags[ItemCount],
         }
         outputs
         {
@@ -924,7 +924,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCCurdlemonpot],
+            item 1 [Hydrocraft.HCCurdlemonpot] flags[ItemCount],
         }
         outputs
         {
@@ -943,7 +943,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCCurdlimepot],
+            item 1 [Hydrocraft.HCCurdlimepot] flags[ItemCount],
         }
         outputs
         {

@@ -102,7 +102,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCElectrolyzer] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 12 [Hydrocraft.HCObsidianpowder],
         }
         outputs

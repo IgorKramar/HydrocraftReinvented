@@ -26,7 +26,7 @@ module Hydrocraft
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCRingmold],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
         }

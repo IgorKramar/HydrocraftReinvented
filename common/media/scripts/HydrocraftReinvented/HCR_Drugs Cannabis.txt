@@ -209,7 +209,47 @@ module Hydrocraft
             item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+            item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBongempty,
+        }
+    }
+        craftRecipe Clean Glass Bong (Bleach)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBongdirty],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [Bleach],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBongempty,
+        }
+    }
+        craftRecipe Clean Glass Bong (Cleaning Liquid)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBongdirty],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.01 [CleaningLiquid],
         }
         outputs
         {
@@ -248,7 +288,49 @@ module Hydrocraft
             item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+            item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBongacrylicempty,
+        }
+    }
+        craftRecipe Clean Acrylic Bong (Bleach)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBongacrylicdirty],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [Bleach],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCBongacrylicempty,
+        }
+    }
+        craftRecipe Clean Acrylic Bong (Cleaning Liquid)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBongacrylicdirty],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.01 [CleaningLiquid],
         }
         outputs
         {

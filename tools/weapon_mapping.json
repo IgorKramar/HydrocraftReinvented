@@ -1,0 +1,429 @@
+{
+  "notes": [
+    "All vanilla target model names verified against installed scripts.",
+    "Custom sword/spear/mace UV atlases ambiguous: vanilla fallbacks intentionally selected until visual verification.",
+    "WorldStaticModel of custom models must be module-qualified separately.",
+    "Model declarations and visual fidelity require real-client verification."
+  ],
+  "unresolved": [],
+  "additional_legacy_candidates": {
+    "LongStick": "Base.WoodenStick_Hand",
+    "Shovel": "Base.Shovel",
+    "Plank": "Base.Plank",
+    "Knife": "Base.Knife"
+  },
+  "required_models": [
+    {
+      "texture": "weapons/HCAA12Shotgun",
+      "mesh": "weapons/HCAA12Shotgun",
+      "name": "HCAA12Shotgun",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCLongbow",
+      "mesh": "weapons/HCLongbowDrawn",
+      "name": "HCLongbowDrawn",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCQuarterStaff",
+      "mesh": "weapons/HCQuarterStaff",
+      "name": "HCQuarterstaff",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCScytheBronze",
+      "mesh": "weapons/HCScythe",
+      "name": "HCScythebronze",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCScytheCopper",
+      "mesh": "weapons/HCScythe",
+      "name": "HCScythecopper",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCScytheIron",
+      "mesh": "weapons/HCScythe",
+      "name": "HCScytheiron",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCScytheSteel",
+      "mesh": "weapons/HCScythe",
+      "name": "HCScythesteel",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCSmithyHammerBronze",
+      "mesh": "weapons/HCSmithyHammer",
+      "name": "HCSmithyhammerbronze",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCSmithyHammerCopper",
+      "mesh": "weapons/HCSmithyHammer",
+      "name": "HCSmithyhammercopper",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCSmithyHammerIron",
+      "mesh": "weapons/HCSmithyHammer",
+      "name": "HCSmithyhammeriron",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCSmithyHammerSteel",
+      "mesh": "weapons/HCSmithyHammer",
+      "name": "HCSmithyhammersteel",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCSmithyHammerTitanium",
+      "mesh": "weapons/HCSmithyHammer",
+      "name": "HCSmithyhammertitanium",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/HCSurvivalAxe",
+      "mesh": "weapons/HCSurvivalAxe",
+      "name": "HCSurvivalaxe",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    },
+    {
+      "texture": "weapons/1handed/Drumstick",
+      "mesh": "weapons/HCWardog",
+      "name": "HCWardog",
+      "evidence": "Mesh and matching named texture exist; visual loading unverified"
+    }
+  ],
+  "mapping": {
+    "Banjo": "Base.Banjo",
+    "Baseballbat": "Base.BaseballBat",
+    "BaseballbatSpiked": "Base.BaseballBatSpiked",
+    "Fireaxe": "Base.FireAxe",
+    "FryingPan": "Base.FryingPan",
+    "GardenFork": "Base.GardenFork",
+    "Handgun": "Base.Handgun",
+    "Handgun02": "Base.Handgun02",
+    "HCBaseballbattrimmer": "Hydrocraft.HCHomemadebattrimmer",
+    "HCHomemadebattrimmer": "Hydrocraft.HCHomemadebattrimmer",
+    "HuntingKnife": "Base.HuntingKnife",
+    "Hydrocraft.HC_Maraca_AP": "Hydrocraft.HC_Maraca_AP",
+    "Hydrocraft.HC_Umbrella_Closed_Black": "Hydrocraft.HC_Umbrella_Closed_Black",
+    "Hydrocraft.HCAA12Shotgun": "Hydrocraft.HCAA12Shotgun",
+    "Hydrocraft.HCAluminiumbat": "Base.BaseballBat_Metal",
+    "Hydrocraft.HCBoxcutter": "Hydrocraft.HCBoxcutter",
+    "Hydrocraft.HCConanSword": "Base.MacheteForged",
+    "Hydrocraft.HCCrossbow": "Hydrocraft.HCCrossbow",
+    "Hydrocraft.HCHatchetiron": "Base.HandAxeForged",
+    "Hydrocraft.HCHatchetsteel": "Base.HandAxeForged",
+    "Hydrocraft.HCLongbow": "Hydrocraft.HCLongbow",
+    "Hydrocraft.HCLongbowDrawn": "Hydrocraft.HCLongbowDrawn",
+    "Hydrocraft.HCQuarterstaff": "Hydrocraft.HCQuarterstaff",
+    "Hydrocraft.HCQuarterstaffBarbedWire": "Hydrocraft.HCQuarterstaffBarbedWire",
+    "Hydrocraft.HCQuarterstaffGrip": "Hydrocraft.HCQuarterstaffGrip",
+    "Hydrocraft.HCScythebronze": "Hydrocraft.HCScythebronze",
+    "Hydrocraft.HCScythecopper": "Hydrocraft.HCScythecopper",
+    "Hydrocraft.HCScytheiron": "Hydrocraft.HCScytheiron",
+    "Hydrocraft.HCScythesteel": "Hydrocraft.HCScythesteel",
+    "Hydrocraft.HCSkullsplitter": "Base.MacheteForged",
+    "Hydrocraft.HCSmithyhammerbronze": "Hydrocraft.HCSmithyhammerbronze",
+    "Hydrocraft.HCSmithyhammercopper": "Hydrocraft.HCSmithyhammercopper",
+    "Hydrocraft.HCSmithyhammeriron": "Hydrocraft.HCSmithyhammeriron",
+    "Hydrocraft.HCSmithyhammersteel": "Hydrocraft.HCSmithyhammersteel",
+    "Hydrocraft.HCSmithyhammertitanium": "Hydrocraft.HCSmithyhammertitanium",
+    "Hydrocraft.HCSpearsteel": "Base.SpearLongForged",
+    "Hydrocraft.HCSpikedmaceBronce": "Base.Mace",
+    "Hydrocraft.HCSpikedmaceCopper": "Base.Mace",
+    "Hydrocraft.HCSpikedmacesteel": "Base.Mace",
+    "Hydrocraft.HCSurvivalaxe": "Hydrocraft.HCSurvivalaxe",
+    "Hydrocraft.HCWardog": "Hydrocraft.HCWardog",
+    "Hydrocraft.HCWarhammerbronze": "Base.SledgeHammerForged",
+    "Hydrocraft.HCWarhammercopper": "Base.SledgeHammerForged",
+    "Hydrocraft.HCWarhammeriron": "Base.SledgeHammerForged",
+    "Hydrocraft.HCWarhammersteel": "Base.SledgeHammerForged",
+    "Knife": "Base.Knife",
+    "LeadPipe": "Base.LeadPipe",
+    "Molotov": "Base.Molotov",
+    "Plank": "Base.Plank",
+    "Poolcue": "Base.PoolCue",
+    "Shovel": "Base.Shovel",
+    "Wrench": "Base.Wrench",
+    "Chainsaw": "Hydrocraft.Chainsaw",
+    "Spiketrapclosed": "Hydrocraft.Spiketrapclosed"
+  },
+  "details": [
+    {
+      "from": "Banjo",
+      "reason": "existing_vanilla_model",
+      "to": "Base.Banjo"
+    },
+    {
+      "from": "Baseballbat",
+      "reason": "case_correction",
+      "to": "Base.BaseballBat"
+    },
+    {
+      "from": "BaseballbatSpiked",
+      "reason": "case_correction",
+      "to": "Base.BaseballBatSpiked"
+    },
+    {
+      "from": "Fireaxe",
+      "reason": "case_correction",
+      "to": "Base.FireAxe"
+    },
+    {
+      "from": "FryingPan",
+      "reason": "existing_vanilla_model",
+      "to": "Base.FryingPan"
+    },
+    {
+      "from": "GardenFork",
+      "reason": "existing_vanilla_model",
+      "to": "Base.GardenFork"
+    },
+    {
+      "from": "Handgun",
+      "reason": "existing_vanilla_model",
+      "to": "Base.Handgun"
+    },
+    {
+      "from": "Handgun02",
+      "reason": "existing_vanilla_model",
+      "to": "Base.Handgun02"
+    },
+    {
+      "from": "HCBaseballbattrimmer",
+      "reason": "temporary_visual_fallback",
+      "to": "Hydrocraft.HCHomemadebattrimmer"
+    },
+    {
+      "from": "HCHomemadebattrimmer",
+      "reason": "qualify_existing_custom_model",
+      "to": "Hydrocraft.HCHomemadebattrimmer"
+    },
+    {
+      "from": "HuntingKnife",
+      "reason": "existing_vanilla_model",
+      "to": "Base.HuntingKnife"
+    },
+    {
+      "from": "Hydrocraft.HC_Maraca_AP",
+      "reason": "existing_custom_model",
+      "to": "Hydrocraft.HC_Maraca_AP"
+    },
+    {
+      "from": "Hydrocraft.HC_Umbrella_Closed_Black",
+      "reason": "existing_custom_model",
+      "to": "Hydrocraft.HC_Umbrella_Closed_Black"
+    },
+    {
+      "from": "Hydrocraft.HCAA12Shotgun",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCAA12Shotgun"
+    },
+    {
+      "from": "Hydrocraft.HCAluminiumbat",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.BaseballBat_Metal"
+    },
+    {
+      "from": "Hydrocraft.HCBoxcutter",
+      "reason": "existing_custom_model",
+      "to": "Hydrocraft.HCBoxcutter"
+    },
+    {
+      "from": "Hydrocraft.HCConanSword",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.MacheteForged"
+    },
+    {
+      "from": "Hydrocraft.HCCrossbow",
+      "reason": "existing_custom_model",
+      "to": "Hydrocraft.HCCrossbow"
+    },
+    {
+      "from": "Hydrocraft.HCHatchetiron",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.HandAxeForged"
+    },
+    {
+      "from": "Hydrocraft.HCHatchetsteel",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.HandAxeForged"
+    },
+    {
+      "from": "Hydrocraft.HCLongbow",
+      "reason": "existing_custom_model",
+      "to": "Hydrocraft.HCLongbow"
+    },
+    {
+      "from": "Hydrocraft.HCLongbowDrawn",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCLongbowDrawn"
+    },
+    {
+      "from": "Hydrocraft.HCQuarterstaff",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCQuarterstaff"
+    },
+    {
+      "from": "Hydrocraft.HCQuarterstaffBarbedWire",
+      "reason": "existing_custom_model",
+      "to": "Hydrocraft.HCQuarterstaffBarbedWire"
+    },
+    {
+      "from": "Hydrocraft.HCQuarterstaffGrip",
+      "reason": "existing_custom_model",
+      "to": "Hydrocraft.HCQuarterstaffGrip"
+    },
+    {
+      "from": "Hydrocraft.HCScythebronze",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCScythebronze"
+    },
+    {
+      "from": "Hydrocraft.HCScythecopper",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCScythecopper"
+    },
+    {
+      "from": "Hydrocraft.HCScytheiron",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCScytheiron"
+    },
+    {
+      "from": "Hydrocraft.HCScythesteel",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCScythesteel"
+    },
+    {
+      "from": "Hydrocraft.HCSkullsplitter",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.MacheteForged"
+    },
+    {
+      "from": "Hydrocraft.HCSmithyhammerbronze",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCSmithyhammerbronze"
+    },
+    {
+      "from": "Hydrocraft.HCSmithyhammercopper",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCSmithyhammercopper"
+    },
+    {
+      "from": "Hydrocraft.HCSmithyhammeriron",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCSmithyhammeriron"
+    },
+    {
+      "from": "Hydrocraft.HCSmithyhammersteel",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCSmithyhammersteel"
+    },
+    {
+      "from": "Hydrocraft.HCSmithyhammertitanium",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCSmithyhammertitanium"
+    },
+    {
+      "from": "Hydrocraft.HCSpearsteel",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.SpearLongForged"
+    },
+    {
+      "from": "Hydrocraft.HCSpikedmaceBronce",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.Mace"
+    },
+    {
+      "from": "Hydrocraft.HCSpikedmaceCopper",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.Mace"
+    },
+    {
+      "from": "Hydrocraft.HCSpikedmacesteel",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.Mace"
+    },
+    {
+      "from": "Hydrocraft.HCSurvivalaxe",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCSurvivalaxe"
+    },
+    {
+      "from": "Hydrocraft.HCWardog",
+      "reason": "declare_existing_custom_assets",
+      "to": "Hydrocraft.HCWardog"
+    },
+    {
+      "from": "Hydrocraft.HCWarhammerbronze",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.SledgeHammerForged"
+    },
+    {
+      "from": "Hydrocraft.HCWarhammercopper",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.SledgeHammerForged"
+    },
+    {
+      "from": "Hydrocraft.HCWarhammeriron",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.SledgeHammerForged"
+    },
+    {
+      "from": "Hydrocraft.HCWarhammersteel",
+      "reason": "temporary_visual_fallback",
+      "to": "Base.SledgeHammerForged"
+    },
+    {
+      "from": "Knife",
+      "reason": "existing_vanilla_model",
+      "to": "Base.Knife"
+    },
+    {
+      "from": "LeadPipe",
+      "reason": "existing_vanilla_model",
+      "to": "Base.LeadPipe"
+    },
+    {
+      "from": "Molotov",
+      "reason": "existing_vanilla_model",
+      "to": "Base.Molotov"
+    },
+    {
+      "from": "Plank",
+      "reason": "existing_vanilla_model",
+      "to": "Base.Plank"
+    },
+    {
+      "from": "Poolcue",
+      "reason": "case_correction",
+      "to": "Base.PoolCue"
+    },
+    {
+      "from": "Shovel",
+      "reason": "existing_vanilla_model",
+      "to": "Base.Shovel"
+    },
+    {
+      "from": "Wrench",
+      "reason": "existing_vanilla_model",
+      "to": "Base.Wrench"
+    },
+    {
+      "from": "Chainsaw",
+      "to": "Hydrocraft.Chainsaw",
+      "reason": "Original Hydrocraft geometry converted to native DirectX .x; corresponding opaque Objects_chainsaw albedo and corrected UV; equipped native display confirmed with red housing and grey blade"
+    },
+    {
+      "from": "Spiketrapclosed",
+      "to": "Hydrocraft.Spiketrapclosed",
+      "reason": "Owned fal/Trellis mesh converted to native DirectX .x; actual native 42.21 ground display verified"
+    }
+  ]
+}

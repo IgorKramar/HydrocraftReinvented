@@ -24,7 +24,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCupcakeshomemadepan],
+            item 1 [Hydrocraft.HCCupcakeshomemadepan] flags[ItemCount],
         }
         outputs
         {
@@ -39,7 +39,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCPumpkinbreadpan;Hydrocraft.HCRaisinbreadpan;Hydrocraft.HCCornbreadpan;Hydrocraft.HCFruitcakepan],
+            item 1 [Hydrocraft.HCPumpkinbreadpan;Hydrocraft.HCRaisinbreadpan;Hydrocraft.HCCornbreadpan;Hydrocraft.HCFruitcakepan] flags[ItemCount],
         }
         outputs
         {
@@ -54,7 +54,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCPieapplepan;Hydrocraft.HCPieblueberrypan;Hydrocraft.HCPiepeachpan;Hydrocraft.HCPiepearpan;Hydrocraft.HCPiepumpkinpan;Hydrocraft.HCPiecherrypan;Hydrocraft.HCPieblackberrypan;Hydrocraft.HCQuichepan],
+            item 1 [Hydrocraft.HCPieapplepan;Hydrocraft.HCPieblueberrypan;Hydrocraft.HCPiepeachpan;Hydrocraft.HCPiepearpan;Hydrocraft.HCPiepumpkinpan;Hydrocraft.HCPiecherrypan;Hydrocraft.HCPieblackberrypan;Hydrocraft.HCQuichepan] flags[ItemCount],
         }
         outputs
         {
@@ -99,7 +99,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 tags[RoastingPanFull] mode:keep,
+            item 1 tags[hydrocraft:roastingpanfull] mode:keep,
         }
         outputs
         {

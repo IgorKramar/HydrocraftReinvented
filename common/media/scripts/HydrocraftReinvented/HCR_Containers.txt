@@ -54,7 +54,7 @@ module Hydrocraft
         ReplaceInSecondHand = Bag_BigHikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand = Bag_BigHikingBag_RHand holdingbagright,
 		DisplayCategory	= Container,
-		Tags			= NylonBag,
+		Tags			= hydrocraft:nylonbag,
 		NylonAmount		= 3,
     }
     item HCClimbingpack
@@ -77,7 +77,7 @@ module Hydrocraft
         ReplaceInSecondHand = Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand = Bag_HikingBag_RHand holdingbagright,
 		DisplayCategory	= Container,
-		Tags			= NylonBag,
+		Tags			= hydrocraft:nylonbag,
 		NylonAmount		= 3,
     }
     item HCPrepperbag
@@ -108,7 +108,7 @@ module Hydrocraft
 		EquippedNoSprint 		    = FALSE,
         RequiresEquippedBothHands 	= TRUE,
         StaticModel                 = Hydrocraft.HCWheelbarrow,
-        WorldStaticModel            = Hydrocraft.HCWheelbarrow,
+        WorldStaticModel = Hydrocraft.HCWheelbarrow,
         DisplayCategory	            = Container,
         ReplaceInPrimaryHand 	    = Bag_Wheelbarrow_RHand holdingwheelbarrowright,
     }
@@ -151,7 +151,7 @@ module Hydrocraft
     EquippedNoSprint 		    = FALSE,
     RequiresEquippedBothHands 	= TRUE,
     StaticModel                 = Hydrocraft.HCHanddolly,
-    WorldStaticModel            = Hydrocraft.HCHanddolly,
+    WorldStaticModel = Hydrocraft.HCHanddolly,
 	DisplayCategory	            = Container,
     ReplaceInPrimaryHand 	    = Bag_Handdolly_RHand holdinghanddollyright,
     }
@@ -193,7 +193,7 @@ module Hydrocraft
     SurvivalGear			    = TRUE,
     EquippedNoSprint 		    = FALSE,
     StaticModel                 = Hydrocraft.HCToywagon,
-    WorldStaticModel            = Hydrocraft.HCToywagonfolded,
+    WorldStaticModel = Hydrocraft.HCToywagonfolded,
     DisplayCategory	            = Container,
     ReplaceInPrimaryHand 	    = Bag_Toywagon_RHand holdingtoywagonright,
     ReplaceInSecondHand         = Bag_Toywagon_LHand holdingtoywagonleft,
@@ -394,7 +394,7 @@ module Hydrocraft
 		Icon			= HCGolfbag,
 		CanBeEquipped	= base:back,
 		DisplayCategory	= Container,
-		Tags			= NylonBag,
+		Tags			= hydrocraft:nylonbag,
 		NylonAmount		= 3,
     }
     item HCCosmeticcase
@@ -890,12 +890,12 @@ module Hydrocraft
     craftRecipe Unpack Stack of Cardboard Boxes
     {
         time = 40,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCardboardboxstack],
+            item 1 [Hydrocraft.HCCardboardboxstack] flags[ItemCount],
         }
         outputs
         {
@@ -1015,7 +1015,7 @@ module Hydrocraft
         {
             item 1 [Base.Plank],
             item 6 [Base.SheetRope],
-            item 2 [Base.BucketEmpty],
+            item 2 [Base.Bucket] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Base.Saw;Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -1033,7 +1033,7 @@ module Hydrocraft
         {
             item 1 [Base.WoodenStick2],
             item 6 [Base.SheetRope],
-            item 2 [Base.BucketEmpty],
+            item 2 [Base.Bucket] flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {

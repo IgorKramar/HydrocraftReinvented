@@ -10,7 +10,7 @@ module Hydrocraft
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
     StaticModel	 = BoxOfThings,
-    WorldStaticModel = BoxOfThings,
+    WorldStaticModel = Hydrocraft.BoxOfThings,
     }
     item HCBoxelectronic
     {
@@ -21,7 +21,7 @@ module Hydrocraft
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
     StaticModel	 = BoxOfThings,
-    WorldStaticModel = BoxOfThings,
+    WorldStaticModel = Hydrocraft.BoxOfThings,
     }
     item HCBoxgarden
     {
@@ -32,7 +32,7 @@ module Hydrocraft
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
     StaticModel	 = BoxOfThings,
-    WorldStaticModel = BoxOfThings,
+    WorldStaticModel = Hydrocraft.BoxOfThings,
     }
     item HCBoxholiday
     {
@@ -43,7 +43,7 @@ module Hydrocraft
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
     StaticModel	 = BoxOfThings,
-    WorldStaticModel = BoxOfThings,
+    WorldStaticModel = Hydrocraft.BoxOfThings,
     }
     item HCBoxlab
     {
@@ -54,7 +54,7 @@ module Hydrocraft
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
     StaticModel	 = BoxOfThings,
-    WorldStaticModel = BoxOfThings,
+    WorldStaticModel = Hydrocraft.BoxOfThings,
     }
     item HCBoxoffice
     {
@@ -65,7 +65,7 @@ module Hydrocraft
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
     StaticModel	 = BoxOfThings,
-    WorldStaticModel = BoxOfThings,
+    WorldStaticModel = Hydrocraft.BoxOfThings,
     }
     item HCBoxpet
     {
@@ -76,7 +76,7 @@ module Hydrocraft
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
     StaticModel	 = BoxOfThings,
-    WorldStaticModel = BoxOfThings,
+    WorldStaticModel = Hydrocraft.BoxOfThings,
     }
     item HCBoxphoto
     {
@@ -87,7 +87,7 @@ module Hydrocraft
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
     StaticModel	 = BoxOfThings,
-    WorldStaticModel = BoxOfThings,
+    WorldStaticModel = Hydrocraft.BoxOfThings,
     }
     item HCBoxtoy
     {
@@ -98,7 +98,7 @@ module Hydrocraft
         Icon                	= HCCardboardboxsealed,
 	DisplayCategory          =   CraftMisc,
     StaticModel	 = BoxOfThings,
-    WorldStaticModel = BoxOfThings,
+    WorldStaticModel = Hydrocraft.BoxOfThings,
     }
     craftRecipe Open Box (Cardboard Box)
     {

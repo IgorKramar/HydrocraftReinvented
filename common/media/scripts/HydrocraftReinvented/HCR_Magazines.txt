@@ -13,7 +13,7 @@ module Hydrocraft
 		BoredomChange	=	-100,
 		DisplayCategory =   LitE,
 		StaticModel = Adult1_Open,
-        WorldStaticModel = Adult1_Ground,
+        WorldStaticModel = Hydrocraft.Adult1_Ground,
     }
     item HCAdultmagazine2
     {
@@ -27,7 +27,7 @@ module Hydrocraft
 		BoredomChange	=	-100,
 		DisplayCategory =   LitE,
 		StaticModel = Adult2_Open,
-        WorldStaticModel = Adult2_Ground,
+        WorldStaticModel = Hydrocraft.Adult2_Ground,
     }
     item HCAdultmagazine3
     {
@@ -41,7 +41,7 @@ module Hydrocraft
 		BoredomChange	=	-100,
 		DisplayCategory =   LitE,
 		StaticModel = Adult3_Open,
-        WorldStaticModel = Adult3_Ground,
+        WorldStaticModel = Hydrocraft.Adult3_Ground,
     }
     item HCAdultmagazine4
     {
@@ -55,7 +55,7 @@ module Hydrocraft
 		BoredomChange	=	-100,
 		DisplayCategory =   LitE,
 		StaticModel = Adult4_Open,
-        WorldStaticModel = Adult4_Ground,
+        WorldStaticModel = Hydrocraft.Adult4_Ground,
     }
     item HCAdultmagazine5
     {
@@ -69,7 +69,7 @@ module Hydrocraft
 		BoredomChange	=	-100,
 		DisplayCategory =   LitE,
 		StaticModel = Adult5_Open,
-        WorldStaticModel = Adult5_Ground,
+        WorldStaticModel = Hydrocraft.Adult5_Ground,
     }
     item HCAdultmagazine6
     {
@@ -83,7 +83,7 @@ module Hydrocraft
 		BoredomChange	=	-100,
 		DisplayCategory =   LitE,
 		StaticModel = Adult6_Open,
-        WorldStaticModel = Adult6_Ground,
+        WorldStaticModel = Hydrocraft.Adult6_Ground,
     }
     item HCMagazinemetalworking1
     {
@@ -96,7 +96,7 @@ module Hydrocraft
         ReplaceOnUse    = HCMagazinemetalworking1,
 		DisplayCategory = LitR,
 		StaticModel = MagMetalWorking1_Open,
-        WorldStaticModel = MagMetalWorking1_Ground,
+        WorldStaticModel = Hydrocraft.MagMetalWorking1_Ground,
     }
     item HCMagazinemetalworking2
     {
@@ -109,7 +109,7 @@ module Hydrocraft
         ReplaceOnUse    = HCMagazinemetalworking2,
 		DisplayCategory = LitR,
 		StaticModel = MagMetalWorking2_Open,
-        WorldStaticModel = MagMetalWorking2_Ground,
+        WorldStaticModel = Hydrocraft.MagMetalWorking2_Ground,
     }
     item HCMagazinemetalworking3
     {
@@ -122,7 +122,7 @@ module Hydrocraft
         ReplaceOnUse    = HCMagazinemetalworking3,
 		DisplayCategory = LitR,
 		StaticModel = MagMetalWorking3_Open,
-        WorldStaticModel = MagMetalWorking3_Ground,
+        WorldStaticModel = Hydrocraft.MagMetalWorking3_Ground,
     }
     item HCMagazinemetalworking4
     {
@@ -135,7 +135,7 @@ module Hydrocraft
         ReplaceOnUse    = HCMagazinemetalworking4,
 		DisplayCategory = LitR,
 		StaticModel = MagMetalWorking4_Open,
-        WorldStaticModel = MagMetalWorking4_Ground,
+        WorldStaticModel = Hydrocraft.MagMetalWorking4_Ground,
     }
     item HCMagazinemetalworking5
     {
@@ -148,7 +148,7 @@ module Hydrocraft
         ReplaceOnUse    = HCMagazinemetalworking5,
 		DisplayCategory = LitR,
 		StaticModel = MagMetalWorking5_Open,
-        WorldStaticModel = MagMetalWorking5_Ground,
+        WorldStaticModel = Hydrocraft.MagMetalWorking5_Ground,
     }
     item HCMagazinemetalworking6
     {
@@ -161,7 +161,7 @@ module Hydrocraft
         ReplaceOnUse    = HCMagazinemetalworking6,
 		DisplayCategory = LitR,
 		StaticModel = MagMetalWorking6_Open,
-        WorldStaticModel = MagMetalWorking6_Ground,
+        WorldStaticModel = Hydrocraft.MagMetalWorking6_Ground,
     }
     item HCMagazinemetalworking7
     {
@@ -174,7 +174,7 @@ module Hydrocraft
         ReplaceOnUse    = HCMagazinemetalworking7,
 		DisplayCategory = LitR,
 		StaticModel = MagMetalWorking7_Open,
-        WorldStaticModel = MagMetalWorking7_Ground,
+        WorldStaticModel = Hydrocraft.MagMetalWorking7_Ground,
     }
     item HCMagazinefarming1
     {
@@ -187,7 +187,7 @@ module Hydrocraft
         ReplaceOnUse    = HCMagazinefarming1,
 		DisplayCategory = LitR,
 		StaticModel = MagAgriculture_Open,
-        WorldStaticModel = MagAgriculture_Ground,
+        WorldStaticModel = Hydrocraft.MagAgriculture_Ground,
     }
     item HCMagazineelectronics01
     {
@@ -200,7 +200,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCMagazineelectronics01,
 		DisplayCategory = LitR,
 		StaticModel = MagElectronics1_Open,
-        WorldStaticModel = MagElectronics1_Ground,
+        WorldStaticModel = Hydrocraft.MagElectronics1_Ground,
     }
     item HCMagazineelectronics02
     {
@@ -213,7 +213,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCMagazineelectronics02,
 		DisplayCategory = LitR,
 		StaticModel = MagElectronics2_Open,
-        WorldStaticModel = MagElectronics2_Ground,
+        WorldStaticModel = Hydrocraft.MagElectronics2_Ground,
     }
     item HCMagazineelectronics03
     {
@@ -226,7 +226,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCMagazineelectronics03,
 		DisplayCategory = LitR,
 		StaticModel = MagElectronics3_Open,
-        WorldStaticModel = MagElectronics3_Ground,
+        WorldStaticModel = Hydrocraft.MagElectronics3_Ground,
     }
     item HCMagazinespopularmachines01
     {
@@ -239,7 +239,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCMagazinespopularmachines01,
 		DisplayCategory = LitR,
 		StaticModel = MagPopularElectronics_Open,
-        WorldStaticModel = MagPopularElectronics_Ground,
+        WorldStaticModel = Hydrocraft.MagPopularElectronics_Ground,
     }
     item HCMagazinexmas
     {
@@ -248,11 +248,11 @@ module Hydrocraft
 	    ItemType		=	base:literature,
 	    DisplayName		=	Old Christmas Magazine,
 	    Icon		=	HCMagazinexmas,
-	    LearnedRecipes  	=   	Make Fruit Cake Batter;Make Eggnog Pot;Make Monkey Tail Pot;Make Christmas Ham,
+	    LearnedRecipes  	=   	Make Fruit Cake Batter;Make Eggnog Pot;Make Monkey Tail Pot;Make Christmas Ham;Make Eggnog Pot (Carton Milk);Make Monkey Tail Pot (Carton Milk);Make Fruit Cake Batter (Carton Milk),
 	    ReplaceOnUse    	=   	HCMagazinexmas,
 		DisplayCategory = LitR,
 		StaticModel = Magxmas_Open,
-        WorldStaticModel = Magxmas_Ground,
+        WorldStaticModel = Hydrocraft.Magxmas_Ground,
     }
     item HCSportsmagazine
     {
@@ -267,7 +267,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCSportsmagazine,
 		DisplayCategory = LitE,
 		StaticModel = MagSports1_Open,
-        WorldStaticModel = MagSports1_Ground,
+        WorldStaticModel = Hydrocraft.MagSports1_Ground,
     }
     item HCSportsmagazine2
     {
@@ -282,6 +282,6 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCSportsmagazine2,
 		DisplayCategory = LitE,
 		StaticModel = MagSports2_Open,
-        WorldStaticModel = MagSports2_Ground,
+        WorldStaticModel = Hydrocraft.MagSports2_Ground,
     }
 }

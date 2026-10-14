@@ -199,7 +199,7 @@ module Hydrocraft
 	UseDelta           = 0.25,
 	DisplayName        = Testtube with Morphine,
 	Icon               = HCTesttubemorphinrubber,
-	ReplaceOnDeplete   = HCGlasstesttuberubberbung
+	ReplaceOnDeplete   = HCGlasstesttuberubberbung,
 	DisplayCategory			= CraftChem,
     }
     item HCTesttubemorphincork

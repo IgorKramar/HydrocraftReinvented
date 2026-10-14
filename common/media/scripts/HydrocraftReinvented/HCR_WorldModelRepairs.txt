@@ -1,0 +1,92 @@
+module Hydrocraft
+{
+    /* Existing Hydrocraft meshes/textures whose item references had no model
+       declaration. Ground helmets use WorldItems meshes, separate from worn
+       clothing assets so static and skinned mesh caches cannot collide. */
+    model HCHelmiron
+    {
+        mesh = WorldItems/HCHelmIron,
+        texture = WorldItems/HCHelmIron,
+    }
+    model HCHelmbronze
+    {
+        mesh = WorldItems/HCHelmBronze,
+        texture = WorldItems/HCHelmBronze,
+    }
+    model HCHelmcopper
+    {
+        mesh = WorldItems/HCHelmBronze,
+        texture = clothing/HCHelmCopper,
+    }
+    model HCCannedspam
+    {
+        mesh = WorldItems/HCCannedSpam,
+        texture = WorldItems/HCCannedSpam,
+    }
+    model HCCigarettecarton
+    {
+        mesh = WorldItems/HCCigaretteCarton,
+        texture = WorldItems/HCCigaretteCarton,
+    }
+    model HCCigarettecartonlights
+    {
+        mesh = WorldItems/HCCigaretteCarton,
+        texture = WorldItems/HCCigaretteCartonLights,
+    }
+    model HCCigarettecartonmenthol
+    {
+        mesh = WorldItems/HCCigaretteCarton,
+        texture = WorldItems/HCCigaretteCartonMenthol,
+    }
+    model HCWheelbarrow
+    {
+        mesh = weapons/HCWheelbarrow,
+        texture = weapons/HCWheelBarrow,
+    }
+    model HCHanddolly
+    {
+        mesh = weapons/HCHandDolly,
+        texture = weapons/HCHanddolly,
+    }
+    model HCToywagon
+    {
+        mesh = weapons/HCToywagon,
+        texture = weapons/HCToywagon,
+    }
+    model HCToywagonfolded
+    {
+        mesh = weapons/HCToywagonfolded,
+        texture = weapons/HCToywagon,
+    }
+    model HCMagLongbow
+    {
+        mesh = weapons/HCMagLongbow,
+        texture = weapons/HCMagLongbow,
+    }
+    model HCArrow
+    {
+        mesh = weapons/HCArrow,
+        texture = weapons/HCArrow,
+    }
+    model HCArrowAttachment
+    {
+        mesh = weapons/HCArrow,
+        texture = weapons/HCArrow,
+    }
+    model HCQuiver_Ground
+    {
+        mesh = WorldItems/HCRQuiverGround,
+        texture = clothing/HCQuiver,
+    }
+    model Spiketrapclosed
+    {
+        mesh = WorldItems/HCRSpikeTrap,
+        texture = WorldItems/HCRSpikeTrap,
+        static = true,
+    }
+    model WorldItem-HCPoliceBadge
+    {
+        mesh = WorldItems/WorldItem_HCPoliceBadge,
+        texture = Items/HC_PoliceBadge,
+    }
+}

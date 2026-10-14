@@ -1,0 +1,365 @@
+{
+  "policy": "Authorised restoration from current explicit Box/Pack recipe inputs. Only nonfluid Normal items; same reviewed list for all generic quantities. This is not an upstream Box12/25/50/100 tag restoration.",
+  "materials": [
+    {
+      "full_type": "Base.Crayons",
+      "evidence": [
+        {
+          "file": "HCR_Toys.txt",
+          "recipe": "Box Crayons",
+          "input": "item 20 [Base.Crayons]"
+        }
+      ]
+    },
+    {
+      "full_type": "Base.LogStacks4",
+      "evidence": [
+        {
+          "file": "HCR_Carpentry.txt",
+          "recipe": "Pack Pallet of Logs",
+          "input": "item 3 [Base.LogStacks4]"
+        }
+      ]
+    },
+    {
+      "full_type": "Base.RubberBand",
+      "evidence": [
+        {
+          "file": "HCR_Office.txt",
+          "recipe": "Box Rubberbands",
+          "input": "item 100 [Base.RubberBand]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCBolt",
+      "evidence": [
+        {
+          "file": "HCR_Tools.txt",
+          "recipe": "Box Bolts",
+          "input": "item 100 [Hydrocraft.HCBolt]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCChalk",
+      "evidence": [
+        {
+          "file": "HCR_Toys.txt",
+          "recipe": "Box Chalk",
+          "input": "item 20 [Hydrocraft.HCChalk]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCCigarettepack",
+      "evidence": [
+        {
+          "file": "HCR_Drugs Tobacco.txt",
+          "recipe": "Pack Into Carton",
+          "input": "item 10 [Hydrocraft.HCCigarettepack]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCCigarettepacklights",
+      "evidence": [
+        {
+          "file": "HCR_Drugs Tobacco.txt",
+          "recipe": "Pack Into Carton (Light Cigarette Carton)",
+          "input": "item 10 [Hydrocraft.HCCigarettepacklights]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCCigarettepackmenthol",
+      "evidence": [
+        {
+          "file": "HCR_Drugs Tobacco.txt",
+          "recipe": "Pack Into Carton (Menthol Cigarette Carton)",
+          "input": "item 10 [Hydrocraft.HCCigarettepackmenthol]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCClothespin",
+      "evidence": [
+        {
+          "file": "HCR_Tailoring.txt",
+          "recipe": "Box Clothespins",
+          "input": "item 20 [Hydrocraft.HCClothespin]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCCoffeefilterdry",
+      "evidence": [
+        {
+          "file": "HCR_Kitchen.txt",
+          "recipe": "Pack Coffee Filter Box",
+          "input": "item 50 [Hydrocraft.HCCoffeefilterdry]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCCork",
+      "evidence": [
+        {
+          "file": "HCR_Lab.txt",
+          "recipe": "Box Corks",
+          "input": "item 20 [Hydrocraft.HCCork]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCDiaper",
+      "evidence": [
+        {
+          "file": "HCR_Bathroom.txt",
+          "recipe": "Pack Diapers",
+          "input": "item 20 [Hydrocraft.HCDiaper]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCDirt",
+      "evidence": [
+        {
+          "file": "HCR_Mining.txt",
+          "recipe": "Pack Dirt",
+          "input": "item 4 [Hydrocraft.HCDirt]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCEmptyballoon",
+      "evidence": [
+        {
+          "file": "HCR_Toys.txt",
+          "recipe": "Box Balloons",
+          "input": "item 100 [Hydrocraft.HCEmptyballoon]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCGlasspipe",
+      "evidence": [
+        {
+          "file": "HCR_Lab.txt",
+          "recipe": "Box Glass Pipes",
+          "input": "item 10 [Hydrocraft.HCGlasspipe]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCGlasspipeelbow",
+      "evidence": [
+        {
+          "file": "HCR_Lab.txt",
+          "recipe": "Box Glass Elbow Pipes",
+          "input": "item 10 [Hydrocraft.HCGlasspipeelbow]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCGlasstesttube",
+      "evidence": [
+        {
+          "file": "HCR_Lab.txt",
+          "recipe": "Box Test Tubes",
+          "input": "item 4 [Hydrocraft.HCGlasstesttube]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCHotgluestick",
+      "evidence": [
+        {
+          "file": "HCR_Tools.txt",
+          "recipe": "Box Hot Glue Sticks",
+          "input": "item 20 [Hydrocraft.HCHotgluestick]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCLumberstack",
+      "evidence": [
+        {
+          "file": "HCR_Carpentry.txt",
+          "recipe": "Pack Pallet of Lumber",
+          "input": "item 3 [Hydrocraft.HCLumberstack]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCMREbox",
+      "evidence": [
+        {
+          "file": "HCR_Food MRE.txt",
+          "recipe": "Pack Small Pallet of MREs",
+          "input": "item 4 [Hydrocraft.HCMREbox]"
+        },
+        {
+          "file": "HCR_Food MRE.txt",
+          "recipe": "Pack Medium Pallet of MREs",
+          "input": "item 8 [Hydrocraft.HCMREbox]"
+        },
+        {
+          "file": "HCR_Food MRE.txt",
+          "recipe": "Pack Large Pallet of MREs",
+          "input": "item 12 [Hydrocraft.HCMREbox]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCMenstrualpad",
+      "evidence": [
+        {
+          "file": "HCR_Bathroom.txt",
+          "recipe": "Box Menstrual Pads",
+          "input": "item 20 [Hydrocraft.HCMenstrualpad]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCMothballs",
+      "evidence": [
+        {
+          "file": "HCR_Cleaning.txt",
+          "recipe": "Box Mothballs",
+          "input": "item 100 [Hydrocraft.HCMothballs]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCNailgunammo",
+      "evidence": [
+        {
+          "file": "HCR_Tools.txt",
+          "recipe": "Box Nail Gun Ammo",
+          "input": "item 100 [Hydrocraft.HCNailgunammo]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCNut",
+      "evidence": [
+        {
+          "file": "HCR_Tools.txt",
+          "recipe": "Box Nuts",
+          "input": "item 100 [Hydrocraft.HCNut]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCPurifyingtablets",
+      "evidence": [
+        {
+          "file": "HCR_Camping.txt",
+          "recipe": "Box Water Purifying Tablets",
+          "input": "item 10 [Hydrocraft.HCPurifyingtablets]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCRatpoison",
+      "evidence": [
+        {
+          "file": "HCR_Pests.txt",
+          "recipe": "Box Rat Poison",
+          "input": "item 20 [Hydrocraft.HCRatpoison]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCRazorblade",
+      "evidence": [
+        {
+          "file": "HCR_Bathroom.txt",
+          "recipe": "Box Razor Blades",
+          "input": "item 20 [Hydrocraft.HCRazorblade]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCResistor",
+      "evidence": [
+        {
+          "file": "HCR_Electronics.txt",
+          "recipe": "Box Resistors",
+          "input": "item 100 [Hydrocraft.HCResistor]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCRubberbung",
+      "evidence": [
+        {
+          "file": "HCR_Lab.txt",
+          "recipe": "Box Rubber Bungs",
+          "input": "item 20 [Hydrocraft.HCRubberbung]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCSewingpin",
+      "evidence": [
+        {
+          "file": "HCR_Tailoring.txt",
+          "recipe": "Box Sewing Pins",
+          "input": "item 100 [Hydrocraft.HCSewingpin]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCStaples",
+      "evidence": [
+        {
+          "file": "HCR_Office.txt",
+          "recipe": "Box Staples",
+          "input": "item 100 [Hydrocraft.HCStaples]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCStraw",
+      "evidence": [
+        {
+          "file": "HCR_Gardening.txt",
+          "recipe": "Pack Straw",
+          "input": "item 10 [Hydrocraft.HCStraw]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCTampon",
+      "evidence": [
+        {
+          "file": "HCR_Bathroom.txt",
+          "recipe": "Box Tampons",
+          "input": "item 20 [Hydrocraft.HCTampon]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCTesttubebrush",
+      "evidence": [
+        {
+          "file": "HCR_Lab.txt",
+          "recipe": "Box Test Tube Brushes",
+          "input": "item 5 [Hydrocraft.HCTesttubebrush]"
+        }
+      ]
+    },
+    {
+      "full_type": "Hydrocraft.HCZipperbag",
+      "evidence": [
+        {
+          "file": "HCR_Kitchen.txt",
+          "recipe": "Box Zipper Bags",
+          "input": "item 100 [Hydrocraft.HCZipperbag]"
+        }
+      ]
+    }
+  ]
+}

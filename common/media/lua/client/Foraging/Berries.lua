@@ -1,6 +1,6 @@
 
 local BERRIES = {
-	"farming.Strewberrie", 
+	"Base.Strewberrie",
 	"Base.BerryBlack",
 	"Base.BerryBlue",
 	"Base.BerryGeneric1",

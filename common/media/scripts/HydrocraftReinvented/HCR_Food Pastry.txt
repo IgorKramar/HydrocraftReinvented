@@ -315,13 +315,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Bowl],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 1 [Hydrocraft.HCWhisk;Hydrocraft.HCEggbeater] mode:keep,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
             item 1 [Base.Sugar],
-            item 1 tags[Egg] mode:keep,
+            item 1 tags[Egg] flags[ItemCount],
         }
         outputs
         {
@@ -341,7 +341,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCIcecreamscoop;Hydrocraft.HCLadle] mode:keep,
             item 1 [Hydrocraft.HCMuffinpan],
-            item 1 [Hydrocraft.HCCupcakebatter],
+            item 1 [Hydrocraft.HCCupcakebatter] flags[ItemCount],
         }
         outputs
         {
@@ -358,7 +358,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcmuffinpan,
         inputs
         {
-            item 1 [Hydrocraft.HCCupcakeshomemadepan],
+            item 1 [Hydrocraft.HCCupcakeshomemadepan] flags[ItemCount],
         }
         outputs
         {
@@ -376,9 +376,31 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Butter],
-            item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
             item 2 [Base.Sugar],
-            item 1 [Base.Bowl],
+            item 1 [Base.Bowl] flags[ItemCount],
+            item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFrosting,
+        }
+    }
+    craftRecipe Make Frosting (Carton Milk)
+    {
+        time = 30,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Base.Butter],
+            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.0 [CowMilk],
+            item 2 [Base.Sugar],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
         }
         outputs
@@ -397,8 +419,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbowl,
         inputs
         {
-            item 1 [Hydrocraft.HCFrosting],
-            item 6 [Hydrocraft.HCCupcake],
+            item 1 [Hydrocraft.HCFrosting] flags[ItemCount],
+            item 6 [Hydrocraft.HCCupcake] flags[ItemCount],
             item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
         }
         outputs
@@ -420,11 +442,37 @@ module Hydrocraft
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
             item 1 [Base.Butter],
             item 1 [Base.Sugar],
-            item 2 [Hydrocraft.HCDriedfruit],
-            item 1 tags[Egg] mode:keep,
+            item 2 [Hydrocraft.HCDriedfruit] flags[ItemCount],
+            item 1 tags[Egg] flags[ItemCount],
             item 1 [Base.Yeast],
-            item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
-            item 1 [Base.Bowl],
+            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [Base.Bowl] flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCFruitcakebatter,
+        }
+    }
+    craftRecipe Make Fruit Cake Batter (Carton Milk)
+    {
+        time = 90,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Cooking:4,
+        inputs
+        {
+            item 1 [Base.Spoon] mode:keep,
+            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
+            item 1 [Base.Butter],
+            item 1 [Base.Sugar],
+            item 2 [Hydrocraft.HCDriedfruit] flags[ItemCount],
+            item 1 tags[Egg] flags[ItemCount],
+            item 1 [Base.Yeast],
+            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.0 [CowMilk],
+            item 1 [Base.Bowl] flags[ItemCount],
         }
         outputs
         {
@@ -442,7 +490,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCFruitcakebatter],
+            item 1 [Hydrocraft.HCFruitcakebatter] flags[ItemCount],
             item 1 [Hydrocraft.HCBreadpan],
         }
         outputs
@@ -460,7 +508,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbreadpan,
         inputs
         {
-            item 1 [Hydrocraft.HCFruitcakepan],
+            item 1 [Hydrocraft.HCFruitcakepan] flags[ItemCount],
         }
         outputs
         {
@@ -476,7 +524,7 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Hydrocraft.HCFruitcake],
+            item 1 [Hydrocraft.HCFruitcake] flags[ItemCount],
             item 1 tags[base:sharpknife] mode:keep,
         }
         outputs

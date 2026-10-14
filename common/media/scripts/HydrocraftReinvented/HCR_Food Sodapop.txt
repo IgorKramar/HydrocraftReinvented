@@ -325,12 +325,13 @@ module Hydrocraft
     craftRecipe Pack Pop
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
+        OnTest = HCRPackaging.IsFullFactoryState,
         inputs
         {
-            item 6 [Base.Pop],
+            item 6 [Base.Pop] flags[ItemCount],
         }
         outputs
         {
@@ -340,12 +341,12 @@ module Hydrocraft
     craftRecipe Unpack Pop
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCPoppack1],
+            item 1 [Hydrocraft.HCPoppack1] flags[ItemCount],
         }
         outputs
         {
@@ -355,12 +356,13 @@ module Hydrocraft
     craftRecipe Pack Pop (Pack of Pop)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
+        OnTest = HCRPackaging.IsFullFactoryState,
         inputs
         {
-            item 6 [Base.Pop2],
+            item 6 [Base.Pop2] flags[ItemCount],
         }
         outputs
         {
@@ -370,12 +372,12 @@ module Hydrocraft
     craftRecipe Unpack Pop (Variant)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCPoppack2],
+            item 1 [Hydrocraft.HCPoppack2] flags[ItemCount],
         }
         outputs
         {
@@ -385,12 +387,13 @@ module Hydrocraft
     craftRecipe Pack Pop (Pack of Pop 2)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
+        OnTest = HCRPackaging.IsFullFactoryState,
         inputs
         {
-            item 6 [Base.Pop3],
+            item 6 [Base.Pop3] flags[ItemCount],
         }
         outputs
         {
@@ -400,12 +403,12 @@ module Hydrocraft
     craftRecipe Unpack Pop (Variant 2)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCPoppack3],
+            item 1 [Hydrocraft.HCPoppack3] flags[ItemCount],
         }
         outputs
         {
@@ -415,12 +418,13 @@ module Hydrocraft
     craftRecipe Pack Pop (Pack of Pop 3)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
+        OnTest = HCRPackaging.IsFullFactoryState,
         inputs
         {
-            item 6 [Hydrocraft.HCPop6],
+            item 6 [Hydrocraft.HCPop6] flags[ItemCount],
         }
         outputs
         {
@@ -430,12 +434,12 @@ module Hydrocraft
     craftRecipe Unpack Pop (Pop)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCPoppack6],
+            item 1 [Hydrocraft.HCPoppack6] flags[ItemCount],
         }
         outputs
         {

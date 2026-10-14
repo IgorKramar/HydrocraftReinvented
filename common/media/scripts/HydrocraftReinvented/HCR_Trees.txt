@@ -271,7 +271,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCFir3;Hydrocraft.HCFir4;Hydrocraft.HCFir5;Hydrocraft.HCFir6],
+            item 1 [Hydrocraft.HCFir3;Hydrocraft.HCFir4;Hydrocraft.HCFir5;Hydrocraft.HCFir6] flags[ItemCount],
         }
         outputs
         {
@@ -311,7 +311,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCOak3;Hydrocraft.HCOak4;Hydrocraft.HCOak5;Hydrocraft.HCOak6],
+            item 1 [Hydrocraft.HCOak3;Hydrocraft.HCOak4;Hydrocraft.HCOak5;Hydrocraft.HCOak6] flags[ItemCount],
         }
         outputs
         {
@@ -351,7 +351,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Axe;Hydrocraft.HCMakeshiftaxe;Hydrocraft.HCMakeshiftaxeworn;Hydrocraft.HCMakeshiftaxeblunt;Hydrocraft.HCSurvivalaxe;Hydrocraft.HCHatchetsteel;Hydrocraft.HCHatchetiron;Base.AxeStone] mode:keep,
-            item 1 [Hydrocraft.HCBirch3;Hydrocraft.HCBirch4;Hydrocraft.HCBirch5;Hydrocraft.HCBirch6],
+            item 1 [Hydrocraft.HCBirch3;Hydrocraft.HCBirch4;Hydrocraft.HCBirch5;Hydrocraft.HCBirch6] flags[ItemCount],
         }
         outputs
         {

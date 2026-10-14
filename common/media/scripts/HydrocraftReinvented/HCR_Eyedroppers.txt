@@ -533,7 +533,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedropper],
-            item 1 [Hydrocraft.HCBeakermorphinhydrochloridsolution],
+            item 1 [Hydrocraft.HCBeakermorphinhydrochloridsolution] flags[ItemCount],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs

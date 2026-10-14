@@ -1,0 +1,110 @@
+{
+  "upstream": "brosseaualex/Hydrocraft",
+  "commit": "917d37d4ed526f429e1525316c9fab487bbf7257",
+  "restored": [
+    {
+      "recipe": "Make Smelter",
+      "file": "HCR_ProgressionTransitions.txt",
+      "source_file": "Metalurgy.txt",
+      "source_recipe": "Make Smelter",
+      "source_inputs": [
+        "HCRedbrick=50,",
+        "HCWoodenbucketconcrete=4,",
+        "keep HCMasontrowel,"
+      ],
+      "output": "Hydrocraft.HCSmelter",
+      "count": 1,
+      "book": "Hydrocraft.HCBookmasonry"
+    },
+    {
+      "recipe": "Make Lever",
+      "file": "HCR_ProgressionTransitions.txt",
+      "source_file": "Smithing.txt",
+      "source_recipe": "Make Lever",
+      "source_inputs": [
+        "HCSteelrod,",
+        "HCSteelingot,",
+        "Screws,",
+        "keep HCSmithyhammersteel/HCSmithyhammertitanium,",
+        "keep Tongs,",
+        "keep HCWorkgloves/HCOvenmitts,",
+        "keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,"
+      ],
+      "output": "Hydrocraft.HCLever",
+      "count": 1,
+      "book": "Hydrocraft.HCBookindustrial"
+    },
+    {
+      "recipe": "Make Copper Pipe",
+      "file": "HCR_ProgressionTransitions.txt",
+      "source_file": "Smithing.txt",
+      "source_recipe": "Make Metal Pipe",
+      "source_inputs": [
+        "HCCoppersheetlarge,",
+        "HCWeldingset,",
+        "keep HCWorkgloves,",
+        "keep WeldingMask,"
+      ],
+      "output": "Hydrocraft.HCCopperpipe",
+      "count": 1,
+      "book": "Hydrocraft.HCBookwelding"
+    },
+    {
+      "recipe": "Make Steel Pruning Shears",
+      "file": "HCR_ProgressionTransitions.txt",
+      "source_file": "Smithing.txt",
+      "source_recipe": "Make Steel Pruning Shears",
+      "source_inputs": [
+        "SkillRequired:BladeMaintenance=2,",
+        "HCSteelingot,",
+        "keep HCSmithyhammersteel/HCSmithyhammertitanium,",
+        "keep Tongs,",
+        "keep HCWorkgloves/HCOvenmitts,",
+        "keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,"
+      ],
+      "output": "Hydrocraft.HCPruningsheers",
+      "count": 1,
+      "book": "Hydrocraft.HCBooksteelworking"
+    }
+  ],
+  "adaptations": [
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipes": [
+        "Forge Copper Sheet",
+        "Forge Large Copper Sheet"
+      ],
+      "reason": "Base.CopperIngot is declared but has no current native producer or loot. Add actual native CopperScrap to same count1/2 alternatives and actual SmithingHammer; keep outputs1."
+    },
+    {
+      "file": "HCR_Reclamation.txt",
+      "recipes": [
+        "Forge Steel Crank"
+      ],
+      "reason": "Accept native SmithingHammer without HC hammer bootstrap cycle."
+    },
+    {
+      "file": "HCR_Weapons Hammers.txt",
+      "recipes": [
+        "Make Iron Smithy Hammer",
+        "Make Steel Smithy Hammer"
+      ],
+      "reason": "Accept native SmithingHammer and native anvils to bootstrap HC variants."
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipes": [
+        "Make Small Rolling Mill"
+      ],
+      "reason": "Accept native SmithingHammer/anvil to keep clothespin machinery reachable."
+    }
+  ],
+  "native_material_routes": {
+    "ClayBrick": "native pottery PressClayBrickManually followed by kiln firing, or CrateClayBricks loot",
+    "BucketConcreteFull": "native MakeBucketOfConcrete",
+    "CopperScrap": "native SmeltCopperOre or existing native metalwork/electronics loot",
+    "SmithingHammer": "native Forge_Smithing_Hammer_Head + assembly, or native blacksmith/tool loot",
+    "SteelIngot": "native steel smelting or ToolFactoryIngots loot"
+  },
+  "policy": "Only restore HC-specific missing transitions. Never duplicate native ore/ingot/sheet production. Preserve original restored output/material counts; source concrete=4 is four drainable uses, not four destroyed full buckets."
+}

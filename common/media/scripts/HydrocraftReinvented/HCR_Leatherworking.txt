@@ -1662,7 +1662,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 1 [Hydrocraft.HCAnimalfurdried],
+            item 1 [Hydrocraft.HCAnimalfurdried] flags[ItemCount],
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
         }
         outputs
@@ -1680,7 +1680,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 1 [Hydrocraft.HCHidedriedrabbit;Hydrocraft.HCHidedriedsquirrel;Hydrocraft.HCHidedriedgroundhog;Hydrocraft.HCHidedriedmuskrat;Hydrocraft.HCHidedrieddog;Hydrocraft.HCHidedriedcat],
+            item 1 [Hydrocraft.HCHidedriedrabbit;Hydrocraft.HCHidedriedsquirrel;Hydrocraft.HCHidedriedgroundhog;Hydrocraft.HCHidedriedmuskrat;Hydrocraft.HCHidedrieddog;Hydrocraft.HCHidedriedcat] flags[ItemCount],
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
         }
         outputs
@@ -1698,7 +1698,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 1 [Hydrocraft.HCHidedriednutria;Hydrocraft.HCHidedriedfox;Hydrocraft.HCHidedriedopossum;Hydrocraft.HCHidedriedskunk;Hydrocraft.HCHidedriedraccoon;Hydrocraft.HCHidedriedarmadillo],
+            item 1 [Hydrocraft.HCHidedriednutria;Hydrocraft.HCHidedriedfox;Hydrocraft.HCHidedriedopossum;Hydrocraft.HCHidedriedskunk;Hydrocraft.HCHidedriedraccoon;Hydrocraft.HCHidedriedarmadillo] flags[ItemCount],
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
         }
         outputs
@@ -1716,7 +1716,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 1 [Hydrocraft.HCHidedriedbeaver;Hydrocraft.HCHidedriedsheep;Hydrocraft.HCHidedriedgoat],
+            item 1 [Hydrocraft.HCHidedriedbeaver;Hydrocraft.HCHidedriedsheep;Hydrocraft.HCHidedriedgoat] flags[ItemCount],
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
         }
         outputs
@@ -1734,7 +1734,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 1 [Hydrocraft.HCHidedriedboar;Hydrocraft.HCHidedrieddeer;Hydrocraft.HCHidedriedbearblack;Hydrocraft.HCHidedriedpig;Hydrocraft.HCHidedrieddonkey;Hydrocraft.HCHidedriedcougar],
+            item 1 [Hydrocraft.HCHidedriedboar;Hydrocraft.HCHidedrieddeer;Hydrocraft.HCHidedriedbearblack;Hydrocraft.HCHidedriedpig;Hydrocraft.HCHidedrieddonkey;Hydrocraft.HCHidedriedcougar] flags[ItemCount],
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
         }
         outputs
@@ -1752,7 +1752,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 1 [Hydrocraft.HCHidedriedbear;Hydrocraft.HCHidedriedcow;Hydrocraft.HCHidedriedbull;Hydrocraft.HCHidedriedhorse],
+            item 1 [Hydrocraft.HCHidedriedbear;Hydrocraft.HCHidedriedcow;Hydrocraft.HCHidedriedbull;Hydrocraft.HCHidedriedhorse] flags[ItemCount],
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
         }
         outputs
@@ -2210,7 +2210,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 1 [Hydrocraft.HCLeather],
+            item 1 [Hydrocraft.HCLeather] flags[ItemCount],
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
         }
         outputs

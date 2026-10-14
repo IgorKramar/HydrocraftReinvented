@@ -9,7 +9,7 @@ module Hydrocraft
         ItemType			 		 =	 base:normal,
         DisplayName				 =	 Cinema Ticket,
 		Icon					 =	 HCCinematicket,
-		WorldStaticModel 		 = 	 WorldItem-HCCinemaTicket,
+		WorldStaticModel = Hydrocraft.WorldItem-HCCinemaTicket,
     }
     item HCMovieroll
     {
@@ -42,6 +42,6 @@ module Hydrocraft
 	Weight					 =	 0.05,	
 	ChanceToFall			 = 	 50,	
 	Cosmetic 				 = 	 TRUE,	
-	WorldStaticModel 		 = 	 WorldItem-HCGlasses3D,
+	WorldStaticModel = Hydrocraft.WorldItem-HCGlasses3D,
     }
 }

@@ -9,7 +9,7 @@ module Hydrocraft
         ItemType    		= base:normal,
         DisplayName         	= Penny,
         icon 			= HCPenny,
-        WorldStaticModel = WorldItem-HCMoney_Penny,
+        WorldStaticModel = Hydrocraft.WorldItem-HCMoney_Penny,
     }
     item HCNickel
     {
@@ -19,7 +19,7 @@ module Hydrocraft
         ItemType    		= base:normal,
         DisplayName         	= Nickel,
         icon 			= HCNickel,
-		WorldStaticModel = WorldItem-HCMoney_Nickel,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_Nickel,
     }
     item HCDime
     {
@@ -29,7 +29,7 @@ module Hydrocraft
         ItemType    		= base:normal,
         DisplayName         	= Dime,
         icon 			= HCDime,
-		WorldStaticModel = WorldItem-HCMoney_Dime,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_Dime,
     }
     item HCQuarter
     {
@@ -39,7 +39,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
         DisplayName      = Quarter,
         icon 			 = HCQuarter,
-		WorldStaticModel = WorldItem-HCMoney_Quarter,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_Quarter,
     }
     item HCHalfdollar
     {
@@ -49,7 +49,7 @@ module Hydrocraft
         ItemType   			= base:normal,
         DisplayName         	= Half Dollar,
         icon 			= HCHalfdollar,
-		WorldStaticModel = WorldItem-HCMoney_HalfDollarCoin,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_HalfDollarCoin,
     }
     item HCDollar
     {
@@ -59,7 +59,7 @@ module Hydrocraft
         ItemType    		= base:normal,
         DisplayName         	= Dollar,
         icon 			= HCDollar,
-		WorldStaticModel = WorldItem-HCMoney_DollarCoin,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_DollarCoin,
     }
     item HC1dollarbill
     {
@@ -69,7 +69,7 @@ module Hydrocraft
         ItemType    		= base:normal,
         DisplayName         	= 1 Dollar Bill,
         icon 			= HC1dollarbill,
-		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_DollarBill,
     }
     item HC2dollarbill
     {
@@ -79,7 +79,7 @@ module Hydrocraft
         ItemType    		= base:normal,
         DisplayName         	= 2 Dollar Bill,
         icon 			 = HC2dollarbill,
-		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_DollarBill,
     }
     item HC5dollarbill
     {
@@ -89,7 +89,7 @@ module Hydrocraft
         ItemType    		= base:normal,
         DisplayName         	= 5 Dollar Bill,
         icon 			 = HC5dollarbill,
-		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_DollarBill,
     }
     item HC10dollarbill
     {
@@ -99,7 +99,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
         DisplayName         	= 10 Dollar Bill,
         icon 			 = HC10dollarbill,
-		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_DollarBill,
     }
     item HC20dollarbill
     {
@@ -109,7 +109,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
         DisplayName      = 20 Dollar Bill,
         icon 			 = HC20dollarbill,
-		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_DollarBill,
     }
     item HC50dollarbill
     {
@@ -119,7 +119,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
         DisplayName      = 50 Dollar Bill,
         icon 			 = HC50dollarbill,
-		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_DollarBill,
     }
     item HC100dollarbill
     {
@@ -129,7 +129,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
         DisplayName      = 100 Dollar Bill,
         icon 			 = HC100dollarbill,
-		WorldStaticModel = WorldItem-HCMoney_DollarBill,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_DollarBill,
     }
     item HCCheque
     {
@@ -139,7 +139,7 @@ module Hydrocraft
         ItemType    		= base:normal,
         DisplayName     = Blank Cheque,
         icon 			= HCCheque,
-		WorldStaticModel = WorldItem-HCMoney_BlankCheck,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_BlankCheck,
     }
     item HCCoinpress
     {
@@ -158,7 +158,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
         DisplayName      = Copper Coin,
         icon 			 = HCCoincopper,
-		WorldStaticModel = WorldItem-HCMoney_CopperCoin,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_CopperCoin,
     }
     item HCCoinsilver
     {
@@ -168,7 +168,7 @@ module Hydrocraft
         ItemType    		 	= base:normal,
         DisplayName      	= Silver Coin,
         icon 			 	= HCCoinsilver,
-		WorldStaticModel 	= WorldItem-HCMoney_SilverCoin,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_SilverCoin,
     }
     item HCCoingold
     {
@@ -178,7 +178,7 @@ module Hydrocraft
         ItemType    			= base:normal,
         DisplayName         = Gold Coin,
         icon 				= HCCoingold,
-		WorldStaticModel 	= WorldItem-HCMoney_GoldCoin,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_GoldCoin,
     }
     item HCPiggybank
     {
@@ -208,7 +208,7 @@ module Hydrocraft
         	Capacity            	= 	2,
         	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_01,
-			WorldStaticModel 		= 	Wallet,
+			WorldStaticModel = Wallet,
     }
     item HCWallet2
     {
@@ -219,7 +219,7 @@ module Hydrocraft
         	Capacity            	= 	2,
         	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_02,
-			WorldStaticModel 		= 	Wallet2,
+			WorldStaticModel = Wallet2,
     }
     item HCWallet3
     {
@@ -230,7 +230,7 @@ module Hydrocraft
         	Capacity            	= 	2,
         	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_03,
-			WorldStaticModel 		= 	Wallet3,
+			WorldStaticModel = Wallet3,
     }
     item HCWallet4
     {
@@ -241,7 +241,7 @@ module Hydrocraft
         	Capacity            	= 	2,
         	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_04,
-			WorldStaticModel 		= 	Wallet4,
+			WorldStaticModel = Wallet4,
     }
     item HCSlotmachine
     {
@@ -267,7 +267,7 @@ module Hydrocraft
         ItemType    			= base:normal,
         DisplayName        	= Poker Chip,
         icon 				= HCPokerchip,
-		WorldStaticModel 	= WorldItem-HCMoney_PokerChip,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMoney_PokerChip,
     }
     item HCRoulette
     {
@@ -302,7 +302,7 @@ module Hydrocraft
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
         }
@@ -326,7 +326,7 @@ module Hydrocraft
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
         }
@@ -350,7 +350,7 @@ module Hydrocraft
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
         }
@@ -374,7 +374,7 @@ module Hydrocraft
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
         }
@@ -398,7 +398,7 @@ module Hydrocraft
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
         }
@@ -422,7 +422,7 @@ module Hydrocraft
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
         }
@@ -446,7 +446,7 @@ module Hydrocraft
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
         }
@@ -470,7 +470,7 @@ module Hydrocraft
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
         }
@@ -494,7 +494,7 @@ module Hydrocraft
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
         }
@@ -569,7 +569,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCSteelingot;Base.SteelIngot],
             item 5 [Hydrocraft.HCIroningot;Base.IronIngot],
             item 1 [Hydrocraft.HCSmithyhammersteel;Hydrocraft.HCSmithyhammertitanium] mode:keep,
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCAnvil] mode:keep,
         }

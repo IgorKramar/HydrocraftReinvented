@@ -655,7 +655,7 @@ module Hydrocraft
         ItemType                    = base:weapon,
         MinimumSwingTime        = 1.5,
 		SwingAnim	            = Throw,
-		WeaponSprite            = Molotov,
+		WeaponSprite            = Base.Molotov,
         UseSelf                 = TRUE,
         DisplayName             = HMTD Crystals,
         SwingTime               = 1.5,
@@ -678,7 +678,7 @@ module Hydrocraft
         ItemType                    = base:weapon,
         MinimumSwingTime        = 1.5,
 		SwingAnim	            = Throw,
-		WeaponSprite            = Molotov,
+		WeaponSprite            = Base.Molotov,
         UseSelf                 = TRUE,
         DisplayName             = Test Tube with HMTD Crystals,
         SwingTime               = 1.5,
@@ -720,7 +720,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCChalk;Hydrocraft.HCChalkrock],
         }
         outputs
@@ -756,7 +757,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Base.Charcoal],
         }
         outputs
@@ -792,7 +794,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCGraphite],
         }
         outputs
@@ -828,7 +831,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCSaltpeter],
         }
         outputs
@@ -864,7 +868,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCSulphur],
         }
         outputs
@@ -900,7 +905,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCCopperore],
         }
         outputs
@@ -936,7 +942,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCTinore],
         }
         outputs
@@ -972,7 +979,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCLeadore],
         }
         outputs
@@ -1008,7 +1016,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCIronore],
         }
         outputs
@@ -1044,7 +1053,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCMagnetite],
         }
         outputs
@@ -1080,7 +1090,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCMeteorite],
         }
         outputs
@@ -1116,7 +1127,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCSilverore],
         }
         outputs
@@ -1152,7 +1164,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCGoldore],
         }
         outputs
@@ -1188,7 +1201,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCBauxiteore],
         }
         outputs
@@ -1224,7 +1238,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCZincore],
         }
         outputs
@@ -1260,7 +1275,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCNickelore],
         }
         outputs
@@ -1296,7 +1312,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCCobaltore],
         }
         outputs
@@ -1332,7 +1349,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCChromeore],
         }
         outputs
@@ -1368,7 +1386,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCTungstenore],
         }
         outputs
@@ -1387,7 +1406,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCTitaniumore],
         }
         outputs
@@ -1441,7 +1461,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCBerlinite;Hydrocraft.HCLapislazuli],
         }
         outputs
@@ -1477,7 +1498,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCLithiumore],
         }
         outputs
@@ -1513,7 +1535,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCLapislazuli],
         }
         outputs
@@ -1549,7 +1572,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCAzurite],
         }
         outputs
@@ -1585,7 +1609,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCJade],
         }
         outputs
@@ -1621,7 +1646,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCMalachite],
         }
         outputs
@@ -1657,7 +1683,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCMarble],
         }
         outputs
@@ -1693,7 +1720,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCAlbite],
         }
         outputs
@@ -1729,7 +1757,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCFeldspar],
         }
         outputs
@@ -1765,7 +1794,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCGypsum],
         }
         outputs
@@ -1801,7 +1831,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCDiatomite],
         }
         outputs
@@ -1835,7 +1866,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCTrona],
         }
         outputs
@@ -1892,7 +1924,8 @@ module Hydrocraft
         {
             item 10 [Base.Sparklers],
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
         }
         outputs
         {
@@ -1970,7 +2003,7 @@ module Hydrocraft
         OnCreate = HCR42.hcfillammoniarecipe,
         inputs
         {
-            item 1 [Hydrocraft.HCAmmonaldry],
+            item 1 [Hydrocraft.HCAmmonaldry] flags[ItemCount],
             item 1 [Base.EmptySandbag],
         }
         outputs
@@ -1989,7 +2022,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCLab;Hydrocraft.HCMedicallab] mode:keep,
-            item 15 [Hydrocraft.HCEphedrine],
+            item 15 [Hydrocraft.HCEphedrine] flags[ItemCount],
         }
         outputs
         {
@@ -2007,8 +2040,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
-            item 15 [Hydrocraft.HCEphedrine],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
+            item 15 [Hydrocraft.HCEphedrine] flags[ItemCount],
         }
         outputs
         {
@@ -2626,7 +2660,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCSolidfuelcube],
         }
         outputs

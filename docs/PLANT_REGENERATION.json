@@ -1,0 +1,71 @@
+[
+  {
+    "asset": "common/media/textures/Item_HCPottedtomatoready.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/gpt-image-1.5/edit",
+    "request_id": "01a13b4d-f2e3-7892-8a9d-e3410f1ad648",
+    "prompt": "Completely repaint the plant in this reference as a clean game sprite, rather than retaining any existing edge pixels. A mature tomato plant with three thin natural brown support stakes, medium green serrated compound leaves and several distinct clusters of ripe small red tomatoes. Roots meet at the bottom centre. Stakes are plain brown wood, with dark olive ties, no white string. Only the plant, isolated on genuine transparent RGBA alpha. No planter, pot, soil, ground, shadow, backdrop or checkerboard. Project Zomboid Hydrocraft inventory art: compact detailed hand-painted pixel sprite, muted natural colours, crisp small coloured pixels and restrained dark outlines, isometric three-quarter view seen from above at 30 degrees, light from upper left. Legible silhouette when downsampled to 110 pixels wide. Opaque coloured leaves and fruit; clean dark green or purple antialiased edges directly into transparent alpha. Absolutely no white matte, white rim, pale glow, bloom, noisy light speckles, grey outline, white background or white edge pixels. Centre the complete subject with generous transparent margins, nothing cropped, no text or symbols.",
+    "reference": "common/media/textures/Item_HCPottedtomatoready.png",
+    "background": "transparent",
+    "quality": "medium",
+    "source_sha256": "aa36d0c76ec22e89b2432a4c31244f6638f5d6c9a42bbbce406c4c3939bcc14f",
+    "output_sha256": "564849fd7a8b332794af08f3b27312f21734d969e9b3c342c0471427965e6ce0",
+    "processing_tool": "tools/import_clean_plants.py",
+    "planter_reference": "docs/PLANTER_SCALE.json",
+    "processing": "Regenerated foliage with native transparent alpha; trim invisible pixels; one nearest-neighbour fit; compose behind exact original 110x123 atlas planter walls; native ground-anchor bottom padding.",
+    "foliage_size": [
+      116,
+      164
+    ],
+    "foliage_position": [
+      42,
+      70
+    ]
+  },
+  {
+    "asset": "common/media/textures/Item_HCPottedCabbageredready.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/gpt-image-1.5/edit",
+    "request_id": "01a13b4d-f224-7721-9a15-075373eb44d3",
+    "prompt": "Completely repaint the plant in this reference as a clean game sprite, rather than retaining any existing edge pixels. One mature dense red cabbage head, rich muted purple and burgundy tightly nested leaves, with several open outer leaves. Clear layered curled leaves, darker purple edges, no white veins or white highlights. Only the plant, isolated on genuine transparent RGBA alpha. No planter, pot, soil, ground, shadow, backdrop or checkerboard. Project Zomboid Hydrocraft inventory art: compact detailed hand-painted pixel sprite, muted natural colours, crisp small coloured pixels and restrained dark outlines, isometric three-quarter view seen from above at 30 degrees, light from upper left. Legible silhouette when downsampled to 110 pixels wide. Opaque coloured leaves and fruit; clean dark green or purple antialiased edges directly into transparent alpha. Absolutely no white matte, white rim, pale glow, bloom, noisy light speckles, grey outline, white background or white edge pixels. Centre the complete subject with generous transparent margins, nothing cropped, no text or symbols.",
+    "reference": "common/media/textures/Item_HCPottedCabbageredready.png",
+    "background": "transparent",
+    "quality": "medium",
+    "source_sha256": "8f4a51533aaefe845ea53072edb99f9e909d51d2025fee16a35cc259f7a87cf6",
+    "output_sha256": "3967c0868339594aa2d66d52328883b8ff66b073e8ff45d7327a792ce95b121f",
+    "processing_tool": "tools/import_clean_plants.py",
+    "planter_reference": "docs/PLANTER_SCALE.json",
+    "processing": "Regenerated foliage with native transparent alpha; trim invisible pixels; one nearest-neighbour fit; compose behind exact original 110x123 atlas planter walls; native ground-anchor bottom padding.",
+    "foliage_size": [
+      118,
+      84
+    ],
+    "foliage_position": [
+      41,
+      150
+    ]
+  },
+  {
+    "asset": "common/media/textures/Item_HCPottedCabbagewhiteready.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/gpt-image-1.5/edit",
+    "request_id": "01a13b4d-f218-7500-859f-caea160cd4ba",
+    "prompt": "Completely repaint the plant in this reference as a clean game sprite, rather than retaining any existing edge pixels. One mature dense green cabbage head with tightly nested pale green inner leaves and darker muted green open outer leaves. All veins and highlights are coloured green, never white or cream. Clear layered curled leaves. Only the plant, isolated on genuine transparent RGBA alpha. No planter, pot, soil, ground, shadow, backdrop or checkerboard. Project Zomboid Hydrocraft inventory art: compact detailed hand-painted pixel sprite, muted natural colours, crisp small coloured pixels and restrained dark outlines, isometric three-quarter view seen from above at 30 degrees, light from upper left. Legible silhouette when downsampled to 110 pixels wide. Opaque coloured leaves and fruit; clean dark green or purple antialiased edges directly into transparent alpha. Absolutely no white matte, white rim, pale glow, bloom, noisy light speckles, grey outline, white background or white edge pixels. Centre the complete subject with generous transparent margins, nothing cropped, no text or symbols.",
+    "reference": "common/media/textures/Item_HCPottedCabbagewhiteready.png",
+    "background": "transparent",
+    "quality": "medium",
+    "source_sha256": "46df54ff83f251a489f1d9b461e6b540cfa3e5762752642a447ee87eddab4d05",
+    "output_sha256": "840e9417b9e7b316b6a779205b921050bcbb20c71e001d7af5bd1bab4fdedbcb",
+    "processing_tool": "tools/import_clean_plants.py",
+    "planter_reference": "docs/PLANTER_SCALE.json",
+    "processing": "Regenerated foliage with native transparent alpha; trim invisible pixels; one nearest-neighbour fit; compose behind exact original 110x123 atlas planter walls; native ground-anchor bottom padding.",
+    "foliage_size": [
+      118,
+      90
+    ],
+    "foliage_position": [
+      41,
+      144
+    ]
+  }
+]

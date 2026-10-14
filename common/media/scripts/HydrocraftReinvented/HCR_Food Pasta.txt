@@ -111,7 +111,7 @@ module Hydrocraft
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 tags[Egg] mode:keep,
+            item 1 tags[Egg] flags[ItemCount],
             item 1 [Base.Salt],
             item 1 [Base.RollingPin] mode:keep,
         }
@@ -133,10 +133,10 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.RoastingPan] mode:destroy,
-            item 1 [Hydrocraft.HCFreshpasta],
+            item 1 [Hydrocraft.HCFreshpasta] flags[ItemCount],
             item 1 [Hydrocraft.HCTomatosaucebowl],
             item 1 [Base.Broccoli;Base.Eggplant;Base.Ham;Base.Steak;Base.Chicken;Base.Salmon;Base.TunaTinOpen;Base.Cheese;Hydrocraft.HCCheddar;Base.BellPepper;Hydrocraft.HCBellpeppergreen;Hydrocraft.HCBellpepperyellow;Hydrocraft.HCCauliflower],
-            item 1 [Base.Cheese;Hydrocraft.HCCheddar],
+            item 1 [Base.Cheese;Hydrocraft.HCCheddar] flags[ItemCount],
         }
         outputs
         {
@@ -152,7 +152,7 @@ module Hydrocraft
         inputs
         {
             item 10 [Hydrocraft.HCPastafettuccine;Hydrocraft.HCPastamacaroni;Hydrocraft.HCPastarotini],
-            item 1 [Base.Saucepan] mode:destroy,
+            item 1 [Base.Saucepan] mode:destroy flags[ItemCount],
         }
         outputs
         {
@@ -168,7 +168,7 @@ module Hydrocraft
         inputs
         {
             item 10 [Hydrocraft.HCPastafettuccine;Hydrocraft.HCPastamacaroni;Hydrocraft.HCPastarotini],
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
         }
         outputs
         {

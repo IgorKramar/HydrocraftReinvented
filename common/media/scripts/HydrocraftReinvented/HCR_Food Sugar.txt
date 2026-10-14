@@ -115,7 +115,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 16 [Hydrocraft.HCBeetsugar],
         }
         outputs

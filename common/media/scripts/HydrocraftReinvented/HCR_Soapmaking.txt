@@ -30,7 +30,7 @@ module Hydrocraft
         DisplayName         	= Tallow,
         icon 			= HCTallow,
 		DisplayCategory	= CraftChem,
-		WorldStaticModel = WorldItem-HCTallow,
+		WorldStaticModel = Hydrocraft.WorldItem-HCTallow,
     }
     item HCSoap
     {
@@ -43,7 +43,7 @@ module Hydrocraft
         icon 			= HCSoap,
         cantBeConsolided    	= TRUE,
 		DisplayCategory	= Cleaning,
-		WorldStaticModel = WorldItem-HCSoap,
+		WorldStaticModel = Hydrocraft.WorldItem-HCSoap,
     }
     craftRecipe Make Tallow
     {
@@ -55,7 +55,7 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 4 [Hydrocraft.HCLard],
+            item 4 [Hydrocraft.HCLard] flags[ItemCount],
             item 1 [Hydrocraft.HCCheesecloth],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],

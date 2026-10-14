@@ -1,0 +1,216 @@
+{
+  "game_version": "42.21",
+  "native_signature": "CraftRecipe.OnTestItem calls OnTest(item, character). ItemCount includes no fluid-fullness constraint. IsFull tests FluidContainer only with ItemIsFluid, which cannot apply to HC Food beer. OnTest checks native fluid volume/composition and native Food isWholeFoodItem plus poison/cooked/extra state.",
+  "migrations": [
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pack Beer (Pack of Beer 9)",
+      "input_types": [
+        "Hydrocraft.HCBeercan10"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCBeercan10pack",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Bar.txt",
+          "recipe": "Open Pack of Beer (Can of Beer 9)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pack Beer (Pack of Beer 8)",
+      "input_types": [
+        "Hydrocraft.HCBeercan9"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCBeercan9pack",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Bar.txt",
+          "recipe": "Open Pack of Beer (Can of Beer 8)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pack Beer (Pack of Beer 7)",
+      "input_types": [
+        "Hydrocraft.HCBeercan8"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCBeercan8pack",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Bar.txt",
+          "recipe": "Open Pack of Beer (Can of Beer 7)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pack Beer (Pack of Beer 6)",
+      "input_types": [
+        "Hydrocraft.HCBeercan7"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCBeercan7pack",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Bar.txt",
+          "recipe": "Open Pack of Beer (Can of Beer 6)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pack Beer (Pack of Beer 5)",
+      "input_types": [
+        "Hydrocraft.HCBeercan6"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCBeercan6pack",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Bar.txt",
+          "recipe": "Open Pack of Beer (Can of Beer 5)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pack Beer (Pack of Beer 4)",
+      "input_types": [
+        "Hydrocraft.HCBeercan5"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCBeercan5pack",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Bar.txt",
+          "recipe": "Open Pack of Beer (Can of Beer 4)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pack Beer (Pack of Beer 3)",
+      "input_types": [
+        "Hydrocraft.HCBeercan4"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCBeercan4pack",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Bar.txt",
+          "recipe": "Open Pack of Beer (Can of Beer 3)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pack Beer (Pack of Beer 2)",
+      "input_types": [
+        "Hydrocraft.HCBeercan3"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCBeercan3pack",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Bar.txt",
+          "recipe": "Open Pack of Beer (Can of Beer 2)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pack Beer (Pack of Beer)",
+      "input_types": [
+        "Hydrocraft.HCBeercan2"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCBeercan2pack",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Bar.txt",
+          "recipe": "Open Pack of Beer (Can of Beer)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pack Beer",
+      "input_types": [
+        "Hydrocraft.HCBeercan1"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCBeercan1pack",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Bar.txt",
+          "recipe": "Open Pack of Beer"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Sodapop.txt",
+      "recipe": "Pack Pop (Pack of Pop 3)",
+      "input_types": [
+        "Hydrocraft.HCPop6"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCPoppack6",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Sodapop.txt",
+          "recipe": "Unpack Pop (Pop)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Sodapop.txt",
+      "recipe": "Pack Pop (Pack of Pop 2)",
+      "input_types": [
+        "Base.Pop3"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCPoppack3",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Sodapop.txt",
+          "recipe": "Unpack Pop (Variant 2)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Sodapop.txt",
+      "recipe": "Pack Pop (Pack of Pop)",
+      "input_types": [
+        "Base.Pop2"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCPoppack2",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Sodapop.txt",
+          "recipe": "Unpack Pop (Variant)"
+        }
+      ]
+    },
+    {
+      "file": "HCR_Food Sodapop.txt",
+      "recipe": "Pack Pop",
+      "input_types": [
+        "Base.Pop"
+      ],
+      "count": 6,
+      "pack": "Hydrocraft.HCPoppack1",
+      "unpack_recipes": [
+        {
+          "file": "HCR_Food Sodapop.txt",
+          "recipe": "Unpack Pop"
+        }
+      ]
+    }
+  ]
+}

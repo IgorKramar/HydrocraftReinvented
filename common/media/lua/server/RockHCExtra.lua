@@ -69,7 +69,7 @@ skill = player:getPerkLevel(Perks.PlantScavenging);
         end	
     elseif chance <= dirtLvl1+dirtLvl2+dirtLvl3+dirtLvl4+dirtLvl5+dirtLvl6+dirtLvl7+dirtLvl8+dirtLvl9+dirtLvl10 then
 	    secondChance = ZombRand(2);
-        if secondChance == 0 then player:getInventory():AddItem("Base.Stone");
+        if secondChance == 0 then player:getInventory():AddItem("Base.Stone2");
         elseif secondChance == 1 then player:getInventory():AddItem("Base.SharpedStone");
         end	
     elseif chance <= dirtLvl0+dirtLvl1+dirtLvl2+dirtLvl3+dirtLvl4+dirtLvl5+dirtLvl6+dirtLvl7+dirtLvl8+dirtLvl9+dirtLvl10 then
@@ -177,7 +177,7 @@ skill = player:getPerkLevel(Perks.PlantScavenging);
     elseif chance <= mineLvl0+mineLvl1+mineLvl2+mineLvl3+mineLvl4+mineLvl5+mineLvl6+mineLvl7+mineLvl8+mineLvl9+mineLvl10 then
         secondChance = ZombRand(3);
         if secondChance == 0 then player:getInventory():AddItem("Base.SharpedStone");
-        elseif secondChance == 1 then player:getInventory():AddItem("Base.Stone");
+        elseif secondChance == 1 then player:getInventory():AddItem("Base.Stone2");
         elseif secondChance == 2 then player:getInventory():AddItem("Hydrocraft.HCMetalArrowhead");
         end
     end 
@@ -325,7 +325,7 @@ for i=1,5,1 do
     elseif chance <= darkLvl0+darkLvl1+darkLvl2+darkLvl3+darkLvl4+darkLvl5+darkLvl6+darkLvl7+darkLvl8+darkLvl9+darkLvl10 then
         secondChance = ZombRand(2);
         if secondChance == 0 then player:getInventory():AddItem("Base.SharpedStone");
-        elseif secondChance == 1 then player:getInventory():AddItem("Base.Stone");
+        elseif secondChance == 1 then player:getInventory():AddItem("Base.Stone2");
         end
     end	
 end

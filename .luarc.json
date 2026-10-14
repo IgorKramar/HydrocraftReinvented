@@ -4,8 +4,14 @@
     "version": "Lua 5.1"
   },
   "workspace": {
-    "library": ["tools/pz-lua"],
-    "ignoreDir": ["tools/pz-lua", "docs", "common/media/textures"],
+    "library": [
+      "tools/pz-lua"
+    ],
+    "ignoreDir": [
+      "tools/pz-lua",
+      "docs",
+      "common/media/textures"
+    ],
     "checkThirdParty": false
   },
   "diagnostics": {
@@ -37,7 +43,14 @@
       "isClient",
       "isServer",
       "sendClientCommand",
-      "sendServerCommand"
+      "sendServerCommand",
+      "CharacterTrait",
+      "CharacterProfession",
+      "getOnlinePlayers",
+      "getNumActivePlayers",
+      "sendRemoveItemFromContainer",
+      "sendAddItemToContainer",
+      "sendReplaceItemInContainer"
     ]
   }
 }

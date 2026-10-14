@@ -4,6 +4,7 @@ import re
 from collections import defaultdict
 
 from hcr_paths import HERE, LUA, find_game, load_model, read_text
+from reachability_support import timer_edges, callback_outputs, apply_timer_edges
 
 M = load_model()
 items, recipes = M["items"], M["recipes"]
@@ -72,6 +73,8 @@ dangling_books = sorted(set(book_teaches) - set(recipes))
 # ---------- 3. Источники вне крафта: все строковые литералы из lua ----------
 lua_strings = set()
 for f in LUA.rglob("*.lua"):
+    if f.name in {'HCR_TimedDefinitions.lua','HCR_ItemMigrations.lua','HCR_Boxing.lua','HCR_Packaging.lua'}:
+        continue # declarations/guards are not independent sources
     txt = read_text(f)
     for m in re.finditer(r'"([A-Za-z0-9._\- ]{2,64})"|\'([A-Za-z0-9._\- ]{2,64})\'', txt):
         lua_strings.add((m.group(1) or m.group(2)).strip())
@@ -95,8 +98,16 @@ def outputs_ids(r):
 
 changed = True
 craftable = set()
+timed = timer_edges()
+callbacks = callback_outputs()
 while changed:
     changed = False
+    changed = apply_timer_edges(reachable, timed, items) or changed
+    for fid, item in items.items():
+        if fid in reachable:
+            for replacement in item.get('repl', []):
+                if replacement in items and replacement not in reachable:
+                    reachable.add(replacement); changed = True
     for r in recipes.values():
         if r["name"] in craftable: continue
         ok = True
@@ -110,6 +121,9 @@ while changed:
             craftable.add(r["name"])
             for o in outputs_ids(r):
                 if o not in reachable:
+                    reachable.add(o); changed = True
+            for o in callbacks.get(r['name'],set()):
+                if o in items and o not in reachable:
                     reachable.add(o); changed = True
 
 uncraftable = [r for r in recipes.values() if r["name"] not in craftable]
@@ -133,8 +147,9 @@ lost_learn = sorted(rn for rn, bl in book_teaches.items()
 
 # группировки
 from collections import Counter
-no_source = [f for f in unreachable if not M["producers"].get(f)]
-blocked_chain = [f for f in unreachable if M["producers"].get(f)]
+indirect_targets = set(timed.values()).union(*(callbacks.values()))
+no_source = [f for f in unreachable if not M["producers"].get(f) and f not in indirect_targets]
+blocked_chain = [f for f in unreachable if M["producers"].get(f) or f in indirect_targets]
 file_unreach = Counter(items[f]["file"] for f in unreachable)
 file_uncraft = Counter(r["file"] for r in uncraftable)
 root_block = Counter()
@@ -145,6 +160,8 @@ for r in uncraftable:
                 root_block[i] += 1
 
 rep = []
+rep.append("ОПТИМИСТИЧЕСКАЯ СТАТИЧЕСКАЯ ОЦЕНКА: vanilla declaration и lua literal не доказывают реальный source; tools/tags/fluids/skills не проверяются native engine этим графом.")
+rep.append(f"Косвенные связи текущего кода: timers={len(timed)}, recipe callbacks={len(callbacks)}.")
 rep.append("=== ГРУППИРОВКИ ===")
 rep.append(f"Недостижимые предметы: всего {len(unreachable)}; из них ВООБЩЕ без источника (ни лута, ни рецепта): {len(no_source)}; "
            f"рецепт есть, но цепочка заблокирована: {len(blocked_chain)}")

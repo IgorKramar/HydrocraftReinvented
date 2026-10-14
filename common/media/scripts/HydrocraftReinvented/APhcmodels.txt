@@ -29,7 +29,7 @@ module Hydrocraft
     {
 
 		mesh = Weapons/1Handed/HC_Maracas_AP,
-		texture = Items/HC_Maracas,
+		texture = weapons/1Handed/HC_Maracas,
     }
     model HC_LavaLamp
     {
@@ -47,7 +47,7 @@ module Hydrocraft
     {
 
 		mesh = Weapons/1Handed/HC_RoadFlare,
-		texture = weapons/1Handed/HC_RoadFlare,
+		texture = Items/HC_RoadFlare,
     }
     model HC_Umbrella_Open_Black
     {
@@ -139,13 +139,7 @@ module Hydrocraft
 		mesh = WorldItems/WorldItem_HCMovieTicket,
 		texture = Items/HC_Movie_CinemaTicket,
     }
-    model WorldItem-HCCoffeeFilter
-    {
-
-		mesh = WorldItems/WorldItem_HCCoffeeFilter,
-		texture = Items/HC_CoffeeFilter,
-    }
-    model WorldItem-HCCork
+model WorldItem-HCCork
     {
 
 		mesh = WorldItems/WorldItem_Cork,

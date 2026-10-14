@@ -522,7 +522,7 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MugWhite] mode:destroy,
+            item 1 [Base.MugWhite] mode:destroy flags[ItemCount],
             item 6 [Base.Coffee2],
         }
         outputs
@@ -539,7 +539,7 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Kettle] mode:destroy,
+            item 1 [Base.Kettle] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCCoffeefilterdry],
             item 10 [Base.Coffee2;Hydrocraft.HCCoffeelarge],
         }
@@ -557,7 +557,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Mugl],
+            item 1 [Base.Mugl] flags[ItemCount],
             item 5 [Hydrocraft.HCKettlecoffee],
         }
         outputs
@@ -574,7 +574,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 5 [Hydrocraft.HCKettlecoffee],
         }
         outputs
@@ -711,7 +711,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCoffeeblacksugar],
-            item 1 [Base.Milk],
+            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [CowMilk],
         }
         outputs
         {
@@ -728,7 +729,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCoffeeblack2sugar],
-            item 1 [Base.Milk],
+            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [CowMilk],
         }
         outputs
         {
@@ -745,7 +747,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCThermoscoffeesugar],
-            item 2 [Base.Milk],
+            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [CowMilk],
         }
         outputs
         {
@@ -812,8 +815,27 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl],
-            item 1 [Base.Milk;Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],
+            item 1 [Base.Mugl] flags[ItemCount],
+            item 1 [Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],
+            item 1 [Hydrocraft.HCCoco],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCococup,
+        }
+    }
+    craftRecipe Make Cup of Hot Chocolate (Carton Milk)
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:3,
+        inputs
+        {
+            item 1 [Base.Mugl] flags[ItemCount],
+            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.0 [CowMilk],
             item 1 [Hydrocraft.HCCoco],
         }
         outputs
@@ -830,8 +852,27 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug],
-            item 1 [Base.Milk;Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],
+            item 1 [Hydrocraft.HCCoco],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCococup2,
+        }
+    }
+    craftRecipe Make Cup of Hot Chocolate (Cup of Hot Chocolate) (Carton Milk)
+    {
+        time = 70,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        xpAward = Cooking:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.0 [CowMilk],
             item 1 [Hydrocraft.HCCoco],
         }
         outputs

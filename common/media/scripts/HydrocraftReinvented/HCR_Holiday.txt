@@ -267,7 +267,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	0.9,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -419,7 +419,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcpumpkinseeds8,
         inputs
         {
-            item 1 [Hydrocraft.HCPumpkin],
+            item 1 [Hydrocraft.HCPumpkin] flags[ItemCount],
             item 1 [Hydrocraft.HCPumpkinknife] mode:keep,
         }
         outputs
@@ -437,7 +437,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcpumpkinseeds8,
         inputs
         {
-            item 1 [Hydrocraft.HCPumpkinwhite],
+            item 1 [Hydrocraft.HCPumpkinwhite] flags[ItemCount],
             item 1 [Hydrocraft.HCPumpkinknife] mode:keep,
         }
         outputs
@@ -455,7 +455,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcpumpkinseeds8,
         inputs
         {
-            item 1 [Hydrocraft.HCPumpkingreen],
+            item 1 [Hydrocraft.HCPumpkingreen] flags[ItemCount],
             item 1 [Hydrocraft.HCPumpkinknife] mode:keep,
         }
         outputs

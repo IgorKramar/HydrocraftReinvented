@@ -153,7 +153,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.5,
-		WeaponSprite			=	Fireaxe,
+		WeaponSprite			=	Base.FireAxe,
 		MinAngle			=	0.2,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3.0,
@@ -193,7 +193,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	0.9,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -232,7 +232,7 @@ module Hydrocraft
     {
 
 		MaxRange					=	0.9,
-		WeaponSprite					=	Knife,
+		WeaponSprite					=	Base.Knife,
 		MinAngle					=	0,
 		ItemType						=	base:weapon,
 		MinimumSwingTime				=	2,
@@ -283,12 +283,12 @@ module Hydrocraft
             item 3 [Hydrocraft.HCMysteryseedspacket],
             item 1 [Hydrocraft.HCDirt],
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCGardengloves],
-            item 1 [Hydrocraft.HCGardenapron],
+            item 1 [Hydrocraft.HCGardenapron;Base.Apron_Leather;Base.Apron_Tarp],
             item 1 [Base.HandShovel],
             item 1 [Hydrocraft.HCPruningsheers],
             item 1 [Base.Rake],
             item 1 [Base.Shovel;Base.Shovel2],
-            item 1 [Base.WateredCan],
+            item 1 [Base.WateredCan] flags[ItemCount],
             item 1 [Base.GardeningSprayEmpty],
             item 10 [Hydrocraft.HCGardenhose],
             item 20 [Base.CompostBag],
@@ -464,12 +464,12 @@ module Hydrocraft
     craftRecipe Pack Straw
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Farming,
         timedAction = Making,
         inputs
         {
-            item 10 [Hydrocraft.HCStraw],
+            item 10 [Hydrocraft.HCStraw] flags[ItemCount],
         }
         outputs
         {
@@ -479,12 +479,12 @@ module Hydrocraft
     craftRecipe Unpack Straw
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Farming,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCStrawbale],
+            item 1 [Hydrocraft.HCStrawbale] flags[ItemCount],
         }
         outputs
         {
@@ -1188,16 +1188,7 @@ module Hydrocraft
         icon        		= HCPottedbeets,
 		DisplayCategory			=   SurFarm,
     }
-    item HCPottedmulberry
-    {
 
-        Weight      		= 15,
-    	ItemType        		= base:normal,
-	UseWhileEquipped	= FALSE,
-        DisplayName 		= Potted Mulberry,
-        icon        		= HCPottedmulberry,
-		DisplayCategory			=   SurFarm,
-    }
     item HCPottedapricot
     {
 
@@ -6065,18 +6056,7 @@ module Hydrocraft
         DisplayName         = Ready Potted Rubber Tree,
         icon                = HCPottedrubbertree,
     }
-    item HCPottedrubbertree2
-    {
 
-        Weight              = 25,
-    ItemType            = base:drainable,
-    UseWhileEquipped    = FALSE,
-    UseDelta        = 1.0,
-		DisplayCategory		= SurFarm,
-        DisplayName         = Potted Rubber Tree with Sap Catchers,
-    ReplaceOnDeplete    = HCPlanter,
-        icon                = HCPottedrubbertree2,
-    }
     item HCPottedrubbertreedry2
     {
 
@@ -6693,6 +6673,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -6730,6 +6711,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -6767,6 +6749,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -6804,6 +6787,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -6841,6 +6825,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -6878,6 +6863,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -6915,6 +6901,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -6952,6 +6939,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -6989,6 +6977,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7026,6 +7015,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7063,6 +7053,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7102,7 +7093,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCPeapod],
+            item 1 [Hydrocraft.HCPeapod] flags[ItemCount],
         }
         outputs
         {
@@ -7115,6 +7106,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7152,6 +7144,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7189,6 +7182,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7226,6 +7220,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7263,6 +7258,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7300,6 +7296,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7337,6 +7334,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7374,6 +7372,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7423,6 +7422,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7442,6 +7442,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7461,6 +7462,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7480,6 +7482,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7556,6 +7559,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7575,6 +7579,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7594,6 +7599,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7613,6 +7619,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7632,6 +7639,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7651,6 +7659,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7670,6 +7679,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7689,6 +7699,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7708,6 +7719,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7727,6 +7739,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7746,6 +7759,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7765,6 +7779,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7784,6 +7799,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7803,6 +7819,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7822,6 +7839,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7841,6 +7859,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7860,6 +7879,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7879,6 +7899,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7898,6 +7919,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7917,6 +7939,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7936,6 +7959,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7955,6 +7979,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7974,6 +7999,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -7993,6 +8019,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8012,6 +8039,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8031,6 +8059,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8050,6 +8079,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8069,6 +8099,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8088,6 +8119,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8107,6 +8139,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8126,6 +8159,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8145,6 +8179,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8164,6 +8199,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8183,6 +8219,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8202,6 +8239,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8221,6 +8259,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8240,6 +8279,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8259,6 +8299,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8278,6 +8319,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8297,6 +8339,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8316,6 +8359,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8335,6 +8379,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8354,6 +8399,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8373,6 +8419,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8392,6 +8439,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8411,6 +8459,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8430,6 +8479,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8449,6 +8499,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8468,6 +8519,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8489,11 +8541,12 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
         {
-            item 1 [Hydrocraft.HCShiitake],
+            item 1 [Hydrocraft.HCShiitake] flags[ItemCount],
             item 1 [Hydrocraft.HCPlanter],
             item 1 [Base.Log],
             item 1 [Base.HandShovel] mode:keep,
@@ -8509,11 +8562,12 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
         {
-            item 1 [Hydrocraft.HCPortobello],
+            item 1 [Hydrocraft.HCPortobello] flags[ItemCount],
             item 1 [Hydrocraft.HCPlanter],
             item 1 [Base.HandShovel] mode:keep,
         }
@@ -8528,6 +8582,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8547,6 +8602,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8566,6 +8622,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8585,6 +8642,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8604,11 +8662,12 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
         {
-            item 1 [Hydrocraft.HCBeet],
+            item 1 [Hydrocraft.HCBeet] flags[ItemCount],
             item 1 [Hydrocraft.HCPlanter],
             item 1 [Base.HandShovel] mode:keep,
         }
@@ -8642,6 +8701,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8661,6 +8721,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8680,6 +8741,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8699,6 +8761,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8718,6 +8781,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs
@@ -8737,6 +8801,7 @@ module Hydrocraft
         Tags = AnySurfaceCraft,
         category = Farming,
         timedAction = Making,
+        OnCreate = HCR42.TrackTimedItems,
         NeedToBeLearn = true,
         SkillRequired = Farming:7,
         inputs

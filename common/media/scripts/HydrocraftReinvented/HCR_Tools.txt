@@ -80,7 +80,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
 		Weight			 = 0.2,		
         icon 			 = HCFunnel,
-		WorldStaticModel = WorldItem-HCFunnel,
+		WorldStaticModel = Hydrocraft.WorldItem-HCFunnel,
     }
     item HCMasontrowel
     {
@@ -126,7 +126,7 @@ module Hydrocraft
 		DisplayName      = Auger,
         Weight    		 = 25,      
         icon 			 = HCAuger,	
-		WorldStaticModel = WorldItem-HCAuger,
+		WorldStaticModel = Hydrocraft.WorldItem-HCAuger,
     }
     item HCWeldinghose
     {
@@ -145,7 +145,7 @@ module Hydrocraft
         DisplayName         	= Welding Gas Tank,
         icon 			= HCWeldingtank,
 		DisplayCategory	= CraftMetal,
-        WorldStaticModel = WorldItem-HCWeldingTank,
+        WorldStaticModel = Hydrocraft.WorldItem-HCWeldingTank,
     }
     item HCWeldingtankempty
     {
@@ -155,7 +155,7 @@ module Hydrocraft
         DisplayName         	= Empty Welding Gas Tank,
         icon 			= HCWeldingtank,
 		DisplayCategory	= CraftMetal,
-        WorldStaticModel = WorldItem-HCWeldingTank,
+        WorldStaticModel = Hydrocraft.WorldItem-HCWeldingTank,
     }
     item HCWeldingsetempty
     {
@@ -683,23 +683,14 @@ module Hydrocraft
         DisplayName    		=    Nail gun clip,
         Icon       	 	=    HCNailgunclip,
     }
-    item HCNailgun
-    {
 
-        Count        		=    1,
-        Weight        		=    2,
-        ItemType        		=    base:normal,
-        DisplayName    		=    Nail Gun,
-        Icon       	 	=    HCNailgun,
-		DisplayCategory	= Craft,
-    }
     item HCNailgun
     {
 
 		AmmoType			=	HCNailclip,
 		ImpactSound			=	null,
 		MaxRange			=	1,
-		WeaponSprite			=	Handgun,
+		WeaponSprite			=	Base.Handgun,
 		SoundVolume			=	50,
 		MinAngle			=	0.95,
 		ItemType				=	base:weapon,
@@ -753,7 +744,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.2,
-		WeaponSprite			=	Wrench,
+		WeaponSprite			=	Base.Wrench,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3,
@@ -788,7 +779,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.3,
-		WeaponSprite			=	Baseballbat,
+		WeaponSprite			=	Base.BaseballBat,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3,
@@ -822,7 +813,7 @@ module Hydrocraft
     {
 
         	MaxRange                 	=    1.5,
-        	WeaponSprite               	=    Shovel,
+            WeaponSprite               	=    Base.Shovel,
         	MinAngle                    	=    0.2,
         	ItemType                        	=    base:weapon,
         	MinimumSwingTime            	=    1.5,
@@ -863,7 +854,7 @@ module Hydrocraft
 		ItemType						=	base:weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	Fireaxe,
+		WeaponSprite					=	Base.FireAxe,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -899,7 +890,8 @@ module Hydrocraft
     {
 
         	MaxRange    					=    	1.6,
-        	WeaponSprite    				=    	Chainsaw,
+            WeaponSprite    				=    	Hydrocraft.Chainsaw,
+                WorldStaticModel = Hydrocraft.Chainsaw,
         	MinAngle    					=    	0.2,
         	ItemType    					=    	base:weapon,
         	MinimumSwingTime    				=    	6.00,
@@ -938,7 +930,8 @@ module Hydrocraft
     {
 
         	MaxRange    					=    	1.6,
-        	WeaponSprite    				=    	Chainsaw,
+            WeaponSprite    				=    	Hydrocraft.Chainsaw,
+                WorldStaticModel = Hydrocraft.Chainsaw,
         	MinAngle    					=    	0.2,
         	ItemType    					=    	base:weapon,
         	RequiresEquippedBothHands 			= 	true,
@@ -982,7 +975,7 @@ module Hydrocraft
         xpAward = MetalWelding:50,
         inputs
         {
-            item 1 [Hydrocraft.HCWrench],
+            item 1 [Hydrocraft.HCWrench] flags[ItemCount],
             item 1 [Hydrocraft.HCSawmetal] mode:keep,
         }
         outputs

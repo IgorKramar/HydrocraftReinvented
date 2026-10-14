@@ -40,7 +40,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.5,
-		WeaponSprite			=	Baseballbat,
+		WeaponSprite			=	Base.BaseballBat,
 		MinAngle			=	0.2,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3,

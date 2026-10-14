@@ -134,6 +134,7 @@ module Hydrocraft
 	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
+        AnimalFeedType = Seeds,
 		DisplayName         	= Box of Bird Food,
 		icon 			= HCBirdfoodbox,
 		DisplayCategory		=   AnimalMisc,
@@ -145,6 +146,7 @@ module Hydrocraft
 	ItemType			= base:drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
+        AnimalFeedType = Seeds,
 		DisplayName         	= Bag of Bird Food,
 		icon 			= HCBirdfoodbag,
 		DisplayCategory		=   AnimalMisc,
@@ -166,7 +168,7 @@ module Hydrocraft
 		DisplayName         	= Dog Biscuit,
 		Weight    				= 0.1,
 		icon 					= HCDogbiscuit,
-		WorldStaticModel 		= WorldItem-HCDogbiscuit,
+		WorldStaticModel = Hydrocraft.WorldItem-HCDogbiscuit,
     }
     item HCDogkibble
     {
@@ -240,7 +242,7 @@ module Hydrocraft
 	CanStoreWater		= 	TRUE,
 	ReplaceOnUseOn		= 	WaterSource-HCFishtankfull,
 	RainFactor 			= 	1,
-	WorldStaticModel 	=	WorldItem-HCFishTank_Empty,
+	WorldStaticModel = Hydrocraft.WorldItem-HCFishTank_Empty,
     }
     item HCFishtankfull
     {
@@ -257,7 +259,7 @@ module Hydrocraft
 	ReplaceOnDeplete	=	HCFishtank,
 	ReplaceOnUseOn		=	WaterSource-HCFishtankfull,
 	RainFactor 			= 	1,
-	WorldStaticModel 	=	WorldItem-HCFishTank_Full,
+	WorldStaticModel = Hydrocraft.WorldItem-HCFishTank_Full,
     }
     item HCZedtank
     {
@@ -267,7 +269,7 @@ module Hydrocraft
 	DisplayName			=	Fish Tank with Head,
 	Icon				=	HCZedtank,
 	Weight				=	7,	
-	WorldStaticModel 	=	WorldItem-HCFishTank_Head,
+	WorldStaticModel = Hydrocraft.WorldItem-HCFishTank_Head,
     }
     item HCCatlitter
     {
@@ -373,7 +375,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCCatfood],
+            item 1 [Hydrocraft.HCCatfood] flags[ItemCount],
             item 1 [Base.TinOpener] mode:keep,
         }
         outputs

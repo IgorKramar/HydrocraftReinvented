@@ -262,7 +262,7 @@ module Hydrocraft
     {
 
 		MaxRange					=	2,
-		WeaponSprite					=	Poolcue,
+		WeaponSprite					=	Base.PoolCue,
 		MinAngle					=	0.2,
 		ItemType						=	base:weapon,
 		MinimumSwingTime				=	4.0,

@@ -207,7 +207,7 @@ module Hydrocraft
         Proteins			= 	1.97,
         Lipids 				= 	0.17,
         Calories 			= 	99,
-		WorldStaticModel = WorldItem-HCBabyFood,
+		WorldStaticModel = Hydrocraft.WorldItem-HCBabyFood,
     }
     item HCBabyfoodbeef
     {

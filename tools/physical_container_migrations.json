@@ -1,0 +1,2927 @@
+{
+  "game_version": "42.21",
+  "evidence": "Named physical FluidContainer inputs must use ItemCount: CraftRecipeData.processDestroyAndUsedItems skips normal and destroy inputs without it. Normal-mode additions matched whole-consumed containers and output IDs against Hydrocraft 917d37d4ed526f429e1525316c9fab487bbf7257. Wildcard or kept fluid providers and legacy whiskey portions are excluded.",
+  "fluid_declarations": {
+    "Base.PopBottle": "generated/items/normal.txt",
+    "Base.WaterBottle": "generated/items/normal.txt",
+    "Base.Pot": "generated/items/normal.txt",
+    "Base.Whiskey": "generated/items/normal.txt",
+    "Base.MugWhite": "generated/items/normal.txt",
+    "Base.Bowl": "generated/items/normal.txt",
+    "Base.Kettle": "generated/items/normal.txt",
+    "Base.Saucepan": "generated/items/weapon.txt",
+    "Base.RemouladeEmpty": "generated/items/normal.txt",
+    "Base.MayonnaiseEmpty": "generated/items/normal.txt",
+    "Base.Mugl": "generated/items/normal.txt",
+    "Base.WateredCan": "generated/items/normal.txt"
+  },
+  "migrations": [
+    {
+      "file": "HCR_Bottles.txt",
+      "recipe": "Clean Bottle",
+      "input": "item 1 [Base.PopBottle;Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle",
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Camping.txt",
+      "recipe": "Purify Water",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Camping.txt",
+      "recipe": "Purify Water (Variant)",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Camping.txt",
+      "recipe": "Purify Water (Variant 2)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Camping.txt",
+      "recipe": "Purify Water (Variant 3)",
+      "input": "item 1 [Base.MugWhite] mode:destroy,",
+      "fluid_types": [
+        "Base.MugWhite"
+      ]
+    },
+    {
+      "file": "HCR_Cheesemaking.txt",
+      "recipe": "Prepare Cheese Cloth-Wrapped Wax",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Cheesemaking.txt",
+      "recipe": "Prepare Pot of Melted Refined Wax",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Potato Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Blue Agave Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Apple Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Peach Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Pumpkin Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Juniper Berry Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Flour Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Corn Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Dried.txt",
+      "recipe": "Make Lemon Juice",
+      "input": "item 1 [Base.Bowl] mode:destroy,",
+      "fluid_types": [
+        "Base.Bowl"
+      ]
+    },
+    {
+      "file": "HCR_Food Dried.txt",
+      "recipe": "Make Lime Juice",
+      "input": "item 1 [Base.Bowl] mode:destroy,",
+      "fluid_types": [
+        "Base.Bowl"
+      ]
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Brew Black Coffee (Cup of Black Coffee)",
+      "input": "item 1 [Base.MugWhite] mode:destroy,",
+      "fluid_types": [
+        "Base.MugWhite"
+      ]
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Prepare Black Coffee Kettle",
+      "input": "item 1 [Base.Kettle] mode:destroy,",
+      "fluid_types": [
+        "Base.Kettle"
+      ]
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Pot of Grits",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Pot of Cheesy Grits",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Prepare Chocolate Pudding",
+      "input": "item 1 [Base.Saucepan] mode:destroy,",
+      "fluid_types": [
+        "Base.Saucepan"
+      ]
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Prepare Vanilla Pudding",
+      "input": "item 1 [Base.Saucepan] mode:destroy,",
+      "fluid_types": [
+        "Base.Saucepan"
+      ]
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Prepare Apple Jello",
+      "input": "item 1 [Base.Saucepan] mode:destroy,",
+      "fluid_types": [
+        "Base.Saucepan"
+      ]
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Prepare Blueberry Jello",
+      "input": "item 1 [Base.Saucepan] mode:destroy,",
+      "fluid_types": [
+        "Base.Saucepan"
+      ]
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Prepare Cherry Jello",
+      "input": "item 1 [Base.Saucepan] mode:destroy,",
+      "fluid_types": [
+        "Base.Saucepan"
+      ]
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Prepare Lemon Jello",
+      "input": "item 1 [Base.Saucepan] mode:destroy,",
+      "fluid_types": [
+        "Base.Saucepan"
+      ]
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Prepare Orange Jello",
+      "input": "item 1 [Base.Saucepan] mode:destroy,",
+      "fluid_types": [
+        "Base.Saucepan"
+      ]
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Prepare Lime Jello",
+      "input": "item 1 [Base.Saucepan] mode:destroy,",
+      "fluid_types": [
+        "Base.Saucepan"
+      ]
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Prepare Watermelon Jello",
+      "input": "item 1 [Base.Saucepan] mode:destroy,",
+      "fluid_types": [
+        "Base.Saucepan"
+      ]
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Prepare Strawberry Jello",
+      "input": "item 1 [Base.Saucepan] mode:destroy,",
+      "fluid_types": [
+        "Base.Saucepan"
+      ]
+    },
+    {
+      "file": "HCR_Food Jam.txt",
+      "recipe": "Prepare Jam Pot",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Prepare Jarred Watermelon",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Prepare Jarred Apples",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Prepare Jarred Peaches",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Prepare Jarred Oranges",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Prepare Jarred Lemons",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Prepare Jarred Limes",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Prepare Jarred Grapes",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Prepare Jarred Berries",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Prepare Lemon Curd",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Jarred Fruit.txt",
+      "recipe": "Prepare Lime Curd",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Homemade Lemonade)",
+      "input": "item 1 [Base.WaterBottle;Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle",
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Apple Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Carrot Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Grape Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lemon Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Orange Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lime Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Strawberry Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Tomato Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 2)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 3)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Pineapple Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blueberry Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blackberry Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 2)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 3)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 4)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 5)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Cherry Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Apple Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Carrot Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Grape Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lemon Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Orange Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lime Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Strawberry Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Tomato Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 4)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 5)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 6)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Pineapple Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blueberry Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blackberry Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 6)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 7)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 8)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 9)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 10)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Cherry Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Apple Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Carrot Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Grape Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lemon Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Orange Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lime Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Strawberry Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Tomato Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 7)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 8)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 9)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Pineapple Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blueberry Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blackberry Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 11)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 12)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 13)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 14)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 15)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Cherry Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Apple Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Carrot Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Grape Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lemon Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Orange Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lime Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Strawberry Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Tomato Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 10)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 11)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 12)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Pineapple Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blueberry Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blackberry Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 16)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 17)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 18)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 19)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 20)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Cherry Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Apple Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Carrot Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Grape Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lemon Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Orange Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lime Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Strawberry Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Tomato Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 13)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 14)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 15)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Pineapple Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blueberry Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blackberry Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 21)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 22)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 23)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 24)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 25)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Cherry Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Carrot Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Grape Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Lemon Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Orange Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Lime Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Strawberry Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Tomato Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Watermelon Juice)",
+      "input": "item 2 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Watermelon Juice 2)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Watermelon Juice 3)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Pineapple Juice)",
+      "input": "item 2 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Blueberry Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Blackberry Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Wild Berry Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Wild Berry Juice 2)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Wild Berry Juice 3)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Wild Berry Juice 4)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Wild Berry Juice 5)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Cherry Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ]
+    },
+    {
+      "file": "HCR_Food Pasta.txt",
+      "recipe": "Place Pasta in Saucepan",
+      "input": "item 1 [Base.Saucepan] mode:destroy,",
+      "fluid_types": [
+        "Base.Saucepan"
+      ]
+    },
+    {
+      "file": "HCR_Food Pasta.txt",
+      "recipe": "Place Pasta in Cooking Pot",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Rice.txt",
+      "recipe": "Make Pot of Rice and Beans",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Rice.txt",
+      "recipe": "Make Pot of Rice Pudding",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Rice.txt",
+      "recipe": "Fill Rice Pudding into Bowls",
+      "input": "item 4 [Base.Bowl] mode:destroy,",
+      "fluid_types": [
+        "Base.Bowl"
+      ]
+    },
+    {
+      "file": "HCR_Food Seafood.txt",
+      "recipe": "Prepare Boiled Crab",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Seafood.txt",
+      "recipe": "Prepare Boiled Crayfish",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Seafood.txt",
+      "recipe": "Prepare Boiled Mussel",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Food Sugar.txt",
+      "recipe": "Prepare Pot of Beet Water",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "recipe": "Make Bottle of Homemade Disinfectant",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "recipe": "Craft Steam Pressure Pot",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Weapons Flame.txt",
+      "recipe": "Fill Napalm In Bottles",
+      "input": "item 2 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ]
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Prepare Pot of Honey Brew",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Prepare Pot of Rice Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ]
+    },
+    {
+      "file": "HCR_Armor.txt",
+      "recipe": "Make Helmet (Cooking Pot Helmet)",
+      "input": "item 1 [Base.Pot],",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "upstream_file": "Armor.txt",
+      "upstream_recipe": "Make Helmet",
+      "upstream_input": "Pot,"
+    },
+    {
+      "file": "HCR_Biodiesel.txt",
+      "recipe": "Pour Vegetable Oil into Pot",
+      "input": "item 1 [Base.Pot],",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "upstream_file": "Biodiesel.txt",
+      "upstream_recipe": "Pour Vegetable Oil into Pot",
+      "upstream_input": "Pot,"
+    },
+    {
+      "file": "HCR_Cheesemaking.txt",
+      "recipe": "Strain Cream Cheese",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Cheesemaking.txt",
+      "upstream_recipe": "Strain Cream Cheese",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Make Copper Mashpot",
+      "input": "item 1 [Base.Pot],",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "upstream_file": "Distillery.txt",
+      "upstream_recipe": "Make Copper Mashpot",
+      "upstream_input": "Pot,"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Build Distillery",
+      "input": "item 1 [Base.Kettle],",
+      "fluid_types": [
+        "Base.Kettle"
+      ],
+      "upstream_file": "Distillery.txt",
+      "upstream_recipe": "Build Distillery",
+      "upstream_input": "Kettle,"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Brew Irish Coffee",
+      "upstream_input": "Mugl,"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 2)",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Brew Irish Coffee",
+      "upstream_input": "Mugl,"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Eggnog Pot",
+      "input": "item 1 [Base.Pot],",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Make Eggnog Pot",
+      "upstream_input": "Pot,"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Eggnog Cuppa",
+      "input": "item 4 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Make Eggnog Cuppa",
+      "upstream_input": "Mugl=4,"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Monkey Tail Pot",
+      "input": "item 1 [Base.Pot],",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Make Monkey Tail Pot",
+      "upstream_input": "Pot,"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Monkey Tail Mug",
+      "input": "item 4 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Make Monkey Tail Mug",
+      "upstream_input": "Mugl=4,"
+    },
+    {
+      "file": "HCR_Food BBQ.txt",
+      "recipe": "Make BBQ Sauce",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food BBQ.txt",
+      "upstream_recipe": "Make BBQ Sauce",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Pour Black Coffee into Mug",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Drinks.txt",
+      "upstream_recipe": "Pour Black Coffee into Mug",
+      "upstream_input": "Mugl,"
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Make Cup of Hot Chocolate",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Drinks.txt",
+      "upstream_recipe": "Make Cup of Hot Chocolate",
+      "upstream_input": "Mugl,"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Bowl of Gruel",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Flour.txt",
+      "upstream_recipe": "Make Bowl of Gruel",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Bowl of Sweetened Gruel",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Flour.txt",
+      "upstream_recipe": "Make Bowl of Sweetened Gruel",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Fill Grits into Bowls",
+      "input": "item 4 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Flour.txt",
+      "upstream_recipe": "Fill Grits into Bowls",
+      "upstream_input": "Bowl=4,"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Fill Cheesy Grits into Bowls",
+      "input": "item 4 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Flour.txt",
+      "upstream_recipe": "Fill Cheesy Grits into Bowls",
+      "upstream_input": "Bowl=4,"
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Pour Chocolate Pudding into Bowl",
+      "input": "item 4 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Gelatin.txt",
+      "upstream_recipe": "Pour Chocolate Pudding into Bowl",
+      "upstream_input": "Bowl=4,"
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Pour Vanilla Pudding into Bowl",
+      "input": "item 4 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Gelatin.txt",
+      "upstream_recipe": "Pour Vanilla Pudding into Bowl",
+      "upstream_input": "Bowl=4,"
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Make Apple Jello Dessert",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Gelatin.txt",
+      "upstream_recipe": "Make Apple Jello Dessert",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Make Blueberry Jello Dessert",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Gelatin.txt",
+      "upstream_recipe": "Make Blueberry Jello Dessert",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Make Cherry Jello Dessert",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Gelatin.txt",
+      "upstream_recipe": "Make Cherry Jello Dessert",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Make Lemon Jello Dessert",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Gelatin.txt",
+      "upstream_recipe": "Make Lemon Jello Dessert",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Make Orange Jello Dessert",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Gelatin.txt",
+      "upstream_recipe": "Make Orange Jello Dessert",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Make Lime Jello Dessert",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Gelatin.txt",
+      "upstream_recipe": "Make Lime Jello Dessert",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Make Watermelon Jello Dessert",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Gelatin.txt",
+      "upstream_recipe": "Make Watermelon Jello Dessert",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Gelatin.txt",
+      "recipe": "Make Strawberry Jello Dessert",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Gelatin.txt",
+      "upstream_recipe": "Make Strawberry Jello Dessert",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Mexican.txt",
+      "recipe": "Make Guacamole",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Mexican.txt",
+      "upstream_recipe": "Make Guacamole",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Mexican.txt",
+      "recipe": "Make Salsa",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Mexican.txt",
+      "upstream_recipe": "Make Salsa",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Mexican.txt",
+      "recipe": "Make Nachos",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Mexican.txt",
+      "upstream_recipe": "Make Nachos",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Mexican.txt",
+      "recipe": "Make Nachos Grande",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Mexican.txt",
+      "upstream_recipe": "Make Nachos Grande",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Pastry.txt",
+      "recipe": "Make Homemade Cupcake Batter",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Pastry.txt",
+      "upstream_recipe": "Make Homemade Cupcake Batter",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Pastry.txt",
+      "recipe": "Make Frosting",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Pastry.txt",
+      "upstream_recipe": "Make Frosting",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Pastry.txt",
+      "recipe": "Make Fruit Cake Batter",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Pastry.txt",
+      "upstream_recipe": "Make Fruit Cake Batter",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Pickling.txt",
+      "recipe": "Make Spicy Paste",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Pickling.txt",
+      "upstream_recipe": "Make Spicy Paste",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Food Pizza.txt",
+      "recipe": "Make Tomato Sauce",
+      "input": "item 1 [Base.Pot],",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "upstream_file": "Food Pizza.txt",
+      "upstream_recipe": "Make Tomato Sauce",
+      "upstream_input": "Pot,"
+    },
+    {
+      "file": "HCR_Food Pizza.txt",
+      "recipe": "Fill Tomato Sauce into Bowls",
+      "input": "item 2 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Pizza.txt",
+      "upstream_recipe": "Fill Tomato Sauce into Bowls",
+      "upstream_input": "Bowl=2,"
+    },
+    {
+      "file": "HCR_Food Rice.txt",
+      "recipe": "Fill Rice and Beans into Bowls",
+      "input": "item 4 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Soup.txt",
+      "upstream_recipe": "Fill Rice and Beans into Bowls",
+      "upstream_input": "Bowl=4,"
+    },
+    {
+      "file": "HCR_Food Taters.txt",
+      "recipe": "Make Plain Mashed Potatoes",
+      "input": "item 1 [Base.Pot],",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "upstream_file": "Food Taters.txt",
+      "upstream_recipe": "Make Plain Mashed Potatos",
+      "upstream_input": "Pot,"
+    },
+    {
+      "file": "HCR_Food Taters.txt",
+      "recipe": "Make Creamy Mashed Potatoes",
+      "input": "item 1 [Base.Pot],",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "upstream_file": "Food Taters.txt",
+      "upstream_recipe": "Make Creamy Mashed Potatos",
+      "upstream_input": "Pot,"
+    },
+    {
+      "file": "HCR_Food Taters.txt",
+      "recipe": "Make Bowl of Plain Mashed Potatos",
+      "input": "item 2 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Taters.txt",
+      "upstream_recipe": "Make Bowl of Plain Mashed Potatos",
+      "upstream_input": "Bowl=2,"
+    },
+    {
+      "file": "HCR_Food Taters.txt",
+      "recipe": "Make Bowl of Creamy Mashed Potatos",
+      "input": "item 2 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Taters.txt",
+      "upstream_recipe": "Make Bowl of Creamy Mashed Potatos",
+      "upstream_input": "Bowl=2,"
+    },
+    {
+      "file": "HCR_Gardening.txt",
+      "recipe": "Make Gardening Workbench",
+      "input": "item 1 [Base.WateredCan],",
+      "fluid_types": [
+        "Base.WateredCan"
+      ],
+      "upstream_file": "Farming.txt",
+      "upstream_recipe": "Make Gardening Workbench",
+      "upstream_input": "WateredCan,"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbalist Table",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Herbalism.txt",
+      "upstream_recipe": "Make Herbalist Table",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Herbalism.txt",
+      "upstream_recipe": "Make Herbal Tea",
+      "upstream_input": "Mugl,"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Nettle Tea)",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Herbalism.txt",
+      "upstream_recipe": "Make Herbal Tea",
+      "upstream_input": "Mugl,"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Thistle Tea)",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Herbalism.txt",
+      "upstream_recipe": "Make Herbal Tea",
+      "upstream_input": "Mugl,"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Skullcap Tea)",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Herbalism.txt",
+      "upstream_recipe": "Make Herbal Tea",
+      "upstream_input": "Mugl,"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Daisy Tea)",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Herbalism.txt",
+      "upstream_recipe": "Make Herbal Tea",
+      "upstream_input": "Mugl,"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Anemome Tea)",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Herbalism.txt",
+      "upstream_recipe": "Make Herbal Tea",
+      "upstream_input": "Mugl,"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Camellia Tea)",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Herbalism.txt",
+      "upstream_recipe": "Make Herbal Tea",
+      "upstream_input": "Mugl,"
+    },
+    {
+      "file": "HCR_Rubber.txt",
+      "recipe": "Make Sap Catcher",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Rubber.txt",
+      "upstream_recipe": "Make Sap Catcher",
+      "upstream_input": "Bowl,"
+    },
+    {
+      "file": "HCR_Weapons Flame.txt",
+      "recipe": "Make Pot With Soap",
+      "input": "item 1 [Base.Pot],",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "upstream_file": "Weapons Flame.txt",
+      "upstream_recipe": "Make Pot With Soap",
+      "upstream_input": "Pot,"
+    }
+  ],
+  "protected_fluid_keep_inputs": [
+    {
+      "file": "HCR_Barrels.txt",
+      "recipe": "Clean Empty Metal Barrel",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Barrels.txt",
+      "recipe": "Clean Empty Blue Barrel",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Bathroom.txt",
+      "recipe": "Clean Diaper",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Bathroom.txt",
+      "recipe": "Clean Menstrual Pad",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Bathroom.txt",
+      "recipe": "Brush Teeth",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Bathroom.txt",
+      "recipe": "Brush Teeth (Electric Toothbrush with Power)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Battery.txt",
+      "recipe": "Recharge Small Battery",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Battery.txt",
+      "recipe": "Recharge Battery",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Battery.txt",
+      "recipe": "Recharge 9 Volt Battery",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Battery.txt",
+      "recipe": "Recharge Medium Battery",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Battery.txt",
+      "recipe": "Recharge Large Battery",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Battery.txt",
+      "recipe": "Recharge Huge Battery",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Biodiesel.txt",
+      "recipe": "Wash Biodiesel",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Bottles.txt",
+      "recipe": "Clean Bottle",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Bottles.txt",
+      "recipe": "Clean Empty Glass Bottle",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Candlemaking.txt",
+      "recipe": "Make Candleberry Wax",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Cats.txt",
+      "recipe": "Feed Cat",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Ammonal",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Make Glycerin",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Heat Beaker of Water",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Chemistry.txt",
+      "recipe": "Filtrate HMTD Crystals",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Cleaning.txt",
+      "recipe": "Wash Towel",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Cleaning.txt",
+      "recipe": "Wash Towel in Wash Tub",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Potato Mash",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Vodka",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Blue Agave Mash",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Tequila",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Mezcal",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Apple Mash",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Applejack",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Peach Mash",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Peach Schnapps",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Pumpkin Mash",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Flip",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Juniper Berry Mash",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Gin",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Flour Mash",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Whiskey",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Corn Mash",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Corn Whiskey",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Dogs.txt",
+      "recipe": "Feed Dog",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Drugs Cannabis.txt",
+      "recipe": "Put Bud in Glass Bong",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Drugs Cannabis.txt",
+      "recipe": "Clean Glass Bong",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Drugs Cannabis.txt",
+      "recipe": "Put Bud in Acrylic Bong",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Drugs Cannabis.txt",
+      "recipe": "Clean Acrylic Bong",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Drugs Opium.txt",
+      "recipe": "Ferment Opium Powder",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Drugs Opium.txt",
+      "recipe": "Add Water To Morphine Hydrochloride",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Fishing.txt",
+      "recipe": "Fill Pond Hole with Water",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 2)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 3)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Breakfast.txt",
+      "recipe": "Boil Egg",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Cookies.txt",
+      "recipe": "Make Cookie Dough",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Dairy.txt",
+      "recipe": "Dilute Evaporated Milk",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Dairy.txt",
+      "recipe": "Mix Soy Milk",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Bowl of Gruel",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Bowl of Sweetened Gruel",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Dry Ramen Noodles",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Homemade Pancake Batter",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Sourdough Starter",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Whole Wheat Dough",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Pumpkin Bread Dough",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Make Flatbread",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Homemade Lemonade)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Mexican.txt",
+      "recipe": "Make Corn Tortilla",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Mexican.txt",
+      "recipe": "Make Flour Tortilla",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food MRE.txt",
+      "recipe": "Heat MRE Contents",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Pasta.txt",
+      "recipe": "Prepare Fresh Pasta",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Pastry.txt",
+      "recipe": "Make Honeybun Dough",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Pastry.txt",
+      "recipe": "Make Homemade Cupcake Batter",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Pizza.txt",
+      "recipe": "Knead Pizza Dough",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Rice.txt",
+      "recipe": "Make Risotto",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Salt.txt",
+      "recipe": "Salt Meat (Variant)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Ham)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Mutton)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Pork)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Beef)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Cheval)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Rabbit)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Salmon)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Frog Meat)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Small Animal Meat)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Small Bird Meat)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Chicken)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Duck)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Goose)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Turkey)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Venison)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Bear)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Cougar)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Meat (Smoked Small Game)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Tofu",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Smoked.txt",
+      "recipe": "Smoke Cheese",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Food Taters.txt",
+      "recipe": "Make Plain Mashed Potatoes",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Gardening.txt",
+      "recipe": "Grow Spirulina in Tank",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Gardening.txt",
+      "recipe": "Harvest Spirulina",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Gardening.txt",
+      "recipe": "Plant Crop (Small Potted Rice)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Gym.txt",
+      "recipe": "Exercise with Punching Bag",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Gym.txt",
+      "recipe": "Exercise with Weights",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Gym.txt",
+      "recipe": "Exercise on Treadmill",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Cook Empty Silk Cocoon",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Camomile Tea)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Nettle Tea)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Nettle Tea 2)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Thistle Tea)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Thistle Tea 2)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Skullcap Tea)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Skullcap Tea 2)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Daisy Tea)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Daisy Tea 2)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Anemome Tea)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Anemome Tea 2)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Camellia Tea)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Herbal Tea (Camellia Tea 2)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Glue",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Wood Glue",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Herbalism.txt",
+      "recipe": "Make Super Glue",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Industrial.txt",
+      "recipe": "Build Arc Furnace",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Leatherworking.txt",
+      "recipe": "Make Milk of Lime",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Leatherworking.txt",
+      "recipe": "Make Tannin",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Leatherworking.txt",
+      "recipe": "Make Rose Tanning Oil",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Leatherworking.txt",
+      "recipe": "Make Camo Leather",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Leatherworking.txt",
+      "recipe": "Make Hardened Leather",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "recipe": "Make Bottle of Homemade Disinfectant",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "recipe": "Make Willow Bark Tea",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "recipe": "Add Herbal Medicine",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "recipe": "Add Herbal Medicine (Rag with Herbal Medicine)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "recipe": "Add Herbal Medicine (Menstral Pad with Herbal Medicine)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "recipe": "Add Herbal Medicine (Diaper with Herbal Medicine)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "recipe": "Add Herbal Medicine (Diaper with Herbal Medicine 2)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Microbiology.txt",
+      "recipe": "Make Homemade Agar",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Mining.txt",
+      "recipe": "Mine (Variant 5)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Mining.txt",
+      "recipe": "Mine (Variant 6)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Pink Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Red Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Orange Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Brown Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Light Brown Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Yellow Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Green Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Turquoise Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Cyan Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Light Blue Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Blue Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Purple Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Black Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of Grey Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Can of White Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Jar of White Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Jar of Yellow Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Jar of Red Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Jar of Blue Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Painting.txt",
+      "recipe": "Mix Jar of Black Paint",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Papercraft.txt",
+      "recipe": "Make Pulp",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Plastic Cans.txt",
+      "recipe": "Clean Empty Ammonia Can",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Plastic Cans.txt",
+      "recipe": "Clean Empty Liquid Soap Can",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Poison Cans.txt",
+      "recipe": "Clean Empty Insecticide Can",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Rubber.txt",
+      "recipe": "Harvest Crop (Wooden Bucket with Rubber)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Soapmaking.txt",
+      "recipe": "Make Tallow",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Soapmaking.txt",
+      "recipe": "Make Homemade Soap",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Purple Yarn)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Blue Yarn)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Green Yarn)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Yellow Yarn)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Orange Yarn)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Tailoring.txt",
+      "recipe": "Dye Yarn (Red Yarn)",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Trees.txt",
+      "recipe": "Make Fertile Soil",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Trees.txt",
+      "recipe": "Plant Fir Cone",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Trees.txt",
+      "recipe": "Plant Acorn",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Trees.txt",
+      "recipe": "Plant Birch Catkin",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Prepare Pot of Honey Brew",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Prepare Pot of Rice Mash",
+      "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    }
+  ]
+}

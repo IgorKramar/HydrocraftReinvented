@@ -1485,7 +1485,45 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCircuitboarddrilled],
-            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+            item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboardempty,
+        }
+    }
+        craftRecipe Clean Platine (Bleach)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCircuitboarddrilled],
+            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [Bleach],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCircuitboardempty,
+        }
+    }
+        craftRecipe Clean Platine (Cleaning Liquid)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Electrical,
+        timedAction = Making,
+        xpAward = Electricity:3,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCircuitboarddrilled],
+            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.01 [CleaningLiquid],
             item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
         }
         outputs

@@ -681,20 +681,19 @@ module Hydrocraft
         	Packaged 		= FALSE,
 		DisplayCategory		=   FoodP,
     }
-    craftRecipe Feed The Birds
+    craftRecipe Prepare Bird Feed
     {
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Hunting,
         timedAction = Making,
-        OnCreate = HCR42.HCFeedTheBirds,
         inputs
         {
-            item 1 [Hydrocraft.HCEnglishmuffinbaked;Hydrocraft.HCCroissantbaked;Hydrocraft.HCGarlicbreadbaked],
+            item 1 [Hydrocraft.HCEnglishmuffinbaked;Hydrocraft.HCCroissantbaked;Hydrocraft.HCGarlicbreadbaked] flags[ItemCount],
         }
         outputs
         {
-            item 1 Base.BakingTray,
+            item 1 Hydrocraft.HCBirdfoodbag,
         }
     }
     craftRecipe Open Bag of Burger Buns
@@ -705,7 +704,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCBurgerbunbag],
+            item 1 [Hydrocraft.HCBurgerbunbag] flags[ItemCount],
         }
         outputs
         {
@@ -721,7 +720,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Bread;Hydrocraft.HCWholegrainbread],
+            item 1 [Base.Bread;Hydrocraft.HCWholegrainbread] flags[ItemCount],
             item 1 [Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -738,7 +737,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Bowl],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
@@ -757,7 +756,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Bowl],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
@@ -803,7 +802,7 @@ module Hydrocraft
             -fluid 0.1 [Water],
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
             item 1 [Base.Sugar],
-            item 1 tags[Egg] mode:keep,
+            item 1 tags[Egg] flags[ItemCount],
         }
         outputs
         {
@@ -821,7 +820,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIcecreamscoop;Hydrocraft.HCLadle] mode:keep,
-            item 1 [Hydrocraft.HCPancakebatter],
+            item 1 [Hydrocraft.HCPancakebatter] flags[ItemCount],
             item 1 [Base.Pan],
         }
         outputs
@@ -880,7 +879,7 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 24 [Hydrocraft.HCAcornsoaked],
+            item 24 [Hydrocraft.HCAcornsoaked] flags[ItemCount],
             item 1 [Hydrocraft.HCFlourempty],
         }
         outputs
@@ -969,7 +968,7 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 24 [Hydrocraft.HCAcornsoaked],
+            item 24 [Hydrocraft.HCAcornsoaked] flags[ItemCount],
             item 1 [Hydrocraft.HCFlourempty],
         }
         outputs
@@ -987,7 +986,7 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 5 [Base.Corn;Hydrocraft.HCCornred;Hydrocraft.HCCornblue;Hydrocraft.HCCornwhite],
+            item 5 [Base.Corn;Hydrocraft.HCCornred;Hydrocraft.HCCornblue;Hydrocraft.HCCornwhite] flags[ItemCount],
         }
         outputs
         {
@@ -1004,7 +1003,7 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 2 [Base.Rice;Hydrocraft.HCRicebrown],
+            item 2 [Base.Rice;Hydrocraft.HCRicebrown] flags[ItemCount],
             item 1 [Hydrocraft.HCFlourempty],
         }
         outputs
@@ -1022,10 +1021,11 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 24 [Hydrocraft.HCAcornsoaked],
+            item 24 [Hydrocraft.HCAcornsoaked] flags[ItemCount],
             item 2 [Hydrocraft.HCFlourempty],
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
         }
         outputs
         {
@@ -1042,9 +1042,10 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 5 [Base.Corn;Hydrocraft.HCCornred;Hydrocraft.HCCornblue;Hydrocraft.HCCornwhite],
+            item 5 [Base.Corn;Hydrocraft.HCCornred;Hydrocraft.HCCornblue;Hydrocraft.HCCornwhite] flags[ItemCount],
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
         }
         outputs
         {
@@ -1061,10 +1062,11 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 2 [Base.Rice;Hydrocraft.HCRicebrown],
+            item 2 [Base.Rice;Hydrocraft.HCRicebrown] flags[ItemCount],
             item 2 [Hydrocraft.HCFlourempty],
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
         }
         outputs
         {
@@ -1104,7 +1106,8 @@ module Hydrocraft
             item 2 [Hydrocraft.HCChaffrice],
             item 2 [Hydrocraft.HCRiceempty],
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
         }
         outputs
         {
@@ -1125,7 +1128,8 @@ module Hydrocraft
             item 2 [Hydrocraft.HCChaffrice],
             item 2 [Hydrocraft.HCRiceempty],
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
         }
         outputs
         {
@@ -1222,8 +1226,8 @@ module Hydrocraft
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
-            item 1 [Hydrocraft.HCPumpkinflesh],
-            item 1 tags[Egg] mode:keep,
+            item 1 [Hydrocraft.HCPumpkinflesh] flags[ItemCount],
+            item 1 tags[Egg] flags[ItemCount],
             item 1 [Base.Salt],
             item 2 [Base.Sugar],
             item 1 [Base.Yeast],
@@ -1245,7 +1249,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBreadpan],
-            item 1 [Hydrocraft.HCPumpkinbreaddough],
+            item 1 [Hydrocraft.HCPumpkinbreaddough] flags[ItemCount],
         }
         outputs
         {
@@ -1263,8 +1267,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBreadpan],
-            item 1 [Hydrocraft.HCDriedrasinsbag],
-            item 1 [Base.BreadDough],
+            item 1 [Hydrocraft.HCDriedrasinsbag] flags[ItemCount],
+            item 1 [Base.BreadDough] flags[ItemCount],
         }
         outputs
         {
@@ -1284,10 +1288,34 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBreadpan],
             item 1 [Base.Cornflour2],
             item 1 [Base.Butter],
-            item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
             item 1 [Base.Sugar],
             item 1 [Base.Salt],
-            item 1 tags[Egg] mode:keep,
+            item 1 tags[Egg] flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCCornbreadpan,
+        }
+    }
+    craftRecipe Prepare Cornbread (Carton Milk)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        SkillRequired = Cooking:5,
+        xpAward = Cooking:2,
+        inputs
+        {
+            item 1 [Hydrocraft.HCBreadpan],
+            item 1 [Base.Cornflour2],
+            item 1 [Base.Butter],
+            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.0 [CowMilk],
+            item 1 [Base.Sugar],
+            item 1 [Base.Salt],
+            item 1 tags[Egg] flags[ItemCount],
         }
         outputs
         {
@@ -1304,7 +1332,7 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Base.Cornflour2],
             item 1 [Base.Butter],
             item 1 [Base.Salt],
@@ -1324,8 +1352,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
-            item 4 [Base.Bowl],
-            item 1 [Hydrocraft.HCGritspot],
+            item 4 [Base.Bowl] flags[ItemCount],
+            item 1 [Hydrocraft.HCGritspot] flags[ItemCount],
         }
         outputs
         {
@@ -1342,8 +1370,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
             item 1 [Base.Cornflour2],
             item 1 [Base.Butter],
             item 1 [Base.Salt],
@@ -1363,8 +1391,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcpot,
         inputs
         {
-            item 4 [Base.Bowl],
-            item 1 [Hydrocraft.HCGritscheesypot],
+            item 4 [Base.Bowl] flags[ItemCount],
+            item 1 [Hydrocraft.HCGritscheesypot] flags[ItemCount],
         }
         outputs
         {
@@ -1402,7 +1430,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingpan,
         inputs
         {
-            item 1 [Hydrocraft.HCPancakeshomemadepan],
+            item 1 [Hydrocraft.HCPancakeshomemadepan] flags[ItemCount],
         }
         outputs
         {
@@ -1419,7 +1447,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbreadpan,
         inputs
         {
-            item 1 [Hydrocraft.HCPumpkinbreadpan],
+            item 1 [Hydrocraft.HCPumpkinbreadpan] flags[ItemCount],
         }
         outputs
         {
@@ -1436,7 +1464,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbreadpan,
         inputs
         {
-            item 1 [Hydrocraft.HCRaisinbreadpan],
+            item 1 [Hydrocraft.HCRaisinbreadpan] flags[ItemCount],
         }
         outputs
         {
@@ -1453,7 +1481,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbreadpan,
         inputs
         {
-            item 1 [Hydrocraft.HCCornbreadpan],
+            item 1 [Hydrocraft.HCCornbreadpan] flags[ItemCount],
         }
         outputs
         {

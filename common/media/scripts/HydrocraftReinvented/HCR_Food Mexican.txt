@@ -737,8 +737,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 3 [Base.Avocado],
-            item 1 [Base.Bowl],
+            item 3 [Base.Avocado] flags[ItemCount],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 1 [Base.KitchenKnife] mode:keep,
             item 1 [Base.Spoon;Hydrocraft.HCWoodenspoon;Hydrocraft.HCSpork] mode:keep,
         }
@@ -758,10 +758,10 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Hydrocraft.HCSlicedtomato],
-            item 1 [Hydrocraft.HCSlicedonion],
+            item 1 [Hydrocraft.HCSlicedtomato] flags[ItemCount],
+            item 1 [Hydrocraft.HCSlicedonion] flags[ItemCount],
             item 1 [Base.BellPepper],
-            item 1 [Base.Bowl],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 1 [Base.KitchenKnife] mode:keep,
         }
         outputs
@@ -781,9 +781,33 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
-            item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
             item 1 [Base.Butter],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
+            item 1 [Base.Bowl] mode:keep,
+            item 1 [Base.KitchenKnife] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCNachobowl,
+        }
+    }
+    craftRecipe Make Nacho Cheese (Carton Milk)
+    {
+        time = 75,
+        Tags = AnySurfaceCraft,
+        category = Cooking,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        SkillRequired = Cooking:2,
+        xpAward = Cooking:3,
+        inputs
+        {
+            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
+            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.0 [CowMilk],
+            item 1 [Base.Butter],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
             item 1 [Base.Bowl] mode:keep,
             item 1 [Base.KitchenKnife] mode:keep,
         }
@@ -800,7 +824,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCTortillacornbag],
+            item 1 [Hydrocraft.HCTortillacornbag] flags[ItemCount],
         }
         outputs
         {
@@ -878,7 +902,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCTortillaflour],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
             item 1 [Base.Pan] mode:keep,
         }
         outputs
@@ -898,8 +922,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCTortillaflour],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
-            item 1 [Hydrocraft.HCCannedrefriedbeansopen],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
+            item 1 [Hydrocraft.HCCannedrefriedbeansopen] flags[ItemCount],
             item 1 [Base.Pan] mode:keep,
         }
         outputs
@@ -920,11 +944,11 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCTortillaflour],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
-            item 1 [Hydrocraft.HCCannedrefriedbeansopen],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
+            item 1 [Hydrocraft.HCCannedrefriedbeansopen] flags[ItemCount],
             item 1 [Hydrocraft.HCTacosaucebottle;Hydrocraft.HCTacosaucebowl],
-            item 1 [Hydrocraft.HCGuacamolejar;Hydrocraft.HCGuacamolebowl],
-            item 1 [Hydrocraft.HCSalsajar;Hydrocraft.HCSalsabowl;Hydrocraft.HCSalsagreenjar],
+            item 1 [Hydrocraft.HCGuacamolejar;Hydrocraft.HCGuacamolebowl] flags[ItemCount],
+            item 1 [Hydrocraft.HCSalsajar;Hydrocraft.HCSalsabowl;Hydrocraft.HCSalsagreenjar] flags[ItemCount],
             item 1 [Hydrocraft.HCSourcream],
             item 1 [Base.Pan] mode:keep,
         }
@@ -944,9 +968,9 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCTortillacorn],
+            item 1 [Hydrocraft.HCTortillacorn] flags[ItemCount],
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
-            item 1 [Base.MeatPatty;Base.Chicken],
+            item 1 [Base.MeatPatty;Base.Chicken] flags[ItemCount],
             item 1 [Base.Pan],
         }
         outputs
@@ -966,13 +990,13 @@ module Hydrocraft
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
-            item 1 [Hydrocraft.HCTortillacorn],
+            item 1 [Hydrocraft.HCTortillacorn] flags[ItemCount],
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
-            item 1 [Base.MeatPatty;Base.Chicken],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
-            item 1 [Base.Lettuce],
-            item 1 [Hydrocraft.HCSlicedtomato],
-            item 1 [Hydrocraft.HCSlicedonion],
+            item 1 [Base.MeatPatty;Base.Chicken] flags[ItemCount],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
+            item 1 [Base.Lettuce] flags[ItemCount],
+            item 1 [Hydrocraft.HCSlicedtomato] flags[ItemCount],
+            item 1 [Hydrocraft.HCSlicedonion] flags[ItemCount],
             item 1 [Hydrocraft.HCTacosaucebottle;Hydrocraft.HCTacosaucebowl],
             item 1 [Base.Pan],
         }
@@ -993,9 +1017,9 @@ module Hydrocraft
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
-            item 1 [Hydrocraft.HCTacocorn],
-            item 1 [Hydrocraft.HCGuacamolejar;Hydrocraft.HCGuacamolebowl],
-            item 1 [Hydrocraft.HCSalsajar;Hydrocraft.HCSalsabowl;Hydrocraft.HCSalsagreenjar],
+            item 1 [Hydrocraft.HCTacocorn] flags[ItemCount],
+            item 1 [Hydrocraft.HCGuacamolejar;Hydrocraft.HCGuacamolebowl] flags[ItemCount],
+            item 1 [Hydrocraft.HCSalsajar;Hydrocraft.HCSalsabowl;Hydrocraft.HCSalsagreenjar] flags[ItemCount],
             item 1 [Hydrocraft.HCSourcream],
         }
         outputs
@@ -1017,11 +1041,11 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCTortillaflour],
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
-            item 1 [Base.MeatPatty;Base.Chicken],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
-            item 1 [Base.Lettuce],
-            item 1 [Hydrocraft.HCSlicedtomato],
-            item 1 [Hydrocraft.HCSlicedonion],
+            item 1 [Base.MeatPatty;Base.Chicken] flags[ItemCount],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
+            item 1 [Base.Lettuce] flags[ItemCount],
+            item 1 [Hydrocraft.HCSlicedtomato] flags[ItemCount],
+            item 1 [Hydrocraft.HCSlicedonion] flags[ItemCount],
             item 1 [Hydrocraft.HCTacosaucebottle;Hydrocraft.HCTacosaucebowl],
             item 1 [Base.Pan],
         }
@@ -1043,8 +1067,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCTacoflour],
-            item 1 [Hydrocraft.HCGuacamolejar;Hydrocraft.HCGuacamolebowl],
-            item 1 [Hydrocraft.HCSalsajar;Hydrocraft.HCSalsabowl;Hydrocraft.HCSalsagreenjar],
+            item 1 [Hydrocraft.HCGuacamolejar;Hydrocraft.HCGuacamolebowl] flags[ItemCount],
+            item 1 [Hydrocraft.HCSalsajar;Hydrocraft.HCSalsabowl;Hydrocraft.HCSalsagreenjar] flags[ItemCount],
             item 1 [Hydrocraft.HCSourcream],
         }
         outputs
@@ -1064,12 +1088,12 @@ module Hydrocraft
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
-            item 1 [Hydrocraft.HCTortillacorn],
+            item 1 [Hydrocraft.HCTortillacorn] flags[ItemCount],
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
-            item 1 [Base.FishFillet],
-            item 1 [Base.Cabbage;Hydrocraft.HCCabbagered;Hydrocraft.HCCabbagewhite],
-            item 1 [Hydrocraft.HCSlicedtomato],
-            item 1 [Hydrocraft.HCSlicedonion],
+            item 1 [Base.FishFillet] flags[ItemCount],
+            item 1 [Base.Cabbage;Hydrocraft.HCCabbagered;Hydrocraft.HCCabbagewhite] flags[ItemCount],
+            item 1 [Hydrocraft.HCSlicedtomato] flags[ItemCount],
+            item 1 [Hydrocraft.HCSlicedonion] flags[ItemCount],
             item 1 [Hydrocraft.HCTacosaucebottle;Hydrocraft.HCTacosaucebowl],
             item 1 [Base.Pan],
         }
@@ -1090,10 +1114,10 @@ module Hydrocraft
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
-            item 1 [Hydrocraft.HCTortillacorn],
+            item 1 [Hydrocraft.HCTortillacorn] flags[ItemCount],
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
-            item 1 [Base.CannedCornedBeefOpen],
-            item 1 [Base.Cabbage;Hydrocraft.HCCabbagered;Hydrocraft.HCCabbagewhite],
+            item 1 [Base.CannedCornedBeefOpen] flags[ItemCount],
+            item 1 [Base.Cabbage;Hydrocraft.HCCabbagered;Hydrocraft.HCCabbagewhite] flags[ItemCount],
             item 1 [Hydrocraft.HCTacosaucebottle;Hydrocraft.HCTacosaucebowl],
             item 2 [Base.MayonnaiseFull],
             item 1 [Base.Pan] mode:keep,
@@ -1115,10 +1139,10 @@ module Hydrocraft
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
-            item 4 [Hydrocraft.HCTortillacorn],
+            item 4 [Hydrocraft.HCTortillacorn] flags[ItemCount],
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
-            item 1 [Base.MeatPatty;Base.Chicken],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
+            item 1 [Base.MeatPatty;Base.Chicken] flags[ItemCount],
             item 1 [Hydrocraft.HCTacosaucebottle;Hydrocraft.HCTacosaucebowl],
             item 1 [Hydrocraft.HCSourcream],
             item 1 [Base.RoastingPan],
@@ -1140,9 +1164,9 @@ module Hydrocraft
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
-            item 1 [Hydrocraft.HCTortillachipsbag],
-            item 1 [Hydrocraft.HCNachojar;Hydrocraft.HCNachobowl],
-            item 1 [Base.Bowl],
+            item 1 [Hydrocraft.HCTortillachipsbag] flags[ItemCount],
+            item 1 [Hydrocraft.HCNachojar;Hydrocraft.HCNachobowl] flags[ItemCount],
+            item 1 [Base.Bowl] flags[ItemCount],
         }
         outputs
         {
@@ -1161,14 +1185,14 @@ module Hydrocraft
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
-            item 1 [Hydrocraft.HCTortillachipsbag],
-            item 1 [Hydrocraft.HCNachojar;Hydrocraft.HCNachobowl],
-            item 1 [Hydrocraft.HCCannedrefriedbeansopen],
+            item 1 [Hydrocraft.HCTortillachipsbag] flags[ItemCount],
+            item 1 [Hydrocraft.HCNachojar;Hydrocraft.HCNachobowl] flags[ItemCount],
+            item 1 [Hydrocraft.HCCannedrefriedbeansopen] flags[ItemCount],
             item 1 [Hydrocraft.HCTacosaucebottle;Hydrocraft.HCTacosaucebowl],
-            item 1 [Hydrocraft.HCGuacamolejar;Hydrocraft.HCGuacamolebowl],
-            item 1 [Hydrocraft.HCSalsajar;Hydrocraft.HCSalsabowl;Hydrocraft.HCSalsagreenjar],
+            item 1 [Hydrocraft.HCGuacamolejar;Hydrocraft.HCGuacamolebowl] flags[ItemCount],
+            item 1 [Hydrocraft.HCSalsajar;Hydrocraft.HCSalsabowl;Hydrocraft.HCSalsagreenjar] flags[ItemCount],
             item 1 [Hydrocraft.HCSourcream],
-            item 1 [Base.Bowl],
+            item 1 [Base.Bowl] flags[ItemCount],
         }
         outputs
         {
@@ -1189,8 +1213,8 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCBellpeppergreen],
             item 1 [Hydrocraft.HCTomatosaucebowl],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
-            item 1 [Base.RiceBowl],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
+            item 1 [Base.RiceBowl] flags[ItemCount],
         }
         outputs
         {
@@ -1211,8 +1235,8 @@ module Hydrocraft
         {
             item 1 [Base.BellPepper],
             item 1 [Hydrocraft.HCTomatosaucebowl],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
-            item 1 [Base.RiceBowl],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
+            item 1 [Base.RiceBowl] flags[ItemCount],
         }
         outputs
         {
@@ -1233,8 +1257,8 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCBellpepperyellow],
             item 1 [Hydrocraft.HCTomatosaucebowl],
-            item 1 [Hydrocraft.HCGratedcheese;Base.Processedcheese],
-            item 1 [Base.RiceBowl],
+            item 1 [Hydrocraft.HCGratedcheese;Base.Processedcheese] flags[ItemCount],
+            item 1 [Base.RiceBowl] flags[ItemCount],
         }
         outputs
         {
@@ -1253,10 +1277,10 @@ module Hydrocraft
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
-            item 1 [Base.Eggplant],
+            item 1 [Base.Eggplant] flags[ItemCount],
             item 1 [Hydrocraft.HCTomatosaucebowl],
-            item 1 [Hydrocraft.HCGratedcheese;Base.Processedcheese],
-            item 1 [Base.RiceBowl],
+            item 1 [Hydrocraft.HCGratedcheese;Base.Processedcheese] flags[ItemCount],
+            item 1 [Base.RiceBowl] flags[ItemCount],
         }
         outputs
         {
@@ -1275,10 +1299,10 @@ module Hydrocraft
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
-            item 1 [Hydrocraft.HCSquashsummer],
+            item 1 [Hydrocraft.HCSquashsummer] flags[ItemCount],
             item 1 [Hydrocraft.HCTomatosaucebowl],
-            item 1 [Hydrocraft.HCGratedcheese;Base.Processedcheese],
-            item 1 [Base.RiceBowl],
+            item 1 [Hydrocraft.HCGratedcheese;Base.Processedcheese] flags[ItemCount],
+            item 1 [Base.RiceBowl] flags[ItemCount],
         }
         outputs
         {

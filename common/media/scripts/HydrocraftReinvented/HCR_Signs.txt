@@ -9,7 +9,7 @@ module Hydrocraft
 		DisplayName		 =	Keep Out Sign,
 		Icon			 =	HCSignkeepout,
 		DisplayCategory  =   Household,
-		WorldStaticModel = WorldItem-HCKeepOutSign,
+		WorldStaticModel = Hydrocraft.WorldItem-HCKeepOutSign,
     }
     item HCSignbiohazard
     {
@@ -19,6 +19,6 @@ module Hydrocraft
 		DisplayName		 =	Biohazard Sign,
 		Icon			 =	HCSignbiohazard,
 		DisplayCategory  =   Household,
-		WorldStaticModel = WorldItem-HCBiohazardSign
+		WorldStaticModel = Hydrocraft.WorldItem-HCBiohazardSign
     }
 }

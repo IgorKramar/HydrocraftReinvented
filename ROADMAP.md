@@ -7,6 +7,14 @@
 
 ## Русский
 
+### Ближайший приоритет — довести существующий мод до играбельного состояния
+
+Сначала исправляем баги сообщества: расход и возврат ингредиентов, доступность
+производственных цепочек, оружие и одежду, рост растений, выдержку сыра и ульи.
+Проверяем сохранения и работу на сервере, затем приводим в порядок отсутствующие
+ассеты и документацию. Новые механики ниже остаются планами следующих этапов.
+Контрольные проверки текущей доводки перечислены в [отчёте](docs/PLAYABILITY_VERIFICATION.md).
+
 ### 🗺️ План мажорных версий
 
 #### v1.6.0 — «Живая вода» / The Fluids Update
@@ -101,6 +109,15 @@
 ---
 
 ## English
+
+### Immediate priority — make the existing mod reliably playable
+
+The next update focuses on the content already in the mod: ingredient consumption
+and container returns, accessible production chains, working weapons and clothing,
+plant growth, cheese ageing and beehives. Save migration and multiplayer behaviour
+are being checked in the real game, alongside missing assets and clearer
+documentation. The new mechanics below remain subsequent stages. Measured results
+and outstanding checks are recorded in the [verification report](docs/PLAYABILITY_VERIFICATION.md).
 
 ### 🗺️ Major version plan
 

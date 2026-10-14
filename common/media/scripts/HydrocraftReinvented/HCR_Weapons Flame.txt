@@ -80,7 +80,7 @@ module Hydrocraft
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	1.5,
 		SwingAnim			=	Throw,
-		WeaponSprite		 = Molotov,
+		WeaponSprite		 = Base.Molotov,
 		UseSelf				=	TRUE,
 		DisplayName			=	Napalm Bomb MK1,
 		SwingTime			=	1.5,
@@ -105,7 +105,7 @@ module Hydrocraft
         	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
-			WeaponSprite		 = Molotov,
+			WeaponSprite		 = Base.Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Napalm Bomb On,
         	SwingTime			=	1.5,
@@ -131,7 +131,7 @@ module Hydrocraft
         	ItemType				=	base:weapon,
         	MinimumSwingTime		=	1.5,
         	SwingAnim			=	Throw,
-			WeaponSprite		 = Molotov,
+			WeaponSprite		 = Base.Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Napalm Bomb MK3 On,
         	SwingTime			=	1.5,
@@ -177,7 +177,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSoapshards],
-            item 1 [Base.Pot],
+            item 1 [Base.Pot] flags[ItemCount],
         }
         outputs
         {
@@ -194,7 +194,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotmoltensoap],
-            item 2 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 2.5 [Petrol],
         }
         outputs
         {
@@ -212,7 +213,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotnapalm],
-            item 2 [Base.WaterBottle] mode:destroy,
+            item 2 [Base.WaterBottle] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs

@@ -523,7 +523,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.FishFillet],
+            item 1 [Base.FishFillet] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -547,7 +547,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.Ham],
+            item 1 [Base.Ham] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -571,7 +571,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.MuttonChop],
+            item 1 [Base.MuttonChop] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 tags[base:startfire],
@@ -595,7 +595,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.PorkChop],
+            item 1 [Base.PorkChop] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -619,7 +619,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.Steak],
+            item 1 [Base.Steak] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -643,7 +643,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Hydrocraft.HCCheval],
+            item 1 [Hydrocraft.HCCheval] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -667,7 +667,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.Rabbitmeat],
+            item 1 [Base.Rabbitmeat] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -691,7 +691,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.Salmon],
+            item 1 [Base.Salmon] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -715,7 +715,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.FrogMeat],
+            item 1 [Base.FrogMeat] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -739,7 +739,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.Smallanimalmeat],
+            item 1 [Base.Smallanimalmeat] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -763,7 +763,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.Smallbirdmeat],
+            item 1 [Base.Smallbirdmeat] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -787,7 +787,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.Chicken],
+            item 1 [Base.Chicken] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -811,7 +811,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Hydrocraft.HCDuckmeat],
+            item 1 [Hydrocraft.HCDuckmeat] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -835,7 +835,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Hydrocraft.HCGoosemeat],
+            item 1 [Hydrocraft.HCGoosemeat] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -883,7 +883,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Hydrocraft.HCVenison],
+            item 1 [Hydrocraft.HCVenison] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -907,7 +907,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Hydrocraft.HCBearsteak],
+            item 1 [Hydrocraft.HCBearsteak] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -931,7 +931,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Hydrocraft.HCCougarsteak],
+            item 1 [Hydrocraft.HCCougarsteak] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -955,7 +955,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Hydrocraft.HCSmallgamesteak],
+            item 1 [Hydrocraft.HCSmallgamesteak] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -979,7 +979,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Base.Tofu],
+            item 1 [Base.Tofu] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -1003,7 +1003,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSmokerfull;Hydrocraft.HCSmokerfull2] mode:keep,
-            item 1 [Hydrocraft.HCCheesewheel],
+            item 1 [Hydrocraft.HCCheesewheel] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCHickoryleaves],
@@ -1025,7 +1025,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCSmokedcheesewheel],
+            item 1 [Hydrocraft.HCSmokedcheesewheel] flags[ItemCount],
             item 1 [Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs

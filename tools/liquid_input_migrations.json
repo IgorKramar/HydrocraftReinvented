@@ -1,0 +1,681 @@
+{
+  "game_version": "42.21",
+  "upstream_commit": "917d37d4ed526f429e1525316c9fab487bbf7257",
+  "conversion": "B41 WhiskeyFull is Food with HungerChange=-20, not a drainable. Twenty recipe food units per complete bottle; B42 Whiskey capacity1L: .05L/unit. B41 Disinfectant UseDelta=.1 gives10uses per bottle; B42 capacity.5L: .05L/use. Plain Wine input consumed entire Food bottle: B42 1L contents, retained native container. WhiskeyEmpty=N inputs are N empty physical bottles, never alcohol portions. B41 Bleach is Food with no hunger portion amount, used whole in the source Wash Towel recipe; B42 capacity1L therefore consumes1L contents and retains the bottle. CleaningLiquid2 was Drainable UseDelta=.02; B42 capacity.5L =>.01L per use. Mixed legacy soap/alcohol alternatives remain separate recipes because an item charge and fluid litres are different native resource types. Source Whiskey and Coke consumes whole Pop/Pop2 can; native capacity.3L, fluid ColaDiet/Cola. The separate legacy HCSodacola route is preserved.",
+  "legacy_schema_sources": [
+    "https://undeniable.info/pz/wiki/item.php?Name=WhiskeyFull",
+    "https://undeniable.info/pz/wiki/item.php?Name=Disinfectant",
+    "https://undeniable.info/pz/wiki/item.php?Name=Bleach",
+    "https://undeniable.info/pz/wiki/item.php?Name=CleaningLiquid2"
+  ],
+  "migrations": [
+    {
+      "file": "HCR_Bathroom.txt",
+      "recipe": "Disinfect Diaper",
+      "before": "item 10 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.5 [Whiskey],",
+      "kind": "portion",
+      "fluid": "Whiskey",
+      "litres": 0.5,
+      "legacy_input": "WhiskeyFull;10"
+    },
+    {
+      "file": "HCR_Bathroom.txt",
+      "recipe": "Disinfect Diaper (Variant)",
+      "before": "item 3 [Base.Disinfectant],",
+      "after": "item 1 [Base.Disinfectant] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.15 [RubbingAlcohol],",
+      "kind": "portion",
+      "fluid": "RubbingAlcohol",
+      "litres": 0.15000000000000002,
+      "legacy_input": "Disinfectant;3"
+    },
+    {
+      "file": "HCR_Bathroom.txt",
+      "recipe": "Disinfect Menstrual Pad",
+      "before": "item 10 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.5 [Whiskey],",
+      "kind": "portion",
+      "fluid": "Whiskey",
+      "litres": 0.5,
+      "legacy_input": "WhiskeyFull;10"
+    },
+    {
+      "file": "HCR_Bathroom.txt",
+      "recipe": "Disinfect Menstrual Pad (Variant)",
+      "before": "item 3 [Base.Disinfectant],",
+      "after": "item 1 [Base.Disinfectant] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.15 [RubbingAlcohol],",
+      "kind": "portion",
+      "fluid": "RubbingAlcohol",
+      "litres": 0.15000000000000002,
+      "legacy_input": "Disinfectant;3"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Eggnog Pot",
+      "before": "item 5 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.25 [Whiskey],",
+      "kind": "portion",
+      "fluid": "Whiskey",
+      "litres": 0.25,
+      "legacy_input": "WhiskeyFull;5"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Eggnog Bottle",
+      "before": "item 2 [Base.Whiskey],",
+      "after": "item 2 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=2"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Monkey Tail Bottle",
+      "before": "item 2 [Base.Whiskey],",
+      "after": "item 2 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=2"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Lemon Mixer",
+      "before": "item 1 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Lime Mixer",
+      "before": "item 1 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Bloody Mary Mixer",
+      "before": "item 1 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty"
+    },
+    {
+      "file": "HCR_Rubber.txt",
+      "recipe": "Make Rubber Cement",
+      "before": "item 4 [Base.Disinfectant],",
+      "after": "item 1 [Base.Disinfectant] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.2 [RubbingAlcohol],",
+      "kind": "portion",
+      "fluid": "RubbingAlcohol",
+      "litres": 0.2,
+      "legacy_input": "Disinfectant=4"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Vodka",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Methanol",
+      "before": "item 5 [Base.Whiskey],",
+      "after": "item 5 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=5"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Tequila",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Mezcal",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Applejack",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Peach Schnapps",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Flip",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Gin",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Whiskey",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Corn Whiskey",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Food Dairy.txt",
+      "recipe": "Mix Soy Milk",
+      "before": "item 1 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Pour Wine",
+      "before": "item 1 [Base.Wine],",
+      "after": "item 1 [Base.Wine] mode:keep flags[ItemIsFluid;HandcraftOnly;Unseal],\n            -fluid 1 [Wine],",
+      "kind": "whole_contents",
+      "fluid": "Wine",
+      "litres": 1,
+      "legacy_input": "Wine"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Pour Wine",
+      "before": "        OnCreate = HCR42.recipe_hcwineempty,\n",
+      "after": "",
+      "kind": "retained_bottle"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Pour Wine (Glass of Red Wine)",
+      "before": "item 1 [Base.Wine2],",
+      "after": "item 1 [Base.Wine2] mode:keep flags[ItemIsFluid;HandcraftOnly;Unseal],\n            -fluid 1 [Wine],",
+      "kind": "whole_contents",
+      "fluid": "Wine",
+      "litres": 1,
+      "legacy_input": "Wine2"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Pour Wine (Glass of Red Wine)",
+      "before": "        OnCreate = HCR42.recipe_hcwineempty2,\n",
+      "after": "",
+      "kind": "retained_bottle"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Fill Bottles with Wine",
+      "before": "item 20 [Base.Wine],",
+      "after": "item 20 [Base.Wine] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WineEmpty=20"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Fill Bottles with Wine (Variant)",
+      "before": "item 20 [Base.Wine],",
+      "after": "item 20 [Base.Wine] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WineEmpty=20"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Fill Whiskey Bottles with Vinegar",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Make Bottle of Mead",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Make Bottle of Sake",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Cocktail Glass of Whiskey",
+      "before": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "after": "item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "WhiskeyFull;2"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Tall Glass of Whiskey",
+      "before": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "after": "item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "WhiskeyFull;2"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Short Glass of Whiskey",
+      "before": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "after": "item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "WhiskeyFull;2"
+    },
+    {
+      "file": "HCR_Cleaning.txt",
+      "recipe": "Wash Towel in Wash Tub",
+      "before": "item 1 [Base.Bleach;Base.Soap2;Hydrocraft.HCSoap;Hydrocraft.HCCleanerall;Hydrocraft.HCCleanerfabric;Hydrocraft.HCFabricsoftener;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCSoap;Hydrocraft.HCCleanerall;Hydrocraft.HCCleanerfabric;Hydrocraft.HCFabricsoftener;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "Bleach/Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,"
+    },
+    {
+      "file": "HCR_Cleaning.txt",
+      "recipe": "Wash Towel",
+      "before": "item 1 [Base.Bleach;Base.Soap2;Hydrocraft.HCSoap;Hydrocraft.HCCleanerall;Hydrocraft.HCCleanerfabric;Hydrocraft.HCFabricsoftener;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCSoap;Hydrocraft.HCCleanerall;Hydrocraft.HCCleanerfabric;Hydrocraft.HCFabricsoftener;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "Bleach/Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,"
+    },
+    {
+      "file": "HCR_Barrels.txt",
+      "recipe": "Clean Empty Blue Barrel",
+      "before": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],"
+    },
+    {
+      "file": "HCR_Barrels.txt",
+      "recipe": "Clean Empty Metal Barrel",
+      "before": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2;Hydrocraft.HCDetergent;Hydrocraft.HCPoisondetergent;Hydrocraft.HCPlasticcandetergent],"
+    },
+    {
+      "file": "HCR_Bottles.txt",
+      "recipe": "Clean Empty Glass Bottle",
+      "before": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],"
+    },
+    {
+      "file": "HCR_Bottles.txt",
+      "recipe": "Clean Bottle",
+      "before": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],"
+    },
+    {
+      "file": "HCR_Drugs Cannabis.txt",
+      "recipe": "Clean Acrylic Bong",
+      "before": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],"
+    },
+    {
+      "file": "HCR_Drugs Cannabis.txt",
+      "recipe": "Clean Glass Bong",
+      "before": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],"
+    },
+    {
+      "file": "HCR_Electronics.txt",
+      "recipe": "Clean Platine",
+      "before": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],"
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "recipe": "Clean Dissection Table",
+      "before": "item 1 [Base.Bleach;Hydrocraft.HCMethanol],",
+      "after": "item 1 [Hydrocraft.HCMethanol],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "item 1 [Base.Bleach;Hydrocraft.HCMethanol],"
+    },
+    {
+      "file": "HCR_Microbiology.txt",
+      "recipe": "Clean Petri Dish",
+      "before": "item 1 [Base.Bleach],",
+      "after": "item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],",
+      "kind": "whole_contents",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,"
+    },
+    {
+      "file": "HCR_Plastic Cans.txt",
+      "recipe": "Clean Empty Liquid Soap Can",
+      "before": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],"
+    },
+    {
+      "file": "HCR_Plastic Cans.txt",
+      "recipe": "Clean Empty Ammonia Can",
+      "before": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],"
+    },
+    {
+      "file": "HCR_Poison Cans.txt",
+      "recipe": "Clean Empty Insecticide Can",
+      "before": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],",
+      "after": "item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],"
+    },
+    {
+      "file": "HCR_Weapons Explosives.txt",
+      "recipe": "Make Chlorgas Grenade",
+      "before": "item 1 [Base.Bleach],",
+      "after": "item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],",
+      "kind": "whole_contents",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,"
+    },
+    {
+      "file": "HCR_Weapons Explosives.txt",
+      "recipe": "Make Chlorgas Grenade",
+      "before": "item 1 [Base.CleaningLiquid2],",
+      "after": "item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.01 [CleaningLiquid],",
+      "kind": "cleaning_portion",
+      "fluid": "CleaningLiquid",
+      "litres": 0.01,
+      "legacy_input": "CleaningLiquid2,"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Whiskey and Coke",
+      "before": "item 1 [Base.Pop;Base.Pop2;Hydrocraft.HCSodacola],",
+      "after": "item 1 [Hydrocraft.HCSodacola],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "Pop/Pop2,"
+    }
+  ],
+  "variants": [
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Cocktail Glass of Whiskey (Bottled Whiskey)",
+      "body": "    craftRecipe Pour Cocktail Glass of Whiskey (Bottled Whiskey)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Hydrocraft.HCCocktailglassempty],\n            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Whiskey],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCDrinkcocktailglasswhiskey,\n        }\n    }",
+      "fluid": "Whiskey",
+      "litres": 0.1,
+      "legacy_input": "WhiskeyFull;2"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Tall Glass of Whiskey (Bottled Whiskey)",
+      "body": "    craftRecipe Pour Tall Glass of Whiskey (Bottled Whiskey)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Hydrocraft.HCGlasstallempty],\n            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Whiskey],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCDrinkglasstallwhiskey,\n        }\n    }",
+      "fluid": "Whiskey",
+      "litres": 0.1,
+      "legacy_input": "WhiskeyFull;2"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Short Glass of Whiskey (Bottled Whiskey)",
+      "body": "    craftRecipe Pour Short Glass of Whiskey (Bottled Whiskey)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Hydrocraft.HCGlassshortempty],\n            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Whiskey],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCDrinkglassshortwhiskey,\n        }\n    }",
+      "fluid": "Whiskey",
+      "litres": 0.1,
+      "legacy_input": "WhiskeyFull;2"
+    },
+    {
+      "file": "HCR_Cleaning.txt",
+      "recipe": "Wash Towel in Wash Tub (Bleach)",
+      "body": "    craftRecipe Wash Towel in Wash Tub (Bleach)\n    {\n        time = 100,\n        Tags = AnySurfaceCraft;CanBeDoneFromFloor,\n        category = Weaving,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCBathtoweldirty],\n            item 1 [Hydrocraft.HCWashtubfull] mode:keep,\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.3 [Water],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Hydrocraft.HCWashboard] mode:keep,\n        }\n        outputs\n        {\n            item 1 Base.BathTowelWet,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,"
+    },
+    {
+      "file": "HCR_Cleaning.txt",
+      "recipe": "Wash Towel (Bleach)",
+      "body": "    craftRecipe Wash Towel (Bleach)\n    {\n        time = 1000,\n        Tags = AnySurfaceCraft,\n        category = Weaving,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCBathtoweldirty],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.3 [Water],\n        }\n        outputs\n        {\n            item 1 Base.BathTowelWet,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,"
+    },
+    {
+      "file": "HCR_Barrels.txt",
+      "recipe": "Clean Empty Blue Barrel (Bleach)",
+      "body": "    craftRecipe Clean Empty Blue Barrel (Bleach)\n    {\n        time = 250,\n        Tags = AnySurfaceCraft;CanBeDoneFromFloor,\n        category = Chemistry,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCAmmoniabarrelblueempty;Hydrocraft.HCMethylaminbarrelblueempty;Hydrocraft.HCPhenylbarrelblueempty;Hydrocraft.HCSulfuricacidbarrelblueempty] mode:destroy,\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCBarrelblueempty,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,",
+      "base_recipe": "Clean Empty Blue Barrel"
+    },
+    {
+      "file": "HCR_Barrels.txt",
+      "recipe": "Clean Empty Blue Barrel (Cleaning Liquid)",
+      "body": "    craftRecipe Clean Empty Blue Barrel (Cleaning Liquid)\n    {\n        time = 250,\n        Tags = AnySurfaceCraft;CanBeDoneFromFloor,\n        category = Chemistry,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCAmmoniabarrelblueempty;Hydrocraft.HCMethylaminbarrelblueempty;Hydrocraft.HCPhenylbarrelblueempty;Hydrocraft.HCSulfuricacidbarrelblueempty] mode:destroy,\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.01 [CleaningLiquid],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCBarrelblueempty,\n        }\n    }",
+      "fluid": "CleaningLiquid",
+      "litres": 0.01,
+      "legacy_input": "CleaningLiquid2,",
+      "base_recipe": "Clean Empty Blue Barrel"
+    },
+    {
+      "file": "HCR_Barrels.txt",
+      "recipe": "Clean Empty Metal Barrel (Bleach)",
+      "body": "    craftRecipe Clean Empty Metal Barrel (Bleach)\n    {\n        time = 250,\n        Tags = AnySurfaceCraft;CanBeDoneFromFloor,\n        category = Chemistry,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCAmmoniabarrelempty;Hydrocraft.HCMethylaminbarrelempty;Hydrocraft.HCPhenylbarrelempty;Hydrocraft.HCSulfuricacidbarrelempty] mode:destroy,\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCBarrelmetalempty,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,",
+      "base_recipe": "Clean Empty Metal Barrel"
+    },
+    {
+      "file": "HCR_Barrels.txt",
+      "recipe": "Clean Empty Metal Barrel (Cleaning Liquid)",
+      "body": "    craftRecipe Clean Empty Metal Barrel (Cleaning Liquid)\n    {\n        time = 250,\n        Tags = AnySurfaceCraft;CanBeDoneFromFloor,\n        category = Chemistry,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCAmmoniabarrelempty;Hydrocraft.HCMethylaminbarrelempty;Hydrocraft.HCPhenylbarrelempty;Hydrocraft.HCSulfuricacidbarrelempty] mode:destroy,\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.01 [CleaningLiquid],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCBarrelmetalempty,\n        }\n    }",
+      "fluid": "CleaningLiquid",
+      "litres": 0.01,
+      "legacy_input": "CleaningLiquid2,",
+      "base_recipe": "Clean Empty Metal Barrel"
+    },
+    {
+      "file": "HCR_Bottles.txt",
+      "recipe": "Clean Empty Glass Bottle (Bleach)",
+      "body": "    craftRecipe Clean Empty Glass Bottle (Bleach)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCGlassbottleethanolempty;Hydrocraft.HCGlassbottleammoniaempty;Hydrocraft.HCGlassbottleh2o2empty;Hydrocraft.HCGlassbottlemethylaminempty;Hydrocraft.HCGlassbottlesulfuricacidempty;Hydrocraft.HCGlassbottleselfmadeetherempty;Hydrocraft.HCGlassbottlephenylempty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCGlassbottleempty,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,",
+      "base_recipe": "Clean Empty Glass Bottle"
+    },
+    {
+      "file": "HCR_Bottles.txt",
+      "recipe": "Clean Empty Glass Bottle (Cleaning Liquid)",
+      "body": "    craftRecipe Clean Empty Glass Bottle (Cleaning Liquid)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCGlassbottleethanolempty;Hydrocraft.HCGlassbottleammoniaempty;Hydrocraft.HCGlassbottleh2o2empty;Hydrocraft.HCGlassbottlemethylaminempty;Hydrocraft.HCGlassbottlesulfuricacidempty;Hydrocraft.HCGlassbottleselfmadeetherempty;Hydrocraft.HCGlassbottlephenylempty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.01 [CleaningLiquid],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCGlassbottleempty,\n        }\n    }",
+      "fluid": "CleaningLiquid",
+      "litres": 0.01,
+      "legacy_input": "CleaningLiquid2,",
+      "base_recipe": "Clean Empty Glass Bottle"
+    },
+    {
+      "file": "HCR_Bottles.txt",
+      "recipe": "Clean Bottle (Bleach)",
+      "body": "    craftRecipe Clean Bottle (Bleach)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Base.PopBottle;Base.WaterBottle] mode:destroy flags[ItemCount],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCWaterbottleclean,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,",
+      "base_recipe": "Clean Bottle"
+    },
+    {
+      "file": "HCR_Bottles.txt",
+      "recipe": "Clean Bottle (Cleaning Liquid)",
+      "body": "    craftRecipe Clean Bottle (Cleaning Liquid)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Base.PopBottle;Base.WaterBottle] mode:destroy flags[ItemCount],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.01 [CleaningLiquid],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCWaterbottleclean,\n        }\n    }",
+      "fluid": "CleaningLiquid",
+      "litres": 0.01,
+      "legacy_input": "CleaningLiquid2,",
+      "base_recipe": "Clean Bottle"
+    },
+    {
+      "file": "HCR_Drugs Cannabis.txt",
+      "recipe": "Clean Acrylic Bong (Bleach)",
+      "body": "    craftRecipe Clean Acrylic Bong (Bleach)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Hydrocraft.HCBongacrylicdirty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCBongacrylicempty,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,",
+      "base_recipe": "Clean Acrylic Bong"
+    },
+    {
+      "file": "HCR_Drugs Cannabis.txt",
+      "recipe": "Clean Acrylic Bong (Cleaning Liquid)",
+      "body": "    craftRecipe Clean Acrylic Bong (Cleaning Liquid)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Hydrocraft.HCBongacrylicdirty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.01 [CleaningLiquid],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCBongacrylicempty,\n        }\n    }",
+      "fluid": "CleaningLiquid",
+      "litres": 0.01,
+      "legacy_input": "CleaningLiquid2,",
+      "base_recipe": "Clean Acrylic Bong"
+    },
+    {
+      "file": "HCR_Drugs Cannabis.txt",
+      "recipe": "Clean Glass Bong (Bleach)",
+      "body": "    craftRecipe Clean Glass Bong (Bleach)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCBongdirty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCBongempty,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,",
+      "base_recipe": "Clean Glass Bong"
+    },
+    {
+      "file": "HCR_Drugs Cannabis.txt",
+      "recipe": "Clean Glass Bong (Cleaning Liquid)",
+      "body": "    craftRecipe Clean Glass Bong (Cleaning Liquid)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCBongdirty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.01 [CleaningLiquid],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCBongempty,\n        }\n    }",
+      "fluid": "CleaningLiquid",
+      "litres": 0.01,
+      "legacy_input": "CleaningLiquid2,",
+      "base_recipe": "Clean Glass Bong"
+    },
+    {
+      "file": "HCR_Electronics.txt",
+      "recipe": "Clean Platine (Bleach)",
+      "body": "    craftRecipe Clean Platine (Bleach)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Electrical,\n        timedAction = Making,\n        xpAward = Electricity:3,\n        inputs\n        {\n            item 1 [Hydrocraft.HCCircuitboarddrilled],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCircuitboardempty,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,",
+      "base_recipe": "Clean Platine"
+    },
+    {
+      "file": "HCR_Electronics.txt",
+      "recipe": "Clean Platine (Cleaning Liquid)",
+      "body": "    craftRecipe Clean Platine (Cleaning Liquid)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Electrical,\n        timedAction = Making,\n        xpAward = Electricity:3,\n        inputs\n        {\n            item 1 [Hydrocraft.HCCircuitboarddrilled],\n            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.01 [CleaningLiquid],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCircuitboardempty,\n        }\n    }",
+      "fluid": "CleaningLiquid",
+      "litres": 0.01,
+      "legacy_input": "CleaningLiquid2,",
+      "base_recipe": "Clean Platine"
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "recipe": "Clean Dissection Table (Bleach)",
+      "body": "    craftRecipe Clean Dissection Table (Bleach)\n    {\n        time = 500,\n        Tags = AnySurfaceCraft;CanBeDoneFromFloor,\n        category = Health,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        xpAward = Doctor:15,\n        OnCreate = HCR42.recipe_hcremovezed,\n        inputs\n        {\n            item 1 [Hydrocraft.HCDissectiontabledissected],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n            item 1 [Base.Sponge;Hydrocraft.HCSponge] mode:keep,\n            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCDissectiontable,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,",
+      "base_recipe": "Clean Dissection Table"
+    },
+    {
+      "file": "HCR_Plastic Cans.txt",
+      "recipe": "Clean Empty Liquid Soap Can (Bleach)",
+      "body": "    craftRecipe Clean Empty Liquid Soap Can (Bleach)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        OnCreate = HCR42.recipe_hclabelh2o2,\n        inputs\n        {\n            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCh2o2canempty;Hydrocraft.HCSulfuricacidcanempty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCPlasticcanempty,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,",
+      "base_recipe": "Clean Empty Liquid Soap Can"
+    },
+    {
+      "file": "HCR_Plastic Cans.txt",
+      "recipe": "Clean Empty Liquid Soap Can (Cleaning Liquid)",
+      "body": "    craftRecipe Clean Empty Liquid Soap Can (Cleaning Liquid)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        OnCreate = HCR42.recipe_hclabelh2o2,\n        inputs\n        {\n            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCh2o2canempty;Hydrocraft.HCSulfuricacidcanempty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.01 [CleaningLiquid],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCPlasticcanempty,\n        }\n    }",
+      "fluid": "CleaningLiquid",
+      "litres": 0.01,
+      "legacy_input": "CleaningLiquid2,",
+      "base_recipe": "Clean Empty Liquid Soap Can"
+    },
+    {
+      "file": "HCR_Plastic Cans.txt",
+      "recipe": "Clean Empty Ammonia Can (Bleach)",
+      "body": "    craftRecipe Clean Empty Ammonia Can (Bleach)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        OnCreate = HCR42.recipe_hclabelammonia,\n        inputs\n        {\n            item 1 [Hydrocraft.HCAmmoniacanempty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCPlasticcanempty,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,",
+      "base_recipe": "Clean Empty Ammonia Can"
+    },
+    {
+      "file": "HCR_Plastic Cans.txt",
+      "recipe": "Clean Empty Ammonia Can (Cleaning Liquid)",
+      "body": "    craftRecipe Clean Empty Ammonia Can (Cleaning Liquid)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        OnCreate = HCR42.recipe_hclabelammonia,\n        inputs\n        {\n            item 1 [Hydrocraft.HCAmmoniacanempty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.01 [CleaningLiquid],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCPlasticcanempty,\n        }\n    }",
+      "fluid": "CleaningLiquid",
+      "litres": 0.01,
+      "legacy_input": "CleaningLiquid2,",
+      "base_recipe": "Clean Empty Ammonia Can"
+    },
+    {
+      "file": "HCR_Poison Cans.txt",
+      "recipe": "Clean Empty Insecticide Can (Bleach)",
+      "body": "    craftRecipe Clean Empty Insecticide Can (Bleach)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        OnCreate = HCR42.recipe_hclabelpoison,\n        inputs\n        {\n            item 1 [Hydrocraft.HCPoisonempty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Bleach],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCPlasticcanempty,\n        }\n    }",
+      "fluid": "Bleach",
+      "litres": 1,
+      "legacy_input": "Bleach,",
+      "base_recipe": "Clean Empty Insecticide Can"
+    },
+    {
+      "file": "HCR_Poison Cans.txt",
+      "recipe": "Clean Empty Insecticide Can (Cleaning Liquid)",
+      "body": "    craftRecipe Clean Empty Insecticide Can (Cleaning Liquid)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Chemistry,\n        timedAction = Making,\n        OnCreate = HCR42.recipe_hclabelpoison,\n        inputs\n        {\n            item 1 [Hydrocraft.HCPoisonempty],\n            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [Water],\n            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.01 [CleaningLiquid],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCPlasticcanempty,\n        }\n    }",
+      "fluid": "CleaningLiquid",
+      "litres": 0.01,
+      "legacy_input": "CleaningLiquid2,",
+      "base_recipe": "Clean Empty Insecticide Can"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Whiskey and Coke (Canned Cola)",
+      "body": "    craftRecipe Whiskey and Coke (Canned Cola)\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Hydrocraft.HCDrinkglasstallwhiskey] flags[ItemCount],\n            item 1 [Base.Pop;Base.Pop2] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.3 [Cola;ColaDiet],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCDrinkwhiskeyandcoke,\n        }\n    }",
+      "fluid": "Cola;ColaDiet",
+      "litres": 0.3,
+      "legacy_input": "Pop/Pop2,",
+      "base_recipe": "Whiskey and Coke"
+    }
+  ]
+}

@@ -853,26 +853,7 @@ module Hydrocraft
 		Calories 			= 	168,
 		DisplayCategory		=   FoodP,
     }
-    item HCDriedfruit
-    {
 
-		HungerChange		=	-20,
-		Weight				=	0.6,
-		ItemType				=	base:food,
-		DisplayName			=	Tray with Dried Fruit,
-		Icon				=	HCBakingtraydriedfruit,
-		ReplaceOnUse		=	BakingTray,
-		IsCookable			=	TRUE,
-		MinutesToCook		=	0,
-		MinutesToBurn		=	20,
-		UnhappyChange		=	-15,
-		FatigueChange		=	-5,
-		Carbohydrates 		= 	20,
-		Proteins 			= 	0,
-		Lipids 				= 	0,
-		Calories 			= 	80,
-		DisplayCategory		=   FoodN,
-    }
     item HCDriedfruit
     {
 
@@ -898,7 +879,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Apple],
+            item 1 [Base.Apple] flags[ItemCount],
             item 1 [Base.KitchenKnife] mode:keep,
         }
         outputs
@@ -915,7 +896,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Orange],
+            item 1 [Base.Orange] flags[ItemCount],
             item 1 [Base.KitchenKnife] mode:keep,
         }
         outputs
@@ -932,7 +913,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Lemon],
+            item 1 [Base.Lemon] flags[ItemCount],
             item 1 [Base.KitchenKnife] mode:keep,
         }
         outputs
@@ -949,7 +930,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCLime],
+            item 1 [Hydrocraft.HCLime] flags[ItemCount],
             item 1 [Base.KitchenKnife] mode:keep,
         }
         outputs
@@ -969,8 +950,8 @@ module Hydrocraft
         {
             item 1 [Base.KitchenKnife] mode:keep,
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
-            item 4 [Base.Lemon],
-            item 1 [Base.Bowl] mode:destroy,
+            item 4 [Base.Lemon] flags[ItemCount],
+            item 1 [Base.Bowl] mode:destroy flags[ItemCount],
         }
         outputs
         {
@@ -989,8 +970,8 @@ module Hydrocraft
         {
             item 1 [Base.KitchenKnife] mode:keep,
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
-            item 4 [Hydrocraft.HCLime],
-            item 1 [Base.Bowl] mode:destroy,
+            item 4 [Hydrocraft.HCLime] flags[ItemCount],
+            item 1 [Base.Bowl] mode:destroy flags[ItemCount],
         }
         outputs
         {
@@ -1033,7 +1014,7 @@ module Hydrocraft
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
-            item 1 [Base.Apple],
+            item 1 [Base.Apple] flags[ItemCount],
         }
         outputs
         {
@@ -1052,7 +1033,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedappletray],
+            item 1 [Hydrocraft.HCDriedappletray] flags[ItemCount],
         }
         outputs
         {
@@ -1074,7 +1055,7 @@ module Hydrocraft
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
-            item 1 [Base.Peach],
+            item 1 [Base.Peach] flags[ItemCount],
         }
         outputs
         {
@@ -1093,7 +1074,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedpeachtray],
+            item 1 [Hydrocraft.HCDriedpeachtray] flags[ItemCount],
         }
         outputs
         {
@@ -1132,7 +1113,7 @@ module Hydrocraft
         {
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
-            item 1 [Base.Orange],
+            item 1 [Base.Orange] flags[ItemCount],
         }
         outputs
         {
@@ -1151,7 +1132,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedorangetray],
+            item 1 [Hydrocraft.HCDriedorangetray] flags[ItemCount],
         }
         outputs
         {
@@ -1190,7 +1171,7 @@ module Hydrocraft
         {
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
-            item 1 [Base.Lemon],
+            item 1 [Base.Lemon] flags[ItemCount],
         }
         outputs
         {
@@ -1209,7 +1190,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedlemontray],
+            item 1 [Hydrocraft.HCDriedlemontray] flags[ItemCount],
         }
         outputs
         {
@@ -1228,7 +1209,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 4 [Hydrocraft.HCSlicedlime],
+            item 4 [Hydrocraft.HCSlicedlime] flags[ItemCount],
         }
         outputs
         {
@@ -1248,7 +1229,7 @@ module Hydrocraft
         {
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
-            item 1 [Hydrocraft.HCLime],
+            item 1 [Hydrocraft.HCLime] flags[ItemCount],
         }
         outputs
         {
@@ -1267,7 +1248,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedlimetray],
+            item 1 [Hydrocraft.HCDriedlimetray] flags[ItemCount],
         }
         outputs
         {
@@ -1288,7 +1269,7 @@ module Hydrocraft
         {
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
-            item 1 [Base.Banana],
+            item 1 [Base.Banana] flags[ItemCount],
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
         }
         outputs
@@ -1308,7 +1289,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedbananachipstray],
+            item 1 [Hydrocraft.HCDriedbananachipstray] flags[ItemCount],
         }
         outputs
         {
@@ -1330,7 +1311,7 @@ module Hydrocraft
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
-            item 3 [Base.Strewberrie],
+            item 3 [Base.Strewberrie] flags[ItemCount],
         }
         outputs
         {
@@ -1349,7 +1330,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedstrawberrytray],
+            item 1 [Hydrocraft.HCDriedstrawberrytray] flags[ItemCount],
         }
         outputs
         {
@@ -1370,7 +1351,7 @@ module Hydrocraft
         {
             item 1 [Base.BakingTray],
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
-            item 1 [Hydrocraft.HCBunchofberries],
+            item 1 [Hydrocraft.HCBunchofberries] flags[ItemCount],
         }
         outputs
         {
@@ -1389,7 +1370,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedberriestray],
+            item 1 [Hydrocraft.HCDriedberriestray] flags[ItemCount],
         }
         outputs
         {
@@ -1430,7 +1411,7 @@ module Hydrocraft
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
             item 1 [Base.Salt],
-            item 1 [Base.Tomato],
+            item 1 [Base.Tomato] flags[ItemCount],
         }
         outputs
         {
@@ -1449,7 +1430,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedtomatotray],
+            item 1 [Hydrocraft.HCDriedtomatotray] flags[ItemCount],
         }
         outputs
         {
@@ -1488,7 +1469,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedpumpkinseedstray],
+            item 1 [Hydrocraft.HCDriedpumpkinseedstray] flags[ItemCount],
         }
         outputs
         {
@@ -1508,7 +1489,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 1 [Base.Grapes],
+            item 1 [Base.Grapes] flags[ItemCount],
         }
         outputs
         {
@@ -1527,7 +1508,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedrasinstray],
+            item 1 [Hydrocraft.HCDriedrasinstray] flags[ItemCount],
         }
         outputs
         {
@@ -1547,7 +1528,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 3 [Hydrocraft.HCCranberry],
+            item 3 [Hydrocraft.HCCranberry] flags[ItemCount],
         }
         outputs
         {
@@ -1566,7 +1547,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCZipperbag],
-            item 1 [Hydrocraft.HCDriedcrasinstray],
+            item 1 [Hydrocraft.HCDriedcrasinstray] flags[ItemCount],
         }
         outputs
         {
@@ -1583,10 +1564,10 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 2 [Base.Cherry],
-            item 1 [Base.Orange],
-            item 1 [Base.Apple],
-            item 1 [Base.Banana],
+            item 2 [Base.Cherry] flags[ItemCount],
+            item 1 [Base.Orange] flags[ItemCount],
+            item 1 [Base.Apple] flags[ItemCount],
+            item 1 [Base.Banana] flags[ItemCount],
             item 1 [Base.BakingTray],
             item 1 [Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
@@ -1606,7 +1587,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCDriedfruittray],
+            item 1 [Hydrocraft.HCDriedfruittray] flags[ItemCount],
         }
         outputs
         {

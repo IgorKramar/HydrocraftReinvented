@@ -1700,7 +1700,7 @@ module Hydrocraft
         OnCreate = HCR42.Recipe_OnCreate_Hydrocraft_RecycleBag,
         inputs
         {
-            item 1 tags[NylonBag] mode:keep,
+            item 1 tags[hydrocraft:nylonbag] mode:keep,
             item 1 [Hydrocraft.HCTailoringbench2] mode:keep,
         }
         outputs
@@ -2293,7 +2293,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCSSpringSteelIngot],
             item 5 [Base.WoodenStick2],
             item 1 [Hydrocraft.HCWeldingset],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 tags[base:weldingmask] mode:keep,
             item 1 [Hydrocraft.HCRollingmillsmall] mode:keep,

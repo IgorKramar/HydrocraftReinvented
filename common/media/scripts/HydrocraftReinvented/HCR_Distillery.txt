@@ -526,7 +526,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Base.Pot],
+            item 1 [Base.Pot] flags[ItemCount],
             item 1 [Hydrocraft.HCCopperingot;Base.CopperIngot],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 tags[base:weldingmask] mode:keep,
@@ -547,7 +547,7 @@ module Hydrocraft
         SkillRequired = Woodwork:6,
         inputs
         {
-            item 1 [Base.Kettle],
+            item 1 [Base.Kettle] flags[ItemCount],
             item 1 [Hydrocraft.HCCoppermashpot],
             item 1 [Hydrocraft.HCWoodenbucket],
             item 1 [Hydrocraft.HCWoodenbarrel],
@@ -593,8 +593,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy,
-            item 10 [Base.Potato;Hydrocraft.HCPotatogolden],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 10 [Base.Potato;Hydrocraft.HCPotatogolden] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
             item 1 [Base.Yeast],
@@ -618,7 +618,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBarrelpotato],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
@@ -640,7 +640,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofpotatomashcooked],
+            item 3 [Hydrocraft.HCPotofpotatomashcooked] flags[ItemCount],
         }
         outputs
         {
@@ -680,7 +680,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBarrelLemonFermented],
-            item 5 [Base.Whiskey],
+            item 5 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
@@ -701,7 +701,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCAgavebluecut],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -724,7 +724,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofblueagavemashcooked],
+            item 3 [Hydrocraft.HCPotofblueagavemashcooked] flags[ItemCount],
         }
         outputs
         {
@@ -745,7 +745,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBarrelblueagave],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
@@ -769,8 +769,8 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBarrelblueagave],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey],
-            item 20 [Base.Worm],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 20 [Base.Worm] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
@@ -791,8 +791,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy,
-            item 10 [Base.Apple],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 10 [Base.Apple] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
             item 1 [Base.Yeast],
@@ -814,7 +814,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofapplemashcooked],
+            item 3 [Hydrocraft.HCPotofapplemashcooked] flags[ItemCount],
         }
         outputs
         {
@@ -835,7 +835,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBarrelapple],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
@@ -856,8 +856,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy,
-            item 10 [Base.Peach],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 10 [Base.Peach] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
             item 1 [Base.Yeast],
@@ -879,7 +879,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofpeachmashcooked],
+            item 3 [Hydrocraft.HCPotofpeachmashcooked] flags[ItemCount],
         }
         outputs
         {
@@ -900,7 +900,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBarrelpeach],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
@@ -921,8 +921,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy,
-            item 10 [Hydrocraft.HCPumpkinflesh],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 10 [Hydrocraft.HCPumpkinflesh] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
             item 1 [Base.Yeast],
@@ -944,7 +944,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofpumpkinmashcooked],
+            item 3 [Hydrocraft.HCPotofpumpkinmashcooked] flags[ItemCount],
         }
         outputs
         {
@@ -965,7 +965,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBarrelpumpkin],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
@@ -986,7 +986,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 20 [Hydrocraft.HCJuniperberry],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -1009,7 +1009,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofjunipermashcooked],
+            item 3 [Hydrocraft.HCPotofjunipermashcooked] flags[ItemCount],
         }
         outputs
         {
@@ -1030,7 +1030,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBarreljuniper],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
@@ -1051,7 +1051,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 20 [Base.Flour2],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -1095,7 +1095,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBarrelflour],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
@@ -1116,7 +1116,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 20 [Base.Cornflour2],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -1139,7 +1139,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofcornmashcooked],
+            item 3 [Hydrocraft.HCPotofcornmashcooked] flags[ItemCount],
         }
         outputs
         {
@@ -1160,7 +1160,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBarrelcorn],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,

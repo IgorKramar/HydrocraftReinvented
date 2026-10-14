@@ -169,7 +169,7 @@ module Hydrocraft
 	DisplayName 	 = Wild Beehive,
 	Icon			 = HCBeehive,
 	DisplayCategory  = SurApi,
-	WorldStaticModel = WorldItem-HCBeehive,
+	WorldStaticModel = Hydrocraft.WorldItem-HCBeehive,
     }
     item HCBeehive3
     {
@@ -186,7 +186,7 @@ module Hydrocraft
         Weight                  = 1000,
         ItemType                    = base:normal,
         DisplayName             = Inactive Beehive (Stage 3),
-        Icon                    = HCBeehive3
+        Icon                    = HCBeehive3,
 		DisplayCategory          =   SurApi,
     }
     item HCBeehive3Active

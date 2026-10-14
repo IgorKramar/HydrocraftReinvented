@@ -53,7 +53,7 @@ player:getStats():add(CharacterStat.FATIGUE, 0.05)
         end
 		player:getXp():AddXP(Perks.PlantScavenging, 10);
     elseif chance <= dungLvl8+dungLvl9+dungLvl10 then
-        secondChance = ZombRand(4);
+        secondChance = ZombRand(2);
         if secondChance == 0 then
             player:getInventory():AddItem("Hydrocraft.HCDonkeypoopferal");
         elseif secondChance == 1 then
@@ -128,5 +128,4 @@ player:getStats():add(CharacterStat.FATIGUE, 0.05)
         player:Say("I found nothing!");
     end
 end
-
 

@@ -4,6 +4,7 @@ import json, re
 from collections import Counter
 
 from hcr_paths import HERE, LUA, find_game, load_model, read_text
+from reachability_support import timer_edges, callback_outputs, apply_timer_edges
 
 M = load_model()
 items, recipes = M["items"], M["recipes"]
@@ -25,6 +26,8 @@ for f in (GAME / "media/scripts").rglob("*.txt"):
 
 lua_strings = set()
 for f in LUA.rglob("*.lua"):
+    if f.name in {'HCR_TimedDefinitions.lua','HCR_ItemMigrations.lua','HCR_Boxing.lua','HCR_Packaging.lua'}:
+        continue # declarations/guards are not independent sources
     for m in re.finditer(r'"([A-Za-z0-9._\- ]{2,64})"|\'([A-Za-z0-9._\- ]{2,64})\'', read_text(f)):
         lua_strings.add((m.group(1) or m.group(2)).strip())
 
@@ -49,7 +52,7 @@ for fid in list(items):
         if crop2 in items:
             reachable.add(crop2)
 # altName-продукты урожая из PlantsGrowing.lua (точные строки altName = "X")
-pg = read_text(LUA / "client/PlantsGrowing.lua")
+pg = read_text(LUA / "shared/PlantsGrowing.lua")
 for m in re.finditer(r'altName\s*=\s*"([A-Za-z]+)"', pg):
     for cand in ("Hydrocraft.HC" + m.group(1), "Base." + m.group(1), "farming." + m.group(1)):
         if cand in items or cand in van_items:
@@ -76,8 +79,11 @@ def outputs_ids(r):
     return ids
 
 craftable, changed = set(), True
+timed = timer_edges()
+callbacks = callback_outputs()
 while changed:
     changed = False
+    changed = apply_timer_edges(reachable, timed, items) or changed
     # ReplaceOnDeplete/Use/Cooked: достижимый источник порождает замену
     for fid, it in items.items():
         if fid in reachable:
@@ -92,10 +98,13 @@ while changed:
             craftable.add(r["name"])
             for o in outputs_ids(r):
                 if o not in reachable: reachable.add(o); changed = True
+            for o in callbacks.get(r['name'],set()):
+                if o in items and o not in reachable: reachable.add(o); changed = True
 
 uncraftable = [r for r in recipes.values() if r["name"] not in craftable]
 unreachable = [f for f in items if f not in reachable]
-no_source = [f for f in unreachable if not M["producers"].get(f)]
+indirect_targets = set(timed.values()).union(*(callbacks.values()))
+no_source = [f for f in unreachable if not M["producers"].get(f) and f not in indirect_targets]
 
 root = Counter()
 for r in uncraftable:
@@ -107,14 +116,22 @@ file_unreach = Counter(items[f]["file"] for f in unreachable)
 lines = []
 lines.append(f"ВАРИАНТ B (фермерство достижимо): недостижимых предметов {len(unreachable)} "
              f"(без источника {len(no_source)}), некрафтуемых рецептов {len(uncraftable)}")
+lines.append(f"Косвенные связи текущего кода: timers={len(timed)}, recipe callbacks={len(callbacks)}.")
+lines.append("Оптимистическая статическая оценка: vanilla declarations/lua literals/farming assumptions не доказывают loot availability; kept tools, fluid amounts и tags требуют native проверки. no_source.json — диагностический список, не команда добавить лут.")
 lines.append("\nТоп файлов по недостижимым:")
 for f, n in file_unreach.most_common(15): lines.append(f"  {n:4}  {f}")
 lines.append("\nТоп-40 корневых блокеров:")
 for i, n in root.most_common(40): lines.append(f"  {n:4}  {i} — {ru(i)}")
 lines.append("\nКниги недостижимы: " + ", ".join(sorted(b for b in {b for bl in book_teaches.values() for b in bl} if b not in reachable)))
+lines.append("\nПолный список flagged предметов (диагностика, не доказанные дефекты):")
+for fid in unreachable:
+    lines.append(f"  {fid} | {items[fid]['file']}")
+lines.append("\nПолный список flagged рецептов:")
+for recipe in uncraftable:
+    lines.append(f"  {recipe['name']} | {recipe['file']}")
 out = HERE / "gaps_variant_b.txt"
 out.write_text("\n".join(lines), encoding="utf-8")
-# полный дамп безысточниковых для лут-генератора
+# Полный диагностический дамп; назначение источников требует отдельного review.
 from collections import defaultdict as dd
 by_file = dd(list)
 for f in no_source:

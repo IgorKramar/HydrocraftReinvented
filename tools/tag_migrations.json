@@ -1,0 +1,188 @@
+{
+  "gameVersion": "42.21",
+  "normalization": "ResourceLocation.of uses lowercase and defaults bare tags to base. Registry.get returns null for an unregistered tag; all such assignments alias the same null item group.",
+  "custom_tags": {
+    "Potato": "hydrocraft:potato",
+    "RoastingPanFull": "hydrocraft:roastingpanfull",
+    "ServeInPaperBag": "hydrocraft:serveinpaperbag",
+    "PaperBagFull": "hydrocraft:paperbagfull",
+    "NylonBag": "hydrocraft:nylonbag",
+    "Cereal": "hydrocraft:cereal",
+    "Shit": "hydrocraft:shit",
+    "Disinfectant": "hydrocraft:disinfectant",
+    "HuntingShotgun": "hydrocraft:huntingshotgun"
+  },
+  "item_assignments": [
+    {
+      "file": "HCR_CallbackMaterials.txt",
+      "item": "HCCowpoopferal",
+      "before": "Shit",
+      "after": "hydrocraft:shit"
+    },
+    {
+      "file": "HCR_CallbackMaterials.txt",
+      "item": "HCSheeppoopferal",
+      "before": "Shit",
+      "after": "hydrocraft:shit"
+    },
+    {
+      "file": "HCR_CallbackMaterials.txt",
+      "item": "HCGoatpoopferal",
+      "before": "Shit",
+      "after": "hydrocraft:shit"
+    },
+    {
+      "file": "HCR_CallbackMaterials.txt",
+      "item": "HCDonkeypoopferal",
+      "before": "Shit",
+      "after": "hydrocraft:shit"
+    },
+    {
+      "file": "HCR_CallbackMaterials.txt",
+      "item": "HCHorsepoopferal",
+      "before": "Shit",
+      "after": "hydrocraft:shit"
+    },
+    {
+      "file": "HCR_Cats.txt",
+      "item": "HCCatpoop",
+      "before": "Shit",
+      "after": "hydrocraft:shit"
+    },
+    {
+      "file": "HCR_Containers.txt",
+      "item": "HCGolfbag",
+      "before": "NylonBag",
+      "after": "hydrocraft:nylonbag"
+    },
+    {
+      "file": "HCR_Containers.txt",
+      "item": "HCClimbingpack",
+      "before": "NylonBag",
+      "after": "hydrocraft:nylonbag"
+    },
+    {
+      "file": "HCR_Containers.txt",
+      "item": "HCCampingpack",
+      "before": "NylonBag",
+      "after": "hydrocraft:nylonbag"
+    },
+    {
+      "file": "HCR_Dogs.txt",
+      "item": "HCDogpoop",
+      "before": "Shit",
+      "after": "hydrocraft:shit"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "item": "HCWhiskeycolademonobottle",
+      "before": "Disinfectant",
+      "after": "hydrocraft:disinfectant"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "item": "HCColademonopot",
+      "before": "Disinfectant",
+      "after": "hydrocraft:disinfectant"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "item": "HCAguaardiente",
+      "before": "Disinfectant",
+      "after": "hydrocraft:disinfectant"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "item": "HCMezcalworm",
+      "before": "Disinfectant",
+      "after": "hydrocraft:disinfectant"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "item": "HCDrinklongisland",
+      "before": "Disinfectant",
+      "after": "hydrocraft:disinfectant"
+    },
+    {
+      "file": "HCR_Food Breakfast.txt",
+      "item": "HCCereal3",
+      "before": "Cereal",
+      "after": "hydrocraft:cereal"
+    },
+    {
+      "file": "HCR_Food Breakfast.txt",
+      "item": "HCCereal2",
+      "before": "Cereal",
+      "after": "hydrocraft:cereal"
+    },
+    {
+      "file": "HCR_Food Paper Bag.txt",
+      "item": "HCFoodInPaperBag",
+      "before": "PaperBagFull",
+      "after": "hydrocraft:paperbagfull"
+    },
+    {
+      "file": "HCR_Food Taters.txt",
+      "item": "HCFries",
+      "before": "RoastingPanFull",
+      "after": "hydrocraft:roastingpanfull"
+    },
+    {
+      "file": "HCR_Food Taters.txt",
+      "item": "HCFries",
+      "before": "ServeInPaperBag",
+      "after": "hydrocraft:serveinpaperbag"
+    },
+    {
+      "file": "HCR_Food Vegetables.txt",
+      "item": "HCPotatored",
+      "before": "Potato",
+      "after": "hydrocraft:potato"
+    },
+    {
+      "file": "HCR_Food Vegetables.txt",
+      "item": "HCPotatogolden",
+      "before": "Potato",
+      "after": "hydrocraft:potato"
+    },
+    {
+      "file": "HCR_Food Vegetables.txt",
+      "item": "HCSweetpotato",
+      "before": "Potato",
+      "after": "hydrocraft:potato"
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "item": "HCCottonballspp",
+      "before": "Disinfectant",
+      "after": "hydrocraft:disinfectant"
+    },
+    {
+      "file": "HCR_Medical.txt",
+      "item": "HCHomedisinfectant",
+      "before": "Disinfectant",
+      "after": "hydrocraft:disinfectant"
+    },
+    {
+      "file": "HCR_RescuedMaterials.txt",
+      "item": "HCCowpoop",
+      "before": "Shit",
+      "after": "hydrocraft:shit"
+    },
+    {
+      "file": "HCR_RescuedMaterials.txt",
+      "item": "HCPigpoopferal",
+      "before": "Shit",
+      "after": "hydrocraft:shit"
+    },
+    {
+      "file": "HCR_Weapon Ranged.txt",
+      "item": "HCAA12",
+      "before": "HuntingShotgun",
+      "after": "hydrocraft:huntingshotgun"
+    }
+  ],
+  "potato": "Native Base.Potato has base:isseed only. Combine explicit Base.Potato with author-assigned hydrocraft:potato HC group.",
+  "concrete": "Pinned HCWoodenbucketconcrete=4/8 is consumed drainable uses, not a kept requirement. Native equivalents Base.BucketConcreteFull/BucketCarvedConcreteFull.",
+  "boxing": "Current explicit Box/Pack recipe whitelist; see boxing_materials.json. No invented historical Box tags."
+}

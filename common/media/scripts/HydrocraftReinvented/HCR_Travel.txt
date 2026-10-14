@@ -87,7 +87,8 @@ module Hydrocraft
             item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
             item 1 [Hydrocraft.HCMap] mode:keep,
             item 1 [Hydrocraft.HCCompass] mode:keep,
-            item 16 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [Petrol],
             item 1 [Hydrocraft.HCTicketBF] mode:keep,
         }
     }
@@ -104,7 +105,8 @@ module Hydrocraft
             item 1 [Hydrocraft.HCMap] mode:keep,
             item 1 [Hydrocraft.HCCompass] mode:keep,
             item 1 [Hydrocraft.HCTicketCR] mode:keep,
-            item 16 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [Petrol],
         }
     }
     craftRecipe Travel to New Denver
@@ -120,7 +122,8 @@ module Hydrocraft
             item 1 [Hydrocraft.HCMap] mode:keep,
             item 1 [Hydrocraft.HCCompass] mode:keep,
             item 1 [Hydrocraft.HCTicketND] mode:keep,
-            item 16 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [Petrol],
         }
     }
     craftRecipe Travel to Valley Station
@@ -136,7 +139,8 @@ module Hydrocraft
             item 1 [Hydrocraft.HCMap] mode:keep,
             item 1 [Hydrocraft.HCCompass] mode:keep,
             item 1 [Hydrocraft.HCTicketVS] mode:keep,
-            item 16 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [Petrol],
         }
     }
     craftRecipe Travel to Bedford Falls (GPS)
@@ -151,7 +155,8 @@ module Hydrocraft
             item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
             item 1 [Hydrocraft.HCGPS] mode:keep,
             item 1 [Hydrocraft.HCTicketBF] mode:keep,
-            item 16 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [Petrol],
         }
     }
     craftRecipe Travel to Crossroads (GPS)
@@ -166,7 +171,8 @@ module Hydrocraft
             item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
             item 1 [Hydrocraft.HCGPS] mode:keep,
             item 1 [Hydrocraft.HCTicketCR] mode:keep,
-            item 16 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [Petrol],
         }
     }
     craftRecipe Travel to New Denver (GPS)
@@ -181,7 +187,8 @@ module Hydrocraft
             item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
             item 1 [Hydrocraft.HCGPS] mode:keep,
             item 1 [Hydrocraft.HCTicketND] mode:keep,
-            item 16 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [Petrol],
         }
     }
     craftRecipe Travel to Valley Station (GPS)
@@ -196,7 +203,8 @@ module Hydrocraft
             item 1 [Hydrocraft.HCHelicopterL;Hydrocraft.HCHelicopterR] mode:keep,
             item 1 [Hydrocraft.HCGPS] mode:keep,
             item 1 [Hydrocraft.HCTicketVS] mode:keep,
-            item 16 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [Petrol],
         }
     }
     craftRecipe Travel to West Point Docks

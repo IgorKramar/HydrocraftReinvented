@@ -159,7 +159,7 @@ module Hydrocraft
 
         DisplayCategory = Instrument,
         MaxRange	=	1.25,
-        WeaponSprite	=	Banjo,
+        WeaponSprite	=	Base.Banjo,
         MinAngle	=	0.75,
         ItemType	=	base:weapon,
         MinimumSwingTime	=	4,

@@ -2060,7 +2060,7 @@ module Hydrocraft
             item 1 [Base.Sugar],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
-            item 1 [Base.PopBottle] mode:destroy,
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
         }
         outputs
         {
@@ -2081,7 +2081,7 @@ module Hydrocraft
             item 1 [Base.Sugar],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
-            item 1 [Base.WaterBottle;Base.WaterBottle] mode:destroy,
+            item 1 [Base.WaterBottle;Base.WaterBottle] mode:destroy flags[ItemCount],
         }
         outputs
         {
@@ -2098,8 +2098,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 4 [Base.Apple],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Apple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2117,8 +2117,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 4 [Base.Carrots],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Carrots] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2136,8 +2136,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 4 [Base.Grapes],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Grapes] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2155,8 +2155,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 4 [Base.Lemon],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Lemon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2174,8 +2174,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 4 [Base.Orange],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Orange] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2193,8 +2193,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 4 [Hydrocraft.HCLime],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 4 [Hydrocraft.HCLime] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2212,8 +2212,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 8 [Base.Strewberrie],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.Strewberrie] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2231,8 +2231,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 4 [Base.Tomato],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Tomato] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2250,8 +2250,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 1 [Base.Watermelon],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 1 [Base.Watermelon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2269,8 +2269,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 5 [Base.WatermelonSliced],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 5 [Base.WatermelonSliced] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2288,8 +2288,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 2 [Base.WatermelonSmashed],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 2 [Base.WatermelonSmashed] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2307,8 +2307,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 1 [Base.Pineapple],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 1 [Base.Pineapple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2326,8 +2326,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 8 [Base.BerryBlue],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryBlue] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2345,8 +2345,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 8 [Base.BerryBlack],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryBlack] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2364,8 +2364,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 8 [Base.BerryGeneric1],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric1] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2383,8 +2383,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 8 [Base.BerryGeneric2],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric2] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2402,8 +2402,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 8 [Base.BerryGeneric3],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric3] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2421,8 +2421,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 8 [Base.BerryGeneric4],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric4] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2440,8 +2440,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 8 [Base.BerryGeneric5],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric5] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2459,8 +2459,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.PopBottle] mode:destroy,
-            item 8 [Base.Cherry],
+            item 1 [Base.PopBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.Cherry] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2478,8 +2478,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 4 [Base.Apple],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Apple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2497,8 +2497,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 4 [Base.Carrots],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Carrots] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2516,8 +2516,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 4 [Base.Grapes],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Grapes] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2535,8 +2535,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 4 [Base.Lemon],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Lemon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2554,8 +2554,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 4 [Base.Orange],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Orange] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2573,8 +2573,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 4 [Hydrocraft.HCLime],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 4 [Hydrocraft.HCLime] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2592,8 +2592,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 8 [Base.Strewberrie],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.Strewberrie] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2611,8 +2611,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 4 [Base.Tomato],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 4 [Base.Tomato] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2630,8 +2630,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 1 [Base.Watermelon],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 1 [Base.Watermelon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2649,8 +2649,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 5 [Base.WatermelonSliced],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 5 [Base.WatermelonSliced] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2668,8 +2668,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 2 [Base.WatermelonSmashed],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 2 [Base.WatermelonSmashed] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2687,8 +2687,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 1 [Base.Pineapple],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 1 [Base.Pineapple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2706,8 +2706,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 8 [Base.BerryBlue],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryBlue] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2725,8 +2725,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 8 [Base.BerryBlack],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryBlack] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2744,8 +2744,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 8 [Base.BerryGeneric1],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric1] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2763,8 +2763,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 8 [Base.BerryGeneric2],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric2] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2782,8 +2782,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 8 [Base.BerryGeneric3],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric3] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2801,8 +2801,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 8 [Base.BerryGeneric4],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric4] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2820,8 +2820,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 8 [Base.BerryGeneric5],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric5] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2839,8 +2839,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
-            item 8 [Base.Cherry],
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 8 [Base.Cherry] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2858,8 +2858,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 4 [Base.Apple],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Apple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2877,8 +2877,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 4 [Base.Carrots],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Carrots] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2896,8 +2896,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 4 [Base.Grapes],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Grapes] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2915,8 +2915,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 4 [Base.Lemon],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Lemon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2934,8 +2934,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 4 [Base.Orange],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Orange] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2953,8 +2953,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 4 [Hydrocraft.HCLime],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 4 [Hydrocraft.HCLime] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2972,8 +2972,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 8 [Base.Strewberrie],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.Strewberrie] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -2991,8 +2991,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 4 [Base.Tomato],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Tomato] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3010,8 +3010,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 1 [Base.Watermelon],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 1 [Base.Watermelon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3029,8 +3029,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 5 [Base.WatermelonSliced],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 5 [Base.WatermelonSliced] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3048,8 +3048,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 2 [Base.WatermelonSmashed],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 2 [Base.WatermelonSmashed] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3067,8 +3067,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 1 [Base.Pineapple],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 1 [Base.Pineapple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3086,8 +3086,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 8 [Base.BerryBlue],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryBlue] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3105,8 +3105,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 8 [Base.BerryBlack],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryBlack] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3124,8 +3124,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 8 [Base.BerryGeneric1],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric1] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3143,8 +3143,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 8 [Base.BerryGeneric2],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric2] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3162,8 +3162,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 8 [Base.BerryGeneric3],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric3] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3181,8 +3181,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 8 [Base.BerryGeneric4],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric4] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3200,8 +3200,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 8 [Base.BerryGeneric5],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric5] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3219,8 +3219,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.RemouladeEmpty] mode:destroy,
-            item 8 [Base.Cherry],
+            item 1 [Base.RemouladeEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.Cherry] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3238,8 +3238,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 4 [Base.Apple],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Apple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3257,8 +3257,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 4 [Base.Carrots],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Carrots] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3276,8 +3276,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 4 [Base.Grapes],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Grapes] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3295,8 +3295,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 4 [Base.Lemon],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Lemon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3314,8 +3314,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 4 [Base.Orange],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Orange] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3333,8 +3333,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 4 [Hydrocraft.HCLime],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 4 [Hydrocraft.HCLime] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3352,8 +3352,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 8 [Base.Strewberrie],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.Strewberrie] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3371,8 +3371,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 4 [Base.Tomato],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 4 [Base.Tomato] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3390,8 +3390,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 1 [Base.Watermelon],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 1 [Base.Watermelon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3409,8 +3409,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 5 [Base.WatermelonSliced],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 5 [Base.WatermelonSliced] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3428,8 +3428,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 2 [Base.WatermelonSmashed],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 2 [Base.WatermelonSmashed] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3447,8 +3447,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 1 [Base.Pineapple],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 1 [Base.Pineapple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3466,8 +3466,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 8 [Base.BerryBlue],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryBlue] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3485,8 +3485,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 8 [Base.BerryBlack],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryBlack] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3504,8 +3504,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 8 [Base.BerryGeneric1],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric1] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3523,8 +3523,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 8 [Base.BerryGeneric2],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric2] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3542,8 +3542,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 8 [Base.BerryGeneric3],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric3] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3561,8 +3561,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 8 [Base.BerryGeneric4],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric4] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3580,8 +3580,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 8 [Base.BerryGeneric5],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric5] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3599,8 +3599,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MayonnaiseEmpty] mode:destroy,
-            item 8 [Base.Cherry],
+            item 1 [Base.MayonnaiseEmpty] mode:destroy flags[ItemCount],
+            item 8 [Base.Cherry] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3618,8 +3618,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 4 [Base.Apple],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 4 [Base.Apple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3637,8 +3637,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 4 [Base.Carrots],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 4 [Base.Carrots] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3656,8 +3656,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 4 [Base.Grapes],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 4 [Base.Grapes] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3675,8 +3675,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 4 [Base.Lemon],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 4 [Base.Lemon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3694,8 +3694,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 4 [Base.Orange],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 4 [Base.Orange] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3713,8 +3713,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 4 [Hydrocraft.HCLime],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 4 [Hydrocraft.HCLime] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3732,8 +3732,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 8 [Base.Strewberrie],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 8 [Base.Strewberrie] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3751,8 +3751,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 4 [Base.Tomato],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 4 [Base.Tomato] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3770,8 +3770,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 1 [Base.Watermelon],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 1 [Base.Watermelon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3789,8 +3789,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 5 [Base.WatermelonSliced],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 5 [Base.WatermelonSliced] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3808,8 +3808,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 2 [Base.WatermelonSmashed],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 2 [Base.WatermelonSmashed] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3827,8 +3827,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 1 [Base.Pineapple],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 1 [Base.Pineapple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3846,8 +3846,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 8 [Base.BerryBlue],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryBlue] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3865,8 +3865,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 8 [Base.BerryBlack],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryBlack] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3884,8 +3884,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 8 [Base.BerryGeneric1],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric1] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3903,8 +3903,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 8 [Base.BerryGeneric2],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric2] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3922,8 +3922,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 8 [Base.BerryGeneric3],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric3] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3941,8 +3941,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 8 [Base.BerryGeneric4],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric4] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3960,8 +3960,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 8 [Base.BerryGeneric5],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 8 [Base.BerryGeneric5] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3979,8 +3979,8 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Whiskey] mode:destroy,
-            item 8 [Base.Cherry],
+            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 8 [Base.Cherry] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -3998,9 +3998,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 2 [Base.Apple],
+            item 2 [Base.Apple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4018,9 +4018,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 2 [Base.Carrots],
+            item 2 [Base.Carrots] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4038,9 +4038,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 2 [Base.Grapes],
+            item 2 [Base.Grapes] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4058,9 +4058,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 2 [Base.Lemon],
+            item 2 [Base.Lemon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4078,9 +4078,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 2 [Base.Orange],
+            item 2 [Base.Orange] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4098,9 +4098,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 2 [Hydrocraft.HCLime],
+            item 2 [Hydrocraft.HCLime] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4118,9 +4118,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 4 [Base.Strewberrie],
+            item 4 [Base.Strewberrie] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4138,9 +4138,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 2 [Base.Tomato],
+            item 2 [Base.Tomato] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4158,9 +4158,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 2 [Base.Mugl] mode:destroy,
+            item 2 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 1 [Base.Watermelon],
+            item 1 [Base.Watermelon] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4178,9 +4178,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 2 [Base.WatermelonSliced],
+            item 2 [Base.WatermelonSliced] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4198,9 +4198,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 1 [Base.WatermelonSmashed],
+            item 1 [Base.WatermelonSmashed] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4218,9 +4218,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 2 [Base.Mugl] mode:destroy,
+            item 2 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 1 [Base.Pineapple],
+            item 1 [Base.Pineapple] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4238,9 +4238,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 4 [Base.BerryBlue],
+            item 4 [Base.BerryBlue] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4258,9 +4258,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 4 [Base.BerryBlack],
+            item 4 [Base.BerryBlack] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4278,9 +4278,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 4 [Base.BerryGeneric1],
+            item 4 [Base.BerryGeneric1] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4298,9 +4298,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 4 [Base.BerryGeneric2],
+            item 4 [Base.BerryGeneric2] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4318,9 +4318,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 4 [Base.BerryGeneric3],
+            item 4 [Base.BerryGeneric3] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4338,9 +4338,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 4 [Base.BerryGeneric4],
+            item 4 [Base.BerryGeneric4] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4358,9 +4358,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 4 [Base.BerryGeneric5],
+            item 4 [Base.BerryGeneric5] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -4378,9 +4378,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] mode:destroy,
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCSaranwrap],
-            item 4 [Base.Cherry],
+            item 4 [Base.Cherry] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs

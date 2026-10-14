@@ -1163,15 +1163,7 @@ module Hydrocraft
 	Icon				=	HCCougardead,
 	DisplayCategory          =   AnimalDead,
     }
-    item HCDeerantlers
-    {
 
-        Weight    		= 1,
-        ItemType    		= base:normal,
-        DisplayName         	= Deer Antlers,
-        icon 			= HCDeerantlers,
-	DisplayCategory          =   SurHunt,
-    }
     item HCSmallgamepoop
     {
 

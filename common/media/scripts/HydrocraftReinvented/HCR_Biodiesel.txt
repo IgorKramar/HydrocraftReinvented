@@ -84,7 +84,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucketvegoil],
-            item 1 [Base.Pot],
+            item 1 [Base.Pot] flags[ItemCount],
         }
         outputs
         {
@@ -212,7 +212,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWashtubwashedbiodiesel],
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -231,7 +231,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBiodieselcan],
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCFunnel] mode:keep,
         }
         outputs

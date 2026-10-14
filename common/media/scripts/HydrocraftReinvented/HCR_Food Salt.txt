@@ -438,7 +438,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCRocksalt],
         }
         outputs
@@ -497,7 +498,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Base.FishFillet],
+            item 1 [Base.FishFillet] flags[ItemCount],
         }
         outputs
         {
@@ -516,7 +517,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Base.Ham],
+            item 1 [Base.Ham] flags[ItemCount],
         }
         outputs
         {
@@ -534,7 +535,7 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 1 [Hydrocraft.HCFreshham],
+            item 1 [Hydrocraft.HCFreshham] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
@@ -556,7 +557,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Base.MuttonChop],
+            item 1 [Base.MuttonChop] flags[ItemCount],
         }
         outputs
         {
@@ -575,7 +576,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Base.PorkChop],
+            item 1 [Base.PorkChop] flags[ItemCount],
         }
         outputs
         {
@@ -594,7 +595,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Base.Steak],
+            item 1 [Base.Steak] flags[ItemCount],
         }
         outputs
         {
@@ -613,7 +614,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Hydrocraft.HCCheval],
+            item 1 [Hydrocraft.HCCheval] flags[ItemCount],
         }
         outputs
         {
@@ -632,7 +633,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Base.Rabbitmeat],
+            item 1 [Base.Rabbitmeat] flags[ItemCount],
         }
         outputs
         {
@@ -651,7 +652,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Base.Salmon],
+            item 1 [Base.Salmon] flags[ItemCount],
         }
         outputs
         {
@@ -670,7 +671,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Base.Smallanimalmeat],
+            item 1 [Base.Smallanimalmeat] flags[ItemCount],
         }
         outputs
         {
@@ -689,7 +690,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Base.Smallbirdmeat],
+            item 1 [Base.Smallbirdmeat] flags[ItemCount],
         }
         outputs
         {
@@ -708,7 +709,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Hydrocraft.HCDuckmeat],
+            item 1 [Hydrocraft.HCDuckmeat] flags[ItemCount],
         }
         outputs
         {
@@ -727,7 +728,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Hydrocraft.HCGoosemeat],
+            item 1 [Hydrocraft.HCGoosemeat] flags[ItemCount],
         }
         outputs
         {
@@ -765,7 +766,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Hydrocraft.HCVenison],
+            item 1 [Hydrocraft.HCVenison] flags[ItemCount],
         }
         outputs
         {
@@ -784,7 +785,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Hydrocraft.HCBearsteak],
+            item 1 [Hydrocraft.HCBearsteak] flags[ItemCount],
         }
         outputs
         {
@@ -803,7 +804,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Hydrocraft.HCCougarsteak],
+            item 1 [Hydrocraft.HCCougarsteak] flags[ItemCount],
         }
         outputs
         {
@@ -822,7 +823,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCuringsalt;Hydrocraft.HCSaltpeterpowder],
-            item 1 [Hydrocraft.HCSmallgamesteak],
+            item 1 [Hydrocraft.HCSmallgamesteak] flags[ItemCount],
         }
         outputs
         {

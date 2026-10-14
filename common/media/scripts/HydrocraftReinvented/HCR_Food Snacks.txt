@@ -209,7 +209,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCSnacktartsbluebox],
+            item 1 [Hydrocraft.HCSnacktartsbluebox] flags[ItemCount],
         }
         outputs
         {
@@ -224,7 +224,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCSnacktartsredbox],
+            item 1 [Hydrocraft.HCSnacktartsredbox] flags[ItemCount],
         }
         outputs
         {

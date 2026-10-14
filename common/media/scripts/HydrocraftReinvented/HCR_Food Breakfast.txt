@@ -16,7 +16,7 @@ module Hydrocraft
 	Packaged 			= 	TRUE,
 	ReplaceOnDeplete	=	Hydrocraft.HCCereal2trash,
 	DisplayCategory		=	FoodN,
-	Tags				=	Cereal,
+	Tags				=	hydrocraft:cereal,
     }
     item HCCereal3
     {
@@ -33,7 +33,7 @@ module Hydrocraft
 	Packaged 			= 	TRUE,
 	ReplaceOnDeplete	=	Hydrocraft.HCCereal3trash,
 	DisplayCategory		=	FoodN,
-	Tags				=	Cereal,
+	Tags				=	hydrocraft:cereal,
     }
     item HCFriedegg
     {
@@ -185,7 +185,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pan] mode:keep,
-            item 1 tags[Egg] mode:keep,
+            item 1 tags[Egg] flags[ItemCount],
             item 1 [Base.Butter;Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
         }
         outputs
@@ -205,7 +205,7 @@ module Hydrocraft
         {
             item 1 [Base.Pan] mode:keep,
             item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
-            item 1 tags[Egg] mode:keep,
+            item 1 tags[Egg] flags[ItemCount],
         }
         outputs
         {
@@ -224,8 +224,8 @@ module Hydrocraft
         {
             item 1 [Base.Pan] mode:keep,
             item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
-            item 1 tags[Egg] mode:keep,
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
+            item 1 tags[Egg] flags[ItemCount],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
         }
         outputs
         {
@@ -244,8 +244,8 @@ module Hydrocraft
         {
             item 1 [Base.Pan] mode:keep,
             item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
-            item 1 tags[Egg] mode:keep,
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
+            item 1 tags[Egg] flags[ItemCount],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
         }
         outputs
         {
@@ -264,8 +264,8 @@ module Hydrocraft
         {
             item 1 [Base.Pan] mode:keep,
             item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
-            item 1 tags[Egg] mode:keep,
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],
+            item 1 tags[Egg] flags[ItemCount],
+            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
             item 1 [Base.BellPepper;Hydrocraft.HCBellpepperyellow;Hydrocraft.HCBellpeppergreen;Base.Broccoli;Base.Leek;Base.Eggplant;Hydrocraft.HCBunchofshrooms;Hydrocraft.HCSlicedonion;Hydrocraft.HCSlicedtomato;Hydrocraft.HCDriedtomatobag;Hydrocraft.HCCannedshrooms;Hydrocraft.HCSpinach;Hydrocraft.HCChiligreen;Hydrocraft.HCChilipepper],
         }
         outputs
@@ -283,7 +283,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 tags[Egg] mode:keep,
+            item 1 tags[Egg] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Base.Pot] mode:keep,

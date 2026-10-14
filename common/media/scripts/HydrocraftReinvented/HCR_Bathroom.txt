@@ -85,7 +85,7 @@ module Hydrocraft
         icon 			 = HCHairdryer,	
 		AttachmentType  = 	Screwdriver,
 		StaticModel      =  WorldItem-HCHairDryer,		
-		WorldStaticModel = WorldItem-HCHairDryer,
+		WorldStaticModel = Hydrocraft.WorldItem-HCHairDryer,
     }
     item HCElectrictoothbrush
     {
@@ -597,7 +597,7 @@ module Hydrocraft
 
 		DisplayCategory = WepMelee,
 		MaxRange			=	0.7,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Base.Knife,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	2,
@@ -633,12 +633,12 @@ module Hydrocraft
     craftRecipe Pack Diapers
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 20 [Hydrocraft.HCDiaper],
+            item 20 [Hydrocraft.HCDiaper] flags[ItemCount],
         }
         outputs
         {
@@ -648,12 +648,12 @@ module Hydrocraft
     craftRecipe Unpack Diapers
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCDiaperpack],
+            item 1 [Hydrocraft.HCDiaperpack] flags[ItemCount],
         }
         outputs
         {
@@ -835,7 +835,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCDiaper] mode:destroy,
-            item 10 [Base.Whiskey],
+            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.5 [Whiskey],
         }
         outputs
         {
@@ -852,7 +853,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCDiaper] mode:destroy,
-            item 3 [Base.Disinfectant],
+            item 1 [Base.Disinfectant] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.15 [RubbingAlcohol],
         }
         outputs
         {
@@ -887,7 +889,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMenstrualpad] mode:destroy,
-            item 10 [Base.Whiskey],
+            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.5 [Whiskey],
         }
         outputs
         {
@@ -904,7 +907,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMenstrualpad] mode:destroy,
-            item 3 [Base.Disinfectant],
+            item 1 [Base.Disinfectant] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.15 [RubbingAlcohol],
         }
         outputs
         {

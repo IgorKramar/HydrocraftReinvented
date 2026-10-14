@@ -9,7 +9,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
         DisplayName      = Magic 8 Ball,
         icon 			 = HCMagic8ball,
-        WorldStaticModel = WorldItem-HCMagic8ball,
+        WorldStaticModel = Hydrocraft.WorldItem-HCMagic8ball,
     }
     item HCPacifier
     {
@@ -203,7 +203,7 @@ module Hydrocraft
 	DisplayName		=	Bowling Ball,	
 	Weight			=	14,
 	Icon			=	HCBowlingball,
-	WorldStaticModel = WorldItem-HCBowlingball,
+	WorldStaticModel = Hydrocraft.WorldItem-HCBowlingball,
     }
     item HCBowlingpin
     {
@@ -251,7 +251,7 @@ module Hydrocraft
 		CanStoreWater		= TRUE,
 		ReplaceOnUseOn		= WaterSource-HCWaterballoon,
         icon 				= HCEmptyballoon,
-        WorldStaticModel 	= WorldItem-HCDeflatedBalloon,
+        WorldStaticModel = Hydrocraft.WorldItem-HCDeflatedBalloon,
     }
     item HCWaterballoon
     {
@@ -830,7 +830,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.5,
-		WeaponSprite			=	FryingPan,
+		WeaponSprite			=	Base.FryingPan,
 		MinAngle			=	0,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3,
@@ -865,7 +865,7 @@ module Hydrocraft
     {
 
         MaxRange    =   1.25,
-        WeaponSprite    =   Hydrocraft.HCAluminiumbat,
+        WeaponSprite    =   Base.BaseballBat_Metal,
         MinAngle    =   0.75,
         ItemType    =   base:weapon,
         MinimumSwingTime    =   3,
@@ -906,7 +906,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.5,
-		WeaponSprite			=	Baseballbat,
+		WeaponSprite			=	Base.BaseballBat,
 		MinAngle			=	0.2,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3,
@@ -944,7 +944,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.5,
-		WeaponSprite			=	Baseballbat,
+		WeaponSprite			=	Base.BaseballBat,
 		MinAngle			=	0.2,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3,
@@ -2417,7 +2417,7 @@ module Hydrocraft
             item 1 [Base.Glue;Hydrocraft.HCGluejar],
             item 1 [Base.Glue;Hydrocraft.HCGluejar],
             item 1 [Hydrocraft.HCCrayonbox],
-            item 1 [Hydrocraft.HCCandymixed],
+            item 1 [Hydrocraft.HCCandymixed] flags[ItemCount],
         }
         outputs
         {

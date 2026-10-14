@@ -173,7 +173,7 @@ module Hydrocraft
 		Calories 			= 	0,
 		DisplayCategory		=	FoodP,
 		ReplaceOnUse		=	Base.RoastingPan,
-		Tags				=	RoastingPanFull; ServeInPaperBag,
+		Tags				=	hydrocraft:roastingpanfull;hydrocraft:serveinpaperbag,
 		UnhappyChange		=	20,
 		BadInMicrowave		=	true,
 		GoodHot				=	true,
@@ -246,7 +246,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray] mode:keep,
-            item 1 tags[Potato] mode:keep,
+            item 1 [Base.Potato] tags[hydrocraft:potato] flags[ItemCount],
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar;Base.Butter],
         }
         outputs
@@ -268,7 +268,7 @@ module Hydrocraft
             item 1 [Base.Pan] mode:keep,
             item 1 [Hydrocraft.HCCheesegrater] mode:keep,
             item 1 [Hydrocraft.HCPotatopeeler] mode:keep,
-            item 1 tags[Potato] mode:keep,
+            item 1 [Base.Potato] tags[hydrocraft:potato] flags[ItemCount],
         }
         outputs
         {
@@ -288,7 +288,7 @@ module Hydrocraft
         {
             item 1 [Base.Pan] mode:keep,
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar;Base.Butter],
-            item 1 [Hydrocraft.HCMashedpotatosplain],
+            item 1 [Hydrocraft.HCMashedpotatosplain] flags[ItemCount],
         }
         outputs
         {
@@ -305,9 +305,9 @@ module Hydrocraft
         OnCreate = HCR42.Hydrocraft_OnCreate_MakePlainMashedPotatoes,
         inputs
         {
-            item 2 tags[Potato] mode:keep,
+            item 2 [Base.Potato] tags[hydrocraft:potato] flags[ItemCount],
             item 1 [Hydrocraft.HCPotatopeeler] mode:keep,
-            item 1 [Base.Pot],
+            item 1 [Base.Pot] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.2 [Water],
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
@@ -328,9 +328,9 @@ module Hydrocraft
         OnCreate = HCR42.Hydrocraft_OnCreate_MakeCreamyMashedPotatoes,
         inputs
         {
-            item 2 tags[Potato] mode:keep,
+            item 2 [Base.Potato] tags[hydrocraft:potato] flags[ItemCount],
             item 1 [Hydrocraft.HCPotatopeeler] mode:keep,
-            item 1 [Base.Pot],
+            item 1 [Base.Pot] flags[ItemCount],
             item 1 [Base.Butter;Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
         }
@@ -348,8 +348,8 @@ module Hydrocraft
         OnCreate = HCR42.Hydrocraft_OnCreate_CutIntoTwoPieces,
         inputs
         {
-            item 1 [Hydrocraft.HCMashedpotatosplain],
-            item 2 [Base.Bowl],
+            item 1 [Hydrocraft.HCMashedpotatosplain] flags[ItemCount],
+            item 2 [Base.Bowl] flags[ItemCount],
         }
         outputs
         {
@@ -366,8 +366,8 @@ module Hydrocraft
         OnCreate = HCR42.Hydrocraft_OnCreate_CutIntoTwoPieces,
         inputs
         {
-            item 1 [Hydrocraft.HCMashedpotatoscreamy],
-            item 2 [Base.Bowl],
+            item 1 [Hydrocraft.HCMashedpotatoscreamy] flags[ItemCount],
+            item 2 [Base.Bowl] flags[ItemCount],
         }
         outputs
         {
@@ -388,7 +388,7 @@ module Hydrocraft
             item 1 [Base.RoastingPan],
             item 1 [Base.KitchenKnife] mode:keep,
             item 1 [Hydrocraft.HCPotatopeeler] mode:keep,
-            item 2 tags[Potato] mode:keep,
+            item 2 [Base.Potato] tags[hydrocraft:potato] flags[ItemCount],
             item 1 [Base.OilVegetable],
         }
         outputs
@@ -408,7 +408,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
             item 1 [Base.BakingTray] mode:destroy,
-            item 2 tags[Potato] mode:keep,
+            item 2 [Base.Potato] tags[hydrocraft:potato] flags[ItemCount],
             item 1 [Hydrocraft.HCPotatopeeler] mode:keep,
         }
         outputs
@@ -428,7 +428,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Hydrocraft.HCPotatomush],
+            item 1 [Hydrocraft.HCPotatomush] flags[ItemCount],
             item 1 [Hydrocraft.HCZipperbag],
         }
         outputs

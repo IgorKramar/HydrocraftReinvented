@@ -10,7 +10,7 @@ function recipe_HCMRE_OpenPackage(items, result, player)
 	inv:AddItem("Hydrocraft.HCMREbread");
 	inv:AddItem("Hydrocraft.HCPurifyingtablets");
 	inv:AddItem("Hydrocraft.HCPurifyingtablets");
-	inv:AddItem("Hydrocraft.AlcoholWipes");
+	inv:AddItem("Base.AlcoholWipes");
 
 	local items = {"Hydrocraft.HCCandymnm", "Hydrocraft.HCCandyrainbow", "Hydrocraft.HCCandycorn", "Hydrocraft.HCGum", "Hydrocraft.HCGum2", "Hydrocraft.HCGum3", "Base.Chocolate", "Hydrocraft.HCGummyworms", "Hydrocraft.HCChocolatedark", "Hydrocraft.HCGummybears", "Hydrocraft.HCJellybeans", "Hydrocraft.HCTaffy", "Hydrocraft.HCEnergybar"};
 

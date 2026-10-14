@@ -18,7 +18,7 @@ module Hydrocraft
         DisplayName =   Metal File,
         Icon    =   HCFile,
 		DisplayCategory          =   CraftInd,
-		WorldStaticModel = WorldItem-HCFile,
+		WorldStaticModel = Hydrocraft.WorldItem-HCFile,
     }
     item HCKillerRivet
     {

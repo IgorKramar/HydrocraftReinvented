@@ -1,0 +1,21 @@
+{
+  "asset": "common/media/models_X/WorldItems/HCRSpikeTrap.x",
+  "texture": "common/media/textures/WorldItems/HCRSpikeTrap.png",
+  "source_sha256": "76ea61e788b211534d9000d2d04acabd46f1b686e3a2567e375b70a367d6b8b3",
+  "output_sha256": "655574f8d5ead4079acd5e0b40448414d9de0cd9cbe3ad8e8635ba93f027e4c5",
+  "processing": "B42.21 FileTask_LoadMesh.loadX StaticMesh (DirectX text mesh, normals, UV; no skeleton); V pre-flipped for Assimp X parser; 0.60 m XZ footprint, Y-up bottom pivot; separate PNG albedo; restored 49 steel nails omitted by Trellis, sampled grey from same atlas; geometry independently re-read and round-trip checked; avoids native static TXT applyToMesh skinningData bug",
+  "vertices": 5771,
+  "triangles": 5121,
+  "bounds": [
+    [
+      -0.299999862909317,
+      0.0,
+      -0.30000001192092896
+    ],
+    [
+      0.299999862909317,
+      0.1937701553106308,
+      0.30000001192092896
+    ]
+  ]
+}

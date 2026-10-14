@@ -24,7 +24,7 @@ module Hydrocraft
         	icon 		= 	HCBookcover,
 		DisplayCategory	=   Useless,
 		StaticModel	 = HCBookcover,
-		WorldStaticModel = HCBookcover,
+		WorldStaticModel = Hydrocraft.HCBookcover,
     }
     item HCBookmark
     {
@@ -35,7 +35,7 @@ module Hydrocraft
         	icon 		= 	HCBookmark,
 		DisplayCategory	=   Useless,
 		StaticModel	 = HCBookmarked,
-		WorldStaticModel = HCBookmarked,
+		WorldStaticModel = Hydrocraft.HCBookmarked,
     }
     item HCPassport
     {
@@ -48,7 +48,7 @@ module Hydrocraft
         	PageToWrite 	=   	10,
 			DisplayCategory	=   LitW,
 			StaticModel	 = Book,
-			WorldStaticModel = HCBookPassport,
+			WorldStaticModel = Hydrocraft.HCBookPassport,
     }
     item HCBookphone
     {
@@ -61,7 +61,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookphone,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookphoneOpen,
-		WorldStaticModel = HCBookphoneGround,
+		WorldStaticModel = Hydrocraft.HCBookphoneGround,
     }
     item HCBookalgebra
     {
@@ -76,7 +76,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookalgebra,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookalgebraOpen,
-		WorldStaticModel = HCBookalgebraGround,
+		WorldStaticModel = Hydrocraft.HCBookalgebraGround,
     }
     item HCBookastronomy
     {
@@ -89,7 +89,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookastronomy,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookastronomyOpen,
-		WorldStaticModel = HCBookastronomyGround,
+		WorldStaticModel = Hydrocraft.HCBookastronomyGround,
     }
     item HCBookalmanac
     {
@@ -104,7 +104,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookalmanac,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookalmanacOpen,
-		WorldStaticModel = HCBookalmanacGround,
+		WorldStaticModel = Hydrocraft.HCBookalmanacGround,
     }
     item HCBookamericanhistory
     {
@@ -119,7 +119,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookamericanhistory,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookamericanhistoryOpen,
-		WorldStaticModel = HCBookamericanhistoryGround,
+		WorldStaticModel = Hydrocraft.HCBookamericanhistoryGround,
     }
     item HCBookanimalhusbandry
     {
@@ -132,7 +132,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookanimalhusbandry,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookanimalhusbandryOpen,
-		WorldStaticModel = HCBookanimalhusbandryGround,
+		WorldStaticModel = Hydrocraft.HCBookanimalhusbandryGround,
     }
     item HCBookbedtime
     {
@@ -147,7 +147,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookbedtime,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookbedtimeOpen,
-		WorldStaticModel = HCBookbedtimeGround,
+		WorldStaticModel = Hydrocraft.HCBookbedtimeGround,
     }
     item HCBookcalculus
     {
@@ -162,7 +162,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookcalculus,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookcalculusOpen,
-		WorldStaticModel = HCBookcalculusGround,
+		WorldStaticModel = Hydrocraft.HCBookcalculusGround,
     }
     item HCBookceltic
     {
@@ -175,7 +175,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookceltic,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookcelticOpen,
-		WorldStaticModel = HCBookcelticGround,
+		WorldStaticModel = Hydrocraft.HCBookcelticGround,
     }
     item HCBookchemistry
     {
@@ -188,7 +188,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookchemistry,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookchemistryOpen,
-		WorldStaticModel = HCBookchemistryGround,
+		WorldStaticModel = Hydrocraft.HCBookchemistryGround,
     }
     item HCBookboneworking
     {
@@ -201,7 +201,7 @@ module Hydrocraft
         ReplaceOnUse    =   	HCBookboneworking,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookboneworkingOpen,
-		WorldStaticModel = HCBookboneworkingGround,
+		WorldStaticModel = Hydrocraft.HCBookboneworkingGround,
     }
     item HCBookdictionary
     {
@@ -216,7 +216,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookdictionary,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookdictionaryOpen,
-		WorldStaticModel = HCBookdictionaryGround,
+		WorldStaticModel = Hydrocraft.HCBookdictionaryGround,
     }
     item HCBookencyclopedia
     {
@@ -231,7 +231,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookencyclopedia,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookencyclopediaOpen,
-		WorldStaticModel = HCBookencyclopediaGround,
+		WorldStaticModel = Hydrocraft.HCBookencyclopediaGround,
     }
     item HCBookenglish
     {
@@ -246,7 +246,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookenglish,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookenglishOpen,
-		WorldStaticModel = HCBookenglishGround,
+		WorldStaticModel = Hydrocraft.HCBookenglishGround,
     }
     item HCBookentomology
     {
@@ -259,7 +259,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookentomology,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookentomologyOpen,
-		WorldStaticModel = HCBookentomologyGround,
+		WorldStaticModel = Hydrocraft.HCBookentomologyGround,
     }
     item HCBookfairytale
     {
@@ -274,7 +274,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookfairytale,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookfairytaleOpen,
-		WorldStaticModel = HCBookfairytaleGround,
+		WorldStaticModel = Hydrocraft.HCBookfairytaleGround,
     }
     item HCBookfrench
     {
@@ -289,7 +289,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookfrench,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookfrenchOpen,
-		WorldStaticModel = HCBookfrenchGround,
+		WorldStaticModel = Hydrocraft.HCBookfrenchGround,
     }
     item HCBookgenealogy
     {
@@ -304,7 +304,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookgenealogy,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookgenealogyOpen,
-		WorldStaticModel = HCBookgenealogyGround,
+		WorldStaticModel = Hydrocraft.HCBookgenealogyGround,
     }
     item HCBookgeometry
     {
@@ -319,7 +319,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookgeometry,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookgeometryOpen,
-		WorldStaticModel = HCBookgeometryGround,
+		WorldStaticModel = Hydrocraft.HCBookgeometryGround,
     }
     item HCBookgerman
     {
@@ -334,7 +334,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookgerman,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookgermanOpen,
-		WorldStaticModel = HCBookgermanGround,
+		WorldStaticModel = Hydrocraft.HCBookgermanGround,
     }
     item HCBookitalian
     {
@@ -349,7 +349,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookitalian,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookitalianOpen,
-		WorldStaticModel = HCBookitalianGround,
+		WorldStaticModel = Hydrocraft.HCBookitalianGround,
     }
     item HCBookmath
     {
@@ -364,7 +364,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookmath,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookmathOpen,
-		WorldStaticModel = HCBookmathGround,
+		WorldStaticModel = Hydrocraft.HCBookmathGround,
     }
     item HCBookmedical
     {
@@ -377,7 +377,7 @@ module Hydrocraft
         ReplaceOnUse    =  HCBookmedical,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookmedicalOpen,
-		WorldStaticModel = HCBookmedicalGround,
+		WorldStaticModel = Hydrocraft.HCBookmedicalGround,
     }
     item HCBookmusic
     {
@@ -390,7 +390,7 @@ module Hydrocraft
         ReplaceOnUse    =   	HCBookmusic,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookmusicOpen,
-		WorldStaticModel = HCBookmusicGround,
+		WorldStaticModel = Hydrocraft.HCBookmusicGround,
     }
     item HCBookpaleontology
     {
@@ -405,7 +405,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookpaleontology,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookpaleontologyOpen,
-		WorldStaticModel = HCBookpaleontologyGround,
+		WorldStaticModel = Hydrocraft.HCBookpaleontologyGround,
     }
     item HCBookpoetry
     {
@@ -420,7 +420,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookpoetry,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookpoetryOpen,
-		WorldStaticModel = HCBookpoetryGround,
+		WorldStaticModel = Hydrocraft.HCBookpoetryGround,
     }
     item HCBookscrap
     {
@@ -435,7 +435,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookscrap,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookscrapOpen,
-		WorldStaticModel = HCBookscrapGround,
+		WorldStaticModel = Hydrocraft.HCBookscrapGround,
     }
     item HCBookspanish
     {
@@ -450,7 +450,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookspanish,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookspanishOpen,
-		WorldStaticModel = HCBookspanishGround,
+		WorldStaticModel = Hydrocraft.HCBookspanishGround,
     }
     item HCBookthesaurus
     {
@@ -465,7 +465,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookthesaurus,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookthesaurusOpen,
-		WorldStaticModel = HCBookthesaurusGround,
+		WorldStaticModel = Hydrocraft.HCBookthesaurusGround,
     }
     item HCBooktreeguide
     {
@@ -478,7 +478,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBooktreeguide,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBooktreeguideOpen,
-		WorldStaticModel = HCBooktreeguideGround,
+		WorldStaticModel = Hydrocraft.HCBooktreeguideGround,
     }
     item HCBookstrigonometry
     {
@@ -524,7 +524,7 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Anatomy Textbook,
 		Icon			=	HCBookanatomy,
-		LearnedRecipes  =   Remove Head;Skin Corpse;Dissect Corpse;Clean Dissection Table,
+		LearnedRecipes  =   Remove Head;Skin Corpse;Dissect Corpse;Clean Dissection Table;Clean Dissection Table (Bleach),
         ReplaceOnUse    =   HCBookanatomy,
 		DisplayCategory	=   LitR,
     }
@@ -611,7 +611,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookfishguide,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookfishguideOpen,
-		WorldStaticModel = HCBookfishguideGround,
+		WorldStaticModel = Hydrocraft.HCBookfishguideGround,
     }
     item HCBookflowerguide
     {
@@ -635,7 +635,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookgeology,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookgeologyOpen,
-		WorldStaticModel = HCBookgeologyGround,
+		WorldStaticModel = Hydrocraft.HCBookgeologyGround,
     }
     item HCBookgemcutting
     {
@@ -722,7 +722,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookmammalguide,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookmammalguideOpen,
-		WorldStaticModel = HCBookmammalguideGround,
+		WorldStaticModel = Hydrocraft.HCBookmammalguideGround,
     }
     item HCBooknorsemyths
     {
@@ -800,7 +800,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookreptileguide,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookreptileguideOpen,
-		WorldStaticModel = HCBookreptileguideGround,
+		WorldStaticModel = Hydrocraft.HCBookreptileguideGround,
     }
     item HCBookrobotics
     {
@@ -944,7 +944,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookarchery,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookarcheryOpen,
-		WorldStaticModel = HCBookarcheryGround,
+		WorldStaticModel = Hydrocraft.HCBookarcheryGround,
     }
     item HCBookpottery
     {
@@ -1052,7 +1052,7 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Steel Working Textbook,
 		Icon			=	HCBooksteelworking,
-		LearnedRecipes  =   Make Clothespins,
+		LearnedRecipes  =   Make Clothespins;Make Steel Pruning Shears,
         ReplaceOnUse    =   HCBooksteelworking,
 		DisplayCategory	=   LitR,
     }
@@ -1173,7 +1173,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Masonry Textbook,
 		Icon		=	HCBookmasonry,
-		LearnedRecipes  =   	Make Gypsum Powder;Make Gypsum Powder (Gypsum Powder),
+		LearnedRecipes  =   	Make Gypsum Powder;Make Gypsum Powder (Gypsum Powder);Make Smelter,
         	ReplaceOnUse    =   	HCBookmasonry,
 		DisplayCategory	=   LitR,
     }
@@ -1221,7 +1221,7 @@ module Hydrocraft
         ReplaceOnUse    =   	HCBooktailoring,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBooktailoringOpen,
-		WorldStaticModel = HCBooktailoringGround,
+		WorldStaticModel = Hydrocraft.HCBooktailoringGround,
     }
     item HCBookhatter
     {
@@ -1307,7 +1307,7 @@ module Hydrocraft
 		ItemType		=	base:literature,											
 		DisplayName	=	Welding Textbook,                                   
 		Icon		=	HCBookwelding,
-		LearnedRecipes  =  Build Industrial Furnace;Upgrade to Industrial Furnace;Build Arc Furnace;Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Iron Wheel;Make Steel Wheel;Make Iron Pulley;Make Steel Pulley;Make Wood Pulley;Make Mine Cart;Make Steel Chain,
+		LearnedRecipes  =  Build Industrial Furnace;Upgrade to Industrial Furnace;Build Arc Furnace;Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Iron Wheel;Make Steel Wheel;Make Iron Pulley;Make Steel Pulley;Make Wood Pulley;Make Mine Cart;Make Steel Chain;Make Copper Pipe,
         ReplaceOnUse    =   	HCBookwelding,
 		DisplayCategory	=   LitR,
     }
@@ -1340,7 +1340,7 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Industrial Mechanics Textbook,
 		Icon		=	HCBookindustrial,
-		LearnedRecipes  =   Build Mechanical Thresher;Build Trip Hammer;Build Steam Boiler;Build Iron Furnace;Build Steam Engine;Build Steam Machine;Upgrade to Steam Hammer;Make Copper Gears;Make Tin Gears;Make Bronze Gears;Make Iron Gears;Make Invar Gears;Make Lead Gears;Make Steel Gears;Make Titanium Gears;Make Small Rolling Mill;Make Electric Piston;Make Macerator;Make Industrial Press;Make Fan Blade;Make Duct Fan;Make Metal Duct,
+		LearnedRecipes  =   Build Mechanical Thresher;Build Trip Hammer;Build Steam Boiler;Build Iron Furnace;Build Steam Engine;Build Steam Machine;Upgrade to Steam Hammer;Make Copper Gears;Make Tin Gears;Make Bronze Gears;Make Iron Gears;Make Invar Gears;Make Lead Gears;Make Steel Gears;Make Titanium Gears;Make Small Rolling Mill;Make Electric Piston;Make Macerator;Make Industrial Press;Make Fan Blade;Make Duct Fan;Make Metal Duct;Make Lever,
         ReplaceOnUse    =   	HCBookindustrial,
 		DisplayCategory	=   LitR,
     }
@@ -1366,7 +1366,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookrocketry,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookrocketryOpen,
-		WorldStaticModel = HCBookrocketryGround,
+		WorldStaticModel = Hydrocraft.HCBookrocketryGround,
     }
     item HCBookjunk
     {
@@ -1379,7 +1379,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookjunk,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookjunkOpen,
-		WorldStaticModel = HCBookjunkGround,
+		WorldStaticModel = Hydrocraft.HCBookjunkGround,
     }
     item HCBookauto
     {
@@ -1414,7 +1414,7 @@ module Hydrocraft
         	ReplaceOnUse    = 	HCBookanarchist,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookanarchistOpen,
-		WorldStaticModel = HCBookanarchistGround,
+		WorldStaticModel = Hydrocraft.HCBookanarchistGround,
     }
     item HCBookanarchisthmtd
     {
@@ -1427,7 +1427,7 @@ module Hydrocraft
         	ReplaceOnUse    = 	HCBookanarchisthmtd,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookanarchistOpen,
-		WorldStaticModel = HCBookanarchistGround,
+		WorldStaticModel = Hydrocraft.HCBookanarchistGround,
     }
     item HCBookanarchistammonal
     {
@@ -1440,7 +1440,7 @@ module Hydrocraft
         	ReplaceOnUse    = 	HCBookanarchistammonal,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookanarchistOpen,
-		WorldStaticModel = HCBookanarchistGround,
+		WorldStaticModel = Hydrocraft.HCBookanarchistGround,
     }
     item HCBookanarchistpn02
     {
@@ -1453,7 +1453,7 @@ module Hydrocraft
         	ReplaceOnUse    = 	HCBookanarchistpn02,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookanarchistOpen,
-		WorldStaticModel = HCBookanarchistGround,
+		WorldStaticModel = Hydrocraft.HCBookanarchistGround,
     }
     item HCBookrussian
     {
@@ -1520,7 +1520,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookportuguise,
 		DisplayCategory	=   LitE,
 		StaticModel = HCBookportuguiseOpen,
-		WorldStaticModel = HCBookportuguiseGround,
+		WorldStaticModel = Hydrocraft.HCBookportuguiseGround,
     }
     item HCBookhindi
     {
@@ -1711,7 +1711,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookgardening,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookgardeningOpen,
-		WorldStaticModel = HCBookgardeningGround,
+		WorldStaticModel = Hydrocraft.HCBookgardeningGround,
     }
     item HCBooksculpting
     {
@@ -1846,7 +1846,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookdistillery,
 		DisplayCategory	=   LitR,
 		StaticModel = HCBookdistilleryOpen,
-		WorldStaticModel = HCBookdistilleryGround,
+		WorldStaticModel = Hydrocraft.HCBookdistilleryGround,
     }
     item HCBookphotography
     {

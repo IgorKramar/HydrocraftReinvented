@@ -786,7 +786,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCSalmon],
+            item 1 [Hydrocraft.HCSalmon] flags[ItemCount],
             item 1 [Base.MeatCleaver;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife] mode:keep,
         }
         outputs
@@ -805,7 +805,7 @@ module Hydrocraft
         {
             item 1 [Base.Pan] mode:keep,
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
-            item 1 [Hydrocraft.HCHerring],
+            item 1 [Hydrocraft.HCHerring] flags[ItemCount],
         }
         outputs
         {
@@ -822,8 +822,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
-            item 1 [Hydrocraft.HCCrab],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCCrab] flags[ItemCount],
             item 1 [Base.Salt],
         }
         outputs
@@ -841,8 +841,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
-            item 1 [Hydrocraft.HCCrayfish],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCCrayfish] flags[ItemCount],
             item 1 [Base.Salt],
         }
         outputs
@@ -861,8 +861,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcgivemusselshell,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
-            item 1 [Hydrocraft.HCMussel],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Hydrocraft.HCMussel] flags[ItemCount],
             item 1 [Base.Salt],
         }
         outputs

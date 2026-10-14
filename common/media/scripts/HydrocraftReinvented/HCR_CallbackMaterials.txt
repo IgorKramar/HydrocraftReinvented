@@ -1,0 +1,88 @@
+module Hydrocraft
+{
+    /* Reachable legacy callback rewards, not inventory livestock.
+       The five trace-manure items retain upstream Animals.txt mass/type/icons.
+       Native Dung_Cow/Sheep are whole 1 kg food-class compost items, whereas
+       these original foraging traces are 0.2 kg Normal items. */
+    item HCHorsepoopferal
+    {
+        ItemType = base:normal,
+        Weight = 0.2,
+        DisplayName = Feral Horse Poop,
+        Icon = HCHorsepoop,
+        DisplayCategory = AnimalPoop,
+        Tags = hydrocraft:shit,
+    }
+    item HCDonkeypoopferal
+    {
+        ItemType = base:normal,
+        Weight = 0.2,
+        DisplayName = Feral Donkey Poop,
+        Icon = HCDonkeypoop,
+        DisplayCategory = AnimalPoop,
+        Tags = hydrocraft:shit,
+    }
+    item HCGoatpoopferal
+    {
+        ItemType = base:normal,
+        Weight = 0.2,
+        DisplayName = Feral Goat Poop,
+        Icon = HCGoatpoop,
+        DisplayCategory = AnimalPoop,
+        Tags = hydrocraft:shit,
+    }
+    item HCSheeppoopferal
+    {
+        ItemType = base:normal,
+        Weight = 0.2,
+        DisplayName = Feral Sheep Poop,
+        Icon = HCSheeppoop,
+        DisplayCategory = AnimalPoop,
+        Tags = hydrocraft:shit,
+    }
+    item HCCowpoopferal
+    {
+        ItemType = base:normal,
+        Weight = 0.2,
+        DisplayName = Feral Cow Poop,
+        Icon = HCCowpoop,
+        DisplayCategory = AnimalPoop,
+        Tags = hydrocraft:shit,
+    }
+    /* Upstream Recycling Rubber.txt and Boneworking.txt define these at 0.1. */
+    item HCRubberscrap
+    {
+        ItemType = base:normal,
+        Weight = 0.1,
+        DisplayName = Scrap Rubber,
+        Icon = HCRubberscrap,
+        DisplayCategory = CraftInd,
+    }
+    item HCMusselshell
+    {
+        ItemType = base:normal,
+        Weight = 0.1,
+        DisplayName = Mussel Shell,
+        Icon = HCMusselshell,
+        DisplayCategory = Junk,
+    }
+    /* Inferred definitions: legacy callbacks name both materials but upstream
+       has no declarations. 0.1 follows current plastic/chemical powder units.
+       Their removed processing recipes are not reintroduced here. */
+    item HCPlasticscrap
+    {
+        ItemType = base:normal,
+        Weight = 0.1,
+        DisplayName = Scrap Plastic,
+        Icon = HCPlasticscrap,
+        DisplayCategory = CraftInd,
+    }
+    item HCSiliconpowder
+    {
+        ItemType = base:normal,
+        Weight = 0.1,
+        DisplayName = Silicon Powder,
+        Icon = HCSiliconpowder,
+        DisplayCategory = CraftMet,
+    }
+}

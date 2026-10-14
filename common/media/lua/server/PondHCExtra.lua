@@ -2,7 +2,7 @@
 --Randomize findings for Fishing in Pond.
 function HCPondFishing(items, result, player)
 player:getStats():add(CharacterStat.FATIGUE, 0.05)
-    skill = player:getPerkLevel(Perks.PlantScavenging);
+    skill = player:getPerkLevel(Perks.Fishing);
 
     pondLvl0 = 1024+(18.6*skill);
     pondLvl1 = 512+(18.6*skill);
@@ -43,7 +43,7 @@ player:getStats():add(CharacterStat.FATIGUE, 0.05)
     elseif chance <= pondLvl9+pondLvl10 then
         secondChance = ZombRand(2);
         if secondChance == 0 then
-            player:getInventory():AddItem("Base.Pike");
+            player:getInventory():AddItem("Base.Muskellunge");
         elseif secondChance == 1 then
             player:getInventory():AddItem("Hydrocraft.HCZander");
         end
@@ -51,9 +51,9 @@ player:getStats():add(CharacterStat.FATIGUE, 0.05)
     elseif chance <= pondLvl8+pondLvl9+pondLvl10 then
         secondChance = ZombRand(5);
         if secondChance == 0 then
-            player:getInventory():AddItem("Base.Bass");
+            player:getInventory():AddItem("Base.LargemouthBass");
         elseif secondChance == 1 then
-            player:getInventory():AddItem("Base.Trout");
+            player:getInventory():AddItem("Base.SpottedBass");
         elseif secondChance == 2 then
             player:getInventory():AddItem("Hydrocraft.HCCarp");
         elseif secondChance == 3 then
@@ -65,9 +65,9 @@ player:getStats():add(CharacterStat.FATIGUE, 0.05)
     elseif chance <= pondLvl7+pondLvl8+pondLvl9+pondLvl10 then
         secondChance = ZombRand(5);
         if secondChance == 0 then
-            player:getInventory():AddItem("Base.Panfish");
+            player:getInventory():AddItem("Base.Bluegill");
         elseif secondChance == 1 then
-            player:getInventory():AddItem("Base.Perch");
+            player:getInventory():AddItem("Base.YellowPerch");
 		elseif secondChance == 2 then
             player:getInventory():AddItem("Hydrocraft.HCAsp");
 		elseif secondChance == 3 then
@@ -79,7 +79,7 @@ player:getStats():add(CharacterStat.FATIGUE, 0.05)
     elseif chance <= pondLvl6+pondLvl7+pondLvl8+pondLvl9+pondLvl10 then
         secondChance = ZombRand(4);
         if secondChance == 0 then
-            player:getInventory():AddItem("Base.Catfish");
+            player:getInventory():AddItem("Base.ChannelCatfish");
         elseif secondChance == 1 then
             player:getInventory():AddItem("Hydrocraft.HCBrill");
 		elseif secondChance == 2 then
@@ -91,7 +91,7 @@ player:getStats():add(CharacterStat.FATIGUE, 0.05)
     elseif chance <= pondLvl5+pondLvl6+pondLvl7+pondLvl8+pondLvl9+pondLvl10 then
         secondChance = ZombRand(4)
         if secondChance == 0 then
-            player:getInventory():AddItem("Base.Crappie");
+            player:getInventory():AddItem("Base.BlackCrappie");
         elseif secondChance == 1 then	
             player:getInventory():AddItem("Hydrocraft.HCChub");
         elseif secondChance == 2 then

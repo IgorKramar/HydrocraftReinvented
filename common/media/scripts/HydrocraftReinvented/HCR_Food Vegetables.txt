@@ -91,7 +91,7 @@ module Hydrocraft
         Lipids 				= 		0.3,
         Calories 			=		258,
 	DisplayCategory          =   FoodP,
-	Tags = Potato,
+	Tags = hydrocraft:potato,
     }
     item HCChinesecabbage
     {
@@ -299,7 +299,7 @@ module Hydrocraft
         Lipids 				= 		0.9,
         Calories 			=		234,
 	ReplaceOnUse			=		Hydrocraft.HCPumpkingreenseeds,
-	WorldStaticModel = WorldItem-HCPumpkinGreen,
+	WorldStaticModel = Hydrocraft.WorldItem-HCPumpkinGreen,
     }
     item HCPumpkinwhite
     {
@@ -320,7 +320,7 @@ module Hydrocraft
         Lipids 				= 		0.9,
         Calories 			=		234,
 	ReplaceOnUse			=		Hydrocraft.HCPumpkinwhiteseeds,
-	WorldStaticModel = WorldItem-HCPumpkinWhite,
+	WorldStaticModel = Hydrocraft.WorldItem-HCPumpkinWhite,
     }
     item HCPumpkinlarge
     {
@@ -471,7 +471,7 @@ module Hydrocraft
         Lipids 				= 		0.3,
         Calories 			=		207,
 	DisplayCategory          =   FoodP,
-	Tags = Potato,
+	Tags = hydrocraft:potato,
     }
     item HCPotatored
     {
@@ -490,7 +490,7 @@ module Hydrocraft
         Lipids 				= 		0.3,
         Calories 			=		210,
 	DisplayCategory          =   FoodP,
-	Tags = Potato,
+	Tags = hydrocraft:potato,
     }
     item HCChilipepper
     {
@@ -840,7 +840,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcpumpkinseeds8,
         inputs
         {
-            item 1 [Hydrocraft.HCPumpkin],
+            item 1 [Hydrocraft.HCPumpkin] flags[ItemCount],
             item 1 [Hydrocraft.HCPumpkinknife] mode:keep,
         }
         outputs
@@ -857,7 +857,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCPumpkingreen],
+            item 1 [Hydrocraft.HCPumpkingreen] flags[ItemCount],
             item 1 [Hydrocraft.HCPumpkinknife] mode:keep,
         }
         outputs
@@ -874,7 +874,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCPumpkinwhite],
+            item 1 [Hydrocraft.HCPumpkinwhite] flags[ItemCount],
             item 1 [Hydrocraft.HCPumpkinknife] mode:keep,
         }
         outputs
@@ -891,7 +891,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCPumpkinlarge],
+            item 1 [Hydrocraft.HCPumpkinlarge] flags[ItemCount],
             item 1 [Hydrocraft.HCPumpkinknife] mode:keep,
         }
         outputs
@@ -908,7 +908,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCPumpkinbuskin],
+            item 1 [Hydrocraft.HCPumpkinbuskin] flags[ItemCount],
             item 1 [Hydrocraft.HCPumpkinknife] mode:keep,
         }
         outputs

@@ -11,7 +11,7 @@ module Hydrocraft
 		DisplayCategory          =   	LightSource,
 		StaticModel 			 = 	  	HC_LavaLamp,
 		AttachmentType  		 = 		FlashlightBig,
-		WorldStaticModel 		 = 	  	WorldItem-HC_LavaLamp,
+		WorldStaticModel = Hydrocraft.WorldItem-HC_LavaLamp,
     }
     item HCLampshade
     {
@@ -21,7 +21,7 @@ module Hydrocraft
         DisplayName    			 =    	Lamp Shade,
         Icon    				 =    	HCLampshade,
 		DisplayCategory          =   	Misc,
-		WorldStaticModel 		 = 	  	WorldItem-HCLampshade,
+		WorldStaticModel = Hydrocraft.WorldItem-HCLampshade,
     }
     item HCRoadflare
     {
@@ -35,7 +35,7 @@ module Hydrocraft
         secondaryAnimMask 		 = 	  HoldingUmbrellaLeft,		
         StaticModel 			 = 	  HC_RoadFlare_AP,
 	    AttachmentType 			 = 	  Hammer,		
-		WorldStaticModel 		 = 	  WorldItem-HCRoadFlare,
+		WorldStaticModel = Hydrocraft.WorldItem-HCRoadFlare,
     }
     item HCRoadflareon
     {
@@ -55,7 +55,7 @@ module Hydrocraft
         secondaryAnimMask 		 = 	  HoldingUmbrellaLeft,		
         StaticModel 			 = 	  HC_RoadFlare_AP,
 	    AttachmentType 			 = 	  Hammer,			
-		WorldStaticModel 		 = 	  WorldItem-HCRoadFlare,
+		WorldStaticModel = Hydrocraft.WorldItem-HCRoadFlare,
     }
     item HCLaserpointer
     {
@@ -93,7 +93,7 @@ module Hydrocraft
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
 		StaticModel 			= 	HC_GlowstickRedAZ,
 		AttachmentType 			= 	Hammer,			
-		WorldStaticModel 		= 	WorldItem-GlowstickRedAZ,
+		WorldStaticModel = Hydrocraft.WorldItem-GlowstickRedAZ,
     }
     item HCGlowstickredon
     {
@@ -113,7 +113,7 @@ module Hydrocraft
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
 		StaticModel 			= 	HC_GlowstickRedAZ,
 		AttachmentType 			= 	Hammer,	
-		WorldStaticModel 		= 	WorldItem-GlowstickRedAZ,
+		WorldStaticModel = Hydrocraft.WorldItem-GlowstickRedAZ,
     }
     item HCGlowstickblue
     {
@@ -127,7 +127,7 @@ module Hydrocraft
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
 		StaticModel 			= 	HC_GlowstickBlueAZ,
 		AttachmentType 			= 	Hammer,			
-		WorldStaticModel 		= 	WorldItem-GlowstickBlueAZ,
+		WorldStaticModel = Hydrocraft.WorldItem-GlowstickBlueAZ,
     }
     item HCGlowstickblueon
     {
@@ -147,7 +147,7 @@ module Hydrocraft
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
 		StaticModel 			= 	HC_GlowstickBlueAZ,
 		AttachmentType 			= 	Hammer,	
-		WorldStaticModel 		= 	WorldItem-GlowstickBlueAZ,
+		WorldStaticModel = Hydrocraft.WorldItem-GlowstickBlueAZ,
     }
     item HCGlowstickgreen
     {
@@ -161,7 +161,7 @@ module Hydrocraft
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
 		StaticModel 			= 	HC_GlowstickGreenAZ,
 		AttachmentType 			= 	Hammer,	
-		WorldStaticModel 		= 	WorldItem-GlowstickGreenAZ,
+		WorldStaticModel = Hydrocraft.WorldItem-GlowstickGreenAZ,
     }
     item HCGlowstickgreenon
     {
@@ -181,7 +181,7 @@ module Hydrocraft
         secondaryAnimMask 		= 	HoldingUmbrellaLeft,
 		StaticModel 			= 	HC_GlowstickGreenAZ,
 		AttachmentType 			= 	Hammer,	
-		WorldStaticModel 		= 	WorldItem-GlowstickGreenAZ,
+		WorldStaticModel = Hydrocraft.WorldItem-GlowstickGreenAZ,
     }
     item HCLighterempty
     {
@@ -192,7 +192,7 @@ module Hydrocraft
 		Icon			 =	Lighter,
 		DisplayCategory	 =	Fuel,
 		StaticModel		 =	Zippo,
-		WorldStaticModel =	ZippoGround,
+		WorldStaticModel = ZippoGround,
     }
     item HCLighterfluid
     {

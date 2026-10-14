@@ -399,7 +399,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCChocolatedark],
+            item 1 [Hydrocraft.HCChocolatedark] flags[ItemCount],
             item 1 [Hydrocraft.HCCheesegrater] mode:keep,
         }
         outputs
@@ -410,7 +410,7 @@ module Hydrocraft
     craftRecipe Take Stick of Gum
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         inputs
@@ -425,7 +425,7 @@ module Hydrocraft
     craftRecipe Take Stick of Gum (Stick of Chewing Gum)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         inputs
@@ -440,7 +440,7 @@ module Hydrocraft
     craftRecipe Take Stick of Gum (Stick of Chewing Gum 2)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         inputs
@@ -461,11 +461,11 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCTrailmix;Hydrocraft.HCCandycorn],
-            item 1 [Hydrocraft.HCCandymnm;Hydrocraft.HCCandyrainbow],
-            item 1 [Hydrocraft.HCGummybears;Hydrocraft.HCGummyworms],
-            item 1 [Hydrocraft.HCJellybeans;Hydrocraft.HCTaffy],
-            item 1 [Hydrocraft.HCCandycherry;Hydrocraft.HCCandyapple],
+            item 1 [Hydrocraft.HCTrailmix;Hydrocraft.HCCandycorn] flags[ItemCount],
+            item 1 [Hydrocraft.HCCandymnm;Hydrocraft.HCCandyrainbow] flags[ItemCount],
+            item 1 [Hydrocraft.HCGummybears;Hydrocraft.HCGummyworms] flags[ItemCount],
+            item 1 [Hydrocraft.HCJellybeans;Hydrocraft.HCTaffy] flags[ItemCount],
+            item 1 [Hydrocraft.HCCandycherry;Hydrocraft.HCCandyapple] flags[ItemCount],
         }
         outputs
         {

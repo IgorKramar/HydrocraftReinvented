@@ -1,0 +1,188 @@
+[
+  {
+    "asset": "common/media/textures/Item_HCPottedtomatoready.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/gpt-image-1.5/edit",
+    "request_id": "01a13b4d-f2e3-7892-8a9d-e3410f1ad648",
+    "prompt": "Completely repaint the plant in this reference as a clean game sprite, rather than retaining any existing edge pixels. A mature tomato plant with three thin natural brown support stakes, medium green serrated compound leaves and several distinct clusters of ripe small red tomatoes. Roots meet at the bottom centre. Stakes are plain brown wood, with dark olive ties, no white string. Only the plant, isolated on genuine transparent RGBA alpha. No planter, pot, soil, ground, shadow, backdrop or checkerboard. Project Zomboid Hydrocraft inventory art: compact detailed hand-painted pixel sprite, muted natural colours, crisp small coloured pixels and restrained dark outlines, isometric three-quarter view seen from above at 30 degrees, light from upper left. Legible silhouette when downsampled to 110 pixels wide. Opaque coloured leaves and fruit; clean dark green or purple antialiased edges directly into transparent alpha. Absolutely no white matte, white rim, pale glow, bloom, noisy light speckles, grey outline, white background or white edge pixels. Centre the complete subject with generous transparent margins, nothing cropped, no text or symbols.",
+    "reference": "common/media/textures/Item_HCPottedtomatoready.png",
+    "background": "transparent",
+    "quality": "medium",
+    "source_sha256": "aa36d0c76ec22e89b2432a4c31244f6638f5d6c9a42bbbce406c4c3939bcc14f",
+    "output_sha256": "564849fd7a8b332794af08f3b27312f21734d969e9b3c342c0471427965e6ce0",
+    "processing_tool": "tools/import_clean_plants.py",
+    "planter_reference": "docs/PLANTER_SCALE.json",
+    "processing": "Regenerated foliage with native transparent alpha; trim invisible pixels; one nearest-neighbour fit; compose behind exact original 110x123 atlas planter walls; native ground-anchor bottom padding.",
+    "foliage_size": [
+      116,
+      164
+    ],
+    "foliage_position": [
+      42,
+      70
+    ],
+    "superseded_generations": [
+      {
+        "endpoint": "fal-ai/nano-banana-2/edit",
+        "request_id": "01a13a52-8346-7723-9f3c-0a7a32c95246"
+      }
+    ]
+  },
+  {
+    "asset": "common/media/textures/Item_HCPottedpotatoready.png",
+    "reference": "common/media/textures/Item_HCPottedpotato.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/nano-banana-2/edit",
+    "request_id": "01a13a54-8376-7ab2-ad07-eb8fe4fcae20",
+    "seed": 424201,
+    "prompt": "Edit only this Project Zomboid game sprite. Mature lush potato foliage, a few red potato shoulders visible just above soil. Preserve the exact wooden square planter, isometric camera, scale, trunk position and game-art style. Single object on a pure white background, no shadow outside the planter, no text, no border. Do not redesign the planter. All foliage and branches must fit within the image.",
+    "processing": "Initial fal foliage imported, then retained at 1:1 with reviewed masking/translation; original 110x123 planter pixels from hcBuilding2x.pack reused; transparent 200x424 canvas aligns the ground edge to native dropped-item 3/4-height anchor. No generated box geometry retained.",
+    "processing_tool": "tools/fit_planter_icons.py",
+    "planter_reference": "docs/PLANTER_SCALE.json"
+  },
+  {
+    "asset": "common/media/textures/Item_HCPottedradishready.png",
+    "reference": "common/media/textures/Item_HCPottedradish.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/nano-banana-2/edit",
+    "request_id": "01a13a54-c095-7331-81f7-ba7bf1e95526",
+    "seed": 424202,
+    "prompt": "Edit only this Project Zomboid game sprite. Mature radish plants with pink-red radish shoulders protruding slightly from the soil. Preserve the exact wooden square planter, isometric camera, scale, trunk position and game-art style. Single object on a pure white background, no shadow outside the planter, no text, no border. Do not redesign the planter. All foliage and branches must fit within the image.",
+    "processing": "Initial fal foliage imported, then retained at 1:1 with reviewed masking/translation; original 110x123 planter pixels from hcBuilding2x.pack reused; transparent 200x424 canvas aligns the ground edge to native dropped-item 3/4-height anchor. No generated box geometry retained.",
+    "processing_tool": "tools/fit_planter_icons.py",
+    "planter_reference": "docs/PLANTER_SCALE.json"
+  },
+  {
+    "asset": "common/media/textures/Item_HCPottedCabbageredready.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/gpt-image-1.5/edit",
+    "request_id": "01a13b4d-f224-7721-9a15-075373eb44d3",
+    "prompt": "Completely repaint the plant in this reference as a clean game sprite, rather than retaining any existing edge pixels. One mature dense red cabbage head, rich muted purple and burgundy tightly nested leaves, with several open outer leaves. Clear layered curled leaves, darker purple edges, no white veins or white highlights. Only the plant, isolated on genuine transparent RGBA alpha. No planter, pot, soil, ground, shadow, backdrop or checkerboard. Project Zomboid Hydrocraft inventory art: compact detailed hand-painted pixel sprite, muted natural colours, crisp small coloured pixels and restrained dark outlines, isometric three-quarter view seen from above at 30 degrees, light from upper left. Legible silhouette when downsampled to 110 pixels wide. Opaque coloured leaves and fruit; clean dark green or purple antialiased edges directly into transparent alpha. Absolutely no white matte, white rim, pale glow, bloom, noisy light speckles, grey outline, white background or white edge pixels. Centre the complete subject with generous transparent margins, nothing cropped, no text or symbols.",
+    "reference": "common/media/textures/Item_HCPottedCabbageredready.png",
+    "background": "transparent",
+    "quality": "medium",
+    "source_sha256": "8f4a51533aaefe845ea53072edb99f9e909d51d2025fee16a35cc259f7a87cf6",
+    "output_sha256": "3967c0868339594aa2d66d52328883b8ff66b073e8ff45d7327a792ce95b121f",
+    "processing_tool": "tools/import_clean_plants.py",
+    "planter_reference": "docs/PLANTER_SCALE.json",
+    "processing": "Regenerated foliage with native transparent alpha; trim invisible pixels; one nearest-neighbour fit; compose behind exact original 110x123 atlas planter walls; native ground-anchor bottom padding.",
+    "foliage_size": [
+      118,
+      84
+    ],
+    "foliage_position": [
+      41,
+      150
+    ],
+    "superseded_generations": [
+      {
+        "endpoint": "fal-ai/nano-banana-2/edit",
+        "request_id": "01a13a54-f884-7ba3-81e1-e57881c193e6"
+      }
+    ]
+  },
+  {
+    "asset": "common/media/textures/Item_HCPottedCabbagewhiteready.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/gpt-image-1.5/edit",
+    "request_id": "01a13b4d-f218-7500-859f-caea160cd4ba",
+    "prompt": "Completely repaint the plant in this reference as a clean game sprite, rather than retaining any existing edge pixels. One mature dense green cabbage head with tightly nested pale green inner leaves and darker muted green open outer leaves. All veins and highlights are coloured green, never white or cream. Clear layered curled leaves. Only the plant, isolated on genuine transparent RGBA alpha. No planter, pot, soil, ground, shadow, backdrop or checkerboard. Project Zomboid Hydrocraft inventory art: compact detailed hand-painted pixel sprite, muted natural colours, crisp small coloured pixels and restrained dark outlines, isometric three-quarter view seen from above at 30 degrees, light from upper left. Legible silhouette when downsampled to 110 pixels wide. Opaque coloured leaves and fruit; clean dark green or purple antialiased edges directly into transparent alpha. Absolutely no white matte, white rim, pale glow, bloom, noisy light speckles, grey outline, white background or white edge pixels. Centre the complete subject with generous transparent margins, nothing cropped, no text or symbols.",
+    "reference": "common/media/textures/Item_HCPottedCabbagewhiteready.png",
+    "background": "transparent",
+    "quality": "medium",
+    "source_sha256": "46df54ff83f251a489f1d9b461e6b540cfa3e5762752642a447ee87eddab4d05",
+    "output_sha256": "840e9417b9e7b316b6a779205b921050bcbb20c71e001d7af5bd1bab4fdedbcb",
+    "processing_tool": "tools/import_clean_plants.py",
+    "planter_reference": "docs/PLANTER_SCALE.json",
+    "processing": "Regenerated foliage with native transparent alpha; trim invisible pixels; one nearest-neighbour fit; compose behind exact original 110x123 atlas planter walls; native ground-anchor bottom padding.",
+    "foliage_size": [
+      118,
+      90
+    ],
+    "foliage_position": [
+      41,
+      144
+    ],
+    "superseded_generations": [
+      {
+        "endpoint": "fal-ai/nano-banana-2/edit",
+        "request_id": "01a13a55-367b-74d1-9ac5-2e6680a55e61"
+      }
+    ]
+  },
+  {
+    "asset": "common/media/textures/Item_HCPottedorangetreeready.png",
+    "reference": "common/media/textures/Item_HCPottedorangetree.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/nano-banana-2/edit",
+    "request_id": "01a13a55-73a6-72e3-891c-54aeba8c5e16",
+    "seed": 424205,
+    "prompt": "Edit only this Project Zomboid game sprite. Add more ripe oranges throughout the leafy canopy, retain the tree shape. Preserve the exact wooden square planter, isometric camera, scale, trunk position and game-art style. Single object on a pure white background, no shadow outside the planter, no text, no border. Do not redesign the planter. All foliage and branches must fit within the image.",
+    "processing": "Initial fal foliage imported, then retained at 1:1 with reviewed masking/translation; original 110x123 planter pixels from hcBuilding2x.pack reused; transparent 200x424 canvas aligns the ground edge to native dropped-item 3/4-height anchor. No generated box geometry retained.",
+    "processing_tool": "tools/fit_planter_icons.py",
+    "planter_reference": "docs/PLANTER_SCALE.json"
+  },
+  {
+    "asset": "common/media/textures/Item_HCPottedorangetreedead.png",
+    "reference": "common/media/textures/Item_HCPottedorangetree.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/nano-banana-2/edit",
+    "request_id": "01a13a55-a932-7431-8684-2ecbe3f8e035",
+    "seed": 424206,
+    "prompt": "Edit only this Project Zomboid game sprite. Dead orange tree: bare dry brown branches, no fruit and no green leaves. Preserve the exact wooden square planter, isometric camera, scale, trunk position and game-art style. Single object on a pure white background, no shadow outside the planter, no text, no border. Do not redesign the planter. All foliage and branches must fit within the image.",
+    "processing": "Initial fal foliage imported, then retained at 1:1 with reviewed masking/translation; original 110x123 planter pixels from hcBuilding2x.pack reused; transparent 200x424 canvas aligns the ground edge to native dropped-item 3/4-height anchor. No generated box geometry retained.",
+    "processing_tool": "tools/fit_planter_icons.py",
+    "planter_reference": "docs/PLANTER_SCALE.json"
+  },
+  {
+    "asset": "common/media/textures/Item_HCPottedpeaplantsmalldry.png",
+    "reference": "common/media/textures/Item_HCPottedpeaplantsmall.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/nano-banana-2/edit",
+    "request_id": "01a13a55-dfd5-71e3-aa8c-ac9876b2842f",
+    "seed": 424207,
+    "prompt": "Edit only this Project Zomboid game sprite. Thirsty pea plant: wilted drooping olive green leaves, dry soil, still alive. Preserve the exact wooden square planter, isometric camera, scale, trunk position and game-art style. Single object on a pure white background, no shadow outside the planter, no text, no border. Do not redesign the planter. All foliage and branches must fit within the image.",
+    "processing": "Initial fal foliage imported, then retained at 1:1 with reviewed masking/translation; original 110x123 planter pixels from hcBuilding2x.pack reused; transparent 200x424 canvas aligns the ground edge to native dropped-item 3/4-height anchor. No generated box geometry retained.",
+    "processing_tool": "tools/fit_planter_icons.py",
+    "planter_reference": "docs/PLANTER_SCALE.json"
+  },
+  {
+    "asset": "common/media/textures/clothing/HCArmorchainmail.png",
+    "reference": "common/media/textures/clothing/HCShirtLinenWhite.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/nano-banana-2/edit",
+    "request_id": "01a13a6f-43e9-7d90-85a0-8219c701e213",
+    "seed": 424220,
+    "prompt": "Edit this flat clothing UV texture atlas for a game. Replace the pale linen fabric with tightly woven dark silver steel chainmail rings, small regular four-in-one interlinked rings, subtle worn metal highlights. Remove the central buttons and linen stitching. Preserve the exact atlas layout, shapes, edges and black unused lower region. Flat orthographic texture only, no garment illustration, no perspective, no added objects, no text. Even neutral lighting; rings must stay recognisable at low game resolution.",
+    "processing": "Resize to source UV size; preserve source alpha mask."
+  },
+  {
+    "asset": "common/media/models_X/WorldItems/HCRSpikeTrap.x",
+    "texture": "common/media/textures/WorldItems/HCRSpikeTrap.png",
+    "reference": "common/media/textures/Item_Spiketrapclosed.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/trellis-2",
+    "request_id": "01a13aa0-8aef-7761-89c5-93c87f5f4b07",
+    "seed": null,
+    "generation": {
+      "texture_size": 1024,
+      "decimation_target": 5000
+    },
+    "processing": "B42.21 FileTask_LoadMesh.loadX StaticMesh (DirectX text mesh, normals, UV; no skeleton); V pre-flipped for Assimp X parser; 0.60 m XZ footprint, Y-up bottom pivot; separate PNG albedo; restored 49 steel nails omitted by Trellis, sampled grey from same atlas; geometry independently re-read and round-trip checked; avoids native static TXT applyToMesh skinningData bug",
+    "processing_tool": "tools/import_spike_trap.py",
+    "source_sha256": "76ea61e788b211534d9000d2d04acabd46f1b686e3a2567e375b70a367d6b8b3",
+    "output_sha256": "655574f8d5ead4079acd5e0b40448414d9de0cd9cbe3ad8e8635ba93f027e4c5",
+    "verification": "DirectX round-trip and visible textured ground geometry verified after cold native 42.21 restart without static TXT NPE. Native SP placement, one sensor-triggered explosion and device removal passed; armed device retains native PlacedSprite. Damage and MP activation not measured."
+  },
+  {
+    "asset": "common/media/textures/Item_HCSiliconpowder.png",
+    "reference": "common/media/textures/Item_HCIronpowder.png",
+    "service": "fal.ai",
+    "endpoint": "fal-ai/nano-banana-2/edit",
+    "request_id": "01a13adc-a7aa-70e0-9107-0179cc2b538e",
+    "seed": 424221,
+    "prompt": "Edit only the supplied tiny Project Zomboid inventory powder sprite. Replace the brown iron powder with a mound of dark neutral grey crystalline silicon powder, small angular grains and a few cool grey mineral glints; charcoal-grey dark edges, medium grey body, subtle light-grey grain highlights. Preserve the exact low mound silhouette, isometric viewpoint, 32-pixel inventory game sprite style, dark outline and modest rough-pixel shading. No brown, no copper, no gold, no white silver metal shine. One powder pile, no container, no tools, no label, no lettering, no text, no frame, no extra padding, no floor shadow. Plain pure-white background outside the pile so it can be removed cleanly.",
+    "processing": "Flood background removal; one nearest-neighbour fit to 32x32; preserve original pile alpha; grey source shading for outline fragments outside generated fit.",
+    "processing_tool": "tools/generate_silicon_icon.py"
+  }
+]

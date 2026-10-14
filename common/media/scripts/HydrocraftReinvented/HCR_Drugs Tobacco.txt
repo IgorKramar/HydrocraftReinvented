@@ -49,7 +49,6 @@ module Hydrocraft
         DisplayName     	= Light Cigarette Pack,
         icon 			= HCCigarettepacklights,
 		DisplayCategory	= Drugs,
-		WorldStaticModel = Hydrocraft.HCCigarettepacklights,
     }
     item HCCigaretteslights
     {
@@ -89,7 +88,6 @@ module Hydrocraft
         DisplayName     	= Menthol Cigarette Pack,
         icon 			= HCCigarettepackmenthol,
 		DisplayCategory	= Drugs,
-		WorldStaticModel = Hydrocraft.HCCigarettepackmenthol,
     }
     item HCCigarettesmenthol
     {
@@ -252,12 +250,12 @@ module Hydrocraft
     craftRecipe Pack Cigarettes
     {
         time = 50,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 20 [Base.CigarettePack],
+            item 20 [Base.CigarettePack] flags[ItemCount],
         }
         outputs
         {
@@ -267,12 +265,12 @@ module Hydrocraft
     craftRecipe Pack Into Carton
     {
         time = 50,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 10 [Hydrocraft.HCCigarettepack],
+            item 10 [Hydrocraft.HCCigarettepack] flags[ItemCount],
         }
         outputs
         {
@@ -297,12 +295,12 @@ module Hydrocraft
     craftRecipe Pack Cigarettes (Light Cigarette Pack)
     {
         time = 50,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 20 [Hydrocraft.HCCigaretteslights],
+            item 20 [Hydrocraft.HCCigaretteslights] flags[ItemCount],
         }
         outputs
         {
@@ -312,12 +310,12 @@ module Hydrocraft
     craftRecipe Pack Into Carton (Light Cigarette Carton)
     {
         time = 50,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 10 [Hydrocraft.HCCigarettepacklights],
+            item 10 [Hydrocraft.HCCigarettepacklights] flags[ItemCount],
         }
         outputs
         {
@@ -342,12 +340,12 @@ module Hydrocraft
     craftRecipe Pack Cigarettes (Menthol Cigarette Pack)
     {
         time = 50,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 20 [Hydrocraft.HCCigarettesmenthol],
+            item 20 [Hydrocraft.HCCigarettesmenthol] flags[ItemCount],
         }
         outputs
         {
@@ -357,12 +355,12 @@ module Hydrocraft
     craftRecipe Pack Into Carton (Menthol Cigarette Carton)
     {
         time = 50,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 10 [Hydrocraft.HCCigarettepackmenthol],
+            item 10 [Hydrocraft.HCCigarettepackmenthol] flags[ItemCount],
         }
         outputs
         {
@@ -415,7 +413,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCMacerator] mode:keep,
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCTobaccoleafdry],
         }
         outputs

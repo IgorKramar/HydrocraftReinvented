@@ -560,7 +560,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 1 [Hydrocraft.HCCookiedough],
+            item 1 [Hydrocraft.HCCookiedough] flags[ItemCount],
         }
         outputs
         {
@@ -578,8 +578,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 1 [Hydrocraft.HCCookiedough],
-            item 1 [Base.Chocolate;Hydrocraft.HCChocolatedark],
+            item 1 [Hydrocraft.HCCookiedough] flags[ItemCount],
+            item 1 [Base.Chocolate;Hydrocraft.HCChocolatedark] flags[ItemCount],
         }
         outputs
         {
@@ -597,8 +597,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 1 [Hydrocraft.HCCookiedough],
-            item 1 [Hydrocraft.HCChocolatewhite],
+            item 1 [Hydrocraft.HCCookiedough] flags[ItemCount],
+            item 1 [Hydrocraft.HCChocolatewhite] flags[ItemCount],
         }
         outputs
         {
@@ -616,7 +616,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 1 [Hydrocraft.HCCookiedough],
+            item 1 [Hydrocraft.HCCookiedough] flags[ItemCount],
             item 1 [Base.PeanutButter;Hydrocraft.HCPeanutbutter],
         }
         outputs
@@ -635,8 +635,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 1 [Hydrocraft.HCCookiedough],
-            item 1 [Base.Chocolate;Hydrocraft.HCChocolatewhite;Hydrocraft.HCChocolatedark],
+            item 1 [Hydrocraft.HCCookiedough] flags[ItemCount],
+            item 1 [Base.Chocolate;Hydrocraft.HCChocolatewhite;Hydrocraft.HCChocolatedark] flags[ItemCount],
         }
         outputs
         {
@@ -654,9 +654,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 1 [Hydrocraft.HCCookiedough],
-            item 1 [Base.Chocolate;Hydrocraft.HCChocolatewhite;Hydrocraft.HCChocolatedark],
-            item 1 [Base.Chocolate;Hydrocraft.HCChocolatewhite;Hydrocraft.HCChocolatedark],
+            item 1 [Hydrocraft.HCCookiedough] flags[ItemCount],
+            item 1 [Base.Chocolate;Hydrocraft.HCChocolatewhite;Hydrocraft.HCChocolatedark] flags[ItemCount],
+            item 1 [Base.Chocolate;Hydrocraft.HCChocolatewhite;Hydrocraft.HCChocolatedark] flags[ItemCount],
         }
         outputs
         {
@@ -675,7 +675,7 @@ module Hydrocraft
         {
             item 1 [Base.BakingTray],
             item 1 [Hydrocraft.HCCookiecutter] mode:keep,
-            item 1 [Hydrocraft.HCCookiedough],
+            item 1 [Hydrocraft.HCCookiedough] flags[ItemCount],
         }
         outputs
         {
@@ -694,7 +694,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCCookiemold] mode:keep,
             item 1 [Base.RollingPin] mode:keep,
             item 1 [Base.BakingTray],
-            item 1 [Hydrocraft.HCCookiedough],
+            item 1 [Hydrocraft.HCCookiedough] flags[ItemCount],
         }
         outputs
         {
@@ -711,7 +711,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCHomemadecookietray],
+            item 1 [Hydrocraft.HCHomemadecookietray] flags[ItemCount],
         }
         outputs
         {
@@ -728,7 +728,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCChipcookietray],
+            item 1 [Hydrocraft.HCChipcookietray] flags[ItemCount],
         }
         outputs
         {
@@ -745,7 +745,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCCookiewhitetray],
+            item 1 [Hydrocraft.HCCookiewhitetray] flags[ItemCount],
         }
         outputs
         {
@@ -779,7 +779,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCChocolatecookietray],
+            item 1 [Hydrocraft.HCChocolatecookietray] flags[ItemCount],
         }
         outputs
         {
@@ -796,7 +796,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCDoublechocolatecookietray],
+            item 1 [Hydrocraft.HCDoublechocolatecookietray] flags[ItemCount],
         }
         outputs
         {
@@ -813,7 +813,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCGingerbreadmantray],
+            item 1 [Hydrocraft.HCGingerbreadmantray] flags[ItemCount],
         }
         outputs
         {

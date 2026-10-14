@@ -11,7 +11,7 @@ module Hydrocraft
         icon 			 = HCAirfreshener,
 		AttachmentType 	 = 	Hammer,	
 		StaticModel 	 = 	  WorldItem-HCAirFreshener,		
-		WorldStaticModel = WorldItem-HCAirFreshener,
+		WorldStaticModel = Hydrocraft.WorldItem-HCAirFreshener,
     }
     item HCDriverslicense
     {
@@ -21,7 +21,7 @@ module Hydrocraft
         DisplayName		 = Drivers License,
         Icon			 = HCDriverslicense,
 		DisplayCategory  = Household,
-		WorldStaticModel = WorldItem-HCDriversLicense,
+		WorldStaticModel = Hydrocraft.WorldItem-HCDriversLicense,
     }
     item HCMotoroil
     {
@@ -33,7 +33,7 @@ module Hydrocraft
         DisplayName         = Motor Oil,
         icon 			    = HCMotoroil,
         DisplayCategory     = CraftChem,
-		WorldStaticModel 	= WorldItem-HCMotorOil,
+		WorldStaticModel = Hydrocraft.WorldItem-HCMotorOil,
     }
     item HCSparkplug
     {
@@ -108,7 +108,7 @@ module Hydrocraft
         icon 			 = HCLicenceplate,
 		AttachmentType 	 = Hammer,	
 		StaticModel 	 = HC_LicencePlate,			
-		WorldStaticModel = WorldItem-HCLicensePlate,
+		WorldStaticModel = Hydrocraft.WorldItem-HCLicensePlate,
     }
     item HCOilfilter
     {

@@ -82,15 +82,7 @@ module Hydrocraft
         FishingLure	=	true,
 		DisplayCategory =   SurFish,
     }
-    item HCFishhookbone
-    {
 
-        ItemType		=	base:normal,
-        DisplayName	=	Bone Fishhook,
-        Icon		=	HCFishhookbone,
-        Weight		=	0.01,
-		DisplayCategory =   SurFish,
-    }
     item HCFishhookcopper
     {
 
@@ -364,7 +356,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Paperclip;Hydrocraft.HCFishhookbone;Hydrocraft.HCFishhookcopper;Hydrocraft.HCFishhooktin;Hydrocraft.HCFishhookbronze;Hydrocraft.HCFishhookiron;Hydrocraft.HCFishhooksteel;Hydrocraft.HCFishhookaluminum;Hydrocraft.HCFishhooktitanium],
-            item 2 [Hydrocraft.HCBirchbark],
+            item 2 [Hydrocraft.HCBirchbark] flags[ItemCount],
             item 1 [Hydrocraft.HCHotgluegunfull;Hydrocraft.HCSuperglue],
             item 1 [Hydrocraft.HCPliers] mode:keep,
         }
@@ -444,7 +436,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPondholedirt],
-            item 8 tags[BucketConcrete] mode:keep,
+            item 8 [Base.BucketConcreteFull;Base.BucketCarvedConcreteFull],
             item 1 [Hydrocraft.HCMasontrowel] mode:keep,
         }
         outputs
@@ -483,7 +475,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPond],
-            item 10 [Base.BaitFish],
+            item 10 [Base.BaitFish] flags[ItemCount],
             item 1 [Base.FishingNet],
             item 20 [Base.Stone2],
             item 1 [Hydrocraft.HCLumberstack],

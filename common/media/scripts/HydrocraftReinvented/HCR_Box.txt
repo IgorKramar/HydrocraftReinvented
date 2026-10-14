@@ -9,7 +9,7 @@ module Hydrocraft
 		DisplayName			=	Box of Things,
 		Icon				=	HCCardboardboxsealed,
 		StaticModel	 = BoxOfThings,
-        WorldStaticModel = BoxOfThings,
+        WorldStaticModel = Hydrocraft.BoxOfThings,
     }
     craftRecipe Store 12 in a Box
     {
@@ -18,9 +18,10 @@ module Hydrocraft
         category = Miscellaneous,
         timedAction = Making,
         OnCreate = HCR42.Recipe_OnCreate_Hydrocraft_BoxThings,
+        OnTest = HCRBox.IsStatelessMaterial,
         inputs
         {
-            item 12 tags[Box12] mode:keep,
+            item 12 [Base.Crayons;Base.LogStacks4;Base.RubberBand;Hydrocraft.HCBolt;Hydrocraft.HCChalk;Hydrocraft.HCCigarettepack;Hydrocraft.HCCigarettepacklights;Hydrocraft.HCCigarettepackmenthol;Hydrocraft.HCClothespin;Hydrocraft.HCCoffeefilterdry;Hydrocraft.HCCork;Hydrocraft.HCDiaper;Hydrocraft.HCDirt;Hydrocraft.HCEmptyballoon;Hydrocraft.HCGlasspipe;Hydrocraft.HCGlasspipeelbow;Hydrocraft.HCGlasstesttube;Hydrocraft.HCHotgluestick;Hydrocraft.HCLumberstack;Hydrocraft.HCMREbox;Hydrocraft.HCMenstrualpad;Hydrocraft.HCMothballs;Hydrocraft.HCNailgunammo;Hydrocraft.HCNut;Hydrocraft.HCPurifyingtablets;Hydrocraft.HCRatpoison;Hydrocraft.HCRazorblade;Hydrocraft.HCResistor;Hydrocraft.HCRubberbung;Hydrocraft.HCSewingpin;Hydrocraft.HCStaples;Hydrocraft.HCStraw;Hydrocraft.HCTampon;Hydrocraft.HCTesttubebrush;Hydrocraft.HCZipperbag] flags[ItemCount;IsExclusive],
         }
         outputs
         {
@@ -34,9 +35,10 @@ module Hydrocraft
         category = Miscellaneous,
         timedAction = Making,
         OnCreate = HCR42.Recipe_OnCreate_Hydrocraft_BoxThings,
+        OnTest = HCRBox.IsStatelessMaterial,
         inputs
         {
-            item 25 tags[Box25] mode:keep,
+            item 25 [Base.Crayons;Base.LogStacks4;Base.RubberBand;Hydrocraft.HCBolt;Hydrocraft.HCChalk;Hydrocraft.HCCigarettepack;Hydrocraft.HCCigarettepacklights;Hydrocraft.HCCigarettepackmenthol;Hydrocraft.HCClothespin;Hydrocraft.HCCoffeefilterdry;Hydrocraft.HCCork;Hydrocraft.HCDiaper;Hydrocraft.HCDirt;Hydrocraft.HCEmptyballoon;Hydrocraft.HCGlasspipe;Hydrocraft.HCGlasspipeelbow;Hydrocraft.HCGlasstesttube;Hydrocraft.HCHotgluestick;Hydrocraft.HCLumberstack;Hydrocraft.HCMREbox;Hydrocraft.HCMenstrualpad;Hydrocraft.HCMothballs;Hydrocraft.HCNailgunammo;Hydrocraft.HCNut;Hydrocraft.HCPurifyingtablets;Hydrocraft.HCRatpoison;Hydrocraft.HCRazorblade;Hydrocraft.HCResistor;Hydrocraft.HCRubberbung;Hydrocraft.HCSewingpin;Hydrocraft.HCStaples;Hydrocraft.HCStraw;Hydrocraft.HCTampon;Hydrocraft.HCTesttubebrush;Hydrocraft.HCZipperbag] flags[ItemCount;IsExclusive],
         }
         outputs
         {
@@ -50,9 +52,10 @@ module Hydrocraft
         category = Miscellaneous,
         timedAction = Making,
         OnCreate = HCR42.Recipe_OnCreate_Hydrocraft_BoxThings,
+        OnTest = HCRBox.IsStatelessMaterial,
         inputs
         {
-            item 50 tags[Box50] mode:keep,
+            item 50 [Base.Crayons;Base.LogStacks4;Base.RubberBand;Hydrocraft.HCBolt;Hydrocraft.HCChalk;Hydrocraft.HCCigarettepack;Hydrocraft.HCCigarettepacklights;Hydrocraft.HCCigarettepackmenthol;Hydrocraft.HCClothespin;Hydrocraft.HCCoffeefilterdry;Hydrocraft.HCCork;Hydrocraft.HCDiaper;Hydrocraft.HCDirt;Hydrocraft.HCEmptyballoon;Hydrocraft.HCGlasspipe;Hydrocraft.HCGlasspipeelbow;Hydrocraft.HCGlasstesttube;Hydrocraft.HCHotgluestick;Hydrocraft.HCLumberstack;Hydrocraft.HCMREbox;Hydrocraft.HCMenstrualpad;Hydrocraft.HCMothballs;Hydrocraft.HCNailgunammo;Hydrocraft.HCNut;Hydrocraft.HCPurifyingtablets;Hydrocraft.HCRatpoison;Hydrocraft.HCRazorblade;Hydrocraft.HCResistor;Hydrocraft.HCRubberbung;Hydrocraft.HCSewingpin;Hydrocraft.HCStaples;Hydrocraft.HCStraw;Hydrocraft.HCTampon;Hydrocraft.HCTesttubebrush;Hydrocraft.HCZipperbag] flags[ItemCount;IsExclusive],
         }
         outputs
         {
@@ -66,9 +69,10 @@ module Hydrocraft
         category = Miscellaneous,
         timedAction = Making,
         OnCreate = HCR42.Recipe_OnCreate_Hydrocraft_BoxThings,
+        OnTest = HCRBox.IsStatelessMaterial,
         inputs
         {
-            item 100 tags[Box100] mode:keep,
+            item 100 [Base.Crayons;Base.LogStacks4;Base.RubberBand;Hydrocraft.HCBolt;Hydrocraft.HCChalk;Hydrocraft.HCCigarettepack;Hydrocraft.HCCigarettepacklights;Hydrocraft.HCCigarettepackmenthol;Hydrocraft.HCClothespin;Hydrocraft.HCCoffeefilterdry;Hydrocraft.HCCork;Hydrocraft.HCDiaper;Hydrocraft.HCDirt;Hydrocraft.HCEmptyballoon;Hydrocraft.HCGlasspipe;Hydrocraft.HCGlasspipeelbow;Hydrocraft.HCGlasstesttube;Hydrocraft.HCHotgluestick;Hydrocraft.HCLumberstack;Hydrocraft.HCMREbox;Hydrocraft.HCMenstrualpad;Hydrocraft.HCMothballs;Hydrocraft.HCNailgunammo;Hydrocraft.HCNut;Hydrocraft.HCPurifyingtablets;Hydrocraft.HCRatpoison;Hydrocraft.HCRazorblade;Hydrocraft.HCResistor;Hydrocraft.HCRubberbung;Hydrocraft.HCSewingpin;Hydrocraft.HCStaples;Hydrocraft.HCStraw;Hydrocraft.HCTampon;Hydrocraft.HCTesttubebrush;Hydrocraft.HCZipperbag] flags[ItemCount;IsExclusive],
         }
         outputs
         {

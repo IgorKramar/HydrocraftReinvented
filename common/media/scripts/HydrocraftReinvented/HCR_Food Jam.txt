@@ -688,7 +688,7 @@ module Hydrocraft
         OnCreate = HCR42.HCRecipeBowls,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 3 [Base.Sugar],
             item 1 [Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCLemonjuicebowl],
         }
@@ -708,7 +708,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 4 [Base.Grapes],
+            item 4 [Base.Grapes] flags[ItemCount],
         }
         outputs
         {
@@ -727,7 +727,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamgrapepot],
+            item 1 [Hydrocraft.HCJamgrapepot] flags[ItemCount],
         }
         outputs
         {
@@ -745,7 +745,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 4 [Base.Apple],
+            item 4 [Base.Apple] flags[ItemCount],
         }
         outputs
         {
@@ -764,7 +764,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamapplepot],
+            item 1 [Hydrocraft.HCJamapplepot] flags[ItemCount],
         }
         outputs
         {
@@ -782,7 +782,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 4 [Base.Orange],
+            item 4 [Base.Orange] flags[ItemCount],
         }
         outputs
         {
@@ -801,7 +801,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamorangepot],
+            item 1 [Hydrocraft.HCJamorangepot] flags[ItemCount],
         }
         outputs
         {
@@ -819,7 +819,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 4 [Base.Peach],
+            item 4 [Base.Peach] flags[ItemCount],
         }
         outputs
         {
@@ -838,7 +838,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJampeachpot],
+            item 1 [Hydrocraft.HCJampeachpot] flags[ItemCount],
         }
         outputs
         {
@@ -856,7 +856,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 4 [Hydrocraft.HCPear],
+            item 4 [Hydrocraft.HCPear] flags[ItemCount],
         }
         outputs
         {
@@ -875,7 +875,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJampearpot],
+            item 1 [Hydrocraft.HCJampearpot] flags[ItemCount],
         }
         outputs
         {
@@ -893,7 +893,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 2 [Base.Watermelon],
+            item 2 [Base.Watermelon] flags[ItemCount],
         }
         outputs
         {
@@ -912,7 +912,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamwatermelonpot],
+            item 1 [Hydrocraft.HCJamwatermelonpot] flags[ItemCount],
         }
         outputs
         {
@@ -930,7 +930,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 2 [Base.Pineapple],
+            item 2 [Base.Pineapple] flags[ItemCount],
         }
         outputs
         {
@@ -949,7 +949,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJampineapplepot],
+            item 1 [Hydrocraft.HCJampineapplepot] flags[ItemCount],
         }
         outputs
         {
@@ -967,7 +967,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 8 [Base.Cherry],
+            item 8 [Base.Cherry] flags[ItemCount],
         }
         outputs
         {
@@ -986,7 +986,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamcherrypot],
+            item 1 [Hydrocraft.HCJamcherrypot] flags[ItemCount],
         }
         outputs
         {
@@ -1004,7 +1004,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 8 [Base.Strewberrie],
+            item 8 [Base.Strewberrie] flags[ItemCount],
         }
         outputs
         {
@@ -1023,7 +1023,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamstrawberrypot],
+            item 1 [Hydrocraft.HCJamstrawberrypot] flags[ItemCount],
         }
         outputs
         {
@@ -1041,7 +1041,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 8 [Base.BerryBlue],
+            item 8 [Base.BerryBlue] flags[ItemCount],
         }
         outputs
         {
@@ -1060,7 +1060,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamblueberrypot],
+            item 1 [Hydrocraft.HCJamblueberrypot] flags[ItemCount],
         }
         outputs
         {
@@ -1078,7 +1078,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 8 [Base.BerryBlack],
+            item 8 [Base.BerryBlack] flags[ItemCount],
         }
         outputs
         {
@@ -1097,7 +1097,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamblackberrypot],
+            item 1 [Hydrocraft.HCJamblackberrypot] flags[ItemCount],
         }
         outputs
         {
@@ -1115,7 +1115,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 2 [Hydrocraft.HCBunchofberries],
+            item 2 [Hydrocraft.HCBunchofberries] flags[ItemCount],
         }
         outputs
         {
@@ -1134,7 +1134,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamwildberrypot],
+            item 1 [Hydrocraft.HCJamwildberrypot] flags[ItemCount],
         }
         outputs
         {
@@ -1152,7 +1152,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 8 [Hydrocraft.HCHuckleberry],
+            item 8 [Hydrocraft.HCHuckleberry] flags[ItemCount],
         }
         outputs
         {
@@ -1171,7 +1171,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamhuckleberrypot],
+            item 1 [Hydrocraft.HCJamhuckleberrypot] flags[ItemCount],
         }
         outputs
         {
@@ -1189,7 +1189,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 8 [Hydrocraft.HCCranberry],
+            item 8 [Hydrocraft.HCCranberry] flags[ItemCount],
         }
         outputs
         {
@@ -1208,7 +1208,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamcranberrypot],
+            item 1 [Hydrocraft.HCJamcranberrypot] flags[ItemCount],
         }
         outputs
         {
@@ -1226,7 +1226,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJamstarter] mode:destroy,
-            item 8 [Hydrocraft.HCRaspberry],
+            item 8 [Hydrocraft.HCRaspberry] flags[ItemCount],
         }
         outputs
         {
@@ -1245,7 +1245,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCJar],
-            item 1 [Hydrocraft.HCJamraspberrypot],
+            item 1 [Hydrocraft.HCJamraspberrypot] flags[ItemCount],
         }
         outputs
         {

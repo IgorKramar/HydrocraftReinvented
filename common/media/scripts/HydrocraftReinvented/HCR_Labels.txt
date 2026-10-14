@@ -584,7 +584,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCLabelpoison],
-            item 1 [Hydrocraft.HCPlasticcanpoison],
+            item 1 [Hydrocraft.HCPlasticcanpoison] flags[ItemCount],
         }
         outputs
         {

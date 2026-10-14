@@ -1,0 +1,442 @@
+{
+  "fallbacks": [
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Drugs Tobacco.txt",
+      "item": "Hydrocraft.HCCigarettepacklights",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCigarettepacklights",
+      "source_line": 52,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Drugs Tobacco.txt",
+      "item": "Hydrocraft.HCCigarettepackmenthol",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCigarettepackmenthol",
+      "source_line": 92,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedapple",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedapple",
+      "source_line": 27,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpear",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpear",
+      "source_line": 43,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedgreenbeans",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedgreenbeans",
+      "source_line": 75,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedshrooms",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedshrooms",
+      "source_line": 91,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpumpkin",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpumpkin",
+      "source_line": 107,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedcranberries",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedcranberries",
+      "source_line": 139,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpineapple",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpineapple",
+      "source_line": 155,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedrefriedbeans",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedrefriedbeans",
+      "source_line": 171,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCanbangedup",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCanbangedup",
+      "source_line": 218,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedcheesesauce",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedcheesesauce",
+      "source_line": 234,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedchickenbreast",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedchickenbreast",
+      "source_line": 250,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedfruitcocktail",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedfruitcocktail",
+      "source_line": 266,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedgovermentbeef",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedgovermentbeef",
+      "source_line": 282,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedgovermentbread",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedgovernmentbread",
+      "source_line": 297,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedgovermentchicken",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedgovernmentchicken",
+      "source_line": 313,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedgovermentpork",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedgovernmentpork",
+      "source_line": 329,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedmacncheese",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedmacncheese",
+      "source_line": 345,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpiefillingapple",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpiefillingapple",
+      "source_line": 361,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpiefillingcherry",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpiefillingcherry",
+      "source_line": 377,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpiefillingblueberry",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpiefillingblueberry",
+      "source_line": 393,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedravioli",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedravioli",
+      "source_line": 409,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedspaghettirings",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedspaghettirings",
+      "source_line": 425,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedappleopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedappleopen",
+      "source_line": 448,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpearopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpearopen",
+      "source_line": 471,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedgreenbeansopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedgreenbeansopen",
+      "source_line": 517,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedshroomsopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedshroomsopen",
+      "source_line": 540,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpumpkinopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpumpkinopen",
+      "source_line": 563,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedspamopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedspamopen",
+      "source_line": 586,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedcranberriesopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedcranberriesopen",
+      "source_line": 609,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpineappleopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpineappleopen",
+      "source_line": 632,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedrefriedbeansopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedrefriedbeansopen",
+      "source_line": 655,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCanbangedupopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCanbangedupopen",
+      "source_line": 724,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedcheesesauceopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedcheesesauceopen",
+      "source_line": 748,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedchickenbreastopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedchickenbreastopen",
+      "source_line": 771,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedfruitcocktailopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedfruitcocktailopen",
+      "source_line": 794,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedgovermentbeefopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedgovernmentbeefopen",
+      "source_line": 817,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedgovermentbreadopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedgovernmentbreadopen",
+      "source_line": 840,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedgovermentchickenopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedgovernmentchickenopen",
+      "source_line": 863,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedgovermentporkopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedgovernmentporkopen",
+      "source_line": 886,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedmacncheeseopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedmacncheeseopen",
+      "source_line": 909,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpiefillingappleopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpiefillingappleopen",
+      "source_line": 932,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpiefillingcherryopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpiefillingcherryopen",
+      "source_line": 955,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedpiefillingblueberryopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedpiefillingblueberryopen",
+      "source_line": 978,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedravioliopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedravioliopen",
+      "source_line": 1001,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Food Canned.txt",
+      "item": "Hydrocraft.HCCannedspaghettiringsopen",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.HCCannedspaghettiringsopen",
+      "source_line": 1024,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Model declaration/appropriate geometry missing"
+    },
+    {
+      "file": "common/media/scripts/HydrocraftReinvented/HCR_Kitchen.txt",
+      "item": "Hydrocraft.HCCoffeefilterdry",
+      "field": "WorldStaticModel",
+      "old_model": "Hydrocraft.WorldItem-HCCoffeeFilter",
+      "source_line": 132,
+      "fallback": "Native inventory/ground icon; no foreign-shape model substitution",
+      "reason": "Matching mesh missing"
+    }
+  ],
+  "quiver_ground_copy": {
+    "source": "common/media/models_X/clothing/HCQuiver.fbx",
+    "asset": "common/media/models_X/WorldItems/HCRQuiverGround.fbx",
+    "sha256": "69ee371e6b4f3bf1ce6187a92fa8f3d4c47782f52da8652c5fddbe510e6541b7",
+    "reason": "Separate static ground path for existing skinned quiver geometry"
+  }
+}

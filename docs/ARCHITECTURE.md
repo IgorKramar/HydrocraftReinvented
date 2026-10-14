@@ -145,13 +145,19 @@ local function wrap(name)
         local fn = _G[...]                       -- ищем функцию по имени
         local results = craftRecipeData:getAllCreatedItems()
         local result  = results and results:get(0)
-        local items   = craftRecipeData:getAllConsumedItems()
+        local items   = craftRecipeData:getAllInputItems()
         local ok, err = pcall(fn, items, result, character)
         if not ok then print("[HydrocraftReinvented] OnCreate " .. name .. " error: " .. err) end
     end
 end
 HCR42["HCMine"] = wrap("HCMine")
 ```
+
+В 42.21 мост передаёт фактически применённые входы в порядке рецепта, включая
+`mode:keep`: охоте нужны сохраняемые оружия. Пищевые callbacks обрабатывает
+`HCR_FoodBridge.lua`: он учитывает нативные количества/порции, исключает kept
+еду из суммы и распределяет питание по всем outputs. Нарезка переносит свежесть,
+температуру и другие состояния через `copyFoodFromSplit`.
 
 Скрипты ссылаются на обёртку, а не на функцию напрямую:
 

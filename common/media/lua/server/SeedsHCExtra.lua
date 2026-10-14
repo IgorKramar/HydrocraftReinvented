@@ -1,3 +1,4 @@
+require "HCR_Compatibility"
 
 
 --Find seeds in food.
@@ -5,7 +6,7 @@ function HCFindSeeds(items, result, player)
 
 local skill = player:getPerkLevel(Perks.PlantScavenging);
 local luck = ZombRand(13) + skill;
-if  player:getTraits():contains('Lucky') then luck = luck + 5;
+if  HCR.hasTrait(player, "Lucky") then luck = luck + 5;
 end
 
 if luck >= 15 then -- find something
@@ -114,19 +115,19 @@ function HCRandomseeds(items, result, player)
     elseif seed == 53 then	
 		player:getInventory():AddItem("Hydrocraft.HCTobaccoseedspacket");
     elseif seed == 52 then
-	    player:getInventory():AddItem("farming.CabbageBagSeed");
+	    player:getInventory():AddItem("Base.CabbageBagSeed2");
     elseif seed == 51 then
-	    player:getInventory():AddItem("farming.PotatoBagSeed");
+	    player:getInventory():AddItem("Base.PotatoBagSeed2");
     elseif seed == 50 then	
-	    player:getInventory():AddItem("farming.TomatoBagSeed");
+	    player:getInventory():AddItem("Base.TomatoBagSeed2");
     elseif seed == 49 then
-	    player:getInventory():AddItem("farming.StrewberrieBagSeed");
+	    player:getInventory():AddItem("Base.StrewberrieBagSeed2");
     elseif seed == 48 then
-	    player:getInventory():AddItem("farming.RedRadishBagSeed");
+	    player:getInventory():AddItem("Base.RedRadishBagSeed2");
     elseif seed == 47 then
-	    player:getInventory():AddItem("farming.BroccoliBagSeed");
+	    player:getInventory():AddItem("Base.BroccoliBagSeed2");
     elseif seed == 46 then
-	    player:getInventory():AddItem("farming.CarrotBagSeed");
+	    player:getInventory():AddItem("Base.CarrotBagSeed2");
     elseif seed == 45 then
 	    player:getInventory():AddItem("Hydrocraft.HCPotatogoldenseedspacket");
     elseif seed == 44 then

@@ -34,7 +34,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel],
             item 2 [Base.Pipe],
             item 1 [Hydrocraft.HCBarrelblueempty],
-            item 5 [Base.Worm],
+            item 5 [Base.Worm] flags[ItemCount],
         }
         outputs
         {

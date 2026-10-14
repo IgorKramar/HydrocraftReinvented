@@ -21,7 +21,7 @@ module Hydrocraft
 		Calories 			= 	0,
 		DisplayCategory		=	FoodP,
 		ReplaceOnUse		=	Base.PaperBag,
-		Tags				=	PaperBagFull,
+		Tags				=	hydrocraft:paperbagfull,
     }
     craftRecipe Make Paper Bag
     {
@@ -47,7 +47,7 @@ module Hydrocraft
         OnCreate = HCR42.Recipe_OnCreate_TransferToPaperBag_GiveRoastingPan,
         inputs
         {
-            item 1 tags[ServeInPaperBag] mode:keep,
+            item 1 tags[hydrocraft:serveinpaperbag] flags[ItemCount],
             item 1 [Base.PaperBag;Base.Paperbag_Spiffos;Base.Paperbag_Jays;Hydrocraft.HCPaperbag],
         }
         outputs
@@ -63,11 +63,11 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 tags[PaperBagFull] mode:keep,
+            item 1 tags[hydrocraft:paperbagfull] flags[ItemCount;DontReplace],
         }
         outputs
         {
-            item 1 Base.PaperBag, /*Only gives a vanilla paper bag, regardless of the paper bag used originally.*/,
+            item 1 Base.PaperBag,
         }
     }
 }

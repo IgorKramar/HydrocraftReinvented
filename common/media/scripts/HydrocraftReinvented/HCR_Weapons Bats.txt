@@ -5,7 +5,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	Baseballbat,
+		WeaponSprite	=	Base.BaseballBat,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -44,7 +44,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -83,7 +83,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -122,7 +122,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -161,7 +161,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -200,7 +200,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -239,7 +239,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -278,7 +278,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -317,7 +317,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	Baseballbat,
+		WeaponSprite	=	Base.BaseballBat,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -356,7 +356,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -395,7 +395,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -434,7 +434,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -473,7 +473,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -512,7 +512,7 @@ module Hydrocraft
     {
 
 		MaxRange			=	1.5,
-		WeaponSprite			=	BaseballbatSpiked,
+		WeaponSprite			=	Base.BaseballBatSpiked,
 		MinAngle			=	0.2,
 		ItemType				=	base:weapon,
 		MinimumSwingTime		=	3,
@@ -551,7 +551,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -590,8 +590,8 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	HCHomemadebattrimmer,
-		WorldStaticModel	=	HCHomemadebattrimmer,
+		WeaponSprite	=	Hydrocraft.HCHomemadebattrimmer,
+		WorldStaticModel = Hydrocraft.HCHomemadebattrimmer,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -630,7 +630,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -669,7 +669,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -708,7 +708,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -747,7 +747,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -786,7 +786,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -825,7 +825,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	HCBaseballbattrimmer,
+		WeaponSprite	=	Hydrocraft.HCHomemadebattrimmer,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -864,7 +864,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1.5,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0.2,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -903,7 +903,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	Baseballbat,
+		WeaponSprite	=	Base.BaseballBat,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -939,7 +939,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -975,7 +975,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1011,7 +1011,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1047,7 +1047,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1083,7 +1083,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1119,7 +1119,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1155,7 +1155,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1191,7 +1191,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	Baseballbat,
+		WeaponSprite	=	Base.BaseballBat,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1227,7 +1227,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1263,7 +1263,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1299,7 +1299,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1335,7 +1335,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1371,7 +1371,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1407,7 +1407,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1443,7 +1443,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1479,7 +1479,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	Baseballbat,
+		WeaponSprite	=	Base.BaseballBat,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1515,7 +1515,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1551,7 +1551,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1587,7 +1587,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1623,7 +1623,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1659,7 +1659,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1695,7 +1695,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,
@@ -1731,7 +1731,7 @@ module Hydrocraft
     {
 
 		MaxRange	=	1,
-		WeaponSprite	=	BaseballbatSpiked,
+		WeaponSprite	=	Base.BaseballBatSpiked,
 		MinAngle	=	0,
 		ItemType	=	base:weapon,
 		MinimumSwingTime	=	3,

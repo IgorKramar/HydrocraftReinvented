@@ -18,7 +18,7 @@ module Hydrocraft
         DisplayName         	= Floppy Disk,
         icon 			= HCFloppy,
 		DisplayCategory = Misc,
-		WorldStaticModel = WorldItem-HCFloppyDisk,
+		WorldStaticModel = Hydrocraft.WorldItem-HCFloppyDisk,
     }
     item HCFloppyevosim
     {
@@ -28,7 +28,7 @@ module Hydrocraft
         DisplayName         	= Floppy Disk with Evolution Simulator,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
-		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+		WorldStaticModel = Hydrocraft.WorldItem-HCFloppyDiskFull,
     }
     item HCFloppygesture
     {
@@ -38,7 +38,7 @@ module Hydrocraft
         DisplayName         	= Floppy Disk with Gesture Recognition Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
-		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+		WorldStaticModel = Hydrocraft.WorldItem-HCFloppyDiskFull,
     }
     item HCFloppyvoice
     {
@@ -48,7 +48,7 @@ module Hydrocraft
         DisplayName         	= Floppy Disk with Voice Recognition Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
-		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+		WorldStaticModel = Hydrocraft.WorldItem-HCFloppyDiskFull,
     }
     item HCFloppygraphics
     {
@@ -58,7 +58,7 @@ module Hydrocraft
         DisplayName         	= Floppy Disk with Graphics Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
-		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+		WorldStaticModel = Hydrocraft.WorldItem-HCFloppyDiskFull,
     }
     item HCFloppywriting
     {
@@ -68,7 +68,7 @@ module Hydrocraft
         DisplayName         	= Floppy Disk with Writing Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
-		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+		WorldStaticModel = Hydrocraft.WorldItem-HCFloppyDiskFull,
     }
     item HCFloppyweb
     {
@@ -78,7 +78,7 @@ module Hydrocraft
         DisplayName         	= Floppy Disk with Web Browser Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
-		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+		WorldStaticModel = Hydrocraft.WorldItem-HCFloppyDiskFull,
     }
     item HCFloppyaudio
     {
@@ -88,7 +88,7 @@ module Hydrocraft
         DisplayName         	= Floppy Disk with Audio Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
-		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+		WorldStaticModel = Hydrocraft.WorldItem-HCFloppyDiskFull,
     }
     item HCFloppyemail
     {
@@ -98,7 +98,7 @@ module Hydrocraft
         DisplayName         	= Floppy Disk with Email Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
-		WorldStaticModel = WorldItem-HCFloppyDiskFull,
+		WorldStaticModel = Hydrocraft.WorldItem-HCFloppyDiskFull,
     }
     craftRecipe Make Desktop Computer
     {
@@ -136,7 +136,8 @@ module Hydrocraft
         xpAward = Electricity:16,
         inputs
         {
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCFloppy],
             item 1 [Hydrocraft.HCBookbiology] mode:keep,
             item 1 [Hydrocraft.HCBookmicrobiology] mode:keep,
@@ -160,7 +161,8 @@ module Hydrocraft
         xpAward = Electricity:20,
         inputs
         {
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCFloppy],
             item 1 [Hydrocraft.HCFloppygraphics] mode:keep,
             item 1 [Hydrocraft.HCBookcalculus] mode:keep,
@@ -186,7 +188,8 @@ module Hydrocraft
         xpAward = Electricity:20,
         inputs
         {
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCFloppy],
             item 1 [Hydrocraft.HCFloppyaudio] mode:keep,
             item 1 [Hydrocraft.HCBookcalculus] mode:keep,
@@ -210,7 +213,8 @@ module Hydrocraft
         OnCreate = HCR42.HC_ToyStatModifier,
         inputs
         {
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCPCgame1],
             item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
         }
@@ -228,7 +232,8 @@ module Hydrocraft
         OnCreate = HCR42.HC_ToyStatModifier,
         inputs
         {
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCPCgame2],
             item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
         }
@@ -246,7 +251,8 @@ module Hydrocraft
         OnCreate = HCR42.HC_ToyStatModifier,
         inputs
         {
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCPCgame3],
             item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
         }
@@ -264,7 +270,8 @@ module Hydrocraft
         OnCreate = HCR42.HC_ToyStatModifier,
         inputs
         {
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCPCgame4],
             item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
         }
@@ -282,7 +289,8 @@ module Hydrocraft
         OnCreate = HCR42.HC_ToyStatModifier,
         inputs
         {
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCPCgame5],
             item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
         }
@@ -300,7 +308,8 @@ module Hydrocraft
         OnCreate = HCR42.HC_ToyStatModifier,
         inputs
         {
-            item 1 [Base.PetrolCan],
+            item 1 [Base.PetrolCan] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.25 [Petrol],
             item 1 [Hydrocraft.HCPCgame6],
             item 1 [Hydrocraft.HCComputerdesktop] mode:keep,
         }

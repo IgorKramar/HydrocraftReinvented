@@ -157,12 +157,12 @@ module Hydrocraft
     craftRecipe Unpack Sleeping Bag
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCSleepingbag],
+            item 1 [Hydrocraft.HCSleepingbag] flags[ItemCount],
         }
         outputs
         {
@@ -172,12 +172,12 @@ module Hydrocraft
     craftRecipe Pack Sleeping Bag
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCSleepingbagsleepin],
+            item 1 [Hydrocraft.HCSleepingbagsleepin] flags[ItemCount],
         }
         outputs
         {
@@ -187,12 +187,12 @@ module Hydrocraft
     craftRecipe Unpack Sleeping Bag (Sleeping Bag)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCSleepingbag2],
+            item 1 [Hydrocraft.HCSleepingbag2] flags[ItemCount],
         }
         outputs
         {
@@ -202,12 +202,12 @@ module Hydrocraft
     craftRecipe Pack Sleeping Bag (Sleeping Bag in Bag)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCSleepingbag2sleepin],
+            item 1 [Hydrocraft.HCSleepingbag2sleepin] flags[ItemCount],
         }
         outputs
         {
@@ -217,12 +217,12 @@ module Hydrocraft
     craftRecipe Unpack Sleeping Bag (Sleeping Bag 2)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCSleepingbag3],
+            item 1 [Hydrocraft.HCSleepingbag3] flags[ItemCount],
         }
         outputs
         {
@@ -232,12 +232,12 @@ module Hydrocraft
     craftRecipe Pack Sleeping Bag (Sleeping Bag in Bag 2)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCSleepingbag3sleepin],
+            item 1 [Hydrocraft.HCSleepingbag3sleepin] flags[ItemCount],
         }
         outputs
         {
@@ -283,12 +283,12 @@ module Hydrocraft
     craftRecipe Unpack Dome Tent
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCTentkit],
+            item 1 [Hydrocraft.HCTentkit] flags[ItemCount],
         }
         outputs
         {
@@ -298,12 +298,12 @@ module Hydrocraft
     craftRecipe Pack Dome Tent
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCTentsleepin],
+            item 1 [Hydrocraft.HCTentsleepin] flags[ItemCount],
         }
         outputs
         {
@@ -313,12 +313,12 @@ module Hydrocraft
     craftRecipe Unpack Dome Tent (Dome Tent)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCTentkit2],
+            item 1 [Hydrocraft.HCTentkit2] flags[ItemCount],
         }
         outputs
         {
@@ -328,12 +328,12 @@ module Hydrocraft
     craftRecipe Pack Dome Tent (Dome Tent Kit)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCTent2sleepin],
+            item 1 [Hydrocraft.HCTent2sleepin] flags[ItemCount],
         }
         outputs
         {
@@ -343,12 +343,12 @@ module Hydrocraft
     craftRecipe Unpack Dome Tent (Dome Tent 2)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCTentkit3],
+            item 1 [Hydrocraft.HCTentkit3] flags[ItemCount],
         }
         outputs
         {
@@ -358,12 +358,12 @@ module Hydrocraft
     craftRecipe Pack Dome Tent (Dome Tent Kit 2)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCTent3sleepin],
+            item 1 [Hydrocraft.HCTent3sleepin] flags[ItemCount],
         }
         outputs
         {
@@ -373,12 +373,12 @@ module Hydrocraft
     craftRecipe Unpack Dome Tent (Dome Tent 3)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCTentkit4],
+            item 1 [Hydrocraft.HCTentkit4] flags[ItemCount],
         }
         outputs
         {
@@ -388,12 +388,12 @@ module Hydrocraft
     craftRecipe Pack Dome Tent (Dome Tent Kit 3)
     {
         time = 15,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCTent4sleepin],
+            item 1 [Hydrocraft.HCTent4sleepin] flags[ItemCount],
         }
         outputs
         {

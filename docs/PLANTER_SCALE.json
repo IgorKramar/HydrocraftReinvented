@@ -1,0 +1,261 @@
+{
+  "reference": {
+    "sprite": "hcFarmingLemontree00_0",
+    "page": "hcBuilding2x0",
+    "atlasRect": [
+      576,
+      500,
+      110,
+      123
+    ],
+    "offset": [
+      9,
+      130
+    ],
+    "frame": [
+      128,
+      256
+    ],
+    "pack_sha256": "111195dcfeb86f17d8d11849e6beaa2d078e8ab88b8a39f421c6c47577c0060a"
+  },
+  "processing": "Original atlas planter pixels reused; older foliage retained at 1:1, tomato and both cabbage canopies regenerated with native alpha and fitted once; ground anchor 317 on canvas 200x424.",
+  "assets": [
+    {
+      "asset": "common/media/textures/Item_HCPottedpotatoready.png",
+      "source_sha256": "084a11e712090f22fe0a4d789c08befacb887725492a688ab95370a990f91a57",
+      "output_sha256": "c6865b4f04169be109a039ba6fba63d1b03011c48fef573cff346bf1e764007b",
+      "source_canvas": [
+        200,
+        320
+      ],
+      "canvas": [
+        200,
+        424
+      ],
+      "planter_rect": [
+        45,
+        194,
+        110,
+        123
+      ],
+      "foliage_translation": [
+        0,
+        -31
+      ],
+      "foliage_bbox": [
+        16,
+        166,
+        183,
+        265
+      ],
+      "front_walls_exact": true
+    },
+    {
+      "asset": "common/media/textures/Item_HCPottedCabbageredready.png",
+      "source_sha256": "8f4a51533aaefe845ea53072edb99f9e909d51d2025fee16a35cc259f7a87cf6",
+      "output_sha256": "3967c0868339594aa2d66d52328883b8ff66b073e8ff45d7327a792ce95b121f",
+      "source_canvas": [
+        1024,
+        1024
+      ],
+      "canvas": [
+        200,
+        424
+      ],
+      "planter_rect": [
+        45,
+        194,
+        110,
+        123
+      ],
+      "front_walls_exact": true,
+      "pipeline": "fal-native-alpha-v2",
+      "foliage_size": [
+        118,
+        84
+      ],
+      "foliage_position": [
+        41,
+        150
+      ]
+    },
+    {
+      "asset": "common/media/textures/Item_HCPottedtomatoready.png",
+      "source_sha256": "aa36d0c76ec22e89b2432a4c31244f6638f5d6c9a42bbbce406c4c3939bcc14f",
+      "output_sha256": "564849fd7a8b332794af08f3b27312f21734d969e9b3c342c0471427965e6ce0",
+      "source_canvas": [
+        1024,
+        1024
+      ],
+      "canvas": [
+        200,
+        424
+      ],
+      "planter_rect": [
+        45,
+        194,
+        110,
+        123
+      ],
+      "front_walls_exact": true,
+      "pipeline": "fal-native-alpha-v2",
+      "foliage_size": [
+        116,
+        164
+      ],
+      "foliage_position": [
+        42,
+        70
+      ]
+    },
+    {
+      "asset": "common/media/textures/Item_HCPottedradishready.png",
+      "source_sha256": "573986f0739196857c1fe69f652804dad1c8a5c3c49964daa87277ffdd59dadf",
+      "output_sha256": "1e088a53d5f832fd0c9c12c9542d7f45b4db43a80a285988c2dba61229cb1e1b",
+      "source_canvas": [
+        200,
+        320
+      ],
+      "canvas": [
+        200,
+        424
+      ],
+      "planter_rect": [
+        45,
+        194,
+        110,
+        123
+      ],
+      "foliage_translation": [
+        0,
+        -21
+      ],
+      "foliage_bbox": [
+        48,
+        188,
+        159,
+        256
+      ],
+      "front_walls_exact": true
+    },
+    {
+      "asset": "common/media/textures/Item_HCPottedCabbagewhiteready.png",
+      "source_sha256": "46df54ff83f251a489f1d9b461e6b540cfa3e5762752642a447ee87eddab4d05",
+      "output_sha256": "840e9417b9e7b316b6a779205b921050bcbb20c71e001d7af5bd1bab4fdedbcb",
+      "source_canvas": [
+        1024,
+        1024
+      ],
+      "canvas": [
+        200,
+        424
+      ],
+      "planter_rect": [
+        45,
+        194,
+        110,
+        123
+      ],
+      "front_walls_exact": true,
+      "pipeline": "fal-native-alpha-v2",
+      "foliage_size": [
+        118,
+        90
+      ],
+      "foliage_position": [
+        41,
+        144
+      ]
+    },
+    {
+      "asset": "common/media/textures/Item_HCPottedorangetreeready.png",
+      "source_sha256": "aab0ad0045a28c2c01be316a3943987d8d5fb3124344702a24290b56efab5506",
+      "output_sha256": "89ad8e83e7beeb7209cee70e9865b17cde3927e6428ca7eb27326d46447b11e1",
+      "source_canvas": [
+        137,
+        315
+      ],
+      "canvas": [
+        200,
+        424
+      ],
+      "planter_rect": [
+        45,
+        194,
+        110,
+        123
+      ],
+      "foliage_translation": [
+        32,
+        0
+      ],
+      "foliage_bbox": [
+        4,
+        2,
+        133,
+        235
+      ],
+      "front_walls_exact": true
+    },
+    {
+      "asset": "common/media/textures/Item_HCPottedorangetreedead.png",
+      "source_sha256": "5e909987c6fd89b3626df34493d73c3637363b5f54cc8fe45e0dcdf2d6949bcb",
+      "output_sha256": "d88fcfa5535a0abd6c149604d0e1fff0b47808d547323cd4ee4e79f96f4bf007",
+      "source_canvas": [
+        137,
+        315
+      ],
+      "canvas": [
+        200,
+        424
+      ],
+      "planter_rect": [
+        45,
+        194,
+        110,
+        123
+      ],
+      "foliage_translation": [
+        32,
+        0
+      ],
+      "foliage_bbox": [
+        5,
+        8,
+        130,
+        235
+      ],
+      "front_walls_exact": true
+    },
+    {
+      "asset": "common/media/textures/Item_HCPottedpeaplantsmalldry.png",
+      "source_sha256": "9717ee9984f1652d452ac1bf5556bdfd0c73e24cb49321d0149669e872029499",
+      "output_sha256": "55d01f23957351d03c85849ffb689f67466f9d3c21b507230d85e6c2080d6bdb",
+      "source_canvas": [
+        200,
+        320
+      ],
+      "canvas": [
+        200,
+        424
+      ],
+      "planter_rect": [
+        45,
+        194,
+        110,
+        123
+      ],
+      "foliage_translation": [
+        -3,
+        -9
+      ],
+      "foliage_bbox": [
+        70,
+        147,
+        159,
+        245
+      ],
+      "front_walls_exact": true
+    }
+  ]
+}

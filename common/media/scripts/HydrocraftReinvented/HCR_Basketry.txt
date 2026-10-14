@@ -90,7 +90,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 5 [Hydrocraft.HCBirchbark],
+            item 5 [Hydrocraft.HCBirchbark] flags[ItemCount],
         }
         outputs
         {
@@ -138,7 +138,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 2 [Hydrocraft.HCBirchbark],
+            item 2 [Hydrocraft.HCBirchbark] flags[ItemCount],
         }
         outputs
         {

@@ -52,8 +52,8 @@ module Hydrocraft
 
         ImpactSound =   null,
         MaxRange    =   6,
-        WeaponSprite    =  Handgun02,
-        WorldStaticModel	=	HCUzi,
+        WeaponSprite    =  Base.Handgun02,
+        WorldStaticModel = Hydrocraft.HCUzi,
         SoundVolume =   30,
         MinAngle    =   0.95,
         ItemType    =   base:weapon,
@@ -219,7 +219,7 @@ module Hydrocraft
 	FireModePossibilities			=	Auto/Single,
 	ModelWeaponPart					=	Hydrocraft.HCShotgunSilencer gunlight gunlight gunlight,
 	DisplayCategory					=	WepFire,
-	Tags							=	HuntingShotgun,
+	Tags							=	hydrocraft:huntingshotgun,
     }
     item HCShotgunSilencer
     {
@@ -371,7 +371,7 @@ module Hydrocraft
         ImpactSound =   null,
         MaxRange    =   7,
         WeaponSprite    =   Hydrocraft.HCCrossbow,
-        WorldStaticModel	=	HCCrossbow,
+        WorldStaticModel = Hydrocraft.HCCrossbow,
         SoundVolume =   40,
         MinAngle    =   0.95,
         ItemType    =   base:weapon,
@@ -476,7 +476,7 @@ module Hydrocraft
         ImpactSound =   null,
         MaxRange    =   8,
         WeaponSprite    =   Hydrocraft.HCLongbow,
-        WorldStaticModel	=	HCLongbow,
+        WorldStaticModel = Hydrocraft.HCLongbow,
         SoundVolume =   40,
         MinAngle    =   0.95,
         ItemType    =   base:weapon,
@@ -642,7 +642,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCAluminumingot],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
             item 1 [Hydrocraft.HCBowBoltMold],
@@ -664,7 +664,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIroningot;Hydrocraft.HCBronzeingot;Hydrocraft.HCSteelingot;Base.SteelIngot;Base.IronIngot],
-            item 1 tags[base:tongs;base:crudetongs],
+            item 1 tags[base:tongs;base:crudetongs] mode:keep,
             item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Hydrocraft.HCWorkgloves] mode:keep,
             item 1 [Hydrocraft.HCSmelter2;Hydrocraft.HCFurnace2;Hydrocraft.HCBlastfurnace2] mode:keep,
             item 1 [Hydrocraft.HCArrowheadMold],

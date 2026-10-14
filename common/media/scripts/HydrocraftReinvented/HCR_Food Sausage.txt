@@ -463,7 +463,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 2 [Base.FrogMeat],
+            item 2 [Base.FrogMeat] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -483,7 +483,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 2 [Base.Smallbirdmeat],
+            item 2 [Base.Smallbirdmeat] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -503,7 +503,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Base.Chicken],
+            item 1 [Base.Chicken] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -523,7 +523,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Hydrocraft.HCDuckmeat],
+            item 1 [Hydrocraft.HCDuckmeat] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -543,7 +543,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Hydrocraft.HCGoosemeat],
+            item 1 [Hydrocraft.HCGoosemeat] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -583,7 +583,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 2 [Base.Smallanimalmeat],
+            item 2 [Base.Smallanimalmeat] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -603,7 +603,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 2 [Base.Rabbitmeat],
+            item 2 [Base.Rabbitmeat] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -623,7 +623,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 2 [Hydrocraft.HCSmallgamesteak],
+            item 2 [Hydrocraft.HCSmallgamesteak] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -643,7 +643,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Hydrocraft.HCVenison],
+            item 1 [Hydrocraft.HCVenison] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -663,7 +663,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Hydrocraft.HCBearsteak],
+            item 1 [Hydrocraft.HCBearsteak] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -683,7 +683,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Hydrocraft.HCCougarsteak],
+            item 1 [Hydrocraft.HCCougarsteak] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -703,7 +703,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Base.MuttonChop],
+            item 1 [Base.MuttonChop] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -723,7 +723,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Base.PorkChop;Hydrocraft.HCFreshham],
+            item 1 [Base.PorkChop;Hydrocraft.HCFreshham] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -743,7 +743,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Base.MeatPatty;Base.Steak],
+            item 1 [Base.MeatPatty;Base.Steak] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -763,7 +763,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Hydrocraft.HCCheval],
+            item 1 [Hydrocraft.HCCheval] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -783,8 +783,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Base.PorkChop],
-            item 1 [Hydrocraft.HCHerbs],
+            item 1 [Base.PorkChop] flags[ItemCount],
+            item 1 [Hydrocraft.HCHerbs] flags[ItemCount],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }
         outputs
@@ -804,7 +804,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCIntestines],
-            item 1 [Base.PorkChop],
+            item 1 [Base.PorkChop] flags[ItemCount],
             item 1 [Hydrocraft.HCHotsauce;Hydrocraft.HCChilipowder],
             item 1 [Hydrocraft.HCMeatgrinder] mode:keep,
         }

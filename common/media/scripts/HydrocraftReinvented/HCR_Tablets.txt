@@ -21,7 +21,7 @@ module Hydrocraft
         ReplaceOnUse    	=   	HCTabletskinanimal,
 		DisplayCategory	= LitR,
         StaticModel	 = HCClaytabletwrittenOpen,
-		WorldStaticModel = HCClaytabletwritten,
+		WorldStaticModel = Hydrocraft.HCClaytabletwritten,
     }
     item HCTabletButcherCarcass
     {
@@ -34,7 +34,7 @@ module Hydrocraft
         ReplaceOnUse        =  HCTabletButcherCarcass,
 		DisplayCategory	= LitR,
         StaticModel	 = HCClaytabletwrittenOpen,
-		WorldStaticModel = HCClaytabletwritten,
+		WorldStaticModel = Hydrocraft.HCClaytabletwritten,
     }
     item HCTabletberries
     {
@@ -47,7 +47,7 @@ module Hydrocraft
         ReplaceOnUse    	=  HCTabletberries,
 		DisplayCategory	= LitR,
         StaticModel	 = HCClaytabletwrittenOpen,
-		WorldStaticModel = HCClaytabletwritten,
+		WorldStaticModel = Hydrocraft.HCClaytabletwritten,
     }
     item HCTabletshrooms
     {
@@ -60,7 +60,7 @@ module Hydrocraft
         ReplaceOnUse    	=   	HCTabletshrooms,
 		DisplayCategory	= LitR,
         StaticModel	 = HCClaytabletwrittenOpen,
-		WorldStaticModel = HCClaytabletwritten,
+		WorldStaticModel = Hydrocraft.HCClaytabletwritten,
     }
     item HCTabletbirchbarkbasket
     {
@@ -73,7 +73,7 @@ module Hydrocraft
         ReplaceOnUse    	=   	HCTabletbirchbarkbasket,
 		DisplayCategory	= LitR,
         StaticModel	 = HCClaytabletwrittenOpen,
-		WorldStaticModel = HCClaytabletwritten,
+		WorldStaticModel = Hydrocraft.HCClaytabletwritten,
     }
     item HCTabletwickerbasket
     {
@@ -86,7 +86,7 @@ module Hydrocraft
         ReplaceOnUse    	=   	HCTabletwickerbasket,
 		DisplayCategory	= LitR,
         StaticModel	 = HCClaytabletwrittenOpen,
-		WorldStaticModel = HCClaytabletwritten,
+		WorldStaticModel = Hydrocraft.HCClaytabletwritten,
     }
     item HCTabletstrawbasket
     {
@@ -99,7 +99,7 @@ module Hydrocraft
         ReplaceOnUse    	=   	HCTabletstrawbasket,
 		DisplayCategory	= LitR,
         StaticModel	 = HCClaytabletwrittenOpen,
-		WorldStaticModel = HCClaytabletwritten,
+		WorldStaticModel = Hydrocraft.HCClaytabletwritten,
     }
     item HCTabletsticktrap
     {
@@ -112,7 +112,7 @@ module Hydrocraft
         ReplaceOnUse    	=   	HCTabletsticktrap,
 		DisplayCategory	= LitR,
         StaticModel	 = HCClaytabletwrittenOpen,
-		WorldStaticModel = HCClaytabletwritten,
+		WorldStaticModel = Hydrocraft.HCClaytabletwritten,
     }
     item HCTabletBoneNeedles
     {
@@ -125,7 +125,7 @@ module Hydrocraft
         ReplaceOnUse        =  HCTabletBoneNeedles,
 		DisplayCategory	= LitR,
         StaticModel	 = HCClaytabletwrittenOpen,
-		WorldStaticModel = HCClaytabletwritten,
+		WorldStaticModel = Hydrocraft.HCClaytabletwritten,
     }
     item HCTabletDryingFrame
     {
@@ -138,7 +138,7 @@ module Hydrocraft
         ReplaceOnUse    = HCTabletDryingFrame,
 		DisplayCategory	= LitR,
         StaticModel	 = HCClaytabletwrittenOpen,
-		WorldStaticModel = HCClaytabletwritten,
+		WorldStaticModel = Hydrocraft.HCClaytabletwritten,
     }
     craftRecipe Make Primative Research Station
     {

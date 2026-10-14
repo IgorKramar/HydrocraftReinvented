@@ -447,7 +447,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCJar],
             item 1 [Base.Vinegar2],
             item 1 [Base.Salt],
-            item 5 [Base.RedRadish],
+            item 5 [Base.RedRadish] flags[ItemCount],
         }
         outputs
         {
@@ -601,7 +601,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCJar],
             item 1 [Base.Vinegar2],
             item 1 [Base.Salt],
-            item 5 [Hydrocraft.HCGinger],
+            item 5 [Hydrocraft.HCGinger] flags[ItemCount],
             item 1 [Base.KitchenKnife] mode:keep,
         }
         outputs
@@ -624,7 +624,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCJar],
             item 1 [Base.Vinegar2],
             item 1 [Base.Salt],
-            item 5 [Hydrocraft.HCGarlic],
+            item 5 [Hydrocraft.HCGarlic] flags[ItemCount],
         }
         outputs
         {
@@ -690,7 +690,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCJar],
             item 1 [Base.Vinegar2],
             item 1 [Base.Salt],
-            item 5 [Hydrocraft.HCCucumber],
+            item 5 [Hydrocraft.HCCucumber] flags[ItemCount],
         }
         outputs
         {
@@ -843,10 +843,10 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Bowl],
+            item 1 [Base.Bowl] flags[ItemCount],
             item 1 [Base.Pepper],
-            item 1 [Base.RedRadish],
-            item 1 [Base.Tomato],
+            item 1 [Base.RedRadish] flags[ItemCount],
+            item 1 [Base.Tomato] flags[ItemCount],
         }
         outputs
         {
@@ -867,8 +867,8 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCJar],
             item 1 [Base.Salt],
-            item 5 [Base.Cabbage;Hydrocraft.HCCabbagered;Hydrocraft.HCCabbagewhite;Hydrocraft.HCChinesecabbage],
-            item 1 [Hydrocraft.HCSpicypaste],
+            item 5 [Base.Cabbage;Hydrocraft.HCCabbagered;Hydrocraft.HCCabbagewhite;Hydrocraft.HCChinesecabbage] flags[ItemCount],
+            item 1 [Hydrocraft.HCSpicypaste] flags[ItemCount],
         }
         outputs
         {

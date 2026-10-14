@@ -11,7 +11,7 @@ module Hydrocraft
 	Icon			=	HCMagnet,
 	AttachmentType  = 	Hammer,
 	StaticModel      =  HC_Magnet_AP,
-    WorldStaticModel =  WorldItem-HCMagnet,
+    WorldStaticModel = Hydrocraft.WorldItem-HCMagnet,
     }
     item HCChemicalbottleempty
     {
@@ -22,15 +22,7 @@ module Hydrocraft
 	Icon			=	HCChemicalbottleempty,
 		DisplayCategory          =   CraftChem,
     }
-    item HCPlasticcanempty
-    {
 
-	Weight			=	0.1,
-	ItemType			=	base:normal,
-	DisplayName		=	Empty Plastic Can,
-	Icon			=	HCPlasticcanempty,
-		DisplayCategory          =   CraftChem,
-    }
     item HCGlassflask
     {
 
@@ -144,7 +136,7 @@ module Hydrocraft
         ItemType    		 = base:normal,
         DisplayName      = Cork,
         icon 			 = HCCork,
-		WorldStaticModel =  WorldItem-HCCork,
+		WorldStaticModel = Hydrocraft.WorldItem-HCCork,
     }
     item HCCorkbox
     {
@@ -515,7 +507,7 @@ module Hydrocraft
         DisplayName         	= Hydrogen Tank,
         icon 			= HCHydrogentank,
 		DisplayCategory          =   CraftChem,
-        WorldStaticModel = WorldItem-HCHydrogenTank,
+        WorldStaticModel = Hydrocraft.WorldItem-HCHydrogenTank,
     }
     item HCHydrogentankempty
     {
@@ -525,7 +517,7 @@ module Hydrocraft
         DisplayName         	= Empty Hydrogen Tank,
         icon 			= HCHydrogentank,
 		DisplayCategory          =   CraftChem,
-        WorldStaticModel = WorldItem-HCHydrogenTank,
+        WorldStaticModel = Hydrocraft.WorldItem-HCHydrogenTank,
     }
     item HCHeliumtank
     {
@@ -535,7 +527,7 @@ module Hydrocraft
         DisplayName         	= Helium Tank,
         icon 			= HCHeliumtank,
 		DisplayCategory          =   CraftChem,
-        WorldStaticModel = WorldItem-HCHeliumTank,
+        WorldStaticModel = Hydrocraft.WorldItem-HCHeliumTank,
     }
     item HCHeliumtankempty
     {
@@ -545,7 +537,7 @@ module Hydrocraft
         DisplayName         	= Empty Helium Tank,
         icon 			= HCHeliumtank,
 		DisplayCategory          =   CraftChem,
-        WorldStaticModel = WorldItem-HCHeliumTank,
+        WorldStaticModel = Hydrocraft.WorldItem-HCHeliumTank,
     }
     item HCOxygentank
     {
@@ -555,7 +547,7 @@ module Hydrocraft
         DisplayName         	= Oxygen Tank,
         icon 			= HCOxygentank,
 		DisplayCategory          =   CraftChem,
-		WorldStaticModel = WorldItem-HCOxygenTank,
+		WorldStaticModel = Hydrocraft.WorldItem-HCOxygenTank,
     }
     item HCOxygentankempty
     {
@@ -565,7 +557,7 @@ module Hydrocraft
         DisplayName         	= Empty Oxygen Tank,
         icon 			= HCOxygentank,
 		DisplayCategory          =   CraftChem,
-		WorldStaticModel = WorldItem-HCOxygenTank,
+		WorldStaticModel = Hydrocraft.WorldItem-HCOxygenTank,
     }
     item HCHclgastank
     {
@@ -575,7 +567,7 @@ module Hydrocraft
         DisplayName             = Hydrogen Chloride Tank,
         icon             	= HCHclgastank,
 		DisplayCategory          =   CraftChem,
-		WorldStaticModel = WorldItem-HCHCLTank,
+		WorldStaticModel = Hydrocraft.WorldItem-HCHCLTank,
     }
     item HCHclgastankempty
     {
@@ -585,7 +577,7 @@ module Hydrocraft
         DisplayName             = Empty Hydrogen Chloride Tank,
         icon             	= HCHclgastank,
 		DisplayCategory          =   CraftChem,
-		WorldStaticModel = WorldItem-HCHCLTank,
+		WorldStaticModel = Hydrocraft.WorldItem-HCHCLTank,
     }
     item HCTankfridge
     {

@@ -593,13 +593,13 @@ module Hydrocraft
     craftRecipe Pack Dirt
     {
         time = 50,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Masonry,
         timedAction = Making,
         inputs
         {
-            item 4 [Hydrocraft.HCDirt],
-            item 1 [Base.EmptySandbag],
+            item 4 [Hydrocraft.HCDirt] flags[ItemCount],
+            item 1 [Base.EmptySandbag] flags[ItemCount],
             item 1 [Base.Shovel;Base.Shovel2] mode:keep,
         }
         outputs
@@ -610,12 +610,12 @@ module Hydrocraft
     craftRecipe Unpack Dirt
     {
         time = 50,
-        Tags = AnySurfaceCraft,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Masonry,
         timedAction = Making,
         inputs
         {
-            item 1 [Base.Dirtbag],
+            item 1 [Base.Dirtbag] flags[ItemCount],
         }
         outputs
         {

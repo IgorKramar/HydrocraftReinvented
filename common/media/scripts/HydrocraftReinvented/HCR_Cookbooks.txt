@@ -12,7 +12,7 @@ module Hydrocraft
         ReplaceOnUse    =   	HCCookbookbbq,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCBookbaking
     {
@@ -25,7 +25,7 @@ module Hydrocraft
         ReplaceOnUse    =   	HCBookbaking,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbookbutcher
     {
@@ -38,7 +38,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCCookbookbutcher,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCBookcheesemaking
     {
@@ -51,7 +51,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookcheesemaking,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbookdried
     {
@@ -64,7 +64,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCCookbookdried,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbookegg
     {
@@ -77,7 +77,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCCookbookegg,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbookjerky
     {
@@ -90,7 +90,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCCookbookjerky,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbookmexican
     {
@@ -99,11 +99,11 @@ module Hydrocraft
 		ItemType		=	base:literature,
 		DisplayName	=	Mexican Cookbook,
 		Icon		=	HCCookbook,
-		LearnedRecipes  =   	Make Taco Sauce;Make Guacamole;Make Salsa;Make Nacho Cheese;Make Corn Tortilla;Make Flour Tortilla;Make Quesadilla;Make Burrito;Make Burrito Grande;Make Taquito;Make Taco;Make Taco Grande;Make Soft Taco;Make Soft Taco Grande;Make Fish Taco;Make Corned Beef Taco;Make Enchilada;Make Nachos;Make Nachos Grande;Make Stuffed Bell Pepper;Make Stuffed Bell Pepper (Stuffed Red Bell Pepper);Make Stuffed Bell Pepper (Stuffed Yellow Bell Pepper);Make Stuffed Eggplant;Make Stuffed Squash,
+		LearnedRecipes  =   	Make Taco Sauce;Make Guacamole;Make Salsa;Make Nacho Cheese;Make Corn Tortilla;Make Flour Tortilla;Make Quesadilla;Make Burrito;Make Burrito Grande;Make Taquito;Make Taco;Make Taco Grande;Make Soft Taco;Make Soft Taco Grande;Make Fish Taco;Make Corned Beef Taco;Make Enchilada;Make Nachos;Make Nachos Grande;Make Stuffed Bell Pepper;Make Stuffed Bell Pepper (Stuffed Red Bell Pepper);Make Stuffed Bell Pepper (Stuffed Yellow Bell Pepper);Make Stuffed Eggplant;Make Stuffed Squash;Make Nacho Cheese (Carton Milk),
         	ReplaceOnUse    =   	HCCookbookmexican,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbookpasta
     {
@@ -116,7 +116,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCCookbookpasta,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbookpickling
     {
@@ -129,7 +129,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCCookbookpickling,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbookpizza
     {
@@ -142,7 +142,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCCookbookpizza,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbooksalt
     {
@@ -155,7 +155,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCCookbooksalt,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCBooksausagemaking
     {
@@ -168,7 +168,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBooksausagemaking,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbooksmoking
     {
@@ -181,7 +181,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCCookbooksmoking,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbookspices
     {
@@ -194,7 +194,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCCookbookspices,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCBookwinemaking
     {
@@ -207,7 +207,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCBookwinemaking,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbookyogurt
     {
@@ -220,7 +220,7 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCCookbookyogurt,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
     item HCCookbookalcoholic
     {
@@ -229,10 +229,10 @@ module Hydrocraft
 		ItemType			=	base:literature,
 		DisplayName		=	Alcoholic Beverages Cookbook,
 		Icon			=	HCCookbook,
-		LearnedRecipes  =   Mix Old Fashioned;Mix Martini;Mix Manhattan;Mix Daquiri;Mix Bloody Mary;Mix Whiskey Sour;Mix Mai Tai;Mix Cosmopolitan;Mix Tom Collins;Mix Long Island Iced Tea;Mix Gimlet;Mix Planter's Punch;Mix Margarita;Make Eggnog Pot,
+		LearnedRecipes  =   Mix Old Fashioned;Mix Martini;Mix Manhattan;Mix Daquiri;Mix Bloody Mary;Mix Whiskey Sour;Mix Mai Tai;Mix Cosmopolitan;Mix Tom Collins;Mix Long Island Iced Tea;Mix Gimlet;Mix Planter's Punch;Mix Margarita;Make Eggnog Pot;Make Eggnog Pot (Carton Milk),
         ReplaceOnUse    =   HCCookbookalcoholic,
 		DisplayCategory =   LitR,
 		StaticModel	 = HCCookbookOpen,
-		WorldStaticModel = HCCookbook,
+		WorldStaticModel = Hydrocraft.HCCookbook,
     }
 }

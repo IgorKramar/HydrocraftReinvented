@@ -422,8 +422,8 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCPiecrust],
-            item 1 [Base.Apple;Hydrocraft.HCCannedappleopen],
+            item 1 [Hydrocraft.HCPiecrust] flags[ItemCount],
+            item 1 [Base.Apple;Hydrocraft.HCCannedappleopen] flags[ItemCount],
         }
         outputs
         {
@@ -440,7 +440,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_piepan,
         inputs
         {
-            item 1 [Hydrocraft.HCPieapplepan],
+            item 1 [Hydrocraft.HCPieapplepan] flags[ItemCount],
         }
         outputs
         {
@@ -456,8 +456,8 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCPiecrust],
-            item 10 [Base.BerryBlue],
+            item 1 [Hydrocraft.HCPiecrust] flags[ItemCount],
+            item 10 [Base.BerryBlue] flags[ItemCount],
         }
         outputs
         {
@@ -474,7 +474,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_piepan,
         inputs
         {
-            item 1 [Hydrocraft.HCPieblueberrypan],
+            item 1 [Hydrocraft.HCPieblueberrypan] flags[ItemCount],
         }
         outputs
         {
@@ -490,8 +490,8 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCPiecrust],
-            item 1 [Base.Peach;Hydrocraft.HCCannedpeachopen],
+            item 1 [Hydrocraft.HCPiecrust] flags[ItemCount],
+            item 1 [Base.Peach;Hydrocraft.HCCannedpeachopen] flags[ItemCount],
         }
         outputs
         {
@@ -508,7 +508,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_piepan,
         inputs
         {
-            item 1 [Hydrocraft.HCPiepeachpan],
+            item 1 [Hydrocraft.HCPiepeachpan] flags[ItemCount],
         }
         outputs
         {
@@ -524,8 +524,8 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCPiecrust],
-            item 1 [Hydrocraft.HCPear;Hydrocraft.HCCannedpearopen],
+            item 1 [Hydrocraft.HCPiecrust] flags[ItemCount],
+            item 1 [Hydrocraft.HCPear;Hydrocraft.HCCannedpearopen] flags[ItemCount],
         }
         outputs
         {
@@ -542,7 +542,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_piepan,
         inputs
         {
-            item 1 [Hydrocraft.HCPiepearpan],
+            item 1 [Hydrocraft.HCPiepearpan] flags[ItemCount],
         }
         outputs
         {
@@ -558,8 +558,8 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCPiecrust],
-            item 1 [Hydrocraft.HCPumpkinflesh;Hydrocraft.HCCannedpumpkinopen],
+            item 1 [Hydrocraft.HCPiecrust] flags[ItemCount],
+            item 1 [Hydrocraft.HCPumpkinflesh;Hydrocraft.HCCannedpumpkinopen] flags[ItemCount],
         }
         outputs
         {
@@ -576,7 +576,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_piepan,
         inputs
         {
-            item 1 [Hydrocraft.HCPiepumpkinpan],
+            item 1 [Hydrocraft.HCPiepumpkinpan] flags[ItemCount],
         }
         outputs
         {
@@ -592,8 +592,8 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCPiecrust],
-            item 10 [Base.Cherry],
+            item 1 [Hydrocraft.HCPiecrust] flags[ItemCount],
+            item 10 [Base.Cherry] flags[ItemCount],
         }
         outputs
         {
@@ -610,7 +610,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_piepan,
         inputs
         {
-            item 1 [Hydrocraft.HCPiecherrypan],
+            item 1 [Hydrocraft.HCPiecherrypan] flags[ItemCount],
         }
         outputs
         {
@@ -626,8 +626,8 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCPiecrust],
-            item 10 [Base.BerryBlack],
+            item 1 [Hydrocraft.HCPiecrust] flags[ItemCount],
+            item 10 [Base.BerryBlack] flags[ItemCount],
         }
         outputs
         {
@@ -660,10 +660,10 @@ module Hydrocraft
         xpAward = Cooking:5,
         inputs
         {
-            item 1 [Hydrocraft.HCPiecrust],
-            item 1 [Base.Cheese;Hydrocraft.HCCheddar],
-            item 1 tags[Egg] mode:keep,
-            item 1 [Base.Chicken;Base.Steak;Base.Onion;Base.Broccoli;Base.Tomato;Base.Leek;Base.Ham],
+            item 1 [Hydrocraft.HCPiecrust] flags[ItemCount],
+            item 1 [Base.Cheese;Hydrocraft.HCCheddar] flags[ItemCount],
+            item 1 tags[Egg] flags[ItemCount],
+            item 1 [Base.Chicken;Base.Steak;Base.Onion;Base.Broccoli;Base.Tomato;Base.Leek;Base.Ham] flags[ItemCount],
         }
         outputs
         {
@@ -680,7 +680,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_piepan,
         inputs
         {
-            item 1 [Hydrocraft.HCQuichepan],
+            item 1 [Hydrocraft.HCQuichepan] flags[ItemCount],
         }
         outputs
         {

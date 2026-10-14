@@ -223,7 +223,7 @@ module Hydrocraft
         AlcoholPower        = 3,
         Tooltip			    = Tooltip_UseOnHealthPanel,
 		DisplayCategory	= Medical,
-		Tags				= Disinfectant,
+		Tags				= hydrocraft:disinfectant,
     }
     item HCSmellingsalts
     {
@@ -787,7 +787,7 @@ module Hydrocraft
     Weight			   = 0.1,
     AlcoholPower       = 3,
 		DisplayCategory	= Medical,
-		Tags			= Disinfectant,
+		Tags			= hydrocraft:disinfectant,
     }
     item HCBandagepp
     {
@@ -819,7 +819,7 @@ module Hydrocraft
     {
 
         	MaxRange                 	=    1.8,
-       	 	WeaponSprite               	=    Shovel,
+            WeaponSprite               	=    Base.Shovel,
         	MinAngle                    	=    0.2,
         	ItemType                        	=    base:weapon,
         	MinimumSwingTime            	=    1.5,
@@ -856,7 +856,7 @@ module Hydrocraft
     {
 
         	MaxRange                 	=    1.8,
-       	 	WeaponSprite               	=    Shovel,
+            WeaponSprite               	=    Base.Shovel,
         	MinAngle                    	=    0.2,
         	ItemType                        	=    base:weapon,
         	MinimumSwingTime            	=    1.5,
@@ -893,7 +893,7 @@ module Hydrocraft
     {
 
         	MaxRange                 	=    1.8,
-       	 	WeaponSprite               	=    Shovel,
+            WeaponSprite               	=    Base.Shovel,
         	MinAngle                    	=    0.2,
         	ItemType                        	=    base:weapon,
         	MinimumSwingTime            	=    1.5,
@@ -1077,7 +1077,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbowl,
         inputs
         {
-            item 1 [Base.WaterBottle] mode:destroy,
+            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
             item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
             item 1 [Base.Salt],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
@@ -1162,7 +1162,7 @@ module Hydrocraft
         xpAward = Doctor:15,
         inputs
         {
-            item 1 [Hydrocraft.HCValeriantray],
+            item 1 [Hydrocraft.HCValeriantray] flags[ItemCount],
         }
         outputs
         {
@@ -1181,7 +1181,7 @@ module Hydrocraft
         OnCreate = HCR42.hcfillammoniarecipe,
         inputs
         {
-            item 1 [Hydrocraft.HCValeriandry],
+            item 1 [Hydrocraft.HCValeriandry] flags[ItemCount],
             item 1 [Hydrocraft.HCPillbox],
             item 1 [Hydrocraft.HCMedicallab2] mode:keep,
             item 1 [Base.SheetPaper2],
@@ -1215,7 +1215,7 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 20 [Hydrocraft.HCAntideppill],
+            item 20 [Hydrocraft.HCAntideppill] flags[ItemCount],
             item 1 [Hydrocraft.HCPillbox],
         }
         outputs
@@ -1234,7 +1234,7 @@ module Hydrocraft
         xpAward = Doctor:8,
         inputs
         {
-            item 1 [Hydrocraft.HCHawthornfruit],
+            item 1 [Hydrocraft.HCHawthornfruit] flags[ItemCount],
             item 1 [Base.BakingTray],
             item 1 tags[base:sharpknife] mode:keep,
         }
@@ -1254,7 +1254,7 @@ module Hydrocraft
         xpAward = Doctor:15,
         inputs
         {
-            item 1 [Hydrocraft.HCHawthornfruittray],
+            item 1 [Hydrocraft.HCHawthornfruittray] flags[ItemCount],
         }
         outputs
         {
@@ -1273,7 +1273,7 @@ module Hydrocraft
         OnCreate = HCR42.hcfillammoniarecipe,
         inputs
         {
-            item 1 [Hydrocraft.HCHawthornfruitdry],
+            item 1 [Hydrocraft.HCHawthornfruitdry] flags[ItemCount],
             item 1 [Hydrocraft.HCPillbox],
             item 1 [Hydrocraft.HCMedicallab2] mode:keep,
             item 1 [Base.SheetPaper2],
@@ -1585,7 +1585,29 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCDissectiontabledissected],
-            item 1 [Base.Bleach;Hydrocraft.HCMethanol],
+            item 1 [Hydrocraft.HCMethanol],
+            item 1 [Base.Sponge;Hydrocraft.HCSponge] mode:keep,
+            item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCDissectiontable,
+        }
+    }
+        craftRecipe Clean Dissection Table (Bleach)
+    {
+        time = 500,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Doctor:15,
+        OnCreate = HCR42.recipe_hcremovezed,
+        inputs
+        {
+            item 1 [Hydrocraft.HCDissectiontabledissected],
+            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [Bleach],
             item 1 [Base.Sponge;Hydrocraft.HCSponge] mode:keep,
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
         }
@@ -1670,7 +1692,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 4 [Hydrocraft.HCBolt],
             item 4 [Hydrocraft.HCNut],
             item 1 [Base.SheetMetal],

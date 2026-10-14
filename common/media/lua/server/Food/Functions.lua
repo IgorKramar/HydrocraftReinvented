@@ -87,15 +87,9 @@ local function Recipe_OnCreate_TransferToPaperBag(items, result, player, panName
 	local paperBag = split["PaperBag"]
 	local food = split["Food"]
 
-	result:setCalories( food:getCalories() )
-	result:setCarbohydrates( food:getCarbohydrates() )
-	result:setLipids( food:getLipids() )
-	result:setProteins( food:getProteins() )
-	result:setHungChange( food:getHungChange() )
-	result:setBaseHunger( food:getBaseHunger() )
-
-	result:setCooked( food:isCooked() )
-	result:setAge( food:getAge() )
+	-- Native B42 transfer also preserves poison, freezing and remaining food age.
+	if not food or not paperBag or not result then return end
+	result:copyFoodFrom(food)
 	--How to translate this?
 	result:setName( "Bag of " .. food:getScriptItem():getDisplayName() )
 	result:setUnhappyChange( food:getUnhappyChange() )
@@ -104,11 +98,12 @@ local function Recipe_OnCreate_TransferToPaperBag(items, result, player, panName
 
 	local pan = InventoryItemFactory.CreateItem( panName )
 
-	local weight = food:getWeight() - pan:getWeight()
+	local weight = math.max(0, food:getActualWeight() - pan:getActualWeight()) + paperBag:getActualWeight()
 	result:setCustomWeight( true )
-	result:setWeight( weight )
+	result:setActualWeight( weight )
 	result:setWeight( weight )
 
+	-- B42 crafting suppresses Food.ReplaceOnUse; explicitly return this pan once.
 	player:getInventory():AddItem(pan)
 
 end

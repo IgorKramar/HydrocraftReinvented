@@ -233,11 +233,11 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         xpAward = Cooking:3,
-        OnCreate = HCR42.recipe_hcwineempty,
         inputs
         {
             item 4 [Hydrocraft.HCWineglass],
-            item 1 [Base.Wine],
+            item 1 [Base.Wine] mode:keep flags[ItemIsFluid;HandcraftOnly;Unseal],
+            -fluid 1 [Wine],
         }
         outputs
         {
@@ -251,11 +251,11 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         xpAward = Cooking:3,
-        OnCreate = HCR42.recipe_hcwineempty2,
         inputs
         {
             item 4 [Hydrocraft.HCWineglass],
-            item 1 [Base.Wine2],
+            item 1 [Base.Wine2] mode:keep flags[ItemIsFluid;HandcraftOnly;Unseal],
+            -fluid 1 [Wine],
         }
         outputs
         {
@@ -273,7 +273,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucket],
-            item 16 [Base.Grapes],
+            item 16 [Base.Grapes] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -292,7 +292,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucket],
-            item 16 [Hydrocraft.HCGrapesgreen],
+            item 16 [Hydrocraft.HCGrapesgreen] flags[ItemCount],
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
         }
         outputs
@@ -355,7 +355,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBarrelwine],
-            item 20 [Base.Wine],
+            item 20 [Base.Wine] flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
@@ -375,7 +375,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBarrelwinewhite],
-            item 20 [Base.Wine],
+            item 20 [Base.Wine] flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
@@ -415,7 +415,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBarrelvinegar],
-            item 20 [Base.Whiskey],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
@@ -433,7 +433,7 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 5 [Base.Honey;Hydrocraft.HCHoney;Hydrocraft.HCJarhoney],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -477,7 +477,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBarrelmead],
-            item 20 [Base.Whiskey],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
@@ -495,7 +495,7 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy,
+            item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 20 [Hydrocraft.HCRiceflour],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -519,7 +519,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofricemashcooked],
+            item 3 [Hydrocraft.HCPotofricemashcooked] flags[ItemCount],
         }
         outputs
         {
@@ -539,7 +539,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBarrelsake],
-            item 20 [Base.Whiskey],
+            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {

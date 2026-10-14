@@ -1,21 +1,49 @@
 -- Hydrocraft Reinvented [B42]: adapter from B41 recipe-lua signatures
 -- B41: fn(items, result, player)  ->  B42: fn(craftRecipeData, character)
+require "HCR_TimedItems"
+require "HCR_FoodBridge"
 HCR42 = HCR42 or {}
+local missingFunctions = {}
 local function wrap(name)
     return function(craftRecipeData, character)
+        if HCRFood.tryOnCreate(name, craftRecipeData, character) then return end
         local fn = _G
         for part in string.gmatch(name, "[^%.]+") do
             fn = (type(fn)=="table" and fn[part]) or nil
             if fn == nil then break end
         end
-        if type(fn) ~= "function" then return end
+        if type(fn) ~= "function" then
+            if not missingFunctions[name] then
+                print("[HydrocraftReinvented] Missing OnCreate: " .. name)
+                missingFunctions[name] = true
+            end
+            return
+        end
         local results = craftRecipeData:getAllCreatedItems()
+        if results then
+            for i = 0, results:size() - 1 do
+                HCRTimed.initialize(results:get(i), getGameTime():getWorldAgeHours())
+            end
+        end
         local result = (results and results:size() > 0) and results:get(0) or nil
-        local items = craftRecipeData:getAllConsumedItems()
-        local ok, err = pcall(fn, items, result, character)
+        -- Legacy callbacks need the applied inputs in recipe order, including
+        -- kept tools (notably hunting weapons). Nutrition only sums consumed food.
+        local items = name == "Hydrocraft.OnCreate.GenericFood"
+            and craftRecipeData:getAllConsumedItems()
+            or craftRecipeData:getAllInputItems()
+        local ok, err = pcall(fn, items, result, character, craftRecipeData)
         if not ok then print("[HydrocraftReinvented] OnCreate " .. name .. " error: " .. tostring(err)) end
     end
 end
+function HCR42.TrackTimedItems(craftRecipeData, character)
+    local results = craftRecipeData:getAllCreatedItems()
+    if results then
+        for i = 0, results:size() - 1 do
+            HCRTimed.initialize(results:get(i), getGameTime():getWorldAgeHours())
+        end
+    end
+end
+HCR42["recipe_hcfeedbeehive3"] = wrap("recipe_hcfeedbeehive3")
 HCR42["ComboLockSafe"] = wrap("ComboLockSafe")
 HCR42["ComboOpenSafe"] = wrap("ComboOpenSafe")
 HCR42["CrackOpenSafe"] = wrap("CrackOpenSafe")

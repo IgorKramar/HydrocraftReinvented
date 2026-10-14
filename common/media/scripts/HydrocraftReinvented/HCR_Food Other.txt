@@ -83,7 +83,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pan] mode:keep,
-            item 1 [Base.Corn],
+            item 1 [Base.Corn] flags[ItemCount],
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar;Base.Butter],
         }
         outputs

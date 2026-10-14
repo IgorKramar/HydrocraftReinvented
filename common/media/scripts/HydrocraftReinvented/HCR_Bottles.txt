@@ -179,7 +179,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcgetplastic,
         inputs
         {
-            item 1 [Hydrocraft.HCWaterbottleclean],
+            item 1 [Hydrocraft.HCWaterbottleclean] flags[ItemCount],
             item 1 [Hydrocraft.HCBoxcutter;Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife;Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors] mode:keep,
         }
         outputs
@@ -211,11 +211,51 @@ module Hydrocraft
         timedAction = Making,
         inputs
         {
-            item 1 [Base.PopBottle;Base.WaterBottle] mode:destroy,
+            item 1 [Base.PopBottle;Base.WaterBottle] mode:destroy flags[ItemCount],
             item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+            item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWaterbottleclean,
+        }
+    }
+        craftRecipe Clean Bottle (Bleach)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.PopBottle;Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [Bleach],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCWaterbottleclean,
+        }
+    }
+        craftRecipe Clean Bottle (Cleaning Liquid)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Base.PopBottle;Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.01 [CleaningLiquid],
         }
         outputs
         {
@@ -234,7 +274,47 @@ module Hydrocraft
             item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Base.Soap2;Base.Bleach;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap;Base.CleaningLiquid2],
+            item 1 [Base.Soap2;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo;Hydrocraft.HCSoap],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottleempty,
+        }
+    }
+        craftRecipe Clean Empty Glass Bottle (Bleach)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassbottleethanolempty;Hydrocraft.HCGlassbottleammoniaempty;Hydrocraft.HCGlassbottleh2o2empty;Hydrocraft.HCGlassbottlemethylaminempty;Hydrocraft.HCGlassbottlesulfuricacidempty;Hydrocraft.HCGlassbottleselfmadeetherempty;Hydrocraft.HCGlassbottlephenylempty],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [Bleach],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCGlassbottleempty,
+        }
+    }
+        craftRecipe Clean Empty Glass Bottle (Cleaning Liquid)
+    {
+        time = 50,
+        Tags = AnySurfaceCraft,
+        category = Chemistry,
+        timedAction = Making,
+        inputs
+        {
+            item 1 [Hydrocraft.HCGlassbottleethanolempty;Hydrocraft.HCGlassbottleammoniaempty;Hydrocraft.HCGlassbottleh2o2empty;Hydrocraft.HCGlassbottlemethylaminempty;Hydrocraft.HCGlassbottlesulfuricacidempty;Hydrocraft.HCGlassbottleselfmadeetherempty;Hydrocraft.HCGlassbottlephenylempty],
+            item 1 [Base.Sponge;Hydrocraft.HCLoofah;Hydrocraft.HCSponge;Base.RippedSheets] mode:keep,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Water],
+            item 1 [Base.CleaningLiquid2] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.01 [CleaningLiquid],
         }
         outputs
         {

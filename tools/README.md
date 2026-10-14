@@ -1,5 +1,12 @@
 # Инструменты аудита / Audit tools
 
+- `import_clean_plants.py` — импорт новых RGBA растений fal на исходные ящики:
+  сначала `--raw PRIVATE/fal-clean-plants-v2 --out PRIVATE/review`, после проверки
+  `--apply`; не генерирует и не загружает файлы в сеть.
+- `fit_planter_icons.py` — точные исходные ящики hcBuilding2x для восьми новых
+  состояний растений; `--check` проверяет размер, пиксели и посадку, `--apply`
+  обновляет проверенные файлы. См. docs/PLANTER_SCALE.md.
+
 - `setup_dev.py` — подготовка машины: ссылка `pz-lua` на Lua игры, `.venv`
   с openpyxl и Pillow, проверка lua-language-server. `--check` — только
   диагностика, ненулевой код возврата, если чего-то не хватает.
@@ -8,13 +15,35 @@
 - `variant_b.py` — анализ достижимости: недостижимые предметы и некрафтуемые рецепты
   (моделирует лут-lua, фермерство, ReplaceOn*-цепочки). Запускать перед каждым релизом.
 - `analyze_gaps.py` — расширенный отчёт с битыми ссылками.
-- `weapon_models.py` — аудит отображения оружия: у кого есть `WorldStaticModel`,
-  кого чинит собственный меш мода, кому нужна ванильная модель B42.
+- `weapon_models.py` — разрешение `WeaponSprite` в реальные модели B42; отдельно
+  проверяется отображение предметов в мире.
+- `test_playability.py` и `test_food_callbacks.py` — Lua 5.1 регрессии репортов
+  сообщества; требуют lupa в отдельном dev-окружении.
+- `lab_smoke.lua` и `lab_crafting.lua` — реальные проверки 42.21, только для
+  отдельного HCRLab и отдельного cachedir. В релизную папку не копировать.
+- `clothing_guids.py` — регистрация XML одежды с их исходными GUID.
+- `audit_lua_item_ids.py` — неподтверждённые literal IDs; отчёт требует проверки
+  достижимости callback и намеренно удалённых legacy систем.
 - `make_icon.py` — иконки для новых предметов: перекраска в другой материал,
   сборка «предмет в коробке», приведение сторонней картинки к палитре мода,
   аудит ссылок на иконки. Требует Pillow.
   Список недостающих иконок с промптами — в [docs/ICON_PROMPTS.md](../docs/ICON_PROMPTS.md).
 - `build_xlsx.py` / `gen_flowcharts.py` — генерация docs/HCR_Database.xlsx и docs/FLOWCHARTS.md.
+- `repair_food_counts.py`, `repair_physical_containers.py`, `repair_liquid_inputs.py`,
+  `repair_milk_fluids.py`, `repair_petrol_containers.py` — воспроизводимые миграции
+  потребления; проверенные строки и исходные количества записаны в JSON manifests.
+  Поддерживаемый `--check` проверяет результат без повторной правки.
+- `audit_world_models.py` — проверка native ссылок моделей, meshes и текстур.
+- `export_asset_provenance.py`, `generate_silicon_icon.py`, `import_spike_trap.py` —
+  переносимое происхождение ассетов и воспроизводимая обработка; сырые fal файлы
+  хранятся вне мода. Генератор кремния повторно использует существующий raw.
+- `lab_liquids.lua`, `lab_milk.lua`, `lab_petrol_containers.lua`, `lab_packaging.lua`,
+  `lab_progression.lua`, `lab_input_tags.lua`, `lab_boxing.lua` — отдельные native сценарии только
+  для частного HCRLab. Само наличие harness не означает успешный игровой прогон;
+  подтверждённые результаты фиксируются в отчёте доводки.
+- `package_preview.py --out <новый внешний каталог>` — неопубликованная сборка
+  с раскладкой `common/42`, документами и проверкой относительных ссылок.
+  Python/Lua лабораторные инструменты и сырые материалы в пакет не включаются.
 
 Порядок: `parse_hcr.py` → остальное (модель кладётся рядом со скриптом).
 

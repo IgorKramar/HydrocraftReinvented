@@ -1,0 +1,128 @@
+{
+  "Hydrocraft.HCOJ": {
+    "target": "Base.PopBottle",
+    "litres": 2,
+    "fluid": "HCRJuiceOrange",
+    "enabled": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "native-returned-vessel-capacity; preserve-current-Food-properties"
+  },
+  "Hydrocraft.HCCranberryjug": {
+    "target": "Base.PopBottle",
+    "litres": 2,
+    "fluid": "HCRJuiceCranberry",
+    "enabled": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "native-returned-vessel-capacity; preserve-current-Food-properties"
+  },
+  "Hydrocraft.HCJuiceboxapple": {
+    "target": "Base.JuiceBoxApple",
+    "litres": 0.2,
+    "fluid": "HCRJuiceApple",
+    "enabled": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "native-returned-vessel-capacity; preserve-current-Food-properties"
+  },
+  "Hydrocraft.HCEmptyjuiceboxapple": {
+    "target": "Base.JuiceBoxApple",
+    "litres": 0,
+    "enabled": true,
+    "empty": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "empty-stays-empty"
+  },
+  "Hydrocraft.HCJuiceboxorange": {
+    "target": "Base.JuiceBoxOrange",
+    "litres": 0.2,
+    "fluid": "HCRJuiceOrange",
+    "enabled": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "native-returned-vessel-capacity; preserve-current-Food-properties"
+  },
+  "Hydrocraft.HCEmptyjuiceboxorange": {
+    "target": "Base.JuiceBoxOrange",
+    "litres": 0,
+    "enabled": true,
+    "empty": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "empty-stays-empty"
+  },
+  "Hydrocraft.HCJuiceboxgrape": {
+    "target": "Base.JuiceBox",
+    "litres": 0.2,
+    "fluid": "HCRJuiceGrape",
+    "enabled": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "native-returned-vessel-capacity; preserve-current-Food-properties"
+  },
+  "Hydrocraft.HCEmptyjuiceboxgrape": {
+    "target": "Base.JuiceBox",
+    "litres": 0,
+    "enabled": true,
+    "empty": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "empty-stays-empty"
+  },
+  "Hydrocraft.HCJuiceboxcherry": {
+    "target": "Hydrocraft.HCEmptyjuiceboxcherryFluid",
+    "litres": 0.2,
+    "fluid": "HCRJuiceCherry",
+    "enabled": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "native-returned-vessel-capacity; preserve-current-Food-properties"
+  },
+  "Hydrocraft.HCEmptyjuiceboxcherry": {
+    "target": "Hydrocraft.HCEmptyjuiceboxcherryFluid",
+    "litres": 0,
+    "enabled": true,
+    "empty": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "empty-stays-empty"
+  },
+  "Hydrocraft.HCJuiceboxlemonaid": {
+    "target": "Hydrocraft.HCEmptyjuiceboxlemonaidFluid",
+    "litres": 0.2,
+    "fluid": "HCRLemonade",
+    "enabled": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "native-returned-vessel-capacity; preserve-current-Food-properties"
+  },
+  "Hydrocraft.HCEmptyjuiceboxlemonaid": {
+    "target": "Hydrocraft.HCEmptyjuiceboxlemonaidFluid",
+    "litres": 0,
+    "enabled": true,
+    "empty": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "empty-stays-empty"
+  },
+  "Hydrocraft.HCJuiceboxpinklemonaid": {
+    "target": "Hydrocraft.HCEmptyjuiceboxpinklemonaidFluid",
+    "litres": 0.2,
+    "fluid": "HCRLemonadePink",
+    "enabled": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "native-returned-vessel-capacity; preserve-current-Food-properties"
+  },
+  "Hydrocraft.HCEmptyjuiceboxpinklemonaid": {
+    "target": "Hydrocraft.HCEmptyjuiceboxpinklemonaidFluid",
+    "litres": 0,
+    "enabled": true,
+    "empty": true,
+    "retail": true,
+    "lootOnly": true,
+    "policy": "empty-stays-empty"
+  }
+}

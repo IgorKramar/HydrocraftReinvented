@@ -314,6 +314,7 @@ module Hydrocraft
     }
     craftRecipe Recycle Tin Cans
     {
+        OnTest = HCRFluidRecipes.Test_a5fea6eb4e9a,
         time = 400,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Blacksmithing,
@@ -323,7 +324,7 @@ module Hydrocraft
         xpAward = MetalWelding:25,
         inputs
         {
-            item 3 [Hydrocraft.HCTincan],
+            item 3 [Hydrocraft.HCTincan;Hydrocraft.HCTincanFluid] flags[ItemCount;IsEmpty],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCIngotmold;Base.IronIngotMold;Base.SteelIngotMold;Base.ClayIngotMold],
@@ -1146,19 +1147,22 @@ module Hydrocraft
     }
     craftRecipe Fill Wooden Bucket with Milk
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_ad62495b6de8,
+        OnCreate = HCRMilkChains.Create_ad62495b6de8,
+
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Ranching,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbucket],
-            item 1 [*],
-            -fluid 5.0 [CowMilk;SheepMilk;AnimalMilk] mode:mixture,
+            item 1 [Hydrocraft.HCWoodenbucketFluid] mode:keep flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucketmilk,
         }
     }
 }

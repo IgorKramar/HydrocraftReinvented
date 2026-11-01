@@ -26,38 +26,6 @@
       ]
     },
     {
-      "file": "HCR_Camping.txt",
-      "recipe": "Purify Water",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Camping.txt",
-      "recipe": "Purify Water (Variant)",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Camping.txt",
-      "recipe": "Purify Water (Variant 2)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Camping.txt",
-      "recipe": "Purify Water (Variant 3)",
-      "input": "item 1 [Base.MugWhite] mode:destroy,",
-      "fluid_types": [
-        "Base.MugWhite"
-      ]
-    },
-    {
       "file": "HCR_Cheesemaking.txt",
       "recipe": "Prepare Cheese Cloth-Wrapped Wax",
       "input": "item 1 [Base.Pot] mode:destroy,",
@@ -71,102 +39,6 @@
       "input": "item 1 [Base.Pot] mode:destroy,",
       "fluid_types": [
         "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Prepare Pot of Potato Mash",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Prepare Pot of Blue Agave Mash",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Prepare Pot of Apple Mash",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Prepare Pot of Peach Mash",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Prepare Pot of Pumpkin Mash",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Prepare Pot of Juniper Berry Mash",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Prepare Pot of Flour Mash",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Prepare Pot of Corn Mash",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Food Dried.txt",
-      "recipe": "Make Lemon Juice",
-      "input": "item 1 [Base.Bowl] mode:destroy,",
-      "fluid_types": [
-        "Base.Bowl"
-      ]
-    },
-    {
-      "file": "HCR_Food Dried.txt",
-      "recipe": "Make Lime Juice",
-      "input": "item 1 [Base.Bowl] mode:destroy,",
-      "fluid_types": [
-        "Base.Bowl"
-      ]
-    },
-    {
-      "file": "HCR_Food Drinks.txt",
-      "recipe": "Brew Black Coffee (Cup of Black Coffee)",
-      "input": "item 1 [Base.MugWhite] mode:destroy,",
-      "fluid_types": [
-        "Base.MugWhite"
-      ]
-    },
-    {
-      "file": "HCR_Food Drinks.txt",
-      "recipe": "Prepare Black Coffee Kettle",
-      "input": "item 1 [Base.Kettle] mode:destroy,",
-      "fluid_types": [
-        "Base.Kettle"
       ]
     },
     {
@@ -354,983 +226,6 @@
       ]
     },
     {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Homemade Lemonade)",
-      "input": "item 1 [Base.WaterBottle;Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle",
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Apple Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Carrot Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Grape Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Lemon Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Orange Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Lime Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Strawberry Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Tomato Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 2)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 3)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Pineapple Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Blueberry Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Blackberry Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 2)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 3)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 4)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 5)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Cherry Juice)",
-      "input": "item 1 [Base.PopBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.PopBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Apple Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Carrot Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Grape Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Lemon Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Orange Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Lime Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Strawberry Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Tomato Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 4)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 5)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 6)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Pineapple Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Blueberry Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Blackberry Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 6)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 7)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 8)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 9)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 10)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Cherry Juice 2)",
-      "input": "item 1 [Base.WaterBottle] mode:destroy,",
-      "fluid_types": [
-        "Base.WaterBottle"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Apple Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Carrot Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Grape Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Lemon Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Orange Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Lime Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Strawberry Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Tomato Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 7)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 8)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 9)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Pineapple Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Blueberry Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Blackberry Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 11)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 12)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 13)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 14)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 15)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Cherry Juice 3)",
-      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.RemouladeEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Apple Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Carrot Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Grape Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Lemon Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Orange Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Lime Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Strawberry Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Tomato Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 10)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 11)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 12)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Pineapple Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Blueberry Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Blackberry Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 16)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 17)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 18)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 19)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 20)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Cherry Juice 4)",
-      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
-      "fluid_types": [
-        "Base.MayonnaiseEmpty"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Apple Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Carrot Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Grape Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Lemon Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Orange Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Lime Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Strawberry Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Tomato Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 13)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 14)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Watermelon Juice 15)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Pineapple Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Blueberry Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Blackberry Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 21)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 22)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 23)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 24)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Wild Berry Juice 25)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Bottle of Juice (Cherry Juice 5)",
-      "input": "item 1 [Base.Whiskey] mode:destroy,",
-      "fluid_types": [
-        "Base.Whiskey"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Carrot Juice)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Grape Juice)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Lemon Juice)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Orange Juice)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Lime Juice)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Strawberry Juice)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Tomato Juice)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Watermelon Juice)",
-      "input": "item 2 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Watermelon Juice 2)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Watermelon Juice 3)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Pineapple Juice)",
-      "input": "item 2 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Blueberry Juice)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Blackberry Juice)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Wild Berry Juice)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Wild Berry Juice 2)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Wild Berry Juice 3)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Wild Berry Juice 4)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Wild Berry Juice 5)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
-      "file": "HCR_Food Juice.txt",
-      "recipe": "Make Mug of Juice (Cherry Juice)",
-      "input": "item 1 [Base.Mugl] mode:destroy,",
-      "fluid_types": [
-        "Base.Mugl"
-      ]
-    },
-    {
       "file": "HCR_Food Pasta.txt",
       "recipe": "Place Pasta in Saucepan",
       "input": "item 1 [Base.Saucepan] mode:destroy,",
@@ -1349,14 +244,6 @@
     {
       "file": "HCR_Food Rice.txt",
       "recipe": "Make Pot of Rice and Beans",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Food Rice.txt",
-      "recipe": "Make Pot of Rice Pudding",
       "input": "item 1 [Base.Pot] mode:destroy,",
       "fluid_types": [
         "Base.Pot"
@@ -1427,22 +314,6 @@
       ]
     },
     {
-      "file": "HCR_Winemaking.txt",
-      "recipe": "Prepare Pot of Honey Brew",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
-      "file": "HCR_Winemaking.txt",
-      "recipe": "Prepare Pot of Rice Mash",
-      "input": "item 1 [Base.Pot] mode:destroy,",
-      "fluid_types": [
-        "Base.Pot"
-      ]
-    },
-    {
       "file": "HCR_Armor.txt",
       "recipe": "Make Helmet (Cooking Pot Helmet)",
       "input": "item 1 [Base.Pot],",
@@ -1498,72 +369,6 @@
       "upstream_input": "Kettle,"
     },
     {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Brew Irish Coffee",
-      "input": "item 1 [Base.Mugl],",
-      "fluid_types": [
-        "Base.Mugl"
-      ],
-      "upstream_file": "Food Bar.txt",
-      "upstream_recipe": "Brew Irish Coffee",
-      "upstream_input": "Mugl,"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 2)",
-      "input": "item 1 [Base.Mugl],",
-      "fluid_types": [
-        "Base.Mugl"
-      ],
-      "upstream_file": "Food Bar.txt",
-      "upstream_recipe": "Brew Irish Coffee",
-      "upstream_input": "Mugl,"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Eggnog Pot",
-      "input": "item 1 [Base.Pot],",
-      "fluid_types": [
-        "Base.Pot"
-      ],
-      "upstream_file": "Food Bar.txt",
-      "upstream_recipe": "Make Eggnog Pot",
-      "upstream_input": "Pot,"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Eggnog Cuppa",
-      "input": "item 4 [Base.Mugl],",
-      "fluid_types": [
-        "Base.Mugl"
-      ],
-      "upstream_file": "Food Bar.txt",
-      "upstream_recipe": "Make Eggnog Cuppa",
-      "upstream_input": "Mugl=4,"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Monkey Tail Pot",
-      "input": "item 1 [Base.Pot],",
-      "fluid_types": [
-        "Base.Pot"
-      ],
-      "upstream_file": "Food Bar.txt",
-      "upstream_recipe": "Make Monkey Tail Pot",
-      "upstream_input": "Pot,"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Monkey Tail Mug",
-      "input": "item 4 [Base.Mugl],",
-      "fluid_types": [
-        "Base.Mugl"
-      ],
-      "upstream_file": "Food Bar.txt",
-      "upstream_recipe": "Make Monkey Tail Mug",
-      "upstream_input": "Mugl=4,"
-    },
-    {
       "file": "HCR_Food BBQ.txt",
       "recipe": "Make BBQ Sauce",
       "input": "item 1 [Base.Bowl],",
@@ -1573,28 +378,6 @@
       "upstream_file": "Food BBQ.txt",
       "upstream_recipe": "Make BBQ Sauce",
       "upstream_input": "Bowl,"
-    },
-    {
-      "file": "HCR_Food Drinks.txt",
-      "recipe": "Pour Black Coffee into Mug",
-      "input": "item 1 [Base.Mugl],",
-      "fluid_types": [
-        "Base.Mugl"
-      ],
-      "upstream_file": "Food Drinks.txt",
-      "upstream_recipe": "Pour Black Coffee into Mug",
-      "upstream_input": "Mugl,"
-    },
-    {
-      "file": "HCR_Food Drinks.txt",
-      "recipe": "Make Cup of Hot Chocolate",
-      "input": "item 1 [Base.Mugl],",
-      "fluid_types": [
-        "Base.Mugl"
-      ],
-      "upstream_file": "Food Drinks.txt",
-      "upstream_recipe": "Make Cup of Hot Chocolate",
-      "upstream_input": "Mugl,"
     },
     {
       "file": "HCR_Food Flour.txt",
@@ -1803,28 +586,6 @@
       ],
       "upstream_file": "Food Pastry.txt",
       "upstream_recipe": "Make Homemade Cupcake Batter",
-      "upstream_input": "Bowl,"
-    },
-    {
-      "file": "HCR_Food Pastry.txt",
-      "recipe": "Make Frosting",
-      "input": "item 1 [Base.Bowl],",
-      "fluid_types": [
-        "Base.Bowl"
-      ],
-      "upstream_file": "Food Pastry.txt",
-      "upstream_recipe": "Make Frosting",
-      "upstream_input": "Bowl,"
-    },
-    {
-      "file": "HCR_Food Pastry.txt",
-      "recipe": "Make Fruit Cake Batter",
-      "input": "item 1 [Base.Bowl],",
-      "fluid_types": [
-        "Base.Bowl"
-      ],
-      "upstream_file": "Food Pastry.txt",
-      "upstream_recipe": "Make Fruit Cake Batter",
       "upstream_input": "Bowl,"
     },
     {
@@ -2922,6 +1683,1398 @@
       "file": "HCR_Winemaking.txt",
       "recipe": "Prepare Pot of Rice Mash",
       "input": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],"
+    }
+  ],
+  "superseded_migrations": [
+    {
+      "file": "HCR_Camping.txt",
+      "recipe": "Purify Water",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "water-purification-1.6: keep actual vessel and actual volume"
+    },
+    {
+      "file": "HCR_Camping.txt",
+      "recipe": "Purify Water (Variant)",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "water-purification-1.6: keep actual vessel and actual volume"
+    },
+    {
+      "file": "HCR_Camping.txt",
+      "recipe": "Purify Water (Variant 2)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "water-purification-1.6: keep actual vessel and actual volume"
+    },
+    {
+      "file": "HCR_Camping.txt",
+      "recipe": "Purify Water (Variant 3)",
+      "input": "item 1 [Base.MugWhite] mode:destroy,",
+      "fluid_types": [
+        "Base.MugWhite"
+      ],
+      "supersededBy": "water-purification-1.6: keep actual vessel and actual volume"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Apple Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Carrot Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Grape Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Orange Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Strawberry Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 2)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 3)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Pineapple Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blueberry Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blackberry Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 2)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 3)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 4)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 5)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Cherry Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Apple Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Carrot Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Grape Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Orange Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Strawberry Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 4)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 5)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 6)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Pineapple Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blueberry Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blackberry Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 6)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 7)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 8)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 9)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 10)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Cherry Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Apple Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Carrot Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Grape Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Orange Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Strawberry Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 7)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 8)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 9)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Pineapple Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blueberry Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blackberry Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 11)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 12)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 13)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 14)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 15)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Cherry Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Apple Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Carrot Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Grape Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Orange Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Strawberry Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 10)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 11)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 12)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Pineapple Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blueberry Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blackberry Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 16)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 17)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 18)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 19)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 20)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Cherry Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Apple Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Carrot Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Grape Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Orange Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Strawberry Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 13)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 14)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Watermelon Juice 15)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Pineapple Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blueberry Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Blackberry Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 21)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 22)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 23)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 24)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Wild Berry Juice 25)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Cherry Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Carrot Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Grape Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Orange Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Strawberry Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Watermelon Juice 2)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Watermelon Juice 3)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Blueberry Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Blackberry Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Wild Berry Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Wild Berry Juice 2)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Wild Berry Juice 3)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Wild Berry Juice 4)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Wild Berry Juice 5)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Cherry Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Watermelon Juice)",
+      "input": "item 2 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Pineapple Juice)",
+      "input": "item 2 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Dried.txt",
+      "recipe": "Make Lemon Juice",
+      "input": "item 1 [Base.Bowl] mode:destroy,",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Dried.txt",
+      "recipe": "Make Lime Juice",
+      "input": "item 1 [Base.Bowl] mode:destroy,",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lemon Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lime Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Tomato Juice)",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lemon Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lime Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Tomato Juice 2)",
+      "input": "item 1 [Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lemon Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lime Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Tomato Juice 3)",
+      "input": "item 1 [Base.RemouladeEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.RemouladeEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lemon Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lime Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Tomato Juice 4)",
+      "input": "item 1 [Base.MayonnaiseEmpty] mode:destroy,",
+      "fluid_types": [
+        "Base.MayonnaiseEmpty"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lemon Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Lime Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Tomato Juice 5)",
+      "input": "item 1 [Base.Whiskey] mode:destroy,",
+      "fluid_types": [
+        "Base.Whiskey"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Lemon Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Lime Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Mug of Juice (Tomato Juice)",
+      "input": "item 1 [Base.Mugl] mode:destroy,",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "supersededBy": "juice-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice",
+      "input": "item 1 [Base.PopBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.PopBottle"
+      ],
+      "supersededBy": "drink-product-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Juice.txt",
+      "recipe": "Make Bottle of Juice (Homemade Lemonade)",
+      "input": "item 1 [Base.WaterBottle;Base.WaterBottle] mode:destroy,",
+      "fluid_types": [
+        "Base.WaterBottle",
+        "Base.WaterBottle"
+      ],
+      "supersededBy": "drink-product-1.6: fill the same empty vessel"
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Brew Black Coffee (Cup of Black Coffee)",
+      "input": "item 1 [Base.MugWhite] mode:destroy,",
+      "fluid_types": [
+        "Base.MugWhite"
+      ],
+      "supersededBy": "brewed-drinks-1.6"
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Prepare Black Coffee Kettle",
+      "input": "item 1 [Base.Kettle] mode:destroy,",
+      "fluid_types": [
+        "Base.Kettle"
+      ],
+      "supersededBy": "brewed-drinks-1.6"
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Pour Black Coffee into Mug",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Drinks.txt",
+      "upstream_recipe": "Pour Black Coffee into Mug",
+      "upstream_input": "Mugl,",
+      "supersededBy": "brewed-drinks-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Brew Irish Coffee",
+      "upstream_input": "Mugl,",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 2)",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Brew Irish Coffee",
+      "upstream_input": "Mugl,",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Eggnog Cuppa",
+      "input": "item 4 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Make Eggnog Cuppa",
+      "upstream_input": "Mugl=4,",
+      "supersededBy": "milk-cocktail-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Monkey Tail Mug",
+      "input": "item 4 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Make Monkey Tail Mug",
+      "upstream_input": "Mugl=4,",
+      "supersededBy": "milk-cocktail-1.6"
+    },
+    {
+      "file": "HCR_Food Rice.txt",
+      "recipe": "Make Pot of Rice Pudding",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "unified-milk-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Eggnog Pot",
+      "input": "item 1 [Base.Pot],",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Make Eggnog Pot",
+      "upstream_input": "Pot,",
+      "supersededBy": "unified-milk-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Monkey Tail Pot",
+      "input": "item 1 [Base.Pot],",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "upstream_file": "Food Bar.txt",
+      "upstream_recipe": "Make Monkey Tail Pot",
+      "upstream_input": "Pot,",
+      "supersededBy": "unified-milk-1.6"
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Make Cup of Hot Chocolate",
+      "input": "item 1 [Base.Mugl],",
+      "fluid_types": [
+        "Base.Mugl"
+      ],
+      "upstream_file": "Food Drinks.txt",
+      "upstream_recipe": "Make Cup of Hot Chocolate",
+      "upstream_input": "Mugl,",
+      "supersededBy": "unified-milk-1.6"
+    },
+    {
+      "file": "HCR_Food Pastry.txt",
+      "recipe": "Make Frosting",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Pastry.txt",
+      "upstream_recipe": "Make Frosting",
+      "upstream_input": "Bowl,",
+      "supersededBy": "unified-milk-1.6"
+    },
+    {
+      "file": "HCR_Food Pastry.txt",
+      "recipe": "Make Fruit Cake Batter",
+      "input": "item 1 [Base.Bowl],",
+      "fluid_types": [
+        "Base.Bowl"
+      ],
+      "upstream_file": "Food Pastry.txt",
+      "upstream_recipe": "Make Fruit Cake Batter",
+      "upstream_input": "Bowl,",
+      "supersededBy": "unified-milk-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Potato Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Blue Agave Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Apple Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Peach Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Pumpkin Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Juniper Berry Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Flour Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Prepare Pot of Corn Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Prepare Pot of Honey Brew",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Prepare Pot of Rice Mash",
+      "input": "item 1 [Base.Pot] mode:destroy,",
+      "fluid_types": [
+        "Base.Pot"
+      ],
+      "supersededBy": "mash-chains-1.6"
     }
   ]
 }

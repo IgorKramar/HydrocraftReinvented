@@ -248,7 +248,7 @@ module Hydrocraft
 	    ItemType		=	base:literature,
 	    DisplayName		=	Old Christmas Magazine,
 	    Icon		=	HCMagazinexmas,
-	    LearnedRecipes  	=   	Make Fruit Cake Batter;Make Eggnog Pot;Make Monkey Tail Pot;Make Christmas Ham;Make Eggnog Pot (Carton Milk);Make Monkey Tail Pot (Carton Milk);Make Fruit Cake Batter (Carton Milk),
+	    LearnedRecipes  	=   	Make Fruit Cake Batter;Make Eggnog Pot;Make Monkey Tail Pot;Make Christmas Ham,
 	    ReplaceOnUse    	=   	HCMagazinexmas,
 		DisplayCategory = LitR,
 		StaticModel = Magxmas_Open,

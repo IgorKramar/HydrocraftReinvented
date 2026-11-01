@@ -3,14 +3,14 @@
   "commit": "917d37d4ed526f429e1525316c9fab487bbf7257",
   "old_milk_source": "Base Items.txt / module Base / item Milk: Food HungerChange=-10; no drainable UseDelta",
   "native_source": "installed42.21 media/scripts/generated/items/normal.txt / Base.Milk: FluidContainer capacity1.0, CowMilk1.0",
-  "policy": "Full legacy Milk input=one litre; Milk;1/;2=0.1/0.2 litre. Retain current HC Food alternatives and their portion amounts in original recipes; native fluid alternatives are separate variants. Partial fluid never uses ItemCount.",
+  "policy": "Historical source volumes remain in source records. Nine Food-OR/native pairs are superseded by canonical fluid recipes with equal Milk/Soy volumes. Concentrate enters through dilution; raw Soy requires cooking and finishing.",
   "migrations": [
     {
       "file": "HCR_Food Bar.txt",
       "recipe": "Make Eggnog Pot",
       "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
       "kind": "split_food_or",
-      "native_recipe": "Make Eggnog Pot (Carton Milk)",
+      "native_recipe": "Make Eggnog Pot",
       "litres": 1.0,
       "source": {
         "file": "Food Bar.txt",
@@ -19,14 +19,18 @@
         "input": "Milk,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "superseded_by": "unified_milk_1_6",
+      "legacy_food_body": "    craftRecipe Make Eggnog Pot\n    {\n        time = 90,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],\n            item 1 tags[Egg] flags[ItemCount],\n            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.25 [Whiskey],\n            item 1 [Base.Pot] flags[ItemCount],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCEggnogpot,\n        }\n    }",
+      "legacy_native_body": "    craftRecipe Make Eggnog Pot (Carton Milk)\n    {\n\n        OnCreate = HCRBarDrinks.create,\n        Icon = HCMilkjug,\n\n        Tooltip = Tooltip_HCR_MilkCocktailBatch,\n        time = 90,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate] mode:primary,\n            item 1 tags[Egg] flags[ItemCount],\n            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.25 [Whiskey],\n            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],\n        }\n        outputs\n        {\n            item 1 Base.Pot,\n        }\n    }",
+      "previous_native_recipe": "Make Eggnog Pot (Carton Milk)"
     },
     {
       "file": "HCR_Food Bar.txt",
       "recipe": "Make Monkey Tail Pot",
       "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
       "kind": "split_food_or",
-      "native_recipe": "Make Monkey Tail Pot (Carton Milk)",
+      "native_recipe": "Make Monkey Tail Pot",
       "litres": 1.0,
       "source": {
         "file": "Food Bar.txt",
@@ -35,7 +39,11 @@
         "input": "Milk,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "superseded_by": "unified_milk_1_6",
+      "legacy_food_body": "    craftRecipe Make Monkey Tail Pot\n    {\n        time = 90,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],\n            item 1 [Base.Sugar],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [HCRAguardiente] mode:primary,\n            item 1 [Base.Coffee2],\n            item 1 [Base.Pot] flags[ItemCount],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCColademonopot,\n        }\n    }",
+      "legacy_native_body": "    craftRecipe Make Monkey Tail Pot (Carton Milk)\n    {\n\n        OnCreate = HCRBarDrinks.create,\n        Icon = HCMilkjug,\n\n        Tooltip = Tooltip_HCR_MilkCocktailBatch,\n        time = 90,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate] mode:primary,\n            item 1 [Base.Sugar],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [HCRAguardiente] mode:primary,\n            item 1 [Base.Coffee2],\n            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],\n        }\n        outputs\n        {\n            item 1 Base.Pot,\n        }\n    }",
+      "previous_native_recipe": "Make Monkey Tail Pot (Carton Milk)"
     },
     {
       "file": "HCR_Food Dairy.txt",
@@ -59,7 +67,9 @@
         "input": "Milk;1,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "superseded_by": "brewed_drinks",
+      "deviation": "User decision: half coffee and half milk into a separate empty vessel; .2 L mug or 1.4 L thermos. Historical milk amount above remains provenance only."
     },
     {
       "file": "HCR_Food Drinks.txt",
@@ -75,7 +85,9 @@
         "input": "Milk;1,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "superseded_by": "brewed_drinks",
+      "deviation": "User decision: half coffee and half milk into a separate empty vessel; .2 L mug or 1.4 L thermos. Historical milk amount above remains provenance only."
     },
     {
       "file": "HCR_Food Drinks.txt",
@@ -91,14 +103,16 @@
         "input": "Milk;2,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "superseded_by": "brewed_drinks",
+      "deviation": "User decision: half coffee and half milk into a separate empty vessel; .2 L mug or 1.4 L thermos. Historical milk amount above remains provenance only."
     },
     {
       "file": "HCR_Food Drinks.txt",
       "recipe": "Make Cup of Hot Chocolate",
       "input": "item 1 [Base.Milk;Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],",
       "kind": "split_food_or",
-      "native_recipe": "Make Cup of Hot Chocolate (Carton Milk)",
+      "native_recipe": "Make Cup of Hot Chocolate",
       "litres": 1.0,
       "source": {
         "file": "Food Drinks.txt",
@@ -107,14 +121,18 @@
         "input": "Milk/HCUHTmilk/HCSoymilk,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "legacy_food_body": "    craftRecipe Make Cup of Hot Chocolate\n    {\n        time = 70,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:3,\n        inputs\n        {\n            item 1 [Base.Mugl] flags[ItemCount],\n            item 1 [Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],\n            item 1 [Hydrocraft.HCCoco],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCococup,\n        }\n    }",
+      "legacy_native_body": "    craftRecipe Make Cup of Hot Chocolate (Carton Milk)\n    {\n        Icon = HCMilkjug,\n        Tooltip = Tooltip_HCR_MilkChain_fb8922d1835e,\n        time = 70,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:3,\n        inputs\n        {\n            item 1 [Base.Mugl] flags[ItemCount],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.2 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,\n            item 1 [Hydrocraft.HCCoco],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCococup,\n        }\n    }",
+      "previous_native_recipe": "Make Cup of Hot Chocolate (Carton Milk)",
+      "superseded_by": "unified_milk_1_6"
     },
     {
       "file": "HCR_Food Drinks.txt",
       "recipe": "Make Cup of Hot Chocolate (Cup of Hot Chocolate)",
       "input": "item 1 [Base.Milk;Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],",
       "kind": "split_food_or",
-      "native_recipe": "Make Cup of Hot Chocolate (Cup of Hot Chocolate) (Carton Milk)",
+      "native_recipe": "Make Cup of Hot Chocolate (Cup of Hot Chocolate)",
       "litres": 1.0,
       "source": {
         "file": "Food Drinks.txt",
@@ -123,14 +141,18 @@
         "input": "Milk/HCUHTmilk/HCSoymilk,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "legacy_food_body": "    craftRecipe Make Cup of Hot Chocolate (Cup of Hot Chocolate)\n    {\n        OnTest = HCRFluidRecipes.Test_140cd02fc1fc,\n        time = 70,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:3,\n        inputs\n        {\n            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],\n            item 1 [Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],\n            item 1 [Hydrocraft.HCCoco],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCococup2,\n        }\n    }",
+      "legacy_native_body": "    craftRecipe Make Cup of Hot Chocolate (Cup of Hot Chocolate) (Carton Milk)\n    {\n        Icon = HCMilkjug,\n        Tooltip = Tooltip_HCR_MilkChain_cc2512a1516f,\n        OnTest = HCRFluidRecipes.Test_cc2512a1516f,\n        time = 70,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:3,\n        inputs\n        {\n            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.2 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,\n            item 1 [Hydrocraft.HCCoco],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCococup2,\n        }\n    }",
+      "previous_native_recipe": "Make Cup of Hot Chocolate (Cup of Hot Chocolate) (Carton Milk)",
+      "superseded_by": "unified_milk_1_6"
     },
     {
       "file": "HCR_Food Flour.txt",
       "recipe": "Prepare Cornbread",
       "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
       "kind": "split_food_or",
-      "native_recipe": "Prepare Cornbread (Carton Milk)",
+      "native_recipe": "Prepare Cornbread",
       "litres": 1.0,
       "source": {
         "file": "Food Flour.txt",
@@ -139,14 +161,18 @@
         "input": "Milk,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "legacy_food_body": "    craftRecipe Prepare Cornbread\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        SkillRequired = Cooking:5,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Hydrocraft.HCBreadpan],\n            item 1 [Base.Cornflour2],\n            item 1 [Base.Butter],\n            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],\n            item 1 [Base.Sugar],\n            item 1 [Base.Salt],\n            item 1 tags[Egg] flags[ItemCount],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCornbreadpan,\n        }\n    }",
+      "legacy_native_body": "    craftRecipe Prepare Cornbread (Carton Milk)\n    {\n        Icon = HCMilkjug,\n        Tooltip = Tooltip_HCR_MilkChain_24356f09fe97,\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        SkillRequired = Cooking:5,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Hydrocraft.HCBreadpan],\n            item 1 [Base.Cornflour2],\n            item 1 [Base.Butter],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate] mode:primary,\n            item 1 [Base.Sugar],\n            item 1 [Base.Salt],\n            item 1 tags[Egg] flags[ItemCount],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCornbreadpan,\n        }\n    }",
+      "previous_native_recipe": "Prepare Cornbread (Carton Milk)",
+      "superseded_by": "unified_milk_1_6"
     },
     {
       "file": "HCR_Food Mexican.txt",
       "recipe": "Make Nacho Cheese",
       "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
       "kind": "split_food_or",
-      "native_recipe": "Make Nacho Cheese (Carton Milk)",
+      "native_recipe": "Make Nacho Cheese",
       "litres": 1.0,
       "source": {
         "file": "Food Mexican.txt",
@@ -155,14 +181,18 @@
         "input": "Milk,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "legacy_food_body": "    craftRecipe Make Nacho Cheese\n    {\n        time = 75,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        SkillRequired = Cooking:2,\n        xpAward = Cooking:3,\n        inputs\n        {\n            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],\n            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],\n            item 1 [Base.Butter],\n            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],\n            item 1 [Base.Bowl] mode:keep,\n            item 1 [Base.KitchenKnife] mode:keep,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCNachobowl,\n        }\n    }",
+      "legacy_native_body": "    craftRecipe Make Nacho Cheese (Carton Milk)\n    {\n        Icon = HCMilkjug,\n        Tooltip = Tooltip_HCR_MilkChain_7ddd30a36aa0,\n        time = 75,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        SkillRequired = Cooking:2,\n        xpAward = Cooking:3,\n        inputs\n        {\n            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate] mode:primary,\n            item 1 [Base.Butter],\n            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],\n            item 1 [Base.Bowl] mode:keep,\n            item 1 [Base.KitchenKnife] mode:keep,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCNachobowl,\n        }\n    }",
+      "previous_native_recipe": "Make Nacho Cheese (Carton Milk)",
+      "superseded_by": "unified_milk_1_6"
     },
     {
       "file": "HCR_Food Pastry.txt",
       "recipe": "Make Frosting",
       "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
       "kind": "split_food_or",
-      "native_recipe": "Make Frosting (Carton Milk)",
+      "native_recipe": "Make Frosting",
       "litres": 1.0,
       "source": {
         "file": "Food Pastry.txt",
@@ -171,14 +201,18 @@
         "input": "Milk,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "legacy_food_body": "    craftRecipe Make Frosting\n    {\n        time = 30,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        SkillRequired = Cooking:3,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Base.Butter],\n            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],\n            item 2 [Base.Sugar],\n            item 1 [Base.Bowl] flags[ItemCount],\n            item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCFrosting,\n        }\n    }",
+      "legacy_native_body": "    craftRecipe Make Frosting (Carton Milk)\n    {\n        Icon = HCMilkjug,\n        Tooltip = Tooltip_HCR_MilkChain_a6b2bb34ac29,\n        time = 30,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        SkillRequired = Cooking:3,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Base.Butter],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate] mode:primary,\n            item 2 [Base.Sugar],\n            item 1 [Base.Bowl] flags[ItemCount],\n            item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCFrosting,\n        }\n    }",
+      "previous_native_recipe": "Make Frosting (Carton Milk)",
+      "superseded_by": "unified_milk_1_6"
     },
     {
       "file": "HCR_Food Pastry.txt",
       "recipe": "Make Fruit Cake Batter",
       "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
       "kind": "split_food_or",
-      "native_recipe": "Make Fruit Cake Batter (Carton Milk)",
+      "native_recipe": "Make Fruit Cake Batter",
       "litres": 1.0,
       "source": {
         "file": "Food Pastry.txt",
@@ -187,14 +221,18 @@
         "input": "Milk,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "legacy_food_body": "    craftRecipe Make Fruit Cake Batter\n    {\n        time = 90,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [Base.Spoon] mode:keep,\n            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],\n            item 1 [Base.Butter],\n            item 1 [Base.Sugar],\n            item 2 [Hydrocraft.HCDriedfruit] flags[ItemCount],\n            item 1 tags[Egg] flags[ItemCount],\n            item 1 [Base.Yeast],\n            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],\n            item 1 [Base.Bowl] flags[ItemCount],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCFruitcakebatter,\n        }\n    }",
+      "legacy_native_body": "    craftRecipe Make Fruit Cake Batter (Carton Milk)\n    {\n        Icon = HCMilkjug,\n        Tooltip = Tooltip_HCR_MilkChain_18845480cda8,\n        time = 90,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [Base.Spoon] mode:keep,\n            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],\n            item 1 [Base.Butter],\n            item 1 [Base.Sugar],\n            item 2 [Hydrocraft.HCDriedfruit] flags[ItemCount],\n            item 1 tags[Egg] flags[ItemCount],\n            item 1 [Base.Yeast],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate] mode:primary,\n            item 1 [Base.Bowl] flags[ItemCount],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCFruitcakebatter,\n        }\n    }",
+      "previous_native_recipe": "Make Fruit Cake Batter (Carton Milk)",
+      "superseded_by": "unified_milk_1_6"
     },
     {
       "file": "HCR_Food Rice.txt",
       "recipe": "Make Pot of Rice Pudding",
       "input": "item 1 [Base.Milk;Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],",
       "kind": "split_food_or",
-      "native_recipe": "Make Pot of Rice Pudding (Carton Milk)",
+      "native_recipe": "Make Pot of Rice Pudding",
       "litres": 1.0,
       "source": {
         "file": "Food Soup.txt",
@@ -203,7 +241,11 @@
         "input": "Milk/HCUHTmilk/HCSoymilk,"
       },
       "old_hunger_units": 10,
-      "native_carton_litres": 1.0
+      "native_carton_litres": 1.0,
+      "legacy_food_body": "    craftRecipe Make Pot of Rice Pudding\n    {\n        time = 95,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        SkillRequired = Cooking:1,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [Base.Pot] mode:destroy flags[ItemCount],\n            item 1 [Base.Rice;Hydrocraft.HCRicebrown] flags[ItemCount],\n            item 1 [Base.Sugar],\n            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCRicepuddingpot,\n        }\n    }",
+      "legacy_native_body": "    craftRecipe Make Pot of Rice Pudding (Carton Milk)\n    {\n        Icon = HCMilkjug,\n        Tooltip = Tooltip_HCR_MilkChain_2d487a6096a1,\n        time = 95,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        SkillRequired = Cooking:1,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [Base.Pot] mode:destroy flags[ItemCount],\n            item 1 [Base.Rice;Hydrocraft.HCRicebrown] flags[ItemCount],\n            item 1 [Base.Sugar],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate] mode:primary,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCRicepuddingpot,\n        }\n    }",
+      "previous_native_recipe": "Make Pot of Rice Pudding (Carton Milk)",
+      "superseded_by": "unified_milk_1_6"
     }
   ]
 }

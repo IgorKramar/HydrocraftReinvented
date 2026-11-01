@@ -608,6 +608,8 @@ module Hydrocraft
     }
     craftRecipe Make Fried Frogs Legs
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_831e9d891d9a,
         time = 55,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -624,7 +626,9 @@ module Hydrocraft
             item 1 [Base.Pepper],
             item 1 tags[Egg] flags[ItemCount],
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
         }
         outputs
         {

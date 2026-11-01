@@ -1,5 +1,9 @@
 -- Never change the serialized Java class of an existing fullType. Legacy items
 -- must first load using their original normal class, then receive a new ID.
+require "HCR_FluidMigrations"
+require "HCR_DrinkMigrations"
+require "HCR_FermentationMigrations"
+require "HCR_ItemNames"
 HCRItemMigrations = HCRItemMigrations or {}
 local replacements = {
     ["Hydrocraft.HCArmorchainmail"] = "Hydrocraft.HCArmorchainmailWearable",
@@ -14,13 +18,26 @@ function HCRItemMigrations.copyState(source, target)
         target:getModData()[key] = value
     end
     if source:isCustomName() then
-        target:setName(source:getName())
+        local name=HCRItemNames.custom(source)
+        if name then target:setName(name) end
         target:setCustomName(true)
     end
 end
 
 function HCRItemMigrations.newReplacement(item)
     if not item then return nil end
+    if HCRFermentationMigrations then
+        local fermentation=HCRFermentationMigrations.newReplacement(item,HCRItemMigrations.copyState)
+        if fermentation then return fermentation end
+    end
+    if HCRFluidMigrations then
+        local fluid = HCRFluidMigrations.newReplacement(item, HCRItemMigrations.copyState)
+        if fluid then return fluid end
+    end
+    if HCRDrinkMigrations then
+        local drink = HCRDrinkMigrations.newReplacement(item, HCRItemMigrations.copyState)
+        if drink then return drink end
+    end
     local targetType = replacements[item:getFullType()]
     if not targetType then return nil end
     local ok, replacement = pcall(instanceItem, targetType)

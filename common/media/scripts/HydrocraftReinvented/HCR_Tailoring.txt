@@ -1092,6 +1092,7 @@ module Hydrocraft
     }
     craftRecipe Dye Yarn
     {
+        OnTest = HCRFluidRecipes.Test_c6df5ff7da03,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Tailoring,
@@ -1105,7 +1106,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1114,6 +1115,7 @@ module Hydrocraft
     }
     craftRecipe Dye Yarn (Purple Yarn)
     {
+        OnTest = HCRFluidRecipes.Test_6d1230330811,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Tailoring,
@@ -1128,7 +1130,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1137,6 +1139,7 @@ module Hydrocraft
     }
     craftRecipe Dye Yarn (Blue Yarn)
     {
+        OnTest = HCRFluidRecipes.Test_e6144a896f2d,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Tailoring,
@@ -1150,7 +1153,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1159,6 +1162,7 @@ module Hydrocraft
     }
     craftRecipe Dye Yarn (Green Yarn)
     {
+        OnTest = HCRFluidRecipes.Test_3ad57d75b99a,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Tailoring,
@@ -1172,7 +1176,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1181,6 +1185,7 @@ module Hydrocraft
     }
     craftRecipe Dye Yarn (Yellow Yarn)
     {
+        OnTest = HCRFluidRecipes.Test_ec3b08d1160e,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Tailoring,
@@ -1194,7 +1199,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1203,6 +1208,7 @@ module Hydrocraft
     }
     craftRecipe Dye Yarn (Orange Yarn)
     {
+        OnTest = HCRFluidRecipes.Test_881775050d6b,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Tailoring,
@@ -1217,7 +1223,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1226,6 +1232,7 @@ module Hydrocraft
     }
     craftRecipe Dye Yarn (Red Yarn)
     {
+        OnTest = HCRFluidRecipes.Test_0d9efb05e919,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Tailoring,
@@ -1239,7 +1246,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {

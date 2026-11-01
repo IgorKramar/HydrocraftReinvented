@@ -872,6 +872,7 @@ module Hydrocraft
     }
     craftRecipe Empty Wooden Bucket with Fish Oil
     {
+        OnTest = HCRFluidRecipes.Test_a4516f0bba60,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -882,7 +883,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucket,
+            item 1 Hydrocraft.HCWoodenbucketFluid,
         }
     }
 }

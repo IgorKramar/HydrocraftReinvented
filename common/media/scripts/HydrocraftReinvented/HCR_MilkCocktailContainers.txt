@@ -1,0 +1,35 @@
+module Hydrocraft
+{
+    item HCEggnogbottleFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Whiskey Eggnog Bottle,
+        Icon = HCWhiskeyeggnogfull,
+        Weight = 0.2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCMonkeyTailbottleFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Whiskey Monkey Tail Bottle,
+        Icon = HCWhiskeycolademonofull,
+        Weight = 0.2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+}

@@ -184,5 +184,21 @@
     "prompt": "Edit only the supplied tiny Project Zomboid inventory powder sprite. Replace the brown iron powder with a mound of dark neutral grey crystalline silicon powder, small angular grains and a few cool grey mineral glints; charcoal-grey dark edges, medium grey body, subtle light-grey grain highlights. Preserve the exact low mound silhouette, isometric viewpoint, 32-pixel inventory game sprite style, dark outline and modest rough-pixel shading. No brown, no copper, no gold, no white silver metal shine. One powder pile, no container, no tools, no label, no lettering, no text, no frame, no extra padding, no floor shadow. Plain pure-white background outside the pile so it can be removed cleanly.",
     "processing": "Flood background removal; one nearest-neighbour fit to 32x32; preserve original pile alpha; grey source shading for outline fragments outside generated fit.",
     "processing_tool": "tools/generate_silicon_icon.py"
+  },
+  {
+    "asset": "common/media/textures/Item_HCRMilkBowl.png",
+    "service": "fal.ai",
+    "endpoint": "openai/gpt-image-2",
+    "request_id": "01a19318-8392-7453-8002-b2ba12b0ddd7",
+    "quality": "low",
+    "background": "opaque",
+    "prompt": "One small warm brown ceramic bowl filled with smooth off-white milk, compact squat shape and clearly visible elliptical surface, three-quarter view from above. Grounded isometric survival-game inventory icon, restrained painted pixel-art shading, thin dark brown silhouette, lit upper left, simple at 32x32. No cereal, no spoon, no garnish, no handles, no text, no shadow. Entire background perfectly flat saturated magenta RGB 255 0 255, with generous margin. Hard clean object edges without any magenta reflection.",
+    "background_removal": {
+      "endpoint": "fal-ai/birefnet/v2",
+      "request_id": "01a1931c-678b-7a62-b5a8-3b08072f0495"
+    },
+    "processing_tool": "universal-modder 0.2.0: um fal sprite; um fal rmbg; um sprite fit --size 32x32 --hard-alpha",
+    "processing": "Single nearest-neighbour fit of the background-removed image. Early colour-key trials discarded. Checked at 8x for pale or magenta edge noise.",
+    "output_sha256": "9ade319f8658d4204f9accc5c1a42290a4f1a4436f36b2f9d12a565698438c8e"
   }
 ]

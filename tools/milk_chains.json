@@ -1,0 +1,367 @@
+{
+  "Make Cream Cheese Culture": {
+    "replace": {
+      "0": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,"
+    },
+    "slots": [
+      0
+    ],
+    "litres": 4,
+    "original": "    craftRecipe Make Cream Cheese Culture\n    {\n        OnTest = HCRFluidRecipes.Test_eb2717f5b4af,\n        time = 200,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        SkillRequired = Cooking:8,\n        xpAward = Cooking:9,\n        inputs\n        {\n            item 1 [Hydrocraft.HCWoodenbucketmilk],\n            item 1 [Base.Vinegar2],\n            item 1 [Base.Salt],\n            item 1 tags[base:startfire],\n            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCreamcheeseculture,\n        }\n    }",
+    "file": "HCR_Cheesemaking.txt",
+    "token": "eb2717f5b4af"
+  },
+  "Fill Cheese Vat": {
+    "replace": {
+      "1": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 16 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,"
+    },
+    "slots": [
+      1
+    ],
+    "litres": 16,
+    "original": "    craftRecipe Fill Cheese Vat\n    {\n        OnTest = HCRFluidRecipes.Test_af59bf54d5ca,\n        time = 50,\n        Tags = AnySurfaceCraft;CanBeDoneFromFloor,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        SkillRequired = Cooking:8,\n        xpAward = Cooking:2,\n        OnCreate = HCR42.recipe_hcwoodenbucket4,\n        inputs\n        {\n            item 4 [Hydrocraft.HCRennet],\n            item 4 [Hydrocraft.HCWoodenbucketmilk] mode:destroy,\n            item 1 [Hydrocraft.HCVat;Hydrocraft.HCVatFluid] flags[ItemCount;IsEmpty],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCVatcheese,\n        }\n    }",
+    "file": "HCR_Cheesemaking.txt",
+    "token": "af59bf54d5ca"
+  },
+  "Make Monkey Tail Pot": {
+    "replace": {
+      "0": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,"
+    },
+    "slots": [
+      0
+    ],
+    "fluids": [
+      "HCRMilk",
+      "CowMilk",
+      "SheepMilk",
+      "AnimalMilk",
+      "HCRMilkChocolate",
+      "HCRMilkSoy"
+    ],
+    "litres": 0.1,
+    "original": "    craftRecipe Make Monkey Tail Pot\n    {\n        time = 90,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.0 [CowMilk],\n            item 1 [Base.Sugar],\n            item 1 [Hydrocraft.HCAguaardiente] flags[ItemCount],\n            item 1 [Base.Coffee2],\n            item 1 [Base.Pot] flags[ItemCount],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCColademonopot,\n        }\n    }",
+    "file": "HCR_Food Bar.txt",
+    "token": "9ffd46daa00d"
+  },
+  "Make Eggnog Pot": {
+    "replace": {
+      "0": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,"
+    },
+    "slots": [
+      0
+    ],
+    "fluids": [
+      "HCRMilk",
+      "CowMilk",
+      "SheepMilk",
+      "AnimalMilk",
+      "HCRMilkChocolate",
+      "HCRMilkSoy"
+    ],
+    "litres": 0.1,
+    "original": "    craftRecipe Make Eggnog Pot\n    {\n        time = 90,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.0 [CowMilk],\n            item 1 tags[Egg] flags[ItemCount],\n            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.25 [Whiskey],\n            item 1 [Base.Pot] flags[ItemCount],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCEggnogpot,\n        }\n    }",
+    "file": "HCR_Food Bar.txt",
+    "token": "c0ee75c82e76"
+  },
+  "Jar Homemade Yogurt": {
+    "replace": {
+      "0": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 4 [HCRMilkFermented] mode:primary,"
+    },
+    "slots": [
+      0
+    ],
+    "litres": 4,
+    "fluids": [
+      "HCRMilkFermented"
+    ],
+    "original": "    craftRecipe Jar Homemade Yogurt\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        SkillRequired = Cooking:8,\n        xpAward = Cooking:2,\n        OnCreate = HCR42.recipe_hcwoodenbucket,\n        inputs\n        {\n            item 1 [Hydrocraft.HCWoodenbucketfermentedmilk],\n            item 4 [Hydrocraft.HCJar],\n        }\n        outputs\n        {\n            item 4 Hydrocraft.HCJarhomemadeyogurt,\n        }\n    }",
+    "file": "HCR_Food Dairy.txt",
+    "token": "876e4d1fa119"
+  },
+  "Ferment Milk": {
+    "replace": {
+      "0": "item 1 [Hydrocraft.HCWoodenbucketFluid] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 4 [HCRMilkHeated] mode:primary,"
+    },
+    "output": "",
+    "slots": [
+      0
+    ],
+    "litres": 4,
+    "vesselSlot": 0,
+    "marker": "HCRMilkFermented",
+    "fluids": [
+      "HCRMilkHeated"
+    ],
+    "original": "    craftRecipe Ferment Milk\n    {\n        time = 2000,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        SkillRequired = Cooking:8,\n        xpAward = Cooking:10,\n        inputs\n        {\n            item 1 [Hydrocraft.HCWoodenbucketheatedmilk],\n            item 1 [Hydrocraft.HCChilipepperstem],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCWoodenbucketfermentedmilk,\n        }\n    }",
+    "file": "HCR_Food Dairy.txt",
+    "token": "bb9d315856b3"
+  },
+  "Heat Milk": {
+    "replace": {
+      "0": "item 1 [Hydrocraft.HCWoodenbucketFluid] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,"
+    },
+    "output": "",
+    "slots": [
+      0
+    ],
+    "litres": 4,
+    "vesselSlot": 0,
+    "marker": "HCRMilkHeated",
+    "original": "    craftRecipe Heat Milk\n    {\n        OnTest = HCRFluidRecipes.Test_f26d05061096,\n        time = 100,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [Hydrocraft.HCWoodenbucketmilk],\n            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],\n            item 1 [Base.Charcoal],\n            item 1 tags[base:startfire],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCWoodenbucketheatedmilk,\n        }\n    }",
+    "file": "HCR_Food Dairy.txt",
+    "token": "f26d05061096"
+  },
+  "Bottle Milk": {
+    "replace": {
+      "0": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,"
+    },
+    "slots": [
+      0
+    ],
+    "litres": 4,
+    "outputTarget": "Base.Milk",
+    "count": 4,
+    "original": "    craftRecipe Bottle Milk\n    {\n        time = 15,\n        Tags = AnySurfaceCraft,\n        category = Ranching,\n        timedAction = Making,\n        xpAward = Cooking:2,\n        OnCreate = HCR42.recipe_hcwoodenbucket,\n        inputs\n        {\n            item 1 [Hydrocraft.HCWoodenbucketmilk],\n            item 4 [Hydrocraft.HCMilkempty],\n        }\n        outputs\n        {\n            item 4 Base.Milk,\n        }\n    }",
+    "file": "HCR_Food Dairy.txt",
+    "token": "42504866e3ef"
+  },
+  "Make Butter": {
+    "replace": {
+      "0": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,"
+    },
+    "slots": [
+      0
+    ],
+    "litres": 4,
+    "original": "    craftRecipe Make Butter\n    {\n        time = 500,\n        Tags = AnySurfaceCraft;CanBeDoneFromFloor,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:10,\n        OnCreate = HCR42.recipe_hcwoodenbucket,\n        inputs\n        {\n            item 1 [Hydrocraft.HCWoodenbucketmilk],\n            item 1 [Hydrocraft.HCChurn] mode:keep,\n        }\n        outputs\n        {\n            item 1 Base.Butter,\n        }\n    }",
+    "file": "HCR_Food Dairy.txt",
+    "token": "16339c2ecf90"
+  },
+  "Pour into Carton": {
+    "replace": {
+      "0": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,"
+    },
+    "slots": [
+      0
+    ],
+    "litres": 1,
+    "outputTarget": "Base.Milk",
+    "count": 1,
+    "original": "    craftRecipe Pour into Carton\n    {\n        time = 25,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        inputs\n        {\n            item 10 [Hydrocraft.HCMilkjug],\n            item 1 [Hydrocraft.HCMilkempty],\n        }\n        outputs\n        {\n            item 1 Base.Milk,\n        }\n    }",
+    "file": "HCR_Food Dairy.txt",
+    "token": "f845b9c2e8ad"
+  },
+  "Dilute Evaporated Milk": {
+    "replace": {
+      "0": "item 1 [Hydrocraft.HCEvaporatedmilkopen] flags[ItemCount;AllowRottenItem],"
+    },
+    "slots": [
+      1
+    ],
+    "fluids": [
+      "Water"
+    ],
+    "litres": 1,
+    "outputTarget": "Base.Milk",
+    "count": 1,
+    "foodSlot": 0,
+    "foodLitres": 0.3,
+    "variableYield": true,
+    "byproduct": "Hydrocraft.HCEvaporatedmilkopenempty",
+    "original": "    craftRecipe Dilute Evaporated Milk\n    {\n        time = 25,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCEvaporatedmilkopen],\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.7 [Water],\n            item 1 [Hydrocraft.HCMilkempty],\n        }\n        outputs\n        {\n            item 1 Base.Milk,\n        }\n    }",
+    "file": "HCR_Food Dairy.txt",
+    "token": "199e1d451110"
+  },
+  "Make Cup of Hot Chocolate (Cup of Hot Chocolate)": {
+    "replace": {
+      "1": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.2 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkSoy] mode:primary,"
+    },
+    "slots": [
+      1
+    ],
+    "fluids": [
+      "HCRMilk",
+      "CowMilk",
+      "SheepMilk",
+      "AnimalMilk",
+      "HCRMilkSoy"
+    ],
+    "litres": 0.2,
+    "original": "    craftRecipe Make Cup of Hot Chocolate (Cup of Hot Chocolate)\n    {\n        OnTest = HCRFluidRecipes.Test_cc2512a1516f,\n        time = 70,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:3,\n        inputs\n        {\n            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],\n            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.0 [CowMilk],\n            item 1 [Hydrocraft.HCCoco],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCococup2,\n        }\n    }",
+    "file": "HCR_Food Drinks.txt",
+    "token": "140cd02fc1fc"
+  },
+  "Make Cup of Hot Chocolate": {
+    "replace": {
+      "1": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.2 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkSoy] mode:primary,"
+    },
+    "slots": [
+      1
+    ],
+    "fluids": [
+      "HCRMilk",
+      "CowMilk",
+      "SheepMilk",
+      "AnimalMilk",
+      "HCRMilkSoy"
+    ],
+    "litres": 0.2,
+    "original": "    craftRecipe Make Cup of Hot Chocolate\n    {\n        time = 70,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        xpAward = Cooking:3,\n        inputs\n        {\n            item 1 [Base.Mugl] flags[ItemCount],\n            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.0 [CowMilk],\n            item 1 [Hydrocraft.HCCoco],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCococup,\n        }\n    }",
+    "file": "HCR_Food Drinks.txt",
+    "token": "ff09534f0ba2"
+  },
+  "Prepare Cornbread": {
+    "replace": {
+      "3": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,"
+    },
+    "slots": [
+      3
+    ],
+    "fluids": [
+      "HCRMilk",
+      "CowMilk",
+      "SheepMilk",
+      "AnimalMilk",
+      "HCRMilkChocolate",
+      "HCRMilkSoy"
+    ],
+    "litres": 0.1,
+    "original": "    craftRecipe Prepare Cornbread\n    {\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        SkillRequired = Cooking:5,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Hydrocraft.HCBreadpan],\n            item 1 [Base.Cornflour2],\n            item 1 [Base.Butter],\n            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.0 [CowMilk],\n            item 1 [Base.Sugar],\n            item 1 [Base.Salt],\n            item 1 tags[Egg] flags[ItemCount],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCCornbreadpan,\n        }\n    }",
+    "file": "HCR_Food Flour.txt",
+    "token": "ec73e2784b5b"
+  },
+  "Make Nacho Cheese": {
+    "replace": {
+      "1": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,"
+    },
+    "slots": [
+      1
+    ],
+    "fluids": [
+      "HCRMilk",
+      "CowMilk",
+      "SheepMilk",
+      "AnimalMilk",
+      "HCRMilkChocolate",
+      "HCRMilkSoy"
+    ],
+    "litres": 0.1,
+    "original": "    craftRecipe Make Nacho Cheese\n    {\n        time = 75,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        SkillRequired = Cooking:2,\n        xpAward = Cooking:3,\n        inputs\n        {\n            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],\n            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.0 [CowMilk],\n            item 1 [Base.Butter],\n            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],\n            item 1 [Base.Bowl] mode:keep,\n            item 1 [Base.KitchenKnife] mode:keep,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCNachobowl,\n        }\n    }",
+    "file": "HCR_Food Mexican.txt",
+    "token": "51784debce91"
+  },
+  "Make Fruit Cake Batter": {
+    "replace": {
+      "7": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,"
+    },
+    "slots": [
+      7
+    ],
+    "fluids": [
+      "HCRMilk",
+      "CowMilk",
+      "SheepMilk",
+      "AnimalMilk",
+      "HCRMilkChocolate",
+      "HCRMilkSoy"
+    ],
+    "litres": 0.1,
+    "original": "    craftRecipe Make Fruit Cake Batter\n    {\n        time = 90,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        NeedToBeLearn = true,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [Base.Spoon] mode:keep,\n            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],\n            item 1 [Base.Butter],\n            item 1 [Base.Sugar],\n            item 2 [Hydrocraft.HCDriedfruit] flags[ItemCount],\n            item 1 tags[Egg] flags[ItemCount],\n            item 1 [Base.Yeast],\n            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.0 [CowMilk],\n            item 1 [Base.Bowl] flags[ItemCount],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCFruitcakebatter,\n        }\n    }",
+    "file": "HCR_Food Pastry.txt",
+    "token": "4281e7343b26"
+  },
+  "Make Frosting": {
+    "replace": {
+      "1": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,"
+    },
+    "slots": [
+      1
+    ],
+    "fluids": [
+      "HCRMilk",
+      "CowMilk",
+      "SheepMilk",
+      "AnimalMilk",
+      "HCRMilkChocolate",
+      "HCRMilkSoy"
+    ],
+    "litres": 0.1,
+    "original": "    craftRecipe Make Frosting\n    {\n        time = 30,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        SkillRequired = Cooking:3,\n        xpAward = Cooking:2,\n        inputs\n        {\n            item 1 [Base.Butter],\n            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.0 [CowMilk],\n            item 2 [Base.Sugar],\n            item 1 [Base.Bowl] flags[ItemCount],\n            item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCFrosting,\n        }\n    }",
+    "file": "HCR_Food Pastry.txt",
+    "token": "e124773d23bb"
+  },
+  "Make Pot of Rice Pudding": {
+    "replace": {
+      "3": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,"
+    },
+    "slots": [
+      3
+    ],
+    "fluids": [
+      "HCRMilk",
+      "CowMilk",
+      "SheepMilk",
+      "AnimalMilk",
+      "HCRMilkChocolate",
+      "HCRMilkSoy"
+    ],
+    "litres": 0.1,
+    "original": "    craftRecipe Make Pot of Rice Pudding\n    {\n        time = 95,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        SkillRequired = Cooking:1,\n        xpAward = Cooking:4,\n        inputs\n        {\n            item 1 [Base.Pot] mode:destroy flags[ItemCount],\n            item 1 [Base.Rice;Hydrocraft.HCRicebrown] flags[ItemCount],\n            item 1 [Base.Sugar],\n            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.0 [CowMilk],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCRicepuddingpot,\n        }\n    }",
+    "file": "HCR_Food Rice.txt",
+    "token": "1864ca7aa3fc"
+  },
+  "Pour Milk into Bowl": {
+    "replace": {
+      "0": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.3 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate] mode:primary,"
+    },
+    "slots": [
+      0
+    ],
+    "fluids": [
+      "HCRMilk",
+      "CowMilk",
+      "SheepMilk",
+      "AnimalMilk",
+      "HCRMilkChocolate"
+    ],
+    "litres": 0.3,
+    "foodTarget": "Hydrocraft.HCRMilkBowl",
+    "original": "    craftRecipe Pour Milk into Bowl\n    {\n        time = 20,\n        category = Cooking,\n        inputs\n        {\n            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.3 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,\n            item 1 [Base.Bowl] flags[ItemCount;ItemIsFluid;IsEmpty],\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCRMilkBowl,\n        }\n    }",
+    "file": "HCR_MilkBowl.txt",
+    "token": "dbcbdc2d7280"
+  },
+  "Fill Wooden Bucket with Milk": {
+    "inputs": [
+      "item 1 [Hydrocraft.HCWoodenbucketFluid] mode:keep flags[ItemCount;IsEmpty],",
+      "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,"
+    ],
+    "output": "",
+    "slots": [
+      1
+    ],
+    "litres": 4,
+    "vesselSlot": 0,
+    "marker": "HCRMilk",
+    "original": "    craftRecipe Fill Wooden Bucket with Milk\n    {\n        OnTest = HCRFluidRecipes.Test_ad62495b6de8,\n        time = 50,\n        Tags = AnySurfaceCraft;CanBeDoneFromFloor,\n        category = Ranching,\n        timedAction = Making,\n        inputs\n        {\n            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],\n            item 1 [*],\n            -fluid 5.0 [CowMilk;SheepMilk;AnimalMilk] mode:mixture,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCWoodenbucketmilk,\n        }\n    }",
+    "file": "HCR_Reclamation.txt",
+    "token": "ad62495b6de8"
+  },
+  "Fill Empty Soap Can With UHT Milk": {
+    "inputs": [
+      "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1.4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,",
+      "item 1 [Hydrocraft.HCDetergentemptyFluid] mode:keep flags[ItemCount;IsEmpty],",
+      "item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,"
+    ],
+    "output": "",
+    "slots": [
+      0
+    ],
+    "litres": 1.4,
+    "vesselSlot": 1,
+    "vesselType": "Hydrocraft.HCDetergentemptyFluid",
+    "marker": "HCRMilk",
+    "original": "    craftRecipe Fill Empty Soap Can With UHT Milk\n    {\n        OnTest = HCRFluidRecipes.Test_3b8fa4b00ca5,\n        time = 50,\n        Tags = AnySurfaceCraft,\n        category = Cooking,\n        timedAction = Making,\n        inputs\n        {\n            item 4 [Hydrocraft.HCPlasticcanmilk;Hydrocraft.HCUHTmilk],\n            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],\n            item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,\n        }\n        outputs\n        {\n            item 1 Hydrocraft.HCDetergentmilk,\n        }\n    }",
+    "file": "HCR_Soap Cans.txt",
+    "token": "3b8fa4b00ca5"
+  }
+}

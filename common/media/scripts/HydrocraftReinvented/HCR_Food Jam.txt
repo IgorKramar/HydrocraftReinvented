@@ -679,6 +679,8 @@ module Hydrocraft
     }
     craftRecipe Prepare Jam Pot
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_f88f595c2b1c,
         time = 90,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -690,7 +692,9 @@ module Hydrocraft
         {
             item 1 [Base.Pot] mode:destroy flags[ItemCount],
             item 3 [Base.Sugar],
-            item 1 [Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCLemonjuicebowl],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
         }
         outputs
         {

@@ -1916,6 +1916,7 @@ module Hydrocraft
     }
     craftRecipe Build Arc Furnace
     {
+        OnTest = HCRFluidRecipes.Test_aa11383ad225,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Engineer,
@@ -1942,7 +1943,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCSolder],
             item 1 [Hydrocraft.HCSoldergunpowered],
             item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
-            item 1 [Base.Bucket;Hydrocraft.HCWoodenbucket] mode:keep,
+            item 1 [Base.Bucket;Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {

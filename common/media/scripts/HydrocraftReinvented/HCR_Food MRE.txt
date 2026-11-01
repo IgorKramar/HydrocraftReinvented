@@ -538,6 +538,7 @@ module Hydrocraft
     }
     craftRecipe Open MRE Package
     {
+        OnTest = HCRFluidRecipes.Test_5bca18306dbf,
         time = 25,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -549,7 +550,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCZipperbag,
+            item 1 Hydrocraft.HCZipperbagFluid,
         }
     }
     craftRecipe Heat MRE Contents

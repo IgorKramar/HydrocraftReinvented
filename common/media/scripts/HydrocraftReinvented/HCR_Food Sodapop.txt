@@ -417,6 +417,8 @@ module Hydrocraft
     }
     craftRecipe Pack Pop (Pack of Pop 3)
     {
+
+        Tooltip = Tooltip_HCR_PackPop,
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
@@ -424,7 +426,7 @@ module Hydrocraft
         OnTest = HCRPackaging.IsFullFactoryState,
         inputs
         {
-            item 6 [Hydrocraft.HCPop6] flags[ItemCount],
+            item 6 [Hydrocraft.HCPop6Fluid] flags[ItemCount],
         }
         outputs
         {
@@ -443,7 +445,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCPop6,
+            item 6 Hydrocraft.HCPop6Fluid,
         }
     }
 }

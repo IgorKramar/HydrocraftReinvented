@@ -132,6 +132,7 @@ module Hydrocraft
     }
     craftRecipe Make Birch Bark Cup
     {
+        OnTest = HCRFluidRecipes.Test_5d7989696880,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Survivalist,
@@ -142,7 +143,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCBirchbarkcup,
+            item 1 Hydrocraft.HCBirchbarkcupFluid,
         }
     }
 }

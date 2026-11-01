@@ -151,6 +151,7 @@ module Hydrocraft
     }
     craftRecipe Harvest Crop (Wooden Bucket with Rubber)
     {
+        OnTest = HCRFluidRecipes.Test_deda35bdd8cb,
         time = 150,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Farming,
@@ -160,7 +161,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPottedrubbertree2] mode:keep,
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Base.Fertilizer],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
@@ -327,6 +328,7 @@ module Hydrocraft
     }
     craftRecipe Empty Wooden Bucket with Rubber
     {
+        OnTest = HCRFluidRecipes.Test_67795ed71eb5,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Farming,
@@ -337,7 +339,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucket,
+            item 1 Hydrocraft.HCWoodenbucketFluid,
         }
     }
 }

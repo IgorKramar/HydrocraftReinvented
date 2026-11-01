@@ -940,6 +940,10 @@ module Hydrocraft
     }
     craftRecipe Make Lemon Juice
     {
+        Icon = HCLemonjuicebowl,
+        Tooltip = Tooltip_HCR_Juice_f2e0dab44a60,
+        OnCreate = HCRDrinkRecipes.Create_f2e0dab44a60,
+        OnTest = HCRDrinkRecipes.Test_f2e0dab44a60,
         time = 40,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -951,15 +955,18 @@ module Hydrocraft
             item 1 [Base.KitchenKnife] mode:keep,
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
             item 4 [Base.Lemon] flags[ItemCount],
-            item 1 [Base.Bowl] mode:destroy flags[ItemCount],
+            item 4 [Base.Bowl] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCLemonjuicebowl,
         }
     }
     craftRecipe Make Lime Juice
     {
+        Icon = HCLimejuicebowl,
+        Tooltip = Tooltip_HCR_Juice_00f7649c55dc,
+        OnCreate = HCRDrinkRecipes.Create_00f7649c55dc,
+        OnTest = HCRDrinkRecipes.Test_00f7649c55dc,
         time = 40,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -971,15 +978,16 @@ module Hydrocraft
             item 1 [Base.KitchenKnife] mode:keep,
             item 1 [Hydrocraft.HCJuicer;Hydrocraft.HCJuicer2] mode:keep,
             item 4 [Hydrocraft.HCLime] flags[ItemCount],
-            item 1 [Base.Bowl] mode:destroy flags[ItemCount],
+            item 4 [Base.Bowl] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCLimejuicebowl,
         }
     }
     craftRecipe Dry Fruit
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_4cb96d1e4a4d,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -991,7 +999,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 4 [Hydrocraft.HCSlicedapple],
         }
         outputs
@@ -1001,6 +1011,8 @@ module Hydrocraft
     }
     craftRecipe Dry Fruit (Tray with Apple Slices)
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_8e821c3d92dc,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1013,7 +1025,9 @@ module Hydrocraft
         {
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 1 [Base.Apple] flags[ItemCount],
         }
         outputs
@@ -1023,6 +1037,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Fruit in Bag
     {
+        OnTest = HCRFluidRecipes.Test_0e447b9dd908,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1032,7 +1047,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedappletray] flags[ItemCount],
         }
         outputs
@@ -1042,6 +1057,8 @@ module Hydrocraft
     }
     craftRecipe Dry Fruit (Tray with Peach Slices)
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_9b49bda94169,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1054,7 +1071,9 @@ module Hydrocraft
         {
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 1 [Base.Peach] flags[ItemCount],
         }
         outputs
@@ -1064,6 +1083,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Fruit in Bag (Bag of Dried Peach Slices)
     {
+        OnTest = HCRFluidRecipes.Test_1aa31706e8a7,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1073,7 +1093,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedpeachtray] flags[ItemCount],
         }
         outputs
@@ -1122,6 +1142,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Fruit in Bag (Bag of Dried Orange Slices)
     {
+        OnTest = HCRFluidRecipes.Test_e9b7f589733c,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1131,7 +1152,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedorangetray] flags[ItemCount],
         }
         outputs
@@ -1180,6 +1201,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Fruit in Bag (Bag of Dried Lemon Slices)
     {
+        OnTest = HCRFluidRecipes.Test_9a39bf127ced,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1189,7 +1211,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedlemontray] flags[ItemCount],
         }
         outputs
@@ -1238,6 +1260,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Fruit in Bag (Bag of Dried Lime Slices)
     {
+        OnTest = HCRFluidRecipes.Test_101255090592,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1247,7 +1270,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedlimetray] flags[ItemCount],
         }
         outputs
@@ -1257,6 +1280,8 @@ module Hydrocraft
     }
     craftRecipe Dry Fruit (Tray with Banana Chips)
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_31cf0a1c2cf5,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1270,7 +1295,9 @@ module Hydrocraft
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
             item 1 [Base.Banana] flags[ItemCount],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
         }
         outputs
         {
@@ -1279,6 +1306,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Fruit in Bag (Bag of Dried Banana Chips)
     {
+        OnTest = HCRFluidRecipes.Test_045ba3353a2f,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1288,7 +1316,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedbananachipstray] flags[ItemCount],
         }
         outputs
@@ -1298,6 +1326,8 @@ module Hydrocraft
     }
     craftRecipe Dry Fruit (Tray with Strawberry Slices)
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_aa25a5d7139f,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1310,7 +1340,9 @@ module Hydrocraft
         {
             item 1 [Base.BakingTray],
             item 1 [Base.KitchenKnife] mode:keep,
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 3 [Base.Strewberrie] flags[ItemCount],
         }
         outputs
@@ -1320,6 +1352,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Fruit in Bag (Bag of Dried Strawberry Slices)
     {
+        OnTest = HCRFluidRecipes.Test_8a92d17f71e8,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1329,7 +1362,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedstrawberrytray] flags[ItemCount],
         }
         outputs
@@ -1339,6 +1372,8 @@ module Hydrocraft
     }
     craftRecipe Dry Fruit (Tray with Berries)
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_cce5f160dec2,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1350,7 +1385,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.BakingTray],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 1 [Hydrocraft.HCBunchofberries] flags[ItemCount],
         }
         outputs
@@ -1360,6 +1397,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Fruit in Bag (Bag of Dried Berries)
     {
+        OnTest = HCRFluidRecipes.Test_25b212270359,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1369,7 +1407,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedberriestray] flags[ItemCount],
         }
         outputs
@@ -1420,6 +1458,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Fruit in Bag (Bag of Dried Tomatoes)
     {
+        OnTest = HCRFluidRecipes.Test_d1d9f23c77f6,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1429,7 +1468,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedtomatotray] flags[ItemCount],
         }
         outputs
@@ -1459,6 +1498,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Seeds in Bag
     {
+        OnTest = HCRFluidRecipes.Test_b12264cf38af,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1468,7 +1508,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedpumpkinseedstray] flags[ItemCount],
         }
         outputs
@@ -1498,6 +1538,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Fruit in Bag (Bag of Rasins)
     {
+        OnTest = HCRFluidRecipes.Test_eb62b2432f8c,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1507,7 +1548,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedrasinstray] flags[ItemCount],
         }
         outputs
@@ -1537,6 +1578,7 @@ module Hydrocraft
     }
     craftRecipe Store Dried Fruit in Bag (Bag of Crasins)
     {
+        OnTest = HCRFluidRecipes.Test_dfae0610d6a6,
         time = 30,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1546,7 +1588,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbakingtray,
         inputs
         {
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCDriedcrasinstray] flags[ItemCount],
         }
         outputs

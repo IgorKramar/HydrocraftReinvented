@@ -3,7 +3,7 @@ module Hydrocraft
     imports { Base }
     item HCPotofpotatomash
     {
-
+        OnCooked = HCRMashCooking.OnCooked,
 	HungerChange			=	-20,
 	Weight				=	0.3,
 	ItemType				=	base:food,
@@ -14,7 +14,7 @@ module Hydrocraft
 	DaysFresh			=	1,	
 	DaysTotallyRotten		=	3,
 	Icon				=	PotFull,
-	ReplaceOnCooked			=	Hydrocraft.HCPotofpotatomashcooked,
+
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Potato Mash,
 	FoodType    			=   	Vegetables,
@@ -155,7 +155,7 @@ module Hydrocraft
     }
     item HCPotofblueagavemash
     {
-
+        OnCooked = HCRMashCooking.OnCooked,
 	HungerChange			=	-30,
 	Calories			=	346,
 	Lipids			=	0.4,
@@ -170,7 +170,7 @@ module Hydrocraft
 	DaysFresh			=	10,	
 	DaysTotallyRotten		=	20,
 	Icon				=	PotFull,
-	ReplaceOnCooked			=	Hydrocraft.HCPotofblueagavemashcooked,
+
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Blue Agave Mash,
 	DisplayCategory          =   FoodP,
@@ -204,7 +204,7 @@ module Hydrocraft
     }
     item HCPotofapplemash
     {
-
+        OnCooked = HCRMashCooking.OnCooked,
 	HungerChange			=	-30,
 	Calories			=	346,
 	Lipids			=	0.4,
@@ -219,7 +219,7 @@ module Hydrocraft
 	DaysFresh			=	10,	
 	DaysTotallyRotten		=	20,
 	Icon				=	PotFull,
-	ReplaceOnCooked			=	Hydrocraft.HCPotofapplemashcooked,
+
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Apple Mash,
 	DisplayCategory          =   FoodP,
@@ -253,7 +253,7 @@ module Hydrocraft
     }
     item HCPotofpeachmash
     {
-
+        OnCooked = HCRMashCooking.OnCooked,
 	HungerChange			=	-30,
 	Calories			=	346,
 	Lipids			=	0.4,
@@ -268,7 +268,7 @@ module Hydrocraft
 	DaysFresh			=	10,	
 	DaysTotallyRotten		=	20,
 	Icon				=	PotFull,
-	ReplaceOnCooked			=	Hydrocraft.HCPotofpeachmashcooked,
+
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Peach Mash,
 	DisplayCategory          =   FoodP,
@@ -302,7 +302,7 @@ module Hydrocraft
     }
     item HCPotofpumpkinmash
     {
-
+        OnCooked = HCRMashCooking.OnCooked,
 	HungerChange			=	-30,
 	Calories			=	346,
 	Lipids			=	0.4,
@@ -317,7 +317,7 @@ module Hydrocraft
 	DaysFresh			=	10,	
 	DaysTotallyRotten		=	20,
 	Icon				=	PotFull,
-	ReplaceOnCooked			=	Hydrocraft.HCPotofpumpkinmashcooked,
+
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Pumpkin Mash,
 	DisplayCategory          =   FoodP,
@@ -351,7 +351,7 @@ module Hydrocraft
     }
     item HCPotofjunipermash
     {
-
+        OnCooked = HCRMashCooking.OnCooked,
 	HungerChange			=	-30,
 	Calories			=	346,
 	Lipids			=	0.4,
@@ -366,7 +366,7 @@ module Hydrocraft
 	DaysFresh			=	10,	
 	DaysTotallyRotten		=	20,
 	Icon				=	PotFull,
-	ReplaceOnCooked			=	Hydrocraft.HCPotofjunipermashcooked,
+
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Juniper Berry Mash,
 	DisplayCategory          =   FoodP,
@@ -400,7 +400,7 @@ module Hydrocraft
     }
     item HCPotofflourmash
     {
-
+        OnCooked = HCRMashCooking.OnCooked,
 	HungerChange			=	-30,
 	Calories			=	346,
 	Lipids			=	0.4,
@@ -415,7 +415,7 @@ module Hydrocraft
 	DaysFresh			=	10,	
 	DaysTotallyRotten		=	20,
 	Icon				=	PotFull,
-	ReplaceOnCooked			=	Hydrocraft.HCPotofflourmashcooked,
+
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Flour Mash,
 	DisplayCategory          =   FoodP,
@@ -449,7 +449,7 @@ module Hydrocraft
     }
     item HCPotofcornmash
     {
-
+        OnCooked = HCRMashCooking.OnCooked,
 	HungerChange			=	-30,
 	Calories			=	346,
 	Lipids			=	0.4,
@@ -464,7 +464,7 @@ module Hydrocraft
 	DaysFresh			=	10,	
 	DaysTotallyRotten		=	20,
 	Icon				=	PotFull,
-	ReplaceOnCooked			=	Hydrocraft.HCPotofcornmashcooked,
+
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Corn Mash,
 	DisplayCategory          =   FoodP,
@@ -539,6 +539,7 @@ module Hydrocraft
     }
     craftRecipe Build Distillery
     {
+        OnTest = HCRFluidRecipes.Test_854ecf732fcd,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Engineer,
@@ -549,8 +550,8 @@ module Hydrocraft
         {
             item 1 [Base.Kettle] flags[ItemCount],
             item 1 [Hydrocraft.HCCoppermashpot],
-            item 1 [Hydrocraft.HCWoodenbucket],
-            item 1 [Hydrocraft.HCWoodenbarrel],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
+            item 1 [Hydrocraft.HCWoodenbarrel;Hydrocraft.HCWoodenbarrelFluid] flags[ItemCount;IsEmpty],
             item 2 [Hydrocraft.HCCopperpipe],
             item 1 [Hydrocraft.HCCoppercooler],
             item 6 [Base.Plank],
@@ -593,7 +594,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 10 [Base.Potato;Hydrocraft.HCPotatogolden] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -612,62 +613,46 @@ module Hydrocraft
         timedAction = Making,
         SkillRequired = Cooking:5,
         xpAward = Cooking:10,
-        OnCreate = HCR42.recipe_hcwoodenbarrel,
+
         inputs
         {
-            item 1 [Hydrocraft.HCBarrelpotato],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [HCRMashPotatoReady] mode:primary,
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 20 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
         }
         outputs
         {
-            item 20 Hydrocraft.HCVodka,
+            item 20 Hydrocraft.HCVodkaFluid,
         }
     }
     craftRecipe Fill Barrel with Potato Mash
     {
+        Tooltip = Tooltip_HCR_MashFerment,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
         xpAward = Cooking:2,
-        OnCreate = HCR42.recipe_hcpotatopot3,
+
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofpotatomashcooked] flags[ItemCount],
+            item 1 [Hydrocraft.HCWoodenbarrelFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.5 [HCRMashPotato] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 18.5 [Water] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCBarrelpotato,
         }
     }
-    craftRecipe Fill Barrel with Lemon Mash
-    {
-        time = 200,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        SkillRequired = Cooking:4,
-        xpAward = Cooking:9,
-        inputs
-        {
-            item 1 [Hydrocraft.HCWoodenbarrel],
-            item 2 [Base.Yeast],
-            item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:keep,
-            item 200 [Hydrocraft.HCSlicedlemon],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCBarrelLemon,
-        }
-    }
+
     craftRecipe Distill Methanol
     {
         time = 100,
@@ -676,18 +661,19 @@ module Hydrocraft
         timedAction = Making,
         SkillRequired = Cooking:5,
         xpAward = Cooking:4,
-        OnCreate = HCR42.recipe_getMethanol,
+
         inputs
         {
             item 1 [Hydrocraft.HCBarrelLemonFermented],
-            item 5 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 5 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbarrel,
+            item 1 Hydrocraft.HCWoodenbarrelFluid,
+            item 5 Hydrocraft.HCMethanol,
         }
     }
     craftRecipe Prepare Pot of Blue Agave Mash
@@ -701,7 +687,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Hydrocraft.HCAgavebluecut],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -714,21 +700,24 @@ module Hydrocraft
     }
     craftRecipe Fill Barrel with Blue Agave Mash
     {
+        Tooltip = Tooltip_HCR_MashFerment,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
         xpAward = Cooking:2,
-        OnCreate = HCR42.recipe_hcpotatopot3,
+
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofblueagavemashcooked] flags[ItemCount],
+            item 1 [Hydrocraft.HCWoodenbarrelFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.5 [HCRMashBlueAgave] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 18.5 [Water] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCBarrelblueagave,
         }
     }
     craftRecipe Distill Bottle of Tequila
@@ -739,20 +728,21 @@ module Hydrocraft
         timedAction = Making,
         SkillRequired = Cooking:6,
         xpAward = Cooking:10,
-        OnCreate = HCR42.recipe_hcwoodenbarrel,
+
         inputs
         {
-            item 1 [Hydrocraft.HCBarrelblueagave],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [HCRMashBlueAgaveReady] mode:primary,
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 20 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
         }
         outputs
         {
-            item 20 Hydrocraft.HCTequila,
+            item 20 Hydrocraft.HCTequilaFluid,
         }
     }
     craftRecipe Distill Bottle of Mezcal
@@ -763,13 +753,14 @@ module Hydrocraft
         timedAction = Making,
         SkillRequired = Cooking:6,
         xpAward = Cooking:10,
-        OnCreate = HCR42.recipe_hcwoodenbarrel,
+
         inputs
         {
-            item 1 [Hydrocraft.HCBarrelblueagave],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [HCRMashBlueAgaveReady] mode:primary,
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 20 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 20 [Base.Worm] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
@@ -777,7 +768,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 20 Hydrocraft.HCMezcal,
+            item 20 Hydrocraft.HCMezcalFluid,
         }
     }
     craftRecipe Prepare Pot of Apple Mash
@@ -791,7 +782,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 10 [Base.Apple] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -804,21 +795,24 @@ module Hydrocraft
     }
     craftRecipe Fill Barrel with Apple Mash
     {
+        Tooltip = Tooltip_HCR_MashFerment,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
         xpAward = Cooking:2,
-        OnCreate = HCR42.recipe_hcpotatopot3,
+
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofapplemashcooked] flags[ItemCount],
+            item 1 [Hydrocraft.HCWoodenbarrelFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.5 [HCRMashApple] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 18.5 [Water] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCBarrelapple,
         }
     }
     craftRecipe Distill Bottle of Applejack
@@ -829,20 +823,21 @@ module Hydrocraft
         timedAction = Making,
         SkillRequired = Cooking:6,
         xpAward = Cooking:10,
-        OnCreate = HCR42.recipe_hcwoodenbarrel,
+
         inputs
         {
-            item 1 [Hydrocraft.HCBarrelapple],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [HCRMashAppleReady] mode:primary,
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 20 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
         }
         outputs
         {
-            item 20 Hydrocraft.HCApplejack,
+            item 20 Hydrocraft.HCApplejackFluid,
         }
     }
     craftRecipe Prepare Pot of Peach Mash
@@ -856,7 +851,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 10 [Base.Peach] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -869,21 +864,24 @@ module Hydrocraft
     }
     craftRecipe Fill Barrel with Peach Mash
     {
+        Tooltip = Tooltip_HCR_MashFerment,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
         xpAward = Cooking:2,
-        OnCreate = HCR42.recipe_hcpotatopot3,
+
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofpeachmashcooked] flags[ItemCount],
+            item 1 [Hydrocraft.HCWoodenbarrelFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.5 [HCRMashPeach] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 18.5 [Water] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCBarrelpeach,
         }
     }
     craftRecipe Distill Bottle of Peach Schnapps
@@ -894,20 +892,21 @@ module Hydrocraft
         timedAction = Making,
         SkillRequired = Cooking:6,
         xpAward = Cooking:10,
-        OnCreate = HCR42.recipe_hcwoodenbarrel,
+
         inputs
         {
-            item 1 [Hydrocraft.HCBarrelpeach],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [HCRMashPeachReady] mode:primary,
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 20 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
         }
         outputs
         {
-            item 20 Hydrocraft.HCPeachschnapps,
+            item 20 Hydrocraft.HCPeachschnappsFluid,
         }
     }
     craftRecipe Prepare Pot of Pumpkin Mash
@@ -921,7 +920,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 10 [Hydrocraft.HCPumpkinflesh] flags[ItemCount],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -934,21 +933,24 @@ module Hydrocraft
     }
     craftRecipe Fill Barrel with Pumpkin Mash
     {
+        Tooltip = Tooltip_HCR_MashFerment,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
         xpAward = Cooking:2,
-        OnCreate = HCR42.recipe_hcpotatopot3,
+
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofpumpkinmashcooked] flags[ItemCount],
+            item 1 [Hydrocraft.HCWoodenbarrelFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.5 [HCRMashPumpkin] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 18.5 [Water] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCBarrelpumpkin,
         }
     }
     craftRecipe Distill Bottle of Flip
@@ -959,20 +961,21 @@ module Hydrocraft
         timedAction = Making,
         SkillRequired = Cooking:6,
         xpAward = Cooking:10,
-        OnCreate = HCR42.recipe_hcwoodenbarrel,
+
         inputs
         {
-            item 1 [Hydrocraft.HCBarrelpumpkin],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [HCRMashPumpkinReady] mode:primary,
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 20 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
         }
         outputs
         {
-            item 20 Hydrocraft.HCFlip,
+            item 20 Hydrocraft.HCFlipFluid,
         }
     }
     craftRecipe Prepare Pot of Juniper Berry Mash
@@ -986,7 +989,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 20 [Hydrocraft.HCJuniperberry],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -999,21 +1002,24 @@ module Hydrocraft
     }
     craftRecipe Fill Barrel with Juniper Berry Mash
     {
+        Tooltip = Tooltip_HCR_MashFerment,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
         xpAward = Cooking:2,
-        OnCreate = HCR42.recipe_hcpotatopot3,
+
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofjunipermashcooked] flags[ItemCount],
+            item 1 [Hydrocraft.HCWoodenbarrelFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.5 [HCRMashJuniper] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 18.5 [Water] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCBarreljuniper,
         }
     }
     craftRecipe Distill Bottle of Gin
@@ -1024,20 +1030,21 @@ module Hydrocraft
         timedAction = Making,
         SkillRequired = Cooking:6,
         xpAward = Cooking:10,
-        OnCreate = HCR42.recipe_hcwoodenbarrel,
+
         inputs
         {
-            item 1 [Hydrocraft.HCBarreljuniper],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [HCRMashJuniperReady] mode:primary,
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 20 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
         }
         outputs
         {
-            item 20 Hydrocraft.HCGin3,
+            item 20 Hydrocraft.HCGin3Fluid,
         }
     }
     craftRecipe Prepare Pot of Flour Mash
@@ -1051,7 +1058,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 20 [Base.Flour2],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -1064,21 +1071,24 @@ module Hydrocraft
     }
     craftRecipe Fill Barrel with Flour Mash
     {
+        Tooltip = Tooltip_HCR_MashFerment,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
         xpAward = Cooking:2,
-        OnCreate = HCR42.recipe_hcpotatopot3,
+
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofflourmashcooked],
+            item 1 [Hydrocraft.HCWoodenbarrelFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.5 [HCRMashFlour] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 18.5 [Water] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCBarrelflour,
         }
     }
     craftRecipe Distill Bottle of Whiskey
@@ -1089,13 +1099,14 @@ module Hydrocraft
         timedAction = Making,
         SkillRequired = Cooking:6,
         xpAward = Cooking:10,
-        OnCreate = HCR42.recipe_hcwoodenbarrel,
+
         inputs
         {
-            item 1 [Hydrocraft.HCBarrelflour],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [HCRMashFlourReady] mode:primary,
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 20 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
@@ -1116,7 +1127,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
-            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 20 [Base.Cornflour2],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
@@ -1129,21 +1140,24 @@ module Hydrocraft
     }
     craftRecipe Fill Barrel with Corn Mash
     {
+        Tooltip = Tooltip_HCR_MashFerment,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         SkillRequired = Cooking:5,
         xpAward = Cooking:2,
-        OnCreate = HCR42.recipe_hcpotatopot3,
+
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbarrel],
-            item 3 [Hydrocraft.HCPotofcornmashcooked] flags[ItemCount],
+            item 1 [Hydrocraft.HCWoodenbarrelFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.5 [HCRMashCorn] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 18.5 [Water] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCBarrelcorn,
         }
     }
     craftRecipe Distill Bottle of Corn Whiskey
@@ -1154,20 +1168,21 @@ module Hydrocraft
         timedAction = Making,
         SkillRequired = Cooking:6,
         xpAward = Cooking:10,
-        OnCreate = HCR42.recipe_hcwoodenbarrel,
+
         inputs
         {
-            item 1 [Hydrocraft.HCBarrelcorn],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 20 [HCRMashCornReady] mode:primary,
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 20 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 6 [Water],
             item 1 [Hydrocraft.HCDistillery2] mode:keep,
         }
         outputs
         {
-            item 20 Hydrocraft.HCWhiskeycorn,
+            item 20 Hydrocraft.HCWhiskeycornFluid,
         }
     }
 }

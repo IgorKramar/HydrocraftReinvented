@@ -395,6 +395,7 @@ module Hydrocraft
     }
     craftRecipe Empty Beaker
     {
+        OnTest = HCRFluidRecipes.Test_47c3bbb0607b,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -405,11 +406,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Make Beaker of Ammonia
     {
+        OnTest = HCRFluidRecipes.Test_e67747eb8d17,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -418,7 +420,7 @@ module Hydrocraft
         inputs
         {
             item 5 [Hydrocraft.HCWindowcleaner],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
             item 1 [Hydrocraft.HCLab2] mode:keep,
@@ -430,6 +432,7 @@ module Hydrocraft
     }
     craftRecipe Make Beaker of Ammonia (Bottle of Ammonia)
     {
+        OnTest = HCRFluidRecipes.Test_421ff3b4f7e5,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -438,7 +441,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCAmmonia],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
             item 1 [Hydrocraft.HCLab2] mode:keep,
@@ -450,6 +453,7 @@ module Hydrocraft
     }
     craftRecipe Make Beaker of Copper Sulfate Solution
     {
+        OnTest = HCRFluidRecipes.Test_cdfed30e2f38,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -458,7 +462,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCoppersulfatepowder],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
             item 1 [Hydrocraft.HCLab2] mode:keep,
@@ -470,6 +474,7 @@ module Hydrocraft
     }
     craftRecipe Make Beaker of Nickel Sulfate Solution
     {
+        OnTest = HCRFluidRecipes.Test_bcc7f6f186b0,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -478,7 +483,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCNickelsulfatepowder],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
             item 1 [Hydrocraft.HCLab2] mode:keep,
@@ -490,6 +495,7 @@ module Hydrocraft
     }
     craftRecipe Make Beaker of Nitric Acid
     {
+        OnTest = HCRFluidRecipes.Test_8db8d5422d65,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -498,7 +504,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCNitricacid],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
             item 1 [Hydrocraft.HCLab2] mode:keep,
@@ -510,6 +516,7 @@ module Hydrocraft
     }
     craftRecipe Fill Beaker With Muriatic Acid
     {
+        OnTest = HCRFluidRecipes.Test_60b46d63b600,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -517,7 +524,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcgetplasticcan,
         inputs
         {
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCPlasticcanmuriaticacid],
@@ -830,6 +837,7 @@ module Hydrocraft
     }
     craftRecipe Make Beaker of Potassium Permanganate
     {
+        OnTest = HCRFluidRecipes.Test_721080d7f245,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -838,7 +846,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCGlassbottlepotassiumpermanganate],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
             item 1 [Hydrocraft.HCLab2] mode:keep,

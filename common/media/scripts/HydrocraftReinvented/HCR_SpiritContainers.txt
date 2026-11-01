@@ -1,0 +1,435 @@
+module Hydrocraft
+{
+    item HCVodkaFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Vodka,
+        Weight = 0.2,
+        Icon = Whiskey_Water_Full,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCVodka1Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Vodka,
+        Weight = 0.2,
+        Icon = HCVodka1,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCVodka2Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Vodka,
+        Weight = 0.2,
+        Icon = HCVodka2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCGin1Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Gin,
+        Weight = 0.2,
+        Icon = HCGin1,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCGin2Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Gin,
+        Weight = 0.2,
+        Icon = HCGin2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCGin3Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Gin,
+        Weight = 0.2,
+        Icon = HCGin3,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCWhiskey1Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Whiskey,
+        Weight = 0.2,
+        Icon = HCWhiskey1,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCWhiskey2Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Whiskey,
+        Weight = 0.2,
+        Icon = HCWhiskey1,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCWhiskey3Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Whiskey,
+        Weight = 0.2,
+        Icon = HCWhiskey3,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCWhiskey4Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Whiskey,
+        Weight = 0.2,
+        Icon = HCWhiskey4,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCWhiskeycornFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Corn Whiskey,
+        Weight = 0.2,
+        Icon = HCWhiskeycorn,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCTequilaFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Tequila,
+        Weight = 0.2,
+        Icon = HCTequila,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCMezcalFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Mezcal,
+        Weight = 0.2,
+        Icon = HCMezcalemptyworm,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCApplejackFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Applejack,
+        Weight = 0.2,
+        Icon = HCApplejack,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCPeachschnappsFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Peach Schnapps,
+        Weight = 0.2,
+        Icon = HCPeachschnapps,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCFlipFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Flip,
+        Weight = 0.2,
+        Icon = HCFlip,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBourbon1Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Bourbon,
+        Weight = 0.2,
+        Icon = HCBourbon1,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBourbon2Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Bourbon,
+        Weight = 0.2,
+        Icon = HCBourbon2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCScotch1Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Scotch,
+        Weight = 0.2,
+        Icon = HCScotch1,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCRum1Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Rum,
+        Weight = 0.2,
+        Icon = HCRum1,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCAbsinthFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Absinth,
+        Weight = 0.2,
+        Icon = HCAbsinth,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCHerballiqueurFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Herbal Liqueur,
+        Weight = 0.2,
+        Icon = HCHerballiqueur,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCMead2Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Mead,
+        Weight = 0.2,
+        Icon = HCMead2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCAguaardienteFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Agua Ardiente Bottle,
+        Weight = 0.2,
+        Icon = HCAguaardiente,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCGlassshortFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Empty Short Glass,
+        Weight = 0.2,
+        Icon = HCGlassshortempty,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.1,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCGlasstallFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Empty Tall Glass,
+        Weight = 0.3,
+        Icon = HCGlasstallempty,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.1,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCCocktailglassFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Empty Cocktail Glass,
+        Weight = 0.2,
+        Icon = HCCocktailglassempty,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.1,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+}

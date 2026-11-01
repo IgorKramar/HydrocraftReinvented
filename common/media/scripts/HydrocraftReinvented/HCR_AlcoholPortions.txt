@@ -1,0 +1,110 @@
+module Hydrocraft
+{
+    item HCRCookingSpirit
+    {
+        ItemType = base:food,
+        DisplayName = Spirit for Cooking,
+        DisplayCategory = FoodB,
+        Weight = 0.4,
+        Icon = GlassTumbler,
+        StaticModel = GlassTumbler_Ground,
+        WorldStaticModel = GlassTumbler_Ground,
+        ReplaceOnUse = Base.GlassTumbler,
+        HungerChange = -4,
+        ThirstChange = -4,
+        Alcoholic = true,
+        AlcoholPower = 2,
+        CantBeFrozen = true,
+        FoodType = Liquor,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromCup,
+        EvolvedRecipe = HotDrink:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+    }
+    item HCRCookingMead
+    {
+        ItemType = base:food,
+        DisplayName = Mead for Cooking,
+        DisplayCategory = FoodB,
+        Weight = 0.6,
+        Icon = HCMead2,
+        ReplaceOnUse = Hydrocraft.HCAlestienFluid,
+        HungerChange = -8,
+        ThirstChange = -8,
+        Alcoholic = true,
+        AlcoholPower = 2,
+        CantBeFrozen = true,
+        FoodType = Beer,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromCup,
+        EvolvedRecipe = Soup:8;Stew:8,
+    }
+    craftRecipe Prepare Spirit for Cooking
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        Tooltip = Tooltip_HCR_CookingSpirit,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [HCRGin;HCRWhiskey;HCRVodka;HCRWhiskeyCorn;HCRRum;HCRTequila;HCRMezcal;HCRApplejack;HCRPeachSchnapps;HCRFlip;HCRSake] mode:primary,
+            item 1 [Base.GlassTumbler] flags[ItemCount;ItemIsFluid;IsEmpty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRCookingSpirit,
+        }
+    }
+    item HCRCookingBeer
+    {
+        ItemType = base:food,
+        DisplayName = Beer for Cooking,
+        DisplayCategory = FoodB,
+        Weight = 0.5,
+        Icon = HCMead2,
+        ReplaceOnUse = Hydrocraft.HCAlestienFluid,
+        HungerChange = -5,
+        ThirstChange = -20,
+        Alcoholic = true,
+        AlcoholPower = 2,
+        CantBeFrozen = true,
+        FoodType = Beer,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromCup,
+        EvolvedRecipe = Soup:8;Stew:8,
+    }
+    craftRecipe Prepare Beer for Cooking
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        Tooltip = Tooltip_HCR_CookingBeer,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.3 [HCRBeer] mode:primary,
+            item 1 [Hydrocraft.HCAlestienFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRCookingBeer,
+        }
+    }
+    craftRecipe Prepare Mead for Cooking
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        Tooltip = Tooltip_HCR_CookingMead,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.4 [HCRMead] mode:primary,
+            item 1 [Hydrocraft.HCAlestienFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRCookingMead,
+        }
+    }
+}

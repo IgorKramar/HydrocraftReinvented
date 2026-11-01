@@ -1,0 +1,243 @@
+{
+  "families": {
+    "Hydrocraft.HCPop4": {
+      "target": "Hydrocraft.HCPop4Fluid",
+      "fluid": "HCRSodaPop",
+      "litres": 0.3,
+      "enabled": true,
+      "factoryDrink": true,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCPop5": {
+      "target": "Hydrocraft.HCPop5Fluid",
+      "fluid": "HCRSodaPop",
+      "litres": 0.3,
+      "enabled": true,
+      "factoryDrink": true,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCPop6": {
+      "target": "Hydrocraft.HCPop6Fluid",
+      "fluid": "HCRSodaPop",
+      "litres": 0.3,
+      "enabled": true,
+      "factoryDrink": true,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCSodacherry": {
+      "target": "Hydrocraft.HCSodacherryFluid",
+      "fluid": "HCRSodaCherry",
+      "litres": 2,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCSodacola": {
+      "target": "Hydrocraft.HCSodacolaFluid",
+      "fluid": "HCRSodaCola",
+      "litres": 2,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCSodacream": {
+      "target": "Hydrocraft.HCSodacreamFluid",
+      "fluid": "HCRSodaCream",
+      "litres": 2,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCSodadrpepper": {
+      "target": "Hydrocraft.HCSodadrpepperFluid",
+      "fluid": "HCRSodaDrPepper",
+      "litres": 2,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCSodagingerale": {
+      "target": "Hydrocraft.HCSodagingeraleFluid",
+      "fluid": "HCRSodaGingerAle",
+      "litres": 2,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCSodagrape": {
+      "target": "Hydrocraft.HCSodagrapeFluid",
+      "fluid": "HCRSodaGrape",
+      "litres": 2,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCSodagrapefruit": {
+      "target": "Hydrocraft.HCSodagrapefruitFluid",
+      "fluid": "HCRSodaGrapefruit",
+      "litres": 2,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCSodalemonlime": {
+      "target": "Hydrocraft.HCSodalemonlimeFluid",
+      "fluid": "HCRSodaLemonLime",
+      "litres": 2,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCSodapineapple": {
+      "target": "Hydrocraft.HCSodapineappleFluid",
+      "fluid": "HCRSodaPineapple",
+      "litres": 2,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCSodarootbeer": {
+      "target": "Hydrocraft.HCSodarootbeerFluid",
+      "fluid": "HCRSodaRootBeer",
+      "litres": 2,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCEnergydrink": {
+      "target": "Hydrocraft.HCEnergydrinkFluid",
+      "fluid": "HCREnergy",
+      "litres": 0.3,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCEnergydrink2": {
+      "target": "Hydrocraft.HCEnergydrink2Fluid",
+      "fluid": "HCREnergy",
+      "litres": 0.3,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCFitnessdrink": {
+      "target": "Hydrocraft.HCCanteenFluid",
+      "fluid": "HCRFitness",
+      "litres": 1.4,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "preserve current Food properties; non-alcoholic"
+    },
+    "Hydrocraft.HCApplecider": {
+      "target": "Hydrocraft.HCGlassjugFluid",
+      "fluid": "HCRAppleCider",
+      "litres": 1.4,
+      "enabled": true,
+      "factoryDrink": false,
+      "policy": "pinned917 Glassworking jug: 14 water uses x 0.1 L; non-alcoholic"
+    }
+  },
+  "vessels": {
+    "Hydrocraft.HCPop4Fluid": "Hydrocraft.HCPop4",
+    "Hydrocraft.HCPop5Fluid": "Hydrocraft.HCPop5",
+    "Hydrocraft.HCPop6Fluid": "Hydrocraft.HCPop6"
+  },
+  "packing": {
+    "Pack Pop (Pack of Pop 3)": "Hydrocraft.HCPop6Fluid"
+  },
+  "unpacking": {
+    "Unpack Pop (Pop)": {
+      "target": "Hydrocraft.HCPop6Fluid",
+      "source": "Hydrocraft.HCPop6",
+      "count": 6
+    }
+  },
+  "consumers": {
+    "Research Fitness Training": {
+      "inputs": {
+        "7": {
+          "fluids": [
+            "HCRFitness"
+          ]
+        }
+      }
+    },
+    "Whiskey and Coke": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRSodaCola"
+          ]
+        }
+      }
+    },
+    "Mix Fitness Drink": {
+      "inputs": {}
+    },
+    "Exercise hard on Treadmill": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRFitness"
+          ]
+        }
+      }
+    },
+    "Exercise hard with Weights": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRFitness"
+          ]
+        }
+      }
+    },
+    "Exercise hard with Punching Bag": {
+      "inputs": {
+        "2": {
+          "fluids": [
+            "HCRFitness"
+          ]
+        }
+      }
+    }
+  },
+  "emptyRecipes": [
+    "Make Bottle of Juice",
+    "Make Bottle of Juice (Apple Juice)",
+    "Make Bottle of Juice (Blackberry Juice)",
+    "Make Bottle of Juice (Blueberry Juice)",
+    "Make Bottle of Juice (Carrot Juice)",
+    "Make Bottle of Juice (Cherry Juice)",
+    "Make Bottle of Juice (Grape Juice)",
+    "Make Bottle of Juice (Lemon Juice)",
+    "Make Bottle of Juice (Lime Juice)",
+    "Make Bottle of Juice (Orange Juice)",
+    "Make Bottle of Juice (Pineapple Juice)",
+    "Make Bottle of Juice (Strawberry Juice)",
+    "Make Bottle of Juice (Tomato Juice)",
+    "Make Bottle of Juice (Watermelon Juice 2)",
+    "Make Bottle of Juice (Watermelon Juice 3)",
+    "Make Bottle of Juice (Watermelon Juice)",
+    "Make Bottle of Juice (Wild Berry Juice 2)",
+    "Make Bottle of Juice (Wild Berry Juice 3)",
+    "Make Bottle of Juice (Wild Berry Juice 4)",
+    "Make Bottle of Juice (Wild Berry Juice 5)",
+    "Make Bottle of Juice (Wild Berry Juice)",
+    "Make Chlorgas Grenade"
+  ],
+  "emptyAliases": {
+    "Base.PopBottle": [
+      "Hydrocraft.HCSodacherryFluid",
+      "Hydrocraft.HCSodacolaFluid",
+      "Hydrocraft.HCSodacreamFluid",
+      "Hydrocraft.HCSodadrpepperFluid",
+      "Hydrocraft.HCSodagingeraleFluid",
+      "Hydrocraft.HCSodagrapeFluid",
+      "Hydrocraft.HCSodagrapefruitFluid",
+      "Hydrocraft.HCSodalemonlimeFluid",
+      "Hydrocraft.HCSodapineappleFluid",
+      "Hydrocraft.HCSodarootbeerFluid"
+    ]
+  }
+}

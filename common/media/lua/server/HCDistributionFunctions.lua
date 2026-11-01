@@ -4,6 +4,7 @@
 -----------------------------------------------------------
 require "Items/Distributions";
 require "Items/ProceduralDistributions";
+require "HCR_SandboxLoot"
 
  function dump(o)
     if type(o) == 'table' then
@@ -172,23 +173,15 @@ end
 -- Method for new distribution. Appends distribition to location
 -- @todo for items only, extension for trash etc. 
 -------------------------------------------------------------------
-function insertItemListsInProcDistribution(location, itemDistList, scale )
+function insertItemListsInProcDistribution(location, itemDistList, scale, option )
         local debugfactor = 1;
         local loc = ProceduralDistributions["list"][location]
         if loc == nil or loc.items == nil then
             print("[HydrocraftReinvented] unknown distribution location: " .. tostring(location) .. " - skipped")
             return
         end
-        local table = loc.items
-        local n = #table
         for idx, itemDist in ipairs(itemDistList) do
-                for i=1,#itemDist do
-                        n=n+1
-                        local v = itemDist[i]
-                        -- scale: множитель весов, чтобы HC-лут не вытеснял ванильный
-                        if scale and type(v) == "number" then v = v * scale end
-                        table[n] = v
-                end
+                HCRSandboxLoot.append(loc.items,itemDist,scale,option)
         end
 end
 
@@ -209,9 +202,7 @@ function insertItemListsInDistribution(location, container, itemDistList )
 			return
 		end
         for idx, itemDist in ipairs(itemDistList) do
-                for i=1,#itemDist do 
-                        table.insert(dist, itemDist[i] ) 
-                end
+                HCRSandboxLoot.append(dist,itemDist)
         end
 end
 
@@ -221,9 +212,7 @@ function insertItemListsInDistributionSafely(location, container, itemDistList )
 	if Distributions and Distributions[1] and Distributions[1][location] and Distributions[1][location][container] and Distributions[1][location][container]["items"] then
 		local dist = Distributions[1][location][container]["items"]
 		for idx, itemDist in ipairs(itemDistList) do
-			for i=1,#itemDist do 
-				table.insert(dist, itemDist[i] )
-			end
+			HCRSandboxLoot.append(dist,itemDist)
 		end
 	else
 		print("Error, cannot find: Distributions[1][" .. location .. "][" .. container .. "] - insertItemListsInDistributionSafely failed.")
@@ -263,13 +252,9 @@ end
 -------------------------------------------------------------------
 function insertJunkListsInProcDistribution(location, itemDistList )
 	if ProceduralDistributions and ProceduralDistributions["list"] and ProceduralDistributions["list"][location] and ProceduralDistributions["list"][location].junk and ProceduralDistributions["list"][location].junk.items then
-		local table = ProceduralDistributions["list"][location].junk.items
-		local n = #table
+		local target = ProceduralDistributions["list"][location].junk.items
 		for idx, itemDist in ipairs(itemDistList) do
-			for i=1,#itemDist do 
-				n=n+1
-				table[n] = itemDist[i]
-			end
+			HCRSandboxLoot.append(target,itemDist)
 		end		
 	else
 		print("Error: cannot find: ProceduralDistributions[list][" .. location .. "][junk[items] - insertJunkListsInProcDistribution failed.")

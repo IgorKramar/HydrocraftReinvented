@@ -614,7 +614,7 @@ module Hydrocraft
         ItemType                = base:food,
         DisplayName         = Lemongrass Extract,
         Icon                = HCSmellingsaltscork,
-        ReduceFoodSickness  = 50,
+        FoodSicknessChange  = -50,
         CustomContextMenu   = Drink,
         HungerChange        = 0.1,
         Carbohydrates       = 0.1,
@@ -911,6 +911,7 @@ module Hydrocraft
     }
     craftRecipe Cook Empty Silk Cocoon
     {
+        OnTest = HCRFluidRecipes.Test_879a9305c0fb,
         time = 5000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Weaving,
@@ -924,7 +925,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -933,6 +934,7 @@ module Hydrocraft
     }
     craftRecipe Soak Fresh Jute Stems
     {
+        OnTest = HCRFluidRecipes.Test_6f38063f1c98,
         time = 500,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -942,7 +944,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCJutestems],
-            item 1 [Hydrocraft.HCWoodenbucketwater],
+            item 1 [Hydrocraft.HCWoodenbucketFluid] mode:keep,
+                -fluid 0.1 [Water],
         }
         outputs
         {
@@ -1025,6 +1028,7 @@ module Hydrocraft
     }
     craftRecipe Make Herbal Tea (Camomile Tea)
     {
+        OnTest = HCRFluidRecipes.Test_1769f326ec3a,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1033,7 +1037,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCCamomiledry],
@@ -1082,6 +1086,7 @@ module Hydrocraft
     }
     craftRecipe Make Herbal Tea (Nettle Tea 2)
     {
+        OnTest = HCRFluidRecipes.Test_c2a1dc4ee9b8,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1090,7 +1095,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCNettlesdry],
@@ -1139,6 +1144,7 @@ module Hydrocraft
     }
     craftRecipe Make Herbal Tea (Thistle Tea 2)
     {
+        OnTest = HCRFluidRecipes.Test_48a4788e0ccd,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1147,7 +1153,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCThistledry],
@@ -1196,6 +1202,7 @@ module Hydrocraft
     }
     craftRecipe Make Herbal Tea (Skullcap Tea 2)
     {
+        OnTest = HCRFluidRecipes.Test_78d5cd2023de,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1204,7 +1211,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCSkullcapdry],
@@ -1253,6 +1260,7 @@ module Hydrocraft
     }
     craftRecipe Make Herbal Tea (Daisy Tea 2)
     {
+        OnTest = HCRFluidRecipes.Test_01c3cbb6c8ab,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1261,7 +1269,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCDaisydry],
@@ -1310,6 +1318,7 @@ module Hydrocraft
     }
     craftRecipe Make Herbal Tea (Anemome Tea 2)
     {
+        OnTest = HCRFluidRecipes.Test_4f50f592d107,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1318,7 +1327,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCAnemomedry],
@@ -1367,6 +1376,7 @@ module Hydrocraft
     }
     craftRecipe Make Herbal Tea (Camellia Tea 2)
     {
+        OnTest = HCRFluidRecipes.Test_a3b17a4fa98d,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1375,7 +1385,7 @@ module Hydrocraft
         xpAward = Doctor:6,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCCamelliadry],
@@ -1635,6 +1645,7 @@ module Hydrocraft
     }
     craftRecipe Make Glue
     {
+        OnTest = HCRFluidRecipes.Test_1175300f0f65,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -1649,7 +1660,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCGlueempty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1658,6 +1669,7 @@ module Hydrocraft
     }
     craftRecipe Make Wood Glue
     {
+        OnTest = HCRFluidRecipes.Test_c8d874b691b7,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -1673,7 +1685,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1682,6 +1694,7 @@ module Hydrocraft
     }
     craftRecipe Make Super Glue
     {
+        OnTest = HCRFluidRecipes.Test_44110c07c73f,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -1697,7 +1710,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {

@@ -477,6 +477,11 @@ module Hydrocraft
     }
     craftRecipe Mix Fitness Drink
     {
+
+        Tooltip = Tooltip_HCR_FitnessMix,
+
+        OnCreate = HCRSoftDrinks.createFitness,
+        OnTest = HCRFluidRecipes.Test_6afc57efaf63,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -485,7 +490,7 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Hydrocraft.HCCanteen] mode:destroy,
+            item 1 [Hydrocraft.HCCanteenFluid] mode:keep flags[ItemCount;IsEmpty],
             item 2 [Base.Banana],
             item 1 [Hydrocraft.HCBunchofberries],
             item 5 [Hydrocraft.HCSpirulinafresh],
@@ -493,11 +498,11 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCFitnessdrink,
         }
     }
     craftRecipe Brew Black Coffee
     {
+        Tooltip = Tooltip_HCR_CoffeeBrew,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -505,7 +510,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymugfull] mode:destroy,
+            item 1 [Hydrocraft.HCClaymugFluid] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water] mode:primary,
             item 6 [Base.Coffee2],
         }
         outputs
@@ -515,6 +522,7 @@ module Hydrocraft
     }
     craftRecipe Brew Black Coffee (Cup of Black Coffee)
     {
+        Tooltip = Tooltip_HCR_CoffeeBrew,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -522,7 +530,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.MugWhite] mode:destroy flags[ItemCount],
+            item 1 [Base.MugWhite;Base.Mugl] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Water] mode:primary,
             item 6 [Base.Coffee2],
         }
         outputs
@@ -532,6 +542,7 @@ module Hydrocraft
     }
     craftRecipe Prepare Black Coffee Kettle
     {
+        Tooltip = Tooltip_HCR_CoffeeBrew,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -539,9 +550,11 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Kettle] mode:destroy flags[ItemCount],
-            item 1 [Hydrocraft.HCCoffeefilterdry],
+            item 1 [Base.Kettle] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.5 [Water] mode:primary,
             item 10 [Base.Coffee2;Hydrocraft.HCCoffeelarge],
+            item 1 [Hydrocraft.HCCoffeefilterdry],
         }
         outputs
         {
@@ -550,6 +563,8 @@ module Hydrocraft
     }
     craftRecipe Pour Black Coffee into Mug
     {
+        Tooltip = Tooltip_HCR_CoffeePour,
+        OnCreate = HCRBrewedDrinks.create,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -557,16 +572,18 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Mugl] flags[ItemCount],
-            item 5 [Hydrocraft.HCKettlecoffee],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Coffee;HCRCoffee] mode:primary,
+            item 1 [Base.Mugl] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeblack,
         }
     }
     craftRecipe Pour Black Coffee into Mug (Cup of Black Coffee)
     {
+        Tooltip = Tooltip_HCR_CoffeePour,
+        OnCreate = HCRBrewedDrinks.create,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -574,16 +591,18 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
-            item 5 [Hydrocraft.HCKettlecoffee],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Coffee;HCRCoffee] mode:primary,
+            item 1 [Hydrocraft.HCClaymugFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeblack2,
         }
     }
     craftRecipe Pour Black Coffee into Thermos
     {
+        Tooltip = Tooltip_HCR_CoffeePour,
+        OnCreate = HCRBrewedDrinks.create,
         time = 25,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -591,16 +610,18 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCThermos],
-            item 10 [Hydrocraft.HCKettlecoffee],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.4 [Coffee;HCRCoffee] mode:primary,
+            item 1 [Hydrocraft.HCThermosFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCThermoscoffee,
         }
     }
     craftRecipe Add Sugar From Bag
     {
+        Tooltip = Tooltip_HCR_CoffeeSugar,
+        OnCreate = HCRBrewedDrinks.create,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -608,16 +629,18 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCoffeeblack],
-            item 1 [Base.Sugar],
+            item 1 [Base.Mugl] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Coffee;HCRCoffee] mode:primary,
+            item 1 [Base.Sugar] flags[AllowRottenItem],
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeblacksugar,
         }
     }
     craftRecipe Add Sugar From Bag (Cup of Coffee with Sugar)
     {
+        Tooltip = Tooltip_HCR_CoffeeSugar,
+        OnCreate = HCRBrewedDrinks.create,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -625,16 +648,18 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCoffeeblack2],
-            item 1 [Base.Sugar],
+            item 1 [Hydrocraft.HCClaymugFluid] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Coffee;HCRCoffee] mode:primary,
+            item 1 [Base.Sugar] flags[AllowRottenItem],
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeblack2sugar,
         }
     }
     craftRecipe Add Sugar From Bag (Thermos of Coffee with Sugar)
     {
+        Tooltip = Tooltip_HCR_CoffeeSugar,
+        OnCreate = HCRBrewedDrinks.create,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -642,16 +667,18 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCThermoscoffee],
-            item 1 [Base.Sugar],
+            item 1 [Hydrocraft.HCThermosFluid] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.4 [Coffee;HCRCoffee] mode:primary,
+            item 1 [Base.Sugar] flags[AllowRottenItem],
         }
         outputs
         {
-            item 1 Hydrocraft.HCThermoscoffeesugar,
         }
     }
     craftRecipe Add Sugar Cubes
     {
+        Tooltip = Tooltip_HCR_CoffeeSugar,
+        OnCreate = HCRBrewedDrinks.create,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -659,16 +686,18 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCoffeeblack],
-            item 1 [Hydrocraft.HCSugarcubes],
+            item 1 [Base.Mugl] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Coffee;HCRCoffee] mode:primary,
+            item 1 [Hydrocraft.HCSugarcubes] flags[AllowRottenItem],
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeblacksugar,
         }
     }
     craftRecipe Add Sugar Cubes (Cup of Coffee with Sugar)
     {
+        Tooltip = Tooltip_HCR_CoffeeSugar,
+        OnCreate = HCRBrewedDrinks.create,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -676,16 +705,18 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCoffeeblack2],
-            item 1 [Hydrocraft.HCSugarcubes],
+            item 1 [Hydrocraft.HCClaymugFluid] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [Coffee;HCRCoffee] mode:primary,
+            item 1 [Hydrocraft.HCSugarcubes] flags[AllowRottenItem],
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeblack2sugar,
         }
     }
     craftRecipe Add Sugar Cubes (Thermos of Coffee with Sugar)
     {
+        Tooltip = Tooltip_HCR_CoffeeSugar,
+        OnCreate = HCRBrewedDrinks.create,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -693,16 +724,18 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCThermoscoffee],
-            item 2 [Hydrocraft.HCSugarcubes],
+            item 1 [Hydrocraft.HCThermosFluid] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.4 [Coffee;HCRCoffee] mode:primary,
+            item 2 [Hydrocraft.HCSugarcubes] flags[AllowRottenItem],
         }
         outputs
         {
-            item 1 Hydrocraft.HCThermoscoffeesugar,
         }
     }
     craftRecipe Add Milk From Carton
     {
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_MilkCoffee,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -710,17 +743,20 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCoffeeblacksugar],
-            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.1 [CowMilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Coffee;HCRCoffee;HCRCoffeeSweet] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
+            item 1 [Base.Mugl] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeblacksugarmilk,
         }
     }
     craftRecipe Add Milk From Carton (Cup of Coffee with Sugar and Milk)
     {
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_MilkCoffee,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -728,17 +764,20 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCoffeeblack2sugar],
-            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.1 [CowMilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Coffee;HCRCoffee;HCRCoffeeSweet] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
+            item 1 [Hydrocraft.HCClaymugFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeblack2sugarmilk,
         }
     }
     craftRecipe Add Milk From Carton (Thermos of Coffee with Sugar and Milk)
     {
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_MilkCoffee,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -746,17 +785,20 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCThermoscoffeesugar],
-            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.2 [CowMilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.7 [Coffee;HCRCoffee;HCRCoffeeSweet] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.7 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
+            item 1 [Hydrocraft.HCThermosFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCThermoscoffeesugarmilk,
         }
     }
     craftRecipe Add Milk From Jug
     {
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_MilkCoffee,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -764,16 +806,20 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCoffeeblacksugar],
-            item 1 [Hydrocraft.HCMilkjug],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Coffee;HCRCoffee;HCRCoffeeSweet] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
+            item 1 [Base.Mugl] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeblacksugarmilk,
         }
     }
     craftRecipe Add Milk From Jug (Cup of Coffee with Sugar and Milk)
     {
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_MilkCoffee,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -781,16 +827,20 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCoffeeblack2sugar],
-            item 1 [Hydrocraft.HCMilkjug],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Coffee;HCRCoffee;HCRCoffeeSweet] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
+            item 1 [Hydrocraft.HCClaymugFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeblack2sugarmilk,
         }
     }
     craftRecipe Add Milk From Jug (Thermos of Coffee with Sugar and Milk)
     {
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_MilkCoffee,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -798,16 +848,20 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCThermoscoffeesugar],
-            item 2 [Hydrocraft.HCMilkjug],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.7 [Coffee;HCRCoffee;HCRCoffeeSweet] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.7 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
+            item 1 [Hydrocraft.HCThermosFluid] mode:keep flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCThermoscoffeesugarmilk,
         }
     }
     craftRecipe Make Cup of Hot Chocolate
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_ff09534f0ba2,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -815,27 +869,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] flags[ItemCount],
-            item 1 [Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],
-            item 1 [Hydrocraft.HCCoco],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCCococup,
-        }
-    }
-    craftRecipe Make Cup of Hot Chocolate (Carton Milk)
-    {
-        time = 70,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:3,
-        inputs
-        {
-            item 1 [Base.Mugl] flags[ItemCount],
-            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 1.0 [CowMilk],
+            item 1 [Base.Mugl] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkSoy] mode:primary,
             item 1 [Hydrocraft.HCCoco],
         }
         outputs
@@ -845,6 +881,9 @@ module Hydrocraft
     }
     craftRecipe Make Cup of Hot Chocolate (Cup of Hot Chocolate)
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_140cd02fc1fc,
+        OnTest = HCRFluidRecipes.Test_cc2512a1516f,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -852,8 +891,9 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
-            item 1 [Hydrocraft.HCUHTmilk;Hydrocraft.HCSoymilk],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.2 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkSoy] mode:primary,
             item 1 [Hydrocraft.HCCoco],
         }
         outputs
@@ -861,23 +901,5 @@ module Hydrocraft
             item 1 Hydrocraft.HCCococup2,
         }
     }
-    craftRecipe Make Cup of Hot Chocolate (Cup of Hot Chocolate) (Carton Milk)
-    {
-        time = 70,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        xpAward = Cooking:3,
-        inputs
-        {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
-            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 1.0 [CowMilk],
-            item 1 [Hydrocraft.HCCoco],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCCococup2,
-        }
-    }
+
 }

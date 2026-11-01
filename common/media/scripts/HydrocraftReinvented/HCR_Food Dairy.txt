@@ -654,13 +654,16 @@ module Hydrocraft
     }
     craftRecipe Dilute Evaporated Milk
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_199e1d451110,
+        OnCreate = HCRMilkChains.Create_199e1d451110,
         time = 25,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCEvaporatedmilkopen],
+            item 1 [Hydrocraft.HCEvaporatedmilkopen] flags[ItemCount;AllowRottenItem],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.7 [Water],
             item 1 [Hydrocraft.HCMilkempty],
@@ -668,17 +671,22 @@ module Hydrocraft
         outputs
         {
             item 1 Base.Milk,
+            item 1 Hydrocraft.HCEvaporatedmilkopenempty,
         }
     }
     craftRecipe Pour into Carton
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_f845b9c2e8ad,
+        OnCreate = HCRMilkChains.Create_f845b9c2e8ad,
         time = 25,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 10 [Hydrocraft.HCMilkjug],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
             item 1 [Hydrocraft.HCMilkempty],
         }
         outputs
@@ -688,15 +696,18 @@ module Hydrocraft
     }
     craftRecipe Make Butter
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_16339c2ecf90,
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
         timedAction = Making,
         xpAward = Cooking:10,
-        OnCreate = HCR42.recipe_hcwoodenbucket,
+
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbucketmilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
             item 1 [Hydrocraft.HCChurn] mode:keep,
         }
         outputs
@@ -706,15 +717,19 @@ module Hydrocraft
     }
     craftRecipe Bottle Milk
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_42504866e3ef,
+        OnCreate = HCRMilkChains.Create_42504866e3ef,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Ranching,
         timedAction = Making,
         xpAward = Cooking:2,
-        OnCreate = HCR42.recipe_hcwoodenbucket,
+
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbucketmilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
             item 4 [Hydrocraft.HCMilkempty],
         }
         outputs
@@ -739,6 +754,10 @@ module Hydrocraft
     }
     craftRecipe Heat Milk
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_f26d05061096,
+        OnCreate = HCRMilkChains.Create_f26d05061096,
+        OnTest = HCRFluidRecipes.Test_f26d05061096,
         time = 100,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -746,18 +765,21 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbucketmilk],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCWoodenbucketFluid] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucketheatedmilk,
         }
     }
     craftRecipe Ferment Milk
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_bb9d315856b3,
+        OnCreate = HCRMilkChains.Create_bb9d315856b3,
         time = 2000,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -767,16 +789,18 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbucketheatedmilk],
+            item 1 [Hydrocraft.HCWoodenbucketFluid] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 4 [HCRMilkHeated] mode:primary,
             item 1 [Hydrocraft.HCChilipepperstem],
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucketfermentedmilk,
         }
     }
     craftRecipe Jar Homemade Yogurt
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_876e4d1fa119,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -784,10 +808,11 @@ module Hydrocraft
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
         xpAward = Cooking:2,
-        OnCreate = HCR42.recipe_hcwoodenbucket,
+
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbucketfermentedmilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 4 [HCRMilkFermented] mode:primary,
             item 4 [Hydrocraft.HCJar],
         }
         outputs
@@ -1244,7 +1269,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Base.Salt],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.9 [Water],

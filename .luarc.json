@@ -18,6 +18,7 @@
     "globals": [
       "BodyPartType",
       "CharacterStat",
+      "FluidCategory",
       "Events",
       "InventoryItemFactory",
       "IsoGenerator",
@@ -50,7 +51,10 @@
       "getNumActivePlayers",
       "sendRemoveItemFromContainer",
       "sendAddItemToContainer",
-      "sendReplaceItemInContainer"
+      "sendItemStats",
+      "sendReplaceItemInContainer",
+      "getTimestampMs",
+      "getVehicleById"
     ]
   }
 }

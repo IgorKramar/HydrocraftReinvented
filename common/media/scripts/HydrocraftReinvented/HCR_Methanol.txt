@@ -1,0 +1,25 @@
+module Hydrocraft
+{
+    craftRecipe Make Methanol
+    {
+        time = 100,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Chemistry,
+        timedAction = Making,
+        SkillRequired = Cooking:7,
+        xpAward = Cooking:4,
+        Tooltip = Tooltip_HCR_MethanolSpirits,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [HCRVodka;HCRWhiskey;HCRRum;HCRGin;HCRSake] mode:primary,
+            item 1 [Base.Charcoal],
+            item 1 tags[base:startfire],
+            item 1 [Hydrocraft.HCDistillery;Hydrocraft.HCDistillery2] mode:keep,
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCMethanol,
+        }
+    }
+}

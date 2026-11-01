@@ -1581,6 +1581,7 @@ module Hydrocraft
     }
     craftRecipe Make Vegetable Oil
     {
+        OnTest = HCRFluidRecipes.Test_14bf0ec7f5ab,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
@@ -1590,7 +1591,7 @@ module Hydrocraft
         inputs
         {
             item 50 [Base.Peanuts],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCOilpress2] mode:keep,
         }
         outputs
@@ -1600,6 +1601,7 @@ module Hydrocraft
     }
     craftRecipe Make Vegetable Oil (Variant)
     {
+        OnTest = HCRFluidRecipes.Test_884b63ed06af,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
@@ -1609,7 +1611,7 @@ module Hydrocraft
         inputs
         {
             item 50 [Base.SunflowerSeeds],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCOilpress2] mode:keep,
         }
         outputs
@@ -1619,6 +1621,7 @@ module Hydrocraft
     }
     craftRecipe Make Vegetable Oil (Pumpkin Seeds Packet)
     {
+        OnTest = HCRFluidRecipes.Test_7eb2fa2ad676,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
@@ -1628,7 +1631,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPumpkinseedspacket],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCOilpress2] mode:keep,
         }
         outputs
@@ -1638,6 +1641,7 @@ module Hydrocraft
     }
     craftRecipe Make Vegetable Oil (Cotton Seeds Packet)
     {
+        OnTest = HCRFluidRecipes.Test_c77fc92ce066,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
@@ -1647,7 +1651,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCCottonseedspacket],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCOilpress2] mode:keep,
         }
         outputs
@@ -1657,6 +1661,7 @@ module Hydrocraft
     }
     craftRecipe Make Vegetable Oil (Corn Seeds Packet)
     {
+        OnTest = HCRFluidRecipes.Test_20361b80067c,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
@@ -1666,7 +1671,7 @@ module Hydrocraft
         inputs
         {
             item 10 [Hydrocraft.HCCornseedspacket],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCOilpress2] mode:keep,
         }
         outputs
@@ -1676,6 +1681,7 @@ module Hydrocraft
     }
     craftRecipe Make Vegetable Oil (Flaxseed package)
     {
+        OnTest = HCRFluidRecipes.Test_d1cb4edb7708,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
@@ -1685,7 +1691,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCFlaxseedseedpacket],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCOilpress2] mode:keep,
         }
         outputs
@@ -1695,6 +1701,7 @@ module Hydrocraft
     }
     craftRecipe Make Vegetable Oil (Red Corn Seeds Packet)
     {
+        OnTest = HCRFluidRecipes.Test_3c58727436c3,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
@@ -1704,7 +1711,7 @@ module Hydrocraft
         inputs
         {
             item 10 [Hydrocraft.HCCornredseedspacket],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCOilpress2] mode:keep,
         }
         outputs
@@ -1714,6 +1721,7 @@ module Hydrocraft
     }
     craftRecipe Make Vegetable Oil (Blue Corn Seeds Packet)
     {
+        OnTest = HCRFluidRecipes.Test_1ecb8a6bac91,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
@@ -1723,7 +1731,7 @@ module Hydrocraft
         inputs
         {
             item 10 [Hydrocraft.HCCornblueseedspacket],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCOilpress2] mode:keep,
         }
         outputs
@@ -1770,6 +1778,7 @@ module Hydrocraft
     }
     craftRecipe Pour Vegetable Oil into Bucket
     {
+        OnTest = HCRFluidRecipes.Test_de3554c565bd,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1778,7 +1787,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPotvegoil],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1823,6 +1832,7 @@ module Hydrocraft
     }
     craftRecipe Make Fish Oil
     {
+        OnTest = HCRFluidRecipes.Test_3e3a6aaa5720,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
@@ -1832,7 +1842,7 @@ module Hydrocraft
         inputs
         {
             item 10 [Base.FishFillet] flags[ItemCount],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCOilpress;Hydrocraft.HCOilpress2] mode:keep,
         }
         outputs

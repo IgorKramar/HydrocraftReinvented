@@ -658,6 +658,7 @@ module Hydrocraft
     }
     craftRecipe Upgrade Mine
     {
+        OnTest = HCRFluidRecipes.Test_3a6b3beb646b,
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Masonry,
@@ -665,7 +666,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 2 [Hydrocraft.HCRopethick],
             item 1 [Hydrocraft.HCPully;Hydrocraft.HCPullyiron;Hydrocraft.HCPullywood],
             item 1 [Hydrocraft.HCMinehole;Hydrocraft.HCMineholeB],

@@ -37,6 +37,7 @@ function makeItem(kind, clothing)
     function item:isCustomName() return self.custom end
     function item:setCustomName(value) self.custom=value end
     function item:getName() return self.name end
+    function item:getDisplayName() return self.name end
     function item:setName(value) self.name=value end
     function item:getItemContainer() return self.child end
     return item
@@ -75,6 +76,7 @@ class ItemMigrations(unittest.TestCase):
     def setUp(self):
         self.lua=LuaRuntime(unpack_returned_tuples=True)
         self.lua.execute(MOCKS)
+        self.lua.execute((LUA/'shared/HCR_ItemNames.lua').read_text(encoding='utf-8'))
         self.lua.execute((LUA/'shared/HCR_ItemMigrations.lua').read_text(encoding='utf-8'))
         self.lua.execute((LUA/'shared/HCR_TimedItems.lua').read_text(encoding='utf-8'))
         self.lua.execute((LUA/'server/HCR_TimedSystems.lua').read_text(encoding='utf-8'))

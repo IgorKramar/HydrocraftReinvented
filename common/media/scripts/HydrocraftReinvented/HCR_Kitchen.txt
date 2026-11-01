@@ -1409,13 +1409,14 @@ module Hydrocraft
     }
     craftRecipe Stack Plastic Cups
     {
+        OnTest = HCRFluidRecipes.Test_0afd036fa892,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 6 [Hydrocraft.HCPlasticcup],
+            item 6 [Hydrocraft.HCPlasticcup;Hydrocraft.HCPlasticcupFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1424,6 +1425,7 @@ module Hydrocraft
     }
     craftRecipe Unstack Plastic Cups
     {
+        OnTest = HCRFluidRecipes.Test_c79962ec1277,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Miscellaneous,
@@ -1434,18 +1436,19 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCPlasticcup,
+            item 6 Hydrocraft.HCPlasticcupFluid,
         }
     }
     craftRecipe Stack Styrofoam Cups
     {
+        OnTest = HCRFluidRecipes.Test_f79717d1a729,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 6 [Hydrocraft.HCStyrofoamcup],
+            item 6 [Hydrocraft.HCStyrofoamcup;Hydrocraft.HCStyrofoamcupFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1454,6 +1457,7 @@ module Hydrocraft
     }
     craftRecipe Unstack Styrofoam Cups
     {
+        OnTest = HCRFluidRecipes.Test_9d5e90ece03a,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Miscellaneous,
@@ -1464,7 +1468,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCStyrofoamcup,
+            item 6 Hydrocraft.HCStyrofoamcupFluid,
         }
     }
     craftRecipe Unroll Paper Towels
@@ -1484,13 +1488,14 @@ module Hydrocraft
     }
     craftRecipe Box Zipper Bags
     {
+        OnTest = HCRFluidRecipes.Test_04358e7ebe19,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Miscellaneous,
         timedAction = Making,
         inputs
         {
-            item 100 [Hydrocraft.HCZipperbag],
+            item 100 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1499,6 +1504,7 @@ module Hydrocraft
     }
     craftRecipe Unbox Zipper Bags
     {
+        OnTest = HCRFluidRecipes.Test_668420b9d85e,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Miscellaneous,
@@ -1509,7 +1515,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 100 Hydrocraft.HCZipperbag,
+            item 100 Hydrocraft.HCZipperbagFluid,
         }
     }
     craftRecipe Insert Battery (Rice Cooker with Power)

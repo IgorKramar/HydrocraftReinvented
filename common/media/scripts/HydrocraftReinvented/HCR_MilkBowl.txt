@@ -1,0 +1,42 @@
+module Hydrocraft
+{
+    item HCRMilkBowl
+    {
+        ItemType = base:food,
+        DisplayName = Bowl of Milk,
+        DisplayCategory = FoodP,
+        Weight = 0.8,
+        Icon = HCRMilkBowl,
+        StaticModel = Bowl,
+        WorldStaticModel = BowlGround,
+        ReplaceOnUse = Base.Bowl,
+        HungerChange = -15,
+        ThirstChange = -15,
+        DaysFresh = 4,
+        DaysTotallyRotten = 7,
+        CantBeFrozen = true,
+        FoodType = NoExplicit,
+        Tags = Milk,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromCup,
+        EvolvedRecipe = Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+    }
+    craftRecipe Pour Milk into Bowl
+    {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_dbcbdc2d7280,
+        OnCreate = HCRMilkChains.Create_dbcbdc2d7280,
+        time = 20,
+        category = Cooking,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.3 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate] mode:primary,
+            item 1 [Base.Bowl] flags[ItemCount;ItemIsFluid;IsEmpty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRMilkBowl,
+        }
+    }
+}

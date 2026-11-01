@@ -1,0 +1,227 @@
+module Hydrocraft
+{
+    item HCDrinkoldfashionedFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Old Fashioned Drink,
+        Icon = HCDrinkoldfashioned,
+        Weight = 0.2,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinkmartiniFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Martini Drink,
+        Icon = HCDrinkmartini,
+        Weight = 0.2,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinkmanhattanFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Manhattan Drink,
+        Icon = HCDrinkmanhattan,
+        Weight = 0.2,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinkdaquiriFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Daquiri Drink,
+        Icon = HCDrinkdaquiri,
+        Weight = 0.2,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinkbloodymaryFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Bloody Mary Drink,
+        Icon = HCDrinkbloodymary,
+        Weight = 0.3,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinkwhiskeysourFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Whiskey Sour Drink,
+        Icon = HCDrinkwhiskeysour,
+        Weight = 0.2,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinkmaitaiFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Mai Tai Drink,
+        Icon = HCDrinkmaitai,
+        Weight = 0.2,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinkcosmoFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Cosmopolitan Drink,
+        Icon = HCDrinkcosmo,
+        Weight = 0.2,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinktomcollinsFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Tom Collins Drink,
+        Icon = HCDrinktomcollins,
+        Weight = 0.3,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinklongislandFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Long Island Iced Tea Drink,
+        Icon = HCDrinklongisland,
+        Weight = 0.3,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinkgimletFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Gimlet Drink,
+        Icon = HCDrinkgimlet,
+        Weight = 0.2,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinkplanterspunchFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Planter's Punch Drink,
+        Icon = HCDrinkplanterspunch,
+        Weight = 0.2,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinkwhiskeyandcokeFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Whiskey and Coke,
+        Icon = HCDrinkwhiskeyandcoke,
+        Weight = 0.3,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+    item HCDrinkmargaritaFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Margarita Drink,
+        Icon = HCDrinkmargarita,
+        Weight = 0.2,
+        EatType = Mug,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.5,
+            CustomDrinkSound = DrinkingFromGlass,
+        }
+    }
+}

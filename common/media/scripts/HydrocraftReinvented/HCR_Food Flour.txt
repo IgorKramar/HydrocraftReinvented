@@ -1277,6 +1277,8 @@ module Hydrocraft
     }
     craftRecipe Prepare Cornbread
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_ec73e2784b5b,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1288,7 +1290,8 @@ module Hydrocraft
             item 1 [Hydrocraft.HCBreadpan],
             item 1 [Base.Cornflour2],
             item 1 [Base.Butter],
-            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,
             item 1 [Base.Sugar],
             item 1 [Base.Salt],
             item 1 tags[Egg] flags[ItemCount],
@@ -1298,30 +1301,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCCornbreadpan,
         }
     }
-    craftRecipe Prepare Cornbread (Carton Milk)
-    {
-        time = 50,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        SkillRequired = Cooking:5,
-        xpAward = Cooking:2,
-        inputs
-        {
-            item 1 [Hydrocraft.HCBreadpan],
-            item 1 [Base.Cornflour2],
-            item 1 [Base.Butter],
-            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 1.0 [CowMilk],
-            item 1 [Base.Sugar],
-            item 1 [Base.Salt],
-            item 1 tags[Egg] flags[ItemCount],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCCornbreadpan,
-        }
-    }
+
     craftRecipe Make Pot of Grits
     {
         time = 75,

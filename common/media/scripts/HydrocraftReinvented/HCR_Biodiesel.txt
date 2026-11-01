@@ -114,6 +114,7 @@ module Hydrocraft
     }
     craftRecipe Make Methoxide
     {
+        OnTest = HCRFluidRecipes.Test_06d40395c061,
         time = 500,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -125,7 +126,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCMethanol],
             item 1 [Hydrocraft.HCWoodenbucketlye],
-            item 1 [Hydrocraft.HCWashtub],
+            item 1 [Hydrocraft.HCWashtub;Hydrocraft.HCWashtubFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCSpatula;Hydrocraft.HCWoodenspatula;Base.Spatula] mode:keep,
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
@@ -242,6 +243,7 @@ module Hydrocraft
     }
     craftRecipe Empty Wooden Bucket with Vegetable Oil
     {
+        OnTest = HCRFluidRecipes.Test_6f3747c56e98,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Farming,
@@ -252,7 +254,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucket,
+            item 1 Hydrocraft.HCWoodenbucketFluid,
         }
     }
 }

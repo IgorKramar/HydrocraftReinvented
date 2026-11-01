@@ -1,0 +1,55 @@
+module Hydrocraft
+{
+    /* Старые Normal ID остаются загрузочными прототипами. */
+    item HCEmptyjuiceboxcherryFluid
+    {
+        ItemType = base:normal,
+        DisplayName = Juice Carton,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        Icon = HCEmptyjuiceboxcherry,
+        EatType = Popcan,
+        CustomContextMenu = Drink,
+        Eattime = 160,
+        component FluidContainer
+        {
+            ContainerName = Carton,
+            Capacity = 0.2,
+            CustomDrinkSound = DrinkingFromCarton,
+        }
+    }
+    item HCEmptyjuiceboxlemonaidFluid
+    {
+        ItemType = base:normal,
+        DisplayName = Juice Carton,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        Icon = HCEmptyjuiceboxlemonaid,
+        EatType = Popcan,
+        CustomContextMenu = Drink,
+        Eattime = 160,
+        component FluidContainer
+        {
+            ContainerName = Carton,
+            Capacity = 0.2,
+            CustomDrinkSound = DrinkingFromCarton,
+        }
+    }
+    item HCEmptyjuiceboxpinklemonaidFluid
+    {
+        ItemType = base:normal,
+        DisplayName = Juice Carton,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        Icon = HCEmptyjuiceboxpinklemonaid,
+        EatType = Popcan,
+        CustomContextMenu = Drink,
+        Eattime = 160,
+        component FluidContainer
+        {
+            ContainerName = Carton,
+            Capacity = 0.2,
+            CustomDrinkSound = DrinkingFromCarton,
+        }
+    }
+}

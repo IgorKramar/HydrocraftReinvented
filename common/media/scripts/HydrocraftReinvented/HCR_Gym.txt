@@ -104,6 +104,7 @@ module Hydrocraft
     }
     craftRecipe Exercise hard with Punching Bag
     {
+        OnTest = HCRFluidRecipes.Test_4be9b7d855cc,
         time = 400,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Leisure,
@@ -115,12 +116,12 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCPunchingbag] mode:keep,
             item 1 [Hydrocraft.HCBoxinggloves] mode:keep,
-            item 1 [Hydrocraft.HCFitnessdrink],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.14 [HCRFitness] mode:primary,
             item 1 [Hydrocraft.HCGymtowel] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCCanteen,
         }
     }
     craftRecipe Exercise with Punching Bag
@@ -183,6 +184,7 @@ module Hydrocraft
     }
     craftRecipe Exercise hard with Weights
     {
+        OnTest = HCRFluidRecipes.Test_fb641668b59e,
         time = 400,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Leisure,
@@ -193,12 +195,12 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWeights] mode:keep,
-            item 1 [Hydrocraft.HCFitnessdrink],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.14 [HCRFitness] mode:primary,
             item 1 [Hydrocraft.HCGymtowel] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCCanteen,
         }
     }
     craftRecipe Repair Treadmill
@@ -259,6 +261,7 @@ module Hydrocraft
     }
     craftRecipe Exercise hard on Treadmill
     {
+        OnTest = HCRFluidRecipes.Test_207db4dc6ae7,
         time = 400,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Leisure,
@@ -269,12 +272,12 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCTredmillgenerator] mode:keep,
-            item 1 [Hydrocraft.HCFitnessdrink],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.14 [HCRFitness] mode:primary,
             item 1 [Hydrocraft.HCGymtowel] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCCanteen,
         }
     }
 }

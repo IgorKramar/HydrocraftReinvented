@@ -1,5 +1,6 @@
 -- B42 availability review; inferred rare weights, not upstream loot values.
 require "Items/ProceduralDistributions"
+require "HCR_SandboxLoot"
 
 local seeds = {
     {"GigamartCleaning", "Hydrocraft.HCMothballsbox", 0.2},
@@ -30,13 +31,12 @@ local seeds = {
 for _, seed in ipairs(seeds) do
     local pool = ProceduralDistributions.list[seed[1]]
     if pool and pool.items then
-        local present = false
+        local present = HCRSandboxLoot.contains(pool.items,seed[2])
         for i = 1, #pool.items, 2 do
             if pool.items[i] == seed[2] then present = true; break end
         end
         if not present then
-            table.insert(pool.items, seed[2])
-            table.insert(pool.items, seed[3])
+            HCRSandboxLoot.append(pool.items,{seed[2],seed[3]})
         end
     end
 end

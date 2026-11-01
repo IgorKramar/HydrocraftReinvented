@@ -60,6 +60,16 @@ local function updateContainer(container, now, depth)
             if replacement or timed then
                 if replacement then
                     container:AddItem(replacement)
+                    -- SP can update hands immediately. MP Equip/replacement
+                    -- ordering needs separate client verification before use.
+                    if playerOwned and not isServer() then
+                        if character.getPrimaryHandItem and character:getPrimaryHandItem() == item then
+                            character:setPrimaryHandItem(replacement)
+                        end
+                        if character.getSecondaryHandItem and character:getSecondaryHandItem() == item then
+                            character:setSecondaryHandItem(replacement)
+                        end
+                    end
                     container:Remove(item)
                     changed = true
                     if isServer() and publishChanges then
@@ -111,6 +121,7 @@ local function updateSquare(square, now)
                     -- Нативная замена сохраняет высоту, поворот, масштаб и ID.
                     -- Сервер рассылает её как SWAP_ITEM, без скачка в центр клетки.
                     object:swapItem(replacement)
+                    if HCRFluidMigrations then HCRFluidMigrations.syncWorldReplacement(object) end
                 elseif isServer() and previousStart ~= item:getModData().HCRTimedStart then
                     -- Publish initial/normalized age before a client picks it up.
                     object:swapItem(item)

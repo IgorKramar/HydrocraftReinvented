@@ -218,6 +218,7 @@ module Hydrocraft
     }
     craftRecipe Make Candleberry Wax
     {
+        OnTest = HCRFluidRecipes.Test_a38c75893867,
         time = 40,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -226,7 +227,7 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
             item 1 [Base.Charcoal],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],

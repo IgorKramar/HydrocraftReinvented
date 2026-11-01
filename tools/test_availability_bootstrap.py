@@ -7,6 +7,7 @@ from hcr_paths import HERE, LUA, SCRIPTS, find_game, read_text
 from audit_lua_item_ids import declared
 from apply_playability_fixes import blocks
 from reachability_support import callback_outputs
+from sandbox_test_support import load_sandbox
 
 class AvailabilityBootstrap(unittest.TestCase):
     def test_real_native_pools_weights_and_idempotency(self):
@@ -17,6 +18,7 @@ class AvailabilityBootstrap(unittest.TestCase):
         lua=LuaRuntime(unpack_returned_tuples=True)
         # Unrelated world-clutter junk references do not participate in these item pools.
         lua.execute('function require(_) end; ClutterTables = {}; BagsAndContainers = {}')
+        load_sandbox(lua,loot=True)
         lua.execute(read_text(game/'media/lua/server/Items/ProceduralDistributions.lua'))
         script=read_text(LUA/'server/Items/HCR_AvailabilityLoot.lua')
         self.assertEqual(len(manifest['seeds']),23)

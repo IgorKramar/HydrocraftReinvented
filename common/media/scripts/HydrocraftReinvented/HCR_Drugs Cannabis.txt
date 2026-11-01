@@ -129,6 +129,8 @@ module Hydrocraft
     }
     craftRecipe Cure Hemp Bud
     {
+
+        OnTest = HCRSandbox.Test_157c20e7f0d0,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -146,6 +148,8 @@ module Hydrocraft
     }
     craftRecipe Put Bud in Pipe
     {
+
+        OnTest = HCRSandbox.Test_def3c64cfff2,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -163,6 +167,8 @@ module Hydrocraft
     }
     craftRecipe Put Bud in Pipe (Corn Cob Pipe with Hemp)
     {
+
+        OnTest = HCRSandbox.Test_f05599ff4eac,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -180,6 +186,8 @@ module Hydrocraft
     }
     craftRecipe Put Bud in Glass Bong
     {
+
+        OnTest = HCRSandbox.Test_90880eab6761,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -258,6 +266,8 @@ module Hydrocraft
     }
     craftRecipe Put Bud in Acrylic Bong
     {
+
+        OnTest = HCRSandbox.Test_c82fd478ba4c,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,

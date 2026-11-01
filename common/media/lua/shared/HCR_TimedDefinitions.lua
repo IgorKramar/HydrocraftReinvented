@@ -1,6 +1,14 @@
 -- Время и переходы из Hydrocraft, brosseaualex/Hydrocraft@917d37d (Timed/timetracker_definitions.lua).
--- Только сохранившиеся горшки, сыр и ульи; отсутствующие подсистемы не возвращаются.
+-- Сохранившиеся горшки, сыр, ульи и восемь стадий виноделия.
 HCRTimedDefinitions = {
+    ["Hydrocraft.HCBarrelgrape"] = {hours = 336.0, target = "Hydrocraft.HCBarrelwine"},
+    ["Hydrocraft.HCBarrelgrapegreen"] = {hours = 336.0, target = "Hydrocraft.HCBarrelwinewhite"},
+    ["Hydrocraft.HCBarrelhoney"] = {hours = 336.0, target = "Hydrocraft.HCBarrelmead"},
+    ["Hydrocraft.HCBarrelrice"] = {hours = 336.0, target = "Hydrocraft.HCBarrelsake"},
+    ["Hydrocraft.HCBarrelwine"] = {hours = 336.0, target = "Hydrocraft.HCBarrelvinegar"},
+    ["Hydrocraft.HCBarrelwinewhite"] = {hours = 336.0, target = "Hydrocraft.HCBarrelvinegar"},
+    ["Hydrocraft.HCBarrelmead"] = {hours = 336.0, target = "Hydrocraft.HCBarrelvinegar"},
+    ["Hydrocraft.HCBarrelsake"] = {hours = 336.0, target = "Hydrocraft.HCBarrelvinegar"},
     ["Hydrocraft.HCBeehive3Active"] = {hours = 168.0, target = "Hydrocraft.HCBeehive3full"},
     ["Hydrocraft.HCCheeserackfull"] = {hours = 168.0, target = "Hydrocraft.HCCheeserackaged"},
     ["Hydrocraft.HCCheeserackfullcheddar"] = {hours = 168.0, target = "Hydrocraft.HCCheeserackagedcheddar"},

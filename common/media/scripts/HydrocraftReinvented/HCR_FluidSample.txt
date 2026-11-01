@@ -1,0 +1,25 @@
+module Hydrocraft
+{
+    /* Internal, transient ingestion carrier. Never add to loot or inventory. */
+    item HCRFluidSample
+    {
+        ItemType = base:food,
+        DisplayName = Liquid Quality Sample,
+        Icon = HCMilkjug,
+        Weight = 0,
+        HungerChange = 0,
+        ThirstChange = 0,
+        BoredomChange = 0,
+        UnhappyChange = 0,
+        StressChange = 0,
+        EnduranceChange = 0,
+        FatigueChange = 0,
+        Calories = 0,
+        Proteins = 0,
+        Lipids = 0,
+        Carbohydrates = 0,
+        DaysFresh = 1000000000,
+        DaysTotallyRotten = 1000000000,
+        IsCookable = false,
+    }
+}

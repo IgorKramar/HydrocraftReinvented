@@ -295,6 +295,8 @@ module Hydrocraft
     }
     craftRecipe Purify Water
     {
+        OnCreate = HCRFluidRecipes.Create_68d7185ffdad,
+        OnTest = HCRFluidRecipes.Test_68d7185ffdad,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -303,15 +305,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
+            item 1 [Base.WaterBottle] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Base.WaterBottle,
         }
     }
     craftRecipe Purify Water (Variant)
     {
+        OnCreate = HCRFluidRecipes.Create_ebce36b57b95,
+        OnTest = HCRFluidRecipes.Test_ebce36b57b95,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -320,15 +323,16 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Pot] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Base.Pot,
         }
     }
     craftRecipe Purify Water (Variant 2)
     {
+        OnCreate = HCRFluidRecipes.Create_e043aa8d47b1,
+        OnTest = HCRFluidRecipes.Test_e043aa8d47b1,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -337,15 +341,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Base.Whiskey] mode:destroy flags[ItemCount],
+            item 1 [Base.Whiskey] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Base.Whiskey,
         }
     }
     craftRecipe Purify Water (Variant 3)
     {
+        OnCreate = HCRFluidRecipes.Create_ed2c9616970f,
+        OnTest = HCRFluidRecipes.Test_ed2c9616970f,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -354,15 +359,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Base.MugWhite] mode:destroy flags[ItemCount],
+            item 1 [Base.MugWhite] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Base.MugWhite,
         }
     }
     craftRecipe Purify Water (Full Clay Teapot)
     {
+        OnCreate = HCRFluidRecipes.Create_912a6bdfa323,
+        OnTest = HCRFluidRecipes.Test_912a6bdfa323,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -371,15 +377,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCClayteapotfull] mode:destroy,
+            item 1 [Hydrocraft.HCClayteapotFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCClayteapotfull,
         }
     }
     craftRecipe Purify Water (Full Clay Mug)
     {
+        OnCreate = HCRFluidRecipes.Create_2de173f1ecdc,
+        OnTest = HCRFluidRecipes.Test_2de173f1ecdc,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -388,15 +395,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCClaymugfull] mode:destroy,
+            item 1 [Hydrocraft.HCClaymugFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCClaymugfull,
         }
     }
     craftRecipe Purify Water (Large Tupperware Container with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_b26b422e3111,
+        OnTest = HCRFluidRecipes.Test_b26b422e3111,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -405,15 +413,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCLargetupwater] mode:destroy,
+            item 1 [Hydrocraft.HCLargetupFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCLargetupwater,
         }
     }
     craftRecipe Purify Water (Medium Tupperware Container with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_93154dfba932,
+        OnTest = HCRFluidRecipes.Test_93154dfba932,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -422,15 +431,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCMediumtupwater] mode:destroy,
+            item 1 [Hydrocraft.HCMediumtupFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCMediumtupwater,
         }
     }
     craftRecipe Purify Water (Small Tupperware Container with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_aa92e554c7d3,
+        OnTest = HCRFluidRecipes.Test_aa92e554c7d3,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -439,15 +449,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCSmalltupwater] mode:destroy,
+            item 1 [Hydrocraft.HCSmalltupFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCSmalltupwater,
         }
     }
     craftRecipe Purify Water (Full Zipper Bag)
     {
+        OnCreate = HCRFluidRecipes.Create_b96fe70634a2,
+        OnTest = HCRFluidRecipes.Test_b96fe70634a2,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -456,15 +467,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCZipperbagfull] mode:destroy,
+            item 1 [Hydrocraft.HCZipperbagFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCZipperbagfull,
         }
     }
     craftRecipe Purify Water (Thermos with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_8e5644fe210d,
+        OnTest = HCRFluidRecipes.Test_8e5644fe210d,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -473,15 +485,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCThermosfull] mode:destroy,
+            item 1 [Hydrocraft.HCThermosFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCThermosfull,
         }
     }
     craftRecipe Purify Water (Water Balloon)
     {
+        OnCreate = HCRFluidRecipes.Create_54374a6d71a2,
+        OnTest = HCRFluidRecipes.Test_54374a6d71a2,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -490,15 +503,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCWaterballoon] mode:destroy,
+            item 1 [Hydrocraft.HCEmptyballoonFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCWaterballoon,
         }
     }
     craftRecipe Purify Water (Wash Bottle with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_aa0af009140c,
+        OnTest = HCRFluidRecipes.Test_aa0af009140c,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -507,15 +521,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCWashbottlefull] mode:destroy,
+            item 1 [Hydrocraft.HCWashbottleFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCWashbottlefull,
         }
     }
     craftRecipe Purify Water (Wooden Vat with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_150d3e630d2a,
+        OnTest = HCRFluidRecipes.Test_150d3e630d2a,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -524,15 +539,16 @@ module Hydrocraft
         inputs
         {
             item 6 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCVatwater] mode:destroy,
+            item 1 [Hydrocraft.HCVatFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCVatwater,
         }
     }
     craftRecipe Purify Water (Wooden Bucket with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_4b12f26b20ee,
+        OnTest = HCRFluidRecipes.Test_4b12f26b20ee,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -541,15 +557,16 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCWoodenbucketwater] mode:destroy,
+            item 1 [Hydrocraft.HCWoodenbucketFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucketwater,
         }
     }
     craftRecipe Purify Water (Wooden Washtub with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_12d4124c6921,
+        OnTest = HCRFluidRecipes.Test_12d4124c6921,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -558,15 +575,16 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCWashtubfull] mode:destroy,
+            item 1 [Hydrocraft.HCWashtubFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCWashtubfull,
         }
     }
     craftRecipe Purify Water (Water Tower with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_e741a3618818,
+        OnTest = HCRFluidRecipes.Test_e741a3618818,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -575,15 +593,16 @@ module Hydrocraft
         inputs
         {
             item 6 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCWatertowerfull] mode:destroy,
+            item 1 [Hydrocraft.HCWatertowerFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCWatertowerfull,
         }
     }
     craftRecipe Purify Water (Makeshift Shower and Sink)
     {
+        OnCreate = HCRFluidRecipes.Create_187b1fb2cb47,
+        OnTest = HCRFluidRecipes.Test_187b1fb2cb47,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -592,15 +611,16 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCShowersinkfull] mode:destroy,
+            item 1 [Hydrocraft.HCShowersinkFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCShowersinkfull,
         }
     }
     craftRecipe Purify Water (Makeshift Shower)
     {
+        OnCreate = HCRFluidRecipes.Create_ef14a812d758,
+        OnTest = HCRFluidRecipes.Test_ef14a812d758,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -609,15 +629,16 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCShowerfull] mode:destroy,
+            item 1 [Hydrocraft.HCShowerFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCShowerfull,
         }
     }
     craftRecipe Purify Water (IBC)
     {
+        OnCreate = HCRFluidRecipes.Create_44ffe8bd7f27,
+        OnTest = HCRFluidRecipes.Test_44ffe8bd7f27,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -626,15 +647,16 @@ module Hydrocraft
         inputs
         {
             item 3 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCIBCfull] mode:destroy,
+            item 1 [Hydrocraft.HCIBCFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCIBCfull,
         }
     }
     craftRecipe Purify Water (IBC Storage)
     {
+        OnCreate = HCRFluidRecipes.Create_9b3b5a3a2b1c,
+        OnTest = HCRFluidRecipes.Test_9b3b5a3a2b1c,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -643,15 +665,16 @@ module Hydrocraft
         inputs
         {
             item 3 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCIBCstoragefull] mode:destroy,
+            item 1 [Hydrocraft.HCIBCstorageFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCIBCstoragefull,
         }
     }
     craftRecipe Purify Water (IBC Tower)
     {
+        OnCreate = HCRFluidRecipes.Create_8dc3b85d2830,
+        OnTest = HCRFluidRecipes.Test_8dc3b85d2830,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -660,15 +683,16 @@ module Hydrocraft
         inputs
         {
             item 6 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCIBCtowerfull] mode:destroy,
+            item 1 [Hydrocraft.HCIBCtowerFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCIBCtowerfull,
         }
     }
     craftRecipe Purify Water (Fish Tank with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_ef0aa5d7b81a,
+        OnTest = HCRFluidRecipes.Test_ef0aa5d7b81a,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -677,15 +701,16 @@ module Hydrocraft
         inputs
         {
             item 3 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCFishtankfull] mode:destroy,
+            item 1 [Hydrocraft.HCFishtankFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCFishtankfull,
         }
     }
     craftRecipe Purify Water (Copper Mug with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_be97255f182a,
+        OnTest = HCRFluidRecipes.Test_be97255f182a,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -694,15 +719,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCMugcopperfull] mode:destroy,
+            item 1 [Hydrocraft.HCMugcopperFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCMugcopperfull,
         }
     }
     craftRecipe Purify Water (Copper Kettle with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_2c86860dc763,
+        OnTest = HCRFluidRecipes.Test_2c86860dc763,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -711,15 +737,16 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCKettlecopperfull] mode:destroy,
+            item 1 [Hydrocraft.HCKettlecopperFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCKettlecopperfull,
         }
     }
     craftRecipe Purify Water (Iron Cauldron with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_fd362fe7d7d1,
+        OnTest = HCRFluidRecipes.Test_fd362fe7d7d1,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -728,15 +755,16 @@ module Hydrocraft
         inputs
         {
             item 6 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCCauldronironfull] mode:destroy,
+            item 1 [Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCCauldronironfull,
         }
     }
     craftRecipe Purify Water (Strapped Canteens with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_984fc3b427ae,
+        OnTest = HCRFluidRecipes.Test_984fc3b427ae,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -745,15 +773,16 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCStrappedcanteenfull] mode:destroy,
+            item 1 [Hydrocraft.HCStrappedcanteenFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCStrappedcanteenfull,
         }
     }
     craftRecipe Purify Water (Birch Bark Cup with Water)
     {
+        OnCreate = HCRFluidRecipes.Create_b6faa94d5db5,
+        OnTest = HCRFluidRecipes.Test_b6faa94d5db5,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -762,31 +791,32 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCPurifyingtablets],
-            item 1 [Hydrocraft.HCBirchbarkcupfull] mode:destroy,
+            item 1 [Hydrocraft.HCBirchbarkcupFluid] mode:keep flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCBirchbarkcupfull,
         }
     }
     craftRecipe Attatch Canteens
     {
+        OnTest = HCRFluidRecipes.Test_d9ecc98acf92,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
         timedAction = Making,
         inputs
         {
-            item 2 [Hydrocraft.HCCanteen],
+            item 2 [Hydrocraft.HCCanteen;Hydrocraft.HCCanteenFluid] flags[ItemCount;IsEmpty],
             item 1 [Base.Belt2],
         }
         outputs
         {
-            item 1 Hydrocraft.HCStrappedcanteen,
+            item 1 Hydrocraft.HCStrappedcanteenFluid,
         }
     }
     craftRecipe Detach Canteens
     {
+        OnTest = HCRFluidRecipes.Test_ced258c8aeac,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Health,
@@ -794,11 +824,11 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbelt,
         inputs
         {
-            item 1 [Hydrocraft.HCStrappedcanteen],
+            item 1 [Hydrocraft.HCStrappedcanteen;Hydrocraft.HCStrappedcanteenFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
-            item 2 Hydrocraft.HCCanteen,
+            item 2 Hydrocraft.HCCanteenFluid,
         }
     }
     craftRecipe Craft Wooden Paddle

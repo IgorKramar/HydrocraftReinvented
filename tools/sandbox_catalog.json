@@ -1,0 +1,246 @@
+{
+  "recipes": {
+    "Put Bud in Acrylic Bong": "EnableCannabis",
+    "Put Bud in Glass Bong": "EnableCannabis",
+    "Put Bud in Pipe (Corn Cob Pipe with Hemp)": "EnableCannabis",
+    "Put Bud in Pipe": "EnableCannabis",
+    "Cure Hemp Bud": "EnableCannabis",
+    "Fill Blue Meth in Bags": "EnableMeth",
+    "Cook Blue Meth (Blue Barrel with Methylamin 2)": "EnableMeth",
+    "Cook Blue Meth (Blue Barrel with Phenylacetic Acid)": "EnableMeth",
+    "Cook Blue Meth (Blue Barrel with Methylamin)": "EnableMeth",
+    "Cook Blue Meth": "EnableMeth",
+    "Make Homemade Crystal Meth": "EnableMeth",
+    "Draw Up Syringe With Morphine": "EnableOpium",
+    "Add Ammonia To Morphine Hydrochloride Solution (Testtube with Morphine)": "EnableOpium",
+    "Add Ammonia To Morphine Hydrochloride Solution": "EnableOpium",
+    "Add Water To Morphine Hydrochloride": "EnableOpium",
+    "Make Morphine Hydrochloride Solution": "EnableOpium",
+    "Put Opium in Pipe (Corn Cob Pipe with Pure Opium)": "EnableOpium",
+    "Put Opium in Pipe": "EnableOpium",
+    "Ferment Opium Powder": "EnableOpium",
+    "Cook Raw Opium": "EnableOpium",
+    "Knead Raw Opium": "EnableOpium",
+    "Rip Poppy Capsules": "EnableOpium",
+    "Dry Poppy Flower": "EnableOpium",
+    "Put Tobacco in Pipe (Corn Cob Pipe with Tobacco)": "EnableTobacco",
+    "Put Tobacco in Pipe": "EnableTobacco",
+    "Roll Cigar": "EnableTobacco",
+    "Grind Tobacco (Tobacco)": "EnableTobacco",
+    "Grind Tobacco": "EnableTobacco",
+    "Dry Leaves": "EnableTobacco"
+  },
+  "items": {
+    "Hydrocraft.HCHempbudfresh": "EnableCannabis",
+    "Hydrocraft.HCHempbudcured": "EnableCannabis",
+    "Hydrocraft.HCBongempty": "EnableCannabis",
+    "Hydrocraft.HCBongfull": "EnableCannabis",
+    "Hydrocraft.HCBongdirty": "EnableCannabis",
+    "Hydrocraft.HCBongacrylicempty": "EnableCannabis",
+    "Hydrocraft.HCBongacrylicfull": "EnableCannabis",
+    "Hydrocraft.HCBongacrylicdirty": "EnableCannabis",
+    "Hydrocraft.HCPipehemp": "EnableCannabis",
+    "Hydrocraft.HCCorncobpipehemp": "EnableCannabis",
+    "Hydrocraft.HCCrystalmeth": "EnableMeth",
+    "Hydrocraft.HCBluemethtray": "EnableMeth",
+    "Hydrocraft.HCBluemeth": "EnableMeth",
+    "Hydrocraft.HCPoppyflower": "EnableOpium",
+    "Hydrocraft.HCPoppycapsule": "EnableOpium",
+    "Hydrocraft.HCPoppycapsuleripped": "EnableOpium",
+    "Hydrocraft.HCRawopium": "EnableOpium",
+    "Hydrocraft.HCOpiumpowder": "EnableOpium",
+    "Hydrocraft.HCJaropium": "EnableOpium",
+    "Hydrocraft.HCPureopium": "EnableOpium",
+    "Hydrocraft.HCPipeopiumpure": "EnableOpium",
+    "Hydrocraft.HCCorncobpipeopiumpure": "EnableOpium",
+    "Hydrocraft.HCSyringeheroin": "EnableOpium",
+    "Hydrocraft.HCSyringemorphin": "EnableOpium",
+    "Hydrocraft.HCBeakermorphinhydrochloridsolution": "EnableOpium",
+    "Hydrocraft.HCBeakermorphinhydrochlorid": "EnableOpium",
+    "Hydrocraft.HCBeakermorphinhydrochloridsolution02": "EnableOpium",
+    "Hydrocraft.HCTesttubemorphinrubber": "EnableOpium",
+    "Hydrocraft.HCTesttubemorphincork": "EnableOpium",
+    "Hydrocraft.HCCigarettebutt": "EnableTobacco",
+    "Hydrocraft.HCCigarettecarton": "EnableTobacco",
+    "Hydrocraft.HCCigarettepack": "EnableTobacco",
+    "Hydrocraft.HCCigarettecartonlights": "EnableTobacco",
+    "Hydrocraft.HCCigarettepacklights": "EnableTobacco",
+    "Hydrocraft.HCCigaretteslights": "EnableTobacco",
+    "Hydrocraft.HCCigarettecartonmenthol": "EnableTobacco",
+    "Hydrocraft.HCCigarettepackmenthol": "EnableTobacco",
+    "Hydrocraft.HCCigarettesmenthol": "EnableTobacco",
+    "Hydrocraft.HCTobaccoleaffresh": "EnableTobacco",
+    "Hydrocraft.HCTobaccoleafdry": "EnableTobacco",
+    "Hydrocraft.HCTobacco": "EnableTobacco",
+    "Hydrocraft.HCCigarbox": "EnableTobacco",
+    "Hydrocraft.HCCigar": "EnableTobacco",
+    "Hydrocraft.HCCigarhandrolled": "EnableTobacco",
+    "Hydrocraft.HCPipetobacco": "EnableTobacco",
+    "Hydrocraft.HCCorncobpipetobacco": "EnableTobacco"
+  },
+  "callbacks": {
+    "c82fd478ba4c": {
+      "name": "Put Bud in Acrylic Bong",
+      "option": "EnableCannabis",
+      "previous": ""
+    },
+    "90880eab6761": {
+      "name": "Put Bud in Glass Bong",
+      "option": "EnableCannabis",
+      "previous": ""
+    },
+    "f05599ff4eac": {
+      "name": "Put Bud in Pipe (Corn Cob Pipe with Hemp)",
+      "option": "EnableCannabis",
+      "previous": ""
+    },
+    "def3c64cfff2": {
+      "name": "Put Bud in Pipe",
+      "option": "EnableCannabis",
+      "previous": ""
+    },
+    "157c20e7f0d0": {
+      "name": "Cure Hemp Bud",
+      "option": "EnableCannabis",
+      "previous": ""
+    },
+    "7d23b1cdcbcf": {
+      "name": "Fill Blue Meth in Bags",
+      "option": "EnableMeth",
+      "previous": "HCRFluidRecipes.Test_7d23b1cdcbcf"
+    },
+    "87c4196425fd": {
+      "name": "Cook Blue Meth (Blue Barrel with Methylamin 2)",
+      "option": "EnableMeth",
+      "previous": ""
+    },
+    "036612fa6321": {
+      "name": "Cook Blue Meth (Blue Barrel with Phenylacetic Acid)",
+      "option": "EnableMeth",
+      "previous": ""
+    },
+    "01134d2b5054": {
+      "name": "Cook Blue Meth (Blue Barrel with Methylamin)",
+      "option": "EnableMeth",
+      "previous": ""
+    },
+    "020dae77debd": {
+      "name": "Cook Blue Meth",
+      "option": "EnableMeth",
+      "previous": ""
+    },
+    "dfbc65fe5ea8": {
+      "name": "Make Homemade Crystal Meth",
+      "option": "EnableMeth",
+      "previous": "HCRFluidRecipes.Test_dfbc65fe5ea8"
+    },
+    "218a87178f48": {
+      "name": "Draw Up Syringe With Morphine",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "1f2eec353a70": {
+      "name": "Add Ammonia To Morphine Hydrochloride Solution (Testtube with Morphine)",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "609bb7129752": {
+      "name": "Add Ammonia To Morphine Hydrochloride Solution",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "0b3d00f35e9c": {
+      "name": "Add Water To Morphine Hydrochloride",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "32ed288c5891": {
+      "name": "Make Morphine Hydrochloride Solution",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "c6ac56e401a3": {
+      "name": "Put Opium in Pipe (Corn Cob Pipe with Pure Opium)",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "300c9739724f": {
+      "name": "Put Opium in Pipe",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "039a8478b7d7": {
+      "name": "Ferment Opium Powder",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "ff4e7ad86aad": {
+      "name": "Cook Raw Opium",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "b4837a3cc85b": {
+      "name": "Knead Raw Opium",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "4220253eb0f7": {
+      "name": "Rip Poppy Capsules",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "0527bd590837": {
+      "name": "Dry Poppy Flower",
+      "option": "EnableOpium",
+      "previous": ""
+    },
+    "14de2b159033": {
+      "name": "Put Tobacco in Pipe (Corn Cob Pipe with Tobacco)",
+      "option": "EnableTobacco",
+      "previous": ""
+    },
+    "2aec4dcc9643": {
+      "name": "Put Tobacco in Pipe",
+      "option": "EnableTobacco",
+      "previous": ""
+    },
+    "ae65a87a656b": {
+      "name": "Roll Cigar",
+      "option": "EnableTobacco",
+      "previous": ""
+    },
+    "70e5800af93f": {
+      "name": "Grind Tobacco (Tobacco)",
+      "option": "EnableTobacco",
+      "previous": ""
+    },
+    "47c727dcd14d": {
+      "name": "Grind Tobacco",
+      "option": "EnableTobacco",
+      "previous": ""
+    },
+    "162e88952759": {
+      "name": "Dry Leaves",
+      "option": "EnableTobacco",
+      "previous": ""
+    }
+  },
+  "mining": {
+    "Mine": true,
+    "Mine (Dirt)": true,
+    "Mine (Dirt 2)": true,
+    "Mine (Dirt 3)": true,
+    "Mine (Variant)": true,
+    "Mine (Variant 2)": true,
+    "Mine (Variant 3)": true,
+    "Mine (Variant 4)": true,
+    "Mine (Variant 5)": true,
+    "Mine (Variant 6)": true,
+    "Mine Iron": true,
+    "Mine Coal": true,
+    "Sift Dirt": true,
+    "Shovel Clay": true,
+    "Mine Stone": true,
+    "Mine Stone (Mining Drill with Power)": true
+  }
+}

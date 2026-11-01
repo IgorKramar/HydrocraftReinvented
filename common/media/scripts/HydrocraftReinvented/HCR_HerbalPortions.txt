@@ -1,0 +1,38 @@
+module Hydrocraft
+{
+    item HCRCookingHerbalSpirit
+    {
+        ItemType = base:food,
+        DisplayName = Herbal Spirit for Cooking,
+        DisplayCategory = FoodB,
+        Weight = 1.0,
+        Icon = HCHerballiqueur,
+        ReplaceOnUse = Hydrocraft.HCHerballiqueurFluid,
+        HungerChange = -4,
+        ThirstChange = -16,
+        Alcoholic = true,
+        AlcoholPower = 2,
+        CantBeFrozen = true,
+        FoodType = Liquor,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromBottle,
+        EvolvedRecipe = HotDrink:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4;Soup:4;Stew:4,
+    }
+    craftRecipe Prepare Herbal Spirit for Cooking
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        Tooltip = Tooltip_HCR_CookingHerbalSpirit,
+        inputs
+        {
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.8 [HCRAbsinthe;HCRHerbalLiqueur] mode:primary,
+            item 1 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRCookingHerbalSpirit,
+        }
+    }
+}

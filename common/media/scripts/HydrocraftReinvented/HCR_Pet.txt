@@ -336,13 +336,15 @@ module Hydrocraft
     }
     craftRecipe Put Head in Fish Tank
     {
+        OnTest = HCRFluidRecipes.Test_5e8b3b4be269,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Leisure,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCFishtankfull] mode:destroy,
+            item 1 [Hydrocraft.HCFishtankFluid] mode:destroy flags[ItemCount],
+                -fluid 8 [Water],
             item 1 [Hydrocraft.HCZedhead],
         }
         outputs

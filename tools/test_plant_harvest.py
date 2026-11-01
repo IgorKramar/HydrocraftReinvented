@@ -3,6 +3,7 @@ import unittest
 from lupa.lua51 import LuaRuntime
 from audit_lua_item_ids import declared
 from hcr_paths import SCRIPTS, LUA, find_game, read_text
+from sandbox_test_support import load_sandbox
 
 
 class Harvest(unittest.TestCase):
@@ -11,6 +12,7 @@ class Harvest(unittest.TestCase):
         plants = sorted(name for name in declared(SCRIPTS)
                         if name.startswith('Hydrocraft.HCPotted') and name.endswith('ready'))
         lua = LuaRuntime()
+        load_sandbox(lua)
         lua.execute(read_text(LUA / 'shared/PlantsGrowing.lua'))
         for plant in plants:
             with self.subTest(plant=plant):

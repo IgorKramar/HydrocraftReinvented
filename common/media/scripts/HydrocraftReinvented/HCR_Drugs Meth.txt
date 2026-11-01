@@ -52,6 +52,8 @@ module Hydrocraft
     }
     craftRecipe Make Homemade Crystal Meth
     {
+
+        OnTest = HCRSandbox.Test_dfbc65fe5ea8,
         time = 600,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -67,7 +69,7 @@ module Hydrocraft
             item 1 [Hydrocraft.HCLithiumpowder],
             item 1 [Hydrocraft.HCPhosphoruspowder],
             item 1 [Hydrocraft.HCEphedrinepowder],
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -76,6 +78,8 @@ module Hydrocraft
     }
     craftRecipe Cook Blue Meth
     {
+
+        OnTest = HCRSandbox.Test_020dae77debd,
         time = 5000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -100,6 +104,8 @@ module Hydrocraft
     }
     craftRecipe Cook Blue Meth (Blue Barrel with Methylamin)
     {
+
+        OnTest = HCRSandbox.Test_01134d2b5054,
         time = 5000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -124,6 +130,8 @@ module Hydrocraft
     }
     craftRecipe Cook Blue Meth (Blue Barrel with Phenylacetic Acid)
     {
+
+        OnTest = HCRSandbox.Test_036612fa6321,
         time = 5000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -148,6 +156,8 @@ module Hydrocraft
     }
     craftRecipe Cook Blue Meth (Blue Barrel with Methylamin 2)
     {
+
+        OnTest = HCRSandbox.Test_87c4196425fd,
         time = 5000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -172,6 +182,8 @@ module Hydrocraft
     }
     craftRecipe Fill Blue Meth in Bags
     {
+
+        OnTest = HCRSandbox.Test_7d23b1cdcbcf,
         time = 500,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -181,7 +193,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBluemethtray],
-            item 5 [Hydrocraft.HCZipperbag],
+            item 5 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
             item 1 [Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife;Hydrocraft.HCSpatula] mode:keep,
         }
         outputs

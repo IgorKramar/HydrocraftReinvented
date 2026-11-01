@@ -1947,7 +1947,7 @@ module Hydrocraft
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 1 [Water],
             item 1 [Base.Shovel] mode:keep,
-            item 1 [Hydrocraft.HCBarrelmetalempty;Hydrocraft.HCBarrelblueempty;Hydrocraft.HCWoodenbarrel] mode:keep,
+            item 1 [Hydrocraft.HCBarrelmetalempty;Hydrocraft.HCBarrelblueempty;Hydrocraft.HCWoodenbarrel;Hydrocraft.HCWoodenbarrelFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -2144,6 +2144,7 @@ module Hydrocraft
     }
     craftRecipe Make Bucket of Lye
     {
+        OnTest = HCRFluidRecipes.Test_546cf552c60b,
         time = 2000,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -2152,7 +2153,8 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbucketwater] mode:destroy,
+            item 1 [Hydrocraft.HCWoodenbucketFluid] mode:destroy flags[ItemCount],
+                -fluid 0.5 [Water],
             item 5 [Hydrocraft.HCCharcoalpowder],
             item 1 [Base.Stone2],
             item 1 [Hydrocraft.HCGrass;Hydrocraft.HCStraw],
@@ -2164,6 +2166,7 @@ module Hydrocraft
     }
     craftRecipe Make Glycerin
     {
+        OnTest = HCRFluidRecipes.Test_fd2de47cd7d3,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -2178,7 +2181,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -2257,6 +2260,7 @@ module Hydrocraft
     }
     craftRecipe Heat Beaker of Water
     {
+        OnTest = HCRFluidRecipes.Test_506e7e5c2f4b,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -2266,7 +2270,7 @@ module Hydrocraft
         {
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
             item 1 [Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black;Base.Gloves_FingerlessLeatherGloves_Brown;Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Hydrocraft.HCWorkgloves;Hydrocraft.HCOvenmitts] mode:keep,
             item 1 [Hydrocraft.HCLab2] mode:keep,
@@ -2336,6 +2340,7 @@ module Hydrocraft
     }
     craftRecipe Mix Calcium Oxide With Water
     {
+        OnTest = HCRFluidRecipes.Test_c83a152804fc,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -2343,8 +2348,9 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCBeakerwater],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeakerFluid] mode:keep,
+                -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCCalciumoxidpowder],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
@@ -2398,6 +2404,7 @@ module Hydrocraft
     }
     craftRecipe Make Sodium Hydroxide Solution
     {
+        OnTest = HCRFluidRecipes.Test_10e082fb6d3b,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -2406,7 +2413,8 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcgetcalciumcarbonate,
         inputs
         {
-            item 1 [Hydrocraft.HCBeakerwater],
+            item 1 [Hydrocraft.HCGlassbeakerFluid] mode:keep,
+                -fluid 0.1 [Water],
             item 2 [Hydrocraft.HCSodiumhydroxidepowder],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
@@ -2440,6 +2448,7 @@ module Hydrocraft
     }
     craftRecipe Make Calcium Chloride Solution
     {
+        OnTest = HCRFluidRecipes.Test_ab2a3ed7ac63,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -2447,7 +2456,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCBeakerwater],
+            item 1 [Hydrocraft.HCGlassbeakerFluid] mode:keep,
+                -fluid 0.1 [Water],
             item 2 [Hydrocraft.HCCalciumchloridepowder],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
@@ -2505,6 +2515,7 @@ module Hydrocraft
     }
     craftRecipe Fill Beaker With Muriatic Acid (Acid Bath Muriatic Acid)
     {
+        OnTest = HCRFluidRecipes.Test_8c1be48c8971,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -2514,7 +2525,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCAcidbathmuriaticacid],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
@@ -2525,6 +2536,7 @@ module Hydrocraft
     }
     craftRecipe Spray Starter Fluid in Conical Flask with Water
     {
+        OnTest = HCRFluidRecipes.Test_773eab8d2fcb,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -2532,7 +2544,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasswaterbottle],
+            item 1 [Hydrocraft.HCGlassflaskFluid] mode:keep,
+                -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCStarterfluid],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
@@ -2543,6 +2556,7 @@ module Hydrocraft
     }
     craftRecipe Shake Starter Fluid in Conical Flask with Water
     {
+        OnTest = HCRFluidRecipes.Test_9004e64fc070,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -2550,7 +2564,8 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasswaterbottle],
+            item 1 [Hydrocraft.HCGlassflaskFluid] mode:keep,
+                -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCStarterfluid],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
@@ -2561,6 +2576,7 @@ module Hydrocraft
     }
     craftRecipe Make Beaker with Hydrogen Peroxide
     {
+        OnTest = HCRFluidRecipes.Test_bd40862ee18e,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -2570,7 +2586,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCHaircolorblond],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Hydrocraft.HCImprovisedgasmask] mode:keep,
             item 1 [Hydrocraft.HCLab2] mode:keep,
@@ -2836,6 +2852,7 @@ module Hydrocraft
     }
     craftRecipe Connect Glass Balloon to Beaker with Water
     {
+        OnTest = HCRFluidRecipes.Test_1c561c6c907b,
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -2843,7 +2860,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCGlassballoonconnector],
-            item 1 [Hydrocraft.HCBeakerwater],
+            item 1 [Hydrocraft.HCGlassbeakerFluid] mode:keep,
+                -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCRubberhose],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
@@ -2916,6 +2934,7 @@ module Hydrocraft
     }
     craftRecipe Make Mercuric Oxide
     {
+        OnTest = HCRFluidRecipes.Test_73ae60f799d9,
         time = 1500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -2924,7 +2943,7 @@ module Hydrocraft
         xpAward = Cooking:10,
         inputs
         {
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCCinnabar],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCLatexgloves;Hydrocraft.HCRubberglove] mode:keep,
@@ -2937,6 +2956,7 @@ module Hydrocraft
     }
     craftRecipe Empty Wooden Bucket with Lye
     {
+        OnTest = HCRFluidRecipes.Test_632e9be514c5,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -2947,7 +2967,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucket,
+            item 1 Hydrocraft.HCWoodenbucketFluid,
         }
     }
 }

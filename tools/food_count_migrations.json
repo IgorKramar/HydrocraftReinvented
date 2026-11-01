@@ -142,30 +142,6 @@
     },
     {
       "file": "HCR_Distillery.txt",
-      "recipe": "Fill Barrel with Potato Mash",
-      "input": "item 3 [Hydrocraft.HCPotofpotatomashcooked],",
-      "source": [
-        {
-          "file": "Distillery.txt",
-          "recipe": "Fill Barrel with Potato Mash",
-          "input": "HCPotofpotatomashcooked=3,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Fill Barrel with Blue Agave Mash",
-      "input": "item 3 [Hydrocraft.HCPotofblueagavemashcooked],",
-      "source": [
-        {
-          "file": "Distillery.txt",
-          "recipe": "Fill Barrel with Blue Agave Mash",
-          "input": "HCPotofblueagavemashcooked=3,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
       "recipe": "Distill Bottle of Mezcal",
       "input": "item 20 [Base.Worm],",
       "source": [
@@ -190,18 +166,6 @@
     },
     {
       "file": "HCR_Distillery.txt",
-      "recipe": "Fill Barrel with Apple Mash",
-      "input": "item 3 [Hydrocraft.HCPotofapplemashcooked],",
-      "source": [
-        {
-          "file": "Distillery.txt",
-          "recipe": "Fill Barrel with Apple Mash",
-          "input": "HCPotofapplemashcooked=3,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
       "recipe": "Prepare Pot of Peach Mash",
       "input": "item 10 [Base.Peach],",
       "source": [
@@ -214,18 +178,6 @@
     },
     {
       "file": "HCR_Distillery.txt",
-      "recipe": "Fill Barrel with Peach Mash",
-      "input": "item 3 [Hydrocraft.HCPotofpeachmashcooked],",
-      "source": [
-        {
-          "file": "Distillery.txt",
-          "recipe": "Fill Barrel with Peach Mash",
-          "input": "HCPotofpeachmashcooked=3,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
       "recipe": "Prepare Pot of Pumpkin Mash",
       "input": "item 10 [Hydrocraft.HCPumpkinflesh],",
       "source": [
@@ -233,42 +185,6 @@
           "file": "Distillery.txt",
           "recipe": "Prepare Pot of Pumpkin Mash",
           "input": "HCPumpkinflesh=10,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Fill Barrel with Pumpkin Mash",
-      "input": "item 3 [Hydrocraft.HCPotofpumpkinmashcooked],",
-      "source": [
-        {
-          "file": "Distillery.txt",
-          "recipe": "Fill Barrel with Pumpkin Mash",
-          "input": "HCPotofpumpkinmashcooked=3,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Fill Barrel with Juniper Berry Mash",
-      "input": "item 3 [Hydrocraft.HCPotofjunipermashcooked],",
-      "source": [
-        {
-          "file": "Distillery.txt",
-          "recipe": "Fill Barrel with Juniper Berry Mash",
-          "input": "HCPotofjunipermashcooked=3,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Fill Barrel with Corn Mash",
-      "input": "item 3 [Hydrocraft.HCPotofcornmashcooked],",
-      "source": [
-        {
-          "file": "Distillery.txt",
-          "recipe": "Fill Barrel with Corn Mash",
-          "input": "HCPotofcornmashcooked=3,"
         }
       ]
     },
@@ -310,66 +226,6 @@
     },
     {
       "file": "HCR_Food Bar.txt",
-      "recipe": "Brew Irish Coffee",
-      "input": "item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Brew Irish Coffee",
-          "input": "HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Brew Irish Coffee (Cup of Irish Coffee)",
-      "input": "item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Brew Irish Coffee",
-          "input": "HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 2)",
-      "input": "item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Brew Irish Coffee",
-          "input": "HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 3)",
-      "input": "item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Brew Irish Coffee",
-          "input": "HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Old Fashioned",
-      "input": "item 1 [Hydrocraft.HCDrinkglassshortwhiskey],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Old Fashioned",
-          "input": "HCDrinkglassshortwhiskey,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
       "recipe": "Mix Old Fashioned",
       "input": "item 1 [Hydrocraft.HCSlicedorange],",
       "source": [
@@ -382,42 +238,6 @@
     },
     {
       "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Martini",
-      "input": "item 1 [Hydrocraft.HCDrinkcocktailglassgin],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Martini",
-          "input": "HCDrinkcocktailglassgin,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Manhattan",
-      "input": "item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Manhattan",
-          "input": "HCDrinkcocktailglasswhiskey,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Daquiri",
-      "input": "item 1 [Hydrocraft.HCDrinkcocktailglassrum],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Daquiri",
-          "input": "HCDrinkcocktailglassrum,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
       "recipe": "Mix Daquiri",
       "input": "item 1 [Hydrocraft.HCSlicedlime],",
       "source": [
@@ -430,54 +250,6 @@
     },
     {
       "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Bloody Mary",
-      "input": "item 1 [Hydrocraft.HCDrinkglasstallvodka],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Bloody Mary",
-          "input": "HCDrinkglasstallvodka,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Whiskey Sour",
-      "input": "item 1 [Hydrocraft.HCDrinkglassshortwhiskey],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Whiskey Sour",
-          "input": "HCDrinkglassshortwhiskey,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Mai Tai",
-      "input": "item 1 [Hydrocraft.HCDrinkglassshortrum],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Mai Tai",
-          "input": "HCDrinkglassshortrum,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Cosmopolitan",
-      "input": "item 1 [Hydrocraft.HCDrinkcocktailglassvodka],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Cosmopolitan",
-          "input": "HCDrinkcocktailglassvodka,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
       "recipe": "Mix Cosmopolitan",
       "input": "item 1 [Hydrocraft.HCSlicedlime],",
       "source": [
@@ -485,66 +257,6 @@
           "file": "Food Bar.txt",
           "recipe": "Mix Cosmopolitan",
           "input": "HCSlicedlime,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Tom Collins",
-      "input": "item 1 [Hydrocraft.HCDrinkglasstallgin],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Tom Collins",
-          "input": "HCDrinkglasstallgin,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Long Island Iced Tea",
-      "input": "item 1 [Hydrocraft.HCDrinkglasstallvodka],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Long Island Iced Tea",
-          "input": "HCDrinkglasstallvodka,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Gimlet",
-      "input": "item 1 [Hydrocraft.HCDrinkcocktailglassgin],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Gimlet",
-          "input": "HCDrinkcocktailglassgin,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Planter's Punch",
-      "input": "item 1 [Hydrocraft.HCDrinkglassshortrum],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Mix Planter's Punch",
-          "input": "HCDrinkglassshortrum,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Whiskey and Coke",
-      "input": "item 1 [Hydrocraft.HCDrinkglasstallwhiskey],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Whiskey and Coke",
-          "input": "HCDrinkglasstallwhiskey,"
         }
       ]
     },
@@ -563,72 +275,12 @@
     {
       "file": "HCR_Food Bar.txt",
       "recipe": "Make Eggnog Cuppa",
-      "input": "item 1 [Hydrocraft.HCEggnogpot],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Make Eggnog Cuppa",
-          "input": "HCEggnogpot,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Eggnog Cuppa",
       "input": "item 1 [Base.Chocolate],",
       "source": [
         {
           "file": "Food Bar.txt",
           "recipe": "Make Eggnog Cuppa",
           "input": "Chocolate,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Eggnog Bottle",
-      "input": "item 1 [Hydrocraft.HCEggnogpot],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Make Eggnog Bottle",
-          "input": "HCEggnogpot,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Monkey Tail Pot",
-      "input": "item 1 [Hydrocraft.HCAguaardiente],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Make Monkey Tail Pot",
-          "input": "HCAguaardiente,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Monkey Tail Mug",
-      "input": "item 1 [Hydrocraft.HCColademonopot],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Make Monkey Tail Mug",
-          "input": "HCColademonopot,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Monkey Tail Bottle",
-      "input": "item 1 [Hydrocraft.HCColademonopot],",
-      "source": [
-        {
-          "file": "Food Bar.txt",
-          "recipe": "Make Monkey Tail Bottle",
-          "input": "HCColademonopot,"
         }
       ]
     },
@@ -5186,18 +4838,6 @@
     },
     {
       "file": "HCR_Food Mexican.txt",
-      "recipe": "Make Nacho Cheese",
-      "input": "item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],",
-      "source": [
-        {
-          "file": "Food Mexican.txt",
-          "recipe": "Make Nacho Cheese",
-          "input": "HCGratedcheese/HCGratedcheddar/Processedcheese,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Mexican.txt",
       "recipe": "Open Bag of Corn Tortillas",
       "input": "item 1 [Hydrocraft.HCTortillacornbag],",
       "source": [
@@ -5986,18 +5626,6 @@
     },
     {
       "file": "HCR_Food Pastry.txt",
-      "recipe": "Make Fruit Cake Batter",
-      "input": "item 2 [Hydrocraft.HCDriedfruit],",
-      "source": [
-        {
-          "file": "Food Pastry.txt",
-          "recipe": "Make Fruit Cake Batter",
-          "input": "HCDriedfruit=2,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Pastry.txt",
       "recipe": "Place Fruit Cake Batter in Bread Pan",
       "input": "item 1 [Hydrocraft.HCFruitcakebatter],",
       "source": [
@@ -6560,18 +6188,6 @@
           "file": "Food Soup.txt",
           "recipe": "Fill Rice and Beans into Bowls",
           "input": "HCRiceandbeanspot,"
-        }
-      ]
-    },
-    {
-      "file": "HCR_Food Rice.txt",
-      "recipe": "Make Pot of Rice Pudding",
-      "input": "item 1 [Base.Rice;Hydrocraft.HCRicebrown],",
-      "source": [
-        {
-          "file": "Food Soup.txt",
-          "recipe": "Make Pot of Rice Pudding",
-          "input": "Rice/HCRicebrown,"
         }
       ]
     },
@@ -7673,7 +7289,8 @@
           "recipe": "Juice Grapes Into Wooden Bucket",
           "input": "Grapes=16,"
         }
-      ]
+      ],
+      "after": "item 16 [Base.Grapes] flags[ItemCount;AllowRottenItem],"
     },
     {
       "file": "HCR_Winemaking.txt",
@@ -7685,19 +7302,8 @@
           "recipe": "Juice Grapes Into Wooden Bucket",
           "input": "HCGrapesgreen=16,"
         }
-      ]
-    },
-    {
-      "file": "HCR_Winemaking.txt",
-      "recipe": "Fill Barrel with Rice Mash",
-      "input": "item 3 [Hydrocraft.HCPotofricemashcooked],",
-      "source": [
-        {
-          "file": "Winemaking.txt",
-          "recipe": "Fill Barrel with Rice Mash",
-          "input": "HCPotofricemashcooked=3,"
-        }
-      ]
+      ],
+      "after": "item 16 [Hydrocraft.HCGrapesgreen] flags[ItemCount;AllowRottenItem],"
     }
   ],
   "protected_partial_inputs": [
@@ -7739,22 +7345,7 @@
     {
       "file": "HCR_Food Bar.txt",
       "recipe": "Mix Daquiri",
-      "input": "item 2 [Hydrocraft.HCLimemixer],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Daquiri",
       "input": "item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Bloody Mary",
-      "input": "item 5 [Hydrocraft.HCBloodymarymixer],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Whiskey Sour",
-      "input": "item 2 [Hydrocraft.HCLemonmixer],"
     },
     {
       "file": "HCR_Food Bar.txt",
@@ -7764,22 +7355,7 @@
     {
       "file": "HCR_Food Bar.txt",
       "recipe": "Mix Mai Tai",
-      "input": "item 2 [Hydrocraft.HCLimemixer],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Mai Tai",
       "input": "item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Cosmopolitan",
-      "input": "item 2 [Hydrocraft.HCLimemixer],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Tom Collins",
-      "input": "item 2 [Hydrocraft.HCLemonmixer],"
     },
     {
       "file": "HCR_Food Bar.txt",
@@ -7789,27 +7365,7 @@
     {
       "file": "HCR_Food Bar.txt",
       "recipe": "Mix Long Island Iced Tea",
-      "input": "item 2 [Hydrocraft.HCRum1],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Long Island Iced Tea",
-      "input": "item 2 [Hydrocraft.HCLemonmixer],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Long Island Iced Tea",
-      "input": "item 2 [Hydrocraft.HCLimemixer],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Long Island Iced Tea",
       "input": "item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Gimlet",
-      "input": "item 2 [Hydrocraft.HCLimemixer],"
     },
     {
       "file": "HCR_Food Bar.txt",
@@ -7819,27 +7375,7 @@
     {
       "file": "HCR_Food Bar.txt",
       "recipe": "Mix Planter's Punch",
-      "input": "item 2 [Hydrocraft.HCLemonmixer],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Planter's Punch",
       "input": "item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Whiskey and Coke",
-      "input": "item 1 [Base.Pop;Base.Pop2;Hydrocraft.HCSodacola],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Margarita",
-      "input": "item 2 [Hydrocraft.HCTequila],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Mix Margarita",
-      "input": "item 2 [Hydrocraft.HCLemonmixer],"
     },
     {
       "file": "HCR_Food Bar.txt",
@@ -7862,66 +7398,6 @@
       "input": "item 2 [Hydrocraft.HCHotsauce;Hydrocraft.HCSriracha],"
     },
     {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Cocktail Glass of Gin",
-      "input": "item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Short Glass of Gin",
-      "input": "item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Tall Glass of Gin",
-      "input": "item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Short Glass of Whiskey",
-      "input": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Tall Glass of Whiskey",
-      "input": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Cocktail Glass of Whiskey",
-      "input": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Cocktail Glass of Vodka",
-      "input": "item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Short Glass of Vodka",
-      "input": "item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Tall Glass of Vodka",
-      "input": "item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Short Glass of Rum",
-      "input": "item 2 [Hydrocraft.HCRum1],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Tall Glass of Rum",
-      "input": "item 2 [Hydrocraft.HCRum1],"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Cocktail Glass of Rum",
-      "input": "item 2 [Hydrocraft.HCRum1],"
-    },
-    {
       "file": "HCR_Food BBQ.txt",
       "recipe": "Make Fried Frogs Legs",
       "input": "item 1 [Base.Salt],"
@@ -7939,7 +7415,10 @@
     {
       "file": "HCR_Food Dairy.txt",
       "recipe": "Pour into Carton",
-      "input": "item 10 [Hydrocraft.HCMilkjug],"
+      "input": "item 10 [Hydrocraft.HCMilkjug],",
+      "supersededBy": "milk-chain-1.6",
+      "litresPerUse": 0.1,
+      "basis": "The original jug has HungerChange -20 and two 10-use carton fills; full migrated jug holds 2 L. The native route withdraws 1 L and retains the donor."
     },
     {
       "file": "HCR_Food Dairy.txt",
@@ -8094,17 +7573,23 @@
     {
       "file": "HCR_Food Drinks.txt",
       "recipe": "Pour Black Coffee into Mug",
-      "input": "item 5 [Hydrocraft.HCKettlecoffee],"
+      "input": "item 5 [Hydrocraft.HCKettlecoffee],",
+      "supersededBy": "brewed-drinks-1.6",
+      "deviation": "Native vessel volume .2 L mug / 1.4 L thermos; donor and actual properties retained instead of fixed Food output."
     },
     {
       "file": "HCR_Food Drinks.txt",
       "recipe": "Pour Black Coffee into Mug (Cup of Black Coffee)",
-      "input": "item 5 [Hydrocraft.HCKettlecoffee],"
+      "input": "item 5 [Hydrocraft.HCKettlecoffee],",
+      "supersededBy": "brewed-drinks-1.6",
+      "deviation": "Native vessel volume .2 L mug / 1.4 L thermos; donor and actual properties retained instead of fixed Food output."
     },
     {
       "file": "HCR_Food Drinks.txt",
       "recipe": "Pour Black Coffee into Thermos",
-      "input": "item 10 [Hydrocraft.HCKettlecoffee],"
+      "input": "item 10 [Hydrocraft.HCKettlecoffee],",
+      "supersededBy": "brewed-drinks-1.6",
+      "deviation": "Native vessel volume .2 L mug / 1.4 L thermos; donor and actual properties retained instead of fixed Food output."
     },
     {
       "file": "HCR_Food Drinks.txt",
@@ -8139,26 +7624,27 @@
     {
       "file": "HCR_Food Drinks.txt",
       "recipe": "Add Milk From Jug",
-      "input": "item 1 [Hydrocraft.HCMilkjug],"
+      "input": "item 1 [Hydrocraft.HCMilkjug],",
+      "supersededBy": "brewed-drinks-1.6",
+      "deviation": "User decision: .1 L coffee + .1 L milk into empty mug; .7 L each for thermos; both donors kept."
     },
     {
       "file": "HCR_Food Drinks.txt",
       "recipe": "Add Milk From Jug (Cup of Coffee with Sugar and Milk)",
-      "input": "item 1 [Hydrocraft.HCMilkjug],"
+      "input": "item 1 [Hydrocraft.HCMilkjug],",
+      "supersededBy": "brewed-drinks-1.6",
+      "deviation": "User decision: .1 L coffee + .1 L milk into empty mug; .7 L each for thermos; both donors kept."
     },
     {
       "file": "HCR_Food Drinks.txt",
       "recipe": "Add Milk From Jug (Thermos of Coffee with Sugar and Milk)",
-      "input": "item 2 [Hydrocraft.HCMilkjug],"
+      "input": "item 2 [Hydrocraft.HCMilkjug],",
+      "supersededBy": "brewed-drinks-1.6",
+      "deviation": "User decision: .1 L coffee + .1 L milk into empty mug; .7 L each for thermos; both donors kept."
     },
     {
       "file": "HCR_Food Flour.txt",
       "recipe": "Make Pumpkin Bread Dough",
-      "input": "item 1 [Base.Salt],"
-    },
-    {
-      "file": "HCR_Food Flour.txt",
-      "recipe": "Prepare Cornbread",
       "input": "item 1 [Base.Salt],"
     },
     {
@@ -8390,6 +7876,629 @@
       "file": "HCR_Food Taters.txt",
       "recipe": "Bake Potato",
       "input": "item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar;Base.Butter],"
+    }
+  ],
+  "superseded_migrations": [
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee",
+      "input": "item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Brew Irish Coffee",
+          "input": "HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee)",
+      "input": "item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Brew Irish Coffee",
+          "input": "HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 2)",
+      "input": "item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Brew Irish Coffee",
+          "input": "HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 3)",
+      "input": "item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Brew Irish Coffee",
+          "input": "HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Old Fashioned",
+      "input": "item 1 [Hydrocraft.HCDrinkglassshortwhiskey],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Old Fashioned",
+          "input": "HCDrinkglassshortwhiskey,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Martini",
+      "input": "item 1 [Hydrocraft.HCDrinkcocktailglassgin],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Martini",
+          "input": "HCDrinkcocktailglassgin,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Manhattan",
+      "input": "item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Manhattan",
+          "input": "HCDrinkcocktailglasswhiskey,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Bloody Mary",
+      "input": "item 1 [Hydrocraft.HCDrinkglasstallvodka],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Bloody Mary",
+          "input": "HCDrinkglasstallvodka,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Whiskey Sour",
+      "input": "item 1 [Hydrocraft.HCDrinkglassshortwhiskey],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Whiskey Sour",
+          "input": "HCDrinkglassshortwhiskey,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Cosmopolitan",
+      "input": "item 1 [Hydrocraft.HCDrinkcocktailglassvodka],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Cosmopolitan",
+          "input": "HCDrinkcocktailglassvodka,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Tom Collins",
+      "input": "item 1 [Hydrocraft.HCDrinkglasstallgin],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Tom Collins",
+          "input": "HCDrinkglasstallgin,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Long Island Iced Tea",
+      "input": "item 1 [Hydrocraft.HCDrinkglasstallvodka],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Long Island Iced Tea",
+          "input": "HCDrinkglasstallvodka,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Gimlet",
+      "input": "item 1 [Hydrocraft.HCDrinkcocktailglassgin],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Gimlet",
+          "input": "HCDrinkcocktailglassgin,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Whiskey and Coke",
+      "input": "item 1 [Hydrocraft.HCDrinkglasstallwhiskey],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Whiskey and Coke",
+          "input": "HCDrinkglasstallwhiskey,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Daquiri",
+      "input": "item 1 [Hydrocraft.HCDrinkcocktailglassrum],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Daquiri",
+          "input": "HCDrinkcocktailglassrum,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Mai Tai",
+      "input": "item 1 [Hydrocraft.HCDrinkglassshortrum],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Mai Tai",
+          "input": "HCDrinkglassshortrum,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Planter's Punch",
+      "input": "item 1 [Hydrocraft.HCDrinkglassshortrum],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Mix Planter's Punch",
+          "input": "HCDrinkglassshortrum,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Monkey Tail Pot",
+      "input": "item 1 [Hydrocraft.HCAguaardiente],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Make Monkey Tail Pot",
+          "input": "HCAguaardiente,"
+        }
+      ],
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Eggnog Cuppa",
+      "input": "item 1 [Hydrocraft.HCEggnogpot],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Make Eggnog Cuppa",
+          "input": "HCEggnogpot,"
+        }
+      ],
+      "supersededBy": "milk-cocktail-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Eggnog Bottle",
+      "input": "item 1 [Hydrocraft.HCEggnogpot],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Make Eggnog Bottle",
+          "input": "HCEggnogpot,"
+        }
+      ],
+      "supersededBy": "milk-cocktail-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Monkey Tail Mug",
+      "input": "item 1 [Hydrocraft.HCColademonopot],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Make Monkey Tail Mug",
+          "input": "HCColademonopot,"
+        }
+      ],
+      "supersededBy": "milk-cocktail-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Monkey Tail Bottle",
+      "input": "item 1 [Hydrocraft.HCColademonopot],",
+      "source": [
+        {
+          "file": "Food Bar.txt",
+          "recipe": "Make Monkey Tail Bottle",
+          "input": "HCColademonopot,"
+        }
+      ],
+      "supersededBy": "milk-cocktail-1.6"
+    },
+    {
+      "file": "HCR_Food Mexican.txt",
+      "recipe": "Make Nacho Cheese",
+      "input": "item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese],",
+      "source": [
+        {
+          "file": "Food Mexican.txt",
+          "recipe": "Make Nacho Cheese",
+          "input": "HCGratedcheese/HCGratedcheddar/Processedcheese,"
+        }
+      ],
+      "supersededBy": "unified-milk-1.6"
+    },
+    {
+      "file": "HCR_Food Pastry.txt",
+      "recipe": "Make Fruit Cake Batter",
+      "input": "item 2 [Hydrocraft.HCDriedfruit],",
+      "source": [
+        {
+          "file": "Food Pastry.txt",
+          "recipe": "Make Fruit Cake Batter",
+          "input": "HCDriedfruit=2,"
+        }
+      ],
+      "supersededBy": "unified-milk-1.6"
+    },
+    {
+      "file": "HCR_Food Rice.txt",
+      "recipe": "Make Pot of Rice Pudding",
+      "input": "item 1 [Base.Rice;Hydrocraft.HCRicebrown],",
+      "source": [
+        {
+          "file": "Food Soup.txt",
+          "recipe": "Make Pot of Rice Pudding",
+          "input": "Rice/HCRicebrown,"
+        }
+      ],
+      "supersededBy": "unified-milk-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Fill Barrel with Potato Mash",
+      "input": "item 3 [Hydrocraft.HCPotofpotatomashcooked],",
+      "source": [
+        {
+          "file": "Distillery.txt",
+          "recipe": "Fill Barrel with Potato Mash",
+          "input": "HCPotofpotatomashcooked=3,"
+        }
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Fill Barrel with Blue Agave Mash",
+      "input": "item 3 [Hydrocraft.HCPotofblueagavemashcooked],",
+      "source": [
+        {
+          "file": "Distillery.txt",
+          "recipe": "Fill Barrel with Blue Agave Mash",
+          "input": "HCPotofblueagavemashcooked=3,"
+        }
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Fill Barrel with Apple Mash",
+      "input": "item 3 [Hydrocraft.HCPotofapplemashcooked],",
+      "source": [
+        {
+          "file": "Distillery.txt",
+          "recipe": "Fill Barrel with Apple Mash",
+          "input": "HCPotofapplemashcooked=3,"
+        }
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Fill Barrel with Peach Mash",
+      "input": "item 3 [Hydrocraft.HCPotofpeachmashcooked],",
+      "source": [
+        {
+          "file": "Distillery.txt",
+          "recipe": "Fill Barrel with Peach Mash",
+          "input": "HCPotofpeachmashcooked=3,"
+        }
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Fill Barrel with Pumpkin Mash",
+      "input": "item 3 [Hydrocraft.HCPotofpumpkinmashcooked],",
+      "source": [
+        {
+          "file": "Distillery.txt",
+          "recipe": "Fill Barrel with Pumpkin Mash",
+          "input": "HCPotofpumpkinmashcooked=3,"
+        }
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Fill Barrel with Juniper Berry Mash",
+      "input": "item 3 [Hydrocraft.HCPotofjunipermashcooked],",
+      "source": [
+        {
+          "file": "Distillery.txt",
+          "recipe": "Fill Barrel with Juniper Berry Mash",
+          "input": "HCPotofjunipermashcooked=3,"
+        }
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Fill Barrel with Corn Mash",
+      "input": "item 3 [Hydrocraft.HCPotofcornmashcooked],",
+      "source": [
+        {
+          "file": "Distillery.txt",
+          "recipe": "Fill Barrel with Corn Mash",
+          "input": "HCPotofcornmashcooked=3,"
+        }
+      ],
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Fill Barrel with Rice Mash",
+      "input": "item 3 [Hydrocraft.HCPotofricemashcooked],",
+      "source": [
+        {
+          "file": "Winemaking.txt",
+          "recipe": "Fill Barrel with Rice Mash",
+          "input": "HCPotofricemashcooked=3,"
+        }
+      ],
+      "after": "item 3 [Hydrocraft.HCPotofricemashcooked] flags[ItemCount;AllowRottenItem],",
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Fill Barrel with Honey Brew",
+      "input": "item 3 [Hydrocraft.HCPotofhoneybrewcooked],",
+      "source": [
+        {
+          "file": "Winemaking.txt",
+          "recipe": "Fill Barrel with Honey Brew",
+          "input": "HCPotofhoneybrewcooked=3,"
+        }
+      ],
+      "after": "item 3 [Hydrocraft.HCPotofhoneybrewcooked] flags[ItemCount;AllowRottenItem],",
+      "supersededBy": "mash-chains-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Fill Barrel with Flour Mash",
+      "input": "item 3 [Hydrocraft.HCPotofflourmashcooked],",
+      "source": [
+        {
+          "file": "Distillery.txt",
+          "recipe": "Fill Barrel with Flour Mash",
+          "input": "HCPotofflourmashcooked=3,"
+        }
+      ],
+      "supersededBy": "mash-chains-1.6"
+    }
+  ],
+  "superseded_protected_partial_inputs": [
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Whiskey and Coke",
+      "input": "item 1 [Base.Pop;Base.Pop2;Hydrocraft.HCSodacola],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Margarita",
+      "input": "item 2 [Hydrocraft.HCTequila],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Cocktail Glass of Gin",
+      "input": "item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Short Glass of Gin",
+      "input": "item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Tall Glass of Gin",
+      "input": "item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Short Glass of Whiskey",
+      "input": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Tall Glass of Whiskey",
+      "input": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Cocktail Glass of Whiskey",
+      "input": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Cocktail Glass of Vodka",
+      "input": "item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Short Glass of Vodka",
+      "input": "item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Tall Glass of Vodka",
+      "input": "item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Long Island Iced Tea",
+      "input": "item 2 [Hydrocraft.HCRum1],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Short Glass of Rum",
+      "input": "item 2 [Hydrocraft.HCRum1],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Tall Glass of Rum",
+      "input": "item 2 [Hydrocraft.HCRum1],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Cocktail Glass of Rum",
+      "input": "item 2 [Hydrocraft.HCRum1],",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Daquiri",
+      "input": "item 2 [Hydrocraft.HCLimemixer],",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Bloody Mary",
+      "input": "item 5 [Hydrocraft.HCBloodymarymixer],",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Whiskey Sour",
+      "input": "item 2 [Hydrocraft.HCLemonmixer],",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Mai Tai",
+      "input": "item 2 [Hydrocraft.HCLimemixer],",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Cosmopolitan",
+      "input": "item 2 [Hydrocraft.HCLimemixer],",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Tom Collins",
+      "input": "item 2 [Hydrocraft.HCLemonmixer],",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Long Island Iced Tea",
+      "input": "item 2 [Hydrocraft.HCLemonmixer],",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Long Island Iced Tea",
+      "input": "item 2 [Hydrocraft.HCLimemixer],",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Gimlet",
+      "input": "item 2 [Hydrocraft.HCLimemixer],",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Planter's Punch",
+      "input": "item 2 [Hydrocraft.HCLemonmixer],",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Mix Margarita",
+      "input": "item 2 [Hydrocraft.HCLemonmixer],",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Flour.txt",
+      "recipe": "Prepare Cornbread",
+      "input": "item 1 [Base.Salt],",
+      "supersededBy": "unified-milk-1.6"
     }
   ]
 }

@@ -338,6 +338,7 @@ module Hydrocraft
     }
     craftRecipe Grow Spirulina in Tank
     {
+        OnTest = HCRFluidRecipes.Test_4482564fac60,
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Farming,
@@ -347,7 +348,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCSpirulinaseeds;Hydrocraft.HCSpirulinafresh],
-            item 1 [Hydrocraft.HCFishtank],
+            item 1 [Hydrocraft.HCFishtank;Hydrocraft.HCFishtankFluid] flags[ItemCount;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 1 [Water],
             item 1 [Hydrocraft.HCGardenbench] mode:keep,

@@ -1,14 +1,15 @@
 require "Items/SuburbsDistributions"
 require "Items/ItemPicker"
+require "HCR_SandboxLoot"
 HCSprites = {}
 
 SuburbsDistributions = SuburbsDistributions or {}
+local originalContainers={}
+for key,value in pairs(SuburbsDistributions) do originalContainers[key]=value end
 
 local function insertInto(table1, table2)
 	if type(table1) ~= "table" or type(table2) ~= "table" then return end
-	for k,v in pairs(table2) do
-		table.insert(table1, v)
-	end
+	HCRSandboxLoot.append(table1,table2)
 end
 
 --Ensures exisance of graphics.
@@ -27,10 +28,7 @@ local function HCR42_items(f)
 end
 local function insertTable(t1, t2)
         if type(t1) ~= "table" or type(t2) ~= "table" then return end
-        local n = #t1
-        for i=1,#t2 do 
-                t1[n+i] = t2[i]
-        end
+        HCRSandboxLoot.append(t1,t2)
 end
 
 --TODO: put this list in alphabetical order.
@@ -907,6 +905,12 @@ SuburbsDistributions["petshop"] = {
         },
 };
 
+
+-- Регистрируем только созданные этим файлом таблицы, включая ванильные ID
+-- внутри собственных наборов HC. Общие vanilla таблицы сюда не попадают.
+for key,value in pairs(SuburbsDistributions) do
+    if originalContainers[key]~=value then HCRSandboxLoot.registerTree(value) end
+end
 
 Events.OnPreMapLoad.Add(HCSprites.getSprites);
 

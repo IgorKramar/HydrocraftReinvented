@@ -1153,6 +1153,7 @@ module Hydrocraft
     }
     craftRecipe Make Laboratory
     {
+        OnTest = HCRFluidRecipes.Test_070badf5f373,
         time = 400,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -1167,10 +1168,10 @@ module Hydrocraft
             item 1 [Hydrocraft.HCEyedropper],
             item 1 [Hydrocraft.HCGlasstesttube],
             item 1 [Hydrocraft.HCThermometer],
-            item 3 [Hydrocraft.HCGlassflask],
-            item 3 [Hydrocraft.HCGlassbeaker],
+            item 3 [Hydrocraft.HCGlassflask;Hydrocraft.HCGlassflaskFluid] flags[ItemCount;IsEmpty],
+            item 3 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCGlassgraduatedcylinder],
-            item 1 [Hydrocraft.HCWashbottle],
+            item 1 [Hydrocraft.HCWashbottle;Hydrocraft.HCWashbottleFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCTesttuberackcorks],
             item 1 [Hydrocraft.HCRingstandclamp],
             item 1 [Hydrocraft.HCBunsenburner],

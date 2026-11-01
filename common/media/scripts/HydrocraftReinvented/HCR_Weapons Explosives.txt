@@ -704,6 +704,7 @@ module Hydrocraft
     }
     craftRecipe Make Thermite Bomb
     {
+        OnTest = HCRFluidRecipes.Test_5aa5dad09cf3,
         time = 100,
         Tags = AnySurfaceCraft,
         category = Engineer,
@@ -712,7 +713,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCThermite],
-            item 1 [Hydrocraft.HCTincan],
+            item 1 [Hydrocraft.HCTincan;Hydrocraft.HCTincanFluid] flags[ItemCount;IsEmpty],
             item 1 [Base.Sparklers],
         }
         outputs
@@ -735,7 +736,7 @@ module Hydrocraft
             -fluid 0.01 [CleaningLiquid],
             item 1 [Base.Plasticbag;Base.Garbagebag],
             item 1 [Base.DuctTape;Base.Scotchtape;Hydrocraft.HCMaskingtape;Hydrocraft.HCPackingtape;Hydrocraft.HCElectrictape],
-            item 1 [Base.WaterBottle;Base.PopBottle] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Base.WaterBottle;Base.PopBottle;Hydrocraft.HCSodacherryFluid;Hydrocraft.HCSodacolaFluid;Hydrocraft.HCSodacreamFluid;Hydrocraft.HCSodadrpepperFluid;Hydrocraft.HCSodagingeraleFluid;Hydrocraft.HCSodagrapeFluid;Hydrocraft.HCSodagrapefruitFluid;Hydrocraft.HCSodalemonlimeFluid;Hydrocraft.HCSodapineappleFluid;Hydrocraft.HCSodarootbeerFluid] flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Hydrocraft.HCDetonatormk1],
         }
         outputs
@@ -745,6 +746,7 @@ module Hydrocraft
     }
     craftRecipe Put Stone in Tin Can
     {
+        OnTest = HCRFluidRecipes.Test_0567924028bd,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Engineer,
@@ -752,7 +754,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Stone2],
-            item 1 [Hydrocraft.HCTincan],
+            item 1 [Hydrocraft.HCTincan;Hydrocraft.HCTincanFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {

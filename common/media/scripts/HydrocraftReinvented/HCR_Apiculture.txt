@@ -363,6 +363,7 @@ module Hydrocraft
     }
     craftRecipe Process Honeycomb
     {
+        OnTest = HCRFluidRecipes.Test_7f46ead2cda5,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -372,7 +373,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcbeeswax,
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 4 [Hydrocraft.HCHoneycomb],
         }
         outputs
@@ -401,6 +402,7 @@ module Hydrocraft
     }
     craftRecipe Make Bee Smoker
     {
+        OnTest = HCRFluidRecipes.Test_99dcf50d5bec,
         time = 150,
         Tags = AnySurfaceCraft,
         category = Farming,
@@ -408,7 +410,7 @@ module Hydrocraft
         NeedToBeLearn = true,
         inputs
         {
-            item 2 [Hydrocraft.HCTincan],
+            item 2 [Hydrocraft.HCTincan;Hydrocraft.HCTincanFluid] flags[ItemCount;IsEmpty],
             item 1 [Base.Bellows],
             item 1 [Hydrocraft.HCWeldingset],
             item 1 tags[base:weldingmask] mode:keep,
@@ -497,6 +499,7 @@ module Hydrocraft
     }
     craftRecipe Empty Wooden Bucket with Honey
     {
+        OnTest = HCRFluidRecipes.Test_971e48a7184a,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Farming,
@@ -507,7 +510,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucket,
+            item 1 Hydrocraft.HCWoodenbucketFluid,
         }
     }
 }

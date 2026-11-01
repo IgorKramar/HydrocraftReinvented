@@ -1,3 +1,5 @@
+require "HCR_Sandbox"
+
 function recipe_NDPlantsHarvest(items, result, player)
 	local plant=nil;
 	local plantName = "";
@@ -150,6 +152,8 @@ function recipe_NDPlantsHarvest(items, result, player)
 
 	--Item giving
 	--Main produce
+	local producedType=namespace..(altName~="" and altName or plantName)
+	if not HCRSandbox.itemEnabled(producedType) then prodCount=0 end
 	local counter = 0;
 	while counter < prodCount do
 		if altName ~= "" then

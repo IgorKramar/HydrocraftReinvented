@@ -224,6 +224,8 @@ module Hydrocraft
     }
     craftRecipe Make Pot of Rice Pudding
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_1864ca7aa3fc,
         time = 95,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -232,37 +234,18 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Base.Pot] mode:destroy flags[ItemCount],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [Base.Rice;Hydrocraft.HCRicebrown] flags[ItemCount],
             item 1 [Base.Sugar],
-            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,
         }
         outputs
         {
             item 1 Hydrocraft.HCRicepuddingpot,
         }
     }
-    craftRecipe Make Pot of Rice Pudding (Carton Milk)
-    {
-        time = 95,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        SkillRequired = Cooking:1,
-        xpAward = Cooking:4,
-        inputs
-        {
-            item 1 [Base.Pot] mode:destroy flags[ItemCount],
-            item 1 [Base.Rice;Hydrocraft.HCRicebrown] flags[ItemCount],
-            item 1 [Base.Sugar],
-            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 1.0 [CowMilk],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCRicepuddingpot,
-        }
-    }
+
     craftRecipe Fill Rice Pudding into Bowls
     {
         time = 50,

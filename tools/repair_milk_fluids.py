@@ -11,6 +11,18 @@ from hcr_paths import SCRIPTS, LUA, read_text
 MANIFEST = Path(__file__).with_name('milk_fluid_migrations.json')
 
 
+def align_water_callback(expected, actual):
+    """Different recipe names have different hashes, but identical guards."""
+    pattern = r'OnTest\s*=\s*HCRFluidRecipes\.Test_(\w+)'
+    a, b = re.search(pattern, expected), re.search(pattern, actual)
+    if not a or not b or a[1] == b[1]: return expected
+    rules = json.loads(Path(__file__).with_name('water_recipe_rules.json').read_text(encoding='utf-8'))
+    semantic = lambda row: {k:v for k,v in row.items() if k not in ('name','file')}
+    if semantic(rules[a[1]]) != semantic(rules[b[1]]):
+        raise RuntimeError('Milk variants have different water guards')
+    return expected.replace(a[0], b[0], 1)
+
+
 def native_lines(row):
     return ('item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],\n'
             '            -fluid ' + str(row['litres']) + ' [CowMilk],')
@@ -18,6 +30,9 @@ def native_lines(row):
 
 def apply(check=False):
     data=json.loads(MANIFEST.read_text(encoding='utf-8'))
+    newer_path=MANIFEST.with_name('milk_chains.json')
+    newer=json.loads(newer_path.read_text(encoding='utf-8')) if newer_path.exists() else {}
+    brewed=json.loads(MANIFEST.with_name('brewed_drink_rules.json').read_text(encoding='utf-8'))
     by_file=defaultdict(dict)
     for row in data['migrations']:by_file[row['file']][row['recipe']]=row
     changes=[]
@@ -29,6 +44,18 @@ def apply(check=False):
         for a,z,name,body in reversed(list(blocks(old,'craftRecipe'))):
             if name not in rows:continue
             row=rows[name];found.add(name);before=row['input']
+            if row.get('superseded_by')=='unified_milk_1_6':
+                assert row['native_recipe']==name and row['previous_native_recipe'] not in names,name
+                assert '-fluid ' in body and 'HCRMilkSoy' in body,name
+                continue
+            if row.get('superseded_by')=='brewed_drinks':
+                assert name in brewed and 'OnCreate = HCRBrewedDrinks.create,' in body,name
+                continue
+            if row.get('native_recipe') in newer:
+                # Объёмы/guard теперь принадлежат явному каталогу 1.6.
+                if row['kind']=='split_food_or' and before.replace('[Base.Milk;','[') not in body:
+                    raise RuntimeError('Legacy milk alternative changed: '+name)
+                continue
             if row['kind']=='split_food_or':
                 food=before.replace('[Base.Milk;','[')
                 if before not in body:
@@ -53,20 +80,22 @@ def apply(check=False):
         # original recipe after splitting. Derive each variant from that current
         # original, so all non-milk fields/flags stay identical.
         originals={name:body for _,_,name,body in blocks(new,'craftRecipe')}
-        split_rows={row['native_recipe']:row for row in rows.values() if row['kind']=='split_food_or'}
+        split_rows={row['native_recipe']:row for row in rows.values() if row['kind']=='split_food_or' and row.get('superseded_by')!='unified_milk_1_6'}
         for a,z,name,body in reversed(list(blocks(new,'craftRecipe'))):
             if name not in split_rows:continue
+            if name in newer:continue
             row=split_rows[name]
             food=row['input'].replace('[Base.Milk;','[')
             expected=originals[row['recipe']].replace('craftRecipe '+row['recipe'],'craftRecipe '+name,1)
             expected=expected.replace(food,native_lines(row),1)
+            expected=align_water_callback(expected, body)
             if expected!=body:
                 if check:raise RuntimeError('Milk variant differs from current original: '+name)
                 new=new[:a]+expected+new[z:]
         if old!=new:changes.append((path,old,new))
 
     # Keep newly split learned recipes beside the same existing teaching links.
-    split={row['recipe']:row['native_recipe'] for row in data['migrations'] if row['kind']=='split_food_or'}
+    split={row['recipe']:row['native_recipe'] for row in data['migrations'] if row['kind']=='split_food_or' and row.get('superseded_by')!='unified_milk_1_6'}
     def teach(match):
         names=[name.strip() for name in match[2].split(';')]
         extra=[target for source,target in split.items() if source in names and target not in names]

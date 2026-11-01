@@ -564,6 +564,8 @@ module Hydrocraft
     }
     craftRecipe Prepare Jarred Apples
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_5dd93db40266,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -573,7 +575,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pot] mode:destroy flags[ItemCount],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 1 [Base.Sugar],
             item 8 [Hydrocraft.HCSlicedapple] flags[ItemCount],
         }
@@ -621,6 +625,8 @@ module Hydrocraft
     }
     craftRecipe Prepare Jarred Peaches
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_47b03c434d48,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -630,7 +636,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pot] mode:destroy flags[ItemCount],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 1 [Base.Sugar],
             item 2 [Base.Peach] flags[ItemCount],
         }
@@ -679,6 +687,8 @@ module Hydrocraft
     }
     craftRecipe Prepare Jarred Oranges
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_d5b1c5610c79,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -688,7 +698,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pot] mode:destroy flags[ItemCount],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 1 [Base.Sugar],
             item 8 [Hydrocraft.HCSlicedorange] flags[ItemCount],
         }
@@ -718,6 +730,8 @@ module Hydrocraft
     }
     craftRecipe Prepare Jarred Lemons
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_0373a28ddc86,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -727,7 +741,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pot] mode:destroy flags[ItemCount],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 1 [Base.Sugar],
             item 8 [Hydrocraft.HCSlicedlemon] flags[ItemCount],
         }
@@ -757,6 +773,8 @@ module Hydrocraft
     }
     craftRecipe Prepare Jarred Limes
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_6cf85b1c6862,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -766,7 +784,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pot] mode:destroy flags[ItemCount],
-            item 1 [Hydrocraft.HCLimejuicebowl;Hydrocraft.HCLimejuicebottle],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLime] mode:primary,
             item 1 [Base.Sugar],
             item 8 [Hydrocraft.HCSlicedlime] flags[ItemCount],
         }
@@ -796,6 +816,8 @@ module Hydrocraft
     }
     craftRecipe Prepare Jarred Grapes
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_667676b1d5d6,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -805,7 +827,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pot] mode:destroy flags[ItemCount],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 1 [Base.Sugar],
             item 2 [Base.Grapes] flags[ItemCount],
         }
@@ -835,6 +859,8 @@ module Hydrocraft
     }
     craftRecipe Prepare Jarred Berries
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_048a32ff81b5,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -844,7 +870,9 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Pot] mode:destroy flags[ItemCount],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 1 [Base.Sugar],
             item 1 [Hydrocraft.HCBunchofberries] flags[ItemCount],
         }

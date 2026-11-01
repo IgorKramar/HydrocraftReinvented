@@ -84,13 +84,8 @@ local function GenericBurn(items, result, player, burnPower)
 	end
 
 	--Sandbox values: 1 = full, 2 = 50%, 3 = None
-	-- Опции песочницы Hydrocraft в B42 не объявлены (файл потерян при порте,
-	-- в Sandbox.json остались только переводы), поэтому SandboxVars.Hydrocraft
-	-- равен nil и обращение к полю напрямую роняет обработчик. Защита — как
-	-- в ProceduralDistributions_HC.lua. Без опции действует значение
-	-- по умолчанию: урон полный.
-	local hcSandbox = SandboxVars and SandboxVars.Hydrocraft
-	local burnDamage = hcSandbox and hcSandbox.BurnDamage
+	require "HCR_Sandbox"
+	local burnDamage = HCRSandbox.value("BurnDamage")
 	if(burnDamage ~= nil) then
 		if(burnDamage == 2) then --50%
 			burnPower = burnPower / 2

@@ -1,0 +1,99 @@
+module Hydrocraft
+{
+    item HCLemonmixerFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Lemon Mixer,
+        Icon = HCLemonmixer,
+        Weight = 0.2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCLimemixerFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Lime Mixer,
+        Icon = HCLimemixer,
+        Weight = 0.2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBloodymarymixerFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Bloody Mary Mixer,
+        Icon = HCBloodymarymixer,
+        Weight = 0.2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBittersFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Bottle of Bitters,
+        Icon = HCBitters,
+        Weight = 0.2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCVermouthFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Bottle of Vermouth,
+        Icon = HCVermouth,
+        Weight = 0.2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCTriplesecFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Bottle of Triple Sec,
+        Icon = HCTriplesec,
+        Weight = 0.2,
+        EatType = Bourbon,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+}

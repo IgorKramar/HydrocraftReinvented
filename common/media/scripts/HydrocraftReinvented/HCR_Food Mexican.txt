@@ -771,6 +771,8 @@ module Hydrocraft
     }
     craftRecipe Make Nacho Cheese
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_51784debce91,
         time = 75,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -781,7 +783,8 @@ module Hydrocraft
         inputs
         {
             item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
-            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,
             item 1 [Base.Butter],
             item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
             item 1 [Base.Bowl] mode:keep,
@@ -792,30 +795,7 @@ module Hydrocraft
             item 1 Hydrocraft.HCNachobowl,
         }
     }
-    craftRecipe Make Nacho Cheese (Carton Milk)
-    {
-        time = 75,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        SkillRequired = Cooking:2,
-        xpAward = Cooking:3,
-        inputs
-        {
-            item 1 [Base.Flour2;Hydrocraft.HCRiceflour],
-            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 1.0 [CowMilk],
-            item 1 [Base.Butter],
-            item 1 [Hydrocraft.HCGratedcheese;Hydrocraft.HCGratedcheddar;Base.Processedcheese] flags[ItemCount],
-            item 1 [Base.Bowl] mode:keep,
-            item 1 [Base.KitchenKnife] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCNachobowl,
-        }
-    }
+
     craftRecipe Open Bag of Corn Tortillas
     {
         time = 15,

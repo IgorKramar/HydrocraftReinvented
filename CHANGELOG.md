@@ -6,6 +6,19 @@
 
 ## Русский
 
+### В разработке — 1.6.0 «Живая вода»
+
+- Первая native FluidContainer группа: кожаная фляга 1.4л, крафт пустого предмета,
+  вода/неочищенная вода, старые ID сохранены для безопасного чтения сейвов.
+- Перенос старых запасов в SP сохраняет14 порций полной фляги, частичный
+  остаток, состояние и ссылки в руках. Неизвестная чистота переносится как
+  неочищенная вода по выбору пользователя; готовая смесь сохраняется точно.
+- Перенос фляг в MP проверен на локальном сервере и настоящем клиенте:
+  содержимое лежащего предмета передаётся полностью, экипированная фляга
+  переносится после снятия с рук. Дождь проверен в SP с контрольными ёмкостями.
+  Личное имя архивируется, но native UI его не показывает.
+- [Матрица переноса](docs/FLUIDS_1_6_STATUS.md) описывает оставшиеся группы.
+
 ### v1.5.12 — 2026-10-14 — доводка играбельности на 42.21.0
 
 - Восемь новых растений используют исходный ящик из hcBuilding2x без изменения
@@ -261,6 +274,19 @@
 ---
 
 ## English
+
+### Unreleased — 1.6.0 The Fluids Update
+
+- First native FluidContainer family: an empty crafted leather waterflask with
+  1.4L capacity, retaining old IDs for save compatibility.
+- Single-player stock migration preserves integer legacy charges, state and held
+  references. Unknown old water is transferred as unpurified water; existing
+  supported fluid mixtures retain their exact amounts.
+- Flask migration passed a real client/local server check: dropped contents are
+  fully replicated, while equipped stock waits until unequipped. Native rainfall
+  passed an SP check with indoor and disabled-catcher controls. Custom names are
+  archived but hidden by native UI.
+- See the [migration status](docs/FLUIDS_1_6_STATUS.md) for the remaining scope.
 
 ### v1.5.12 — 2026-10-14 — Build 42.21.0 playability update
 

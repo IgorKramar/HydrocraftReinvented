@@ -1,0 +1,21 @@
+module Hydrocraft
+{
+    item HCWineglassFluid
+    {
+        ItemType = base:normal,
+        DisplayName = Wine Glass,
+        DisplayCategory = WaterContainer,
+        Weight = 0.2,
+        Icon = GlassWine,
+        IconFluidMask = GlassWine_Mask,
+        StaticModel = GlassWine_Ground,
+        WorldStaticModel = GlassWine_Ground,
+        Tags = base:glass;base:cookable,
+        component FluidContainer
+        {
+            ContainerName = Glass,
+            Capacity = 0.25,
+            CustomDrinkSound = DrinkingFromMug,
+        }
+    }
+}

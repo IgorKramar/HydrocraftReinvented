@@ -129,6 +129,7 @@ module Hydrocraft
     }
     craftRecipe Put Ammonia In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_2fd17948ed56,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -137,7 +138,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedropperammonia],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -183,6 +184,7 @@ module Hydrocraft
     }
     craftRecipe Remove Ammonia From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_58fbd36661d0,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -196,11 +198,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Put Calciumchloride Solution In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_910938eecf36,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -209,7 +212,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedroppercalciumchloridesolution],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -255,6 +258,7 @@ module Hydrocraft
     }
     craftRecipe Remove Calciumchloride Solution From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_6e0a23bb0dcc,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -268,11 +272,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Put H2O2 In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_4e31686eb92b,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -281,7 +286,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedropperh2o2],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -327,6 +332,7 @@ module Hydrocraft
     }
     craftRecipe Remove H2O2 From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_43c46d85126e,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -340,11 +346,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Put Mercuricoxide In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_8f8e87957e5f,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -353,7 +360,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedroppermercuricoxide],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -399,6 +406,7 @@ module Hydrocraft
     }
     craftRecipe Remove Mercuricoxide From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_8444cbf9942c,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -412,11 +420,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Put Methylamin In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_0d18065e8bf5,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -425,7 +434,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedroppermethylamin],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -471,6 +480,7 @@ module Hydrocraft
     }
     craftRecipe Remove Methylamin From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_2a009ab14566,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -484,11 +494,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Put Morphinhydrochlorid Solution In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_cf80788e77fd,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -497,7 +508,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedroppermorphinhydrochloridsolution],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -543,6 +554,7 @@ module Hydrocraft
     }
     craftRecipe Remove Morphinhydrochlorid Solution From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_0487a8cf5265,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -556,11 +568,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Put Muriatic Acid In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_4a337ea155fc,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -569,7 +582,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedroppermuriaticacid],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -615,6 +628,7 @@ module Hydrocraft
     }
     craftRecipe Remove Muriatic Acid From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_c35c281cb48d,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -628,11 +642,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Put Phenylacetic Acid In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_a363d074dc35,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -641,7 +656,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedropperphenyl],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -687,6 +702,7 @@ module Hydrocraft
     }
     craftRecipe Remove Phenylacetic Acid From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_d0c384c5f475,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -700,11 +716,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Put Sodiumhydroxide Solution In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_2c2a2ed5a72f,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -713,7 +730,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedroppersodiumhydroxidesolution],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -759,6 +776,7 @@ module Hydrocraft
     }
     craftRecipe Remove Sodiumhydroxide Solution From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_8a9fa48ef140,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -772,11 +790,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Put Sulfuric Acid In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_1eb637a4a164,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -785,7 +804,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedroppersulfuricacid],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -831,6 +850,7 @@ module Hydrocraft
     }
     craftRecipe Remove Sulfuric Acid From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_f88de56a2ea2,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -844,11 +864,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Put Trona Solution In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_ceb2ef983301,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -857,7 +878,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedroppertronasulution],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -903,6 +924,7 @@ module Hydrocraft
     }
     craftRecipe Remove Trona Solution From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_5f549851de39,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -916,65 +938,48 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
-    craftRecipe Put Water In Beaker
+craftRecipe Put Water In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_e1af594fa98f,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
         timedAction = Making,
-        OnCreate = HCR42.recipe_hcgeteyedropper,
+        OnCreate = HCRFluidRecipes.Create_e1af594fa98f,
         inputs
         {
-            item 1 [Hydrocraft.HCEyedropperwater],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCEyedropperwater] flags[ItemCount],
+            item 1 [Hydrocraft.HCGlassbeakerFluid] mode:keep flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCBeakerwaterhalf,
         }
     }
-    craftRecipe Put Water In Beaker (Beaker With Water)
+craftRecipe Put Water In Beaker (Beaker With Water)
     {
+        OnTest = HCRFluidRecipes.Test_ba8c5bed3548,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
         timedAction = Making,
-        OnCreate = HCR42.recipe_hcgeteyedropper,
+        OnCreate = HCRFluidRecipes.Create_ba8c5bed3548,
         inputs
         {
-            item 1 [Hydrocraft.HCEyedropperwater],
-            item 1 [Hydrocraft.HCBeakerwaterhalf],
+            item 1 [Hydrocraft.HCEyedropperwater] flags[ItemCount],
+            item 1 [Hydrocraft.HCGlassbeakerFluid] mode:keep,
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCBeakerwater,
         }
     }
-    craftRecipe Remove Water From Beaker
+craftRecipe Remove Water From Beaker
     {
-        time = 50,
-        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
-        category = Health,
-        timedAction = Making,
-        OnCreate = HCR42.recipe_hcgeteyedropperwater,
-        inputs
-        {
-            item 1 [Hydrocraft.HCEyedropper],
-            item 1 [Hydrocraft.HCBeakerwater],
-            item 1 [Hydrocraft.HCLab2] mode:keep,
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCBeakerwaterhalf,
-        }
-    }
-    craftRecipe Remove Water From Beaker (Glass Beaker)
-    {
+        OnTest = HCRFluidRecipes.Test_8425847b7b20,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -982,17 +987,37 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hcgeteyedropperwater,
         inputs
         {
-            item 1 [Hydrocraft.HCEyedropper],
-            item 1 [Hydrocraft.HCBeakerwaterhalf],
+            item 1 [Hydrocraft.HCEyedropper] flags[ItemCount],
+            item 1 [Hydrocraft.HCGlassbeakerFluid] mode:keep,
+                -fluid 0.1 [Water],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+        }
+    }
+craftRecipe Remove Water From Beaker (Glass Beaker)
+    {
+        OnTest = HCRFluidRecipes.Test_837b5fbaa927,
+        time = 50,
+        Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        category = Health,
+        timedAction = Making,
+        OnCreate = HCR42.recipe_hcgeteyedropperwater,
+        inputs
+        {
+            item 1 [Hydrocraft.HCEyedropper] flags[ItemCount],
+            item 1 [Hydrocraft.HCGlassbeakerFluid] mode:keep,
+                -fluid 0.1 [Water],
+            item 1 [Hydrocraft.HCLab2] mode:keep,
+        }
+        outputs
+        {
         }
     }
     craftRecipe Put Selfmade Ether In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_4d2963e3ec96,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -1001,7 +1026,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedropperether],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -1047,6 +1072,7 @@ module Hydrocraft
     }
     craftRecipe Remove Selfmade Ether From Beaker (Glass Beaker)
     {
+        OnTest = HCRFluidRecipes.Test_f7e3471cba92,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -1060,7 +1086,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCGlassbeaker,
+            item 1 Hydrocraft.HCGlassbeakerFluid,
         }
     }
     craftRecipe Seperate Ether
@@ -1082,6 +1108,7 @@ module Hydrocraft
     }
     craftRecipe Put Ether in Beaker
     {
+        OnTest = HCRFluidRecipes.Test_d7fff1633893,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -1090,7 +1117,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedropperether],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs
@@ -1100,6 +1127,7 @@ module Hydrocraft
     }
     craftRecipe Put Potassium Permanganate In Beaker
     {
+        OnTest = HCRFluidRecipes.Test_b86260f04b38,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -1108,7 +1136,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCEyedropperpotassiumpermanganate],
-            item 1 [Hydrocraft.HCGlassbeaker],
+            item 1 [Hydrocraft.HCGlassbeaker;Hydrocraft.HCGlassbeakerFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLab2] mode:keep,
         }
         outputs

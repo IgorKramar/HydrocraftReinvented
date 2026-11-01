@@ -298,6 +298,7 @@ module Hydrocraft
     }
     craftRecipe Recycle Liquid Soap Can
     {
+        OnTest = HCRFluidRecipes.Test_3cf769f48f05,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Engineer,
@@ -305,7 +306,7 @@ module Hydrocraft
         OnCreate = HCR42.recipe_hclabeldetergent,
         inputs
         {
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCBoxcutter;Base.BreadKnife;Base.ButterKnife;Base.ButterKnife_Gold;Base.ButterKnife_Silver;Base.DullBoneKnife;Base.PlasticKnife;Base.SharpBone_Long;Hydrocraft.HCPlasticknife;Hydrocraft.HCSterlingsilverknife;Base.CrudeKnife;Base.FightingKnife;Base.FlintKnife;Base.HandguardDagger;Base.Handiknife;Base.HuntingKnife;Base.HuntingKnifeForged;Base.KitchenKnife;Base.KitchenKnifeForged;Base.KnifeButterfly;Base.KnifeFillet;Base.KnifeParing;Base.KnifePocket;Base.KnifeSushi;Base.LargeKnife;Base.LargeKnife_Scrap;Base.LongCrudeKnife;Base.Machete;Base.Machete_Crude;Base.MacheteForged;Base.MacheteKnife;Base.Multitool;Base.RailroadSpikeKnife;Base.SharpedStone;Base.SmallKnife;Base.SteakKnife;Base.StoneKnifeLong;Base.StraightRazor;Base.SwitchKnife;Hydrocraft.HCCombatknife;Hydrocraft.HCJackknife;Hydrocraft.HCPumpkinknife;Hydrocraft.HCSteakknife;Base.Multitool;Base.Scissors;Base.ScissorsBlunt;Base.ScissorsBluntMedical;Base.ScissorsForged;Hydrocraft.HCChildsafetyscissors] mode:keep,
         }
         outputs
@@ -315,6 +316,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Ammonia
     {
+        OnTest = HCRFluidRecipes.Test_d25d8290a9f1,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -324,7 +326,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCAmmonia],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -334,6 +336,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Ammonia (Plastic Can With Ammonia)
     {
+        OnTest = HCRFluidRecipes.Test_c22889d27a26,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -343,7 +346,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCPlasticcanammonia],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -353,6 +356,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Ammonia (Ammonia)
     {
+        OnTest = HCRFluidRecipes.Test_f62968b34eb5,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -362,7 +366,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCAmmoniacanfull],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -372,6 +376,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Ammonia (Metal Barrel with Ammonia)
     {
+        OnTest = HCRFluidRecipes.Test_471d9a82db90,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -381,7 +386,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCBarrelmetalammonia],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCHandpump] mode:keep,
             item 1 [Hydrocraft.HCRubberhose] mode:keep,
         }
@@ -392,6 +397,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Ammonia (Metal Barrel with Ammonia 2)
     {
+        OnTest = HCRFluidRecipes.Test_bcd67a66b143,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -401,7 +407,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCAmmoniabarrelfull],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCHandpump] mode:keep,
             item 1 [Hydrocraft.HCRubberhose] mode:keep,
         }
@@ -412,6 +418,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Ammonia (Blue Barrel with Ammonia)
     {
+        OnTest = HCRFluidRecipes.Test_7ca212a07042,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -421,7 +428,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCAmmoniabarrelbluefull],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCHandpump] mode:keep,
             item 1 [Hydrocraft.HCRubberhose] mode:keep,
         }
@@ -432,6 +439,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Biodiesel
     {
+        OnTest = HCRFluidRecipes.Test_8356bfe38a77,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -441,7 +449,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCWashtubwashedbiodiesel] mode:destroy,
             item 1 [Hydrocraft.HCRubberhose] mode:keep,
-            item 2 [Hydrocraft.HCDetergentempty],
+            item 2 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -450,6 +458,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Coppersulfate Solution
     {
+        OnTest = HCRFluidRecipes.Test_e6fbdb05b36f,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -459,7 +468,7 @@ module Hydrocraft
         {
             item 2 [Hydrocraft.HCBeakercoppersulfatesolution],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
@@ -470,6 +479,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Coppersulfate Solution (Plastic Can With Copper Sulfate Solution)
     {
+        OnTest = HCRFluidRecipes.Test_6f8e06e7945a,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -478,7 +488,7 @@ module Hydrocraft
         {
             item 4 [Hydrocraft.HCPlasticcancoppersulfatesolution],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
@@ -489,6 +499,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Grape Juice
     {
+        OnTest = HCRFluidRecipes.Test_59f5383bacb9,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -497,7 +508,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucketgrape] mode:destroy,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -507,6 +518,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Grape Juice (Plastic Can With Grape Juice)
     {
+        OnTest = HCRFluidRecipes.Test_febb4ccbc077,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -514,7 +526,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcangrape] flags[ItemCount],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -524,6 +536,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Hydrogen Peroxide
     {
+        OnTest = HCRFluidRecipes.Test_e0e4849e1e44,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -533,7 +546,7 @@ module Hydrocraft
         {
             item 2 [Hydrocraft.HCBeakerh2o2] mode:destroy,
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
@@ -544,6 +557,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Hydrogen Peroxide (Plastic Can With Hydrogen Peroxide)
     {
+        OnTest = HCRFluidRecipes.Test_9c2de48dbfdd,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -552,7 +566,7 @@ module Hydrocraft
         {
             item 4 [Hydrocraft.HCPlasticcanh2o2],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
@@ -563,6 +577,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Hydrogen Peroxide (Hydrogen Peroxide)
     {
+        OnTest = HCRFluidRecipes.Test_9fa27cf18045,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -571,7 +586,7 @@ module Hydrocraft
         {
             item 4 [Hydrocraft.HCh2o2can],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
@@ -582,6 +597,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Honey
     {
+        OnTest = HCRFluidRecipes.Test_44b0a1dde9b2,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -590,7 +606,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbuckethoney] mode:destroy,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -600,6 +616,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Honey (Plastic Can With Honey)
     {
+        OnTest = HCRFluidRecipes.Test_b1c9611ed589,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -607,7 +624,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcanhoney],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -617,6 +634,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Milk Of Lime
     {
+        OnTest = HCRFluidRecipes.Test_4a0954a11e6b,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -625,7 +643,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucketlime] mode:destroy,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -635,6 +653,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Milk Of Lime (Plastic Can With Milk of Lime)
     {
+        OnTest = HCRFluidRecipes.Test_c006b8659c4b,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -642,7 +661,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcanlime],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -652,6 +671,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Lye
     {
+        OnTest = HCRFluidRecipes.Test_69a948401aa8,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -660,7 +680,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucketlye] mode:destroy,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
@@ -672,6 +692,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Lye (Plastic Can With Lye)
     {
+        OnTest = HCRFluidRecipes.Test_1bdd1c8f19fb,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -679,7 +700,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcanlye],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
@@ -691,6 +712,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Methanol
     {
+        OnTest = HCRFluidRecipes.Test_83f43ee3ed04,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -698,7 +720,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCMethanol],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
@@ -709,6 +731,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Methanol (Plastic Can With Methanol)
     {
+        OnTest = HCRFluidRecipes.Test_1efd5611380d,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -716,7 +739,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcanmethanol],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
@@ -727,23 +750,28 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With UHT Milk
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_3b8fa4b00ca5,
+        OnCreate = HCRMilkChains.Create_3b8fa4b00ca5,
+
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 4 [Hydrocraft.HCPlasticcanmilk;Hydrocraft.HCUHTmilk],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
+            item 1 [Hydrocraft.HCDetergentemptyFluid] mode:keep flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDetergentmilk,
         }
     }
     craftRecipe Fill Empty Soap Can With Muriatic Acid
     {
+        OnTest = HCRFluidRecipes.Test_8ee91178fe0b,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -752,7 +780,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCBeakermuriaticacid],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
@@ -764,6 +792,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Muriatic Acid (Plastic Can With Muriatic Acid)
     {
+        OnTest = HCRFluidRecipes.Test_452f210f01da,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -771,7 +800,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcanmuriaticacid],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
@@ -783,6 +812,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Nickel Sulfate Solution
     {
+        OnTest = HCRFluidRecipes.Test_b84e8f3e1ac8,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -793,7 +823,7 @@ module Hydrocraft
             item 2 [Hydrocraft.HCBeakernickelsulfatesolution],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -803,6 +833,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Nickel Sulfate Solution (Plastic Can With Nickel Sulfate Solution)
     {
+        OnTest = HCRFluidRecipes.Test_2abd42bf5320,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -812,7 +843,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCPlasticcannickelsulfatesolution],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -822,6 +853,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Nitric Acid
     {
+        OnTest = HCRFluidRecipes.Test_ffcb79f006fa,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -830,7 +862,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCBeakernitricacid],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
@@ -842,6 +874,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Nitric Acid (Plastic Can With Nitric Acid)
     {
+        OnTest = HCRFluidRecipes.Test_c99e4655b9aa,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -849,7 +882,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcannitricacid],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
@@ -861,6 +894,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Oil
     {
+        OnTest = HCRFluidRecipes.Test_c87640d41a27,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -868,7 +902,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCMotoroil;Hydrocraft.HCPlasticcanoil],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -878,6 +912,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Insecticide
     {
+        OnTest = HCRFluidRecipes.Test_ae7edea20747,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -885,7 +920,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcanpoison;Hydrocraft.HCPoison],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
@@ -897,6 +932,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Rose Tanning Oil
     {
+        OnTest = HCRFluidRecipes.Test_e869e9096fc7,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -905,7 +941,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucketrose] mode:destroy,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -915,6 +951,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Rose Tanning Oil (Plastic Can With Rose Tanning Oil)
     {
+        OnTest = HCRFluidRecipes.Test_2071a3d579b1,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -922,7 +959,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcanrose],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -932,6 +969,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Sulfuric Acid
     {
+        OnTest = HCRFluidRecipes.Test_5649de714030,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -940,7 +978,7 @@ module Hydrocraft
         inputs
         {
             item 2 [Hydrocraft.HCBeakersulfuricacid],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
@@ -952,6 +990,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Sulfuric Acid (Plastic Can With Sulfuric Acid)
     {
+        OnTest = HCRFluidRecipes.Test_a7d393119a6c,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -959,7 +998,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcansulfuricacid],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
@@ -971,6 +1010,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Sulfuric Acid (Sulfuric Acid)
     {
+        OnTest = HCRFluidRecipes.Test_56fe5dfbe257,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -978,7 +1018,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCSulfuricacidcan],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCGasmask;Base.HazmatSuit] mode:keep,
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
@@ -990,6 +1030,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Sulfuric Acid (Metal Barrel with Phenylacetic Acid)
     {
+        OnTest = HCRFluidRecipes.Test_1d294d2df8b2,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -999,7 +1040,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCBarrelmetalsulfuricacid],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCPlasticcanempty],
+            item 1 [Hydrocraft.HCPlasticcanempty;Hydrocraft.HCPlasticcanemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCHandpump] mode:keep,
             item 1 [Hydrocraft.HCRubberhose] mode:keep,
         }
@@ -1010,6 +1051,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Sulfuric Acid (Metal Barrel with Sulfuric Acid)
     {
+        OnTest = HCRFluidRecipes.Test_bc72a593aa13,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -1019,7 +1061,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCSulfuricacidbarrelfull],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCHandpump] mode:keep,
             item 1 [Hydrocraft.HCRubberhose] mode:keep,
         }
@@ -1030,6 +1072,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Sulfuric Acid (Blue Barrel with Sulfuric Acid)
     {
+        OnTest = HCRFluidRecipes.Test_c3d8b9a9ef65,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -1039,7 +1082,7 @@ module Hydrocraft
             item 4 [Hydrocraft.HCSulfuricacidbarrelbluefull],
             item 1 [Hydrocraft.HCRubberglove] mode:keep,
             item 1 [Hydrocraft.HCSafetyglasses] mode:keep,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCHandpump] mode:keep,
             item 1 [Hydrocraft.HCRubberhose] mode:keep,
         }
@@ -1050,6 +1093,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Tannin
     {
+        OnTest = HCRFluidRecipes.Test_7aae22e70d28,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -1058,7 +1102,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbuckettan] mode:destroy,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -1068,6 +1112,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Tannin (Plastic Can With Tannin)
     {
+        OnTest = HCRFluidRecipes.Test_babae3610c15,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -1075,7 +1120,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcantan],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -1085,6 +1130,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Vegetable Oil
     {
+        OnTest = HCRFluidRecipes.Test_50307e91cf1f,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1093,7 +1139,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCWoodenbucketvegoil] mode:destroy,
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs
@@ -1103,6 +1149,7 @@ module Hydrocraft
     }
     craftRecipe Fill Empty Soap Can With Vegetable Oil (Plastic Can With Vegetable Oil)
     {
+        OnTest = HCRFluidRecipes.Test_31868f5e838a,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -1110,7 +1157,7 @@ module Hydrocraft
         inputs
         {
             item 4 [Hydrocraft.HCPlasticcanvegoil],
-            item 1 [Hydrocraft.HCDetergentempty],
+            item 1 [Hydrocraft.HCDetergentempty;Hydrocraft.HCDetergentemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCFunnel;Hydrocraft.HCGlassfunnel] mode:keep,
         }
         outputs

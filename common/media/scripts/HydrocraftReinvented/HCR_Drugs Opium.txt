@@ -215,6 +215,8 @@ module Hydrocraft
     }
     craftRecipe Dry Poppy Flower
     {
+
+        OnTest = HCRSandbox.Test_0527bd590837,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -232,6 +234,8 @@ module Hydrocraft
     }
     craftRecipe Rip Poppy Capsules
     {
+
+        OnTest = HCRSandbox.Test_4220253eb0f7,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -250,6 +254,8 @@ module Hydrocraft
     }
     craftRecipe Knead Raw Opium
     {
+
+        OnTest = HCRSandbox.Test_b4837a3cc85b,
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -269,6 +275,8 @@ module Hydrocraft
     }
     craftRecipe Cook Raw Opium
     {
+
+        OnTest = HCRSandbox.Test_ff4e7ad86aad,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -288,6 +296,8 @@ module Hydrocraft
     }
     craftRecipe Ferment Opium Powder
     {
+
+        OnTest = HCRSandbox.Test_039a8478b7d7,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -311,6 +321,8 @@ module Hydrocraft
     }
     craftRecipe Put Opium in Pipe
     {
+
+        OnTest = HCRSandbox.Test_300c9739724f,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -328,6 +340,8 @@ module Hydrocraft
     }
     craftRecipe Put Opium in Pipe (Corn Cob Pipe with Pure Opium)
     {
+
+        OnTest = HCRSandbox.Test_c6ac56e401a3,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -345,6 +359,8 @@ module Hydrocraft
     }
     craftRecipe Make Morphine Hydrochloride Solution
     {
+
+        OnTest = HCRSandbox.Test_32ed288c5891,
         time = 150,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -365,6 +381,8 @@ module Hydrocraft
     }
     craftRecipe Add Water To Morphine Hydrochloride
     {
+
+        OnTest = HCRSandbox.Test_0b3d00f35e9c,
         time = 150,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -386,6 +404,8 @@ module Hydrocraft
     }
     craftRecipe Add Ammonia To Morphine Hydrochloride Solution
     {
+
+        OnTest = HCRSandbox.Test_609bb7129752,
         time = 150,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -408,6 +428,8 @@ module Hydrocraft
     }
     craftRecipe Add Ammonia To Morphine Hydrochloride Solution (Testtube with Morphine)
     {
+
+        OnTest = HCRSandbox.Test_1f2eec353a70,
         time = 150,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,
@@ -430,6 +452,8 @@ module Hydrocraft
     }
     craftRecipe Draw Up Syringe With Morphine
     {
+
+        OnTest = HCRSandbox.Test_218a87178f48,
         time = 150,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Health,

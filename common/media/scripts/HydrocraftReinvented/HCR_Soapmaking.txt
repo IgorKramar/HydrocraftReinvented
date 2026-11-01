@@ -47,6 +47,7 @@ module Hydrocraft
     }
     craftRecipe Make Tallow
     {
+        OnTest = HCRFluidRecipes.Test_4f773e1893fd,
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -61,7 +62,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -70,6 +71,7 @@ module Hydrocraft
     }
     craftRecipe Make Homemade Soap
     {
+        OnTest = HCRFluidRecipes.Test_5ea155353c6d,
         time = 500,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -89,7 +91,7 @@ module Hydrocraft
             item 1 tags[base:startfire],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {

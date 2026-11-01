@@ -1590,11 +1590,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbarrel,
+            item 1 Hydrocraft.HCWoodenbarrelFluid,
         }
     }
     craftRecipe Make Wooden Washtub
     {
+        OnTest = HCRFluidRecipes.Test_aaff7954af2e,
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
@@ -1610,11 +1611,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWashtub,
+            item 1 Hydrocraft.HCWashtubFluid,
         }
     }
     craftRecipe Make Wooden Trough
     {
+        OnTest = HCRFluidRecipes.Test_fd2485839cea,
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
@@ -1630,11 +1632,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCTrough,
+            item 1 Hydrocraft.HCTroughFluid,
         }
     }
     craftRecipe Make Wooden Vat
     {
+        OnTest = HCRFluidRecipes.Test_edaec2061ea8,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
@@ -1651,11 +1654,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCVat,
+            item 1 Hydrocraft.HCVatFluid,
         }
     }
     craftRecipe Make Wooden Bucket
     {
+        OnTest = HCRFluidRecipes.Test_6bb1486c2792,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Carpentry,
@@ -1674,7 +1678,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucket,
+            item 1 Hydrocraft.HCWoodenbucketFluid,
         }
     }
     craftRecipe Make Wooden Tool Box
@@ -2254,6 +2258,7 @@ module Hydrocraft
     }
     craftRecipe Build Water Tower
     {
+        OnTest = HCRFluidRecipes.Test_5fb5f06d23d0,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
@@ -2264,7 +2269,7 @@ module Hydrocraft
         inputs
         {
             item 30 [Hydrocraft.HCWoodshingles],
-            item 1 [Hydrocraft.HCVat],
+            item 1 [Hydrocraft.HCVat;Hydrocraft.HCVatFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLumberstack],
             item 8 [Hydrocraft.HCWoodbeam],
             item 24 [Base.Nails],
@@ -2277,11 +2282,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWatertower,
+            item 1 Hydrocraft.HCWatertowerFluid,
         }
     }
     craftRecipe Build Double Water Tower
     {
+        OnTest = HCRFluidRecipes.Test_155ce08cd152,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
@@ -2291,8 +2297,8 @@ module Hydrocraft
         xpAward = Mechanics:25;Woodwork:60,
         inputs
         {
-            item 1 [Hydrocraft.HCWatertower],
-            item 1 [Hydrocraft.HCVat],
+            item 1 [Hydrocraft.HCWatertower;Hydrocraft.HCWatertowerFluid] flags[ItemCount;IsEmpty],
+            item 1 [Hydrocraft.HCVat;Hydrocraft.HCVatFluid] flags[ItemCount;IsEmpty],
             item 4 [Base.Nails],
             item 1 [Hydrocraft.HCBowdrillflint;Hydrocraft.HCDrillhand;Hydrocraft.HCDrillcordlesspowered;Hydrocraft.HCElectricmultitooldrillpowered],
             item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
@@ -2301,11 +2307,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWatertower2,
+            item 1 Hydrocraft.HCWatertower2Fluid,
         }
     }
     craftRecipe Make Water Pump
     {
+        OnTest = HCRFluidRecipes.Test_6dd52691cf84,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Engineer,
@@ -2315,9 +2322,9 @@ module Hydrocraft
         xpAward = Mechanics:25;Woodwork:60,
         inputs
         {
-            item 1 [Hydrocraft.HCWatertower2] mode:destroy,
-            item 1 [Hydrocraft.HCWell] mode:destroy,
-            item 1 [Hydrocraft.HCTrough] mode:destroy,
+            item 1 [Hydrocraft.HCWatertower2;Hydrocraft.HCWatertower2Fluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [Hydrocraft.HCWell;Hydrocraft.HCWellFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [Hydrocraft.HCTrough;Hydrocraft.HCTroughFluid] mode:destroy flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCWindmill],
             item 10 [Hydrocraft.HCSteelpipe],
             item 1 [Base.PipeWrench] mode:keep,
@@ -2330,34 +2337,36 @@ module Hydrocraft
     }
     craftRecipe Fill Bucket
     {
+        OnCreate = HCRFluidRecipes.Create_5322c724eb1a,
+        OnTest = HCRFluidRecipes.Test_5322c724eb1a,
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Farming,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucketFluid] mode:keep flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCWaterpump;Hydrocraft.HCWaterpump2] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucketwater,
         }
     }
     craftRecipe Fill IBC Tower
     {
+        OnCreate = HCRFluidRecipes.Create_9145eb73cd7f,
+        OnTest = HCRFluidRecipes.Test_9145eb73cd7f,
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Farming,
         timedAction = Making,
         inputs
         {
-            item 1 [Hydrocraft.HCIBCtower],
+            item 1 [Hydrocraft.HCIBCtowerFluid] mode:keep flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCWaterpump;Hydrocraft.HCWaterpump2] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCIBCtowerfull,
         }
     }
     craftRecipe Build Clothes Line
@@ -2400,6 +2409,7 @@ module Hydrocraft
     }
     craftRecipe Build Makeshift Shower
     {
+        OnTest = HCRFluidRecipes.Test_15bb43423209,
         time = 400,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
@@ -2420,11 +2430,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCShower,
+            item 1 Hydrocraft.HCShowerFluid,
         }
     }
     craftRecipe Add Sink
     {
+        OnTest = HCRFluidRecipes.Test_3b06da762ea0,
         time = 400,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
@@ -2435,7 +2446,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCLumberstack],
             item 12 [Base.Nails],
-            item 1 [Hydrocraft.HCShower],
+            item 1 [Hydrocraft.HCShower;Hydrocraft.HCShowerFluid] flags[ItemCount;IsEmpty],
             item 1 [Base.BathTowel] mode:destroy,
             item 1 [Base.Soap2;Hydrocraft.HCSoap],
             item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
@@ -2443,11 +2454,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCShowersink,
+            item 1 Hydrocraft.HCShowersinkFluid,
         }
     }
     craftRecipe Add Sink (Variant)
     {
+        OnTest = HCRFluidRecipes.Test_40cd9a972923,
         time = 400,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
@@ -2458,7 +2470,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCLumberstack],
             item 12 [Base.Nails],
-            item 1 [Hydrocraft.HCShower],
+            item 1 [Hydrocraft.HCShower;Hydrocraft.HCShowerFluid] flags[ItemCount;IsEmpty],
             item 1 [Base.BathTowel] mode:destroy,
             item 20 [Base.Soap2],
             item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
@@ -2466,7 +2478,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCShowersink,
+            item 1 Hydrocraft.HCShowersinkFluid,
         }
     }
     craftRecipe Build Scarecrow Stand
@@ -2857,6 +2869,7 @@ module Hydrocraft
     }
     craftRecipe Fill Trough with Vegetable Oil
     {
+        OnTest = HCRFluidRecipes.Test_815e162fdb1a,
         time = 250,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
@@ -2864,7 +2877,7 @@ module Hydrocraft
         inputs
         {
             item 50 [Hydrocraft.HCCookingoil],
-            item 1 [Hydrocraft.HCTrough],
+            item 1 [Hydrocraft.HCTrough;Hydrocraft.HCTroughFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -2873,6 +2886,7 @@ module Hydrocraft
     }
     craftRecipe Fill Trough with Vegetable Oil (Wooden Bucket with Vegetable Oil)
     {
+        OnTest = HCRFluidRecipes.Test_6fc47d40afd3,
         time = 250,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
@@ -2881,7 +2895,7 @@ module Hydrocraft
         inputs
         {
             item 5 [Hydrocraft.HCWoodenbucketvegoil],
-            item 1 [Hydrocraft.HCTrough],
+            item 1 [Hydrocraft.HCTrough;Hydrocraft.HCTroughFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -2910,6 +2924,7 @@ module Hydrocraft
     }
     craftRecipe Assemble IBC Storage Supports
     {
+        OnTest = HCRFluidRecipes.Test_cee34a70feea,
         time = 800,
         Tags = AnySurfaceCraft,
         category = Carpentry,
@@ -2918,18 +2933,19 @@ module Hydrocraft
         xpAward = Woodwork:60,
         inputs
         {
-            item 1 [Hydrocraft.HCIBC],
+            item 1 [Hydrocraft.HCIBC;Hydrocraft.HCIBCFluid] flags[ItemCount;IsEmpty],
             item 12 [Base.Nails],
             item 6 [Base.Plank],
             item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCIBCstorage,
+            item 1 Hydrocraft.HCIBCstorageFluid,
         }
     }
     craftRecipe Upgrade IBC Storage
     {
+        OnTest = HCRFluidRecipes.Test_46426790fc22,
         time = 900,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Carpentry,
@@ -2938,15 +2954,15 @@ module Hydrocraft
         xpAward = Woodwork:60,
         inputs
         {
-            item 1 [Hydrocraft.HCIBC],
+            item 1 [Hydrocraft.HCIBC;Hydrocraft.HCIBCFluid] flags[ItemCount;IsEmpty],
             item 12 [Base.Nails],
             item 6 [Base.Plank],
-            item 1 [Hydrocraft.HCIBCstorage],
+            item 1 [Hydrocraft.HCIBCstorage;Hydrocraft.HCIBCstorageFluid] flags[ItemCount;IsEmpty],
             item 1 tags[base:hammer;base:clubhammer;base:ballpeenhammer] mode:keep,
         }
         outputs
         {
-            item 1 Hydrocraft.HCIBCtower,
+            item 1 Hydrocraft.HCIBCtowerFluid,
         }
     }
     craftRecipe Make Vending Stand

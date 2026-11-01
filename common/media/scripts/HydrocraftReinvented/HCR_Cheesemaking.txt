@@ -395,6 +395,7 @@ module Hydrocraft
     }
     craftRecipe Make Rennet
     {
+        OnTest = HCRFluidRecipes.Test_12749e55f4fb,
         time = 200,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -409,7 +410,7 @@ module Hydrocraft
             item 1 [Base.Vinegar2],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -418,6 +419,9 @@ module Hydrocraft
     }
     craftRecipe Fill Cheese Vat
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_af59bf54d5ca,
+        OnTest = HCRFluidRecipes.Test_af59bf54d5ca,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Cooking,
@@ -425,12 +429,13 @@ module Hydrocraft
         NeedToBeLearn = true,
         SkillRequired = Cooking:8,
         xpAward = Cooking:2,
-        OnCreate = HCR42.recipe_hcwoodenbucket4,
+
         inputs
         {
             item 4 [Hydrocraft.HCRennet],
-            item 4 [Hydrocraft.HCWoodenbucketmilk] mode:destroy,
-            item 1 [Hydrocraft.HCVat],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 16 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
+            item 1 [Hydrocraft.HCVat;Hydrocraft.HCVatFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -789,6 +794,9 @@ module Hydrocraft
     }
     craftRecipe Make Cream Cheese Culture
     {
+        Icon = HCMilkjug,
+        Tooltip = Tooltip_HCR_MilkChain_eb2717f5b4af,
+        OnTest = HCRFluidRecipes.Test_eb2717f5b4af,
         time = 200,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -798,11 +806,12 @@ module Hydrocraft
         xpAward = Cooking:9,
         inputs
         {
-            item 1 [Hydrocraft.HCWoodenbucketmilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 4 [HCRMilk;CowMilk;SheepMilk;AnimalMilk] mode:primary,
             item 1 [Base.Vinegar2],
             item 1 [Base.Salt],
             item 1 tags[base:startfire],
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
         }
         outputs
         {

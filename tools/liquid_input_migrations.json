@@ -50,56 +50,6 @@
       "legacy_input": "Disinfectant;3"
     },
     {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Eggnog Pot",
-      "before": "item 5 [Base.Whiskey],",
-      "after": "item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.25 [Whiskey],",
-      "kind": "portion",
-      "fluid": "Whiskey",
-      "litres": 0.25,
-      "legacy_input": "WhiskeyFull;5"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Eggnog Bottle",
-      "before": "item 2 [Base.Whiskey],",
-      "after": "item 2 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=2"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Monkey Tail Bottle",
-      "before": "item 2 [Base.Whiskey],",
-      "after": "item 2 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=2"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Lemon Mixer",
-      "before": "item 1 [Base.Whiskey],",
-      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Lime Mixer",
-      "before": "item 1 [Base.Whiskey],",
-      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Make Bloody Mary Mixer",
-      "before": "item 1 [Base.Whiskey],",
-      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty"
-    },
-    {
       "file": "HCR_Rubber.txt",
       "recipe": "Make Rubber Cement",
       "before": "item 4 [Base.Disinfectant],",
@@ -110,98 +60,10 @@
       "legacy_input": "Disinfectant=4"
     },
     {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Distill Bottle of Vodka",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Distill Methanol",
-      "before": "item 5 [Base.Whiskey],",
-      "after": "item 5 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=5"
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Distill Bottle of Tequila",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Distill Bottle of Mezcal",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Distill Bottle of Applejack",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Distill Bottle of Peach Schnapps",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Distill Bottle of Flip",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Distill Bottle of Gin",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Distill Bottle of Whiskey",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Distillery.txt",
-      "recipe": "Distill Bottle of Corn Whiskey",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Food Dairy.txt",
-      "recipe": "Mix Soy Milk",
-      "before": "item 1 [Base.Whiskey],",
-      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty"
-    },
-    {
       "file": "HCR_Winemaking.txt",
       "recipe": "Pour Wine",
       "before": "item 1 [Base.Wine],",
-      "after": "item 1 [Base.Wine] mode:keep flags[ItemIsFluid;HandcraftOnly;Unseal],\n            -fluid 1 [Wine],",
+      "after": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Wine;HCRWineWhite] mode:primary,",
       "kind": "whole_contents",
       "fluid": "Wine",
       "litres": 1,
@@ -211,14 +73,14 @@
       "file": "HCR_Winemaking.txt",
       "recipe": "Pour Wine",
       "before": "        OnCreate = HCR42.recipe_hcwineempty,\n",
-      "after": "",
+      "after": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Wine;HCRWineWhite] mode:primary,",
       "kind": "retained_bottle"
     },
     {
       "file": "HCR_Winemaking.txt",
       "recipe": "Pour Wine (Glass of Red Wine)",
       "before": "item 1 [Base.Wine2],",
-      "after": "item 1 [Base.Wine2] mode:keep flags[ItemIsFluid;HandcraftOnly;Unseal],\n            -fluid 1 [Wine],",
+      "after": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Wine;HCRWineRed] mode:primary,",
       "kind": "whole_contents",
       "fluid": "Wine",
       "litres": 1,
@@ -228,72 +90,8 @@
       "file": "HCR_Winemaking.txt",
       "recipe": "Pour Wine (Glass of Red Wine)",
       "before": "        OnCreate = HCR42.recipe_hcwineempty2,\n",
-      "after": "",
+      "after": "item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 1 [Wine;HCRWineRed] mode:primary,",
       "kind": "retained_bottle"
-    },
-    {
-      "file": "HCR_Winemaking.txt",
-      "recipe": "Fill Bottles with Wine",
-      "before": "item 20 [Base.Wine],",
-      "after": "item 20 [Base.Wine] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WineEmpty=20"
-    },
-    {
-      "file": "HCR_Winemaking.txt",
-      "recipe": "Fill Bottles with Wine (Variant)",
-      "before": "item 20 [Base.Wine],",
-      "after": "item 20 [Base.Wine] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WineEmpty=20"
-    },
-    {
-      "file": "HCR_Winemaking.txt",
-      "recipe": "Fill Whiskey Bottles with Vinegar",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Winemaking.txt",
-      "recipe": "Make Bottle of Mead",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Winemaking.txt",
-      "recipe": "Make Bottle of Sake",
-      "before": "item 20 [Base.Whiskey],",
-      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_container",
-      "legacy_input": "WhiskeyEmpty=20"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Cocktail Glass of Whiskey",
-      "before": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
-      "after": "item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
-      "kind": "separate_native_fluid_variant",
-      "legacy_input": "WhiskeyFull;2"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Tall Glass of Whiskey",
-      "before": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
-      "after": "item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
-      "kind": "separate_native_fluid_variant",
-      "legacy_input": "WhiskeyFull;2"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Pour Short Glass of Whiskey",
-      "before": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
-      "after": "item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
-      "kind": "separate_native_fluid_variant",
-      "legacy_input": "WhiskeyFull;2"
     },
     {
       "file": "HCR_Cleaning.txt",
@@ -428,14 +226,6 @@
       "fluid": "CleaningLiquid",
       "litres": 0.01,
       "legacy_input": "CleaningLiquid2,"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Whiskey and Coke",
-      "before": "item 1 [Base.Pop;Base.Pop2;Hydrocraft.HCSodacola],",
-      "after": "item 1 [Hydrocraft.HCSodacola],",
-      "kind": "separate_native_fluid_variant",
-      "legacy_input": "Pop/Pop2,"
     }
   ],
   "variants": [
@@ -676,6 +466,244 @@
       "litres": 0.3,
       "legacy_input": "Pop/Pop2,",
       "base_recipe": "Whiskey and Coke"
+    }
+  ],
+  "superseded_migrations": [
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Eggnog Bottle",
+      "before": "item 2 [Base.Whiskey],",
+      "after": "item 2 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=2",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Monkey Tail Bottle",
+      "before": "item 2 [Base.Whiskey],",
+      "after": "item 2 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=2",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Lemon Mixer",
+      "before": "item 1 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Lime Mixer",
+      "before": "item 1 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Bloody Mary Mixer",
+      "before": "item 1 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Vodka",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Methanol",
+      "before": "item 5 [Base.Whiskey],",
+      "after": "item 5 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=5",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Tequila",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Mezcal",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Applejack",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Peach Schnapps",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Flip",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Gin",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Whiskey",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Distillery.txt",
+      "recipe": "Distill Bottle of Corn Whiskey",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Dairy.txt",
+      "recipe": "Mix Soy Milk",
+      "before": "item 1 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Fill Whiskey Bottles with Vinegar",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Make Bottle of Mead",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Make Bottle of Sake",
+      "before": "item 20 [Base.Whiskey],",
+      "after": "item 20 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WhiskeyEmpty=20",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Cocktail Glass of Whiskey",
+      "before": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "after": "item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "WhiskeyFull;2",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Tall Glass of Whiskey",
+      "before": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "after": "item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "WhiskeyFull;2",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Pour Short Glass of Whiskey",
+      "before": "item 2 [Base.Whiskey;Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "after": "item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "WhiskeyFull;2",
+      "supersededBy": "spirit-fluid-1.6"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Fill Bottles with Wine",
+      "before": "item 20 [Base.Wine],",
+      "after": "item 20 [Base.Wine] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WineEmpty=20",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Winemaking.txt",
+      "recipe": "Fill Bottles with Wine (Variant)",
+      "before": "item 20 [Base.Wine],",
+      "after": "item 20 [Base.Wine] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_container",
+      "legacy_input": "WineEmpty=20",
+      "supersededBy": "bar-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Whiskey and Coke",
+      "before": "item 1 [Base.Pop;Base.Pop2;Hydrocraft.HCSodacola],",
+      "after": "item 1 [Hydrocraft.HCSodacola],",
+      "kind": "separate_native_fluid_variant",
+      "legacy_input": "Pop/Pop2,",
+      "supersededBy": "soft-drinks-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Make Eggnog Pot",
+      "before": "item 5 [Base.Whiskey],",
+      "after": "item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],\n            -fluid 0.25 [Whiskey],",
+      "kind": "portion",
+      "fluid": "Whiskey",
+      "litres": 0.25,
+      "legacy_input": "WhiskeyFull;5",
+      "supersededBy": "unified-milk-1.6"
     }
   ]
 }

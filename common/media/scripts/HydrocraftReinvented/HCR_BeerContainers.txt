@@ -1,0 +1,327 @@
+module Hydrocraft
+{
+    item HCBeer1Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Bottle,
+        Icon = HCBeer1,
+        EatType = Bourbon,
+        StaticModel = BeerBottle,
+        WorldStaticModel = BeerBottleGround,
+        Tags = base:glass;base:glassbottlesmall,
+        component FluidContainer
+        {
+            ContainerName = BottleBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBeer2Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Bottle,
+        Icon = HCBeer2,
+        EatType = Bourbon,
+        StaticModel = BeerBottle,
+        WorldStaticModel = BeerBottleGround,
+        Tags = base:glass;base:glassbottlesmall,
+        component FluidContainer
+        {
+            ContainerName = BottleBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBeer3Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Bottle,
+        Icon = HCBeer3,
+        EatType = Bourbon,
+        StaticModel = BeerBottle,
+        WorldStaticModel = BeerBottleGround,
+        Tags = base:glass;base:glassbottlesmall,
+        component FluidContainer
+        {
+            ContainerName = BottleBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBeer4Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Bottle,
+        Icon = HCBeer4,
+        EatType = Bourbon,
+        StaticModel = BeerBottle,
+        WorldStaticModel = BeerBottleGround,
+        Tags = base:glass;base:glassbottlesmall,
+        component FluidContainer
+        {
+            ContainerName = BottleBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBeer5Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Bottle,
+        Icon = HCBeer5,
+        EatType = Bourbon,
+        StaticModel = BeerBottle,
+        WorldStaticModel = BeerBottleGround,
+        Tags = base:glass;base:glassbottlesmall,
+        component FluidContainer
+        {
+            ContainerName = BottleBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBeer6Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Bottle,
+        Icon = HCBeer6,
+        EatType = Bourbon,
+        StaticModel = BeerBottle,
+        WorldStaticModel = BeerBottleGround,
+        Tags = base:glass;base:glassbottlesmall,
+        component FluidContainer
+        {
+            ContainerName = BottleBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBeer7Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Bottle,
+        Icon = HCBeer7,
+        EatType = Bourbon,
+        StaticModel = BeerBottle,
+        WorldStaticModel = BeerBottleGround,
+        Tags = base:glass;base:glassbottlesmall,
+        component FluidContainer
+        {
+            ContainerName = BottleBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBeer8Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Bottle,
+        Icon = HCBeer8,
+        EatType = Bourbon,
+        StaticModel = BeerBottle,
+        WorldStaticModel = BeerBottleGround,
+        Tags = base:glass;base:glassbottlesmall,
+        component FluidContainer
+        {
+            ContainerName = BottleBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+        }
+    }
+    item HCBeercan1Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Can,
+        Icon = HCBeercan1,
+        EatType = Popcan,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCBeercan2Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Can,
+        Icon = HCBeercan2,
+        EatType = Popcan,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCBeercan3Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Can,
+        Icon = HCBeercan3,
+        EatType = Popcan,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCBeercan4Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Can,
+        Icon = HCBeercan4,
+        EatType = Popcan,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCBeercan5Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Can,
+        Icon = HCBeercan5,
+        EatType = Popcan,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCBeercan6Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Can,
+        Icon = HCBeercan6,
+        EatType = Popcan,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCBeercan7Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Can,
+        Icon = HCBeercan7,
+        EatType = Popcan,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCBeercan8Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Can,
+        Icon = HCBeercan8,
+        EatType = Popcan,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCBeercan9Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Can,
+        Icon = HCBeercan9,
+        EatType = Popcan,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCBeercan10Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        DisplayName = Beer Can,
+        Icon = HCBeercan10,
+        EatType = Popcan,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+}

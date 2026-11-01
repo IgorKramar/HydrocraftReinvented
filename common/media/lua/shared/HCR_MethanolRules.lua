@@ -1,0 +1,3 @@
+-- Исходные 15 видов спиртного проверяются даже после переливания.
+-- Генерируется tools/build_methanol_restore.py.
+HCRMethanolRules = {["Make Methanol"]={["inputs"]={[0]={["fluids"]={"HCRVodka","HCRWhiskey","HCRRum","HCRGin","HCRSake"},["pure"]=true,["sourceTypes"]={["Hydrocraft.HCVodka"]=true,["Hydrocraft.HCWhiskey1"]=true,["Hydrocraft.HCWhiskey2"]=true,["Hydrocraft.HCWhiskey3"]=true,["Hydrocraft.HCWhiskey4"]=true,["Hydrocraft.HCBourbon1"]=true,["Hydrocraft.HCBourbon2"]=true,["Hydrocraft.HCScotch1"]=true,["Hydrocraft.HCRum1"]=true,["Hydrocraft.HCGin1"]=true,["Hydrocraft.HCGin2"]=true,["Hydrocraft.HCGin3"]=true,["Hydrocraft.HCVodka1"]=true,["Hydrocraft.HCVodka2"]=true,["Hydrocraft.HCSake"]=true}}}}}

@@ -1,0 +1,24 @@
+module Hydrocraft
+{
+    /* Новый ID сохраняет загрузочный формат прежних заполненных бочек. */
+    item HCWoodenbarrelFluid
+    {
+        ItemType = base:normal,
+        Weight = 4,
+        DisplayName = Wooden Barrel,
+        Icon = HCWinebarrel,
+        DisplayCategory = CraftDist,
+        CanStoreWater = true,
+        FillFromDispenserSound = GetWaterFromDispenser,
+        FillFromLakeSound = GetWaterFromLakeSmall,
+        FillFromTapSound = GetWaterFromTap,
+        FillFromToiletSound = GetWaterFromToilet,
+        component FluidContainer
+        {
+            ContainerName = HCR_HCWoodenbarrel,
+            Capacity = 20,
+            RainFactor = 0,
+            CustomDrinkSound = DrinkingFromBottlePlastic,
+        }
+    }
+}

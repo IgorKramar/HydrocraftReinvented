@@ -1,0 +1,1070 @@
+{
+  "policy": "Legacy water uses × 0.1 L; unknown purity is TaintedWater.",
+  "targets": {
+    "HCBirchbarkcup": {
+      "capacity": 1.4,
+      "source": "HCBirchbarkcup",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCGlassbeaker": {
+      "capacity": 1.4,
+      "source": "HCGlassbeaker",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCCanteen": {
+      "capacity": 1.4,
+      "source": "HCCanteen",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCStrappedcanteen": {
+      "capacity": 2.9,
+      "source": "HCStrappedcanteen",
+      "basis": "legacy water 29 uses × 0.1 L"
+    },
+    "HCVat": {
+      "capacity": 32.0,
+      "source": "HCVat",
+      "basis": "legacy water 320 uses × 0.1 L"
+    },
+    "HCWoodenbucket": {
+      "capacity": 4,
+      "source": "HCWoodenbucket",
+      "basis": "legacy water 5 uses × 0.1 L; new vessel 4 L for shared wine/milk chains"
+    },
+    "HCWashtub": {
+      "capacity": 3.2,
+      "source": "HCWashtub",
+      "basis": "legacy water 32 uses × 0.1 L"
+    },
+    "HCTrough": {
+      "capacity": 0.8,
+      "source": "HCTrough",
+      "basis": "legacy water 8 uses × 0.1 L"
+    },
+    "HCWatertower": {
+      "capacity": 32.0,
+      "source": "HCWatertower",
+      "basis": "legacy water 320 uses × 0.1 L"
+    },
+    "HCWatertower2": {
+      "capacity": 64.0,
+      "source": "HCWatertower2",
+      "basis": "legacy water 640 uses × 0.1 L"
+    },
+    "HCShower": {
+      "capacity": 0.4,
+      "source": "HCShower",
+      "basis": "legacy water 4 uses × 0.1 L"
+    },
+    "HCShowersink": {
+      "capacity": 0.8,
+      "source": "HCShowersink",
+      "basis": "legacy water 8 uses × 0.1 L"
+    },
+    "HCIBC": {
+      "capacity": 8.0,
+      "source": "HCIBC",
+      "basis": "legacy water 80 uses × 0.1 L"
+    },
+    "HCIBCstorage": {
+      "capacity": 8.0,
+      "source": "HCIBCstorage",
+      "basis": "legacy water 80 uses × 0.1 L"
+    },
+    "HCIBCtower": {
+      "capacity": 16.0,
+      "source": "HCIBCtower",
+      "basis": "legacy water 160 uses × 0.1 L"
+    },
+    "HCMilkjugempty": {
+      "capacity": 2,
+      "source": "HCMilkjugempty",
+      "basis": "legacy water 14 uses × 0.1 L; milk recipes establish a 2 L jug"
+    },
+    "HCMilkjugchocolateempty": {
+      "capacity": 2,
+      "source": "HCMilkjugchocolateempty",
+      "basis": "legacy water 14 uses × 0.1 L; chocolate milk shares the 2 L milk jug"
+    },
+    "HCLargetup": {
+      "capacity": 5.0,
+      "source": "HCLargetup",
+      "basis": "legacy water 50 uses × 0.1 L"
+    },
+    "HCMediumtup": {
+      "capacity": 1.3,
+      "source": "HCMediumtup",
+      "basis": "legacy water 13 uses × 0.1 L"
+    },
+    "HCSmalltup": {
+      "capacity": 1.3,
+      "source": "HCSmalltup",
+      "basis": "legacy water 13 uses × 0.1 L"
+    },
+    "HCThermos": {
+      "capacity": 1.4,
+      "source": "HCThermos",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCAlestien": {
+      "capacity": 1.4,
+      "source": "HCAlestien",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCPlasticcup": {
+      "capacity": 1.4,
+      "source": "HCPlasticcup",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCStyrofoamcup": {
+      "capacity": 1.4,
+      "source": "HCStyrofoamcup",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCZipperbag": {
+      "capacity": 0.5,
+      "source": "HCZipperbag",
+      "basis": "legacy water 5 uses × 0.1 L"
+    },
+    "HCKettlecopper": {
+      "capacity": 1.4,
+      "source": "HCKettlecopper",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCMugcopper": {
+      "capacity": 1.4,
+      "source": "HCMugcopper",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCGlassflask": {
+      "capacity": 1.4,
+      "source": "HCGlassflask",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCWashbottle": {
+      "capacity": 1.4,
+      "source": "HCWashbottle",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCWaterflask": {
+      "capacity": 1.4,
+      "source": "HCWaterflask",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCFishbowl": {
+      "capacity": 4.0,
+      "source": "HCFishbowl",
+      "basis": "legacy water 40 uses × 0.1 L"
+    },
+    "HCFishtank": {
+      "capacity": 8.0,
+      "source": "HCFishtank",
+      "basis": "legacy water 80 uses × 0.1 L"
+    },
+    "HCPlasticcanempty": {
+      "capacity": 1.4,
+      "source": "HCPlasticcanempty",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCPoisonempty": {
+      "capacity": 1.4,
+      "source": "HCPoisonempty",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCCauldroniron": {
+      "capacity": 8.0,
+      "source": "HCCauldroniron",
+      "basis": "legacy water 80 uses × 0.1 L"
+    },
+    "HCClayteapot": {
+      "capacity": 1.4,
+      "source": "HCClayteapotfull",
+      "basis": "legacy water 14 uses × 0.1 L",
+      "emptyWeight": 1,
+      "displayName": "Clay Teapot"
+    },
+    "HCClaymug": {
+      "capacity": 1.4,
+      "source": "HCClaymug",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCDetergentempty": {
+      "capacity": 1.4,
+      "source": "HCDetergentempty",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCEmptyballoon": {
+      "capacity": 1.4,
+      "source": "HCEmptyballoon",
+      "basis": "legacy water 14 uses × 0.1 L"
+    },
+    "HCTincan": {
+      "capacity": 0.3,
+      "source": "HCTincan",
+      "basis": "legacy water 3 uses × 0.1 L"
+    },
+    "HCClaycauldron": {
+      "capacity": 8,
+      "source": "HCClaycauldron",
+      "basis": "new: capacity matches the HC iron cauldron"
+    },
+    "HCWell": {
+      "capacity": 32,
+      "source": "HCWell",
+      "basis": "new: capacity matches the HC vat"
+    },
+    "HCDutchoven": {
+      "capacity": 6,
+      "source": "HCDutchoven",
+      "basis": "new: six-litre rain-catching cast-iron cooking vessel"
+    },
+    "HCCannedcornedbeefempty": {
+      "capacity": 0.3,
+      "source": "HCCannedcornedbeefempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedcornempty": {
+      "capacity": 0.3,
+      "source": "HCCannedcornempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedmushroomsoupempty": {
+      "capacity": 0.3,
+      "source": "HCCannedmushroomsoupempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedpeasempty": {
+      "capacity": 0.3,
+      "source": "HCCannedpeasempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedpotatoempty": {
+      "capacity": 0.3,
+      "source": "HCCannedpotatoempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedsardinesempty": {
+      "capacity": 0.3,
+      "source": "HCCannedsardinesempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedtomatoempty": {
+      "capacity": 0.3,
+      "source": "HCCannedtomatoempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedcarrotsempty": {
+      "capacity": 0.3,
+      "source": "HCCannedcarrotsempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCBeansempty": {
+      "capacity": 0.3,
+      "source": "HCBeansempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCTinnedsoupempty": {
+      "capacity": 0.3,
+      "source": "HCTinnedsoupempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCTunatinempty": {
+      "capacity": 0.3,
+      "source": "HCTunatinempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCDogfoodempty": {
+      "capacity": 0.3,
+      "source": "HCDogfoodempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedbologneseempty": {
+      "capacity": 0.3,
+      "source": "HCCannedbologneseempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedchiliempty": {
+      "capacity": 0.3,
+      "source": "HCCannedchiliempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedsoupclassicempty": {
+      "capacity": 0.3,
+      "source": "HCCannedsoupclassicempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedappleempty": {
+      "capacity": 0.3,
+      "source": "HCCannedappleempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedpearempty": {
+      "capacity": 0.3,
+      "source": "HCCannedpearempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedpeachempty": {
+      "capacity": 0.3,
+      "source": "HCCannedpeachempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedgreenbeansempty": {
+      "capacity": 0.3,
+      "source": "HCCannedgreenbeansempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedmushroomsempty": {
+      "capacity": 0.3,
+      "source": "HCCannedmushroomsempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedpumpkinempty": {
+      "capacity": 0.3,
+      "source": "HCCannedpumpkinempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedspamempty": {
+      "capacity": 0.3,
+      "source": "HCCannedspamempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedcranberriesempty": {
+      "capacity": 0.3,
+      "source": "HCCannedcranberriesempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedpineappleempty": {
+      "capacity": 0.3,
+      "source": "HCCannedpineappleempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedrefriedbeansempty": {
+      "capacity": 0.3,
+      "source": "HCCannedrefriedbeansempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCanbangedupopenempty": {
+      "capacity": 0.3,
+      "source": "HCCanbangedupopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedcheesesauceopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedcheesesauceopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedchickenbreastopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedchickenbreastopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedfruitcocktailopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedfruitcocktailopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedgovermentbeefopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedgovermentbeefopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedgovermentbreadopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedgovermentbreadopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedgovermentchickenopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedgovermentchickenopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedgovermentporkopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedgovermentporkopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedmacncheeseopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedmacncheeseopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedpiefillingappleopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedpiefillingappleopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedpiefillingcherryopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedpiefillingcherryopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedpiefillingblueberryopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedpiefillingblueberryopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedravioliopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedravioliopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    },
+    "HCCannedspaghettiringsopenempty": {
+      "capacity": 0.3,
+      "source": "HCCannedspaghettiringsopenempty",
+      "basis": "water fill alias of HCTincanwater"
+    }
+  },
+  "migrations": {
+    "HCBirchbarkcupfull": {
+      "target": "HCBirchbarkcupFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCBeakerwater": {
+      "target": "HCGlassbeakerFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCCanteenfull": {
+      "target": "HCCanteenFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCStrappedcanteenfull": {
+      "target": "HCStrappedcanteenFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCVatwater": {
+      "target": "HCVatFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCWoodenbucketwater": {
+      "target": "HCWoodenbucketFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCWashtubfull": {
+      "target": "HCWashtubFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCTroughfull": {
+      "target": "HCTroughFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCWatertowerfull": {
+      "target": "HCWatertowerFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCWatertowerfull2": {
+      "target": "HCWatertower2Fluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCShowerfull": {
+      "target": "HCShowerFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCShowersinkfull": {
+      "target": "HCShowersinkFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCIBCfull": {
+      "target": "HCIBCFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCIBCstoragefull": {
+      "target": "HCIBCstorageFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCIBCtowerfull": {
+      "target": "HCIBCtowerFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCMilkjugwater": {
+      "target": "HCMilkjugemptyFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCMilkjugchocolatewater": {
+      "target": "HCMilkjugchocolateemptyFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCLargetupwater": {
+      "target": "HCLargetupFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCMediumtupwater": {
+      "target": "HCMediumtupFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCSmalltupwater": {
+      "target": "HCSmalltupFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCThermosfull": {
+      "target": "HCThermosFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCAlestienfull": {
+      "target": "HCAlestienFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCPlasticcupfull": {
+      "target": "HCPlasticcupFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCStyrofoamcupfull": {
+      "target": "HCStyrofoamcupFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCZipperbagfull": {
+      "target": "HCZipperbagFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCKettlecopperfull": {
+      "target": "HCKettlecopperFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCMugcopperfull": {
+      "target": "HCMugcopperFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCGlasswaterbottle": {
+      "target": "HCGlassflaskFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCWashbottlefull": {
+      "target": "HCWashbottleFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCWaterflaskfull": {
+      "target": "HCWaterflaskFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCFishbowlfull": {
+      "target": "HCFishbowlFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCFishtankfull": {
+      "target": "HCFishtankFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCPlasticcanwater": {
+      "target": "HCPlasticcanemptyFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCPoisonwater": {
+      "target": "HCPoisonemptyFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCCauldronironfull": {
+      "target": "HCCauldronironFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCClayteapotfull": {
+      "target": "HCClayteapotFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCClaymugfull": {
+      "target": "HCClaymugFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCDetergentwater": {
+      "target": "HCDetergentemptyFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCWaterballoon": {
+      "target": "HCEmptyballoonFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCTincanwater": {
+      "target": "HCTincanFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    },
+    "HCBirchbarkcup": {
+      "target": "HCBirchbarkcupFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCanteen": {
+      "target": "HCCanteenFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCStrappedcanteen": {
+      "target": "HCStrappedcanteenFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCVat": {
+      "target": "HCVatFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCWoodenbucket": {
+      "target": "HCWoodenbucketFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCWashtub": {
+      "target": "HCWashtubFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCTrough": {
+      "target": "HCTroughFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCWatertower": {
+      "target": "HCWatertowerFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCWatertower2": {
+      "target": "HCWatertower2Fluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCShower": {
+      "target": "HCShowerFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCShowersink": {
+      "target": "HCShowersinkFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCIBC": {
+      "target": "HCIBCFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCIBCstorage": {
+      "target": "HCIBCstorageFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCIBCtower": {
+      "target": "HCIBCtowerFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCLargetup": {
+      "target": "HCLargetupFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCMediumtup": {
+      "target": "HCMediumtupFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCSmalltup": {
+      "target": "HCSmalltupFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCThermos": {
+      "target": "HCThermosFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCAlestien": {
+      "target": "HCAlestienFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCPlasticcup": {
+      "target": "HCPlasticcupFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCStyrofoamcup": {
+      "target": "HCStyrofoamcupFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCZipperbag": {
+      "target": "HCZipperbagFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCKettlecopper": {
+      "target": "HCKettlecopperFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCMugcopper": {
+      "target": "HCMugcopperFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCGlassflask": {
+      "target": "HCGlassflaskFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCGlassbeaker": {
+      "target": "HCGlassbeakerFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCWashbottle": {
+      "target": "HCWashbottleFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCWaterflask": {
+      "target": "HCWaterflaskFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCFishbowl": {
+      "target": "HCFishbowlFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCFishtank": {
+      "target": "HCFishtankFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCPlasticcanempty": {
+      "target": "HCPlasticcanemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:drainable"
+    },
+    "HCPoisonempty": {
+      "target": "HCPoisonemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:drainable"
+    },
+    "HCCauldroniron": {
+      "target": "HCCauldronironFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCClaycauldron": {
+      "target": "HCClaycauldronFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCClaymug": {
+      "target": "HCClaymugFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCWell": {
+      "target": "HCWellFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCDetergentempty": {
+      "target": "HCDetergentemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:drainable"
+    },
+    "HCEmptyballoon": {
+      "target": "HCEmptyballoonFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCTincan": {
+      "target": "HCTincanFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedcornedbeefempty": {
+      "target": "HCCannedcornedbeefemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedcornempty": {
+      "target": "HCCannedcornemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedmushroomsoupempty": {
+      "target": "HCCannedmushroomsoupemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedpeasempty": {
+      "target": "HCCannedpeasemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedpotatoempty": {
+      "target": "HCCannedpotatoemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedsardinesempty": {
+      "target": "HCCannedsardinesemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedtomatoempty": {
+      "target": "HCCannedtomatoemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedcarrotsempty": {
+      "target": "HCCannedcarrotsemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCBeansempty": {
+      "target": "HCBeansemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCTinnedsoupempty": {
+      "target": "HCTinnedsoupemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCTunatinempty": {
+      "target": "HCTunatinemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCDogfoodempty": {
+      "target": "HCDogfoodemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedbologneseempty": {
+      "target": "HCCannedbologneseemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedchiliempty": {
+      "target": "HCCannedchiliemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedsoupclassicempty": {
+      "target": "HCCannedsoupclassicemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedappleempty": {
+      "target": "HCCannedappleemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedpearempty": {
+      "target": "HCCannedpearemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedpeachempty": {
+      "target": "HCCannedpeachemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedgreenbeansempty": {
+      "target": "HCCannedgreenbeansemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedmushroomsempty": {
+      "target": "HCCannedmushroomsemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedpumpkinempty": {
+      "target": "HCCannedpumpkinemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedspamempty": {
+      "target": "HCCannedspamemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedcranberriesempty": {
+      "target": "HCCannedcranberriesemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedpineappleempty": {
+      "target": "HCCannedpineappleemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedrefriedbeansempty": {
+      "target": "HCCannedrefriedbeansemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCanbangedupopenempty": {
+      "target": "HCCanbangedupopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedcheesesauceopenempty": {
+      "target": "HCCannedcheesesauceopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedchickenbreastopenempty": {
+      "target": "HCCannedchickenbreastopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedfruitcocktailopenempty": {
+      "target": "HCCannedfruitcocktailopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedgovermentbeefopenempty": {
+      "target": "HCCannedgovermentbeefopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedgovermentbreadopenempty": {
+      "target": "HCCannedgovermentbreadopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedgovermentchickenopenempty": {
+      "target": "HCCannedgovermentchickenopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedgovermentporkopenempty": {
+      "target": "HCCannedgovermentporkopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedmacncheeseopenempty": {
+      "target": "HCCannedmacncheeseopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedpiefillingappleopenempty": {
+      "target": "HCCannedpiefillingappleopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedpiefillingcherryopenempty": {
+      "target": "HCCannedpiefillingcherryopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedpiefillingblueberryopenempty": {
+      "target": "HCCannedpiefillingblueberryopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedravioliopenempty": {
+      "target": "HCCannedravioliopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCCannedspaghettiringsopenempty": {
+      "target": "HCCannedspaghettiringsopenemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCMilkjugempty": {
+      "target": "HCMilkjugemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCMilkjugchocolateempty": {
+      "target": "HCMilkjugchocolateemptyFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCDutchoven": {
+      "target": "HCDutchovenFluid",
+      "unitLitres": 0,
+      "legacyClass": "base:normal"
+    },
+    "HCBeakerwaterhalf": {
+      "target": "HCGlassbeakerFluid",
+      "unitLitres": 0.1,
+      "fluid": "TaintedWater",
+      "legacyClass": "base:drainable"
+    }
+  }
+}

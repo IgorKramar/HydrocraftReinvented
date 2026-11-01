@@ -565,8 +565,15 @@ function recipe_hcwoodenbucket5(items, result, player)
 end 
 
 function recipe_hcwoodenbarrel(items, result, player)
-	-- Distilling consumes one use of a drainable barrel, not the barrel itself.
-	-- Native ReplaceOnDeplete returns its empty barrel after the last bottle.
+	-- Винные и перегонные бочки имеют класс Normal; ReplaceOnDeplete
+	-- для них не вызывается. Возвращается одна полностью потраченная бочка.
+	for i=0,items:size()-1 do
+		local item=items:get(i)
+		if item:getFullType():match("^Hydrocraft%.HCBarrel") and not item:IsDrainable() then
+			player:getInventory():AddItem("Hydrocraft.HCWoodenbarrelFluid")
+			return
+		end
+	end
 end
 
 --Electric  Stuff
@@ -2597,11 +2604,8 @@ end
 -- Пока вызов оставался, обработчик падал на первой же строке, и окурки
 -- не появлялись ни разу.
 function HCOnEat_Cigarettes(food, character, percent)
-	-- SandboxVars.Hydrocraft в B42 равен nil: опции песочницы при порте
-	-- потерялись, остались только их переводы. Без опции окурки появляются —
-	-- иначе включить их было бы нечем.
-	local hcSandbox = SandboxVars and SandboxVars.Hydrocraft
-	if(hcSandbox == nil or hcSandbox.SpawnCigaretteButts ~= false) then
+	require "HCR_Sandbox"
+	if HCRSandbox.enabled("SpawnCigaretteButts") then
 		character:getInventory():AddItem("Hydrocraft.HCCigarettebutt")
 	end
 end

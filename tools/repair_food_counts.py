@@ -40,7 +40,7 @@ def apply(check=False, manifest_path=MANIFEST):
                 continue
             found.add(name)
             for entry in recipes[name]:
-                before, after = entry['input'], whole_input(entry['input'])
+                before, after = entry['input'], entry.get('after',whole_input(entry['input']))
                 lines = body.splitlines(keepends=True)
                 matches = sum(line.strip() == before for line in lines)
                 done = sum(line.strip() == after for line in lines)

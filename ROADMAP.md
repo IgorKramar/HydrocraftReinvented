@@ -19,8 +19,10 @@
 
 #### v1.6.0 — «Живая вода» / The Fluids Update
 
-Последний легаси-пласт мода: ~1 000 предметов до сих пор изображают жидкости
-парами «пустой/полный», как в B41. Всё переезжает на нативную систему жидкостей B42:
+Разработка начата: [состояние переноса и проверки](docs/FLUIDS_1_6_STATUS.md).
+Аудит 1.5.12 нашёл 120 legacy предметов с CanStoreWater; соки, молочные напитки
+и химические ёмкости учитываются отдельными группами. Прежняя оценка «~1 000»
+смешивала жидкости с возвратом пищевой тары. Переносим на нативные жидкости B42:
 
 - **Настоящие ёмкости** (`FluidContainer`): наполнение из любого источника,
   переливание, дождь в бочки, честные объёмы — силами движка. Класс
@@ -123,8 +125,10 @@ and outstanding checks are recorded in the [verification report](docs/PLAYABILIT
 
 #### v1.6.0 — The Fluids Update
 
-The mod's last legacy layer: ~1,000 items still emulate liquids with
-"empty/full" item pairs, B41-style. Everything moves to native B42 fluids:
+Development has started: [migration status and verification](docs/FLUIDS_1_6_STATUS.md).
+The 1.5.12 audit found 120 legacy water-marked items; juices, dairy and chemical
+containers are separate families. The earlier ~1,000 estimate included food
+container returns. These families move to native B42 fluids:
 
 - **Real containers** (`FluidContainer`): fill from any source, pour between
   vessels, rain into barrels, honest volumes — engine-driven. The class of

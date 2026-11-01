@@ -1081,13 +1081,14 @@ module Hydrocraft
     }
     craftRecipe Box Balloons
     {
+        OnTest = HCRFluidRecipes.Test_4cfa09b5e60a,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Leisure,
         timedAction = Making,
         inputs
         {
-            item 100 [Hydrocraft.HCEmptyballoon],
+            item 100 [Hydrocraft.HCEmptyballoon;Hydrocraft.HCEmptyballoonFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -1096,6 +1097,7 @@ module Hydrocraft
     }
     craftRecipe Unbox Balloons
     {
+        OnTest = HCRFluidRecipes.Test_ad9e867f9c75,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Leisure,
@@ -1106,7 +1108,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 100 Hydrocraft.HCEmptyballoon,
+            item 100 Hydrocraft.HCEmptyballoonFluid,
         }
     }
     craftRecipe Put Tennis Balls in Container

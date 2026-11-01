@@ -8,6 +8,7 @@ import unittest
 from pathlib import Path
 
 from lupa.lua51 import LuaRuntime
+from test_food_quality import MOCKS as QUALITY_MOCKS
 
 ROOT = Path(__file__).resolve().parents[1]
 LUA = ROOT / 'common/media/lua/server'
@@ -19,11 +20,32 @@ function list(items)
 end
 function food(calories, hunger, uses)
     local f={calories=calories, carbs=calories/10, lipids=calories/20,
-             proteins=calories/25, hunger=hunger, base=hunger, uses=uses, age=3, poison=7}
+             proteins=calories/25, hunger=hunger, base=hunger, uses=uses, age=3, poison=7, data={}}
     function f:IsFood() return true end
+    f.container={contains=function(_,item) return item==f end}
+    function f:getContainer() return self.container end
+    function f:getWorldItem() return self.world end
+    function f:updateAge() end
     function f:getFullType() return "Hydrocraft.Food" end
     function f:getCurrentUses() return self.uses end
     function f:getReplaceOnUse() return self.replacement end
+    function f:getModData() return self.data end
+    function f:getPoisonPower() return self.poison end
+    function f:setPoisonPower(value) self.poison=value end
+    function f:getPoisonDetectionLevel() return self.detection or -1 end
+    function f:setPoisonDetectionLevel(value) self.detection=value end
+    function f:getAge() return self.age end
+    function f:setAge(value) self.age=value end
+    function f:getOffAge() return self.fresh or 5 end
+    function f:setOffAge(value) self.fresh=value end
+    function f:getOffAgeMax() return self.rotten or 8 end
+    function f:setOffAgeMax(value) self.rotten=value end
+    function f:isTainted() return self.tainted or false end
+    function f:setTainted(value) self.tainted=value end
+    function f:getReplaceOnCooked() return nil end
+    function f:getCookingTime() return self.cookingTime or 0 end
+    function f:isCookable() return self.cookable or false end
+    function f:getMinutesToCook() return 20 end
     local fields={Calories="calories", Carbohydrates="carbs", Lipids="lipids",
                   Proteins="proteins", HungChange="hunger", BaseHunger="base"}
     for suffix, field in pairs(fields) do
@@ -38,8 +60,10 @@ function food(calories, hunger, uses)
     return f
 end
 function tool()
-    return {IsFood=function() return false end, getFullType=function() return "Base.Tool" end,
-            getCurrentUses=function() return 1 end}
+    local item={IsFood=function() return false end, getFullType=function() return "Base.Tool" end,
+            getCurrentUses=function() return 1 end,getWorldItem=function() return nil end}
+    item.getContainer=function() return {contains=function(_,candidate) return candidate==item end} end
+    return item
 end
 function input(items, amount, whole, keep, scale)
     local script={items=items, amount=amount, whole=whole, keep=keep, scale=scale or 1}
@@ -60,6 +84,7 @@ function data(scripts, outputs)
                 getAppliedItem=function(_,i) return script.items[i+1] end}
     end
     function d:getAllCreatedItems() return list(outputs) end
+    function d:getInputItems(slot) return list(scripts[slot+1].items) end
     function d:getAllConsumedItems()
         local items={}
         for _, script in ipairs(scripts) do
@@ -75,6 +100,8 @@ end
 class FoodCallbacks(unittest.TestCase):
     def setUp(self):
         self.lua = LuaRuntime(unpack_returned_tuples=True)
+        self.lua.execute(QUALITY_MOCKS)
+        self.lua.execute((LUA.parent/'shared/HCR_FoodQuality.lua').read_text(encoding='utf-8'))
         self.lua.execute(MOCKS)
         self.lua.execute((LUA / 'HCR_FoodBridge.lua').read_text(encoding='utf-8'))
 
@@ -128,7 +155,8 @@ class FoodCallbacks(unittest.TestCase):
         for i in range(1, 9):
             self.assertEqual(pieces[i].calories, 60)
             self.assertEqual(pieces[i].age, 8)
-            self.assertEqual(pieces[i].poison, 7)
+            self.assertAlmostEqual(self.lua.globals().HCRFoodQuality.dose(pieces[i]),7/8)
+            self.assertEqual(pieces[i].poison,1)
             self.assertEqual(pieces[i].divisor, 8)
 
     def test_nonfood_outputs_do_not_divide_nutrition(self):
@@ -248,14 +276,18 @@ class FoodCallbacks(unittest.TestCase):
         ''')
         self.assertEqual(self.lua.globals().bowls, 1)
 
-    def test_distilling_does_not_create_barrel_each_bottle(self):
+    def test_bottling_returns_normal_barrel_but_not_a_partial_drainable(self):
         self.lua.execute((LUA / 'HCExtra.lua').read_text(encoding='utf-8'))
         self.lua.execute('''
             barrels=0
             player={getInventory=function() return {AddItem=function() barrels=barrels+1 end} end}
-            recipe_hcwoodenbarrel(nil,nil,player)
+            normal={getFullType=function() return 'Hydrocraft.HCBarrelwine' end,IsDrainable=function() return false end}
+            drainable={getFullType=function() return 'Hydrocraft.HCBarrelOtherMod' end,IsDrainable=function() return true end}
+            recipe_hcwoodenbarrel(list({drainable}),nil,player)
+            assert(barrels==0)
+            recipe_hcwoodenbarrel(list({normal}),nil,player)
         ''')
-        self.assertEqual(self.lua.globals().barrels, 0)
+        self.assertEqual(self.lua.globals().barrels, 1)
 
     def test_food_tag_ingredients_are_consumed(self):
         for path in SCRIPTS.glob('*.txt'):

@@ -784,7 +784,8 @@ module Hydrocraft
             item 1 [Hydrocraft.HCWeights] mode:keep,
             item 1 [Hydrocraft.HCPunchingbag] mode:keep,
             item 1 [Hydrocraft.HCBoxinggloves] mode:keep,
-            item 1 [Hydrocraft.HCFitnessdrink],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.14 [HCRFitness] mode:primary,
         }
         outputs
         {

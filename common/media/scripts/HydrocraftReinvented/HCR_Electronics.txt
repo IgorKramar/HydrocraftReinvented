@@ -1388,6 +1388,7 @@ module Hydrocraft
     }
     craftRecipe Place Circuit Print On Circuit Board
     {
+        OnTest = HCRFluidRecipes.Test_913010c4e404,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Electrical,
@@ -1397,7 +1398,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCCookingoil;Base.OilVegetable;Hydrocraft.HCCookingoiljar],
             item 1 [Hydrocraft.HCCircuitprint],
-            item 1 [Hydrocraft.HCPlasticcanempty],
+            item 1 [Hydrocraft.HCPlasticcanempty;Hydrocraft.HCPlasticcanemptyFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCCircuitboardcoppersidephotolacquer],
         }
         outputs

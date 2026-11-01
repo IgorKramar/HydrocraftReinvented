@@ -11,6 +11,7 @@ class DrinkPackaging(unittest.TestCase):
     def setUp(self):
         self.lua = LuaRuntime(unpack_returned_tuples=True)
         self.lua.execute('''
+        function require() end
         local function fluid(amount, kind, mixture)
             return {isFull=function() return amount >= .3 - .0001 end,
                 isMixture=function() return mixture end,

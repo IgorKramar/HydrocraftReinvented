@@ -1832,7 +1832,7 @@ module Hydrocraft
     }
     item HCAguaardiente
     {
-
+        Tooltip = Tooltip_HCR_LegacyAguardiente,
          ThirstChange		= 	-10,
 	 Weight			=	0.9,
 	 ItemType			=	base:food,
@@ -2108,6 +2108,10 @@ module Hydrocraft
     }
     craftRecipe Brew Irish Coffee
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2115,19 +2119,25 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] flags[ItemCount],
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 6 [Base.Coffee2],
-            item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey] flags[ItemCount],
+            item 1 [Hydrocraft.HCCocktailglassFluid;Hydrocraft.HCGlassshortFluid;Hydrocraft.HCGlasstallFluid] mode:keep flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeirish,
+            item 1 Base.Mugl,
         }
     }
     craftRecipe Brew Irish Coffee (Cup of Irish Coffee)
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
+        OnTest = HCRFluidRecipes.Test_ac64892aa26a,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2135,19 +2145,24 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 6 [Base.Coffee2],
-            item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey] flags[ItemCount],
+            item 1 [Hydrocraft.HCCocktailglassFluid;Hydrocraft.HCGlassshortFluid;Hydrocraft.HCGlasstallFluid] mode:keep flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeirish2,
+            item 1 Hydrocraft.HCClaymugFluid,
         }
     }
     craftRecipe Brew Irish Coffee (Cup of Irish Coffee 2)
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2155,19 +2170,25 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Base.Mugl] flags[ItemCount],
+            item 1 [Base.Mugl] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 6 [Hydrocraft.HCCoffeelarge],
-            item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey] flags[ItemCount],
+            item 1 [Hydrocraft.HCCocktailglassFluid;Hydrocraft.HCGlassshortFluid;Hydrocraft.HCGlasstallFluid] mode:keep flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeirish,
+            item 1 Base.Mugl,
         }
     }
     craftRecipe Brew Irish Coffee (Cup of Irish Coffee 3)
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
+        OnTest = HCRFluidRecipes.Test_4a2bc5f3e4b9,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2175,19 +2196,24 @@ module Hydrocraft
         xpAward = Cooking:3,
         inputs
         {
-            item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],
             item 6 [Hydrocraft.HCCoffeelarge],
-            item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey;Hydrocraft.HCDrinkglassshortwhiskey;Hydrocraft.HCDrinkglasstallwhiskey] flags[ItemCount],
+            item 1 [Hydrocraft.HCCocktailglassFluid;Hydrocraft.HCGlassshortFluid;Hydrocraft.HCGlasstallFluid] mode:keep flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCCoffeeirish2,
+            item 1 Hydrocraft.HCClaymugFluid,
         }
     }
     craftRecipe Mix Old Fashioned
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2197,18 +2223,24 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCDrinkglassshortwhiskey] flags[ItemCount],
-            item 1 [Hydrocraft.HCBitters],
+            item 1 [Hydrocraft.HCGlassshortFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.025 [HCRBitters] mode:primary,
             item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],
             item 1 [Hydrocraft.HCSlicedorange] flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkoldfashioned,
+            item 1 Hydrocraft.HCDrinkoldfashionedFluid,
         }
     }
     craftRecipe Mix Martini
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2218,17 +2250,24 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCDrinkcocktailglassgin] flags[ItemCount],
-            item 1 [Hydrocraft.HCBitters],
-            item 1 [Hydrocraft.HCVermouth],
+            item 1 [Hydrocraft.HCCocktailglassFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRGin] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.025 [HCRBitters] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.025 [HCRVermouth] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkmartini,
+            item 1 Hydrocraft.HCDrinkmartiniFluid,
         }
     }
     craftRecipe Mix Manhattan
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2238,17 +2277,24 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCDrinkcocktailglasswhiskey] flags[ItemCount],
-            item 1 [Hydrocraft.HCBitters],
-            item 1 [Hydrocraft.HCVermouth],
+            item 1 [Hydrocraft.HCCocktailglassFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.025 [HCRBitters] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.025 [HCRVermouth] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkmanhattan,
+            item 1 Hydrocraft.HCDrinkmanhattanFluid,
         }
     }
     craftRecipe Mix Daquiri
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2258,18 +2304,24 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCDrinkcocktailglassrum] flags[ItemCount],
-            item 2 [Hydrocraft.HCLimemixer],
+            item 1 [Hydrocraft.HCCocktailglassFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRRum] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRLimeMixer] mode:primary,
             item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],
             item 1 [Hydrocraft.HCSlicedlime] flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkdaquiri,
+            item 1 Hydrocraft.HCDrinkdaquiriFluid,
         }
     }
     craftRecipe Mix Bloody Mary
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2279,16 +2331,22 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCDrinkglasstallvodka] flags[ItemCount],
-            item 5 [Hydrocraft.HCBloodymarymixer],
+            item 1 [Hydrocraft.HCGlasstallFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRVodka] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.25 [HCRBloodyMaryMixer] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkbloodymary,
+            item 1 Hydrocraft.HCDrinkbloodymaryFluid,
         }
     }
     craftRecipe Mix Whiskey Sour
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2298,17 +2356,23 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCDrinkglassshortwhiskey] flags[ItemCount],
-            item 2 [Hydrocraft.HCLemonmixer],
+            item 1 [Hydrocraft.HCGlassshortFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRLemonMixer] mode:primary,
             item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkwhiskeysour,
+            item 1 Hydrocraft.HCDrinkwhiskeysourFluid,
         }
     }
     craftRecipe Mix Mai Tai
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2318,18 +2382,25 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCDrinkglassshortrum] flags[ItemCount],
-            item 2 [Hydrocraft.HCLimemixer],
+            item 1 [Hydrocraft.HCGlassshortFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRRum] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRLimeMixer] mode:primary,
             item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],
-            item 1 [Hydrocraft.HCTriplesec],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.025 [HCRTripleSec] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkmaitai,
+            item 1 Hydrocraft.HCDrinkmaitaiFluid,
         }
     }
     craftRecipe Mix Cosmopolitan
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2339,18 +2410,25 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCDrinkcocktailglassvodka] flags[ItemCount],
-            item 1 [Hydrocraft.HCTriplesec],
-            item 2 [Hydrocraft.HCLimemixer],
+            item 1 [Hydrocraft.HCCocktailglassFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRVodka] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.025 [HCRTripleSec] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRLimeMixer] mode:primary,
             item 1 [Hydrocraft.HCSlicedlime] flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkcosmo,
+            item 1 Hydrocraft.HCDrinkcosmoFluid,
         }
     }
     craftRecipe Mix Tom Collins
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2360,17 +2438,23 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCDrinkglasstallgin] flags[ItemCount],
-            item 2 [Hydrocraft.HCLemonmixer],
+            item 1 [Hydrocraft.HCGlasstallFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRGin] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRLemonMixer] mode:primary,
             item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinktomcollins,
+            item 1 Hydrocraft.HCDrinktomcollinsFluid,
         }
     }
     craftRecipe Mix Long Island Iced Tea
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2380,20 +2464,29 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCDrinkglasstallvodka] flags[ItemCount],
-            item 2 [Hydrocraft.HCRum1],
-            item 2 [Hydrocraft.HCLemonmixer],
-            item 2 [Hydrocraft.HCLimemixer],
-            item 1 [Hydrocraft.HCTriplesec],
+            item 1 [Hydrocraft.HCGlasstallFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRVodka] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRRum] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRLemonMixer] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRLimeMixer] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.025 [HCRTripleSec] mode:primary,
             item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinklongisland,
+            item 1 Hydrocraft.HCDrinklongislandFluid,
         }
     }
     craftRecipe Mix Gimlet
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2403,17 +2496,23 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCDrinkcocktailglassgin] flags[ItemCount],
-            item 2 [Hydrocraft.HCLimemixer],
+            item 1 [Hydrocraft.HCCocktailglassFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRGin] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRLimeMixer] mode:primary,
             item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkgimlet,
+            item 1 Hydrocraft.HCDrinkgimletFluid,
         }
     }
     craftRecipe Mix Planter's Punch
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2423,19 +2522,25 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 1 [Hydrocraft.HCDrinkglassshortrum] flags[ItemCount],
-            item 1 [Hydrocraft.HCBitters],
-            item 2 [Hydrocraft.HCLemonmixer],
+            item 1 [Hydrocraft.HCGlassshortFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRRum] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.025 [HCRBitters] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRLemonMixer] mode:primary,
             item 1 [Base.Sugar;Base.SugarBrown;Base.SugarPacket;Hydrocraft.HCSugarcubes],
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkplanterspunch,
+            item 1 Hydrocraft.HCDrinkplanterspunchFluid,
         }
     }
     craftRecipe Whiskey and Coke
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2443,16 +2548,22 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCDrinkglasstallwhiskey] flags[ItemCount],
-            item 1 [Hydrocraft.HCSodacola],
+            item 1 [Hydrocraft.HCGlasstallFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.133333333333 [HCRSodaCola] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkwhiskeyandcoke,
+            item 1 Hydrocraft.HCDrinkwhiskeyandcokeFluid,
         }
     }
         craftRecipe Whiskey and Coke (Canned Cola)
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2460,17 +2571,22 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCDrinkglasstallwhiskey] flags[ItemCount],
+            item 1 [Hydrocraft.HCGlasstallFluid] mode:destroy flags[ItemCount;ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
             item 1 [Base.Pop;Base.Pop2] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.3 [Cola;ColaDiet],
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkwhiskeyandcoke,
+            item 1 Hydrocraft.HCDrinkwhiskeyandcokeFluid,
         }
     }
     craftRecipe Mix Margarita
     {
+
+        Tooltip = Tooltip_HCR_CocktailYield,
+
+        OnCreate = HCRBarDrinks.create,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2480,20 +2596,29 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCCocktailshaker;Base.Spoon] mode:keep,
-            item 1 [Hydrocraft.HCMargaritaglassempty],
-            item 2 [Hydrocraft.HCTequila],
-            item 1 [Hydrocraft.HCTriplesec],
-            item 2 [Hydrocraft.HCLemonmixer],
+            item 1 [Hydrocraft.HCMargaritaglassempty;Hydrocraft.HCDrinkmargaritaFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRTequila] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.025 [HCRTripleSec] mode:primary,
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRLemonMixer] mode:primary,
             item 1 [Base.Salt],
             item 1 [Hydrocraft.HCSlicedlime] flags[ItemCount],
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkmargarita,
+            item 1 Hydrocraft.HCDrinkmargaritaFluid,
         }
     }
     craftRecipe Make Eggnog Pot
     {
+
+        OnCreate = HCRBarDrinks.create,
+
+        Icon = HCMilkjug,
+
+        Tooltip = Tooltip_HCR_MilkCocktailBatch,
         time = 90,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2502,78 +2627,72 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,
             item 1 tags[Egg] flags[ItemCount],
             item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.25 [Whiskey],
-            item 1 [Base.Pot] flags[ItemCount],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCEggnogpot,
+            item 1 Base.Pot,
         }
     }
-    craftRecipe Make Eggnog Pot (Carton Milk)
-    {
-        time = 90,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Cooking:4,
-        inputs
-        {
-            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 1.0 [CowMilk],
-            item 1 tags[Egg] flags[ItemCount],
-            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.25 [Whiskey],
-            item 1 [Base.Pot] flags[ItemCount],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCEggnogpot,
-        }
-    }
+
     craftRecipe Make Eggnog Cuppa
     {
+
+        Tooltip = Tooltip_HCR_MilkCocktailBatch,
         time = 90,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         xpAward = Cooking:4,
-        OnCreate = HCR42.recipe_hcpot,
+
+        OnCreate = HCRBarDrinks.create,
         inputs
         {
-            item 1 [Hydrocraft.HCEggnogpot] flags[ItemCount],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.8 [HCREggnog] mode:primary,
             item 1 [Base.Chocolate] flags[ItemCount],
-            item 4 [Base.Mugl] flags[ItemCount],
+            item 4 [Base.Mugl] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 4 Hydrocraft.HCEggnogmug,
+            item 4 Base.Mugl,
         }
     }
     craftRecipe Make Eggnog Bottle
     {
+
+        Tooltip = Tooltip_HCR_MilkCocktailBatch,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         xpAward = Cooking:3,
-        OnCreate = HCR42.recipe_hcpot,
+
+        OnCreate = HCRBarDrinks.create,
         inputs
         {
-            item 1 [Hydrocraft.HCEggnogpot] flags[ItemCount],
-            item 2 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 2 [HCREggnog] mode:primary,
+            item 2 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 2 Hydrocraft.HCWhiskeyeggnogbottle,
+            item 2 Hydrocraft.HCEggnogbottleFluid,
         }
     }
     craftRecipe Make Monkey Tail Pot
     {
+
+        OnCreate = HCRBarDrinks.create,
+
+        Icon = HCMilkjug,
+
+        Tooltip = Tooltip_HCR_MilkCocktailBatch,
         time = 90,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -2582,73 +2701,62 @@ module Hydrocraft
         xpAward = Cooking:4,
         inputs
         {
-            item 1 [Hydrocraft.HCEvaporatedmilkopen;Hydrocraft.HCMilkjug;Hydrocraft.HCMilkjugchocolate;Hydrocraft.HCSoymilk;Hydrocraft.HCUHTmilk;Hydrocraft.HCWoodenbucketmilk],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRMilk;CowMilk;SheepMilk;AnimalMilk;HCRMilkChocolate;HCRMilkSoy] mode:primary,
             item 1 [Base.Sugar],
-            item 1 [Hydrocraft.HCAguaardiente] flags[ItemCount],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1 [HCRAguardiente] mode:primary,
             item 1 [Base.Coffee2],
-            item 1 [Base.Pot] flags[ItemCount],
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCColademonopot,
+            item 1 Base.Pot,
         }
     }
-    craftRecipe Make Monkey Tail Pot (Carton Milk)
-    {
-        time = 90,
-        Tags = AnySurfaceCraft,
-        category = Cooking,
-        timedAction = Making,
-        NeedToBeLearn = true,
-        xpAward = Cooking:4,
-        inputs
-        {
-            item 1 [Base.Milk] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 1.0 [CowMilk],
-            item 1 [Base.Sugar],
-            item 1 [Hydrocraft.HCAguaardiente] flags[ItemCount],
-            item 1 [Base.Coffee2],
-            item 1 [Base.Pot] flags[ItemCount],
-        }
-        outputs
-        {
-            item 1 Hydrocraft.HCColademonopot,
-        }
-    }
+
     craftRecipe Make Monkey Tail Mug
     {
+
+        Tooltip = Tooltip_HCR_MilkCocktailBatch,
         time = 90,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         xpAward = Cooking:4,
-        OnCreate = HCR42.recipe_hcpot,
+
+        OnCreate = HCRBarDrinks.create,
         inputs
         {
-            item 1 [Hydrocraft.HCColademonopot] flags[ItemCount],
-            item 4 [Base.Mugl] flags[ItemCount],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.8 [HCRMonkeyTail] mode:primary,
+            item 4 [Base.Mugl] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 4 Hydrocraft.HCColademonomug,
+            item 4 Base.Mugl,
         }
     }
     craftRecipe Make Monkey Tail Bottle
     {
+
+        Tooltip = Tooltip_HCR_MilkCocktailBatch,
         time = 70,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         xpAward = Cooking:3,
-        OnCreate = HCR42.recipe_hcpot,
+
+        OnCreate = HCRBarDrinks.create,
         inputs
         {
-            item 1 [Hydrocraft.HCColademonopot] flags[ItemCount],
-            item 2 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 2 [HCRMonkeyTail] mode:primary,
+            item 2 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
         }
         outputs
         {
-            item 2 Hydrocraft.HCWhiskeycolademonobottle,
+            item 2 Hydrocraft.HCMonkeyTailbottleFluid,
         }
     }
     craftRecipe Open Pack of Beer
@@ -2663,7 +2771,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCBeercan1,
+            item 6 Hydrocraft.HCBeercan1Fluid,
         }
     }
     craftRecipe Open Pack of Beer (Can of Beer)
@@ -2678,7 +2786,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCBeercan2,
+            item 6 Hydrocraft.HCBeercan2Fluid,
         }
     }
     craftRecipe Open Pack of Beer (Can of Beer 2)
@@ -2693,7 +2801,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCBeercan3,
+            item 6 Hydrocraft.HCBeercan3Fluid,
         }
     }
     craftRecipe Open Pack of Beer (Can of Beer 3)
@@ -2708,7 +2816,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCBeercan4,
+            item 6 Hydrocraft.HCBeercan4Fluid,
         }
     }
     craftRecipe Open Pack of Beer (Can of Beer 4)
@@ -2723,7 +2831,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCBeercan5,
+            item 6 Hydrocraft.HCBeercan5Fluid,
         }
     }
     craftRecipe Open Pack of Beer (Can of Beer 5)
@@ -2738,7 +2846,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCBeercan6,
+            item 6 Hydrocraft.HCBeercan6Fluid,
         }
     }
     craftRecipe Open Pack of Beer (Can of Beer 6)
@@ -2753,7 +2861,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCBeercan7,
+            item 6 Hydrocraft.HCBeercan7Fluid,
         }
     }
     craftRecipe Open Pack of Beer (Can of Beer 7)
@@ -2768,7 +2876,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCBeercan8,
+            item 6 Hydrocraft.HCBeercan8Fluid,
         }
     }
     craftRecipe Open Pack of Beer (Can of Beer 8)
@@ -2783,7 +2891,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCBeercan9,
+            item 6 Hydrocraft.HCBeercan9Fluid,
         }
     }
     craftRecipe Open Pack of Beer (Can of Beer 9)
@@ -2798,7 +2906,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 6 Hydrocraft.HCBeercan10,
+            item 6 Hydrocraft.HCBeercan10Fluid,
         }
     }
     craftRecipe Pack Beer
@@ -2808,9 +2916,10 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         OnTest = HCRPackaging.IsFullFactoryState,
+        Tooltip = Tooltip_HCR_PackBeer,
         inputs
         {
-            item 6 [Hydrocraft.HCBeercan1] flags[ItemCount],
+            item 6 [Hydrocraft.HCBeercan1Fluid] flags[ItemCount],
         }
         outputs
         {
@@ -2824,9 +2933,10 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         OnTest = HCRPackaging.IsFullFactoryState,
+        Tooltip = Tooltip_HCR_PackBeer,
         inputs
         {
-            item 6 [Hydrocraft.HCBeercan2] flags[ItemCount],
+            item 6 [Hydrocraft.HCBeercan2Fluid] flags[ItemCount],
         }
         outputs
         {
@@ -2840,9 +2950,10 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         OnTest = HCRPackaging.IsFullFactoryState,
+        Tooltip = Tooltip_HCR_PackBeer,
         inputs
         {
-            item 6 [Hydrocraft.HCBeercan3] flags[ItemCount],
+            item 6 [Hydrocraft.HCBeercan3Fluid] flags[ItemCount],
         }
         outputs
         {
@@ -2856,9 +2967,10 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         OnTest = HCRPackaging.IsFullFactoryState,
+        Tooltip = Tooltip_HCR_PackBeer,
         inputs
         {
-            item 6 [Hydrocraft.HCBeercan4] flags[ItemCount],
+            item 6 [Hydrocraft.HCBeercan4Fluid] flags[ItemCount],
         }
         outputs
         {
@@ -2872,9 +2984,10 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         OnTest = HCRPackaging.IsFullFactoryState,
+        Tooltip = Tooltip_HCR_PackBeer,
         inputs
         {
-            item 6 [Hydrocraft.HCBeercan5] flags[ItemCount],
+            item 6 [Hydrocraft.HCBeercan5Fluid] flags[ItemCount],
         }
         outputs
         {
@@ -2888,9 +3001,10 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         OnTest = HCRPackaging.IsFullFactoryState,
+        Tooltip = Tooltip_HCR_PackBeer,
         inputs
         {
-            item 6 [Hydrocraft.HCBeercan6] flags[ItemCount],
+            item 6 [Hydrocraft.HCBeercan6Fluid] flags[ItemCount],
         }
         outputs
         {
@@ -2904,9 +3018,10 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         OnTest = HCRPackaging.IsFullFactoryState,
+        Tooltip = Tooltip_HCR_PackBeer,
         inputs
         {
-            item 6 [Hydrocraft.HCBeercan7] flags[ItemCount],
+            item 6 [Hydrocraft.HCBeercan7Fluid] flags[ItemCount],
         }
         outputs
         {
@@ -2920,9 +3035,10 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         OnTest = HCRPackaging.IsFullFactoryState,
+        Tooltip = Tooltip_HCR_PackBeer,
         inputs
         {
-            item 6 [Hydrocraft.HCBeercan8] flags[ItemCount],
+            item 6 [Hydrocraft.HCBeercan8Fluid] flags[ItemCount],
         }
         outputs
         {
@@ -2936,9 +3052,10 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         OnTest = HCRPackaging.IsFullFactoryState,
+        Tooltip = Tooltip_HCR_PackBeer,
         inputs
         {
-            item 6 [Hydrocraft.HCBeercan9] flags[ItemCount],
+            item 6 [Hydrocraft.HCBeercan9Fluid] flags[ItemCount],
         }
         outputs
         {
@@ -2952,9 +3069,10 @@ module Hydrocraft
         category = Cooking,
         timedAction = Making,
         OnTest = HCRPackaging.IsFullFactoryState,
+        Tooltip = Tooltip_HCR_PackBeer,
         inputs
         {
-            item 6 [Hydrocraft.HCBeercan10] flags[ItemCount],
+            item 6 [Hydrocraft.HCBeercan10Fluid] flags[ItemCount],
         }
         outputs
         {
@@ -2963,53 +3081,71 @@ module Hydrocraft
     }
     craftRecipe Make Lemon Mixer
     {
+
+        OnCreate = HCRBarDrinks.create,
+
+        Tooltip = Tooltip_HCR_MixerYield,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle;Hydrocraft.HCPopbottlelemonjuice;Hydrocraft.HCWaterbottlelemonjuice;Hydrocraft.HCRemouladelemonjuice;Hydrocraft.HCMayonnaiselemonjuice;Hydrocraft.HCWhiskeylemonjuice],
+            item 1 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCLemonmixer,
+            item 1 Hydrocraft.HCLemonmixerFluid,
         }
     }
     craftRecipe Make Lime Mixer
     {
+
+        OnCreate = HCRBarDrinks.create,
+
+        Tooltip = Tooltip_HCR_MixerYield,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
-            item 1 [Hydrocraft.HCLimejuicebowl;Hydrocraft.HCLimejuicebottle;Hydrocraft.HCPopbottlelimejuice;Hydrocraft.HCWaterbottlelimejuice;Hydrocraft.HCRemouladelimejuice;Hydrocraft.HCMayonnaiselimejuice;Hydrocraft.HCWhiskeylimejuice],
+            item 1 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLime] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCLimemixer,
+            item 1 Hydrocraft.HCLimemixerFluid,
         }
     }
     craftRecipe Make Bloody Mary Mixer
     {
+
+        OnCreate = HCRBarDrinks.create,
+
+        Tooltip = Tooltip_HCR_MixerYield,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Cooking,
         timedAction = Making,
         inputs
         {
-            item 1 [Base.Whiskey] flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [Base.Whiskey;Hydrocraft.HCVodkaFluid;Hydrocraft.HCVodka1Fluid;Hydrocraft.HCVodka2Fluid;Hydrocraft.HCGin1Fluid;Hydrocraft.HCGin2Fluid;Hydrocraft.HCGin3Fluid;Hydrocraft.HCWhiskey1Fluid;Hydrocraft.HCWhiskey2Fluid;Hydrocraft.HCWhiskey3Fluid;Hydrocraft.HCWhiskey4Fluid;Hydrocraft.HCWhiskeycornFluid;Hydrocraft.HCTequilaFluid;Hydrocraft.HCApplejackFluid;Hydrocraft.HCPeachschnappsFluid;Hydrocraft.HCFlipFluid;Hydrocraft.HCBourbon1Fluid;Hydrocraft.HCBourbon2Fluid;Hydrocraft.HCScotch1Fluid;Hydrocraft.HCRum1Fluid;Hydrocraft.HCAbsinthFluid;Hydrocraft.HCHerballiqueurFluid;Hydrocraft.HCMead2Fluid;Hydrocraft.HCAguaardienteFluid;Hydrocraft.HCLemonmixerFluid;Hydrocraft.HCLimemixerFluid;Hydrocraft.HCBloodymarymixerFluid;Hydrocraft.HCTriplesecFluid;Hydrocraft.HCEggnogbottleFluid;Hydrocraft.HCMonkeyTailbottleFluid] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
             item 2 [Base.Salt],
             item 2 [Base.Pepper],
             item 2 [Hydrocraft.HCHotsauce;Hydrocraft.HCSriracha],
-            item 1 [Hydrocraft.HCPopbottletomatojuice;Hydrocraft.HCWaterbottletomatojuice;Hydrocraft.HCRemouladetomatojuice;Hydrocraft.HCMayonnaisetomatojuice;Hydrocraft.HCWhiskeytomatojuice;Hydrocraft.HCClingmugtomatojuice],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceTomato] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCBloodymarymixer,
+            item 1 Hydrocraft.HCBloodymarymixerFluid,
         }
     }
     craftRecipe Pour Cocktail Glass of Gin
@@ -3021,12 +3157,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],
+            item 1 [Hydrocraft.HCCocktailglassempty;Hydrocraft.HCCocktailglassFluid;Hydrocraft.HCDrinkmartiniFluid;Hydrocraft.HCDrinkmanhattanFluid;Hydrocraft.HCDrinkdaquiriFluid;Hydrocraft.HCDrinkcosmoFluid;Hydrocraft.HCDrinkgimletFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRGin] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkcocktailglassgin,
+            item 1 Hydrocraft.HCCocktailglassFluid,
         }
     }
     craftRecipe Pour Short Glass of Gin
@@ -3038,12 +3175,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],
+            item 1 [Hydrocraft.HCGlassshortempty;Hydrocraft.HCGlassshortFluid;Hydrocraft.HCDrinkoldfashionedFluid;Hydrocraft.HCDrinkwhiskeysourFluid;Hydrocraft.HCDrinkmaitaiFluid;Hydrocraft.HCDrinkplanterspunchFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRGin] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkglassshortgin,
+            item 1 Hydrocraft.HCGlassshortFluid,
         }
     }
     craftRecipe Pour Tall Glass of Gin
@@ -3055,12 +3193,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCGin1;Hydrocraft.HCGin2;Hydrocraft.HCGin3],
+            item 1 [Hydrocraft.HCGlasstallempty;Hydrocraft.HCGlasstallFluid;Hydrocraft.HCDrinkbloodymaryFluid;Hydrocraft.HCDrinktomcollinsFluid;Hydrocraft.HCDrinklongislandFluid;Hydrocraft.HCDrinkwhiskeyandcokeFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRGin] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkglasstallgin,
+            item 1 Hydrocraft.HCGlasstallFluid,
         }
     }
     craftRecipe Pour Short Glass of Whiskey
@@ -3072,12 +3211,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],
+            item 1 [Hydrocraft.HCGlassshortempty;Hydrocraft.HCGlassshortFluid;Hydrocraft.HCDrinkoldfashionedFluid;Hydrocraft.HCDrinkwhiskeysourFluid;Hydrocraft.HCDrinkmaitaiFluid;Hydrocraft.HCDrinkplanterspunchFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkglassshortwhiskey,
+            item 1 Hydrocraft.HCGlassshortFluid,
         }
     }
         craftRecipe Pour Short Glass of Whiskey (Bottled Whiskey)
@@ -3089,13 +3229,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.1 [Whiskey],
+            item 1 [Hydrocraft.HCGlassshortempty;Hydrocraft.HCGlassshortFluid;Hydrocraft.HCDrinkoldfashionedFluid;Hydrocraft.HCDrinkwhiskeysourFluid;Hydrocraft.HCDrinkmaitaiFluid;Hydrocraft.HCDrinkplanterspunchFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Whiskey] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkglassshortwhiskey,
+            item 1 Hydrocraft.HCGlassshortFluid,
         }
     }
     craftRecipe Pour Tall Glass of Whiskey
@@ -3107,12 +3247,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],
+            item 1 [Hydrocraft.HCGlasstallempty;Hydrocraft.HCGlasstallFluid;Hydrocraft.HCDrinkbloodymaryFluid;Hydrocraft.HCDrinktomcollinsFluid;Hydrocraft.HCDrinklongislandFluid;Hydrocraft.HCDrinkwhiskeyandcokeFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkglasstallwhiskey,
+            item 1 Hydrocraft.HCGlasstallFluid,
         }
     }
         craftRecipe Pour Tall Glass of Whiskey (Bottled Whiskey)
@@ -3124,13 +3265,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.1 [Whiskey],
+            item 1 [Hydrocraft.HCGlasstallempty;Hydrocraft.HCGlasstallFluid;Hydrocraft.HCDrinkbloodymaryFluid;Hydrocraft.HCDrinktomcollinsFluid;Hydrocraft.HCDrinklongislandFluid;Hydrocraft.HCDrinkwhiskeyandcokeFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Whiskey] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkglasstallwhiskey,
+            item 1 Hydrocraft.HCGlasstallFluid,
         }
     }
     craftRecipe Pour Cocktail Glass of Whiskey
@@ -3142,12 +3283,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCWhiskey1;Hydrocraft.HCWhiskey2;Hydrocraft.HCWhiskey3;Hydrocraft.HCWhiskey4;Hydrocraft.HCWhiskeycorn],
+            item 1 [Hydrocraft.HCCocktailglassempty;Hydrocraft.HCCocktailglassFluid;Hydrocraft.HCDrinkmartiniFluid;Hydrocraft.HCDrinkmanhattanFluid;Hydrocraft.HCDrinkdaquiriFluid;Hydrocraft.HCDrinkcosmoFluid;Hydrocraft.HCDrinkgimletFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkcocktailglasswhiskey,
+            item 1 Hydrocraft.HCCocktailglassFluid,
         }
     }
         craftRecipe Pour Cocktail Glass of Whiskey (Bottled Whiskey)
@@ -3159,13 +3301,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 1 [Base.Whiskey] mode:keep flags[ItemIsFluid;HandcraftOnly],
-            -fluid 0.1 [Whiskey],
+            item 1 [Hydrocraft.HCCocktailglassempty;Hydrocraft.HCCocktailglassFluid;Hydrocraft.HCDrinkmartiniFluid;Hydrocraft.HCDrinkmanhattanFluid;Hydrocraft.HCDrinkdaquiriFluid;Hydrocraft.HCDrinkcosmoFluid;Hydrocraft.HCDrinkgimletFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [Whiskey] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkcocktailglasswhiskey,
+            item 1 Hydrocraft.HCCocktailglassFluid,
         }
     }
     craftRecipe Pour Cocktail Glass of Vodka
@@ -3177,12 +3319,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],
+            item 1 [Hydrocraft.HCCocktailglassempty;Hydrocraft.HCCocktailglassFluid;Hydrocraft.HCDrinkmartiniFluid;Hydrocraft.HCDrinkmanhattanFluid;Hydrocraft.HCDrinkdaquiriFluid;Hydrocraft.HCDrinkcosmoFluid;Hydrocraft.HCDrinkgimletFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRVodka] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkcocktailglassvodka,
+            item 1 Hydrocraft.HCCocktailglassFluid,
         }
     }
     craftRecipe Pour Short Glass of Vodka
@@ -3194,12 +3337,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],
+            item 1 [Hydrocraft.HCGlassshortempty;Hydrocraft.HCGlassshortFluid;Hydrocraft.HCDrinkoldfashionedFluid;Hydrocraft.HCDrinkwhiskeysourFluid;Hydrocraft.HCDrinkmaitaiFluid;Hydrocraft.HCDrinkplanterspunchFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRVodka] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkglassshortvodka,
+            item 1 Hydrocraft.HCGlassshortFluid,
         }
     }
     craftRecipe Pour Tall Glass of Vodka
@@ -3211,12 +3355,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCVodka;Hydrocraft.HCVodka1;Hydrocraft.HCVodka2],
+            item 1 [Hydrocraft.HCGlasstallempty;Hydrocraft.HCGlasstallFluid;Hydrocraft.HCDrinkbloodymaryFluid;Hydrocraft.HCDrinktomcollinsFluid;Hydrocraft.HCDrinklongislandFluid;Hydrocraft.HCDrinkwhiskeyandcokeFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRVodka] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkglasstallvodka,
+            item 1 Hydrocraft.HCGlasstallFluid,
         }
     }
     craftRecipe Pour Short Glass of Rum
@@ -3228,12 +3373,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlassshortempty],
-            item 2 [Hydrocraft.HCRum1],
+            item 1 [Hydrocraft.HCGlassshortempty;Hydrocraft.HCGlassshortFluid;Hydrocraft.HCDrinkoldfashionedFluid;Hydrocraft.HCDrinkwhiskeysourFluid;Hydrocraft.HCDrinkmaitaiFluid;Hydrocraft.HCDrinkplanterspunchFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRRum] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkglassshortrum,
+            item 1 Hydrocraft.HCGlassshortFluid,
         }
     }
     craftRecipe Pour Tall Glass of Rum
@@ -3245,12 +3391,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCGlasstallempty],
-            item 2 [Hydrocraft.HCRum1],
+            item 1 [Hydrocraft.HCGlasstallempty;Hydrocraft.HCGlasstallFluid;Hydrocraft.HCDrinkbloodymaryFluid;Hydrocraft.HCDrinktomcollinsFluid;Hydrocraft.HCDrinklongislandFluid;Hydrocraft.HCDrinkwhiskeyandcokeFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRRum] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkglasstallrum,
+            item 1 Hydrocraft.HCGlasstallFluid,
         }
     }
     craftRecipe Pour Cocktail Glass of Rum
@@ -3262,12 +3409,13 @@ module Hydrocraft
         xpAward = Cooking:2,
         inputs
         {
-            item 1 [Hydrocraft.HCCocktailglassempty],
-            item 2 [Hydrocraft.HCRum1],
+            item 1 [Hydrocraft.HCCocktailglassempty;Hydrocraft.HCCocktailglassFluid;Hydrocraft.HCDrinkmartiniFluid;Hydrocraft.HCDrinkmanhattanFluid;Hydrocraft.HCDrinkdaquiriFluid;Hydrocraft.HCDrinkcosmoFluid;Hydrocraft.HCDrinkgimletFluid] mode:destroy flags[ItemCount;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRRum] mode:primary,
         }
         outputs
         {
-            item 1 Hydrocraft.HCDrinkcocktailglassrum,
+            item 1 Hydrocraft.HCCocktailglassFluid,
         }
     }
 }

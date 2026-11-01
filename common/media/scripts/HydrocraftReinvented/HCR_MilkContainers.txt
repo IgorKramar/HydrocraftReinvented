@@ -1,0 +1,23 @@
+module Hydrocraft
+{
+    /* Прежний Food ID сохраняется для загрузки старых сохранений. */
+    item HCUHTmilkFluid
+    {
+        ItemType = base:normal,
+        DisplayName = UHT Milk Carton,
+        DisplayCategory = WaterContainer,
+        Weight = 0.1,
+        Icon = HCUHTmilk,
+        StaticModel = MilkCarton,
+        WorldStaticModel = Milk_Ground,
+        EatType = Popcan,
+        CustomContextMenu = Drink,
+        Eattime = 160,
+        component FluidContainer
+        {
+            ContainerName = Carton,
+            Capacity = 1,
+            CustomDrinkSound = DrinkingFromCarton,
+        }
+    }
+}

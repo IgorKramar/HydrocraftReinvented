@@ -1,5 +1,6 @@
--- B42 calls OnCreate before processDestroyAndUsedItems. Read the actual applied
--- inputs and their native use amounts, never a legacy Recipe or a fresh dummy.
+-- B42 вызывает OnCreate до processDestroyAndUsedItems. Собственные операции
+-- переноса питания выполняются после native расхода по сохранённым значениям.
+require "HCR_FoodQuality"
 HCRFood = HCRFood or {}
 
 local nutritionNames = {
@@ -43,10 +44,12 @@ local function firstConsumedFood(data)
     end
 end
 
--- Match the use/count accounting in CraftRecipeData.processDestroyAndUsedItems.
--- The engine consumes portions afterwards. In crafting it suppresses Food's
--- ReplaceOnUse, while DrainableComboItem's ReplaceOnDeplete still fires.
-function HCRFood.getConsumedFoodFractions(data)
+-- До расхода это только предварительная оценка, для проверки и подготовки.
+-- Native HashSet может выбрать другой порядок: питание/яд берут actualFractions
+-- после processDestroyAndUsedItems. Food ReplaceOnUse при крафте отключён.
+function HCRFood.getConsumedFractions(data)
+    local state=HCRFoodTransfers and HCRFoodTransfers.contexts[data]
+    if state and state.actualFractions then return state.actualFractions end
     local fractions = {}
     local scripts = data:getRecipe():getInputs()
     local used = {}
@@ -75,7 +78,7 @@ function HCRFood.getConsumedFoodFractions(data)
                         used[item] = (used[item] or 0) + consumed
                         required = required - consumed / scale
                     end
-                    if item:IsFood() and fraction > 0 then
+                    if fraction > 0 then
                         fractions[item] = math.min(1, (fractions[item] or 0) + fraction)
                     end
                 end
@@ -85,8 +88,19 @@ function HCRFood.getConsumedFoodFractions(data)
     return fractions
 end
 
+function HCRFood.getConsumedFoodFractions(data)
+    local foods={}
+    for item,fraction in pairs(HCRFood.getConsumedFractions(data)) do
+        if item:IsFood() then foods[item]=fraction end
+    end
+    return foods
+end
+
 function HCRFood.returnContainer(data, character, fullType)
     if not data or not character then return end
+    if HCRFoodTransfers and HCRFoodTransfers.deferCreate(data,function()
+        HCRFood.returnContainer(data,character,fullType)
+    end) then return end
     local shortType = string.match(fullType, "%.([^%.]+)$")
     for item, fraction in pairs(HCRFood.getConsumedFoodFractions(data)) do
         local replacement = item:getReplaceOnUse()
@@ -102,7 +116,9 @@ local function aggregate(data, outputs)
     for item, fraction in pairs(HCRFood.getConsumedFoodFractions(data)) do
         count = count + 1
         for k, accessors in ipairs(values) do
-            totals[k] = totals[k] + item[accessors[1]](item) * fraction
+            local amount=HCRFoodTransfers and HCRFoodTransfers.consumedValue(data,item,accessors[1],fraction)
+                or item[accessors[1]](item)*fraction
+            totals[k] = totals[k] + amount
         end
     end
     if count == 0 then
@@ -123,9 +139,18 @@ function HCRFood.tryOnCreate(name, data, character)
     if splitNames[name] then
         local source = firstConsumedFood(data)
         if source then
+            local fraction=HCRFood.getConsumedFoodFractions(data)[source]
+            assert(fraction==1,"Split recipe must consume one whole remaining food")
+            local dose=HCRFoodQuality.dose(source)
             for _, output in ipairs(outputs) do
                 output:copyFoodFromSplit(source, #outputs)
+                -- Native копирует полный integer poison в КАЖДУЮ часть.
+                HCRFoodQuality.store(output,dose/#outputs)
+                HCRFoodQuality.sync(output,character)
             end
+            -- Все текущие split inputs — ItemCount: остаток съеденного ранее
+            -- блюда уходит целиком. Не переносить его яд в возвращаемую посуду.
+            HCRFoodQuality.store(source,0)
             -- Food ReplaceOnUse is disabled during native crafting; return the
             -- original dish once, independent of the number of output portions.
             local replacement = source:getReplaceOnUse()
@@ -135,7 +160,9 @@ function HCRFood.tryOnCreate(name, data, character)
             end
         end
     else
-        aggregate(data, outputs)
+        if not HCRFoodTransfers or not HCRFoodTransfers.deferCreate(data,function() aggregate(data,outputs) end) then
+            aggregate(data, outputs)
+        end
     end
     return true
 end

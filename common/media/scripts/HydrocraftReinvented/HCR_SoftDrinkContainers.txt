@@ -1,0 +1,259 @@
+module Hydrocraft
+{
+    item HCPop4Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Pop,
+        Icon = HCPop4,
+        Weight = 0.1,
+        EatType = Popcan,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = Can,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCPop5Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Pop,
+        Icon = HCPop5,
+        Weight = 0.1,
+        EatType = Popcan,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = Can,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCPop6Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Pop,
+        Icon = Pop,
+        Weight = 0.1,
+        EatType = Popcan,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = Can,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCSodacherryFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Cherry Soda,
+        Icon = HCSodacherry,
+        Weight = 0.1,
+        EatType = Bourbon,
+        Tags = base:plasticbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 2,
+            CustomDrinkSound = DrinkingFromBottle,
+        }
+    }
+    item HCSodacolaFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Cola Soda,
+        Icon = HCSodacola,
+        Weight = 0.1,
+        EatType = Bourbon,
+        Tags = base:plasticbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 2,
+            CustomDrinkSound = DrinkingFromBottle,
+        }
+    }
+    item HCSodacreamFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Cream Soda,
+        Icon = HCSodacream,
+        Weight = 0.1,
+        EatType = Bourbon,
+        Tags = base:plasticbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 2,
+            CustomDrinkSound = DrinkingFromBottle,
+        }
+    }
+    item HCSodadrpepperFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Dr. Pickins Soda,
+        Icon = HCSodadrpepper,
+        Weight = 0.1,
+        EatType = Bourbon,
+        Tags = base:plasticbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 2,
+            CustomDrinkSound = DrinkingFromBottle,
+        }
+    }
+    item HCSodagingeraleFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Ginger Ale Soda,
+        Icon = HCSodagingerale,
+        Weight = 0.1,
+        EatType = Bourbon,
+        Tags = base:plasticbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 2,
+            CustomDrinkSound = DrinkingFromBottle,
+        }
+    }
+    item HCSodagrapeFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Grape Soda,
+        Icon = HCSodagrape,
+        Weight = 0.1,
+        EatType = Bourbon,
+        Tags = base:plasticbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 2,
+            CustomDrinkSound = DrinkingFromBottle,
+        }
+    }
+    item HCSodagrapefruitFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Grapefruit Soda,
+        Icon = HCSodagrapefruit,
+        Weight = 0.1,
+        EatType = Bourbon,
+        Tags = base:plasticbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 2,
+            CustomDrinkSound = DrinkingFromBottle,
+        }
+    }
+    item HCSodalemonlimeFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Lemon Lime Soda,
+        Icon = HCSodalemonlime,
+        Weight = 0.1,
+        EatType = Bourbon,
+        Tags = base:plasticbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 2,
+            CustomDrinkSound = DrinkingFromBottle,
+        }
+    }
+    item HCSodapineappleFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Pineapple Soda,
+        Icon = HCSodapineapple,
+        Weight = 0.1,
+        EatType = Bourbon,
+        Tags = base:plasticbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 2,
+            CustomDrinkSound = DrinkingFromBottle,
+        }
+    }
+    item HCSodarootbeerFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Root Beer Soda,
+        Icon = HCSodarootbeer,
+        Weight = 0.1,
+        EatType = Bourbon,
+        Tags = base:plasticbottle,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 2,
+            CustomDrinkSound = DrinkingFromBottle,
+        }
+    }
+    item HCEnergydrinkFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Energy Drink,
+        Icon = HCEnergydrink,
+        Weight = 0.1,
+        EatType = Popcan,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = Can,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCEnergydrink2Fluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Energy Drink,
+        Icon = HCEnergydrink2,
+        Weight = 0.1,
+        EatType = Popcan,
+        Tags = base:hasmetal;base:emptycan,
+        component FluidContainer
+        {
+            ContainerName = Can,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+        }
+    }
+    item HCGlassjugFluid
+    {
+        ItemType = base:normal,
+        DisplayCategory = WaterContainer,
+        DisplayName = Apple Cider,
+        Icon = HCGlassjug,
+        Weight = 0.3,
+        EatType = Bourbon,
+        Tags = base:glass,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1.4,
+            CustomDrinkSound = DrinkingFromBottle,
+        }
+    }
+}

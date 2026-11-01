@@ -3176,24 +3176,9 @@ insertItemListsInProcDistribution( "CrateElectronics", { electrician_counter_ite
 print (">>alive");
 -- distributioncsv();
 
---[[
-Note: Sandbox vars don't exist when loading a save, so they still have their default values
-To get around this we need to use the OnLoad event to check the sandbox value after the game has loaded.
-]]--
-local function OnLoadSpawnGuns()
-
-	local SPAWN_HC_GUNS = true
-	
-	local hcSandbox = SandboxVars and SandboxVars.Hydrocraft
-	if(hcSandbox and hcSandbox.SpawnHydrocraftGuns ~= nil) then
-		SPAWN_HC_GUNS = hcSandbox.SpawnHydrocraftGuns
-		--print("********************* SandboxVars.Hydrocraft.SpawnHydrocraftGuns is - ", SandboxVars.Hydrocraft.SpawnHydrocraftGuns)
-	else
-		--print("********************* SandboxVars.Hydrocraft.SpawnHydrocraftGuns is NIL!")
-	end
-	
-	if(SPAWN_HC_GUNS) then
-		--print("********************* SPAWN_HC_GUNS is TRUE, guns will spawn in containers.")
+-- Регистрируем один раз при загрузке Lua. Сохранённая настройка применяется
+-- вместе с остальными весами после загрузки SandboxVars, до нового лута.
+	do
 		local firearms_items = {
 				"Hydrocraft.HCUzi", 1,
 				"Hydrocraft.HCMagUZI", 1,
@@ -3202,10 +3187,6 @@ local function OnLoadSpawnGuns()
 				"Hydrocraft.HCMagAA12", 1,
 				"Hydrocraft.HCShotgunSilencer", 0.5,
 		};
-		insertItemListsInProcDistribution( "PoliceStorageGuns", {   firearms_items  } );
-		insertItemListsInProcDistribution( "ArmyStorageAmmunition", {   firearms_items  } );
+		insertItemListsInProcDistribution( "PoliceStorageGuns", {firearms_items}, nil, "SpawnHydrocraftGuns" );
+		insertItemListsInProcDistribution( "ArmyStorageAmmunition", {firearms_items}, nil, "SpawnHydrocraftGuns" );
 	end
-
-end
-
-Events.OnLoad.Add(OnLoadSpawnGuns)

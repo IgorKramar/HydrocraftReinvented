@@ -1,13 +1,15 @@
 -- B42 CraftRecipe.OnTestItem invokes OnTest(item, character).
 -- Explicit drinks packs unpack factory-fresh contents; accepting partly used
 -- or refilled cans would create food or liquid. No blanket ItemIsFluid flag:
--- Hydrocraft beer/pop remain Food, while vanilla soda cans are FluidContainer.
+-- Старые Food и новые FluidContainer проверяются по своим прототипам.
 HCRPackaging = HCRPackaging or {}
+require "HCR_BeerQuality"
 local templates = {}
 
 function HCRPackaging.IsFullFactoryState(item, character)
     if not item then return false end
     local fullType = item:getFullType()
+    if HCRBeerQuality and HCRBeerQuality.catalog.vessels[fullType] then return HCRBeerQuality.factory(item) end
     local template = templates[fullType]
     if not template then
         template = instanceItem(fullType)

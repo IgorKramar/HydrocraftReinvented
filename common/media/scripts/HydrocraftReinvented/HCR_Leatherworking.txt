@@ -2019,6 +2019,7 @@ module Hydrocraft
     }
     craftRecipe Make Milk of Lime
     {
+        OnTest = HCRFluidRecipes.Test_eb2402826659,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -2029,7 +2030,7 @@ module Hydrocraft
         {
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCLimestone;Hydrocraft.HCShellpowder],
         }
         outputs
@@ -2039,6 +2040,7 @@ module Hydrocraft
     }
     craftRecipe Make Tannin
     {
+        OnTest = HCRFluidRecipes.Test_6591a32bfdab,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -2049,7 +2051,7 @@ module Hydrocraft
         {
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.5 [Water],
-            item 1 [Hydrocraft.HCWoodenbucket],
+            item 1 [Hydrocraft.HCWoodenbucket;Hydrocraft.HCWoodenbucketFluid] flags[ItemCount;IsEmpty],
             item 1 [Hydrocraft.HCBark;Hydrocraft.HCDogpoop;Hydrocraft.HCAcorn],
         }
         outputs
@@ -2115,6 +2117,7 @@ module Hydrocraft
     }
     craftRecipe Make Camo Leather
     {
+        OnTest = HCRFluidRecipes.Test_3b896be3526d,
         time = 300,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Weaving,
@@ -2123,7 +2126,7 @@ module Hydrocraft
         xpAward = Tailoring:11,
         inputs
         {
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 1 [Hydrocraft.HCLeather],
@@ -2158,6 +2161,7 @@ module Hydrocraft
     }
     craftRecipe Make Hardened Leather
     {
+        OnTest = HCRFluidRecipes.Test_3d202050aac1,
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Weaving,
@@ -2166,7 +2170,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 3 [Hydrocraft.HCLeather],
@@ -2181,6 +2185,7 @@ module Hydrocraft
     }
     craftRecipe Make Hardened Leather (Candleberry Wax)
     {
+        OnTest = HCRFluidRecipes.Test_6999c07c5178,
         time = 15,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Weaving,
@@ -2189,7 +2194,7 @@ module Hydrocraft
         xpAward = Tailoring:4,
         inputs
         {
-            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron] mode:keep,
+            item 1 [Hydrocraft.HCClaycauldron;Hydrocraft.HCCauldroniron;Hydrocraft.HCClaycauldronFluid;Hydrocraft.HCCauldronironFluid] mode:keep flags[ItemCount;IsEmpty],
             item 1 [Base.Charcoal],
             item 1 tags[base:startfire],
             item 3 [Hydrocraft.HCLeather],
@@ -2234,7 +2239,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWaterflask,
+            item 1 Hydrocraft.HCWaterflaskFluid,
         }
     }
     craftRecipe Make Blacksmith Apron
@@ -2399,6 +2404,7 @@ module Hydrocraft
     }
     craftRecipe Empty Wooden Bucket with Tannin
     {
+        OnTest = HCRFluidRecipes.Test_51b358585308,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -2409,11 +2415,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucket,
+            item 1 Hydrocraft.HCWoodenbucketFluid,
         }
     }
     craftRecipe Empty Wooden Bucket with Rose Tanning Oil
     {
+        OnTest = HCRFluidRecipes.Test_e4e4346b8e6d,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -2424,11 +2431,12 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucket,
+            item 1 Hydrocraft.HCWoodenbucketFluid,
         }
     }
     craftRecipe Empty Wooden Bucket with Milk of Lime
     {
+        OnTest = HCRFluidRecipes.Test_d4931bf73d5f,
         time = 50,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -2439,7 +2447,7 @@ module Hydrocraft
         }
         outputs
         {
-            item 1 Hydrocraft.HCWoodenbucket,
+            item 1 Hydrocraft.HCWoodenbucketFluid,
         }
     }
 }

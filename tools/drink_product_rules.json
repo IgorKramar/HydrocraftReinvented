@@ -1,0 +1,20 @@
+{
+  "74a3c9e0e43f": {
+    "name": "Make Bottle of Juice",
+    "sourceFood": "Hydrocraft.HCLemonade1",
+    "target": "Base.PopBottle",
+    "fluid": "HCRLemonade",
+    "litres": 0.3,
+    "vesselSlot": 3,
+    "nutrition": "fixed-output"
+  },
+  "40641d310000": {
+    "name": "Make Bottle of Juice (Homemade Lemonade)",
+    "sourceFood": "Hydrocraft.HCLemonade2",
+    "target": "Base.WaterBottle",
+    "fluid": "HCRLemonade",
+    "litres": 0.3,
+    "vesselSlot": 3,
+    "nutrition": "fixed-output"
+  }
+}

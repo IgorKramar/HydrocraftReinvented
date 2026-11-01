@@ -1,0 +1,77 @@
+VERSION = 1,
+
+option Hydrocraft.LootMultiplier
+{
+    type = double,
+    min = 0,
+    max = 10,
+    default = 1,
+    page = Hydrocraft,
+    translation = Hydrocraft_LootMultiplier,
+}
+option Hydrocraft.MiningSpeedMultiplier
+{
+    type = double,
+    min = 0.1,
+    max = 10,
+    default = 1,
+    page = Hydrocraft,
+    translation = Hydrocraft_MiningSpeedMultiplier,
+}
+option Hydrocraft.EnableCannabis
+{
+    type = boolean,
+    default = true,
+    page = Hydrocraft,
+    translation = Hydrocraft_EnableCannabis,
+}
+option Hydrocraft.EnableMeth
+{
+    type = boolean,
+    default = true,
+    page = Hydrocraft,
+    translation = Hydrocraft_EnableMeth,
+}
+option Hydrocraft.EnableOpium
+{
+    type = boolean,
+    default = true,
+    page = Hydrocraft,
+    translation = Hydrocraft_EnableOpium,
+}
+option Hydrocraft.EnableTobacco
+{
+    type = boolean,
+    default = true,
+    page = Hydrocraft,
+    translation = Hydrocraft_EnableTobacco,
+}
+option Hydrocraft.SpawnHydrocraftGuns
+{
+    type = boolean,
+    default = true,
+    page = Hydrocraft,
+    translation = Hydrocraft_Spawn_Guns,
+}
+option Hydrocraft.SpawnBookCovers
+{
+    type = boolean,
+    default = true,
+    page = Hydrocraft,
+    translation = Hydrocraft_Spawn_Book_Covers,
+}
+option Hydrocraft.SpawnCigaretteButts
+{
+    type = boolean,
+    default = true,
+    page = Hydrocraft,
+    translation = Hydrocraft_Spawn_Cigarette_Butts,
+}
+option Hydrocraft.BurnDamage
+{
+    type = enum,
+    numValues = 3,
+    default = 1,
+    page = Hydrocraft,
+    translation = Hydrocraft_Burn_Damage,
+}

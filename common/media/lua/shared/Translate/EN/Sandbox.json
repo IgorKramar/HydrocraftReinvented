@@ -19,5 +19,17 @@
     "Sandbox_Hydrocraft_Zombie_Loot_tooltip": "Changes the amount of loot on dead zombies.  It does not impact on vanilla loot, just the 'extra' loot added by Hydrocraft (which includes some vanilla items).",
     "Sandbox_Hydrocraft_Zombie_Loot_option1": "Normal (default)",
     "Sandbox_Hydrocraft_Zombie_Loot_option2": "Low",
-    "Sandbox_Hydrocraft_Zombie_Loot_option3": "Very Low"
+    "Sandbox_Hydrocraft_Zombie_Loot_option3": "Very Low",
+    "Sandbox_Hydrocraft_LootMultiplier": "Hydrocraft loot multiplier",
+    "Sandbox_Hydrocraft_LootMultiplier_tooltip": "Weights of loot added by Hydrocraft. 0 disables new finds; existing items and box contents are preserved. Vanilla loot is unchanged.",
+    "Sandbox_Hydrocraft_MiningSpeedMultiplier": "Mining speed multiplier",
+    "Sandbox_Hydrocraft_MiningSpeedMultiplier_tooltip": "1 is normal speed; 2 halves extraction and sifting time. Costs and XP stay the same. Mine construction is unaffected.",
+    "Sandbox_Hydrocraft_EnableCannabis": "Cannabis production and loot",
+    "Sandbox_Hydrocraft_EnableMeth": "Methamphetamine production and loot",
+    "Sandbox_Hydrocraft_EnableOpium": "Opium production and loot",
+    "Sandbox_Hydrocraft_EnableTobacco": "Hydrocraft tobacco production and loot",
+    "Sandbox_Hydrocraft_EnableCannabis_tooltip": "Disables new production and related Hydrocraft loot. Existing stock, seeds, fibres and cleaning remain. Started plant/cooking processes continue; disabled harvest produce is omitted.",
+    "Sandbox_Hydrocraft_EnableMeth_tooltip": "Disables new production and related Hydrocraft loot. Existing stock, seeds, fibres and cleaning remain. Started plant/cooking processes continue; disabled harvest produce is omitted.",
+    "Sandbox_Hydrocraft_EnableOpium_tooltip": "Disables new production and related Hydrocraft loot. Existing stock, seeds, fibres and cleaning remain. Started plant/cooking processes continue; disabled harvest produce is omitted.",
+    "Sandbox_Hydrocraft_EnableTobacco_tooltip": "Disables new production and related Hydrocraft loot. Existing stock, seeds, fibres and cleaning remain. Started plant/cooking processes continue; disabled harvest produce is omitted."
 }

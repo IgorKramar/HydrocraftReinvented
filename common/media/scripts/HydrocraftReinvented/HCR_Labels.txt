@@ -321,6 +321,7 @@ module Hydrocraft
     }
     craftRecipe Label Empty Can With Ammonia Label
     {
+        OnTest = HCRFluidRecipes.Test_28e86435ce07,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -328,7 +329,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCLabelammonia],
-            item 1 [Hydrocraft.HCPlasticcanempty],
+            item 1 [Hydrocraft.HCPlasticcanempty;Hydrocraft.HCPlasticcanemptyFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -401,6 +402,7 @@ module Hydrocraft
     }
     craftRecipe Label Empty Can With Liquid Soap Label
     {
+        OnTest = HCRFluidRecipes.Test_11665adc699e,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -408,11 +410,11 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCLabeldetergent],
-            item 1 [Hydrocraft.HCPlasticcanempty],
+            item 1 [Hydrocraft.HCPlasticcanempty;Hydrocraft.HCPlasticcanemptyFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCDetergentempty,
+            item 1 Hydrocraft.HCDetergentemptyFluid,
         }
     }
     craftRecipe Label Full Can With Liquid Soap Label
@@ -481,6 +483,7 @@ module Hydrocraft
     }
     craftRecipe Label Empty Can With Hydrogen Peroxide Label
     {
+        OnTest = HCRFluidRecipes.Test_0476e18936af,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -488,7 +491,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCLabelh2o2],
-            item 1 [Hydrocraft.HCPlasticcanempty],
+            item 1 [Hydrocraft.HCPlasticcanempty;Hydrocraft.HCPlasticcanemptyFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
@@ -561,6 +564,7 @@ module Hydrocraft
     }
     craftRecipe Label Empty Can With Insecticide Label
     {
+        OnTest = HCRFluidRecipes.Test_f8f761da8884,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -568,11 +572,11 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCLabelpoison],
-            item 1 [Hydrocraft.HCPlasticcanempty],
+            item 1 [Hydrocraft.HCPlasticcanempty;Hydrocraft.HCPlasticcanemptyFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {
-            item 1 Hydrocraft.HCPoisonempty,
+            item 1 Hydrocraft.HCPoisonemptyFluid,
         }
     }
     craftRecipe Label Full Can With Insecticide Label
@@ -593,6 +597,7 @@ module Hydrocraft
     }
     craftRecipe Label Empty Can With Sulfuric Acid Label
     {
+        OnTest = HCRFluidRecipes.Test_d96361c1787c,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -600,7 +605,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCLabelsulfuricacid],
-            item 1 [Hydrocraft.HCPlasticcanempty],
+            item 1 [Hydrocraft.HCPlasticcanempty;Hydrocraft.HCPlasticcanemptyFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {

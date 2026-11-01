@@ -83,7 +83,7 @@ end
 --Randomize findings for Mine
 function HCMine(items, result, player)
 
-local pl = getPlayer();
+local pl = player;
 pl:getXp():AddXP(Perks.Strength, 2);
 pl:getXp():AddXP(Perks.Fitness, 2);  
 
@@ -188,7 +188,7 @@ end
 function HCShovelClay(items, result, player)
 player:getStats():add(CharacterStat.ENDURANCE, -0.01)
 
-local pl = getPlayer();
+local pl = player;
 pl:getXp():AddXP(Perks.Strength, 2);
 pl:getXp():AddXP(Perks.Fitness, 2);  
 
@@ -202,7 +202,7 @@ end
 -- Mine stone
 function HCMineStone(items, result, player)
 player:getStats():add(CharacterStat.ENDURANCE, -0.01)
-local pl = getPlayer();
+local pl = player;
 pl:getXp():AddXP(Perks.Strength, 2);
 pl:getXp():AddXP(Perks.Fitness, 2);  
 if (ZombRand(14)==0) then player:getInventory():AddItem("Hydrocraft.HCLimestone");
@@ -215,7 +215,7 @@ end
 --Randomize findings for Dark Mine
 function HCDarkmine(items, result, player)
 
-local pl = getPlayer();
+local pl = player;
 pl:getXp():AddXP(Perks.Strength, 5);
 pl:getXp():AddXP(Perks.Fitness, 5);  
 

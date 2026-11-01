@@ -369,6 +369,8 @@ module Hydrocraft
     }
     craftRecipe Dry Leaves
     {
+
+        OnTest = HCRSandbox.Test_162e88952759,
         time = 1000,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -386,6 +388,8 @@ module Hydrocraft
     }
     craftRecipe Grind Tobacco
     {
+
+        OnTest = HCRSandbox.Test_47c727dcd14d,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -404,6 +408,8 @@ module Hydrocraft
     }
     craftRecipe Grind Tobacco (Tobacco)
     {
+
+        OnTest = HCRSandbox.Test_70e5800af93f,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -424,6 +430,8 @@ module Hydrocraft
     }
     craftRecipe Roll Cigar
     {
+
+        OnTest = HCRSandbox.Test_ae65a87a656b,
         time = 50,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Chemistry,
@@ -442,6 +450,8 @@ module Hydrocraft
     }
     craftRecipe Put Tobacco in Pipe
     {
+
+        OnTest = HCRSandbox.Test_2aec4dcc9643,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,
@@ -459,6 +469,8 @@ module Hydrocraft
     }
     craftRecipe Put Tobacco in Pipe (Corn Cob Pipe with Tobacco)
     {
+
+        OnTest = HCRSandbox.Test_14de2b159033,
         time = 15,
         Tags = AnySurfaceCraft,
         category = Chemistry,

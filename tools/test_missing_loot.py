@@ -7,6 +7,7 @@ from lupa.lua51 import LuaRuntime
 from audit_lua_item_ids import declared
 from hcr_paths import LUA, SCRIPTS, find_game, read_text
 from repair_missing_loot import MANIFEST, apply
+from sandbox_test_support import load_sandbox
 
 
 class MissingLoot(unittest.TestCase):
@@ -42,6 +43,7 @@ class MissingLoot(unittest.TestCase):
             function insertJunkListsInProcDistribution(_,lists) capture(lists) end
             function setDistributionRolls() end
         ''')
+        load_sandbox(lua,loot=True)
         lua.execute(read_text(LUA/'server/Items/Distributions_HC.lua'))
         lua.execute(read_text(LUA/'server/Items/ProceduralDistributions_HC.lua'))
         pools = []

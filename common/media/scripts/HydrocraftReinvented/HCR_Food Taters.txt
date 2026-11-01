@@ -418,6 +418,7 @@ module Hydrocraft
     }
     craftRecipe Smash Dried Potato to Flour
     {
+        OnTest = HCRFluidRecipes.Test_22a3cf376c3e,
         time = 55,
         Tags = AnySurfaceCraft,
         category = Cooking,
@@ -429,7 +430,7 @@ module Hydrocraft
         {
             item 1 [Hydrocraft.HCPotatomasher] mode:keep,
             item 1 [Hydrocraft.HCPotatomush] flags[ItemCount],
-            item 1 [Hydrocraft.HCZipperbag],
+            item 1 [Hydrocraft.HCZipperbag;Hydrocraft.HCZipperbagFluid] flags[ItemCount;IsEmpty],
         }
         outputs
         {

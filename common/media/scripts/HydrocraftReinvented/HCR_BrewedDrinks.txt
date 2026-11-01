@@ -1,0 +1,219 @@
+module Hydrocraft
+{
+    craftRecipe Finish Brewing Black Coffee
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        OnTest = HCRBrewedDrinks.TestCooked,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCoffeeblack] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Base.Mugl,
+        }
+    }
+    craftRecipe Finish Brewing Clay Mug Coffee
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        OnTest = HCRBrewedDrinks.TestCooked,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCoffeeblack2] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCClaymugFluid,
+        }
+    }
+    craftRecipe Finish Brewing Sweet Coffee
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        OnTest = HCRBrewedDrinks.TestCooked,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCoffeeblacksugar] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Base.Mugl,
+        }
+    }
+    craftRecipe Finish Brewing Sweet Clay Mug Coffee
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        OnTest = HCRBrewedDrinks.TestCooked,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCoffeeblack2sugar] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCClaymugFluid,
+        }
+    }
+    craftRecipe Finish Brewing Milk Coffee
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        OnTest = HCRBrewedDrinks.TestCooked,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCoffeeblacksugarmilk] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Base.Mugl,
+        }
+    }
+    craftRecipe Finish Brewing Clay Mug Milk Coffee
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        OnTest = HCRBrewedDrinks.TestCooked,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCoffeeblack2sugarmilk] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCClaymugFluid,
+        }
+    }
+    craftRecipe Finish Brewing Coffee Kettle
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        OnTest = HCRBrewedDrinks.TestCooked,
+        inputs
+        {
+            item 1 [Hydrocraft.HCKettlecoffee] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Base.Kettle,
+        }
+    }
+    craftRecipe Prepare Thermos Coffee for Pouring
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThermoscoffee] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermosFluid,
+        }
+    }
+    craftRecipe Prepare Sweet Thermos Coffee for Pouring
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThermoscoffeesugar] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermosFluid,
+        }
+    }
+    craftRecipe Prepare Thermos Milk Coffee for Pouring
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        inputs
+        {
+            item 1 [Hydrocraft.HCThermoscoffeesugarmilk] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCThermosFluid,
+        }
+    }
+    craftRecipe Prepare Hot Chocolate for Pouring
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCococup] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Base.Mugl,
+        }
+    }
+    craftRecipe Prepare Clay Mug Hot Chocolate for Pouring
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishBrew,
+        inputs
+        {
+            item 1 [Hydrocraft.HCCococup2] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCClaymugFluid,
+        }
+    }
+    craftRecipe Finish Preparing Soy Milk
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_FinishSoy,
+        OnTest = HCRBrewedDrinks.TestCooked,
+        inputs
+        {
+            item 1 [Hydrocraft.HCSoymilk] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 Base.Whiskey,
+        }
+    }
+}

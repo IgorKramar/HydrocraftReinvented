@@ -821,74 +821,6 @@
       "source_kind": "upstream917_recipe"
     },
     {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Brew Irish Coffee (Cup of Irish Coffee)",
-      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "fluid_types": [
-        "Base.ClayMug"
-      ],
-      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_physical",
-      "litres": null,
-      "legacy_input": "HCClaymug,",
-      "source_file": "Food Bar.txt",
-      "source_recipe": "Brew Irish Coffee",
-      "source_line": 1990,
-      "source_kind": "upstream917_recipe"
-    },
-    {
-      "file": "HCR_Food Bar.txt",
-      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 3)",
-      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "fluid_types": [
-        "Base.ClayMug"
-      ],
-      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_physical",
-      "litres": null,
-      "legacy_input": "HCClaymug,",
-      "source_file": "Food Bar.txt",
-      "source_recipe": "Brew Irish Coffee",
-      "source_line": 1990,
-      "source_kind": "upstream917_recipe"
-    },
-    {
-      "file": "HCR_Food Drinks.txt",
-      "recipe": "Pour Black Coffee into Mug (Cup of Black Coffee)",
-      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "fluid_types": [
-        "Base.ClayMug"
-      ],
-      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_physical",
-      "litres": null,
-      "legacy_input": "HCClaymug,",
-      "source_file": "Food Drinks.txt",
-      "source_recipe": "Pour Black Coffee into Mug",
-      "source_line": 431,
-      "source_kind": "upstream917_recipe"
-    },
-    {
-      "file": "HCR_Food Drinks.txt",
-      "recipe": "Make Cup of Hot Chocolate (Cup of Hot Chocolate)",
-      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "fluid_types": [
-        "Base.ClayMug"
-      ],
-      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_physical",
-      "litres": null,
-      "legacy_input": "HCClaymug,",
-      "source_file": "Food Drinks.txt",
-      "source_recipe": "Make Cup of Hot Chocolate",
-      "source_line": 588,
-      "source_kind": "upstream917_recipe"
-    },
-    {
       "file": "HCR_Food Flour.txt",
       "recipe": "Grind Acorn Flour (Variant 2)",
       "input": "item 1 [Base.PetrolCan],",
@@ -1015,14 +947,15 @@
         "Base.ClayMug"
       ],
       "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],",
       "kind": "empty_physical",
       "litres": null,
       "legacy_input": "HCClaymug,",
       "source_file": "Herbalism.txt",
       "source_recipe": "Make Herbal Tea",
       "source_line": 873,
-      "source_kind": "upstream917_recipe"
+      "source_kind": "upstream917_recipe",
+      "after_1_5": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],"
     },
     {
       "file": "HCR_Herbalism.txt",
@@ -1032,14 +965,15 @@
         "Base.ClayMug"
       ],
       "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],",
       "kind": "empty_physical",
       "litres": null,
       "legacy_input": "HCClaymug,",
       "source_file": "Herbalism.txt",
       "source_recipe": "Make Herbal Tea",
       "source_line": 909,
-      "source_kind": "upstream917_recipe"
+      "source_kind": "upstream917_recipe",
+      "after_1_5": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],"
     },
     {
       "file": "HCR_Herbalism.txt",
@@ -1049,14 +983,15 @@
         "Base.ClayMug"
       ],
       "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],",
       "kind": "empty_physical",
       "litres": null,
       "legacy_input": "HCClaymug,",
       "source_file": "Herbalism.txt",
       "source_recipe": "Make Herbal Tea",
       "source_line": 945,
-      "source_kind": "upstream917_recipe"
+      "source_kind": "upstream917_recipe",
+      "after_1_5": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],"
     },
     {
       "file": "HCR_Herbalism.txt",
@@ -1066,14 +1001,15 @@
         "Base.ClayMug"
       ],
       "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],",
       "kind": "empty_physical",
       "litres": null,
       "legacy_input": "HCClaymug,",
       "source_file": "Herbalism.txt",
       "source_recipe": "Make Herbal Tea",
       "source_line": 981,
-      "source_kind": "upstream917_recipe"
+      "source_kind": "upstream917_recipe",
+      "after_1_5": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],"
     },
     {
       "file": "HCR_Herbalism.txt",
@@ -1083,14 +1019,15 @@
         "Base.ClayMug"
       ],
       "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],",
       "kind": "empty_physical",
       "litres": null,
       "legacy_input": "HCClaymug,",
       "source_file": "Herbalism.txt",
       "source_recipe": "Make Herbal Tea",
       "source_line": 1017,
-      "source_kind": "upstream917_recipe"
+      "source_kind": "upstream917_recipe",
+      "after_1_5": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],"
     },
     {
       "file": "HCR_Herbalism.txt",
@@ -1100,14 +1037,15 @@
         "Base.ClayMug"
       ],
       "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],",
       "kind": "empty_physical",
       "litres": null,
       "legacy_input": "HCClaymug,",
       "source_file": "Herbalism.txt",
       "source_recipe": "Make Herbal Tea",
       "source_line": 1053,
-      "source_kind": "upstream917_recipe"
+      "source_kind": "upstream917_recipe",
+      "after_1_5": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],"
     },
     {
       "file": "HCR_Herbalism.txt",
@@ -1117,14 +1055,15 @@
         "Base.ClayMug"
       ],
       "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
-      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],",
       "kind": "empty_physical",
       "litres": null,
       "legacy_input": "HCClaymug,",
       "source_file": "Herbalism.txt",
       "source_recipe": "Make Herbal Tea",
       "source_line": 1089,
-      "source_kind": "upstream917_recipe"
+      "source_kind": "upstream917_recipe",
+      "after_1_5": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],"
     },
     {
       "file": "HCR_Programing.txt",
@@ -1436,24 +1375,6 @@
       "source_kind": "upstream917_recipe"
     },
     {
-      "file": "HCR_Weapons Explosives.txt",
-      "recipe": "Make Chlorgas Grenade",
-      "input": "item 1 [Base.WaterBottle;Base.PopBottle],",
-      "fluid_types": [
-        "Base.PopBottle",
-        "Base.WaterBottle"
-      ],
-      "before": "item 1 [Base.WaterBottle;Base.PopBottle],",
-      "after": "item 1 [Base.WaterBottle;Base.PopBottle] flags[ItemCount;ItemIsFluid;IsEmpty],",
-      "kind": "empty_physical",
-      "litres": null,
-      "legacy_input": "WaterBottleEmpty/PopBottleEmpty,",
-      "source_file": "Weapons Explosives.txt",
-      "source_recipe": "Make Chlorgas Grenade",
-      "source_line": 721,
-      "source_kind": "upstream917_recipe"
-    },
-    {
       "file": "HCR_Weapons Flame.txt",
       "recipe": "Make Napalm",
       "input": "item 2 [Base.PetrolCan],",
@@ -1469,6 +1390,103 @@
       "source_recipe": "Make Napalm",
       "source_line": 170,
       "source_kind": "upstream917_recipe"
+    }
+  ],
+  "superseded_migrations": [
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Pour Black Coffee into Mug (Cup of Black Coffee)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Food Drinks.txt",
+      "source_recipe": "Pour Black Coffee into Mug",
+      "source_line": 431,
+      "source_kind": "upstream917_recipe",
+      "after_1_5": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "supersededBy": "brewed-drinks-1.6"
+    },
+    {
+      "file": "HCR_Weapons Explosives.txt",
+      "recipe": "Make Chlorgas Grenade",
+      "input": "item 1 [Base.WaterBottle;Base.PopBottle],",
+      "fluid_types": [
+        "Base.PopBottle",
+        "Base.WaterBottle"
+      ],
+      "before": "item 1 [Base.WaterBottle;Base.PopBottle],",
+      "after": "item 1 [Base.WaterBottle;Base.PopBottle] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "WaterBottleEmpty/PopBottleEmpty,",
+      "source_file": "Weapons Explosives.txt",
+      "source_recipe": "Make Chlorgas Grenade",
+      "source_line": 721,
+      "source_kind": "upstream917_recipe",
+      "supersededBy": "soft-drinks-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Food Bar.txt",
+      "source_recipe": "Brew Irish Coffee",
+      "source_line": 1990,
+      "source_kind": "upstream917_recipe",
+      "after_1_5": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "supersededBy": "cocktail-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Bar.txt",
+      "recipe": "Brew Irish Coffee (Cup of Irish Coffee 3)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Food Bar.txt",
+      "source_recipe": "Brew Irish Coffee",
+      "source_line": 1990,
+      "source_kind": "upstream917_recipe",
+      "after_1_5": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "supersededBy": "cocktail-fluid-1.6"
+    },
+    {
+      "file": "HCR_Food Drinks.txt",
+      "recipe": "Make Cup of Hot Chocolate (Cup of Hot Chocolate)",
+      "input": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "fluid_types": [
+        "Base.ClayMug"
+      ],
+      "before": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug],",
+      "after": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug;Hydrocraft.HCClaymugFluid] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "kind": "empty_physical",
+      "litres": null,
+      "legacy_input": "HCClaymug,",
+      "source_file": "Food Drinks.txt",
+      "source_recipe": "Make Cup of Hot Chocolate",
+      "source_line": 588,
+      "source_kind": "upstream917_recipe",
+      "after_1_5": "item 1 [Hydrocraft.HCClaymug;Base.ClayMug] flags[ItemCount;ItemIsFluid;IsEmpty],",
+      "supersededBy": "unified-milk-1.6"
     }
   ]
 }

@@ -1,0 +1,3506 @@
+module Hydrocraft
+{
+    /* Quality and all food effects are applied exactly once by HCR_FluidEffects. */
+    fluid HCRJuiceApple
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRJuiceApple,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceCarrot
+    {
+        ColorReference = Orange,
+        DisplayName = Fluid_Name_HCRJuiceCarrot,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceGrape
+    {
+        ColorReference = Purple,
+        DisplayName = Fluid_Name_HCRJuiceGrape,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceGrapeWhite
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRJuiceGrapeWhite,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceLemon
+    {
+        ColorReference = Yellow,
+        DisplayName = Fluid_Name_HCRJuiceLemon,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceOrange
+    {
+        ColorReference = Orange,
+        DisplayName = Fluid_Name_HCRJuiceOrange,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceLime
+    {
+        ColorReference = LimeGreen,
+        DisplayName = Fluid_Name_HCRJuiceLime,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceStrawberry
+    {
+        ColorReference = Red,
+        DisplayName = Fluid_Name_HCRJuiceStrawberry,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceTomato
+    {
+        ColorReference = Red,
+        DisplayName = Fluid_Name_HCRJuiceTomato,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceWatermelon
+    {
+        ColorReference = Salmon,
+        DisplayName = Fluid_Name_HCRJuiceWatermelon,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuicePineapple
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRJuicePineapple,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceBlueberry
+    {
+        ColorReference = Purple,
+        DisplayName = Fluid_Name_HCRJuiceBlueberry,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceBlackberry
+    {
+        ColorReference = Purple,
+        DisplayName = Fluid_Name_HCRJuiceBlackberry,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceWildberry
+    {
+        ColorReference = Purple,
+        DisplayName = Fluid_Name_HCRJuiceWildberry,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceCherry
+    {
+        ColorReference = Red,
+        DisplayName = Fluid_Name_HCRJuiceCherry,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRJuiceCranberry
+    {
+        ColorReference = Red,
+        DisplayName = Fluid_Name_HCRJuiceCranberry,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRLemonade
+    {
+        ColorReference = Yellow,
+        DisplayName = Fluid_Name_HCRLemonade,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRLemonadePink
+    {
+        ColorReference = LightPink,
+        DisplayName = Fluid_Name_HCRLemonadePink,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMilk
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRMilk,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMilkChocolate
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRMilkChocolate,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMilkSoy
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRMilkSoy,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMilkHeated
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRMilkHeated,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMilkFermented
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRMilkFermented,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMustRed
+    {
+        ColorReference = Purple,
+        DisplayName = Fluid_Name_HCRMustRed,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMustWhite
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMustWhite,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRHoneyBrew
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRHoneyBrew,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRRiceMash
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRRiceMash,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRWineRed
+    {
+        ColorReference = Red,
+        DisplayName = Fluid_Name_HCRWineRed,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRWineWhite
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRWineWhite,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMead
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMead,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSake
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRSake,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRVinegar
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRVinegar,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRBeer
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRBeer,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRCoffee
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRCoffee,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRCoffeeSweet
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRCoffeeSweet,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRCoffeeMilk
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRCoffeeMilk,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRCocoa
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRCocoa,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRVodka
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRVodka,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRWhiskey
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRWhiskey,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRWhiskeyCorn
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRWhiskeyCorn,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRRum
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRRum,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRGin
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRGin,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRTequila
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRTequila,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMezcal
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRMezcal,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRApplejack
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRApplejack,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRPeachSchnapps
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRPeachSchnapps,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRFlip
+    {
+        ColorReference = Orange,
+        DisplayName = Fluid_Name_HCRFlip,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRAbsinthe
+    {
+        ColorReference = LimeGreen,
+        DisplayName = Fluid_Name_HCRAbsinthe,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRHerbalLiqueur
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRHerbalLiqueur,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRAguardiente
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRAguardiente,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRLemonMixer
+    {
+        ColorReference = Yellow,
+        DisplayName = Fluid_Name_HCRLemonMixer,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRLimeMixer
+    {
+        ColorReference = LimeGreen,
+        DisplayName = Fluid_Name_HCRLimeMixer,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRBloodyMaryMixer
+    {
+        ColorReference = Red,
+        DisplayName = Fluid_Name_HCRBloodyMaryMixer,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRBitters
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRBitters,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRVermouth
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRVermouth,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRTripleSec
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRTripleSec,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSodaPop
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRSodaPop,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSodaCherry
+    {
+        ColorReference = Red,
+        DisplayName = Fluid_Name_HCRSodaCherry,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSodaCola
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRSodaCola,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSodaCream
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRSodaCream,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSodaDrPepper
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRSodaDrPepper,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSodaGingerAle
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRSodaGingerAle,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSodaGrape
+    {
+        ColorReference = Purple,
+        DisplayName = Fluid_Name_HCRSodaGrape,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSodaGrapefruit
+    {
+        ColorReference = Salmon,
+        DisplayName = Fluid_Name_HCRSodaGrapefruit,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSodaLemonLime
+    {
+        ColorReference = LimeGreen,
+        DisplayName = Fluid_Name_HCRSodaLemonLime,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSodaPineapple
+    {
+        ColorReference = Yellow,
+        DisplayName = Fluid_Name_HCRSodaPineapple,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRSodaRootBeer
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRSodaRootBeer,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCREnergy
+    {
+        ColorReference = LimeGreen,
+        DisplayName = Fluid_Name_HCREnergy,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRFitness
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRFitness,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRAppleCider
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRAppleCider,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCROldFashioned
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCROldFashioned,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMartini
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRMartini,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRManhattan
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRManhattan,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRDaiquiri
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRDaiquiri,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRBloodyMary
+    {
+        ColorReference = Red,
+        DisplayName = Fluid_Name_HCRBloodyMary,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRWhiskeySour
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRWhiskeySour,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMaiTai
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMaiTai,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRCosmopolitan
+    {
+        ColorReference = Red,
+        DisplayName = Fluid_Name_HCRCosmopolitan,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRTomCollins
+    {
+        ColorReference = White,
+        DisplayName = Fluid_Name_HCRTomCollins,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRLongIsland
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRLongIsland,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRGimlet
+    {
+        ColorReference = LimeGreen,
+        DisplayName = Fluid_Name_HCRGimlet,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRPlantersPunch
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRPlantersPunch,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRWhiskeyCola
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRWhiskeyCola,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMargarita
+    {
+        ColorReference = LimeGreen,
+        DisplayName = Fluid_Name_HCRMargarita,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRIrishCoffee
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRIrishCoffee,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCREggnog
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCREggnog,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMonkeyTail
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_HCRMonkeyTail,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashPotato
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashPotato,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashPotatoReady
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashPotatoReady,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashBlueAgave
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashBlueAgave,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashBlueAgaveReady
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashBlueAgaveReady,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashApple
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashApple,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashAppleReady
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashAppleReady,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashPeach
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashPeach,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashPeachReady
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashPeachReady,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashPumpkin
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashPumpkin,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashPumpkinReady
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashPumpkinReady,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashJuniper
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashJuniper,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashJuniperReady
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashJuniperReady,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashFlour
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashFlour,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashFlourReady
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashFlourReady,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashCorn
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashCorn,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    fluid HCRMashCornReady
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRMashCornReady,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+}

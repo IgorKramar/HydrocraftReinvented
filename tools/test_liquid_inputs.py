@@ -11,7 +11,9 @@ class LiquidInputs(unittest.TestCase):
     def setUpClass(cls):
         cls.manifest = json.loads(MANIFEST.read_text())
         cls.recipes = {}
-        for filename in {e['file'] for e in cls.manifest['migrations']}:
+        # Active migrations may no longer mention a file with retained variants.
+        filenames={e['file'] for e in cls.manifest['migrations']+cls.manifest['variants']}
+        for filename in filenames|{'HCR_Food Bar.txt'}:
             for _, _, name, body in blocks(read_text(FOOD_SCRIPTS / filename), 'craftRecipe'):
                 cls.recipes[filename, name] = body
 
@@ -46,7 +48,7 @@ class LiquidInputs(unittest.TestCase):
             self.assertIn('-fluid 0.1 [Whiskey]', body)
             self.assertIn('mode:keep flags[ItemIsFluid;HandcraftOnly]', body)
             original = self.recipes[v['file'], v['recipe'].replace(' (Bottled Whiskey)', '')]
-            self.assertIn('Hydrocraft.HCWhiskey1', original)
+            self.assertIn('-fluid 0.1 [HCRWhiskey;HCRWhiskeyCorn;Whiskey]', original)
             self.assertNotIn('Base.Whiskey', original)
 
     def test_bleach_route_consumes_whole_source_bottle_contents(self):
@@ -71,7 +73,8 @@ class LiquidInputs(unittest.TestCase):
         self.assertIn('-fluid 0.3 [Cola;ColaDiet]', native)
         self.assertIn('Base.Pop;Base.Pop2] mode:keep', native)
         legacy = self.recipes['HCR_Food Bar.txt', 'Whiskey and Coke']
-        self.assertIn('Hydrocraft.HCSodacola', legacy)
+        self.assertIn('-fluid 0.133333333333 [HCRSodaCola]', legacy)
+        self.assertIn('item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly]', legacy)
         self.assertNotIn('Base.Pop', legacy)
 
 if __name__ == '__main__':

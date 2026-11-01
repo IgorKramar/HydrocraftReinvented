@@ -1068,17 +1068,20 @@ module Hydrocraft
     }
     craftRecipe Make Bottle of Homemade Disinfectant
     {
+
+        Tooltip = Tooltip_HCR_JuiceConsumer_d88c81eb65ba,
         time = 120,
         Tags = AnySurfaceCraft,
         category = Health,
         timedAction = Making,
         SkillRequired = Doctor:3,
         xpAward = Doctor:10,
-        OnCreate = HCR42.recipe_hcbowl,
         inputs
         {
             item 1 [Base.WaterBottle] mode:destroy flags[ItemCount],
-            item 1 [Hydrocraft.HCLemonjuicebowl;Hydrocraft.HCLemonjuicebottle],
+
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 0.1 [HCRJuiceLemon] mode:primary,
             item 1 [Base.Salt],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.1 [Water],

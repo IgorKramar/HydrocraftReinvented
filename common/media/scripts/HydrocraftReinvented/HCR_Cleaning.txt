@@ -293,6 +293,7 @@ module Hydrocraft
     }
     craftRecipe Wash Towel in Wash Tub
     {
+        OnTest = HCRFluidRecipes.Test_d2e0216679e3,
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Weaving,
@@ -300,7 +301,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBathtoweldirty],
-            item 1 [Hydrocraft.HCWashtubfull] mode:keep,
+            item 1 [Hydrocraft.HCWashtubFluid] mode:keep flags[ItemCount],
             item 1 [Base.Soap2;Hydrocraft.HCSoap;Hydrocraft.HCCleanerall;Hydrocraft.HCCleanerfabric;Hydrocraft.HCFabricsoftener;Hydrocraft.HCHandsoap;Hydrocraft.HCShampoo],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 0.3 [Water],
@@ -313,6 +314,7 @@ module Hydrocraft
     }
         craftRecipe Wash Towel in Wash Tub (Bleach)
     {
+        OnTest = HCRFluidRecipes.Test_e9678fc54eaa,
         time = 100,
         Tags = AnySurfaceCraft;CanBeDoneFromFloor,
         category = Weaving,
@@ -320,7 +322,7 @@ module Hydrocraft
         inputs
         {
             item 1 [Hydrocraft.HCBathtoweldirty],
-            item 1 [Hydrocraft.HCWashtubfull] mode:keep,
+            item 1 [Hydrocraft.HCWashtubFluid] mode:keep flags[ItemCount],
             item 1 [Base.Bleach] mode:keep flags[ItemIsFluid;HandcraftOnly],
             -fluid 1 [Bleach],
             item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],

@@ -30,6 +30,10 @@
 
 Текущая версия — **1.5.12**, проверена на **42.21.0**. Контрольные игровые проверки пройдены; подтверждённые результаты и оставшиеся проверки — в [отчёте доводки](docs/PLAYABILITY_VERIFICATION.md). Отчёт датирован 14 октября 2026 года.
 
+На ветке `codex/fluids-1.6.0` начата разработка 1.6.0 «Живая вода»;
+[состояние и границы проверок](docs/FLUIDS_1_6_STATUS.md). Это отдельная рабочая
+версия, опубликованный релиз остаётся 1.5.12.
+
 [Мастерская Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) · [ZZZ Industrial Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259) · [Выпуск 1.5.12](docs/RELEASE_1.5.12.md)
 
 ### Философия порта: «дополнить, не задублировать»
@@ -132,6 +136,7 @@ HydrocraftReinvented/
 - **Hydrocraft Continued team** — поддержка B41.
 - **hombrehumor** — порт B42 и русская локализация.
 - Происхождение и обработка новых ресурсов: [реестр ассетов](docs/ASSET_PROVENANCE.json). Деревянные ящики новых растений используют исходные пиксели атласа Hydrocraft.
+- Новые иконки создавались с помощью ИИ через fal.ai (GPT Image, Nano Banana); обработка — universal-modder и BiRefNet. Модели и запросы указаны в реестре ассетов.
 
 В этом репозитории нет общей лицензии `LICENSE` на весь мод. Публикация исходников не заменяет разрешения правообладателей на повторное распространение кода, моделей, текстур или звуков. Условия сторонних материалов сохраняются; перед переиспользованием уточняйте их у соответствующих авторов.
 
@@ -251,5 +256,6 @@ For a bug report, include game and mod versions, the recipe or item, single-play
 - **Hydrocraft Continued team** — B41 maintenance.
 - **hombrehumor** — B42 port and Russian localization.
 - New asset origins and processing: [asset provenance](docs/ASSET_PROVENANCE.json). The new plant containers reuse original Hydrocraft atlas pixels.
+- New icons include AI-generated artwork made through fal.ai (GPT Image, Nano Banana), processed with universal-modder and BiRefNet. Models and requests are recorded in the asset provenance file.
 
 This repository has no blanket `LICENSE` covering the entire mod. Public source availability does not replace permission from the relevant rights holders to redistribute code, models, textures or sounds. Third-party terms remain applicable; check with the respective authors before reusing their work.

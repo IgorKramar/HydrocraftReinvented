@@ -1,0 +1,735 @@
+{
+  "families": {
+    "Hydrocraft.HCDrinkmargarita": {
+      "target": "Hydrocraft.HCDrinkmargaritaFluid",
+      "fluid": "HCRMargarita",
+      "litres": 0.225,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinkwhiskeyandcoke": {
+      "target": "Hydrocraft.HCDrinkwhiskeyandcokeFluid",
+      "fluid": "HCRWhiskeyCola",
+      "litres": 0.4,
+      "enabled": true,
+      "policy": "legacy-unknown-recipe-origin: 0.4 L; original Food budgets retained"
+    },
+    "Hydrocraft.HCDrinkplanterspunch": {
+      "target": "Hydrocraft.HCDrinkplanterspunchFluid",
+      "fluid": "HCRPlantersPunch",
+      "litres": 0.225,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinkgimlet": {
+      "target": "Hydrocraft.HCDrinkgimletFluid",
+      "fluid": "HCRGimlet",
+      "litres": 0.2,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinklongisland": {
+      "target": "Hydrocraft.HCDrinklongislandFluid",
+      "fluid": "HCRLongIsland",
+      "litres": 0.425,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinktomcollins": {
+      "target": "Hydrocraft.HCDrinktomcollinsFluid",
+      "fluid": "HCRTomCollins",
+      "litres": 0.2,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinkcosmo": {
+      "target": "Hydrocraft.HCDrinkcosmoFluid",
+      "fluid": "HCRCosmopolitan",
+      "litres": 0.225,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinkmaitai": {
+      "target": "Hydrocraft.HCDrinkmaitaiFluid",
+      "fluid": "HCRMaiTai",
+      "litres": 0.225,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinkwhiskeysour": {
+      "target": "Hydrocraft.HCDrinkwhiskeysourFluid",
+      "fluid": "HCRWhiskeySour",
+      "litres": 0.2,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinkbloodymary": {
+      "target": "Hydrocraft.HCDrinkbloodymaryFluid",
+      "fluid": "HCRBloodyMary",
+      "litres": 0.35,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinkdaquiri": {
+      "target": "Hydrocraft.HCDrinkdaquiriFluid",
+      "fluid": "HCRDaiquiri",
+      "litres": 0.2,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinkmanhattan": {
+      "target": "Hydrocraft.HCDrinkmanhattanFluid",
+      "fluid": "HCRManhattan",
+      "litres": 0.15,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinkmartini": {
+      "target": "Hydrocraft.HCDrinkmartiniFluid",
+      "fluid": "HCRMartini",
+      "litres": 0.15,
+      "enabled": true
+    },
+    "Hydrocraft.HCDrinkoldfashioned": {
+      "target": "Hydrocraft.HCDrinkoldfashionedFluid",
+      "fluid": "HCROldFashioned",
+      "litres": 0.125,
+      "enabled": true
+    },
+    "Hydrocraft.HCCoffeeirish2": {
+      "target": "Hydrocraft.HCClaymugFluid",
+      "fluid": "HCRIrishCoffee",
+      "litres": 0.2,
+      "enabled": true
+    },
+    "Hydrocraft.HCCoffeeirish": {
+      "target": "Base.Mugl",
+      "fluid": "HCRIrishCoffee",
+      "litres": 0.2,
+      "enabled": true
+    }
+  },
+  "products": {
+    "Mix Margarita": {
+      "target": "Hydrocraft.HCDrinkmargaritaFluid",
+      "marker": "HCRMargarita",
+      "litres": 0.225,
+      "foodSlots": {
+        "5": {
+          "Base.Salt": true
+        },
+        "6": {
+          "Hydrocraft.HCSlicedlime": true
+        }
+      }
+    },
+    "Whiskey and Coke (Canned Cola)": {
+      "target": "Hydrocraft.HCDrinkwhiskeyandcokeFluid",
+      "marker": "HCRWhiskeyCola",
+      "litres": 0.4,
+      "foodSlots": {}
+    },
+    "Whiskey and Coke": {
+      "target": "Hydrocraft.HCDrinkwhiskeyandcokeFluid",
+      "marker": "HCRWhiskeyCola",
+      "litres": 0.233333333333,
+      "foodSlots": {}
+    },
+    "Mix Planter's Punch": {
+      "target": "Hydrocraft.HCDrinkplanterspunchFluid",
+      "marker": "HCRPlantersPunch",
+      "litres": 0.225,
+      "foodSlots": {
+        "4": {
+          "Base.Sugar": true,
+          "Base.SugarBrown": true,
+          "Base.SugarPacket": true,
+          "Hydrocraft.HCSugarcubes": true
+        }
+      }
+    },
+    "Mix Gimlet": {
+      "target": "Hydrocraft.HCDrinkgimletFluid",
+      "marker": "HCRGimlet",
+      "litres": 0.2,
+      "foodSlots": {
+        "3": {
+          "Base.Sugar": true,
+          "Base.SugarBrown": true,
+          "Base.SugarPacket": true,
+          "Hydrocraft.HCSugarcubes": true
+        }
+      }
+    },
+    "Mix Long Island Iced Tea": {
+      "target": "Hydrocraft.HCDrinklongislandFluid",
+      "marker": "HCRLongIsland",
+      "litres": 0.425,
+      "foodSlots": {
+        "6": {
+          "Base.Sugar": true,
+          "Base.SugarBrown": true,
+          "Base.SugarPacket": true,
+          "Hydrocraft.HCSugarcubes": true
+        }
+      }
+    },
+    "Mix Tom Collins": {
+      "target": "Hydrocraft.HCDrinktomcollinsFluid",
+      "marker": "HCRTomCollins",
+      "litres": 0.2,
+      "foodSlots": {
+        "3": {
+          "Base.Sugar": true,
+          "Base.SugarBrown": true,
+          "Base.SugarPacket": true,
+          "Hydrocraft.HCSugarcubes": true
+        }
+      }
+    },
+    "Mix Cosmopolitan": {
+      "target": "Hydrocraft.HCDrinkcosmoFluid",
+      "marker": "HCRCosmopolitan",
+      "litres": 0.225,
+      "foodSlots": {
+        "4": {
+          "Hydrocraft.HCSlicedlime": true
+        }
+      }
+    },
+    "Mix Mai Tai": {
+      "target": "Hydrocraft.HCDrinkmaitaiFluid",
+      "marker": "HCRMaiTai",
+      "litres": 0.225,
+      "foodSlots": {
+        "3": {
+          "Base.Sugar": true,
+          "Base.SugarBrown": true,
+          "Base.SugarPacket": true,
+          "Hydrocraft.HCSugarcubes": true
+        }
+      }
+    },
+    "Mix Whiskey Sour": {
+      "target": "Hydrocraft.HCDrinkwhiskeysourFluid",
+      "marker": "HCRWhiskeySour",
+      "litres": 0.2,
+      "foodSlots": {
+        "3": {
+          "Base.Sugar": true,
+          "Base.SugarBrown": true,
+          "Base.SugarPacket": true,
+          "Hydrocraft.HCSugarcubes": true
+        }
+      }
+    },
+    "Mix Bloody Mary": {
+      "target": "Hydrocraft.HCDrinkbloodymaryFluid",
+      "marker": "HCRBloodyMary",
+      "litres": 0.35,
+      "foodSlots": {}
+    },
+    "Mix Daquiri": {
+      "target": "Hydrocraft.HCDrinkdaquiriFluid",
+      "marker": "HCRDaiquiri",
+      "litres": 0.2,
+      "foodSlots": {
+        "3": {
+          "Base.Sugar": true,
+          "Base.SugarBrown": true,
+          "Base.SugarPacket": true,
+          "Hydrocraft.HCSugarcubes": true
+        },
+        "4": {
+          "Hydrocraft.HCSlicedlime": true
+        }
+      }
+    },
+    "Mix Manhattan": {
+      "target": "Hydrocraft.HCDrinkmanhattanFluid",
+      "marker": "HCRManhattan",
+      "litres": 0.15,
+      "foodSlots": {}
+    },
+    "Mix Martini": {
+      "target": "Hydrocraft.HCDrinkmartiniFluid",
+      "marker": "HCRMartini",
+      "litres": 0.15,
+      "foodSlots": {}
+    },
+    "Mix Old Fashioned": {
+      "target": "Hydrocraft.HCDrinkoldfashionedFluid",
+      "marker": "HCROldFashioned",
+      "litres": 0.125,
+      "foodSlots": {
+        "3": {
+          "Base.Sugar": true,
+          "Base.SugarBrown": true,
+          "Base.SugarPacket": true,
+          "Hydrocraft.HCSugarcubes": true
+        },
+        "4": {
+          "Hydrocraft.HCSlicedorange": true
+        }
+      }
+    },
+    "Brew Irish Coffee (Cup of Irish Coffee 3)": {
+      "target": "Hydrocraft.HCClaymugFluid",
+      "marker": "HCRIrishCoffee",
+      "litres": 0.2,
+      "foodSlots": {
+        "2": {
+          "Hydrocraft.HCCoffeelarge": true
+        }
+      }
+    },
+    "Brew Irish Coffee (Cup of Irish Coffee 2)": {
+      "target": "Base.Mugl",
+      "marker": "HCRIrishCoffee",
+      "litres": 0.2,
+      "foodSlots": {
+        "2": {
+          "Hydrocraft.HCCoffeelarge": true
+        }
+      }
+    },
+    "Brew Irish Coffee (Cup of Irish Coffee)": {
+      "target": "Hydrocraft.HCClaymugFluid",
+      "marker": "HCRIrishCoffee",
+      "litres": 0.2,
+      "foodSlots": {
+        "2": {
+          "Base.Coffee2": true
+        }
+      }
+    },
+    "Brew Irish Coffee": {
+      "target": "Base.Mugl",
+      "marker": "HCRIrishCoffee",
+      "litres": 0.2,
+      "foodSlots": {
+        "2": {
+          "Base.Coffee2": true
+        }
+      }
+    }
+  },
+  "consumers": {
+    "Mix Margarita": {
+      "inputs": {
+        "2": {
+          "fluids": [
+            "HCRTequila"
+          ],
+          "nativeWine": "HCRMargarita"
+        },
+        "3": {
+          "fluids": [
+            "HCRTripleSec"
+          ],
+          "nativeWine": "HCRMargarita"
+        },
+        "4": {
+          "fluids": [
+            "HCRLemonMixer"
+          ],
+          "nativeWine": "HCRMargarita"
+        }
+      }
+    },
+    "Whiskey and Coke (Canned Cola)": {
+      "inputs": {
+        "0": {
+          "fluids": [
+            "HCRWhiskey",
+            "HCRWhiskeyCorn",
+            "Whiskey"
+          ],
+          "nativeWine": "HCRWhiskeyCola",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "1": {
+          "fluids": [
+            "Cola",
+            "ColaDiet"
+          ],
+          "nativeWine": "HCRWhiskeyCola"
+        }
+      }
+    },
+    "Whiskey and Coke": {
+      "inputs": {
+        "0": {
+          "fluids": [
+            "HCRWhiskey",
+            "HCRWhiskeyCorn",
+            "Whiskey"
+          ],
+          "nativeWine": "HCRWhiskeyCola",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "1": {
+          "fluids": [
+            "HCRSodaCola"
+          ],
+          "nativeWine": "HCRWhiskeyCola"
+        }
+      }
+    },
+    "Mix Planter's Punch": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRRum"
+          ],
+          "nativeWine": "HCRPlantersPunch",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRBitters"
+          ],
+          "nativeWine": "HCRPlantersPunch"
+        },
+        "3": {
+          "fluids": [
+            "HCRLemonMixer"
+          ],
+          "nativeWine": "HCRPlantersPunch"
+        }
+      }
+    },
+    "Mix Gimlet": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRGin"
+          ],
+          "nativeWine": "HCRGimlet",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRLimeMixer"
+          ],
+          "nativeWine": "HCRGimlet"
+        }
+      }
+    },
+    "Mix Long Island Iced Tea": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRVodka"
+          ],
+          "nativeWine": "HCRLongIsland",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRRum"
+          ],
+          "nativeWine": "HCRLongIsland"
+        },
+        "3": {
+          "fluids": [
+            "HCRLemonMixer"
+          ],
+          "nativeWine": "HCRLongIsland"
+        },
+        "4": {
+          "fluids": [
+            "HCRLimeMixer"
+          ],
+          "nativeWine": "HCRLongIsland"
+        },
+        "5": {
+          "fluids": [
+            "HCRTripleSec"
+          ],
+          "nativeWine": "HCRLongIsland"
+        }
+      }
+    },
+    "Mix Tom Collins": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRGin"
+          ],
+          "nativeWine": "HCRTomCollins",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRLemonMixer"
+          ],
+          "nativeWine": "HCRTomCollins"
+        }
+      }
+    },
+    "Mix Cosmopolitan": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRVodka"
+          ],
+          "nativeWine": "HCRCosmopolitan",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRTripleSec"
+          ],
+          "nativeWine": "HCRCosmopolitan"
+        },
+        "3": {
+          "fluids": [
+            "HCRLimeMixer"
+          ],
+          "nativeWine": "HCRCosmopolitan"
+        }
+      }
+    },
+    "Mix Mai Tai": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRRum"
+          ],
+          "nativeWine": "HCRMaiTai",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRLimeMixer"
+          ],
+          "nativeWine": "HCRMaiTai"
+        },
+        "4": {
+          "fluids": [
+            "HCRTripleSec"
+          ],
+          "nativeWine": "HCRMaiTai"
+        }
+      }
+    },
+    "Mix Whiskey Sour": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRWhiskey",
+            "HCRWhiskeyCorn",
+            "Whiskey"
+          ],
+          "nativeWine": "HCRWhiskeySour",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRLemonMixer"
+          ],
+          "nativeWine": "HCRWhiskeySour"
+        }
+      }
+    },
+    "Mix Bloody Mary": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRVodka"
+          ],
+          "nativeWine": "HCRBloodyMary",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRBloodyMaryMixer"
+          ],
+          "nativeWine": "HCRBloodyMary"
+        }
+      }
+    },
+    "Mix Daquiri": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRRum"
+          ],
+          "nativeWine": "HCRDaiquiri",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRLimeMixer"
+          ],
+          "nativeWine": "HCRDaiquiri"
+        }
+      }
+    },
+    "Mix Manhattan": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRWhiskey",
+            "HCRWhiskeyCorn",
+            "Whiskey"
+          ],
+          "nativeWine": "HCRManhattan",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRBitters"
+          ],
+          "nativeWine": "HCRManhattan"
+        },
+        "3": {
+          "fluids": [
+            "HCRVermouth"
+          ],
+          "nativeWine": "HCRManhattan"
+        }
+      }
+    },
+    "Mix Martini": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRGin"
+          ],
+          "nativeWine": "HCRMartini",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRBitters"
+          ],
+          "nativeWine": "HCRMartini"
+        },
+        "3": {
+          "fluids": [
+            "HCRVermouth"
+          ],
+          "nativeWine": "HCRMartini"
+        }
+      }
+    },
+    "Mix Old Fashioned": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "HCRWhiskey",
+            "HCRWhiskeyCorn",
+            "Whiskey"
+          ],
+          "nativeWine": "HCROldFashioned",
+          "nativeSink": true,
+          "exact": 0.1
+        },
+        "2": {
+          "fluids": [
+            "HCRBitters"
+          ],
+          "nativeWine": "HCROldFashioned"
+        }
+      }
+    },
+    "Brew Irish Coffee (Cup of Irish Coffee 3)": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "Water"
+          ],
+          "nativeWine": "HCRIrishCoffee"
+        },
+        "3": {
+          "fluids": [
+            "HCRWhiskey",
+            "HCRWhiskeyCorn",
+            "Whiskey"
+          ],
+          "nativeWine": "HCRIrishCoffee",
+          "exact": 0.1
+        }
+      }
+    },
+    "Brew Irish Coffee (Cup of Irish Coffee 2)": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "Water"
+          ],
+          "nativeWine": "HCRIrishCoffee"
+        },
+        "3": {
+          "fluids": [
+            "HCRWhiskey",
+            "HCRWhiskeyCorn",
+            "Whiskey"
+          ],
+          "nativeWine": "HCRIrishCoffee",
+          "exact": 0.1
+        }
+      }
+    },
+    "Brew Irish Coffee (Cup of Irish Coffee)": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "Water"
+          ],
+          "nativeWine": "HCRIrishCoffee"
+        },
+        "3": {
+          "fluids": [
+            "HCRWhiskey",
+            "HCRWhiskeyCorn",
+            "Whiskey"
+          ],
+          "nativeWine": "HCRIrishCoffee",
+          "exact": 0.1
+        }
+      }
+    },
+    "Brew Irish Coffee": {
+      "inputs": {
+        "1": {
+          "fluids": [
+            "Water"
+          ],
+          "nativeWine": "HCRIrishCoffee"
+        },
+        "3": {
+          "fluids": [
+            "HCRWhiskey",
+            "HCRWhiskeyCorn",
+            "Whiskey"
+          ],
+          "nativeWine": "HCRIrishCoffee",
+          "exact": 0.1
+        }
+      }
+    }
+  },
+  "emptyRecipes": [
+    "Mix Margarita",
+    "Pour Cocktail Glass of Gin",
+    "Pour Cocktail Glass of Rum",
+    "Pour Cocktail Glass of Vodka",
+    "Pour Cocktail Glass of Whiskey",
+    "Pour Cocktail Glass of Whiskey (Bottled Whiskey)",
+    "Pour Short Glass of Gin",
+    "Pour Short Glass of Rum",
+    "Pour Short Glass of Vodka",
+    "Pour Short Glass of Whiskey",
+    "Pour Short Glass of Whiskey (Bottled Whiskey)",
+    "Pour Tall Glass of Gin",
+    "Pour Tall Glass of Rum",
+    "Pour Tall Glass of Vodka",
+    "Pour Tall Glass of Whiskey",
+    "Pour Tall Glass of Whiskey (Bottled Whiskey)"
+  ]
+}

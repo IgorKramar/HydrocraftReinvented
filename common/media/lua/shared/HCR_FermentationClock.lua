@@ -2,6 +2,7 @@
 -- исходных восьми переходов берём из того же каталога, что legacy таймеры.
 require 'HCR_TimedDefinitions'
 require 'HCR_MashCatalog'
+require 'HCR_BreweryCatalog'
 HCRFermentationClock={VERSION=1}
 local F=HCRFermentationClock
 local musts={
@@ -13,7 +14,9 @@ local wines={
     ['Hydrocraft.HCBarrelmead']=true,['Hydrocraft.HCBarrelsake']=true,
 }
 local vinegar='Hydrocraft.HCBarrelvinegar'
-local mashTransitions=HCRMashCatalog.transitions
+local mashTransitions={}
+for kind,rule in pairs(HCRMashCatalog.transitions) do mashTransitions[kind]=rule end
+for kind,rule in pairs(HCRBreweryCatalog and HCRBreweryCatalog.transitions or {}) do mashTransitions[kind]=rule end
 local terminals={}
 for _,rule in pairs(mashTransitions) do terminals[rule.target]=true end
 function F.transition(kind) return mashTransitions[kind] or HCRTimedDefinitions[kind] end

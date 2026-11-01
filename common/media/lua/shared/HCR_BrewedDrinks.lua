@@ -2,6 +2,8 @@
 -- и подгорание продолжаются. Затем свойства принадлежат отмеряемой жидкости.
 require "HCR_DrinkFluids"
 require "HCR_BrewedDrinkRules"
+require "HCR_BreweryCatalog"
+for name,rule in pairs(HCRBreweryCatalog and HCRBreweryCatalog.rules or {}) do HCRBrewedDrinkRules[name]=rule end
 HCRBrewedDrinks={rules=HCRBrewedDrinkRules}
 local B,Q,L,E=HCRBrewedDrinks,HCRFluidQuality,HCRFluidLedger,HCRFluidEffects
 
@@ -14,6 +16,15 @@ end
 
 function B.TestCooked(item)
     return item and item:IsFood() and (item:isCooked() or item:isBurnt()) or false
+end
+
+function B.TestCookedOrNotFood(item)
+    return item and (not item:IsFood() or B.TestCooked(item)) or false
+end
+
+local function startFermentation(rule,ledger)
+    if not rule.ferment then return ledger end
+    return HCRFermentation.start(ledger,rule.ferment,getGameTime():getWorldAgeHours())
 end
 
 function B.portion(rule,snapshot)
@@ -87,11 +98,16 @@ function B.plan(data,sources)
     elseif rule.finish then
         local source=input(data,0)
         assert(source:getFullType()==rule.source,"Wrong brewing intermediate")
-        local ledger=B.portion(rule,E.snapshot(source))
+        local ledger=startFermentation(rule,B.portion(rule,E.snapshot(source)))
         E.prepare(ledger)
         local target=assert(instanceItem(rule.target),"Missing brewed drink vessel")
         assert(Q.fluid(target) and Q.fluid(target):getCapacity()>=L.volume(ledger)-.000001,
             "Brewed drink exceeds vessel capacity")
+        if rule.ferment then
+            if not HCRFermentation.checkMixture(ledger,Q.fluid(target)) then return false end
+            local hours=HCRFermentationClock.transition(rule.ferment).hours
+            E.prepare(HCRFermentation.plan(ledger,getGameTime():getWorldAgeHours()+hours,false,HCRFermentation.snapshot))
+        end
     else
         local target=input(data,rule.vesselSlot)
         local fluid=Q.fluid(target)
@@ -122,7 +138,7 @@ function B.create(data,character)
     local ledger,target
     if rule.finish then
         local source=input(data,0)
-        ledger=B.portion(rule,HCRFoodTransfers.foodSnapshot(data,source))
+        ledger=startFermentation(rule,B.portion(rule,HCRFoodTransfers.foodSnapshot(data,source)))
         local outputs=data:getAllCreatedItems()
         assert(outputs:size()==1 and outputs:get(0):getFullType()==rule.target,"Brewed drink output mismatch")
         target=outputs:get(0)

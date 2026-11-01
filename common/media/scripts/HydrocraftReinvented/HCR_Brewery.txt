@@ -1,0 +1,66 @@
+module Hydrocraft
+{
+    item HCRWheatWortPot
+    {
+        ItemType = base:food,
+        DisplayCategory = Cooking,
+        DisplayName = Pot of Wheat Wort,
+        Icon = PotFull,
+        Weight = 2.5,
+        HungerChange = -15,
+        ThirstChange = -30,
+        Calories = 750,
+        Carbohydrates = 54,
+        Proteins = 6,
+        Lipids = 0,
+        IsCookable = true,
+        MinutesToCook = 60,
+        MinutesToBurn = 120,
+        DaysFresh = 2,
+        DaysTotallyRotten = 4,
+        ReplaceOnUse = Base.Pot,
+        Tooltip = Tooltip_HCR_WheatWort,
+    }
+    craftRecipe Prepare Wheat Wort
+    {
+        time = 100,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        timedAction = Making,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:4,
+        Tooltip = Tooltip_HCR_WheatWort,
+        inputs
+        {
+            item 1 [Base.Pot] mode:destroy flags[ItemCount;ItemIsFluid;IsEmpty],
+            item 1 [*] mode:keep flags[ItemIsFluid;HandcraftOnly],
+            -fluid 1.5 [Water] mode:primary,
+            item 30 [Hydrocraft.HCWheat],
+            item 1 [Hydrocraft.HCHops],
+        }
+        outputs
+        {
+            item 1 Hydrocraft.HCRWheatWortPot,
+        }
+    }
+    craftRecipe Start Wheat Beer Fermentation
+    {
+        time = 20,
+        category = Cooking,
+        Tags = AnySurfaceCraft,
+        SkillRequired = Cooking:3,
+        xpAward = Cooking:4,
+        OnTest = HCRBrewedDrinks.TestCookedOrNotFood,
+        OnCreate = HCRBrewedDrinks.create,
+        Tooltip = Tooltip_HCR_WheatBeer,
+        inputs
+        {
+            item 1 [Hydrocraft.HCRWheatWortPot] mode:destroy flags[ItemCount;AllowRottenItem;AllowFavorite;InheritFavorite],
+            item 1 [Base.Yeast],
+        }
+        outputs
+        {
+            item 1 Base.Pot,
+        }
+    }
+}

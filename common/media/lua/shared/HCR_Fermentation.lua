@@ -18,6 +18,7 @@ B.stages={
 }
 B.casks={['Hydrocraft.HCWoodenbarrelFluid']=true}
 for kind,stage in pairs(HCRMashCatalog.stages) do B.stages[kind]=stage end
+for kind,stage in pairs(HCRBreweryCatalog and HCRBreweryCatalog.stages or {}) do B.stages[kind]=stage end
 
 function B.active(ledger)
     for _,lot in ipairs(ledger.lots) do if lot.fermentation then return true end end
@@ -67,6 +68,7 @@ function B.plan(ledger,now,inBarrel,snapshot)
                 food.poisonPower=(lot.food.poisonPower or 0)/lot.basisLitres
                 food.poisonDetectionLevel=lot.food.poisonDetectionLevel or -1
                 food.tainted=lot.food.tainted or false
+                if stage.preserveBurnt then food.burnt=lot.food.burnt or false end
                 lot.units=lot.units*lot.basisLitres
                 lot.basisLitres=1
                 lot.food=food;lot.age=food.age or 0;lot.lastHour=now
@@ -165,6 +167,17 @@ function B.snapshot(kind,quality)
     require 'HCR_WineQuality'
     local stage=assert(B.stages[kind],'Missing fermentation stage')
     local W,E=HCRWineQuality,HCRFluidEffects
+    if stage.nativeFluid then
+        -- Новое пиво получает профиль B42 на один литр. B.plan масштабирует
+        -- его по реальному объёму каждой партии, сохраняя дозы и худшую свежесть.
+        local item=assert(instanceItem('Base.Pot'),'Missing beer sample vessel')
+        local fluid=assert(HCRFluidQuality.fluid(item),'Missing beer sample fluid')
+        fluid:Empty();fluid:addFluid(stage.nativeFluid,1)
+        local food=W.snapshot(fluid,{quality='fresh',dose=0},1)
+        food.offAge=stage.freshDays;food.offAgeMax=stage.rottenDays
+        food.age=quality=='rotten' and stage.rottenDays or quality=='stale' and stage.freshDays or 0
+        return food
+    end
     if stage.target or stage.sourceFood then
         local fluid=stage.target and HCRFluidQuality.fluid(instanceItem(stage.target)) or nil
         return W.bottledSnapshot({sourceFood=stage.sourceFood,count=1},fluid,{quality=quality,dose=0})

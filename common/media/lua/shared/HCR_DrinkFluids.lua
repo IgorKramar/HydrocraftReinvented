@@ -34,6 +34,7 @@ HCRDrinkFluids = {
     Sake = "HCRSake",
     Vinegar = "HCRVinegar",
     Beer = "HCRBeer",
+    BeerWort = "HCRBeerWort",
     Coffee = "HCRCoffee",
     CoffeeSweet = "HCRCoffeeSweet",
     CoffeeMilk = "HCRCoffeeMilk",

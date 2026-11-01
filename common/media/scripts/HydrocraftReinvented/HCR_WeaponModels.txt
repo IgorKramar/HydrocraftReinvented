@@ -132,7 +132,7 @@ module Hydrocraft
 
     model HCWardog
     {
-        mesh = weapons/HCWardog,
+        mesh = weapons/1handed/Drumstick,
         texture = weapons/1handed/Drumstick,
     }
 }

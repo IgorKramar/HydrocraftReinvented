@@ -1,5 +1,15 @@
 # Передача разработки 1.6.0 — 1 ноября 2026
 
+> Историческая передача с первого ПК. Продолжение выполнено на втором ПК:
+> пивоварение SP/MP, холодный метанол, выгрузка участка и миграция настоящего
+> сохранения 1.5.12 проверены. Актуальное состояние и установка — в
+> [RELEASE_1.6.0.md](RELEASE_1.6.0.md), новые результаты — в конце
+> [журнала](FLUIDS_1_6_STATUS.md). Указания «осталось» ниже относятся к моменту передачи.
+
+> Historical first-PC handoff. Brewing, methanol cold MP, chunk reload and an
+> actual 1.5.12 saved-world upgrade have since been checked on the second PC.
+> See the release guide and the latest journal entries for the current state.
+
 **English:** Development handoff, verified work, outstanding release gates and
 Windows setup. Version 1.6.0 is not released. The brewery is a separate work in
 progress; its unit tests pass, but native game validation is still outstanding.

@@ -1280,3 +1280,45 @@ methanol160-mp-{server,owner,observer}-pass.log. Read-only review: P1/P2 нет.
 native input and preserved remainder. Found legacy casks remain usable without
 duplicate outputs. SP and the eight-phase two-client/server workflow pass;
 the methanol multiplayer cold restart remains an explicit handoff task.
+
+## Продолжение на втором ПК — 1 ноября 2026
+
+Ветка `codex/release-1.6.0` от GitHub brewery snapshot `16196f9`.
+Universal-modder подтвердил установленный Steam Project Zomboid 42.21.0;
+частная лаборатория находится в `C:\HCRLab`, пользовательские сохранения
+не изменяются. ASCII worktree нужен для Lua 5.1 require через Lupa на Windows.
+Начальный прогон: 374 unit PASS; parse 5384 items / 3647 recipes / RU 100%.
+
+Новый `tools/lab_brewery.lua`: настоящие Prepare Wheat Wort (manual/auto),
+отказ для сырого, 18 комбинаций остатка и свежести, ровно одна native порция
+дрожжей и одна кастрюля. Нагрев в игровом ItemContainer при штатных 60/120
+минутах (без изменения cookingTime/world time): приготовление и подгорание
+PASS, холодный контроль остался сырым. Разновозрастные партии, native
+переливание, точная доза/объём, 168h и запрет брендовых шестипаков PASS.
+Хмель: native createSpecificIcon и ISForageAction.complete с реальной выдачей
+предметов, skill/season filters PASS (это не статистический тест распределения).
+22 образца сохранены для холодной проверки; она пока не завершена.
+Proof: private `C:\HCRLab\brewery-sp-pass.log`.
+
+На первом старте нового профиля игра сбрасывает default.txt: после создания
+version.txt моды включены повторно и выполнен новый запуск. Подготовлены
+loopback server + HCRLabOwner + HCRLabObserver, отдельные credentials.
+Один owner и один observer процесс завершились с native GLFW access violation
+в Display.processMessages до испытаний. Исходные crash logs сохранены;
+параметры GC приведены к bundled Windows launcher (ZGC), проверка продолжается.
+Production Lua не hot-reload; лабораторный bridge и fixtures не входят в common.
+
+## Завершение проверок 1.6.0 — 1 ноября 2026
+
+На втором ПК закрыты все игровые пункты handoff: SP-пивоварение (22 cold
+образца), MP-пивоварение (9 фаз), брага/метанол (8 фаз), выгрузка участка и
+полный перезапуск сервера с обоими клиентами. Общая MP-интеграция: 11 фаз.
+Настоящий мир 1.5.12: 377 legacy типов перенесены, затем 377 cold-проверок
+подтвердили новые ID и отсутствие повторной миграции. 374 unit PASS.
+Исправлен manifest pack=hcBuilding2x; cold native texture lookup PASS.
+Версия и русско-английская документация приведены к 1.6.0. Подробности,
+ограничения и имена локальных доказательств: docs/FLUIDS_1_6_STATUS.md.
+Проверка пакета дополнительно выявила пять точных копий ванильных mesh:
+заменены ссылками на установленную игру. 741 model reference без пропусков;
+повторно 374 unit PASS, новый игровой процесс с native model requests и
+экипированным Alice pack PASS. Оба mod.info синхронизированы.

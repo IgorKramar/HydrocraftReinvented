@@ -11,7 +11,7 @@
 ![Project Zomboid](https://img.shields.io/badge/Project_Zomboid-Build_42-e0af68?style=flat-square)
 ![Lua](https://img.shields.io/badge/Lua-5.1-7aa2f7?style=flat-square)
 ![Crafting](https://img.shields.io/badge/crafting-craftRecipe-bb9af7?style=flat-square)
-[![Release](https://img.shields.io/badge/release-1.5.12-9ece6a?style=flat-square)](docs/RELEASE_1.5.12.md)
+[![Release](https://img.shields.io/badge/release-1.6.0-9ece6a?style=flat-square)](docs/RELEASE_1.6.0.md)
 [![Workshop](https://img.shields.io/badge/Steam-Workshop-7aa2f7?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332)
 
 [Установка](#install-ru) · [Ограничения](#limits-ru) · [Документация](#docs-ru) · [Install](#install-en) · [Limits](#limits-en) · [Docs](#docs-en)
@@ -23,18 +23,18 @@
 <a id="russian"></a>
 ## Русский
 
-**Порт классического мега-мода Hydrocraft (B41) на Project Zomboid Build 42.20+.**
+**Порт классического мега-мода Hydrocraft (B41) на Project Zomboid Build 42.21.0.**
 Пчеловодство, ткачество, электроника, химия, шахты, сотни блюд и производственные цепочки — вокруг нативных систем B42.
 
 Оригинал: **Hydromancerx**; поддержка B41: [Hydrocraft Continued team](https://github.com/brosseaualex/Hydrocraft). Порт на B42: **hombrehumor**.
 
-Текущая версия — **1.5.12**, проверена на **42.21.0**. Контрольные игровые проверки пройдены; подтверждённые результаты и оставшиеся проверки — в [отчёте доводки](docs/PLAYABILITY_VERIFICATION.md). Отчёт датирован 14 октября 2026 года.
+**1.6.0 «Живая вода»** переносит воду, соки, молочные напитки и алкоголь на
+native FluidContainer. Переливание сохраняет реальные остатки, свежесть,
+питание и яд; партии бродят независимо. Добавлены пшеничное пиво и сезонный
+хмель, сохранена миграция старых запасов. Проверено на **42.21.0** в SP и на
+сервере с двумя клиентами, включая полный перезапуск.
 
-На ветке `codex/fluids-1.6.0` начата разработка 1.6.0 «Живая вода»;
-[состояние и границы проверок](docs/FLUIDS_1_6_STATUS.md). Это отдельная рабочая
-версия, опубликованный релиз остаётся 1.5.12.
-
-[Мастерская Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) · [ZZZ Industrial Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259) · [Выпуск 1.5.12](docs/RELEASE_1.5.12.md)
+[Мастерская Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) · [ZZZ Industrial Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259) · [Выпуск и обновление 1.6.0](docs/RELEASE_1.6.0.md) · [Журнал проверок](docs/FLUIDS_1_6_STATUS.md)
 
 ### Философия порта: «дополнить, не задублировать»
 
@@ -58,11 +58,11 @@ Build 42 сам добавил многое из того, что Hydrocraft д�
 
 ### Что внутри
 
-- **5 206 предметов** — животные и собаки, MRE-пайки, электроника, шахты,
+- **5 384 предмета** — животные и собаки, MRE-пайки, электроника, шахты,
   пасека, ткачество, химия, сотни блюд и напитков
-- **3 636 рецептов** (99 % переносимого объёма B41) — полная
+- **3 647 рецептов** — полная
   конвертация в систему `craftRecipe` B42
-- **121 схема починки**, 271 модель, 5 695 текстур, 38 звуков, tiledef 591
+- **121 схема починки**, 271 модель, 5 696 текстур, 38 звуков, tiledef 591
 - **Полная русская локализация**: 100 % предметов, 100 % рецептов,
   все 32 категории крафта; базовые переводы ещё на 9 языков (48 000+ ключей)
 
@@ -88,7 +88,9 @@ Industrial Revolution и Factory Pieces. Текущая доводка пров�
 <a id="install-ru"></a>
 ### Установка
 
-Требуется **Project Zomboid Build 42.20+**. Проверки выпуска 1.5.12 проведены на **42.21.0**, а не на всех последующих версиях игры.
+Требуется **Project Zomboid 42.21.0**. Перед обновлением сохраните резервную
+копию мира и прочитайте [инструкцию перехода на 1.6.0](docs/RELEASE_1.6.0.md#обновление).
+Более новые версии игры и все сочетания модов этими проверками не покрыты.
 
 **Через Steam Workshop:** подпишитесь на [Hydrocraft Reinvented](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332), дождитесь загрузки и включите мод в игре.
 
@@ -145,16 +147,18 @@ HydrocraftReinvented/
 <a id="english"></a>
 ## English
 
-**A port of the classic Hydrocraft mega-mod from B41 to Project Zomboid Build 42.20+.**
+**A port of the classic Hydrocraft mega-mod from B41 to Project Zomboid Build 42.21.0.**
 Beekeeping, weaving, electronics, chemistry, mines, hundreds of meals and production chains built around B42's native systems.
 
 Original mod by **Hydromancerx**; B41 maintenance by the [Hydrocraft Continued team](https://github.com/brosseaualex/Hydrocraft); B42 port by **hombrehumor**.
 
-[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) · [ZZZ Industrial Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259) · [Release 1.5.12](docs/RELEASE_1.5.12.md)
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332) · [ZZZ Industrial Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3778214259) · [Release and update guide 1.6.0](docs/RELEASE_1.6.0.md) · [Verification journal](docs/FLUIDS_1_6_STATUS.md)
 
-The current version is **1.5.12**, tested on **42.21.0**. Targeted in-game
-checks have passed; confirmed results and outstanding checks are recorded in
-the [playability report](docs/PLAYABILITY_VERIFICATION.md). The report is dated October 14, 2026.
+**1.6.0 — The Fluids Update** moves water, juices, dairy drinks and alcohol to
+native FluidContainers. Pouring preserves measured remainders, freshness,
+nutrition and poison; batches ferment independently. Wheat brewing and seasonal
+hops join the existing chains, with migration for old stock. Tested on **42.21.0**
+in SP and with a real server and two clients, including full cold restart.
 
 ### Port philosophy: complement, don't duplicate
 
@@ -178,11 +182,11 @@ referenced by the rest of the content were rescued.
 
 ### What's inside
 
-- **5,206 items** — animals and dogs, MRE rations, electronics, mines,
+- **5,384 items** — animals and dogs, MRE rations, electronics, mines,
   beekeeping, weaving, chemistry, hundreds of dishes and drinks
-- **3,636 recipes** (99% of portable B41 content) — fully
+- **3,647 recipes** — fully
   converted to the B42 `craftRecipe` system
-- **121 fixing schemes**, 271 models, 5,695 textures, 38 sounds, tiledef 591
+- **121 fixing schemes**, 271 models, 5,696 textures, 38 sounds, tiledef 591
 - **Full Russian localization**: 100% of items, 100% of recipes, all 32 craft
   categories; base translations for 9 more languages (48,000+ keys)
 
@@ -208,7 +212,9 @@ ZZZ pack is still required. No mandatory dependencies.
 <a id="install-en"></a>
 ### Installation
 
-Requires **Project Zomboid Build 42.20+**. Release 1.5.12 was tested on **42.21.0**, not every later game version.
+Requires **Project Zomboid 42.21.0**. Back up your world and read the
+[1.6.0 update guide](docs/RELEASE_1.6.0.md#updating) first. Later game versions
+and every combination of other mods are not covered by these tests.
 
 **Steam Workshop:** subscribe to [Hydrocraft Reinvented](https://steamcommunity.com/sharedfiles/filedetails/?id=3778201332), wait for the download and enable the mod in game.
 

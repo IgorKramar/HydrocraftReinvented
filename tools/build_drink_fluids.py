@@ -38,6 +38,7 @@ FLAVOURS = [
     ('Sake', 'White', 'Sake', 'Саке'),
     ('Vinegar', 'Khaki', 'Vinegar', 'Уксус'),
     ('Beer', 'Khaki', 'Beer', 'Пиво'),
+    ('BeerWort', 'Khaki', 'Wheat Wort (Fermenting)', 'Пшеничное сусло (бродит)'),
     ('Coffee', 'Sienna', 'Coffee', 'Кофе'),
     ('CoffeeSweet', 'Sienna', 'Coffee with sugar', 'Кофе с сахаром'),
     ('CoffeeMilk', 'Sienna', 'Coffee with milk', 'Кофе с молоком'),

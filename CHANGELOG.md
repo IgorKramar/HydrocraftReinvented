@@ -6,18 +6,25 @@
 
 ## Русский
 
-### В разработке — 1.6.0 «Живая вода»
+### v1.6.0 — 2026-11-01 — «Живая вода»
 
-- Первая native FluidContainer группа: кожаная фляга 1.4л, крафт пустого предмета,
-  вода/неочищенная вода, старые ID сохранены для безопасного чтения сейвов.
-- Перенос старых запасов в SP сохраняет14 порций полной фляги, частичный
-  остаток, состояние и ссылки в руках. Неизвестная чистота переносится как
-  неочищенная вода по выбору пользователя; готовая смесь сохраняется точно.
-- Перенос фляг в MP проверен на локальном сервере и настоящем клиенте:
-  содержимое лежащего предмета передаётся полностью, экипированная фляга
-  переносится после снятия с рук. Дождь проверен в SP с контрольными ёмкостями.
-  Личное имя архивируется, но native UI его не показывает.
-- [Матрица переноса](docs/FLUIDS_1_6_STATUS.md) описывает оставшиеся группы.
+- Вода, соки, молочные напитки и алкоголь переведены на native FluidContainer
+  B42 с сохранением объёма, питания, свежести, дозы яда и загрязнения.
+- Старые запасы переносятся с реальным остатком; неизвестная чистота воды
+  становится неочищенной. Личные надписи на сосудах сохраняются в подсказке.
+- Переработаны дождь, очистка, готовка, молочные продукты, консервы, брожение
+  и перегонка. При смешивании партии сохраняют независимые часы созревания.
+- Пшеничное пиво: приготовление сусла, хмель из собирательства, дрожжи и семь
+  дней брожения. Домашнее пиво нельзя упаковать в брендовый шестипак.
+- Восстановлен метанол из 1 л подходящего спиртного с сохранением остатка;
+  готовые старые лимонные бочки остаются пригодны для перегонки.
+- Исправлено имя загружаемого атласа `hcBuilding2x` в манифесте.
+  Пять дублирующих моделей заменены ссылками на те же ванильные ресурсы.
+- 374 автоматические проверки; реальные SP и сервер с двумя клиентами,
+  выгрузка участка и холодные перезапуски. Сохранение 1.5.12 с 377 типами
+  старых запасов прошло обновление и повторную загрузку без повторной миграции.
+- Проверено на 42.21.0: 5 384 предмета, 3 647 рецептов, русские названия 100%.
+  [Установка, изменения и границы проверок](docs/RELEASE_1.6.0.md).
 
 ### v1.5.12 — 2026-10-14 — доводка играбельности на 42.21.0
 
@@ -275,18 +282,25 @@
 
 ## English
 
-### Unreleased — 1.6.0 The Fluids Update
+### v1.6.0 — 2026-11-01 — The Fluids Update
 
-- First native FluidContainer family: an empty crafted leather waterflask with
-  1.4L capacity, retaining old IDs for save compatibility.
-- Single-player stock migration preserves integer legacy charges, state and held
-  references. Unknown old water is transferred as unpurified water; existing
-  supported fluid mixtures retain their exact amounts.
-- Flask migration passed a real client/local server check: dropped contents are
-  fully replicated, while equipped stock waits until unequipped. Native rainfall
-  passed an SP check with indoor and disabled-catcher controls. Custom names are
-  archived but hidden by native UI.
-- See the [migration status](docs/FLUIDS_1_6_STATUS.md) for the remaining scope.
+- Water, juices, dairy drinks and alcohol use native B42 FluidContainers,
+  preserving volume, nutrition, freshness, exact poison dose and contamination.
+- Legacy stock retains its measured remainder. Unknown water purity becomes
+  tainted water; personal vessel labels survive and appear in tooltips.
+- Reworked rain, purification, cooking, dairy, preserves, fermentation and
+  distillation. Mixed batches retain independent maturation clocks.
+- Wheat beer adds cooked wort, forageable hops, yeast and seven-day fermentation.
+  Homebrew cannot be repackaged as branded retail beer.
+- Restored methanol production consumes one litre of supported spirits and
+  preserves the remainder; ready legacy lemon casks remain distillable.
+- Corrected the manifest's texture pack name to load the existing `hcBuilding2x`.
+  Five duplicate meshes now reference the identical installed vanilla resources.
+- 374 automated checks plus native SP, server/two-client, chunk unload and cold
+  restart checks. A real 1.5.12 save containing 377 legacy stock types passes
+  upgrade and a second cold load without repeating migration.
+- Tested on 42.21.0: 5,384 items, 3,647 recipes, complete Russian item/recipe names.
+  [Installation, release details and verification limits](docs/RELEASE_1.6.0.md).
 
 ### v1.5.12 — 2026-10-14 — Build 42.21.0 playability update
 

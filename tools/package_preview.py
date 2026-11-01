@@ -27,7 +27,7 @@ if not version_match:
     parser.error('mod.info must declare a safe modversion')
 version = version_match.group(1)
 (package / "42/mod.info").write_text(metadata, encoding="utf-8")
-for name in ["README.md", "CHANGELOG.md", "ROADMAP.md", "CONTRIBUTING.md"]:
+for name in ["README.md", "CHANGELOG.md", "ROADMAP.md", "CONTRIBUTING.md", "MODLOG.md"]:
     shutil.copy2(ROOT / name, package / name)
 for name in ["ASSET_PROVENANCE.json", "SPIKE_TRAP_PIPELINE.json",
              "WORLD_MODEL_FALLBACKS.json", "PLAYABILITY_VERIFICATION.md"]:

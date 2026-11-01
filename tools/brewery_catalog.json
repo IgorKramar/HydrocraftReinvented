@@ -1,0 +1,45 @@
+{
+  "transitions": {
+    "Hydrocraft.HCRWheatWortBatch": {
+      "target": "Hydrocraft.HCRWheatBeerBatch",
+      "hours": 168
+    }
+  },
+  "stages": {
+    "Hydrocraft.HCRWheatWortBatch": {
+      "marker": "HCRBeerWort"
+    },
+    "Hydrocraft.HCRWheatBeerBatch": {
+      "marker": "HCRBeer",
+      "nativeFluid": "Beer",
+      "freshDays": 14,
+      "rottenDays": 30,
+      "preserveBurnt": true
+    }
+  },
+  "rules": {
+    "Prepare Wheat Wort": {
+      "brew": true,
+      "waterSlot": 1,
+      "vesselSlot": 0,
+      "litres": 1.5,
+      "inputs": {
+        "1": {
+          "fluids": [
+            "Water"
+          ],
+          "pure": true
+        }
+      }
+    },
+    "Start Wheat Beer Fermentation": {
+      "finish": true,
+      "source": "Hydrocraft.HCRWheatWortPot",
+      "target": "Base.Pot",
+      "litres": 1.5,
+      "marker": "HCRBeerWort",
+      "cookable": true,
+      "ferment": "Hydrocraft.HCRWheatWortBatch"
+    }
+  }
+}

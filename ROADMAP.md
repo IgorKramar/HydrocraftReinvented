@@ -17,19 +17,20 @@
 
 ### 🗺️ План мажорных версий
 
-#### v1.6.0 — «Живая вода» / The Fluids Update
+#### v1.6.0 — «Живая вода» / The Fluids Update — реализовано
 
-Разработка начата: [состояние переноса и проверки](docs/FLUIDS_1_6_STATUS.md).
+[Выпуск, обновление и границы проверки](docs/RELEASE_1.6.0.md) ·
+[подробный журнал](docs/FLUIDS_1_6_STATUS.md).
 Аудит 1.5.12 нашёл 120 legacy предметов с CanStoreWater; соки, молочные напитки
 и химические ёмкости учитываются отдельными группами. Прежняя оценка «~1 000»
-смешивала жидкости с возвратом пищевой тары. Переносим на нативные жидкости B42:
+смешивала жидкости с возвратом пищевой тары. На нативные жидкости B42 перенесены:
 
 - **Настоящие ёмкости** (`FluidContainer`): наполнение из любого источника,
-  переливание, дождь в бочки, честные объёмы — силами движка. Класс
-  недостижимых предметов «с водой» исчезает полностью.
+  переливание, дождь в бочки и честные объёмы — силами движка.
 - **Винокурня и пивоварня на живой ферментации**: соки (122 рецепта),
-  винодельня и дистиллерия переходят с «предмет→предмет» на `-fluid`/`+fluid` —
-  брага зреет в чане, самогон капает в бутыль.
+  винодельня и дистиллерия используют `-fluid`/`+fluid`, отдельные партии
+  созревают по собственным часам. Пшеничное пиво и сезонный хмель работают
+  в SP и MP; реальные перегонки сохраняют сосуды.
 - **Молочное хозяйство**: цепочка от ванильной коровы до сыра и йогурта
   на настоящем молоке-жидкости.
 - **Панель Sandbox**: множители лута Hydrocraft, отключаемые подсистемы
@@ -123,19 +124,20 @@ and outstanding checks are recorded in the [verification report](docs/PLAYABILIT
 
 ### 🗺️ Major version plan
 
-#### v1.6.0 — The Fluids Update
+#### v1.6.0 — The Fluids Update — implemented
 
-Development has started: [migration status and verification](docs/FLUIDS_1_6_STATUS.md).
+[Release, update guide and test limits](docs/RELEASE_1.6.0.md) ·
+[verification journal](docs/FLUIDS_1_6_STATUS.md).
 The 1.5.12 audit found 120 legacy water-marked items; juices, dairy and chemical
 containers are separate families. The earlier ~1,000 estimate included food
-container returns. These families move to native B42 fluids:
+container returns. These families now use native B42 fluids:
 
 - **Real containers** (`FluidContainer`): fill from any source, pour between
-  vessels, rain into barrels, honest volumes — engine-driven. The class of
-  unobtainable "filled with water" items disappears entirely.
+  vessels, rain into barrels and honest volumes — engine-driven.
 - **Brewery and distillery on live fermentation**: juices (122 recipes),
-  winemaking and distilling move from "item→item" to `-fluid`/`+fluid` —
-  the mash matures in the vat, the moonshine drips into the jug.
+  winemaking and distilling use `-fluid`/`+fluid`; batches retain independent
+  clocks. Wheat beer and seasonal hops work in SP and MP; native distilling
+  preserves the vessels.
 - **Dairy farming**: the chain from a vanilla cow to cheese and yogurt on
   real milk fluid.
 - **Sandbox panel**: Hydrocraft loot multipliers, toggleable subsystems

@@ -1123,6 +1123,40 @@ module Hydrocraft
             }
         }
     }
+    fluid HCRBeerWort
+    {
+        ColorReference = Khaki,
+        DisplayName = Fluid_Name_HCRBeerWort,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            HungerChange = 0,
+            ThirstChange = 0,
+            UnhappyChange = 0,
+            StressChange = 0,
+            Calories = 0,
+            Carbohydrates = 0,
+            Lipids = 0,
+            Proteins = 0,
+            alcohol = 0,
+            fluReduction = 0,
+            painReduction = 0,
+            enduranceChange = 0,
+            fatigueChange = 0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
     fluid HCRCoffee
     {
         ColorReference = Sienna,
